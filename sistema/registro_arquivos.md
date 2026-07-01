@@ -57,6 +57,10 @@ cyberpunk/
 │   ├── pack_badlands.md
 │   └── facoes_geral.md
 │
+├── facoes/                        ← Informações de facções
+│   ├── faccao_template.md
+│   ├── pack_badlands.md
+│   └── facoes_geral.md
 ├── sistema/
 │   ├── como_atualizar_arquivos.md
 │   ├── dashboard_contexto.md      ← Dashboard rápido para consulta da IA
@@ -102,6 +106,8 @@ cyberpunk/
   - `consequencias_persistentes.md`
   - `relacionamentos/` (principalmente `ryan_relacionamentos.md`)
   - `dashboard_contexto.md`
+- **Resumos de Sessão**: Usar o padrão `sessao_resumo_XXX.md`. Antes de criar um novo resumo, verificar no repositório qual foi o último número utilizado.
+- **Facções**: Informações de facções estão na pasta `facoes/`. O arquivo `facoes_geral.md` é usado para facções menores ou ainda não aprofundadas.
 - **Resumos de Sessão**: Usar o padrão `sessao_resumo_XXX.md`. Antes de criar um novo resumo, verificar no repositório qual foi o último número utilizado.
 - **Facções**: Informações de facções estão na pasta `facoes/`. O arquivo `facoes_geral.md` é usado para facções menores ou ainda não aprofundadas.
 - O **Source of Truth** permanece nos arquivos locais do jogador.
