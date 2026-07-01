@@ -44,11 +44,9 @@ As consequências devem ser realistas e persistentes. O mundo continua existindo
 ## 6. Boas Práticas de Narração
 
 ### Evitar Nomes Duplicados
-
 Evite usar nomes iguais ou muito semelhantes aos de NPCs persistentes e importantes já existentes na campanha, sempre que possível. Isso ajuda a manter a clareza e evita confusão.
 
 ### Evitar Repetição Literal do Jogador
-
 Evite repetir o texto do jogador ipsis litteris (palavra por palavra). Repita apenas quando houver necessidade de correção, complementação ou melhoria na fluidez da cena. O objetivo é manter a narrativa dinâmica e natural.
 
 ## 7. Separação de Papéis (Importante)
