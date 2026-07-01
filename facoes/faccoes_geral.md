@@ -1,0 +1,40 @@
+# Facções Gerais
+
+**Finalidade:** Arquivo para registrar facções menores, grupos passageios ou informações superficiais que ainda não foram aprofundadas.
+
+**Última atualização:** 01 de Julho de 2026
+
+---
+
+## Raffen Shiv (Bando Menor)
+
+**Status com o Jogador:** Hostil (um grupo foi eliminado pelo jogador)
+
+**Resumo:**
+Grupo de Raffen Shiv de pequeno porte que foi neutralizado pelo jogador. Outro grupo maior foi avistado de passagem, mas não houve interação direta.
+
+**Notas:**
+
+- Ainda não há informações detalhadas sobre liderança ou estrutura.
+- Pode ser revisitado futuramente caso o jogador cruze novamente com eles.
+
+---
+
+## Biotechnica (BT)
+
+**Status com o Jogador:** Hostil (operação realizada contra a corporação)
+
+**Resumo:**
+A crew realizou uma operação limpa contra a Biotechnica. Ainda não há confirmação de que a corporação sabe quem foi o responsável, mas existe o risco de investigação discreta.
+
+**Notas:**
+
+- Facção de alto risco e alta relevância futura.
+- Ainda não há informações detalhadas sobre quem dentro da BT pode estar envolvido ou interessado no caso.
+- Este arquivo deve crescer conforme mais informações sobre a BT forem descobertas.
+
+---
+
+## Outras Facções / Grupos
+
+Este espaço está reservado para registrar rapidamente outros grupos ou facções que aparecerem de forma superficial durante a campanha, sem necessidade de arquivo individual no momento.

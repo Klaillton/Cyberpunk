@@ -2,7 +2,7 @@
 
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
-**Última atualização:** 01 de Julho de 2026 - 07:45
+**Última atualização:** 01 de Julho de 2026 - 19:00
 
 ---
 
@@ -95,9 +95,38 @@
 
 ---
 
+## 6. Localização e Contexto Espacial/Temporal
+
+**Finalidade:** Manter coerência de tempo e espaço entre cenas. Esta seção deve ser consultada com frequência e atualizada sempre que houver mudança relevante de local ou contexto.
+
+**Última verificação:** 01/07/2026  
+**Validade sugerida:** 3 dias (ou sempre que houver mudança de local)
+
+### Local Atual
+
+- **Local:** Acampamento do Pack Nômade de Badlands (oficina + área de acampamento)
+- **Descrição do local:** Área semi-organizada com tendas, veículos modificados, uma oficina improvisada com estrutura de usinagem e forja, e um perímetro reforçado recentemente construído por Ryan.
+- **Quantidade aproximada de pessoas:** Cerca de 25~35 pessoas (incluindo adultos, algumas crianças e adolescentes).
+- **Principais áreas conhecidas:**
+  - Oficina / Forja (onde Ryan trabalha com o Tio Gringo)
+  - Área central de acampamento (refeitório improvisado e fogueira)
+  - Perímetro / Cerca (reforçado recentemente)
+  - Garagem / Área de veículos (onde o Mule costuma ficar)
+
+### Contexto Temporal Atual
+
+- **Período do dia:** Variável (atualizar conforme a cena)
+- **Clima aproximado:** Típico das Badlands (quente durante o dia, frio à noite)
+- **Estado geral do Pack:** Em processo de fortalecimento técnico e defensivo graças à presença de Ryan.
+
+**Observação:**  
+Esta seção existe para evitar inconsistências de tempo e espaço. Sempre que uma cena importante acontecer em um local específico, atualize aqui com detalhes relevantes (número de pessoas presentes, formato do lugar, etc.). Pode ser necessário consultar esta seção várias vezes durante uma mesma sessão.
+
+---
+
 **Instruções de uso deste arquivo:**
 
 - Este arquivo deve ser consultado **no início de cada sessão ou cena importante**.
 - Sempre verificar a data de "Última verificação" e respeitar a "Validade sugerida".
-- Após grandes eventos, atualizar este arquivo com as novas informações.
+- Após grandes eventos ou mudanças de local, atualizar este arquivo com as novas informações.
 - Manter as referências de fonte atualizadas para facilitar rastreamento.

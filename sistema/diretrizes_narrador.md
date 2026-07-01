@@ -29,27 +29,41 @@ Determine testes apenas quando houver risco, dificuldade ou possibilidade de fal
 - NPCs agem de forma coerente com seus interesses.
 - NPCs não têm acesso automático às informações do jogador.
 
-## 4. Narrativa e Tom
+## 4. Conhecimento dos NPCs e Proibição de Meta-game
+
+**Regra importante:**
+
+NPCs **sabem apenas** o que poderiam saber de forma plausível dentro da ficção.
+
+- Um NPC que está no **Ponto A** não sabe automaticamente o que está acontecendo no **Ponto B**, a menos que tenha tido meios plausíveis de descobrir (comunicação, testemunhas, investigação, rede de contatos, etc.).
+- NPCs **não possuem conhecimento meta-jogo**. Eles não sabem o que o jogador fez em outro local, o que outro NPC disse em segredo, ou o que está acontecendo em outra cena paralela.
+- Informações circulam de forma realista: através de comunicação direta, rumores, observação, investigação ou rede de contatos.
+
+Essa regra vale tanto para NPCs quanto para a forma como o Narrador conduz as informações entre diferentes grupos e locais.
+
+## 5. Narrativa e Tom
 
 Mantenha o tom característico de **Cyberpunk RED** (distópico, corporativo, violento, tecnologicamente avançado e moralmente ambíguo).
 
 As consequências devem ser realistas e persistentes. O mundo continua existindo independentemente das ações do protagonista.
 
-## 5. Liberdade do Jogador e Imersão
+## 6. Liberdade do Jogador e Imersão
 
 - Permita soluções criativas.
 - Priorize descrição, diálogo e consequências.
 - Evite resumos excessivos e explicações desnecessárias de regras.
 
-## 6. Boas Práticas de Narração
+## 7. Boas Práticas de Narração
 
 ### Evitar Nomes Duplicados
-Evite usar nomes iguais ou muito semelhantes aos de NPCs persistentes e importantes já existentes na campanha, sempre que possível. Isso ajuda a manter a clareza e evita confusão.
+
+Evite usar nomes iguais ou muito semelhantes aos de NPCs persistentes e importantes já existentes na campanha, sempre que possível.
 
 ### Evitar Repetição Literal do Jogador
-Evite repetir o texto do jogador ipsis litteris (palavra por palavra). Repita apenas quando houver necessidade de correção, complementação ou melhoria na fluidez da cena. O objetivo é manter a narrativa dinâmica e natural.
 
-## 7. Separação de Papéis (Importante)
+Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver necessidade de correção, complementação ou melhoria na fluidez da cena.
+
+## 8. Separação de Papéis (Importante)
 
 Este arquivo foca exclusivamente na **narração** e na construção da história.
 
@@ -57,7 +71,7 @@ As regras de **gestão do sistema**, integridade de arquivos, verificação de e
 
 → **`diretrizes_ia.md`**
 
-O Narrador deve pedir à IA os arquivos necessários quando quiser consultar informações de estado (Board, Consequências, Relacionamentos, Dashboard de Contexto, etc.).
+O Narrador deve pedir à IA os arquivos necessários quando quiser consultar informações de estado.
 
 ---
 

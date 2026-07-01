@@ -1,11 +1,18 @@
 # Relacionamentos entre Facções
 
 **Campanha:** Cyberpunk RED  
-**Última atualização:** 25 de Junho de 2026
+**Última atualização:** 01 de Julho de 2026
 
 ---
 
 ## FACÇÕES RELEVANTES
+
+### Pack Nômade de Badlands
+
+- **Status com a Crew:** Aliado em construção
+- **Motivo:** Ryan está hospedado no Pack e tem ajudado intensamente com melhorias técnicas, defensivas e ensino.
+- **Risco atual:** Baixo
+- **Impacto na Crew:** Ryan está construindo uma relação sólida com o Pack. Mesmo que saia por um tempo, o que ele fez deve gerar repercussão permanente.
 
 ### Biotechnica (BT)
 
@@ -21,19 +28,16 @@
 - **Risco atual:** Baixo (Ryan está mantendo distância)
 - **Impacto na Crew:** Ryan evita qualquer envolvimento com Arasaka.
 
-### Outras Facções
-
-- Ainda não há interações relevantes registradas.
-
 ---
 
 ## RELAÇÕES ENTRE FACÇÕES
 
-| Facção A    | Facção B | Tipo de Relação        | Intensidade | Status       | Notas                     |
-| ----------- | -------- | ---------------------- | ----------- | ------------ | ------------------------- |
-| Biotechnica | Arasaka  | Rivalidade corporativa | Alta        | Ativa        | Competição constante      |
-| Biotechnica | Crew     | Hostilidade latente    | Média       | Investigando | Devido à operação recente |
-| Arasaka     | Crew     | Neutro                 | Baixa       | Observando   | Ryan evita contato        |
+| Facção A    | Facção B | Tipo de Relação        | Intensidade | Status       | Notas                          |
+| ----------- | -------- | ---------------------- | ----------- | ------------ | ------------------------------ |
+| Biotechnica | Arasaka  | Rivalidade corporativa | Alta        | Ativa        | Competição constante           |
+| Biotechnica | Crew     | Hostilidade latente    | Média       | Investigando | Devido à operação recente      |
+| Arasaka     | Crew     | Neutro                 | Baixa       | Observando   | Ryan evita contato             |
+| Pack Nômade | Crew     | Aliança em construção  | Média-Alta  | Positiva     | Ryan está integrado e ajudando |
 
 ---
 
@@ -41,4 +45,10 @@
 
 - A operação contra a **Biotechnica** foi limpa, mas não é impossível que eles descubram quem foi responsável no futuro.
 - Ryan carrega ranço pessoal contra a **Arasaka**, o que pode influenciar decisões caso a corporação apareça na campanha.
-- Kaz pode trazer jobs que envolvam uma das duas corporações no futuro.
+- O **Pack Nômade de Badlands** está se tornando uma relação importante. Mesmo que Ryan saia por um tempo, o que ele construiu (perímetro, ensino, Mule) deve gerar repercussão permanente.
+- Kaz pode trazer jobs que envolvam corporações no futuro.
+
+---
+
+**Observação:**  
+Este arquivo deve ser atualizado sempre que houver mudança significativa na relação entre a crew e qualquer facção relevante.
