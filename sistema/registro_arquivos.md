@@ -34,7 +34,9 @@ cyberpunk/
 │   ├── techie - ryan_wireghost_voss.jpg
 │   └── vehicle - the_mule.jpg
 ├── logs/
-│   └── downtime_ryan.md
+│   ├── downtime_ryan.md
+│   ├── sessao_resumo_template.md
+│   └── sessao_resumo_XXX.md          ← Padrão para resumos de sessão (verificar último número no repositório)
 ├── relacionamentos/               ← Arquivos de relacionamentos
 │   ├── alex_specter_kane_relacionamentos.md
 │   ├── crew_relacionamentos.md
@@ -96,6 +98,7 @@ Antes de qualquer resposta relacionada à campanha, o Narrador deve:
   - `consequencias_persistentes.md`
   - `relacionamentos/` (principalmente `ryan_relacionamentos.md`)
   - `dashboard_contexto.md`
+- **Resumos de Sessão**: Usar o padrão `sessao_resumo_XXX.md`. Antes de criar um novo resumo, verificar no repositório qual foi o último número utilizado para manter a sequência correta.
 - O **Source of Truth** permanece nos arquivos locais do jogador.
 
 **Última atualização deste registro:** 01 de Julho de 2026
