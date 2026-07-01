@@ -36,7 +36,7 @@ cyberpunk/
 ├── logs/
 │   ├── downtime_ryan.md
 │   ├── sessao_resumo_template.md
-│   └── sessao_resumo_XXX.md          ← Padrão para resumos de sessão (verificar último número no repositório)
+│   └── sessao_resumo_XXX.md          ← Padrão para resumos de sessão
 ├── relacionamentos/               ← Arquivos de relacionamentos
 │   ├── alex_specter_kane_relacionamentos.md
 │   ├── crew_relacionamentos.md
@@ -45,6 +45,10 @@ cyberpunk/
 │   ├── mapa_relacional_geral.md
 │   ├── reina_bearclaw_relacionamentos.md
 │   └── ryan_relacionamentos.md
+├── facoes/                        ← Informações de facções
+│   ├── faccao_template.md
+│   ├── pack_badlands.md
+│   └── facoes_geral.md
 ├── sistema/
 │   ├── como_atualizar_arquivos.md
 │   ├── dashboard_contexto.md      ← Dashboard rápido para consulta da IA
@@ -74,19 +78,7 @@ cyberpunk/
 
 | Arquivo                         | Status | Finalidade                                      | Última atualização |
 |---------------------------------|--------|-------------------------------------------------|--------------------|
-| `sistema/dashboard_contexto.md` | Ativo  | Resumo rápido das informações principais para a IA | 01/07/2026      |
-
-**Observação:** Este arquivo é um **auxiliar de consulta** para a IA e não substitui os arquivos principais de estado.
-
----
-
-## Regras de Consulta (Procedimento Padrão)
-
-Antes de qualquer resposta relacionada à campanha, o Narrador deve:
-
-1. Consultar o `registro_arquivos.md`.
-2. Verificar e carregar os arquivos necessários (especialmente `board_campanha.md`, `consequencias_persistentes.md` e `dashboard_contexto.md`).
-3. Seguir a regra: **"Todos os arquivos relacionados aos personagens em cena devem estar abertos"**.
+| `sistema/dashboard_contexto.md` | Ativo  | Resumo rápido das informações principais para a IA | 01/07/2026         |
 
 ---
 
@@ -98,7 +90,8 @@ Antes de qualquer resposta relacionada à campanha, o Narrador deve:
   - `consequencias_persistentes.md`
   - `relacionamentos/` (principalmente `ryan_relacionamentos.md`)
   - `dashboard_contexto.md`
-- **Resumos de Sessão**: Usar o padrão `sessao_resumo_XXX.md`. Antes de criar um novo resumo, verificar no repositório qual foi o último número utilizado para manter a sequência correta.
+- **Resumos de Sessão**: Usar o padrão `sessao_resumo_XXX.md`. Antes de criar um novo resumo, verificar no repositório qual foi o último número utilizado.
+- **Facções**: Informações de facções estão na pasta `facoes/`. O arquivo `facoes_geral.md` é usado para facções menores ou ainda não aprofundadas.
 - O **Source of Truth** permanece nos arquivos locais do jogador.
 
 **Última atualização deste registro:** 01 de Julho de 2026
