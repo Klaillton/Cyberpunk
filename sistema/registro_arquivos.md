@@ -45,9 +45,9 @@ cyberpunk/
 │   └── ryan_relacionamentos.md
 ├── sistema/
 │   ├── como_atualizar_arquivos.md
+│   ├── dashboard_contexto.md      ← Dashboard rápido para consulta da IA
 │   ├── diretrizes_narrador.md
-│   └── registro_arquivos.md          ← Este arquivo
-├── dashboard_contexto.md             ← Dashboard rápido para consulta da IA
+│   └── registro_arquivos.md       ← Este arquivo
 ├── economia.md
 ├── event_queue.md
 ├── heat.md
@@ -70,9 +70,9 @@ cyberpunk/
 
 ## Arquivo Auxiliar para Consulta Rápida
 
-| Arquivo                   | Status | Finalidade                                      | Última atualização |
-|---------------------------|--------|-------------------------------------------------|--------------------|
-| `dashboard_contexto.md`   | Ativo  | Resumo rápido das informações principais para a IA | 01/07/2026         |
+| Arquivo                         | Status | Finalidade                                      | Última atualização |
+|---------------------------------|--------|-------------------------------------------------|--------------------|
+| `sistema/dashboard_contexto.md` | Ativo  | Resumo rápido das informações principais para a IA | 01/07/2026      |
 
 **Observação:** Este arquivo é um **auxiliar de consulta** para a IA e não substitui os arquivos principais de estado.
 

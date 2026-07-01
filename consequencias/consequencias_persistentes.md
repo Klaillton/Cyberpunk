@@ -1,6 +1,6 @@
 === CONSEQUÊNCIAS PERSISTENTES ===
 
-**Última atualização:** 28 de Junho de 2026
+**Última atualização:** 01 de Julho de 2026
 
 ---
 
@@ -9,6 +9,7 @@
 A crew realizou uma operação limpa e bem-sucedida contra a Biotechnica. O trabalho foi executado com baixo perfil e sem deixar rastros óbvios.
 
 **Impactos possíveis futuros:**
+
 - A Biotechnica pode iniciar uma investigação discreta (ainda sem confirmação).
 - A reputação da crew começou a circular entre alguns fixers e edgerunners de Night City.
 - Kaz "The Broker" Takahashi está mais interessado em oferecer jobs de maior escala para o grupo.
@@ -18,6 +19,7 @@ A crew realizou uma operação limpa e bem-sucedida contra a Biotechnica. O trab
 Ryan "Wireghost" Voss está passando um período de downtime na Badlands, em uma pequena oficina com estrutura de usinagem e forja.
 
 **Impactos possíveis futuros:**
+
 - Pode desenvolver contatos locais na região (nômades, scavengers, pequenos negócios).
 - A oficina pode se tornar um ponto de interesse caso alguém descubra sua localização.
 - Projetos pessoais de construção de instrumentos eletrônicos podem gerar resultados inesperados.
@@ -27,6 +29,7 @@ Ryan "Wireghost" Voss está passando um período de downtime na Badlands, em uma
 Existia uma tensão romântica não resolvida entre Ryan "Wireghost" Voss e Lena "Valk" Kane. Ambos evitavam abordar o assunto abertamente.
 
 **Impactos possíveis futuros (na época):**
+
 - Situações de estresse ou isolamento poderiam fazer a tensão voltar à tona.
 - Terceiros (como Alex "Specter" Kane) poderiam notar e comentar.
 
@@ -35,6 +38,7 @@ Existia uma tensão romântica não resolvida entre Ryan "Wireghost" Voss e Lena
 Alex "Specter" Kane demonstrou interesse romântico em Lena "Valk" Kane no passado e estava se aproximando novamente da crew.
 
 **Impactos possíveis futuros:**
+
 - Poderia gerar ciúmes ou desconforto em Ryan.
 - Poderia criar dinâmica triangular dependendo das atitudes dos envolvidos.
 
@@ -43,49 +47,65 @@ Alex "Specter" Kane demonstrou interesse romântico em Lena "Valk" Kane no passa
 ## Evolução Recente no Pack de Badlands (Junho 2026)
 
 ### Projetos do Mule
+
 O **Mule** foi completamente atualizado e testado (configuração 8x8, turbo Vanisher, limpa-trilhos, canhão MIAC-5 oculto). O presente foi entregue a Valk.
 
 **Impactos possíveis futuros:**
+
 - Aumento significativo da capacidade defensiva e mobilidade do Pack.
 - Valk reagiu positivamente ao presente.
 
 ### Ensino e Legado no Pack
-Ryan intensificou o ensino de precisão, fabricação e responsabilidade (incluindo armas) para membros do Pack.
+
+Ryan intensificou o ensino de precisão, fabricação e responsabilidade para membros do Pack. Ele está ativamente **ensinando novas pessoas** seu conhecimento técnico e de serviço, incluindo o uso de armas. Além disso, tem ajudado diretamente o **Tio Gringo** (ferreiro mais velho do Pack).
 
 **Impactos possíveis futuros:**
+
 - Maior autonomia técnica do Pack.
+- Fortalecimento da relação de Ryan com o Pack, especialmente com membros mais antigos como o Tio Gringo.
 - Possível expansão de projetos (estufa modular, refinaria móvel).
 
 ### Revelação das Múltiplas Facetas de Ryan
+
 O Pack testemunhou diferentes lados de Ryan (Mecânico habilidoso, Cantor, e Operador frio e letal durante uma incursão noturna).
 
 **Impactos:**
+
 - Aumento de respeito + certo medo/respeito no Pack.
 - Ryan demonstrou competência fria e letal (neutralizou 16 hostis em incursão noturna).
 
 ### Fortificação do Pack
+
 Ryan participou da construção e teste de cerca/perímetro de segurança.
 
 **Impactos:**
+
 - Segurança do Pack aumentada significativamente.
 
 ### Relação Ryan × Valk (Evolução)
+
 A relação romântica entre Ryan e Valk se consolidou e aprofundou. Atualmente é uma relação profunda, comprometida e com rotina carinhosa diária. Ryan demonstrou vulnerabilidade e houve declaração de amor mútuo.
 
 **Estado atual:**
+
 - Relação consolidada e intensa.
 - Ryan precisa equilibrar o lado "operador frio" com a vida no Pack.
 
 ### Trabalho na Forja e Reputação Técnica
-Ryan realizou trabalho significativo na forja do Pack.
+
+Ryan realizou trabalho significativo na forja do Pack, especialmente auxiliando o Tio Gringo.
 
 **Impactos:**
+
 - Reputação técnica positiva com o Pack.
+- Fortalecimento da relação com membros mais antigos.
 
 ### Ryan confrontou o time
+
 Ryan confrontou diretamente alguns membros da crew/time em determinado momento.
 
 **Impactos:**
+
 - Aumento de respeito, mas gerou tensão temporária.
 
 ---
@@ -104,4 +124,4 @@ Ryan confrontou diretamente alguns membros da crew/time em determinado momento.
 - Sempre que uma ação dos jogadores puder gerar consequências de longo prazo (reputação, inimigos, aliados, dívidas, favores, etc.), registre aqui.
 - Consulte este arquivo regularmente antes de narrar, especialmente quando os jogadores estiverem em locais ou situações relacionados a eventos passados.
 
-**Última atualização:** 28 de Junho de 2026
+**Última atualização:** 01 de Julho de 2026
