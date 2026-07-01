@@ -66,6 +66,7 @@ Antes de fornecer qualquer informação ou prosseguir com a narração, a IA dev
 **Se o arquivo estiver listado no `registro_arquivos.md`, mas não for encontrado** (nem no ambiente nem no repositório):
 
 **Ação obrigatória:**
+
 - Interromper imediatamente qualquer tentativa de narração.
 - Informar claramente ao Narrador qual arquivo está faltando.
 - Explicar por que ele é necessário para a continuidade.
@@ -75,6 +76,7 @@ Antes de fornecer qualquer informação ou prosseguir com a narração, a IA dev
   - Adiar a cena até o arquivo estar disponível.
 
 **Frase sugerida:**
+
 > “O arquivo `[nome do arquivo]` está listado no registro, mas não foi encontrado nem no ambiente nem no repositório. Deseja que eu crie uma versão básica agora, ou prefere prosseguir sem ele por enquanto?”
 
 ### 3.2 Validação de Consistência
@@ -153,6 +155,28 @@ Antes de fornecer qualquer informação, confirme internamente:
 
 Se essa condição não for verdadeira:
 → Interrompa e solicite sincronização do jogador.
+
+---
+
+## 8. Manutenção de Estado e Refresh Periódico
+
+Para evitar degradação de consistência ao longo do tempo, a IA deve realizar um **refresh de estado** nas seguintes situações:
+
+### Refresh Obrigatório:
+
+- **No início de cada nova interação** (novo chat ou reinício de contexto)
+- **A cada 4 horas** de conversa contínua (considerando o horário da plataforma)
+- **Após qualquer atualização importante** feita pelo jogador (novos arquivos, mudanças em relacionamentos, eventos relevantes, etc.)
+
+### O que deve ser feito no Refresh:
+
+1. Acessar o repositório GitHub.
+2. Consultar o `sistema/registro_arquivos.md` como índice principal.
+3. Verificar se o `dashboard_contexto.md` precisa ser atualizado.
+4. Confirmar se os arquivos locais da sandbox estão alinhados com o repositório.
+5. Caso haja divergência, informar o Narrador e solicitar sincronização.
+
+**Objetivo:** Garantir que o estado da campanha esteja sempre fresco e consistente, mesmo em sessões longas.
 
 ---
 
