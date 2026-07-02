@@ -117,6 +117,20 @@ Ryan confrontou diretamente alguns membros da crew/time em determinado momento.
 
 ---
 
+## 02 de Julho de 2026 - Integração dos Novos Recrutas
+
+Mara, Elias e Tomas foram oficialmente integrados ao pack. Tendas modulares concluídas com sucesso. Ryan e Valk ajudaram na ambientação durante o jantar.
+
+**Impactos:**
+
+- Fortalecimento gradual da mão de obra técnica do pack.
+- Observação inicial: bom potencial, mas ainda em avaliação.
+- Conversa estratégica com Reyes sobre crescimento controlado.
+
+**Última atualização:** 02 de Julho de 2026
+
+---
+
 **Regras de uso deste arquivo:**
 
 - Adicione apenas eventos que **já aconteceram**.

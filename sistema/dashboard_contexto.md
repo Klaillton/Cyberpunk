@@ -15,11 +15,10 @@
 **Resumo:**
 
 - Ryan e Valk estão hospedados no Pack Nômade de Badlands.
-- Ryan está ativamente **ensinando novas pessoas** do Pack seu conhecimento técnico e de precisão.
-- Está ajudando diretamente o **Tio Gringo** (ferreiro mais velho do Pack).
-- Já construiu uma boa relação com a maioria dos membros do Pack.
-- Reputação com o Pack: **+65 (Muito Positiva)** — visto como protetor e professor.
-- Líder do Pack: Reyes.
+- Tendas modulares finalizadas.
+- Ryan está ativamente ensinando e integrando **Mara, Elias e Tomas**.
+- Reputação com o Pack: **+65 (Muito Positiva)**.
+- Observação inicial dos novos durante jantar: integração positiva.
 
 **Observações importantes:**
 

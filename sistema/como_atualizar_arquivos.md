@@ -81,23 +81,58 @@ Peça:
 
 ## Estrutura de Pastas (Referência Rápida)
 
-Cyberpunk
-├── sistema
-│ ├── diretrizes_narrador.md
-│ ├── como_atualizar_arquivos.md ← Este arquivo
-│ └── ...
-├── board
-│ └── board_campanha.md
-├── consequencias
-│ └── consequencias_persistentes.md
-├── relacionamentos
-│ ├── ryan_relacionamentos.md
-│ ├── crew_relacionamentos.md
-│ └── faccao_relacionamentos.md
-├── logs
-│ └── downtime_ryan.md
-├── fichas
-└── imagens\
+cyberpunk/
+├── base/                          ← PDFs de referência
+│   ├── cyberpunk red.pdf
+│   └── night city 2045 atlas full.pdf
+├── board/                         ← Board oficial da campanha
+│   └── board_campanha.md
+├── consequencias/
+│   └── consequencias_persistentes.md
+├── fichas/                        ← Fichas dos personagens em Markdown
+│   ├── fixer - kaz_the_broker_takahashi.md
+│   ├── medtech - doc_stephania_voss.md
+│   ├── netrunner - alex_specter_kane.md
+│   ├── nomad - lena_valk_kane.md
+│   ├── solo - jax_razor_kane.md
+│   ├── solo - reina_bearclaw_morales.md
+│   ├── techie - ryan_wireghost_voss.md
+│   └── vehicle - the_mule.md
+├── imagens/                       ← Imagens de referência
+│   ├── fixer - kaz_the_broker_takahashi.jpg
+│   ├── medtech - doc_stephania_voss.jpg
+│   ├── netrunner - alex_specter_kane.jpg
+│   ├── nomad - lena_valk_kane.jpg
+│   ├── solo - jax_razor_kane.jpg
+│   ├── solo - reina_bearclaw_morales.jpg
+│   ├── techie - ryan_wireghost_voss.jpg
+│   └── vehicle - the_mule.jpg
+├── logs/
+│   ├── downtime_ryan.md
+│   ├── sessao_resumo_template.md
+│   └── sessao_resumo_XXX.md          ← Padrão para resumos de sessão
+├── relacionamentos/               ← Arquivos de relacionamentos
+│   ├── alex_specter_kane_relacionamentos.md
+│   ├── crew_relacionamentos.md
+│   ├── faccao_relacionamentos.md
+│   ├── lena_valk_kane_relacionamentos.md
+│   ├── mapa_relacional_geral.md
+│   ├── reina_bearclaw_relacionamentos.md
+│   └── ryan_relacionamentos.md
+├── facoes/                        ← Informações de facções
+│   ├── faccao_template.md
+│   ├── pack_badlands.md
+│   └── facoes_geral.md
+├── sistema/
+│   ├── como_atualizar_arquivos.md
+│   ├── dashboard_contexto.md      ← Dashboard rápido para consulta da IA
+│   ├── diretrizes_narrador.md
+│   └── registro_arquivos.md       ← Este arquivo
+├── economia.md
+├── event_queue.md
+├── heat.md
+├── reputacao.md
+└── README.md
 
 ---
 
