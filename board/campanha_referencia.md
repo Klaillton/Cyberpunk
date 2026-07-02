@@ -59,3 +59,12 @@ _(Ver arquivo completo em consequencias_persistentes.md)_
 - Situação atual: 23 de junho de 2026 (fim de tarde).
 
 === FIM DO BOARD ===
+
+> **Nota:** Snapshot histórico de 23/06/2026. Para o estado atual da campanha, consulte [board_campanha.md](board_campanha.md).
+
+---
+
+## Referências
+
+- **Estado atual:** [board_campanha.md](board_campanha.md) · [dashboard_contexto.md](../sistema/dashboard_contexto.md)
+- [Consequências](../consequencias/consequencias_persistentes.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md)

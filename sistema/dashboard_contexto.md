@@ -129,3 +129,12 @@ Esta seção existe para evitar inconsistências de tempo e espaço. Sempre que 
 - Sempre verificar a data de "Última verificação" e respeitar a "Validade sugerida".
 - Após grandes eventos ou mudanças de local, atualizar este arquivo com as novas informações.
 - Manter as referências de fonte atualizadas para facilitar rastreamento.
+
+---
+
+## Referências
+
+- [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md)
+- [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md)
+- [Registro de Arquivos](registro_arquivos.md) · [Diretrizes IA](diretrizes_ia.md)

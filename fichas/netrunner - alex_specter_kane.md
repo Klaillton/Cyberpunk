@@ -101,3 +101,10 @@ Recentemente, ao ouvir que Valk estava trabalhando novamente (e fazendo jobs com
 - Leal ao crew, mas guarda segredos (especialmente os dela).
 - No NET: fria, calculista e implacável. Fora dele: sorridente, flertadora e sempre com uma piada pronta.
 - Tem um fraquinho por pessoas "difíceis de ler" — como Valk.
+
+---
+
+## Referências
+
+- [Relacionamentos Alex](../relacionamentos/alex_specter_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)

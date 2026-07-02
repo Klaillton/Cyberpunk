@@ -79,60 +79,24 @@ Peça:
 
 ---
 
+## Arquivos a Atualizar por Tipo de Evento
+
+| O que aconteceu na sessão | Arquivos a atualizar |
+| ------------------------- | -------------------- |
+| Mudança de missão, local ou NPCs ativos | `board/board_campanha.md`, `sistema/dashboard_contexto.md` |
+| Novo impacto permanente | `consequencias/consequencias_persistentes.md` |
+| Interação com NPC | `relacionamentos/ryan_relacionamentos.md` e/ou arquivo individual + `crew_relacionamentos.md` |
+| Mudança com facção | `relacionamentos/faccao_relacionamentos.md`, `facoes/`, `reputacao.md` |
+| Ação chamativa / discrição | `heat.md`, possivelmente `event_queue.md` |
+| Dinheiro, recursos, projetos | `economia.md`, `logs/downtime_ryan.md` |
+| Evento futuro agendado | `event_queue.md` |
+| Fim de sessão | `logs/sessao_resumo_XXX.md` (próximo: `005`) + todos os arquivos acima afetados |
+
+Consulte a tabela completa em [registro_arquivos.md](registro_arquivos.md) (seção "Guia de Consulta Cruzada").
+
 ## Estrutura de Pastas (Referência Rápida)
 
-cyberpunk/
-├── base/                          ← PDFs de referência
-│   ├── cyberpunk red.pdf
-│   └── night city 2045 atlas full.pdf
-├── board/                         ← Board oficial da campanha
-│   └── board_campanha.md
-├── consequencias/
-│   └── consequencias_persistentes.md
-├── fichas/                        ← Fichas dos personagens em Markdown
-│   ├── fixer - kaz_the_broker_takahashi.md
-│   ├── medtech - doc_stephania_voss.md
-│   ├── netrunner - alex_specter_kane.md
-│   ├── nomad - lena_valk_kane.md
-│   ├── solo - jax_razor_kane.md
-│   ├── solo - reina_bearclaw_morales.md
-│   ├── techie - ryan_wireghost_voss.md
-│   └── vehicle - the_mule.md
-├── imagens/                       ← Imagens de referência
-│   ├── fixer - kaz_the_broker_takahashi.jpg
-│   ├── medtech - doc_stephania_voss.jpg
-│   ├── netrunner - alex_specter_kane.jpg
-│   ├── nomad - lena_valk_kane.jpg
-│   ├── solo - jax_razor_kane.jpg
-│   ├── solo - reina_bearclaw_morales.jpg
-│   ├── techie - ryan_wireghost_voss.jpg
-│   └── vehicle - the_mule.jpg
-├── logs/
-│   ├── downtime_ryan.md
-│   ├── sessao_resumo_template.md
-│   └── sessao_resumo_XXX.md          ← Padrão para resumos de sessão
-├── relacionamentos/               ← Arquivos de relacionamentos
-│   ├── alex_specter_kane_relacionamentos.md
-│   ├── crew_relacionamentos.md
-│   ├── faccao_relacionamentos.md
-│   ├── lena_valk_kane_relacionamentos.md
-│   ├── mapa_relacional_geral.md
-│   ├── reina_bearclaw_relacionamentos.md
-│   └── ryan_relacionamentos.md
-├── facoes/                        ← Informações de facções
-│   ├── faccao_template.md
-│   ├── pack_badlands.md
-│   └── facoes_geral.md
-├── sistema/
-│   ├── como_atualizar_arquivos.md
-│   ├── dashboard_contexto.md      ← Dashboard rápido para consulta da IA
-│   ├── diretrizes_narrador.md
-│   └── registro_arquivos.md       ← Este arquivo
-├── economia.md
-├── event_queue.md
-├── heat.md
-├── reputacao.md
-└── README.md
+Ver estrutura completa e atualizada em [registro_arquivos.md](registro_arquivos.md).
 
 ---
 
@@ -143,3 +107,11 @@ cyberpunk/
 - **Sempre**: Eu mostro as mudanças propostas antes de você confirmar a aplicação final nos seus arquivos locais.
 
 Manter esse hábito evita bagunça e inconsistências conforme a campanha cresce.
+
+---
+
+## Referências
+
+- [Registro de Arquivos](registro_arquivos.md) · [Dashboard de Contexto](dashboard_contexto.md) · [Diretrizes IA](diretrizes_ia.md)
+- [Board](../board/board_campanha.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- [Template de Resumo](../logs/sessao_resumo_template.md)

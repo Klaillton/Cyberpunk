@@ -30,3 +30,12 @@
 
 - Jobs futuros trazidos por Kaz podem trazer dinheiro.
 - Se a Biotechnica descobrir a crew, pode gerar custos de segurança ou fuga.
+
+---
+
+## Referências
+
+- [Board](board/board_campanha.md) · [Consequências](consequencias/consequencias_persistentes.md) · [Dashboard](sistema/dashboard_contexto.md)
+- [Ficha Ryan](fichas/techie%20-%20ryan_wireghost_voss.md) · [Downtime](logs/downtime_ryan.md)
+- Relacionados: [Reputação](reputacao.md) · [Heat](heat.md) · [Event Queue](event_queue.md)
+- [Pack Badlands](facoes/pack_badlands.md)

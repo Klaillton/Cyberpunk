@@ -90,3 +90,10 @@ Medium/Heavy Armorjack customizado (SP alto, com placas Militech remanescentes) 
 Jax serviu anos como Solo corporativo da Militech em operações de extração e segurança corporativa. Uma missão deu errado por causa de traição interna (ordens contraditórias para cobrir falha de executivo). Ele foi o bode expiatório. Sobreviveu, mas queimou pontes. Agora freelancer, procura crews competentes que valorizem lealdade. Tem cicatrizes faciais e braços cromados visíveis — não esconde o que é. Humor negro: “Já morri três vezes pela Militech. Da quarta em diante é por conta própria.”
 
 **Relação com a crew:** Respeita Ryan (Techie confiável para manter o chrome dele rodando) e Valk (boa piloto, confiável em extrações — a piada interna sobre “Kane” vai rolar). Vê potencial na crew contra corporações.
+
+---
+
+## Referências
+
+- [Valk](../relacionamentos/lena_valk_kane_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- **Estado:** [Board](../board/board_campanha.md)

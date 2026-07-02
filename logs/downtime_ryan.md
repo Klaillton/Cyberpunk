@@ -62,3 +62,10 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 - Este log serve tanto para manter consistência quanto para gerar possíveis ganchos futuros (ex: alguém interessado nos instrumentos, problema com componentes raros, etc.).
 
 **Última atualização:** 25 de Junho de 2026
+
+---
+
+## Referências
+
+- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Economia](../economia.md) · [Consequências](../consequencias/consequencias_persistentes.md)

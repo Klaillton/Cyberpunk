@@ -21,3 +21,11 @@
 | Atualização completa do Mule  | 28/06 | Entregue a Valk   | + Defesa e mobilidade do Pack            |
 | Incursão noturna + perímetro  | 28/06 | Sucesso           | + Reputação de Ryan no Pack              |
 | Ryan confrontou o time        | 28/06 | Tensão temporária | + Respeito, mas gerou atrito interno     |
+
+---
+
+## Referências
+
+- [Board](board/board_campanha.md) · [Consequências](consequencias/consequencias_persistentes.md) · [Dashboard](sistema/dashboard_contexto.md)
+- Relacionados: [Reputação](reputacao.md) · [Heat](heat.md) · [Economia](economia.md)
+- [Ryan](relacionamentos/ryan_relacionamentos.md) · [Facções](relacionamentos/faccao_relacionamentos.md)

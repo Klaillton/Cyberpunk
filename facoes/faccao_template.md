@@ -47,3 +47,10 @@ Este arquivo centraliza todas as relações entre a facção e o jogador, além 
 
 - Observações importantes do Narrador.
 - Pontos que ainda precisam ser desenvolvidos ou estão em aberto.
+
+---
+
+## Referências
+
+- [Rel. Facções](../relacionamentos/faccao_relacionamentos.md) · [Facções Gerais](faccoes_geral.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)

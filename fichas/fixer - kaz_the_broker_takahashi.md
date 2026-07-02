@@ -76,3 +76,10 @@ Veterano das sombras de Night City com rede extensa de contatos. Traído no pass
 - Veículo discreto ou acesso a The Mule da Lena quando necessário.
 
 Kaz está pronto para operar como o Fixer da crew — ele já viu o potencial de vocês contra a BT e quer transformar isso em algo maior. Ele vai trazer os jobs, limpar as pontas soltas e garantir que o euro flua... enquanto durar a lealdade.
+
+---
+
+## Referências
+
+- [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Facções](../relacionamentos/faccao_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md) · [Event Queue](../event_queue.md)

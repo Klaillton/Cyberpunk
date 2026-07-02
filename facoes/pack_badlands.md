@@ -54,3 +54,11 @@ Ver arquivo principal: `relacionamentos/faccao_relacionamentos.md`
 - A relação com o Pack é temporária, mas já gerou impacto positivo.
 - Mesmo que Ryan saia por um tempo, o que ele fez pelo Pack (ensino, perímetro, Mule) deve gerar repercussão permanente.
 - Possível desenvolvimento futuro: o Pack pode virar uma base ou contato recorrente.
+
+---
+
+## Referências
+
+- [Rel. Facções](../relacionamentos/faccao_relacionamentos.md) · [Facções Gerais](faccoes_geral.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md) · [Consequências](../consequencias/consequencias_persistentes.md)
+- [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)

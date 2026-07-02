@@ -73,6 +73,15 @@ As regras de **gestão do sistema**, integridade de arquivos, verificação de e
 
 O Narrador deve pedir à IA os arquivos necessários quando quiser consultar informações de estado.
 
+Para localizar rapidamente qual arquivo consultar, use o [registro_arquivos.md](registro_arquivos.md) (Guia de Consulta Cruzada) ou o [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md) para personagens.
+
 ---
 
-_Documento atualizado em 01 de Julho de 2026_
+## Referências
+
+- [Registro de Arquivos](registro_arquivos.md) · [Diretrizes IA](diretrizes_ia.md) · [Dashboard](dashboard_contexto.md)
+- [Board](../board/board_campanha.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+
+---
+
+_Documento atualizado em 02 de Julho de 2026_

@@ -62,3 +62,14 @@
 
 **Arquivo gerado em:** 02 de Julho de 2026  
 **Enviado para GitHub:** Sim
+
+---
+
+## Arquivos Atualizados Nesta Sessão
+
+- [board/board_campanha.md](../board/board_campanha.md)
+- [consequencias/consequencias_persistentes.md](../consequencias/consequencias_persistentes.md)
+- [relacionamentos/ryan_relacionamentos.md](../relacionamentos/ryan_relacionamentos.md)
+- [reputacao.md](../reputacao.md)
+
+**Próximo resumo:** `sessao_resumo_005.md`

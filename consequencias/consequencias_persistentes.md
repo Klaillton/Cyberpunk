@@ -139,3 +139,12 @@ Mara, Elias e Tomas foram oficialmente integrados ao pack. Tendas modulares conc
 - Consulte este arquivo regularmente antes de narrar, especialmente quando os jogadores estiverem em locais ou situações relacionados a eventos passados.
 
 **Última atualização:** 01 de Julho de 2026
+
+---
+
+## Referências
+
+- [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
+- [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md)
+- [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Facções](../relacionamentos/faccao_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- [Logs](../logs/sessao_resumo_004.md) · [Downtime](../logs/downtime_ryan.md)

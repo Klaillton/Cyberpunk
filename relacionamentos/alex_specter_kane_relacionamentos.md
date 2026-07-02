@@ -31,3 +31,11 @@ Alex é sarcástica, provocadora e tem um humor afiado. Gosta de cutucar as din�
 
 - Alex pode desenvolver interesse em Ryan **caso** consiga também ficar com Valk (dinâmica poli).
 - Existe potencial para uma dinâmica romântica complicada entre Ryan, Valk, Alex e Reina no futuro.
+
+---
+
+## Referências
+
+- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Crew](crew_relacionamentos.md)
+- [Ficha Alex](../fichas/netrunner%20-%20alex_specter_kane.md) · [Valk](lena_valk_kane_relacionamentos.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)

@@ -65,3 +65,15 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 ---
 
 **Última atualização:** 02 de Julho de 2026
+
+---
+
+## Referências
+
+**Estado:** [Consequências](../consequencias/consequencias_persistentes.md) · [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md) · [Dashboard](../sistema/dashboard_contexto.md)
+
+**Personagem:** [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+
+**Facções:** [Pack Badlands](../facoes/pack_badlands.md) · [Facções Gerais](../facoes/faccoes_geral.md) · [Rel. Facções](../relacionamentos/faccao_relacionamentos.md)
+
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Última sessão](../logs/sessao_resumo_004.md)

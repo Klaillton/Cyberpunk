@@ -98,3 +98,10 @@ Hoje Reina vive como freelancer de rua: resolve na porrada quando necessário, m
 Alta pra iniciativa e awareness em combate próximo.
 
 Reina é tanque emocional e físico da crew – protetora, divertida, mas letal quando “seus garotos” estão em risco. Perfeita pra equilibrar o time com Ryan (tech), Lena (pilota), Jax (bruto), Doc etc.
+
+---
+
+## Referências
+
+- [Relacionamentos Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)

@@ -49,3 +49,11 @@ O Heat pode ser reduzido das seguintes formas:
 
 **Observação:**  
 O Heat é um sistema **dinâmico**. Ele sobe com ações chamativas e pode cair com tempo, discrição ou ações específicas dos jogadores.
+
+---
+
+## Referências
+
+- [Board](board/board_campanha.md) · [Consequências](consequencias/consequencias_persistentes.md) · [Dashboard](sistema/dashboard_contexto.md)
+- Relacionados: [Reputação](reputacao.md) · [Event Queue](event_queue.md) · [Economia](economia.md)
+- [Ryan](relacionamentos/ryan_relacionamentos.md) · [Facções](relacionamentos/faccao_relacionamentos.md)

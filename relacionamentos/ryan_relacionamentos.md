@@ -150,3 +150,12 @@ Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto com
 - Este é o **arquivo principal** de relacionamentos de Ryan.
 - Sempre consulte este arquivo antes de narrar interações sociais importantes envolvendo ele.
 - Mantenha atualizado sempre que houver mudança significativa de confiança, tensão ou status.
+
+---
+
+## Referências
+
+- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Crew](crew_relacionamentos.md) · [Facções](faccao_relacionamentos.md)
+- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md)
+- **Individuais:** [Valk](lena_valk_kane_relacionamentos.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Reina](reina_bearclaw_morales_relacionamentos.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md) · [Reputação](../reputacao.md)

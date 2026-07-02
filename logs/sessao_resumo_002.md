@@ -36,3 +36,15 @@ Ryan continua em downtime produtivo no acampamento, ganhando reputação técnic
 **Status dos Arquivos:** Atualizados e sincronizados com esta sessão.
 
 **Última atualização:** 01 de julho de 2026
+
+---
+
+## Arquivos Atualizados Nesta Sessão
+
+- [board/board_campanha.md](../board/board_campanha.md)
+- [consequencias/consequencias_persistentes.md](../consequencias/consequencias_persistentes.md)
+- [relacionamentos/ryan_relacionamentos.md](../relacionamentos/ryan_relacionamentos.md)
+- [reputacao.md](../reputacao.md) · [heat.md](../heat.md)
+- [facoes/pack_badlands.md](../facoes/pack_badlands.md)
+
+**Próximo resumo:** [sessao_resumo_003.md](sessao_resumo_003.md)

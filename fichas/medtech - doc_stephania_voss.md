@@ -95,3 +95,10 @@ Gaijin (origem brasileira/portuguesa, sobrenome Voss gera confusão divertida co
 
 - Boa química potencial com Valk (valores de lealdade e não abandonar ninguém).
 - Confusão divertida com Ryan “Wireghost” Voss pelo sobrenome.
+
+---
+
+## Referências
+
+- [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- **Estado:** [Board](../board/board_campanha.md)

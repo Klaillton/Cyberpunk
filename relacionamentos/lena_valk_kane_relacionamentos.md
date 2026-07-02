@@ -40,3 +40,11 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **Intensidade:** Alta
 - **Tipo:** Familiar
 - **Notas:** Jax é irmão de Valk. Relação de sangue e lealdade forte.
+
+---
+
+## Referências
+
+- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Crew](crew_relacionamentos.md)
+- [Ficha Valk](../fichas/nomad%20-%20lena_valk_kane.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Jax — ficha](../fichas/solo%20-%20jax_razor_kane.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Pack Badlands](../facoes/pack_badlands.md)

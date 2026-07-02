@@ -56,3 +56,14 @@
 
 **Arquivo gerado em:** 01/07/2026  
 **Enviado para GitHub:** Não (aguardando confirmação do jogador)
+
+---
+
+## Arquivos Atualizados Nesta Sessão
+
+- [board/board_campanha.md](../board/board_campanha.md)
+- [consequencias/consequencias_persistentes.md](../consequencias/consequencias_persistentes.md)
+- [relacionamentos/ryan_relacionamentos.md](../relacionamentos/ryan_relacionamentos.md)
+- [sistema/dashboard_contexto.md](../sistema/dashboard_contexto.md)
+
+**Próximo resumo:** [sessao_resumo_004.md](sessao_resumo_004.md)

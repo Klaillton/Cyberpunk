@@ -31,3 +31,11 @@
 - Reina age como "Mãe Urso" da crew.
 - Tem dificuldade em demonstrar vulnerabilidade.
 - Prefere relações construídas com o tempo.
+
+---
+
+## Referências
+
+- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Crew](crew_relacionamentos.md)
+- [Ficha Reina](../fichas/solo%20-%20reina_bearclaw_morales.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)

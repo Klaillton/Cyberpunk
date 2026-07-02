@@ -82,3 +82,10 @@ Ryan e Valk estão namorando. Ryan ajuda ativamente ela com manutenção do The 
 - O quase-momento com Ryan ainda pesa. Eles evitam ficar sozinhos por muito tempo em espaços pequenos.
 - Quando está sozinha com Ryan, ela fica um pouco mais suave (quase imperceptível para os outros).
 - Prefere trabalhar sozinha ou com crews pequenos e confiáveis.
+
+---
+
+## Referências
+
+- [Relacionamentos Valk](../relacionamentos/lena_valk_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Pack Badlands](../facoes/pack_badlands.md)

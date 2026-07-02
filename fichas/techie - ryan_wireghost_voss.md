@@ -141,3 +141,10 @@ Antigo cliente que deve vários favores a ele.
 - Alex “Specter” Kane: Alex é provocadora com ele (especialmente quando Valk está por perto). Flerta e cutuca Ryan de propósito, mas seu interesse real é em Valk.
 
 **Objetivo atual:** Construir sua própria rede de tecnologia e influência fora do controle corporativo, usando drones e equipamentos customizados como principal ferramenta.
+
+---
+
+## Referências
+
+- [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md) · [Crew](../relacionamentos/crew_relacionamentos.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Downtime](../logs/downtime_ryan.md) · [Consequências](../consequencias/consequencias_persistentes.md)

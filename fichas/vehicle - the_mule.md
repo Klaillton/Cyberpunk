@@ -95,3 +95,10 @@ O The Mule tem uma reputação crescente entre quem já tentou pará-lo e viveu 
 - “Não tenta empurrar. Ele empurra de volta.”
 - “Quando eu ligo isso aqui, você tem duas escolhas: sair da frente ou virar estatística.”
 - “Parece uma van velha... até não parecer mais.”
+
+---
+
+## Referências
+
+- [Valk — ficha](nomad%20-%20lena_valk_kane.md) · [Pack Badlands](../facoes/pack_badlands.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Economia](../economia.md) · [Consequências](../consequencias/consequencias_persistentes.md)

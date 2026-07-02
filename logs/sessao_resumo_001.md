@@ -58,3 +58,14 @@
 
 **Arquivo gerado em:** 17 de junho de 2026  
 **Enviado para GitHub:** Sim (aguardando push manual)
+
+---
+
+## Arquivos Atualizados Nesta Sessão
+
+- [board/board_campanha.md](../board/board_campanha.md)
+- [consequencias/consequencias_persistentes.md](../consequencias/consequencias_persistentes.md)
+- [relacionamentos/ryan_relacionamentos.md](../relacionamentos/ryan_relacionamentos.md)
+- [logs/downtime_ryan.md](downtime_ryan.md)
+
+**Próximo resumo:** [sessao_resumo_002.md](sessao_resumo_002.md)

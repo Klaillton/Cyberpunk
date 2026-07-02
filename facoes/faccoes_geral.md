@@ -38,3 +38,10 @@ A crew realizou uma operação limpa contra a Biotechnica. Ainda não há confir
 ## Outras Facções / Grupos
 
 Este espaço está reservado para registrar rapidamente outros grupos ou facções que aparecerem de forma superficial durante a campanha, sem necessidade de arquivo individual no momento.
+
+---
+
+## Referências
+
+- [Rel. Facções](../relacionamentos/faccao_relacionamentos.md) · [Pack Badlands](pack_badlands.md) · [Template](faccao_template.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md)

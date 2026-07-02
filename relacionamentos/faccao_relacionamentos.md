@@ -52,3 +52,11 @@
 
 **Observação:**  
 Este arquivo deve ser atualizado sempre que houver mudança significativa na relação entre a crew e qualquer facção relevante.
+
+---
+
+## Referências
+
+- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Crew](crew_relacionamentos.md)
+- **Facções:** [Pack Badlands](../facoes/pack_badlands.md) · [Facções Gerais](../facoes/faccoes_geral.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md)
