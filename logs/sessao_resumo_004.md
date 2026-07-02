@@ -1,19 +1,64 @@
-# Sessão 004 - 02 de Julho de 2026
+# Resumo de Sessão - 004
 
-**Foco principal:** Integração dos novos recrutas + conclusão das tendas + conversa estratégica com Reyes
+**Data:** 02 de Julho de 2026  
+**Duração aproximada:** ~4-5 horas  
+**Jogador:** Ryan "Wireghost" Voss  
+**Narrador:** IA
 
-### Principais Eventos
+---
 
-- Apresentação dos três novos a Reyes.
-- Montagem e teste completo das tendas modulares.
-- Conversa com Reyes sobre expansão controlada.
-- Jantar com integração gradual (Ryan + Valk ajudando a quebrar gelo).
-- Momento íntimo leve com Valk.
+## Eventos Principais
 
-### Mudanças de Estado
+- Apresentação formal dos três novos recrutas (Mara, Elias e Tomas) ao líder Reyes.
+- Montagem e teste completo das tendas modulares no acampamento.
+- Conversa estratégica com Reyes sobre expansão controlada do Pack.
+- Jantar coletivo com integração gradual dos novos (Ryan e Valk ajudaram a quebrar o gelo).
+- Momento íntimo leve com Valk ao final do dia.
 
-- Novos recrutas acomodados e trabalhando.
-- Infraestrutura do pack reforçada.
-- Observação inicial positiva dos novos.
+---
 
-**Próximos passos naturais:** Avaliação com Reyes/Tio Gringo + continuação da integração.
+## Mudanças de Estado
+
+### Relacionamentos
+
+- Ryan está ativamente integrando os novos recrutas ao Pack.
+- Relação com Reyes continua em construção (respeito técnico + cautela).
+- Valk está ajudando na integração social dos novos.
+
+### Reputação / Heat / Economia
+
+- Reputação com o Pack continua muito positiva (+65).
+- Nenhum mudança significativa no Heat.
+
+### Consequências Geradas
+
+- Infraestrutura do Pack reforçada com as tendas modulares.
+- Novos recrutas acomodados e já contribuindo com o trabalho.
+
+---
+
+## Decisões Importantes do Jogador
+
+- Ryan optou por uma integração gradual e natural dos novos recrutas.
+- Escolheu ter uma conversa estratégica com Reyes sobre o futuro do Pack.
+
+---
+
+## Pendências / Ganchos para Próxima Sessão
+
+- Avaliação conjunta com Reyes e Tio Gringo sobre o desempenho dos novos.
+- Continuação da integração dos recrutas.
+- Possível discussão sobre expansão controlada do Pack.
+
+---
+
+**Observações do Narrador:**
+
+- A integração dos novos está acontecendo de forma positiva.
+- O Pack está demonstrando boa capacidade de adaptação.
+- Ryan está conseguindo equilibrar bem o lado técnico com o lado social/humanizado.
+
+---
+
+**Arquivo gerado em:** 02 de Julho de 2026  
+**Enviado para GitHub:** Sim
