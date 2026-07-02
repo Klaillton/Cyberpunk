@@ -2,7 +2,7 @@
 
 **Tipo:** Pack Nômade  
 **Status com o Jogador:** Aliado / Relação em fortalecimento  
-**Última atualização:** 01 de Julho de 2026
+**Última atualização:** 02 de Julho de 2026
 
 ---
 
@@ -29,6 +29,7 @@ Ver arquivo principal: `relacionamentos/faccao_relacionamentos.md`
 - **Reyes** — Líder do Pack. Relação cautelosa, mas com confiança técnica crescente.
 - **Tio Gringo** — Ferreiro mais velho do Pack. Tem alta estima por Ryan, que o ajuda diretamente na forja.
 - **Sasha e Lira** — Jovens do Pack que estão tentando se aproximar de Valk.
+- **Mara, Elias e Tomas** — Novos recrutas em fase de integração (avaliação inicial positiva).
 
 ## Locais e Bases Conhecidas
 
@@ -43,6 +44,7 @@ Ver arquivo principal: `relacionamentos/faccao_relacionamentos.md`
 - Construiu e testou perímetro defensivo.
 - Atualizou e entregou o Mule para Valk (presente).
 - Revelou múltiplas facetas (mecânico, cantor e operador frio), gerando admiração e certa cautela.
+- **02/07:** Reunião estratégica com Reyes e Tio Gringo sobre integração dos novos recrutas (Mara, Elias e Tomas). Ryan recomendou Elias para a destilaria e monitoramento de Tomas.
 
 ## Rumores e Informações Parciais
 
@@ -52,6 +54,7 @@ Ver arquivo principal: `relacionamentos/faccao_relacionamentos.md`
 ## Notas e Pendências
 
 - A relação com o Pack é temporária, mas já gerou impacto positivo.
+- **Integração dos novos recrutas (Mara, Elias, Tomas):** Em andamento com supervisão. Avaliação inicial positiva, com recomendações específicas de Ryan.
 - Mesmo que Ryan saia por um tempo, o que ele fez pelo Pack (ensino, perímetro, Mule) deve gerar repercussão permanente.
 - Possível desenvolvimento futuro: o Pack pode virar uma base ou contato recorrente.
 
