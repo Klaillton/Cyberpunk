@@ -1,8 +1,11 @@
 # LEIA-ME — Cyberpunk RED (Campanha Solo)
 
+> As instruções de boot da IA também estão na **descrição do projeto** (configuração do repositório).
+> A versão versionada e completa está em [sistema/instrucoes_projeto.md](sistema/instrucoes_projeto.md); o detalhamento operacional está nos arquivos abaixo.
+
 Visão geral da estrutura do projeto e de como os arquivos se conectam entre si.
 
-**Source of Truth:** Os arquivos no computador local do jogador.
+**Source of Truth:** Os arquivos no computador local do jogador (após sync com o repositório).
 
 ---
 
@@ -11,6 +14,7 @@ Visão geral da estrutura do projeto e de como os arquivos se conectam entre si.
 | Papel | Arquivo inicial |
 | ----- | --------------- |
 | Jogador / Narrador humano | [README.md](README.md) |
+| IA (instruções do projeto) | [sistema/instrucoes_projeto.md](sistema/instrucoes_projeto.md) |
 | IA (boot sequence) | [sistema/diretrizes_ia.md](sistema/diretrizes_ia.md) |
 | Índice completo do projeto | [sistema/registro_arquivos.md](sistema/registro_arquivos.md) |
 | Estado rápido da campanha | [sistema/dashboard_contexto.md](sistema/dashboard_contexto.md) |
@@ -67,7 +71,7 @@ Após cada sessão, os arquivos mais críticos a revisar são:
 
 ## Referências
 
-- [Registro de Arquivos](sistema/registro_arquivos.md)
+- [Instruções do Projeto](sistema/instrucoes_projeto.md) · [Registro de Arquivos](sistema/registro_arquivos.md)
 - [Diretrizes IA](sistema/diretrizes_ia.md) · [Diretrizes Narrador](sistema/diretrizes_narrador.md)
 - [Mapa Relacional Geral](relacionamentos/mapa_relacional_geral.md)
 - [Board de Campanha](board/board_campanha.md)

@@ -6,6 +6,7 @@ Bem-vindo à campanha de Cyberpunk RED.
 
 - [LEIA-ME.md](LEIA-ME.md) — Visão geral da estrutura e fluxo de consulta
 - [registro_arquivos.md](sistema/registro_arquivos.md) — Índice central e guia de referências cruzadas
+- [instrucoes_projeto.md](sistema/instrucoes_projeto.md) — Instruções do projeto (boot da IA)
 - [diretrizes_ia.md](sistema/diretrizes_ia.md) — Boot sequence e regras da IA
 - [diretrizes_narrador.md](sistema/diretrizes_narrador.md) — Regras de narração
 - [como_atualizar_arquivos.md](sistema/como_atualizar_arquivos.md) — Como manter os arquivos atualizados

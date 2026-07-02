@@ -28,7 +28,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Facções menores / superficiais | `facoes/faccoes_geral.md` | `relacionamentos/faccao_relacionamentos.md` |
 | Atividades de downtime do Ryan | `logs/downtime_ryan.md` | `board/board_campanha.md`, `fichas/techie - ryan_wireghost_voss.md` |
 | Histórico de sessão | `logs/sessao_resumo_XXX.md` | Arquivos listados na seção "Arquivos Atualizados" de cada resumo |
-| Regras da IA (boot sequence) | `sistema/diretrizes_ia.md` | Este arquivo |
+| Instruções do projeto (boot) | `sistema/instrucoes_projeto.md` | `diretrizes_ia.md`, este arquivo |
+| Regras da IA (boot sequence) | `sistema/diretrizes_ia.md` | `instrucoes_projeto.md`, este arquivo |
 | Regras do narrador | `sistema/diretrizes_narrador.md` | `sistema/diretrizes_ia.md` |
 | Como atualizar após sessão | `sistema/como_atualizar_arquivos.md` | Este arquivo |
 
@@ -92,6 +93,7 @@ cyberpunk/
 │   ├── lena_valk_kane_relacionamentos.md
 │   └── reina_bearclaw_morales_relacionamentos.md
 └── sistema/
+    ├── instrucoes_projeto.md      ← Instruções do projeto (espelho versionado)
     ├── como_atualizar_arquivos.md
     ├── dashboard_contexto.md
     ├── diretrizes_ia.md
@@ -120,7 +122,8 @@ cyberpunk/
 | ------- | ------ | ---------- | ------------------- |
 | `sistema/dashboard_contexto.md` | Ativo | Resumo rápido para a IA | Todos os arquivos de estado |
 | `relacionamentos/mapa_relacional_geral.md` | Ativo | Hub de personagens e relações | `fichas/`, `relacionamentos/` |
-| `sistema/diretrizes_ia.md` | Ativo | Boot sequence e regras da IA | Este arquivo |
+| `sistema/instrucoes_projeto.md` | Ativo | Instruções do projeto (espelho versionado) | `diretrizes_ia.md`, descrição do projeto |
+| `sistema/diretrizes_ia.md` | Ativo | Boot sequence e regras da IA | `instrucoes_projeto.md`, este arquivo |
 | `sistema/diretrizes_narrador.md` | Ativo | Regras de narração | `diretrizes_ia.md` |
 | `sistema/como_atualizar_arquivos.md` | Ativo | Guia de manutenção pós-sessão | Este arquivo |
 | `LEIA-ME.md` | Ativo | Visão geral do projeto | `README.md` |
@@ -146,6 +149,6 @@ cyberpunk/
 ## Referências
 
 - [LEIA-ME.md](../LEIA-ME.md) · [README.md](../README.md)
-- [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md) · [Como Atualizar](como_atualizar_arquivos.md)
+- [Instruções do Projeto](instrucoes_projeto.md) · [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md) · [Como Atualizar](como_atualizar_arquivos.md)
 - [Dashboard de Contexto](dashboard_contexto.md) · [Board](../board/board_campanha.md)
 - [Mapa Relacional Geral](../relacionamentos/mapa_relacional_geral.md)
