@@ -1,6 +1,6 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** 01 de Julho de 2026  
+**Data Atual:** 03 de Julho de 2026  
 **Local:** Acampamento do Pack Nômade de Badlands
 
 ---
@@ -14,6 +14,8 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 - Gerenciar a ameaça latente da Biotechnica.
 - Equilibrar sua vida pessoal com Valk e a integração dos novos recrutas.
 - Integrar Mara, Elias e Tomas ao pack.
+
+**Prioridade atual:** Consolidação interna antes de expansão (destilaria + estufa modular).
 
 **Projetos em andamento:**
 
@@ -43,24 +45,24 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 
 ## NPCs Importantes
 
-| Nome                 | Papel               | Relação com Ryan                  | Notas                                |
-| -------------------- | ------------------- | --------------------------------- | ------------------------------------ |
-| **Lena "Valk" Kane** | Parceira            | Amor declarado e relação profunda | Principal apoio emocional            |
-| **Reyes**            | Líder do Pack       | Respeito técnico + cautela        | Conversa estratégica sobre expansão  |
-| **Tio Gringo**       | Ferreiro do Pack    | Alta estima e colaboração         | Ryan o ajuda diretamente             |
-| **Mara**             | Recruta (Med/Hidro) | Positiva (inicial)                | Proativa, foco em medicina e cultivo |
-| **Elias**            | Recruta (Refinaria) | Positiva (inicial)                | Metódico, técnico                    |
-| **Tomas**            | Recruta (Mecânica)  | Positiva (inicial, reservado)     | Competente, cauteloso                |
+| Nome                 | Papel                  | Relação com Ryan                  | Notas |
+|----------------------|------------------------|-----------------------------------|-------|
+| **Lena "Valk" Kane** | Parceira               | Amor declarado e relação profunda | Noite de conexão intensa (02/07) |
+| **Reyes**            | Líder do Pack       | Respeito técnico + cautela        | Reunião estratégica sobre recrutas |
+| **Tio Gringo**       | Ferreiro do Pack       | Alta estima e colaboração         | Avaliação final dos recrutas |
+| **Mara**             | Recruta (Med/Hidro)    | Positiva (em integração)          | Foco em medicina e cultivo |
+| **Elias**            | Recruta (Refinaria)    | Positiva (em integração)          | Recomendado para destilaria |
+| **Tomas**            | Recruta (Mecânica)  | Positiva (em integração, reservado) | Monitoramento recomendado |
 
 ---
 
 ## Facções e Corporações
 
-| Facção          | Status com a Crew    | Nível de Risco | Notas                             |
+| Facção          | Status com a Crew    | Nível de Risco | Notas |
 | --------------- | -------------------- | -------------- | --------------------------------- |
 | **Pack Nômade** | Aliado em construção | Baixo          | Integração dos novos em andamento |
-| **Biotechnica** | Hostil (latente)     | Médio          | Investigação possível             |
-| **Arasaka**     | Hostil (pessoal)     | Baixo          | Ryan evita contato                |
+| **Biotechnica** | Hostil (latente)     | Médio          | Investigação possível |
+| **Arasaka**     | Hostil (pessoal)     | Baixo          | Ryan evita contato |
 
 ---
 
@@ -76,4 +78,4 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 
 **Facções:** [Pack Badlands](../facoes/pack_badlands.md) · [Facções Gerais](../facoes/faccoes_geral.md) · [Rel. Facções](../relacionamentos/faccao_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Última sessão](../logs/sessao_resumo_004.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 005](../logs/sessao_resumo_005.md)
