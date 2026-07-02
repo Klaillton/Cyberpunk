@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 01 de Julho de 2026
+**Última atualização:** 02 de Julho de 2026
 
 ---
 
@@ -10,7 +10,7 @@
 | Personagem               | Sentimento de Ryan    | Sentimento em relação a Ryan | Intensidade | Status             | Tipo                     |
 | ------------------------ | --------------------- | ---------------------------- | ----------- | ------------------ | ------------------------ |
 | Lena "Valk" Kane         | Afeto + Tensão        | Afeto + Confiança            | Alta        | Estável            | Romântico / Aliada       |
-| Alex "Specter" Kane      | Desconfiança          | Provocação / Interesse       | Média       | Observando         | Potencial rival          |
+| Alex "Specter" Kane      | Desconfiança          | Provação / Interesse       | Média       | Observando         | Potencial rival          |
 | Reina "Bearclaw" Morales | Neutro / Cautela      | Proteção (Mãe Urso)          | Média       | Em desenvolvimento | Aliada / Irmã mais velha |
 | Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado           |
 | Dr. Stephania "Doc" Voss | Confiança             | Respeito                     | Média-Alta  | Estável            | Aliada / Médica          |
@@ -24,13 +24,16 @@
 
 **Status:** Namorando (relação consolidada e profunda)  
 **Intensidade:** Alta  
-**Última atualização:** 28 de Junho de 2026
+**Última atualização:** 02 de Julho de 2026
 
 **Evolução conhecida:**
 
 - Amor declarado mútuo, profundo e intenso.
 - Valk aceita tanto o lado carinhoso quanto o lado frio/operador de Ryan.
 - Relação intensa, um pouco possessiva, com rotina diária de carinho e intimidade.
+
+**Atualização da sessão (02/07):**
+- Ryan e Valk tiveram um momento íntimo prolongado e carinhoso na tenda. Incluiu massagem sensual com óleo aromático (laranja + alecrim), estimulação prolongada e múltiplos orgasmos, seguido de aftercare e sono abraçados. A conexão emocional foi reforçada.
 
 **Estado atual:**
 
@@ -124,7 +127,7 @@
 **Status:** Hospedagem + Integração em andamento  
 **Confiança geral com o Pack:** Média-Alta (em crescimento)  
 **Duração prevista:** Indefinida  
-**Última atualização:** 01 de Julho de 2026
+**Última atualização:** 02 de Julho de 2026
 
 **Líder do Pack:** Reyes
 
