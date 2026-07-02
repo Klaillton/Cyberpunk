@@ -1,5 +1,5 @@
 ![Reina "Bearclaw" Morales](cbkAG)  
-_(Imagem de referência — mulher atlética e imponente, ~1,75m, corpo musculoso e definido, pele morena clara, cabelo castanho escuro em rabo de cavalo alto, expressão confiante e ligeiramente desafiadora. Usa catsuit preto justo de material sintético reforçado que marca os músculos, com detalhes táticos. Braços cibernéticos pesados e brilhantes em liga metálica escura com detalhes azul neon brilhante. Pose poderosa: uma mão na cintura, o outro braço cibernético flexionado atrás da cabeça, destacando a massa muscular e o design brutal dos cyberarms.)_
+_(Imagem de referência — mulher atlética e **verdadeiramente imponente**, **1,92m** de altura, corpo musculoso e definido, pele morena clara, cabelo castanho escuro em rabo de cavalo alto. Sua estatura a faz se destacar imediatamente em qualquer ambiente, transmitindo uma aura natural de autoridade e proteção. Expressão confiante, com um leve sorriso de canto de boca que mistura diversão e desafio. Usa catsuit preto justo de material sintético reforçado que marca os músculos, com detalhes táticos. Braços cibernéticos pesados e brilhantes em liga metálica escura com detalhes azul neon. Pose poderosa: uma mão na cintura, o outro braço cibernético flexionado atrás da cabeça, destacando tanto a massa muscular quanto a altura imponente.)_
 
 **Role:** Solo (foco em combate desarmado / close quarters)  
 **Idade aparente:** 34 anos
@@ -10,98 +10,82 @@ Reina "Bearclaw" Morales é uma ex-lutadora de arenas underground e ex-seguranç
 
 Sua vida mudou drasticamente quando sofreu uma **emboscada da BT** (Biotechnica) e perdeu os dois braços. Foi um golpe brutal que quase a tirou do jogo de vez.
 
-Ela conhece o **Ryan** há mais tempo através da **Dra. Elisa "Doc" Moreau** (sua amiga e Therapy/Ripperdoc de confiança). Enquanto a Doc tratava o Ryan, ele teve um surto violento e Reina ajudou a contê-lo fisicamente (Ryan não se lembra desse episódio).
+Ela conhece o **Ryan** há mais tempo através da **Dra. Elisa "Doc" Moreau**. Enquanto a Doc tratava o Ryan, ele teve um surto violento e Reina ajudou a contê-lo fisicamente (Ryan não se lembra desse episódio).
 
-Posteriormente, quando Reina perdeu os braços, a Doc cobrou um favor pesado do Ryan. Ele, usando peças de altíssima qualidade que guardava para outro projeto, construiu os **Cyberarms dela** — um trabalho que está no **Estado da Arte** que um cyberware pode chegar. Reina **não sabe** que foi Ryan quem fez os braços (ele nunca contou na época e estava com a cabeça zoada demais para explicar). Ryan também acabou esquecendo os detalhes do trabalho.
+Posteriormente, quando Reina perdeu os braços, a Doc cobrou um favor pesado do Ryan. Ele, usando peças de altíssima qualidade, construiu os **Cyberarms dela** — um trabalho que está no **Estado da Arte**. Reina **não sabe** que foi Ryan quem fez os braços.
 
-**Características especiais dos braços (desconhecidas pela maior parte das pessoas):**
+Hoje Reina vive como freelancer de rua: resolve na porrada quando necessário, mas sempre tenta desarmar a situação primeiro com **presença intimidadora**. É a **“Mãe Urso”** da crew — protetora, descontraída, de riso alto e piadas pesadas. Sua altura de **1,92m** reforça ainda mais esse papel: ela costuma abraçar as pessoas **por cima**, quase envolvendo quem está ao seu lado, especialmente Ryan, a quem trata abertamente como um **irmão mais novo**.
 
-- Liga metálica estranha e extremamente avançada — **mais resistente que a maioria das blindagens militares** de alto nível.
-- Extremamente fluídos e integrados ao sistema nervoso — quase como se tivessem **vida própria**.
-- Muitas vezes puxam Reina automaticamente para bloqueios, defesas ou ataques que ela jurava não conseguir realizar.
-- Parecem se **auto-reparar** em alguns momentos (pode ser só impressão dela).
-- Ainda não foram descobertas todas as funcionalidades (não veio manual de instruções e o “inventor” estava louco demais para documentar o que criou).
+### Presença e Reações
 
-Hoje Reina vive como freelancer de rua: resolve na porrada quando necessário, mas sempre tenta desarmar a situação primeiro com presença intimidante ou palavras. É a **“Mãe Urso”** da crew — protetora, descontraída, de riso alto e piadas pesadas, sempre pronta para dar um abraço esmagador ou um tapa nas costas de quem precisa.
+- Quando Reina entra em um ambiente, as pessoas naturalmente abrem espaço. Muitos descrevem como se “o teto tivesse ficado mais baixo”.
+- Ela tem o hábito de **abraçar por cima**. Quando faz isso, costuma apoiar o queixo na cabeça da pessoa (especialmente no Ryan) e ficar ali um tempinho.
+- Em conversas, ela tem o costume de olhar para baixo com um sorrisinho de canto de boca, especialmente quando alguém está tentando “bater boca” com ela.
+- Quando está entediada, apoia o antebraço cibernético na cabeça de alguém próximo (geralmente Ryan ou Jax) como se fosse um apoio de braço.
+- **Reações comuns:**
+  - Edgerunners e pessoas da rua costumam ficar mais educados ou cautelosos quando a reconhecem.
+  - Pessoas comuns (especialmente homens mais baixos) ficam visivelmente nervosos perto dela.
+  - Executivos e pessoas de terno tendem a ficar desconfortáveis com a combinação de altura + cyberarms pesados + postura descontraída.
 
-**Personalidade:** Fala gíria pesada de rua, ri alto, faz piadas sujas e é extremamente fácil de lidar. Ao mesmo tempo, é super protetora com quem se apega (“seus garotos”). Resolve conflitos internos da crew antes que virem problema e é o ombro amigo depois de um job ruim. Quando alguém ameaça as pessoas que ela protege, o urso sai da caverna e a porrada é certa.
+### Estatísticas (62 pontos)
 
-**Gancho de entrada:** Ouviu falar do trabalho limpo contra a BT pela rede de lutadores e fixers. Procurou o Kaz dizendo: “Vocês precisam de alguém que saiba bater e também segurar a onda quando a merda bater no ventilador. Eu sou as duas coisas, choom.”
+- **INT:** 5
+- **REF:** 8
+- **DEX:** 8
+- **TECH:** 4
+- **COOL:** 7
+- **WILL:** 7
+- **LUCK:** 6
+- **MOVE:** 7
+- **BODY:** 8
+- **EMP:** 5
 
-## Estatísticas (62 pontos – distribuição focada em combate corpo a corpo)
+**HP Total:** 45  
+**Humanidade:** 50
 
-- INT: 5
-- REF: 8 (prioridade alta pra iniciativa e combate)
-- DEX: 8 (essencial pra Brawling/Martial Arts/Athletics)
-- TECH: 4
-- COOL: 7 (intimidação e presença)
-- WILL: 7
-- LUCK: 6
-- MOVE: 7
-- BODY: 8 (força bruta + durabilidade com cyberarms)
-- EMP: 5 (mantém a humanidade, mas baixa o suficiente pra chrome pesado)
+### Skills
 
-**HP Total:** 45 (Seriously Wounded: 23 | Death Save: BODY 8)  
-**Humanity:** 50 (EMP 5)
-
-## Skills (distribuídas com foco em close quarters + presença)
-
-**Básicas (mínimo 2):**
-
+**Básicas:**
 - Athletics: 8
 - Brawling: 8
-- Concentration: 4
-- Conversation: 6
-- Education: 4
 - Evasion: 7
-- First Aid: 4
-- Human Perception: 6
-- Language (Streetslang + outra de background): 4
-- Local Expert (Your Home): 4
 - Perception: 6
 - Persuasion: 7
-- Stealth: 5
+- Human Perception: 6
+- Streetwise: 6
 
-**Profissionais (Solo + foco melee):**
-
-- Martial Arts (x2): 8 (especializada em estilos brutais de rua/arena)
+**Profissionais:**
+- Martial Arts: 8
 - Melee Weapon: 7
 - Handgun: 5
-- Shoulder Arms: 4
-- Autofire: 4
 - Resist Torture/Drugs: 6
 - Interrogation: 5
-- Streetwise: 6
 - Tactics: 5
 - Endurance: 6
-- Personal Grooming: 4
-- Wardrobe & Style: 4
 
-## Cyberware relevante (Humanity Loss total ~23-25, compatível com foco)
+### Cyberware Relevante
 
-- Cyberarms pesados (x2) – Força reforçada, garras retráteis ou punhos hidráulicos (dano brutal em Brawling/Melee).
-- Neural Link + Interface Plugs (pra smartguns se precisar).
-- Kerenzikov ou Sandevistan (boost de REF pra close combat).
-- Pain Editor (ignora dor em lutas longas).
-- Biomonitor + outros chrome de durabilidade.
+- Cyberarms pesados (x2) – Força reforçada, garras retráteis, funções avançadas ainda não totalmente descobertas por ela.
+- Neural Link + Interface Plugs
+- Kerenzikov ou Sandevistan
+- Pain Editor
+- Biomonitor
 
-## Equipamento inicial (Streetrat/Edgerunner style)
+### Equipamento Inicial
 
-- Heavy Melee Weapon ou cyberarm integrado.
-- Medium/Heavy Pistol.
-- Light/Medium Armorjack (SP 11-12).
-- Munição básica, ferramentas básicas, outfit street (roupas resistentes, mochila).
-- 500eb + dinheiro de gigs pra customizar.
+- Heavy Melee Weapon ou cyberarm integrado
+- Medium/Heavy Pistol
+- Light/Medium Armorjack
+- 500eb + dinheiro de gigs
 
-## Role Ability (Solo - Combat Awareness)
+### Role Ability (Solo - Combat Awareness)
 
-Alta pra iniciativa e awareness em combate próximo.
+Alta para iniciativa e awareness em combate próximo. Reina é o tanque emocional e físico da crew — protetora, divertida, mas letal quando “seus garotos” estão em risco.
 
-Reina é tanque emocional e físico da crew – protetora, divertida, mas letal quando “seus garotos” estão em risco. Perfeita pra equilibrar o time com Ryan (tech), Lena (pilota), Jax (bruto), Doc etc.
+### Referências
 
----
-
-## Referências
-
-- [Relacionamentos Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- [Relacionamentos Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md)
+- [Ryan](../relacionamentos/ryan_relacionamentos.md)
+- [Crew](../relacionamentos/crew_relacionamentos.md)
+- [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)
