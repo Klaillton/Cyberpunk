@@ -6,7 +6,7 @@
 
 ## 25 de Junho de 2026 - Operação contra a Biotechnica
 
-A crew realizou uma operação limpa e bem-sucedida contra a Biotechnica. O trabalho foi executado com baixo perfil e sem deixar rastros óbvios.
+A crew realizou uma operação limpa e bem-sucedida contra a Biotechnica (extração do Dr. Elias Vossler em Watson + fuga para Badlands). Detalhes táticos e fallout: [logs/job_001_extracao_vossler.md](../logs/job_001_extracao_vossler.md).
 
 **Impactos possíveis futuros:**
 
@@ -67,12 +67,16 @@ Ryan intensificou o ensino de precisão, fabricação e responsabilidade para me
 
 ### Revelação das Múltiplas Facetas de Ryan
 
-O Pack testemunhou diferentes lados de Ryan (Mecânico habilidoso, Cantor, e Operador frio e letal durante uma incursão noturna).
+O Pack testemunhou diferentes lados de Ryan: mecânico gentil, cantor emocional, e **operador frio e letal** em combate.
+
+**Incidente-chave (primeira incursão por recursos):** Emboscada Raffen Shiv. Ryan ordenou cobertura e vigilância de flancos; o time devolveu fogo e se expôs. Ryan confrontou o grupo (“não pedi ajuda”), executou o último hostil (tiro na nuca) e o pack passou a ver que o “mecânico bonzinho” também é soldado. Detalhes: [logs/incidente_001_incursao_recursos_raffen.md](../logs/incidente_001_incursao_recursos_raffen.md).
+
+**Incidente 002 (incursão noturna):** Ryan limpou o acampamento Raffen **sozinho** na Fase 1 (~16 hostis, facas, silencioso, menos de 5 min); pack só viu o resultado e ouviu histórias. Retorno ao amanhecer em “modo operador”. Detalhes: [logs/incidente_002_incursao_noturna_raffen.md](../logs/incidente_002_incursao_noturna_raffen.md).
 
 **Impactos:**
 
-- Aumento de respeito + certo medo/respeito no Pack.
-- Ryan demonstrou competência fria e letal (neutralizou 16 hostis em incursão noturna).
+- Aumento de respeito + certo medo no Pack.
+- Ryan demonstrou competência fria e letal em duas incursões distintas.
 
 ### Fortificação do Pack
 
@@ -100,13 +104,14 @@ Ryan realizou trabalho significativo na forja do Pack, especialmente auxiliando 
 - Reputação técnica positiva com o Pack.
 - Fortalecimento da relação com membros mais antigos.
 
-### Ryan confrontou o time
+### Ryan confrontou o time (Incidente 001)
 
-Ryan confrontou diretamente alguns membros da crew/time em determinado momento.
+Após a emboscada Raffen na **primeira incursão por recursos**, Ryan repreendeu o grupo por desobedecer ordem de cobertura e devolver fogo sem necessidade. Agradeceu o espírito, mas deixou claro que não são soldados. Ver [incidente_001_incursao_recursos_raffen.md](../logs/incidente_001_incursao_recursos_raffen.md).
 
 **Impactos:**
 
-- Aumento de respeito, mas gerou tensão temporária.
+- Tensão temporária + respeito disciplinar.
+- Sasha e outros passaram a misturar admiração com medo do lado operador.
 
 ---
 

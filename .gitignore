@@ -1,2 +1,5 @@
 # Descritores MCP gerados pelo ambiente Grok/Cursor (não fazem parte do projeto)
 mcps/
+
+# Artefatos temporários de suporte da IA (extrações Grok, scripts, caches)
+agent-tools/

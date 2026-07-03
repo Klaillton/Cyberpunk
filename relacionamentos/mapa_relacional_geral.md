@@ -2,7 +2,7 @@
 
 **Finalidade:** Hub central de personagens e relações. Use este arquivo para localizar rapidamente onde buscar contexto sobre cada NPC da campanha.
 
-**Última atualização:** 02 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026
 
 ---
 
@@ -17,6 +17,7 @@
 | Facções e corporações | [faccao_relacionamentos.md](faccao_relacionamentos.md) | [facoes/pack_badlands.md](../facoes/pack_badlands.md), [facoes/faccoes_geral.md](../facoes/faccoes_geral.md) |
 | Reputação / Heat / Eventos | [reputacao.md](../reputacao.md), [heat.md](../heat.md), [event_queue.md](../event_queue.md) | [consequencias/consequencias_persistentes.md](../consequencias/consequencias_persistentes.md) |
 | Ficha mecânica de um personagem | [fichas/](../fichas/) | Arquivo de relacionamento correspondente |
+| Personalidade / eventos de NPC secundário | [fichas/npc/](../fichas/npc/) | [pack_badlands.md](../facoes/pack_badlands.md), jobs, sessões |
 
 ---
 
@@ -39,6 +40,26 @@
 | Ativo | Ficha | Contexto relacionado |
 | ----- | ----- | -------------------- |
 | The Mule | [vehicle - the_mule.md](../fichas/vehicle%20-%20the_mule.md) | [board/board_campanha.md](../board/board_campanha.md), [economia.md](../economia.md), [pack_badlands.md](../facoes/pack_badlands.md) |
+
+---
+
+## NPCs Secundários (fichas mínimas)
+
+Personagens com personalidade e eventos próprios, mas **sem ficha RED completa**. Um arquivo por NPC em `fichas/npc/`.
+
+| NPC | Ficha | Também em |
+| --- | ----- | --------- |
+| Dr. Elias Vossler | [dr_elias_vossler.md](../fichas/npc/dr_elias_vossler.md) | [job_001](../logs/job_001_extracao_vossler.md) |
+| Lina Park | [lina_park.md](../fichas/npc/lina_park.md) | [sessao_003](../logs/sessao_resumo_003.md) |
+| Reyes | [reyes.md](../fichas/npc/reyes.md) | [pack_badlands.md](../facoes/pack_badlands.md), [board](../board/board_campanha.md) |
+| Tio Gringo | [tio_gringo.md](../fichas/npc/tio_gringo.md) | [pack_badlands.md](../facoes/pack_badlands.md) |
+| Mara (recruta) | [mara_recruit.md](../fichas/npc/mara_recruit.md) | [lina_park.md](../fichas/npc/lina_park.md) |
+| Elias (recruta) | [elias_recruit.md](../fichas/npc/elias_recruit.md) | *Não confundir com Dr. Vossler* |
+| Tomas (recruta) | [tomas_recruit.md](../fichas/npc/tomas_recruit.md) | Monitoramento ativo (sessão 003–005) |
+| Sasha (pack) | [sasha.md](../fichas/npc/sasha.md) | [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) |
+| Lira (pack) | [lira.md](../fichas/npc/lira.md) | [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md), [sessao_002](../logs/sessao_resumo_002.md) |
+
+**Template:** [npc_template.md](../fichas/npc/npc_template.md)
 
 ---
 

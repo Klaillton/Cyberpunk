@@ -48,11 +48,11 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 | Nome                 | Papel                  | Relação com Ryan                  | Notas |
 |----------------------|------------------------|-----------------------------------|-------|
 | **Lena "Valk" Kane** | Parceira               | Amor declarado e relação profunda | Noite de conexão intensa (02/07) |
-| **Reyes**            | Líder do Pack       | Respeito técnico + cautela        | Reunião estratégica sobre recrutas |
-| **Tio Gringo**       | Ferreiro do Pack       | Alta estima e colaboração         | Avaliação final dos recrutas |
-| **Mara**             | Recruta (Med/Hidro)    | Positiva (em integração)          | Foco em medicina e cultivo |
-| **Elias**            | Recruta (Refinaria)    | Positiva (em integração)          | Recomendado para destilaria |
-| **Tomas**            | Recruta (Mecânica)  | Positiva (em integração, reservado) | Monitoramento recomendado |
+| **Reyes** | Líder do Pack | Respeito técnico + cautela | [ficha](../fichas/npc/reyes.md) |
+| **Tio Gringo** | Ferreiro do Pack | Alta estima e colaboração | [ficha](../fichas/npc/tio_gringo.md) |
+| **Mara** | Recruta (Med/Hidro) | Positiva (em integração) | [ficha](../fichas/npc/mara_recruit.md) |
+| **Elias** | Recruta (Refinaria) | Positiva; destilaria | [ficha](../fichas/npc/elias_recruit.md) |
+| **Tomas** | Recruta (Mecânica) | Cautela (monitoramento) | [ficha](../fichas/npc/tomas_recruit.md) |
 
 ---
 

@@ -93,6 +93,8 @@ Peça:
 | Dinheiro, recursos, projetos | `economia.md`, `logs/downtime_ryan.md` |
 | Evento futuro agendado | `event_queue.md` |
 | Fim de sessão | `logs/sessao_resumo_XXX.md` (próximo: `006`) + todos os arquivos acima afetados |
+| Job / gig concluído | `logs/job_XXX_<slug>.md` (usar [job_template.md](../logs/job_template.md)) + consequências, heat, event_queue |
+| NPC com personalidade ou arco próprio | `fichas/npc/<slug>.md` (usar [npc_template.md](../fichas/npc/npc_template.md)) + entrada em [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md) |
 
 Consulte a tabela completa em [registro_arquivos.md](registro_arquivos.md) (seção "Guia de Consulta Cruzada").
 

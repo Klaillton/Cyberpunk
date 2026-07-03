@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 02 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -24,12 +24,15 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Arco romântico futuro (polycule) | `relacionamentos/crew_polycule_ryan_valk_alex_reina.md` | `relacionamentos/crew_relacionamentos.md`, arquivos individuais |
 | Relações com facções | `relacionamentos/faccao_relacionamentos.md` | `facoes/pack_badlands.md`, `facoes/faccoes_geral.md`, `reputacao.md` |
 | Hub de personagens (onde achar cada NPC) | `relacionamentos/mapa_relacional_geral.md` | `fichas/`, `relacionamentos/*_relacionamentos.md` |
-| Ficha mecânica de personagem | `fichas/<personagem>.md` | Relacionamento correspondente em `relacionamentos/` |
+| Ficha mecânica de personagem (crew) | `fichas/<personagem>.md` | Relacionamento correspondente em `relacionamentos/` |
+| NPC secundário (personalidade + eventos) | `fichas/npc/<slug>.md` | [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md), facção/job/sessão |
 | Detalhes de facção ativa | `facoes/pack_badlands.md` | `relacionamentos/faccao_relacionamentos.md`, `reputacao.md` |
 | Facções menores / superficiais | `facoes/faccoes_geral.md` | `relacionamentos/faccao_relacionamentos.md` |
 | Atividades de downtime do Ryan | `logs/downtime_ryan.md` | `board/board_campanha.md`, `fichas/techie - ryan_wireghost_voss.md` |
 | Background e gatilhos do Ryan (narrador) | `fichas/notas_narrador/ryan_background_completo.md` | `fichas/notas_narrador/ryan_gatilhos_memorias.md`, `fichas/techie - ryan_wireghost_voss.md` (Elisa "Doc" Moreau) |
 | Histórico de sessão | `logs/sessao_resumo_XXX.md` | Arquivos listados na seção "Arquivos Atualizados" de cada resumo |
+| Detalhes de job / gig concluído | `logs/job_XXX_*.md` | `logs/sessao_resumo_*.md`, `consequencias/consequencias_persistentes.md`, `heat.md` |
+| Incidente narrativo marcante (combate, confronto) | `logs/incidente_XXX_*.md` | `consequencias/consequencias_persistentes.md`, `event_queue.md`, sessões |
 | Instruções do projeto (boot) | `sistema/instrucoes_projeto.md` | `diretrizes_ia.md`, este arquivo |
 | Regras da IA (boot sequence) | `sistema/diretrizes_ia.md` | `instrucoes_projeto.md`, este arquivo |
 | Regras do narrador | `sistema/diretrizes_narrador.md` | `sistema/diretrizes_ia.md` |
@@ -69,6 +72,17 @@ cyberpunk/
 │   ├── solo - reina_bearclaw_morales.md
 │   ├── techie - ryan_wireghost_voss.md
 │   ├── vehicle - the_mule.md
+│   ├── npc/                       ← Fichas mínimas (um NPC por arquivo)
+│   │   ├── npc_template.md
+│   │   ├── dr_elias_vossler.md
+│   │   ├── lina_park.md
+│   │   ├── reyes.md
+│   │   ├── tio_gringo.md
+│   │   ├── mara_recruit.md
+│   │   ├── elias_recruit.md
+│   │   ├── tomas_recruit.md
+│   │   ├── sasha.md
+│   │   └── lira.md
 │   └── notas_narrador/
 │       ├── ryan_background_completo.md
 │       └── ryan_gatilhos_memorias.md
@@ -80,9 +94,15 @@ cyberpunk/
 │   ├── solo - jax_razor_kane.png
 │   ├── solo - reina_bearclaw_morales.png
 │   ├── techie - ryan_wireghost_voss.jpg
-│   └── vehicle - the_mule.jpg
+│   ├── vehicle - the_mule.jpg
+│   ├── Sasha.jpg
+│   └── Lira.jpg
 ├── logs/
 │   ├── downtime_ryan.md
+│   ├── job_template.md
+│   ├── job_001_extracao_vossler.md
+│   ├── incidente_001_incursao_recursos_raffen.md
+│   ├── incidente_002_incursao_noturna_raffen.md
 │   ├── sessao_resumo_template.md
 │   ├── sessao_resumo_001.md
 │   ├── sessao_resumo_002.md
@@ -146,6 +166,8 @@ cyberpunk/
   - `sistema/dashboard_contexto.md`
   - `relacionamentos/mapa_relacional_geral.md`
 - **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **006**.
+- **Jobs / Gigs:** Padrão `logs/job_XXX_<slug>.md` para briefing, execução e fallout permanente. Sessões referenciam o job; não duplicar táticas completas no resumo.
+- **NPCs secundários:** Um arquivo em `fichas/npc/<slug>.md` quando o personagem tem personalidade ou eventos que não cabem só no board/facção. Índice em [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md). **Não** misturar vários NPCs num único arquivo (dificulta busca da IA).
 - **Facções:** Detalhes em `facoes/`. Facções menores em `facoes/faccoes_geral.md`.
 - **Referências cruzadas:** Cada arquivo relevante possui seção `## Referências` apontando para arquivos relacionados.
 - O **Source of Truth** permanece nos arquivos locais do jogador.

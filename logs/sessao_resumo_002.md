@@ -5,7 +5,8 @@
 
 ## Eventos Principais
 
-- Ryan retornou de uma incursão noturna bem-sucedida, neutralizando 16 Raffen Shivs de forma fria e profissional.
+- **Incidente 001** (primeira incursão por recursos): emboscada Raffen; Ryan mandou o pack ficar em cobertura, mas parte devolveu fogo; confronto (“não pedi ajuda”); execução do último hostil. Ver [incidente_001_incursao_recursos_raffen.md](incidente_001_incursao_recursos_raffen.md).
+- **Incidente 002** (incursão noturna): Ryan solo na Fase 1, ~16 Raffen neutralizados em silêncio; pack com medo/respeito (muitos só ouviram falar). Ver [incidente_002_incursao_noturna_raffen.md](incidente_002_incursao_noturna_raffen.md).
 - Construção e teste da **cerca em estrela** (82% concluída + fosso) — grande melhoria na defesa do acampamento.
 - **Performance musical** marcante com três músicas (Feeling Good → Way Down We Go → Carnival of Lust), revelando o lado emocional de Ryan para o pack.
 - Conversa emocional profunda com **Valk** sobre seu passado na rua, problemas de memória, insônia e medo de machucá-la.
@@ -19,7 +20,7 @@
 ## Estado Emocional e Relacionamentos
 
 - **Valk**: Relação profunda e intensa (amor declarado). Ela aceitou o lado vulnerável e o lado frio de Ryan. Preocupada com o lado "operador", mas totalmente ao lado dele.
-- **Pack Nômade**: Confiança média-alta, porém com cautela. Reyes respeita o trabalho técnico. Sasha e Lira tentam se aproximar de Valk. Algumas pessoas passaram a ter medo/respeito após a incursão.
+- **Pack Nômade**: Confiança média-alta, porém com cautela. Reyes respeita o trabalho técnico. [Sasha](../fichas/npc/sasha.md) e [Lira](../fichas/npc/lira.md) tentam se aproximar de Valk. Medo/respeito após os episódios Raffen — quem viu o confronto na primeira saída (Sasha) ficou especialmente marcado.
 
 ## Ameaças e Consequências
 
@@ -41,6 +42,7 @@ Ryan continua em downtime produtivo no acampamento, ganhando reputação técnic
 
 ## Arquivos Atualizados Nesta Sessão
 
+- [incidente_001_incursao_recursos_raffen.md](incidente_001_incursao_recursos_raffen.md) · [incidente_002_incursao_noturna_raffen.md](incidente_002_incursao_noturna_raffen.md)
 - [board/board_campanha.md](../board/board_campanha.md)
 - [consequencias/consequencias_persistentes.md](../consequencias/consequencias_persistentes.md)
 - [relacionamentos/ryan_relacionamentos.md](../relacionamentos/ryan_relacionamentos.md)

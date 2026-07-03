@@ -143,11 +143,12 @@ Ryan está ativamente **ensinando novas pessoas do Pack** seu conhecimento técn
 
 - **Reyes** (Líder) → Relação cautelosa, mas com confiança técnica crescente.
 - **Tio Gringo** (Ferreiro mais velho) → Respeito técnico alto. Ryan tem ajudado ele diretamente.
-- **Sasha e Lira** → Tentando se aproximar de Valk. Impressionadas e um pouco assustadas com o lado operador de Ryan.
+- **Sasha** → [ficha](../fichas/npc/sasha.md). Presenciou o [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) (confronto + execução). Medo/respeito pelo lado soldado de Ryan.
+- **Lira** → [ficha](../fichas/npc/lira.md). Tentando se aproximar de Valk. Assustada com o lado operador (ouviu falar / viu de longe); ajudou Valk a acalmar o grupo após o [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md).
 - **Crianças do Pack** → Ryan interage bem com elas (faceta mais gentil).
 
 **Notas do Narrador:**
-Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto como alguém útil, protetor e que está disposto a ensinar. A revelação do seu lado mais frio durante a incursão gerou uma mistura de admiração e cautela.
+Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto como alguém útil, protetor e que está disposto a ensinar. A revelação do lado operador — [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) (confronto) + [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md) (16 hostis solo, silencioso) — gerou admiração e cautela.
 
 ---
 

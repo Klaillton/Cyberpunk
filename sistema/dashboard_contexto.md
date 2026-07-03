@@ -22,7 +22,7 @@
 
 **Observações importantes:**
 
-- O Pack tem uma mistura de admiração e cautela em relação ao lado "operador frio" de Ryan.
+- O Pack tem admiração e cautela pelo lado operador de Ryan ([Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) + [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md)).
 - Valk está se integrando socialmente (com alguma tensão com Sasha e Lira).
 
 ---

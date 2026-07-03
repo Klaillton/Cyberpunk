@@ -11,7 +11,7 @@
 **Status com o Jogador:** Hostil (um grupo foi eliminado pelo jogador)
 
 **Resumo:**
-Grupo de Raffen Shiv de pequeno porte que foi neutralizado pelo jogador. Outro grupo maior foi avistado de passagem, mas não houve interação direta.
+Bando emboscou o pack no [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) (22–23/06). [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md): mesma área, ~16 Raffen eliminados em incursão noturna silenciosa (Ryan solo). Outros bandos avistados sem contato direto.
 
 **Notas:**
 

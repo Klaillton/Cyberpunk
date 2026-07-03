@@ -26,10 +26,17 @@ Ver arquivo principal: `relacionamentos/faccao_relacionamentos.md`
 
 ## Principais NPCs Relevantes
 
-- **Reyes** — Líder do Pack. Relação cautelosa, mas com confiança técnica crescente.
-- **Tio Gringo** — Ferreiro mais velho do Pack. Tem alta estima por Ryan, que o ajuda diretamente na forja.
-- **Sasha e Lira** — Jovens do Pack que estão tentando se aproximar de Valk.
-- **Mara, Elias e Tomas** — Novos recrutas em fase de integração (avaliação inicial positiva).
+Fichas mínimas (personalidade + eventos): ver [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md#npcs-secundários-fichas-mínimas).
+
+| NPC | Ficha | Resumo |
+| --- | ----- | ------ |
+| **Reyes** | [reyes.md](../fichas/npc/reyes.md) | Líder; cautela + confiança técnica crescente |
+| **Tio Gringo** | [tio_gringo.md](../fichas/npc/tio_gringo.md) | Ferreiro; alta estima por Ryan |
+| **Mara** | [mara_recruit.md](../fichas/npc/mara_recruit.md) | Med/hidroponia; integração positiva |
+| **Elias** | [elias_recruit.md](../fichas/npc/elias_recruit.md) | Refinaria; indicado para destilaria |
+| **Tomas** | [tomas_recruit.md](../fichas/npc/tomas_recruit.md) | Mecânica; sob monitoramento |
+| **Sasha** | [sasha.md](../fichas/npc/sasha.md) | Testemunha do Incidente 001; medo/respeito por Ryan |
+| **Lira** | [lira.md](../fichas/npc/lira.md) | Atiradora/batedora; tenta se aproximar de Valk; ajudou a acalmar o pack pós-Incidente 002 |
 
 ## Locais e Bases Conhecidas
 
@@ -43,7 +50,7 @@ Ver arquivo principal: `relacionamentos/faccao_relacionamentos.md`
 - Ryan ensinou técnicas de precisão e fabricação para membros do Pack.
 - Construiu e testou perímetro defensivo.
 - Atualizou e entregou o Mule para Valk (presente).
-- Revelou múltiplas facetas (mecânico, cantor e operador frio), gerando admiração e certa cautela.
+- Revelou múltiplas facetas (mecânico, cantor e operador). [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md): emboscada + confronto. [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md): ~16 Raffen eliminados em silêncio — medo/respeito por histórias e retorno “modo job”.
 - **02/07:** Reunião estratégica com Reyes e Tio Gringo sobre integração dos novos recrutas (Mara, Elias e Tomas). Ryan recomendou Elias para a destilaria e monitoramento de Tomas.
 
 ## Rumores e Informações Parciais

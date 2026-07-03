@@ -31,7 +31,7 @@ Eles têm uma dinâmica de muito carinho físico, sexo frequente (com elementos 
 Recentemente Ryan demonstrou várias facetas para o pack:
 
 - O "Mecânico" gentil, brincalhão com crianças, socialmente um pouco desligado e workaholic.
-- O Operador frio, pragmático e assustador (neutralizou 16 hostis em poucos minutos de forma silenciosa e profissional).
+- O Operador frio, pragmático e assustador ([Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md): ~16 Raffen em minutos, silencioso).
 - O Cantor emocional (performance com letras tristes e significativas).
 
 Valk viu o lado vulnerável de Ryan (passado na rua, problemas de memória, insônia, medo de machucá-la) e aceitou. A relação se fortaleceu, mas ela continua preocupada com o lado "desligado" dele em situações de combate.

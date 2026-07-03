@@ -7,9 +7,13 @@
 
 ---
 
+## Job relacionado
+
+- **Job 001 — Extração Vossler** (15–16/06): ver [job_001_extracao_vossler.md](job_001_extracao_vossler.md) para briefing, execução em Watson/Red Mercury e fallout pós-entrega.
+
 ## Eventos Principais
 
-- Fuga bem-sucedida de Night City após extração do Dr. Elias Vossler.
+- Fuga bem-sucedida de Night City após o fallout do Job 001 (Biotechnica rastreia comprador; Kaz aciona evacuação para Badlands).
 - Chegada e integração inicial no acampamento nômade de Reyes no Badlands.
 - Ryan começou trabalho técnico (bomba d'água, gerador, construção de máquinas na forja).
 - Desenvolvimento profundo do relacionamento com Valk (declaração de amor mútuo, intimidade intensa).
@@ -63,6 +67,7 @@
 
 ## Arquivos Atualizados Nesta Sessão
 
+- [logs/job_001_extracao_vossler.md](job_001_extracao_vossler.md) *(retroativo — detalhes do job)*
 - [board/board_campanha.md](../board/board_campanha.md)
 - [consequencias/consequencias_persistentes.md](../consequencias/consequencias_persistentes.md)
 - [relacionamentos/ryan_relacionamentos.md](../relacionamentos/ryan_relacionamentos.md)

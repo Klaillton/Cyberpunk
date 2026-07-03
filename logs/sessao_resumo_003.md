@@ -1,9 +1,9 @@
-# Resumo de Sessão - [Sessão em andamento / Nº aproximado]
+# Resumo de Sessão — 003
 
-**Data:** 01/07/2026  
+**Data:** 01 de julho de 2026  
 **Duração aproximada:** Várias horas (viagem + chegada)  
 **Jogador:** Ryan "Wireghost" Voss  
-**Narrador:** Grok (Motor de Simulação)
+**Narrador:** IA
 
 ---
 
@@ -11,7 +11,8 @@
 
 - Ryan cochilou durante a última etapa da viagem de volta do encontro com Lina Park (após fazer guarda à noite).
 - Chegada ao Cânion no horário do almoço. O pack está com a cerca parcialmente erguida e segurança reforçada.
-- Ryan apresentou os três novos recrutas (Elias, Mara e Tomas) para Reyes, destacando suas habilidades: médica (campo + hidroponia), especialista em refinaria/processamento químico e mecânico (logística, construção, eletrônica).
+- Retorno do encontro com [Lina Park](../fichas/npc/lina_park.md) com três recrutas: [Mara](../fichas/npc/mara_recruit.md), [Elias](../fichas/npc/elias_recruit.md) e [Tomas](../fichas/npc/tomas_recruit.md).
+- Ryan apresentou os três a [Reyes](../fichas/npc/reyes.md), destacando habilidades: médica (campo + hidroponia), refinaria/processamento químico e mecânico (logística, construção, eletrônica).
 - Valk levou os novos para almoçar e apresentar ao resto do pack.
 - Ryan guardou equipamentos (incluindo Pill) na tenda compartilhada com Valk. O Warden permaneceu com ele.
 - Drones (vespas) em patrulha rotativa no perímetro do pack.
@@ -54,8 +55,8 @@
 
 ---
 
-**Arquivo gerado em:** 01/07/2026  
-**Enviado para GitHub:** Não (aguardando confirmação do jogador)
+**Arquivo gerado em:** 01 de julho de 2026  
+**Enviado para GitHub:** Sim
 
 ---
 

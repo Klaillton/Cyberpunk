@@ -19,7 +19,7 @@
 ## Fatores que Aumentam o Heat
 
 - Operação bem-sucedida contra a Biotechnica (+)
-- Incursão noturna onde Ryan neutralizou 16 hostis (+)
+- Incursões Raffen: [Incidente 001](logs/incidente_001_incursao_recursos_raffen.md) + [Incidente 002](logs/incidente_002_incursao_noturna_raffen.md) (~16 hostis noturnos) (+)
 - Revelação de múltiplas facetas (especialmente o lado operador frio) (+)
 - Trabalho técnico de alto nível no Pack (pode chamar atenção)
 
