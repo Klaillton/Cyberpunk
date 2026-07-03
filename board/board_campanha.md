@@ -1,7 +1,7 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** 03 de Julho de 2026  
-**Local:** Acampamento do Pack Nômade de Badlands
+**Data Atual:** 03 de Julho de 2026 (manhã)  
+**Local:** Acampamento do Pack Nômade de Badlands — área dos novatos (Ryan observando; recrutas ainda não o notaram)
 
 ---
 
@@ -47,7 +47,7 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 
 | Nome                 | Papel                  | Relação com Ryan                  | Notas |
 |----------------------|------------------------|-----------------------------------|-------|
-| **Lena "Valk" Kane** | Parceira               | Amor declarado e relação profunda | Noite de conexão intensa (02/07) |
+| **Lena "Valk" Kane** | Parceira               | Amor declarado e relação profunda | Dormindo na tenda (Ryan saiu em silêncio, 03/07 manhã) |
 | **Reyes** | Líder do Pack | Respeito técnico + cautela | [ficha](../fichas/npc/reyes.md) |
 | **Tio Gringo** | Ferreiro do Pack | Alta estima e colaboração | [ficha](../fichas/npc/tio_gringo.md) |
 | **Mara** | Recruta (Med/Hidro) | Positiva (em integração) | [ficha](../fichas/npc/mara_recruit.md) |
@@ -66,7 +66,7 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 
 ---
 
-**Última atualização:** 02 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026
 
 ---
 
@@ -78,4 +78,4 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 
 **Facções:** [Pack Badlands](../facoes/pack_badlands.md) · [Facções Gerais](../facoes/faccoes_geral.md) · [Rel. Facções](../relacionamentos/faccao_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 005](../logs/sessao_resumo_005.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 006](../logs/sessao_resumo_006.md)

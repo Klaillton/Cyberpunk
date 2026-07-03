@@ -26,6 +26,7 @@
 | 30/06–01/07/2026 | Ex-técnico de refinaria; recrutado via Lina para o pack. |
 | 01/07/2026 | Apresentado a Reyes com foco em processamento e manutenção pesada. |
 | 02/07/2026 | Ryan recomenda para **destilaria** na reunião com Reyes e Tio Gringo. |
+| 03/07/2026 | Observado por Ryan de manhã na área da destilaria improvisada, trabalhando com ferramentas, concentrado e útil (ainda não notou Ryan). |
 
 ## Relação com a crew
 

@@ -25,6 +25,7 @@
 | 30/06–01/07/2026 | Recrutado via Lina; Ryan desconfia da inquietação na viagem. |
 | 01/07/2026 | Chegada ao pack; Ryan pede vigilância discreta dos drones no perímetro. |
 | 02/07/2026 | Ryan recomenda **monitoramento mais próximo** na reunião com Reyes. |
+| 03/07/2026 | Observado por Ryan de manhã sentado afastado, fumando e observando o acampamento — ainda em adaptação (ainda não notou Ryan). |
 
 ## Relação com a crew
 

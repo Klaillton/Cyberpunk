@@ -1,0 +1,23 @@
+{
+  "api_template": "https://grok.com/rest/app-chat/share_links/{share_id}",
+  "shares": [
+    {
+      "key": "part1",
+      "label": "Cyberpunk Fixer Job in Night City I",
+      "share_id": "c2hhcmQtMw_7693f499-55ce-4664-ad75-ad753d5d32f7",
+      "url": "https://grok.com/share/c2hhcmQtMw_7693f499-55ce-4664-ad75-ad753d5d32f7"
+    },
+    {
+      "key": "part2",
+      "label": "Cyberpunk Fixer Job in Night City II",
+      "share_id": "c2hhcmQtMw_4d12d387-1fbd-4048-acdb-e04f2b600d69",
+      "url": "https://grok.com/share/c2hhcmQtMw_4d12d387-1fbd-4048-acdb-e04f2b600d69"
+    },
+    {
+      "key": "part3",
+      "label": "Cyberpunk Fixer Job in Night City III",
+      "share_id": "c2hhcmQtMw_3a2e3f42-926b-4c25-9edb-9c660286f2c8",
+      "url": "https://grok.com/share/c2hhcmQtMw_3a2e3f42-926b-4c25-9edb-9c660286f2c8"
+    }
+  ]
+}

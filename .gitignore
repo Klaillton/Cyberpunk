@@ -3,3 +3,6 @@ mcps/
 
 # Artefatos temporários de suporte da IA (extrações Grok, scripts, caches)
 agent-tools/
+
+# Cache e estado do sync automático Grok → campanha
+.grok-sync/

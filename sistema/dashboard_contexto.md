@@ -2,19 +2,20 @@
 
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
-**Última atualização:** 01 de Julho de 2026 - 19:00
+**Última atualização:** 03 de Julho de 2026 - manhã
 
 ---
 
 ## 1. Situação Atual com o Pack de Badlands
 
 **Fonte principal:** `consequencias/consequencias_persistentes.md` + `relacionamentos/ryan_relacionamentos.md`  
-**Última verificação:** 01/07/2026  
+**Última verificação:** 03/07/2026  
 **Validade sugerida:** 5 dias
 
 **Resumo:**
 
 - Ryan e Valk estão hospedados no Pack Nômade de Badlands.
+- **Manhã 03/07:** Ryan saiu da tenda em silêncio (Valk ainda dormindo); foi verificar Tomas, Elias e Mara na área dos novatos.
 - Tendas modulares finalizadas.
 - Ryan está ativamente ensinando e integrando **Mara, Elias e Tomas**.
 - Reputação com o Pack: **+65 (Muito Positiva)**.
@@ -30,12 +31,13 @@
 ## 2. Relação com Lena "Valk" Kane
 
 **Fonte principal:** `relacionamentos/ryan_relacionamentos.md`  
-**Última verificação:** 01/07/2026  
+**Última verificação:** 03/07/2026  
 **Validade sugerida:** 7 dias
 
 **Resumo:**
 
 - Relação **consolidada e profunda**.
+- Ryan deixou Valk dormindo após cafuné, abraço e beijo no rosto (03/07 manhã).
 - Amor mútuo declarado.
 - Valk aceita tanto o lado carinhoso quanto o lado frio/operador de Ryan.
 - Rotina diária de carinho e intimidade.
@@ -98,12 +100,12 @@
 
 **Finalidade:** Manter coerência de tempo e espaço entre cenas. Esta seção deve ser consultada com frequência e atualizada sempre que houver mudança relevante de local ou contexto.
 
-**Última verificação:** 01/07/2026  
+**Última verificação:** 03/07/2026  
 **Validade sugerida:** 3 dias (ou sempre que houver mudança de local)
 
 ### Local Atual
 
-- **Local:** Acampamento do Pack Nômade de Badlands (oficina + área de acampamento)
+- **Local:** Acampamento do Pack Nômade de Badlands — área dos novatos / destilaria improvisada (Ryan em observação)
 - **Descrição do local:** Área semi-organizada com tendas, veículos modificados, uma oficina improvisada com estrutura de usinagem e forja, e um perímetro reforçado recentemente construído por Ryan.
 - **Quantidade aproximada de pessoas:** Cerca de 25~35 pessoas (incluindo adultos, algumas crianças e adolescentes).
 - **Principais áreas conhecidas:**
@@ -114,7 +116,7 @@
 
 ### Contexto Temporal Atual
 
-- **Período do dia:** Variável (atualizar conforme a cena)
+- **Período do dia:** Manhã (sol baixo, ar fresco nas Badlands)
 - **Clima aproximado:** Típico das Badlands (quente durante o dia, frio à noite)
 - **Estado geral do Pack:** Em processo de fortalecimento técnico e defensivo graças à presença de Ryan.
 

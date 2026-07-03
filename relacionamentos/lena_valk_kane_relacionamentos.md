@@ -12,6 +12,7 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **Intensidade:** Alta
 - **Tipo:** Romântico + Aliança profunda
 - **Notas:** Existe amor mútuo. Valk aceita tanto o lado carinhoso quanto o lado frio/operador de Ryan. A relação é intensa, carinhosa e um pouco possessiva. Eles evitam ficar muito tempo sozinhos em espaços pequenos por causa da tensão não resolvida do passado.
+- **03/07/2026 (manhã):** Dormindo na tenda após a noite de 02/07; Ryan saiu em silêncio após cafuné, abraço e beijo no rosto (ela não acordou).
 
 ### Alex "Specter" Kane
 

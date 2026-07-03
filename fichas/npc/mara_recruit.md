@@ -25,6 +25,7 @@
 | 30/06–01/07/2026 | Selecionada por Lina; aceita proposta de pack móvel com proteção. |
 | 01/07/2026 | Apresentada a Reyes; integração social com Valk no almoço. |
 | 02/07/2026 | Participa da montagem de tendas; avaliação positiva na reunião estratégica. |
+| 03/07/2026 | Observada por Ryan de manhã carregando suprimentos com o pack, mantendo certa distância social (ainda não notou Ryan). |
 
 ## Relação com a crew
 

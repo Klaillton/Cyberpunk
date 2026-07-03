@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 02 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026
 
 ---
 
@@ -24,7 +24,7 @@
 
 **Status:** Namorando (relação consolidada e profunda)  
 **Intensidade:** Alta  
-**Última atualização:** 02 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026
 
 **Evolução conhecida:**
 
@@ -35,6 +35,10 @@
 **Atualização da sessão (02/07):**
 
 - Ryan e Valk tiveram um momento íntimo prolongado e carinhoso na tenda. Incluiu massagem sensual com óleo aromático (laranja + alecrim), estimulação prolongada e múltiplos orgasmos, seguido de aftercare e sono abraçados. A conexão emocional foi reforçada.
+
+**Atualização da sessão (03/07 manhã):**
+
+- Ryan permaneceu com Valk dormindo (cafuné leve), abraçou-a, beijou o rosto e saiu da tenda em silêncio para não acordá-la; em seguida foi verificar os novatos no acampamento.
 
 **Estado atual:**
 
@@ -130,7 +134,7 @@
 **Status:** Hospedagem + Integração em andamento  
 **Confiança geral com o Pack:** Média-Alta (em crescimento)  
 **Duração prevista:** Indefinida  
-**Última atualização:** 02 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026
 
 **Líder do Pack:** Reyes
 
