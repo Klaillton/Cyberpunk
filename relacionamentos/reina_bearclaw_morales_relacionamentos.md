@@ -12,7 +12,7 @@
 
 - **Status:** Conhecido / Aliado
 - **Tipo de relação:** Proteção (estilo "Mãe Urso")
-- **Notas:** Reina já conheceu Ryan através da Doc. Ryan não se lembra dos detalhes. Existe potencial romântico no futuro.
+- **Notas:** Reina já conheceu Ryan através da Doc. Ryan não se lembra dos detalhes. Existe potencial romântico no futuro — ver [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
 
 ### Lena “Valk” Kane
 
@@ -36,6 +36,6 @@
 
 ## Referências
 
-- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Crew](crew_relacionamentos.md)
+- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Crew](crew_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md)
 - [Ficha Reina](../fichas/solo%20-%20reina_bearclaw_morales.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)

@@ -18,7 +18,7 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **Status:** Interesse romântico de Alex
 - **Intensidade:** Média
 - **Tipo:** Unilateral (por enquanto)
-- **Notas:** Alex demonstra interesse romântico em Valk. Valk ainda não demonstrou reciprocidade clara. Isso pode gerar tensão futura com Ryan.
+- **Notas:** Alex demonstra interesse romântico em Valk. Valk ainda não demonstrou reciprocidade clara. Isso pode gerar tensão futura com Ryan. Arco futuro detalhado em [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
 
 ### Reina "Bearclaw" Morales
 
@@ -45,6 +45,6 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 
 ## Referências
 
-- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Crew](crew_relacionamentos.md)
+- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Crew](crew_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md)
 - [Ficha Valk](../fichas/nomad%20-%20lena_valk_kane.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Jax — ficha](../fichas/solo%20-%20jax_razor_kane.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Pack Badlands](../facoes/pack_badlands.md)

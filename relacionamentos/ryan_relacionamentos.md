@@ -89,7 +89,7 @@
 
 **Notas do Narrador:**
 
-- Evolução romântica futura é possível, mas seria complexa devido à dinâmica atual com Valk e Alex.
+- Evolução romântica futura é possível, mas seria complexa devido à dinâmica atual com Valk e Alex. Ver arco proposto em [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
 
 ---
 
@@ -116,7 +116,7 @@
 
 - Interesse de Alex em Valk pode gerar tensão.
 - Interesse futuro de Reina em Ryan pode complicar a dinâmica do grupo.
-- Possibilidade de dinâmica romântica complexa envolvendo Ryan, Valk, Alex e Reina.
+- Possibilidade de dinâmica romântica complexa envolvendo Ryan, Valk, Alex e Reina — ver [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
 
 ---
 
@@ -158,7 +158,7 @@ Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto com
 
 ## Referências
 
-- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Crew](crew_relacionamentos.md) · [Facções](faccao_relacionamentos.md)
+- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Crew](crew_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md) · [Facções](faccao_relacionamentos.md)
 - [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md)
 - **Individuais:** [Valk](lena_valk_kane_relacionamentos.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Reina](reina_bearclaw_morales_relacionamentos.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md) · [Reputação](../reputacao.md)

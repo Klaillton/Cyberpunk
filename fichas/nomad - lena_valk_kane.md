@@ -87,5 +87,5 @@ Ryan e Valk estão namorando. Ryan ajuda ativamente ela com manutenção do The 
 
 ## Referências
 
-- [Relacionamentos Valk](../relacionamentos/lena_valk_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- [Relacionamentos Valk](../relacionamentos/lena_valk_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Pack Badlands](../facoes/pack_badlands.md)

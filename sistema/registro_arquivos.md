@@ -21,6 +21,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Situação financeira | `economia.md` | `board/board_campanha.md`, `logs/downtime_ryan.md` |
 | Relações do protagonista | `relacionamentos/ryan_relacionamentos.md` | `relacionamentos/mapa_relacional_geral.md`, `relacionamentos/crew_relacionamentos.md` |
 | Dinâmica entre membros da crew | `relacionamentos/crew_relacionamentos.md` | `relacionamentos/mapa_relacional_geral.md` |
+| Arco romântico futuro (polycule) | `relacionamentos/crew_polycule_ryan_valk_alex_reina.md` | `relacionamentos/crew_relacionamentos.md`, arquivos individuais |
 | Relações com facções | `relacionamentos/faccao_relacionamentos.md` | `facoes/pack_badlands.md`, `facoes/faccoes_geral.md`, `reputacao.md` |
 | Hub de personagens (onde achar cada NPC) | `relacionamentos/mapa_relacional_geral.md` | `fichas/`, `relacionamentos/*_relacionamentos.md` |
 | Ficha mecânica de personagem | `fichas/<personagem>.md` | Relacionamento correspondente em `relacionamentos/` |
@@ -88,6 +89,7 @@ cyberpunk/
 │   ├── mapa_relacional_geral.md   ← Hub de personagens
 │   ├── ryan_relacionamentos.md
 │   ├── crew_relacionamentos.md
+│   ├── crew_polycule_ryan_valk_alex_reina.md
 │   ├── faccao_relacionamentos.md
 │   ├── alex_specter_kane_relacionamentos.md
 │   ├── lena_valk_kane_relacionamentos.md

@@ -74,4 +74,5 @@ Após cada sessão, os arquivos mais críticos a revisar são:
 - [Instruções do Projeto](sistema/instrucoes_projeto.md) · [Registro de Arquivos](sistema/registro_arquivos.md)
 - [Diretrizes IA](sistema/diretrizes_ia.md) · [Diretrizes Narrador](sistema/diretrizes_narrador.md)
 - [Mapa Relacional Geral](relacionamentos/mapa_relacional_geral.md)
+- [Arco Polycule (futuro)](relacionamentos/crew_polycule_ryan_valk_alex_reina.md)
 - [Board de Campanha](board/board_campanha.md)

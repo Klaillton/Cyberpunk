@@ -34,6 +34,7 @@ Se tiver dúvidas ou precisar de mais contexto antes de aplicar as mudanças, me
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Atualização geral de sessão**          | `Com base neste chat, atualize o Board e as Consequências Persistentes com o que aconteceu. Depois me mostre um resumo das mudanças propostas.`                                          |
 | **Foco em Relacionamentos**              | `Analise este chat e atualize os arquivos de relacionamentos (ryan_relacionamentos.md, crew_relacionamentos.md, faccao_relacionamentos.md) com as interações e mudanças que ocorreram.`  |
+| **Foco em Arco Polycule**                | `Analise este chat e atualize crew_polycule_ryan_valk_alex_reina.md (fase atual, eventos, conflitos) e os arquivos individuais de Ryan, Valk, Alex e Reina conforme necessário.`        |
 | **Foco em Downtime**                     | `Atualize o downtime_ryan.md com as atividades que Ryan realizou nesse período.`                                                                                                         |
 | **Atualização completa (com segurança)** | `Faça uma análise completa deste chat e proponha atualizações para Board, Consequências, Relacionamentos, Downtime, sugira outros arquivos a serem atualizados/criados. Só aplique depois que eu confirmar.`                                |
 | **Chats muito antigos / confusos**       | `Leia este chat antigo e extraia os eventos importantes que ainda não estão registrados nos arquivos da campanha. Me mostre um resumo primeiro.`                                         |
@@ -86,6 +87,7 @@ Peça:
 | Mudança de missão, local ou NPCs ativos | `board/board_campanha.md`, `sistema/dashboard_contexto.md` |
 | Novo impacto permanente | `consequencias/consequencias_persistentes.md` |
 | Interação com NPC | `relacionamentos/ryan_relacionamentos.md` e/ou arquivo individual + `crew_relacionamentos.md` |
+| Progresso no arco polycule | `relacionamentos/crew_polycule_ryan_valk_alex_reina.md` + arquivos individuais dos envolvidos + `crew_relacionamentos.md` |
 | Mudança com facção | `relacionamentos/faccao_relacionamentos.md`, `facoes/`, `reputacao.md` |
 | Ação chamativa / discrição | `heat.md`, possivelmente `event_queue.md` |
 | Dinheiro, recursos, projetos | `economia.md`, `logs/downtime_ryan.md` |

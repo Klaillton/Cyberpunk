@@ -23,12 +23,12 @@
 - **Alex + Ryan**: Provocação constante (especialmente por causa de Valk).
 - **Reina + Ryan**: Relação protetora atual, com potencial romântico futuro.
 - **Reina + Doc**: Amizade forte. Doc dá atenção especial a Reina.
-- **Futuro possível**: Dinâmica romântica complicada entre Ryan, Valk, Alex e Reina.
+- **Futuro possível**: Dinâmica romântica complicada entre Ryan, Valk, Alex e Reina — ver [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
 
 ---
 
 ## Referências
 
-- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Facções](faccao_relacionamentos.md)
+- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md) · [Facções](faccao_relacionamentos.md)
 - **Fichas:** [Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Valk](../fichas/nomad%20-%20lena_valk_kane.md) · [Alex](../fichas/netrunner%20-%20alex_specter_kane.md) · [Reina](../fichas/solo%20-%20reina_bearclaw_morales.md) · [Kaz](../fichas/fixer%20-%20kaz_the_broker_takahashi.md) · [Doc](../fichas/medtech%20-%20doc_stephania_voss.md) · [Jax](../fichas/solo%20-%20jax_razor_kane.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md) · [Reputação](../reputacao.md)

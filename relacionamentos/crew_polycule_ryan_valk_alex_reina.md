@@ -52,14 +52,14 @@ Antes de qualquer coisa romântica acontecer de forma explícita, Reina já deve
 
 ## Arco Proposto (Fases)
 
-| Fase | Nome              | Foco              | Eventos Principais                                                 | Conflito Principal                     |
-| ---- | ----------------- | ----------------- | ------------------------------------------------------------------ | -------------------------------------- |
+| Fase | Nome              | Foco              | Eventos Principais                                                                            | Conflito Principal                     |
+| ---- | ----------------- | ----------------- | --------------------------------------------------------------------------------------------- | -------------------------------------- |
 | 1    | O Reencontro      | Alex volta        | Alex reaparece. Valk fica afetada. Ryan percebe algo estranho. Reina já atua como confidente. | Tensão inicial                         |
-| 2    | O Beijo Visto     | Descoberta        | Ryan vê Alex beijando Valk. Valk retribui mas afasta.              | Ryan começa a se fechar emocionalmente |
-| 3    | O Desligamento    | Ryan se fecha     | Ryan entra em modo operador frio. Reina percebe e intervém.        | Valk e Alex ficam preocupadas          |
-| 4    | A Mediadora       | Reina se envolve  | Reina tenta ajudar. Começa a questionar seus sentimentos por Ryan. | Reina em negação                       |
-| 5    | O Caos            | Triângulo exposto | Conversas difíceis, ciúmes, confissões. Alex acelera com Valk.     | Drama + tensão emocional               |
-| 6    | Formação do Grupo | Equilíbrio        | Os quatro começam a encontrar uma dinâmica estável.                | Aceitação e novos arranjos             |
+| 2    | O Beijo Visto     | Descoberta        | Ryan vê Alex beijando Valk. Valk retribui mas afasta.                                         | Ryan começa a se fechar emocionalmente |
+| 3    | O Desligamento    | Ryan se fecha     | Ryan entra em modo operador frio. Reina percebe e intervém.                                   | Valk e Alex ficam preocupadas          |
+| 4    | A Mediadora       | Reina se envolve  | Reina tenta ajudar. Começa a questionar seus sentimentos por Ryan.                            | Reina em negação                       |
+| 5    | O Caos            | Triângulo exposto | Conversas difíceis, ciúmes, confissões. Alex acelera com Valk.                                | Drama + tensão emocional               |
+| 6    | Formação do Grupo | Equilíbrio        | Os quatro começam a encontrar uma dinâmica estável.                                           | Aceitação e novos arranjos             |
 
 ---
 
@@ -75,3 +75,12 @@ Antes de qualquer coisa romântica acontecer de forma explícita, Reina já deve
 
 **Status:** Ideia em desenvolvimento  
 **Última atualização:** 03 de Julho de 2026
+
+---
+
+## Referências
+
+- [Mapa Relacional Geral](mapa_relacional_geral.md) · [Crew](crew_relacionamentos.md) · [Ryan](ryan_relacionamentos.md)
+- **Individuais:** [Valk](lena_valk_kane_relacionamentos.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Reina](reina_bearclaw_morales_relacionamentos.md)
+- **Fichas:** [Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Valk](../fichas/nomad%20-%20lena_valk_kane.md) · [Alex](../fichas/netrunner%20-%20alex_specter_kane.md) · [Reina](../fichas/solo%20-%20reina_bearclaw_morales.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md)

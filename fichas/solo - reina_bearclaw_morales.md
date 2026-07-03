@@ -87,5 +87,6 @@ Alta para iniciativa e awareness em combate próximo. Reina é o tanque emociona
 - [Relacionamentos Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md)
 - [Crew](../relacionamentos/crew_relacionamentos.md)
+- [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)
 - [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)
