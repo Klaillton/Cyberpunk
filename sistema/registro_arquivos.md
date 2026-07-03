@@ -28,13 +28,14 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Detalhes de facção ativa | `facoes/pack_badlands.md` | `relacionamentos/faccao_relacionamentos.md`, `reputacao.md` |
 | Facções menores / superficiais | `facoes/faccoes_geral.md` | `relacionamentos/faccao_relacionamentos.md` |
 | Atividades de downtime do Ryan | `logs/downtime_ryan.md` | `board/board_campanha.md`, `fichas/techie - ryan_wireghost_voss.md` |
+| Background e gatilhos do Ryan (narrador) | `fichas/notas_narrador/ryan_background_completo.md` | `fichas/notas_narrador/ryan_gatilhos_memorias.md`, `fichas/techie - ryan_wireghost_voss.md` (Elisa "Doc" Moreau) |
 | Histórico de sessão | `logs/sessao_resumo_XXX.md` | Arquivos listados na seção "Arquivos Atualizados" de cada resumo |
 | Instruções do projeto (boot) | `sistema/instrucoes_projeto.md` | `diretrizes_ia.md`, este arquivo |
 | Regras da IA (boot sequence) | `sistema/diretrizes_ia.md` | `instrucoes_projeto.md`, este arquivo |
 | Regras do narrador | `sistema/diretrizes_narrador.md` | `sistema/diretrizes_ia.md` |
 | Como atualizar após sessão | `sistema/como_atualizar_arquivos.md` | Este arquivo |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001`, `002`, `003`, `004`). Próximo número disponível: **005**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001`, `002`, `003`, `004`, `005`). Próximo número disponível: **006**.
 
 ---
 
@@ -42,8 +43,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 
 ```text
 cyberpunk/
-├── LEIA-ME.md                     ← Visão geral e fluxo de consulta
-├── README.md                      ← Entrada rápida
+├── README.md                      ← Visão geral e entrada do projeto
 ├── reputacao.md                   ← Reputação por facção/NPC
 ├── heat.md                        ← Exposição / perseguição
 ├── event_queue.md                 ← Eventos pendentes
@@ -68,7 +68,10 @@ cyberpunk/
 │   ├── solo - jax_razor_kane.md
 │   ├── solo - reina_bearclaw_morales.md
 │   ├── techie - ryan_wireghost_voss.md
-│   └── vehicle - the_mule.md
+│   ├── vehicle - the_mule.md
+│   └── notas_narrador/
+│       ├── ryan_background_completo.md
+│       └── ryan_gatilhos_memorias.md
 ├── imagens/
 │   ├── fixer - kaz_the_broker_takahashi.jpg
 │   ├── medtech - stephania_doc_voss.jpg
@@ -84,7 +87,8 @@ cyberpunk/
 │   ├── sessao_resumo_001.md
 │   ├── sessao_resumo_002.md
 │   ├── sessao_resumo_003.md
-│   └── sessao_resumo_004.md
+│   ├── sessao_resumo_004.md
+│   └── sessao_resumo_005.md
 ├── relacionamentos/
 │   ├── mapa_relacional_geral.md   ← Hub de personagens
 │   ├── ryan_relacionamentos.md
@@ -128,7 +132,7 @@ cyberpunk/
 | `sistema/diretrizes_ia.md` | Ativo | Boot sequence e regras da IA | `instrucoes_projeto.md`, este arquivo |
 | `sistema/diretrizes_narrador.md` | Ativo | Regras de narração | `diretrizes_ia.md` |
 | `sistema/como_atualizar_arquivos.md` | Ativo | Guia de manutenção pós-sessão | Este arquivo |
-| `LEIA-ME.md` | Ativo | Visão geral do projeto | `README.md` |
+| `README.md` | Ativo | Visão geral e entrada do projeto | `sistema/registro_arquivos.md` |
 
 ---
 
@@ -141,7 +145,7 @@ cyberpunk/
   - `relacionamentos/ryan_relacionamentos.md`
   - `sistema/dashboard_contexto.md`
   - `relacionamentos/mapa_relacional_geral.md`
-- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **005**.
+- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **006**.
 - **Facções:** Detalhes em `facoes/`. Facções menores em `facoes/faccoes_geral.md`.
 - **Referências cruzadas:** Cada arquivo relevante possui seção `## Referências` apontando para arquivos relacionados.
 - O **Source of Truth** permanece nos arquivos locais do jogador.
@@ -150,7 +154,7 @@ cyberpunk/
 
 ## Referências
 
-- [LEIA-ME.md](../LEIA-ME.md) · [README.md](../README.md)
+- [README.md](../README.md)
 - [Instruções do Projeto](instrucoes_projeto.md) · [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md) · [Como Atualizar](como_atualizar_arquivos.md)
 - [Dashboard de Contexto](dashboard_contexto.md) · [Board](../board/board_campanha.md)
 - [Mapa Relacional Geral](../relacionamentos/mapa_relacional_geral.md)

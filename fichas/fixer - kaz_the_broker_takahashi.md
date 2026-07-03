@@ -5,7 +5,7 @@
 **Conceito:** Fixer veterano de Night City, especialista em montar crews, negociar jobs de alto risco e limpar rastros. Ele é o “cérebro” por trás da operação que colocou o nome de Ryan e da crew em alta — o trabalho limpo contra a BT que ninguém esperava que desse certo. Kaz usa a reputação recente do time (duas fugas limpas + operação cirúrgica) para atrair talentos: muita gente quer entrar na “crew que fodeu a BT e saiu rindo”. Ele mesmo não é de combate frontal, mas é mestre em conexões, chantagem suave, negociação e fazer as engrenagens girarem.
 
 **Referência Visual:**  
-![Kaz "The Broker" Takahashi](fixer - kaz_the_broker_takahashi.jpg)  
+![Kaz "The Broker" Takahashi](../imagens/fixer%20-%20kaz_the_broker_takahashi.jpg)  
 \*(Imagem gerada: homem de meia-idade com cabelo branco prateado, óculos redondos vermelhos, implantes cibernéticos visíveis no pescoço e rosto, terno escuro elegante com detalhes dourados, tatuagem ocultista/corporativa na mão, expressão calma e calculista em ambiente neon chuvoso de Night City.)\_
 
 **Descrição Física (baseada na imagem):**  

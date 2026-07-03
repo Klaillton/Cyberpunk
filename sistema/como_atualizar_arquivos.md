@@ -92,7 +92,7 @@ Peça:
 | Ação chamativa / discrição | `heat.md`, possivelmente `event_queue.md` |
 | Dinheiro, recursos, projetos | `economia.md`, `logs/downtime_ryan.md` |
 | Evento futuro agendado | `event_queue.md` |
-| Fim de sessão | `logs/sessao_resumo_XXX.md` (próximo: `005`) + todos os arquivos acima afetados |
+| Fim de sessão | `logs/sessao_resumo_XXX.md` (próximo: `006`) + todos os arquivos acima afetados |
 
 Consulte a tabela completa em [registro_arquivos.md](registro_arquivos.md) (seção "Guia de Consulta Cruzada").
 

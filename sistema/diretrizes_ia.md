@@ -170,7 +170,7 @@ O jogador pode invocar o seguinte comando a qualquer momento:
 - `[Criar resumo da sessão atual]`
 - `[Finalizar sessão e gerar resumo]`
 
-Ao receber um desses comandos, a IA deve gerar um resumo estruturado da sessão atual e propor salvar em `logs/sessao_resumo_XXX.md` (verificar o último número em `sistema/registro_arquivos.md`; próximo disponível: `005`).
+Ao receber um desses comandos, a IA deve gerar um resumo estruturado da sessão atual e propor salvar em `logs/sessao_resumo_XXX.md` (verificar o último número em `sistema/registro_arquivos.md`; próximo disponível: `006`).
 
 ### Quando Sugerir Criar Resumo
 
@@ -191,7 +191,7 @@ A IA deve **sempre mostrar o resumo gerado** e perguntar se deseja salvar no rep
 - Só deve propor o commit após **confirmação explícita** do jogador.
 
 Exemplo de mensagem:
-> “Aqui está o resumo da sessão. Deseja que eu salve no arquivo `logs/sessao_resumo_005.md` e envie para o GitHub?”
+> “Aqui está o resumo da sessão. Deseja que eu salve no arquivo `logs/sessao_resumo_006.md` e envie para o GitHub?”
 
 Cada resumo deve incluir a seção **Arquivos Atualizados Nesta Sessão** com links para os arquivos modificados.
 
@@ -214,7 +214,7 @@ Fluxo resumido:
 ## Referências
 
 - [Registro de Arquivos](registro_arquivos.md) · [Dashboard de Contexto](dashboard_contexto.md) · [Como Atualizar](como_atualizar_arquivos.md)
-- [Diretrizes Narrador](diretrizes_narrador.md) · [LEIA-ME](../LEIA-ME.md)
+- [Diretrizes Narrador](diretrizes_narrador.md) · [README](../README.md)
 - [Board](../board/board_campanha.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 
 ---

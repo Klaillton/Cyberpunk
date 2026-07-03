@@ -103,10 +103,10 @@
 
 ### Dr. Stephania "Doc" Voss
 
-**Status:** Aliada confiável  
+**Status:** Aliada confiável (MedTech da crew)  
 **Intensidade:** Média-Alta
 
-**Nota:** Compartilham o sobrenome **Voss**, mas **não são parentes** — coincidência que vira piada interna na crew (“será que são primos?”).
+**Nota:** Compartilham o sobrenome **Voss**, mas **não são parentes** — coincidência que vira piada interna na crew (“será que são primos?”). **Não confundir** com **Elisa "Doc" Moreau** (terapeuta do passado de Ryan — sem ficha; ver [Contatos e Amigos](../fichas/techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos)).
 
 ### Jax "Razor" Kane
 
@@ -162,6 +162,7 @@ Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto com
 ## Referências
 
 - [Mapa Relacional Geral](mapa_relacional_geral.md) · [Crew](crew_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md) · [Facções](faccao_relacionamentos.md)
-- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md)
+- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ficha Doc](../fichas/medtech%20-%20stephania_doc_voss.md)
 - **Individuais:** [Valk](lena_valk_kane_relacionamentos.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Reina](reina_bearclaw_morales_relacionamentos.md)
+- **Notas do Narrador:** [Background Ryan](../fichas/notas_narrador/ryan_background_completo.md) · [Gatilhos Ryan](../fichas/notas_narrador/ryan_gatilhos_memorias.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md) · [Reputação](../reputacao.md)

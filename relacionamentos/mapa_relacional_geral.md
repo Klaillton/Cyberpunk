@@ -24,7 +24,7 @@
 
 | Personagem | Ficha | Relacionamentos | Também em |
 | ---------- | ----- | --------------- | --------- |
-| Ryan "Wireghost" Voss | [techie - ryan_wireghost_voss.md](../fichas/techie%20-%20ryan_wireghost_voss.md) | [ryan_relacionamentos.md](ryan_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md), [downtime_ryan.md](../logs/downtime_ryan.md) |
+| Ryan "Wireghost" Voss | [techie - ryan_wireghost_voss.md](../fichas/techie%20-%20ryan_wireghost_voss.md) | [ryan_relacionamentos.md](ryan_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md), [background narrador](../fichas/notas_narrador/ryan_background_completo.md), [gatilhos narrador](../fichas/notas_narrador/ryan_gatilhos_memorias.md), [downtime_ryan.md](../logs/downtime_ryan.md) |
 | Lena "Valk" Kane | [nomad - lena_valk_kane.md](../fichas/nomad%20-%20lena_valk_kane.md) | [lena_valk_kane_relacionamentos.md](lena_valk_kane_relacionamentos.md) | [ryan_relacionamentos.md](ryan_relacionamentos.md), [crew_relacionamentos.md](crew_relacionamentos.md), [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md) |
 | Alex "Specter" Kane | [netrunner - alex_specter_kane.md](../fichas/netrunner%20-%20alex_specter_kane.md) | [alex_specter_kane_relacionamentos.md](alex_specter_kane_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md) |
 | Reina "Bearclaw" Morales | [solo - reina_bearclaw_morales.md](../fichas/solo%20-%20reina_bearclaw_morales.md) | [reina_bearclaw_morales_relacionamentos.md](reina_bearclaw_morales_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md) |
@@ -71,4 +71,4 @@
 
 **Sistema:** [Registro de Arquivos](../sistema/registro_arquivos.md) · [Dashboard de Contexto](../sistema/dashboard_contexto.md) · [Diretrizes IA](../sistema/diretrizes_ia.md)
 
-**Logs:** [Downtime Ryan](../logs/downtime_ryan.md) · [Última sessão](../logs/sessao_resumo_004.md)
+**Logs:** [Downtime Ryan](../logs/downtime_ryan.md) · [Última sessão](../logs/sessao_resumo_005.md)

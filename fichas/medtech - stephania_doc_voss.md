@@ -13,7 +13,7 @@ Mulher de cabelos vermelhos vibrantes longos em rabo de cavalo tático, com impl
 
 Gaijin (origem brasileira/portuguesa). Traída por corp que a descartou por “otimização de custos”. Agora freelancer nas ruas, procurando crews que batem de frente com as megacorps.
 
-**Nota:** Compartilha o sobrenome **Voss** com Ryan, mas **não há parentesco** — é coincidência que a crew usa para piadas (“será parente?”, “a família Voss chegou”).
+**Nota:** Compartilha o sobrenome **Voss** com Ryan, mas **não há parentesco** — é coincidência que a crew usa para piadas (“será parente?”, “a família Voss chegou”). **Não é** a Dra. Elisa "Doc" Moreau do passado de Ryan ([Contatos e Amigos](../techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos)).
 
 **Gancho de entrada:** Ouviu falar do trabalho limpo contra a BT e da extração impecável da crew. Se ofereceu pro Kaz: “Toda crew que fode corp precisa de alguém pra costurar depois. Eu sou essa pessoa.”
 

@@ -15,25 +15,31 @@ Nas costas carrega o **Warden**, um drone escorpião grande e imponente que pare
 Seu visual transmite alguém que já passou por muita coisa e transformou o trauma em ferramenta. Ele não tenta parecer amigável — parece eficiente e perigoso.
 
 **Imagem de referência:**  
-![Ryan “Wireghost” Voss](techie - ryan_wireghost_voss.jpg)
+![Ryan “Wireghost” Voss](../imagens/techie%20-%20ryan_wireghost_voss.jpg)
 
 ## Background
 
-Ryan nasceu no Brasil e foi retirado de sua família ainda muito jovem. Dos 3 aos 8 anos foi mantido em instalações de treinamento de estilo militar. Nessas instalações, as crianças eram submetidas a treinamentos intensos, intimidação constante, abusos físicos e psicológicos. Muitas vezes ele quebrou ossos ao cair dos obstáculos ou por espancamentos. Aos 8 anos, foi jogado nas ruas com uma única condição: se sobrevivesse, seria capturado novamente.
+Ryan “Wireghost” Voss tem uma relação muito confusa e fragmentada com o próprio passado. Ele costuma dizer, com um tom cansado:
 
-Nos três anos seguintes, Ryan fez o que pôde para sobreviver. A primeira vez que roubou, foi por fome extrema. A primeira vez que matou alguém, foi por medo de morrer nas mãos de outros. Comeu lixo, restos de comida e, em momentos de desespero, restos humanos. Quase morreu de doença e desnutrição, jogado em uma sarjeta, sozinho. Esse período deixou marcas profundas — tanto que ele acabou bloqueando grande parte dessas memórias.
+> **“Minha cabeça não presta. Ela é uma bagunça.”**
 
-Aos 11 anos foi recapturado e levado para uma segunda instalação, ainda mais brutal que a primeira. Lá recebeu treinamentos variados e demonstrou aptidão para trabalho técnico, sendo direcionado para essa área. A segunda fase de treinamento foi ainda mais cruel. Ele era constantemente cronometrado para resolver problemas complexos e, mesmo quando entregava um trabalho perfeito, o objetivo nunca era recompensá-lo — era sempre exigir mais. O “prêmio” por um bom desempenho era apenas ser menos punido do que seria em caso de falha.
+Devido à combinação de traumas extremos, supressão feita pela Arasaka e os chips que foram implantados nele, Ryan tem **muito pouco acesso** às memórias reais da sua vida. O que ele consegue lembrar é uma versão distorcida, quase infantilizada, que sua mente criou como forma de proteção.
 
-Quando já era mais velho, Ryan começou a acompanhar missões de campo. Durante uma dessas operações, a instalação foi atacada. Ele sobreviveu por acaso: estava trabalhando há várias horas ininterruptas em uma máquina pesada que acabou caindo sobre ele durante o conflito, prendendo-o entre os destroços. Preso e sem conseguir se mover, Ryan ficou completamente escondido do massacre que ocorria no nível superior. Com o tempo, ele desistiu. Aceitou que morreria de fome ali, preso, sem nem conseguir se matar. Foi forçado a ouvir e, em alguns momentos, ver pedaços de corpos, sangue e destroços de máquinas caindo do andar de cima. Essa imagem ficou gravada de forma indelével em sua mente, criando o que ele chama internamente de gancho “sangue e máquina”.
+**O que ele acredita que viveu:**
 
-Dois dias depois, forças da Arasaka limparam o local. Ryan foi encontrado entre os destroços e tornado “útil”. Os médicos da corporação suprimiram grande parte de suas memórias traumáticas — o suficiente para que ele conseguisse trabalhar e “pagar pelo favor” de ter sido salvo. Ele permaneceu na Arasaka por anos como técnico de campo até ser traído e expulso por seu superior, Kenji Takahashi.
+Para ele, sua infância foi marcada por **“brincadeiras”**. Ele lembra de correr, jogar e se divertir com outras crianças. Tem memórias difusas de “**brincadeiras com as tias da rua**”, mulheres que ele descreve como carinhosas e que o ensinavam coisas. Depois, lembra de estudar com “amigos”, de aprender coisas técnicas e de ter conseguido um emprego na Arasaka, onde gostava de trabalhar.
 
-Hoje, aos 35-40 anos, Ryan carrega traumas acumulados de diferentes fases da vida. Esses traumas se manifestam de forma sutil, como bloqueios emocionais ou de percepção de tempo. Ele raramente percebe quando esses episódios ocorrem. Apenas as pessoas mais próximas notam e ficam preocupadas, mas Ryan nunca entende o motivo quando sugerem que procure ajuda.
+Ele acredita que foi um técnico de campo dedicado e competente até ser injustamente traído por seu superior, **Kenji Takahashi**, que armou contra ele por inveja. Essa é a memória mais clara e dolorosa que ele carrega com consciência — a traição na Arasaka.
 
-Devido à supressão de memórias e ao entorpecimento emocional causado pelos traumas, Ryan não dá importância à sua própria Humanity. Ele continua instalando mais e mais chrome sem se preocupar com as consequências psicológicas, como se o risco de Cyberpsychosis não o afetasse. Ele não percebe o quanto sua empatia e estabilidade mental já foram comprometidas, nem entende quando pessoas próximas demonstram preocupação com a quantidade de implantes que ele carrega.
+**O que ele não sabe (ou não consegue acessar):**
 
-Ele é calmo, extremamente pragmático e funcional — às vezes até demais. Carrega um ranço profundo de corporações, especialmente da Arasaka, mas também carrega dentro de si o peso de uma vida inteira que foi sistematicamente explorada e moldada pela violência.
+Ryan não tem noção real da extensão da violência, exploração e sofrimento que viveu. Sua mente transformou períodos de abuso extremo, fome, exploração sexual e tortura em memórias de “brincadeiras” e “estudos com amigos”. Ele não lembra (ou bloqueou completamente) a realidade por trás dessas “brincadeiras”.
+
+A Dra. Elisa “Doc” Moreau já removeu ou atenuou parte dos chips e bloqueios mentais que a Arasaka colocou nele. No entanto, para Ryan, o que a Doc fez **não é claro**. Ele sabe que ela o “ajudou com a cabeça”, mas não entende exatamente o que foi tirado ou alterado. Para ele, é tudo muito confuso.
+
+Devido a essa distorção profunda da memória e ao entorpecimento emocional que carrega, Ryan **não dá importância** à própria Humanity. Ele continua instalando mais e mais chrome sem se preocupar com as consequências. Para ele, “já está tudo uma bagunça mesmo”.
+
+Ele carrega um ranço forte contra corporações, especialmente a Arasaka, mas não consegue articular o porquê com clareza — só sente que “tiraram algo dele”.
 
 ## Atributos (62 Pontos)
 
@@ -113,15 +119,30 @@ Ele é calmo, extremamente pragmático e funcional — às vezes até demais. Ca
 
 - Calmo, profissional e pragmático. Quase sempre mantém a compostura.
 - Workaholic com tecnologia e um pouco paranoico com corporações.
+- Tem memórias muito fragmentadas e reprimidas da própria vida. Costuma dizer que “sua cabeça não presta”.
+- Não dá importância à própria Humanity e continua instalando chrome sem se preocupar com as consequências.
+- Evita investigar seu próprio passado. Prefere manter as coisas como um “borrão”.
 - Tem um hobby secreto: Beatbox (poucas pessoas sabem).
 - Está começando a desenvolver um estilo de combate mais rítmico e estilizado (ainda em fase inicial).
 - Valoriza lealdade comprovada e odeia traição corporativa.
 
+Quando entra em modo de trabalho, Ryan se torna o **"operador"**: frio, pragmático e extremamente eficiente. Ele mata quando é necessário, avalia rapidamente as consequências a longo prazo e toma a decisão. Depois de decidir, não sente peso emocional.
+
+Ele já esteve com outras mulheres antes, mas sempre foi algo puramente físico, na maioria das vezes iniciado por outras pessoas após jobs. Ele tratava como “parte do trabalho”.
+
+A chegada de **Lena “Valk” Kane** foi algo completamente novo para ele. Pela primeira vez em muito tempo, ele passou a sentir coisas de forma mais intensa e constante.
+
+### Memórias Reprimidas e Gatilhos
+
+Ryan tem memórias muito fragmentadas e reprimidas da própria vida. Embora seja bastante resistente, em momentos de **descontração** ou quando está com a guarda baixa, algumas situações podem gerar desconforto repentino ou fazer ele “desligar” por alguns segundos. Ele raramente entende o motivo dessas reações.
+
+Um exemplo recente foi quando construiu um “playground” para as crianças do pack. Ao ouvirem que parecia um campo de treinamento militar, Ryan ficou visivelmente chateado e defendeu com firmeza que era apenas diversão — sem compreender o porquê de estar reagindo tão fortemente.
+
 ### Contatos e Amigos
 
 **Elisa “Doc” Moreau** (Therapy / Ripperdoc)  
-Terapeuta e ripperdoc de confiança. Já tratou Ryan várias vezes.  
-**Nota oculta:** Doc também é contato de Reina Bearclaw Morales. Ryan atualmente não se lembra de ter conhecido Reina.
+Terapeuta e ripperdoc de confiança. Já tratou Ryan várias vezes, tanto fisicamente quanto ajudando com os bloqueios mentais.  
+**Nota oculta:** Doc sabe muito mais sobre o passado de Ryan do que ele próprio lembra.
 
 **Matsunaga “Matsu”** (Ex-Militar / Arasaka)  
 Ex-colega de equipe que ainda é leal a ele e passa informações internas quando pode.
@@ -137,9 +158,9 @@ Antigo cliente que deve vários favores a ele.
 
 **Conexões importantes:**
 
-- Lena “Valk” Kane: Relação que passou do profissional para algo mais pessoal. Existe tensão romântica não resolvida. Ryan cuida dela de forma indireta (upgrades no veículo e no chrome).
-- Alex “Specter” Kane: Alex é provocadora com ele (especialmente quando Valk está por perto). Flerta e cutuca Ryan de propósito, mas seu interesse real é em Valk.
-- Dr. Stephania “Doc” Voss: MedTech da crew. **Não são parentes** — o sobrenome Voss em comum é coincidência e fonte de piadas internas.
+- **Lena “Valk” Kane**: Relação que passou do profissional para algo mais pessoal. Existe tensão romântica não resolvida. Ryan cuida dela de forma indireta (upgrades no veículo e no chrome).
+- **Alex “Specter” Kane**: Alex é provocadora com ele (especialmente quando Valk está por perto). Flerta e cutuca Ryan de propósito, mas seu interesse real é em Valk.
+- **Reina “Bearclaw” Morales**: Já se conheceram através da Doc. Ryan não lembra dos detalhes. Reina o trata com um instinto protetor.
 
 **Objetivo atual:** Construir sua própria rede de tecnologia e influência fora do controle corporativo, usando drones e equipamentos customizados como principal ferramenta.
 
@@ -148,4 +169,6 @@ Antigo cliente que deve vários favores a ele.
 ## Referências
 
 - [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)
+- **Notas do Narrador:** [Background completo](notas_narrador/ryan_background_completo.md) · [Gatilhos e memórias](notas_narrador/ryan_gatilhos_memorias.md)
+- **Elisa "Doc" Moreau:** ver [Contatos e Amigos](#contatos-e-amigos) (sem ficha própria)
 - **Estado:** [Board](../board/board_campanha.md) · [Downtime](../logs/downtime_ryan.md) · [Consequências](../consequencias/consequencias_persistentes.md)

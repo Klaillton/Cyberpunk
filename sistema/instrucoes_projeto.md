@@ -30,7 +30,7 @@ Execute nesta ordem:
 ### 2. Índice e navegação
 
 1. `sistema/registro_arquivos.md` — índice central + tabela **Guia de Consulta Cruzada**
-2. `LEIA-ME.md` — visão geral do fluxo (se necessário)
+2. `README.md` — visão geral do fluxo (se necessário)
 3. `sistema/diretrizes_ia.md` — boot sequence completo, anti-alucinação, resumos
 4. `sistema/diretrizes_narrador.md` — quando atuar como Mestre
 
@@ -94,7 +94,7 @@ Respeite as datas de "Última verificação" e "Validade sugerida" em `dashboard
 
 **Resumos de sessão**
 
-- Padrão: `logs/sessao_resumo_XXX.md` (verificar último número em `registro_arquivos.md`; próximo: **005**)
+- Padrão: `logs/sessao_resumo_XXX.md` (verificar último número em `registro_arquivos.md`; próximo: **006**)
 - Incluir seção **Arquivos Atualizados Nesta Sessão** com links
 - **Nunca** salvar/commitar/push sem **confirmação explícita** do jogador
 
@@ -128,7 +128,7 @@ Sempre mostre mudanças propostas antes de aplicar. Mantenha `sistema/registro_a
 | Personagens | `relacionamentos/mapa_relacional_geral.md` |
 | Protagonista | `fichas/techie - ryan_wireghost_voss.md` + `relacionamentos/ryan_relacionamentos.md` |
 | Pack ativo | `facoes/pack_badlands.md` |
-| Histórico | `logs/sessao_resumo_004.md` (último) |
+| Histórico | `logs/sessao_resumo_005.md` (último) |
 | Como atualizar | `sistema/como_atualizar_arquivos.md` |
 
 ---
@@ -142,6 +142,6 @@ Ryan (protagonista), Valk, Alex, Reina, Kaz, Doc, Jax — fichas em `fichas/`, r
 ## Referências
 
 - [Registro de Arquivos](registro_arquivos.md) · [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md)
-- [LEIA-ME](../LEIA-ME.md) · [Como Atualizar](como_atualizar_arquivos.md) · [Dashboard](dashboard_contexto.md)
+- [README](../README.md) · [Como Atualizar](como_atualizar_arquivos.md) · [Dashboard](dashboard_contexto.md)
 
 **Última atualização:** 02 de Julho de 2026

@@ -1,6 +1,6 @@
 # Reina "Bearclaw" Morales
 
-![Reina "Bearclaw" Morales](cbkAG)
+![Reina "Bearclaw" Morales](../imagens/solo%20-%20reina_bearclaw_morales.png)
 _(Imagem de referência — mulher atlética e **verdadeiramente imponente**, **1,92m** de altura, corpo musculoso e definido, pele morena clara, cabelo castanho escuro em rabo de cavalo alto. Sua estatura a faz se destacar imediatamente em qualquer ambiente, transmitindo uma aura natural de autoridade e proteção. Expressão confiante, com um leve sorriso de canto de boca que mistura diversão e desafio. Usa catsuit preto justo de material sintético reforçado que marca os músculos, com detalhes táticos. Braços cibernéticos pesados e brilhantes em liga metálica escura com detalhes azul neon. Pose poderosa: uma mão na cintura, o outro braço cibernético flexionado atrás da cabeça, destacando tanto a massa muscular quanto a altura imponente.)_
 
 **Role:** Solo (foco em combate desarmado / close quarters)  

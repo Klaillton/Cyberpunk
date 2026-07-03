@@ -6,7 +6,7 @@
 
 ## Referência Visual
 
-![Jax "Razor" Kane](jax_razor_kane.png)  
+![Jax "Razor" Kane](../imagens/solo%20-%20jax_razor_kane.png)  
 **Descrição:** Veterano musculoso com olhos Kiroshi vermelhos, cyberarm Militech agressivo, armadura tática pesada, cicatrizes de combate e pose confiante em rua chuvosa de Night City com neon ao fundo. Estilo cyberpunk sombrio e realista.
 Descrição da imagem (para a ficha):
 Jax "Razor" Kane aparece como um veterano imponente e endurecido pela guerra das ruas. Homem musculoso de meia-idade, cabelo curto grisalho, barba curta, cicatrizes visíveis no rosto e corpo. Olhos cibernéticos Kiroshi brilhando em vermelho. Braço cybernético completo (preto/vermelho Militech-style) com detalhes agressivos. Usa armadura táctica pesada (peitoral reforçado com patches desbotados), colete utilitário, calças cargo sujas de combate, botas militares. Carrega rifle de assalto nas costas, machado na cintura e fuma um charuto enquanto posa em uma rua chuvosa de Night City com neon refletindo no chão molhado. Expressão séria, profissional e perigosa — visual clássico de Solo veterano com chrome pesado.
