@@ -21,14 +21,17 @@
 ## Mudanças de Estado
 
 ### Relacionamentos
+
 - Relação com Valk reforçada após noite de intimidade e cuidado mútuo.
 - Relação com Reyes avançou em nível de confiança técnica (Ryan sendo consultado em decisões estratégicas).
 
 ### Reputação / Heat / Economia
+
 - Reputação com o Pack permanece muito positiva.
 - Nenhum impacto significativo em Heat.
 
 ### Consequências Geradas
+
 - Integração dos novos recrutas avançando com supervisão clara.
 - Direcionamento estratégico do Pack alinhado com a visão de Ryan (consolidação antes de expansão).
 
@@ -50,6 +53,7 @@
 ---
 
 **Observações do Narrador:**
+
 - A reunião demonstrou que Reyes está dando mais espaço para Ryan em decisões estratégicas.
 - A noite com Valk reforçou o lado emocional e vulnerável da relação.
 - O Pack está em fase de consolidação técnica e humana.

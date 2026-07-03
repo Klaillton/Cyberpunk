@@ -13,7 +13,7 @@
 | Alex "Specter" Kane      | Desconfiança          | Provação / Interesse       | Média       | Observando         | Potencial rival          |
 | Reina "Bearclaw" Morales | Neutro / Cautela      | Proteção (Mãe Urso)          | Média       | Em desenvolvimento | Aliada / Irmã mais velha |
 | Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado           |
-| Dr. Stephania "Doc" Voss | Confiança             | Respeito                     | Média-Alta  | Estável            | Aliada / Médica          |
+| Dr. Stephania "Doc" Voss | Confiança             | Respeito                     | Média-Alta  | Estável            | Aliada / Médica (sem parentesco) |
 | Jax "Razor" Kane         | Respeito              | Respeito                     | Baixa       | Profissional       | Aliado de crew           |
 
 ---
@@ -33,6 +33,7 @@
 - Relação intensa, um pouco possessiva, com rotina diária de carinho e intimidade.
 
 **Atualização da sessão (02/07):**
+
 - Ryan e Valk tiveram um momento íntimo prolongado e carinhoso na tenda. Incluiu massagem sensual com óleo aromático (laranja + alecrim), estimulação prolongada e múltiplos orgasmos, seguido de aftercare e sono abraçados. A conexão emocional foi reforçada.
 
 **Estado atual:**
@@ -104,6 +105,8 @@
 
 **Status:** Aliada confiável  
 **Intensidade:** Média-Alta
+
+**Nota:** Compartilham o sobrenome **Voss**, mas **não são parentes** — coincidência que vira piada interna na crew (“será que são primos?”).
 
 ### Jax "Razor" Kane
 

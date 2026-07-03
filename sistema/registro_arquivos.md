@@ -40,7 +40,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 
 ## Estrutura Geral do Projeto
 
-```
+```text
 cyberpunk/
 ├── LEIA-ME.md                     ← Visão geral e fluxo de consulta
 ├── README.md                      ← Entrada rápida
@@ -62,7 +62,7 @@ cyberpunk/
 │   └── faccoes_geral.md
 ├── fichas/
 │   ├── fixer - kaz_the_broker_takahashi.md
-│   ├── medtech - doc_stephania_voss.md
+│   ├── medtech - stephania_doc_voss.md
 │   ├── netrunner - alex_specter_kane.md
 │   ├── nomad - lena_valk_kane.md
 │   ├── solo - jax_razor_kane.md
@@ -71,7 +71,7 @@ cyberpunk/
 │   └── vehicle - the_mule.md
 ├── imagens/
 │   ├── fixer - kaz_the_broker_takahashi.jpg
-│   ├── medtech - doc_stephania_voss.jpg
+│   ├── medtech - stephania_doc_voss.jpg
 │   ├── netrunner - alex_specter_kane.jpg
 │   ├── nomad - lena_valk_kane.jpg
 │   ├── solo - jax_razor_kane.png

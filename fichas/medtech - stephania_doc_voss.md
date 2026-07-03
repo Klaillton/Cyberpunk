@@ -7,11 +7,13 @@
 **Descrição Visual (baseada na imagem gerada):**  
 Mulher de cabelos vermelhos vibrantes longos em rabo de cavalo tático, com implantes cibernéticos discretos mas visíveis (óptica Kiroshi com brilho azul/vermelho, chrome facial e no pescoço/braços). Jaqueta vermelha reforçada com patches de cruz médica, top preto cropped, cinto utilitário carregado de seringas, frascos de drogas, tesouras cirúrgicas e ferramentas. Pose confiante e protetora, ajustando os óculos cibernéticos com uma das mãos, expressão sarcástica mas carinhosa. Fundo cyberpunk com neon e equipamentos médicos. Perfeita como "mãe do grupo" da crew.
 
-![Dr. Stephania "Doc" Voss - MedTech](medtech_-_doc_stephania_voss.jpg)
+![Dr. Stephania "Doc" Voss - MedTech](../imagens/medtech%20-%20stephania_doc_voss.jpg)
 
 ## Background
 
-Gaijin (origem brasileira/portuguesa, sobrenome Voss gera confusão divertida com Ryan). Traída por corp que a descartou por “otimização de custos”. Agora freelancer nas ruas, procurando crews que batem de frente com as megacorps.
+Gaijin (origem brasileira/portuguesa). Traída por corp que a descartou por “otimização de custos”. Agora freelancer nas ruas, procurando crews que batem de frente com as megacorps.
+
+**Nota:** Compartilha o sobrenome **Voss** com Ryan, mas **não há parentesco** — é coincidência que a crew usa para piadas (“será parente?”, “a família Voss chegou”).
 
 **Gancho de entrada:** Ouviu falar do trabalho limpo contra a BT e da extração impecável da crew. Se ofereceu pro Kaz: “Toda crew que fode corp precisa de alguém pra costurar depois. Eu sou essa pessoa.”
 
@@ -94,11 +96,11 @@ Gaijin (origem brasileira/portuguesa, sobrenome Voss gera confusão divertida co
 ## Conexões
 
 - Boa química potencial com Valk (valores de lealdade e não abandonar ninguém).
-- Confusão divertida com Ryan “Wireghost” Voss pelo sobrenome.
+- Ryan “Wireghost” Voss: aliado de crew e paciente frequente. **Sem parentesco** — o sobrenome Voss em comum só alimenta piadas internas.
 
 ---
 
 ## Referências
 
-- [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Valk](../relacionamentos/lena_valk_kane_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 - **Estado:** [Board](../board/board_campanha.md)

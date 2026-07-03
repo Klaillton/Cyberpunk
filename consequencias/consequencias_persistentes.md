@@ -1,4 +1,4 @@
-=== CONSEQUÊNCIAS PERSISTENTES ===
+# Consequências Persistentes
 
 **Última atualização:** 01 de Julho de 2026
 

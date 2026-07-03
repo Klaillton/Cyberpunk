@@ -9,37 +9,43 @@
 
 ## Eventos Principais
 
-- 
-- 
-- 
+-
+-
+-
 
 ## Mudanças de Estado
 
 ### Relacionamentos
-- 
-- 
+
+-
+-
 
 ### Reputação / Heat / Economia
-- 
-- 
+
+-
+-
 
 ### Consequências Geradas
-- 
-- 
+
+-
+-
 
 ## Decisões Importantes do Jogador
-- 
-- 
+
+-
+-
 
 ## Pendências / Ganchos para Próxima Sessão
-- 
-- 
+
+-
+-
 
 ---
 
-**Observações do Narrador:**
-- 
-- 
+## Observações do Narrador
+
+-
+-
 
 ---
 

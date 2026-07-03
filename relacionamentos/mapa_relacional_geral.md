@@ -29,7 +29,7 @@
 | Alex "Specter" Kane | [netrunner - alex_specter_kane.md](../fichas/netrunner%20-%20alex_specter_kane.md) | [alex_specter_kane_relacionamentos.md](alex_specter_kane_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md) |
 | Reina "Bearclaw" Morales | [solo - reina_bearclaw_morales.md](../fichas/solo%20-%20reina_bearclaw_morales.md) | [reina_bearclaw_morales_relacionamentos.md](reina_bearclaw_morales_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md) |
 | Kaz "The Broker" Takahashi | [fixer - kaz_the_broker_takahashi.md](../fichas/fixer%20-%20kaz_the_broker_takahashi.md) | [ryan_relacionamentos.md](ryan_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [faccao_relacionamentos.md](faccao_relacionamentos.md) |
-| Dr. Stephania "Doc" Voss | [medtech - doc_stephania_voss.md](../fichas/medtech%20-%20doc_stephania_voss.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | [ryan_relacionamentos.md](ryan_relacionamentos.md) |
+| Dr. Stephania "Doc" Voss | [medtech - stephania_doc_voss.md](../fichas/medtech%20-%20stephania_doc_voss.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | [ryan_relacionamentos.md](ryan_relacionamentos.md) |
 | Jax "Razor" Kane | [solo - jax_razor_kane.md](../fichas/solo%20-%20jax_razor_kane.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | [lena_valk_kane_relacionamentos.md](lena_valk_kane_relacionamentos.md) |
 
 ---

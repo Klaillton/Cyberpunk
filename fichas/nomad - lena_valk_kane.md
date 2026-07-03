@@ -82,6 +82,7 @@ Ryan e Valk estão namorando. Ryan ajuda ativamente ela com manutenção do The 
 - O quase-momento com Ryan ainda pesa. Eles evitam ficar sozinhos por muito tempo em espaços pequenos.
 - Quando está sozinha com Ryan, ela fica um pouco mais suave (quase imperceptível para os outros).
 - Prefere trabalhar sozinha ou com crews pequenos e confiáveis.
+- **Kane não é família:** Valk, Alex e Jax compartilham o sobrenome por coincidência. A crew brinca, mas não há parentesco entre eles.
 
 ---
 

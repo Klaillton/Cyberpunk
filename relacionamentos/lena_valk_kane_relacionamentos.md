@@ -18,7 +18,7 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **Status:** Interesse romântico de Alex
 - **Intensidade:** Média
 - **Tipo:** Unilateral (por enquanto)
-- **Notas:** Alex demonstra interesse romântico em Valk. Valk ainda não demonstrou reciprocidade clara. Isso pode gerar tensão futura com Ryan. Arco futuro detalhado em [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
+- **Notas:** Alex demonstra interesse romântico em Valk. Valk ainda não demonstrou reciprocidade clara. Isso pode gerar tensão futura com Ryan. **Alex não é parente de Valk** — Kane é só coincidência de sobrenome. Arco futuro detalhado em [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
 
 ### Reina "Bearclaw" Morales
 
@@ -36,10 +36,10 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 
 ### Jax "Razor" Kane
 
-- **Status:** Irmão
-- **Intensidade:** Alta
-- **Tipo:** Familiar
-- **Notas:** Jax é irmão de Valk. Relação de sangue e lealdade forte.
+- **Status:** Colega de crew
+- **Intensidade:** Baixa-Média
+- **Tipo:** Profissional / Respeito mútuo
+- **Notas:** **Não são parentes.** Compartilham o sobrenome Kane por coincidência — a crew brinca (“família Kane”), mas Valk e Jax não têm vínculo de sangue. Jax respeita Valk como piloto; ela o vê como Solo confiável.
 
 ---
 

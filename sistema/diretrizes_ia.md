@@ -1,4 +1,5 @@
 # CYBERPUNK RED — BOOT SEQUENCE MASTER
+
 (Motor de Simulação Narrativa Persistente)
 
 > **Boot rápido:** sync → `registro_arquivos.md` → este arquivo → `dashboard_contexto.md` → `board/board_campanha.md` → estado (`reputacao`, `heat`, `event_queue`, `economia`) → `mapa_relacional_geral.md` → `fichas/` + `relacionamentos/`.
@@ -75,6 +76,7 @@ Antes de fornecer qualquer informação ou prosseguir com a narração, a IA dev
 **Se o arquivo estiver listado no `registro_arquivos.md`, mas não for encontrado** (nem no ambiente nem no repositório):
 
 **Ação obrigatória:**
+
 - Interromper imediatamente qualquer tentativa de narração.
 - Informar claramente ao Narrador qual arquivo está faltando.
 - Explicar por que ele é necessário para a continuidade.
@@ -97,6 +99,7 @@ Verificar existência e consistência dos arquivos via `sistema/registro_arquivo
 
 **ETAPA 2 — Estado Global**  
 Carregar:
+
 - `board/board_campanha.md`
 - `consequencias/consequencias_persistentes.md`
 - `event_queue.md`
@@ -104,6 +107,7 @@ Carregar:
 
 **ETAPA 3 — Contexto Local**  
 Carregar:
+
 - `relacionamentos/mapa_relacional_geral.md` (para localizar o arquivo certo)
 - Fichas dos personagens em cena (`fichas/`)
 - Arquivos de relacionamentos relevantes (`relacionamentos/`)
@@ -159,6 +163,7 @@ Se essa condição não for verdadeira:
 ## 8. Sistema de Resumo de Sessão
 
 ### Comando Disponível
+
 O jogador pode invocar o seguinte comando a qualquer momento:
 
 - `[Resumo da Sessão]`
@@ -168,6 +173,7 @@ O jogador pode invocar o seguinte comando a qualquer momento:
 Ao receber um desses comandos, a IA deve gerar um resumo estruturado da sessão atual e propor salvar em `logs/sessao_resumo_XXX.md` (verificar o último número em `sistema/registro_arquivos.md`; próximo disponível: `005`).
 
 ### Quando Sugerir Criar Resumo
+
 A IA deve sugerir a criação de um resumo de sessão nas seguintes situações:
 
 - Quando o chat ficar muito longo (acima de ~80-100 mensagens relevantes).
@@ -176,9 +182,11 @@ A IA deve sugerir a criação de um resumo de sessão nas seguintes situações:
 - Ao final de interações longas (mesmo que o jogador não peça explicitamente).
 
 ### Envio para o GitHub
+
 A IA deve **sempre mostrar o resumo gerado** e perguntar se deseja salvar no repositório.
 
 **Regra importante:**
+
 - A IA **não deve** criar ou atualizar arquivos no GitHub automaticamente.
 - Só deve propor o commit após **confirmação explícita** do jogador.
 

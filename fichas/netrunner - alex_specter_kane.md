@@ -14,6 +14,8 @@ Alex é uma jovem de aparência atlética e cyberpunk marcante. Tem cabelo loiro
 
 Cresceu nas ruas digitais após o DataKrash. Traído por uma corp que o usou como ferramenta descartável, agora vive como edgerunner, vendendo segredos e zerando ICEs. Valoriza liberdade, lealdade e velocidade no NET. Tem ranço de corporações e uma obsessão por IA antigas.
 
+**Nota:** O sobrenome **Kane** é coincidência com Valk e Jax — **não há parentesco** entre os três.
+
 **Atualização na História e Personalidade:**
 Alex "Specter" Kane é uma Netrunner de 29 anos, extremamente competente, sarcástica e viciada em viver no fio da navalha — tanto mergulhada no NET quanto nas ruas perigosas de Night City. Tem um senso de humor afiado e provocador, especialmente direcionado a Ryan "Wireghost" Voss.
 

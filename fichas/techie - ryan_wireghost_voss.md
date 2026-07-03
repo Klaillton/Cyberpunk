@@ -4,7 +4,7 @@
 **Idade aparente:** 35 anos  
 **Conceito:** Ex-Técnico de Campo da Arasaka (gaijin), agora Techie independente e criador de drones. Calmo, pragmático e com um lado criativo que poucos conhecem. Especialista em drones, customização de chrome e soluções improvisadas em campo.
 
-### Aparência
+## Aparência
 
 Ryan é um homem de aparência jovem mas marcada, com cerca de 35 anos. Tem cabelos brancos/prateados, ligeiramente bagunçados, que contrastam com seu rosto sério e endurecido. Traços fortes, mandíbula definida, maçãs do rosto marcadas e uma expressão que transmite experiência acumulada e uma certa frieza.
 
@@ -139,6 +139,7 @@ Antigo cliente que deve vários favores a ele.
 
 - Lena “Valk” Kane: Relação que passou do profissional para algo mais pessoal. Existe tensão romântica não resolvida. Ryan cuida dela de forma indireta (upgrades no veículo e no chrome).
 - Alex “Specter” Kane: Alex é provocadora com ele (especialmente quando Valk está por perto). Flerta e cutuca Ryan de propósito, mas seu interesse real é em Valk.
+- Dr. Stephania “Doc” Voss: MedTech da crew. **Não são parentes** — o sobrenome Voss em comum é coincidência e fonte de piadas internas.
 
 **Objetivo atual:** Construir sua própria rede de tecnologia e influência fora do controle corporativo, usando drones e equipamentos customizados como principal ferramenta.
 

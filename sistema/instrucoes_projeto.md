@@ -1,7 +1,7 @@
 # Cyberpunk RED — Instruções do Projeto (Campanha Solo)
 
 > **Uso:** Este arquivo é a versão versionada das instruções da descrição do projeto.
-> Mantenha ambos sincronizados. Repositório: https://github.com/Klaillton/Cyberpunk
+> Mantenha ambos sincronizados. Repositório: <https://github.com/Klaillton/Cyberpunk>
 
 ---
 
@@ -23,7 +23,7 @@ Execute nesta ordem:
 
 ### 1. Sincronização
 
-- Repositório: https://github.com/Klaillton/Cyberpunk
+- Repositório: <https://github.com/Klaillton/Cyberpunk>
 - Antes de narrar ou atualizar: sincronize o ambiente local com o remoto (`git pull`).
 - **Source of Truth:** arquivos locais **após** sync. Não assuma que a sandbox está atualizada sem verificar.
 

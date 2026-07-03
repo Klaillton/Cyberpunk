@@ -24,7 +24,7 @@ Visão geral da estrutura do projeto e de como os arquivos se conectam entre si.
 
 ## Fluxo de Consulta da IA
 
-```
+```text
 registro_arquivos.md  →  identificar qual arquivo usar
         ↓
 dashboard_contexto.md  →  resumo rápido (início de sessão)
