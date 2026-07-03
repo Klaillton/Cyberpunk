@@ -10,9 +10,22 @@
 
 Ryan está em um relacionamento intenso com **Lena "Valk" Kane**.  
 **Alex "Specter" Kane** reaparece e desperta uma atração antiga em Valk.  
-**Reina "Bearclaw" Morales**, que tem uma conexão mais antiga e profunda com Ryan, acaba sendo puxada para o meio dessa dinâmica enquanto tenta protegê-lo.
+**Reina "Bearclaw" Morales** já atua como a **confidente emocional** da crew (principalmente das meninas) antes mesmo de qualquer tensão romântica explodir. É com ela que as pessoas conseguem organizar ideias confusas e sentimentos não entendidos.
+
+Quando Alex volta, Reina sem querer vira o **motor** de tudo: Alex conversa com ela sobre Valk, Valk desabafa com ela sobre o conflito entre Ryan e Alex, e até Ryan (de forma mais fechada) acaba sendo afetado pela dinâmica. Reina, tentando proteger Ryan e ajudar o grupo, acaba sendo puxada para o meio dessa relação de forma muito mais profunda do que imaginava.
 
 O objetivo é construir um **polycule/harem** de forma orgânica, com bastante conflito emocional interno e desenvolvimento de personagem.
+
+---
+
+## Papel de Reina como Confidente
+
+Antes de qualquer coisa romântica acontecer de forma explícita, Reina já deve estar consolidada como a pessoa para quem os membros da crew (especialmente Valk e Alex) conseguem falar abertamente sobre seus sentimentos. É através dela que ideias confusas se organizam. Isso faz com que ela, sem querer, se torne o ponto central da dinâmica.
+
+- Alex conversa com Reina sobre seu interesse em Valk e pede conselhos.
+- Valk desabafa com Reina sobre sua atração por Alex e o medo de machucar Ryan.
+- Ryan, mesmo sendo mais fechado, acaba sendo afetado pela mudança de comportamento das duas.
+- Reina percebe as coisas mais rápido que os outros e seu instinto protetor em relação a Ryan é ativado.
 
 ---
 
@@ -32,7 +45,7 @@ O objetivo é construir um **polycule/harem** de forma orgânica, com bastante c
 - **Ryan não lida bem com tensão emocional**: Quando a pressão aumenta, ele tende a desligar e entrar em modo "operador frio" por longos períodos. Tanto Valk quanto Reina são cuidadosas com isso.
 - **Valk é possessiva**, mas Alex consegue desarmar essa possessividade com facilidade.
 - **Alex quer Valk primeiro**. Seu interesse em Ryan começa como curiosidade/provocação ("o que ela vê nesse cara?"), podendo evoluir depois.
-- **Reina entra para proteger Ryan**. No processo, ela começa a desenvolver sentimentos por ele.
+- **Reina entra para proteger Ryan**. No processo, ela começa a desenvolver sentimentos por ele. Seu papel como confidente faz com que ela acabe no centro da dinâmica.
 - O beijo entre **Valk e Alex** aconteceu há alguns anos. Ryan ainda não sabe no início.
 
 ---
@@ -41,7 +54,7 @@ O objetivo é construir um **polycule/harem** de forma orgânica, com bastante c
 
 | Fase | Nome              | Foco              | Eventos Principais                                                 | Conflito Principal                     |
 | ---- | ----------------- | ----------------- | ------------------------------------------------------------------ | -------------------------------------- |
-| 1    | O Reencontro      | Alex volta        | Alex reaparece. Valk fica afetada. Ryan percebe algo estranho.     | Tensão inicial                         |
+| 1    | O Reencontro      | Alex volta        | Alex reaparece. Valk fica afetada. Ryan percebe algo estranho. Reina já atua como confidente. | Tensão inicial                         |
 | 2    | O Beijo Visto     | Descoberta        | Ryan vê Alex beijando Valk. Valk retribui mas afasta.              | Ryan começa a se fechar emocionalmente |
 | 3    | O Desligamento    | Ryan se fecha     | Ryan entra em modo operador frio. Reina percebe e intervém.        | Valk e Alex ficam preocupadas          |
 | 4    | A Mediadora       | Reina se envolve  | Reina tenta ajudar. Começa a questionar seus sentimentos por Ryan. | Reina em negação                       |
@@ -54,7 +67,7 @@ O objetivo é construir um **polycule/harem** de forma orgânica, com bastante c
 
 - O desenvolvimento deve ser **lento e orgânico**.
 - Alex não deve ser muito agressiva (para não ser rejeitada por Valk).
-- Reina age primeiro por proteção e só depois percebe que está se apaixonando.
+- Reina age primeiro por proteção e só depois percebe que está se apaixonando. Seu papel como confidente é o que a coloca no centro da história.
 - Ryan tende a se fechar quando sente risco emocional alto. Isso é um dos principais gatilhos da história.
 - Valk tem dificuldade em escolher entre Ryan e Alex no início.
 
