@@ -242,6 +242,8 @@ def process_shares(
     deltas: list[Path] = []
     api = sources["api_template"]
 
+    last_key = sources["shares"][-1]["key"]
+
     for share in sources["shares"]:
         key = share["key"]
         share_id = share["share_id"]
@@ -264,8 +266,12 @@ def process_shares(
             start = total
             log(f"  bootstrap: {total} mensagens marcadas como processadas")
         elif tail is not None:
-            start = max(0, total - tail)
-            log(f"  tail={tail}: exportando mensagens {start + 1}..{total}")
+            if key != last_key:
+                start = total
+                log(f"  tail: ignorado (só exporta em {last_key})")
+            else:
+                start = max(0, total - tail)
+                log(f"  tail={tail}: exportando mensagens {start + 1}..{total}")
         else:
             start = processed
             if start > total:
