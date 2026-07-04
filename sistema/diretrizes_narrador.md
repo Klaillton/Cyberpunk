@@ -63,7 +63,18 @@ Evite usar nomes iguais ou muito semelhantes aos de NPCs persistentes e importan
 
 Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver necessidade de correção, complementação ou melhoria na fluidez da cena.
 
-## 8. Separação de Papéis (Importante)
+## 8. Pulso do Mundo (off-screen)
+
+Quando **passar 1 dia in-game** (noite, viagem, downtime), o mundo do pack continua sem Ryan.
+
+1. Seguir [pulso_procedimento.md](pulso_procedimento.md) — **1 rolagem d100 por linha/dia** em `pulso_do_mundo/pack_badlands/pulso_geral.md`.
+2. Resolver com o pulso NPC indicado (perguntas + ganchos).
+3. Narrar ao jogador só o que Ryan **perceberia** (rumor, abordagem, clima no acampamento).
+4. Pedir à IA gestora que registre em *Eventos Off-Screen Recentes* e arquivos de estado.
+
+**Catalisadores** (combate, confronto, ferimento, etc.) permitem eventos sociais leves repetirem no mesmo dia; ameaças externas permanecem raras.
+
+## 9. Separação de Papéis (Importante)
 
 Este arquivo foca exclusivamente na **narração** e na construção da história.
 
@@ -79,9 +90,9 @@ Para localizar rapidamente qual arquivo consultar, use o [registro_arquivos.md](
 
 ## Referências
 
-- [Registro de Arquivos](registro_arquivos.md) · [Diretrizes IA](diretrizes_ia.md) · [Dashboard](dashboard_contexto.md)
+- [Registro de Arquivos](registro_arquivos.md) · [Diretrizes IA](diretrizes_ia.md) · [Pulso do Mundo](pulso_procedimento.md) · [Dashboard](dashboard_contexto.md)
 - [Board](../board/board_campanha.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 
 ---
 
-_Documento atualizado em 02 de Julho de 2026_
+_Documento atualizado em 03 de Julho de 2026_

@@ -24,9 +24,14 @@ Ver arquivo principal: `relacionamentos/faccao_relacionamentos.md`
 - Tem boa relação com a maioria dos membros, especialmente com o Tio Gringo.
 - Relação com o líder Reyes é de respeito técnico, mas ainda com certa cautela devido ao lado operador de Ryan.
 
+## Pulso do Mundo (off-screen)
+
+Quando passar **1 dia in-game** sem Ryan na cena: [pulso_procedimento.md](../sistema/pulso_procedimento.md) → [pulso_geral.md](../pulso_do_mundo/pack_badlands/pulso_geral.md).
+
 ## Principais NPCs Relevantes
 
-Fichas mínimas (personalidade + eventos): ver [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md#npcs-secundários-fichas-mínimas).
+Fichas mínimas (personalidade + eventos): ver [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md#npcs-secundários-fichas-mínimas).  
+Pulsos off-screen: [pulso_do_mundo/pack_badlands/](../pulso_do_mundo/pack_badlands/).
 
 | NPC | Ficha | Resumo |
 | --- | ----- | ------ |

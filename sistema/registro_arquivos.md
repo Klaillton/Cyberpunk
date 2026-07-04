@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 03 de Julho de 2026
+**Última atualização:** 04 de Julho de 2026
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -37,6 +37,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Regras da IA (boot sequence) | `sistema/diretrizes_ia.md` | `instrucoes_projeto.md`, este arquivo |
 | Regras do narrador | `sistema/diretrizes_narrador.md` | `sistema/diretrizes_ia.md` |
 | Como atualizar após sessão | `sistema/como_atualizar_arquivos.md` | Este arquivo |
+| Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
+| Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
 
 **Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001`, `002`, `003`, `004`, `005`, `006`). Próximo número disponível: **007**.
 
@@ -97,7 +99,17 @@ cyberpunk/
 │   ├── vehicle - the_mule.jpg
 │   ├── Sasha.jpg
 │   └── Lira.jpg
+├── pulso_do_mundo/                ← Off-screen NPCs (ver pulso_procedimento.md)
+│   ├── README.md
+│   ├── template_pulso_npc.md
+│   ├── pack_badlands/
+│   │   ├── pulso_geral.md
+│   │   ├── reyes.md, tio_gringo.md, sasha_e_lira.md
+│   │   ├── criancas.md, recrutas.md
+│   └── crew/
+│       ├── valk.md, kaz.md, alex.md, reina.md
 ├── logs/
+│   ├── pulso_log_template.md
 │   ├── downtime_ryan.md
 │   ├── job_template.md
 │   ├── job_001_extracao_vossler.md
@@ -121,6 +133,7 @@ cyberpunk/
 │   └── reina_bearclaw_morales_relacionamentos.md
 └── sistema/
     ├── instrucoes_projeto.md      ← Instruções do projeto (espelho versionado)
+    ├── pulso_procedimento.md      ← Motor off-screen (1×/dia in-game)
     ├── como_atualizar_arquivos.md
     ├── dashboard_contexto.md
     ├── diretrizes_ia.md

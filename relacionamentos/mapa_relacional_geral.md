@@ -63,6 +63,25 @@ Personagens com personalidade e eventos próprios, mas **sem ficha RED completa*
 
 ---
 
+## Pulso do Mundo (off-screen)
+
+Motor: [pulso_procedimento.md](../sistema/pulso_procedimento.md) · Índice: [pulso_do_mundo/README.md](../pulso_do_mundo/README.md)
+
+| Pulso | Arquivo | Quando acionar |
+| ----- | ------- | -------------- |
+| Pack (tabela geral) | [pulso_geral.md](../pulso_do_mundo/pack_badlands/pulso_geral.md) | 1×/dia in-game nas Badlands |
+| Reyes | [reyes.md](../pulso_do_mundo/pack_badlands/reyes.md) | Badlands |
+| Tio Gringo | [tio_gringo.md](../pulso_do_mundo/pack_badlands/tio_gringo.md) | Badlands |
+| Sasha e Lira | [sasha_e_lira.md](../pulso_do_mundo/pack_badlands/sasha_e_lira.md) | Badlands |
+| Crianças | [criancas.md](../pulso_do_mundo/pack_badlands/criancas.md) | Badlands |
+| Recrutas | [recrutas.md](../pulso_do_mundo/pack_badlands/recrutas.md) | Badlands |
+| Valk | [valk.md](../pulso_do_mundo/crew/valk.md) | Badlands (presente) |
+| Kaz | [kaz.md](../pulso_do_mundo/crew/kaz.md) | NC / remoto |
+| Alex | [alex.md](../pulso_do_mundo/crew/alex.md) | NC / futuro |
+| Reina | [reina.md](../pulso_do_mundo/crew/reina.md) | NC / futuro |
+
+---
+
 ## Facções e Grupos
 
 | Grupo | Detalhes | Relacionamentos |

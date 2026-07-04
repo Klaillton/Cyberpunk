@@ -133,6 +133,7 @@ Estes arquivos devem ser consultados com alta frequência:
 | Fichas (`fichas/`) | Quando relevante | Informações mecânicas do personagem |
 | Relacionamentos (`relacionamentos/`) | Quando houver interação | Dinâmicas entre personagens |
 | Facções (`facoes/`) | Quando relevante | Contexto de grupos e corporações |
+| `sistema/pulso_procedimento.md` + `pulso_do_mundo/` | Ao passar **1 dia in-game** | Simulação off-screen do pack e NPCs |
 
 ---
 
@@ -160,7 +161,21 @@ Se essa condição não for verdadeira:
 
 ---
 
-## 8. Sistema de Resumo de Sessão
+## 8. Pulso do Mundo (off-screen)
+
+Quando o narrador indicar que **passou 1 dia in-game** (ou mais):
+
+1. Executar [pulso_procedimento.md](pulso_procedimento.md).
+2. Rolagem **1×/dia/linha** em `pulso_do_mundo/pack_badlands/pulso_geral.md`.
+3. Atualizar *Eventos Off-Screen Recentes* no pulso NPC afetado.
+4. Propagar impactos a `board`, `consequencias`, `relacionamentos`, `event_queue`, `heat` conforme necessário.
+5. Opcional: `logs/pulso_YYYYMMDD.md` para auditoria.
+
+Não inventar eventos fora da tabela + perguntas de pulso + estado dos arquivos.
+
+---
+
+## 9. Sistema de Resumo de Sessão
 
 ### Comando Disponível
 
@@ -197,7 +212,7 @@ Cada resumo deve incluir a seção **Arquivos Atualizados Nesta Sessão** com li
 
 ---
 
-## 9. Mapa de Referências Cruzadas
+## 10. Mapa de Referências Cruzadas
 
 Consulte `sistema/registro_arquivos.md` (seção "Guia de Consulta Cruzada") para saber quais arquivos abrir em conjunto.
 

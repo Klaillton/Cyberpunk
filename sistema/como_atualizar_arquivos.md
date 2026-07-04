@@ -92,9 +92,11 @@ Peça:
 | Ação chamativa / discrição | `heat.md`, possivelmente `event_queue.md` |
 | Dinheiro, recursos, projetos | `economia.md`, `logs/downtime_ryan.md` |
 | Evento futuro agendado | `event_queue.md` |
-| Fim de sessão | `logs/sessao_resumo_XXX.md` (próximo: `006`) + todos os arquivos acima afetados |
+| Fim de sessão | `logs/sessao_resumo_XXX.md` (próximo: `007`) + todos os arquivos acima afetados |
+| Passou 1+ dia in-game / Ryan dormiu a noite | [pulso_procedimento.md](pulso_procedimento.md) → `pulso_do_mundo/` + `event_queue` / `consequencias` se impacto |
 | Job / gig concluído | `logs/job_XXX_<slug>.md` (usar [job_template.md](../logs/job_template.md)) + consequências, heat, event_queue |
 | NPC com personalidade ou arco próprio | `fichas/npc/<slug>.md` (usar [npc_template.md](../fichas/npc/npc_template.md)) + entrada em [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md) |
+| Tempo off-screen (mundo vivo) | [pulso_procedimento.md](pulso_procedimento.md) + pulso em `pulso_do_mundo/` + opcional `logs/pulso_YYYYMMDD.md` |
 
 Consulte a tabela completa em [registro_arquivos.md](registro_arquivos.md) (seção "Guia de Consulta Cruzada").
 
@@ -116,6 +118,6 @@ Manter esse hábito evita bagunça e inconsistências conforme a campanha cresce
 
 ## Referências
 
-- [Registro de Arquivos](registro_arquivos.md) · [Dashboard de Contexto](dashboard_contexto.md) · [Diretrizes IA](diretrizes_ia.md)
+- [Registro de Arquivos](registro_arquivos.md) · [Dashboard de Contexto](dashboard_contexto.md) · [Diretrizes IA](diretrizes_ia.md) · [Pulso do Mundo](pulso_procedimento.md)
 - [Board](../board/board_campanha.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 - [Template de Resumo](../logs/sessao_resumo_template.md)

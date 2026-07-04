@@ -69,6 +69,7 @@ Repita o carregamento de estado:
 - No **início** de cada interação
 - A cada **~4 horas** de conversa contínua
 - Após **eventos importantes**: combate, mudança de local, revelação, alteração de relacionamento/reputação, conclusão de missão
+- Quando **passar 1 dia in-game**: [pulso_procedimento.md](pulso_procedimento.md) + `pulso_do_mundo/`
 
 **Prioridade no refresh:** `dashboard_contexto` → `board_campanha` → `ryan_relacionamentos` → `consequencias_persistentes` → `reputacao` / `heat` / `event_queue`
 
