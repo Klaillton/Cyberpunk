@@ -1,6 +1,6 @@
 # Pulso - Reyes (Líder do Pack)
 
-**Última atualização:** 03 de Julho de 2026  
+**Última atualização:** 04 de Julho de 2026  
 **Escopo:** Badlands — acampamento do pack.
 
 ## Motivações Atuais
@@ -32,9 +32,8 @@
 
 ## Eventos Off-Screen Recentes
 
-- 
-- 
-- 
+- **03/07/2026 (tarde)** — Enviou dupla de reconhecimento rotineira; retorno sem contato hostil.
+- **03/07/2026 (tarde)** — Observou recrutas de longe; decidiu que precisa alinhar com Ryan sobre supervisão de Tomas (ainda não abordou).
 
 ## Relação com Ryan
 

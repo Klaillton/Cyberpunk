@@ -1,6 +1,6 @@
 # Pulso - Sasha e Lira
 
-**Última atualização:** 03 de Julho de 2026  
+**Última atualização:** 04 de Julho de 2026  
 **Escopo:** Badlands — jovens do pack.
 
 ## Motivações Atuais
@@ -32,9 +32,8 @@
 
 ## Eventos Off-Screen Recentes
 
-- 
-- 
-- 
+- **03/07/2026 (almoço)** — Sentaram perto de Valk; conversa leve sobre rotina no deserto (água, turnos, calor) — sem flerte com Ryan.
+- **03/07/2026 (tarde)** — Fofoca velada entre veteranas: “as meninas parecem sinceras agora” em relação à aproximação com Valk.
 
 ## Relação com Valk
 

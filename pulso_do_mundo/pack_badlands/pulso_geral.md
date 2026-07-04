@@ -1,7 +1,7 @@
 # Pulso do Pack - Eventos Off-Screen (Geral)
 
 **Pack:** Pack Nômade de Badlands (acampamento atual)  
-**Última atualização:** 03 de Julho de 2026  
+**Última atualização:** 04 de Julho de 2026  
 **Contexto atual:** Ryan e Valk estão integrados. Ryan construiu a cerca defensiva, atualizou o Mule e demonstrou habilidade de combate (operador frio). O Pack está em fase de consolidação.
 
 **Procedimento:** [sistema/pulso_procedimento.md](../../sistema/pulso_procedimento.md) — **1 rolagem d100 por linha, por dia in-game.**
@@ -47,9 +47,8 @@ _(Remover quando resolvido. Cada um concede +1 rolagem extra em linhas de impact
 
 _(Registrar com data in-game. Arquivar após 5 entradas — ver procedimento.)_
 
--
--
--
+- **03/07/2026 (tarde)** — Refeitório e rotina estáveis; clima social levemente agitado por fofoca sobre Ryan/Valk (sem confronto). Ver [logs/pulso_20260703.md](../../logs/pulso_20260703.md).
+- **03/07/2026 (tarde)** — Reconhecimento rotineiro enviado por Reyes; nada anormal reportado.
 
 ---
 

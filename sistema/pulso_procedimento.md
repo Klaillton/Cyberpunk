@@ -155,6 +155,8 @@ Registrar catalisador ativo no topo de `pulso_geral.md` (seção *Catalisadores 
 | [kaz.md](../pulso_do_mundo/crew/kaz.md) | NC / remoto |
 | [alex.md](../pulso_do_mundo/crew/alex.md) | NC / futuro |
 | [reina.md](../pulso_do_mundo/crew/reina.md) | NC / futuro |
+| [stephania_doc.md](../pulso_do_mundo/crew/stephania_doc.md) | NC / remoto |
+| [jax.md](../pulso_do_mundo/crew/jax.md) | NC / remoto |
 
 **Template:** [template_pulso_npc.md](../pulso_do_mundo/template_pulso_npc.md)
 

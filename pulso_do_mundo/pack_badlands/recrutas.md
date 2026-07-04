@@ -1,6 +1,6 @@
 # Pulso - Recrutas (Mara, Elias, Tomas)
 
-**Última atualização:** 03 de Julho de 2026  
+**Última atualização:** 04 de Julho de 2026  
 **Escopo:** Acionar com Ryan nas **Badlands** (acampamento). Integração ativa desde 01/07.
 
 ## Motivações Atuais
@@ -33,7 +33,10 @@
 
 ## Eventos Off-Screen Recentes
 
-- 03/07/2026 — Manhã: Ryan observou os três antes de ser notado (Elias na destilaria, Tomas afastado fumando, Mara com suprimentos). *(sessão 006)*
+- **03/07/2026 (manhã)** — Ryan observou os três antes de ser notado (Elias na destilaria, Tomas fumando afastado, Mara com suprimentos). *(sessão 006)*
+- **03/07/2026 (tarde)** — Tomas percebeu que Ryan o observava; ficou tenso, apagou o cigarro e voltou ao trabalho sem cumprimentar.
+- **03/07/2026 (tarde)** — Elias pediu válvula ao Tio Gringo; integração positiva na destilaria.
+- **03/07/2026 (tarde)** — Mara ajudou a carregar suprimentos com membros antigos do pack.
 
 ## Relação com Ryan
 

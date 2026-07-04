@@ -108,8 +108,10 @@ cyberpunk/
 │   │   ├── criancas.md, recrutas.md
 │   └── crew/
 │       ├── valk.md, kaz.md, alex.md, reina.md
+│       ├── stephania_doc.md, jax.md
 ├── logs/
 │   ├── pulso_log_template.md
+│   ├── pulso_20260703.md
 │   ├── downtime_ryan.md
 │   ├── job_template.md
 │   ├── job_001_extracao_vossler.md

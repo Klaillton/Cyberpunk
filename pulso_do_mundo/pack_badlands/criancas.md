@@ -1,6 +1,6 @@
 # Pulso - Crianças do Pack
 
-**Última atualização:** 03 de Julho de 2026  
+**Última atualização:** 04 de Julho de 2026  
 **Escopo:** Badlands — acampamento.
 
 ## Motivações / Dinâmica Geral
@@ -30,9 +30,8 @@
 
 ## Eventos Off-Screen Recentes
 
-- 
-- 
-- 
+- **03/07/2026 (tarde)** — Crianças mais velhas brincaram de “passo de militar” perto das tendas (imitando histórias do Wireghost).
+- **03/07/2026 (tarde)** — Criança mais nova ouviu adulto dizer que Ryan “mata sem barulho” e ficou quieta o resto do dia.
 
 ## Visão das Crianças sobre Ryan
 

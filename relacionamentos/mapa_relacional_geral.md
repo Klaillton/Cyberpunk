@@ -79,6 +79,8 @@ Motor: [pulso_procedimento.md](../sistema/pulso_procedimento.md) · Índice: [pu
 | Kaz | [kaz.md](../pulso_do_mundo/crew/kaz.md) | NC / remoto |
 | Alex | [alex.md](../pulso_do_mundo/crew/alex.md) | NC / futuro |
 | Reina | [reina.md](../pulso_do_mundo/crew/reina.md) | NC / futuro |
+| Doc (Stephania) | [stephania_doc.md](../pulso_do_mundo/crew/stephania_doc.md) | NC / remoto |
+| Jax | [jax.md](../pulso_do_mundo/crew/jax.md) | NC / remoto |
 
 ---
 

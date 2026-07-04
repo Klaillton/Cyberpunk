@@ -1,6 +1,6 @@
 # Pulso - Tio Gringo
 
-**Última atualização:** 03 de Julho de 2026  
+**Última atualização:** 04 de Julho de 2026  
 **Escopo:** Badlands — oficina/forja do pack.
 
 ## Motivações Atuais
@@ -37,9 +37,8 @@
 
 ## Eventos Off-Screen Recentes
 
--
--
--
+- **03/07/2026 (tarde)** — Trabalhou sozinho na forja; ajustou ferramenta que Ryan havia calibrado.
+- **03/07/2026 (tarde)** — Elias (recruta) pediu uma válvula para a destilaria — atendido sem drama.
 
 ## Relação com Ryan
 

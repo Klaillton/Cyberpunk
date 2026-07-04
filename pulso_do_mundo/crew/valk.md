@@ -1,6 +1,6 @@
 # Pulso - Lena "Valk" Kane
 
-**Última atualização:** 03 de Julho de 2026  
+**Última atualização:** 04 de Julho de 2026  
 **Escopo:** Acionar com Ryan nas **Badlands** (presente no acampamento).
 
 > **Nota:** Alex, Reina e Kaz **não** estão nas Badlands — menções a eles = evento futuro ou mensagem remota.
@@ -36,9 +36,8 @@
 
 ## Eventos Off-Screen Recentes
 
--
--
--
+- **03/07/2026 (meio-dia)** — Acordou perto do meio-dia; Ryan já tinha saído em silêncio. Não confrontou; ficou um momento olhando a tenda vazia.
+- **03/07/2026 (almoço)** — Sasha e Lira sentaram perto; conversa prática e cordial (rotina no deserto). Valk retribuiu com simpatia cautelosa.
 
 ## Relação com Ryan (visão atual)
 
