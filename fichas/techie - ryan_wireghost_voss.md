@@ -41,6 +41,42 @@ Devido a essa distorção profunda da memória e ao entorpecimento emocional que
 
 Ele carrega um ranço forte contra corporações, especialmente a Arasaka, mas não consegue articular o porquê com clareza — só sente que “tiraram algo dele”.
 
+## Músicas da Vida (Repertório Pessoal)
+
+Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As músicas vêm como memórias da infância no bordel e da vida na rua. Ele não entende o porquê delas surgirem — é como se a alma dele vazasse.
+
+**Músicas Principais (as que mais aparecem):**
+
+**Contraponto – Promessas Não Cumpridas / Mundo Injusto**
+
+- **Ordinary** – Alex Warren
+- **7 Years** – Lukas Graham
+- **Work Song** – Hozier
+
+**Músicas Pesadas / Fatalistas**
+
+- **Hurt** – Johnny Cash
+- **Hellhound on My Trail** – Robert Johnson
+- **Strange Fruit** – Billie Holiday
+- **Way Down We Go** – Kaleo
+- **Me and the Devil Blues** – Robert Johnson
+
+**Músicas Nostálgicas / Amor Sofrido**
+
+- **Real Folk Blues** – The Seatbelts (Cowboy Bebop)
+- **Lush Life** – Nat King Cole
+- **Cherry Wine** – Hozier
+- **The Night We Met** – Lord Huron
+- **Feeling Good** – Nina Simone
+- **Sleeping in the Cold Below** – Warframe
+
+**Músicas que ele já cantou publicamente no Pack:**
+
+- Real Folk Blues
+- Feeling Good
+- Way Down We Go
+- Hurt
+
 ## Atributos (62 Pontos)
 
 | Atributo           | Valor | Modificador |
@@ -111,7 +147,78 @@ Ele carrega um ranço forte contra corporações, especialmente a Arasaka, mas n
 
 **Armadura:** Light Armorjack (SP 11) + Subdermal Armor + Skinweave → Corpo SP 19 / Cabeça SP 11
 
-**Armamento inicial:** Arma de fogo principal + faca de combate + possíveis armas pop-up no cyberarm.
+### Armamentos (Ghostwire Series - Custom Techie Loadout)
+
+Ryan carrega um loadout modular, versátil e altamente customizado, priorizando **stealth**, **mobilidade** e **jack of all trades**. Todas as armas de fogo possuem integração total via **Neural Link + Smartgun Link + Kiroshi Optics**.
+
+#### 1. Primária — **Ghostwire Phantom Mk.II Foldable DMR** (7.62x51 NATO)
+
+- **Tipo:** Designated Marksman Rifle semi-automático dobrável.
+- **Peso:** ~5,9 kg (confortável graças ao Grafted Muscle + Reinforced Tendons).
+- **Características principais:**
+  - Sistema dobrável (compacta em ~65 cm, desdobra em 2-3 segundos).
+  - Supressor integrado de alta eficiência (modo stealth).
+  - Magazine 20 tiros (opção de 30).
+  - Quick-change barrel (curto para CQB / longo para precisão).
+- **Gimmicks Techie:**
+  - **Underbarrel Grenade Launcher** (40mm, 1-2 tiros) — para supressão ou destruição de cobertura/equipamento leve.
+  - Ballistic Computer Overclock (trajetória em movimento, vento, cobertura leve).
+  - Smart Suppressor Variable + Signature Masking.
+  - Auto-Repair Nanites + ports de reparo rápido (Cyberarm).
+- **Função:** Cobertura precisa de avanço/retirada da crew + supressão leve de veículos/equipamentos não blindados.
+
+#### 2. Secundária Rápida — **Ghostwire Vanguard Heavy Pistol** (12.7mm / .50 AE)
+
+- **Tipo:** Very Heavy Pistol semi-automática custom.
+- **Carry:** Coldre de coxa rápido ou **Pop-up no Cyberarm direito**.
+- **Características principais:**
+  - Alta letalidade em distâncias curtas/médias.
+  - Magazine 10-15 tiros.
+  - Supressor quick-detach.
+- **Gimmicks Techie:**
+  - Pop-up Cyberarm Integration (saque instantâneo mental).
+  - Burst Smart-Rounds (rajadas controladas de 2 tiros).
+  - EMP Micro-Pulse (tiro especial anti-drone/chrome).
+  - Recoil Compensator Dynamic (quase zero recoil com Kerenzikov).
+  - Quick-change barrel + rail para laser/IR.
+
+#### 3. Terciária Surpresa / CQC — **Ghostwire Revolver Breaker** (Calibre 12 Revolving Shotgun)
+
+- **Tipo:** Escopeta curta revolving (cilindro giratório de 5-7 tiros).
+- **Carry:** Na bota (ankle rig) ou atrás da cintura (small of back) — quase invisível.
+- **Características principais:**
+  - Extremamente compacta (~45-55 cm).
+  - Devastadora em close range (“punch solver”).
+- **Gimmicks Techie:**
+  - Speed Cylinder Tech (recarga acelerada via Neural Link).
+  - Flechette / Buckshot Smart Switch (alternância mental de munição).
+  - Contact Detonator (modo explosivo no impacto).
+  - Supressor adaptável + Signature Masking.
+
+#### 4. Arma Branca / Arremessável — **Ghostwire Shadowblades** (Conjunto de Lâminas de Arremesso)
+
+- **Tipo:** Conjunto de 6–8 lâminas/tubos afiados customizados (estilo kunai modernas + tubos com laterais afiadas).
+- **Carry:** Distribuidas em bainhas ocultas no antebraço (Cyberarm), cinto, bota e dentro do Warden (para recarga rápida).
+- **Características principais:**
+  - Lâminas balanceadas para arremesso preciso (alcance efetivo 8–15 m).
+  - Design modular: algumas com bordas serrilhadas, outras com ponta perfurante reforçada e pequenas cavidades para veneno ou nanites.
+  - Material leve mas extremamente resistente (liga de titânio + carbono).
+  - Podem ser recuperadas e reutilizadas facilmente.
+- **Gimmicks Techie:**
+  - **Magnetic Recall** — Ímãs discretos + Neural Link permitem puxar de volta algumas lâminas (distância curta).
+  - **Smart Edge Coating** — Nanocamadas que mantêm o fio absurdamente afiado e podem aplicar choque elétrico fraco (via Warden ou Cyberarm).
+  - **Stealth Finish** — Revestimento que reduz brilho e assinatura térmica.
+  - Integração com Cyberarm para arremesso mais rápido e preciso (quase automático).
+
+### Integrações Gerais (Smart Swarm Sync)
+
+- **Smart Swarm Sync** (sempre ativo): Todas as armas de fogo compartilham visão e marcação em tempo real com as **Vespas** (Hornet, Vesper, Barbed) via Kiroshi + Neural Link.
+- **Warden Sync:** Ao sacar qualquer arma, o Warden pode automaticamente abrir a carapaça balística como meia-cobertura e ativar modo proteção.
+- **Neural Ghost Link:** Todas as armas (incluindo as Shadowblades) são sentidas como extensão do corpo (recoil reduzido, mira/arremesso instintivo).
+- **Quick-Mod Modular:** Troca de acessórios em segundos.
+- **Auto-Repair Nanites + Signature Masking:** Redução de manutenção e assinatura (térmica/sonora/EM).
+
+**Filosofia de Combate:** Ryan prioriza terminar o confronto o mais rápido e silenciosamente possível. Usa drones para intel, DMR para engajamento médio, Vanguard para quick-draw, Revolver Breaker para CQC devastador e Shadowblades para eliminações silenciosas ou arremessos surpresa. Tudo modular, reparável em campo e otimizado para máxima versatilidade.
 
 **Outros:** Bolsa de ferramentas, kit de reparo, componentes para drones, Agent.
 
@@ -165,6 +272,17 @@ Antigo cliente que deve vários favores a ele.
 **Objetivo atual:** Construir sua própria rede de tecnologia e influência fora do controle corporativo, usando drones e equipamentos customizados como principal ferramenta.
 
 ---
+
+### Glossário Tático (Referência Rápida)
+
+| Sigla         | Significado               | Explicação Prática                                                             |
+| ------------- | ------------------------- | ------------------------------------------------------------------------------ |
+| **CQC**       | Close Quarters Combat     | Combate em distâncias muito curtas (dentro de salas, veículos, corpo a corpo). |
+| **CQB**       | Close Quarters Battle     | Versão mais militar de CQC — limpeza de ambientes confinados.                  |
+| **DMR**       | Designated Marksman Rifle | Rifle de precisão média para suporte à crew (o Phantom).                       |
+| **AMR**       | Anti-Materiel Rifle       | Rifle anti-material pesado (.50 BMG) — Ryan não usa.                           |
+| **Mid-range** | Distância média           | 50 ~ 400 metros (zona principal do Phantom).                                   |
+| **Suppress**  | Supressão                 | Atirar para manter o inimigo abaixado.                                         |
 
 ## Referências
 
