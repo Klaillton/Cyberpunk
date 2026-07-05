@@ -11,7 +11,7 @@ Você opera como **motor de simulação de mundo baseado em estado externo verif
 
 - **Gestão de estado e arquivos** → regras em `sistema/diretrizes_ia.md`
 - **Narração / Mestre** → regras em `sistema/diretrizes_narrador.md`
-- O Narrador (humano ou IA em modo mestre) decide *o que* narrar; você garante *consistência* com os arquivos.
+- O Narrador (humano ou IA em modo mestre) decide _o que_ narrar; você garante _consistência_ com os arquivos.
 
 **Regra absoluta:** Se não está registrado nos arquivos do projeto → **não existe**. Não use memória de chats anteriores como canon.
 
@@ -24,8 +24,14 @@ Execute nesta ordem:
 ### 1. Sincronização
 
 - Repositório: <https://github.com/Klaillton/Cyberpunk>
-- Antes de narrar ou atualizar: sincronize o ambiente local com o remoto (`git pull`).
+- Branch oficial da rota normal (sincronização padrão): `feature/linha-estavel`.
+- Antes de narrar ou atualizar: sincronize o ambiente local com o remoto nessa branch.
+  - Comando recomendado: `git checkout feature/linha-estavel && git pull origin feature/linha-estavel`
+- Se o workspace estiver em outra branch, não assuma esse estado como canônico da campanha.
 - **Source of Truth:** arquivos locais **após** sync. Não assuma que a sandbox está atualizada sem verificar.
+- Quando precisar validar um arquivo diretamente no remoto, use o caminho RAW da branch estável:
+  - Template: `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/<caminho_relativo_do_arquivo>`
+  - Exemplo: `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/board_campanha.md`
 
 ### 2. Índice e navegação
 
@@ -88,10 +94,10 @@ Respeite as datas de "Última verificação" e "Validade sugerida" em `dashboard
 
 ## Comandos do jogador
 
-| Comando | Ação |
-| ------- | ---- |
+| Comando                                                                                       | Ação                                                                  |
+| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | `[Resumo da Sessão]` / `[Criar resumo da sessão atual]` / `[Finalizar sessão e gerar resumo]` | Gera resumo estruturado; propõe salvar em `logs/sessao_resumo_XXX.md` |
-| Atualização pós-sessão | Seguir `sistema/como_atualizar_arquivos.md` |
+| Atualização pós-sessão                                                                        | Seguir `sistema/como_atualizar_arquivos.md`                           |
 
 **Resumos de sessão**
 
@@ -105,15 +111,15 @@ Respeite as datas de "Última verificação" e "Validade sugerida" em `dashboard
 
 ## Atualização de arquivos pós-sessão
 
-| O que mudou | Arquivos |
-| ----------- | -------- |
-| Missão, local, NPCs ativos | `board/board_campanha.md`, `sistema/dashboard_contexto.md` |
-| Impacto permanente | `consequencias/consequencias_persistentes.md` |
-| Interação com NPC | `relacionamentos/ryan_relacionamentos.md` + individual + `crew_relacionamentos.md` |
-| Facção | `relacionamentos/faccao_relacionamentos.md`, `facoes/`, `reputacao.md` |
-| Exposição | `heat.md`, possivelmente `event_queue.md` |
-| Economia / projetos | `economia.md`, `logs/downtime_ryan.md` |
-| Fim de sessão | novo `logs/sessao_resumo_XXX.md` + arquivos afetados acima |
+| O que mudou                | Arquivos                                                                           |
+| -------------------------- | ---------------------------------------------------------------------------------- |
+| Missão, local, NPCs ativos | `board/board_campanha.md`, `sistema/dashboard_contexto.md`                         |
+| Impacto permanente         | `consequencias/consequencias_persistentes.md`                                      |
+| Interação com NPC          | `relacionamentos/ryan_relacionamentos.md` + individual + `crew_relacionamentos.md` |
+| Facção                     | `relacionamentos/faccao_relacionamentos.md`, `facoes/`, `reputacao.md`             |
+| Exposição                  | `heat.md`, possivelmente `event_queue.md`                                          |
+| Economia / projetos        | `economia.md`, `logs/downtime_ryan.md`                                             |
+| Fim de sessão              | novo `logs/sessao_resumo_XXX.md` + arquivos afetados acima                         |
 
 Sempre mostre mudanças propostas antes de aplicar. Mantenha `sistema/registro_arquivos.md` atualizado se criar arquivos novos.
 
@@ -121,16 +127,16 @@ Sempre mostre mudanças propostas antes de aplicar. Mantenha `sistema/registro_a
 
 ## Mapa rápido de arquivos críticos
 
-| Preciso de… | Arquivo |
-| ----------- | ------- |
-| Índice completo | `sistema/registro_arquivos.md` |
-| Situação agora | `board/board_campanha.md` |
-| Resumo rápido | `sistema/dashboard_contexto.md` |
-| Personagens | `relacionamentos/mapa_relacional_geral.md` |
-| Protagonista | `fichas/techie - ryan_wireghost_voss.md` + `relacionamentos/ryan_relacionamentos.md` |
-| Pack ativo | `facoes/pack_badlands.md` |
-| Histórico | `logs/sessao_resumo_006.md` (último) |
-| Como atualizar | `sistema/como_atualizar_arquivos.md` |
+| Preciso de…     | Arquivo                                                                              |
+| --------------- | ------------------------------------------------------------------------------------ |
+| Índice completo | `sistema/registro_arquivos.md`                                                       |
+| Situação agora  | `board/board_campanha.md`                                                            |
+| Resumo rápido   | `sistema/dashboard_contexto.md`                                                      |
+| Personagens     | `relacionamentos/mapa_relacional_geral.md`                                           |
+| Protagonista    | `fichas/techie - ryan_wireghost_voss.md` + `relacionamentos/ryan_relacionamentos.md` |
+| Pack ativo      | `facoes/pack_badlands.md`                                                            |
+| Histórico       | `logs/sessao_resumo_006.md` (último)                                                 |
+| Como atualizar  | `sistema/como_atualizar_arquivos.md`                                                 |
 
 ---
 

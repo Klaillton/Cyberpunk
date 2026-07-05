@@ -67,8 +67,12 @@ Antes de fornecer qualquer informação ou prosseguir com a narração, a IA dev
 2. **Verificar se o arquivo realmente existe no ambiente local (sandbox)**  
    Confirmar se o arquivo está acessível no ambiente de trabalho atual.
 
-3. **Verificar se o arquivo realmente existe no repositório (GitHub)**  
-   Confirmar se a versão oficial do arquivo está presente no repositório remoto.
+3. **Verificar se o arquivo realmente existe no repositório (GitHub)**
+   Confirmar se a versão oficial do arquivo está presente no repositório remoto, usando a branch estável da rota normal: `feature/linha-estavel`.
+   - Preferir validação por URL RAW:
+     - `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/<caminho_relativo_do_arquivo>`
+   - Exemplo:
+     - `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/registro_arquivos.md`
 
 4. **Verificar duplação desnecessária**  
    Checar se não está sendo criada uma duplicata de algum NPC, local, facção ou conceito já existente e importante na campanha.
@@ -86,6 +90,7 @@ Antes de fornecer qualquer informação ou prosseguir com a narração, a IA dev
   - Adiar a cena até o arquivo estar disponível.
 
 **Frase sugerida:**
+
 > “O arquivo `[nome do arquivo]` está listado no registro, mas não foi encontrado nem no ambiente nem no repositório. Deseja que eu crie uma versão básica agora, ou prefere prosseguir sem ele por enquanto?”
 
 ---
@@ -123,16 +128,16 @@ Fornecer as informações solicitadas de forma clara e organizada.
 
 Estes arquivos devem ser consultados com alta frequência:
 
-| Arquivo | Frequência | Finalidade |
-| ------- | ---------- | ---------- |
-| `sistema/registro_arquivos.md` | Sempre | Índice e guia de consulta cruzada |
-| `board/board_campanha.md` | Alta | Estado atual da campanha |
-| `consequencias/consequencias_persistentes.md` | Alta | Impactos de longo prazo |
-| `sistema/dashboard_contexto.md` | Alta | Resumo rápido do estado atual |
-| `relacionamentos/mapa_relacional_geral.md` | Alta | Hub de personagens e relações |
-| Fichas (`fichas/`) | Quando relevante | Informações mecânicas do personagem |
-| Relacionamentos (`relacionamentos/`) | Quando houver interação | Dinâmicas entre personagens |
-| Facções (`facoes/`) | Quando relevante | Contexto de grupos e corporações |
+| Arquivo                                             | Frequência                  | Finalidade                          |
+| --------------------------------------------------- | --------------------------- | ----------------------------------- |
+| `sistema/registro_arquivos.md`                      | Sempre                      | Índice e guia de consulta cruzada   |
+| `board/board_campanha.md`                           | Alta                        | Estado atual da campanha            |
+| `consequencias/consequencias_persistentes.md`       | Alta                        | Impactos de longo prazo             |
+| `sistema/dashboard_contexto.md`                     | Alta                        | Resumo rápido do estado atual       |
+| `relacionamentos/mapa_relacional_geral.md`          | Alta                        | Hub de personagens e relações       |
+| Fichas (`fichas/`)                                  | Quando relevante            | Informações mecânicas do personagem |
+| Relacionamentos (`relacionamentos/`)                | Quando houver interação     | Dinâmicas entre personagens         |
+| Facções (`facoes/`)                                 | Quando relevante            | Contexto de grupos e corporações    |
 | `sistema/pulso_procedimento.md` + `pulso_do_mundo/` | Ao passar **1 dia in-game** | Simulação off-screen do pack e NPCs |
 
 ---
@@ -167,7 +172,7 @@ Quando o narrador indicar que **passou 1 dia in-game** (ou mais):
 
 1. Executar [pulso_procedimento.md](pulso_procedimento.md).
 2. Rolagem **1×/dia/linha** em `pulso_do_mundo/pack_badlands/pulso_geral.md`.
-3. Atualizar *Eventos Off-Screen Recentes* no pulso NPC afetado.
+3. Atualizar _Eventos Off-Screen Recentes_ no pulso NPC afetado.
 4. Propagar impactos a `board`, `consequencias`, `relacionamentos`, `event_queue`, `heat` conforme necessário.
 5. Opcional: `logs/pulso_YYYYMMDD.md` para auditoria.
 
@@ -206,6 +211,7 @@ A IA deve **sempre mostrar o resumo gerado** e perguntar se deseja salvar no rep
 - Só deve propor o commit após **confirmação explícita** do jogador.
 
 Exemplo de mensagem:
+
 > “Aqui está o resumo da sessão. Deseja que eu salve no arquivo `logs/sessao_resumo_006.md` e envie para o GitHub?”
 
 Cada resumo deve incluir a seção **Arquivos Atualizados Nesta Sessão** com links para os arquivos modificados.
