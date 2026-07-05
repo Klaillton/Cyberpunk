@@ -6,3 +6,19 @@ agent-tools/
 
 # Cache e estado do sync automático Grok → campanha
 .grok-sync/
+
+# Dependências e artefatos de frontend/testes
+node_modules/
+playwright-report/
+test-results/
+
+# Artefatos Python locais
+__pycache__/
+*.pyc
+
+# Logs e artefatos de execução local
+*.log
+
+# Sistema operacional/editor
+.DS_Store
+Thumbs.db

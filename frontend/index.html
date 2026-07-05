@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyberpunk Solo Narration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <main class="app-shell">
+      <div class="app-layout">
+        <aside class="sidebar" aria-label="Menu lateral do personagem">
+          <div class="portrait-wrap">
+            <img
+              id="characterPortrait"
+              src="/api/character-image/ryan_wireghost_voss"
+              alt="Retrato do personagem"
+            />
+          </div>
+
+          <nav class="side-actions" aria-label="Acoes">
+            <button type="button" id="btnFicha" class="mode-btn">Ficha</button>
+            <button type="button" id="btnJournal" class="mode-btn">
+              Journal
+            </button>
+            <button type="button" id="btnNarrador" class="mode-btn">
+              Narrador
+            </button>
+          </nav>
+        </aside>
+
+        <section class="content-area">
+          <header class="top-bar">
+            <p class="kicker">Solo Campaign Interface</p>
+            <h1>NARRACAO AO VIVO</h1>
+            <section class="story-brief" aria-label="Resumo e objetivos">
+              <article class="brief-card">
+                <h2>Resumo Ate Aqui</h2>
+                <p>
+                  Ryan Wireghost Voss manteve o crew funcional apos as ultimas
+                  incurssoes Raffen, segurando reputacao local enquanto protege
+                  recursos criticos para os proximos jobs.
+                </p>
+              </article>
+              <article class="brief-card">
+                <h2>Objetivo Atual (Medio/Longo Prazo)</h2>
+                <p>
+                  Consolidar influencia sobre zonas-chave e garantir
+                  estabilidade operacional da crew em Night City e Badlands.
+                </p>
+              </article>
+              <article class="brief-card">
+                <h2>Objetivo Secundario (Curto Prazo)</h2>
+                <p>
+                  Fechar pendencias imediatas de recursos, reduzir heat ativo e
+                  preparar o proximo movimento sem gerar nova exposicao.
+                </p>
+              </article>
+            </section>
+            <p id="chatModeLabel" class="mode-label">
+              Canal atual: Narracao principal
+            </p>
+          </header>
+
+          <section
+            id="narrationFeed"
+            class="narration-feed"
+            aria-live="polite"
+            aria-label="Area de narracao"
+          >
+            <article class="narration-card system reveal">
+              <p>
+                A chuva acida cai em Night City. O canal abre e a narracao esta
+                pronta.
+              </p>
+            </article>
+          </section>
+
+          <section
+            id="narratorFeed"
+            class="narration-feed is-hidden"
+            aria-live="polite"
+            aria-label="Canal privado narrador"
+          >
+            <article class="narration-card private">
+              <p>Canal narrador: conversa fora da cronologia principal.</p>
+            </article>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <section
+      id="fichaDrawer"
+      class="sheet is-hidden"
+      aria-label="Ficha do personagem"
+    >
+      <div class="sheet-backdrop" data-close="ficha"></div>
+      <div class="sheet-panel">
+        <header class="sheet-header">
+          <h2>Ficha do Personagem</h2>
+          <button
+            id="closeFichaBtn"
+            class="close-btn"
+            type="button"
+            aria-label="Fechar ficha"
+            data-close="ficha"
+          >
+            X
+          </button>
+        </header>
+        <div class="sheet-content" id="fichaContent">
+          <p id="fichaStatus" class="utility-hint">
+            Carregando ficha do arquivo real...
+          </p>
+          <div id="fichaSections"></div>
+          <article class="sheet-card">
+            <h3>Referencias Cruzadas</h3>
+            <ul id="fichaRefs" class="sheet-links"></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="journalDrawer"
+      class="sheet is-hidden"
+      aria-label="Journal da campanha"
+    >
+      <div class="sheet-backdrop" data-close="journal"></div>
+      <div class="sheet-panel sheet-panel-sm">
+        <header class="sheet-header">
+          <h2>Journal</h2>
+          <button
+            id="closeJournalBtn"
+            class="close-btn"
+            type="button"
+            aria-label="Fechar journal"
+            data-close="journal"
+          >
+            X
+          </button>
+        </header>
+        <div class="sheet-content">
+          <p class="utility-hint">Observacoes rapidas da sessao.</p>
+          <form id="journalForm" class="journal-form" autocomplete="off">
+            <label for="journalInput" class="sr-only"
+              >Nova entrada do journal</label
+            >
+            <textarea
+              id="journalInput"
+              name="journalInput"
+              rows="3"
+              maxlength="500"
+              placeholder="Digite uma anotacao do journal..."
+              required
+            ></textarea>
+            <button type="submit" class="journal-submit">
+              Adicionar Entrada
+            </button>
+          </form>
+          <ul id="journalList" class="journal-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="chat-footer">
+      <form id="chatForm" class="chat-form" autocomplete="off">
+        <label for="playerInput" class="sr-only">Digite sua acao</label>
+        <input
+          id="playerInput"
+          name="playerInput"
+          type="text"
+          maxlength="500"
+          placeholder="Digite sua acao..."
+          required
+        />
+        <button type="submit">Enviar</button>
+      </form>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
