@@ -13,14 +13,14 @@ Visão geral da estrutura do projeto e de como os arquivos se conectam entre si.
 
 ## Por Onde Começar
 
-| Papel | Arquivo inicial |
-| ----- | --------------- |
-| Jogador / Narrador humano | Este arquivo (`README.md`) |
+| Papel                      | Arquivo inicial                                                |
+| -------------------------- | -------------------------------------------------------------- |
+| Jogador / Narrador humano  | Este arquivo (`README.md`)                                     |
 | IA (instruções do projeto) | [sistema/instrucoes_projeto.md](sistema/instrucoes_projeto.md) |
-| IA (boot sequence) | [sistema/diretrizes_ia.md](sistema/diretrizes_ia.md) |
-| Índice completo do projeto | [sistema/registro_arquivos.md](sistema/registro_arquivos.md) |
-| Estado rápido da campanha | [sistema/dashboard_contexto.md](sistema/dashboard_contexto.md) |
-| Situação narrativa atual | [board/board_campanha.md](board/board_campanha.md) |
+| IA (boot sequence)         | [sistema/diretrizes_ia.md](sistema/diretrizes_ia.md)           |
+| Índice completo do projeto | [sistema/registro_arquivos.md](sistema/registro_arquivos.md)   |
+| Estado rápido da campanha  | [sistema/dashboard_contexto.md](sistema/dashboard_contexto.md) |
+| Situação narrativa atual   | [board/board_campanha.md](board/board_campanha.md)             |
 
 ### Arquivos principais
 
@@ -32,6 +32,7 @@ Visão geral da estrutura do projeto e de como os arquivos se conectam entre si.
 - [dashboard_contexto.md](sistema/dashboard_contexto.md) — Resumo rápido do estado atual
 - [board_campanha.md](board/board_campanha.md) — Board oficial da campanha
 - [mapa_relacional_geral.md](relacionamentos/mapa_relacional_geral.md) — Hub de personagens e relações
+- [arquitetura_narracao_solo.md](sistema/arquitetura_narracao_solo.md) — Arquitetura do sistema de narração + automação via chat
 
 ---
 
@@ -55,17 +56,17 @@ ficha + relacionamentos  →  contexto do NPC em cena
 
 ## Pastas e Finalidade
 
-| Pasta | Conteúdo | Quando consultar |
-| ----- | -------- | ---------------- |
-| `board/` | Estado narrativo atual da campanha | Toda sessão |
-| `consequencias/` | Impactos permanentes de eventos passados | Antes de narrar consequências |
-| `relacionamentos/` | Dinâmicas entre personagens e facções | Interações com NPCs |
-| `fichas/` | Fichas mecânicas dos personagens | Combate, testes, atributos |
-| `fichas/notas_narrador/` | Material restrito do narrador (ex.: passado de Ryan) | Revelação gradual, gatilhos |
-| `facoes/` | Detalhes de facções | Cenas com grupos/corporações |
-| `logs/` | Resumos de sessão e downtime | Retomar contexto, registrar mudanças |
-| `sistema/` | Regras, índice e guias de manutenção | Boot da IA, atualizações |
-| Raiz (`*.md`) | Estado mecânico global | Reputação, heat, eventos, economia |
+| Pasta                    | Conteúdo                                             | Quando consultar                     |
+| ------------------------ | ---------------------------------------------------- | ------------------------------------ |
+| `board/`                 | Estado narrativo atual da campanha                   | Toda sessão                          |
+| `consequencias/`         | Impactos permanentes de eventos passados             | Antes de narrar consequências        |
+| `relacionamentos/`       | Dinâmicas entre personagens e facções                | Interações com NPCs                  |
+| `fichas/`                | Fichas mecânicas dos personagens                     | Combate, testes, atributos           |
+| `fichas/notas_narrador/` | Material restrito do narrador (ex.: passado de Ryan) | Revelação gradual, gatilhos          |
+| `facoes/`                | Detalhes de facções                                  | Cenas com grupos/corporações         |
+| `logs/`                  | Resumos de sessão e downtime                         | Retomar contexto, registrar mudanças |
+| `sistema/`               | Regras, índice e guias de manutenção                 | Boot da IA, atualizações             |
+| Raiz (`*.md`)            | Estado mecânico global                               | Reputação, heat, eventos, economia   |
 
 ---
 
@@ -79,7 +80,19 @@ Após cada sessão, os arquivos mais críticos a revisar são:
 - [consequencias/consequencias_persistentes.md](consequencias/consequencias_persistentes.md)
 - [relacionamentos/ryan_relacionamentos.md](relacionamentos/ryan_relacionamentos.md)
 - [sistema/dashboard_contexto.md](sistema/dashboard_contexto.md)
-- Novo resumo em `logs/sessao_resumo_XXX.md` (próximo: `006`)
+- Novo resumo em `logs/sessao_resumo_XXX.md` (próximo: `007`)
+
+---
+
+## Automação de Narração (MVP)
+
+O repositório já possui um MVP de orquestração de chat para campanha solo:
+
+- `python scripts/narracao_engine.py check` → valida integridade mínima dos arquivos de estado.
+- `python scripts/narracao_engine.py chat --message "..." --mode gestor` → turno único com contexto inteligente.
+- `python scripts/narracao_engine.py repl --mode narrador` → chat contínuo para sessão.
+
+Detalhes da arquitetura e evolução: [sistema/arquitetura_narracao_solo.md](sistema/arquitetura_narracao_solo.md).
 
 ---
 

@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 04 de Julho de 2026
+**Última atualização:** 05 de Julho de 2026
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -10,35 +10,36 @@ Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeir
 
 Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informação necessária.
 
-| Preciso de… | Arquivo principal | Arquivos relacionados |
-| ----------- | ----------------- | --------------------- |
-| Estado narrativo atual (missão, local, NPCs ativos) | `board/board_campanha.md` | `sistema/dashboard_contexto.md`, `consequencias/consequencias_persistentes.md` |
-| Resumo rápido para início de sessão | `sistema/dashboard_contexto.md` | `board/board_campanha.md`, `reputacao.md`, `heat.md`, `event_queue.md` |
-| Impactos permanentes de eventos passados | `consequencias/consequencias_persistentes.md` | `board/board_campanha.md`, `logs/sessao_resumo_*.md` |
-| Reputação com facções/NPCs | `reputacao.md` | `relacionamentos/faccao_relacionamentos.md`, `facoes/` |
-| Exposição / perseguição | `heat.md` | `event_queue.md`, `consequencias/consequencias_persistentes.md` |
-| Eventos pendentes no mundo | `event_queue.md` | `board/board_campanha.md`, `consequencias/consequencias_persistentes.md` |
-| Situação financeira | `economia.md` | `board/board_campanha.md`, `logs/downtime_ryan.md` |
-| Relações do protagonista | `relacionamentos/ryan_relacionamentos.md` | `relacionamentos/mapa_relacional_geral.md`, `relacionamentos/crew_relacionamentos.md` |
-| Dinâmica entre membros da crew | `relacionamentos/crew_relacionamentos.md` | `relacionamentos/mapa_relacional_geral.md` |
-| Arco romântico futuro (polycule) | `relacionamentos/crew_polycule_ryan_valk_alex_reina.md` | `relacionamentos/crew_relacionamentos.md`, arquivos individuais |
-| Relações com facções | `relacionamentos/faccao_relacionamentos.md` | `facoes/pack_badlands.md`, `facoes/faccoes_geral.md`, `reputacao.md` |
-| Hub de personagens (onde achar cada NPC) | `relacionamentos/mapa_relacional_geral.md` | `fichas/`, `relacionamentos/*_relacionamentos.md` |
-| Ficha mecânica de personagem (crew) | `fichas/<personagem>.md` | Relacionamento correspondente em `relacionamentos/` |
-| NPC secundário (personalidade + eventos) | `fichas/npc/<slug>.md` | [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md), facção/job/sessão |
-| Detalhes de facção ativa | `facoes/pack_badlands.md` | `relacionamentos/faccao_relacionamentos.md`, `reputacao.md` |
-| Facções menores / superficiais | `facoes/faccoes_geral.md` | `relacionamentos/faccao_relacionamentos.md` |
-| Atividades de downtime do Ryan | `logs/downtime_ryan.md` | `board/board_campanha.md`, `fichas/techie - ryan_wireghost_voss.md` |
-| Background e gatilhos do Ryan (narrador) | `fichas/notas_narrador/ryan_background_completo.md` | `fichas/notas_narrador/ryan_gatilhos_memorias.md`, `fichas/techie - ryan_wireghost_voss.md` (Elisa "Doc" Moreau) |
-| Histórico de sessão | `logs/sessao_resumo_XXX.md` | Arquivos listados na seção "Arquivos Atualizados" de cada resumo |
-| Detalhes de job / gig concluído | `logs/job_XXX_*.md` | `logs/sessao_resumo_*.md`, `consequencias/consequencias_persistentes.md`, `heat.md` |
-| Incidente narrativo marcante (combate, confronto) | `logs/incidente_XXX_*.md` | `consequencias/consequencias_persistentes.md`, `event_queue.md`, sessões |
-| Instruções do projeto (boot) | `sistema/instrucoes_projeto.md` | `diretrizes_ia.md`, este arquivo |
-| Regras da IA (boot sequence) | `sistema/diretrizes_ia.md` | `instrucoes_projeto.md`, este arquivo |
-| Regras do narrador | `sistema/diretrizes_narrador.md` | `sistema/diretrizes_ia.md` |
-| Como atualizar após sessão | `sistema/como_atualizar_arquivos.md` | Este arquivo |
-| Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
-| Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
+| Preciso de…                                         | Arquivo principal                                       | Arquivos relacionados                                                                                            |
+| --------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Estado narrativo atual (missão, local, NPCs ativos) | `board/board_campanha.md`                               | `sistema/dashboard_contexto.md`, `consequencias/consequencias_persistentes.md`                                   |
+| Resumo rápido para início de sessão                 | `sistema/dashboard_contexto.md`                         | `board/board_campanha.md`, `reputacao.md`, `heat.md`, `event_queue.md`                                           |
+| Impactos permanentes de eventos passados            | `consequencias/consequencias_persistentes.md`           | `board/board_campanha.md`, `logs/sessao_resumo_*.md`                                                             |
+| Reputação com facções/NPCs                          | `reputacao.md`                                          | `relacionamentos/faccao_relacionamentos.md`, `facoes/`                                                           |
+| Exposição / perseguição                             | `heat.md`                                               | `event_queue.md`, `consequencias/consequencias_persistentes.md`                                                  |
+| Eventos pendentes no mundo                          | `event_queue.md`                                        | `board/board_campanha.md`, `consequencias/consequencias_persistentes.md`                                         |
+| Situação financeira                                 | `economia.md`                                           | `board/board_campanha.md`, `logs/downtime_ryan.md`                                                               |
+| Relações do protagonista                            | `relacionamentos/ryan_relacionamentos.md`               | `relacionamentos/mapa_relacional_geral.md`, `relacionamentos/crew_relacionamentos.md`                            |
+| Dinâmica entre membros da crew                      | `relacionamentos/crew_relacionamentos.md`               | `relacionamentos/mapa_relacional_geral.md`                                                                       |
+| Arco romântico futuro (polycule)                    | `relacionamentos/crew_polycule_ryan_valk_alex_reina.md` | `relacionamentos/crew_relacionamentos.md`, arquivos individuais                                                  |
+| Relações com facções                                | `relacionamentos/faccao_relacionamentos.md`             | `facoes/pack_badlands.md`, `facoes/faccoes_geral.md`, `reputacao.md`                                             |
+| Hub de personagens (onde achar cada NPC)            | `relacionamentos/mapa_relacional_geral.md`              | `fichas/`, `relacionamentos/*_relacionamentos.md`                                                                |
+| Ficha mecânica de personagem (crew)                 | `fichas/<personagem>.md`                                | Relacionamento correspondente em `relacionamentos/`                                                              |
+| NPC secundário (personalidade + eventos)            | `fichas/npc/<slug>.md`                                  | [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md), facção/job/sessão                       |
+| Detalhes de facção ativa                            | `facoes/pack_badlands.md`                               | `relacionamentos/faccao_relacionamentos.md`, `reputacao.md`                                                      |
+| Facções menores / superficiais                      | `facoes/faccoes_geral.md`                               | `relacionamentos/faccao_relacionamentos.md`                                                                      |
+| Atividades de downtime do Ryan                      | `logs/downtime_ryan.md`                                 | `board/board_campanha.md`, `fichas/techie - ryan_wireghost_voss.md`                                              |
+| Background e gatilhos do Ryan (narrador)            | `fichas/notas_narrador/ryan_background_completo.md`     | `fichas/notas_narrador/ryan_gatilhos_memorias.md`, `fichas/techie - ryan_wireghost_voss.md` (Elisa "Doc" Moreau) |
+| Histórico de sessão                                 | `logs/sessao_resumo_XXX.md`                             | Arquivos listados na seção "Arquivos Atualizados" de cada resumo                                                 |
+| Detalhes de job / gig concluído                     | `logs/job_XXX_*.md`                                     | `logs/sessao_resumo_*.md`, `consequencias/consequencias_persistentes.md`, `heat.md`                              |
+| Incidente narrativo marcante (combate, confronto)   | `logs/incidente_XXX_*.md`                               | `consequencias/consequencias_persistentes.md`, `event_queue.md`, sessões                                         |
+| Instruções do projeto (boot)                        | `sistema/instrucoes_projeto.md`                         | `diretrizes_ia.md`, este arquivo                                                                                 |
+| Regras da IA (boot sequence)                        | `sistema/diretrizes_ia.md`                              | `instrucoes_projeto.md`, este arquivo                                                                            |
+| Regras do narrador                                  | `sistema/diretrizes_narrador.md`                        | `sistema/diretrizes_ia.md`                                                                                       |
+| Como atualizar após sessão                          | `sistema/como_atualizar_arquivos.md`                    | Este arquivo                                                                                                     |
+| Arquitetura do sistema de narração automatizado     | `sistema/arquitetura_narracao_solo.md`                  | `scripts/narracao_engine.py`, `scripts/sync_campanha.py`                                                         |
+| Simular mundo off-screen (pulso diário)             | `sistema/pulso_procedimento.md`                         | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC                                                        |
+| Log de pulso (auditoria opcional)                   | `logs/pulso_YYYYMMDD.md`                                | [pulso_log_template.md](../logs/pulso_log_template.md)                                                           |
 
 **Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001`, `002`, `003`, `004`, `005`, `006`). Próximo número disponível: **007**.
 
@@ -133,6 +134,11 @@ cyberpunk/
 │   ├── alex_specter_kane_relacionamentos.md
 │   ├── lena_valk_kane_relacionamentos.md
 │   └── reina_bearclaw_morales_relacionamentos.md
+├── scripts/
+│   ├── sync_campanha.py           ← Pipeline de sync Grok + commit
+│   ├── narracao_engine.py         ← Orquestrador de chat com contexto inteligente
+│   └── prompts/
+│       └── atualizar-sessao.md
 └── sistema/
     ├── instrucoes_projeto.md      ← Instruções do projeto (espelho versionado)
     ├── pulso_procedimento.md      ← Motor off-screen (1×/dia in-game)
@@ -140,6 +146,7 @@ cyberpunk/
     ├── dashboard_contexto.md
     ├── diretrizes_ia.md
     ├── diretrizes_narrador.md
+    ├── arquitetura_narracao_solo.md
     └── registro_arquivos.md       ← Este arquivo
 ```
 
@@ -147,28 +154,29 @@ cyberpunk/
 
 ## Arquivos de Estado do Mundo
 
-| Arquivo | Status | Finalidade | Consultar junto com |
-| ------- | ------ | ---------- | ------------------- |
-| `board/board_campanha.md` | Ativo | Estado narrativo atual | `dashboard_contexto.md`, `consequencias/consequencias_persistentes.md` |
-| `reputacao.md` | Ativo | Reputação por facção e NPC | `relacionamentos/faccao_relacionamentos.md`, `facoes/` |
-| `heat.md` | Ativo | Nível de exposição/perseguição | `event_queue.md`, `consequencias/consequencias_persistentes.md` |
-| `event_queue.md` | Ativo | Fila de eventos globais pendentes | `board/board_campanha.md`, `heat.md` |
-| `economia.md` | Ativo | Estado financeiro e econômico | `board/board_campanha.md`, `logs/downtime_ryan.md` |
-| `consequencias/consequencias_persistentes.md` | Ativo | Impactos permanentes | `board/board_campanha.md`, `logs/sessao_resumo_*.md` |
+| Arquivo                                       | Status | Finalidade                        | Consultar junto com                                                    |
+| --------------------------------------------- | ------ | --------------------------------- | ---------------------------------------------------------------------- |
+| `board/board_campanha.md`                     | Ativo  | Estado narrativo atual            | `dashboard_contexto.md`, `consequencias/consequencias_persistentes.md` |
+| `reputacao.md`                                | Ativo  | Reputação por facção e NPC        | `relacionamentos/faccao_relacionamentos.md`, `facoes/`                 |
+| `heat.md`                                     | Ativo  | Nível de exposição/perseguição    | `event_queue.md`, `consequencias/consequencias_persistentes.md`        |
+| `event_queue.md`                              | Ativo  | Fila de eventos globais pendentes | `board/board_campanha.md`, `heat.md`                                   |
+| `economia.md`                                 | Ativo  | Estado financeiro e econômico     | `board/board_campanha.md`, `logs/downtime_ryan.md`                     |
+| `consequencias/consequencias_persistentes.md` | Ativo  | Impactos permanentes              | `board/board_campanha.md`, `logs/sessao_resumo_*.md`                   |
 
 ---
 
 ## Arquivos Auxiliares e de Sistema
 
-| Arquivo | Status | Finalidade | Consultar junto com |
-| ------- | ------ | ---------- | ------------------- |
-| `sistema/dashboard_contexto.md` | Ativo | Resumo rápido para a IA | Todos os arquivos de estado |
-| `relacionamentos/mapa_relacional_geral.md` | Ativo | Hub de personagens e relações | `fichas/`, `relacionamentos/` |
-| `sistema/instrucoes_projeto.md` | Ativo | Instruções do projeto (espelho versionado) | `diretrizes_ia.md`, descrição do projeto |
-| `sistema/diretrizes_ia.md` | Ativo | Boot sequence e regras da IA | `instrucoes_projeto.md`, este arquivo |
-| `sistema/diretrizes_narrador.md` | Ativo | Regras de narração | `diretrizes_ia.md` |
-| `sistema/como_atualizar_arquivos.md` | Ativo | Guia de manutenção pós-sessão | Este arquivo |
-| `README.md` | Ativo | Visão geral e entrada do projeto | `sistema/registro_arquivos.md` |
+| Arquivo                                    | Status | Finalidade                                 | Consultar junto com                                      |
+| ------------------------------------------ | ------ | ------------------------------------------ | -------------------------------------------------------- |
+| `sistema/dashboard_contexto.md`            | Ativo  | Resumo rápido para a IA                    | Todos os arquivos de estado                              |
+| `relacionamentos/mapa_relacional_geral.md` | Ativo  | Hub de personagens e relações              | `fichas/`, `relacionamentos/`                            |
+| `sistema/instrucoes_projeto.md`            | Ativo  | Instruções do projeto (espelho versionado) | `diretrizes_ia.md`, descrição do projeto                 |
+| `sistema/diretrizes_ia.md`                 | Ativo  | Boot sequence e regras da IA               | `instrucoes_projeto.md`, este arquivo                    |
+| `sistema/diretrizes_narrador.md`           | Ativo  | Regras de narração                         | `diretrizes_ia.md`                                       |
+| `sistema/como_atualizar_arquivos.md`       | Ativo  | Guia de manutenção pós-sessão              | Este arquivo                                             |
+| `sistema/arquitetura_narracao_solo.md`     | Ativo  | Arquitetura do motor de narração solo      | `scripts/narracao_engine.py`, `scripts/sync_campanha.py` |
+| `README.md`                                | Ativo  | Visão geral e entrada do projeto           | `sistema/registro_arquivos.md`                           |
 
 ---
 
@@ -185,6 +193,7 @@ cyberpunk/
 - **Jobs / Gigs:** Padrão `logs/job_XXX_<slug>.md` para briefing, execução e fallout permanente. Sessões referenciam o job; não duplicar táticas completas no resumo.
 - **NPCs secundários:** Um arquivo em `fichas/npc/<slug>.md` quando o personagem tem personalidade ou eventos que não cabem só no board/facção. Índice em [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md). **Não** misturar vários NPCs num único arquivo (dificulta busca da IA).
 - **Facções:** Detalhes em `facoes/`. Facções menores em `facoes/faccoes_geral.md`.
+- **Motor de narração:** `scripts/narracao_engine.py` faz orquestração de chat (check, chat e repl) com seleção automática de contexto.
 - **Referências cruzadas:** Cada arquivo relevante possui seção `## Referências` apontando para arquivos relacionados.
 - O **Source of Truth** permanece nos arquivos locais do jogador.
 
