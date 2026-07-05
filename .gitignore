@@ -6,3 +6,16 @@ agent-tools/
 
 # Cache e estado do sync automático Grok → campanha
 .grok-sync/
+
+# Dependências locais Node
+node_modules/
+
+# Artefatos de testes E2E
+test-results/
+playwright-report/
+playwright-loading-check.log
+
+# Cache Python
+__pycache__/
+scripts/__pycache__/
+*.pyc
