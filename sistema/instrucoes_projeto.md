@@ -151,4 +151,4 @@ Ryan (protagonista), Valk, Alex, Reina, Kaz, Doc, Jax — fichas em `fichas/`, r
 - [Registro de Arquivos](registro_arquivos.md) · [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md)
 - [README](../README.md) · [Como Atualizar](como_atualizar_arquivos.md) · [Dashboard](dashboard_contexto.md)
 
-**Última atualização:** 02 de Julho de 2026
+**Última atualização:** 07 de Julho de 2026
