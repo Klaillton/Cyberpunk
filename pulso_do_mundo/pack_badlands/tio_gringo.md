@@ -39,6 +39,7 @@
 
 - **03/07/2026 (tarde)** — Trabalhou sozinho na forja; ajustou ferramenta que Ryan havia calibrado.
 - **03/07/2026 (tarde)** — Elias (recruta) pediu uma válvula para a destilaria — atendido sem drama.
+- **03/07/2026 (dia)** — Pré-validação do blueprint **Badlands Node v0.1** com Ryan e Rusty. *(sessão 007)*
 
 ## Relação com Ryan
 

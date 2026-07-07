@@ -25,6 +25,7 @@
 | Jun/2026 | Ryan reforça didática dele na forja sem tirar mérito (perguntas, mínima intervenção). |
 | 28/06/2026 | Supervisiona tendas e playground; noite em claro com Ryan no Mule. |
 | 02/07/2026 | Reunião com Reyes e Ryan sobre desempenho dos novos recrutas. |
+| 03/07/2026 | Alinhamento com Ryan e Rusty; pré-validação do blueprint **Badlands Node v0.1**. |
 
 ## Relação com a crew
 
@@ -41,5 +42,5 @@
 ## Referências
 
 - [Pack Badlands](../../facoes/pack_badlands.md) · [Downtime Ryan](../../logs/downtime_ryan.md)
-- [Sessão 002](../../logs/sessao_resumo_002.md) · [Sessão 005](../../logs/sessao_resumo_005.md)
+- [Sessão 005](../../logs/sessao_resumo_005.md) · [Sessão 007](../../logs/sessao_resumo_007.md)
 - [Mapa Relacional](../../relacionamentos/mapa_relacional_geral.md)

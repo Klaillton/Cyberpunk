@@ -14,6 +14,7 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **Notas:** Existe amor mútuo. Valk aceita tanto o lado carinhoso quanto o lado frio/operador de Ryan. A relação é intensa, carinhosa e um pouco possessiva. Eles evitam ficar muito tempo sozinhos em espaços pequenos por causa da tensão não resolvida do passado.
 - **02/07/2026 (noite):** Intimidade prolongada com Ryan na tenda (massagem com óleo laranja + alecrim, conexão profunda, sono abraçados).
 - **03/07/2026 (manhã):** Dormindo na tenda; Ryan saiu em silêncio após cafuné, abraço e beijo no rosto (ela não acordou).
+- **03/07/2026 (dia):** Ryan dedicou o dia ao **Badlands Node v0.1** (apresentação, delegação, blueprint, aprovação por Reyes).
 
 ### Alex "Specter" Kane
 

@@ -1,7 +1,7 @@
 # Relacionamentos entre Facções
 
 **Campanha:** Cyberpunk RED  
-**Última atualização:** 01 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026
 
 ---
 
@@ -12,7 +12,7 @@
 - **Status com a Crew:** Aliado em construção
 - **Motivo:** Ryan está hospedado no Pack e tem ajudado intensamente com melhorias técnicas, defensivas e ensino.
 - **Risco atual:** Baixo
-- **Impacto na Crew:** Ryan está construindo uma relação sólida com o Pack. Mesmo que saia por um tempo, o que ele fez deve gerar repercussão permanente.
+- **Impacto na Crew:** Ryan está construindo uma relação sólida com o Pack. **03/07:** Badlands Node v0.1 aprovado — Ryan como arquiteto de infraestrutura. Mesmo que saia por um tempo, o que ele fez deve gerar repercussão permanente.
 
 ### Biotechnica (BT)
 

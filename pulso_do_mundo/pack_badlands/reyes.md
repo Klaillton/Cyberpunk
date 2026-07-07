@@ -34,10 +34,11 @@
 
 - **03/07/2026 (tarde)** — Enviou dupla de reconhecimento rotineira; retorno sem contato hostil.
 - **03/07/2026 (tarde)** — Observou recrutas de longe; decidiu que precisa alinhar com Ryan sobre supervisão de Tomas (ainda não abordou).
+- **03/07/2026 (dia)** — **Aprovou oficialmente** o **Badlands Node v0.1** após apresentação de Ryan. *(sessão 007)*
 
 ## Relação com Ryan
 
-Reyes respeita a competência técnica de Ryan e reconhece o valor que ele trouxe para o Pack (especialmente a cerca defensiva e as melhorias nos veículos). No entanto, ele ainda mantém certa cautela em relação ao lado mais frio e letal de Ryan. Ele vê Ryan como alguém útil, mas também como alguém que pode trazer complicações. Por enquanto, ele prefere observar e avaliar antes de dar mais poder ou responsabilidade para ele.
+Reyes respeita a competência técnica de Ryan e reconhece o valor que ele trouxe para o Pack. **03/07:** concedeu luz verde ao Badlands Node v0.1 — confiança estratégica elevada. Mantém cautela pelo lado operador de Ryan, mas passou a tratá-lo como arquiteto de infraestrutura do Pack.
 
 ## Ganchos / Possíveis Eventos
 
