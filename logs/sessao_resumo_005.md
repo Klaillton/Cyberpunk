@@ -1,4 +1,4 @@
-# Resumo de Sessão - 005
+# Resumo de Sessão — 005
 
 **Data:** 02 de Julho de 2026  
 **Duração aproximada:** Noite até madrugada  
@@ -10,7 +10,7 @@
 ## Eventos Principais
 
 - Reunião estratégica com Reyes (líder do Pack) e Tio Gringo sobre os novos recrutas (Mara, Elias e Tomas).
-- Ryan apresentou sua avaliação e recomendações: Elias para a destilaria e monitoramento mais próximo de Tomas.
+- Ryan apresentou sua avaliação e recomendações: Elias para a destilaria, monitoramento contínuo de Tomas; avaliação final dos três deferida ao Tio Gringo.
 - Discussão sobre estratégia de consolidação interna (destilaria + estufa modular) antes de qualquer expansão comercial ou de pessoal.
 - Reyes demonstrou concordância com a abordagem cautelosa proposta por Ryan.
 - Noite íntima prolongada e carinhosa entre Ryan e Valk na tenda (massagem sensual com óleo aromático, estimulação prolongada, múltiplos orgasmos e aftercare).
@@ -62,3 +62,14 @@
 
 **Arquivo gerado em:** 02 de Julho de 2026  
 **Enviado para GitHub:** Sim
+
+---
+
+## Arquivos Atualizados Nesta Sessão
+
+- [board/board_campanha.md](../board/board_campanha.md)
+- [sistema/dashboard_contexto.md](../sistema/dashboard_contexto.md)
+- [relacionamentos/ryan_relacionamentos.md](../relacionamentos/ryan_relacionamentos.md)
+- [relacionamentos/lena_valk_kane_relacionamentos.md](../relacionamentos/lena_valk_kane_relacionamentos.md)
+- [consequencias/consequencias_persistentes.md](../consequencias/consequencias_persistentes.md)
+- [logs/sessao_resumo_005.md](sessao_resumo_005.md)

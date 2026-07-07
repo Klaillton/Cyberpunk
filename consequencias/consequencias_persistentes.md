@@ -1,6 +1,6 @@
 # Consequências Persistentes
 
-**Última atualização:** 01 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026
 
 ---
 
@@ -132,7 +132,19 @@ Mara, Elias e Tomas foram oficialmente integrados ao pack. Tendas modulares conc
 - Observação inicial: bom potencial, mas ainda em avaliação.
 - Conversa estratégica com Reyes sobre crescimento controlado.
 
-**Última atualização:** 02 de Julho de 2026
+## 02 de Julho de 2026 - Reunião estratégica (noite) e intimidade Ryan × Valk
+
+Reunião com Reyes e Tio Gringo: Ryan recomendou Elias para a destilaria, monitoramento de Tomas e deixou avaliação final dos recrutas ao Tio Gringo. Reyes concordou com consolidação interna (destilaria + estufa modular) antes de expansão comercial ou de mais Solos permanentes.
+
+Na mesma noite, Ryan e Valk tiveram intimidade prolongada na tenda (óleo laranja + alecrim, aftercare, sono abraçados).
+
+**Impactos:**
+
+- Ryan passa a ser consultado em decisões estratégicas do Pack (Reyes).
+- Relação Ryan × Valk reforçada emocionalmente.
+- Diretriz operativa do Pack alinhada à visão de Ryan (cautela com novatos).
+
+**Última atualização:** 03 de Julho de 2026
 
 ---
 
@@ -143,8 +155,6 @@ Mara, Elias e Tomas foram oficialmente integrados ao pack. Tendas modulares conc
 - Sempre que uma ação dos jogadores puder gerar consequências de longo prazo (reputação, inimigos, aliados, dívidas, favores, etc.), registre aqui.
 - Consulte este arquivo regularmente antes de narrar, especialmente quando os jogadores estiverem em locais ou situações relacionados a eventos passados.
 
-**Última atualização:** 01 de Julho de 2026
-
 ---
 
 ## Referências
@@ -152,4 +162,4 @@ Mara, Elias e Tomas foram oficialmente integrados ao pack. Tendas modulares conc
 - [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
 - [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Facções](../relacionamentos/faccao_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- [Logs](../logs/sessao_resumo_005.md) · [Downtime](../logs/downtime_ryan.md)
+- [Sessão 005](../logs/sessao_resumo_005.md) · [Última sessão (006)](../logs/sessao_resumo_006.md) · [Downtime](../logs/downtime_ryan.md)

@@ -145,7 +145,7 @@ Ryan está ativamente **ensinando novas pessoas do Pack** seu conhecimento técn
 
 **NPCs relevantes do Pack:**
 
-- **Reyes** (Líder) → Relação cautelosa, mas com confiança técnica crescente.
+- **Reyes** (Líder) → Relação cautelosa, mas com confiança técnica crescente. **02/07:** concordou com plano de consolidação interna após reunião com Ryan e Tio Gringo (Elias→destilaria, vigilância em Tomas).
 - **Tio Gringo** (Ferreiro mais velho) → Respeito técnico alto. Ryan tem ajudado ele diretamente.
 - **Sasha** → [ficha](../fichas/npc/sasha.md). Presenciou o [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) (confronto + execução). Medo/respeito pelo lado soldado de Ryan.
 - **Lira** → [ficha](../fichas/npc/lira.md). Tentando se aproximar de Valk. Assustada com o lado operador (ouviu falar / viu de longe); ajudou Valk a acalmar o grupo após o [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md).

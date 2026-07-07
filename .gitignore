@@ -19,3 +19,6 @@ playwright-loading-check.log
 __pycache__/
 scripts/__pycache__/
 *.pyc
+
+# Configuração local do editor
+.vscode/

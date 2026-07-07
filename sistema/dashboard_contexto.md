@@ -17,7 +17,8 @@
 - Ryan e Valk estão hospedados no Pack Nômade de Badlands.
 - **Manhã 03/07:** Ryan saiu da tenda em silêncio (Valk ainda dormindo); foi verificar Tomas, Elias e Mara na área dos novatos.
 - Tendas modulares finalizadas.
-- Ryan está ativamente ensinando e integrando **Mara, Elias e Tomas**.
+- Ryan está ativamente ensinando e integrando **Mara, Elias e Tomas** (Elias→destilaria; Tomas sob monitoramento; avaliação final com Tio Gringo — decisão 02/07).
+- Prioridade do Pack: **consolidação interna** (destilaria + estufa) antes de expansão comercial.
 - Reputação com o Pack: **+65 (Muito Positiva)**.
 - Observação inicial dos novos durante jantar: integração positiva.
 
