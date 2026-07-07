@@ -82,6 +82,13 @@ def test_generate_reply_none_provider_narrador_mode(monkeypatch) -> None:
     assert "Canal narrador ativo" in reply
 
 
+def test_update_proposals_disabled_for_ollama_by_default(monkeypatch) -> None:
+    monkeypatch.setenv("NARRACAO_PROVIDER", "ollama")
+    monkeypatch.delenv("UPDATE_PROPOSALS_ENABLED", raising=False)
+    settings = reset_settings()
+    assert settings.update_proposals_enabled is False
+
+
 def test_generate_reply_ollama_provider(monkeypatch) -> None:
     settings = get_settings()
     monkeypatch.setattr(settings, "provider", "ollama")

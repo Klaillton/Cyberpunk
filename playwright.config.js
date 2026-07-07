@@ -3,7 +3,10 @@ const fs = require("fs");
 const path = require("path");
 
 const e2eDataDir = path.join(__dirname, "tests", "tmp_e2e_data");
-fs.mkdirSync(e2eDataDir, { recursive: true });
+const e2eCampaignDir = path.join(e2eDataDir, "campaign");
+const e2eHeatFixture = path.join(__dirname, "tests", "fixtures", "e2e_heat.md");
+fs.mkdirSync(e2eCampaignDir, { recursive: true });
+fs.copyFileSync(e2eHeatFixture, path.join(e2eCampaignDir, "heat.md"));
 
 module.exports = defineConfig({
   testDir: "./tests/e2e",
@@ -23,7 +26,7 @@ module.exports = defineConfig({
   webServer: {
     command: "python -m uvicorn api.main:app --host 127.0.0.1 --port 8787",
     url: "http://127.0.0.1:8787",
-    reuseExistingServer: true,
+    reuseExistingServer: false,
     timeout: 120000,
     env: {
       NARRACAO_PROVIDER: "none",
@@ -32,6 +35,8 @@ module.exports = defineConfig({
       DB_PATH: path.join(e2eDataDir, "motor.db"),
       FAISS_DIR: path.join(e2eDataDir, "faiss"),
       JOURNAL_DIR: path.join(e2eDataDir, "journal"),
+      CAMPANHA_ROOT: e2eCampaignDir,
+      UPDATE_PROPOSALS_ENABLED: "true",
     },
   },
   projects: [

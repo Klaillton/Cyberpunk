@@ -48,3 +48,37 @@ def test_update_applier_inserts_heat_row(applier: UpdateApplier, tmp_path: Path)
     content = (tmp_path / "heat.md").read_text(encoding="utf-8")
     assert "Ryan Wireghost" in content
     assert "Alta" in content
+
+
+def test_update_applier_inserts_row_before_next_section(applier: UpdateApplier, tmp_path: Path) -> None:
+    sample = """# Heat
+
+### Heat por Personagem
+
+| Personagem | Nivel | Justificativa |
+| ---------- | ----- | ------------- |
+| **Ryan** | Media | Base |
+
+## Fatores que Aumentam o Heat
+
+- Item canonico.
+"""
+    (tmp_path / "heat.md").write_text(sample, encoding="utf-8")
+    proposal = UpdateProposal(
+        target_path="heat.md",
+        target_section="Heat por Personagem",
+        change_type="insert_row",
+        payload={
+            "personagem": "E2E Runner",
+            "nivel": "Baixa",
+            "justificativa": "Teste",
+        },
+        rationale="Teste",
+        confidence=0.9,
+    )
+    report = applier.apply([proposal])
+    content = (tmp_path / "heat.md").read_text(encoding="utf-8")
+
+    assert report.applied == 1
+    assert "| **E2E Runner** | Baixa | Teste |" in content
+    assert "| **E2E Runner** | Baixa | Teste |\n\n## Fatores" in content

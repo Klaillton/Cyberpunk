@@ -15,11 +15,14 @@ def _process_message(channel: str, body: MessageRequest) -> MessageResponse:
     if not message:
         raise HTTPException(status_code=400, detail={"error": "Campo 'message' e obrigatorio"})
 
-    mode = "narrador" if channel == "narrador" else "gestor"
+    mode = "narrador"
     settings = get_settings()
     raw_reply = generate_reply(message, mode)
-    update_service = UpdateService(settings)
-    reply, proposals, _report = update_service.ingest_narrative(raw_reply)
+    if settings.update_proposals_enabled:
+        update_service = UpdateService(settings)
+        reply, proposals, _report = update_service.ingest_narrative(raw_reply)
+    else:
+        reply, proposals = raw_reply, []
     model = settings.ollama_model_narration if settings.provider == "ollama" else None
     return MessageResponse(
         channel=channel,

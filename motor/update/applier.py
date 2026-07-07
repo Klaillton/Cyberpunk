@@ -117,14 +117,19 @@ class UpdateApplier:
 
         block = match.group(0)
         lines = block.splitlines()
-        table_end = len(lines)
+        last_table_idx = -1
         for idx, line in enumerate(lines):
-            if idx > 0 and line.strip() and not line.strip().startswith("|"):
-                table_end = idx
-                break
+            if line.strip().startswith("|"):
+                last_table_idx = idx
 
-        new_lines = lines[:table_end] + [row] + lines[table_end:]
+        if last_table_idx < 0:
+            raise ValueError("Tabela nao encontrada na secao")
+
+        insert_at = last_table_idx + 1
+        new_lines = lines[:insert_at] + [row, ""] + lines[insert_at:]
         new_block = "\n".join(new_lines)
+        if not new_block.endswith("\n"):
+            new_block += "\n"
         return content.replace(block, new_block, 1)
 
     def _upsert_field(self, content: str, section: str | None, payload: dict) -> str:

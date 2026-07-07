@@ -39,6 +39,7 @@ class Settings:
     ollama_model_classifier: str = "phi3:mini"
     ollama_max_prompt_chars: int = 8000
     ollama_max_context_files: int = 5
+    update_proposals_enabled: bool = False
 
     @classmethod
     def from_env(cls, repo_root: Path | None = None) -> Settings:
@@ -59,6 +60,13 @@ class Settings:
         cloud_provider = os.environ.get("CLOUD_PROVIDER", "grok").strip().lower()
         if cloud_provider not in VALID_PROVIDERS or cloud_provider in {"none", "ollama"}:
             cloud_provider = "grok"
+        update_proposals_raw = os.environ.get("UPDATE_PROPOSALS_ENABLED", "").strip().lower()
+        if update_proposals_raw in {"1", "true", "yes"}:
+            update_proposals_enabled = True
+        elif update_proposals_raw in {"0", "false", "no"}:
+            update_proposals_enabled = False
+        else:
+            update_proposals_enabled = provider == "grok"
         return cls(
             repo_root=root,
             frontend_dir=root / "frontend",
@@ -79,6 +87,7 @@ class Settings:
             ollama_model_classifier=os.environ.get("OLLAMA_MODEL_CLASSIFIER", "phi3:mini").strip(),
             ollama_max_prompt_chars=int(os.environ.get("OLLAMA_MAX_PROMPT_CHARS", "8000")),
             ollama_max_context_files=int(os.environ.get("OLLAMA_MAX_CONTEXT_FILES", "5")),
+            update_proposals_enabled=update_proposals_enabled,
         )
 
     @property

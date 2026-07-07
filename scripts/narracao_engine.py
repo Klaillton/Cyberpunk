@@ -192,8 +192,14 @@ def compact_content(path: Path, max_chars: int = 4000) -> str:
 
 def _ollama_mode_hint(mode: str) -> str:
     if mode == "narrador":
-        return "Modo NARRADOR: descreva a cena e faca perguntas ao jogador sem controlar o protagonista."
-    return "Modo GESTOR: responda com consistencia de estado e cite os arquivos usados."
+        return (
+            "Modo NARRADOR: descreva apenas a cena atual em prosa e faca perguntas ao jogador. "
+            "Nao controle acoes do protagonista."
+        )
+    return (
+        "Modo GESTOR: responda com consistencia de estado. "
+        "Nao altere arquivos nem proponha updates automaticos."
+    )
 
 
 def _ollama_file_budget(rel: str, context_budget: int, remaining_files: int) -> int:
@@ -243,9 +249,10 @@ def _build_ollama_prompt(
         "Voce e o narrador de uma campanha Cyberpunk RED solo.",
         "",
         "## Regras",
-        "- Use apenas fatos dos arquivos abaixo.",
-        "- Nao faca meta-comentarios sobre o prompt ou sobre ser um modelo.",
-        "- Se faltar informacao canonica, pergunte objetivamente em vez de inventar.",
+        "- Use apenas fatos presentes no contexto abaixo. Nao invente NPCs, locais, eventos ou consequencias.",
+        "- Nao cite caminhos de arquivos, JSON, blocos UPDATE_PROPOSALS nem meta-comentarios sobre o prompt.",
+        "- Nao descreva alteracoes em arquivos da campanha; apenas narre ou pergunte.",
+        "- Se faltar informacao canonica, faca uma pergunta objetiva em vez de assumir.",
         f"- {_ollama_mode_hint(mode)}",
         "",
         "## Pergunta do jogador",

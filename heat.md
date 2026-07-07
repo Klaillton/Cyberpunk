@@ -16,13 +16,13 @@
 | **Alex "Specter" Kane**   | Média         | Atividades de Netrunning aumentam exposição                            |
 | **Reina "Bearclaw"**      | Baixa         | Ainda pouco exposta publicamente                                       |
 
-| **E2E Runner** | Baixa | Teste playwright |## Fatores que Aumentam o Heat
+## Fatores que Aumentam o Heat
 
-| **E2E Runner** | Baixa | Teste playwright |
 - Operação bem-sucedida contra a Biotechnica (+)
 - Incursões Raffen: [Incidente 001](logs/incidente_001_incursao_recursos_raffen.md) + [Incidente 002](logs/incidente_002_incursao_noturna_raffen.md) (~16 hostis noturnos) (+)
 - Revelação de múltiplas facetas (especialmente o lado operador frio) (+)
 - Trabalho técnico de alto nível no Pack (pode chamar atenção)
+
 ## Como Reduzir o Heat
 
 O Heat pode ser reduzido das seguintes formas:

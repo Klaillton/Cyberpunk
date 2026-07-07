@@ -65,7 +65,7 @@ def test_build_prompt_ollama_respects_max_chars() -> None:
     )
     assert len(prompt) <= 8000
     assert "board/board_campanha.md" in prompt
-    assert "Nao faca meta-comentarios" in prompt
+    assert "Nao cite caminhos de arquivos" in prompt
     assert message in prompt
 
 
