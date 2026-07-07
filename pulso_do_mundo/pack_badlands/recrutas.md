@@ -5,9 +5,9 @@
 
 ## Motivações Atuais
 
-- **Mara:** Provar valor em med/hidroponia; ganhar confiança do pack.
-- **Elias:** Consolidar papel na destilaria (recomendação de Ryan); rotina estável.
-- **Tomas:** Adaptar-se sob **monitoramento**; mostrar utilidade mecânica sem chamar atenção negativa.
+- **Mara:** Liderar ciclo biológico e água no **Badlands Node v0.1** (módulo piloto Água + Biodigestor).
+- **Elias:** Operar destilaria com autonomia; integrar excedente econômico ao Node.
+- **Tomas:** Entregar mecânica e protótipos no Node (bombas, eólica); adaptar-se sob **monitoramento**.
 
 ## Perguntas de Pulso
 
@@ -37,10 +37,11 @@
 - **03/07/2026 (tarde)** — Tomas percebeu que Ryan o observava; ficou tenso, apagou o cigarro e voltou ao trabalho sem cumprimentar.
 - **03/07/2026 (tarde)** — Elias pediu válvula ao Tio Gringo; integração positiva na destilaria.
 - **03/07/2026 (tarde)** — Mara ajudou a carregar suprimentos com membros antigos do pack.
+- **03/07/2026 (dia)** — **Badlands Node v0.1** aprovado por Reyes; papéis delegados: Mara (água/bio), Tomas (mecânica), Elias (destilaria). *(sessão 007)*
 
 ## Relação com Ryan
 
-Ryan recomendou Elias para destilaria e **monitoramento** de Tomas. Mara é a avaliação mais positiva. Supervisão conjunta com Reyes ainda pendente após a manhã do dia 03/07.
+Ryan consolidou o núcleo técnico no **Badlands Node v0.1**. Elias autônomo na destilaria; Tomas em mecânica/protótipos sob **monitoramento**; Mara parceira no módulo piloto Água + Biodigestor.
 
 ## Ganchos / Possíveis Eventos
 

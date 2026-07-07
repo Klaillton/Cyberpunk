@@ -25,7 +25,8 @@
 | 30/06–01/07/2026 | Recrutado via Lina; Ryan desconfia da inquietação na viagem. |
 | 01/07/2026 | Chegada ao pack; Ryan pede vigilância discreta dos drones no perímetro. |
 | 02/07/2026 | Ryan recomenda **monitoramento mais próximo** na reunião com Reyes. |
-| 03/07/2026 | Observado por Ryan de manhã sentado afastado, fumando e observando o acampamento — ainda em adaptação (ainda não notou Ryan). |
+| 03/07/2026 (manhã) | Observado afastado, fumando — adaptação (sessão 006). |
+| 03/07/2026 | Integrado ao **Badlands Node**: mecânica e protótipos (bombas, eólica, falhas mecânicas); monitoramento contínuo mantido. |
 
 ## Relação com a crew
 
@@ -42,5 +43,5 @@
 ## Referências
 
 - [Lina Park](lina_park.md) · [Pack Badlands](../../facoes/pack_badlands.md)
-- [Sessão 003](../../logs/sessao_resumo_003.md) · [Sessão 005](../../logs/sessao_resumo_005.md)
+- [Sessão 005](../../logs/sessao_resumo_005.md) · [Sessão 007](../../logs/sessao_resumo_007.md)
 - [Board](../../board/board_campanha.md)

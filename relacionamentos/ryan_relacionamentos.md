@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 03 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026 (sessão 007)
 
 ---
 
@@ -24,7 +24,7 @@
 
 **Status:** Namorando (relação consolidada e profunda)  
 **Intensidade:** Alta  
-**Última atualização:** 03 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026 (sessão 007)
 
 **Evolução conhecida:**
 
@@ -134,7 +134,7 @@
 **Status:** Hospedagem + Integração em andamento  
 **Confiança geral com o Pack:** Média-Alta (em crescimento)  
 **Duração prevista:** Indefinida  
-**Última atualização:** 03 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026 (sessão 007)
 
 **Líder do Pack:** Reyes
 
@@ -145,8 +145,12 @@ Ryan está ativamente **ensinando novas pessoas do Pack** seu conhecimento técn
 
 **NPCs relevantes do Pack:**
 
-- **Reyes** (Líder) → Relação cautelosa, mas com confiança técnica crescente. **02/07:** concordou com plano de consolidação interna após reunião com Ryan e Tio Gringo (Elias→destilaria, vigilância em Tomas).
-- **Tio Gringo** (Ferreiro mais velho) → Respeito técnico alto. Ryan tem ajudado ele diretamente.
+- **Reyes** (Líder) → Relação cautelosa, mas com confiança técnica crescente. **02/07:** concordou com plano de consolidação interna. **03/07:** aprovou oficialmente o **Badlands Node v0.1**.
+- **Tio Gringo** (Ferreiro mais velho) → Respeito técnico alto. **03/07:** pré-validação do blueprint do Badlands Node com Ryan.
+- **Rusty** (Responsável veículos/garagem) → Colaborador técnico. **03/07:** alinhamento de tarefas e pré-apresentação do Node.
+- **Mara** (Recruta) → [ficha](../fichas/npc/mara_recruit.md). **03/07:** aprovou visão do Node; responsável por ciclo biológico e água.
+- **Elias** (Recruta) → [ficha](../fichas/npc/elias_recruit.md). **03/07:** autonomia na destilaria; integrado ao Node com visão de excedente econômico.
+- **Tomas** (Recruta) → [ficha](../fichas/npc/tomas_recruit.md). **03/07:** mecânica e protótipos no Node; monitoramento contínuo (02/07).
 - **Sasha** → [ficha](../fichas/npc/sasha.md). Presenciou o [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) (confronto + execução). Medo/respeito pelo lado soldado de Ryan.
 - **Lira** → [ficha](../fichas/npc/lira.md). Tentando se aproximar de Valk. Assustada com o lado operador (ouviu falar / viu de longe); ajudou Valk a acalmar o grupo após o [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md).
 - **Crianças do Pack** → Ryan interage bem com elas (faceta mais gentil).

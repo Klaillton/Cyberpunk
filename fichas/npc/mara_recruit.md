@@ -25,7 +25,8 @@
 | 30/06–01/07/2026 | Selecionada por Lina; aceita proposta de pack móvel com proteção. |
 | 01/07/2026 | Apresentada a Reyes; integração social com Valk no almoço. |
 | 02/07/2026 | Participa da montagem de tendas; avaliação positiva na reunião estratégica. |
-| 03/07/2026 | Observada por Ryan de manhã carregando suprimentos com o pack, mantendo certa distância social (ainda não notou Ryan). |
+| 03/07/2026 (manhã) | Observada por Ryan carregando suprimentos (sessão 006). |
+| 03/07/2026 | No terreno da futura estufa: aprovou visão do **Badlands Node**; delegada — ciclo biológico e água (módulo piloto Água + Biodigestor). |
 
 ## Relação com a crew
 
@@ -34,12 +35,12 @@
 
 ## Notas para o narrador
 
-- Papel previsto: medicina de campo + hidroponia (estufa modular futura).
+- Papel ativo no **Badlands Node v0.1**: ciclo biológico e água (módulo piloto Água + Biodigestor).
 
 ---
 
 ## Referências
 
 - [Lina Park](lina_park.md) · [Pack Badlands](../../facoes/pack_badlands.md)
-- [Sessão 003](../../logs/sessao_resumo_003.md) · [Sessão 005](../../logs/sessao_resumo_005.md)
+- [Sessão 005](../../logs/sessao_resumo_005.md) · [Sessão 007](../../logs/sessao_resumo_007.md)
 - [Board](../../board/board_campanha.md)

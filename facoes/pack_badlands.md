@@ -2,7 +2,7 @@
 
 **Tipo:** Pack Nômade  
 **Status com o Jogador:** Aliado / Relação em fortalecimento  
-**Última atualização:** 02 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026 (sessão 007)
 
 ---
 
@@ -57,6 +57,7 @@ Pulsos off-screen: [pulso_do_mundo/pack_badlands/](../pulso_do_mundo/pack_badlan
 - Atualizou e entregou o Mule para Valk (presente).
 - Revelou múltiplas facetas (mecânico, cantor e operador). [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md): emboscada + confronto. [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md): ~16 Raffen eliminados em silêncio — medo/respeito por histórias e retorno “modo job”.
 - **02/07:** Reunião estratégica com Reyes e Tio Gringo sobre integração dos novos recrutas (Mara, Elias e Tomas). Ryan recomendou Elias para a destilaria e monitoramento de Tomas.
+- **03/07:** **Badlands Node v0.1** aprovado por Reyes. Mara (água/bio), Tomas (mecânica), Elias (destilaria) com papéis delegados. Materiais para protótipo confirmados no depósito.
 
 ## Rumores e Informações Parciais
 

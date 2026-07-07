@@ -26,7 +26,8 @@
 | 30/06–01/07/2026 | Ex-técnico de refinaria; recrutado via Lina para o pack. |
 | 01/07/2026 | Apresentado a Reyes com foco em processamento e manutenção pesada. |
 | 02/07/2026 | Ryan recomenda para **destilaria** na reunião com Reyes e Tio Gringo. |
-| 03/07/2026 | Observado por Ryan de manhã na área da destilaria improvisada, trabalhando com ferramentas, concentrado e útil (ainda não notou Ryan). |
+| 03/07/2026 (manhã) | Na destilaria improvisada, concentrado e útil (sessão 006). |
+| 03/07/2026 | Reunião com Ryan: autonomia na destilaria reforçada; integrado ao **Badlands Node** com visão de excedente econômico. |
 
 ## Relação com a crew
 
@@ -35,12 +36,12 @@
 
 ## Notas para o narrador
 
-- Gancho narrativo: refinaria móvel / destilaria do pack.
+- Responsável autônomo pela destilaria no **Badlands Node v0.1**; motivado após sessão 007.
 
 ---
 
 ## Referências
 
 - [Lina Park](lina_park.md) · [Pack Badlands](../../facoes/pack_badlands.md)
-- [Sessão 003](../../logs/sessao_resumo_003.md) · [Sessão 005](../../logs/sessao_resumo_005.md)
+- [Sessão 005](../../logs/sessao_resumo_005.md) · [Sessão 007](../../logs/sessao_resumo_007.md)
 - [Board](../../board/board_campanha.md)

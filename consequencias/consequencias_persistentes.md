@@ -1,6 +1,6 @@
 # Consequências Persistentes
 
-**Última atualização:** 03 de Julho de 2026
+**Última atualização:** 03 de Julho de 2026 (fim do dia — sessão 007)
 
 ---
 
@@ -144,7 +144,19 @@ Na mesma noite, Ryan e Valk tiveram intimidade prolongada na tenda (óleo laranj
 - Relação Ryan × Valk reforçada emocionalmente.
 - Diretriz operativa do Pack alinhada à visão de Ryan (cautela com novatos).
 
-**Última atualização:** 03 de Julho de 2026
+## 03 de Julho de 2026 - Badlands Node v0.1 aprovado (sessão 007)
+
+Ryan apresentou a visão do **Badlands Node** (sistema integrado: água, energia, comida, resíduos) a Mara no terreno da futura estufa. Tomas integrado à mecânica do projeto; inventário do depósito confirmou materiais para protótipo.
+
+Ryan delegou papéis: Mara (ciclo biológico/água), Tomas (mecânica/protótipos), Elias (administração autônoma da destilaria). Blueprint v0.1 refinado off-site. Pré-validação com Tio Gringo e Rusty. **Reyes aprovou oficialmente** o projeto; módulo piloto: Água + Biodigestor.
+
+**Impactos:**
+
+- Pack passa de planejamento para execução de infraestrutura integrada.
+- Ryan consolidado como arquiteto técnico estratégico do Pack.
+- Núcleo dos recrutas (Mara, Tomas, Elias) com responsabilidades formais no Node.
+
+**Última atualização:** 03 de Julho de 2026 (fim do dia)
 
 ---
 
@@ -162,4 +174,4 @@ Na mesma noite, Ryan e Valk tiveram intimidade prolongada na tenda (óleo laranj
 - [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
 - [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Facções](../relacionamentos/faccao_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- [Sessão 005](../logs/sessao_resumo_005.md) · [Última sessão (006)](../logs/sessao_resumo_006.md) · [Downtime](../logs/downtime_ryan.md)
+- [Sessão 006](../logs/sessao_resumo_006.md) · [Última sessão (007)](../logs/sessao_resumo_007.md) · [Downtime](../logs/downtime_ryan.md)

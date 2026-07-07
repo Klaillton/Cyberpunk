@@ -40,7 +40,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
 | Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001`, `002`, `003`, `004`, `005`, `006`). Próximo número disponível: **007**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `007`). Próximo número disponível: **008**.
 
 ---
 
@@ -123,7 +123,8 @@ cyberpunk/
 │   ├── sessao_resumo_003.md
 │   ├── sessao_resumo_004.md
 │   ├── sessao_resumo_005.md
-│   └── sessao_resumo_006.md
+│   ├── sessao_resumo_006.md
+│   └── sessao_resumo_007.md
 ├── relacionamentos/
 │   ├── mapa_relacional_geral.md   ← Hub de personagens
 │   ├── ryan_relacionamentos.md
@@ -181,7 +182,7 @@ cyberpunk/
   - `relacionamentos/ryan_relacionamentos.md`
   - `sistema/dashboard_contexto.md`
   - `relacionamentos/mapa_relacional_geral.md`
-- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **007**.
+- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **008**.
 - **Jobs / Gigs:** Padrão `logs/job_XXX_<slug>.md` para briefing, execução e fallout permanente. Sessões referenciam o job; não duplicar táticas completas no resumo.
 - **NPCs secundários:** Um arquivo em `fichas/npc/<slug>.md` quando o personagem tem personalidade ou eventos que não cabem só no board/facção. Índice em [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md). **Não** misturar vários NPCs num único arquivo (dificulta busca da IA).
 - **Facções:** Detalhes em `facoes/`. Facções menores em `facoes/faccoes_geral.md`.

@@ -79,7 +79,7 @@ Após cada sessão, os arquivos mais críticos a revisar são:
 - [consequencias/consequencias_persistentes.md](consequencias/consequencias_persistentes.md)
 - [relacionamentos/ryan_relacionamentos.md](relacionamentos/ryan_relacionamentos.md)
 - [sistema/dashboard_contexto.md](sistema/dashboard_contexto.md)
-- Novo resumo em `logs/sessao_resumo_XXX.md` (próximo: `007`)
+- Novo resumo em `logs/sessao_resumo_XXX.md` (próximo: `008`)
 
 ---
 
