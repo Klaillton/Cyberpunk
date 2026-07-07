@@ -69,22 +69,28 @@ def test_build_prompt_ollama_respects_max_chars() -> None:
     assert message in prompt
 
 
-def test_build_prompt_ollama_off_record_channel_hint() -> None:
-    paths = engine.select_context_files("Quem faz parte da crew?", provider="ollama", channel="narrador")
+def test_normalize_channel_maps_narrador_to_mestre() -> None:
+    assert engine.normalize_channel("narrador") == "mestre"
+    assert engine.normalize_channel("mestre") == "mestre"
+    assert engine.normalize_channel("narracao") == "narracao"
+
+
+def test_build_prompt_ollama_mestre_channel_hint() -> None:
+    paths = engine.select_context_files("Quem faz parte da crew?", provider="ollama", channel="mestre")
     rel = {p.relative_to(engine.REPO_ROOT).as_posix() for p in paths}
     prompt = engine.build_prompt(
         "Quem faz parte da crew?",
         paths,
-        mode="narrador",
+        mode="mestre",
         provider="ollama",
-        channel="narrador",
+        channel="mestre",
         max_prompt_chars=8000,
     )
-    assert "Game Master" in prompt
-    assert "PROIBIDO: menus A/B/C/D" in prompt
+    assert "MESTRE off-game" in prompt
+    assert "Plano futuro:" in prompt
     assert "relacionamentos/crew_relacionamentos.md" in rel
-    assert "board/board_campanha.md" not in rel
-    assert len(paths) <= 4
+    assert "relacionamentos/crew_polycule_ryan_valk_alex_reina.md" in rel
+    assert len(paths) <= 5
 
 
 def test_build_prompt_ollama_main_channel_hint() -> None:
@@ -102,7 +108,7 @@ def test_build_prompt_ollama_main_channel_hint() -> None:
 
 def test_sanitize_ollama_reply_strips_echoed_question() -> None:
     raw = "E quanto a Reina, Alex, Jax e Kaz?\n\n- Reina: protecao\n- Alex: rival"
-    cleaned = engine.sanitize_ollama_reply(raw, channel="narrador")
+    cleaned = engine.sanitize_ollama_reply(raw, channel="mestre")
     assert not cleaned.startswith("E quanto")
     assert cleaned.startswith("- Reina")
 
@@ -112,7 +118,7 @@ def test_sanitize_ollama_reply_strips_menu_choices() -> None:
         "Ryan esta em downtime. Voce quer: A) Fortalecer defesas B) Ensinar tecnicas "
         "C) Gerenciar Biotechnica D) Equilibrar com Valk. Escolha uma opcao para avancar."
     )
-    cleaned = engine.sanitize_ollama_reply(raw, channel="narrador")
+    cleaned = engine.sanitize_ollama_reply(raw, channel="mestre")
     assert "Voce quer" not in cleaned
     assert "Escolha uma opcao" not in cleaned
     assert "A)" not in cleaned
@@ -125,11 +131,11 @@ def test_sanitize_ollama_reply_strips_meta_parentheticals() -> None:
         "Aqui esta a cena atual: Ryan observa Valk. "
         "(Remova as perguntas feitas anteriormente que nao estao mais relevantes.)"
     )
-    cleaned = engine.sanitize_ollama_reply(raw, channel="narrador")
+    cleaned = engine.sanitize_ollama_reply(raw, channel="mestre")
     assert "respondida pelo jogador" not in cleaned
     assert "Remova as perguntas" not in cleaned
     assert "Aqui esta a cena atual" not in cleaned
-    assert "Ryan observa Valk" in cleaned
+    assert "Ryan observa Valk" not in cleaned
 
 
 def test_build_prompt_ollama_prioritizes_board_over_sistema() -> None:

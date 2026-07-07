@@ -75,18 +75,39 @@ OLLAMA_FILE_PRIORITY = (
     "sistema/dashboard_contexto.md",
 )
 
-OLLAMA_NARRADOR_PRIORITY = (
+OLLAMA_MESTRE_PRIORITY = (
     "relacionamentos/crew_relacionamentos.md",
+    "relacionamentos/crew_polycule_ryan_valk_alex_reina.md",
     "relacionamentos/mapa_relacional_geral.md",
     "relacionamentos/ryan_relacionamentos.md",
     "relacionamentos/",
     "board/board_campanha.md",
 )
 
+MESTRE_BASE_CONTEXT = [
+    "relacionamentos/crew_relacionamentos.md",
+    "relacionamentos/crew_polycule_ryan_valk_alex_reina.md",
+    "relacionamentos/mapa_relacional_geral.md",
+]
+
 _INFO_QUESTION_RE = re.compile(
     r"\b(quem|qual|quais|quantos?|liste|lista|faz parte|membros?|crew|equipe|npcs?)\b",
     re.IGNORECASE,
 )
+
+_TIMELINE_QUESTION_RE = re.compile(
+    r"\b(futur[oa]s?|night city|voltar|quando|plano|canon|cronolog|deveria|ainda n[aã]o)\b",
+    re.IGNORECASE,
+)
+
+
+def normalize_channel(channel: str | None) -> str:
+    value = (channel or "narracao").strip().lower()
+    if value in {"narrador", "mestre", "gm", "off-game", "offgame"}:
+        return "mestre"
+    if value in {"narracao", "gestor"}:
+        return value
+    return "narracao"
 
 DEFAULT_OLLAMA_MAX_PROMPT_CHARS = 8000
 DEFAULT_OLLAMA_MAX_CONTEXT_FILES = 5
@@ -115,6 +136,13 @@ INTENT_RULES: list[tuple[re.Pattern[str], list[str]]] = [
     (
         re.compile(r"\b(pulso|off-screen|offscreen|dia in-game|dia ingame|downtime)\b", re.IGNORECASE),
         ["sistema/pulso_procedimento.md", "pulso_do_mundo/README.md"],
+    ),
+    (
+        _TIMELINE_QUESTION_RE,
+        [
+            "relacionamentos/crew_polycule_ryan_valk_alex_reina.md",
+            "relacionamentos/crew_relacionamentos.md",
+        ],
     ),
 ]
 
@@ -165,7 +193,7 @@ def _priority_tuple(rel: str, priority_prefixes: tuple[str, ...]) -> tuple[int, 
 
 
 def prioritize_paths_for_ollama(paths: list[Path], channel: str | None = None) -> list[Path]:
-    priority = OLLAMA_NARRADOR_PRIORITY if channel == "narrador" else OLLAMA_FILE_PRIORITY
+    priority = OLLAMA_MESTRE_PRIORITY if channel == "mestre" else OLLAMA_FILE_PRIORITY
     return sorted(
         paths,
         key=lambda path: _priority_tuple(path.relative_to(REPO_ROOT).as_posix(), priority),
@@ -181,20 +209,19 @@ def select_context_files(
 ) -> list[Path]:
     effective_max = max_files
     if provider == "ollama" and max_files == 10:
-        effective_max = 4 if channel == "narrador" else DEFAULT_OLLAMA_MAX_CONTEXT_FILES
+        effective_max = 5 if channel == "mestre" else DEFAULT_OLLAMA_MAX_CONTEXT_FILES
 
-    if channel == "narrador":
-        selected: set[str] = set()
+    if channel == "mestre":
+        selected = set(MESTRE_BASE_CONTEXT)
         if _INFO_QUESTION_RE.search(user_message):
+            selected.update(["relacionamentos/ryan_relacionamentos.md"])
+        if _TIMELINE_QUESTION_RE.search(user_message):
             selected.update(
                 [
-                    "relacionamentos/crew_relacionamentos.md",
-                    "relacionamentos/mapa_relacional_geral.md",
-                    "relacionamentos/ryan_relacionamentos.md",
+                    "relacionamentos/crew_polycule_ryan_valk_alex_reina.md",
+                    "board/board_campanha.md",
                 ]
             )
-        else:
-            selected.update(["board/board_campanha.md", "relacionamentos/ryan_relacionamentos.md"])
         for pattern, files in INTENT_RULES:
             if pattern.search(user_message):
                 selected.update(files)
@@ -237,6 +264,8 @@ def compact_board_npcs(path: Path, max_chars: int = 1800) -> str:
 
 
 def _ollama_mode_hint(mode: str) -> str:
+    if mode == "mestre":
+        return "Modo MESTRE: meta, fora da cronologia."
     if mode == "narrador":
         return "Nao controle acoes do protagonista."
     return (
@@ -246,11 +275,9 @@ def _ollama_mode_hint(mode: str) -> str:
 
 
 def _ollama_channel_hint(channel: str) -> str:
-    if channel == "narrador":
+    if channel == "mestre":
         return (
-            "Canal OFF-RECORD: consulta rapida do GM. "
-            "Responda na primeira frase. Listas em bullet points. Maximo 6 linhas. "
-            "Sem menus A/B/C/D, sem downtime, sem objetivos de missao."
+            "Canal MESTRE off-game: responda como GM de mesa, sem narrar cena."
         )
     if channel == "gestor":
         return (
@@ -283,7 +310,7 @@ def sanitize_ollama_reply(text: str, channel: str = "narracao") -> str:
         cleaned,
         flags=re.IGNORECASE,
     )
-    if channel == "narrador":
+    if channel == "mestre":
         cleaned = re.sub(
             r"\*\*[^*]+\?\*\*\s*",
             "",
@@ -291,14 +318,22 @@ def sanitize_ollama_reply(text: str, channel: str = "narracao") -> str:
             count=1,
         )
         cleaned = re.sub(
-            r"(?:Você quer|Voce quer):.*$",
+            r"(?:Você quer|Voce quer|Quais das informações).*?$",
             "",
             cleaned,
             flags=re.IGNORECASE | re.DOTALL,
         )
         cleaned = re.sub(r"^\s*[A-D]\)\s+.*$", "", cleaned, flags=re.MULTILINE)
+        cleaned = re.sub(r"^\s*\d+\.\s+.*$", "", cleaned, flags=re.MULTILINE)
+        cleaned = re.sub(r"^\s*\*\s+.*\?\s*$", "", cleaned, flags=re.MULTILINE)
         cleaned = re.sub(
             r"Escolha uma op[cç][aã]o.*$",
+            "",
+            cleaned,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        cleaned = re.sub(
+            r"Qual [eé] a escolha\??.*$",
             "",
             cleaned,
             flags=re.IGNORECASE | re.DOTALL,
@@ -315,9 +350,21 @@ def sanitize_ollama_reply(text: str, channel: str = "narracao") -> str:
             cleaned,
             flags=re.IGNORECASE,
         )
+        cleaned = re.sub(r"\*\*downtime\*\*", "downtime", cleaned, flags=re.IGNORECASE)
         lines = [line for line in cleaned.splitlines() if line.strip()]
         if lines and lines[0].strip().endswith("?") and len(lines[0]) < 120:
             lines = lines[1:]
+        scene_markers = (
+            "a luz do sol",
+            "a manhã",
+            "a manha",
+            "o sol começa",
+            "ryan observa",
+            "você está em",
+            "voce esta em",
+        )
+        if lines and any(lines[0].lower().startswith(marker) for marker in scene_markers):
+            lines = [line for line in lines if not any(line.lower().startswith(m) for m in scene_markers)]
         cleaned = "\n".join(lines)
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
     cleaned = re.sub(r"  +", " ", cleaned)
@@ -333,10 +380,10 @@ def _ollama_file_budget(
 ) -> int:
     if remaining_files <= 0:
         return 0
-    if channel == "narrador" and rel.startswith("relacionamentos/"):
+    if channel == "mestre" and rel.startswith("relacionamentos/"):
         return min(int(context_budget * 0.5), 3200)
     if rel == "board/board_campanha.md":
-        if channel == "narrador":
+        if channel == "mestre":
             return min(1800, context_budget // max(remaining_files, 1))
         return min(int(context_budget * 0.45), 2800)
     if rel == "heat.md":
@@ -370,7 +417,7 @@ def _build_ollama_context_blocks(
         if file_cap < 200:
             continue
 
-        if channel == "narrador" and rel == "board/board_campanha.md":
+        if channel == "mestre" and rel == "board/board_campanha.md":
             content = compact_board_npcs(path, max_chars=file_cap)
         else:
             content = compact_content(path, max_chars=file_cap)
@@ -389,23 +436,31 @@ def _build_ollama_prompt(
     max_prompt_chars: int,
     channel: str = "narracao",
 ) -> str:
-    if channel == "narrador":
+    if channel == "mestre":
         header_parts = [
-            "Voce e o Game Master em consulta OFF-RECORD (fora da cronologia).",
+            "Voce e o MESTRE off-game (meta). O jogador conversa FORA da cronologia oficial.",
+            "Papel: tirar duvidas, separar canon atual de planos futuros, sugerir ajustes em arquivos.",
+            "Voce NAO narra cenas. NAO interpreta acoes do Ryan. NAO descreve clima, ambiente ou escolhas in-game.",
             "",
             "## Formato obrigatorio",
-            "- Responda DIRETAMENTE a pergunta na primeira frase ou bullet list.",
-            "- Maximo 6 linhas. Sem narrar cena, sem downtime, sem objetivos de missao.",
-            "- PROIBIDO: menus A/B/C/D, 'Escolha uma opcao', perguntas de volta sobre o que foi perguntado.",
-            "- Use apenas fatos do contexto. Sem citar arquivos.",
+            "- Tom de mesa de RPG (2-8 linhas). Listas em bullet quando listar pessoas.",
+            "- Use rotulos curtos se precisar: Canon atual: / Plano futuro: / Sugestao de registro:",
+            "- PROIBIDO: narrar cena, downtime jogavel, menus, opcoes numeradas, perguntas de volta.",
+            "- PROIBIDO: tratar Alex, Reina, Kaz, Doc e Jax como recrutas do Pack em Badlands (sao crew futura em Night City).",
             "",
-            "## Exemplo",
-            "Pergunta: Quem faz parte da crew do Ryan?",
+            "## Exemplo (timeline)",
+            "Pergunta: Reina, Alex, Jax e Kaz ja estao na crew agora?",
             "Resposta:",
-            "- Ryan \"Wireghost\" Voss (techie)",
-            "- Lena \"Valk\" Kane (parceira)",
-            "- Alex \"Specter\" Kane, Reina \"Bearclaw\", Kaz, Doc, Jax",
-            "- Recrutas no Pack: Mara, Elias e Tomas (integracao em andamento)",
+            "Canon atual: no Pack em Badlands, em campo estao Ryan e Valk; recrutas do Pack sao Mara, Elias e Tomas.",
+            "Plano futuro: Alex, Reina, Kaz, Doc e Jax entram na crew quando Ryan voltar a Night City.",
+            "",
+            "## Exemplo (consulta NPC)",
+            "Pergunta: Quem sao Reina, Alex, Jax e Kaz?",
+            "Resposta:",
+            "- Reina \"Bearclaw\": solo, futura crew; confidente emocional; Ryan nao lembra do passado com ela.",
+            "- Alex \"Specter\" Kane: netrunner, futura crew; rivalidade velada com Ryan.",
+            "- Jax \"Razor\" Kane: solo, futura crew; respeito profissional, pouca interacao.",
+            "- Kaz \"The Broker\": fixer, futura crew; trouxe jobs e monta a equipe em NC.",
             "",
             "## Pergunta do jogador",
             user_message,
@@ -464,11 +519,19 @@ def build_prompt(
             channel=channel,
         )
 
-    mode_hint = (
-        "Modo NARRADOR: foque em proposta de cena e perguntas ao jogador sem controlar o protagonista."
-        if mode == "narrador"
-        else "Modo GESTOR: foque em consistencia de estado, arquivos a atualizar e rastreabilidade."
-    )
+    if channel == "mestre" or mode == "mestre":
+        mode_hint = (
+            "Modo MESTRE off-game: responda como GM de mesa. "
+            "Separe canon atual de planos futuros. Nao narre cenas."
+        )
+    elif mode == "narrador":
+        mode_hint = (
+            "Modo NARRADOR: foque em proposta de cena e perguntas ao jogador sem controlar o protagonista."
+        )
+    else:
+        mode_hint = (
+            "Modo GESTOR: foque em consistencia de estado, arquivos a atualizar e rastreabilidade."
+        )
 
     context_blocks: list[str] = []
     for p in context_paths:

@@ -5,37 +5,37 @@ test.describe("Chat e canais", () => {
     await page.goto("/");
   });
 
-  test("alterna canal narrador e envia mensagem", async ({ page }) => {
-    await page.route("**/api/narrador", async (route) => {
+  test("alterna canal mestre e envia mensagem", async ({ page }) => {
+    await page.route("**/api/mestre", async (route) => {
       await route.fulfill({
         status: 200,
         contentType: "application/json",
         body: JSON.stringify({
-          channel: "narrador",
+          channel: "mestre",
           provider: "none",
-          reply: "Off-record: Reyes parece cauteloso, mas leal ao pack.",
+          reply: "Canon atual: Reyes parece cauteloso, mas leal ao pack.",
         }),
       });
     });
 
     await page.locator("#btnNarrador").click();
-    await expect(page.locator("#btnNarrador")).toHaveText(/Narrador \(ON\)/i);
+    await expect(page.locator("#btnNarrador")).toHaveText(/Mestre \(ON\)/i);
     await expect(page.locator("#narratorFeed")).not.toHaveClass(/is-hidden/);
     await expect(page.locator("#narrationFeed")).toHaveClass(/is-hidden/);
 
     await page.locator("#playerInput").fill("O Reyes esta confiavel?");
     await page.locator("#chatForm button[type='submit']").click();
 
-    await expect(page.locator("#narratorFeed")).toContainText("Off-record");
+    await expect(page.locator("#narratorFeed")).toContainText("Canon atual");
     await expect(page.locator("#narrationFeed")).not.toContainText("Off-record");
   });
 
   test("volta ao canal narracao principal", async ({ page }) => {
     await page.locator("#btnNarrador").click();
-    await expect(page.locator("#btnNarrador")).toHaveText(/Narrador \(ON\)/i);
+    await expect(page.locator("#btnNarrador")).toHaveText(/Mestre \(ON\)/i);
 
     await page.locator("#btnNarrador").click();
-    await expect(page.locator("#btnNarrador")).toHaveText(/^Narrador$/);
+    await expect(page.locator("#btnNarrador")).toHaveText(/^Mestre$/);
     await expect(page.locator("#narrationFeed")).not.toHaveClass(/is-hidden/);
   });
 

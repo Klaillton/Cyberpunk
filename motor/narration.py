@@ -39,6 +39,7 @@ def run_ollama(
     settings: Settings | None = None,
     *,
     temperature: float | None = None,
+    num_predict: int | None = None,
 ) -> str:
     cfg = settings or get_settings()
     body: dict = {
@@ -46,8 +47,13 @@ def run_ollama(
         "prompt": prompt,
         "stream": False,
     }
-    if temperature is not None:
-        body["options"] = {"temperature": temperature}
+    if temperature is not None or num_predict is not None:
+        options: dict = {}
+        if temperature is not None:
+            options["temperature"] = temperature
+        if num_predict is not None:
+            options["num_predict"] = num_predict
+        body["options"] = options
     payload = json.dumps(body, ensure_ascii=False).encode("utf-8")
     url = f"{cfg.ollama_base_url.rstrip('/')}/api/generate"
     request = urllib.request.Request(
@@ -79,6 +85,7 @@ def generate_reply(
     channel: str = "narracao",
 ) -> str:
     cfg = settings or get_settings()
+    channel = engine.normalize_channel(channel)
     missing = engine.check_integrity()
     if missing:
         return "Nao foi possivel responder porque arquivos obrigatorios estao ausentes."
@@ -95,8 +102,13 @@ def generate_reply(
 
     if cfg.provider == "ollama":
         try:
-            temp = 0.35 if channel == "narrador" else 0.55
-            raw = run_ollama(prompt, cfg, temperature=temp)
+            if channel == "mestre":
+                temp = 0.25
+                num_predict = 320
+            else:
+                temp = 0.55
+                num_predict = None
+            raw = run_ollama(prompt, cfg, temperature=temp, num_predict=num_predict)
             return engine.sanitize_ollama_reply(raw, channel=channel)
         except Exception as exc:  # pragma: no cover
             return format_provider_failure(cfg.provider, exc, cfg)
@@ -113,6 +125,8 @@ def generate_reply(
             "Integração real ainda não configurada; usando resposta local de validação."
         )
 
+    if channel == "mestre" or mode == "mestre":
+        return "Canal Mestre off-game ativo. Consulta meta fora da cronologia."
     if mode == "narrador":
-        return "Canal narrador ativo. Estou respondendo fora da cronologia principal."
+        return "Canal de narracao ativo."
     return "Canal principal ativo. Mensagem recebida para narracao da historia."

@@ -66,7 +66,7 @@ function parseNpcReply(reply) {
 
   const speaker = plain[1].trim();
   const speakerNorm = normalizeName(speaker);
-  if (["narrador", "historia", "voce", "sistema"].includes(speakerNorm)) {
+  if (["narrador", "mestre", "historia", "voce", "sistema"].includes(speakerNorm)) {
     return { isNpc: false, text };
   }
 
@@ -156,7 +156,7 @@ async function setCoverImage(
 
 function appendCard(text, role, options = {}) {
   const targetFeed =
-    activeChannel === "narrador" ? narratorFeed : narrationFeed;
+    activeChannel === "mestre" ? narratorFeed : narrationFeed;
   const card = document.createElement("article");
   card.className = `narration-card ${role}`;
 
@@ -187,7 +187,7 @@ function appendCard(text, role, options = {}) {
 
 function createLoadingCard(text) {
   const targetFeed =
-    activeChannel === "narrador" ? narratorFeed : narrationFeed;
+    activeChannel === "mestre" ? narratorFeed : narrationFeed;
   const card = document.createElement("article");
   card.className = "narration-card loading";
   card.dataset.loading = "true";
@@ -223,8 +223,8 @@ function setChatBusy(isBusy) {
   chatForm.querySelector("button[type='submit']").disabled = isBusy;
   playerInput.placeholder = isBusy
     ? "Consultando narracao..."
-    : activeChannel === "narrador"
-      ? "Fale com o narrador sem alterar a cronologia..."
+    : activeChannel === "mestre"
+      ? "Fale com o Mestre (off-game): duvidas, canon, ajustes..."
       : "Digite sua acao...";
 }
 
@@ -241,7 +241,7 @@ function extractFriendlyError(error) {
 
 async function callChannelApi(message) {
   const endpoint =
-    activeChannel === "narrador" ? "/api/narrador" : "/api/narracao";
+    activeChannel === "mestre" ? "/api/mestre" : "/api/narracao";
   const response = await fetch(`${API_BASE}${endpoint}`, {
     method: "POST",
     headers: {
@@ -556,15 +556,15 @@ function closeDrawer(drawer) {
   }
 }
 
-function updateNarradorButton() {
-  const active = activeChannel === "narrador";
+function updateMestreButton() {
+  const active = activeChannel === "mestre";
   btnNarrador.classList.toggle("is-active", active);
   if (active) {
-    btnNarrador.textContent = "Narrador (ON)";
-    chatModeLabel.textContent = "Canal atual: Narrador privado (off-record)";
-    playerInput.placeholder = "Fale com o narrador sem alterar a cronologia...";
+    btnNarrador.textContent = "Mestre (ON)";
+    chatModeLabel.textContent = "Canal atual: Mestre off-game";
+    playerInput.placeholder = "Fale com o Mestre (off-game): duvidas, canon, ajustes...";
   } else {
-    btnNarrador.textContent = "Narrador";
+    btnNarrador.textContent = "Mestre";
     chatModeLabel.textContent = "Canal atual: Narracao principal";
     playerInput.placeholder = "Digite sua acao...";
   }
@@ -588,8 +588,8 @@ btnJournal.addEventListener("click", async () => {
   journalInput.focus();
 });
 btnNarrador.addEventListener("click", () => {
-  activeChannel = activeChannel === "narrador" ? "narracao" : "narrador";
-  updateNarradorButton();
+  activeChannel = activeChannel === "mestre" ? "narracao" : "mestre";
+  updateMestreButton();
 });
 btnPropostas.addEventListener("click", async () => {
   try {
@@ -682,7 +682,7 @@ proposalsList.addEventListener("click", async (event) => {
 
 renderJournal();
 fetchPendingProposals().catch((err) => console.error(err));
-updateNarradorButton();
+updateMestreButton();
 ensureCharacterProfileLoaded();
 
 journalForm.addEventListener("submit", async (event) => {
@@ -737,7 +737,7 @@ chatForm.addEventListener("submit", async (event) => {
     return;
   }
 
-  const channelLabel = activeChannel === "narrador" ? "NARRADOR" : "HISTORIA";
+  const channelLabel = activeChannel === "mestre" ? "MESTRE" : "HISTORIA";
   appendCard(`[${channelLabel}] VOCE: ${message}`, "player");
   setChatBusy(true);
   createLoadingCard("Consultando o provider...");
@@ -745,7 +745,7 @@ chatForm.addEventListener("submit", async (event) => {
   try {
     const reply = await callChannelApi(message);
     const prefix =
-      activeChannel === "narrador" ? "NARRADOR (OFF-RECORD)" : "NARRADOR";
+      activeChannel === "mestre" ? "MESTRE (OFF-GAME)" : "NARRADOR";
     const parsedNpc = parseNpcReply(reply);
     if (parsedNpc.isNpc) {
       try {
@@ -764,7 +764,7 @@ chatForm.addEventListener("submit", async (event) => {
     }
   } catch (err) {
     const fallbackPrefix =
-      activeChannel === "narrador" ? "NARRADOR (OFF-RECORD)" : "NARRADOR";
+      activeChannel === "mestre" ? "MESTRE (OFF-GAME)" : "NARRADOR";
     appendCard(`${fallbackPrefix}: ${extractFriendlyError(err)}`, "private");
     console.error(err);
   } finally {

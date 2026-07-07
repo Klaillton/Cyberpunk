@@ -92,8 +92,8 @@ def test_narrador_endpoint_off_record(api_base_url: str) -> None:
         {"message": "Posso confiar no Reyes?"},
     )
     assert status == 200
-    assert data["channel"] == "narrador"
-    assert "Canal narrador ativo" in data["reply"]
+    assert data["channel"] == "mestre"
+    assert "Canal Mestre off-game ativo" in data["reply"]
 
 
 def test_narracao_rejects_empty_message(api_base_url: str) -> None:

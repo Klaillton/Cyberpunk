@@ -75,11 +75,11 @@ def test_run_ollama_parses_response() -> None:
     assert text == "Narrativa local."
 
 
-def test_generate_reply_none_provider_narrador_mode(monkeypatch) -> None:
+def test_generate_reply_none_provider_mestre_channel(monkeypatch) -> None:
     settings = get_settings()
     monkeypatch.setattr(settings, "provider", "none")
-    reply = generate_reply("Pergunta off-record", mode="narrador", settings=settings)
-    assert "Canal narrador ativo" in reply
+    reply = generate_reply("Pergunta off-game", mode="mestre", settings=settings, channel="mestre")
+    assert "Canal Mestre off-game ativo" in reply
 
 
 def test_update_proposals_disabled_for_ollama_by_default(monkeypatch) -> None:

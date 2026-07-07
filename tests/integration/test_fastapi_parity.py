@@ -15,6 +15,7 @@ def test_openapi_exposes_legacy_paths() -> None:
     paths = app.openapi()["paths"]
     for route in (
         "/api/narracao",
+        "/api/mestre",
         "/api/narrador",
         "/api/character-profile",
         "/api/journal/{character_id}",
