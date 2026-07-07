@@ -6,6 +6,12 @@ const chatModeLabel = document.getElementById("chatModeLabel");
 const btnFicha = document.getElementById("btnFicha");
 const btnJournal = document.getElementById("btnJournal");
 const btnNarrador = document.getElementById("btnNarrador");
+const btnPropostas = document.getElementById("btnPropostas");
+const proposalsBadge = document.getElementById("proposalsBadge");
+const proposalsDrawer = document.getElementById("proposalsDrawer");
+const closeProposalsBtn = document.getElementById("closeProposalsBtn");
+const proposalsList = document.getElementById("proposalsList");
+const approveAllProposalsBtn = document.getElementById("approveAllProposalsBtn");
 const fichaDrawer = document.getElementById("fichaDrawer");
 const journalDrawer = document.getElementById("journalDrawer");
 const closeFichaBtn = document.getElementById("closeFichaBtn");
@@ -24,9 +30,10 @@ const API_BASE =
   window.location.protocol.startsWith("http") && window.location.host
     ? `${window.location.protocol}//${window.location.host}`
     : "http://127.0.0.1:8787";
-const modeButtons = [btnFicha, btnJournal, btnNarrador];
+const modeButtons = [btnFicha, btnJournal, btnNarrador, btnPropostas];
 let profileLoaded = false;
 let journalEntries = [];
+let pendingProposals = [];
 let activeLoadingCard = null;
 let activeLoadingFeed = null;
 
@@ -267,7 +274,97 @@ async function callChannelApi(message) {
   }
 
   const data = await response.json();
+  if (Array.isArray(data.update_proposals) && data.update_proposals.length > 0) {
+    pendingProposals = data.update_proposals;
+    updateProposalsBadge();
+  }
   return data.reply || "Sem resposta do servidor.";
+}
+
+async function fetchPendingProposals() {
+  const response = await fetch(`${API_BASE}/api/proposals`);
+  if (!response.ok) {
+    throw new Error(`Falha ao carregar propostas: ${response.status}`);
+  }
+  const data = await response.json();
+  pendingProposals = Array.isArray(data.proposals) ? data.proposals : [];
+  updateProposalsBadge();
+  return pendingProposals;
+}
+
+async function saveProposals(proposalIds, approved = true) {
+  const response = await fetch(`${API_BASE}/api/save`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ proposal_ids: proposalIds, approved }),
+  });
+  const data = await response.json();
+  if (!response.ok) {
+    throw new Error(data.error || data.validation_issues?.[0]?.message || `Falha ${response.status}`);
+  }
+  return data;
+}
+
+function updateProposalsBadge() {
+  const count = pendingProposals.length;
+  proposalsBadge.textContent = String(count);
+  proposalsBadge.classList.toggle("is-hidden", count === 0);
+  btnPropostas.classList.toggle("has-badge", count > 0);
+}
+
+function renderProposals() {
+  proposalsList.innerHTML = "";
+  if (pendingProposals.length === 0) {
+    const li = document.createElement("li");
+    li.textContent = "Nenhuma proposta pendente.";
+    proposalsList.appendChild(li);
+    return;
+  }
+
+  pendingProposals.forEach((proposal) => {
+    const li = document.createElement("li");
+    li.className = "proposal-item";
+
+    const title = document.createElement("strong");
+    title.textContent = `${proposal.change_type} → ${proposal.target_path}`;
+
+    const detail = document.createElement("p");
+    detail.className = "proposal-detail";
+    const payload = proposal.payload || {};
+    const payloadHint =
+      payload.personagem || payload.name || payload.text || payload.content || "";
+    detail.textContent =
+      proposal.rationale ||
+      payloadHint ||
+      JSON.stringify(proposal.payload);
+
+    const meta = document.createElement("p");
+    meta.className = "proposal-meta";
+    meta.textContent = `confianca ${Math.round((proposal.confidence || 0) * 100)}%`;
+
+    const actions = document.createElement("div");
+    actions.className = "proposal-item-actions";
+
+    const approveBtn = document.createElement("button");
+    approveBtn.type = "button";
+    approveBtn.className = "proposal-approve";
+    approveBtn.textContent = "Aprovar";
+    approveBtn.dataset.proposalId = proposal.id;
+
+    const rejectBtn = document.createElement("button");
+    rejectBtn.type = "button";
+    rejectBtn.className = "proposal-reject";
+    rejectBtn.textContent = "Rejeitar";
+    rejectBtn.dataset.proposalId = proposal.id;
+
+    actions.appendChild(approveBtn);
+    actions.appendChild(rejectBtn);
+    li.appendChild(title);
+    li.appendChild(detail);
+    li.appendChild(meta);
+    li.appendChild(actions);
+    proposalsList.appendChild(li);
+  });
 }
 
 async function fetchCharacterProfile() {
@@ -443,6 +540,7 @@ function renderJournal() {
 function openDrawer(drawer) {
   closeDrawer(fichaDrawer);
   closeDrawer(journalDrawer);
+  closeDrawer(proposalsDrawer);
   drawer.classList.remove("is-hidden");
   document.body.classList.add("sheet-active");
 }
@@ -451,7 +549,8 @@ function closeDrawer(drawer) {
   drawer.classList.add("is-hidden");
   const hasOpenSheet =
     !fichaDrawer.classList.contains("is-hidden") ||
-    !journalDrawer.classList.contains("is-hidden");
+    !journalDrawer.classList.contains("is-hidden") ||
+    !proposalsDrawer.classList.contains("is-hidden");
   if (!hasOpenSheet) {
     document.body.classList.remove("sheet-active");
   }
@@ -492,9 +591,19 @@ btnNarrador.addEventListener("click", () => {
   activeChannel = activeChannel === "narrador" ? "narracao" : "narrador";
   updateNarradorButton();
 });
+btnPropostas.addEventListener("click", async () => {
+  try {
+    await fetchPendingProposals();
+  } catch (err) {
+    console.error(err);
+  }
+  renderProposals();
+  openDrawer(proposalsDrawer);
+});
 
 closeFichaBtn.addEventListener("click", () => closeDrawer(fichaDrawer));
 closeJournalBtn.addEventListener("click", () => closeDrawer(journalDrawer));
+closeProposalsBtn.addEventListener("click", () => closeDrawer(proposalsDrawer));
 
 document.querySelectorAll(".sheet-backdrop").forEach((backdrop) => {
   backdrop.addEventListener("click", () => {
@@ -503,6 +612,8 @@ document.querySelectorAll(".sheet-backdrop").forEach((backdrop) => {
       closeDrawer(fichaDrawer);
     } else if (target === "journal") {
       closeDrawer(journalDrawer);
+    } else if (target === "proposals") {
+      closeDrawer(proposalsDrawer);
     }
   });
 });
@@ -519,6 +630,9 @@ document.addEventListener("click", (event) => {
   if (closeType === "journal") {
     closeDrawer(journalDrawer);
   }
+  if (closeType === "proposals") {
+    closeDrawer(proposalsDrawer);
+  }
 });
 
 document.addEventListener("keydown", (event) => {
@@ -527,9 +641,47 @@ document.addEventListener("keydown", (event) => {
   }
   closeDrawer(fichaDrawer);
   closeDrawer(journalDrawer);
+  closeDrawer(proposalsDrawer);
+});
+
+approveAllProposalsBtn.addEventListener("click", async () => {
+  if (pendingProposals.length === 0) {
+    return;
+  }
+  try {
+    await saveProposals(pendingProposals.map((item) => item.id), true);
+    pendingProposals = await fetchPendingProposals();
+    renderProposals();
+    updateProposalsBadge();
+  } catch (err) {
+    console.error(err);
+    window.alert(extractFriendlyError(err));
+  }
+});
+
+proposalsList.addEventListener("click", async (event) => {
+  const target = event.target;
+  if (!(target instanceof HTMLButtonElement)) {
+    return;
+  }
+  const proposalId = target.dataset.proposalId;
+  if (!proposalId) {
+    return;
+  }
+  const approved = target.classList.contains("proposal-approve");
+  try {
+    await saveProposals([proposalId], approved);
+    pendingProposals = await fetchPendingProposals();
+    renderProposals();
+    updateProposalsBadge();
+  } catch (err) {
+    console.error(err);
+    window.alert(extractFriendlyError(err));
+  }
 });
 
 renderJournal();
+fetchPendingProposals().catch((err) => console.error(err));
 updateNarradorButton();
 ensureCharacterProfileLoaded();
 

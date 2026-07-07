@@ -1,0 +1,1 @@
+"""Motor narrativo — lógica de domínio da campanha solo."""

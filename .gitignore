@@ -15,9 +15,37 @@ test-results/
 # Artefatos Python locais
 __pycache__/
 *.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+*.egg-info/
+
+# Testes e artefatos temporários locais
+tests/tmp_journal/
+tests/tmp_e2e_data/
+tests/tmp_*.py
 
 # Logs e artefatos de execução local
 *.log
+
+# Motor narrativo (SQLite, FAISS, sessões)
+data/
+.chat-engine/
+
+# Docker — secrets locais
+deploy/.env
+.env
+.env.*
+
+# Terminais/sessões do agente IA (Cursor/Grok)
+terminals/
+
+# Configuração local do editor (pode conter credenciais/tarefas locais)
+.vscode/
 
 # Sistema operacional/editor
 .DS_Store

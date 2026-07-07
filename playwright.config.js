@@ -1,4 +1,9 @@
 const { defineConfig, devices } = require("@playwright/test");
+const fs = require("fs");
+const path = require("path");
+
+const e2eDataDir = path.join(__dirname, "tests", "tmp_e2e_data");
+fs.mkdirSync(e2eDataDir, { recursive: true });
 
 module.exports = defineConfig({
   testDir: "./tests/e2e",
@@ -16,10 +21,18 @@ module.exports = defineConfig({
     video: "retain-on-failure",
   },
   webServer: {
-    command: "python scripts/narracao_api.py",
+    command: "python -m uvicorn api.main:app --host 127.0.0.1 --port 8787",
     url: "http://127.0.0.1:8787",
     reuseExistingServer: true,
     timeout: 120000,
+    env: {
+      NARRACAO_PROVIDER: "none",
+      NARRACAO_SKIP_PROVIDER_PROMPT: "1",
+      DATA_DIR: e2eDataDir,
+      DB_PATH: path.join(e2eDataDir, "motor.db"),
+      FAISS_DIR: path.join(e2eDataDir, "faiss"),
+      JOURNAL_DIR: path.join(e2eDataDir, "journal"),
+    },
   },
   projects: [
     {

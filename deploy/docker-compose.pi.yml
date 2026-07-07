@@ -1,0 +1,38 @@
+# Stack leve para Raspberry Pi — sem LLM (estado + API de consulta)
+# Uso:
+#   docker compose -f deploy/docker-compose.pi.yml --env-file deploy/.env up -d
+# O LLM roda no laptop na sessão (deploy/docker-compose.yml).
+
+services:
+  motor:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    container_name: cyberpunk-motor-pi
+    restart: unless-stopped
+    ports:
+      - "${NARRACAO_API_PORT:-8787}:8787"
+    volumes:
+      - ..:/app
+      - motor_data:/app/data
+    environment:
+      NARRACAO_PROVIDER: none
+      LLM_ROUTING_POLICY: local_only
+      NARRACAO_API_HOST: 0.0.0.0
+      NARRACAO_API_PORT: "8787"
+      PROTAGONIST_ID: ${PROTAGONIST_ID:-ryan_wireghost_voss}
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8787/', timeout=5)",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+volumes:
+  motor_data:

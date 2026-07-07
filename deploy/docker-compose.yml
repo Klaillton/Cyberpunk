@@ -1,0 +1,94 @@
+# Stack LLM local — laptop com GPU (NVIDIA)
+# Uso (a partir da raiz do repositório):
+#   docker compose -f deploy/docker-compose.yml --env-file deploy/.env up -d
+# Baixar modelos (primeira vez):
+#   docker compose -f deploy/docker-compose.yml --profile init run --rm ollama-pull
+
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: cyberpunk-ollama
+    restart: unless-stopped
+    ports:
+      - "${OLLAMA_HOST_PORT:-11434}:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 15s
+      timeout: 30s
+      retries: 5
+      start_period: 40s
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: ${NVIDIA_GPU_COUNT:-1}
+              capabilities: [gpu]
+
+  ollama-pull:
+    profiles: [init]
+    image: ollama/ollama:latest
+    container_name: cyberpunk-ollama-pull
+    depends_on:
+      ollama:
+        condition: service_healthy
+    env_file:
+      - .env
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      OLLAMA_MODEL_NARRATION: ${OLLAMA_MODEL_NARRATION:-llama3.1:8b}
+      OLLAMA_MODEL_CLASSIFIER: ${OLLAMA_MODEL_CLASSIFIER:-phi3:mini}
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        set -e
+        echo "Baixando modelo de narracao: $$OLLAMA_MODEL_NARRATION"
+        ollama pull "$$OLLAMA_MODEL_NARRATION"
+        echo "Baixando classificador: $$OLLAMA_MODEL_CLASSIFIER"
+        ollama pull "$$OLLAMA_MODEL_CLASSIFIER" || true
+        echo "Modelos prontos."
+
+  motor:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    container_name: cyberpunk-motor
+    restart: unless-stopped
+    ports:
+      - "${NARRACAO_API_PORT:-8787}:8787"
+    volumes:
+      # Campanha e estado (estrutura atual do repositório)
+      - ..:/app
+      - motor_data:/app/data
+    environment:
+      NARRACAO_PROVIDER: ollama
+      LLM_ROUTING_POLICY: local_preferred
+      CLOUD_FALLBACK_ENABLED: "false"
+      NARRACAO_API_HOST: 0.0.0.0
+      NARRACAO_API_PORT: "8787"
+      OLLAMA_BASE_URL: http://ollama:11434
+      OLLAMA_MODEL_NARRATION: ${OLLAMA_MODEL_NARRATION:-llama3.1:8b}
+      OLLAMA_MODEL_CLASSIFIER: ${OLLAMA_MODEL_CLASSIFIER:-phi3:mini}
+      PROTAGONIST_ID: ${PROTAGONIST_ID:-ryan_wireghost_voss}
+      MAX_CONTEXT_CHARS: ${MAX_CONTEXT_CHARS:-32000}
+    depends_on:
+      ollama:
+        condition: service_healthy
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8787/', timeout=5)",
+        ]
+      interval: 20s
+      timeout: 10s
+      retries: 5
+      start_period: 15s
+
+volumes:
+  ollama_data:
+  motor_data:

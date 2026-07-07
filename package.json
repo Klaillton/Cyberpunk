@@ -4,9 +4,13 @@
   "description": "Bem-vindo à campanha de Cyberpunk RED.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Use npm run test:e2e\"",
+    "test": "npm run test:all",
+    "test:unit": "python -m pytest tests/unit tests/integration -q",
+    "test:slow": "python -m pytest tests/integration/test_ollama_smoke.py -m slow -v",
+    "index:rebuild": "python scripts/rebuild_index.py",
     "test:e2e": "playwright test",
-    "test:e2e:ui": "playwright test --ui"
+    "test:e2e:ui": "playwright test --ui",
+    "test:all": "npm run test:unit && npm run test:e2e"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+testpaths = ["tests/unit", "tests/integration"]
+pythonpath = [".", "scripts"]
+addopts = "-ra -m 'not slow'"
+markers = [
+    "slow: testes lentos (docker, ollama real)",
+]

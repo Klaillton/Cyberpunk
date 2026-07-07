@@ -172,6 +172,78 @@ body {
   font-size: 0.85rem;
 }
 
+.badge {
+  display: inline-flex;
+  min-width: 1.2rem;
+  height: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.35rem;
+  border-radius: 999px;
+  background: var(--danger);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.badge.is-hidden {
+  display: none;
+}
+
+.mode-btn.has-badge {
+  border-color: rgba(255, 111, 97, 0.65);
+}
+
+.proposal-list {
+  margin: 0.8rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.proposal-item {
+  border: 1px solid rgba(95, 230, 210, 0.25);
+  border-radius: 10px;
+  padding: 0.7rem;
+  background: rgba(11, 20, 33, 0.65);
+}
+
+.proposal-detail,
+.proposal-meta {
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.proposal-item-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.proposal-approve,
+.proposal-reject {
+  border: 1px solid rgba(95, 230, 210, 0.35);
+  background: rgba(8, 13, 24, 0.8);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 0.35rem 0.7rem;
+  cursor: pointer;
+}
+
+.proposal-approve {
+  border-color: rgba(46, 217, 169, 0.55);
+}
+
+.proposal-reject {
+  border-color: rgba(255, 111, 97, 0.55);
+}
+
+.proposal-actions {
+  margin-top: 0.5rem;
+}
+
 .journal-list {
   margin: 0.6rem 0 0;
   padding: 0;

@@ -34,6 +34,9 @@
             <button type="button" id="btnNarrador" class="mode-btn">
               Narrador
             </button>
+            <button type="button" id="btnPropostas" class="mode-btn">
+              Propostas <span id="proposalsBadge" class="badge is-hidden">0</span>
+            </button>
           </nav>
         </aside>
 
@@ -168,6 +171,40 @@
             </button>
           </form>
           <ul id="journalList" class="journal-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="proposalsDrawer"
+      class="sheet is-hidden"
+      aria-label="Propostas de atualizacao"
+    >
+      <div class="sheet-backdrop" data-close="proposals"></div>
+      <div class="sheet-panel sheet-panel-sm">
+        <header class="sheet-header">
+          <h2>Propostas de Atualizacao</h2>
+          <button
+            id="closeProposalsBtn"
+            class="close-btn"
+            type="button"
+            aria-label="Fechar propostas"
+            data-close="proposals"
+          >
+            X
+          </button>
+        </header>
+        <div class="sheet-content">
+          <p class="utility-hint">
+            Mudancas sugeridas pela narracao aguardam sua aprovacao antes de
+            alterar os arquivos da campanha.
+          </p>
+          <div class="proposal-actions">
+            <button type="button" id="approveAllProposalsBtn" class="journal-submit">
+              Aprovar todas
+            </button>
+          </div>
+          <ul id="proposalsList" class="proposal-list"></ul>
         </div>
       </div>
     </section>

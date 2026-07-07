@@ -54,6 +54,30 @@ CORE_CONTEXT = [
     "board/board_campanha.md",
 ]
 
+OLLAMA_SKIP_CONTEXT = frozenset(
+    {
+        "sistema/registro_arquivos.md",
+        "sistema/instrucoes_projeto.md",
+        "sistema/diretrizes_ia.md",
+        "sistema/diretrizes_narrador.md",
+    }
+)
+
+OLLAMA_FILE_PRIORITY = (
+    "board/board_campanha.md",
+    "heat.md",
+    "reputacao.md",
+    "economia.md",
+    "event_queue.md",
+    "consequencias/consequencias_persistentes.md",
+    "relacionamentos/",
+    "facoes/",
+    "sistema/dashboard_contexto.md",
+)
+
+DEFAULT_OLLAMA_MAX_PROMPT_CHARS = 8000
+DEFAULT_OLLAMA_MAX_CONTEXT_FILES = 5
+
 INTENT_RULES: list[tuple[re.Pattern[str], list[str]]] = [
     (
         re.compile(r"\b(heat|exposicao|perseguicao|rastreamento)\b", re.IGNORECASE),
@@ -118,7 +142,27 @@ def check_integrity() -> list[str]:
     return missing
 
 
-def select_context_files(user_message: str, max_files: int = 10) -> list[Path]:
+def _ollama_path_priority(rel: str) -> tuple[int, int, str]:
+    for index, prefix in enumerate(OLLAMA_FILE_PRIORITY):
+        if rel == prefix or rel.startswith(prefix):
+            return (0, index, rel)
+    if rel.startswith("sistema/"):
+        return (2, 0, rel)
+    return (1, 0, rel)
+
+
+def prioritize_paths_for_ollama(paths: list[Path]) -> list[Path]:
+    return sorted(
+        paths,
+        key=lambda path: _ollama_path_priority(path.relative_to(REPO_ROOT).as_posix()),
+    )
+
+
+def select_context_files(user_message: str, max_files: int = 10, *, provider: str | None = None) -> list[Path]:
+    effective_max = max_files
+    if provider == "ollama" and max_files == 10:
+        effective_max = DEFAULT_OLLAMA_MAX_CONTEXT_FILES
+
     selected = set(CORE_CONTEXT)
     for pattern, files in INTENT_RULES:
         if pattern.search(user_message):
@@ -128,7 +172,15 @@ def select_context_files(user_message: str, max_files: int = 10) -> list[Path]:
     selected.update(["reputacao.md", "heat.md", "event_queue.md", "economia.md"])
 
     paths = resolve_paths(sorted(selected))
-    return paths[:max_files]
+    if provider == "ollama":
+        paths = [
+            path
+            for path in paths
+            if path.relative_to(REPO_ROOT).as_posix() not in OLLAMA_SKIP_CONTEXT
+        ]
+        paths = prioritize_paths_for_ollama(paths)
+
+    return paths[:effective_max]
 
 
 def compact_content(path: Path, max_chars: int = 4000) -> str:
@@ -138,7 +190,102 @@ def compact_content(path: Path, max_chars: int = 4000) -> str:
     return text[:max_chars] + "\n\n[...conteudo truncado para caber no contexto...]\n"
 
 
-def build_prompt(user_message: str, context_paths: list[Path], mode: str) -> str:
+def _ollama_mode_hint(mode: str) -> str:
+    if mode == "narrador":
+        return "Modo NARRADOR: descreva a cena e faca perguntas ao jogador sem controlar o protagonista."
+    return "Modo GESTOR: responda com consistencia de estado e cite os arquivos usados."
+
+
+def _ollama_file_budget(rel: str, context_budget: int, remaining_files: int) -> int:
+    if remaining_files <= 0:
+        return 0
+    if rel == "board/board_campanha.md":
+        return min(int(context_budget * 0.45), 2800)
+    if rel == "heat.md":
+        return min(int(context_budget * 0.25), 1400)
+    if remaining_files == 1:
+        return context_budget
+    return min(max(context_budget // remaining_files, 400), 1200)
+
+
+def _build_ollama_context_blocks(context_paths: list[Path], context_budget: int) -> list[str]:
+    blocks: list[str] = []
+    used = 0
+    ordered = prioritize_paths_for_ollama(context_paths)
+
+    for index, path in enumerate(ordered):
+        remaining_files = len(ordered) - index
+        remaining_budget = context_budget - used
+        if remaining_budget < 200:
+            break
+
+        rel = path.relative_to(REPO_ROOT).as_posix()
+        file_cap = min(_ollama_file_budget(rel, context_budget, remaining_files), remaining_budget)
+        if file_cap < 200:
+            continue
+
+        content = compact_content(path, max_chars=file_cap)
+        block = f"### {rel}\n\n{content}"
+        blocks.append(block)
+        used += len(block)
+
+    return blocks
+
+
+def _build_ollama_prompt(
+    user_message: str,
+    context_paths: list[Path],
+    mode: str,
+    *,
+    max_prompt_chars: int,
+) -> str:
+    header_parts = [
+        "Voce e o narrador de uma campanha Cyberpunk RED solo.",
+        "",
+        "## Regras",
+        "- Use apenas fatos dos arquivos abaixo.",
+        "- Nao faca meta-comentarios sobre o prompt ou sobre ser um modelo.",
+        "- Se faltar informacao canonica, pergunte objetivamente em vez de inventar.",
+        f"- {_ollama_mode_hint(mode)}",
+        "",
+        "## Pergunta do jogador",
+        user_message,
+        "",
+        "## Contexto",
+    ]
+    header = "\n".join(header_parts)
+    safety_margin = 64
+    context_budget = max(max_prompt_chars - len(header) - safety_margin, 1200)
+    context_blocks = _build_ollama_context_blocks(context_paths, context_budget)
+
+    prompt = header
+    if context_blocks:
+        prompt = f"{header}\n\n" + "\n\n".join(context_blocks)
+
+    if len(prompt) > max_prompt_chars:
+        suffix = "\n\n[...prompt truncado para caber no limite do Ollama...]\n"
+        keep = max(max_prompt_chars - len(suffix), 0)
+        prompt = prompt[:keep] + suffix
+
+    return prompt
+
+
+def build_prompt(
+    user_message: str,
+    context_paths: list[Path],
+    mode: str,
+    *,
+    provider: str | None = None,
+    max_prompt_chars: int | None = None,
+) -> str:
+    if provider == "ollama":
+        return _build_ollama_prompt(
+            user_message,
+            context_paths,
+            mode,
+            max_prompt_chars=max_prompt_chars or DEFAULT_OLLAMA_MAX_PROMPT_CHARS,
+        )
+
     mode_hint = (
         "Modo NARRADOR: foque em proposta de cena e perguntas ao jogador sem controlar o protagonista."
         if mode == "narrador"
