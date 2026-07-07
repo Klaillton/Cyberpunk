@@ -34,16 +34,21 @@ def format_provider_failure(provider: str, error: Exception, settings: Settings 
     return "Nao foi possivel consultar o provider no momento. Tente novamente mais tarde."
 
 
-def run_ollama(prompt: str, settings: Settings | None = None) -> str:
+def run_ollama(
+    prompt: str,
+    settings: Settings | None = None,
+    *,
+    temperature: float | None = None,
+) -> str:
     cfg = settings or get_settings()
-    payload = json.dumps(
-        {
-            "model": cfg.ollama_model_narration,
-            "prompt": prompt,
-            "stream": False,
-        },
-        ensure_ascii=False,
-    ).encode("utf-8")
+    body: dict = {
+        "model": cfg.ollama_model_narration,
+        "prompt": prompt,
+        "stream": False,
+    }
+    if temperature is not None:
+        body["options"] = {"temperature": temperature}
+    payload = json.dumps(body, ensure_ascii=False).encode("utf-8")
     url = f"{cfg.ollama_base_url.rstrip('/')}/api/generate"
     request = urllib.request.Request(
         url,
@@ -90,7 +95,8 @@ def generate_reply(
 
     if cfg.provider == "ollama":
         try:
-            raw = run_ollama(prompt, cfg)
+            temp = 0.35 if channel == "narrador" else 0.55
+            raw = run_ollama(prompt, cfg, temperature=temp)
             return engine.sanitize_ollama_reply(raw, channel=channel)
         except Exception as exc:  # pragma: no cover
             return format_provider_failure(cfg.provider, exc, cfg)

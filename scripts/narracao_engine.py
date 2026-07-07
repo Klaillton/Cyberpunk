@@ -75,6 +75,19 @@ OLLAMA_FILE_PRIORITY = (
     "sistema/dashboard_contexto.md",
 )
 
+OLLAMA_NARRADOR_PRIORITY = (
+    "relacionamentos/crew_relacionamentos.md",
+    "relacionamentos/mapa_relacional_geral.md",
+    "relacionamentos/ryan_relacionamentos.md",
+    "relacionamentos/",
+    "board/board_campanha.md",
+)
+
+_INFO_QUESTION_RE = re.compile(
+    r"\b(quem|qual|quais|quantos?|liste|lista|faz parte|membros?|crew|equipe|npcs?)\b",
+    re.IGNORECASE,
+)
+
 DEFAULT_OLLAMA_MAX_PROMPT_CHARS = 8000
 DEFAULT_OLLAMA_MAX_CONTEXT_FILES = 5
 
@@ -142,8 +155,8 @@ def check_integrity() -> list[str]:
     return missing
 
 
-def _ollama_path_priority(rel: str) -> tuple[int, int, str]:
-    for index, prefix in enumerate(OLLAMA_FILE_PRIORITY):
+def _priority_tuple(rel: str, priority_prefixes: tuple[str, ...]) -> tuple[int, int, str]:
+    for index, prefix in enumerate(priority_prefixes):
         if rel == prefix or rel.startswith(prefix):
             return (0, index, rel)
     if rel.startswith("sistema/"):
@@ -151,10 +164,11 @@ def _ollama_path_priority(rel: str) -> tuple[int, int, str]:
     return (1, 0, rel)
 
 
-def prioritize_paths_for_ollama(paths: list[Path]) -> list[Path]:
+def prioritize_paths_for_ollama(paths: list[Path], channel: str | None = None) -> list[Path]:
+    priority = OLLAMA_NARRADOR_PRIORITY if channel == "narrador" else OLLAMA_FILE_PRIORITY
     return sorted(
         paths,
-        key=lambda path: _ollama_path_priority(path.relative_to(REPO_ROOT).as_posix()),
+        key=lambda path: _priority_tuple(path.relative_to(REPO_ROOT).as_posix(), priority),
     )
 
 
@@ -167,15 +181,29 @@ def select_context_files(
 ) -> list[Path]:
     effective_max = max_files
     if provider == "ollama" and max_files == 10:
-        effective_max = 3 if channel == "narrador" else DEFAULT_OLLAMA_MAX_CONTEXT_FILES
+        effective_max = 4 if channel == "narrador" else DEFAULT_OLLAMA_MAX_CONTEXT_FILES
 
-    selected = set(CORE_CONTEXT)
-    for pattern, files in INTENT_RULES:
-        if pattern.search(user_message):
-            selected.update(files)
-
-    # Sempre considerar estado mecanico basico se houver espaco.
-    selected.update(["reputacao.md", "heat.md", "event_queue.md", "economia.md"])
+    if channel == "narrador":
+        selected: set[str] = set()
+        if _INFO_QUESTION_RE.search(user_message):
+            selected.update(
+                [
+                    "relacionamentos/crew_relacionamentos.md",
+                    "relacionamentos/mapa_relacional_geral.md",
+                    "relacionamentos/ryan_relacionamentos.md",
+                ]
+            )
+        else:
+            selected.update(["board/board_campanha.md", "relacionamentos/ryan_relacionamentos.md"])
+        for pattern, files in INTENT_RULES:
+            if pattern.search(user_message):
+                selected.update(files)
+    else:
+        selected = set(CORE_CONTEXT)
+        for pattern, files in INTENT_RULES:
+            if pattern.search(user_message):
+                selected.update(files)
+        selected.update(["reputacao.md", "heat.md", "event_queue.md", "economia.md"])
 
     paths = resolve_paths(sorted(selected))
     if provider == "ollama":
@@ -184,7 +212,7 @@ def select_context_files(
             for path in paths
             if path.relative_to(REPO_ROOT).as_posix() not in OLLAMA_SKIP_CONTEXT
         ]
-        paths = prioritize_paths_for_ollama(paths)
+        paths = prioritize_paths_for_ollama(paths, channel=channel)
 
     return paths[:effective_max]
 
@@ -194,6 +222,18 @@ def compact_content(path: Path, max_chars: int = 4000) -> str:
     if len(text) <= max_chars:
         return text
     return text[:max_chars] + "\n\n[...conteudo truncado para caber no contexto...]\n"
+
+
+def compact_board_npcs(path: Path, max_chars: int = 1800) -> str:
+    text = read_text(path)
+    marker = "## NPCs Importantes"
+    start = text.find(marker)
+    if start < 0:
+        return compact_content(path, max_chars=max_chars)
+    excerpt = text[start : start + max_chars]
+    if len(text) > start + max_chars:
+        excerpt += "\n\n[...board truncado...]\n"
+    return excerpt
 
 
 def _ollama_mode_hint(mode: str) -> str:
@@ -208,11 +248,9 @@ def _ollama_mode_hint(mode: str) -> str:
 def _ollama_channel_hint(channel: str) -> str:
     if channel == "narrador":
         return (
-            "Canal OFF-RECORD: responda em 1-3 frases diretas ao jogador. "
-            "Nao re-narre a cena inteira. Nao pergunte fatos ja presentes no contexto "
-            "(ex: membros da crew, local, NPCs citados no board). "
-            "No maximo UMA pergunta curta no final, somente se indispensavel. "
-            "Nunca mencione turnos anteriores, correcoes do proprio texto nem instrucoes internas."
+            "Canal OFF-RECORD: consulta rapida do GM. "
+            "Responda na primeira frase. Listas em bullet points. Maximo 6 linhas. "
+            "Sem menus A/B/C/D, sem downtime, sem objetivos de missao."
         )
     if channel == "gestor":
         return (
@@ -252,15 +290,54 @@ def sanitize_ollama_reply(text: str, channel: str = "narracao") -> str:
             cleaned,
             count=1,
         )
+        cleaned = re.sub(
+            r"(?:Você quer|Voce quer):.*$",
+            "",
+            cleaned,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        cleaned = re.sub(r"^\s*[A-D]\)\s+.*$", "", cleaned, flags=re.MULTILINE)
+        cleaned = re.sub(
+            r"Escolha uma op[cç][aã]o.*$",
+            "",
+            cleaned,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
+        cleaned = re.sub(
+            r"(?:Quem é|Quem e) [A-Z][^.?!]*\?\s*",
+            "",
+            cleaned,
+            count=2,
+        )
+        cleaned = re.sub(
+            r"##\s*(?:Pergunta do jogador|Resposta):?\s*",
+            "",
+            cleaned,
+            flags=re.IGNORECASE,
+        )
+        lines = [line for line in cleaned.splitlines() if line.strip()]
+        if lines and lines[0].strip().endswith("?") and len(lines[0]) < 120:
+            lines = lines[1:]
+        cleaned = "\n".join(lines)
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
     cleaned = re.sub(r"  +", " ", cleaned)
     return cleaned.strip()
 
 
-def _ollama_file_budget(rel: str, context_budget: int, remaining_files: int) -> int:
+def _ollama_file_budget(
+    rel: str,
+    context_budget: int,
+    remaining_files: int,
+    *,
+    channel: str = "narracao",
+) -> int:
     if remaining_files <= 0:
         return 0
+    if channel == "narrador" and rel.startswith("relacionamentos/"):
+        return min(int(context_budget * 0.5), 3200)
     if rel == "board/board_campanha.md":
+        if channel == "narrador":
+            return min(1800, context_budget // max(remaining_files, 1))
         return min(int(context_budget * 0.45), 2800)
     if rel == "heat.md":
         return min(int(context_budget * 0.25), 1400)
@@ -269,10 +346,15 @@ def _ollama_file_budget(rel: str, context_budget: int, remaining_files: int) -> 
     return min(max(context_budget // remaining_files, 400), 1200)
 
 
-def _build_ollama_context_blocks(context_paths: list[Path], context_budget: int) -> list[str]:
+def _build_ollama_context_blocks(
+    context_paths: list[Path],
+    context_budget: int,
+    *,
+    channel: str = "narracao",
+) -> list[str]:
     blocks: list[str] = []
     used = 0
-    ordered = prioritize_paths_for_ollama(context_paths)
+    ordered = prioritize_paths_for_ollama(context_paths, channel=channel)
 
     for index, path in enumerate(ordered):
         remaining_files = len(ordered) - index
@@ -281,11 +363,17 @@ def _build_ollama_context_blocks(context_paths: list[Path], context_budget: int)
             break
 
         rel = path.relative_to(REPO_ROOT).as_posix()
-        file_cap = min(_ollama_file_budget(rel, context_budget, remaining_files), remaining_budget)
+        file_cap = min(
+            _ollama_file_budget(rel, context_budget, remaining_files, channel=channel),
+            remaining_budget,
+        )
         if file_cap < 200:
             continue
 
-        content = compact_content(path, max_chars=file_cap)
+        if channel == "narrador" and rel == "board/board_campanha.md":
+            content = compact_board_npcs(path, max_chars=file_cap)
+        else:
+            content = compact_content(path, max_chars=file_cap)
         block = f"### {rel}\n\n{content}"
         blocks.append(block)
         used += len(block)
@@ -301,26 +389,50 @@ def _build_ollama_prompt(
     max_prompt_chars: int,
     channel: str = "narracao",
 ) -> str:
-    header_parts = [
-        "Voce e o narrador de uma campanha Cyberpunk RED solo.",
-        "",
-        "## Regras",
-        "- Use apenas fatos presentes no contexto abaixo. Nao invente NPCs, locais, eventos ou consequencias.",
-        "- Nao cite caminhos de arquivos, JSON, blocos UPDATE_PROPOSALS nem meta-comentarios sobre o prompt.",
-        "- Nao descreva alteracoes em arquivos da campanha; apenas narre ou responda.",
-        "- Responda somente com o texto final para o jogador, sem rascunhos nem auto-correcoes.",
-        f"- {_ollama_channel_hint(channel)}",
-        f"- {_ollama_mode_hint(mode)}",
-        "",
-        "## Pergunta do jogador",
-        user_message,
-        "",
-        "## Contexto",
-    ]
+    if channel == "narrador":
+        header_parts = [
+            "Voce e o Game Master em consulta OFF-RECORD (fora da cronologia).",
+            "",
+            "## Formato obrigatorio",
+            "- Responda DIRETAMENTE a pergunta na primeira frase ou bullet list.",
+            "- Maximo 6 linhas. Sem narrar cena, sem downtime, sem objetivos de missao.",
+            "- PROIBIDO: menus A/B/C/D, 'Escolha uma opcao', perguntas de volta sobre o que foi perguntado.",
+            "- Use apenas fatos do contexto. Sem citar arquivos.",
+            "",
+            "## Exemplo",
+            "Pergunta: Quem faz parte da crew do Ryan?",
+            "Resposta:",
+            "- Ryan \"Wireghost\" Voss (techie)",
+            "- Lena \"Valk\" Kane (parceira)",
+            "- Alex \"Specter\" Kane, Reina \"Bearclaw\", Kaz, Doc, Jax",
+            "- Recrutas no Pack: Mara, Elias e Tomas (integracao em andamento)",
+            "",
+            "## Pergunta do jogador",
+            user_message,
+            "",
+            "## Contexto",
+        ]
+    else:
+        header_parts = [
+            "Voce e o narrador de uma campanha Cyberpunk RED solo.",
+            "",
+            "## Regras",
+            "- Use apenas fatos presentes no contexto abaixo. Nao invente NPCs, locais, eventos ou consequencias.",
+            "- Nao cite caminhos de arquivos, JSON, blocos UPDATE_PROPOSALS nem meta-comentarios sobre o prompt.",
+            "- Nao descreva alteracoes em arquivos da campanha; apenas narre ou responda.",
+            "- Responda somente com o texto final para o jogador, sem rascunhos nem auto-correcoes.",
+            f"- {_ollama_channel_hint(channel)}",
+            f"- {_ollama_mode_hint(mode)}",
+            "",
+            "## Pergunta do jogador",
+            user_message,
+            "",
+            "## Contexto",
+        ]
     header = "\n".join(header_parts)
     safety_margin = 64
     context_budget = max(max_prompt_chars - len(header) - safety_margin, 1200)
-    context_blocks = _build_ollama_context_blocks(context_paths, context_budget)
+    context_blocks = _build_ollama_context_blocks(context_paths, context_budget, channel=channel)
 
     prompt = header
     if context_blocks:

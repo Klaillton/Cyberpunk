@@ -71,6 +71,7 @@ def test_build_prompt_ollama_respects_max_chars() -> None:
 
 def test_build_prompt_ollama_off_record_channel_hint() -> None:
     paths = engine.select_context_files("Quem faz parte da crew?", provider="ollama", channel="narrador")
+    rel = {p.relative_to(engine.REPO_ROOT).as_posix() for p in paths}
     prompt = engine.build_prompt(
         "Quem faz parte da crew?",
         paths,
@@ -79,8 +80,11 @@ def test_build_prompt_ollama_off_record_channel_hint() -> None:
         channel="narrador",
         max_prompt_chars=8000,
     )
-    assert "Canal OFF-RECORD" in prompt
-    assert len(paths) <= 3
+    assert "Game Master" in prompt
+    assert "PROIBIDO: menus A/B/C/D" in prompt
+    assert "relacionamentos/crew_relacionamentos.md" in rel
+    assert "board/board_campanha.md" not in rel
+    assert len(paths) <= 4
 
 
 def test_build_prompt_ollama_main_channel_hint() -> None:
@@ -94,6 +98,24 @@ def test_build_prompt_ollama_main_channel_hint() -> None:
         max_prompt_chars=8000,
     )
     assert "Canal NARRACAO PRINCIPAL" in prompt
+
+
+def test_sanitize_ollama_reply_strips_echoed_question() -> None:
+    raw = "E quanto a Reina, Alex, Jax e Kaz?\n\n- Reina: protecao\n- Alex: rival"
+    cleaned = engine.sanitize_ollama_reply(raw, channel="narrador")
+    assert not cleaned.startswith("E quanto")
+    assert cleaned.startswith("- Reina")
+
+
+def test_sanitize_ollama_reply_strips_menu_choices() -> None:
+    raw = (
+        "Ryan esta em downtime. Voce quer: A) Fortalecer defesas B) Ensinar tecnicas "
+        "C) Gerenciar Biotechnica D) Equilibrar com Valk. Escolha uma opcao para avancar."
+    )
+    cleaned = engine.sanitize_ollama_reply(raw, channel="narrador")
+    assert "Voce quer" not in cleaned
+    assert "Escolha uma opcao" not in cleaned
+    assert "A)" not in cleaned
 
 
 def test_sanitize_ollama_reply_strips_meta_parentheticals() -> None:
