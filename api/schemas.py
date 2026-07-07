@@ -104,3 +104,46 @@ class IngestProposalsResponse(BaseModel):
     narrative: str
     proposals: list[dict]
     validation: dict
+
+
+class BriefItem(BaseModel):
+    id: str
+    title: str
+    teaser: str
+    detail: str
+    sources: list[str] = []
+
+
+class BriefMeta(BaseModel):
+    location: str = ""
+    date: str = ""
+    period: str = ""
+    updatedAt: str = ""
+    sources: list[str] = []
+
+
+class BriefResponse(BaseModel):
+    opening: str
+    meta: BriefMeta
+    briefs: list[BriefItem]
+
+
+class NpcCatalogEntry(BaseModel):
+    id: str
+    name: str
+    role: str = ""
+    relation: str = ""
+    summary: str = ""
+    gender: str = "male"
+    sheetPath: str = ""
+    imageUrl: str = ""
+    tokenUrl: str = ""
+    hasImage: bool = False
+    hasSheet: bool = False
+    featured: bool = False
+
+
+class NpcCatalogResponse(BaseModel):
+    count: int
+    npcs: list[NpcCatalogEntry]
+    sources: list[str] = []

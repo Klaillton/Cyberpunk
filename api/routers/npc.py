@@ -4,8 +4,14 @@ from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import FileResponse
 
 from motor.npc import build_npc_asset_response, image_content_type, resolve_npc_image_path
+from motor.npc_catalog import build_npc_catalog
 
 router = APIRouter(tags=["npc"])
+
+
+@router.get("/api/npcs")
+def npc_catalog() -> dict:
+    return build_npc_catalog()
 
 
 @router.get("/api/npc-asset")

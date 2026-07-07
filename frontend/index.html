@@ -31,6 +31,21 @@
             <button type="button" id="btnJournal" class="mode-btn">
               Journal
             </button>
+            <div class="menu-group">
+              <button
+                type="button"
+                id="btnNpcs"
+                class="mode-btn menu-trigger"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                NPCs
+              </button>
+              <ul id="npcSubmenu" class="submenu is-hidden" aria-label="Lista de NPCs"></ul>
+            </div>
+            <button type="button" id="btnAdmin" class="mode-btn mode-btn-muted">
+              Admin
+            </button>
             <button type="button" id="btnNarrador" class="mode-btn">
               Mestre
             </button>
@@ -44,29 +59,12 @@
           <header class="top-bar">
             <p class="kicker">Solo Campaign Interface</p>
             <h1>NARRACAO AO VIVO</h1>
-            <section class="story-brief" aria-label="Resumo e objetivos">
-              <article class="brief-card">
-                <h2>Resumo Ate Aqui</h2>
-                <p>
-                  Ryan Wireghost Voss manteve o crew funcional apos as ultimas
-                  incurssoes Raffen, segurando reputacao local enquanto protege
-                  recursos criticos para os proximos jobs.
-                </p>
-              </article>
-              <article class="brief-card">
-                <h2>Objetivo Atual (Medio/Longo Prazo)</h2>
-                <p>
-                  Consolidar influencia sobre zonas-chave e garantir
-                  estabilidade operacional da crew em Night City e Badlands.
-                </p>
-              </article>
-              <article class="brief-card">
-                <h2>Objetivo Secundario (Curto Prazo)</h2>
-                <p>
-                  Fechar pendencias imediatas de recursos, reduzir heat ativo e
-                  preparar o proximo movimento sem gerar nova exposicao.
-                </p>
-              </article>
+            <section
+              id="storyBrief"
+              class="story-brief"
+              aria-label="Resumo e objetivos"
+            >
+              <p class="utility-hint">Carregando resumo da campanha...</p>
             </section>
             <p id="chatModeLabel" class="mode-label">
               Canal atual: Narracao principal
@@ -78,14 +76,7 @@
             class="narration-feed"
             aria-live="polite"
             aria-label="Area de narracao"
-          >
-            <article class="narration-card system reveal">
-              <p>
-                A chuva acida cai em Night City. O canal abre e a narracao esta
-                pronta.
-              </p>
-            </article>
-          </section>
+          ></section>
 
           <section
             id="narratorFeed"
@@ -175,6 +166,111 @@
             </button>
           </form>
           <ul id="journalList" class="journal-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="briefDrawer"
+      class="sheet is-hidden"
+      aria-label="Detalhe do resumo ou objetivo"
+    >
+      <div class="sheet-backdrop" data-close="brief"></div>
+      <div class="sheet-panel sheet-panel-sm">
+        <header class="sheet-header">
+          <h2 id="briefDrawerTitle">Resumo</h2>
+          <button
+            id="closeBriefBtn"
+            class="close-btn"
+            type="button"
+            aria-label="Fechar detalhe"
+            data-close="brief"
+          >
+            X
+          </button>
+        </header>
+        <div class="sheet-content">
+          <div id="briefDrawerBody" class="md-content"></div>
+          <p id="briefDrawerSources" class="utility-hint"></p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="npcDrawer"
+      class="sheet is-hidden"
+      aria-label="Catalogo de NPCs"
+    >
+      <div class="sheet-backdrop" data-close="npcs"></div>
+      <div class="sheet-panel">
+        <header class="sheet-header">
+          <h2 id="npcDrawerTitle">NPCs</h2>
+          <button
+            id="closeNpcBtn"
+            class="close-btn"
+            type="button"
+            aria-label="Fechar NPCs"
+            data-close="npcs"
+          >
+            X
+          </button>
+        </header>
+        <div class="sheet-content">
+          <p id="npcDrawerStatus" class="utility-hint">
+            Carregando personagens da campanha...
+          </p>
+          <div id="npcCatalog" class="npc-catalog"></div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="adminDrawer"
+      class="sheet is-hidden"
+      aria-label="Administracao da campanha"
+    >
+      <div class="sheet-backdrop" data-close="admin"></div>
+      <div class="sheet-panel sheet-panel-sm">
+        <header class="sheet-header">
+          <h2>Administracao</h2>
+          <button
+            id="closeAdminBtn"
+            class="close-btn"
+            type="button"
+            aria-label="Fechar administracao"
+            data-close="admin"
+          >
+            X
+          </button>
+        </header>
+        <div class="sheet-content">
+          <p class="utility-hint">
+            Area planejada para ajustes colaborativos entre jogador e mestre.
+          </p>
+          <article class="sheet-card admin-roadmap">
+            <h3>Itens e inventario</h3>
+            <p>
+              Editar equipamentos, recursos e notas de loot em conjunto com o
+              jogador, com historico de alteracoes.
+            </p>
+            <span class="admin-tag">Planejado</span>
+          </article>
+          <article class="sheet-card admin-roadmap">
+            <h3>Novos personagens</h3>
+            <p>
+              Criar fichas NPC/crew a partir de template, vincular ao board e
+              relacionamentos.
+            </p>
+            <span class="admin-tag">Planejado</span>
+          </article>
+          <article class="sheet-card admin-roadmap">
+            <h3>Upload de imagens</h3>
+            <p>
+              Enviar retrato e token para personagens; associar automaticamente
+              pelo nome da ficha.
+            </p>
+            <span class="admin-tag">Planejado</span>
+          </article>
         </div>
       </div>
     </section>
