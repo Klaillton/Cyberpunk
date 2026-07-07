@@ -66,24 +66,32 @@ def run_ollama(prompt: str, settings: Settings | None = None) -> str:
     return text
 
 
-def generate_reply(message: str, mode: str, settings: Settings | None = None) -> str:
+def generate_reply(
+    message: str,
+    mode: str,
+    settings: Settings | None = None,
+    *,
+    channel: str = "narracao",
+) -> str:
     cfg = settings or get_settings()
     missing = engine.check_integrity()
     if missing:
         return "Nao foi possivel responder porque arquivos obrigatorios estao ausentes."
 
-    context_paths = engine.select_context_files(message, provider=cfg.provider)
+    context_paths = engine.select_context_files(message, provider=cfg.provider, channel=channel)
     prompt = engine.build_prompt(
         message,
         context_paths,
         mode,
         provider=cfg.provider,
         max_prompt_chars=cfg.ollama_max_prompt_chars if cfg.provider == "ollama" else None,
+        channel=channel,
     )
 
     if cfg.provider == "ollama":
         try:
-            return run_ollama(prompt, cfg)
+            raw = run_ollama(prompt, cfg)
+            return engine.sanitize_ollama_reply(raw, channel=channel)
         except Exception as exc:  # pragma: no cover
             return format_provider_failure(cfg.provider, exc, cfg)
 

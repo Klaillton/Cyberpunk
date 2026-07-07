@@ -69,6 +69,47 @@ def test_build_prompt_ollama_respects_max_chars() -> None:
     assert message in prompt
 
 
+def test_build_prompt_ollama_off_record_channel_hint() -> None:
+    paths = engine.select_context_files("Quem faz parte da crew?", provider="ollama", channel="narrador")
+    prompt = engine.build_prompt(
+        "Quem faz parte da crew?",
+        paths,
+        mode="narrador",
+        provider="ollama",
+        channel="narrador",
+        max_prompt_chars=8000,
+    )
+    assert "Canal OFF-RECORD" in prompt
+    assert len(paths) <= 3
+
+
+def test_build_prompt_ollama_main_channel_hint() -> None:
+    paths = engine.select_context_files("Observo o acampamento.", provider="ollama", channel="narracao")
+    prompt = engine.build_prompt(
+        "Observo o acampamento.",
+        paths,
+        mode="narrador",
+        provider="ollama",
+        channel="narracao",
+        max_prompt_chars=8000,
+    )
+    assert "Canal NARRACAO PRINCIPAL" in prompt
+
+
+def test_sanitize_ollama_reply_strips_meta_parentheticals() -> None:
+    raw = (
+        "**Quais sao os membros da crew?** "
+        "(Essa pergunta foi respondida pelo jogador anteriormente: Mara e Tomas) "
+        "Aqui esta a cena atual: Ryan observa Valk. "
+        "(Remova as perguntas feitas anteriormente que nao estao mais relevantes.)"
+    )
+    cleaned = engine.sanitize_ollama_reply(raw, channel="narrador")
+    assert "respondida pelo jogador" not in cleaned
+    assert "Remova as perguntas" not in cleaned
+    assert "Aqui esta a cena atual" not in cleaned
+    assert "Ryan observa Valk" in cleaned
+
+
 def test_build_prompt_ollama_prioritizes_board_over_sistema() -> None:
     message = "Descreva a cena no acampamento com Valk e Reyes."
     paths = engine.select_context_files(message, provider="ollama")

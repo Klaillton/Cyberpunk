@@ -158,10 +158,16 @@ def prioritize_paths_for_ollama(paths: list[Path]) -> list[Path]:
     )
 
 
-def select_context_files(user_message: str, max_files: int = 10, *, provider: str | None = None) -> list[Path]:
+def select_context_files(
+    user_message: str,
+    max_files: int = 10,
+    *,
+    provider: str | None = None,
+    channel: str | None = None,
+) -> list[Path]:
     effective_max = max_files
     if provider == "ollama" and max_files == 10:
-        effective_max = DEFAULT_OLLAMA_MAX_CONTEXT_FILES
+        effective_max = 3 if channel == "narrador" else DEFAULT_OLLAMA_MAX_CONTEXT_FILES
 
     selected = set(CORE_CONTEXT)
     for pattern, files in INTENT_RULES:
@@ -192,14 +198,63 @@ def compact_content(path: Path, max_chars: int = 4000) -> str:
 
 def _ollama_mode_hint(mode: str) -> str:
     if mode == "narrador":
-        return (
-            "Modo NARRADOR: descreva apenas a cena atual em prosa e faca perguntas ao jogador. "
-            "Nao controle acoes do protagonista."
-        )
+        return "Nao controle acoes do protagonista."
     return (
         "Modo GESTOR: responda com consistencia de estado. "
         "Nao altere arquivos nem proponha updates automaticos."
     )
+
+
+def _ollama_channel_hint(channel: str) -> str:
+    if channel == "narrador":
+        return (
+            "Canal OFF-RECORD: responda em 1-3 frases diretas ao jogador. "
+            "Nao re-narre a cena inteira. Nao pergunte fatos ja presentes no contexto "
+            "(ex: membros da crew, local, NPCs citados no board). "
+            "No maximo UMA pergunta curta no final, somente se indispensavel. "
+            "Nunca mencione turnos anteriores, correcoes do proprio texto nem instrucoes internas."
+        )
+    if channel == "gestor":
+        return (
+            "Canal GESTOR: responda objetivamente sobre estado e consistencia. "
+            "Sem narrar cena."
+        )
+    return (
+        "Canal NARRACAO PRINCIPAL: narre em 1-2 paragrafos curtos a consequencia da acao do jogador. "
+        "No maximo UMA pergunta ao jogador no final. Nao repita o que o jogador ja descreveu."
+    )
+
+
+def sanitize_ollama_reply(text: str, channel: str = "narracao") -> str:
+    cleaned = text.strip()
+    cleaned = re.sub(
+        r"\([^)]*(?:respondid[ao]|anteriormente|remova|relevante|jogador|turno|instruc)[^)]*\)",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(
+        r"(?:Aqui está a cena atual:|Aqui esta a cena atual:)\s*",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(
+        r"Os arquivos utilizados foram[^\n]*",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    if channel == "narrador":
+        cleaned = re.sub(
+            r"\*\*[^*]+\?\*\*\s*",
+            "",
+            cleaned,
+            count=1,
+        )
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    cleaned = re.sub(r"  +", " ", cleaned)
+    return cleaned.strip()
 
 
 def _ollama_file_budget(rel: str, context_budget: int, remaining_files: int) -> int:
@@ -244,6 +299,7 @@ def _build_ollama_prompt(
     mode: str,
     *,
     max_prompt_chars: int,
+    channel: str = "narracao",
 ) -> str:
     header_parts = [
         "Voce e o narrador de uma campanha Cyberpunk RED solo.",
@@ -251,8 +307,9 @@ def _build_ollama_prompt(
         "## Regras",
         "- Use apenas fatos presentes no contexto abaixo. Nao invente NPCs, locais, eventos ou consequencias.",
         "- Nao cite caminhos de arquivos, JSON, blocos UPDATE_PROPOSALS nem meta-comentarios sobre o prompt.",
-        "- Nao descreva alteracoes em arquivos da campanha; apenas narre ou pergunte.",
-        "- Se faltar informacao canonica, faca uma pergunta objetiva em vez de assumir.",
+        "- Nao descreva alteracoes em arquivos da campanha; apenas narre ou responda.",
+        "- Responda somente com o texto final para o jogador, sem rascunhos nem auto-correcoes.",
+        f"- {_ollama_channel_hint(channel)}",
         f"- {_ollama_mode_hint(mode)}",
         "",
         "## Pergunta do jogador",
@@ -284,6 +341,7 @@ def build_prompt(
     *,
     provider: str | None = None,
     max_prompt_chars: int | None = None,
+    channel: str = "narracao",
 ) -> str:
     if provider == "ollama":
         return _build_ollama_prompt(
@@ -291,6 +349,7 @@ def build_prompt(
             context_paths,
             mode,
             max_prompt_chars=max_prompt_chars or DEFAULT_OLLAMA_MAX_PROMPT_CHARS,
+            channel=channel,
         )
 
     mode_hint = (

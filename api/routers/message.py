@@ -15,9 +15,9 @@ def _process_message(channel: str, body: MessageRequest) -> MessageResponse:
     if not message:
         raise HTTPException(status_code=400, detail={"error": "Campo 'message' e obrigatorio"})
 
-    mode = "narrador"
+    mode = "narrador" if channel in {"narracao", "narrador"} else "gestor"
     settings = get_settings()
-    raw_reply = generate_reply(message, mode)
+    raw_reply = generate_reply(message, mode, channel=channel)
     if settings.update_proposals_enabled:
         update_service = UpdateService(settings)
         reply, proposals, _report = update_service.ingest_narrative(raw_reply)
