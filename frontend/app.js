@@ -239,10 +239,12 @@ function extractFriendlyError(error) {
   return "Nao foi possivel consultar a narracao agora. Tente novamente em instantes.";
 }
 
-async function callChannelApi(message) {
-  const endpoint =
-    activeChannel === "mestre" ? "/api/mestre" : "/api/narracao";
-  const response = await fetch(`${API_BASE}${endpoint}`, {
+function mestreEndpoints() {
+  return ["/api/mestre", "/api/narrador"];
+}
+
+async function postChannelMessage(endpoint, message) {
+  return fetch(`${API_BASE}${endpoint}`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -252,6 +254,21 @@ async function callChannelApi(message) {
       mode: activeChannel,
     }),
   });
+}
+
+async function callChannelApi(message) {
+  const endpoints =
+    activeChannel === "mestre" ? mestreEndpoints() : ["/api/narracao"];
+  let response = null;
+  let endpointUsed = endpoints[0];
+
+  for (const endpoint of endpoints) {
+    endpointUsed = endpoint;
+    response = await postChannelMessage(endpoint, message);
+    if (response.ok || (response.status !== 404 && response.status !== 405)) {
+      break;
+    }
+  }
 
   if (!response.ok) {
     let errorBody = null;
@@ -270,6 +287,11 @@ async function callChannelApi(message) {
       typeof errorBody === "string"
         ? errorBody
         : errorBody?.error || errorBody?.reply || errorBody?.message || "";
+    if (response.status === 405 || response.status === 404) {
+      throw new Error(
+        `Endpoint ${endpointUsed} indisponivel (${response.status}). Reinicie a API (python scripts/narracao_api.py ou docker compose restart motor).`,
+      );
+    }
     throw new Error(serverMessage || `Falha ${response.status}`);
   }
 
