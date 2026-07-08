@@ -25,6 +25,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(REPO_ROOT))
+
+from motor.markdown.campaign_paths import is_template_path
 SYSTEM_DIR = REPO_ROOT / "sistema"
 CHAT_DIR = REPO_ROOT / ".chat-engine"
 SESSIONS_DIR = CHAT_DIR / "sessions"
@@ -90,6 +93,27 @@ MESTRE_BASE_CONTEXT = [
     "relacionamentos/mapa_relacional_geral.md",
 ]
 
+SISTEMA_BASE_CONTEXT = [
+    "sistema/registro_arquivos.md",
+    "relacionamentos/mapa_relacional_geral.md",
+    "sistema/instrucoes_projeto.md",
+]
+
+_TECH_QUESTION_RE = re.compile(
+    r"\b(llm|api|interface|provider|ollama|funcionando|sistema|arquivo|comando|github|servidor|frontend|bug|erro)\b",
+    re.IGNORECASE,
+)
+
+_FICHA_PATH_RE = re.compile(
+    r"\b(ficha|fichas/|\.md\b|caminho|arquivo|registro)\b",
+    re.IGNORECASE,
+)
+
+_UPDATE_PREVIEW_RE = re.compile(
+    r"\b(resumo.*atualiz|atualiz.*arquiv|arquivos.*sess|o que precisa ser atualizado)\b",
+    re.IGNORECASE,
+)
+
 _INFO_QUESTION_RE = re.compile(
     r"\b(quem|qual|quais|quantos?|liste|lista|faz parte|membros?|crew|equipe|npcs?)\b",
     re.IGNORECASE,
@@ -105,6 +129,8 @@ def normalize_channel(channel: str | None) -> str:
     value = (channel or "narracao").strip().lower()
     if value in {"narrador", "mestre", "gm", "off-game", "offgame"}:
         return "mestre"
+    if value in {"sistema", "system", "tech", "dev", "suporte"}:
+        return "sistema"
     if value in {"narracao", "gestor"}:
         return value
     return "narracao"
@@ -169,6 +195,8 @@ def read_text(path: Path) -> str:
 def resolve_paths(rel_paths: list[str]) -> list[Path]:
     out: list[Path] = []
     for rel in rel_paths:
+        if is_template_path(rel):
+            continue
         p = REPO_ROOT / rel
         if p.exists() and p.is_file():
             out.append(p)
@@ -209,9 +237,34 @@ def select_context_files(
 ) -> list[Path]:
     effective_max = max_files
     if provider == "ollama" and max_files == 10:
-        effective_max = 5 if channel == "mestre" else DEFAULT_OLLAMA_MAX_CONTEXT_FILES
+        if channel in {"mestre", "sistema"}:
+            effective_max = 5
+        else:
+            effective_max = DEFAULT_OLLAMA_MAX_CONTEXT_FILES
 
-    if channel == "mestre":
+    if channel == "sistema":
+        selected = set(SISTEMA_BASE_CONTEXT)
+        if _UPDATE_PREVIEW_RE.search(user_message):
+            selected.update(
+                [
+                    "board/board_campanha.md",
+                    "sistema/dashboard_contexto.md",
+                    "consequencias/consequencias_persistentes.md",
+                    "relacionamentos/ryan_relacionamentos.md",
+                    "heat.md",
+                    "event_queue.md",
+                ]
+            )
+        elif _FICHA_PATH_RE.search(user_message) or _INFO_QUESTION_RE.search(user_message):
+            selected.update(
+                [
+                    "sistema/como_atualizar_arquivos.md",
+                    "board/board_campanha.md",
+                ]
+            )
+        elif _TECH_QUESTION_RE.search(user_message):
+            selected.update(["sistema/arquitetura_narracao_solo.md", "README.md"])
+    elif channel == "mestre":
         selected = set(MESTRE_BASE_CONTEXT)
         if _INFO_QUESTION_RE.search(user_message):
             selected.update(["relacionamentos/ryan_relacionamentos.md"])
@@ -279,6 +332,10 @@ def _ollama_channel_hint(channel: str) -> str:
         return (
             "Canal MESTRE off-game: responda como GM de mesa, sem narrar cena."
         )
+    if channel == "sistema":
+        return (
+            "Canal SISTEMA: responda sobre LLM, API, arquivos e comandos. Sem narrar cena."
+        )
     if channel == "gestor":
         return (
             "Canal GESTOR: responda objetivamente sobre estado e consistencia. "
@@ -310,6 +367,23 @@ def sanitize_ollama_reply(text: str, channel: str = "narracao") -> str:
         cleaned,
         flags=re.IGNORECASE,
     )
+    if channel in {"mestre", "sistema"}:
+        cleaned = re.sub(r"\*\*Tom de mesa de RPG\*\*\s*", "", cleaned, flags=re.IGNORECASE)
+        cleaned = re.sub(r"\*\*Pergunta do jogador\*\*\s*", "", cleaned, flags=re.IGNORECASE)
+        cleaned = re.sub(r"\*\*Resposta\*\*\s*", "", cleaned, flags=re.IGNORECASE)
+    if channel == "sistema":
+        cleaned = re.sub(
+            r"^(?:Vamos l[aá]|Ol[aá])[!,.]?\s*(?:Como assistente do canal SISTEMA,?)?\s*",
+            "",
+            cleaned,
+            flags=re.IGNORECASE,
+        )
+        cleaned = re.sub(
+            r"(?:Alguns comandos recomendados incluem|Lembre-se de sempre mencionar).*$",
+            "",
+            cleaned,
+            flags=re.IGNORECASE | re.DOTALL,
+        )
     if channel == "mestre":
         cleaned = re.sub(
             r"\*\*[^*]+\?\*\*\s*",
@@ -436,15 +510,47 @@ def _build_ollama_prompt(
     max_prompt_chars: int,
     channel: str = "narracao",
 ) -> str:
-    if channel == "mestre":
+    if channel == "sistema":
+        header_parts = [
+            "Voce e o assistente do canal SISTEMA (meta-tecnico).",
+            "Responda APENAS o que o jogador pediu. Nao recite manuais nem listas genericas de boas praticas.",
+            "",
+            "## Regras",
+            "- Portugues direto, 2-8 linhas. Bullets curtos so quando listar arquivos ou passos concretos.",
+            "- Se perguntarem caminho de ficha/arquivo: confirme ou corrija com path exato do contexto (ex: fichas/nomad - lena_valk_kane.md).",
+            "- Se pedirem resumo de atualizacoes: liste arquivos ESPECIFICOS e O QUE revisar em cada um com base no contexto; nao repita templates de como_atualizar.",
+            "- Se nao houver historico da sessao no contexto, diga isso em 1 linha e proponha candidatos a revisao a partir do estado atual dos arquivos.",
+            "- Perguntas sobre LLM/API: resposta curta e objetiva (sim/nao + detalhe tecnico).",
+            "- Historia/cenas/canon de jogo: indique canal Mestre ou Narracao em 1 linha.",
+            "- PROIBIDO: 'Vamos la', 'Ola', 'Como assistente', menus A/B/C, narrar cenas.",
+            "",
+            "## Exemplo (caminho de ficha)",
+            "Pergunta: a ficha da Lena Valk e fichas/nomad - lena_valk_kane.md?",
+            "Resposta: Correto. Ficha principal: fichas/nomad - lena_valk_kane.md. Relacionamentos: relacionamentos/lena_valk_kane_relacionamentos.md.",
+            "",
+            "## Exemplo (preview de atualizacao)",
+            "Pergunta: [resumo do que atualizar apos a sessao]",
+            "Resposta:",
+            "- board/board_campanha.md — revisar missao/local apos integracao dos recrutas.",
+            "- relacionamentos/ryan_relacionamentos.md — registrar interacoes com Mara, Elias, Tomas.",
+            "- sistema/dashboard_contexto.md — alinhar resumo rapido com o board.",
+            "Nenhuma alteracao aplicada; aguardo sua confirmacao.",
+            "",
+            "## Pergunta do jogador",
+            user_message,
+            "",
+            "## Contexto",
+        ]
+    elif channel == "mestre":
         header_parts = [
             "Voce e o MESTRE off-game (meta). O jogador conversa FORA da cronologia oficial.",
-            "Papel: tirar duvidas, separar canon atual de planos futuros, sugerir ajustes em arquivos.",
+            "Papel: tirar duvidas de canon, separar estado atual de planos futuros, sugerir ajustes em arquivos.",
             "Voce NAO narra cenas. NAO interpreta acoes do Ryan. NAO descreve clima, ambiente ou escolhas in-game.",
+            "Se a pergunta for sobre LLM, API ou funcionamento da interface, diga para usar o canal Sistema.",
             "",
             "## Formato obrigatorio",
             "- Tom de mesa de RPG (2-8 linhas). Listas em bullet quando listar pessoas.",
-            "- Use rotulos curtos se precisar: Canon atual: / Plano futuro: / Sugestao de registro:",
+            "- Use rotulos curtos SOMENTE para duvidas de canon: Canon atual: / Plano futuro: / Sugestao de registro:",
             "- PROIBIDO: narrar cena, downtime jogavel, menus, opcoes numeradas, perguntas de volta.",
             "- PROIBIDO: tratar Alex, Reina, Kaz, Doc e Jax como recrutas do Pack em Badlands (sao crew futura em Night City).",
             "",

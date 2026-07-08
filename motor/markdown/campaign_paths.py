@@ -17,7 +17,6 @@ CAMPAIGN_GLOBS = (
 )
 
 EXCLUDE_SUBSTRINGS = (
-    "template",
     "notas_narrador",
     "/projeto/",
     "/sistema/",
@@ -25,12 +24,48 @@ EXCLUDE_SUBSTRINGS = (
     "/tests/",
 )
 
+def normalize_rel_path(rel_path: str | Path) -> str:
+    return Path(rel_path).as_posix().lower()
 
-def should_index_markdown(rel_path: str) -> bool:
-    normalized = rel_path.replace("\\", "/").lower()
+
+def normalize_stem(stem: str) -> str:
+    return "".join(char for char in stem.lower() if char.isalnum())
+
+
+TEMPLATE_STEMS = frozenset(
+    {
+        "npc_template",
+        "sessao_resumo_template",
+        "job_template",
+        "pulso_log_template",
+        "faccao_template",
+        "template_pulso_npc",
+    }
+)
+_NORMALIZED_TEMPLATE_STEMS = frozenset(normalize_stem(value) for value in TEMPLATE_STEMS)
+
+
+def is_template_path(rel_path: str | Path) -> bool:
+    normalized = normalize_rel_path(rel_path)
+    stem = Path(normalized).stem
+    if stem in TEMPLATE_STEMS:
+        return True
+    if normalize_stem(stem) in _NORMALIZED_TEMPLATE_STEMS:
+        return True
+    return "template" in normalized
+
+
+def is_campaign_content_path(rel_path: str | Path) -> bool:
+    normalized = normalize_rel_path(rel_path)
     if normalized.endswith("readme.md"):
         return False
+    if is_template_path(normalized):
+        return False
     return not any(token in normalized for token in EXCLUDE_SUBSTRINGS)
+
+
+def should_index_markdown(rel_path: str) -> bool:
+    return is_campaign_content_path(rel_path)
 
 
 def discover_campaign_files(root: Path) -> list[Path]:

@@ -3,10 +3,9 @@ from __future__ import annotations
 import re
 from pathlib import Path
 from motor.markdown.parser import parse_markdown_document
-from motor.npc import build_npc_asset_response, normalize_name
+from motor.markdown.campaign_paths import is_campaign_content_path
+from motor.npc import build_npc_asset_response, find_sheet_by_name, normalize_name
 from motor.settings import Settings, get_settings
-
-_SKIP_STEMS = frozenset({"npc_template", "template"})
 
 
 def _campaign_path(settings: Settings, rel_path: str) -> Path:
@@ -80,29 +79,50 @@ def _npc_summary_from_sheet(sheet_path: Path) -> str:
     return intro[:220] + ("…" if len(intro) > 220 else "")
 
 
-def _resolve_sheet_path(settings: Settings, name: str, board_notes: str = "") -> Path | None:
-    npc_dir = settings.campanha_root / "fichas" / "npc"
-    if not npc_dir.exists():
-        return None
+def _name_lookup_variants(name: str) -> list[str]:
+    variants: list[str] = []
+    seen: set[str] = set()
 
+    def add(value: str) -> None:
+        cleaned = re.sub(r"\s+", " ", value.strip())
+        if not cleaned:
+            return
+        key = cleaned.lower()
+        if key in seen:
+            return
+        seen.add(key)
+        variants.append(cleaned)
+
+    add(name)
+    add(re.sub(r'"[^"]+"', " ", name))
+    add(re.sub(r"'[^']+'", " ", name))
+
+    lowered = name.lower()
+    if "valk" in lowered or "lena" in lowered:
+        add('Lena "Valk" Kane')
+        add("lena valk kane")
+    if "reyes" in lowered:
+        add("reyes")
+    if "gringo" in lowered:
+        add("tio gringo")
+
+    return variants
+
+
+def _resolve_sheet_path(settings: Settings, name: str, board_notes: str = "") -> Path | None:
     link_match = re.search(r"\(([^)]+\.md)\)", board_notes)
     if link_match:
         rel = link_match.group(1).replace("../", "").replace("../../", "")
-        candidate = settings.campanha_root / rel
-        if candidate.exists():
-            return candidate
+        if is_campaign_content_path(rel):
+            candidate = settings.campanha_root / rel
+            if candidate.exists():
+                return candidate
 
-    normalized = normalize_name(name)
-    matches: list[Path] = []
-    for path in npc_dir.glob("*.md"):
-        stem_norm = normalize_name(path.stem)
-        if stem_norm in _SKIP_STEMS:
-            continue
-        if normalized in stem_norm or stem_norm in normalized:
-            matches.append(path)
-    if not matches:
-        return None
-    return min(matches, key=lambda p: abs(len(normalize_name(p.stem)) - len(normalized)))
+    for variant in _name_lookup_variants(name):
+        sheet = find_sheet_by_name(variant, settings)
+        if sheet is not None and sheet.exists():
+            return sheet
+    return None
 
 
 def build_npc_catalog(settings: Settings | None = None) -> dict:
@@ -151,7 +171,8 @@ def build_npc_catalog(settings: Settings | None = None) -> dict:
     npc_dir = cfg.campanha_root / "fichas" / "npc"
     if npc_dir.exists():
         for path in sorted(npc_dir.glob("*.md")):
-            if normalize_name(path.stem) in _SKIP_STEMS:
+            rel = path.relative_to(cfg.campanha_root).as_posix()
+            if not is_campaign_content_path(rel):
                 continue
             doc = parse_markdown_document(path)
             display_name = doc.title.split("—")[0].strip() if "—" in doc.title else doc.title
@@ -183,5 +204,5 @@ def build_npc_catalog(settings: Settings | None = None) -> dict:
     return {
         "count": len(catalog),
         "npcs": catalog,
-        "sources": ["board/board_campanha.md", "fichas/npc/"],
+        "sources": ["board/board_campanha.md", "fichas/", "relacionamentos/mapa_relacional_geral.md"],
     }

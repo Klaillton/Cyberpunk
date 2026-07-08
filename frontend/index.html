@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cyberpunk Solo Narration</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a0f1a'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='16' fill='%235fe6d2'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,6 +38,22 @@
             <div class="menu-group">
               <button
                 type="button"
+                id="btnComandos"
+                class="mode-btn menu-trigger"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Comandos
+              </button>
+              <ul
+                id="commandsSubmenu"
+                class="submenu is-hidden"
+                aria-label="Comandos rapidos da sessao"
+              ></ul>
+            </div>
+            <div class="menu-group">
+              <button
+                type="button"
                 id="btnNpcs"
                 class="mode-btn menu-trigger"
                 aria-haspopup="true"
@@ -46,9 +66,32 @@
             <button type="button" id="btnAdmin" class="mode-btn mode-btn-muted">
               Admin
             </button>
-            <button type="button" id="btnNarrador" class="mode-btn">
-              Mestre
-            </button>
+            <div class="channel-switch" role="group" aria-label="Canais de conversa">
+              <button
+                type="button"
+                id="btnCanalNarracao"
+                class="mode-btn channel-btn is-active"
+                data-channel="narracao"
+              >
+                Narracao
+              </button>
+              <button
+                type="button"
+                id="btnCanalMestre"
+                class="mode-btn channel-btn"
+                data-channel="mestre"
+              >
+                Mestre
+              </button>
+              <button
+                type="button"
+                id="btnCanalSistema"
+                class="mode-btn channel-btn"
+                data-channel="sistema"
+              >
+                Sistema
+              </button>
+            </div>
             <button type="button" id="btnPropostas" class="mode-btn">
               Propostas <span id="proposalsBadge" class="badge is-hidden">0</span>
             </button>
@@ -66,6 +109,7 @@
             >
               <p class="utility-hint">Carregando resumo da campanha...</p>
             </section>
+            <p id="apiStatusBanner" class="api-status is-hidden" role="status"></p>
             <p id="chatModeLabel" class="mode-label">
               Canal atual: Narracao principal
             </p>
@@ -79,16 +123,29 @@
           ></section>
 
           <section
-            id="narratorFeed"
+            id="mestreFeed"
             class="narration-feed is-hidden"
             aria-live="polite"
             aria-label="Canal Mestre off-game"
           >
-            <article class="narration-card private">
+            <article class="narration-card private channel-intro" data-persist="true">
               <p>
-                Canal Mestre: conversa off-game com o GM — duvidas, canon,
-                planos futuros e ajustes nos arquivos. Nao altera a cena em
-                andamento.
+                Canal Mestre: off-game com o GM — canon, planos futuros, NPCs e
+                ajustes nos arquivos. Nao altera a cena em andamento.
+              </p>
+            </article>
+          </section>
+
+          <section
+            id="sistemaFeed"
+            class="narration-feed is-hidden"
+            aria-live="polite"
+            aria-label="Canal Sistema meta-tecnico"
+          >
+            <article class="narration-card private channel-intro" data-persist="true">
+              <p>
+                Canal Sistema: LLM, API, comandos, caminhos de arquivos e
+                propostas de atualizacao. Nao narra cenas.
               </p>
             </article>
           </section>
@@ -192,6 +249,35 @@
         <div class="sheet-content">
           <div id="briefDrawerBody" class="md-content"></div>
           <p id="briefDrawerSources" class="utility-hint"></p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="commandsDrawer"
+      class="sheet is-hidden"
+      aria-label="Comandos da sessao"
+    >
+      <div class="sheet-backdrop" data-close="commands"></div>
+      <div class="sheet-panel sheet-panel-sm">
+        <header class="sheet-header">
+          <h2>Comandos da Sessão</h2>
+          <button
+            id="closeCommandsBtn"
+            class="close-btn"
+            type="button"
+            aria-label="Fechar comandos"
+            data-close="commands"
+          >
+            X
+          </button>
+        </header>
+        <div class="sheet-content">
+          <p class="utility-hint">
+            Textos oficiais da campanha — clique em Enviar para mandar ao canal
+            de narração.
+          </p>
+          <div id="commandsCatalog" class="commands-catalog"></div>
         </div>
       </div>
     </section>

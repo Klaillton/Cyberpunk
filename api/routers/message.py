@@ -13,6 +13,7 @@ router = APIRouter(tags=["message"])
 _MODE_BY_CHANNEL = {
     "narracao": "narrador",
     "mestre": "mestre",
+    "sistema": "gestor",
     "gestor": "gestor",
 }
 
@@ -55,6 +56,11 @@ def post_mestre(body: MessageRequest) -> MessageResponse:
 def post_narrador(body: MessageRequest) -> MessageResponse:
     """Alias legado — redireciona para o canal Mestre off-game."""
     return _process_message("mestre", body)
+
+
+@router.post("/api/sistema", response_model=MessageResponse)
+def post_sistema(body: MessageRequest) -> MessageResponse:
+    return _process_message("sistema", body)
 
 
 @router.post("/api/message", response_model=MessageResponse)

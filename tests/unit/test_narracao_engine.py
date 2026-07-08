@@ -73,6 +73,7 @@ def test_normalize_channel_maps_narrador_to_mestre() -> None:
     assert engine.normalize_channel("narrador") == "mestre"
     assert engine.normalize_channel("mestre") == "mestre"
     assert engine.normalize_channel("narracao") == "narracao"
+    assert engine.normalize_channel("sistema") == "sistema"
 
 
 def test_build_prompt_ollama_mestre_channel_hint() -> None:
@@ -160,6 +161,20 @@ def test_compact_content_truncates_large_files(repo_root: Path) -> None:
     compact = engine.compact_content(sample, max_chars=200)
     assert len(compact) <= 260
     assert "truncado" in compact
+
+
+def test_resolve_paths_skips_template_files() -> None:
+    paths = engine.resolve_paths(
+        [
+            "board/board_campanha.md",
+            "fichas/npc/npc_template.md",
+            "logs/sessao_resumo_template.md",
+        ]
+    )
+    rel = {path.relative_to(engine.REPO_ROOT).as_posix() for path in paths}
+    assert "board/board_campanha.md" in rel
+    assert "fichas/npc/npc_template.md" not in rel
+    assert "logs/sessao_resumo_template.md" not in rel
 
 
 def test_append_session_log_writes_jsonl(tmp_path: Path, monkeypatch) -> None:

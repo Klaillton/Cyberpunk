@@ -243,6 +243,38 @@ body {
   border-style: dashed;
 }
 
+.channel-switch {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.channel-btn.is-active {
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  color: #062120;
+  border-color: transparent;
+}
+
+.api-status {
+  margin: 0.55rem 0 0;
+  padding: 0.55rem 0.65rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 214, 109, 0.45);
+  background: rgba(48, 36, 10, 0.55);
+  color: #ffe2a8;
+  font-size: 0.86rem;
+  line-height: 1.4;
+}
+
+.api-status.is-hidden {
+  display: none;
+}
+
+.api-status-error {
+  border-color: rgba(255, 111, 97, 0.55);
+  background: rgba(48, 15, 15, 0.65);
+  color: #ffd7d2;
+}
+
 .utility-hint {
   margin: 0.5rem 0 0;
   color: var(--muted);
@@ -818,6 +850,73 @@ h1 {
 
 .admin-roadmap p {
   margin: 0.45rem 0 0;
+}
+
+.commands-catalog {
+  display: grid;
+  gap: 1rem;
+}
+
+.command-category-title {
+  margin: 0;
+  color: var(--accent);
+  font-family: "Orbitron", "Segoe UI", sans-serif;
+  font-size: 0.88rem;
+}
+
+.command-category-list {
+  margin-top: 0.55rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.command-card h3 {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.command-description {
+  margin: 0.4rem 0 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.4;
+}
+
+.command-preview {
+  display: block;
+  margin-top: 0.55rem;
+  padding: 0.55rem 0.6rem;
+  border-radius: 8px;
+  border: 1px solid rgba(95, 230, 210, 0.22);
+  background: rgba(8, 13, 24, 0.75);
+  color: #c8e8ff;
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.command-actions {
+  margin-top: 0.6rem;
+}
+
+.command-send {
+  border: 1px solid rgba(46, 217, 169, 0.55);
+  border-radius: 8px;
+  padding: 0.4rem 0.75rem;
+  background: rgba(11, 20, 33, 0.9);
+  color: var(--text);
+  cursor: pointer;
+  font-family: "Orbitron", "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
+
+.command-send:hover,
+.command-send:focus-visible {
+  filter: brightness(1.08);
+  outline: none;
 }
 
 .admin-tag {

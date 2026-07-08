@@ -4,6 +4,7 @@ import re
 from pathlib import Path
 from urllib.parse import quote
 
+from motor.markdown.campaign_paths import is_campaign_content_path
 from motor.settings import Settings, get_settings
 
 IMAGE_EXTENSIONS = (".png", ".jpg", ".jpeg", ".webp", ".gif")
@@ -16,12 +17,15 @@ def normalize_name(value: str) -> str:
 def find_sheet_by_name(name: str, settings: Settings | None = None) -> Path | None:
     cfg = settings or get_settings()
     normalized = normalize_name(name)
-    fichas_dir = cfg.repo_root / "fichas"
+    fichas_dir = cfg.campanha_root / "fichas"
     if not fichas_dir.exists():
         return None
 
     matches: list[Path] = []
     for path in fichas_dir.rglob("*.md"):
+        rel = path.relative_to(cfg.campanha_root).as_posix()
+        if not is_campaign_content_path(rel):
+            continue
         stem = normalize_name(path.stem)
         if not stem:
             continue

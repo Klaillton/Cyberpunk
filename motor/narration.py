@@ -102,7 +102,10 @@ def generate_reply(
 
     if cfg.provider == "ollama":
         try:
-            if channel == "mestre":
+            if channel == "sistema":
+                temp = 0.15
+                num_predict = 380
+            elif channel == "mestre":
                 temp = 0.25
                 num_predict = 320
             else:
@@ -125,6 +128,8 @@ def generate_reply(
             "Integração real ainda não configurada; usando resposta local de validação."
         )
 
+    if channel == "sistema":
+        return "Canal Sistema ativo. Pergunte sobre LLM, API, arquivos e comandos."
     if channel == "mestre" or mode == "mestre":
         return "Canal Mestre off-game ativo. Consulta meta fora da cronologia."
     if mode == "narrador":

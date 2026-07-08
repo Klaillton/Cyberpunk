@@ -4,6 +4,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+from motor.markdown.campaign_paths import is_campaign_content_path
 from motor.settings import Settings, get_settings
 
 _SECTION_HEADING_RE = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
@@ -78,6 +79,8 @@ def _teaser(text: str, max_len: int = 140) -> str:
 
 def _latest_session_summary(settings: Settings) -> tuple[str, str]:
     for rel in _SESSION_FILES:
+        if not is_campaign_content_path(rel):
+            continue
         text = _read_campaign_file(settings, rel)
         if not text.strip():
             continue

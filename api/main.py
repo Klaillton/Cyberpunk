@@ -15,7 +15,19 @@ from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
-from api.routers import brief, character, journal, message, npc, proposals, routing, save, search
+from api.routers import (
+    brief,
+    character,
+    health,
+    journal,
+    message,
+    npc,
+    proposals,
+    routing,
+    save,
+    search,
+    session_commands,
+)
 from motor.settings import get_settings
 
 
@@ -41,8 +53,10 @@ def create_app() -> FastAPI:
             return JSONResponse(status_code=exc.status_code, content={"error": exc.detail})
         return JSONResponse(status_code=exc.status_code, content={"error": str(exc.detail)})
 
+    app.include_router(health.router)
     app.include_router(journal.router)
     app.include_router(brief.router)
+    app.include_router(session_commands.router)
     app.include_router(character.router)
     app.include_router(npc.router)
     app.include_router(message.router)

@@ -1,11 +1,16 @@
 const chatForm = document.getElementById("chatForm");
 const playerInput = document.getElementById("playerInput");
 const narrationFeed = document.getElementById("narrationFeed");
-const narratorFeed = document.getElementById("narratorFeed");
 const chatModeLabel = document.getElementById("chatModeLabel");
 const btnFicha = document.getElementById("btnFicha");
 const btnJournal = document.getElementById("btnJournal");
-const btnNarrador = document.getElementById("btnNarrador");
+const btnCanalNarracao = document.getElementById("btnCanalNarracao");
+const btnCanalMestre = document.getElementById("btnCanalMestre");
+const btnCanalSistema = document.getElementById("btnCanalSistema");
+const channelButtons = [btnCanalNarracao, btnCanalMestre, btnCanalSistema];
+const apiStatusBanner = document.getElementById("apiStatusBanner");
+const mestreFeed = document.getElementById("mestreFeed");
+const sistemaFeed = document.getElementById("sistemaFeed");
 const btnPropostas = document.getElementById("btnPropostas");
 const proposalsBadge = document.getElementById("proposalsBadge");
 const proposalsDrawer = document.getElementById("proposalsDrawer");
@@ -29,6 +34,11 @@ const briefDrawerTitle = document.getElementById("briefDrawerTitle");
 const briefDrawerBody = document.getElementById("briefDrawerBody");
 const briefDrawerSources = document.getElementById("briefDrawerSources");
 const closeBriefBtn = document.getElementById("closeBriefBtn");
+const btnComandos = document.getElementById("btnComandos");
+const commandsSubmenu = document.getElementById("commandsSubmenu");
+const commandsDrawer = document.getElementById("commandsDrawer");
+const commandsCatalog = document.getElementById("commandsCatalog");
+const closeCommandsBtn = document.getElementById("closeCommandsBtn");
 const btnNpcs = document.getElementById("btnNpcs");
 const npcSubmenu = document.getElementById("npcSubmenu");
 const btnAdmin = document.getElementById("btnAdmin");
@@ -46,7 +56,7 @@ const API_BASE =
   window.location.protocol.startsWith("http") && window.location.host
     ? `${window.location.protocol}//${window.location.host}`
     : "http://127.0.0.1:8787";
-const modeButtons = [btnFicha, btnJournal, btnNarrador, btnPropostas];
+const modeButtons = [btnFicha, btnJournal, btnPropostas];
 let profileLoaded = false;
 let journalEntries = [];
 let pendingProposals = [];
@@ -54,13 +64,65 @@ let activeLoadingCard = null;
 let activeLoadingFeed = null;
 let campaignBrief = null;
 let npcCatalogData = [];
+let sessionCommandsData = null;
 let openingRendered = false;
+let apiHealth = null;
+
+const SESSION_COMMANDS_FALLBACK = {
+  quick: [
+    {
+      id: "resumo_sessao",
+      label: "Resumo da Sessão",
+      text: "[Resumo da Sessão]",
+    },
+    {
+      id: "pulso_1_dia",
+      label: "Passar 1 dia (Pulso do Mundo)",
+      text: "[Passagem de tempo — passou 1 dia in-game. Rodar o Pulso do Mundo conforme pulso_procedimento.md e narrar o que Ryan percebe ao retomar a cena.]",
+    },
+    {
+      id: "finalizar_sessao",
+      label: "Finalizar sessão e gerar resumo",
+      text: "[Finalizar sessão e gerar resumo]",
+    },
+  ],
+  categories: [
+    {
+      title: "Resumo e encerramento",
+      commands: [
+        {
+          label: "Resumo da Sessão",
+          text: "[Resumo da Sessão]",
+          description: "Gera resumo estruturado da sessao atual.",
+        },
+        {
+          label: "Finalizar sessão e gerar resumo",
+          text: "[Finalizar sessão e gerar resumo]",
+          description: "Encerra a sessao e propoe salvar o resumo.",
+        },
+      ],
+    },
+  ],
+};
+
+const CHANNEL_ENDPOINTS = {
+  narracao: ["/api/narracao"],
+  mestre: ["/api/mestre", "/api/narrador"],
+  sistema: ["/api/sistema"],
+};
+
+const CHANNEL_LABELS = {
+  narracao: { player: "HISTORIA", reply: "NARRADOR", name: "Narracao principal" },
+  mestre: { player: "MESTRE", reply: "MESTRE (OFF-GAME)", name: "Mestre off-game" },
+  sistema: { player: "SISTEMA", reply: "SISTEMA", name: "Sistema (meta-tecnico)" },
+};
 
 const ALL_DRAWERS = [
   fichaDrawer,
   journalDrawer,
   proposalsDrawer,
   briefDrawer,
+  commandsDrawer,
   npcDrawer,
   adminDrawer,
 ];
@@ -310,9 +372,32 @@ async function setCoverImage(
   }
 }
 
+function isOffGameChannel(channel = activeChannel) {
+  return channel === "mestre" || channel === "sistema";
+}
+
+function activeFeed(channel = activeChannel) {
+  if (channel === "mestre") {
+    return mestreFeed;
+  }
+  if (channel === "sistema") {
+    return sistemaFeed;
+  }
+  return narrationFeed;
+}
+
+function updateFeedVisibility(channel = activeChannel) {
+  narrationFeed.classList.toggle("is-hidden", channel !== "narracao");
+  mestreFeed.classList.toggle("is-hidden", channel !== "mestre");
+  sistemaFeed.classList.toggle("is-hidden", channel !== "sistema");
+}
+
+function channelMeta(channel = activeChannel) {
+  return CHANNEL_LABELS[channel] || CHANNEL_LABELS.narracao;
+}
+
 function appendCard(text, role, options = {}) {
-  const targetFeed =
-    activeChannel === "mestre" ? narratorFeed : narrationFeed;
+  const targetFeed = activeFeed();
   const card = document.createElement("article");
   card.className = `narration-card ${role}`;
 
@@ -342,8 +427,7 @@ function appendCard(text, role, options = {}) {
 }
 
 function createLoadingCard(text) {
-  const targetFeed =
-    activeChannel === "mestre" ? narratorFeed : narrationFeed;
+  const targetFeed = activeFeed();
   const card = document.createElement("article");
   card.className = "narration-card loading";
   card.dataset.loading = "true";
@@ -377,11 +461,14 @@ function removeLoadingCard() {
 function setChatBusy(isBusy) {
   playerInput.disabled = isBusy;
   chatForm.querySelector("button[type='submit']").disabled = isBusy;
+  const placeholders = {
+    narracao: "Digite sua acao...",
+    mestre: "Fale com o Mestre (off-game): canon, planos, NPCs...",
+    sistema: "Canal Sistema: LLM, API, comandos, arquivos...",
+  };
   playerInput.placeholder = isBusy
     ? "Consultando narracao..."
-    : activeChannel === "mestre"
-      ? "Fale com o Mestre (off-game): duvidas, canon, ajustes..."
-      : "Digite sua acao...";
+    : placeholders[activeChannel] || placeholders.narracao;
 }
 
 function extractFriendlyError(error) {
@@ -393,10 +480,6 @@ function extractFriendlyError(error) {
     return "Provider de teste selecionado sem integracao real.";
   }
   return "Nao foi possivel consultar a narracao agora. Tente novamente em instantes.";
-}
-
-function mestreEndpoints() {
-  return ["/api/mestre", "/api/narrador"];
 }
 
 async function postChannelMessage(endpoint, message) {
@@ -413,8 +496,7 @@ async function postChannelMessage(endpoint, message) {
 }
 
 async function callChannelApi(message) {
-  const endpoints =
-    activeChannel === "mestre" ? mestreEndpoints() : ["/api/narracao"];
+  const endpoints = CHANNEL_ENDPOINTS[activeChannel] || CHANNEL_ENDPOINTS.narracao;
   let response = null;
   let endpointUsed = endpoints[0];
 
@@ -929,6 +1011,172 @@ async function ensureNpcCatalogLoaded() {
   }
 }
 
+async function fetchSessionCommands() {
+  const response = await fetch(`${API_BASE}/api/session-commands`);
+  if (!response.ok) {
+    throw new Error(`Falha ao carregar comandos: ${response.status}`);
+  }
+  return response.json();
+}
+
+function closeAllSubmenus() {
+  commandsSubmenu.classList.add("is-hidden");
+  btnComandos.setAttribute("aria-expanded", "false");
+  npcSubmenu.classList.add("is-hidden");
+  btnNpcs.setAttribute("aria-expanded", "false");
+}
+
+function buildCommandCard(command) {
+  const card = document.createElement("article");
+  card.className = "command-card sheet-card";
+
+  const title = document.createElement("h3");
+  title.textContent = command.label;
+  card.appendChild(title);
+
+  const description = document.createElement("p");
+  description.className = "command-description";
+  description.textContent = command.description || "";
+  card.appendChild(description);
+
+  const preview = document.createElement("code");
+  preview.className = "command-preview";
+  preview.textContent = command.text;
+  card.appendChild(preview);
+
+  const actions = document.createElement("div");
+  actions.className = "command-actions";
+
+  const sendBtn = document.createElement("button");
+  sendBtn.type = "button";
+  sendBtn.className = "command-send";
+  sendBtn.textContent = "Enviar";
+  sendBtn.addEventListener("click", () => {
+    void sendPlayerMessage(command.text);
+    closeDrawer(commandsDrawer);
+  });
+  actions.appendChild(sendBtn);
+  card.appendChild(actions);
+  return card;
+}
+
+function renderCommandsCatalog(data) {
+  commandsCatalog.innerHTML = "";
+  const categories = Array.isArray(data?.categories) ? data.categories : [];
+  categories.forEach((category) => {
+    const section = document.createElement("section");
+    section.className = "command-category";
+
+    const heading = document.createElement("h3");
+    heading.className = "command-category-title";
+    heading.textContent = category.title;
+    section.appendChild(heading);
+
+    const list = document.createElement("div");
+    list.className = "command-category-list";
+    (category.commands || []).forEach((command) => {
+      list.appendChild(buildCommandCard(command));
+    });
+    section.appendChild(list);
+    commandsCatalog.appendChild(section);
+  });
+}
+
+function renderCommandsSubmenu(quickCommands) {
+  commandsSubmenu.innerHTML = "";
+  const items = Array.isArray(quickCommands) ? quickCommands : [];
+  items.forEach((command) => {
+    const li = document.createElement("li");
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "submenu-item";
+    button.textContent = command.label;
+    button.addEventListener("click", () => {
+      closeAllSubmenus();
+      void sendPlayerMessage(command.text);
+    });
+    li.appendChild(button);
+    commandsSubmenu.appendChild(li);
+  });
+
+  const more = document.createElement("li");
+  const moreBtn = document.createElement("button");
+  moreBtn.type = "button";
+  moreBtn.className = "submenu-item submenu-more";
+  moreBtn.textContent = "Ver todos...";
+  moreBtn.addEventListener("click", () => {
+    closeAllSubmenus();
+    openCommandsDrawer();
+  });
+  more.appendChild(moreBtn);
+  commandsSubmenu.appendChild(more);
+}
+
+function openCommandsDrawer() {
+  if (sessionCommandsData) {
+    renderCommandsCatalog(sessionCommandsData);
+  }
+  openDrawer(commandsDrawer);
+}
+
+async function ensureSessionCommandsLoaded() {
+  if (sessionCommandsData) {
+    renderCommandsSubmenu(sessionCommandsData.quick);
+    return;
+  }
+  try {
+    sessionCommandsData = await fetchSessionCommands();
+    renderCommandsSubmenu(sessionCommandsData.quick);
+  } catch (err) {
+    console.error(err);
+    sessionCommandsData = SESSION_COMMANDS_FALLBACK;
+    renderCommandsSubmenu(sessionCommandsData.quick);
+  }
+}
+
+async function sendPlayerMessage(message) {
+  const text = String(message || "").trim();
+  if (!text || playerInput.disabled) {
+    return;
+  }
+
+  const labels = channelMeta();
+  appendCard(`[${labels.player}] VOCE: ${text}`, "player");
+  setChatBusy(true);
+  createLoadingCard("Consultando o provider...");
+
+  try {
+    const reply = await callChannelApi(text);
+    const prefix = channelMeta().reply;
+    const parsedNpc = parseNpcReply(reply);
+    if (parsedNpc.isNpc) {
+      try {
+        const npcAsset = await fetchNpcAsset(parsedNpc.name, parsedNpc.gender);
+        appendCard(`${parsedNpc.name}: ${parsedNpc.text}`, "system", {
+          npcName: parsedNpc.name,
+          npcTokenUrl: npcAsset.tokenUrl,
+          npcImageUrl: npcAsset.imageUrl,
+        });
+      } catch (assetErr) {
+        console.error(assetErr);
+        appendCard(`${parsedNpc.name}: ${parsedNpc.text}`, "system");
+      }
+    } else {
+      appendCard(`${prefix}: ${reply}`, "system");
+    }
+  } catch (err) {
+    const fallbackPrefix = channelMeta().reply;
+    appendCard(`${fallbackPrefix}: ${extractFriendlyError(err)}`, "private");
+    console.error(err);
+  } finally {
+    removeLoadingCard();
+    setChatBusy(false);
+  }
+
+  playerInput.value = "";
+  playerInput.focus();
+}
+
 function openDrawer(drawer) {
   ALL_DRAWERS.forEach((item) => {
     if (item !== drawer) {
@@ -949,21 +1197,67 @@ function closeDrawer(drawer) {
   }
 }
 
-function updateMestreButton() {
-  const active = activeChannel === "mestre";
-  btnNarrador.classList.toggle("is-active", active);
-  if (active) {
-    btnNarrador.textContent = "Mestre (ON)";
-    chatModeLabel.textContent = "Canal atual: Mestre off-game";
-    playerInput.placeholder = "Fale com o Mestre (off-game): duvidas, canon, ajustes...";
-  } else {
-    btnNarrador.textContent = "Mestre";
-    chatModeLabel.textContent = "Canal atual: Narracao principal";
-    playerInput.placeholder = "Digite sua acao...";
-  }
+function setActiveChannel(channel) {
+  activeChannel = CHANNEL_ENDPOINTS[channel] ? channel : "narracao";
+  channelButtons.forEach((button) => {
+    const isActive = button.dataset.channel === activeChannel;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", isActive ? "true" : "false");
+  });
+  chatModeLabel.textContent = `Canal atual: ${channelMeta().name}`;
+  updateFeedVisibility(activeChannel);
+  setChatBusy(playerInput.disabled);
+}
 
-  narrationFeed.classList.toggle("is-hidden", active);
-  narratorFeed.classList.toggle("is-hidden", !active);
+async function fetchApiHealth() {
+  const response = await fetch(`${API_BASE}/api/health`, { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error(`Health check failed: ${response.status}`);
+  }
+  return response.json();
+}
+
+function showApiStatus(message, isError = true) {
+  if (!message) {
+    apiStatusBanner.classList.add("is-hidden");
+    apiStatusBanner.textContent = "";
+    return;
+  }
+  apiStatusBanner.textContent = message;
+  apiStatusBanner.classList.toggle("api-status-error", isError);
+  apiStatusBanner.classList.remove("is-hidden");
+}
+
+function apiHasFeature(feature) {
+  return Array.isArray(apiHealth?.features) && apiHealth.features.includes(feature);
+}
+
+async function bootstrapApi() {
+  try {
+    apiHealth = await fetchApiHealth();
+    const missing = ["brief", "session-commands", "npcs"].filter(
+      (feature) => !apiHasFeature(feature),
+    );
+    if (missing.length > 0) {
+      showApiStatus(
+        `API desatualizada (faltam: ${missing.join(", ")}). Reinicie: python scripts/narracao_api.py`,
+      );
+      sessionCommandsData = SESSION_COMMANDS_FALLBACK;
+      renderCommandsSubmenu(sessionCommandsData.quick);
+      return;
+    }
+    showApiStatus("");
+    await Promise.all([refreshBrief(), ensureNpcCatalogLoaded(), ensureSessionCommandsLoaded()]);
+  } catch (err) {
+    console.error(err);
+    showApiStatus(
+      "Nao foi possivel contactar a API em " +
+        API_BASE +
+        ". Inicie: python scripts/narracao_api.py",
+    );
+    sessionCommandsData = SESSION_COMMANDS_FALLBACK;
+    renderCommandsSubmenu(sessionCommandsData.quick);
+  }
 }
 
 btnFicha.addEventListener("click", async () => {
@@ -980,13 +1274,29 @@ btnJournal.addEventListener("click", async () => {
   openDrawer(journalDrawer);
   journalInput.focus();
 });
-btnNarrador.addEventListener("click", () => {
-  activeChannel = activeChannel === "mestre" ? "narracao" : "mestre";
-  updateMestreButton();
+channelButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    setActiveChannel(button.dataset.channel || "narracao");
+  });
 });
+btnComandos.addEventListener("click", (event) => {
+  event.stopPropagation();
+  const isOpen = !commandsSubmenu.classList.contains("is-hidden");
+  if (!isOpen) {
+    npcSubmenu.classList.add("is-hidden");
+    btnNpcs.setAttribute("aria-expanded", "false");
+  }
+  commandsSubmenu.classList.toggle("is-hidden", isOpen);
+  btnComandos.setAttribute("aria-expanded", isOpen ? "false" : "true");
+});
+
 btnNpcs.addEventListener("click", (event) => {
   event.stopPropagation();
   const isOpen = !npcSubmenu.classList.contains("is-hidden");
+  if (!isOpen) {
+    commandsSubmenu.classList.add("is-hidden");
+    btnComandos.setAttribute("aria-expanded", "false");
+  }
   npcSubmenu.classList.toggle("is-hidden", isOpen);
   btnNpcs.setAttribute("aria-expanded", isOpen ? "false" : "true");
 });
@@ -1007,6 +1317,7 @@ closeFichaBtn.addEventListener("click", () => closeDrawer(fichaDrawer));
 closeJournalBtn.addEventListener("click", () => closeDrawer(journalDrawer));
 closeProposalsBtn.addEventListener("click", () => closeDrawer(proposalsDrawer));
 closeBriefBtn.addEventListener("click", () => closeDrawer(briefDrawer));
+closeCommandsBtn.addEventListener("click", () => closeDrawer(commandsDrawer));
 closeNpcBtn.addEventListener("click", () => closeDrawer(npcDrawer));
 closeAdminBtn.addEventListener("click", () => closeDrawer(adminDrawer));
 
@@ -1015,6 +1326,7 @@ const drawerByKey = {
   journal: journalDrawer,
   proposals: proposalsDrawer,
   brief: briefDrawer,
+  commands: commandsDrawer,
   npcs: npcDrawer,
   admin: adminDrawer,
 };
@@ -1033,6 +1345,10 @@ document.addEventListener("click", (event) => {
   if (!(target instanceof Element)) {
     return;
   }
+  if (!btnComandos.contains(target) && !commandsSubmenu.contains(target)) {
+    commandsSubmenu.classList.add("is-hidden");
+    btnComandos.setAttribute("aria-expanded", "false");
+  }
   if (!btnNpcs.contains(target) && !npcSubmenu.contains(target)) {
     npcSubmenu.classList.add("is-hidden");
     btnNpcs.setAttribute("aria-expanded", "false");
@@ -1048,8 +1364,7 @@ document.addEventListener("keydown", (event) => {
     return;
   }
   ALL_DRAWERS.forEach((drawer) => closeDrawer(drawer));
-  npcSubmenu.classList.add("is-hidden");
-  btnNpcs.setAttribute("aria-expanded", "false");
+  closeAllSubmenus();
 });
 
 approveAllProposalsBtn.addEventListener("click", async () => {
@@ -1094,10 +1409,9 @@ proposalsList.addEventListener("click", async (event) => {
 
 renderJournal();
 fetchPendingProposals().catch((err) => console.error(err));
-updateMestreButton();
+setActiveChannel("narracao");
 ensureCharacterProfileLoaded();
-refreshBrief();
-ensureNpcCatalogLoaded();
+bootstrapApi();
 
 journalForm.addEventListener("submit", async (event) => {
   event.preventDefault();
@@ -1150,42 +1464,6 @@ chatForm.addEventListener("submit", async (event) => {
   if (!message) {
     return;
   }
-
-  const channelLabel = activeChannel === "mestre" ? "MESTRE" : "HISTORIA";
-  appendCard(`[${channelLabel}] VOCE: ${message}`, "player");
-  setChatBusy(true);
-  createLoadingCard("Consultando o provider...");
-
-  try {
-    const reply = await callChannelApi(message);
-    const prefix =
-      activeChannel === "mestre" ? "MESTRE (OFF-GAME)" : "NARRADOR";
-    const parsedNpc = parseNpcReply(reply);
-    if (parsedNpc.isNpc) {
-      try {
-        const npcAsset = await fetchNpcAsset(parsedNpc.name, parsedNpc.gender);
-        appendCard(`${parsedNpc.name}: ${parsedNpc.text}`, "system", {
-          npcName: parsedNpc.name,
-          npcTokenUrl: npcAsset.tokenUrl,
-          npcImageUrl: npcAsset.imageUrl,
-        });
-      } catch (assetErr) {
-        console.error(assetErr);
-        appendCard(`${parsedNpc.name}: ${parsedNpc.text}`, "system");
-      }
-    } else {
-      appendCard(`${prefix}: ${reply}`, "system");
-    }
-  } catch (err) {
-    const fallbackPrefix =
-      activeChannel === "mestre" ? "MESTRE (OFF-GAME)" : "NARRADOR";
-    appendCard(`${fallbackPrefix}: ${extractFriendlyError(err)}`, "private");
-    console.error(err);
-  } finally {
-    removeLoadingCard();
-    setChatBusy(false);
-  }
-
   playerInput.value = "";
-  playerInput.focus();
+  await sendPlayerMessage(message);
 });
