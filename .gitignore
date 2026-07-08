@@ -22,3 +22,20 @@ scripts/__pycache__/
 
 # Configuração local do editor
 .vscode/
+
+# Dados locais do motor (SQLite + índice FAISS)
+data/
+
+# Sessões de terminal do harness Cursor (estado local)
+terminals/
+
+# Secrets de deploy (manter deploy/.env.example versionável)
+deploy/.env
+
+# Artefatos temporários gerados por testes
+tests/tmp_e2e_data/
+tests/tmp_journal/
+
+# WAL/SHM de SQLite (sempre locais)
+*.db-wal
+*.db-shm
