@@ -163,6 +163,103 @@ def test_compact_content_truncates_large_files(repo_root: Path) -> None:
     assert "truncado" in compact
 
 
+def test_select_context_files_summary_command_loads_summary_docs() -> None:
+    paths = engine.select_context_files(
+        "[Finalizar sessão e gerar resumo]",
+        session_intent="summary",
+    )
+    rel = {p.relative_to(engine.REPO_ROOT).as_posix() for p in paths}
+    assert "logs/sessao_resumo_template.md" in rel
+    assert "sistema/diretrizes_ia.md" in rel
+
+
+def test_build_prompt_summary_command_uses_structured_format() -> None:
+    paths = engine.select_context_files(
+        "[Finalizar sessão e gerar resumo]",
+        session_intent="summary",
+        provider="ollama",
+    )
+    prompt = engine.build_prompt(
+        "[Finalizar sessão e gerar resumo]",
+        paths,
+        mode="narrador",
+        provider="ollama",
+        session_intent="summary",
+        history=[{"role": "user", "content": "Ryan infiltra a torre Raffen"}],
+        max_prompt_chars=8000,
+    )
+    assert "COMANDO DE RESUMO DE SESSAO" in prompt
+    assert "PROIBIDO: narrar cenas" in prompt
+    assert "Ryan infiltra a torre Raffen" in prompt
+    assert "sessao_resumo_007.md" in prompt
+
+
+def test_sanitize_narracao_reply_strips_repeated_sentences() -> None:
+    previous = (
+        "Voce se aproxima da destilaria. Elias esta trabalhando em uma das maquinas. "
+        "Tomas ainda nao foi encontrado."
+    )
+    raw = (
+        "Voce se aproxima da destilaria. Elias esta trabalhando em uma das maquinas. "
+        "Um barulho metalico vem da oficina ao norte."
+    )
+    cleaned = engine.sanitize_ollama_reply(
+        raw,
+        channel="narracao",
+        history=[{"role": "assistant", "content": f"NARRADOR: {previous}"}],
+    )
+    assert "barulho metalico" in cleaned
+    assert "Elias esta trabalhando" not in cleaned
+
+
+def test_sanitize_narracao_reply_strips_aqui_esta_uma_pergunta() -> None:
+    raw = "Tomas some na oficina. Aqui esta uma pergunta: O que voce faz em seguida?"
+    cleaned = engine.sanitize_ollama_reply(raw, channel="narracao")
+    assert "Aqui esta uma pergunta" not in cleaned
+
+
+def test_build_prompt_narracao_uses_parsed_player_message() -> None:
+    paths = engine.select_context_files("Observo o pack.", provider="ollama")
+    message = 'Encosto na cerca.\n_ A manha esta lenta. *Falo baixo*'
+    prompt = engine.build_prompt(
+        message,
+        paths,
+        mode="narrador",
+        provider="ollama",
+        channel="narracao",
+        max_prompt_chars=8000,
+    )
+    assert "Entrada do jogador AGORA (parseada)" in prompt
+    assert "### Falas" in prompt
+    assert "manha esta lenta" in prompt.lower()
+
+
+def test_sanitize_narracao_reply_strips_option_menus() -> None:
+    raw = (
+        "Ryan trabalha nos planos. Voce pode: A) Incluir aquecimento B) Priorizar estufa. "
+        "O que voce fara?"
+    )
+    cleaned = engine.sanitize_ollama_reply(raw, channel="narracao")
+    assert "Voce pode" not in cleaned
+    assert "A)" not in cleaned
+
+
+def test_build_prompt_narracao_includes_conversation_history() -> None:
+    paths = engine.select_context_files("Continuo fumando no muro.", provider="ollama")
+    prompt = engine.build_prompt(
+        "Continuo fumando no muro.",
+        paths,
+        mode="narrador",
+        provider="ollama",
+        channel="narracao",
+        history=[{"role": "user", "content": "[HISTORIA] VOCE: encostado na parede"}],
+        max_prompt_chars=8000,
+    )
+    assert "Historico da conversa" in prompt
+    assert "encostado na parede" in prompt
+    assert "CONTINUIDADE" in prompt or "continuidade" in prompt.lower()
+
+
 def test_resolve_paths_skips_template_files() -> None:
     paths = engine.resolve_paths(
         [

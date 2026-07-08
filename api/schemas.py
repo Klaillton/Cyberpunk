@@ -3,9 +3,15 @@ from __future__ import annotations
 from pydantic import BaseModel, Field
 
 
+class ChatHistoryEntry(BaseModel):
+    role: str
+    content: str
+
+
 class MessageRequest(BaseModel):
     message: str = ""
     mode: str | None = None
+    history: list[ChatHistoryEntry] | None = None
 
 
 class MessageResponse(BaseModel):

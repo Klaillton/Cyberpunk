@@ -95,7 +95,26 @@ body {
 .side-actions {
   margin-top: 0.75rem;
   display: grid;
-  gap: 0.5rem;
+  gap: 0.35rem;
+}
+
+.menu-section {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.menu-section + .menu-section {
+  margin-top: 0.2rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid rgba(95, 230, 210, 0.14);
+}
+
+.menu-section-label {
+  margin: 0;
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 .mode-btn {
@@ -139,18 +158,17 @@ body {
   font-size: 0.86rem;
 }
 
-.story-brief {
-  margin-top: 0.75rem;
+.brief-sidebar {
   display: grid;
-  gap: 0.55rem;
+  gap: 0.4rem;
 }
 
 .brief-btn {
   width: 100%;
   text-align: left;
   border: 1px solid rgba(95, 230, 210, 0.32);
-  border-radius: 12px;
-  padding: 0.72rem 0.8rem;
+  border-radius: 10px;
+  padding: 0.55rem 0.65rem;
   background: rgba(8, 13, 24, 0.68);
   color: var(--text);
   cursor: pointer;
@@ -170,17 +188,21 @@ body {
 
 .brief-btn-title {
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.74rem;
   color: var(--accent);
   font-family: "Orbitron", "Segoe UI", sans-serif;
+  line-height: 1.3;
 }
 
 .brief-btn-teaser {
-  display: block;
-  margin-top: 0.38rem;
-  color: var(--text);
-  font-size: 0.9rem;
-  line-height: 1.42;
+  display: -webkit-box;
+  margin-top: 0.28rem;
+  color: var(--muted);
+  font-size: 0.74rem;
+  line-height: 1.35;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .menu-group {
@@ -229,6 +251,14 @@ body {
   font-family: "Orbitron", "Segoe UI", sans-serif;
   font-size: 0.78rem;
   letter-spacing: 0.04em;
+}
+
+.submenu-back {
+  color: var(--muted);
+  border-bottom: 1px solid rgba(95, 230, 210, 0.14);
+  margin-bottom: 0.15rem;
+  padding-bottom: 0.45rem;
+  font-size: 0.82rem;
 }
 
 .submenu-empty {
@@ -474,6 +504,17 @@ h1 {
   line-height: 1.45;
 }
 
+.narration-card .narration-prefix {
+  margin-bottom: 0.55rem;
+  color: var(--accent);
+  font-family: "Orbitron", "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+}
+
+.narration-card .session-summary {
+  line-height: 1.5;
+}
+
 .narration-card.loading {
   display: flex;
   align-items: center;
@@ -543,19 +584,24 @@ h1 {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 0.55rem;
+  align-items: end;
 }
 
-.chat-form input {
+.chat-form textarea {
   width: 100%;
+  min-height: 3.1rem;
+  max-height: 10rem;
+  resize: none;
   border: 1px solid rgba(95, 230, 210, 0.35);
   border-radius: 12px;
   padding: 0.9rem 0.95rem;
   background: rgba(11, 20, 33, 0.88);
   color: var(--text);
   font: inherit;
+  line-height: 1.45;
 }
 
-.chat-form input:focus {
+.chat-form textarea:focus {
   outline: 2px solid rgba(46, 217, 169, 0.55);
   outline-offset: 1px;
 }
@@ -585,9 +631,37 @@ h1 {
 }
 
 .chat-form button:disabled,
-.chat-form input:disabled {
+.chat-form textarea:disabled {
   cursor: progress;
   opacity: 0.78;
+}
+
+.narration-card .narration-body {
+  margin-top: 0.15rem;
+}
+
+.narration-card.player .player-message-parsed {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.narration-card.player .player-action {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.narration-card.player .player-speech {
+  margin: 0;
+  padding-left: 0.65rem;
+  border-left: 2px solid rgba(255, 111, 97, 0.55);
+  color: #ffd8cf;
+  font-style: italic;
+}
+
+.narration-card.player .player-beat {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
 }
 
 .sr-only {
@@ -877,9 +951,20 @@ h1 {
 
 .command-description {
   margin: 0.4rem 0 0;
-  color: var(--muted);
+  color: var(--text);
   font-size: 0.84rem;
   line-height: 1.4;
+}
+
+.command-behavior {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+.command-source {
+  margin: 0.35rem 0 0;
 }
 
 .command-preview {
@@ -1008,11 +1093,21 @@ h1 {
 
   .side-actions {
     margin-top: 0;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
   }
 
-  .menu-group {
+  .menu-section {
     grid-column: 1 / -1;
+  }
+
+  .menu-section-channels .channel-switch {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.35rem;
+  }
+
+  .brief-sidebar {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .npc-card {

@@ -28,7 +28,7 @@ const characterPortrait = document.getElementById("characterPortrait");
 const fichaStatus = document.getElementById("fichaStatus");
 const fichaSections = document.getElementById("fichaSections");
 const fichaRefs = document.getElementById("fichaRefs");
-const storyBrief = document.getElementById("storyBrief");
+const briefSidebar = document.getElementById("briefSidebar");
 const briefDrawer = document.getElementById("briefDrawer");
 const briefDrawerTitle = document.getElementById("briefDrawerTitle");
 const briefDrawerBody = document.getElementById("briefDrawerBody");
@@ -396,6 +396,161 @@ function channelMeta(channel = activeChannel) {
   return CHANNEL_LABELS[channel] || CHANNEL_LABELS.narracao;
 }
 
+function autoResizeTextarea(textarea) {
+  textarea.style.height = "auto";
+  textarea.style.height = `${Math.min(textarea.scrollHeight, 160)}px`;
+}
+
+function bindMultilineSubmit(textarea, onSubmit) {
+  textarea.addEventListener("input", () => autoResizeTextarea(textarea));
+  textarea.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" || event.shiftKey || textarea.disabled) {
+      return;
+    }
+    event.preventDefault();
+    onSubmit();
+  });
+}
+
+function stripPlayerPrefix(text) {
+  return String(text || "")
+    .replace(/^\[(?:HISTORIA|HISTÓRIA)\]\s*VOCE:\s*/i, "")
+    .replace(/^VOCE:\s*/i, "")
+    .trim();
+}
+
+function parsePlayerMessage(raw) {
+  const text = stripPlayerPrefix(raw);
+  const parsed = { actions: [], speeches: [], beats: [] };
+  if (!text) {
+    return parsed;
+  }
+
+  const tagRe = /^\[(ação|acao|fala|beat)\]\s*(.*)$/i;
+  const beatInlineRe = /\*([^*]+)\*/g;
+
+  const classifyLine = (line) => {
+    const stripped = line.trim();
+    if (!stripped) {
+      return;
+    }
+    const tagMatch = stripped.match(tagRe);
+    if (tagMatch) {
+      const kind = tagMatch[1].toLowerCase().replace("á", "a").replace("ã", "a");
+      const content = tagMatch[2].trim().replace(/^"|"$/g, "");
+      if (!content) {
+        return;
+      }
+      if (kind === "acao") {
+        parsed.actions.push(content);
+      } else if (kind === "fala") {
+        parsed.speeches.push(content);
+      } else {
+        parsed.beats.push(content);
+      }
+      return;
+    }
+    if (stripped.startsWith("_")) {
+      const rest = stripped.slice(1).trim();
+      let beatMatch;
+      const beats = [];
+      const re = /\*([^*]+)\*/g;
+      while ((beatMatch = re.exec(rest)) !== null) {
+        beats.push(beatMatch[1].trim());
+      }
+      const speech = rest.replace(/\*[^*]+\*/g, "").trim().replace(/^"|"$/g, "");
+      if (speech) {
+        parsed.speeches.push(speech);
+      }
+      parsed.beats.push(...beats.filter(Boolean));
+      return;
+    }
+    if (/^"[^"]+"$/.test(stripped)) {
+      parsed.speeches.push(stripped.slice(1, -1).trim());
+      return;
+    }
+    if (/^\*[^*]+\*$/.test(stripped)) {
+      parsed.beats.push(stripped.slice(1, -1).trim());
+      return;
+    }
+    const beats = [];
+    let beatMatch;
+    const re = /\*([^*]+)\*/g;
+    while ((beatMatch = re.exec(stripped)) !== null) {
+      beats.push(beatMatch[1].trim());
+    }
+    let remainder = stripped.replace(/\*[^*]+\*/g, "").trim();
+    const quoted = remainder.match(/"([^"]+)"/g);
+    if (quoted) {
+      quoted.forEach((item) => parsed.speeches.push(item.slice(1, -1).trim()));
+      remainder = remainder.replace(/"[^"]+"/g, "").trim();
+    }
+    if (remainder) {
+      parsed.actions.push(remainder);
+    }
+    parsed.beats.push(...beats.filter(Boolean));
+  };
+
+  text.split("\n").forEach(classifyLine);
+  if (
+    parsed.actions.length === 0 &&
+    parsed.speeches.length === 0 &&
+    parsed.beats.length === 0
+  ) {
+    parsed.actions.push(text);
+  }
+  return parsed;
+}
+
+function renderPlayerMessageBody(parsed) {
+  const parts = [];
+  parsed.actions.forEach((item) => {
+    parts.push(`<p class="player-action">${escapeHtml(item)}</p>`);
+  });
+  parsed.speeches.forEach((item) => {
+    parts.push(`<p class="player-speech">"${escapeHtml(item)}"</p>`);
+  });
+  parsed.beats.forEach((item) => {
+    parts.push(`<p class="player-beat"><em>${escapeHtml(item)}</em></p>`);
+  });
+  return parts.join("");
+}
+
+function splitSpeakerPrefix(text) {
+  const raw = String(text || "");
+  const match = raw.match(/^(.+?:)\s*([\s\S]*)$/);
+  if (!match) {
+    return { prefix: "", body: raw };
+  }
+  return { prefix: match[1].trim(), body: match[2].trim() };
+}
+
+function renderSubmenuFallback(submenu, triggerButton, message) {
+  submenu.innerHTML = "";
+  prependSubmenuBack(submenu, triggerButton);
+  const li = document.createElement("li");
+  const span = document.createElement("span");
+  span.className = "submenu-empty";
+  span.textContent = message;
+  li.appendChild(span);
+  submenu.appendChild(li);
+}
+
+function prependSubmenuBack(submenu, triggerButton) {
+  const li = document.createElement("li");
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "submenu-item submenu-back";
+  button.textContent = "← Voltar";
+  button.addEventListener("click", () => {
+    submenu.classList.add("is-hidden");
+    triggerButton.setAttribute("aria-expanded", "false");
+    triggerButton.focus();
+  });
+  li.appendChild(button);
+  submenu.prepend(li);
+}
+
 function appendCard(text, role, options = {}) {
   const targetFeed = activeFeed();
   const card = document.createElement("article");
@@ -418,9 +573,43 @@ function appendCard(text, role, options = {}) {
     card.appendChild(tokenLink);
   }
 
-  const p = document.createElement("p");
-  p.textContent = text;
-  card.appendChild(p);
+  const markdownBody = options.markdownContent || "";
+  if (markdownBody) {
+    const prefix = document.createElement("p");
+    prefix.className = "narration-prefix";
+    prefix.textContent = text;
+    const body = document.createElement("div");
+    body.className = "md-content narration-body";
+    body.innerHTML = renderMarkdown(markdownBody);
+    card.appendChild(prefix);
+    card.appendChild(body);
+  } else if (role === "system" || role === "private") {
+    const { prefix, body } = splitSpeakerPrefix(text);
+    if (prefix) {
+      const prefixEl = document.createElement("p");
+      prefixEl.className = "narration-prefix";
+      prefixEl.textContent = prefix;
+      card.appendChild(prefixEl);
+    }
+    const bodyEl = document.createElement("div");
+    bodyEl.className = "md-content narration-body";
+    bodyEl.innerHTML = renderMarkdown(body || text);
+    card.appendChild(bodyEl);
+  } else {
+    const prefixMatch = text.match(/^(\[[^\]]+\]\s*VOCE:)\s*/i);
+    const bodyText = prefixMatch ? text.slice(prefixMatch[0].length) : text;
+    const parsed = parsePlayerMessage(bodyText);
+    if (prefixMatch) {
+      const prefixEl = document.createElement("p");
+      prefixEl.className = "narration-prefix";
+      prefixEl.textContent = prefixMatch[1];
+      card.appendChild(prefixEl);
+    }
+    const body = document.createElement("div");
+    body.className = "player-message-parsed";
+    body.innerHTML = renderPlayerMessageBody(parsed);
+    card.appendChild(body);
+  }
 
   targetFeed.appendChild(card);
   card.scrollIntoView({ behavior: "smooth", block: "end" });
@@ -482,27 +671,94 @@ function extractFriendlyError(error) {
   return "Nao foi possivel consultar a narracao agora. Tente novamente em instantes.";
 }
 
-async function postChannelMessage(endpoint, message) {
+const SESSION_SUMMARY_MARKERS = [
+  "resumo da sessão",
+  "resumo da sessao",
+  "criar resumo da sessão atual",
+  "criar resumo da sessao atual",
+  "finalizar sessão e gerar resumo",
+  "finalizar sessao e gerar resumo",
+];
+
+function isSessionSummaryCommand(message) {
+  const normalized = String(message || "")
+    .trim()
+    .toLowerCase()
+    .replace(/^\[|\]$/g, "");
+  return SESSION_SUMMARY_MARKERS.some((marker) => normalized.includes(marker));
+}
+
+function feedForChannel(channel) {
+  if (channel === "mestre") {
+    return mestreFeed;
+  }
+  if (channel === "sistema") {
+    return sistemaFeed;
+  }
+  return narrationFeed;
+}
+
+function shouldSkipHistoryCard(text) {
+  const lowered = text.toLowerCase();
+  return (
+    lowered.includes("canal de narracao esta aberto") ||
+    lowered.includes("canal de narração está aberto") ||
+    lowered.includes("consultando o provider")
+  );
+}
+
+function collectChannelHistory(channel, limit = 24) {
+  const feed = feedForChannel(channel);
+  const cards = feed.querySelectorAll(
+    ".narration-card:not(.channel-intro):not(.loading-card)",
+  );
+  const history = [];
+  cards.forEach((card) => {
+    const text = card.textContent?.replace(/\s+/g, " ").trim();
+    if (!text || shouldSkipHistoryCard(text)) {
+      return;
+    }
+    if (text.includes("VOCE:") || text.includes("VOCE ")) {
+      history.push({ role: "user", content: text });
+      return;
+    }
+    history.push({ role: "assistant", content: text });
+  });
+  return history.slice(-limit);
+}
+
+function buildRequestOptions(message) {
+  if (activeChannel === "narracao" || isSessionSummaryCommand(message)) {
+    return { history: collectChannelHistory(activeChannel) };
+  }
+  return {};
+}
+
+async function postChannelMessage(endpoint, message, options = {}) {
+  const payload = {
+    message,
+    mode: activeChannel,
+  };
+  if (options.history?.length) {
+    payload.history = options.history;
+  }
   return fetch(`${API_BASE}${endpoint}`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({
-      message,
-      mode: activeChannel,
-    }),
+    body: JSON.stringify(payload),
   });
 }
 
-async function callChannelApi(message) {
+async function callChannelApi(message, requestOptions = {}) {
   const endpoints = CHANNEL_ENDPOINTS[activeChannel] || CHANNEL_ENDPOINTS.narracao;
   let response = null;
   let endpointUsed = endpoints[0];
 
   for (const endpoint of endpoints) {
     endpointUsed = endpoint;
-    response = await postChannelMessage(endpoint, message);
+    response = await postChannelMessage(endpoint, message, requestOptions);
     if (response.ok || (response.status !== 404 && response.status !== 405)) {
       break;
     }
@@ -834,13 +1090,13 @@ function openBriefDetail(briefItem) {
 }
 
 function renderBriefButtons(briefData) {
-  storyBrief.innerHTML = "";
+  briefSidebar.innerHTML = "";
   const items = Array.isArray(briefData?.briefs) ? briefData.briefs : [];
   if (items.length === 0) {
     const hint = document.createElement("p");
     hint.className = "utility-hint";
-    hint.textContent = "Resumo da campanha indisponivel.";
-    storyBrief.appendChild(hint);
+    hint.textContent = "Resumo indisponivel.";
+    briefSidebar.appendChild(hint);
     return;
   }
 
@@ -849,6 +1105,7 @@ function renderBriefButtons(briefData) {
     button.type = "button";
     button.className = "brief-btn";
     button.dataset.briefId = item.id;
+    button.title = item.teaser || item.title;
 
     const title = document.createElement("span");
     title.className = "brief-btn-title";
@@ -861,7 +1118,7 @@ function renderBriefButtons(briefData) {
     button.appendChild(title);
     button.appendChild(teaser);
     button.addEventListener("click", () => openBriefDetail(item));
-    storyBrief.appendChild(button);
+    briefSidebar.appendChild(button);
   });
 }
 
@@ -872,8 +1129,8 @@ async function refreshBrief() {
     renderOpeningMessage(campaignBrief.opening);
   } catch (err) {
     console.error(err);
-    storyBrief.innerHTML =
-      '<p class="utility-hint">Nao foi possivel carregar o resumo da campanha.</p>';
+    briefSidebar.innerHTML =
+      '<p class="utility-hint">Nao foi possivel carregar o resumo.</p>';
   }
 }
 
@@ -887,6 +1144,7 @@ async function fetchNpcCatalog() {
 
 function renderNpcSubmenu(npcs) {
   npcSubmenu.innerHTML = "";
+  prependSubmenuBack(npcSubmenu, btnNpcs);
   const featured = npcs.filter((npc) => npc.featured).slice(0, 6);
   const list = featured.length > 0 ? featured : npcs.slice(0, 6);
   list.forEach((npc) => {
@@ -1006,8 +1264,7 @@ async function ensureNpcCatalogLoaded() {
     renderNpcSubmenu(npcCatalogData);
   } catch (err) {
     console.error(err);
-    npcSubmenu.innerHTML =
-      '<li><span class="submenu-empty">NPCs indisponiveis</span></li>';
+    renderSubmenuFallback(npcSubmenu, btnNpcs, "NPCs indisponiveis");
   }
 }
 
@@ -1038,6 +1295,20 @@ function buildCommandCard(command) {
   description.className = "command-description";
   description.textContent = command.description || "";
   card.appendChild(description);
+
+  if (command.behavior) {
+    const behavior = document.createElement("p");
+    behavior.className = "command-behavior";
+    behavior.textContent = command.behavior;
+    card.appendChild(behavior);
+  }
+
+  if (command.source) {
+    const source = document.createElement("p");
+    source.className = "command-source utility-hint";
+    source.textContent = `Fonte: ${command.source}`;
+    card.appendChild(source);
+  }
 
   const preview = document.createElement("code");
   preview.className = "command-preview";
@@ -1084,6 +1355,7 @@ function renderCommandsCatalog(data) {
 
 function renderCommandsSubmenu(quickCommands) {
   commandsSubmenu.innerHTML = "";
+  prependSubmenuBack(commandsSubmenu, btnComandos);
   const items = Array.isArray(quickCommands) ? quickCommands : [];
   items.forEach((command) => {
     const li = document.createElement("li");
@@ -1141,28 +1413,32 @@ async function sendPlayerMessage(message) {
   }
 
   const labels = channelMeta();
+  const requestOptions = buildRequestOptions(text);
   appendCard(`[${labels.player}] VOCE: ${text}`, "player");
   setChatBusy(true);
   createLoadingCard("Consultando o provider...");
 
   try {
-    const reply = await callChannelApi(text);
+    const reply = await callChannelApi(text, requestOptions);
     const prefix = channelMeta().reply;
     const parsedNpc = parseNpcReply(reply);
     if (parsedNpc.isNpc) {
       try {
         const npcAsset = await fetchNpcAsset(parsedNpc.name, parsedNpc.gender);
-        appendCard(`${parsedNpc.name}: ${parsedNpc.text}`, "system", {
+        appendCard(`${parsedNpc.name}:`, "system", {
+          markdownContent: parsedNpc.text,
           npcName: parsedNpc.name,
           npcTokenUrl: npcAsset.tokenUrl,
           npcImageUrl: npcAsset.imageUrl,
         });
       } catch (assetErr) {
         console.error(assetErr);
-        appendCard(`${parsedNpc.name}: ${parsedNpc.text}`, "system");
+        appendCard(`${parsedNpc.name}:`, "system", {
+          markdownContent: parsedNpc.text,
+        });
       }
     } else {
-      appendCard(`${prefix}: ${reply}`, "system");
+      appendCard(`${prefix}:`, "system", { markdownContent: reply });
     }
   } catch (err) {
     const fallbackPrefix = channelMeta().reply;
@@ -1458,6 +1734,12 @@ journalList.addEventListener("click", async (event) => {
   }
 });
 
+bindMultilineSubmit(playerInput, () => {
+  if (!playerInput.disabled) {
+    chatForm.requestSubmit();
+  }
+});
+
 chatForm.addEventListener("submit", async (event) => {
   event.preventDefault();
   const message = playerInput.value.trim();
@@ -1465,5 +1747,14 @@ chatForm.addEventListener("submit", async (event) => {
     return;
   }
   playerInput.value = "";
+  autoResizeTextarea(playerInput);
   await sendPlayerMessage(message);
 });
+
+bindMultilineSubmit(journalInput, () => {
+  if (!journalInput.disabled) {
+    journalForm.requestSubmit();
+  }
+});
+
+autoResizeTextarea(playerInput);

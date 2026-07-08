@@ -28,6 +28,13 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
 from motor.markdown.campaign_paths import is_template_path
+from motor.player_message import format_player_message_for_prompt, parse_player_message
+from motor.session_command_handler import (
+    format_history_block,
+    is_finalize_summary_command,
+    next_session_log_rel,
+    session_summary_context_paths,
+)
 SYSTEM_DIR = REPO_ROOT / "sistema"
 CHAT_DIR = REPO_ROOT / ".chat-engine"
 SESSIONS_DIR = CHAT_DIR / "sessions"
@@ -192,10 +199,15 @@ def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
-def resolve_paths(rel_paths: list[str]) -> list[Path]:
+SUMMARY_CONTEXT_TEMPLATES = frozenset({"logs/sessao_resumo_template.md"})
+
+
+def resolve_paths(rel_paths: list[str], *, allow_summary_templates: bool = False) -> list[Path]:
     out: list[Path] = []
     for rel in rel_paths:
-        if is_template_path(rel):
+        if is_template_path(rel) and not (
+            allow_summary_templates and rel.replace("\\", "/") in SUMMARY_CONTEXT_TEMPLATES
+        ):
             continue
         p = REPO_ROOT / rel
         if p.exists() and p.is_file():
@@ -234,13 +246,23 @@ def select_context_files(
     *,
     provider: str | None = None,
     channel: str | None = None,
+    session_intent: str | None = None,
 ) -> list[Path]:
     effective_max = max_files
     if provider == "ollama" and max_files == 10:
-        if channel in {"mestre", "sistema"}:
+        if session_intent == "summary":
+            effective_max = 6
+        elif channel in {"mestre", "sistema"}:
             effective_max = 5
         else:
             effective_max = DEFAULT_OLLAMA_MAX_CONTEXT_FILES
+
+    if session_intent == "summary":
+        selected = set(session_summary_context_paths())
+        paths = resolve_paths(sorted(selected), allow_summary_templates=True)
+        if provider == "ollama":
+            paths = prioritize_paths_for_ollama(paths, channel="gestor")
+        return paths[:effective_max]
 
     if channel == "sistema":
         selected = set(SISTEMA_BASE_CONTEXT)
@@ -342,13 +364,107 @@ def _ollama_channel_hint(channel: str) -> str:
             "Sem narrar cena."
         )
     return (
-        "Canal NARRACAO PRINCIPAL: narre em 1-2 paragrafos curtos a consequencia da acao do jogador. "
-        "No maximo UMA pergunta ao jogador no final. Nao repita o que o jogador ja descreveu."
+        "Canal NARRACAO PRINCIPAL: 1-2 paragrafos curtos com a CONSEQUENCIA imediata da ultima acao. "
+        "CONTINUIDADE OBRIGATORIA: mantenha local, postura e NPCs presentes do historico; "
+        "nao teleporte Ryan (ex: de parede do acampamento para dentro da tenda) sem ele se mover. "
+        "Nao reabra narrando de novo o que o jogador acabou de fazer. "
+        "Se o jogador JA executou a acao, narre o que acontece em seguida — nao ofereca menu de opcoes. "
+        "Falas entre aspas do jogador JA foram ditas — reaja com NPCs/ambiente, sem repetir a frase. "
+        "ANTI-REPETICAO: nao copie paragrafos da sua resposta anterior no historico; traga fato NOVO (Tomas visto, som, cheiro, interrupcao). "
+        "Se Tomas ainda nao apareceu, descreva ONDE Ryan procura agora — nao repita Elias/Mara como no turno anterior. "
+        "Maximo 2 paragrafos curtos (4-6 frases). UMA pergunta aberta no final, sem prefixo 'Aqui esta uma pergunta'. "
+        "PROIBIDO: A/B/C, listas numeradas, 'Voce pode', 'Qual e sua prioridade', ecoar a acao do jogador."
     )
 
 
-def sanitize_ollama_reply(text: str, channel: str = "narracao") -> str:
+def _last_narrator_text(history: list[dict] | None) -> str:
+    if not history:
+        return ""
+    for entry in reversed(history):
+        if str(entry.get("role", "")).lower() != "assistant":
+            continue
+        content = str(entry.get("content", "")).strip()
+        if content:
+            return content
+    return ""
+
+
+def _dedupe_sentences_against_previous(text: str, previous: str) -> str:
+    if not previous.strip():
+        return text
+    prev = re.sub(r"\s+", " ", previous.lower())
+    sentences = re.split(r"(?<=[.!?])\s+", text.strip())
+    kept: list[str] = []
+    for sentence in sentences:
+        part = sentence.strip()
+        if not part:
+            continue
+        norm = re.sub(r"\s+", " ", part.lower())
+        if len(norm) >= 24 and (norm in prev or norm[:50] in prev):
+            continue
+        kept.append(part)
+    return " ".join(kept).strip() if kept else text.strip()
+
+
+def _sanitize_narracao_reply(text: str, *, previous: str = "") -> str:
     cleaned = text.strip()
+    cleaned = re.sub(
+        r"(?:Aqui está uma pergunta|Aqui esta uma pergunta)\s*:?\s*",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = _dedupe_sentences_against_previous(cleaned, previous)
+    cleaned = re.sub(r"^\s*[A-D]\)\s+.*$", "", cleaned, flags=re.MULTILINE)
+    cleaned = re.sub(r"^\s*\d+\s*[-.)]\s+.*$", "", cleaned, flags=re.MULTILINE)
+    cleaned = re.sub(
+        r"(?:Você pode|Voce pode|Você tem as seguintes opções|Voce tem as seguintes opcoes):.*$",
+        "",
+        cleaned,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    cleaned = re.sub(
+        r"(?:Qual é a sua prioridade|Qual e a sua prioridade|O que você fará|O que voce fara)\??.*$",
+        "",
+        cleaned,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    cleaned = re.sub(
+        r"Escolha uma op[cç][aã]o.*$",
+        "",
+        cleaned,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    return cleaned.strip()
+
+
+def _sanitize_summary_reply(text: str) -> str:
+    cleaned = text.strip()
+    cleaned = re.sub(r"(?<!\n)(#{1,3} )", r"\n\n\1", cleaned)
+    cleaned = re.sub(r"^\n+", "", cleaned)
+    cleaned = re.sub(r"^\s*\d+\s*[-.)]\s+.*$", "", cleaned, flags=re.MULTILINE)
+    cleaned = re.sub(r"O que você (?:faz|deseja fazer)\??.*$", "", cleaned, flags=re.IGNORECASE | re.DOTALL)
+    cleaned = re.sub(r"O que voce (?:faz|deseja fazer)\??.*$", "", cleaned, flags=re.IGNORECASE | re.DOTALL)
+    cleaned = re.sub(r"Você pode:.*$", "", cleaned, flags=re.IGNORECASE | re.DOTALL)
+    cleaned = re.sub(r"Voce pode:.*$", "", cleaned, flags=re.IGNORECASE | re.DOTALL)
+    cleaned = re.sub(r"Escolha uma op[cç][aã]o.*$", "", cleaned, flags=re.IGNORECASE | re.DOTALL)
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    return cleaned.strip()
+
+
+def sanitize_ollama_reply(
+    text: str,
+    channel: str = "narracao",
+    *,
+    session_intent: str | None = None,
+    history: list[dict] | None = None,
+) -> str:
+    if session_intent == "summary":
+        return _sanitize_summary_reply(text)
+    cleaned = text.strip()
+    if channel == "narracao":
+        cleaned = _sanitize_narracao_reply(cleaned, previous=_last_narrator_text(history))
     cleaned = re.sub(
         r"\([^)]*(?:respondid[ao]|anteriormente|remova|relevante|jogador|turno|instruc)[^)]*\)",
         "",
@@ -502,6 +618,65 @@ def _build_ollama_context_blocks(
     return blocks
 
 
+def _build_session_summary_prompt(
+    user_message: str,
+    context_paths: list[Path],
+    *,
+    max_prompt_chars: int,
+    history: list[dict] | None = None,
+) -> str:
+    target_log = next_session_log_rel()
+    finalize = is_finalize_summary_command(user_message)
+    opener = "✅ Sessão Finalizada" if finalize else "Resumo da sessão"
+    history_block = format_history_block(history)
+
+    header_parts = [
+        "Voce recebeu um COMANDO DE RESUMO DE SESSAO. Isso NAO e acao in-game.",
+        "PROIBIDO: narrar cenas, descrever ambiente, menus numerados, perguntar o que Ryan faz.",
+        "O historico do chat abaixo e a fonte principal dos eventos desta sessao.",
+        "",
+        "## Tarefa",
+        f"Gere um resumo estruturado da sessao atual e proponha salvar em `{target_log}`.",
+        "Use o template em logs/sessao_resumo_template.md e o tom do ultimo resumo em logs/ (se houver no contexto).",
+        "Inclua a secao **Arquivos Atualizados Nesta Sessão** com paths concretos.",
+        "Em **Decisões Importantes**: APENAS acoes que o jogador declarou explicitamente (linhas VOCE no historico).",
+        "Se uma decisao nao foi tomada no historico, coloque em Pendências — nao invente.",
+        "Use quebras de linha entre secoes (linha em branco antes de cada ##).",
+        "Nunca diga que salvou o arquivo; apenas pergunte se o jogador confirma o salvamento.",
+        "",
+        "## Formato obrigatorio da resposta",
+        f"1. Primeira linha: `{opener}`",
+        "2. Titulo: `Resumo da Sessão — [tema curto] ([data])`",
+        "3. Secoes com bullets: Eventos Principais; Mudanças de Estado (Relacionamentos, Reputação/Heat/Economia, Consequências);",
+        "   Decisões Importantes do Jogador; Pendências / Ganchos; Arquivos que Precisam de Atualização (lista com paths).",
+        f"4. Ultima linha: pergunta se deseja salvar como `{target_log}`.",
+        "",
+        "## Comando do jogador",
+        user_message,
+        "",
+        "## Historico da conversa",
+        history_block,
+        "",
+        "## Contexto de arquivos",
+    ]
+    header = "\n".join(header_parts)
+    safety_margin = 64
+    context_budget = max(max_prompt_chars - len(header) - safety_margin, 1200)
+    context_blocks = _build_ollama_context_blocks(
+        context_paths,
+        context_budget,
+        channel="gestor",
+    )
+    prompt = header
+    if context_blocks:
+        prompt = f"{header}\n\n" + "\n\n".join(context_blocks)
+    if len(prompt) > max_prompt_chars:
+        suffix = "\n\n[...prompt truncado...]\n"
+        keep = max(max_prompt_chars - len(suffix), 0)
+        prompt = prompt[:keep] + suffix
+    return prompt
+
+
 def _build_ollama_prompt(
     user_message: str,
     context_paths: list[Path],
@@ -509,7 +684,16 @@ def _build_ollama_prompt(
     *,
     max_prompt_chars: int,
     channel: str = "narracao",
+    session_intent: str | None = None,
+    history: list[dict] | None = None,
 ) -> str:
+    if session_intent == "summary":
+        return _build_session_summary_prompt(
+            user_message,
+            context_paths,
+            max_prompt_chars=max_prompt_chars,
+            history=history,
+        )
     if channel == "sistema":
         header_parts = [
             "Voce e o assistente do canal SISTEMA (meta-tecnico).",
@@ -574,22 +758,43 @@ def _build_ollama_prompt(
             "## Contexto",
         ]
     else:
+        history_block = format_history_block(history, max_chars=3500) if history else ""
+        player_block = format_player_message_for_prompt(parse_player_message(user_message))
         header_parts = [
             "Voce e o narrador de uma campanha Cyberpunk RED solo.",
             "",
             "## Regras",
-            "- Use apenas fatos presentes no contexto abaixo. Nao invente NPCs, locais, eventos ou consequencias.",
+            "- Use apenas fatos presentes no contexto e no historico abaixo. Nao invente NPCs, locais ou consequencias.",
+            "- O HISTORICO DA CONVERSA define a cena ATUAL (local, quem esta presente, o que ja aconteceu).",
+            "- Convencao do jogador: prosa = acao; _ ou [Fala] ou \"aspas\" = fala; *asteriscos* = beat/gesto.",
+            "- Acoes e falas listadas abaixo JA ocorreram. Narre somente consequencias NOVAS.",
+            "- Nao repita paragrafos da sua ultima resposta no historico (ex: nao re-descrever Elias na destilaria se ja foi dito).",
             "- Nao cite caminhos de arquivos, JSON, blocos UPDATE_PROPOSALS nem meta-comentarios sobre o prompt.",
             "- Nao descreva alteracoes em arquivos da campanha; apenas narre ou responda.",
             "- Responda somente com o texto final para o jogador, sem rascunhos nem auto-correcoes.",
             f"- {_ollama_channel_hint(channel)}",
             f"- {_ollama_mode_hint(mode)}",
-            "",
-            "## Pergunta do jogador",
-            user_message,
-            "",
-            "## Contexto",
         ]
+        if history_block:
+            header_parts.extend(
+                [
+                    "",
+                    "## Historico da conversa (cena atual — manter continuidade)",
+                    history_block,
+                    "",
+                    "## Ultima resposta do Narrador (NAO repetir — avance a cena)",
+                    _last_narrator_text(history) or "(primeira resposta da cena)",
+                ]
+            )
+        header_parts.extend(
+            [
+                "",
+                "## Entrada do jogador AGORA (parseada)",
+                player_block,
+                "",
+                "## Contexto de arquivos (estado canonico)",
+            ]
+        )
     header = "\n".join(header_parts)
     safety_margin = 64
     context_budget = max(max_prompt_chars - len(header) - safety_margin, 1200)
@@ -615,6 +820,8 @@ def build_prompt(
     provider: str | None = None,
     max_prompt_chars: int | None = None,
     channel: str = "narracao",
+    session_intent: str | None = None,
+    history: list[dict] | None = None,
 ) -> str:
     if provider == "ollama":
         return _build_ollama_prompt(
@@ -623,6 +830,8 @@ def build_prompt(
             mode,
             max_prompt_chars=max_prompt_chars or DEFAULT_OLLAMA_MAX_PROMPT_CHARS,
             channel=channel,
+            session_intent=session_intent,
+            history=history,
         )
 
     if channel == "mestre" or mode == "mestre":

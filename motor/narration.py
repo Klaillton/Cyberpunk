@@ -7,6 +7,7 @@ import urllib.request
 
 import narracao_engine as engine
 
+from motor.session_command_handler import detect_session_intent
 from motor.settings import Settings, get_settings
 
 
@@ -83,14 +84,21 @@ def generate_reply(
     settings: Settings | None = None,
     *,
     channel: str = "narracao",
+    history: list[dict] | None = None,
 ) -> str:
     cfg = settings or get_settings()
     channel = engine.normalize_channel(channel)
+    session_intent = detect_session_intent(message)
     missing = engine.check_integrity()
     if missing:
         return "Nao foi possivel responder porque arquivos obrigatorios estao ausentes."
 
-    context_paths = engine.select_context_files(message, provider=cfg.provider, channel=channel)
+    context_paths = engine.select_context_files(
+        message,
+        provider=cfg.provider,
+        channel=channel,
+        session_intent=session_intent,
+    )
     prompt = engine.build_prompt(
         message,
         context_paths,
@@ -98,21 +106,31 @@ def generate_reply(
         provider=cfg.provider,
         max_prompt_chars=cfg.ollama_max_prompt_chars if cfg.provider == "ollama" else None,
         channel=channel,
+        session_intent=session_intent,
+        history=history,
     )
 
     if cfg.provider == "ollama":
         try:
-            if channel == "sistema":
+            if session_intent == "summary":
+                temp = 0.2
+                num_predict = 1400
+            elif channel == "sistema":
                 temp = 0.15
                 num_predict = 380
             elif channel == "mestre":
                 temp = 0.25
                 num_predict = 320
             else:
-                temp = 0.55
-                num_predict = None
+                temp = 0.38
+                num_predict = 480
             raw = run_ollama(prompt, cfg, temperature=temp, num_predict=num_predict)
-            return engine.sanitize_ollama_reply(raw, channel=channel)
+            return engine.sanitize_ollama_reply(
+                raw,
+                channel=channel,
+                session_intent=session_intent,
+                history=history,
+            )
         except Exception as exc:  # pragma: no cover
             return format_provider_failure(cfg.provider, exc, cfg)
 

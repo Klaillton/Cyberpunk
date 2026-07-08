@@ -31,70 +31,97 @@
           </div>
 
           <nav class="side-actions" aria-label="Acoes">
-            <button type="button" id="btnFicha" class="mode-btn">Ficha</button>
-            <button type="button" id="btnJournal" class="mode-btn">
-              Journal
-            </button>
-            <div class="menu-group">
-              <button
-                type="button"
-                id="btnComandos"
-                class="mode-btn menu-trigger"
-                aria-haspopup="true"
-                aria-expanded="false"
+            <div class="menu-section">
+              <p class="menu-section-label">Campanha</p>
+              <div
+                id="briefSidebar"
+                class="brief-sidebar"
+                aria-label="Resumo e objetivos"
               >
-                Comandos
-              </button>
-              <ul
-                id="commandsSubmenu"
-                class="submenu is-hidden"
-                aria-label="Comandos rapidos da sessao"
-              ></ul>
+                <p class="utility-hint">Carregando resumo...</p>
+              </div>
             </div>
-            <div class="menu-group">
-              <button
-                type="button"
-                id="btnNpcs"
-                class="mode-btn menu-trigger"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                NPCs
+
+            <div class="menu-section">
+              <p class="menu-section-label">Personagem</p>
+              <button type="button" id="btnFicha" class="mode-btn">Ficha</button>
+              <button type="button" id="btnJournal" class="mode-btn">
+                Journal
               </button>
-              <ul id="npcSubmenu" class="submenu is-hidden" aria-label="Lista de NPCs"></ul>
+              <div class="menu-group">
+                <button
+                  type="button"
+                  id="btnNpcs"
+                  class="mode-btn menu-trigger"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  NPCs
+                </button>
+                <ul
+                  id="npcSubmenu"
+                  class="submenu is-hidden"
+                  aria-label="Lista de NPCs"
+                ></ul>
+              </div>
             </div>
-            <button type="button" id="btnAdmin" class="mode-btn mode-btn-muted">
-              Admin
-            </button>
-            <div class="channel-switch" role="group" aria-label="Canais de conversa">
-              <button
-                type="button"
-                id="btnCanalNarracao"
-                class="mode-btn channel-btn is-active"
-                data-channel="narracao"
-              >
-                Narracao
+
+            <div class="menu-section">
+              <p class="menu-section-label">Sessao</p>
+              <div class="menu-group">
+                <button
+                  type="button"
+                  id="btnComandos"
+                  class="mode-btn menu-trigger"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Comandos
+                </button>
+                <ul
+                  id="commandsSubmenu"
+                  class="submenu is-hidden"
+                  aria-label="Comandos rapidos da sessao"
+                ></ul>
+              </div>
+              <button type="button" id="btnAdmin" class="mode-btn mode-btn-muted">
+                Admin
               </button>
-              <button
-                type="button"
-                id="btnCanalMestre"
-                class="mode-btn channel-btn"
-                data-channel="mestre"
-              >
-                Mestre
-              </button>
-              <button
-                type="button"
-                id="btnCanalSistema"
-                class="mode-btn channel-btn"
-                data-channel="sistema"
-              >
-                Sistema
+              <button type="button" id="btnPropostas" class="mode-btn">
+                Propostas
+                <span id="proposalsBadge" class="badge is-hidden">0</span>
               </button>
             </div>
-            <button type="button" id="btnPropostas" class="mode-btn">
-              Propostas <span id="proposalsBadge" class="badge is-hidden">0</span>
-            </button>
+
+            <div class="menu-section menu-section-channels">
+              <p class="menu-section-label">Canais</p>
+              <div class="channel-switch" role="group" aria-label="Canais de conversa">
+                <button
+                  type="button"
+                  id="btnCanalNarracao"
+                  class="mode-btn channel-btn is-active"
+                  data-channel="narracao"
+                >
+                  Narracao
+                </button>
+                <button
+                  type="button"
+                  id="btnCanalMestre"
+                  class="mode-btn channel-btn"
+                  data-channel="mestre"
+                >
+                  Mestre
+                </button>
+                <button
+                  type="button"
+                  id="btnCanalSistema"
+                  class="mode-btn channel-btn"
+                  data-channel="sistema"
+                >
+                  Sistema
+                </button>
+              </div>
+            </div>
           </nav>
         </aside>
 
@@ -102,13 +129,6 @@
           <header class="top-bar">
             <p class="kicker">Solo Campaign Interface</p>
             <h1>NARRACAO AO VIVO</h1>
-            <section
-              id="storyBrief"
-              class="story-brief"
-              aria-label="Resumo e objetivos"
-            >
-              <p class="utility-hint">Carregando resumo da campanha...</p>
-            </section>
             <p id="apiStatusBanner" class="api-status is-hidden" role="status"></p>
             <p id="chatModeLabel" class="mode-label">
               Canal atual: Narracao principal
@@ -215,7 +235,7 @@
               name="journalInput"
               rows="3"
               maxlength="500"
-              placeholder="Digite uma anotacao do journal..."
+              placeholder="Anotacao... (Enter envia, Shift+Enter quebra linha)"
               required
             ></textarea>
             <button type="submit" class="journal-submit">
@@ -398,14 +418,14 @@
     <footer class="chat-footer">
       <form id="chatForm" class="chat-form" autocomplete="off">
         <label for="playerInput" class="sr-only">Digite sua acao</label>
-        <input
+        <textarea
           id="playerInput"
           name="playerInput"
-          type="text"
-          maxlength="500"
-          placeholder="Digite sua acao..."
+          rows="2"
+          maxlength="2000"
+          placeholder="Acao em prosa | _ fala | *gesto* | Enter envia, Shift+Enter nova linha"
           required
-        />
+        ></textarea>
         <button type="submit">Enviar</button>
       </form>
     </footer>

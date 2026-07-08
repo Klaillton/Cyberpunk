@@ -26,7 +26,12 @@ def _process_message(channel: str, body: MessageRequest) -> MessageResponse:
     channel = normalize_channel(channel)
     mode = _MODE_BY_CHANNEL.get(channel, "narrador")
     settings = get_settings()
-    raw_reply = generate_reply(message, mode, channel=channel)
+    history = (
+        [{"role": entry.role, "content": entry.content} for entry in body.history]
+        if body.history
+        else None
+    )
+    raw_reply = generate_reply(message, mode, channel=channel, history=history)
     if settings.update_proposals_enabled and channel == "gestor":
         update_service = UpdateService(settings)
         reply, proposals, _report = update_service.ingest_narrative(raw_reply)
