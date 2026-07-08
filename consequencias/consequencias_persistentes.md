@@ -1,6 +1,6 @@
 # Consequências Persistentes
 
-**Última atualização:** 03 de Julho de 2026 (fim do dia — sessão 007)
+**Última atualização:** 04 de Julho de 2026 (fim da manhã — sessão 008)
 
 ---
 
@@ -156,7 +156,20 @@ Ryan delegou papéis: Mara (ciclo biológico/água), Tomas (mecânica/protótipo
 - Ryan consolidado como arquiteto técnico estratégico do Pack.
 - Núcleo dos recrutas (Mara, Tomas, Elias) com responsabilidades formais no Node.
 
-**Última atualização:** 03 de Julho de 2026 (fim do dia)
+## 04 de Julho de 2026 - Operação Torre de Transmissão Raffen (sessão 008)
+
+Ryan conduziu infiltração solo na **Torre de Transmissão Raffen** (~1h42 de operação noturna). Drones (Hornet, Vesper, Barbed) + Phantom silenciada; Valk extraiu **6 reféns** no Mule. Liderança **Reaper** e todos os “braços” neutralizados. Sabotagem silenciosa de veículos/geradores no acampamento inimigo. Saque parcial: peças de veículos, munição, ferramentas, equipamentos de comunicação. Retorno seguro ao pack; debrief com Reyes ao amanhecer.
+
+Pós-operação: Ryan descomprime com Valk (banho, carinho, humor, intimidade leve).
+
+**Impactos:**
+
+- 6 reféns recuperados (1 ferido, estável) — moral do pack elevado.
+- Ameaça Raffen local na torre eliminada; **vigilância elevada** recomendada (possível heat residual com outros grupos Raffen).
+- Relação Ryan × Valk reforçada (apoio na extração + cuidado mútuo no retorno).
+- Ryan reafirmado como operador Wireghost e consultor tático do pack (Reyes).
+
+**Última atualização:** 04 de Julho de 2026 (fim da manhã)
 
 ---
 
@@ -174,4 +187,4 @@ Ryan delegou papéis: Mara (ciclo biológico/água), Tomas (mecânica/protótipo
 - [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
 - [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Facções](../relacionamentos/faccao_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- [Sessão 006](../logs/sessao_resumo_006.md) · [Última sessão (007)](../logs/sessao_resumo_007.md) · [Downtime](../logs/downtime_ryan.md)
+- [Sessão 007](../logs/sessao_resumo_007.md) · [Última sessão (008)](../logs/sessao_resumo_008.md) · [Downtime](../logs/downtime_ryan.md)

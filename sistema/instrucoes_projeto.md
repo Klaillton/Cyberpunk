@@ -101,7 +101,7 @@ Respeite as datas de "Última verificação" e "Validade sugerida" em `dashboard
 
 **Resumos de sessão**
 
-- Padrão: `logs/sessao_resumo_XXX.md` (verificar último número em `registro_arquivos.md`; próximo: **008**)
+- Padrão: `logs/sessao_resumo_XXX.md` (verificar último número em `registro_arquivos.md`; próximo: **009**)
 - Incluir seção **Arquivos Atualizados Nesta Sessão** com links
 - **Nunca** salvar/commitar/push sem **confirmação explícita** do jogador
 
@@ -135,7 +135,7 @@ Sempre mostre mudanças propostas antes de aplicar. Mantenha `sistema/registro_a
 | Personagens     | `relacionamentos/mapa_relacional_geral.md`                                           |
 | Protagonista    | `fichas/techie - ryan_wireghost_voss.md` + `relacionamentos/ryan_relacionamentos.md` |
 | Pack ativo      | `facoes/pack_badlands.md`                                                            |
-| Histórico       | `logs/sessao_resumo_007.md` (último)                                                 |
+| Histórico       | `logs/sessao_resumo_008.md` (último)                                                 |
 | Como atualizar  | `sistema/como_atualizar_arquivos.md`                                                 |
 
 ---

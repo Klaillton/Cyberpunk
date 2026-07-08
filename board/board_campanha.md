@@ -1,7 +1,7 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** 03 de Julho de 2026 (fim do dia) — próximo dia in-game: **04/07/2026**  
-**Local:** Acampamento do Pack Nômade de Badlands — projeto **Badlands Node v0.1** aprovado
+**Data Atual:** 04 de Julho de 2026 (fim da manhã) — próximo dia in-game: **05/07/2026**  
+**Local:** Acampamento do Pack Nômade de Badlands — tenda de Ryan & Valk (pós-operação)
 
 ---
 
@@ -9,39 +9,36 @@
 
 Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foco atual é:
 
-- Liderar a implementação do **Badlands Node v0.1** (sistema integrado de sobrevivência).
-- Construir o protótipo piloto: módulo **Água + Biodigestor**.
-- Coordenar o núcleo técnico (Mara, Tomas, Elias) com papéis delegados.
-- Gerenciar a ameaça latente da Biotechnica.
-- Equilibrar vida pessoal com Valk e supervisão de Tomas (monitoramento contínuo).
+- **Pós-operação Torre Raffen:** debrief concluído; 6 reféns recuperados; ameaça local neutralizada.
+- **Vigilância elevada** no pack (possível retaliação Raffen residual).
+- Retomar implementação do **Badlands Node v0.1** (protótipo Água + Biodigestor).
+- Coordenar núcleo técnico (Mara, Tomas, Elias).
+- Equilibrar vida pessoal com Valk e monitoramento de Tomas.
 
-**Prioridade atual:** Execução do Badlands Node v0.1 (aprovado por Reyes) — consolidação interna antes de expansão comercial.
+**Prioridade atual:** Segurança do pack + execução do Badlands Node v0.1.
 
 **Projetos em andamento:**
 
-- **Badlands Node v0.1** — aprovado; blueprint refinado; protótipo piloto (Água + Biodigestor) a iniciar.
-- Destilaria — Elias como responsável autônomo (integrada ao Node).
-- Estufa modular — terreno definido; Mara lidera ciclo biológico e água.
-- Tendas modulares com sistemas de banho e climatização — concluídas.
+- **Badlands Node v0.1** — aprovado (03/07); protótipo a iniciar.
+- Destilaria — Elias (autonomia integrada ao Node).
+- Estufa modular — Mara (ciclo biológico/água).
+- Tendas modulares — concluídas.
 
 ---
 
 ## Pistas Confirmadas
 
-- Perímetro defensivo (cerca em estrela + fosso) construído e testado.
-- Sistema de usinagem e forja aprimorado.
-- O **Mule** foi completamente atualizado.
-- Tendas modulares finalizadas.
-- Inventário do depósito: materiais suficientes para protótipo do Node.
-- **Reyes aprovou oficialmente** o Badlands Node v0.1.
+- **Operação Torre Raffen (04/07):** Reaper e braços eliminados; 6 reféns salvos; saque parcial (peças, munição, ferramentas, rádios antigos).
+- Perímetro defensivo, Mule atualizado, materiais para protótipo Node no depósito.
+- Reyes aprovou Badlands Node v0.1 (03/07).
 
 ---
 
 ## Rumores e Suspeitas
 
-- Ryan revelou múltiplas facetas para o Pack (Mecânico habilidoso, Cantor e Operador frio/letal).
-- A Biotechnica pode estar investigando discretamente.
-- Boatos sobre a crew ainda circulam entre alguns fixers.
+- Wireghost reafirmado no pack após operação silenciosa na torre.
+- Possível heat residual com outros grupos Raffen.
+- Biotechnica pode estar investigando discretamente.
 
 ---
 
@@ -49,13 +46,13 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 
 | Nome                 | Papel                  | Relação com Ryan                  | Notas |
 |----------------------|------------------------|-----------------------------------|-------|
-| **Lena "Valk" Kane** | Parceira               | Amor declarado e relação profunda | [ficha](../fichas/techie%20-%20ryan_wireghost_voss.md) |
-| **Reyes** | Líder do Pack | Respeito técnico + confiança estratégica | Aprovou Badlands Node v0.1 · [ficha](../fichas/npc/reyes.md) |
-| **Tio Gringo** | Ferreiro do Pack | Alta estima e colaboração | Validou pré-apresentação do Node · [ficha](../fichas/npc/tio_gringo.md) |
-| **Rusty** | Responsável veículos/garagem | Colaborador técnico | Alinhamento inicial + pré-apresentação do Node |
-| **Mara** | Recruta (Med/Hidro) | Positiva; parceira do Node | Ciclo biológico e água · [ficha](../fichas/npc/mara_recruit.md) |
-| **Elias** | Recruta (Refinaria) | Positiva; autonomia na destilaria | Administração destilaria + excedente econômico · [ficha](../fichas/npc/elias_recruit.md) |
-| **Tomas** | Recruta (Mecânica) | Cautela (monitoramento) | Mecânica e protótipos no Node · [ficha](../fichas/npc/tomas_recruit.md) |
+| **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Extração reféns no Mule (04/07) |
+| **Reyes** | Líder do Pack | Confiança estratégica e operacional | Debrief pós-torre · [ficha](../fichas/npc/reyes.md) |
+| **Tio Gringo** | Ferreiro | Alta estima | Node v0.1 · [ficha](../fichas/npc/tio_gringo.md) |
+| **Rusty** | Garagem/veículos | Colaborador técnico | [ficha implícita no pack] |
+| **Mara** | Recruta (Med/Hidro) | Parceira Node | Água/bio · [ficha](../fichas/npc/mara_recruit.md) |
+| **Elias** | Recruta (Refinaria) | Autonomia destilaria | [ficha](../fichas/npc/elias_recruit.md) |
+| **Tomas** | Recruta (Mecânica) | Monitoramento | Mecânica Node · [ficha](../fichas/npc/tomas_recruit.md) |
 
 ---
 
@@ -63,13 +60,14 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 
 | Facção          | Status com a Crew    | Nível de Risco | Notas |
 | --------------- | -------------------- | -------------- | --------------------------------- |
-| **Pack Nômade** | Aliado em construção | Baixo          | Badlands Node v0.1 aprovado |
+| **Pack Nômade** | Aliado consolidado   | Baixo          | Moral alto pós-resgate |
+| **Raffen (remanescentes)** | Hostil potencial | Médio | Vigilância elevada |
 | **Biotechnica** | Hostil (latente)     | Médio          | Investigação possível |
 | **Arasaka**     | Hostil (pessoal)     | Baixo          | Ryan evita contato |
 
 ---
 
-**Última atualização:** 03 de Julho de 2026 (sessão 007)
+**Última atualização:** 04 de Julho de 2026 (sessão 008)
 
 ---
 
@@ -81,4 +79,4 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 
 **Facções:** [Pack Badlands](../facoes/pack_badlands.md) · [Facções Gerais](../facoes/faccoes_geral.md) · [Rel. Facções](../relacionamentos/faccao_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 007](../logs/sessao_resumo_007.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 008](../logs/sessao_resumo_008.md)

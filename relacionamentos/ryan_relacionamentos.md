@@ -1,20 +1,20 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 03 de Julho de 2026 (sessão 007)
+**Última atualização:** 04 de Julho de 2026 (sessão 008)
 
 ---
 
 ## MAPA DE RELAÇÕES (Visão Geral)
 
-| Personagem               | Sentimento de Ryan    | Sentimento em relação a Ryan | Intensidade | Status             | Tipo                     |
-| ------------------------ | --------------------- | ---------------------------- | ----------- | ------------------ | ------------------------ |
-| Lena "Valk" Kane         | Afeto + Tensão        | Afeto + Confiança            | Alta        | Estável            | Romântico / Aliada       |
-| Alex "Specter" Kane      | Desconfiança          | Provação / Interesse       | Média       | Observando         | Potencial rival          |
-| Reina "Bearclaw" Morales | Neutro / Cautela      | Proteção (Mãe Urso)          | Média       | Em desenvolvimento | Aliada / Irmã mais velha |
-| Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado           |
+| Personagem               | Sentimento de Ryan    | Sentimento em relação a Ryan | Intensidade | Status             | Tipo                             |
+| ------------------------ | --------------------- | ---------------------------- | ----------- | ------------------ | -------------------------------- |
+| Lena "Valk" Kane         | Afeto + Tensão        | Afeto + Confiança            | Alta        | Estável            | Romântico / Aliada               |
+| Alex "Specter" Kane      | Desconfiança          | Provação / Interesse         | Média       | Observando         | Potencial rival                  |
+| Reina "Bearclaw" Morales | Neutro / Cautela      | Proteção (Mãe Urso)          | Média       | Em desenvolvimento | Aliada / Irmã mais velha         |
+| Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado                   |
 | Dr. Stephania "Doc" Voss | Confiança             | Respeito                     | Média-Alta  | Estável            | Aliada / Médica (sem parentesco) |
-| Jax "Razor" Kane         | Respeito              | Respeito                     | Baixa       | Profissional       | Aliado de crew           |
+| Jax "Razor" Kane         | Respeito              | Respeito                     | Baixa       | Profissional       | Aliado de crew                   |
 
 ---
 
@@ -24,7 +24,7 @@
 
 **Status:** Namorando (relação consolidada e profunda)  
 **Intensidade:** Alta  
-**Última atualização:** 03 de Julho de 2026 (sessão 007)
+**Última atualização:** 04 de Julho de 2026 (sessão 008)
 
 **Evolução conhecida:**
 
@@ -39,6 +39,16 @@
 **Atualização da sessão (03/07 manhã):**
 
 - Ryan permaneceu com Valk dormindo (cafuné leve), abraçou-a, beijou o rosto e saiu da tenda em silêncio para não acordá-la; em seguida foi verificar os novatos no acampamento.
+
+**Atualização da sessão (03/07 noite):**
+
+- Após aprovação do Badlands Node, noite íntima na tenda (música, beijos, abraço; Ryan com episódio breve de desconexão/memória, Valk acolheu).
+
+**Atualização da sessão (04/07):**
+
+- Manhã com Valk no refeitório; Ryan investigou prisioneiro Raffen e planejou a operação na torre.
+- Valk conduziu extração dos reféns no Mule; Ryan eliminou Reaper e braços em solo.
+- Pós-operação: banho, refeição, carinho e humor com Valk na tenda.
 
 **Estado atual:**
 
@@ -134,7 +144,7 @@
 **Status:** Hospedagem + Integração em andamento  
 **Confiança geral com o Pack:** Média-Alta (em crescimento)  
 **Duração prevista:** Indefinida  
-**Última atualização:** 03 de Julho de 2026 (sessão 007)
+**Última atualização:** 04 de Julho de 2026 (sessão 008)
 
 **Líder do Pack:** Reyes
 

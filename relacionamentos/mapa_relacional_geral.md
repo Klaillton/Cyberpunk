@@ -113,4 +113,4 @@ Motor: [pulso_procedimento.md](../sistema/pulso_procedimento.md) · Índice: [pu
 
 **Sistema:** [Registro de Arquivos](../sistema/registro_arquivos.md) · [Dashboard de Contexto](../sistema/dashboard_contexto.md) · [Diretrizes IA](../sistema/diretrizes_ia.md)
 
-**Logs:** [Downtime Ryan](../logs/downtime_ryan.md) · [Última sessão](../logs/sessao_resumo_007.md)
+**Logs:** [Downtime Ryan](../logs/downtime_ryan.md) · [Última sessão](../logs/sessao_resumo_008.md)

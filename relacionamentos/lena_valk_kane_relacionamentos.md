@@ -15,6 +15,8 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **02/07/2026 (noite):** Intimidade prolongada com Ryan na tenda (massagem com óleo laranja + alecrim, conexão profunda, sono abraçados).
 - **03/07/2026 (manhã):** Dormindo na tenda; Ryan saiu em silêncio após cafuné, abraço e beijo no rosto (ela não acordou).
 - **03/07/2026 (dia):** Ryan dedicou o dia ao **Badlands Node v0.1** (apresentação, delegação, blueprint, aprovação por Reyes).
+- **03/07/2026 (noite):** Intimidade na tenda (música, beijos); Ryan com breve desconexão/memória — Valk acolheu.
+- **04/07/2026:** Extração dos 6 reféns no Mule na Torre Raffen; pós-operação com banho, carinho e humor.
 
 ### Alex "Specter" Kane
 

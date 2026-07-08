@@ -1,6 +1,6 @@
 # Fila de Eventos do Mundo (Event Queue)
 
-**Última atualização:** 03 de Julho de 2026
+**Última atualização:** 04 de Julho de 2026
 
 ## Eventos Ativos / Pendentes
 
@@ -12,7 +12,8 @@
 | E004 | Interesse de Alex em Valk                        | Em andamento | Média      | Contínuo         | Pode gerar conflito triangular                             |
 | E005 | Resposta de Kaz após o job contra BT             | Pendente     | Média      | Próximas semanas | Job 001 concluído; ver [job_001_extracao_vossler.md](logs/job_001_extracao_vossler.md) |
 | E006 | Possível retaliação ou abordagem da Biotechnica  | Potencial    | Alta       | Médio prazo      | Ainda não ativado                                          |
-| E007 | Implementação **Badlands Node v0.1** (protótipo Água + Biodigestor) | Em andamento | Alta | Curto prazo | Aprovado por Reyes em 03/07 — ver [sessao_resumo_007](logs/sessao_resumo_007.md) |
+| E007 | Implementação **Badlands Node v0.1** (protótipo Água + Biodigestor) | Em andamento | Alta | Curto prazo | Aprovado 03/07 — ver [sessao_resumo_007](logs/sessao_resumo_007.md) |
+| E008 | Vigilância pós-operação **Torre Raffen** | Em andamento | Alta | 3–7 dias | 6 reféns salvos; heat residual Raffen — ver [sessao_resumo_008](logs/sessao_resumo_008.md) |
 
 ## Eventos Resolvidos (Recentes)
 
