@@ -30,7 +30,7 @@ module.exports = defineConfig({
   webServer: {
     command: `python -m uvicorn api.main:app --host 127.0.0.1 --port ${e2ePort}`,
     url: e2eBaseUrl,
-    reuseExistingServer: false,
+    reuseExistingServer: !process.env.CI,
     timeout: 120000,
     env: {
       NARRACAO_PROVIDER: "none",
