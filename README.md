@@ -94,6 +94,8 @@ O repositório já possui um MVP de orquestração de chat para campanha solo:
 
 Detalhes da arquitetura e evolução: [sistema/arquitetura_narracao_solo.md](sistema/arquitetura_narracao_solo.md).
 
+**Tracking técnico (fases, testes, backlog):** [projeto/status_projeto.md](projeto/status_projeto.md) · [projeto/plano_implementacao_e_testes.md](projeto/plano_implementacao_e_testes.md)
+
 ---
 
 ## Referências

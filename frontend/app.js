@@ -41,6 +41,15 @@ const commandsCatalog = document.getElementById("commandsCatalog");
 const closeCommandsBtn = document.getElementById("closeCommandsBtn");
 const btnNpcs = document.getElementById("btnNpcs");
 const npcSubmenu = document.getElementById("npcSubmenu");
+const btnRouting = document.getElementById("btnRouting");
+const routingDrawer = document.getElementById("routingDrawer");
+const closeRoutingBtn = document.getElementById("closeRoutingBtn");
+const routingPolicyLine = document.getElementById("routingPolicyLine");
+const routingPreviewInput = document.getElementById("routingPreviewInput");
+const routingCloudApproval = document.getElementById("routingCloudApproval");
+const routingPreviewBtn = document.getElementById("routingPreviewBtn");
+const routingPreviewStatus = document.getElementById("routingPreviewStatus");
+const routingPreviewResult = document.getElementById("routingPreviewResult");
 const btnAdmin = document.getElementById("btnAdmin");
 const npcDrawer = document.getElementById("npcDrawer");
 const npcDrawerTitle = document.getElementById("npcDrawerTitle");
@@ -117,10 +126,17 @@ const CHANNEL_LABELS = {
   sistema: { player: "SISTEMA", reply: "SISTEMA", name: "Sistema (meta-tecnico)" },
 };
 
+const ROUTING_PREVIEW_CHANNELS = {
+  narracao: "narracao",
+  mestre: "narrador",
+  sistema: "gestor",
+};
+
 const ALL_DRAWERS = [
   fichaDrawer,
   journalDrawer,
   proposalsDrawer,
+  routingDrawer,
   briefDrawer,
   commandsDrawer,
   npcDrawer,
@@ -611,6 +627,13 @@ function appendCard(text, role, options = {}) {
     card.appendChild(body);
   }
 
+  if (options.qualityMeta) {
+    const metaEl = document.createElement("p");
+    metaEl.className = "turn-quality-meta";
+    metaEl.textContent = options.qualityMeta;
+    card.appendChild(metaEl);
+  }
+
   targetFeed.appendChild(card);
   card.scrollIntoView({ behavior: "smooth", block: "end" });
 }
@@ -728,8 +751,17 @@ function collectChannelHistory(channel, limit = 24) {
 }
 
 function buildRequestOptions(message) {
-  if (activeChannel === "narracao" || isSessionSummaryCommand(message)) {
-    return { history: collectChannelHistory(activeChannel) };
+  const summaryCommand = isSessionSummaryCommand(message);
+  if (
+    activeChannel === "narracao" ||
+    activeChannel === "mestre" ||
+    activeChannel === "sistema" ||
+    summaryCommand
+  ) {
+    return {
+      history: collectChannelHistory(activeChannel),
+      forceHistory: summaryCommand,
+    };
   }
   return {};
 }
@@ -739,8 +771,8 @@ async function postChannelMessage(endpoint, message, options = {}) {
     message,
     mode: activeChannel,
   };
-  if (options.history?.length) {
-    payload.history = options.history;
+  if (options.history?.length || options.forceHistory) {
+    payload.history = options.history || [];
   }
   return fetch(`${API_BASE}${endpoint}`, {
     method: "POST",
@@ -794,7 +826,171 @@ async function callChannelApi(message, requestOptions = {}) {
     pendingProposals = data.update_proposals;
     updateProposalsBadge();
   }
-  return data.reply || "Sem resposta do servidor.";
+  return {
+    reply: data.reply || "Sem resposta do servidor.",
+    meta: data,
+  };
+}
+
+function routingPreviewChannel() {
+  return ROUTING_PREVIEW_CHANNELS[activeChannel] || "narracao";
+}
+
+async function fetchRoutingPolicy() {
+  const response = await fetch(`${API_BASE}/api/routing/policy`, { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error(`Falha ao carregar politica: ${response.status}`);
+  }
+  return response.json();
+}
+
+async function fetchRoutingPreview(message) {
+  const response = await fetch(`${API_BASE}/api/routing/preview`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      message,
+      channel: routingPreviewChannel(),
+      user_approved_cloud: routingCloudApproval.checked,
+    }),
+  });
+  const data = await response.json();
+  if (!response.ok) {
+    throw new Error(data.error || `Falha ${response.status}`);
+  }
+  return data;
+}
+
+function renderRoutingPolicy(policy) {
+  if (!policy) {
+    routingPolicyLine.textContent = "Politica indisponivel.";
+    return;
+  }
+  const cloud = policy.cloud_fallback_enabled ? "cloud habilitado" : "cloud desabilitado";
+  routingPolicyLine.textContent =
+    `Politica: ${policy.policy} · padrao: ${policy.default_provider} · ${cloud}`;
+}
+
+function renderRoutingPreviewResult(preview) {
+  routingPreviewResult.classList.remove("is-hidden");
+  routingPreviewResult.innerHTML = "";
+
+  const decision = preview.decision || {};
+  const entities = preview.entities || {};
+  const rows = [
+    ["Provider", decision.provider || "—"],
+    ["Modelo", decision.model || "—"],
+    ["Tier", decision.tier || "—"],
+    ["Score", decision.score ?? "—"],
+    ["Politica", decision.policy || "—"],
+    [
+      "Escalonaria cloud",
+      preview.would_escalate_to_cloud ? "sim" : "nao",
+    ],
+    ["Contexto (chars)", String(preview.context_chars ?? 0)],
+  ];
+
+  rows.forEach(([label, value]) => {
+    const p = document.createElement("p");
+    p.className = "routing-preview-row";
+    p.innerHTML = `<strong>${escapeHtml(label)}:</strong> ${escapeHtml(String(value))}`;
+    routingPreviewResult.appendChild(p);
+  });
+
+  if (Array.isArray(decision.reasons) && decision.reasons.length > 0) {
+    const reasonsTitle = document.createElement("p");
+    reasonsTitle.className = "routing-preview-row";
+    reasonsTitle.innerHTML = "<strong>Motivos:</strong>";
+    routingPreviewResult.appendChild(reasonsTitle);
+
+    const reasonsList = document.createElement("ul");
+    reasonsList.className = "routing-preview-reasons";
+    decision.reasons.forEach((reason) => {
+      const li = document.createElement("li");
+      li.textContent = reason;
+      reasonsList.appendChild(li);
+    });
+    routingPreviewResult.appendChild(reasonsList);
+  }
+
+  const entityBits = [];
+  if (Array.isArray(entities.npc_ids) && entities.npc_ids.length > 0) {
+    entityBits.push(`NPCs: ${entities.npc_ids.join(", ")}`);
+  }
+  if (Array.isArray(entities.character_ids) && entities.character_ids.length > 0) {
+    entityBits.push(`Personagens: ${entities.character_ids.join(", ")}`);
+  }
+  if (Array.isArray(entities.keywords) && entities.keywords.length > 0) {
+    entityBits.push(`Keywords: ${entities.keywords.join(", ")}`);
+  }
+  if (entityBits.length > 0) {
+    const entityRow = document.createElement("p");
+    entityRow.className = "routing-preview-row";
+    entityRow.innerHTML = `<strong>Entidades:</strong> ${escapeHtml(entityBits.join(" · "))}`;
+    routingPreviewResult.appendChild(entityRow);
+  }
+}
+
+async function openRoutingDrawer() {
+  routingPreviewStatus.textContent = "";
+  routingPreviewResult.classList.add("is-hidden");
+  routingPreviewResult.innerHTML = "";
+  routingPreviewInput.value = playerInput.value.trim();
+  openDrawer(routingDrawer);
+  routingPreviewInput.focus();
+
+  try {
+    const policy = await fetchRoutingPolicy();
+    renderRoutingPolicy(policy);
+  } catch (err) {
+    console.error(err);
+    routingPolicyLine.textContent = "Nao foi possivel carregar a politica de roteamento.";
+  }
+}
+
+async function runRoutingPreview() {
+  const message = routingPreviewInput.value.trim();
+  if (!message) {
+    routingPreviewStatus.textContent = "Informe uma mensagem para simular.";
+    routingPreviewResult.classList.add("is-hidden");
+    return;
+  }
+
+  routingPreviewBtn.disabled = true;
+  routingPreviewStatus.textContent = "Simulando roteamento...";
+  routingPreviewResult.classList.add("is-hidden");
+
+  try {
+    const preview = await fetchRoutingPreview(message);
+    renderRoutingPreviewResult(preview);
+    routingPreviewStatus.textContent = `Canal: ${channelMeta().name}`;
+  } catch (err) {
+    console.error(err);
+    routingPreviewStatus.textContent = err.message || "Falha ao simular roteamento.";
+  } finally {
+    routingPreviewBtn.disabled = false;
+  }
+}
+
+function formatTurnQualityMeta(meta) {
+  if (!meta || activeChannel !== "narracao") {
+    return "";
+  }
+  const parts = [];
+  const routing = meta.routing_decision;
+  if (routing?.provider) {
+    const tier = routing.tier ? ` · ${routing.tier}` : "";
+    parts.push(`LLM: ${routing.provider}${tier}`);
+  }
+  if (meta.quality_passed === true) {
+    parts.push("validacao: ok");
+  } else if (meta.quality_passed === false) {
+    parts.push("validacao: revisada");
+  }
+  if (meta.turn_attempts > 1) {
+    parts.push(`tentativas: ${meta.turn_attempts}`);
+  }
+  return parts.join(" · ");
 }
 
 async function fetchPendingProposals() {
@@ -1419,8 +1615,9 @@ async function sendPlayerMessage(message) {
   createLoadingCard("Consultando o provider...");
 
   try {
-    const reply = await callChannelApi(text, requestOptions);
+    const { reply, meta } = await callChannelApi(text, requestOptions);
     const prefix = channelMeta().reply;
+    const qualityMeta = formatTurnQualityMeta(meta);
     const parsedNpc = parseNpcReply(reply);
     if (parsedNpc.isNpc) {
       try {
@@ -1430,15 +1627,17 @@ async function sendPlayerMessage(message) {
           npcName: parsedNpc.name,
           npcTokenUrl: npcAsset.tokenUrl,
           npcImageUrl: npcAsset.imageUrl,
+          qualityMeta,
         });
       } catch (assetErr) {
         console.error(assetErr);
         appendCard(`${parsedNpc.name}:`, "system", {
           markdownContent: parsedNpc.text,
+          qualityMeta,
         });
       }
     } else {
-      appendCard(`${prefix}:`, "system", { markdownContent: reply });
+      appendCard(`${prefix}:`, "system", { markdownContent: reply, qualityMeta });
     }
   } catch (err) {
     const fallbackPrefix = channelMeta().reply;
@@ -1579,6 +1778,14 @@ btnNpcs.addEventListener("click", (event) => {
 
 btnAdmin.addEventListener("click", () => openDrawer(adminDrawer));
 
+btnRouting.addEventListener("click", () => {
+  openRoutingDrawer();
+});
+
+routingPreviewBtn.addEventListener("click", () => {
+  runRoutingPreview();
+});
+
 btnPropostas.addEventListener("click", async () => {
   try {
     await fetchPendingProposals();
@@ -1592,6 +1799,7 @@ btnPropostas.addEventListener("click", async () => {
 closeFichaBtn.addEventListener("click", () => closeDrawer(fichaDrawer));
 closeJournalBtn.addEventListener("click", () => closeDrawer(journalDrawer));
 closeProposalsBtn.addEventListener("click", () => closeDrawer(proposalsDrawer));
+closeRoutingBtn.addEventListener("click", () => closeDrawer(routingDrawer));
 closeBriefBtn.addEventListener("click", () => closeDrawer(briefDrawer));
 closeCommandsBtn.addEventListener("click", () => closeDrawer(commandsDrawer));
 closeNpcBtn.addEventListener("click", () => closeDrawer(npcDrawer));
@@ -1601,6 +1809,7 @@ const drawerByKey = {
   ficha: fichaDrawer,
   journal: journalDrawer,
   proposals: proposalsDrawer,
+  routing: routingDrawer,
   brief: briefDrawer,
   commands: commandsDrawer,
   npcs: npcDrawer,

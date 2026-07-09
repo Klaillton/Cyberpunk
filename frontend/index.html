@@ -84,6 +84,9 @@
                   aria-label="Comandos rapidos da sessao"
                 ></ul>
               </div>
+              <button type="button" id="btnRouting" class="mode-btn mode-btn-muted">
+                Roteamento
+              </button>
               <button type="button" id="btnAdmin" class="mode-btn mode-btn-muted">
                 Admin
               </button>
@@ -377,6 +380,54 @@
             </p>
             <span class="admin-tag">Planejado</span>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="routingDrawer"
+      class="sheet is-hidden"
+      aria-label="Preview de roteamento LLM"
+    >
+      <div class="sheet-backdrop" data-close="routing"></div>
+      <div class="sheet-panel sheet-panel-sm">
+        <header class="sheet-header">
+          <h2>Roteamento LLM</h2>
+          <button
+            id="closeRoutingBtn"
+            class="close-btn"
+            type="button"
+            aria-label="Fechar roteamento"
+            data-close="routing"
+          >
+            X
+          </button>
+        </header>
+        <div class="sheet-content">
+          <p class="utility-hint">
+            Simula a decisao do ProviderRouter sem gastar tokens de narracao.
+            Usa o canal ativo e a mensagem abaixo.
+          </p>
+          <p id="routingPolicyLine" class="routing-policy-line">Carregando politica...</p>
+          <label for="routingPreviewInput" class="routing-label">Mensagem</label>
+          <textarea
+            id="routingPreviewInput"
+            class="routing-preview-input"
+            rows="3"
+            maxlength="2000"
+            placeholder="Cole ou edite a mensagem do jogador"
+          ></textarea>
+          <label class="routing-cloud-opt">
+            <input type="checkbox" id="routingCloudApproval" />
+            Aprovar escalonamento cloud (simulacao)
+          </label>
+          <div class="routing-actions">
+            <button type="button" id="routingPreviewBtn" class="journal-submit">
+              Simular roteamento
+            </button>
+          </div>
+          <p id="routingPreviewStatus" class="routing-preview-status" aria-live="polite"></p>
+          <div id="routingPreviewResult" class="routing-preview-result is-hidden"></div>
         </div>
       </div>
     </section>

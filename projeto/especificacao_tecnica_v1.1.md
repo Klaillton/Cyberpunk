@@ -98,30 +98,34 @@ api → motor → (storage | index | llm | campanha)
 
 **Meta:** 95%+ dos turnos resolvidos localmente; cloud como exceção auditável.
 
-#### 2.2.2 Topologia recomendada (Pi + laptop)
+#### 2.2.2 Topologia de deploy
+
+> **Status Jul/2026:** perfil **laptop-only** em produção. Pi adiado — ver [status_projeto.md](./status_projeto.md#decisão-raspberry-pi).
+
+**Perfil padrão (laptop — sessão completa):**
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
-│ Raspberry Pi 4 (8 GB) — sempre ligado                         │
-│  • campanha/ (git/rsync — fonte de verdade)                  │
-│  • data/motor.db (réplica ou primária leve)                   │
-│  • API read-only opcional (ficha, world, journal GET)         │
-│  • SEM LLM, SEM Docker pesado                                 │
-└───────────────────────────┬─────────────────────────────────┘
-                            │ sync pré/pós sessão
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│ Laptop (64 GB, i7-12650H, RTX 4070) — durante a sessão      │
-│  docker compose up                                            │
+│ Laptop (64 GB, i7-12650H, RTX 4070)                         │
+│  docker compose up  OU  python scripts/narracao_api.py        │
 │  ┌─────────────┐  ┌──────────────┐  ┌─────────────────────┐  │
 │  │ motor-api   │→ │ Ollama/vLLM  │  │ embedder (MiniLM)   │  │
 │  │ :8787       │  │ 7B–8B Q4 GPU │  │ CPU ou GPU          │  │
 │  └─────────────┘  └──────────────┘  └─────────────────────┘  │
-│  frontend/ · FAISS rebuild · ProviderRouter                   │
+│  campanha (repo) · data/motor.db · FAISS · frontend/         │
+│  Sync remoto: GitHub (git pull/push)                          │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-**Modo desenvolvimento (sem Pi):** tudo no laptop com `docker compose -f deploy/docker-compose.yml`.
+**Perfil opcional (Pi — hub 24/7, sem LLM):** adiado. Quando implementado:
+
+```text
+Pi 4 (8 GB): campanha/ + motor.db leve + API read-only · SEM Ollama
+     ↕ sync pré/pós sessão
+Laptop: assume Ollama + narração (como acima)
+```
+
+**Modo desenvolvimento:** idêntico ao perfil laptop (`deploy/docker-compose.yml`).
 
 #### 2.2.3 Stack LLM local (hardware alvo: RTX 4070 8 GB VRAM)
 
@@ -2233,12 +2237,17 @@ Fase 4 — LLM local (laptop)
   ├── ResponseQualityGate
   └── Política local_preferred como padrão
 
-Fase 5 — Raspberry Pi
-  ├── docker-compose.pi.yml (motor sem LLM)
+Fase 5 — Qualidade do turno (Sprint A)
+  ├── FAISS + EntityResolver no select_context_files
+  ├── ProviderRouter + QualityGate no generate_reply
+  └── provider_routing_log
+
+Fase 6 — Raspberry Pi (opcional / adiado)
+  ├── docker-compose.pi.yml (motor sem LLM) — scaffold existe
   ├── Sync campanha/ Pi ↔ laptop
   └── systemd unit para motor leve
 
-Fase 6 — Híbrido opcional
+Fase 7 — Híbrido opcional
   ├── Cloud fallback em hybrid
   ├── UI: preview de roteamento + aprovação em tier critical
   └── Métricas em provider_routing_log
@@ -2266,10 +2275,12 @@ O sistema v1.1 está pronto quando:
 
 ## 16. Referências
 
+- [Status do Projeto](./status_projeto.md) — tracker vivo, decisão Pi, backlog
+- [Plano de Implementação](./plano_implementacao_e_testes.md) — fases e testes
 - [Especificação Inicial](./especificacao_inicial.md)
 - [Arquitetura MVP](../sistema/arquitetura_narracao_solo.md)
 - Código legado: `scripts/narracao_engine.py`, `scripts/narracao_api.py`, `frontend/`
 
 ---
 
-*Documento gerado para implementação consistente. Versão: 1.1 — 2026-07-07.*
+*Documento gerado para implementação consistente. Versão: 1.1 — 2026-07-07. Revisão topologia: 2026-07-09.*

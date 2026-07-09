@@ -14,12 +14,33 @@ class MessageRequest(BaseModel):
     history: list[ChatHistoryEntry] | None = None
 
 
+class RoutingDecisionResponse(BaseModel):
+    provider: str
+    model: str | None = None
+    tier: str | None = None
+    score: int | None = None
+    policy: str | None = None
+    escalated: bool = False
+    reasons: list[str] = []
+
+
+class QualityCheckResponse(BaseModel):
+    name: str
+    passed: bool
+    detail: str
+
+
 class MessageResponse(BaseModel):
     channel: str
     provider: str
     reply: str
     model: str | None = None
     update_proposals: list[dict] = []
+    routing_decision: RoutingDecisionResponse | None = None
+    quality_passed: bool | None = None
+    quality_checks: list[QualityCheckResponse] | None = None
+    turn_attempts: int | None = None
+    context_sources: list[str] | None = None
 
 
 class JournalEntryRequest(BaseModel):

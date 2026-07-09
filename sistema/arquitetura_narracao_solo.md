@@ -107,6 +107,11 @@ Uma interacao esta pronta quando:
 - log de sessao foi salvo
 - nao houve contradicao com `sistema/instrucoes_projeto.md`
 
+## Tracking tecnico
+
+- [status_projeto.md](../projeto/status_projeto.md) — fases, backlog, decisao de deploy
+- [plano_implementacao_e_testes.md](../projeto/plano_implementacao_e_testes.md) — testes por fase
+
 ## Referencias
 
 - [Instrucoes do Projeto](instrucoes_projeto.md)

@@ -14,6 +14,37 @@ def normalize_name(value: str) -> str:
     return re.sub(r"[^a-z0-9]", "", value.lower())
 
 
+def list_campaign_sheets(settings: Settings | None = None) -> list[dict[str, str]]:
+    """Lista fichas de campanha em fichas/ (exclui templates)."""
+    cfg = settings or get_settings()
+    fichas_dir = cfg.campanha_root / "fichas"
+    results: list[dict[str, str]] = []
+    if not fichas_dir.exists():
+        return results
+
+    for path in sorted(fichas_dir.rglob("*.md")):
+        rel = path.relative_to(cfg.campanha_root).as_posix()
+        if not is_campaign_content_path(rel):
+            continue
+        stem = path.stem
+        if " - " in stem:
+            role, slug = stem.split(" - ", 1)
+        elif path.parent.name == "npc":
+            role, slug = "npc", stem
+        elif path.parent.name == "notas_narrador":
+            role, slug = "notas_narrador", stem
+        else:
+            role, slug = "ficha", stem
+        results.append(
+            {
+                "rel": rel,
+                "role": role.strip(),
+                "slug": slug.strip(),
+            }
+        )
+    return results
+
+
 def find_sheet_by_name(name: str, settings: Settings | None = None) -> Path | None:
     cfg = settings or get_settings()
     normalized = normalize_name(name)

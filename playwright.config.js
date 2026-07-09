@@ -2,6 +2,8 @@ const { defineConfig, devices } = require("@playwright/test");
 const fs = require("fs");
 const path = require("path");
 
+const e2ePort = process.env.E2E_PORT || "8791";
+const e2eBaseUrl = `http://127.0.0.1:${e2ePort}`;
 const e2eDataDir = path.join(__dirname, "tests", "tmp_e2e_data");
 const e2eCampaignDir = path.join(e2eDataDir, "campaign");
 const e2eHeatFixture = path.join(__dirname, "tests", "fixtures", "e2e_heat.md");
@@ -14,18 +16,20 @@ module.exports = defineConfig({
   expect: {
     timeout: 5000,
   },
+  // Shared DATA_DIR/DB — parallel workers cause flaky journal/proposal races.
   fullyParallel: false,
-  retries: 0,
+  workers: 1,
+  retries: process.env.CI ? 1 : 0,
   reporter: "list",
   use: {
-    baseURL: "http://127.0.0.1:8787",
+    baseURL: e2eBaseUrl,
     trace: "on-first-retry",
     screenshot: "only-on-failure",
     video: "retain-on-failure",
   },
   webServer: {
-    command: "python -m uvicorn api.main:app --host 127.0.0.1 --port 8787",
-    url: "http://127.0.0.1:8787",
+    command: `python -m uvicorn api.main:app --host 127.0.0.1 --port ${e2ePort}`,
+    url: e2eBaseUrl,
     reuseExistingServer: false,
     timeout: 120000,
     env: {

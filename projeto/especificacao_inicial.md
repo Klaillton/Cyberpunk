@@ -1,5 +1,7 @@
 # Especificação Inicial – Motor Narrativo Persistente para RPG (Raspberry Pi 4)
 
+> **Nota (Jul/2026):** documento histórico. A [especificacao_tecnica_v1.1.md](./especificacao_tecnica_v1.1.md) e o [status_projeto.md](./status_projeto.md) supersederam a topologia Pi-only: **laptop + Ollama local** é o perfil padrão; Pi ficou **opcional/adiado** como hub 24/7 sem LLM.
+
 ## Objetivo
 
 Desenvolver um motor de narrativa persistente para campanhas de RPG, executando em um Raspberry Pi 4 (8 GB), onde o Raspberry seja responsável por toda a lógica da campanha e um LLM externo (ChatGPT, Grok ou outro) seja utilizado apenas para geração narrativa e decisões complexas.

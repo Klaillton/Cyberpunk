@@ -3,7 +3,8 @@ from __future__ import annotations
 from fastapi import APIRouter, HTTPException
 
 from api.schemas import MessageRequest, MessageResponse
-from motor.narration import generate_reply
+from api.schemas import QualityCheckResponse, RoutingDecisionResponse
+from motor.narration import generate_turn
 from motor.settings import get_settings
 from motor.update_service import UpdateService
 from narracao_engine import normalize_channel
@@ -31,19 +32,52 @@ def _process_message(channel: str, body: MessageRequest) -> MessageResponse:
         if body.history
         else None
     )
-    raw_reply = generate_reply(message, mode, channel=channel, history=history)
-    if settings.update_proposals_enabled and channel == "gestor":
+    turn = generate_turn(message, mode, settings=settings, channel=channel, history=history)
+    raw_reply = turn.reply
+    if settings.update_proposals_enabled and channel in {"gestor", "sistema"}:
         update_service = UpdateService(settings)
         reply, proposals, _report = update_service.ingest_narrative(raw_reply)
     else:
         reply, proposals = raw_reply, []
-    model = settings.ollama_model_narration if settings.provider == "ollama" else None
+
+    provider_used = turn.provider_used or settings.provider
+    model_used = turn.model_used
+    if model_used is None and provider_used == "ollama":
+        model_used = settings.ollama_model_narration
+
+    routing_payload = None
+    if turn.routing_decision is not None:
+        decision = turn.routing_decision
+        routing_payload = RoutingDecisionResponse(
+            provider=decision.provider,
+            model=decision.model,
+            tier=decision.tier,
+            score=decision.score,
+            policy=decision.policy,
+            escalated=decision.escalated,
+            reasons=decision.reasons,
+        )
+
+    quality_checks = None
+    quality_passed = None
+    if turn.quality_report is not None:
+        quality_passed = turn.quality_report.passed
+        quality_checks = [
+            QualityCheckResponse(name=check.name, passed=check.passed, detail=check.detail)
+            for check in turn.quality_report.checks
+        ]
+
     return MessageResponse(
         channel=channel,
-        provider=settings.provider,
+        provider=provider_used,
         reply=reply,
-        model=model,
+        model=model_used,
         update_proposals=[proposal.to_dict() for proposal in proposals],
+        routing_decision=routing_payload,
+        quality_passed=quality_passed,
+        quality_checks=quality_checks,
+        turn_attempts=turn.attempts,
+        context_sources=turn.context_sources or None,
     )
 
 

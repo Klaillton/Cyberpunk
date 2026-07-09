@@ -7,8 +7,21 @@ import urllib.request
 
 import narracao_engine as engine
 
+from motor.context_service import ContextService
+from motor.llm.quality_gate import ResponseQualityGate
+from motor.llm.router import ProviderRouter
+from motor.llm.types import RoutingDecision, TurnRequest
+from motor.routing_log import RoutingLogEntry, RoutingLogStore
 from motor.session_command_handler import detect_session_intent
 from motor.settings import Settings, get_settings
+from motor.turn_types import TurnResult
+
+_MODE_BY_CHANNEL = {
+    "narracao": "narrador",
+    "mestre": "mestre",
+    "sistema": "gestor",
+    "gestor": "gestor",
+}
 
 
 def clean_error_text(value: str) -> str:
@@ -41,10 +54,11 @@ def run_ollama(
     *,
     temperature: float | None = None,
     num_predict: int | None = None,
+    model: str | None = None,
 ) -> str:
     cfg = settings or get_settings()
     body: dict = {
-        "model": cfg.ollama_model_narration,
+        "model": model or cfg.ollama_model_narration,
         "prompt": prompt,
         "stream": False,
     }
@@ -74,8 +88,247 @@ def run_ollama(
 
     text = str(body.get("response", "")).strip()
     if not text:
-        raise RuntimeError(f"Ollama retornou resposta vazia (modelo: {cfg.ollama_model_narration})")
+        raise RuntimeError(
+            f"Ollama retornou resposta vazia (modelo: {model or cfg.ollama_model_narration})"
+        )
     return text
+
+
+def _generation_params(
+    channel: str,
+    session_intent: str | None,
+    *,
+    retry: bool = False,
+) -> tuple[float, int]:
+    if session_intent == "summary":
+        return (0.18 if retry else 0.2, 1400)
+    if channel == "sistema":
+        return (0.12 if retry else 0.15, 380)
+    if channel == "mestre":
+        return (0.2 if retry else 0.25, 320)
+    return (0.3 if retry else 0.38, 480)
+
+
+def _invoke_provider(
+    prompt: str,
+    decision: RoutingDecision,
+    settings: Settings,
+    *,
+    temperature: float,
+    num_predict: int,
+) -> str:
+    provider = decision.provider
+    if provider == "ollama":
+        return run_ollama(
+            prompt,
+            settings,
+            temperature=temperature,
+            num_predict=num_predict,
+            model=decision.model,
+        )
+    if provider == "grok":
+        return engine.run_grok(prompt)
+    if provider in {"chatgpt", "gemini", "copilot"}:
+        return (
+            f"Provider de teste '{provider}' selecionado. "
+            "Integração real ainda não configurada; usando resposta local de validação."
+        )
+    raise RuntimeError(f"Provider '{provider}' nao suportado para geracao.")
+
+
+def _quality_correction_suffix(report) -> str:
+    failed = [check.detail for check in report.checks if not check.passed]
+    if not failed:
+        return ""
+    details = "; ".join(failed[:3])
+    return (
+        "\n\n## CORRECAO OBRIGATORIA\n"
+        f"A tentativa anterior falhou validacao: {details}.\n"
+        "Reescreva usando apenas fatos do contexto e historico. Nao invente NPCs nem locais."
+    )
+
+
+def _uses_llm_provider(settings: Settings) -> bool:
+    return settings.provider in {"ollama", "grok", "chatgpt", "gemini", "copilot"}
+
+
+def _fallback_static_reply(channel: str, mode: str) -> str:
+    if channel == "sistema":
+        return "Canal Sistema ativo. Pergunte sobre LLM, API, arquivos e comandos."
+    if channel == "mestre" or mode == "mestre":
+        return "Canal Mestre off-game ativo. Consulta meta fora da cronologia."
+    if mode == "narrador":
+        return "Canal de narracao ativo."
+    return "Canal principal ativo. Mensagem recebida para narracao da historia."
+
+
+def generate_turn(
+    message: str,
+    mode: str,
+    settings: Settings | None = None,
+    *,
+    channel: str = "narracao",
+    history: list[dict] | None = None,
+    user_approved_cloud: bool = False,
+) -> TurnResult:
+    cfg = settings or get_settings()
+    channel = engine.normalize_channel(channel)
+    session_intent = detect_session_intent(message)
+    missing = engine.check_integrity()
+    if missing:
+        return TurnResult(
+            reply="Nao foi possivel responder porque arquivos obrigatorios estao ausentes.",
+        )
+
+    context_service = ContextService(cfg)
+    selection = context_service.select(
+        message,
+        provider=cfg.provider,
+        channel=channel,
+        session_intent=session_intent,
+    )
+
+    effective_mode = _MODE_BY_CHANNEL.get(channel, mode)
+    request = TurnRequest(
+        message=message.strip(),
+        channel=channel,
+        mode=effective_mode,
+    )
+
+    router = ProviderRouter(cfg)
+    quality_gate = ResponseQualityGate()
+    routing_log = RoutingLogStore()
+
+    decision = router.resolve(
+        request,
+        selection.entities,
+        selection.manifest,
+        user_approved_cloud=user_approved_cloud,
+    )
+
+    if not _uses_llm_provider(cfg) and decision.provider in {"ollama", "grok"}:
+        decision = RoutingDecision(
+            provider=cfg.provider,
+            model=None,
+            tier=decision.tier,
+            score=decision.score,
+            reasons=decision.reasons + ["provider:none_static"],
+            policy=decision.policy,
+            escalated=False,
+            requires_user_approval=False,
+        )
+
+    prompt = engine.build_prompt(
+        message,
+        selection.paths,
+        effective_mode,
+        provider=cfg.provider if cfg.provider == "ollama" else decision.provider,
+        max_prompt_chars=cfg.ollama_max_prompt_chars if decision.provider == "ollama" else None,
+        channel=channel,
+        session_intent=session_intent,
+        history=history,
+    )
+
+    if not _uses_llm_provider(cfg):
+        return TurnResult(
+            reply=_fallback_static_reply(channel, effective_mode),
+            routing_decision=decision,
+            context_sources=selection.manifest.source_paths,
+        )
+
+    run_quality = channel == "narracao" and session_intent != "summary"
+    temp, num_predict = _generation_params(channel, session_intent)
+    attempts = 0
+    last_reply = ""
+    last_report = None
+    active_decision = decision
+    active_prompt = prompt
+
+    while attempts < 2:
+        attempts += 1
+        retry = attempts > 1
+        if retry:
+            temp, num_predict = _generation_params(channel, session_intent, retry=True)
+
+        try:
+            raw = _invoke_provider(
+                active_prompt,
+                active_decision,
+                cfg,
+                temperature=temp,
+                num_predict=num_predict,
+            )
+            last_reply = engine.sanitize_ollama_reply(
+                raw,
+                channel=channel,
+                session_intent=session_intent,
+                history=history,
+            )
+        except Exception as exc:  # pragma: no cover
+            return TurnResult(
+                reply=format_provider_failure(active_decision.provider, exc, cfg),
+                routing_decision=active_decision,
+                attempts=attempts,
+                provider_used=active_decision.provider,
+                model_used=active_decision.model,
+                context_sources=selection.manifest.source_paths,
+            )
+
+        if not run_quality:
+            routing_log.append(
+                RoutingLogEntry(
+                    channel=channel,
+                    mode=effective_mode,
+                    message_preview=message,
+                    decision=active_decision,
+                    attempt=attempts,
+                    quality_passed=None,
+                )
+            )
+            return TurnResult(
+                reply=last_reply,
+                routing_decision=active_decision,
+                attempts=attempts,
+                provider_used=active_decision.provider,
+                model_used=active_decision.model,
+                context_sources=selection.manifest.source_paths,
+            )
+
+        last_report = quality_gate.validate(last_reply, selection.manifest, channel)
+        routing_log.append(
+            RoutingLogEntry(
+                channel=channel,
+                mode=effective_mode,
+                message_preview=message,
+                decision=active_decision,
+                attempt=attempts,
+                quality_passed=last_report.passed,
+                quality_report=last_report,
+            )
+        )
+        if last_report.passed:
+            break
+
+        if attempts >= 2:
+            break
+
+        cloud_fallback = router.resolve_fallback(active_decision, quality_passed=False)
+        if cloud_fallback is not None:
+            active_decision = cloud_fallback
+            active_prompt = prompt
+        else:
+            active_decision = decision
+            active_prompt = prompt + _quality_correction_suffix(last_report)
+
+    return TurnResult(
+        reply=last_reply,
+        routing_decision=active_decision,
+        quality_report=last_report,
+        attempts=attempts,
+        provider_used=active_decision.provider,
+        model_used=active_decision.model,
+        context_sources=selection.manifest.source_paths,
+    )
 
 
 def generate_reply(
@@ -86,70 +339,10 @@ def generate_reply(
     channel: str = "narracao",
     history: list[dict] | None = None,
 ) -> str:
-    cfg = settings or get_settings()
-    channel = engine.normalize_channel(channel)
-    session_intent = detect_session_intent(message)
-    missing = engine.check_integrity()
-    if missing:
-        return "Nao foi possivel responder porque arquivos obrigatorios estao ausentes."
-
-    context_paths = engine.select_context_files(
+    return generate_turn(
         message,
-        provider=cfg.provider,
-        channel=channel,
-        session_intent=session_intent,
-    )
-    prompt = engine.build_prompt(
-        message,
-        context_paths,
         mode,
-        provider=cfg.provider,
-        max_prompt_chars=cfg.ollama_max_prompt_chars if cfg.provider == "ollama" else None,
+        settings,
         channel=channel,
-        session_intent=session_intent,
         history=history,
-    )
-
-    if cfg.provider == "ollama":
-        try:
-            if session_intent == "summary":
-                temp = 0.2
-                num_predict = 1400
-            elif channel == "sistema":
-                temp = 0.15
-                num_predict = 380
-            elif channel == "mestre":
-                temp = 0.25
-                num_predict = 320
-            else:
-                temp = 0.38
-                num_predict = 480
-            raw = run_ollama(prompt, cfg, temperature=temp, num_predict=num_predict)
-            return engine.sanitize_ollama_reply(
-                raw,
-                channel=channel,
-                session_intent=session_intent,
-                history=history,
-            )
-        except Exception as exc:  # pragma: no cover
-            return format_provider_failure(cfg.provider, exc, cfg)
-
-    if cfg.provider == "grok":
-        try:
-            return engine.run_grok(prompt)
-        except Exception as exc:  # pragma: no cover
-            return format_provider_failure(cfg.provider, exc, cfg)
-
-    if cfg.provider in {"chatgpt", "gemini", "copilot"}:
-        return (
-            f"Provider de teste '{cfg.provider}' selecionado. "
-            "Integração real ainda não configurada; usando resposta local de validação."
-        )
-
-    if channel == "sistema":
-        return "Canal Sistema ativo. Pergunte sobre LLM, API, arquivos e comandos."
-    if channel == "mestre" or mode == "mestre":
-        return "Canal Mestre off-game ativo. Consulta meta fora da cronologia."
-    if mode == "narrador":
-        return "Canal de narracao ativo."
-    return "Canal principal ativo. Mensagem recebida para narracao da historia."
+    ).reply

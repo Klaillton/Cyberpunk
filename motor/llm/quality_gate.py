@@ -9,6 +9,7 @@ _PROTagonist_CONTROL_RE = re.compile(
     re.IGNORECASE,
 )
 _NAME_RE = re.compile(r"\b([A-Z][a-záàâãéêíóôõúç]{2,})(?:\s+[A-Z][a-záàâãéêíóôõúç]{2,})?\b")
+_BOARD_NAME_RE = re.compile(r"\*\*([^*]+)\*\*")
 _LOCATION_CONFLICTS = (
     ("night city", "badlands"),
     ("night city", "acampamento"),
@@ -45,7 +46,23 @@ class ResponseQualityGate:
             stem = path.split("/")[-1].replace(".md", "").lower()
             tokens.add(stem)
             if " - " in stem:
-                tokens.add(stem.split(" - ", 1)[1].strip())
+                slug = stem.split(" - ", 1)[1].strip()
+                tokens.add(slug)
+                for part in slug.replace("_recruit", "").split("_"):
+                    if len(part) >= 3:
+                        tokens.add(part)
+            if "/npc/" in path.replace("\\", "/"):
+                npc_slug = stem.replace("_recruit", "")
+                tokens.add(npc_slug)
+                for part in npc_slug.split("_"):
+                    if len(part) >= 3:
+                        tokens.add(part)
+        for match in _BOARD_NAME_RE.finditer(manifest.board_excerpt):
+            label = match.group(1).strip()
+            for part in re.split(r"[\s\"']+", label):
+                cleaned = part.strip(".,;:")
+                if len(cleaned) >= 3:
+                    tokens.add(cleaned.lower())
         allow = {
             "ryan",
             "wireghost",
@@ -66,6 +83,14 @@ class ResponseQualityGate:
             "techie",
             "doc",
             "crew",
+            "elias",
+            "tomas",
+            "mara",
+            "reyes",
+            "gringo",
+            "sasha",
+            "lira",
+            "lina",
         }
         tokens.update(allow)
         return tokens

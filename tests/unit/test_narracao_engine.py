@@ -244,6 +244,95 @@ def test_sanitize_narracao_reply_strips_option_menus() -> None:
     assert "A)" not in cleaned
 
 
+def test_select_context_mestre_tomas_excludes_polycule() -> None:
+    message = "Tomas parece nervoso — o NPC ja se tornou traidor?"
+    paths = engine.select_context_files(message, provider="ollama", channel="mestre")
+    rel = {p.relative_to(engine.REPO_ROOT).as_posix() for p in paths}
+    assert "fichas/npc/tomas_recruit.md" in rel
+    assert "pulso_do_mundo/pack_badlands/recrutas.md" in rel
+    assert "relacionamentos/crew_polycule_ryan_valk_alex_reina.md" not in rel
+
+
+def test_select_context_mestre_crew_question_includes_polycule() -> None:
+    paths = engine.select_context_files(
+        "Quem faz parte da crew?",
+        provider="ollama",
+        channel="mestre",
+    )
+    rel = {p.relative_to(engine.REPO_ROOT).as_posix() for p in paths}
+    assert "relacionamentos/crew_polycule_ryan_valk_alex_reina.md" in rel
+    assert "relacionamentos/crew_relacionamentos.md" in rel
+
+
+def test_build_prompt_mestre_includes_history_and_tomas_example() -> None:
+    message = "Tomas parece nervoso — o NPC ja se tornou traidor?"
+    paths = engine.select_context_files(message, provider="ollama", channel="mestre")
+    prompt = engine.build_prompt(
+        message,
+        paths,
+        mode="mestre",
+        provider="ollama",
+        channel="mestre",
+        history=[{"role": "user", "content": "MESTRE VOCE: Tomas parece nervoso"}],
+        max_prompt_chars=8000,
+    )
+    assert "Historico do canal Mestre" in prompt
+    assert "Tomas parece nervoso" in prompt
+    assert "suspeita / traidor" in prompt
+    assert "fichas/npc/tomas_recruit.md" in prompt
+
+
+def test_select_context_sistema_brief_includes_dashboard_and_session() -> None:
+    paths = engine.select_context_files(
+        "Como funciona o resumo da campanha? quais arquivos voce consulta?",
+        provider="ollama",
+        channel="sistema",
+    )
+    rel = {p.relative_to(engine.REPO_ROOT).as_posix() for p in paths}
+    assert "sistema/dashboard_contexto.md" in rel
+    assert "board/board_campanha.md" in rel
+    assert "sistema/registro_arquivos.md" in rel
+    assert any(item.startswith("logs/sessao_resumo_") for item in rel)
+
+
+def test_select_context_sistema_netrunner_includes_alex_ficha() -> None:
+    paths = engine.select_context_files(
+        "qual a ficha da netrunner?",
+        provider="ollama",
+        channel="sistema",
+    )
+    rel = {p.relative_to(engine.REPO_ROOT).as_posix() for p in paths}
+    assert "fichas/netrunner - alex_specter_kane.md" in rel
+    assert "relacionamentos/ryan_relacionamentos.md" not in rel
+
+
+def test_build_prompt_sistema_includes_fichas_index_for_list_question() -> None:
+    prompt = engine.build_prompt(
+        "quais fichas voce tem na pasta fichas?",
+        engine.select_context_files(
+            "quais fichas voce tem na pasta fichas?",
+            provider="ollama",
+            channel="sistema",
+        ),
+        mode="sistema",
+        provider="ollama",
+        channel="sistema",
+        max_prompt_chars=8000,
+    )
+    assert "Indice de fichas" in prompt
+    assert "fichas/netrunner - alex_specter_kane.md" in prompt
+    assert "fichas/nomad - lena_valk_kane.md" in prompt
+    assert "resumo da campanha / brief" in prompt
+
+
+def test_list_campaign_sheets_includes_crew_and_npc() -> None:
+    from motor.npc import list_campaign_sheets
+
+    rel_paths = {item["rel"] for item in list_campaign_sheets()}
+    assert "fichas/netrunner - alex_specter_kane.md" in rel_paths
+    assert "fichas/npc/tomas_recruit.md" in rel_paths
+
+
 def test_build_prompt_narracao_includes_conversation_history() -> None:
     paths = engine.select_context_files("Continuo fumando no muro.", provider="ollama")
     prompt = engine.build_prompt(

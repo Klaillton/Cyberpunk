@@ -18,24 +18,81 @@ test.describe("Chat e canais", () => {
       });
     });
 
-    await page.locator("#btnNarrador").click();
-    await expect(page.locator("#btnNarrador")).toHaveText(/Mestre \(ON\)/i);
-    await expect(page.locator("#narratorFeed")).not.toHaveClass(/is-hidden/);
+    await page.locator("#btnCanalMestre").click();
+    await expect(page.locator("#btnCanalMestre")).toHaveAttribute("aria-pressed", "true");
+    await expect(page.locator("#mestreFeed")).not.toHaveClass(/is-hidden/);
     await expect(page.locator("#narrationFeed")).toHaveClass(/is-hidden/);
 
     await page.locator("#playerInput").fill("O Reyes esta confiavel?");
     await page.locator("#chatForm button[type='submit']").click();
 
-    await expect(page.locator("#narratorFeed")).toContainText("Canon atual");
+    await expect(page.locator("#mestreFeed")).toContainText("Canon atual");
     await expect(page.locator("#narrationFeed")).not.toContainText("Off-record");
   });
 
-  test("volta ao canal narracao principal", async ({ page }) => {
-    await page.locator("#btnNarrador").click();
-    await expect(page.locator("#btnNarrador")).toHaveText(/Mestre \(ON\)/i);
+  test("alterna canal sistema e envia mensagem", async ({ page }) => {
+    await page.route("**/api/sistema", async (route) => {
+      await route.fulfill({
+        status: 200,
+        contentType: "application/json",
+        body: JSON.stringify({
+          channel: "sistema",
+          provider: "none",
+          reply: "Ficha netrunner: fichas/netrunner - alex_specter_kane.md",
+        }),
+      });
+    });
 
-    await page.locator("#btnNarrador").click();
-    await expect(page.locator("#btnNarrador")).toHaveText(/^Mestre$/);
+    await page.locator("#btnCanalSistema").click();
+    await expect(page.locator("#btnCanalSistema")).toHaveAttribute("aria-pressed", "true");
+    await expect(page.locator("#sistemaFeed")).not.toHaveClass(/is-hidden/);
+
+    await page.locator("#playerInput").fill("qual a ficha da netrunner?");
+    await page.locator("#chatForm button[type='submit']").click();
+
+    await expect(page.locator("#sistemaFeed")).toContainText("alex_specter_kane");
+  });
+
+  test("narracao exibe meta de qualidade quando presente", async ({ page }) => {
+    await page.route("**/api/narracao", async (route) => {
+      await route.fulfill({
+        status: 200,
+        contentType: "application/json",
+        body: JSON.stringify({
+          channel: "narracao",
+          provider: "ollama",
+          model: "llama3.1:8b",
+          reply: "Ryan observa o acampamento em silencio.",
+          routing_decision: {
+            provider: "ollama",
+            model: "llama3.1:8b",
+            tier: "standard",
+            score: 3,
+            policy: "local_only",
+            escalated: false,
+            reasons: ["heuristic:test"],
+          },
+          quality_passed: true,
+          turn_attempts: 1,
+        }),
+      });
+    });
+
+    await page.locator("#playerInput").fill("Observo o pack.");
+    await page.locator("#chatForm button[type='submit']").click();
+
+    await expect(page.locator("#narrationFeed")).toContainText("validacao: ok");
+    await expect(page.locator("#narrationFeed")).toContainText("LLM: ollama");
+  });
+
+  test("volta ao canal narracao principal", async ({ page }) => {
+    await page.locator("#btnCanalMestre").click();
+    await expect(page.locator("#btnCanalMestre")).toHaveAttribute("aria-pressed", "true");
+    await expect(page.locator("#narrationFeed")).toHaveClass(/is-hidden/);
+
+    await page.locator("#btnCanalNarracao").click();
+    await expect(page.locator("#btnCanalNarracao")).toHaveAttribute("aria-pressed", "true");
+    await expect(page.locator("#btnCanalMestre")).toHaveAttribute("aria-pressed", "false");
     await expect(page.locator("#narrationFeed")).not.toHaveClass(/is-hidden/);
   });
 

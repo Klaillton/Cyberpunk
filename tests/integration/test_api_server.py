@@ -84,6 +84,35 @@ def test_narracao_endpoint_none_provider(api_base_url: str) -> None:
     assert data["channel"] == "narracao"
     assert data["provider"] == "none"
     assert "reply" in data and data["reply"]
+    assert "routing_decision" in data
+    assert data["routing_decision"]["provider"] == "none"
+
+
+def test_sistema_endpoint_returns_channel(api_base_url: str) -> None:
+    status, data = _post_json(
+        f"{api_base_url}/api/sistema",
+        {"message": "qual a ficha da netrunner?"},
+    )
+    assert status == 200
+    assert data["channel"] == "sistema"
+    assert "reply" in data and data["reply"]
+    assert data.get("quality_passed") is None
+
+
+def test_narracao_summary_command_accepts_history(api_base_url: str) -> None:
+    status, data = _post_json(
+        f"{api_base_url}/api/narracao",
+        {
+            "message": "[Resumo da Sessão]",
+            "history": [
+                {"role": "user", "content": "VOCE: Ryan observa Tomas"},
+                {"role": "assistant", "content": "NARRADOR: Tomas fuma afastado."},
+            ],
+        },
+    )
+    assert status == 200
+    assert data["channel"] == "narracao"
+    assert "reply" in data and data["reply"]
 
 
 def test_narrador_endpoint_off_record(api_base_url: str) -> None:

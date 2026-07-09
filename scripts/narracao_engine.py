@@ -29,9 +29,11 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from motor.markdown.campaign_paths import is_template_path
 from motor.player_message import format_player_message_for_prompt, parse_player_message
+from motor.npc import list_campaign_sheets
 from motor.session_command_handler import (
     format_history_block,
     is_finalize_summary_command,
+    latest_session_log_path,
     next_session_log_rel,
     session_summary_context_paths,
 )
@@ -85,19 +87,41 @@ OLLAMA_FILE_PRIORITY = (
     "sistema/dashboard_contexto.md",
 )
 
+SISTEMA_OLLAMA_KEEP = frozenset(
+    {
+        "sistema/registro_arquivos.md",
+        "sistema/instrucoes_projeto.md",
+        "sistema/como_atualizar_arquivos.md",
+        "sistema/dashboard_contexto.md",
+        "sistema/diretrizes_ia.md",
+    }
+)
+
+OLLAMA_SISTEMA_PRIORITY = (
+    "fichas/",
+    "sistema/registro_arquivos.md",
+    "sistema/dashboard_contexto.md",
+    "sistema/instrucoes_projeto.md",
+    "board/board_campanha.md",
+    "logs/sessao_resumo_",
+    "event_queue.md",
+    "relacionamentos/",
+)
+
 OLLAMA_MESTRE_PRIORITY = (
-    "relacionamentos/crew_relacionamentos.md",
-    "relacionamentos/crew_polycule_ryan_valk_alex_reina.md",
+    "fichas/npc/",
+    "pulso_do_mundo/pack_badlands/",
+    "board/board_campanha.md",
     "relacionamentos/mapa_relacional_geral.md",
     "relacionamentos/ryan_relacionamentos.md",
+    "relacionamentos/crew_relacionamentos.md",
+    "relacionamentos/crew_polycule_ryan_valk_alex_reina.md",
     "relacionamentos/",
-    "board/board_campanha.md",
 )
 
 MESTRE_BASE_CONTEXT = [
-    "relacionamentos/crew_relacionamentos.md",
-    "relacionamentos/crew_polycule_ryan_valk_alex_reina.md",
     "relacionamentos/mapa_relacional_geral.md",
+    "board/board_campanha.md",
 ]
 
 SISTEMA_BASE_CONTEXT = [
@@ -116,6 +140,27 @@ _FICHA_PATH_RE = re.compile(
     re.IGNORECASE,
 )
 
+_FICHA_LIST_RE = re.compile(
+    r"\b(quais|liste|lista|quantas?|tem alguma|dispon[ií]veis?|carregad)\b.*\b(fichas?)\b"
+    r"|\b(fichas?)\b.*\b(quais|liste|lista|quantas?|pasta|dispon[ií]veis?|carregad)\b",
+    re.IGNORECASE,
+)
+
+_FICHA_LOOKUP_RE = re.compile(
+    r"\b(ficha|fichas/|caminho.*ficha|qual.*ficha|ficha.*(?:da|do|de))\b",
+    re.IGNORECASE,
+)
+
+_ROLE_FICHA_RE = re.compile(
+    r"\b(netrunner|nomad|techie|medtech|fixer|solo|vehicle)\b",
+    re.IGNORECASE,
+)
+
+_CAMPAIGN_BRIEF_RE = re.compile(
+    r"\b(resumo.*campanha|brief|resumo\s+at[eé]\s+aqui|como funciona.*resumo)\b",
+    re.IGNORECASE,
+)
+
 _UPDATE_PREVIEW_RE = re.compile(
     r"\b(resumo.*atualiz|atualiz.*arquiv|arquivos.*sess|o que precisa ser atualizado)\b",
     re.IGNORECASE,
@@ -128,6 +173,26 @@ _INFO_QUESTION_RE = re.compile(
 
 _TIMELINE_QUESTION_RE = re.compile(
     r"\b(futur[oa]s?|night city|voltar|quando|plano|canon|cronolog|deveria|ainda n[aã]o)\b",
+    re.IGNORECASE,
+)
+
+_PACK_RECRUIT_RE = re.compile(
+    r"\b(tomas|mara|elias|recrutas?|pack\s+badlands|badlands)\b",
+    re.IGNORECASE,
+)
+
+_TRAITOR_SUSPICION_RE = re.compile(
+    r"\b(trai(?:d(?:or|a))?|trai[cç][aã]o|nervos[oa]|desconfia|suspeit|inquiet|monitorament)\b",
+    re.IGNORECASE,
+)
+
+_POLYCULE_QUESTION_RE = re.compile(
+    r"\b(polycule|harem|reina|alex|jax|kaz|doc|night\s*city|crew\s+futur)\b",
+    re.IGNORECASE,
+)
+
+_CREW_MEMBERSHIP_RE = re.compile(
+    r"\b(quem|qual|quais|membros?|faz\s+parte)\b.*\b(crew|equipe)\b|\b(crew|equipe)\b.*\b(quem|qual|quais|membros?|faz\s+parte)\b",
     re.IGNORECASE,
 )
 
@@ -159,11 +224,21 @@ INTENT_RULES: list[tuple[re.Pattern[str], list[str]]] = [
         ["economia.md", "logs/downtime_ryan.md"],
     ),
     (
-        re.compile(r"\b(npc|reyes|valk|alex|reina|kaz|doc|jax|ryan)\b", re.IGNORECASE),
+        re.compile(
+            r"\b(npc|reyes|valk|alex|reina|kaz|doc|jax|ryan|tomas|mara|elias)\b",
+            re.IGNORECASE,
+        ),
         [
             "relacionamentos/mapa_relacional_geral.md",
             "relacionamentos/ryan_relacionamentos.md",
             "relacionamentos/crew_relacionamentos.md",
+        ],
+    ),
+    (
+        _PACK_RECRUIT_RE,
+        [
+            "pulso_do_mundo/pack_badlands/recrutas.md",
+            "fichas/npc/tomas_recruit.md",
         ],
     ),
     (
@@ -233,7 +308,12 @@ def _priority_tuple(rel: str, priority_prefixes: tuple[str, ...]) -> tuple[int, 
 
 
 def prioritize_paths_for_ollama(paths: list[Path], channel: str | None = None) -> list[Path]:
-    priority = OLLAMA_MESTRE_PRIORITY if channel == "mestre" else OLLAMA_FILE_PRIORITY
+    if channel == "mestre":
+        priority = OLLAMA_MESTRE_PRIORITY
+    elif channel == "sistema":
+        priority = OLLAMA_SISTEMA_PRIORITY
+    else:
+        priority = OLLAMA_FILE_PRIORITY
     return sorted(
         paths,
         key=lambda path: _priority_tuple(path.relative_to(REPO_ROOT).as_posix(), priority),
@@ -252,7 +332,9 @@ def select_context_files(
     if provider == "ollama" and max_files == 10:
         if session_intent == "summary":
             effective_max = 6
-        elif channel in {"mestre", "sistema"}:
+        elif channel == "sistema":
+            effective_max = 6
+        elif channel == "mestre":
             effective_max = 5
         else:
             effective_max = DEFAULT_OLLAMA_MAX_CONTEXT_FILES
@@ -266,6 +348,32 @@ def select_context_files(
 
     if channel == "sistema":
         selected = set(SISTEMA_BASE_CONTEXT)
+        if _CAMPAIGN_BRIEF_RE.search(user_message):
+            selected.update(
+                [
+                    "sistema/dashboard_contexto.md",
+                    "board/board_campanha.md",
+                    "sistema/instrucoes_projeto.md",
+                    "sistema/diretrizes_ia.md",
+                    "event_queue.md",
+                ]
+            )
+            latest_log = latest_session_log_path()
+            if latest_log is not None:
+                selected.add(latest_log.relative_to(REPO_ROOT).as_posix())
+        if (
+            _FICHA_LIST_RE.search(user_message)
+            or _FICHA_LOOKUP_RE.search(user_message)
+            or _ROLE_FICHA_RE.search(user_message)
+            or re.search(r"\balex\b", user_message, re.IGNORECASE)
+        ):
+            selected.add("sistema/instrucoes_projeto.md")
+            if re.search(r"netrunner|\balex\b", user_message, re.IGNORECASE):
+                selected.add("fichas/netrunner - alex_specter_kane.md")
+            if re.search(r"nomad|valk|lena", user_message, re.IGNORECASE):
+                selected.add("fichas/nomad - lena_valk_kane.md")
+            if re.search(r"techie|ryan", user_message, re.IGNORECASE):
+                selected.add("fichas/techie - ryan_wireghost_voss.md")
         if _UPDATE_PREVIEW_RE.search(user_message):
             selected.update(
                 [
@@ -277,24 +385,37 @@ def select_context_files(
                     "event_queue.md",
                 ]
             )
-        elif _FICHA_PATH_RE.search(user_message) or _INFO_QUESTION_RE.search(user_message):
-            selected.update(
-                [
-                    "sistema/como_atualizar_arquivos.md",
-                    "board/board_campanha.md",
-                ]
-            )
         elif _TECH_QUESTION_RE.search(user_message):
             selected.update(["sistema/arquitetura_narracao_solo.md", "README.md"])
     elif channel == "mestre":
         selected = set(MESTRE_BASE_CONTEXT)
-        if _INFO_QUESTION_RE.search(user_message):
+        if _PACK_RECRUIT_RE.search(user_message) or _TRAITOR_SUSPICION_RE.search(user_message):
+            selected.update(
+                [
+                    "fichas/npc/tomas_recruit.md",
+                    "pulso_do_mundo/pack_badlands/recrutas.md",
+                ]
+            )
+            if re.search(r"\bmara\b", user_message, re.IGNORECASE):
+                selected.add("fichas/npc/mara_recruit.md")
+            if re.search(r"\belias\b", user_message, re.IGNORECASE):
+                selected.add("fichas/npc/elias_recruit.md")
+        if _CREW_MEMBERSHIP_RE.search(user_message) or _POLYCULE_QUESTION_RE.search(
+            user_message
+        ):
+            selected.update(
+                [
+                    "relacionamentos/crew_relacionamentos.md",
+                    "relacionamentos/crew_polycule_ryan_valk_alex_reina.md",
+                ]
+            )
+        elif _INFO_QUESTION_RE.search(user_message):
             selected.update(["relacionamentos/ryan_relacionamentos.md"])
         if _TIMELINE_QUESTION_RE.search(user_message):
             selected.update(
                 [
                     "relacionamentos/crew_polycule_ryan_valk_alex_reina.md",
-                    "board/board_campanha.md",
+                    "relacionamentos/crew_relacionamentos.md",
                 ]
             )
         for pattern, files in INTENT_RULES:
@@ -313,6 +434,10 @@ def select_context_files(
             path
             for path in paths
             if path.relative_to(REPO_ROOT).as_posix() not in OLLAMA_SKIP_CONTEXT
+            or (
+                channel == "sistema"
+                and path.relative_to(REPO_ROOT).as_posix() in SISTEMA_OLLAMA_KEEP
+            )
         ]
         paths = prioritize_paths_for_ollama(paths, channel=channel)
 
@@ -336,6 +461,28 @@ def compact_board_npcs(path: Path, max_chars: int = 1800) -> str:
     if len(text) > start + max_chars:
         excerpt += "\n\n[...board truncado...]\n"
     return excerpt
+
+
+def _sistema_needs_ficha_index(user_message: str) -> bool:
+    return bool(
+        _FICHA_LIST_RE.search(user_message)
+        or _FICHA_LOOKUP_RE.search(user_message)
+        or _ROLE_FICHA_RE.search(user_message)
+        or re.search(r"\balex\b", user_message, re.IGNORECASE)
+    )
+
+
+def _build_fichas_index_block() -> str:
+    sheets = list_campaign_sheets()
+    if not sheets:
+        return ""
+    lines = [
+        "### Indice de fichas (gerado do disco — fonte autoritativa para paths)",
+        "",
+    ]
+    for item in sheets:
+        lines.append(f"- `{item['rel']}` — papel: {item['role']}")
+    return "\n".join(lines)
 
 
 def _ollama_mode_hint(mode: str) -> str:
@@ -695,18 +842,37 @@ def _build_ollama_prompt(
             history=history,
         )
     if channel == "sistema":
+        history_block = format_history_block(history, max_chars=2000) if history else ""
+        fichas_index = _build_fichas_index_block() if _sistema_needs_ficha_index(user_message) else ""
         header_parts = [
             "Voce e o assistente do canal SISTEMA (meta-tecnico).",
             "Responda APENAS o que o jogador pediu. Nao recite manuais nem listas genericas de boas praticas.",
             "",
             "## Regras",
             "- Portugues direto, 2-8 linhas. Bullets curtos so quando listar arquivos ou passos concretos.",
-            "- Se perguntarem caminho de ficha/arquivo: confirme ou corrija com path exato do contexto (ex: fichas/nomad - lena_valk_kane.md).",
+            "- Para fichas: use SOMENTE paths do Indice de fichas ou de sistema/registro_arquivos.md. Nao invente nem troque papeis (ex: Lena Valk = nomad, Alex = netrunner).",
+            "- Arquivos em relacionamentos/ NAO sao fichas — sao mapas de relacao. Fichas mecanicas ficam em fichas/.",
+            "- Se perguntarem caminho de ficha: path exato + arquivo de relacionamentos correspondente quando existir.",
             "- Se pedirem resumo de atualizacoes: liste arquivos ESPECIFICOS e O QUE revisar em cada um com base no contexto; nao repita templates de como_atualizar.",
-            "- Se nao houver historico da sessao no contexto, diga isso em 1 linha e proponha candidatos a revisao a partir do estado atual dos arquivos.",
             "- Perguntas sobre LLM/API: resposta curta e objetiva (sim/nao + detalhe tecnico).",
             "- Historia/cenas/canon de jogo: indique canal Mestre ou Narracao em 1 linha.",
             "- PROIBIDO: 'Vamos la', 'Ola', 'Como assistente', menus A/B/C, narrar cenas.",
+            "",
+            "## Exemplo (resumo da campanha / brief)",
+            "Pergunta: Como funciona o resumo da campanha? Quais arquivos consulta?",
+            "Resposta: O painel Resumo Ate Aqui vem de GET /api/brief (motor/brief_service.py). Fontes tipicas:",
+            "- sistema/dashboard_contexto.md — situacao com o Pack",
+            "- board/board_campanha.md — missao, pistas, NPCs",
+            "- logs/sessao_resumo_XXX.md — ultima sessao salva",
+            "Objetivos de curto prazo tambem usam event_queue.md e heat.md.",
+            "",
+            "## Exemplo (listar fichas)",
+            "Pergunta: quais fichas voce tem na pasta fichas?",
+            "Resposta: Liste do Indice de fichas abaixo, agrupando crew (fichas/*.md), npc/ e notas_narrador/.",
+            "",
+            "## Exemplo (netrunner)",
+            "Pergunta: qual a ficha da netrunner?",
+            "Resposta: fichas/netrunner - alex_specter_kane.md (Alex Specter Kane). Relacionamentos: relacionamentos/alex_specter_kane_relacionamentos.md. Lena Valk e nomad: fichas/nomad - lena_valk_kane.md.",
             "",
             "## Exemplo (caminho de ficha)",
             "Pergunta: a ficha da Lena Valk e fichas/nomad - lena_valk_kane.md?",
@@ -722,10 +888,20 @@ def _build_ollama_prompt(
             "",
             "## Pergunta do jogador",
             user_message,
-            "",
-            "## Contexto",
         ]
+        if history_block:
+            header_parts.extend(
+                [
+                    "",
+                    "## Historico do canal Sistema",
+                    history_block,
+                ]
+            )
+        if fichas_index:
+            header_parts.extend(["", fichas_index])
+        header_parts.extend(["", "## Contexto"])
     elif channel == "mestre":
+        history_block = format_history_block(history, max_chars=2500) if history else ""
         header_parts = [
             "Voce e o MESTRE off-game (meta). O jogador conversa FORA da cronologia oficial.",
             "Papel: tirar duvidas de canon, separar estado atual de planos futuros, sugerir ajustes em arquivos.",
@@ -734,9 +910,18 @@ def _build_ollama_prompt(
             "",
             "## Formato obrigatorio",
             "- Tom de mesa de RPG (2-8 linhas). Listas em bullet quando listar pessoas.",
+            "- Responda PRIMEIRO a pergunta literal do jogador (ex: 'ja virou traidor?' -> nao confirmado / gancho aberto).",
             "- Use rotulos curtos SOMENTE para duvidas de canon: Canon atual: / Plano futuro: / Sugestao de registro:",
             "- PROIBIDO: narrar cena, downtime jogavel, menus, opcoes numeradas, perguntas de volta.",
+            "- PROIBIDO: desviar para polycule/harem ou romance futuro (Reina, Alex) se a pergunta for sobre NPCs do Pack em Badlands.",
             "- PROIBIDO: tratar Alex, Reina, Kaz, Doc e Jax como recrutas do Pack em Badlands (sao crew futura em Night City).",
+            "",
+            "## Exemplo (suspeita / traidor)",
+            "Pergunta: Tomas parece nervoso — o NPC ja se tornou traidor?",
+            "Resposta:",
+            "Canon atual: nao. Tomas e recruta do Pack sob monitoramento; nervosismo/inquietacao registrados, sem prova de traição.",
+            "Ryan desconfia mas o Vesper nao achou transmissao ativa; gancho aberto (infiltrado, trauma ou falso positivo).",
+            "Sugestao de registro: manter tensao sem confirmar vilao ate jogada do jogador; atualizar ficha se houver incidente.",
             "",
             "## Exemplo (timeline)",
             "Pergunta: Reina, Alex, Jax e Kaz ja estao na crew agora?",
@@ -754,9 +939,16 @@ def _build_ollama_prompt(
             "",
             "## Pergunta do jogador",
             user_message,
-            "",
-            "## Contexto",
         ]
+        if history_block:
+            header_parts.extend(
+                [
+                    "",
+                    "## Historico do canal Mestre (contexto off-game)",
+                    history_block,
+                ]
+            )
+        header_parts.extend(["", "## Contexto"])
     else:
         history_block = format_history_block(history, max_chars=3500) if history else ""
         player_block = format_player_message_for_prompt(parse_player_message(user_message))
