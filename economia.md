@@ -1,6 +1,6 @@
 # Economia Persistente
 
-**Última atualização:** 04 de Julho de 2026
+**Última atualização:** 05 de Julho de 2026
 
 ## Situação Financeira - Ryan "Wireghost" Voss
 
@@ -20,6 +20,7 @@
 | **Badlands Node v0.1** | **Aprovado — protótipo a iniciar** | Blueprint + delegação Mara/Tomas/Elias |
 | Destilaria        | Elias responsável autônomo       | Visão de excedente econômico integrada ao Node |
 | Materiais         | Depósito + saque Torre Raffen (04/07) | Peças veículos, munição, ferramentas, rádios antigos |
+| **Casas modulares** | Piloto em planejamento (05/07) | Scav de containers pendente; ~90 m² modular expansível |
 
 ## Observações Econômicas Gerais
 
@@ -40,6 +41,6 @@
 ## Referências
 
 - [Board](board/board_campanha.md) · [Consequências](consequencias/consequencias_persistentes.md) · [Dashboard](sistema/dashboard_contexto.md)
-- [Ficha Ryan](fichas/techie%20-%20ryan_wireghost_voss.md) · [Downtime](logs/downtime_ryan.md) · [Sessão 008](logs/sessao_resumo_008.md)
+- [Ficha Ryan](fichas/techie%20-%20ryan_wireghost_voss.md) · [Downtime](logs/downtime_ryan.md) · [Sessão 009](logs/sessao_resumo_009.md)
 - Relacionados: [Reputação](reputacao.md) · [Heat](heat.md) · [Event Queue](event_queue.md)
 - [Pack Badlands](facoes/pack_badlands.md)

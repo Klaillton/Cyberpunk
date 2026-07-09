@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 04 de Julho de 2026 (sessão 008)
+**Última atualização:** 05 de Julho de 2026 (sessão 009)
 
 ---
 
@@ -24,7 +24,7 @@
 
 **Status:** Namorando (relação consolidada e profunda)  
 **Intensidade:** Alta  
-**Última atualização:** 04 de Julho de 2026 (sessão 008)
+**Última atualização:** 05 de Julho de 2026 (sessão 009)
 
 **Evolução conhecida:**
 
@@ -49,6 +49,13 @@
 - Manhã com Valk no refeitório; Ryan investigou prisioneiro Raffen e planejou a operação na torre.
 - Valk conduziu extração dos reféns no Mule; Ryan eliminou Reaper e braços em solo.
 - Pós-operação: banho, refeição, carinho e humor com Valk na tenda.
+
+**Atualização da sessão (04–05/07):**
+
+- Pós-operação: descompressão na tenda (desconexão/memória, sono profundo); intimidade prolongada na manhã seguinte.
+- Ryan apresentou projeto secreto de casas modulares dobráveis; Valk engajada na organização do scav.
+- Noite no perímetro: Ryan cantou para Valk e compartilhou memória vaga da “tia”; Valk acolheu com carinho.
+- 05/07: Ryan retomou supervisão técnica; Valk prepara incursão de containers com Rusty/Jax.
 
 **Estado atual:**
 
@@ -144,7 +151,7 @@
 **Status:** Hospedagem + Integração em andamento  
 **Confiança geral com o Pack:** Média-Alta (em crescimento)  
 **Duração prevista:** Indefinida  
-**Última atualização:** 04 de Julho de 2026 (sessão 008)
+**Última atualização:** 05 de Julho de 2026 (sessão 009)
 
 **Líder do Pack:** Reyes
 

@@ -2,22 +2,22 @@
 
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
-**Última atualização:** 04 de Julho de 2026 — fim da manhã (sessão 008)
+**Última atualização:** 05 de Julho de 2026 — manhã (sessão 009)
 
 ---
 
 ## 1. Situação Atual com o Pack de Badlands
 
 **Fonte principal:** `consequencias/consequencias_persistentes.md` + `relacionamentos/ryan_relacionamentos.md`  
-**Última verificação:** 04/07/2026  
+**Última verificação:** 05/07/2026  
 **Validade sugerida:** 5 dias
 
 **Resumo:**
 
-- **Operação Torre Raffen concluída (04/07):** 6 reféns salvos; Reaper e braços neutralizados; moral do pack elevado.
-- **Vigilância elevada** recomendada (heat residual Raffen).
-- **Badlands Node v0.1** aprovado (03/07) — protótipo piloto pendente.
-- Núcleo técnico: Mara (água/bio), Tomas (mecânica), Elias (destilaria).
+- **Operação Torre Raffen concluída (04/07):** 6 reféns salvos; vigilância elevada mantida.
+- **Badlands Node v0.1** em execução — destilaria e estufa progredindo (Mara, Tomas, Elias).
+- **Casas modulares dobráveis** — piloto em segredo; scav de containers planejado (Valk + Rusty/Jax).
+- Ryan retomou supervisão técnica após descompressão com Valk.
 - Reputação com o Pack: **+65 (Muito Positiva)**.
 
 ---
@@ -25,14 +25,14 @@
 ## 2. Relação com Lena "Valk" Kane
 
 **Fonte principal:** `relacionamentos/ryan_relacionamentos.md`  
-**Última verificação:** 04/07/2026  
+**Última verificação:** 05/07/2026  
 **Validade sugerida:** 7 dias
 
 **Resumo:**
 
 - Relação **consolidada e profunda**.
-- **04/07:** Valk extraiu reféns no Mule; pós-operação com banho, carinho e humor na tenda.
-- Ryan com episódio breve de desconexão/memória (03/07 noite); Valk acolheu.
+- **04–05/07:** Intimidade pós-operação; projeto casas modulares em segredo; momento musical vulnerável no perímetro (memória da “tia”).
+- Valk organiza scav; Ryan supervisiona núcleo técnico.
 
 ---
 
@@ -53,11 +53,12 @@
 ## 4. Eventos Importantes Pendentes
 
 **Fonte principal:** `event_queue.md`  
-**Última verificação:** 04/07/2026  
+**Última verificação:** 05/07/2026  
 **Validade sugerida:** 7 dias
 
 **Principais eventos ativos:**
 
+- Scav containers — casas modulares (E009)
 - Vigilância pós-operação Raffen (E008)
 - Implementação Badlands Node v0.1 (E007)
 - Investigação Biotechnica

@@ -1,6 +1,6 @@
 # Consequências Persistentes
 
-**Última atualização:** 04 de Julho de 2026 (fim da manhã — sessão 008)
+**Última atualização:** 05 de Julho de 2026 (manhã — sessão 009)
 
 ---
 
@@ -169,7 +169,21 @@ Pós-operação: Ryan descomprime com Valk (banho, carinho, humor, intimidade le
 - Relação Ryan × Valk reforçada (apoio na extração + cuidado mútuo no retorno).
 - Ryan reafirmado como operador Wireghost e consultor tático do pack (Reyes).
 
-**Última atualização:** 04 de Julho de 2026 (fim da manhã)
+## 04 a 05 de Julho de 2026 - Pós-Operação Raffen: Descompressão, Casas Modulares e Retomada Técnica (sessão 009)
+
+Após a Operação Torre Raffen (registrada na sessão 008), Ryan passou período de descompressão com Valk: sono profundo pós-missão, intimidade prolongada, apresentação do projeto de **casas modulares dobráveis** (containers expansíveis ~30→90 m², segredo até protótipo) e planejamento de scav.
+
+No perímetro, Ryan cantou para Valk (*Hurt*, *Sleeping in the Cold Below*, entre outras) e compartilhou memória fragmentada de uma “tia” da infância na rua — gatilho emocional adicional.
+
+Na manhã de 05/07, Ryan retomou supervisão do núcleo técnico (Tomas, Mara, Elias): destilaria e estufa em progresso consistente; Valk organizou scav de containers com Rusty/Jax.
+
+**Impactos:**
+
+- Projeto piloto de habitação modular adicionado ao pipeline de infraestrutura do Pack (pendente de material).
+- Relação Ryan × Valk aprofundada (vulnerabilidade musical + cumplicidade no projeto secreto).
+- Núcleo de recrutas validado em execução autônoma; Ryan retorna como arquiteto/supervisor.
+
+**Última atualização:** 05 de Julho de 2026 (manhã)
 
 ---
 
@@ -187,4 +201,4 @@ Pós-operação: Ryan descomprime com Valk (banho, carinho, humor, intimidade le
 - [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
 - [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Facções](../relacionamentos/faccao_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- [Sessão 007](../logs/sessao_resumo_007.md) · [Última sessão (008)](../logs/sessao_resumo_008.md) · [Downtime](../logs/downtime_ryan.md)
+- [Sessão 007](../logs/sessao_resumo_007.md) · [Sessão 008](../logs/sessao_resumo_008.md) · [Última sessão (009)](../logs/sessao_resumo_009.md) · [Downtime](../logs/downtime_ryan.md)

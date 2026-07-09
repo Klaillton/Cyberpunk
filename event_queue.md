@@ -1,6 +1,6 @@
 # Fila de Eventos do Mundo (Event Queue)
 
-**Última atualização:** 04 de Julho de 2026
+**Última atualização:** 05 de Julho de 2026
 
 ## Eventos Ativos / Pendentes
 
@@ -14,6 +14,7 @@
 | E006 | Possível retaliação ou abordagem da Biotechnica  | Potencial    | Alta       | Médio prazo      | Ainda não ativado                                          |
 | E007 | Implementação **Badlands Node v0.1** (protótipo Água + Biodigestor) | Em andamento | Alta | Curto prazo | Aprovado 03/07 — ver [sessao_resumo_007](logs/sessao_resumo_007.md) |
 | E008 | Vigilância pós-operação **Torre Raffen** | Em andamento | Alta | 3–7 dias | 6 reféns salvos; heat residual Raffen — ver [sessao_resumo_008](logs/sessao_resumo_008.md) |
+| E009 | **Scav containers** — protótipo casas modulares dobráveis | Em andamento | Alta | Curto prazo | Valk organiza com Rusty/Jax; segredo até piloto — ver [sessao_resumo_009](logs/sessao_resumo_009.md) |
 
 ## Eventos Resolvidos (Recentes)
 

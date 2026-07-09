@@ -1,7 +1,7 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** 04 de Julho de 2026 (fim da manhã) — próximo dia in-game: **05/07/2026**  
-**Local:** Acampamento do Pack Nômade de Badlands — tenda de Ryan & Valk (pós-operação)
+**Data Atual:** 05 de Julho de 2026 (manhã) — área técnica do Pack  
+**Local:** Acampamento do Pack Nômade de Badlands — supervisão técnica (Tomas, Mara, Elias)
 
 ---
 
@@ -9,17 +9,18 @@
 
 Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foco atual é:
 
-- **Pós-operação Torre Raffen:** debrief concluído; 6 reféns recuperados; ameaça local neutralizada.
-- **Vigilância elevada** no pack (possível retaliação Raffen residual).
-- Retomar implementação do **Badlands Node v0.1** (protótipo Água + Biodigestor).
-- Coordenar núcleo técnico (Mara, Tomas, Elias).
-- Equilibrar vida pessoal com Valk e monitoramento de Tomas.
+- **Pós-operação Torre Raffen (04/07):** debrief concluído; 6 reféns recuperados; vigilância elevada mantida.
+- Retomar supervisão do núcleo técnico após descompressão com Valk.
+- **Badlands Node v0.1** — protótipo piloto em execução (Mara, Tomas, Elias).
+- **Casas modulares dobráveis** — projeto piloto em segredo (containers expansíveis ~90 m²); scav de material planejado.
+- Equilibrar vida pessoal com Valk e monitoramento dos recrutas.
 
-**Prioridade atual:** Segurança do pack + execução do Badlands Node v0.1.
+**Prioridade atual:** Validar progresso técnico (destilaria/estufa/Node) + iniciar scav para protótipo de habitação modular.
 
 **Projetos em andamento:**
 
-- **Badlands Node v0.1** — aprovado (03/07); protótipo a iniciar.
+- **Badlands Node v0.1** — aprovado (03/07); protótipo em execução.
+- **Casas modulares dobráveis** — blueprint definido; material pendente (scav).
 - Destilaria — Elias (autonomia integrada ao Node).
 - Estufa modular — Mara (ciclo biológico/água).
 - Tendas modulares — concluídas.
@@ -31,6 +32,7 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 - **Operação Torre Raffen (04/07):** Reaper e braços eliminados; 6 reféns salvos; saque parcial (peças, munição, ferramentas, rádios antigos).
 - Perímetro defensivo, Mule atualizado, materiais para protótipo Node no depósito.
 - Reyes aprovou Badlands Node v0.1 (03/07).
+- Containers no site de incursão anterior identificados como alvo de scav (05/07).
 
 ---
 
@@ -39,6 +41,7 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 - Wireghost reafirmado no pack após operação silenciosa na torre.
 - Possível heat residual com outros grupos Raffen.
 - Biotechnica pode estar investigando discretamente.
+- Projeto de casas modulares mantido em segredo até protótipo.
 
 ---
 
@@ -46,12 +49,12 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 
 | Nome                 | Papel                  | Relação com Ryan                  | Notas |
 |----------------------|------------------------|-----------------------------------|-------|
-| **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Extração reféns no Mule (04/07) |
-| **Reyes** | Líder do Pack | Confiança estratégica e operacional | Debrief pós-torre · [ficha](../fichas/npc/reyes.md) |
+| **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Organiza scav containers (05/07) |
+| **Reyes** | Líder do Pack | Confiança estratégica e operacional | Ciente da scav planejada · [ficha](../fichas/npc/reyes.md) |
 | **Tio Gringo** | Ferreiro | Alta estima | Node v0.1 · [ficha](../fichas/npc/tio_gringo.md) |
-| **Rusty** | Garagem/veículos | Colaborador técnico | [ficha implícita no pack] |
-| **Mara** | Recruta (Med/Hidro) | Parceira Node | Água/bio · [ficha](../fichas/npc/mara_recruit.md) |
-| **Elias** | Recruta (Refinaria) | Autonomia destilaria | [ficha](../fichas/npc/elias_recruit.md) |
+| **Rusty** | Garagem/veículos | Colaborador técnico | Apoio à scav com Valk |
+| **Mara** | Recruta (Med/Hidro) | Parceira Node | Estufa em progresso · [ficha](../fichas/npc/mara_recruit.md) |
+| **Elias** | Recruta (Refinaria) | Autonomia destilaria | Destilaria em progresso · [ficha](../fichas/npc/elias_recruit.md) |
 | **Tomas** | Recruta (Mecânica) | Monitoramento | Mecânica Node · [ficha](../fichas/npc/tomas_recruit.md) |
 
 ---
@@ -67,7 +70,7 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 
 ---
 
-**Última atualização:** 04 de Julho de 2026 (sessão 008)
+**Última atualização:** 05 de Julho de 2026 (sessão 009)
 
 ---
 
@@ -79,4 +82,4 @@ Ryan "Wireghost" Voss está em **downtime** no Pack Nômade de Badlands. Seu foc
 
 **Facções:** [Pack Badlands](../facoes/pack_badlands.md) · [Facções Gerais](../facoes/faccoes_geral.md) · [Rel. Facções](../relacionamentos/faccao_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 008](../logs/sessao_resumo_008.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 009](../logs/sessao_resumo_009.md)
