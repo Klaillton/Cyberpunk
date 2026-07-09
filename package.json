@@ -9,6 +9,7 @@
     "test:slow": "python -m pytest tests/integration/test_ollama_smoke.py -m slow -v",
     "index:rebuild": "python scripts/rebuild_index.py",
     "test:e2e": "playwright test",
+    "test:e2e:safe": "pwsh -NoProfile -File scripts/run-e2e.ps1",
     "test:e2e:ui": "playwright test --ui",
     "test:all": "npm run test:unit && npm run test:e2e"
   },
