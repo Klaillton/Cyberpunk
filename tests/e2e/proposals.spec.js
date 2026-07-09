@@ -1,5 +1,6 @@
 // @ts-check
 const { test, expect } = require("@playwright/test");
+const { openCascadeItem } = require("./helpers");
 
 test.describe("Propostas de atualizacao", () => {
   test("ingere proposta via API e aprova pela UI", async ({ page, request }) => {
@@ -43,8 +44,11 @@ test.describe("Propostas de atualizacao", () => {
     expect(ingestBody.proposals.length).toBeGreaterThan(0);
 
     await page.goto("/");
-    await page.locator("#btnGroupSessao").click();
-    await page.locator('[data-testid="sessao-propostas"]').click();
+    await openCascadeItem(
+      page,
+      "#btnGroupSessao",
+      page.locator('[data-testid="sessao-propostas"]'),
+    );
     const drawer = page.locator("#proposalsDrawer");
     await expect(drawer.getByText(rationale)).toBeVisible();
     await drawer.getByRole("button", { name: "Aprovar", exact: true }).click();

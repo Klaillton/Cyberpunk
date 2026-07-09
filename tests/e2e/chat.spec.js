@@ -1,12 +1,5 @@
 const { test, expect } = require("@playwright/test");
-
-async function selectChannel(page, label) {
-  await page.locator("#btnGroupCanais").click();
-  await page
-    .locator("#canaisSubmenu .submenu-item")
-    .filter({ hasText: label })
-    .click();
-}
+const { selectChannel } = require("./helpers");
 
 test.describe("Chat e canais", () => {
   test.beforeEach(async ({ page }) => {

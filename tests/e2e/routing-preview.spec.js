@@ -1,4 +1,5 @@
 const { test, expect } = require("@playwright/test");
+const { openCascadeItem, selectChannel } = require("./helpers");
 
 test.describe("Preview de roteamento", () => {
   test.beforeEach(async ({ page }) => {
@@ -48,8 +49,11 @@ test.describe("Preview de roteamento", () => {
       });
     });
 
-    await page.locator("#btnGroupSessao").click();
-    await page.locator('[data-testid="sessao-roteamento"]').click();
+    await openCascadeItem(
+      page,
+      "#btnGroupSessao",
+      page.locator('[data-testid="sessao-roteamento"]'),
+    );
     await expect(page.locator("#routingDrawer")).not.toHaveClass(/is-hidden/);
     await expect(page.locator("#routingPolicyLine")).toContainText("local_only");
     await expect(page.locator("#routingPolicyLine")).toContainText("ollama");
@@ -107,10 +111,12 @@ test.describe("Preview de roteamento", () => {
       });
     });
 
-    await page.locator("#btnGroupCanais").click();
-    await page.locator("#canaisSubmenu .submenu-item", { hasText: "Mestre off-game" }).click();
-    await page.locator("#btnGroupSessao").click();
-    await page.locator('[data-testid="sessao-roteamento"]').click();
+    await selectChannel(page, "Mestre off-game");
+    await openCascadeItem(
+      page,
+      "#btnGroupSessao",
+      page.locator('[data-testid="sessao-roteamento"]'),
+    );
     await page.locator("#routingPreviewInput").fill("O Reyes esta confiavel?");
     await page.locator("#routingPreviewBtn").click();
 

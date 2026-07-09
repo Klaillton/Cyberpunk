@@ -232,6 +232,12 @@ body {
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45);
 }
 
+/* Sessao/Canais ficam perto do footer — submenu abre para cima */
+.side-actions .menu-group:nth-last-child(-n + 2) .submenu {
+  top: auto;
+  bottom: 0;
+}
+
 .submenu-item {
   width: 100%;
   border: 0;
@@ -626,8 +632,14 @@ h1 {
   object-fit: cover;
 }
 
-body.menu-open .chat-footer {
+body.menu-open .chat-footer,
+body:has(.side-actions .submenu:not(.is-hidden)) .chat-footer {
   pointer-events: none;
+}
+
+body.menu-open .sidebar,
+body:has(.side-actions .submenu:not(.is-hidden)) .sidebar {
+  z-index: 50;
 }
 
 .chat-footer {
