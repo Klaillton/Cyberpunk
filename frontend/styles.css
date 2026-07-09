@@ -49,7 +49,6 @@ body {
 
 .app-shell {
   position: relative;
-  z-index: 1;
   max-width: 1180px;
   margin: 0 auto;
   padding: 1.2rem 1rem 7.2rem;
@@ -65,6 +64,8 @@ body {
 .sidebar {
   position: sticky;
   top: 1rem;
+  z-index: 30;
+  overflow: visible;
   background: rgba(8, 13, 24, 0.75);
   border: 1px solid rgba(95, 230, 210, 0.28);
   border-radius: 14px;
@@ -215,10 +216,13 @@ body {
 
 .submenu {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: calc(100% + 0.35rem);
-  z-index: 6;
+  left: calc(100% + 0.35rem);
+  right: auto;
+  top: 0;
+  min-width: 220px;
+  max-height: min(60vh, calc(100vh - 8rem));
+  overflow-y: auto;
+  z-index: 35;
   margin: 0;
   padding: 0.35rem;
   list-style: none;
@@ -541,11 +545,72 @@ h1 {
   font-size: 0.9rem;
 }
 
-.npc-message {
+.npc-message,
+.player-message-card.has-token {
   display: grid;
   grid-template-columns: 44px minmax(0, 1fr);
-  align-items: center;
+  align-items: start;
   gap: 0.65rem;
+}
+
+.narration-card.narrator {
+  border-color: rgba(95, 230, 210, 0.42);
+}
+
+.narration-card.narrator .narration-prefix {
+  color: rgba(156, 179, 204, 0.95);
+}
+
+.narration-card.npc-speech {
+  border-color: rgba(120, 190, 255, 0.38);
+}
+
+.narration-card.npc-speech .narration-prefix {
+  color: rgba(120, 190, 255, 0.95);
+}
+
+.narration-card.npc-action {
+  border-color: rgba(255, 214, 109, 0.35);
+}
+
+.narration-card.npc-action .narration-prefix {
+  color: rgba(255, 214, 109, 0.95);
+}
+
+.narration-card.opening-scene {
+  border-style: dashed;
+  background: rgba(11, 20, 33, 0.55);
+}
+
+.narration-card.opening-scene .opening-body {
+  line-height: 1.55;
+  color: rgba(214, 228, 244, 0.92);
+}
+
+.message-content {
+  min-width: 0;
+}
+
+.mode-btn.has-badge {
+  position: relative;
+  padding-right: 2rem;
+}
+
+.mode-btn .badge {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.45rem;
+}
+
+.legacy-compat-hidden {
+  position: fixed;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: auto;
 }
 
 .npc-token-link {
@@ -559,6 +624,10 @@ h1 {
   border-radius: 50%;
   border: 1px solid rgba(95, 230, 210, 0.45);
   object-fit: cover;
+}
+
+body.menu-open .chat-footer {
+  pointer-events: none;
 }
 
 .chat-footer {

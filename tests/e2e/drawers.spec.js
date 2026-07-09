@@ -1,5 +1,13 @@
 const { test, expect } = require("@playwright/test");
 
+async function openPersonagemItem(page, label) {
+  await page.locator("#btnGroupPersonagem").click();
+  await page
+    .locator("#personagemSubmenu .submenu-item")
+    .filter({ hasText: label })
+    .click();
+}
+
 test.describe("Drawers de Ficha e Journal", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("/");
@@ -9,7 +17,7 @@ test.describe("Drawers de Ficha e Journal", () => {
     const journalDrawer = page.locator("#journalDrawer");
     await expect(journalDrawer).toHaveClass(/is-hidden/);
 
-    await page.locator("#btnJournal").click();
+    await openPersonagemItem(page, "Journal");
     await expect(journalDrawer).not.toHaveClass(/is-hidden/);
     await expect(page.locator("#closeJournalBtn")).toBeVisible();
 
@@ -21,7 +29,7 @@ test.describe("Drawers de Ficha e Journal", () => {
     const fichaDrawer = page.locator("#fichaDrawer");
     await expect(fichaDrawer).toHaveClass(/is-hidden/);
 
-    await page.locator("#btnFicha").click();
+    await openPersonagemItem(page, "Ficha");
     await expect(fichaDrawer).not.toHaveClass(/is-hidden/);
     await expect(page.locator("#closeFichaBtn")).toBeVisible();
 
@@ -30,7 +38,7 @@ test.describe("Drawers de Ficha e Journal", () => {
   });
 
   test("ficha aparece acima da tela principal", async ({ page }) => {
-    await page.locator("#btnFicha").click();
+    await openPersonagemItem(page, "Ficha");
 
     const zIndex = await page.locator("#fichaDrawer").evaluate((el) => {
       const raw = window.getComputedStyle(el).zIndex;
@@ -42,7 +50,7 @@ test.describe("Drawers de Ficha e Journal", () => {
   });
 
   test("ficha mostra os campos reais do markdown", async ({ page }) => {
-    await page.locator("#btnFicha").click();
+    await openPersonagemItem(page, "Ficha");
 
     await expect(page.locator("#fichaDrawer")).toContainText("Aparência");
     await expect(page.locator("#fichaDrawer")).toContainText("Background");
@@ -63,20 +71,20 @@ test.describe("Drawers de Ficha e Journal", () => {
   test("journal persiste entrada apos recarregar", async ({ page }) => {
     const uniqueNote = `nota-e2e-${Date.now()}`;
 
-    await page.locator("#btnJournal").click();
+    await openPersonagemItem(page, "Journal");
     await page.locator("#journalInput").fill(uniqueNote);
     await page.locator("#journalForm .journal-submit").click();
     await expect(page.locator("#journalList")).toContainText(uniqueNote);
 
     await page.reload();
-    await page.locator("#btnJournal").click();
+    await openPersonagemItem(page, "Journal");
     await expect(page.locator("#journalList")).toContainText(uniqueNote);
   });
 
   test("journal exclui entrada com confirmacao", async ({ page }) => {
     const uniqueNote = `nota-delete-${Date.now()}`;
 
-    await page.locator("#btnJournal").click();
+    await openPersonagemItem(page, "Journal");
     await page.locator("#journalInput").fill(uniqueNote);
     await page.locator("#journalForm .journal-submit").click();
     await expect(page.locator("#journalList")).toContainText(uniqueNote);
@@ -106,9 +114,10 @@ test.describe("Drawers de Ficha e Journal", () => {
     await page.locator("#playerInput").fill("Observar arredores");
     await page.locator("#chatForm button[type='submit']").click();
 
-    const tokenLink = page.locator(".npc-token-link").last();
+    const npcCard = page.locator(".npc-message").last();
+    const tokenLink = npcCard.locator(".npc-token-link");
     await expect(tokenLink).toBeVisible();
-    await expect(page.locator(".npc-token").last()).toBeVisible();
+    await expect(npcCard.locator(".npc-token")).toBeVisible();
 
     const [popup] = await Promise.all([
       page.waitForEvent("popup"),

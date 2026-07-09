@@ -10,7 +10,8 @@ def test_build_campaign_brief_reads_campaign_files(repo_root) -> None:
     brief = build_campaign_brief(settings)
 
     assert brief["opening"]
-    assert "canal" in brief["opening"].lower()
+    assert "badlands" in brief["opening"].lower() or "pack" in brief["opening"].lower()
+    assert "canal de narração está aberto" not in brief["opening"].lower()
     assert len(brief["briefs"]) == 3
     ids = {item["id"] for item in brief["briefs"]}
     assert ids == {"summary", "objective_long", "objective_short"}

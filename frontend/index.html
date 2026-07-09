@@ -31,100 +31,91 @@
           </div>
 
           <nav class="side-actions" aria-label="Acoes">
-            <div class="menu-section">
-              <p class="menu-section-label">Campanha</p>
-              <div
-                id="briefSidebar"
-                class="brief-sidebar"
-                aria-label="Resumo e objetivos"
+            <div class="menu-group">
+              <button
+                type="button"
+                id="btnGroupCampanha"
+                class="mode-btn menu-trigger"
+                aria-haspopup="true"
+                aria-expanded="false"
               >
-                <p class="utility-hint">Carregando resumo...</p>
-              </div>
+                Campanha
+              </button>
+              <ul
+                id="campanhaSubmenu"
+                class="submenu is-hidden"
+                aria-label="Resumo e objetivos da campanha"
+              ></ul>
             </div>
 
-            <div class="menu-section">
-              <p class="menu-section-label">Personagem</p>
-              <button type="button" id="btnFicha" class="mode-btn">Ficha</button>
-              <button type="button" id="btnJournal" class="mode-btn">
-                Journal
+            <div class="menu-group">
+              <button
+                type="button"
+                id="btnGroupPersonagem"
+                class="mode-btn menu-trigger"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Personagem
               </button>
-              <div class="menu-group">
-                <button
-                  type="button"
-                  id="btnNpcs"
-                  class="mode-btn menu-trigger"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  NPCs
-                </button>
-                <ul
-                  id="npcSubmenu"
-                  class="submenu is-hidden"
-                  aria-label="Lista de NPCs"
-                ></ul>
-              </div>
+              <ul
+                id="personagemSubmenu"
+                class="submenu is-hidden"
+                aria-label="Ficha, journal e NPCs"
+              ></ul>
             </div>
 
-            <div class="menu-section">
-              <p class="menu-section-label">Sessao</p>
-              <div class="menu-group">
-                <button
-                  type="button"
-                  id="btnComandos"
-                  class="mode-btn menu-trigger"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Comandos
-                </button>
-                <ul
-                  id="commandsSubmenu"
-                  class="submenu is-hidden"
-                  aria-label="Comandos rapidos da sessao"
-                ></ul>
-              </div>
-              <button type="button" id="btnRouting" class="mode-btn mode-btn-muted">
-                Roteamento
+            <div class="menu-group">
+              <button
+                type="button"
+                id="btnGroupSessao"
+                class="mode-btn menu-trigger"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Sessao
               </button>
-              <button type="button" id="btnAdmin" class="mode-btn mode-btn-muted">
-                Admin
-              </button>
-              <button type="button" id="btnPropostas" class="mode-btn">
-                Propostas
-                <span id="proposalsBadge" class="badge is-hidden">0</span>
-              </button>
+              <ul
+                id="sessaoSubmenu"
+                class="submenu is-hidden"
+                aria-label="Comandos e ferramentas da sessao"
+              ></ul>
             </div>
 
-            <div class="menu-section menu-section-channels">
-              <p class="menu-section-label">Canais</p>
-              <div class="channel-switch" role="group" aria-label="Canais de conversa">
-                <button
-                  type="button"
-                  id="btnCanalNarracao"
-                  class="mode-btn channel-btn is-active"
-                  data-channel="narracao"
-                >
-                  Narracao
-                </button>
-                <button
-                  type="button"
-                  id="btnCanalMestre"
-                  class="mode-btn channel-btn"
-                  data-channel="mestre"
-                >
-                  Mestre
-                </button>
-                <button
-                  type="button"
-                  id="btnCanalSistema"
-                  class="mode-btn channel-btn"
-                  data-channel="sistema"
-                >
-                  Sistema
-                </button>
-              </div>
+            <div class="menu-group">
+              <button
+                type="button"
+                id="btnGroupCanais"
+                class="mode-btn menu-trigger"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Canais
+              </button>
+              <ul
+                id="canaisSubmenu"
+                class="submenu is-hidden"
+                aria-label="Canais de conversa"
+              ></ul>
             </div>
+
+            <!-- refs legadas para JS/e2e (visualmente ocultos, clicaveis) -->
+            <div id="briefSidebar" class="brief-sidebar legacy-compat-hidden" aria-hidden="true"></div>
+            <button type="button" id="btnFicha" class="legacy-compat-hidden" aria-hidden="true">Ficha</button>
+            <button type="button" id="btnJournal" class="legacy-compat-hidden" aria-hidden="true">Journal</button>
+            <button type="button" id="btnNpcs" class="legacy-compat-hidden" aria-hidden="true">NPCs</button>
+            <button type="button" id="btnComandos" class="legacy-compat-hidden" aria-hidden="true">Comandos</button>
+            <button type="button" id="btnRouting" class="legacy-compat-hidden" aria-hidden="true">Roteamento</button>
+            <button type="button" id="btnAdmin" class="legacy-compat-hidden" aria-hidden="true">Admin</button>
+            <button type="button" id="btnPropostas" class="legacy-compat-hidden" aria-hidden="true">
+              Propostas
+              <span id="proposalsBadge" class="badge is-hidden">0</span>
+            </button>
+            <button type="button" id="btnCanalNarracao" class="legacy-compat-hidden channel-btn is-active" data-channel="narracao">Narracao</button>
+            <button type="button" id="btnCanalMestre" class="legacy-compat-hidden channel-btn" data-channel="mestre">Mestre</button>
+            <button type="button" id="btnCanalSistema" class="legacy-compat-hidden channel-btn" data-channel="sistema">Sistema</button>
+            <ul id="npcSubmenu" class="submenu is-hidden" aria-hidden="true"></ul>
+            <ul id="commandsSubmenu" class="submenu is-hidden" aria-hidden="true"></ul>
           </nav>
         </aside>
 

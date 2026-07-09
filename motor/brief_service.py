@@ -94,24 +94,72 @@ def _latest_session_summary(settings: Settings) -> tuple[str, str]:
     return "", ""
 
 
-def _opening_line(
+def _spatial_description(dashboard_text: str) -> str:
+    spatial = _dashboard_section(dashboard_text, "6. Localização")
+    if not spatial:
+        return ""
+    for label in ("Descrição do local", "Descricao do local"):
+        value = _extract_metadata(spatial, label)
+        if value:
+            return value
+    return ""
+
+
+def _pack_scene_line(dashboard_text: str) -> str:
+    pack = _dashboard_section(dashboard_text, "1. Situação Atual com o Pack")
+    if not pack:
+        return ""
+    resume = _find_section(pack, "Resumo") if pack else ""
+    bullets = _bullet_lines(resume or pack, limit=2)
+    return bullets[0] if bullets else ""
+
+
+def _session_hook(session_detail: str) -> str:
+    if not session_detail.strip():
+        return ""
+    for raw in session_detail.splitlines():
+        line = raw.strip().lstrip("- ").strip()
+        if not line or line.startswith("**") or line.startswith("#"):
+            continue
+        if len(line) > 20:
+            return line
+    return ""
+
+
+def _build_opening_narrative(
     *,
     location: str,
     date: str,
     period: str,
-    mission_teaser: str,
+    dashboard: str,
+    session_detail: str,
 ) -> str:
-    parts: list[str] = []
+    """Abertura imersiva da cena — sem meta de 'canal aberto'."""
+    header_parts: list[str] = []
     if period and date:
-        parts.append(f"{period} — {date}.")
+        header_parts.append(f"**{period}** — {date}")
     elif date:
-        parts.append(f"{date}.")
+        header_parts.append(f"**{date}**")
     if location:
-        parts.append(location.rstrip(".") + ".")
-    if mission_teaser:
-        parts.append(mission_teaser.rstrip(".") + ".")
-    parts.append("O canal de narração está aberto.")
-    return " ".join(parts)
+        header_parts.append(location.rstrip("."))
+
+    body_parts: list[str] = []
+    spatial = _spatial_description(dashboard)
+    if spatial:
+        body_parts.append(spatial)
+    pack_line = _pack_scene_line(dashboard)
+    if pack_line and pack_line not in body_parts:
+        body_parts.append(pack_line)
+    hook = _session_hook(session_detail)
+    if hook and hook not in body_parts:
+        body_parts.append(hook)
+
+    if not body_parts:
+        body_parts.append("O acampamento desperta em movimento lento — fogueiras, ferramentas e vozes baixas.")
+
+    blocks = ["\n\n".join(header_parts)] if header_parts else []
+    blocks.append("\n\n".join(body_parts[:2]))
+    return "\n\n".join(block for block in blocks if block).strip()
 
 
 def _short_term_objective(event_text: str, board_text: str, dashboard_text: str) -> tuple[str, str, list[str]]:
@@ -218,12 +266,12 @@ def build_campaign_brief(settings: Settings | None = None) -> dict:
             if "heat.md" not in short_sources:
                 short_sources.append("heat.md")
 
-    mission_line = priority or ( _bullet_lines(mission, limit=1)[0] if mission else "")
-    opening = _opening_line(
+    opening = _build_opening_narrative(
         location=location,
         date=date,
         period=period,
-        mission_teaser=mission_line,
+        dashboard=dashboard,
+        session_detail=session_detail,
     )
 
     updated_sources = [

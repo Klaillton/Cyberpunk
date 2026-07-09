@@ -58,9 +58,19 @@ const npcCatalog = document.getElementById("npcCatalog");
 const closeNpcBtn = document.getElementById("closeNpcBtn");
 const adminDrawer = document.getElementById("adminDrawer");
 const closeAdminBtn = document.getElementById("closeAdminBtn");
+const btnGroupCampanha = document.getElementById("btnGroupCampanha");
+const campanhaSubmenu = document.getElementById("campanhaSubmenu");
+const btnGroupPersonagem = document.getElementById("btnGroupPersonagem");
+const personagemSubmenu = document.getElementById("personagemSubmenu");
+const btnGroupSessao = document.getElementById("btnGroupSessao");
+const sessaoSubmenu = document.getElementById("sessaoSubmenu");
+const btnGroupCanais = document.getElementById("btnGroupCanais");
+const canaisSubmenu = document.getElementById("canaisSubmenu");
 
 let activeChannel = "narracao";
 const CHARACTER_ID = "ryan_wireghost_voss";
+const RYAN_TOKEN_URL = `/api/character-image/${CHARACTER_ID}?variant=token`;
+const RYAN_IMAGE_URL = `/api/character-image/${CHARACTER_ID}`;
 const API_BASE =
   window.location.protocol.startsWith("http") && window.location.host
     ? `${window.location.protocol}//${window.location.host}`
@@ -280,36 +290,193 @@ function normalizeName(value) {
     .trim();
 }
 
-function parseNpcReply(reply) {
-  const text = String(reply || "").trim();
-  const tagged = text.match(/^\[(NPC(?:-F|-M)?)\s*:\s*([^\]]+)\]\s*(.+)$/i);
-  if (tagged) {
-    const tag = tagged[1].toUpperCase();
-    return {
-      isNpc: true,
-      name: tagged[2].trim(),
-      gender: tag.includes("-F") ? "female" : "male",
-      text: tagged[3].trim(),
+const SPEAKER_ALIASES = [
+  { pattern: /tio\s+gringo/i, name: "Tio Gringo", gender: "male" },
+  { pattern: /\bvalk\b|lena\s*[\"']?valk/i, name: "Lena Valk", gender: "female" },
+  { pattern: /\breyes\b/i, name: "Reyes", gender: "male" },
+  { pattern: /\bmara\b/i, name: "Mara", gender: "female" },
+  { pattern: /\belias\b/i, name: "Elias", gender: "male" },
+  { pattern: /\btomas\b/i, name: "Tomas", gender: "male" },
+  { pattern: /\bsasha\b/i, name: "Sasha", gender: "female" },
+  { pattern: /\blira\b/i, name: "Lira", gender: "female" },
+  { pattern: /\blina\b/i, name: "Lina", gender: "female" },
+];
+
+function resolveSpeakerFromCatalog(name) {
+  const norm = normalizeName(name);
+  if (!norm || !npcCatalogData.length) {
+    return null;
+  }
+  const hit = npcCatalogData.find((npc) => {
+    const npcNorm = normalizeName(npc.name);
+    return npcNorm.includes(norm) || norm.includes(npcNorm);
+  });
+  if (!hit) {
+    return null;
+  }
+  return {
+    name: hit.name,
+    gender: (hit.gender || "male").toLowerCase() === "female" ? "female" : "male",
+  };
+}
+
+function detectSpeaker(contextText) {
+  const slice = String(contextText || "").slice(-180);
+  for (const alias of SPEAKER_ALIASES) {
+    if (alias.pattern.test(slice)) {
+      return { name: alias.name, gender: alias.gender };
+    }
+  }
+  const nameMatch = slice.match(
+    /\b((?:Tio\s+Gringo|Lena\s*[\"']?Valk|Reyes|Mara|Elias|Tomas|Sasha|Lira|Lina))\b/i,
+  );
+  if (nameMatch) {
+    return resolveSpeakerFromCatalog(nameMatch[1]) || {
+      name: nameMatch[1],
+      gender: "male",
     };
   }
+  return null;
+}
 
-  const plain = text.match(/^([^:]{2,60}):\s*(.+)$/);
-  if (!plain) {
-    return { isNpc: false, text };
+function parseNpcTaggedLine(line) {
+  const tagged = line.match(/^\[(NPC(?:-F|-M)?)\s*:\s*([^\]]+)\]\s*(.+)$/i);
+  if (!tagged) {
+    return null;
   }
-
-  const speaker = plain[1].trim();
-  const speakerNorm = normalizeName(speaker);
-  if (["narrador", "mestre", "historia", "voce", "sistema"].includes(speakerNorm)) {
-    return { isNpc: false, text };
-  }
-
+  const tag = tagged[1].toUpperCase();
+  const body = tagged[3].trim();
+  const quoted = body.match(/^"([^"]+)"$/);
+  const starred = body.match(/^\*([^*]+)\*$/);
+  const explicitAction = /^\(acao\)\s*/i.test(body);
   return {
-    isNpc: true,
-    name: speaker,
-    gender: "male",
-    text: plain[2].trim(),
+    type: "npc",
+    name: tagged[2].trim(),
+    gender: tag.includes("-F") ? "female" : "male",
+    text: quoted
+      ? quoted[1]
+      : starred
+        ? starred[1].trim()
+        : body.replace(/^\(acao\)\s*/i, "").trim(),
+    action: Boolean(starred || explicitAction),
   };
+}
+
+function segmentNarrationReply(reply) {
+  const text = String(reply || "").trim();
+  if (!text) {
+    return [{ type: "narration", text: "" }];
+  }
+
+  const wholeTagged = parseNpcTaggedLine(text);
+  if (wholeTagged && text.match(/^\[NPC/i)) {
+    return [wholeTagged];
+  }
+
+  const segments = [];
+  let narrationBuffer = [];
+
+  const flushNarration = () => {
+    const chunk = narrationBuffer.join("\n\n").trim();
+    if (chunk) {
+      segments.push({ type: "narration", text: chunk });
+    }
+    narrationBuffer = [];
+  };
+
+  const paragraphs = text.split(/\n{2,}/);
+  paragraphs.forEach((paragraph) => {
+    const trimmed = paragraph.trim();
+    if (!trimmed) {
+      return;
+    }
+
+    const lineTagged = parseNpcTaggedLine(trimmed);
+    if (lineTagged) {
+      flushNarration();
+      segments.push(lineTagged);
+      return;
+    }
+
+    const quoteRe = /"([^"]+)"/g;
+    let lastIndex = 0;
+    let match;
+    let foundQuote = false;
+    while ((match = quoteRe.exec(trimmed)) !== null) {
+      foundQuote = true;
+      const before = trimmed.slice(lastIndex, match.index).trim();
+      if (before) {
+        narrationBuffer.push(before);
+      }
+      flushNarration();
+      const speaker =
+        detectSpeaker(trimmed.slice(0, match.index)) ||
+        detectSpeaker(before) ||
+        detectSpeaker(trimmed);
+      if (speaker) {
+        segments.push({
+          type: "npc",
+          name: speaker.name,
+          gender: speaker.gender,
+          text: match[1].trim(),
+          action: false,
+        });
+      } else {
+        narrationBuffer.push(`"${match[1].trim()}"`);
+      }
+      lastIndex = match.index + match[0].length;
+    }
+
+    const tail = trimmed.slice(lastIndex).trim();
+    if (foundQuote) {
+      if (tail) {
+        narrationBuffer.push(tail);
+      }
+      return;
+    }
+
+    const speakerLine = trimmed.match(/^([A-ZÀ-Ú][^:]{1,48}):\s*(.+)$/);
+    if (speakerLine) {
+      const speakerName = speakerLine[1].trim();
+      const speakerNorm = normalizeName(speakerName);
+      if (!["narrador", "mestre", "historia", "voce", "sistema"].includes(speakerNorm)) {
+        flushNarration();
+        const resolved = resolveSpeakerFromCatalog(speakerName) || {
+          name: speakerName,
+          gender: "male",
+        };
+        segments.push({
+          type: "npc",
+          name: resolved.name,
+          gender: resolved.gender,
+          text: speakerLine[2].trim().replace(/^"|"$/g, ""),
+          action: false,
+        });
+        return;
+      }
+    }
+
+    narrationBuffer.push(trimmed);
+  });
+
+  flushNarration();
+  if (!segments.length) {
+    segments.push({ type: "narration", text });
+  }
+  return segments;
+}
+
+function parseNpcReply(reply) {
+  const segments = segmentNarrationReply(reply);
+  if (segments.length === 1 && segments[0].type === "npc") {
+    return {
+      isNpc: true,
+      name: segments[0].name,
+      gender: segments[0].gender,
+      text: segments[0].text,
+    };
+  }
+  return { isNpc: false, text: reply };
 }
 
 async function fetchNpcAsset(name, gender) {
@@ -567,51 +734,79 @@ function prependSubmenuBack(submenu, triggerButton) {
   submenu.prepend(li);
 }
 
+function appendChatToken(card, tokenUrl, imageUrl, altLabel) {
+  const tokenLink = document.createElement("a");
+  tokenLink.className = "npc-token-link";
+  tokenLink.href = imageUrl || tokenUrl;
+  tokenLink.target = "_blank";
+  tokenLink.rel = "noreferrer";
+  tokenLink.title = `Abrir imagem de ${altLabel}`;
+
+  const tokenImg = document.createElement("img");
+  tokenImg.className = "npc-token";
+  setCoverImage(tokenImg, tokenUrl, 192, 192);
+  tokenImg.alt = `Token de ${altLabel}`;
+  tokenLink.appendChild(tokenImg);
+  card.appendChild(tokenLink);
+}
+
 function appendCard(text, role, options = {}) {
   const targetFeed = activeFeed();
   const card = document.createElement("article");
-  card.className = `narration-card ${role}`;
+  const cardRole = options.cardRole || role;
+  card.className = `narration-card ${role}${cardRole !== role ? ` ${cardRole}` : ""}`;
+
+  if (options.playerTokenUrl) {
+    card.classList.add("player-message-card", "has-token");
+    appendChatToken(
+      card,
+      options.playerTokenUrl,
+      options.playerImageUrl,
+      options.playerName || "Ryan",
+    );
+  }
 
   if (options.npcTokenUrl) {
-    card.classList.add("npc-message");
-    const tokenLink = document.createElement("a");
-    tokenLink.className = "npc-token-link";
-    tokenLink.href = options.npcImageUrl || options.npcTokenUrl;
-    tokenLink.target = "_blank";
-    tokenLink.rel = "noreferrer";
-    tokenLink.title = `Abrir imagem de ${options.npcName || "NPC"}`;
-
-    const tokenImg = document.createElement("img");
-    tokenImg.className = "npc-token";
-    setCoverImage(tokenImg, options.npcTokenUrl, 192, 192);
-    tokenImg.alt = `Token de ${options.npcName || "NPC"}`;
-    tokenLink.appendChild(tokenImg);
-    card.appendChild(tokenLink);
+    card.classList.add("npc-message", options.npcAction ? "npc-action" : "npc-speech");
+    appendChatToken(
+      card,
+      options.npcTokenUrl,
+      options.npcImageUrl || options.npcTokenUrl,
+      options.npcName || "NPC",
+    );
   }
 
   const markdownBody = options.markdownContent || "";
   if (markdownBody) {
+    const contentWrap = document.createElement("div");
+    contentWrap.className = "message-content";
     const prefix = document.createElement("p");
     prefix.className = "narration-prefix";
     prefix.textContent = text;
     const body = document.createElement("div");
     body.className = "md-content narration-body";
     body.innerHTML = renderMarkdown(markdownBody);
-    card.appendChild(prefix);
-    card.appendChild(body);
+    contentWrap.appendChild(prefix);
+    contentWrap.appendChild(body);
+    card.appendChild(contentWrap);
   } else if (role === "system" || role === "private") {
     const { prefix, body } = splitSpeakerPrefix(text);
+    const contentWrap = document.createElement("div");
+    contentWrap.className = "message-content";
     if (prefix) {
       const prefixEl = document.createElement("p");
       prefixEl.className = "narration-prefix";
       prefixEl.textContent = prefix;
-      card.appendChild(prefixEl);
+      contentWrap.appendChild(prefixEl);
     }
     const bodyEl = document.createElement("div");
     bodyEl.className = "md-content narration-body";
     bodyEl.innerHTML = renderMarkdown(body || text);
-    card.appendChild(bodyEl);
+    contentWrap.appendChild(bodyEl);
+    card.appendChild(contentWrap);
   } else {
+    const contentWrap = document.createElement("div");
+    contentWrap.className = "message-content";
     const prefixMatch = text.match(/^(\[[^\]]+\]\s*VOCE:)\s*/i);
     const bodyText = prefixMatch ? text.slice(prefixMatch[0].length) : text;
     const parsed = parsePlayerMessage(bodyText);
@@ -619,12 +814,13 @@ function appendCard(text, role, options = {}) {
       const prefixEl = document.createElement("p");
       prefixEl.className = "narration-prefix";
       prefixEl.textContent = prefixMatch[1];
-      card.appendChild(prefixEl);
+      contentWrap.appendChild(prefixEl);
     }
     const body = document.createElement("div");
     body.className = "player-message-parsed";
     body.innerHTML = renderPlayerMessageBody(parsed);
-    card.appendChild(body);
+    contentWrap.appendChild(body);
+    card.appendChild(contentWrap);
   }
 
   if (options.qualityMeta) {
@@ -1022,6 +1218,18 @@ function updateProposalsBadge() {
   proposalsBadge.textContent = String(count);
   proposalsBadge.classList.toggle("is-hidden", count === 0);
   btnPropostas.classList.toggle("has-badge", count > 0);
+  btnGroupSessao.classList.toggle("has-badge", count > 0);
+  if (!btnGroupSessao.querySelector(".badge")) {
+    const badge = document.createElement("span");
+    badge.className = "badge is-hidden";
+    badge.id = "sessaoProposalsBadge";
+    btnGroupSessao.appendChild(badge);
+  }
+  const sessaoBadge = btnGroupSessao.querySelector(".badge");
+  if (sessaoBadge) {
+    sessaoBadge.textContent = String(count);
+    sessaoBadge.classList.toggle("is-hidden", count === 0);
+  }
 }
 
 function renderProposals() {
@@ -1267,10 +1475,11 @@ function renderOpeningMessage(openingText) {
     return;
   }
   const card = document.createElement("article");
-  card.className = "narration-card system reveal";
-  const p = document.createElement("p");
-  p.textContent = openingText;
-  card.appendChild(p);
+  card.className = "narration-card system opening-scene channel-intro reveal";
+  const body = document.createElement("div");
+  body.className = "md-content opening-body";
+  body.innerHTML = renderMarkdown(openingText);
+  card.appendChild(body);
   narrationFeed.prepend(card);
   openingRendered = true;
 }
@@ -1286,35 +1495,27 @@ function openBriefDetail(briefItem) {
 }
 
 function renderBriefButtons(briefData) {
-  briefSidebar.innerHTML = "";
+  campanhaSubmenu.innerHTML = "";
+  prependSubmenuBack(campanhaSubmenu, btnGroupCampanha);
   const items = Array.isArray(briefData?.briefs) ? briefData.briefs : [];
   if (items.length === 0) {
-    const hint = document.createElement("p");
-    hint.className = "utility-hint";
-    hint.textContent = "Resumo indisponivel.";
-    briefSidebar.appendChild(hint);
+    renderSubmenuFallback(campanhaSubmenu, btnGroupCampanha, "Resumo indisponivel.");
     return;
   }
 
   items.forEach((item) => {
+    const li = document.createElement("li");
     const button = document.createElement("button");
     button.type = "button";
-    button.className = "brief-btn";
-    button.dataset.briefId = item.id;
+    button.className = "submenu-item";
+    button.textContent = item.title;
     button.title = item.teaser || item.title;
-
-    const title = document.createElement("span");
-    title.className = "brief-btn-title";
-    title.textContent = item.title;
-
-    const teaser = document.createElement("span");
-    teaser.className = "brief-btn-teaser";
-    teaser.textContent = item.teaser || "Ver detalhes";
-
-    button.appendChild(title);
-    button.appendChild(teaser);
-    button.addEventListener("click", () => openBriefDetail(item));
-    briefSidebar.appendChild(button);
+    button.addEventListener("click", () => {
+      closeAllSubmenus();
+      openBriefDetail(item);
+    });
+    li.appendChild(button);
+    campanhaSubmenu.appendChild(li);
   });
 }
 
@@ -1325,8 +1526,11 @@ async function refreshBrief() {
     renderOpeningMessage(campaignBrief.opening);
   } catch (err) {
     console.error(err);
-    briefSidebar.innerHTML =
-      '<p class="utility-hint">Nao foi possivel carregar o resumo.</p>';
+    renderSubmenuFallback(
+      campanhaSubmenu,
+      btnGroupCampanha,
+      "Nao foi possivel carregar o resumo.",
+    );
   }
 }
 
@@ -1472,11 +1676,174 @@ async function fetchSessionCommands() {
   return response.json();
 }
 
+const CASCADE_MENU_GROUPS = [
+  [btnGroupCampanha, campanhaSubmenu],
+  [btnGroupPersonagem, personagemSubmenu],
+  [btnGroupSessao, sessaoSubmenu],
+  [btnGroupCanais, canaisSubmenu],
+];
+
+function syncMenuOpenState() {
+  const anyOpen = CASCADE_MENU_GROUPS.some(
+    ([, submenu]) => !submenu.classList.contains("is-hidden"),
+  );
+  document.body.classList.toggle("menu-open", anyOpen);
+}
+
 function closeAllSubmenus() {
+  CASCADE_MENU_GROUPS.forEach(([trigger, submenu]) => {
+    submenu.classList.add("is-hidden");
+    trigger.setAttribute("aria-expanded", "false");
+  });
   commandsSubmenu.classList.add("is-hidden");
-  btnComandos.setAttribute("aria-expanded", "false");
   npcSubmenu.classList.add("is-hidden");
-  btnNpcs.setAttribute("aria-expanded", "false");
+  syncMenuOpenState();
+}
+
+function bindCascadeMenu(trigger, submenu) {
+  trigger.addEventListener("click", (event) => {
+    event.stopPropagation();
+    const isOpen = !submenu.classList.contains("is-hidden");
+    CASCADE_MENU_GROUPS.forEach(([otherTrigger, otherSubmenu]) => {
+      if (otherSubmenu !== submenu) {
+        otherSubmenu.classList.add("is-hidden");
+        otherTrigger.setAttribute("aria-expanded", "false");
+      }
+    });
+    submenu.classList.toggle("is-hidden", isOpen);
+    trigger.setAttribute("aria-expanded", isOpen ? "false" : "true");
+    syncMenuOpenState();
+  });
+}
+
+function renderPersonagemSubmenu() {
+  personagemSubmenu.innerHTML = "";
+  prependSubmenuBack(personagemSubmenu, btnGroupPersonagem);
+
+  const fichaItem = document.createElement("li");
+  const fichaBtn = document.createElement("button");
+  fichaBtn.type = "button";
+  fichaBtn.className = "submenu-item";
+  fichaBtn.textContent = "Ficha";
+  fichaBtn.addEventListener("click", async () => {
+    closeAllSubmenus();
+    await ensureCharacterProfileLoaded();
+    openDrawer(fichaDrawer);
+  });
+  fichaItem.appendChild(fichaBtn);
+  personagemSubmenu.appendChild(fichaItem);
+
+  const journalItem = document.createElement("li");
+  const journalBtn = document.createElement("button");
+  journalBtn.type = "button";
+  journalBtn.className = "submenu-item";
+  journalBtn.textContent = "Journal";
+  journalBtn.addEventListener("click", async () => {
+    closeAllSubmenus();
+    try {
+      journalEntries = await fetchJournalEntries();
+    } catch (err) {
+      console.error(err);
+    }
+    renderJournal();
+    openDrawer(journalDrawer);
+    journalInput.focus();
+  });
+  journalItem.appendChild(journalBtn);
+  personagemSubmenu.appendChild(journalItem);
+
+  const npcsItem = document.createElement("li");
+  const npcsBtn = document.createElement("button");
+  npcsBtn.type = "button";
+  npcsBtn.className = "submenu-item submenu-more";
+  npcsBtn.textContent = "NPCs...";
+  npcsBtn.addEventListener("click", () => {
+    closeAllSubmenus();
+    openNpcCatalogDrawer();
+  });
+  npcsItem.appendChild(npcsBtn);
+  personagemSubmenu.appendChild(npcsItem);
+}
+
+function renderSessaoSubmenu() {
+  sessaoSubmenu.innerHTML = "";
+  prependSubmenuBack(sessaoSubmenu, btnGroupSessao);
+
+  const quick = sessionCommandsData?.quick || SESSION_COMMANDS_FALLBACK.quick;
+  quick.forEach((command) => {
+    const li = document.createElement("li");
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "submenu-item";
+    button.textContent = command.label;
+    button.addEventListener("click", () => {
+      closeAllSubmenus();
+      void sendPlayerMessage(command.text);
+    });
+    li.appendChild(button);
+    sessaoSubmenu.appendChild(li);
+  });
+
+  const tools = [
+    { label: "Todos os comandos...", testId: "sessao-comandos-todos", action: () => openCommandsDrawer() },
+    { label: "Roteamento LLM", testId: "sessao-roteamento", action: () => openRoutingDrawer() },
+    { label: "Propostas", testId: "sessao-propostas", action: async () => {
+      try {
+        await fetchPendingProposals();
+      } catch (err) {
+        console.error(err);
+      }
+      renderProposals();
+      openDrawer(proposalsDrawer);
+    }},
+    { label: "Admin", testId: "sessao-admin", action: () => openDrawer(adminDrawer) },
+  ];
+
+  tools.forEach((tool) => {
+    const li = document.createElement("li");
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "submenu-item submenu-more";
+    button.textContent = tool.label;
+    if (tool.testId) {
+      button.dataset.testid = tool.testId;
+    }
+    button.addEventListener("click", () => {
+      closeAllSubmenus();
+      tool.action();
+    });
+    li.appendChild(button);
+    sessaoSubmenu.appendChild(li);
+  });
+}
+
+function renderCanaisSubmenu() {
+  canaisSubmenu.innerHTML = "";
+  prependSubmenuBack(canaisSubmenu, btnGroupCanais);
+  [
+    { id: "narracao", label: "Narracao principal" },
+    { id: "mestre", label: "Mestre off-game" },
+    { id: "sistema", label: "Sistema (meta)" },
+  ].forEach((channel) => {
+    const li = document.createElement("li");
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "submenu-item";
+    button.textContent = channel.label;
+    button.addEventListener("click", () => {
+      closeAllSubmenus();
+      setActiveChannel(channel.id);
+    });
+    li.appendChild(button);
+    canaisSubmenu.appendChild(li);
+  });
+}
+
+function initCascadeMenus() {
+  renderPersonagemSubmenu();
+  renderSessaoSubmenu();
+  renderCanaisSubmenu();
+  CASCADE_MENU_GROUPS.forEach(([trigger, submenu]) => bindCascadeMenu(trigger, submenu));
 }
 
 function buildCommandCard(command) {
@@ -1589,16 +1956,63 @@ function openCommandsDrawer() {
 
 async function ensureSessionCommandsLoaded() {
   if (sessionCommandsData) {
-    renderCommandsSubmenu(sessionCommandsData.quick);
+    renderSessaoSubmenu();
     return;
   }
   try {
     sessionCommandsData = await fetchSessionCommands();
-    renderCommandsSubmenu(sessionCommandsData.quick);
+    renderSessaoSubmenu();
   } catch (err) {
     console.error(err);
     sessionCommandsData = SESSION_COMMANDS_FALLBACK;
-    renderCommandsSubmenu(sessionCommandsData.quick);
+    renderSessaoSubmenu();
+  }
+}
+
+async function appendNpcSegment(segment, qualityMeta = "") {
+  const label = segment.action ? `${segment.name} (acao)` : segment.name;
+  try {
+    const npcAsset = await fetchNpcAsset(segment.name, segment.gender);
+    appendCard(label, "system", {
+      cardRole: segment.action ? "npc-action" : "npc-speech",
+      markdownContent: segment.text,
+      npcName: segment.name,
+      npcTokenUrl: npcAsset.tokenUrl,
+      npcImageUrl: npcAsset.imageUrl,
+      npcAction: segment.action,
+      qualityMeta,
+    });
+  } catch (assetErr) {
+    console.error(assetErr);
+    appendCard(label, "system", {
+      cardRole: segment.action ? "npc-action" : "npc-speech",
+      markdownContent: segment.text,
+      qualityMeta,
+    });
+  }
+}
+
+async function renderChannelReply(reply, meta) {
+  const qualityMeta = formatTurnQualityMeta(meta);
+  if (activeChannel !== "narracao") {
+    const prefix = channelMeta().reply;
+    appendCard(`${prefix}:`, "system", { markdownContent: reply, qualityMeta });
+    return;
+  }
+
+  const segments = segmentNarrationReply(reply);
+  for (let index = 0; index < segments.length; index += 1) {
+    const segment = segments[index];
+    const segmentMeta = index === segments.length - 1 ? qualityMeta : "";
+    if (segment.type === "npc") {
+      await appendNpcSegment(segment, segmentMeta);
+      continue;
+    }
+    appendCard("NARRADOR:", "system", {
+      cardRole: "narrator",
+      markdownContent: segment.text,
+      qualityMeta: segmentMeta,
+    });
   }
 }
 
@@ -1610,35 +2024,17 @@ async function sendPlayerMessage(message) {
 
   const labels = channelMeta();
   const requestOptions = buildRequestOptions(text);
-  appendCard(`[${labels.player}] VOCE: ${text}`, "player");
+  appendCard(`[${labels.player}] VOCE: ${text}`, "player", {
+    playerTokenUrl: RYAN_TOKEN_URL,
+    playerImageUrl: RYAN_IMAGE_URL,
+    playerName: "Ryan",
+  });
   setChatBusy(true);
   createLoadingCard("Consultando o provider...");
 
   try {
     const { reply, meta } = await callChannelApi(text, requestOptions);
-    const prefix = channelMeta().reply;
-    const qualityMeta = formatTurnQualityMeta(meta);
-    const parsedNpc = parseNpcReply(reply);
-    if (parsedNpc.isNpc) {
-      try {
-        const npcAsset = await fetchNpcAsset(parsedNpc.name, parsedNpc.gender);
-        appendCard(`${parsedNpc.name}:`, "system", {
-          markdownContent: parsedNpc.text,
-          npcName: parsedNpc.name,
-          npcTokenUrl: npcAsset.tokenUrl,
-          npcImageUrl: npcAsset.imageUrl,
-          qualityMeta,
-        });
-      } catch (assetErr) {
-        console.error(assetErr);
-        appendCard(`${parsedNpc.name}:`, "system", {
-          markdownContent: parsedNpc.text,
-          qualityMeta,
-        });
-      }
-    } else {
-      appendCard(`${prefix}:`, "system", { markdownContent: reply, qualityMeta });
-    }
+    await renderChannelReply(reply, meta);
   } catch (err) {
     const fallbackPrefix = channelMeta().reply;
     appendCard(`${fallbackPrefix}: ${extractFriendlyError(err)}`, "private");
@@ -1679,6 +2075,8 @@ function setActiveChannel(channel) {
     button.classList.toggle("is-active", isActive);
     button.setAttribute("aria-pressed", isActive ? "true" : "false");
   });
+  const channelShort = channelMeta().name.replace(" (meta-tecnico)", "");
+  btnGroupCanais.textContent = `Canais · ${channelShort.split(" ")[0]}`;
   chatModeLabel.textContent = `Canal atual: ${channelMeta().name}`;
   updateFeedVisibility(activeChannel);
   setChatBusy(playerInput.disabled);
@@ -1718,11 +2116,12 @@ async function bootstrapApi() {
         `API desatualizada (faltam: ${missing.join(", ")}). Reinicie: python scripts/narracao_api.py`,
       );
       sessionCommandsData = SESSION_COMMANDS_FALLBACK;
-      renderCommandsSubmenu(sessionCommandsData.quick);
+      renderSessaoSubmenu();
       return;
     }
     showApiStatus("");
     await Promise.all([refreshBrief(), ensureNpcCatalogLoaded(), ensureSessionCommandsLoaded()]);
+    renderSessaoSubmenu();
   } catch (err) {
     console.error(err);
     showApiStatus(
@@ -1731,10 +2130,15 @@ async function bootstrapApi() {
         ". Inicie: python scripts/narracao_api.py",
     );
     sessionCommandsData = SESSION_COMMANDS_FALLBACK;
-    renderCommandsSubmenu(sessionCommandsData.quick);
+    renderSessaoSubmenu();
   }
 }
 
+routingPreviewBtn.addEventListener("click", () => {
+  runRoutingPreview();
+});
+
+// Botoes legados (ocultos) — compatibilidade e2e
 btnFicha.addEventListener("click", async () => {
   await ensureCharacterProfileLoaded();
   openDrawer(fichaDrawer);
@@ -1754,38 +2158,6 @@ channelButtons.forEach((button) => {
     setActiveChannel(button.dataset.channel || "narracao");
   });
 });
-btnComandos.addEventListener("click", (event) => {
-  event.stopPropagation();
-  const isOpen = !commandsSubmenu.classList.contains("is-hidden");
-  if (!isOpen) {
-    npcSubmenu.classList.add("is-hidden");
-    btnNpcs.setAttribute("aria-expanded", "false");
-  }
-  commandsSubmenu.classList.toggle("is-hidden", isOpen);
-  btnComandos.setAttribute("aria-expanded", isOpen ? "false" : "true");
-});
-
-btnNpcs.addEventListener("click", (event) => {
-  event.stopPropagation();
-  const isOpen = !npcSubmenu.classList.contains("is-hidden");
-  if (!isOpen) {
-    commandsSubmenu.classList.add("is-hidden");
-    btnComandos.setAttribute("aria-expanded", "false");
-  }
-  npcSubmenu.classList.toggle("is-hidden", isOpen);
-  btnNpcs.setAttribute("aria-expanded", isOpen ? "false" : "true");
-});
-
-btnAdmin.addEventListener("click", () => openDrawer(adminDrawer));
-
-btnRouting.addEventListener("click", () => {
-  openRoutingDrawer();
-});
-
-routingPreviewBtn.addEventListener("click", () => {
-  runRoutingPreview();
-});
-
 btnPropostas.addEventListener("click", async () => {
   try {
     await fetchPendingProposals();
@@ -1830,13 +2202,11 @@ document.addEventListener("click", (event) => {
   if (!(target instanceof Element)) {
     return;
   }
-  if (!btnComandos.contains(target) && !commandsSubmenu.contains(target)) {
-    commandsSubmenu.classList.add("is-hidden");
-    btnComandos.setAttribute("aria-expanded", "false");
-  }
-  if (!btnNpcs.contains(target) && !npcSubmenu.contains(target)) {
-    npcSubmenu.classList.add("is-hidden");
-    btnNpcs.setAttribute("aria-expanded", "false");
+  const insideCascade = CASCADE_MENU_GROUPS.some(([trigger, submenu]) => {
+    return trigger.contains(target) || submenu.contains(target);
+  });
+  if (!insideCascade) {
+    closeAllSubmenus();
   }
   const closeType = target.getAttribute("data-close");
   if (closeType && drawerByKey[closeType]) {
@@ -1894,6 +2264,7 @@ proposalsList.addEventListener("click", async (event) => {
 
 renderJournal();
 fetchPendingProposals().catch((err) => console.error(err));
+initCascadeMenus();
 setActiveChannel("narracao");
 ensureCharacterProfileLoaded();
 bootstrapApi();

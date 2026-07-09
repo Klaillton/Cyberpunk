@@ -1,5 +1,13 @@
 const { test, expect } = require("@playwright/test");
 
+async function selectChannel(page, label) {
+  await page.locator("#btnGroupCanais").click();
+  await page
+    .locator("#canaisSubmenu .submenu-item")
+    .filter({ hasText: label })
+    .click();
+}
+
 test.describe("Chat e canais", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("/");
@@ -18,8 +26,8 @@ test.describe("Chat e canais", () => {
       });
     });
 
-    await page.locator("#btnCanalMestre").click();
-    await expect(page.locator("#btnCanalMestre")).toHaveAttribute("aria-pressed", "true");
+    await selectChannel(page, "Mestre off-game");
+    await expect(page.locator("#chatModeLabel")).toContainText("Mestre off-game");
     await expect(page.locator("#mestreFeed")).not.toHaveClass(/is-hidden/);
     await expect(page.locator("#narrationFeed")).toHaveClass(/is-hidden/);
 
@@ -43,8 +51,8 @@ test.describe("Chat e canais", () => {
       });
     });
 
-    await page.locator("#btnCanalSistema").click();
-    await expect(page.locator("#btnCanalSistema")).toHaveAttribute("aria-pressed", "true");
+    await selectChannel(page, "Sistema (meta)");
+    await expect(page.locator("#chatModeLabel")).toContainText("Sistema");
     await expect(page.locator("#sistemaFeed")).not.toHaveClass(/is-hidden/);
 
     await page.locator("#playerInput").fill("qual a ficha da netrunner?");
@@ -86,13 +94,11 @@ test.describe("Chat e canais", () => {
   });
 
   test("volta ao canal narracao principal", async ({ page }) => {
-    await page.locator("#btnCanalMestre").click();
-    await expect(page.locator("#btnCanalMestre")).toHaveAttribute("aria-pressed", "true");
+    await selectChannel(page, "Mestre off-game");
     await expect(page.locator("#narrationFeed")).toHaveClass(/is-hidden/);
 
-    await page.locator("#btnCanalNarracao").click();
-    await expect(page.locator("#btnCanalNarracao")).toHaveAttribute("aria-pressed", "true");
-    await expect(page.locator("#btnCanalMestre")).toHaveAttribute("aria-pressed", "false");
+    await selectChannel(page, "Narracao principal");
+    await expect(page.locator("#chatModeLabel")).toContainText("Narracao principal");
     await expect(page.locator("#narrationFeed")).not.toHaveClass(/is-hidden/);
   });
 

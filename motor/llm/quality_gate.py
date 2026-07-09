@@ -4,8 +4,12 @@ import re
 
 from motor.llm.types import ContextManifest, QualityCheck, QualityReport
 
-_PROTagonist_CONTROL_RE = re.compile(
-    r"\b(voce|você)\s+(decide|ataca|corre|dispara|mata|entra|sai)\b",
+_PROTAGONIST_CONTROL_RE = re.compile(
+    r"\b(voce|você)\s+("
+    r"decide|ataca|corre|dispara|mata|entra|sai|continua|aproxima|pergunta|nota|"
+    r"vê|ve|olha|começa|comeca|reconhece|levanta|volta|retorna|investiga|procura|"
+    r"vai|sabe|diz|responde|observa|escuta|sente|tenta|chama|grita|sussurra"
+    r")\b",
     re.IGNORECASE,
 )
 _NAME_RE = re.compile(r"\b([A-Z][a-záàâãéêíóôõúç]{2,})(?:\s+[A-Z][a-záàâãéêíóôõúç]{2,})?\b")
@@ -106,7 +110,7 @@ class ResponseQualityGate:
         )
 
     def _check_protagonist_control(self, reply: str) -> QualityCheck:
-        match = _PROTagonist_CONTROL_RE.search(reply)
+        match = _PROTAGONIST_CONTROL_RE.search(reply)
         passed = match is None
         return QualityCheck(
             name="protagonist_control",
