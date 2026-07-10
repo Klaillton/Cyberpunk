@@ -8,6 +8,11 @@ import urllib.request
 import narracao_engine as engine
 
 from motor.context_service import ContextService
+from motor.llm.channel_profiles import (
+    generation_params_for_channel,
+    max_context_files_for_channel,
+    max_prompt_chars_for_channel,
+)
 from motor.llm.quality_gate import ResponseQualityGate
 from motor.llm.router import ProviderRouter
 from motor.llm.types import RoutingDecision, TurnRequest
@@ -54,6 +59,7 @@ def run_ollama(
     *,
     temperature: float | None = None,
     num_predict: int | None = None,
+    num_ctx: int | None = None,
     model: str | None = None,
 ) -> str:
     cfg = settings or get_settings()
@@ -62,12 +68,14 @@ def run_ollama(
         "prompt": prompt,
         "stream": False,
     }
-    if temperature is not None or num_predict is not None:
+    if temperature is not None or num_predict is not None or num_ctx is not None:
         options: dict = {}
         if temperature is not None:
             options["temperature"] = temperature
         if num_predict is not None:
             options["num_predict"] = num_predict
+        if num_ctx is not None:
+            options["num_ctx"] = num_ctx
         body["options"] = options
     payload = json.dumps(body, ensure_ascii=False).encode("utf-8")
     url = f"{cfg.ollama_base_url.rstrip('/')}/api/generate"
@@ -97,16 +105,11 @@ def run_ollama(
 def _generation_params(
     channel: str,
     session_intent: str | None,
+    settings: Settings,
     *,
     retry: bool = False,
-) -> tuple[float, int]:
-    if session_intent == "summary":
-        return (0.18 if retry else 0.2, 1400)
-    if channel == "sistema":
-        return (0.12 if retry else 0.15, 380)
-    if channel == "mestre":
-        return (0.2 if retry else 0.25, 320)
-    return (0.3 if retry else 0.38, 480)
+) -> tuple[float, int, int | None]:
+    return generation_params_for_channel(channel, session_intent, settings, retry=retry)
 
 
 def _invoke_provider(
@@ -116,6 +119,7 @@ def _invoke_provider(
     *,
     temperature: float,
     num_predict: int,
+    num_ctx: int | None = None,
 ) -> str:
     provider = decision.provider
     if provider == "ollama":
@@ -124,6 +128,7 @@ def _invoke_provider(
             settings,
             temperature=temperature,
             num_predict=num_predict,
+            num_ctx=num_ctx,
             model=decision.model,
         )
     if provider == "grok":
@@ -199,6 +204,7 @@ def generate_turn(
         provider=cfg.provider,
         channel=channel,
         session_intent=session_intent,
+        max_files=max_context_files_for_channel(channel, cfg),
     )
 
     effective_mode = _MODE_BY_CHANNEL.get(channel, mode)
@@ -236,7 +242,9 @@ def generate_turn(
         selection.paths,
         effective_mode,
         provider=cfg.provider if cfg.provider == "ollama" else decision.provider,
-        max_prompt_chars=cfg.ollama_max_prompt_chars if decision.provider == "ollama" else None,
+        max_prompt_chars=(
+            max_prompt_chars_for_channel(channel, cfg) if decision.provider == "ollama" else None
+        ),
         channel=channel,
         session_intent=session_intent,
         history=history,
@@ -250,7 +258,7 @@ def generate_turn(
         )
 
     run_quality = channel == "narracao" and session_intent != "summary"
-    temp, num_predict = _generation_params(channel, session_intent)
+    temp, num_predict, num_ctx = _generation_params(channel, session_intent, cfg)
     attempts = 0
     last_reply = ""
     last_report = None
@@ -261,7 +269,7 @@ def generate_turn(
         attempts += 1
         retry = attempts > 1
         if retry:
-            temp, num_predict = _generation_params(channel, session_intent, retry=True)
+            temp, num_predict, num_ctx = _generation_params(channel, session_intent, cfg, retry=True)
 
         try:
             raw = _invoke_provider(
@@ -270,6 +278,7 @@ def generate_turn(
                 cfg,
                 temperature=temp,
                 num_predict=num_predict,
+                num_ctx=num_ctx,
             )
             last_reply = engine.sanitize_ollama_reply(
                 raw,

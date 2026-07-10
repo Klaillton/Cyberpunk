@@ -17,7 +17,9 @@ def router() -> ProviderRouter:
     return ProviderRouter(settings)
 
 
-def test_provider_router_trivial_message_uses_local(router: ProviderRouter) -> None:
+def test_provider_router_narracao_short_message_uses_narration_profile(
+    router: ProviderRouter,
+) -> None:
     request = TurnRequest(message="ok", channel="narracao")
     entities = ResolvedEntities()
     manifest = ContextManifest(total_chars=1200)
@@ -25,9 +27,24 @@ def test_provider_router_trivial_message_uses_local(router: ProviderRouter) -> N
     decision = router.resolve(request, entities, manifest)
 
     assert decision.provider == "ollama"
-    assert decision.tier == "trivial"
+    assert decision.tier == "standard"
+    assert decision.model == router.settings.ollama_model_narration
+    assert any("profile:narracao_tier=standard" in reason for reason in decision.reasons)
     assert decision.escalated is False
     assert decision.requires_user_approval is False
+
+
+def test_provider_router_sistema_uses_aux_model_and_trivial_tier(router: ProviderRouter) -> None:
+    request = TurnRequest(
+        message="qual o caminho da ficha do ryan?",
+        channel="sistema",
+    )
+    decision = router.resolve(request, ResolvedEntities(), ContextManifest(total_chars=1200))
+
+    assert decision.provider == "ollama"
+    assert decision.tier == "trivial"
+    assert decision.model == router.settings.ollama_model_aux
+    assert any("profile:aux_tier=trivial" in reason for reason in decision.reasons)
 
 
 def test_provider_router_force_local_override(router: ProviderRouter) -> None:

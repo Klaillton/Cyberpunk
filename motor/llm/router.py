@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from motor.entities.entity_resolver import ResolvedEntities
+from motor.llm.channel_profiles import apply_channel_tier, local_model_for_channel
 from motor.llm.classifier import ComplexityClassifier
 from motor.llm.scorer import SceneComplexityScorer
 from motor.llm.types import ContextManifest, RoutingDecision, TurnRequest
@@ -34,7 +35,13 @@ class ProviderRouter:
 
         override = (request.provider_override or "").strip().lower()
         if override == "force_local":
-            return self._local_decision(policy, reasons + ["override:force_local"], tier="standard", score=0)
+            return self._local_decision(
+                policy,
+                reasons + ["override:force_local"],
+                tier="standard",
+                score=0,
+                channel=request.channel,
+            )
         if override == "force_cloud":
             return self._cloud_decision(
                 policy,
@@ -52,12 +59,19 @@ class ProviderRouter:
                 reasons + score_reasons + class_reasons,
                 tier=tier,
                 score=score,
+                channel=request.channel,
             )
 
         if policy == "cloud_preferred":
             if self.settings.cloud_fallback_enabled:
                 return self._cloud_decision(policy, reasons + ["policy:cloud_preferred"], tier="standard", score=4)
-            return self._local_decision(policy, reasons + ["policy:cloud_unavailable"], tier="standard", score=4)
+            return self._local_decision(
+                policy,
+                reasons + ["policy:cloud_unavailable"],
+                tier="standard",
+                score=4,
+                channel=request.channel,
+            )
 
         score, score_reasons = self.scorer.score(request, entities, manifest)
         tier, class_reasons = self.classifier.classify(request, manifest, score)
@@ -65,7 +79,7 @@ class ProviderRouter:
         reasons.extend(class_reasons)
 
         if tier in {"trivial", "standard"}:
-            return self._local_decision(policy, reasons, tier=tier, score=score)
+            return self._local_decision(policy, reasons, tier=tier, score=score, channel=request.channel)
 
         if tier == "complex":
             if policy == "hybrid" and self.settings.cloud_fallback_enabled:
@@ -76,7 +90,13 @@ class ProviderRouter:
                     score=score,
                     escalated=True,
                 )
-            return self._local_decision(policy, reasons + ["policy:complex_local"], tier=tier, score=score)
+            return self._local_decision(
+                policy,
+                reasons + ["policy:complex_local"],
+                tier=tier,
+                score=score,
+                channel=request.channel,
+            )
 
         # critical
         if policy == "hybrid" and self.settings.cloud_fallback_enabled and user_approved_cloud:
@@ -88,7 +108,13 @@ class ProviderRouter:
                 escalated=True,
             )
 
-        decision = self._local_decision(policy, reasons + ["policy:critical_local_fallback"], tier=tier, score=score)
+        decision = self._local_decision(
+            policy,
+            reasons + ["policy:critical_local_fallback"],
+            tier=tier,
+            score=score,
+            channel=request.channel,
+        )
         return RoutingDecision(
             provider=decision.provider,
             model=decision.model,
@@ -128,11 +154,15 @@ class ProviderRouter:
         *,
         tier: str,
         score: int,
+        channel: str,
     ) -> RoutingDecision:
+        tier, profile_reasons = apply_channel_tier(channel, tier, self.settings)
+        reasons = [*reasons, *profile_reasons]
+
         provider = self.settings.provider if self.settings.provider in LOCAL_PROVIDERS else "ollama"
         if provider == "none" and self.settings.llm_routing_policy != "local_only":
             provider = "ollama"
-        model = self.settings.ollama_model_narration if provider == "ollama" else None
+        model = local_model_for_channel(channel, self.settings) if provider == "ollama" else None
         return RoutingDecision(
             provider=provider,
             model=model,

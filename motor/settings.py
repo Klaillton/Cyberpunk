@@ -8,6 +8,16 @@ from pathlib import Path
 VALID_PROVIDERS = frozenset({"none", "ollama", "grok", "chatgpt", "gemini", "copilot"})
 VALID_ROUTING_POLICIES = frozenset({"local_only", "local_preferred", "hybrid", "cloud_preferred"})
 
+_VALID_NARRATION_MIN_TIERS = frozenset({"standard", "complex", "critical"})
+
+
+def _normalize_narration_min_tier(raw: str) -> str:
+    tier = raw.strip().lower()
+    if tier in _VALID_NARRATION_MIN_TIERS:
+        return tier
+    return "standard"
+
+
 PROVIDER_OPTIONS: dict[str, tuple[str, str]] = {
     "1": ("none", "Desativado / fallback local"),
     "2": ("ollama", "Ollama / LLM local"),
@@ -27,6 +37,8 @@ class Settings:
     provider: str = "none"
     ollama_base_url: str = "http://127.0.0.1:11434"
     ollama_model_narration: str = "llama3.1:8b"
+    ollama_model_aux: str = "phi3:mini"
+    narration_min_tier: str = "standard"
     character_id: str = "ryan_wireghost_voss"
     journal_dir: Path = field(default_factory=Path)
     data_dir: Path = field(default_factory=Path)
@@ -37,8 +49,15 @@ class Settings:
     cloud_fallback_enabled: bool = False
     cloud_provider: str = "grok"
     ollama_model_classifier: str = "phi3:mini"
-    ollama_max_prompt_chars: int = 8000
-    ollama_max_context_files: int = 5
+    ollama_max_prompt_chars: int = 12_000
+    ollama_max_prompt_chars_aux: int = 4500
+    ollama_max_context_files: int = 10
+    ollama_max_context_files_aux: int = 4
+    ollama_num_predict_narration: int = 720
+    ollama_num_predict_aux: int = 280
+    ollama_num_predict_summary: int = 1400
+    ollama_num_ctx_narration: int = 8192
+    ollama_num_ctx_aux: int = 4096
     update_proposals_enabled: bool = False
 
     @classmethod
@@ -75,6 +94,13 @@ class Settings:
             provider=provider,
             ollama_base_url=os.environ.get("OLLAMA_BASE_URL", "http://127.0.0.1:11434").strip(),
             ollama_model_narration=os.environ.get("OLLAMA_MODEL_NARRATION", "llama3.1:8b").strip(),
+            ollama_model_aux=os.environ.get(
+                "OLLAMA_MODEL_AUX",
+                os.environ.get("OLLAMA_MODEL_CLASSIFIER", "phi3:mini"),
+            ).strip(),
+            narration_min_tier=_normalize_narration_min_tier(
+                os.environ.get("NARRACAO_MIN_TIER", "standard")
+            ),
             character_id=os.environ.get("PROTAGONIST_ID", "ryan_wireghost_voss").strip(),
             journal_dir=Path(os.environ.get("JOURNAL_DIR", str(root / "logs" / "journal"))),
             data_dir=data_dir,
@@ -85,8 +111,15 @@ class Settings:
             cloud_fallback_enabled=cloud_fallback,
             cloud_provider=cloud_provider,
             ollama_model_classifier=os.environ.get("OLLAMA_MODEL_CLASSIFIER", "phi3:mini").strip(),
-            ollama_max_prompt_chars=int(os.environ.get("OLLAMA_MAX_PROMPT_CHARS", "8000")),
-            ollama_max_context_files=int(os.environ.get("OLLAMA_MAX_CONTEXT_FILES", "5")),
+            ollama_max_prompt_chars=int(os.environ.get("OLLAMA_MAX_PROMPT_CHARS", "12000")),
+            ollama_max_prompt_chars_aux=int(os.environ.get("OLLAMA_MAX_PROMPT_CHARS_AUX", "4500")),
+            ollama_max_context_files=int(os.environ.get("OLLAMA_MAX_CONTEXT_FILES", "10")),
+            ollama_max_context_files_aux=int(os.environ.get("OLLAMA_MAX_CONTEXT_FILES_AUX", "4")),
+            ollama_num_predict_narration=int(os.environ.get("OLLAMA_NUM_PREDICT_NARRATION", "720")),
+            ollama_num_predict_aux=int(os.environ.get("OLLAMA_NUM_PREDICT_AUX", "280")),
+            ollama_num_predict_summary=int(os.environ.get("OLLAMA_NUM_PREDICT_SUMMARY", "1400")),
+            ollama_num_ctx_narration=int(os.environ.get("OLLAMA_NUM_CTX_NARRATION", "8192")),
+            ollama_num_ctx_aux=int(os.environ.get("OLLAMA_NUM_CTX_AUX", "4096")),
             update_proposals_enabled=update_proposals_enabled,
         )
 

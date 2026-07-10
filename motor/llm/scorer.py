@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 
 from motor.entities.entity_resolver import ResolvedEntities
+from motor.llm.channel_profiles import is_aux_channel, is_narration_channel
 from motor.llm.types import ContextManifest, TurnRequest
 
 _COMBAT_RE = re.compile(
@@ -35,7 +36,7 @@ class SceneComplexityScorer:
             score += 3
             reasons.append(f"heuristic:context_chars={manifest.total_chars}")
 
-        if request.channel == "gestor" or request.mode == "gestor":
+        if request.channel == "gestor":
             score += 2
             reasons.append("heuristic:gestor_structured_output")
 
@@ -47,12 +48,15 @@ class SceneComplexityScorer:
             score += 1
             reasons.append("heuristic:emotional_arc")
 
-        if request.channel == "narrador":
+        if is_narration_channel(request.channel):
+            score += 2
+            reasons.append("heuristic:narracao_primary")
+        elif is_aux_channel(request.channel):
             score -= 2
-            reasons.append("heuristic:narrador_off_record")
+            reasons.append("heuristic:aux_lightweight")
 
         clean = request.message.strip()
-        if len(clean) < 80 and npc_count <= 1:
+        if len(clean) < 80 and npc_count <= 1 and not is_narration_channel(request.channel):
             score -= 3
             reasons.append("heuristic:short_message")
 

@@ -207,8 +207,8 @@ def normalize_channel(channel: str | None) -> str:
         return value
     return "narracao"
 
-DEFAULT_OLLAMA_MAX_PROMPT_CHARS = 8000
-DEFAULT_OLLAMA_MAX_CONTEXT_FILES = 5
+DEFAULT_OLLAMA_MAX_PROMPT_CHARS = 12_000
+DEFAULT_OLLAMA_MAX_CONTEXT_FILES = 10
 
 INTENT_RULES: list[tuple[re.Pattern[str], list[str]]] = [
     (

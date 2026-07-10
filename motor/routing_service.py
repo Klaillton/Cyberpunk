@@ -6,6 +6,7 @@ import narracao_engine as engine
 
 from motor.context_service import ContextService
 from motor.entities.entity_resolver import ResolvedEntities
+from motor.llm.channel_profiles import max_context_files_for_channel
 from motor.llm.router import ProviderRouter
 from motor.llm.types import ContextManifest, RoutingDecision, TurnRequest
 from motor.settings import Settings, get_settings
@@ -48,6 +49,7 @@ class RoutingService:
             message,
             provider=self.settings.provider,
             channel=channel,
+            max_files=max_context_files_for_channel(channel, self.settings),
         )
         decision = self.router.resolve(
             request,

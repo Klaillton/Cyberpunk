@@ -7,6 +7,7 @@ from pathlib import Path
 import narracao_engine as engine
 
 from motor.entities.entity_resolver import EntityResolver, ResolvedEntities
+from motor.llm.channel_profiles import max_context_files_for_channel
 from motor.llm.types import ContextManifest
 from motor.markdown.campaign_paths import is_campaign_content_path, is_template_path
 from motor.search_service import SearchService
@@ -75,14 +76,15 @@ class ContextService:
             faiss_paths, faiss_hits = self._paths_from_search(message)
             add_paths(faiss_paths, "faiss")
 
-        effective_max = max_files or engine.DEFAULT_OLLAMA_MAX_CONTEXT_FILES
-        if provider == "ollama":
+        if max_files is not None:
+            effective_max = max_files
+        elif provider == "ollama":
             if session_intent == "summary":
-                effective_max = 6
-            elif channel in {"mestre", "sistema"}:
-                effective_max = 6
+                effective_max = min(6, max_context_files_for_channel(channel, self.settings))
             else:
-                effective_max = engine.DEFAULT_OLLAMA_MAX_CONTEXT_FILES
+                effective_max = max_context_files_for_channel(channel, self.settings)
+        else:
+            effective_max = max_files or engine.DEFAULT_OLLAMA_MAX_CONTEXT_FILES
 
         trimmed_rel = merged_rel[:effective_max]
         resolved = engine.resolve_paths(
