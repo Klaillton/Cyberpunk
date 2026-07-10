@@ -36,6 +36,66 @@ def test_quality_gate_rejects_board_location_contradiction() -> None:
     assert any(check.name == "board_consistency" and not check.passed for check in report.checks)
 
 
+def test_quality_gate_rejects_player_echo() -> None:
+    gate = ResponseQualityGate()
+    manifest = ContextManifest(
+        total_chars=2000,
+        entity_ids=["ryan_wireghost_voss", "lena_valk_kane", "reyes"],
+    )
+    player = (
+        "Eu saio da tenda em direcao ao refeitorio, Valk me acompanha, estamos de maos dadas "
+        "e conversando sobre coisas simples"
+    )
+    reply = (
+        "Voce sai da tenda em direcao ao refeitorio, Valk o acompanha, voces estao de maos dadas "
+        "e conversando sobre coisas simples. O sol esta alto no ceu."
+    )
+    report = gate.validate(
+        reply,
+        manifest,
+        channel="narracao",
+        player_message=player,
+    )
+    assert report.passed is False
+    assert any(check.name == "player_echo" and not check.passed for check in report.checks)
+
+
+def test_quality_gate_rejects_narrator_repeat() -> None:
+    gate = ResponseQualityGate()
+    manifest = ContextManifest(
+        total_chars=2000,
+        entity_ids=["ryan_wireghost_voss", "lena_valk_kane", "reyes"],
+    )
+    previous = (
+        "Valk solta sua mao para abracar Tio Gringo, enquanto voce continua a conversa sobre os planos do dia. "
+        "O aroma do cafe se espalha pelo refeitorio."
+    )
+    reply = (
+        "Valk solta sua mao para abracar Tio Gringo, enquanto voce continua a conversa sobre os planos do dia. "
+        "Tio Gringo responde sobre a oficina."
+    )
+    report = gate.validate(
+        reply,
+        manifest,
+        channel="narracao",
+        previous_narrator=previous,
+    )
+    assert report.passed is False
+    assert any(check.name == "narrator_repeat" and not check.passed for check in report.checks)
+
+
+def test_quality_gate_rejects_meta_question() -> None:
+    gate = ResponseQualityGate()
+    manifest = ContextManifest(total_chars=1000, entity_ids=["ryan_wireghost_voss"])
+    report = gate.validate(
+        "Tio Gringo prepara o cafe. O que voce faz em seguida?",
+        manifest,
+        channel="narracao",
+    )
+    assert report.passed is False
+    assert any(check.name == "meta_questions" and not check.passed for check in report.checks)
+
+
 def test_quality_gate_passes_consistent_reply() -> None:
     gate = ResponseQualityGate()
     manifest = ContextManifest(

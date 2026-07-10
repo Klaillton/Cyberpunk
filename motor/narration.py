@@ -137,14 +137,27 @@ def _invoke_provider(
 
 
 def _quality_correction_suffix(report) -> str:
-    failed = [check.detail for check in report.checks if not check.passed]
+    failed = [check for check in report.checks if not check.passed]
     if not failed:
         return ""
-    details = "; ".join(failed[:3])
+    details = "; ".join(check.detail for check in failed[:4])
+    hints: list[str] = []
+    failed_names = {check.name for check in failed}
+    if "player_echo" in failed_names or "narrator_repeat" in failed_names:
+        hints.append(
+            "Avance a cena com fato NOVO: resposta de NPC a pergunta do jogador, detalhe sensorial ou interrupcao."
+        )
+        hints.append("Nao repita frases do historico nem reformule a acao que o jogador acabou de descrever.")
+    if "protagonist_control" in failed_names:
+        hints.append("Nao descreva o que Ryan faz — apenas ambiente e NPCs.")
+    if "meta_questions" in failed_names:
+        hints.append("Remova perguntas ao jogador; termine com reacao do mundo.")
+    hint_block = "\n".join(f"- {line}" for line in hints)
     return (
         "\n\n## CORRECAO OBRIGATORIA\n"
         f"A tentativa anterior falhou validacao: {details}.\n"
-        "Reescreva usando apenas fatos do contexto e historico. Nao invente NPCs nem locais."
+        "Reescreva usando apenas fatos do contexto e historico. Nao invente NPCs nem locais.\n"
+        f"{hint_block}"
     )
 
 
@@ -294,7 +307,13 @@ def generate_turn(
                 context_sources=selection.manifest.source_paths,
             )
 
-        last_report = quality_gate.validate(last_reply, selection.manifest, channel)
+        last_report = quality_gate.validate(
+            last_reply,
+            selection.manifest,
+            channel,
+            player_message=message,
+            previous_narrator=engine._last_narrator_text(history),
+        )
         routing_log.append(
             RoutingLogEntry(
                 channel=channel,

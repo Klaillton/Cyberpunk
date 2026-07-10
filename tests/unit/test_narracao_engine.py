@@ -216,6 +216,27 @@ def test_sanitize_narracao_reply_strips_aqui_esta_uma_pergunta() -> None:
     raw = "Tomas some na oficina. Aqui esta uma pergunta: O que voce faz em seguida?"
     cleaned = engine.sanitize_ollama_reply(raw, channel="narracao")
     assert "Aqui esta uma pergunta" not in cleaned
+    assert "O que voce faz em seguida" not in cleaned
+
+
+def test_sanitize_narracao_reply_strips_narrador_prefix_and_player_echo() -> None:
+    previous = "Valk abraca Tio Gringo no refeitorio."
+    player = "Eu cumprimento o Tio Gringo e pergunto sobre a oficina."
+    raw = (
+        "NARRADOR: NARRADOR: Voce cumprimenta o Tio Gringo e pergunta sobre a oficina. "
+        "Ele responde que os novatos ajudam na usinagem, mas ainda falta disciplina."
+    )
+    cleaned = engine.sanitize_ollama_reply(
+        raw,
+        channel="narracao",
+        history=[
+            {"role": "assistant", "content": previous},
+            {"role": "user", "content": f"[HISTORIA] VOCE: {player}"},
+        ],
+    )
+    assert not cleaned.upper().startswith("NARRADOR:")
+    assert "cumprimenta o Tio Gringo e pergunta" not in cleaned.lower()
+    assert "usinagem" in cleaned.lower()
 
 
 def test_build_prompt_narracao_uses_parsed_player_message() -> None:

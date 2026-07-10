@@ -517,10 +517,9 @@ def _ollama_channel_hint(channel: str) -> str:
         "Nao reabra narrando de novo o que o jogador acabou de fazer. "
         "Se o jogador JA executou a acao, narre o que acontece em seguida — nao ofereca menu de opcoes. "
         "Falas entre aspas do jogador JA foram ditas — reaja com NPCs/ambiente, sem repetir a frase. "
-        "ANTI-REPETICAO: nao copie paragrafos da sua resposta anterior no historico; traga fato NOVO (Tomas visto, som, cheiro, interrupcao). "
-        "Se Tomas ainda nao apareceu, descreva ONDE Ryan procura agora — nao repita Elias/Mara como no turno anterior. "
-        "Maximo 2 paragrafos curtos (4-6 frases). UMA pergunta aberta no final, sem prefixo 'Aqui esta uma pergunta'. "
-        "PROIBIDO: A/B/C, listas numeradas, 'Voce pode', 'Qual e sua prioridade', ecoar a acao do jogador."
+        "ANTI-REPETICAO: nao copie frases da sua resposta anterior; traga fato NOVO (reacao de NPC, detalhe sensorial, interrupcao). "
+        "Maximo 2 paragrafos curtos (3-5 frases). Termine com consequencia ou reacao de NPC — NAO pergunte 'o que voce faz'. "
+        "PROIBIDO: A/B/C, listas numeradas, 'Voce pode', 'Qual e sua prioridade', ecoar/reformular a acao do jogador, prefixo 'NARRADOR:'."
     )
 
 
@@ -533,6 +532,18 @@ def _last_narrator_text(history: list[dict] | None) -> str:
         content = str(entry.get("content", "")).strip()
         if content:
             return content
+    return ""
+
+
+def _last_player_text(history: list[dict] | None) -> str:
+    if not history:
+        return ""
+    for entry in reversed(history):
+        if str(entry.get("role", "")).lower() != "user":
+            continue
+        content = str(entry.get("content", "")).strip()
+        if content:
+            return re.sub(r"^\[[^\]]+\]\s*VOCE:\s*", "", content, flags=re.IGNORECASE).strip()
     return ""
 
 
@@ -553,8 +564,14 @@ def _dedupe_sentences_against_previous(text: str, previous: str) -> str:
     return " ".join(kept).strip() if kept else text.strip()
 
 
-def _sanitize_narracao_reply(text: str, *, previous: str = "") -> str:
+def _sanitize_narracao_reply(
+    text: str,
+    *,
+    previous: str = "",
+    player_message: str = "",
+) -> str:
     cleaned = text.strip()
+    cleaned = re.sub(r"^(?:NARRADOR\s*:\s*)+", "", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(
         r"(?:Aqui está uma pergunta|Aqui esta uma pergunta)\s*:?\s*",
         "",
@@ -562,6 +579,8 @@ def _sanitize_narracao_reply(text: str, *, previous: str = "") -> str:
         flags=re.IGNORECASE,
     )
     cleaned = _dedupe_sentences_against_previous(cleaned, previous)
+    if player_message.strip():
+        cleaned = _dedupe_sentences_against_previous(cleaned, player_message)
     cleaned = re.sub(r"^\s*[A-D]\)\s+.*$", "", cleaned, flags=re.MULTILINE)
     cleaned = re.sub(r"^\s*\d+\s*[-.)]\s+.*$", "", cleaned, flags=re.MULTILINE)
     cleaned = re.sub(
@@ -572,6 +591,12 @@ def _sanitize_narracao_reply(text: str, *, previous: str = "") -> str:
     )
     cleaned = re.sub(
         r"(?:Qual é a sua prioridade|Qual e a sua prioridade|O que você fará|O que voce fara)\??.*$",
+        "",
+        cleaned,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    cleaned = re.sub(
+        r"(?:O que (?:você|voce) faz em seguida|Agora,?\s*o que (?:você|voce) faz)\??.*$",
         "",
         cleaned,
         flags=re.IGNORECASE | re.DOTALL,
@@ -611,7 +636,11 @@ def sanitize_ollama_reply(
         return _sanitize_summary_reply(text)
     cleaned = text.strip()
     if channel == "narracao":
-        cleaned = _sanitize_narracao_reply(cleaned, previous=_last_narrator_text(history))
+        cleaned = _sanitize_narracao_reply(
+            cleaned,
+            previous=_last_narrator_text(history),
+            player_message=_last_player_text(history),
+        )
     cleaned = re.sub(
         r"\([^)]*(?:respondid[ao]|anteriormente|remova|relevante|jogador|turno|instruc)[^)]*\)",
         "",
@@ -960,8 +989,10 @@ def _build_ollama_prompt(
             "- O HISTORICO DA CONVERSA define a cena ATUAL (local, quem esta presente, o que ja aconteceu).",
             "- Convencao do jogador: prosa = acao; _ ou [Fala] ou \"aspas\" = fala; *asteriscos* = beat/gesto.",
             "- Acoes e falas listadas abaixo JA ocorreram. Narre somente consequencias NOVAS.",
-            "- PROIBIDO controlar o protagonista: nao escreva 'Voce continua/se aproxima/pergunta/nota/entra/vai'.",
+            "- PROIBIDO controlar o protagonista: nao escreva 'Voce continua/se aproxima/pergunta/nota/entra/vai/olha/cumprimenta'.",
+            "- PROIBIDO ecoar a entrada do jogador ('Voce sai da tenda...' quando ele ja disse isso). Reaja com mundo/NPCs.",
             "- Descreva ambiente, NPCs e consequencias sensoriais; deixe a proxima acao para o jogador.",
+            "- PROIBIDO perguntar 'O que voce faz em seguida?' ou 'Agora, o que voce faz?'.",
             "- Quando um NPC falar, use [NPC-M: Nome] ou [NPC-F: Nome] seguido da fala (ex: [NPC-M: Tio Gringo] \"Ola, Ryan.\").",
             "- Acao fisica de NPC (sem fala) pode usar [NPC-M: Nome] descricao curta da acao.",
             "- Nao repita paragrafos da sua ultima resposta no historico (ex: nao re-descrever Elias na destilaria se ja foi dito).",
