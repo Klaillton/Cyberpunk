@@ -17,7 +17,8 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **03/07/2026 (dia):** Ryan dedicou o dia ao **Badlands Node v0.1** (apresentação, delegação, blueprint, aprovação por Reyes).
 - **03/07/2026 (noite):** Intimidade na tenda (música, beijos); Ryan com breve desconexão/memória — Valk acolheu.
 - **04/07/2026:** Extração dos 6 reféns no Mule na Torre Raffen; pós-operação com banho, carinho e humor.
-- **04–05/07/2026:** Descompressão pós-missão (sono profundo, intimidade); projeto casas modulares (segredo); canto no perímetro (*Hurt*, *Sleeping in the Cold Below*); memória da “tia” compartilhada; Valk organiza scav de containers (05/07).
+- **04–05/07/2026:** Descompressão pós-missão (sono profundo, intimidade); projeto casas modulares (segredo); canto no perímetro (*Hurt*, *Sleeping in the Cold Below*); memória da “tia” compartilhada; Valk organiza scav de materiais (05/07).
+- **05–09/07/2026 (sessão 010):** Scav de materiais com Ryan/Rusty/Jax (dois veículos); intimidade pós-scav; conversa sobre eventual partida de Ryan e ida à Doc juntos; Valk busca Ryan na oficina e organiza **scav de containers** para o dia seguinte.
 
 ### Alex "Specter" Kane
 

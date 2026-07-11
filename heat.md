@@ -1,7 +1,7 @@
 # Sistema de Heat (Perseguição / Exposição)
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 30 de Junho de 2026
+**Última atualização:** 09 de Julho de 2026
 
 ## Nível Atual de Heat
 
@@ -20,8 +20,10 @@
 
 - Operação bem-sucedida contra a Biotechnica (+)
 - Incursões Raffen: [Incidente 001](logs/incidente_001_incursao_recursos_raffen.md) + [Incidente 002](logs/incidente_002_incursao_noturna_raffen.md) (~16 hostis noturnos) (+)
+- Operação Torre Raffen (04/07) — possível residual com outros grupos (+)
 - Revelação de múltiplas facetas (especialmente o lado operador frio) (+)
 - Trabalho técnico de alto nível no Pack (pode chamar atenção)
+- Scav 05/07 limpa (sem aumento de heat)
 
 ## Como Reduzir o Heat
 

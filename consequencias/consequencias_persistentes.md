@@ -1,6 +1,6 @@
 # Consequências Persistentes
 
-**Última atualização:** 05 de Julho de 2026 (manhã — sessão 009)
+**Última atualização:** 09 de Julho de 2026 (sessão 010)
 
 ---
 
@@ -183,7 +183,20 @@ Na manhã de 05/07, Ryan retomou supervisão do núcleo técnico (Tomas, Mara, E
 - Relação Ryan × Valk aprofundada (vulnerabilidade musical + cumplicidade no projeto secreto).
 - Núcleo de recrutas validado em execução autônoma; Ryan retorna como arquiteto/supervisor.
 
-**Última atualização:** 05 de Julho de 2026 (manhã)
+## 05 a 09 de Julho de 2026 - Scav de Materiais e Produção das Casas Modulares (sessão 010)
+
+Ryan executou scav tática com time (Valk, Rusty, Jax + 2; dois veículos). Reconhecimento solo + drones (Hornet, Vesper, Barbed); área limpa. Recuperou material estrutural (chapas, perfis, tubulações, vigas, isolamento, peças mecânicas); containers inteiros ficaram para segunda viagem. Trabalho em duplas com cobertura de perímetro.
+
+Nos dias seguintes, montou linha de produção na oficina com alunos do Tio Gringo (propósito das peças ainda secreto). Peças complexas feitas por Ryan; volume pelos alunos. Cerca em estrela e **Badlands Node** (biodigestor + filtragem de água) avançaram em paralelo. Destilaria e estufa seguiram sob o núcleo técnico.
+
+Fim do período: peças principais quase prontas para protótipo; **scav de containers** marcada para o dia seguinte (Valk organiza). Ryan verbalizou eventual partida e desejo de legado no pack; Valk se ofereceu para ir com ele à Doc.
+
+**Impactos:**
+
+- Material base de habitação modular no pack; protótipo bloqueado apenas por containers inteiros.
+- Autonomia de fabricação do pack reforçada (linha de produção + ensino).
+- Vínculo Ryan × Valk aprofundado (operacional + conversa sobre futuro e Doc).
+- Segunda scav de containers na fila imediata.
 
 ---
 
@@ -201,4 +214,4 @@ Na manhã de 05/07, Ryan retomou supervisão do núcleo técnico (Tomas, Mara, E
 - [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
 - [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Facções](../relacionamentos/faccao_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- [Sessão 007](../logs/sessao_resumo_007.md) · [Sessão 008](../logs/sessao_resumo_008.md) · [Última sessão (009)](../logs/sessao_resumo_009.md) · [Downtime](../logs/downtime_ryan.md)
+- [Sessão 008](../logs/sessao_resumo_008.md) · [Sessão 009](../logs/sessao_resumo_009.md) · [Última sessão (010)](../logs/sessao_resumo_010.md) · [Downtime](../logs/downtime_ryan.md)

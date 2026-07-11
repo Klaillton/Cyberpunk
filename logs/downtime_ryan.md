@@ -61,11 +61,26 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 - Registre materiais usados, dificuldades encontradas e qualquer desenvolvimento interessante.
 - Este log serve tanto para manter consistência quanto para gerar possíveis ganchos futuros (ex: alguém interessado nos instrumentos, problema com componentes raros, etc.).
 
-**Última atualização:** 25 de Junho de 2026
+**Última atualização:** 09 de Julho de 2026 (sessão 010)
+
+---
+
+## 05 a 09 de Julho de 2026 – Casas modulares e Node
+
+**Atividade:** Scav de materiais + linha de produção de peças para casas modulares dobráveis; supervisão do Badlands Node / destilaria / estufa.
+
+| Data | Atividade | Progresso | Observações |
+| ---- | --------- | --------- | ----------- |
+| 05/07 | Scav Badlands (time Valk/Rusty/Jax) | Material estrutural recuperado | Containers inteiros ficaram para 2ª viagem |
+| 05–09/07 | Oficina: peças do protótipo (alunos + Ryan) | Peças principais quase prontas | Propósito ainda secreto; “só Ryan” |
+| 05–09/07 | Badlands Node + destilaria/estufa | Em progresso | Biodigestor e filtragem tomando forma |
+| 10/07 (planejado) | Scav de containers | Pendente | Valk organiza 2–3 veículos |
+
+**Próximo marco:** containers → montagem do primeiro protótipo → revelação controlada ao pack.
 
 ---
 
 ## Referências
 
-- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md)
+- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Sessão 010](sessao_resumo_010.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Economia](../economia.md) · [Consequências](../consequencias/consequencias_persistentes.md)

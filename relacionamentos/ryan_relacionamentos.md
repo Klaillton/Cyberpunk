@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 05 de Julho de 2026 (sessão 009)
+**Última atualização:** 09 de Julho de 2026 (sessão 010)
 
 ---
 
@@ -24,7 +24,7 @@
 
 **Status:** Namorando (relação consolidada e profunda)  
 **Intensidade:** Alta  
-**Última atualização:** 05 de Julho de 2026 (sessão 009)
+**Última atualização:** 09 de Julho de 2026 (sessão 010)
 
 **Evolução conhecida:**
 
@@ -57,10 +57,17 @@
 - Noite no perímetro: Ryan cantou para Valk e compartilhou memória vaga da “tia”; Valk acolheu com carinho.
 - 05/07: Ryan retomou supervisão técnica; Valk prepara incursão de containers com Rusty/Jax.
 
+**Atualização da sessão (05–09/07 — sessão 010):**
+
+- Scav de materiais em equipe (Valk, Rusty, Jax): Ryan recon solo + drones; time em duplas; retorno limpo.
+- Intimidade e aftercare pós-scav; Valk busca Ryan na oficina após dias de produção.
+- Conversa sobre eventual partida de Ryan, legado no pack e visita à Doc (Valk quer ir junto).
+- Combinam scav de **containers** para o dia seguinte; projeto das casas ainda secreto.
+
 **Estado atual:**
 
-- Ryan e Valk estão juntos de forma estável.
-- Valk apoia os projetos de Ryan, mas demonstra preocupação com o tempo que ele passa na oficina e com seu lado mais frio.
+- Ryan e Valk estão juntos de forma estável e cumplices no piloto de habitação.
+- Valk apoia os projetos de Ryan e equilibra o “modo operador” com a vida no pack.
 
 **Notas do Narrador:**
 

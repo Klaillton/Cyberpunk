@@ -190,7 +190,7 @@ O jogador pode invocar o seguinte comando a qualquer momento:
 - `[Criar resumo da sessão atual]`
 - `[Finalizar sessão e gerar resumo]`
 
-Ao receber um desses comandos, a IA deve gerar um resumo estruturado da sessão atual e propor salvar em `logs/sessao_resumo_XXX.md` (verificar o último número em `sistema/registro_arquivos.md`; próximo disponível: `009`).
+Ao receber um desses comandos, a IA deve gerar um resumo estruturado da sessão atual e propor salvar em `logs/sessao_resumo_XXX.md` (verificar o último número em `sistema/registro_arquivos.md`; próximo disponível: `011`).
 
 ### Quando Sugerir Criar Resumo
 
@@ -212,7 +212,7 @@ A IA deve **sempre mostrar o resumo gerado** e perguntar se deseja salvar no rep
 
 Exemplo de mensagem:
 
-> “Aqui está o resumo da sessão. Deseja que eu salve no arquivo `logs/sessao_resumo_009.md` e envie para o GitHub?”
+> “Aqui está o resumo da sessão. Deseja que eu salve no arquivo `logs/sessao_resumo_011.md` e envie para o GitHub?”
 
 Cada resumo deve incluir a seção **Arquivos Atualizados Nesta Sessão** com links para os arquivos modificados.
 

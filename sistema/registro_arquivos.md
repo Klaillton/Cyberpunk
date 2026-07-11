@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 05 de Julho de 2026
+**Última atualização:** 09 de Julho de 2026
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -40,7 +40,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
 | Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `009`). Próximo número disponível: **010**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `010`). Próximo número disponível: **011**.
 
 ---
 
@@ -125,7 +125,9 @@ cyberpunk/
 │   ├── sessao_resumo_005.md
 │   ├── sessao_resumo_006.md
 │   ├── sessao_resumo_007.md
-│   └── sessao_resumo_008.md
+│   ├── sessao_resumo_008.md
+│   ├── sessao_resumo_009.md
+│   └── sessao_resumo_010.md
 ├── relacionamentos/
 │   ├── mapa_relacional_geral.md   ← Hub de personagens
 │   ├── ryan_relacionamentos.md
