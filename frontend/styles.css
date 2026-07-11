@@ -722,10 +722,31 @@ body:has(.side-actions .submenu:not(.is-hidden)) .sidebar {
 }
 
 .turn-quality-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.2rem 0.45rem;
   margin: 0.45rem 0 0;
   font-size: 0.72rem;
   letter-spacing: 0.02em;
   color: rgba(180, 198, 220, 0.72);
+  line-height: 1.35;
+  width: 100%;
+  max-width: 100%;
+}
+
+.npc-message > .turn-quality-meta,
+.player-message-card.has-token > .turn-quality-meta {
+  grid-column: 1 / -1;
+}
+
+.turn-quality-meta-item {
+  white-space: nowrap;
+}
+
+.turn-quality-meta-sep {
+  opacity: 0.55;
+  user-select: none;
 }
 
 .routing-policy-line {

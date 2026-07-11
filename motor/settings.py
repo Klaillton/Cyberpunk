@@ -11,6 +11,13 @@ VALID_ROUTING_POLICIES = frozenset({"local_only", "local_preferred", "hybrid", "
 _VALID_NARRATION_MIN_TIERS = frozenset({"standard", "complex", "critical"})
 
 
+def _optional_int_env(name: str) -> int | None:
+    raw = os.environ.get(name, "").strip()
+    if not raw:
+        return None
+    return int(raw)
+
+
 def _normalize_narration_min_tier(raw: str) -> str:
     tier = raw.strip().lower()
     if tier in _VALID_NARRATION_MIN_TIERS:
@@ -36,7 +43,7 @@ class Settings:
     port: int = 8787
     provider: str = "none"
     ollama_base_url: str = "http://127.0.0.1:11434"
-    ollama_model_narration: str = "llama3.1:8b"
+    ollama_model_narration: str = "qwen2.5:14b-instruct"
     ollama_model_aux: str = "phi3:mini"
     narration_min_tier: str = "standard"
     character_id: str = "ryan_wireghost_voss"
@@ -48,6 +55,13 @@ class Settings:
     llm_routing_policy: str = "local_preferred"
     cloud_fallback_enabled: bool = False
     cloud_provider: str = "grok"
+    quality_rescue_cloud_enabled: bool = True
+    quality_rescue_max_chars: int = 4500
+    grok_bin: Path = field(
+        default_factory=lambda: Path(
+            os.environ.get("GROK_BIN", r"C:\Users\Dante\.grok\bin\grok.exe")
+        )
+    )
     ollama_model_classifier: str = "phi3:mini"
     ollama_max_prompt_chars: int = 12_000
     ollama_max_prompt_chars_aux: int = 4500
@@ -56,8 +70,10 @@ class Settings:
     ollama_num_predict_narration: int = 720
     ollama_num_predict_aux: int = 280
     ollama_num_predict_summary: int = 1400
-    ollama_num_ctx_narration: int = 8192
+    ollama_num_ctx_narration: int = 10_240
     ollama_num_ctx_aux: int = 4096
+    ollama_num_gpu: int | None = None
+    ollama_request_timeout_s: int = 900
     update_proposals_enabled: bool = False
 
     @classmethod
@@ -79,6 +95,13 @@ class Settings:
         cloud_provider = os.environ.get("CLOUD_PROVIDER", "grok").strip().lower()
         if cloud_provider not in VALID_PROVIDERS or cloud_provider in {"none", "ollama"}:
             cloud_provider = "grok"
+        quality_rescue = os.environ.get("QUALITY_RESCUE_CLOUD_ENABLED", "true").strip().lower() in {
+            "1",
+            "true",
+            "yes",
+        }
+        quality_rescue_max_chars = int(os.environ.get("QUALITY_RESCUE_MAX_CHARS", "4500"))
+        grok_bin = Path(os.environ.get("GROK_BIN", r"C:\Users\Dante\.grok\bin\grok.exe"))
         update_proposals_raw = os.environ.get("UPDATE_PROPOSALS_ENABLED", "").strip().lower()
         if update_proposals_raw in {"1", "true", "yes"}:
             update_proposals_enabled = True
@@ -93,7 +116,9 @@ class Settings:
             port=int(os.environ.get("NARRACAO_API_PORT", "8787")),
             provider=provider,
             ollama_base_url=os.environ.get("OLLAMA_BASE_URL", "http://127.0.0.1:11434").strip(),
-            ollama_model_narration=os.environ.get("OLLAMA_MODEL_NARRATION", "llama3.1:8b").strip(),
+            ollama_model_narration=os.environ.get(
+                "OLLAMA_MODEL_NARRATION", "qwen2.5:14b-instruct"
+            ).strip(),
             ollama_model_aux=os.environ.get(
                 "OLLAMA_MODEL_AUX",
                 os.environ.get("OLLAMA_MODEL_CLASSIFIER", "phi3:mini"),
@@ -110,6 +135,9 @@ class Settings:
             llm_routing_policy=routing_policy,
             cloud_fallback_enabled=cloud_fallback,
             cloud_provider=cloud_provider,
+            quality_rescue_cloud_enabled=quality_rescue,
+            quality_rescue_max_chars=quality_rescue_max_chars,
+            grok_bin=grok_bin,
             ollama_model_classifier=os.environ.get("OLLAMA_MODEL_CLASSIFIER", "phi3:mini").strip(),
             ollama_max_prompt_chars=int(os.environ.get("OLLAMA_MAX_PROMPT_CHARS", "12000")),
             ollama_max_prompt_chars_aux=int(os.environ.get("OLLAMA_MAX_PROMPT_CHARS_AUX", "4500")),
@@ -118,8 +146,10 @@ class Settings:
             ollama_num_predict_narration=int(os.environ.get("OLLAMA_NUM_PREDICT_NARRATION", "720")),
             ollama_num_predict_aux=int(os.environ.get("OLLAMA_NUM_PREDICT_AUX", "280")),
             ollama_num_predict_summary=int(os.environ.get("OLLAMA_NUM_PREDICT_SUMMARY", "1400")),
-            ollama_num_ctx_narration=int(os.environ.get("OLLAMA_NUM_CTX_NARRATION", "8192")),
+            ollama_num_ctx_narration=int(os.environ.get("OLLAMA_NUM_CTX_NARRATION", "10240")),
             ollama_num_ctx_aux=int(os.environ.get("OLLAMA_NUM_CTX_AUX", "4096")),
+            ollama_num_gpu=_optional_int_env("OLLAMA_NUM_GPU"),
+            ollama_request_timeout_s=int(os.environ.get("OLLAMA_REQUEST_TIMEOUT", "900")),
             update_proposals_enabled=update_proposals_enabled,
         )
 
@@ -162,6 +192,9 @@ def choose_provider(default_provider: str | None = None) -> str:
     if default not in VALID_PROVIDERS:
         default = "none"
 
+    if os.environ.get("NARRACAO_PROVIDER", "").strip():
+        settings.provider = default
+        return default
     if os.environ.get("NARRACAO_SKIP_PROVIDER_PROMPT", "").strip().lower() in {"1", "true", "yes"}:
         settings.provider = default
         return default

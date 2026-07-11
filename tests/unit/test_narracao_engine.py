@@ -265,6 +265,104 @@ def test_sanitize_narracao_reply_strips_option_menus() -> None:
     assert "A)" not in cleaned
 
 
+def test_last_narrator_text_ignores_npc_only_tail() -> None:
+    history = [
+        {
+            "role": "assistant",
+            "content": (
+                "O refeitorio cheira a cafe.\n\n"
+                '[NPC: Tio Gringo] "Bom dia, Ryan."'
+            ),
+        }
+    ]
+    assert engine._last_narrator_text(history) == "O refeitorio cheira a cafe."
+
+
+def test_sanitize_uses_current_player_message_over_history() -> None:
+    raw = "Voce observa o patio e nota pegadas frescas na lama."
+    cleaned = engine.sanitize_ollama_reply(
+        raw,
+        channel="narracao",
+        history=[{"role": "user", "content": "entro na oficina"}],
+        player_message="observo o patio",
+    )
+    assert "observa o patio" not in cleaned.lower()
+
+
+def test_sanitize_strips_npc_repeating_player_speech() -> None:
+    player = (
+        'Ryan fica serio.\n\n'
+        '"Quanto eles ja sabem? Mover o pack e uma alternativa?"'
+    )
+    raw = (
+        '[NPC-M: Reyes] "Quanto eles ja sabem? Mover o pack e uma alternativa?" '
+        "Reyes mantem o olhar fixo em Ryan."
+    )
+    cleaned = engine.sanitize_ollama_reply(
+        raw,
+        channel="narracao",
+        player_message=player,
+    )
+    assert "quanto eles ja sabem" not in cleaned.lower()
+    assert "mantem o olhar" in cleaned.lower()
+
+
+def test_sanitize_strips_meta_incompleto_phrases() -> None:
+    raw = (
+        "O Mule freia no acampamento. "
+        "(Resumo de chat incompleto; sem detalhes registrados da incursao alem do retorno.)"
+    )
+    cleaned = engine.sanitize_ollama_reply(raw, channel="narracao")
+    assert "incompleto" not in cleaned.lower()
+    assert "Mule freia" in cleaned
+
+
+def test_sanitize_fixes_reyes_m_tag_format() -> None:
+    raw = '[NPC placeholder] ok. [Reyes-M: Reyes] "Ei, alguem sabe quem e isso?"'
+    cleaned = engine.sanitize_ollama_reply(raw, channel="narracao")
+    assert "[Reyes-M:" not in cleaned
+    assert "[NPC-M: Reyes]" in cleaned
+
+
+def test_sanitize_normalizes_inline_npc_tags() -> None:
+    raw = (
+        "O Mule treme na estrada. [NPC-F: Lena \"Valk\" Kane] "
+        '"Incursao limpa o bastante. Se o perimetro ainda estiver de pe, dormimos sem vigilia extra."'
+    )
+    cleaned = engine.sanitize_ollama_reply(raw, channel="narracao")
+    assert 'Lena "Valk" Kane' not in cleaned
+    assert "[NPC-F: Lena Valk" in cleaned
+    assert "Incursao limpa" in cleaned
+
+
+def test_sanitize_repairs_mojibake_from_grok() -> None:
+    raw = "O rÃ¡dio chiou no habitÃ¡culo."
+    cleaned = engine.sanitize_ollama_reply(raw, channel="narracao")
+    assert "rádio" in cleaned
+    assert "habitáculo" in cleaned
+
+
+def test_sanitize_strips_ryan_control_sentences() -> None:
+    raw = (
+        "Ryan olha para Reyes com um sorriso serio, assentindo com a cabeca. "
+        "Reyes mantem o olhar fixo e responde em voz baixa."
+    )
+    cleaned = engine.sanitize_ollama_reply(raw, channel="narracao")
+    assert "ryan olha" not in cleaned.lower()
+    assert "reyes mantem" in cleaned.lower()
+
+
+def test_sanitize_strips_echo_but_keeps_new_detail() -> None:
+    raw = "Voce observa o patio. Pegadas frescas cruzam a lama perto da cerca."
+    cleaned = engine.sanitize_ollama_reply(
+        raw,
+        channel="narracao",
+        player_message="observo o patio",
+    )
+    assert "observa o patio" not in cleaned.lower()
+    assert "pegadas frescas" in cleaned.lower()
+
+
 def test_select_context_mestre_tomas_excludes_polycule() -> None:
     message = "Tomas parece nervoso — o NPC ja se tornou traidor?"
     paths = engine.select_context_files(message, provider="ollama", channel="mestre")

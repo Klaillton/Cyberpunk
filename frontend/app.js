@@ -346,20 +346,154 @@ function parseNpcTaggedLine(line) {
   }
   const tag = tagged[1].toUpperCase();
   const body = tagged[3].trim();
-  const quoted = body.match(/^"([^"]+)"$/);
+  const quotedLead = body.match(/^"([^"]+)"\s*(.*)$/s);
+  const quoted = quotedLead ? null : body.match(/^"([^"]+)"$/);
   const starred = body.match(/^\*([^*]+)\*$/);
   const explicitAction = /^\(acao\)\s*/i.test(body);
-  return {
-    type: "npc",
-    name: tagged[2].trim(),
-    gender: tag.includes("-F") ? "female" : "male",
-    text: quoted
+  const speechText = quotedLead
+    ? quotedLead[1]
+    : quoted
       ? quoted[1]
       : starred
         ? starred[1].trim()
-        : body.replace(/^\(acao\)\s*/i, "").trim(),
+        : body.replace(/^\(acao\)\s*/i, "").trim();
+  const remainder = quotedLead ? quotedLead[2].trim() : "";
+  const rawName = tagged[2].trim();
+  const resolved = resolveSpeakerFromCatalog(rawName);
+  return {
+    type: "npc",
+    name: resolved?.name || rawName,
+    gender: tag.includes("-F") ? "female" : resolved?.gender || "male",
+    text: speechText,
     action: Boolean(starred || explicitAction),
+    remainder,
   };
+}
+
+function isAttributionTail(text) {
+  const trimmed = String(text || "").trim();
+  return /^,\s*(diz|disse|fala|murmura|sussurra|pergunta|responde|continua|completa|adiciona|grita|nota)\b/i.test(
+    trimmed,
+  );
+}
+
+function isOrphanTagFragment(text) {
+  const trimmed = String(text || "").trim();
+  return /^[A-ZÀ-Ú][A-Za-zÀ-ú]{0,24}\]$/.test(trimmed) || /^\[NPC[^\]]*$/i.test(trimmed);
+}
+
+const NPC_SPEAKER_TAG_RE =
+  /\[(?:NPC(?:-F|-M)?|[A-ZÀ-Ú][A-Za-zÀ-ú ."']+?(?:-F|-M)?)\s*:\s*([^\]]+)\]/gi;
+
+function genderFromTagToken(tagToken) {
+  if (/-F\b/i.test(tagToken)) {
+    return "female";
+  }
+  if (/-M\b/i.test(tagToken)) {
+    return "male";
+  }
+  return "male";
+}
+
+function extractNpcSpeechAfterTag(text, startIndex, rawName, tagToken) {
+  const gender = genderFromTagToken(tagToken);
+  const resolved = resolveSpeakerFromCatalog(rawName.trim());
+  const name = resolved?.name || rawName.trim();
+  const resolvedGender = resolved?.gender || gender;
+  let rest = text.slice(startIndex).trimStart();
+  let consumed = startIndex + (text.slice(startIndex).length - rest.length);
+
+  const quoted = rest.match(/^"([^"]+)"/);
+  if (quoted) {
+    consumed += quoted[0].length;
+    return {
+      segment: {
+        type: "npc",
+        name,
+        gender: resolvedGender,
+        text: quoted[1].trim(),
+        action: false,
+      },
+      endIndex: consumed,
+    };
+  }
+
+  const nextTag = rest.search(
+    /\[(?:NPC(?:-F|-M)?|[A-ZÀ-Ú][A-Za-zÀ-ú]+(?:-F|-M)?)\s*:/i,
+  );
+  const chunk = (nextTag >= 0 ? rest.slice(0, nextTag) : rest).trim();
+  const speech = chunk.replace(/^[,;:\s]+/, "").trim();
+  consumed += nextTag >= 0 ? nextTag : rest.length;
+  return {
+    segment: {
+      type: "npc",
+      name,
+      gender: resolvedGender,
+      text: speech,
+      action: false,
+    },
+    endIndex: consumed,
+  };
+}
+
+function segmentNarrationByNpcTags(text) {
+  const tagRe = new RegExp(NPC_SPEAKER_TAG_RE.source, "gi");
+  const segments = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = tagRe.exec(text)) !== null) {
+    const narration = text.slice(lastIndex, match.index).trim();
+    if (narration && !isOrphanTagFragment(narration)) {
+      segments.push({ type: "narration", text: narration });
+    }
+    const extracted = extractNpcSpeechAfterTag(
+      text,
+      match.index + match[0].length,
+      match[1],
+      match[0],
+    );
+    if (extracted.segment.text) {
+      segments.push(extracted.segment);
+    }
+    lastIndex = extracted.endIndex;
+    tagRe.lastIndex = lastIndex;
+  }
+
+  const tail = text.slice(lastIndex).trim();
+  if (tail && !isOrphanTagFragment(tail)) {
+    segments.push({ type: "narration", text: tail });
+  }
+  return segments;
+}
+
+function coalesceNarrationSegments(segments) {
+  const merged = [];
+  segments.forEach((segment) => {
+    if (segment.type === "narration" && isOrphanTagFragment(segment.text)) {
+      return;
+    }
+    if (
+      segment.type === "narration" &&
+      isAttributionTail(segment.text) &&
+      merged.length > 0
+    ) {
+      const previous = merged[merged.length - 1];
+      const tail = segment.text.replace(/^,\s*/, "").trim();
+      if (previous.type === "narration") {
+        previous.text = `${previous.text} ${tail}`.trim();
+        return;
+      }
+      if (previous.type === "npc") {
+        merged.push({ type: "narration", text: tail });
+        return;
+      }
+    }
+    merged.push({ ...segment });
+  });
+  return merged.filter(
+    (segment) => segment.type !== "narration" || segment.text.trim().length > 0,
+  );
 }
 
 function segmentNarrationReply(reply) {
@@ -368,9 +502,18 @@ function segmentNarrationReply(reply) {
     return [{ type: "narration", text: "" }];
   }
 
+  if (
+    /\[(?:NPC(?:-F|-M)?|[A-ZÀ-Ú][A-Za-zÀ-ú]+(?:-F|-M)?)\s*:/i.test(text)
+  ) {
+    const tagged = segmentNarrationByNpcTags(text);
+    if (tagged.length) {
+      return coalesceNarrationSegments(tagged);
+    }
+  }
+
   const wholeTagged = parseNpcTaggedLine(text);
   if (wholeTagged && text.match(/^\[NPC/i)) {
-    return [wholeTagged];
+    return coalesceNarrationSegments([wholeTagged]);
   }
 
   const segments = [];
@@ -395,6 +538,9 @@ function segmentNarrationReply(reply) {
     if (lineTagged) {
       flushNarration();
       segments.push(lineTagged);
+      if (lineTagged.remainder) {
+        narrationBuffer.push(lineTagged.remainder.replace(/^,\s*/, "").trim());
+      }
       return;
     }
 
@@ -403,15 +549,27 @@ function segmentNarrationReply(reply) {
     let match;
     let foundQuote = false;
     while ((match = quoteRe.exec(trimmed)) !== null) {
+      const insideNpcTag = (() => {
+        const slice = trimmed.slice(0, match.index);
+        const open = slice.lastIndexOf("[NPC");
+        if (open < 0) {
+          return false;
+        }
+        return slice.indexOf("]", open) < 0;
+      })();
+      if (insideNpcTag) {
+        continue;
+      }
       foundQuote = true;
       const before = trimmed.slice(lastIndex, match.index).trim();
       if (before) {
         narrationBuffer.push(before);
       }
       flushNarration();
+      const speakerContext = before.replace(/\[NPC[^\]]*\]/gi, "");
       const speaker =
-        detectSpeaker(trimmed.slice(0, match.index)) ||
-        detectSpeaker(before) ||
+        detectSpeaker(speakerContext) ||
+        detectSpeaker(trimmed.slice(0, match.index).replace(/\[NPC[^\]]*\]/gi, "")) ||
         detectSpeaker(trimmed);
       if (speaker) {
         segments.push({
@@ -429,8 +587,10 @@ function segmentNarrationReply(reply) {
 
     const tail = trimmed.slice(lastIndex).trim();
     if (foundQuote) {
-      if (tail) {
+      if (tail && !isAttributionTail(tail)) {
         narrationBuffer.push(tail);
+      } else if (tail && isAttributionTail(tail)) {
+        narrationBuffer.push(tail.replace(/^,\s*/, "").trim());
       }
       return;
     }
@@ -463,7 +623,7 @@ function segmentNarrationReply(reply) {
   if (!segments.length) {
     segments.push({ type: "narration", text });
   }
-  return segments;
+  return coalesceNarrationSegments(segments);
 }
 
 function parseNpcReply(reply) {
@@ -824,10 +984,7 @@ function appendCard(text, role, options = {}) {
   }
 
   if (options.qualityMeta) {
-    const metaEl = document.createElement("p");
-    metaEl.className = "turn-quality-meta";
-    metaEl.textContent = options.qualityMeta;
-    card.appendChild(metaEl);
+    appendTurnQualityMeta(card, options.qualityMeta);
   }
 
   targetFeed.appendChild(card);
@@ -926,23 +1083,122 @@ function shouldSkipHistoryCard(text) {
   );
 }
 
+function historyBodyText(contentEl) {
+  const body = contentEl.querySelector(
+    ".narration-body, .md-content, .player-message-parsed",
+  );
+  return (body?.textContent || "").replace(/\s+/g, " ").trim();
+}
+
+function extractCardHistoryText(card) {
+  if (
+    card.classList.contains("channel-intro") ||
+    card.dataset.loading === "true" ||
+    card.classList.contains("loading-card")
+  ) {
+    return null;
+  }
+
+  const contentEl = card.querySelector(".message-content");
+  if (!contentEl) {
+    return null;
+  }
+
+  if (card.classList.contains("player") || card.classList.contains("player-message-card")) {
+    const bodyText = historyBodyText(contentEl);
+    if (!bodyText || shouldSkipHistoryCard(bodyText)) {
+      return null;
+    }
+    return { role: "user", content: bodyText };
+  }
+
+  if (card.classList.contains("narrator")) {
+    const bodyText = historyBodyText(contentEl);
+    if (!bodyText || shouldSkipHistoryCard(bodyText)) {
+      return null;
+    }
+    return { role: "assistant", content: bodyText };
+  }
+
+  if (card.classList.contains("npc-speech") || card.classList.contains("npc-action")) {
+    const prefix =
+      contentEl.querySelector(".narration-prefix")?.textContent?.trim() || "";
+    const bodyText = historyBodyText(contentEl);
+    if (!bodyText) {
+      return null;
+    }
+    const name = prefix.replace(/\s*\(acao\)\s*$/i, "").trim() || "NPC";
+    const tagged = card.classList.contains("npc-action")
+      ? `[NPC: ${name}] ${bodyText}`
+      : `[NPC: ${name}] "${bodyText}"`;
+    return { role: "assistant", content: tagged };
+  }
+
+  const prefix =
+    contentEl.querySelector(".narration-prefix")?.textContent?.trim() || "";
+  const bodyText = historyBodyText(contentEl);
+  const combined = [prefix, bodyText].filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
+  if (!combined || shouldSkipHistoryCard(combined)) {
+    return null;
+  }
+  if (/VOCE\s*:/i.test(prefix) || /VOCE\s*:/i.test(combined)) {
+    return {
+      role: "user",
+      content: combined.replace(/^(\[[^\]]+\]\s*)?VOCE:\s*/i, "").trim(),
+    };
+  }
+  return {
+    role: "assistant",
+    content: combined.replace(/^NARRADOR:\s*/i, "").trim(),
+  };
+}
+
+function extractOpeningSceneContext(feed) {
+  const opening = feed.querySelector(".narration-card.opening-scene .opening-body");
+  if (!opening) {
+    return null;
+  }
+  const text = opening.textContent?.replace(/\s+/g, " ").trim();
+  if (!text || text.length < 24) {
+    return null;
+  }
+  return { role: "assistant", content: `Cena de abertura: ${text}` };
+}
+
 function collectChannelHistory(channel, limit = 24) {
   const feed = feedForChannel(channel);
-  const cards = feed.querySelectorAll(
-    ".narration-card:not(.channel-intro):not(.loading-card)",
-  );
+  const cards = feed.querySelectorAll(".narration-card");
   const history = [];
+  let pendingAssistant = [];
+
+  const flushAssistant = () => {
+    if (!pendingAssistant.length) {
+      return;
+    }
+    history.push({
+      role: "assistant",
+      content: pendingAssistant.join("\n\n"),
+    });
+    pendingAssistant = [];
+  };
+
   cards.forEach((card) => {
-    const text = card.textContent?.replace(/\s+/g, " ").trim();
-    if (!text || shouldSkipHistoryCard(text)) {
+    const extracted = extractCardHistoryText(card);
+    if (!extracted?.content) {
       return;
     }
-    if (text.includes("VOCE:") || text.includes("VOCE ")) {
-      history.push({ role: "user", content: text });
+    if (extracted.role === "user") {
+      flushAssistant();
+      history.push(extracted);
       return;
     }
-    history.push({ role: "assistant", content: text });
+    pendingAssistant.push(extracted.content);
   });
+  flushAssistant();
+  const opening = extractOpeningSceneContext(feed);
+  if (opening) {
+    history.unshift(opening);
+  }
   return history.slice(-limit);
 }
 
@@ -1168,6 +1424,30 @@ async function runRoutingPreview() {
   }
 }
 
+function appendTurnQualityMeta(card, metaText) {
+  const metaEl = document.createElement("div");
+  metaEl.className = "turn-quality-meta";
+  metaEl.setAttribute("aria-label", "Metadados do turno LLM");
+  const parts = String(metaText || "")
+    .split(" · ")
+    .map((part) => part.trim())
+    .filter(Boolean);
+  parts.forEach((part, index) => {
+    const item = document.createElement("span");
+    item.className = "turn-quality-meta-item";
+    item.textContent = part;
+    metaEl.appendChild(item);
+    if (index < parts.length - 1) {
+      const sep = document.createElement("span");
+      sep.className = "turn-quality-meta-sep";
+      sep.setAttribute("aria-hidden", "true");
+      sep.textContent = "·";
+      metaEl.appendChild(sep);
+    }
+  });
+  card.appendChild(metaEl);
+}
+
 function formatTurnQualityMeta(meta) {
   if (!meta || activeChannel !== "narracao") {
     return "";
@@ -1185,6 +1465,12 @@ function formatTurnQualityMeta(meta) {
   }
   if (meta.turn_attempts > 1) {
     parts.push(`tentativas: ${meta.turn_attempts}`);
+  }
+  if (
+    Array.isArray(routing?.reasons) &&
+    routing.reasons.some((reason) => String(reason).includes("quality_gate:rescue_cloud"))
+  ) {
+    parts.push("resgate: grok compacto");
   }
   return parts.join(" · ");
 }
@@ -2105,6 +2391,21 @@ function apiHasFeature(feature) {
   return Array.isArray(apiHealth?.features) && apiHealth.features.includes(feature);
 }
 
+function buildOllamaHealthWarning(health) {
+  const ollama = health?.ollama;
+  if (!ollama) {
+    return "";
+  }
+  if (!ollama.reachable) {
+    return `Ollama offline em ${ollama.base_url || "127.0.0.1:11434"}. Inicie o app Ollama.`;
+  }
+  if (!ollama.narration_ready) {
+    const model = ollama.configured_narration || "modelo de narracao";
+    return `Modelo '${model}' nao instalado. Rode: ollama pull ${model}`;
+  }
+  return "";
+}
+
 async function bootstrapApi() {
   try {
     apiHealth = await fetchApiHealth();
@@ -2119,7 +2420,12 @@ async function bootstrapApi() {
       renderSessaoSubmenu();
       return;
     }
-    showApiStatus("");
+    const ollamaWarning = buildOllamaHealthWarning(apiHealth);
+    if (ollamaWarning) {
+      showApiStatus(ollamaWarning);
+    } else {
+      showApiStatus("");
+    }
     await Promise.all([refreshBrief(), ensureNpcCatalogLoaded(), ensureSessionCommandsLoaded()]);
     renderSessaoSubmenu();
   } catch (err) {

@@ -5,6 +5,7 @@ from motor.session_command_handler import (
     format_history_block,
     is_finalize_summary_command,
     next_session_log_rel,
+    normalize_history_entry,
     session_summary_context_paths,
 )
 from motor.settings import reset_settings
@@ -44,3 +45,21 @@ def test_format_history_block_renders_entries() -> None:
     assert "Jogador" in block
     assert "ataco a torre" in block
     assert "Ryan avanca" in block
+
+
+def test_format_history_block_empty_does_not_ask_model_to_warn_player() -> None:
+    block = format_history_block([])
+    assert "avise que o resumo" not in block.lower()
+    assert "Primeiro turno" in block
+
+
+def test_normalize_history_entry_strips_meta_and_prefixes() -> None:
+    polluted = (
+        "NARRADOR: Ryan olha ao redor. "
+        "LLM: ollama · validacao: revisada · tentativas: 2"
+    )
+    assert normalize_history_entry("assistant", polluted) == "Ryan olha ao redor."
+    assert (
+        normalize_history_entry("user", "[HISTORIA] VOCE: observo o patio")
+        == "observo o patio"
+    )

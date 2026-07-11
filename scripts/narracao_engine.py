@@ -30,11 +30,13 @@ sys.path.insert(0, str(REPO_ROOT))
 from motor.markdown.campaign_paths import is_template_path
 from motor.player_message import format_player_message_for_prompt, parse_player_message
 from motor.npc import list_campaign_sheets
+from motor.llm.quality_gate import _sentences, _word_overlap_ratio
 from motor.session_command_handler import (
     format_history_block,
     is_finalize_summary_command,
     latest_session_log_path,
     next_session_log_rel,
+    normalize_history_entry,
     session_summary_context_paths,
 )
 SYSTEM_DIR = REPO_ROOT / "sistema"
@@ -529,7 +531,17 @@ def _last_narrator_text(history: list[dict] | None) -> str:
     for entry in reversed(history):
         if str(entry.get("role", "")).lower() != "assistant":
             continue
-        content = str(entry.get("content", "")).strip()
+        content = normalize_history_entry(
+            "assistant",
+            str(entry.get("content", "")),
+            preserve_lines=True,
+        )
+        if not content:
+            continue
+        npc_match = re.search(r"\[NPC(?:-[MF])?:", content, flags=re.IGNORECASE)
+        if npc_match:
+            content = content[: npc_match.start()].strip()
+        content = re.sub(r"\s+", " ", content).strip()
         if content:
             return content
     return ""
@@ -541,9 +553,9 @@ def _last_player_text(history: list[dict] | None) -> str:
     for entry in reversed(history):
         if str(entry.get("role", "")).lower() != "user":
             continue
-        content = str(entry.get("content", "")).strip()
+        content = normalize_history_entry("user", str(entry.get("content", "")))
         if content:
-            return re.sub(r"^\[[^\]]+\]\s*VOCE:\s*", "", content, flags=re.IGNORECASE).strip()
+            return content
     return ""
 
 
@@ -564,6 +576,86 @@ def _dedupe_sentences_against_previous(text: str, previous: str) -> str:
     return " ".join(kept).strip() if kept else text.strip()
 
 
+_RYAN_CONTROL_RE = re.compile(
+    r"\bRyan\s+("
+    r"decide|ataca|corre|dispara|mata|entra|sai|continua|aproxima|pergunta|nota|"
+    r"ve|olha|comeca|reconhece|levanta|volta|retorna|investiga|procura|"
+    r"vai|sabe|diz|responde|observa|escuta|sente|tenta|chama|grita|sussurra|cumprimenta|"
+    r"assente|acena|gira|vira|encara|fixa|espera|hesita|reflete|analisa|examina"
+    r")\b",
+    re.IGNORECASE,
+)
+
+
+def _strip_npc_player_speech_echo(text: str, player_message: str) -> str:
+    parsed = parse_player_message(player_message)
+    if not parsed.speeches:
+        return text
+    cleaned = text
+    for speech in parsed.speeches:
+        escaped = re.escape(speech)
+        cleaned = re.sub(
+            rf"\[NPC(?:-[MF])?:[^\]]+\]\s*\"{escaped}\"",
+            "",
+            cleaned,
+            flags=re.IGNORECASE,
+        )
+        cleaned = re.sub(
+            rf"^[A-ZÀ-Ú][^:\n]{{1,48}}:\s*\"{escaped}\"\s*$",
+            "",
+            cleaned,
+            flags=re.IGNORECASE | re.MULTILINE,
+        )
+        cleaned = re.sub(
+            rf"\"{escaped}\"",
+            "",
+            cleaned,
+            flags=re.IGNORECASE,
+        )
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    return cleaned.strip()
+
+
+def _normalize_npc_tags(text: str) -> str:
+    def _clean_tag(match: re.Match[str]) -> str:
+        gender = match.group(1) or ""
+        name = re.sub(r'["\']', "", match.group(2))
+        name = re.sub(r"\s+", " ", name).strip()
+        return f"[NPC{gender}: {name}]"
+
+    def _fix_wrong_tag(match: re.Match[str]) -> str:
+        gender = match.group(2) or ""
+        name = re.sub(r'["\']', "", match.group(3))
+        name = re.sub(r"\s+", " ", name).strip()
+        return f"[NPC{gender}: {name}]"
+
+    cleaned = re.sub(
+        r"\[(?!NPC)([A-Za-zÀ-ú]+)((?:-[MF])?):\s*([^\]]+)\]",
+        _fix_wrong_tag,
+        text,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(
+        r"\[NPC((?:-[MF])?):\s*([^\]]+)\]",
+        _clean_tag,
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(
+        r"\s*(\[NPC(?:-[MF])?:[^\]]+\])",
+        r"\n\n\1",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    return cleaned
+
+
+def _strip_ryan_control_sentences(text: str) -> str:
+    sentences = _sentences(text)
+    kept = [sentence for sentence in sentences if not _RYAN_CONTROL_RE.search(sentence)]
+    return " ".join(kept).strip() if kept else text.strip()
+
+
 def _sanitize_narracao_reply(
     text: str,
     *,
@@ -571,6 +663,7 @@ def _sanitize_narracao_reply(
     player_message: str = "",
 ) -> str:
     cleaned = text.strip()
+    cleaned = _normalize_npc_tags(cleaned)
     cleaned = re.sub(r"^(?:NARRADOR\s*:\s*)+", "", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(
         r"(?:Aqui está uma pergunta|Aqui esta uma pergunta)\s*:?\s*",
@@ -607,6 +700,31 @@ def _sanitize_narracao_reply(
         cleaned,
         flags=re.IGNORECASE | re.DOTALL,
     )
+    cleaned = _strip_ryan_control_sentences(cleaned)
+    if player_message.strip():
+        cleaned = _strip_npc_player_speech_echo(cleaned, player_message)
+        sentences = _sentences(cleaned)
+        while sentences and _word_overlap_ratio(player_message, sentences[0]) >= 0.42:
+            sentences = sentences[1:]
+        cleaned = " ".join(sentences).strip()
+    cleaned = re.sub(
+        r"\(?\s*Resumo de chat incompleto[^.]*\.?\s*\)?",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(
+        r"sem detalhes registrados[^.]*\.?",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(
+        r"Nenhum historico de chat[^.]*\.?",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
     return cleaned.strip()
 
@@ -631,15 +749,17 @@ def sanitize_ollama_reply(
     *,
     session_intent: str | None = None,
     history: list[dict] | None = None,
+    player_message: str | None = None,
 ) -> str:
     if session_intent == "summary":
         return _sanitize_summary_reply(text)
     cleaned = text.strip()
     if channel == "narracao":
+        effective_player = (player_message or _last_player_text(history)).strip()
         cleaned = _sanitize_narracao_reply(
             cleaned,
             previous=_last_narrator_text(history),
-            player_message=_last_player_text(history),
+            player_message=effective_player,
         )
     cleaned = re.sub(
         r"\([^)]*(?:respondid[ao]|anteriormente|remova|relevante|jogador|turno|instruc)[^)]*\)",
@@ -647,6 +767,9 @@ def sanitize_ollama_reply(
         cleaned,
         flags=re.IGNORECASE,
     )
+    from motor.text_encoding import repair_mojibake
+
+    cleaned = repair_mojibake(cleaned)
     cleaned = re.sub(
         r"(?:Aqui está a cena atual:|Aqui esta a cena atual:)\s*",
         "",
@@ -987,13 +1110,18 @@ def _build_ollama_prompt(
             "## Regras",
             "- Use apenas fatos presentes no contexto e no historico abaixo. Nao invente NPCs, locais ou consequencias.",
             "- O HISTORICO DA CONVERSA define a cena ATUAL (local, quem esta presente, o que ja aconteceu).",
+            "- A ENTRADA DO JOGADOR AGORA tem prioridade sobre o board: se ele esta no Mule na estrada, narre NO Mule — nao no acampamento.",
+            "- Nao copie do board estados desatualizados (ex: NPC dormindo) se contradizem a acao atual do jogador.",
             "- Convencao do jogador: prosa = acao; _ ou [Fala] ou \"aspas\" = fala; *asteriscos* = beat/gesto.",
             "- Acoes e falas listadas abaixo JA ocorreram. Narre somente consequencias NOVAS.",
-            "- PROIBIDO controlar o protagonista: nao escreva 'Voce continua/se aproxima/pergunta/nota/entra/vai/olha/cumprimenta'.",
+            "- PROIBIDO controlar o protagonista: nao escreva acoes de Ryan (nem 'Voce...' nem 'Ryan olha/assente/pergunta/observa').",
             "- PROIBIDO ecoar a entrada do jogador ('Voce sai da tenda...' quando ele ja disse isso). Reaja com mundo/NPCs.",
+            "- Falas entre aspas em ### Falas JA foram ditas pelo jogador — NPCs devem RESPONDER, nunca repetir a pergunta.",
             "- Descreva ambiente, NPCs e consequencias sensoriais; deixe a proxima acao para o jogador.",
             "- PROIBIDO perguntar 'O que voce faz em seguida?' ou 'Agora, o que voce faz?'.",
-            "- Quando um NPC falar, use [NPC-M: Nome] ou [NPC-F: Nome] seguido da fala (ex: [NPC-M: Tio Gringo] \"Ola, Ryan.\").",
+            "- Mantenha hora do dia e local do historico/board (ex: manha continua manha; nao ponha sol se pondo sem passagem de tempo).",
+            "- Quando um NPC falar, use uma linha por fala: [NPC-M: Nome] \"texto\" ou [NPC-F: Nome] \"texto\".",
+            "- Nao coloque narracao depois da fala na mesma linha (sem ', diz ele' apos a tag).",
             "- Acao fisica de NPC (sem fala) pode usar [NPC-M: Nome] descricao curta da acao.",
             "- Nao repita paragrafos da sua ultima resposta no historico (ex: nao re-descrever Elias na destilaria se ja foi dito).",
             "- Nao cite caminhos de arquivos, JSON, blocos UPDATE_PROPOSALS nem meta-comentarios sobre o prompt.",
@@ -1103,6 +1231,8 @@ def run_grok(prompt: str) -> str:
     if not GROK_BIN.exists():
         raise FileNotFoundError(f"grok nao encontrado: {GROK_BIN}")
 
+    from motor.text_encoding import repair_mojibake
+
     proc = subprocess.run(
         [
             str(GROK_BIN),
@@ -1115,13 +1245,14 @@ def run_grok(prompt: str) -> str:
         ],
         cwd=REPO_ROOT,
         capture_output=True,
-        text=True,
+        encoding="utf-8",
+        errors="replace",
         timeout=900,
     )
     if proc.returncode != 0:
         err = (proc.stderr or proc.stdout or "erro desconhecido")[-2000:]
         raise RuntimeError(f"grok falhou: {err}")
-    return proc.stdout.strip()
+    return repair_mojibake((proc.stdout or "").strip())
 
 
 def append_session_log(session_file: Path, turn: ChatTurn) -> None:

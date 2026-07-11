@@ -92,9 +92,13 @@ def test_update_proposals_disabled_for_ollama_by_default(monkeypatch) -> None:
 def test_generate_reply_ollama_provider(monkeypatch) -> None:
     settings = get_settings()
     monkeypatch.setattr(settings, "provider", "ollama")
-    with patch("motor.narration.run_ollama", return_value="Resposta Ollama"):
+    monkeypatch.setattr(settings, "quality_rescue_cloud_enabled", False)
+    long_reply = (
+        "O vento levanta po no acampamento enquanto os recrutas observam o perimetro em silencio."
+    )
+    with patch("motor.narration.run_ollama", return_value=long_reply):
         reply = generate_reply("Avanco na cena", mode="narrador", settings=settings)
-    assert reply == "Resposta Ollama"
+    assert reply == long_reply
 
 
 def test_normalize_name_strips_punctuation() -> None:

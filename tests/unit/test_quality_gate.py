@@ -96,6 +96,69 @@ def test_quality_gate_rejects_meta_question() -> None:
     assert any(check.name == "meta_questions" and not check.passed for check in report.checks)
 
 
+def test_quality_gate_rejects_ryan_protagonist_control() -> None:
+    gate = ResponseQualityGate()
+    manifest = ContextManifest(
+        total_chars=2000,
+        entity_ids=["ryan_wireghost_voss", "reyes"],
+    )
+    report = gate.validate(
+        "Ryan olha para Reyes com um sorriso serio, assentindo com a cabeca.",
+        manifest,
+        channel="narracao",
+    )
+    assert report.passed is False
+    assert any(check.name == "protagonist_control" and not check.passed for check in report.checks)
+
+
+def test_quality_gate_rejects_npc_repeating_player_speech() -> None:
+    gate = ResponseQualityGate()
+    manifest = ContextManifest(
+        total_chars=2000,
+        entity_ids=["ryan_wireghost_voss", "reyes"],
+    )
+    player = (
+        'Ryan fica serio e assente.\n\n'
+        '"Quanto eles ja sabem? Mover o pack e uma alternativa?"'
+    )
+    reply = (
+        'Reyes encara Ryan por um instante.\n'
+        '[NPC-M: Reyes] "Quanto eles ja sabem? Mover o pack e uma alternativa?"'
+    )
+    report = gate.validate(
+        reply,
+        manifest,
+        channel="narracao",
+        player_message=player,
+    )
+    assert report.passed is False
+    assert any(check.name == "npc_echo" and not check.passed for check in report.checks)
+
+
+def test_quality_gate_rejects_camp_scene_when_player_in_mule() -> None:
+    gate = ResponseQualityGate()
+    manifest = ContextManifest(
+        total_chars=2000,
+        entity_ids=["ryan_wireghost_voss", "lena_valk_kane", "reyes"],
+        board_excerpt="Local: Acampamento do Pack nas Badlands. Valk dormindo na tenda.",
+    )
+    player = (
+        "Eu estou no Mule, Valk esta dirigindo pelas Badlands enquanto voltamos de uma Incursao"
+    )
+    reply = (
+        "A manha continua fresca no acampamento. Valk dorme na tenda ao lado. "
+        "Reyes discute com Tio Gringo enquanto Mara prepara o almoco."
+    )
+    report = gate.validate(
+        reply,
+        manifest,
+        channel="narracao",
+        player_message=player,
+    )
+    assert report.passed is False
+    assert any(check.name == "scene_continuity" and not check.passed for check in report.checks)
+
+
 def test_quality_gate_passes_consistent_reply() -> None:
     gate = ResponseQualityGate()
     manifest = ContextManifest(

@@ -4,13 +4,25 @@ import re
 import unicodedata
 
 from motor.llm.types import ContextManifest, QualityCheck, QualityReport
+from motor.player_message import parse_player_message
 
-_PROTAGONIST_CONTROL_RE = re.compile(
-    r"\b(voce|você)\s+("
+_PROTAGONIST_VERBS = (
     r"decide|ataca|corre|dispara|mata|entra|sai|continua|aproxima|pergunta|nota|"
     r"vê|ve|olha|começa|comeca|reconhece|levanta|volta|retorna|investiga|procura|"
-    r"vai|sabe|diz|responde|observa|escuta|sente|tenta|chama|grita|sussurra|cumprimenta"
-    r")\b",
+    r"vai|sabe|diz|responde|observa|escuta|sente|tenta|chama|grita|sussurra|cumprimenta|"
+    r"assente|acena|gira|vira|encara|fixa|espera|hesita|reflete|analisa|examina|"
+    r"camina|anda|corre|para|estaciona|dirige|sobe|desce|pega|segura|larga|abre|fecha"
+)
+_PROTAGONIST_CONTROL_RE = re.compile(
+    rf"\b(voce|você)\s+({_PROTAGONIST_VERBS})\b",
+    re.IGNORECASE,
+)
+_RYAN_CONTROL_RE = re.compile(
+    rf"\bRyan\s+({_PROTAGONIST_VERBS})\b",
+    re.IGNORECASE,
+)
+_NPC_TAGGED_QUOTE_RE = re.compile(
+    r"\[NPC(?:-[MF])?:[^\]]+\]\s*\"([^\"]+)\"",
     re.IGNORECASE,
 )
 _NAME_RE = re.compile(r"\b([A-Z][a-záàâãéêíóôõúç]{2,})(?:\s+[A-Z][a-záàâãéêíóôõúç]{2,})?\b")
@@ -91,6 +103,30 @@ def _sentences(text: str) -> list[str]:
     return [part.strip() for part in re.split(r"(?<=[.!?])\s+", text.strip()) if part.strip()]
 
 
+def _player_travel_scene(message: str) -> bool:
+    lower = message.lower()
+    has_vehicle = "mule" in lower
+    has_motion = bool(
+        re.search(r"dirigindo|dirige|volante|voltando|retornando|volta da|estrada", lower)
+    )
+    has_return = "incurs" in lower
+    return has_vehicle and (has_motion or has_return)
+
+
+_STATIC_CAMP_RE = re.compile(
+    r"(?:dorme|dormindo|dorme na tenda|preparar a comida|almo[cç]o|discuss[aã]o t[eé]cnica|ocupad[oa] em)",
+    re.IGNORECASE,
+)
+_TRAVEL_SCENE_RE = re.compile(
+    r"(?:mule|estrada|horizonte|cabine|volante|per[ií]metro|chegando|aproxim|rodovia|chassis|suspens)",
+    re.IGNORECASE,
+)
+_VALK_SLEEP_RE = re.compile(
+    r"valk.{0,60}(?:dorme|dormindo)|(?:dorme|dormindo).{0,60}valk",
+    re.IGNORECASE,
+)
+
+
 class ResponseQualityGate:
     def validate(
         self,
@@ -109,7 +145,9 @@ class ResponseQualityGate:
         checks.append(self._check_meta_questions(reply, channel))
         checks.append(self._check_duplicate_prefix(reply, channel))
         checks.append(self._check_player_echo(reply, player_message, channel))
+        checks.append(self._check_npc_echoes_player(reply, player_message, channel))
         checks.append(self._check_narrator_repeat(reply, previous_narrator, channel))
+        checks.append(self._check_scene_continuity(reply, player_message, channel))
         checks.append(self._check_invented_npc(reply, known_tokens))
         checks.append(self._check_board_consistency(reply, manifest))
 
@@ -187,7 +225,7 @@ class ResponseQualityGate:
         )
 
     def _check_protagonist_control(self, reply: str) -> QualityCheck:
-        match = _PROTAGONIST_CONTROL_RE.search(reply)
+        match = _PROTAGONIST_CONTROL_RE.search(reply) or _RYAN_CONTROL_RE.search(reply)
         passed = match is None
         return QualityCheck(
             name="protagonist_control",
@@ -227,6 +265,41 @@ class ResponseQualityGate:
             passed=passed,
             detail=f"Eco da acao do jogador (overlap {overlap:.0%})" if not passed else "Sem eco do jogador",
         )
+
+    def _check_scene_continuity(self, reply: str, player_message: str, channel: str) -> QualityCheck:
+        if channel != "narracao" or not player_message.strip():
+            return QualityCheck(name="scene_continuity", passed=True, detail="Sem mensagem do jogador")
+        if not _player_travel_scene(player_message):
+            return QualityCheck(name="scene_continuity", passed=True, detail="Cena estatica")
+        issues: list[str] = []
+        if _VALK_SLEEP_RE.search(reply):
+            issues.append("Valk dormindo enquanto jogador diz que ela dirige")
+        if _STATIC_CAMP_RE.search(reply) and not _TRAVEL_SCENE_RE.search(reply):
+            issues.append("Cena fixa no acampamento sem Mule/estrada")
+        passed = not issues
+        detail = "Cena alinhada com acao do jogador"
+        if issues:
+            detail = "; ".join(issues)
+        return QualityCheck(name="scene_continuity", passed=passed, detail=detail)
+
+    def _check_npc_echoes_player(self, reply: str, player_message: str, channel: str) -> QualityCheck:
+        if channel != "narracao" or not player_message.strip():
+            return QualityCheck(name="npc_echo", passed=True, detail="Sem mensagem do jogador")
+        parsed = parse_player_message(player_message)
+        if not parsed.speeches:
+            return QualityCheck(name="npc_echo", passed=True, detail="Sem fala do jogador")
+        reply_quotes = [match.group(1).strip() for match in _NPC_TAGGED_QUOTE_RE.finditer(reply)]
+        reply_quotes.extend(re.findall(r'"([^"]+)"', reply))
+        for player_speech in parsed.speeches:
+            for quote in reply_quotes:
+                overlap = _word_overlap_ratio(player_speech, quote)
+                if overlap >= 0.55:
+                    return QualityCheck(
+                        name="npc_echo",
+                        passed=False,
+                        detail=f"NPC repetiu fala do jogador (overlap {overlap:.0%})",
+                    )
+        return QualityCheck(name="npc_echo", passed=True, detail="NPCs nao ecoaram fala do jogador")
 
     def _check_narrator_repeat(self, reply: str, previous_narrator: str, channel: str) -> QualityCheck:
         if channel != "narracao" or not previous_narrator.strip():

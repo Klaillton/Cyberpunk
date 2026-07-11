@@ -42,7 +42,7 @@ def test_generate_turn_retries_on_quality_failure(monkeypatch) -> None:
 
     bad_reply = "Curto."
     good_reply = (
-        "Ryan observa Tomas de longe no acampamento do Pack, sem se aproximar ainda. "
+        "O cheiro de solvente da destilaria corta o ar da manha nas Badlands. "
         "Elias segue na destilaria e Mara carrega suprimentos com outros nomades."
     )
     calls: list[str] = []
@@ -62,6 +62,57 @@ def test_generate_turn_retries_on_quality_failure(monkeypatch) -> None:
     assert turn.attempts == 2
     assert turn.reply == good_reply
     assert "CORRECAO OBRIGATORIA" in calls[1]
+
+
+def test_generate_turn_quality_rescue_uses_compact_grok_after_three_failures(
+    monkeypatch,
+    tmp_path,
+) -> None:
+    settings = reset_settings()
+    settings.provider = "ollama"
+    settings.llm_routing_policy = "local_only"
+    settings.cloud_fallback_enabled = False
+    settings.quality_rescue_cloud_enabled = True
+    grok_stub = tmp_path / "grok.exe"
+    grok_stub.write_text("", encoding="utf-8")
+    settings.grok_bin = grok_stub
+
+    bad_local = "Curto."
+    grok_reply = (
+        "O Mule estaciona entre as tendas; o ar da manha ainda e seco nas Badlands. "
+        '[NPC-M: Reyes] "Ainda nao temos o alcance exato, mas precisamos preparar saidas."'
+    )
+    ollama_calls: list[int] = []
+    grok_prompts: list[str] = []
+
+    def fake_ollama(*args, **kwargs) -> str:
+        ollama_calls.append(1)
+        return bad_local
+
+    def fake_grok(prompt: str) -> str:
+        grok_prompts.append(prompt)
+        return grok_reply
+
+    with (
+        patch("motor.narration.run_ollama", side_effect=fake_ollama),
+        patch("narracao_engine.run_grok", side_effect=fake_grok),
+    ):
+        turn = generate_turn(
+            'Volto no Mule com a Valk.\n\n"Quanto eles ja sabem?"',
+            mode="narrador",
+            settings=settings,
+            channel="narracao",
+        )
+
+    assert len(ollama_calls) == 3
+    assert len(grok_prompts) == 1
+    assert len(grok_prompts[0]) <= settings.quality_rescue_max_chars
+    assert "## Resumo da cena (canon)" in grok_prompts[0]
+    assert turn.reply == grok_reply
+    assert turn.attempts == 4
+    assert turn.routing_decision is not None
+    assert turn.routing_decision.provider == "grok"
+    assert "quality_gate:rescue_cloud" in turn.routing_decision.reasons
 
 
 def test_generate_turn_skips_quality_for_mestre(monkeypatch) -> None:

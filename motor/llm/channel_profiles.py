@@ -87,6 +87,13 @@ def generation_params_for_channel(
             settings.ollama_num_predict_aux,
             settings.ollama_num_ctx_aux,
         )
+    model = settings.ollama_model_narration.lower()
+    if "14b" in model or "13b" in model or "12b" in model:
+        return (
+            0.2 if retry else 0.26,
+            settings.ollama_num_predict_narration,
+            settings.ollama_num_ctx_narration,
+        )
     return (
         0.26 if retry else 0.32,
         settings.ollama_num_predict_narration,

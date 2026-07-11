@@ -93,18 +93,42 @@ def session_summary_context_paths(settings: Settings | None = None) -> list[str]
     return paths
 
 
+_HISTORY_META_RE = re.compile(
+    r"(?:LLM:\s*\S+|validacao:\s*\S+|tentativas:\s*\d+)"
+    r"(?:\s*[·•]\s*(?:LLM:\s*\S+|validacao:\s*\S+|tentativas:\s*\d+))*",
+    re.IGNORECASE,
+)
+_PLAYER_PREFIX_RE = re.compile(r"^\[[^\]]+\]\s*VOCE:\s*", re.IGNORECASE)
+_NARRATOR_PREFIX_RE = re.compile(r"^NARRADOR\s*:\s*", re.IGNORECASE)
+
+
+def normalize_history_entry(role: str, content: str, *, preserve_lines: bool = False) -> str:
+    cleaned = str(content or "").strip()
+    if preserve_lines:
+        cleaned = re.sub(r"[ \t]+", " ", cleaned)
+        cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    else:
+        cleaned = re.sub(r"\s+", " ", cleaned)
+    cleaned = _HISTORY_META_RE.sub("", cleaned).strip(" ·•")
+    if role == "user":
+        cleaned = _PLAYER_PREFIX_RE.sub("", cleaned).strip()
+    else:
+        cleaned = _NARRATOR_PREFIX_RE.sub("", cleaned).strip()
+    return cleaned.strip()
+
+
 def format_history_block(history: list[dict] | None, *, max_chars: int = 6000) -> str:
     if not history:
         return (
-            "(Nenhum historico de chat enviado pelo frontend. "
-            "Use apenas fatos dos arquivos de estado e avise que o resumo pode estar incompleto. "
-            "Nao invente eventos nao registrados.)"
+            "(Primeiro turno de chat nesta sessao — sem falas anteriores no feed. "
+            "Use o resumo da cena/board e a acao do jogador; nao invente eventos passados. "
+            "Nao mencione ao jogador que o historico esta vazio ou incompleto.)"
         )
 
     lines: list[str] = []
     for entry in history[-40:]:
         role = str(entry.get("role", "")).strip().lower()
-        content = re.sub(r"\s+", " ", str(entry.get("content", "")).strip())
+        content = normalize_history_entry(role, str(entry.get("content", "")))
         if not content:
             continue
         label = "Jogador" if role == "user" else "Narrador/Sistema"

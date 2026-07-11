@@ -13,11 +13,13 @@ from motor.llm.channel_profiles import (
     max_context_files_for_channel,
     max_prompt_chars_for_channel,
 )
+from motor.llm.compact_prompt import build_quality_rescue_prompt
 from motor.llm.quality_gate import ResponseQualityGate
 from motor.llm.router import ProviderRouter
 from motor.llm.types import RoutingDecision, TurnRequest
 from motor.routing_log import RoutingLogEntry, RoutingLogStore
 from motor.session_command_handler import detect_session_intent
+from motor.ollama_health import inspect_ollama
 from motor.settings import Settings, get_settings
 from motor.turn_types import TurnResult
 
@@ -27,6 +29,8 @@ _MODE_BY_CHANNEL = {
     "sistema": "gestor",
     "gestor": "gestor",
 }
+
+_MAX_NARRACAO_QUALITY_ATTEMPTS = 3
 
 
 def clean_error_text(value: str) -> str:
@@ -41,10 +45,43 @@ def format_provider_failure(provider: str, error: Exception, settings: Settings 
     if provider == "grok" and ("402" in lowered or "payment required" in lowered or "balance exhausted" in lowered):
         return "Grok indisponivel no momento. O saldo/credito do provider foi esgotado. Escolha outro provider ou tente mais tarde."
 
-    if provider == "ollama" and ("connection" in lowered or "refused" in lowered or "urlopen" in lowered):
+    if provider == "ollama":
+        if "http 404" in lowered or "not found" in lowered or "model" in lowered and "404" in message:
+            return (
+                f"Modelo Ollama '{cfg.ollama_model_narration}' nao esta instalado. "
+                f"Rode: ollama pull {cfg.ollama_model_narration}"
+            )
+        if (
+            "connection" in lowered
+            or "refused" in lowered
+            or "urlopen" in lowered
+            or "indisponivel em" in lowered
+        ):
+            return (
+                "Ollama indisponivel. Verifique se o servico esta rodando "
+                f"em {cfg.ollama_base_url} e se o modelo '{cfg.ollama_model_narration}' foi baixado."
+            )
+        if "resposta vazia" in lowered:
+            return (
+                f"Ollama retornou resposta vazia para '{cfg.ollama_model_narration}'. "
+                "Tente reiniciar o Ollama ou reduzir OLLAMA_NUM_CTX_NARRATION."
+            )
+        if "out of memory" in lowered or "oom" in lowered or "cuda" in lowered and "memory" in lowered:
+            return (
+                "Ollama sem memoria para carregar o modelo. "
+                "Reduza OLLAMA_NUM_GPU, use modelo menor, ou feche outros apps na GPU."
+            )
+        if "timed out" in lowered or "timeout" in lowered:
+            return (
+                f"Ollama demorou demais (timeout {cfg.ollama_request_timeout_s}s). "
+                f"O modelo '{cfg.ollama_model_narration}' pode estar carregando — aguarde e tente de novo."
+            )
+        if message:
+            return f"Ollama falhou: {message[:240]}"
+        exc_name = type(error).__name__
         return (
-            "Ollama indisponivel. Verifique se o servico esta rodando "
-            f"em {cfg.ollama_base_url} e se o modelo '{cfg.ollama_model_narration}' foi baixado."
+            f"Ollama falhou ({exc_name}). Verifique {cfg.ollama_base_url} "
+            f"e o modelo '{cfg.ollama_model_narration}'."
         )
 
     if provider in {"chatgpt", "gemini", "copilot"}:
@@ -68,14 +105,16 @@ def run_ollama(
         "prompt": prompt,
         "stream": False,
     }
-    if temperature is not None or num_predict is not None or num_ctx is not None:
-        options: dict = {}
-        if temperature is not None:
-            options["temperature"] = temperature
-        if num_predict is not None:
-            options["num_predict"] = num_predict
-        if num_ctx is not None:
-            options["num_ctx"] = num_ctx
+    options: dict = {}
+    if temperature is not None:
+        options["temperature"] = temperature
+    if num_predict is not None:
+        options["num_predict"] = num_predict
+    if num_ctx is not None:
+        options["num_ctx"] = num_ctx
+    if cfg.ollama_num_gpu is not None:
+        options["num_gpu"] = cfg.ollama_num_gpu
+    if options:
         body["options"] = options
     payload = json.dumps(body, ensure_ascii=False).encode("utf-8")
     url = f"{cfg.ollama_base_url.rstrip('/')}/api/generate"
@@ -86,7 +125,7 @@ def run_ollama(
         method="POST",
     )
     try:
-        with urllib.request.urlopen(request, timeout=600) as response:
+        with urllib.request.urlopen(request, timeout=cfg.ollama_request_timeout_s) as response:
             body = json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="replace")[-2000:]
@@ -148,13 +187,20 @@ def _quality_correction_suffix(report) -> str:
     details = "; ".join(check.detail for check in failed[:4])
     hints: list[str] = []
     failed_names = {check.name for check in failed}
-    if "player_echo" in failed_names or "narrator_repeat" in failed_names:
+    if "player_echo" in failed_names or "narrator_repeat" in failed_names or "npc_echo" in failed_names:
         hints.append(
             "Avance a cena com fato NOVO: resposta de NPC a pergunta do jogador, detalhe sensorial ou interrupcao."
         )
         hints.append("Nao repita frases do historico nem reformule a acao que o jogador acabou de descrever.")
+    if "npc_echo" in failed_names:
+        hints.append("NPCs devem RESPONDER as perguntas do jogador — nunca repetir a fala entre aspas do jogador.")
     if "protagonist_control" in failed_names:
         hints.append("Nao descreva o que Ryan faz — apenas ambiente e NPCs.")
+    if "scene_continuity" in failed_names:
+        hints.append(
+            "A cena deve seguir a acao do jogador AGORA (ex: no Mule na estrada) — nao teleporte para o acampamento."
+        )
+        hints.append("Ignore estados do board que contradizem a entrada do jogador (ex: Valk dormindo).")
     if "meta_questions" in failed_names:
         hints.append("Remova perguntas ao jogador; termine com reacao do mundo.")
     hint_block = "\n".join(f"- {line}" for line in hints)
@@ -168,6 +214,24 @@ def _quality_correction_suffix(report) -> str:
 
 def _uses_llm_provider(settings: Settings) -> bool:
     return settings.provider in {"ollama", "grok", "chatgpt", "gemini", "copilot"}
+
+
+def _ollama_preflight_message(settings: Settings) -> str | None:
+    if settings.provider != "ollama":
+        return None
+    report = inspect_ollama(settings)
+    if not report.get("reachable"):
+        return (
+            "Ollama indisponivel. Verifique se o servico esta rodando "
+            f"em {settings.ollama_base_url}."
+        )
+    if not report.get("narration_ready"):
+        model = settings.ollama_model_narration
+        return (
+            f"Modelo Ollama '{model}' nao esta instalado. "
+            f"Rode: ollama pull {model}"
+        )
+    return None
 
 
 def _fallback_static_reply(channel: str, mode: str) -> str:
@@ -257,6 +321,17 @@ def generate_turn(
             context_sources=selection.manifest.source_paths,
         )
 
+    ollama_block = _ollama_preflight_message(cfg)
+    if ollama_block:
+        return TurnResult(
+            reply=ollama_block,
+            routing_decision=decision,
+            attempts=0,
+            provider_used="ollama",
+            model_used=decision.model,
+            context_sources=selection.manifest.source_paths,
+        )
+
     run_quality = channel == "narracao" and session_intent != "summary"
     temp, num_predict, num_ctx = _generation_params(channel, session_intent, cfg)
     attempts = 0
@@ -265,7 +340,8 @@ def generate_turn(
     active_decision = decision
     active_prompt = prompt
 
-    while attempts < 2:
+    max_attempts = _MAX_NARRACAO_QUALITY_ATTEMPTS if run_quality else 2
+    while attempts < max_attempts:
         attempts += 1
         retry = attempts > 1
         if retry:
@@ -285,6 +361,7 @@ def generate_turn(
                 channel=channel,
                 session_intent=session_intent,
                 history=history,
+                player_message=message,
             )
         except Exception as exc:  # pragma: no cover
             return TurnResult(
@@ -337,16 +414,76 @@ def generate_turn(
         if last_report.passed:
             break
 
-        if attempts >= 2:
+        if attempts >= max_attempts:
             break
 
-        cloud_fallback = router.resolve_fallback(active_decision, quality_passed=False)
-        if cloud_fallback is not None:
-            active_decision = cloud_fallback
-            active_prompt = prompt
-        else:
-            active_decision = decision
-            active_prompt = prompt + _quality_correction_suffix(last_report)
+        active_decision = decision
+        active_prompt = prompt + _quality_correction_suffix(last_report)
+
+    if run_quality and last_report is not None and not last_report.passed:
+        rescue_decision = router.resolve_quality_rescue(active_decision)
+        if rescue_decision is not None:
+            failed_details = "; ".join(
+                check.detail for check in last_report.checks if not check.passed
+            )[:600]
+            compact_prompt = build_quality_rescue_prompt(
+                message=message,
+                history=history,
+                manifest=selection.manifest,
+                context_paths=selection.paths,
+                repo_root=cfg.repo_root,
+                quality_details=failed_details,
+                max_chars=cfg.quality_rescue_max_chars,
+            )
+            attempts += 1
+            try:
+                raw = _invoke_provider(
+                    compact_prompt,
+                    rescue_decision,
+                    cfg,
+                    temperature=0.35,
+                    num_predict=min(cfg.ollama_num_predict_narration, 520),
+                )
+                last_reply = engine.sanitize_ollama_reply(
+                    raw,
+                    channel=channel,
+                    session_intent=session_intent,
+                    history=history,
+                    player_message=message,
+                )
+                last_report = quality_gate.validate(
+                    last_reply,
+                    selection.manifest,
+                    channel,
+                    player_message=message,
+                    previous_narrator=engine._last_narrator_text(history),
+                )
+                active_decision = rescue_decision
+                routing_log.append(
+                    RoutingLogEntry(
+                        channel=channel,
+                        mode=effective_mode,
+                        message_preview=message,
+                        decision=rescue_decision,
+                        attempt=attempts,
+                        quality_passed=last_report.passed,
+                        quality_report=last_report,
+                    )
+                )
+            except Exception as exc:  # pragma: no cover
+                routing_log.append(
+                    RoutingLogEntry(
+                        channel=channel,
+                        mode=effective_mode,
+                        message_preview=message,
+                        decision=rescue_decision,
+                        attempt=attempts,
+                        quality_passed=False,
+                    )
+                )
+                failure = format_provider_failure(rescue_decision.provider, exc, cfg)
+                if not last_reply.strip():
+                    last_reply = failure
 
     return TurnResult(
         reply=last_reply,

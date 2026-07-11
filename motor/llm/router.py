@@ -126,6 +126,28 @@ class ProviderRouter:
             requires_user_approval=True,
         )
 
+    def resolve_quality_rescue(self, original: RoutingDecision) -> RoutingDecision | None:
+        """Cloud rescue after local quality retries — works even on local_only policy."""
+        if not self.settings.quality_rescue_cloud_enabled:
+            return None
+        if original.provider in CLOUD_PROVIDERS:
+            return None
+        if not self._quality_rescue_available():
+            return None
+        return self._cloud_decision(
+            original.policy,
+            original.reasons + ["quality_gate:rescue_cloud"],
+            tier=original.tier,
+            score=original.score,
+            escalated=True,
+        )
+
+    def _quality_rescue_available(self) -> bool:
+        provider = self.settings.cloud_provider
+        if provider == "grok":
+            return self.settings.grok_bin.exists()
+        return provider in CLOUD_PROVIDERS and self.settings.cloud_fallback_enabled
+
     def resolve_fallback(
         self,
         original: RoutingDecision,

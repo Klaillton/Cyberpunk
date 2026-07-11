@@ -42,6 +42,15 @@ def test_narracao_generation_uses_higher_budget() -> None:
     assert narr_temp >= aux_temp
 
 
+def test_large_narration_model_uses_lower_temperature() -> None:
+    settings = reset_settings()
+    settings.ollama_model_narration = "qwen2.5:14b-instruct"
+    temp, _, _ = generation_params_for_channel("narracao", None, settings)
+    settings.ollama_model_narration = "llama3.1:8b"
+    small_temp, _, _ = generation_params_for_channel("narracao", None, settings)
+    assert temp < small_temp
+
+
 def test_max_context_files_narracao_vs_aux() -> None:
     settings = reset_settings()
     assert max_context_files_for_channel("narracao", settings) > max_context_files_for_channel(
