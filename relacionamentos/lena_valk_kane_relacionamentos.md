@@ -52,6 +52,7 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 
 ## Referências
 
+- **Equipe Valk + Mule:** [Ficha Valk](../fichas/nomad%20-%20lena_valk_kane.md) · [The Mule](../fichas/vehicle%20-%20the_mule.md) · [imagem](../imagens/vehicle%20-%20the_mule.jpg)
 - [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Crew](crew_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md)
-- [Ficha Valk](../fichas/nomad%20-%20lena_valk_kane.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Jax — ficha](../fichas/solo%20-%20jax_razor_kane.md)
+- [Alex](alex_specter_kane_relacionamentos.md) · [Jax — ficha](../fichas/solo%20-%20jax_razor_kane.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Pack Badlands](../facoes/pack_badlands.md)

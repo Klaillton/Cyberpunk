@@ -2,11 +2,23 @@
 
 **Veículo de Lena “Valk” Kane • Mini Tanque Disfarçado de Van Velha**
 
+![The Mule](../imagens/vehicle%20-%20the_mule.jpg)
+
 | Tipo   | Van 8x8 Pesada Modificada                            | Peso Estimado | 9~11 toneladas                      |
 | ------ | ---------------------------------------------------- | ------------- | ----------------------------------- |
 | Origem | Construído e remendado por nômades ao longo dos anos | Conceito      | Mini tanque disfarçado de van velha |
+| Pilota / dona | [Lena “Valk” Kane](nomad%20-%20lena_valk_kane.md) | Equipe | **Valk + Mule** — quase uma unidade própria (extração, fuga, convoy) |
+| Imagem | [imagens/vehicle - the_mule.jpg](../imagens/vehicle%20-%20the_mule.jpg) | Manutenção (atual) | Ryan (Wireghost) nos upgrades; Valk no comando |
 
 **Configuração de Rodas:** 8x8 (pneus duplos nos eixos traseiros)
+
+## Equipe: Valk + The Mule
+
+Valk e o Mule funcionam como **dupla operacional**, não só “pilota + veículo”:
+
+- Ela dirige, decide rotas, extrai reféns e protege a carga; o Mule é a extensão do corpo e do código dela (“não deixo ninguém para trás”).
+- Em cena, tratar **Valk + Mule** como um único pacote tático quando a missão é estrada, fuga ou extração — ver ficha dela: [nomad - lena_valk_kane.md](nomad%20-%20lena_valk_kane.md).
+- Ryan cuida de manutenção/upgrades (8x8, Vanisher, MIAC-5, etc.), mas a **soberania emocional e operacional** do veículo é da Valk.
 
 ## Descrição Visual
 
@@ -84,6 +96,7 @@ O The Mule tem uma reputação crescente entre quem já tentou pará-lo e viveu 
 ## Notas Adicionais
 
 - O The Mule é tratado por Valk como algo quase sagrado. É a única coisa que restou do antigo pack dela.
+- **Valk + Mule** = equipe própria dentro (e às vezes à parte) da crew maior — lealdade mútua antes de qualquer contrato.
 - Ele não é discreto. Quando o Vanisher é ativado, todo mundo na rua sabe que algo pesado passou.
 - É excelente em Badlands e terreno ruim, mas seu verdadeiro poder aparece em fugas urbanas e extrações forçadas.
 - O fator surpresa é uma de suas maiores armas: a maioria das pessoas ainda trata ele como uma van reforçada até ser tarde demais.
@@ -100,5 +113,7 @@ O The Mule tem uma reputação crescente entre quem já tentou pará-lo e viveu 
 
 ## Referências
 
-- [Valk — ficha](nomad%20-%20lena_valk_kane.md) · [Pack Badlands](../facoes/pack_badlands.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- **Equipe:** [Valk — ficha](nomad%20-%20lena_valk_kane.md) · [Valk — relacionamentos](../relacionamentos/lena_valk_kane_relacionamentos.md)
+- **Imagem:** [vehicle - the_mule.jpg](../imagens/vehicle%20-%20the_mule.jpg)
+- [Pack Badlands](../facoes/pack_badlands.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md) · [Ryan — ficha](techie%20-%20ryan_wireghost_voss.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Economia](../economia.md) · [Consequências](../consequencias/consequencias_persistentes.md)

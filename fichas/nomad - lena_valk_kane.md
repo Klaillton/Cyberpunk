@@ -4,6 +4,21 @@
 **Idade:** 32  
 **Conceito:** Motorista estoica e confiável, especialista em extrações e transporte de alto risco.
 
+![Lena "Valk" Kane](../imagens/nomad%20-%20lena_valk_kane.jpg)
+
+## Equipe: Valk + The Mule
+
+Valk e o **The Mule** são **quase uma equipe própria** — mais do que “donos e veículo”. Em jobs de estrada, extração e fuga, a unidade tática padrão é **ela no volante + o Mule como plataforma de combate e escape**.
+
+| Papel | Detalhe |
+| ----- | ------- |
+| Pilota / comandante | Valk — rotas, extração, “não deixo ninguém para trás” |
+| Plataforma | [**The Mule** — ficha completa](vehicle%20-%20the_mule.md) (8x8, Vanisher, MIAC-5, contramedidas) |
+| Imagem do veículo | ![The Mule](../imagens/vehicle%20-%20the_mule.jpg) · [arquivo](../imagens/vehicle%20-%20the_mule.jpg) |
+| Manutenção / upgrades | Ryan ajuda na oficina; a soberania do Mule é dela |
+
+**Regra de narração:** ao tratar Valk em missão com o veículo, abrir a ficha do Mule em paralelo — armamento, Vanisher, limpa-trilho e reputação de “van que não para” estão lá, não nesta ficha.
+
 ## Descrição Visual
 
 Lena “Valk” Kane é uma mulher de aparência marcante e perigosa. Tem cabelos castanhos longos e ondulados, olhos azuis penetrantes e uma expressão séria e determinada. Seu corpo é atlético e tonificado, com abdômen definido. Ela usa um top cropped preto justo com detalhes de cyberware azul brilhante nos ombros e braços. Tem um coldre na cintura e um visual tático prático. Transmite uma aura de competência, frieza e força física.
@@ -49,7 +64,7 @@ Lena “Valk” Kane cresceu em um pequeno pack nômade independente. Durante o 
 
 ## Personalidade
 
-Quieta, profissional e direta. Fala pouco e prefere provar as coisas com ações. É estoica e tem dificuldade em demonstrar emoções abertamente, mas demonstra lealdade através de atitudes. Tem um senso de humor seco e negro. Não gosta de corporações e carrega ranço do ataque que destruiu seu pack. O The Mule é a coisa mais importante que ela possui — é a única coisa que restou do antigo pack.
+Quieta, profissional e direta. Fala pouco e prefere provar as coisas com ações. É estoica e tem dificuldade em demonstrar emoções abertamente, mas demonstra lealdade através de atitudes. Tem um senso de humor seco e negro. Não gosta de corporações e carrega ranço do ataque que destruiu seu pack. O [The Mule](vehicle%20-%20the_mule.md) é a coisa mais importante que ela possui — é a única coisa que restou do antigo pack; juntos formam a **equipe Valk + Mule**.
 
 ## O que ela valoriza
 
@@ -57,7 +72,7 @@ Lealdade comprovada, confiabilidade e liberdade na estrada. Acredita que ações
 
 ## Relação com Ryan “Wireghost” Voss
 
-Ryan e Valk estão namorando. Ryan ajuda ativamente ela com manutenção do The Mule, upgrades e nas missões. Eles trabalham juntos como uma equipe.
+Ryan e Valk estão namorando. Ryan ajuda ativamente ela com manutenção do [The Mule](vehicle%20-%20the_mule.md), upgrades e nas missões. No pack e na crew maior eles formam trio com o veículo; na estrada, o núcleo operacional continua sendo **Valk + Mule**.
 
 ## Tabela de Serviços
 
@@ -76,7 +91,7 @@ Ryan e Valk estão namorando. Ryan ajuda ativamente ela com manutenção do The 
 
 ## Notas / Journal
 
-- O The Mule é a única coisa que restou do antigo pack. É sagrado para ela.
+- O [The Mule](vehicle%20-%20the_mule.md) é a única coisa que restou do antigo pack. É sagrado para ela — e parte da **equipe Valk + Mule**.
 - Ela nunca abandona ninguém no veículo. “Não deixo ninguém para trás” é seu código pessoal.
 - Tem ranço de corporações. Aceita jobs contra elas com mais facilidade.
 - O quase-momento com Ryan ainda pesa. Eles evitam ficar sozinhos por muito tempo em espaços pequenos.
@@ -88,5 +103,7 @@ Ryan e Valk estão namorando. Ryan ajuda ativamente ela com manutenção do The 
 
 ## Referências
 
+- **Equipe / veículo:** [The Mule — ficha](vehicle%20-%20the_mule.md) · [imagem do Mule](../imagens/vehicle%20-%20the_mule.jpg)
 - [Relacionamentos Valk](../relacionamentos/lena_valk_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- **Imagem (Valk):** [nomad - lena_valk_kane.jpg](../imagens/nomad%20-%20lena_valk_kane.jpg)
 - **Estado:** [Board](../board/board_campanha.md) · [Pack Badlands](../facoes/pack_badlands.md)

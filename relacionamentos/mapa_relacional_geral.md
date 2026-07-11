@@ -26,7 +26,7 @@
 | Personagem | Ficha | Relacionamentos | Também em |
 | ---------- | ----- | --------------- | --------- |
 | Ryan "Wireghost" Voss | [techie - ryan_wireghost_voss.md](../fichas/techie%20-%20ryan_wireghost_voss.md) | [ryan_relacionamentos.md](ryan_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md), [background narrador](../fichas/notas_narrador/ryan_background_completo.md), [gatilhos narrador](../fichas/notas_narrador/ryan_gatilhos_memorias.md), [downtime_ryan.md](../logs/downtime_ryan.md) |
-| Lena "Valk" Kane | [nomad - lena_valk_kane.md](../fichas/nomad%20-%20lena_valk_kane.md) | [lena_valk_kane_relacionamentos.md](lena_valk_kane_relacionamentos.md) | [ryan_relacionamentos.md](ryan_relacionamentos.md), [crew_relacionamentos.md](crew_relacionamentos.md), [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md) |
+| Lena "Valk" Kane | [nomad - lena_valk_kane.md](../fichas/nomad%20-%20lena_valk_kane.md) | [lena_valk_kane_relacionamentos.md](lena_valk_kane_relacionamentos.md) | **Equipe com** [The Mule](../fichas/vehicle%20-%20the_mule.md); [ryan_relacionamentos.md](ryan_relacionamentos.md), [crew_relacionamentos.md](crew_relacionamentos.md), [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md) |
 | Alex "Specter" Kane | [netrunner - alex_specter_kane.md](../fichas/netrunner%20-%20alex_specter_kane.md) | [alex_specter_kane_relacionamentos.md](alex_specter_kane_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md) |
 | Reina "Bearclaw" Morales | [solo - reina_bearclaw_morales.md](../fichas/solo%20-%20reina_bearclaw_morales.md) | [reina_bearclaw_morales_relacionamentos.md](reina_bearclaw_morales_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md) |
 | Kaz "The Broker" Takahashi | [fixer - kaz_the_broker_takahashi.md](../fichas/fixer%20-%20kaz_the_broker_takahashi.md) | [ryan_relacionamentos.md](ryan_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [faccao_relacionamentos.md](faccao_relacionamentos.md) |
@@ -37,9 +37,9 @@
 
 ## Veículos e Ativos
 
-| Ativo | Ficha | Contexto relacionado |
-| ----- | ----- | -------------------- |
-| The Mule | [vehicle - the_mule.md](../fichas/vehicle%20-%20the_mule.md) | [board/board_campanha.md](../board/board_campanha.md), [economia.md](../economia.md), [pack_badlands.md](../facoes/pack_badlands.md) |
+| Ativo | Ficha | Imagem | Contexto relacionado |
+| ----- | ----- | ------ | -------------------- |
+| The Mule | [vehicle - the_mule.md](../fichas/vehicle%20-%20the_mule.md) | [vehicle - the_mule.jpg](../imagens/vehicle%20-%20the_mule.jpg) | **Equipe com** [Valk](../fichas/nomad%20-%20lena_valk_kane.md); [board](../board/board_campanha.md), [economia.md](../economia.md), [pack_badlands.md](../facoes/pack_badlands.md) |
 
 ---
 
