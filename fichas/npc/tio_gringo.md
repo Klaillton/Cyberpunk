@@ -17,6 +17,12 @@
 - Barba branca grande, braço forte marcado pelo ofício; prótese no lugar do braço perdido.
 - Arquétipo visual de ferreiro de estrada; trabalhou sozinho na forja muito tempo.
 
+**Imagem de referência:**  
+![Tio Gringo](../../imagens/Tio_Gringo.jpg)
+
+- Retrato: [imagens/Tio_Gringo.jpg](../../imagens/Tio_Gringo.jpg)
+- Detalhe do braço/prótese (opcional): [imagens/Tio_Gringo_arm.jpg](../../imagens/Tio_Gringo_arm.jpg)
+
 ## Eventos narrativos
 
 | Data (aprox.) | Evento |
@@ -44,3 +50,5 @@
 - [Pack Badlands](../../facoes/pack_badlands.md) · [Downtime Ryan](../../logs/downtime_ryan.md)
 - [Sessão 005](../../logs/sessao_resumo_005.md) · [Sessão 007](../../logs/sessao_resumo_007.md)
 - [Mapa Relacional](../../relacionamentos/mapa_relacional_geral.md)
+- Imagens: [Tio_Gringo.jpg](../../imagens/Tio_Gringo.jpg) · [Tio_Gringo_arm.jpg](../../imagens/Tio_Gringo_arm.jpg)
+- Pulso: [tio_gringo.md](../../pulso_do_mundo/pack_badlands/tio_gringo.md)

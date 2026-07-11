@@ -17,6 +17,15 @@
 - Homem mais velho, barba grisalha, cicatrizes antigas, colete blindado com patches de vários packs.
 - Sentinelas jovens ao redor; postura de líder que mede risco antes de acolher.
 
+**Imagens de referência:**
+
+![Reyes](../../imagens/Reyes.jpg)
+
+![Reyes (token)](../../imagens/Reyes_token.jpg)
+
+- Retrato (cena): [imagens/Reyes.jpg](../../imagens/Reyes.jpg)
+- Token (mapa / combate / UI): [imagens/Reyes_token.jpg](../../imagens/Reyes_token.jpg)
+
 ## Eventos narrativos
 
 | Data (aprox.) | Evento |
@@ -45,3 +54,5 @@
 - [Pack Badlands](../../facoes/pack_badlands.md) · [Board](../../board/board_campanha.md)
 - [Sessão 007](../../logs/sessao_resumo_007.md) · [Sessão 008](../../logs/sessao_resumo_008.md)
 - [Mapa Relacional](../../relacionamentos/mapa_relacional_geral.md)
+- Imagens: [Reyes.jpg](../../imagens/Reyes.jpg) · [Reyes_token.jpg](../../imagens/Reyes_token.jpg)
+- Pulso: [reyes.md](../../pulso_do_mundo/pack_badlands/reyes.md)

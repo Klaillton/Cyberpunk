@@ -61,6 +61,7 @@ Tio Gringo respeita bastante Ryan. Ele reconhece a habilidade técnica dele e go
 - **Procedimento:** [sistema/pulso_procedimento.md](../../sistema/pulso_procedimento.md)
 - **Pulso Geral:** [pulso_geral.md](pulso_geral.md)
 - **Ficha:** [fichas/npc/tio_gringo.md](../../fichas/npc/tio_gringo.md)
+- **Imagens:** [Tio_Gringo.jpg](../../imagens/Tio_Gringo.jpg) · [Tio_Gringo_arm.jpg](../../imagens/Tio_Gringo_arm.jpg)
 - **Relacionamentos de Ryan:** [ryan_relacionamentos.md](../../relacionamentos/ryan_relacionamentos.md)
 - **Ficha do Pack:** [facoes/pack_badlands.md](../../facoes/pack_badlands.md)
 - **Consequências Persistentes:** [consequencias_persistentes.md](../../consequencias/consequencias_persistentes.md)

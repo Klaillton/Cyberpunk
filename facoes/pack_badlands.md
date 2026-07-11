@@ -33,10 +33,10 @@ Quando passar **1 dia in-game** sem Ryan na cena: [pulso_procedimento.md](../sis
 Fichas mínimas (personalidade + eventos): ver [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md#npcs-secundários-fichas-mínimas).  
 Pulsos off-screen: [pulso_do_mundo/pack_badlands/](../pulso_do_mundo/pack_badlands/).
 
-| NPC | Ficha | Resumo |
-| --- | ----- | ------ |
-| **Reyes** | [reyes.md](../fichas/npc/reyes.md) | Líder; cautela + confiança técnica crescente |
-| **Tio Gringo** | [tio_gringo.md](../fichas/npc/tio_gringo.md) | Ferreiro; alta estima por Ryan |
+| NPC | Ficha | Imagem | Resumo |
+| --- | ----- | ------ | ------ |
+| **Reyes** | [reyes.md](../fichas/npc/reyes.md) | [Reyes.jpg](../imagens/Reyes.jpg) · [token](../imagens/Reyes_token.jpg) | Líder; cautela + confiança técnica crescente |
+| **Tio Gringo** | [tio_gringo.md](../fichas/npc/tio_gringo.md) | [Tio_Gringo.jpg](../imagens/Tio_Gringo.jpg) | Ferreiro; alta estima por Ryan |
 | **Mara** | [mara_recruit.md](../fichas/npc/mara_recruit.md) | Med/hidroponia; integração positiva |
 | **Elias** | [elias_recruit.md](../fichas/npc/elias_recruit.md) | Refinaria; indicado para destilaria |
 | **Tomas** | [tomas_recruit.md](../fichas/npc/tomas_recruit.md) | Mecânica; sob monitoramento |

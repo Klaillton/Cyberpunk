@@ -17,6 +17,9 @@
 
 -
 
+**Imagem de referência (se houver em `imagens/`):**  
+![Nome](../../imagens/<arquivo>.jpg)
+
 ## Eventos narrativos
 
 | Data (aprox.) | Evento |

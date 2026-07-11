@@ -100,7 +100,9 @@ cyberpunk/
 │   ├── techie - ryan_wireghost_voss.jpg
 │   ├── vehicle - the_mule.jpg
 │   ├── Sasha.jpg
-│   └── Lira.jpg
+│   ├── Lira.jpg
+│   ├── Reyes.jpg · Reyes_token.jpg  ← ficha npc/reyes.md
+│   └── Tio_Gringo.jpg · Tio_Gringo_arm.jpg  ← ficha npc/tio_gringo.md
 ├── pulso_do_mundo/                ← Off-screen NPCs (ver pulso_procedimento.md)
 │   ├── README.md
 │   ├── template_pulso_npc.md

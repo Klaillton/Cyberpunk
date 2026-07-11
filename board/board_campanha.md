@@ -49,8 +49,8 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 | Nome                 | Papel                  | Relação com Ryan                  | Notas |
 |----------------------|------------------------|-----------------------------------|-------|
 | **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Organiza scav de containers (amanhã) · [ficha](../fichas/nomad%20-%20lena_valk_kane.md) |
-| **Reyes** | Líder do Pack | Confiança estratégica e operacional | Node aprovado · [ficha](../fichas/npc/reyes.md) |
-| **Tio Gringo** | Ferreiro | Alta estima | Oficina / alunos · [ficha](../fichas/npc/tio_gringo.md) |
+| **Reyes** | Líder do Pack | Confiança estratégica e operacional | Node aprovado · [ficha](../fichas/npc/reyes.md) · [img](../imagens/Reyes.jpg) / [token](../imagens/Reyes_token.jpg) |
+| **Tio Gringo** | Ferreiro | Alta estima | Oficina / alunos · [ficha](../fichas/npc/tio_gringo.md) · [img](../imagens/Tio_Gringo.jpg) |
 | **Rusty** | Garagem/veículos | Colaborador técnico | Conduziu Mule no scav 05/07 |
 | **Jax "Razor" Kane** | Solo (crew) | Respeito operacional | Cobertura sniper no scav 05/07 |
 | **Mara** | Recruta (Med/Hidro) | Parceira Node | Estufa · [ficha](../fichas/npc/mara_recruit.md) |

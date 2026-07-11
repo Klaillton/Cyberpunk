@@ -2,7 +2,7 @@
 
 **Finalidade:** Hub central de personagens e relações. Use este arquivo para localizar rapidamente onde buscar contexto sobre cada NPC da campanha.
 
-**Última atualização:** 03 de Julho de 2026
+**Última atualização:** 11 de Julho de 2026
 
 ---
 
@@ -47,17 +47,17 @@
 
 Personagens com personalidade e eventos próprios, mas **sem ficha RED completa**. Um arquivo por NPC em `fichas/npc/`.
 
-| NPC | Ficha | Também em |
-| --- | ----- | --------- |
-| Dr. Elias Vossler | [dr_elias_vossler.md](../fichas/npc/dr_elias_vossler.md) | [job_001](../logs/job_001_extracao_vossler.md) |
-| Lina Park | [lina_park.md](../fichas/npc/lina_park.md) | [sessao_003](../logs/sessao_resumo_003.md) |
-| Reyes | [reyes.md](../fichas/npc/reyes.md) | [pack_badlands.md](../facoes/pack_badlands.md), [board](../board/board_campanha.md) |
-| Tio Gringo | [tio_gringo.md](../fichas/npc/tio_gringo.md) | [pack_badlands.md](../facoes/pack_badlands.md) |
-| Mara (recruta) | [mara_recruit.md](../fichas/npc/mara_recruit.md) | [lina_park.md](../fichas/npc/lina_park.md) |
-| Elias (recruta) | [elias_recruit.md](../fichas/npc/elias_recruit.md) | *Não confundir com Dr. Vossler* |
-| Tomas (recruta) | [tomas_recruit.md](../fichas/npc/tomas_recruit.md) | Monitoramento ativo (sessão 003–005) |
-| Sasha (pack) | [sasha.md](../fichas/npc/sasha.md) | [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) |
-| Lira (pack) | [lira.md](../fichas/npc/lira.md) | [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md), [sessao_002](../logs/sessao_resumo_002.md) |
+| NPC | Ficha | Imagem | Também em |
+| --- | ----- | ------ | --------- |
+| Dr. Elias Vossler | [dr_elias_vossler.md](../fichas/npc/dr_elias_vossler.md) | — | [job_001](../logs/job_001_extracao_vossler.md) |
+| Lina Park | [lina_park.md](../fichas/npc/lina_park.md) | — | [sessao_003](../logs/sessao_resumo_003.md) |
+| Reyes | [reyes.md](../fichas/npc/reyes.md) | [Reyes.jpg](../imagens/Reyes.jpg) · [token](../imagens/Reyes_token.jpg) | [pack_badlands.md](../facoes/pack_badlands.md), [board](../board/board_campanha.md), [pulso](../pulso_do_mundo/pack_badlands/reyes.md) |
+| Tio Gringo | [tio_gringo.md](../fichas/npc/tio_gringo.md) | [Tio_Gringo.jpg](../imagens/Tio_Gringo.jpg) | [pack_badlands.md](../facoes/pack_badlands.md), [pulso](../pulso_do_mundo/pack_badlands/tio_gringo.md) |
+| Mara (recruta) | [mara_recruit.md](../fichas/npc/mara_recruit.md) | — | [lina_park.md](../fichas/npc/lina_park.md) |
+| Elias (recruta) | [elias_recruit.md](../fichas/npc/elias_recruit.md) | — | *Não confundir com Dr. Vossler* |
+| Tomas (recruta) | [tomas_recruit.md](../fichas/npc/tomas_recruit.md) | — | Monitoramento ativo (sessão 003–005) |
+| Sasha (pack) | [sasha.md](../fichas/npc/sasha.md) | [Sasha.jpg](../imagens/Sasha.jpg) | [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) |
+| Lira (pack) | [lira.md](../fichas/npc/lira.md) | [Lira.jpg](../imagens/Lira.jpg) | [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md), [sessao_002](../logs/sessao_resumo_002.md) |
 
 **Template:** [npc_template.md](../fichas/npc/npc_template.md)
 
