@@ -216,6 +216,15 @@ Exemplo de mensagem:
 
 Cada resumo deve incluir a seção **Arquivos Atualizados Nesta Sessão** com links para os arquivos modificados.
 
+### Handoff para chat novo
+
+Se o jogador for abrir um **chat novo** (ou pedir `[Gerar handoff para novo chat]` / `[Preparar novo chat]`):
+
+1. Seguir [novo_chat_procedimento.md](novo_chat_procedimento.md).
+2. Atualizar / sobrescrever `logs/handoff_atual.md` com estado do board + último resumo + event_queue.
+3. Incluir bloco **Prompt de abertura** colável.
+4. Após finalização de sessão, **oferecer** o handoff atualizado junto com o resumo.
+
 ---
 
 ## 10. Mapa de Referências Cruzadas
@@ -234,7 +243,7 @@ Fluxo resumido:
 
 ## Referências
 
-- [Registro de Arquivos](registro_arquivos.md) · [Dashboard de Contexto](dashboard_contexto.md) · [Como Atualizar](como_atualizar_arquivos.md)
+- [Registro de Arquivos](registro_arquivos.md) · [Dashboard de Contexto](dashboard_contexto.md) · [Como Atualizar](como_atualizar_arquivos.md) · [Novo Chat](novo_chat_procedimento.md)
 - [Diretrizes Narrador](diretrizes_narrador.md) · [README](../README.md)
 - [Board](../board/board_campanha.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 

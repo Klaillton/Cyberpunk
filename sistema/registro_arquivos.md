@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 09 de Julho de 2026
+**Última atualização:** 11 de Julho de 2026
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -37,6 +37,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Regras da IA (boot sequence) | `sistema/diretrizes_ia.md` | `instrucoes_projeto.md`, este arquivo |
 | Regras do narrador | `sistema/diretrizes_narrador.md` | `sistema/diretrizes_ia.md` |
 | Como atualizar após sessão | `sistema/como_atualizar_arquivos.md` | Este arquivo |
+| **Abrir chat novo / handoff** | `sistema/novo_chat_procedimento.md` | `logs/handoff_atual.md`, `logs/handoff_template.md`, último `sessao_resumo_*.md` |
+| Continuidade colável (estado vigente) | `logs/handoff_atual.md` | [novo_chat_procedimento.md](novo_chat_procedimento.md), `board/board_campanha.md` |
 | Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
 | Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
 
@@ -127,7 +129,9 @@ cyberpunk/
 │   ├── sessao_resumo_007.md
 │   ├── sessao_resumo_008.md
 │   ├── sessao_resumo_009.md
-│   └── sessao_resumo_010.md
+│   ├── sessao_resumo_010.md
+│   ├── handoff_atual.md           ← Continuidade para chat novo
+│   └── handoff_template.md
 ├── relacionamentos/
 │   ├── mapa_relacional_geral.md   ← Hub de personagens
 │   ├── ryan_relacionamentos.md
@@ -140,6 +144,7 @@ cyberpunk/
 └── sistema/
     ├── instrucoes_projeto.md      ← Instruções do projeto (espelho versionado)
     ├── pulso_procedimento.md      ← Motor off-screen (1×/dia in-game)
+    ├── novo_chat_procedimento.md  ← Abrir chat novo + handoff
     ├── como_atualizar_arquivos.md
     ├── dashboard_contexto.md
     ├── diretrizes_ia.md
@@ -172,6 +177,8 @@ cyberpunk/
 | `sistema/diretrizes_ia.md` | Ativo | Boot sequence e regras da IA | `instrucoes_projeto.md`, este arquivo |
 | `sistema/diretrizes_narrador.md` | Ativo | Regras de narração | `diretrizes_ia.md` |
 | `sistema/como_atualizar_arquivos.md` | Ativo | Guia de manutenção pós-sessão | Este arquivo |
+| `sistema/novo_chat_procedimento.md` | Ativo | Abrir chat novo + gerar handoff | `logs/handoff_atual.md`, `logs/handoff_template.md` |
+| `logs/handoff_atual.md` | Ativo | Continuidade colável (vigente) | Board, último `sessao_resumo_*`, event_queue |
 | `README.md` | Ativo | Visão geral e entrada do projeto | `sistema/registro_arquivos.md` |
 
 ---
@@ -185,7 +192,8 @@ cyberpunk/
   - `relacionamentos/ryan_relacionamentos.md`
   - `sistema/dashboard_contexto.md`
   - `relacionamentos/mapa_relacional_geral.md`
-- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **009**.
+- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **011**.
+- **Handoff / chat novo:** Após sessão, atualizar `logs/handoff_atual.md` via [novo_chat_procedimento.md](novo_chat_procedimento.md).
 - **Jobs / Gigs:** Padrão `logs/job_XXX_<slug>.md` para briefing, execução e fallout permanente. Sessões referenciam o job; não duplicar táticas completas no resumo.
 - **NPCs secundários:** Um arquivo em `fichas/npc/<slug>.md` quando o personagem tem personalidade ou eventos que não cabem só no board/facção. Índice em [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md). **Não** misturar vários NPCs num único arquivo (dificulta busca da IA).
 - **Facções:** Detalhes em `facoes/`. Facções menores em `facoes/faccoes_geral.md`.
@@ -197,6 +205,6 @@ cyberpunk/
 ## Referências
 
 - [README.md](../README.md)
-- [Instruções do Projeto](instrucoes_projeto.md) · [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md) · [Como Atualizar](como_atualizar_arquivos.md)
+- [Instruções do Projeto](instrucoes_projeto.md) · [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md) · [Como Atualizar](como_atualizar_arquivos.md) · [Novo Chat](novo_chat_procedimento.md)
 - [Dashboard de Contexto](dashboard_contexto.md) · [Board](../board/board_campanha.md)
 - [Mapa Relacional Geral](../relacionamentos/mapa_relacional_geral.md)

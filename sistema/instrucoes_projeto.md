@@ -97,7 +97,9 @@ Respeite as datas de "Última verificação" e "Validade sugerida" em `dashboard
 | Comando                                                                                       | Ação                                                                  |
 | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | `[Resumo da Sessão]` / `[Criar resumo da sessão atual]` / `[Finalizar sessão e gerar resumo]` | Gera resumo estruturado; propõe salvar em `logs/sessao_resumo_XXX.md` |
+| `[Gerar handoff para novo chat]` / `[Preparar novo chat]`                                     | Atualiza `logs/handoff_atual.md` — ver `sistema/novo_chat_procedimento.md` |
 | Atualização pós-sessão                                                                        | Seguir `sistema/como_atualizar_arquivos.md`                           |
+| Abrir chat novo                                                                               | Colar prompt de `logs/handoff_atual.md` + boot do procedimento        |
 
 **Resumos de sessão**
 
@@ -137,6 +139,7 @@ Sempre mostre mudanças propostas antes de aplicar. Mantenha `sistema/registro_a
 | Pack ativo      | `facoes/pack_badlands.md`                                                            |
 | Histórico       | `logs/sessao_resumo_010.md` (último)                                                 |
 | Como atualizar  | `sistema/como_atualizar_arquivos.md`                                                 |
+| Novo chat       | `sistema/novo_chat_procedimento.md` + `logs/handoff_atual.md`                        |
 
 ---
 
@@ -149,6 +152,6 @@ Ryan (protagonista), Valk, Alex, Reina, Kaz, Doc, Jax — fichas em `fichas/`, r
 ## Referências
 
 - [Registro de Arquivos](registro_arquivos.md) · [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md)
-- [README](../README.md) · [Como Atualizar](como_atualizar_arquivos.md) · [Dashboard](dashboard_contexto.md)
+- [README](../README.md) · [Como Atualizar](como_atualizar_arquivos.md) · [Novo Chat](novo_chat_procedimento.md) · [Dashboard](dashboard_contexto.md)
 
 **Última atualização:** 11 de Julho de 2026

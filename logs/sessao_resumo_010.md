@@ -92,5 +92,7 @@
 - [sistema/grok_sources.json](../sistema/grok_sources.json)
 - [sistema/registro_arquivos.md](../sistema/registro_arquivos.md)
 - [logs/sessao_resumo_010.md](sessao_resumo_010.md)
+- [logs/handoff_atual.md](handoff_atual.md) — continuidade para sessão 011
+- [sistema/novo_chat_procedimento.md](../sistema/novo_chat_procedimento.md)
 
 **Próximo resumo:** `sessao_resumo_011.md` (verificar número em [registro_arquivos.md](../sistema/registro_arquivos.md))

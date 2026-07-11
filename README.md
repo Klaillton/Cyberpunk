@@ -29,6 +29,8 @@ Visão geral da estrutura do projeto e de como os arquivos se conectam entre si.
 - [diretrizes_ia.md](sistema/diretrizes_ia.md) — Boot sequence e regras da IA
 - [diretrizes_narrador.md](sistema/diretrizes_narrador.md) — Regras de narração
 - [como_atualizar_arquivos.md](sistema/como_atualizar_arquivos.md) — Como manter os arquivos atualizados
+- [novo_chat_procedimento.md](sistema/novo_chat_procedimento.md) — Procedimento para abrir chat novo + handoff
+- [handoff_atual.md](logs/handoff_atual.md) — Continuidade colável (estado vigente)
 - [dashboard_contexto.md](sistema/dashboard_contexto.md) — Resumo rápido do estado atual
 - [board_campanha.md](board/board_campanha.md) — Board oficial da campanha
 - [mapa_relacional_geral.md](relacionamentos/mapa_relacional_geral.md) — Hub de personagens e relações
@@ -72,6 +74,8 @@ ficha + relacionamentos  →  contexto do NPC em cena
 ## Como Manter Atualizado
 
 Consulte [sistema/como_atualizar_arquivos.md](sistema/como_atualizar_arquivos.md) para comandos e fluxo de atualização pós-sessão.
+
+Para **abrir um chat novo** sem perder continuidade: [sistema/novo_chat_procedimento.md](sistema/novo_chat_procedimento.md) e cole o prompt de [logs/handoff_atual.md](logs/handoff_atual.md).
 
 Após cada sessão, os arquivos mais críticos a revisar são:
 
