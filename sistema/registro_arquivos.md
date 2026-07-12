@@ -97,7 +97,8 @@ cyberpunk/
 │   ├── nomad - lena_valk_kane.jpg
 │   ├── solo - jax_razor_kane.png
 │   ├── solo - reina_bearclaw_morales.png
-│   ├── techie - ryan_wireghost_voss.jpg
+│   ├── techie - ryan_wireghost_voss.jpg              ← ficha Ryan (tático)
+│   ├── techie - ryan_wireghost_voss_daily_clothes.png ← Ryan casual/oficina
 │   ├── vehicle - the_mule.jpg
 │   ├── Sasha.jpg
 │   ├── Lira.jpg

@@ -14,8 +14,17 @@ Nas costas carrega o **Warden**, um drone escorpião grande e imponente que pare
 
 Seu visual transmite alguém que já passou por muita coisa e transformou o trauma em ferramenta. Ele não tenta parecer amigável — parece eficiente e perigoso.
 
-**Imagem de referência:**  
-![Ryan “Wireghost” Voss](../imagens/techie%20-%20ryan_wireghost_voss.jpg)
+**Imagens de referência:**
+
+| Uso | Arquivo |
+| --- | ------- |
+| **Tático / operador** (Warden + Vespas) | ![Ryan tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) |
+| **Dia a dia / oficina** (roupa de trabalho) | ![Ryan casual](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png) |
+
+- Tático: [imagens/techie - ryan_wireghost_voss.jpg](../imagens/techie%20-%20ryan_wireghost_voss.jpg)
+- Casual / workshop: [imagens/techie - ryan_wireghost_voss_daily_clothes.png](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png)
+
+**Narração visual:** em job/scav/combate, preferir o visual tático (armadura, Warden nas costas). Em pack, oficina e cenas domésticas com Valk, preferir a roupa de trabalho (henley, cinto de ferramentas).
 
 ## Background
 
@@ -287,6 +296,7 @@ Antigo cliente que deve vários favores a ele.
 ## Referências
 
 - [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)
+- **Imagens:** [tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) · [casual / oficina](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png)
 - **Notas do Narrador:** [Background completo](notas_narrador/ryan_background_completo.md) · [Gatilhos e memórias](notas_narrador/ryan_gatilhos_memorias.md)
 - **Elisa "Doc" Moreau:** ver [Contatos e Amigos](#contatos-e-amigos) (sem ficha própria)
 - **Estado:** [Board](../board/board_campanha.md) · [Downtime](../logs/downtime_ryan.md) · [Consequências](../consequencias/consequencias_persistentes.md)
