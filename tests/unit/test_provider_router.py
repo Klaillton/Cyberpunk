@@ -99,11 +99,30 @@ def test_provider_router_local_only_never_escalates() -> None:
     assert decision.escalated is False
 
 
-def test_provider_router_quality_rescue_works_on_local_only(tmp_path) -> None:
+def test_provider_router_quality_rescue_blocked_on_local_only(tmp_path) -> None:
     settings = reset_settings()
     settings.provider = "ollama"
     settings.llm_routing_policy = "local_only"
     settings.cloud_fallback_enabled = False
+    settings.quality_rescue_cloud_enabled = True
+    grok_stub = tmp_path / "grok.exe"
+    grok_stub.write_text("", encoding="utf-8")
+    settings.grok_bin = grok_stub
+    router = ProviderRouter(settings)
+
+    local = router.resolve(
+        TurnRequest(message="Cena no acampamento", channel="narracao"),
+        ResolvedEntities(),
+        ContextManifest(total_chars=1200),
+    )
+    assert router.resolve_quality_rescue(local) is None
+
+
+def test_provider_router_quality_rescue_works_on_hybrid(tmp_path) -> None:
+    settings = reset_settings()
+    settings.provider = "ollama"
+    settings.llm_routing_policy = "hybrid"
+    settings.cloud_fallback_enabled = True
     settings.quality_rescue_cloud_enabled = True
     grok_stub = tmp_path / "grok.exe"
     grok_stub.write_text("", encoding="utf-8")

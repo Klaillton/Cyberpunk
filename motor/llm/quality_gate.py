@@ -125,6 +125,22 @@ _VALK_SLEEP_RE = re.compile(
     r"valk.{0,60}(?:dorme|dormindo)|(?:dorme|dormindo).{0,60}valk",
     re.IGNORECASE,
 )
+_SIMPLE_ACTION_RE = re.compile(
+    r"\b(vou|vai|anda|caminha|entra|sai|chega|observa|olha|verifico|confiro|acompanho|dirijo)\b",
+    re.IGNORECASE,
+)
+
+
+def is_simple_player_action(message: str) -> bool:
+    text = message.strip()
+    if not text or len(text) > 220:
+        return False
+    if '"' in text or "“" in text or "”" in text:
+        return False
+    parsed = parse_player_message(text)
+    if parsed.speeches:
+        return False
+    return _SIMPLE_ACTION_RE.search(text) is not None
 
 
 class ResponseQualityGate:
@@ -136,19 +152,23 @@ class ResponseQualityGate:
         *,
         player_message: str = "",
         previous_narrator: str = "",
+        tier: str = "standard",
     ) -> QualityReport:
         checks: list[QualityCheck] = []
         known_tokens = self._known_tokens(manifest)
+        simple_turn = is_simple_player_action(player_message) and tier in {"trivial", "standard"}
 
-        checks.append(self._check_minimum_length(reply, channel))
+        checks.append(self._check_minimum_length(reply, channel, simple_turn=simple_turn))
         checks.append(self._check_protagonist_control(reply))
         checks.append(self._check_meta_questions(reply, channel))
         checks.append(self._check_duplicate_prefix(reply, channel))
-        checks.append(self._check_player_echo(reply, player_message, channel))
+        checks.append(self._check_player_echo(reply, player_message, channel, simple_turn=simple_turn))
         checks.append(self._check_npc_echoes_player(reply, player_message, channel))
-        checks.append(self._check_narrator_repeat(reply, previous_narrator, channel))
+        if not simple_turn:
+            checks.append(self._check_narrator_repeat(reply, previous_narrator, channel))
         checks.append(self._check_scene_continuity(reply, player_message, channel))
-        checks.append(self._check_invented_npc(reply, known_tokens))
+        if not simple_turn:
+            checks.append(self._check_invented_npc(reply, known_tokens))
         checks.append(self._check_board_consistency(reply, manifest))
 
         passed = all(check.passed for check in checks)
@@ -214,10 +234,11 @@ class ResponseQualityGate:
         tokens.update(allow)
         return tokens
 
-    def _check_minimum_length(self, reply: str, channel: str) -> QualityCheck:
+    def _check_minimum_length(self, reply: str, channel: str, *, simple_turn: bool = False) -> QualityCheck:
         if channel == "narrador":
             return QualityCheck(name="minimum_length", passed=True, detail="Canal narrador isento")
-        passed = len(reply.strip()) >= 50
+        min_len = 35 if simple_turn else 50
+        passed = len(reply.strip()) >= min_len
         return QualityCheck(
             name="minimum_length",
             passed=passed,
@@ -254,12 +275,20 @@ class ResponseQualityGate:
             detail="Prefixo NARRADOR duplicado" if not passed else "Prefixo limpo",
         )
 
-    def _check_player_echo(self, reply: str, player_message: str, channel: str) -> QualityCheck:
+    def _check_player_echo(
+        self,
+        reply: str,
+        player_message: str,
+        channel: str,
+        *,
+        simple_turn: bool = False,
+    ) -> QualityCheck:
         if channel != "narracao" or not player_message.strip():
             return QualityCheck(name="player_echo", passed=True, detail="Sem mensagem do jogador")
         opening = " ".join(_sentences(reply)[:2])
         overlap = _word_overlap_ratio(player_message, opening or reply[:240])
-        passed = overlap < 0.42
+        threshold = 0.58 if simple_turn else 0.42
+        passed = overlap < threshold
         return QualityCheck(
             name="player_echo",
             passed=passed,

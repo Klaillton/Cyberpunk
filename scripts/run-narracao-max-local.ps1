@@ -9,7 +9,7 @@ $env:OLLAMA_MODEL_NARRATION = "qwen2.5:14b-instruct"
 $env:OLLAMA_MODEL_AUX = "phi3:mini"
 $env:LLM_ROUTING_POLICY = "local_only"
 $env:CLOUD_FALLBACK_ENABLED = "false"
-$env:QUALITY_RESCUE_CLOUD_ENABLED = "true"
+$env:QUALITY_RESCUE_CLOUD_ENABLED = "false"
 $env:NARRACAO_MIN_TIER = "standard"
 
 # Contexto e geracao — 14B com offload: priorizar latencia (turno alvo ~3-6 min)
@@ -101,5 +101,5 @@ Wait-OllamaReady
 Warm-OllamaModel $env:OLLAMA_MODEL_NARRATION
 
 Write-Host "Iniciando API com narracao local maxima ($($env:OLLAMA_MODEL_NARRATION))..."
-Write-Host "Turnos com 14B costumam levar 3-6 min. Aguarde a resposta no chat."
+Write-Host "Rescue Grok: desligado (100% Ollama). Turnos 14B: aguarde alguns minutos no chat."
 python c:/workspace/Cyberpunk/scripts/narracao_api.py

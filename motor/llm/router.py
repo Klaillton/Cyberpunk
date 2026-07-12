@@ -127,7 +127,9 @@ class ProviderRouter:
         )
 
     def resolve_quality_rescue(self, original: RoutingDecision) -> RoutingDecision | None:
-        """Cloud rescue after local quality retries — works even on local_only policy."""
+        """Cloud rescue after local quality retries (desligado em local_only)."""
+        if self.settings.llm_routing_policy == "local_only":
+            return None
         if not self.settings.quality_rescue_cloud_enabled:
             return None
         if original.provider in CLOUD_PROVIDERS:

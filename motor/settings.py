@@ -96,11 +96,13 @@ class Settings:
         cloud_provider = os.environ.get("CLOUD_PROVIDER", "grok").strip().lower()
         if cloud_provider not in VALID_PROVIDERS or cloud_provider in {"none", "ollama"}:
             cloud_provider = "grok"
-        quality_rescue = os.environ.get("QUALITY_RESCUE_CLOUD_ENABLED", "true").strip().lower() in {
-            "1",
-            "true",
-            "yes",
-        }
+        quality_rescue_raw = os.environ.get("QUALITY_RESCUE_CLOUD_ENABLED", "").strip().lower()
+        if quality_rescue_raw in {"1", "true", "yes"}:
+            quality_rescue = True
+        elif quality_rescue_raw in {"0", "false", "no"}:
+            quality_rescue = False
+        else:
+            quality_rescue = provider == "grok" and routing_policy != "local_only"
         quality_rescue_max_chars = int(os.environ.get("QUALITY_RESCUE_MAX_CHARS", "4500"))
         grok_bin = Path(os.environ.get("GROK_BIN", r"C:\Users\Dante\.grok\bin\grok.exe"))
         update_proposals_raw = os.environ.get("UPDATE_PROPOSALS_ENABLED", "").strip().lower()

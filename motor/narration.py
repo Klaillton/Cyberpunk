@@ -403,6 +403,7 @@ def generate_turn(
             channel,
             player_message=message,
             previous_narrator=engine._last_narrator_text(history),
+            tier=active_decision.tier,
         )
         routing_log.append(
             RoutingLogEntry(
@@ -461,6 +462,7 @@ def generate_turn(
                     channel,
                     player_message=message,
                     previous_narrator=engine._last_narrator_text(history),
+                    tier=rescue_decision.tier,
                 )
                 active_decision = rescue_decision
                 routing_log.append(
