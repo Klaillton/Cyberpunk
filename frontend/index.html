@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="cpr-sheet.css" />
   </head>
   <body>
     <div class="bg-grid" aria-hidden="true"></div>
@@ -356,12 +357,14 @@
             <span class="admin-tag">Planejado</span>
           </article>
           <article class="sheet-card admin-roadmap">
-            <h3>Novos personagens</h3>
+            <h3>Novo protagonista</h3>
             <p>
-              Criar fichas NPC/crew a partir de template, vincular ao board e
-              relacionamentos.
+              Criar ficha CPR (Complete Package) e tornar protagonista ativo da
+              sessão solo.
             </p>
-            <span class="admin-tag">Planejado</span>
+            <button type="button" id="openCharacterWizardBtn" class="admin-action-btn">
+              Criar protagonista
+            </button>
           </article>
           <article class="sheet-card admin-roadmap">
             <h3>Upload de imagens</h3>
@@ -472,6 +475,8 @@
       </form>
     </footer>
 
+    <script src="cpr-sheet.js"></script>
+    <script src="character-wizard.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

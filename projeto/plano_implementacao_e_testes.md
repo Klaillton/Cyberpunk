@@ -37,6 +37,7 @@
 [Sprint A]   ✅ qualidade do turno (FAISS + router + gate no hot path)
 [Sprint B]   ✅ UX, e2e, CI
 [Sprint C]   ⏸ Pi + sync (opcional / adiado — ver status_projeto.md)
+[Sprint D]   🔄 Criação ficha CPR — ver [criacao_personagem_cpr.md](./criacao_personagem_cpr.md)
 ```
 
 ---

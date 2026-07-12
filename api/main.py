@@ -18,6 +18,8 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 from api.routers import (
     brief,
     character,
+    character_creation,
+    factions,
     health,
     journal,
     message,
@@ -58,6 +60,8 @@ def create_app() -> FastAPI:
     app.include_router(brief.router)
     app.include_router(session_commands.router)
     app.include_router(character.router)
+    app.include_router(character_creation.router)
+    app.include_router(factions.router)
     app.include_router(npc.router)
     app.include_router(message.router)
     app.include_router(search.router)

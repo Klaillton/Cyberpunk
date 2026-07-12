@@ -1,0 +1,41 @@
+{
+  "faction_id": "pack_badlands",
+  "name": "Pack Nômade de Badlands",
+  "default_tier": "npc_reference",
+  "roles": [
+    {
+      "id": "leader",
+      "label": "Líder do Pack",
+      "required": true,
+      "default_npc": "reyes",
+      "sheet_path": "fichas/npc/reyes.md"
+    },
+    {
+      "id": "smith",
+      "label": "Ferreiro / mentor",
+      "required": true,
+      "default_npc": "tio_gringo",
+      "sheet_path": "fichas/npc/tio_gringo.md"
+    },
+    {
+      "id": "vehicle_mechanic",
+      "label": "Mecânico de veículos",
+      "required": true,
+      "default_npc": "rusty",
+      "sheet_path": "fichas/npc/rusty.md"
+    },
+    {
+      "id": "scout",
+      "label": "Batedor / sentinela",
+      "required": false,
+      "default_npc": null
+    },
+    {
+      "id": "youth_scout",
+      "label": "Jovem atiradora / incursões",
+      "required": false,
+      "default_npc": "lira",
+      "sheet_path": "fichas/npc/lira.md"
+    }
+  ]
+}

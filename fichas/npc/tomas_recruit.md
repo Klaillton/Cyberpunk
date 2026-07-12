@@ -1,3 +1,10 @@
+---
+id: tomas_recruit
+type: npc
+tier: npc_reference
+role: npc
+faction: pack_badlands
+---
 # Tomas — NPC Secundário (recruta)
 
 **Tipo:** Recruta do Pack (mecânica / logística)  

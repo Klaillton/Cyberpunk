@@ -1,3 +1,9 @@
+---
+id: kaz_the_broker_takahashi
+type: character
+tier: crew_full
+role: fixer
+---
 # Kaz "The Broker" Takahashi
 
 **Role:** Fixer (Operator)  

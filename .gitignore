@@ -34,6 +34,10 @@ tests/tmp_*.py
 
 # Motor narrativo (SQLite, FAISS, sessões)
 data/
+!data/cpr/
+!data/cpr/**
+!data/factions/
+!data/factions/**
 .chat-engine/
 
 # Docker — secrets locais

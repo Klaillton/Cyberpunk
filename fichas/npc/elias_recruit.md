@@ -1,3 +1,10 @@
+---
+id: elias_recruit
+type: npc
+tier: npc_reference
+role: npc
+faction: pack_badlands
+---
 # Elias — NPC Secundário (recruta)
 
 **Tipo:** Recruta do Pack (refinaria / processamento)  

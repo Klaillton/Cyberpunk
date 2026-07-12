@@ -1,0 +1,38 @@
+{
+  "roles": [
+    {"id": "rockerboy", "label": "Rockerboy", "ability": "Charismatic Impact"},
+    {"id": "solo", "label": "Solo", "ability": "Combat Awareness"},
+    {"id": "netrunner", "label": "Netrunner", "ability": "Interface"},
+    {"id": "tech", "label": "Tech", "ability": "Maker"},
+    {"id": "medtech", "label": "Medtech", "ability": "Medicine"},
+    {"id": "media", "label": "Media", "ability": "Credibility"},
+    {"id": "exec", "label": "Exec", "ability": "Teamwork"},
+    {"id": "lawman", "label": "Lawman", "ability": "Backup"},
+    {"id": "fixer", "label": "Fixer", "ability": "Operator"},
+    {"id": "nomad", "label": "Nomad", "ability": "Moto"}
+  ],
+  "basic_skills": [
+    "Education",
+    "Local Expert",
+    "Perception",
+    "Athletics",
+    "Stealth",
+    "Brawling",
+    "Evasion",
+    "Human Perception",
+    "Conversation",
+    "Streetwise"
+  ],
+  "skill_categories": {
+    "Awareness": ["Concentration", "Conceal/Reveal Object", "Lip Reading", "Perception", "Tracking"],
+    "Body": ["Athletics", "Contortionist", "Dance", "Endurance", "Resist Torture/Drugs", "Stealth"],
+    "Control": ["Drive Land Vehicle", "Pilot Air Vehicle", "Pilot Sea Vehicle", "Riding"],
+    "Education": ["Accounting", "Education", "Language", "Library Search", "Science", "Tactics"],
+    "Fighting": ["Brawling", "Evasion", "Martial Arts", "Melee Weapon"],
+    "Performance": ["Acting", "Play Instrument"],
+    "Ranged": ["Archery", "Autofire", "Handgun", "Heavy Weapons", "Shoulder Arms"],
+    "Social": ["Bribery", "Conversation", "Human Perception", "Interrogation", "Persuasion", "Streetwise"],
+    "Technique": ["Basic Tech", "Cybertech", "Electronics/Security Tech", "First Aid", "Land Vehicle Tech", "Weaponstech"]
+  },
+  "stats": ["INT", "REF", "DEX", "TECH", "COOL", "WILL", "LUCK", "MOVE", "BODY", "EMP"]
+}

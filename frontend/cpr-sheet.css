@@ -1,0 +1,89 @@
+.cpr-sheet {
+  display: grid;
+  gap: 1rem;
+}
+
+.cpr-sheet--full {
+  grid-template-columns: 1fr 1fr;
+}
+
+.cpr-sheet--reference,
+.cpr-sheet--generic {
+  grid-template-columns: 1fr;
+}
+
+.cpr-panel {
+  border: 1px solid rgba(95, 230, 210, 0.25);
+  background: rgba(8, 14, 24, 0.85);
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+}
+
+.cpr-panel h4 {
+  margin: 0 0 0.65rem;
+  font-family: Orbitron, sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #5fe6d2;
+}
+
+.cpr-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.45rem;
+}
+
+.cpr-stat {
+  text-align: center;
+  padding: 0.35rem 0.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.cpr-stat-label {
+  display: block;
+  font-size: 0.68rem;
+  opacity: 0.75;
+}
+
+.cpr-stat-value {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.cpr-skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.25rem 0.75rem;
+  font-size: 0.82rem;
+}
+
+.cpr-derived {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  font-size: 0.82rem;
+  opacity: 0.9;
+}
+
+.cpr-tier-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  border: 1px solid rgba(95, 230, 210, 0.35);
+  color: #9ef0e4;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .cpr-sheet--full {
+    grid-template-columns: 1fr;
+  }
+  .cpr-stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

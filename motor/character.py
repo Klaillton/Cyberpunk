@@ -1,15 +1,32 @@
 from __future__ import annotations
 
+from pathlib import Path
+
+from motor.character_creation.resolver import resolve_sheet_path
 from motor.markdown.tree import extract_references, parse_markdown_tree, render_section_tree
 from motor.settings import Settings, get_settings
 
 
-def build_character_profile(settings: Settings | None = None) -> dict:
+def _relative_campaign_path(path: Path, cfg: Settings) -> str:
+    for root in (cfg.campanha_root, cfg.repo_root):
+        try:
+            return path.relative_to(root).as_posix()
+        except ValueError:
+            continue
+    return path.as_posix()
+
+
+def build_character_profile(
+    character_id: str | None = None,
+    settings: Settings | None = None,
+) -> dict:
     cfg = settings or get_settings()
-    sheet_text = cfg.character_sheet.read_text(encoding="utf-8") if cfg.character_sheet.exists() else ""
-    rel_text = (
-        cfg.character_relationships.read_text(encoding="utf-8") if cfg.character_relationships.exists() else ""
-    )
+    char_id = (character_id or cfg.character_id).strip().lower()
+    sheet_path = resolve_sheet_path(char_id, cfg) or cfg.character_sheet
+    rel_path = cfg.character_relationships
+
+    sheet_text = sheet_path.read_text(encoding="utf-8") if sheet_path.exists() else ""
+    rel_text = rel_path.read_text(encoding="utf-8") if rel_path.exists() else ""
 
     sheet_tree = parse_markdown_tree(sheet_text)
     rel_tree = parse_markdown_tree(rel_text)
@@ -25,16 +42,18 @@ def build_character_profile(settings: Settings | None = None) -> dict:
         )
 
     refs = extract_references(sheet_text + "\n" + rel_text)
+    rel_posix = _relative_campaign_path(rel_path, cfg) if rel_path.exists() else ""
+    sheet_posix = _relative_campaign_path(sheet_path, cfg) if sheet_path.exists() else sheet_path.as_posix()
 
     return {
-        "characterId": cfg.character_id,
+        "characterId": char_id,
         "hero": {
-            "title": str(sheet_tree.get("title", "Ryan Wireghost Voss")).strip() or "Ryan Wireghost Voss",
+            "title": str(sheet_tree.get("title", "Personagem")).strip() or "Personagem",
             "introLines": [line for line in sheet_tree.get("introLines", []) if str(line).strip()],
         },
-        "sourceSheet": "fichas/techie - ryan_wireghost_voss.md",
-        "sourceRelationships": "relacionamentos/ryan_relacionamentos.md",
-        "imageUrl": f"/api/character-image/{cfg.character_id}",
+        "sourceSheet": sheet_posix,
+        "sourceRelationships": rel_posix,
+        "imageUrl": f"/api/character-image/{char_id}",
         "sections": profile_sections,
         "references": refs,
     }

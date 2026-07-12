@@ -1,3 +1,9 @@
+---
+id: lira
+type: npc
+tier: npc_reference
+faction_role: youth_scout
+---
 # Lira — NPC Secundário
 
 **Tipo:** Membro do Pack Nômade (jovem)  

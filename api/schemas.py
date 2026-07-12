@@ -174,3 +174,30 @@ class NpcCatalogResponse(BaseModel):
     count: int
     npcs: list[NpcCatalogEntry]
     sources: list[str] = []
+
+
+class CharacterDraftRequest(BaseModel):
+    name: str
+    slug: str
+    handle: str = ""
+    role: str
+    role_label: str = ""
+    role_ability: str = ""
+    role_ability_rank: int = 4
+    concept: str = ""
+    appearance: str = ""
+    background: str = ""
+    stats: dict[str, int] = Field(default_factory=dict)
+    skills: dict[str, int] = Field(default_factory=dict)
+
+
+class ValidationReportResponse(BaseModel):
+    passed: bool
+    issues: list[dict] = Field(default_factory=list)
+
+
+class CreateCharacterResponse(BaseModel):
+    id: str
+    sheet_path: str
+    journal_path: str
+    relationships_path: str

@@ -1,3 +1,9 @@
+---
+id: ryan_wireghost_voss
+type: character
+tier: protagonist
+role: tech
+---
 # Ryan "Wireghost" Voss
 
 **Role:** Techie (Maker)  

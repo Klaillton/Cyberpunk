@@ -4,11 +4,18 @@ import json
 from io import BytesIO
 from unittest.mock import patch
 
+import pytest
+
 from motor.journal import journal_file, load_journal_entries, save_journal_entries
 from motor.markdown.tree import parse_markdown_tree
 from motor.narration import format_provider_failure, generate_reply, run_ollama
 from motor.npc import normalize_name
 from motor.settings import get_settings, reset_settings
+
+@pytest.fixture(autouse=True)
+def _ollama_preflight_passes(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr("motor.narration._ollama_preflight_message", lambda _cfg: None)
+
 
 SAMPLE_MARKDOWN = """---
 id: test_npc

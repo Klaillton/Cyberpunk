@@ -37,6 +37,7 @@ Pulsos off-screen: [pulso_do_mundo/pack_badlands/](../pulso_do_mundo/pack_badlan
 | --- | ----- | ------ |
 | **Reyes** | [reyes.md](../fichas/npc/reyes.md) | Líder; cautela + confiança técnica crescente |
 | **Tio Gringo** | [tio_gringo.md](../fichas/npc/tio_gringo.md) | Ferreiro; alta estima por Ryan |
+| **Rusty** | [rusty.md](../fichas/npc/rusty.md) | Mecânico de veículos; garagem e Mule |
 | **Mara** | [mara_recruit.md](../fichas/npc/mara_recruit.md) | Med/hidroponia; integração positiva |
 | **Elias** | [elias_recruit.md](../fichas/npc/elias_recruit.md) | Refinaria; indicado para destilaria |
 | **Tomas** | [tomas_recruit.md](../fichas/npc/tomas_recruit.md) | Mecânica; sob monitoramento |

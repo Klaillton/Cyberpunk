@@ -40,6 +40,10 @@ TEMPLATE_STEMS = frozenset(
         "pulso_log_template",
         "faccao_template",
         "template_pulso_npc",
+        "cpr_protagonist",
+        "cpr_crew_full",
+        "cpr_npc_reference",
+        "cpr_npc_generic",
     }
 )
 _NORMALIZED_TEMPLATE_STEMS = frozenset(normalize_stem(value) for value in TEMPLATE_STEMS)
@@ -51,6 +55,8 @@ def is_template_path(rel_path: str | Path) -> bool:
     if stem in TEMPLATE_STEMS:
         return True
     if normalize_stem(stem) in _NORMALIZED_TEMPLATE_STEMS:
+        return True
+    if "/templates/" in normalized:
         return True
     return "template" in normalized
 

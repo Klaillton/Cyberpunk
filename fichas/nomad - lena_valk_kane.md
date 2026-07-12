@@ -1,3 +1,9 @@
+---
+id: lena_valk_kane
+type: character
+tier: crew_full
+role: nomad
+---
 # Lena “Valk” Kane
 
 **Role:** Nomad • Pilota de Elite • Proprietária do The Mule  

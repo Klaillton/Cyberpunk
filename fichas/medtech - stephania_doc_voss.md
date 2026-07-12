@@ -1,3 +1,9 @@
+---
+id: stephania_doc_voss
+type: character
+tier: crew_full
+role: medtech
+---
 # Dr. Stephania "Doc" Voss
 
 **Role:** MedTech (Medicine Rank 4)  

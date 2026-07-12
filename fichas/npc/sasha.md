@@ -1,3 +1,10 @@
+---
+id: sasha
+type: npc
+tier: npc_reference
+role: npc
+faction: pack_badlands
+---
 # Sasha — NPC Secundário
 
 **Tipo:** Membro do Pack Nômade (jovem)  

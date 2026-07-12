@@ -1581,6 +1581,14 @@ async function fetchCharacterProfile() {
   return response.json();
 }
 
+async function fetchCharacterSheet(characterId) {
+  const response = await fetch(`${API_BASE}/api/characters/${characterId}/sheet`);
+  if (!response.ok) {
+    return null;
+  }
+  return response.json();
+}
+
 function setMarkdownContent(element, markdownText) {
   element.classList.add("md-content");
   element.innerHTML = renderMarkdown(markdownText);
@@ -1612,9 +1620,16 @@ function renderSectionNode(section, container) {
   container.appendChild(article);
 }
 
-function renderFicha(profile) {
+function renderFicha(profile, sheetData) {
   fichaSections.innerHTML = "";
   fichaRefs.innerHTML = "";
+
+  if (sheetData && typeof renderCprSheet === "function") {
+    const cprHost = document.createElement("div");
+    cprHost.className = "sheet-card cpr-sheet-host";
+    fichaSections.appendChild(cprHost);
+    renderCprSheet(sheetData, cprHost);
+  }
 
   const hero = document.createElement("article");
   hero.className = "sheet-card sheet-hero";
@@ -1665,7 +1680,8 @@ async function ensureCharacterProfileLoaded() {
   }
   try {
     const profile = await fetchCharacterProfile();
-    renderFicha(profile);
+    const sheetData = await fetchCharacterSheet(profile.characterId || CHARACTER_ID);
+    renderFicha(profile, sheetData);
     profileLoaded = true;
   } catch (err) {
     fichaStatus.textContent =
@@ -2482,6 +2498,14 @@ closeBriefBtn.addEventListener("click", () => closeDrawer(briefDrawer));
 closeCommandsBtn.addEventListener("click", () => closeDrawer(commandsDrawer));
 closeNpcBtn.addEventListener("click", () => closeDrawer(npcDrawer));
 closeAdminBtn.addEventListener("click", () => closeDrawer(adminDrawer));
+
+const openCharacterWizardBtn = document.getElementById("openCharacterWizardBtn");
+if (openCharacterWizardBtn && typeof openCharacterWizard === "function") {
+  openCharacterWizardBtn.addEventListener("click", () => {
+    closeDrawer(adminDrawer);
+    openCharacterWizard();
+  });
+}
 
 const drawerByKey = {
   ficha: fichaDrawer,

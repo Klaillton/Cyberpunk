@@ -1,3 +1,9 @@
+---
+id: tio_gringo
+type: npc
+tier: npc_reference
+faction_role: smith
+---
 # Tio Gringo — NPC Secundário
 
 **Tipo:** Ferreiro / mentor técnico do Pack  

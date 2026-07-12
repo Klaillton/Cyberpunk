@@ -2,9 +2,16 @@ from __future__ import annotations
 
 from unittest.mock import patch
 
+import pytest
+
 from motor.llm.types import QualityCheck, QualityReport
 from motor.narration import generate_turn
 from motor.settings import reset_settings
+
+
+@pytest.fixture(autouse=True)
+def _ollama_preflight_passes(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr("motor.narration._ollama_preflight_message", lambda _cfg: None)
 
 
 def test_generate_turn_logs_routing_and_returns_metadata(monkeypatch) -> None:

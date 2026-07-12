@@ -1,3 +1,9 @@
+---
+id: alex_specter_kane
+type: character
+tier: crew_full
+role: netrunner
+---
 # Alex "Specter" Kane
 
 **Role:** Netrunner  

@@ -4,27 +4,35 @@ from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import FileResponse
 
 from motor.character import build_character_profile
-from motor.npc import find_image_with_base, image_content_type
+from motor.character_creation.resolver import resolve_image_path, resolve_sheet_path
+from motor.npc import image_content_type
 from motor.settings import get_settings
 
 router = APIRouter(tags=["character"])
 
 
 @router.get("/api/character-profile")
-def character_profile() -> dict:
-    return build_character_profile()
+def character_profile(character_id: str | None = Query(default=None)) -> dict:
+    return build_character_profile(character_id)
+
+
+@router.get("/api/characters/{character_id}/profile")
+def character_profile_by_id(character_id: str) -> dict:
+    settings = get_settings()
+    if resolve_sheet_path(character_id, settings) is None:
+        raise HTTPException(status_code=404, detail="Ficha nao encontrada.")
+    return build_character_profile(character_id)
 
 
 @router.get("/api/character-image/{char_id}")
 def character_image(char_id: str, variant: str = Query(default="full")) -> FileResponse:
     settings = get_settings()
-    if char_id != settings.character_id:
-        raise HTTPException(status_code=404, detail="Imagem do personagem nao encontrada")
-
     resolved_variant = variant.strip().lower()
-    path = settings.character_image
+    path = resolve_image_path(char_id, settings) or settings.character_image
     if resolved_variant == "token":
-        base = settings.character_image.stem
+        from motor.npc import find_image_with_base
+
+        base = path.stem
         token_path = find_image_with_base(base, token=True, settings=settings)
         if token_path is not None:
             path = token_path

@@ -1,3 +1,9 @@
+---
+id: reina_bearclaw_morales
+type: character
+tier: crew_full
+role: solo
+---
 # Reina "Bearclaw" Morales
 
 ![Reina "Bearclaw" Morales](../imagens/solo%20-%20reina_bearclaw_morales.png)

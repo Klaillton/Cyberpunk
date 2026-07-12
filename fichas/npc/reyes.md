@@ -1,3 +1,9 @@
+---
+id: reyes
+type: npc
+tier: npc_reference
+faction_role: leader
+---
 # Reyes — NPC Secundário
 
 **Tipo:** Líder do Pack Nômade de Badlands  

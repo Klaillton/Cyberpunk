@@ -1,3 +1,9 @@
+---
+id: jax_razor_kane
+type: character
+tier: crew_full
+role: solo
+---
 # Jax "Razor" Kane
 
 **Role:** Solo (Combat Awareness)  

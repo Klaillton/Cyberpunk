@@ -155,15 +155,27 @@ class Settings:
 
     @property
     def character_sheet(self) -> Path:
+        from motor.character_creation.resolver import resolve_sheet_path
+
+        resolved = resolve_sheet_path(self.character_id, self)
+        if resolved is not None:
+            return resolved
         return self.repo_root / "fichas" / "techie - ryan_wireghost_voss.md"
 
     @property
     def character_image(self) -> Path:
+        from motor.character_creation.resolver import resolve_image_path
+
+        resolved = resolve_image_path(self.character_id, self)
+        if resolved is not None:
+            return resolved
         return self.repo_root / "imagens" / "techie - ryan_wireghost_voss.jpg"
 
     @property
     def character_relationships(self) -> Path:
-        return self.repo_root / "relacionamentos" / "ryan_relacionamentos.md"
+        from motor.character_creation.resolver import resolve_relationships_path
+
+        return resolve_relationships_path(self.character_id, self)
 
     @property
     def images_dir(self) -> Path:

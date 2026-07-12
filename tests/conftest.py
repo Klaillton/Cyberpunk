@@ -11,7 +11,14 @@ from pathlib import Path
 
 import pytest
 
+from motor.settings import reset_settings
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
+
+
+@pytest.fixture(autouse=True)
+def _reset_settings_singleton() -> None:
+    reset_settings(REPO_ROOT)
 SCRIPTS_DIR = REPO_ROOT / "scripts"
 
 

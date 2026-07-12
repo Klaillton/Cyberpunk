@@ -1189,6 +1189,56 @@ body:has(.side-actions .submenu:not(.is-hidden)) .sidebar {
   outline: none;
 }
 
+.admin-action-btn {
+  margin-top: 0.5rem;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid rgba(95, 230, 210, 0.45);
+  background: rgba(95, 230, 210, 0.12);
+  color: #d8fff8;
+  border-radius: 6px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.admin-action-btn:hover {
+  background: rgba(95, 230, 210, 0.22);
+}
+
+.wizard-form label {
+  display: block;
+  margin-bottom: 0.65rem;
+  font-size: 0.88rem;
+}
+
+.wizard-form input,
+.wizard-form select,
+.wizard-form textarea {
+  width: 100%;
+  margin-top: 0.25rem;
+}
+
+.wizard-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.35rem 0.65rem;
+}
+
+.wizard-validation.ok {
+  color: #7dffb8;
+  margin-top: 0.5rem;
+}
+
+.wizard-validation.err {
+  color: #ff8f8f;
+  margin-top: 0.5rem;
+}
+
+.wizard-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
 .admin-tag {
   position: absolute;
   right: 0.72rem;
