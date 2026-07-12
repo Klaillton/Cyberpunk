@@ -4,9 +4,15 @@
 
 ### Elisa “Doc” Moreau (Therapy / Ripperdoc)
 
-- **Status:** Amiga e ripperdoc de confiança
+- **Status:** Amiga e ripperdoc de confiança (passado / rede antiga)
 - **Tipo de relação:** Pessoal + Profissional
-- **Notas:** Doc cuida especialmente de Reina por ela ser a que mais se machuca. Reina confia nela o suficiente para falar de assuntos pessoais.
+- **Notas:** **Doc** = Elisa Moreau. Ligação histórica com Reina e Ryan (surto / cyberarms). Não confundir com a MedTech da crew.
+
+### Dr. Stephania “Stitch” Voss (MedTech da crew)
+
+- **Status:** Amiga próxima + médica da crew
+- **Tipo de relação:** Pessoal + Profissional
+- **Notas:** **Stitch** cuida especialmente de Reina (quem mais se machuca). Stitch só entrou na crew se Reina viesse junto. Ficha: [medtech - stephania_stitch_voss.md](../fichas/medtech%20-%20stephania_stitch_voss.md).
 
 ### Ryan “Wireghost” Voss
 
@@ -37,5 +43,5 @@
 ## Referências
 
 - [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Crew](crew_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md)
-- [Ficha Reina](../fichas/solo%20-%20reina_bearclaw_morales.md)
+- [Ficha Reina](../fichas/solo%20-%20reina_bearclaw_morales.md) · [Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)

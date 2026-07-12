@@ -1,7 +1,9 @@
-# Pulso - Dr. Stephania "Doc" Voss
+# Pulso - Dr. Stephania "Stitch" Voss
 
-**Última atualização:** 04 de Julho de 2026  
-**Escopo:** **Night City / remoto** — Doc **não** está nas Badlands. Acionar quando Ryan estiver em NC, crew reunida, ou **mensagem/chamada** da Doc chegar ao pack.
+**Última atualização:** 12 de Julho de 2026  
+**Escopo:** **Night City / remoto** — Stitch **não** está nas Badlands. Acionar quando Ryan estiver em NC, crew reunida, ou **mensagem/chamada** da Stitch chegar ao pack.
+
+> **Nome:** Street name da crew = **Stitch**. Não chamar de “Doc” (Doc = Elisa Moreau no passado de Ryan).
 
 ## Motivações Atuais
 
@@ -17,7 +19,7 @@
 
 - Alguém chegou ferido ou pediu check-up sem job formal?
 - Ela deu bronca em alguém por negligenciar descanso ou nutrição?
-- Reina passou na clínica/base da Doc para conversa ou tratamento?
+- Reina passou na clínica/base da Stitch para conversa ou tratamento?
 
 **Sobre Ryan / Valk (remoto):**
 
@@ -42,20 +44,21 @@
 
 ## Relação com Ryan
 
-Aliança funcional estável; respeito mútuo. **Não são parentes** — coincidência do sobrenome Voss vira piada na crew. Ryan não está sob cuidados ativos da Doc enquanto permanece nas Badlands.
+Aliança funcional estável; respeito mútuo. **Não são parentes** — coincidência do sobrenome Voss vira piada na crew. Ryan não está sob cuidados ativos da Stitch enquanto permanece nas Badlands. (Cuidado de cabeça / passado Arasaka = **Elisa “Doc” Moreau**, não Stitch.)
 
 ## Ganchos / Possíveis Eventos
 
-- Doc manda mensagem a Ryan: “se machucar de novo sem me avisar, cobro em dobro”.
-- Reina conta à Doc que Ryan está “diferente” desde o pack.
-- Kaz pede à Doc que avalie se a crew está pronta para job que exige extração médica.
-- Doc recebe paciente com ferimento suspeito de corp — gancho BT.
+- Stitch manda mensagem a Ryan: “se machucar de novo sem me avisar, cobro em dobro”.
+- Reina conta à Stitch que Ryan está “diferente” desde o pack.
+- Kaz pede à Stitch que avalie se a crew está pronta para job que exige extração médica.
+- Stitch recebe paciente com ferimento suspeito de corp — gancho BT.
 - Chamada de vídeo curta com Valk sobre kit médico no Mule.
 
 ## Ligações
 
 - **Procedimento:** [sistema/pulso_procedimento.md](../../sistema/pulso_procedimento.md)
-- **Ficha:** [fichas/medtech - stephania_doc_voss.md](../../fichas/medtech%20-%20stephania_doc_voss.md)
+- **Ficha:** [fichas/medtech - stephania_stitch_voss.md](../../fichas/medtech%20-%20stephania_stitch_voss.md)
+- **Imagem:** [medtech - stephania_stitch_voss.jpg](../../imagens/medtech%20-%20stephania_stitch_voss.jpg)
 - **Relacionamentos:** [crew_relacionamentos.md](../../relacionamentos/crew_relacionamentos.md)
 - **Relacionamentos de Ryan:** [ryan_relacionamentos.md](../../relacionamentos/ryan_relacionamentos.md)
 - **Consequências Persistentes:** [consequencias_persistentes.md](../../consequencias/consequencias_persistentes.md)

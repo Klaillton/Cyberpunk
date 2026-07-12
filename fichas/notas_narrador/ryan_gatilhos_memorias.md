@@ -5,7 +5,7 @@
 
 Ryan possui uma resistência **bem maior** do que a maioria das pessoas a gatilhos emocionais. Sua mente desenvolveu mecanismos fortes de dissociação e repressão ao longo da vida. Por isso, as memórias reprimidas **não voltam facilmente**.
 
-> **Nota:** **"A Doc"** neste arquivo é **Elisa "Doc" Moreau** ([Contatos e Amigos](../techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos) na ficha de Ryan). Não é Stephania "Doc" Voss da crew.
+> **Nota:** **"A Doc"** neste arquivo é **Elisa "Doc" Moreau** ([Contatos e Amigos](../techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos) na ficha de Ryan). Não é **Stephania "Stitch" Voss** da crew ([ficha](../medtech%20-%20stephania_stitch_voss.md)).
 
 ---
 

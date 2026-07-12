@@ -51,7 +51,7 @@ Alternativa: fechar a noite de 09/07 na tenda se o jogador quiser roleplay antes
 - Material: chapas, perfis, tubulações, vigas, isolamento, peças mecânicas. Containers inteiros **ficaram** para 2ª viagem.
 - Oficina (~05–09/07): linha de produção de peças do protótipo com alunos do Tio Gringo; propósito **não revelado**; “só Ryan”.
 - Badlands Node: biodigestor + filtragem de água avançando; destilaria (Elias) / estufa (Mara) andando.
-- Valk × Ryan: vínculo forte; conversa sobre eventual partida + visita à **Doc** (Valk quer ir junto).
+- Valk × Ryan: vínculo forte; conversa sobre eventual partida + visita à **Doc Moreau** (Elisa; Valk quer ir junto — não é Stitch).
 - Fim: peças quase prontas; scav de containers marcada para **amanhã**.
 
 Detalhes: [sessao_resumo_010.md](sessao_resumo_010.md)
@@ -66,7 +66,7 @@ Detalhes: [sessao_resumo_010.md](sessao_resumo_010.md)
 | E012 | Montagem protótipo + revelação controlada | Após E010 |
 | E007 | Badlands Node (Água + Biodigestor) | Alta / contínuo |
 | E008 | Vigilância residual Raffen (pós-torre 04/07) | Média |
-| E011 | Visita à Doc (Stephania); Valk junto | Médio prazo |
+| E011 | Visita à Doc Moreau (Elisa); Valk junto — não é Stitch | Médio prazo |
 | E001/E006 | Biotechnica (investigação / retaliação latente) | Médio |
 | E004 | Interesse de Alex em Valk | Contínuo / baixo agora |
 
@@ -155,7 +155,7 @@ Leia nesta ordem:
 - Scav de materiais limpa (Valk, Rusty, Jax + 2; recon solo + drones)
 - Linha de produção na oficina (alunos / Tio Gringo sem saber o propósito final)
 - Node + destilaria/estufa avançando
-- Valk × Ryan: forte; visita à Doc prometida (Valk quer ir junto)
+- Valk × Ryan: forte; visita à Doc Moreau (Elisa) prometida (Valk quer ir junto)
 - Combinaram scav de containers para o dia seguinte
 
 ---
@@ -164,7 +164,7 @@ Leia nesta ordem:
 1. Scav de containers (10/07) — Valk organiza 2–3 veículos
 2. Montagem do 1º protótipo de casa modular
 3. Revelar plano a Tio Gringo / equipe quando ~98% + containers
-4. Visita à Doc; vigilância residual Raffen; Node contínuo
+4. Visita à Doc Moreau (Elisa); vigilância residual Raffen; Node contínuo
 
 ---
 

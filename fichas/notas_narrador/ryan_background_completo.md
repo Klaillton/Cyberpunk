@@ -6,7 +6,7 @@
 > **Aviso:** Este arquivo contém a versão completa, crua e extremamente pesada do passado de Ryan.  
 > Ele **não deve ser revelado de uma vez**. Deve ser descoberto aos poucos, através de gatilhos, conversas com a **Dra. Elisa "Doc" Moreau**, pesadelos ou situações de extremo estresse.  
 > Ryan possui **amnésia parcial e memórias reprimidas**. Ele não tem acesso consciente à maior parte do que está escrito aqui.  
-> **Nota:** Quando este arquivo menciona **"a Doc"**, refere-se a **Elisa "Doc" Moreau** (terapeuta/ripperdoc do passado de Ryan — sem ficha própria ainda; ver [Contatos e Amigos](../techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos) na ficha mecânica). **Não** confundir com Stephania "Doc" Voss (MedTech da crew atual).
+> **Nota:** Quando este arquivo menciona **"a Doc"**, refere-se a **Elisa "Doc" Moreau** (terapeuta/ripperdoc do passado de Ryan — sem ficha própria ainda; ver [Contatos e Amigos](../techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos) na ficha mecânica). **Não** confundir com **Stephania "Stitch" Voss** (MedTech da crew atual — [ficha](../medtech%20-%20stephania_stitch_voss.md)).
 
 ---
 

@@ -13,7 +13,7 @@
 | Alex "Specter" Kane      | Desconfiança          | Provação / Interesse         | Média       | Observando         | Potencial rival                  |
 | Reina "Bearclaw" Morales | Neutro / Cautela      | Proteção (Mãe Urso)          | Média       | Em desenvolvimento | Aliada / Irmã mais velha         |
 | Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado                   |
-| Dr. Stephania "Doc" Voss | Confiança             | Respeito                     | Média-Alta  | Estável            | Aliada / Médica (sem parentesco) |
+| Dr. Stephania "Stitch" Voss | Confiança             | Respeito                     | Média-Alta  | Estável            | Aliada / MedTech da crew (sem parentesco) |
 | Jax "Razor" Kane         | Respeito              | Respeito                     | Baixa       | Profissional       | Aliado de crew                   |
 
 ---
@@ -129,10 +129,11 @@
 **Status:** Aliado profissional / Fixer da crew  
 **Intensidade:** Média
 
-### Dr. Stephania "Doc" Voss
+### Dr. Stephania "Stitch" Voss
 
 **Status:** Aliada confiável (MedTech da crew)  
-**Intensidade:** Média-Alta
+**Intensidade:** Média-Alta  
+**Apelido:** **Stitch** — nunca “Doc” (Doc = Elisa Moreau)
 
 **Nota:** Compartilham o sobrenome **Voss**, mas **não são parentes** — coincidência que vira piada interna na crew (“será que são primos?”). **Não confundir** com **Elisa "Doc" Moreau** (terapeuta do passado de Ryan — sem ficha; ver [Contatos e Amigos](../fichas/techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos)).
 
@@ -195,7 +196,7 @@ Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto com
 ## Referências
 
 - [Mapa Relacional Geral](mapa_relacional_geral.md) · [Crew](crew_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md) · [Facções](faccao_relacionamentos.md)
-- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ficha Doc](../fichas/medtech%20-%20stephania_doc_voss.md)
+- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ficha Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md)
 - **Individuais:** [Valk](lena_valk_kane_relacionamentos.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Reina](reina_bearclaw_morales_relacionamentos.md)
 - **Notas do Narrador:** [Background Ryan](../fichas/notas_narrador/ryan_background_completo.md) · [Gatilhos Ryan](../fichas/notas_narrador/ryan_gatilhos_memorias.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md) · [Reputação](../reputacao.md)

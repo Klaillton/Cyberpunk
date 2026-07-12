@@ -23,4 +23,4 @@ pulso_do_mundo/
 | Pasta | Arquivos |
 | ----- | -------- |
 | `pack_badlands/` | pulso_geral, reyes, tio_gringo, sasha_e_lira, criancas, recrutas |
-| `crew/` | valk, kaz, alex, reina, stephania_doc, jax |
+| `crew/` | valk, kaz, alex, reina, stephania_stitch, jax |

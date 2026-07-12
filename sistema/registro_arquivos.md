@@ -69,7 +69,7 @@ cyberpunk/
 │   └── faccoes_geral.md
 ├── fichas/
 │   ├── fixer - kaz_the_broker_takahashi.md
-│   ├── medtech - stephania_doc_voss.md
+│   ├── medtech - stephania_stitch_voss.md
 │   ├── netrunner - alex_specter_kane.md
 │   ├── nomad - lena_valk_kane.md
 │   ├── solo - jax_razor_kane.md
@@ -92,7 +92,7 @@ cyberpunk/
 │       └── ryan_gatilhos_memorias.md
 ├── imagens/
 │   ├── fixer - kaz_the_broker_takahashi.jpg
-│   ├── medtech - stephania_doc_voss.jpg
+│   ├── medtech - stephania_stitch_voss.jpg
 │   ├── netrunner - alex_specter_kane.jpg
 │   ├── nomad - lena_valk_kane.jpg
 │   ├── solo - jax_razor_kane.png
@@ -112,7 +112,7 @@ cyberpunk/
 │   │   ├── criancas.md, recrutas.md
 │   └── crew/
 │       ├── valk.md, kaz.md, alex.md, reina.md
-│       ├── stephania_doc.md, jax.md
+│       ├── stephania_stitch.md, jax.md
 ├── logs/
 │   ├── pulso_log_template.md
 │   ├── pulso_20260703.md

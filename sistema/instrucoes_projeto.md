@@ -145,7 +145,7 @@ Sempre mostre mudanças propostas antes de aplicar. Mantenha `sistema/registro_a
 
 ## Personagens da crew (referência rápida)
 
-Ryan (protagonista), Valk, Alex, Reina, Kaz, Doc, Jax — fichas em `fichas/`, relações em `relacionamentos/`, matriz da crew em `crew_relacionamentos.md`.
+Ryan (protagonista), Valk, Alex, Reina, Kaz, **Stitch** (Stephania), Jax — fichas em `fichas/`, relações em `relacionamentos/`, matriz da crew em `crew_relacionamentos.md`. **Doc** = Elisa Moreau (passado de Ryan), não Stitch.
 
 ---
 

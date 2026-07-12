@@ -61,7 +61,7 @@
 - Scav de **containers** — protótipo casas (E010)
 - Vigilância pós-operação Raffen (E008)
 - Implementação Badlands Node (E007)
-- Visita à Doc (prometida)
+- Visita à **Doc Moreau** / Elisa (prometida) — **não** é Stitch
 - Investigação Biotechnica
 - Interesse de Alex em Valk
 

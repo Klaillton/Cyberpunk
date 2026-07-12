@@ -15,7 +15,7 @@
 | E007 | Implementação **Badlands Node** (Água + Biodigestor) | Em andamento | Alta | Curto prazo | Biodigestor + filtragem em progresso — ver [sessao_resumo_010](logs/sessao_resumo_010.md) |
 | E008 | Vigilância pós-operação **Torre Raffen** | Em andamento | Média | Dias restantes | Heat residual Raffen — ver [sessao_resumo_008](logs/sessao_resumo_008.md) |
 | E010 | **Scav de containers** — estrutura do protótipo casas | Pendente | Alta | Imediato (10/07) | Valk organiza 2–3 veículos; peças usinadas quase prontas — [sessao_resumo_010](logs/sessao_resumo_010.md) |
-| E011 | Visita à **Doc** (Stephania) | Pendente | Média | Médio prazo | Ryan prometeu; Valk quer ir junto |
+| E011 | Visita à **Doc Moreau** (Elisa) | Pendente | Média | Médio prazo | Ryan prometeu (memória/cabeça); Valk quer ir junto — **não** é Stitch |
 | E012 | Montagem protótipo casas modulares + revelação ao pack | Potencial | Alta | Após E010 | Segredo até piloto viável |
 
 ## Eventos Resolvidos (Recentes)

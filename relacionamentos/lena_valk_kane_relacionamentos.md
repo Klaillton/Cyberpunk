@@ -34,12 +34,12 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **Tipo:** Protetora (estilo "Mãe Urso")
 - **Notas:** Reina demonstra instinto protetor com a crew, incluindo Valk. A relação ainda está se formando.
 
-### Dr. Stephania "Doc" Voss
+### Dr. Stephania "Stitch" Voss
 
 - **Status:** Aliada confiável
 - **Intensidade:** Média
-- **Tipo:** Médica + Amizade
-- **Notas:** Doc cuida especialmente de Reina, mas também trata Valk quando necessário. Valk respeita o trabalho da Doc.
+- **Tipo:** MedTech da crew + Amizade
+- **Notas:** **Stitch** (não “Doc”) cuida especialmente de Reina, mas também trata Valk quando necessário. Valk respeita o trabalho dela.
 
 ### Jax "Razor" Kane
 

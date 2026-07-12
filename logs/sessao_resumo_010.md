@@ -26,7 +26,7 @@
 
 ### Relacionamentos
 
-- Ryan × Valk: vínculo reforçado (scav em equipe, intimidade pós-missão, conversa sobre eventual partida de Ryan, promessa de ir à Doc juntos, “troféu”/possessividade leve no pack).
+- Ryan × Valk: vínculo reforçado (scav em equipe, intimidade pós-missão, conversa sobre eventual partida de Ryan, promessa de ir à **Doc Moreau** (Elisa) juntos, “troféu”/possessividade leve no pack).
 - Jax / Rusty: colaboração operacional sólida no scav (cobertura e condução).
 - Alunos / Tio Gringo: respeito técnico; Ryan recusa título de “chefe”; pagamento via Tio Gringo/Reyes se necessário.
 
@@ -41,7 +41,7 @@
 - Material base para casas modulares no pack; protótipo bloqueado só por **containers inteiros**.
 - Plano de segunda scav (containers) agendado para o dia seguinte.
 - Produção/ensino na oficina consolida autonomia do pack nas peças do piloto.
-- Ryan verbalizou desejo de deixar legado e, um dia, um lugar no pack se deixar Night City; Valk se ofereceu para ir com ele à Doc.
+- Ryan verbalizou desejo de deixar legado e, um dia, um lugar no pack se deixar Night City; Valk se ofereceu para ir com ele à **Doc Moreau** (Elisa — não Stitch).
 
 ---
 
@@ -61,7 +61,7 @@
 - Montagem do primeiro protótipo de casa modular após containers.
 - Revelar o plano a Tio Gringo / equipe de produção quando chegar ~98% + containers.
 - Continuidade **Badlands Node** (biodigestor + água) e destilaria/estufa.
-- Visita à **Doc** (prometida; Valk quer ir junto).
+- Visita à **Doc Moreau** / Elisa (prometida; Valk quer ir junto) — não confundir com **Stitch** (MedTech da crew).
 - Vigilância residual Raffen (E008).
 
 ---

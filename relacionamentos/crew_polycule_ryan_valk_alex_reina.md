@@ -14,7 +14,7 @@ Ryan está em um relacionamento intenso com **Lena "Valk" Kane**.
 
 Kaz está escondido em Night City fugindo da Biotechnica. A reputação de Ryan e Valk após o trabalho contra a BT está ajudando ele a conseguir trabalhos melhores e formar uma equipe mais sólida. Alex reconhece o **Mule** do trabalho contra a BT e vai atrás da equipe. Como ela já trabalhou com Kaz e Valk no passado, Kaz oferece o serviço para ela (precisando especialmente de uma runner para lidar com a BT).
 
-Para trazer **Stephania** (médica) para o time, Kaz conversa com ela. Stephania só aceita participar se a **Reina** (sua amiga e quem já a protegeu várias vezes) também entrar. Reina aceita ao saber que o trabalho envolve o grupo que enfrentou a BT, achando que podem precisar de reforço caso haja retaliação.
+Para trazer **Stephania “Stitch”** (MedTech) para o time, Kaz conversa com ela. Stitch só aceita participar se a **Reina** (sua amiga e quem já a protegeu várias vezes) também entrar. Reina aceita ao saber que o trabalho envolve o grupo que enfrentou a BT, achando que podem precisar de reforço caso haja retaliação.
 
 Quando a crew se reúne, Reina fica surpresa ao ver Ryan (achava que ele tinha morrido). Ryan, porém, **não a reconhece**. Ele a cumprimenta de forma educada, porém com certa distância, e chega até a elogiar a qualidade dos braços cibernéticos dela. Isso confirma para Reina que Ryan realmente não lembra dela nem sabe que foi ele quem construiu os braços. Ela fica grata, mas não pode agradecer ainda, o que reforça seu instinto protetor em relação a ele desde o início.
 
@@ -59,7 +59,7 @@ Antes de qualquer coisa romântica acontecer de forma explícita, Reina já deve
 
 | Fase | Nome              | Foco              | Eventos Principais                                                 | Conflito Principal                     |
 | ---- | ----------------- | ----------------- | ------------------------------------------------------------------ | -------------------------------------- |
-| 1    | O Reencontro      | Alex volta        | Alex reaparece. Valk fica afetada. Ryan percebe algo estranho. Reina já atua como confidente e é puxada para o time por Stephania. | Tensão inicial                         |
+| 1    | O Reencontro      | Alex volta        | Alex reaparece. Valk fica afetada. Ryan percebe algo estranho. Reina já atua como confidente e é puxada para o time por Stitch (Stephania). | Tensão inicial                         |
 | 2    | O Beijo Visto     | Descoberta        | Ryan vê Alex beijando Valk. Valk retribui mas afasta.              | Ryan começa a se fechar emocionalmente |
 | 3    | O Desligamento    | Ryan se fecha     | Ryan entra em modo operador frio. Reina percebe e intervém.        | Valk e Alex ficam preocupadas          |
 | 4    | A Mediadora       | Reina se envolve  | Reina tenta ajudar. Começa a questionar seus sentimentos por Ryan. | Reina em negação                       |
@@ -88,5 +88,5 @@ Antes de qualquer coisa romântica acontecer de forma explícita, Reina já deve
 
 - [Mapa Relacional Geral](mapa_relacional_geral.md) · [Crew](crew_relacionamentos.md) · [Ryan](ryan_relacionamentos.md)
 - **Individuais:** [Valk](lena_valk_kane_relacionamentos.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Reina](reina_bearclaw_morales_relacionamentos.md)
-- **Fichas:** [Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Valk](../fichas/nomad%20-%20lena_valk_kane.md) · [Alex](../fichas/netrunner%20-%20alex_specter_kane.md) · [Reina](../fichas/solo%20-%20reina_bearclaw_morales.md) · [Doc](../fichas/medtech%20-%20stephania_doc_voss.md) · [Kaz](../fichas/fixer%20-%20kaz_the_broker_takahashi.md)
+- **Fichas:** [Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Valk](../fichas/nomad%20-%20lena_valk_kane.md) · [Alex](../fichas/netrunner%20-%20alex_specter_kane.md) · [Reina](../fichas/solo%20-%20reina_bearclaw_morales.md) · [Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Kaz](../fichas/fixer%20-%20kaz_the_broker_takahashi.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md)

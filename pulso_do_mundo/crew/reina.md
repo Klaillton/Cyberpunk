@@ -8,7 +8,7 @@
 - Entender o que aconteceu com Ryan desde que ele desapareceu (ela achava que ele tinha morrido).
 - Se integrar à crew de forma útil (especialmente como combatente e "Mãe Urso").
 - Observar a dinâmica entre Ryan, Valk e Alex (quando ela aparecer).
-- Manter sua amizade com Stephania (Doc) e ajudar a tripulação quando necessário.
+- Manter sua amizade com Stephania (Stitch) e ajudar a tripulação quando necessário.
 
 ## Perguntas de Pulso
 
