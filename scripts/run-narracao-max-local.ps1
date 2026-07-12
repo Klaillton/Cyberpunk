@@ -20,9 +20,9 @@ $env:OLLAMA_MAX_CONTEXT_FILES = "6"
 $env:OLLAMA_KEEP_ALIVE = "30m"
 $env:OLLAMA_REQUEST_TIMEOUT = "480"
 
-# Offload: ~35 camadas na RTX 4070, resto na RAM. Omita para auto do Ollama.
+# Offload: 28 camadas na RTX 4070 (8GB) — 35 costuma gerar CUDA error em dialogos longos.
 if (-not $env:OLLAMA_NUM_GPU) {
-    $env:OLLAMA_NUM_GPU = "35"
+    $env:OLLAMA_NUM_GPU = "28"
 }
 
 function Test-OllamaModelInstalled {

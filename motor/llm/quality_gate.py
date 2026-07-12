@@ -223,6 +223,7 @@ class ResponseQualityGate:
             "doc",
             "crew",
             "elias",
+            "rusty",
             "tomas",
             "mara",
             "reyes",

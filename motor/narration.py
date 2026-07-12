@@ -66,10 +66,11 @@ def format_provider_failure(provider: str, error: Exception, settings: Settings 
                 f"Ollama retornou resposta vazia para '{cfg.ollama_model_narration}'. "
                 "Tente reiniciar o Ollama ou reduzir OLLAMA_NUM_CTX_NARRATION."
             )
-        if "out of memory" in lowered or "oom" in lowered or "cuda" in lowered and "memory" in lowered:
+        if _is_cuda_runtime_error(lowered) or "out of memory" in lowered or "oom" in lowered:
             return (
-                "Ollama sem memoria para carregar o modelo. "
-                "Reduza OLLAMA_NUM_GPU, use modelo menor, ou feche outros apps na GPU."
+                "Erro CUDA na GPU ao rodar o modelo local. "
+                "Reinicie o container Ollama (docker restart cyberpunk-ollama) e reduza "
+                "OLLAMA_NUM_GPU (ex: 28 ou 0). Alternativa: OLLAMA_MODEL_NARRATION=llama3.1:8b."
             )
         if "timed out" in lowered or "timeout" in lowered:
             return (
@@ -91,16 +92,38 @@ def format_provider_failure(provider: str, error: Exception, settings: Settings 
     return "Nao foi possivel consultar o provider no momento. Tente novamente mais tarde."
 
 
-def run_ollama(
+def _is_cuda_runtime_error(message: str) -> bool:
+    lowered = message.lower()
+    return "cuda error" in lowered or ("cuda" in lowered and "memory" in lowered)
+
+
+def _gpu_fallback_layers(configured: int | None) -> list[int | None]:
+    if configured is None:
+        return [None]
+    layers = configured
+    candidates: list[int | None] = []
+    while layers > 0:
+        if layers not in candidates:
+            candidates.append(layers)
+        next_layers = layers // 2
+        if next_layers == layers:
+            break
+        layers = next_layers
+    if 0 not in candidates:
+        candidates.append(0)
+    return candidates
+
+
+def _ollama_generate_once(
     prompt: str,
-    settings: Settings | None = None,
+    cfg: Settings,
     *,
-    temperature: float | None = None,
-    num_predict: int | None = None,
-    num_ctx: int | None = None,
-    model: str | None = None,
+    temperature: float | None,
+    num_predict: int | None,
+    num_ctx: int | None,
+    model: str | None,
+    num_gpu: int | None,
 ) -> str:
-    cfg = settings or get_settings()
     body: dict = {
         "model": model or cfg.ollama_model_narration,
         "prompt": prompt,
@@ -114,8 +137,8 @@ def run_ollama(
         options["num_predict"] = num_predict
     if num_ctx is not None:
         options["num_ctx"] = num_ctx
-    if cfg.ollama_num_gpu is not None:
-        options["num_gpu"] = cfg.ollama_num_gpu
+    if num_gpu is not None:
+        options["num_gpu"] = num_gpu
     if options:
         body["options"] = options
     payload = json.dumps(body, ensure_ascii=False).encode("utf-8")
@@ -128,19 +151,50 @@ def run_ollama(
     )
     try:
         with urllib.request.urlopen(request, timeout=cfg.ollama_request_timeout_s) as response:
-            body = json.loads(response.read().decode("utf-8"))
+            parsed = json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", errors="replace")[-2000:]
         raise RuntimeError(f"Ollama HTTP {exc.code}: {detail}") from exc
     except urllib.error.URLError as exc:
         raise RuntimeError(f"Ollama indisponivel em {cfg.ollama_base_url}: {exc}") from exc
 
-    text = str(body.get("response", "")).strip()
+    text = str(parsed.get("response", "")).strip()
     if not text:
         raise RuntimeError(
             f"Ollama retornou resposta vazia (modelo: {model or cfg.ollama_model_narration})"
         )
     return text
+
+
+def run_ollama(
+    prompt: str,
+    settings: Settings | None = None,
+    *,
+    temperature: float | None = None,
+    num_predict: int | None = None,
+    num_ctx: int | None = None,
+    model: str | None = None,
+) -> str:
+    cfg = settings or get_settings()
+    last_error: RuntimeError | None = None
+    for num_gpu in _gpu_fallback_layers(cfg.ollama_num_gpu):
+        try:
+            return _ollama_generate_once(
+                prompt,
+                cfg,
+                temperature=temperature,
+                num_predict=num_predict,
+                num_ctx=num_ctx,
+                model=model,
+                num_gpu=num_gpu,
+            )
+        except RuntimeError as exc:
+            if not _is_cuda_runtime_error(str(exc)):
+                raise
+            last_error = exc
+    if last_error is not None:
+        raise last_error
+    raise RuntimeError("Ollama falhou sem detalhe.")
 
 
 def _generation_params(

@@ -68,6 +68,34 @@ def test_format_provider_failure_ollama_connection() -> None:
     assert "Ollama indisponivel" in msg
 
 
+def test_format_provider_failure_ollama_cuda() -> None:
+    msg = format_provider_failure(
+        "ollama",
+        RuntimeError('Ollama HTTP 500: {"error":"CUDA error: unknown error"}'),
+    )
+    assert "Erro CUDA" in msg
+    assert "OLLAMA_NUM_GPU" in msg
+
+
+def test_run_ollama_retries_with_lower_gpu_on_cuda_error() -> None:
+    calls: list[int | None] = []
+    cuda_error = RuntimeError('Ollama HTTP 500: {"error":"CUDA error: unknown error"}')
+    ok_payload = json.dumps({"response": "Cena local ok."}).encode("utf-8")
+
+    def fake_generate_once(*_args, num_gpu=None, **_kwargs):
+        calls.append(num_gpu)
+        if num_gpu and num_gpu >= 28:
+            raise cuda_error
+        return "Cena local ok."
+
+    with patch("motor.narration._ollama_generate_once", side_effect=fake_generate_once):
+        settings = reset_settings()
+        settings.ollama_num_gpu = 28
+        text = run_ollama("prompt", settings)
+    assert text == "Cena local ok."
+    assert calls == [28, 14]
+
+
 def test_run_ollama_parses_response() -> None:
     payload = json.dumps({"response": "Narrativa local."}).encode("utf-8")
 
