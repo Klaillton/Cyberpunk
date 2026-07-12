@@ -53,8 +53,27 @@ function Invoke-OllamaPull {
     curl -s -N -X POST "$baseUrl/api/pull" -d "{`"name`":`"$ModelName`"}" | Out-Null
 }
 
+function Wait-OllamaReady {
+    param([int]$MaxSeconds = 90)
+    $baseUrl = if ($env:OLLAMA_BASE_URL) { $env:OLLAMA_BASE_URL } else { "http://127.0.0.1:11434" }
+    $deadline = (Get-Date).AddSeconds($MaxSeconds)
+    while ((Get-Date) -lt $deadline) {
+        try {
+            $tags = Invoke-RestMethod -Uri "$baseUrl/api/tags" -Method Get -TimeoutSec 8
+            if ($tags.models -and $tags.models.Count -gt 0) {
+                Write-Host "Ollama pronto em $baseUrl ($($tags.models.Count) modelos)."
+                return
+            }
+        } catch {
+            Start-Sleep -Seconds 2
+        }
+    }
+    throw "Ollama nao respondeu em $baseUrl apos ${MaxSeconds}s. Verifique: docker compose -f deploy/docker-compose.yml up -d ollama"
+}
+
 Invoke-OllamaPull $env:OLLAMA_MODEL_NARRATION
 Invoke-OllamaPull "phi3:mini"
+Wait-OllamaReady
 
 Write-Host "Iniciando API com narracao local maxima ($($env:OLLAMA_MODEL_NARRATION))..."
 python c:/workspace/Cyberpunk/scripts/narracao_api.py

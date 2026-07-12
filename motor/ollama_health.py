@@ -1,19 +1,41 @@
 from __future__ import annotations
 
 import json
+import time
 import urllib.error
 import urllib.request
 
 from motor.settings import Settings, get_settings
 
+_DEFAULT_RETRIES = 3
+_DEFAULT_RETRY_DELAY_S = 1.5
 
-def list_installed_models(settings: Settings | None = None) -> list[str]:
-    cfg = settings or get_settings()
+
+def _fetch_tags_payload(cfg: Settings, *, timeout: float = 12.0) -> dict | None:
     url = f"{cfg.ollama_base_url.rstrip('/')}/api/tags"
     try:
-        with urllib.request.urlopen(url, timeout=8) as response:
-            payload = json.loads(response.read().decode("utf-8"))
+        with urllib.request.urlopen(url, timeout=timeout) as response:
+            return json.loads(response.read().decode("utf-8"))
     except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError):
+        return None
+
+
+def list_installed_models(
+    settings: Settings | None = None,
+    *,
+    retries: int = _DEFAULT_RETRIES,
+    retry_delay_s: float = _DEFAULT_RETRY_DELAY_S,
+) -> list[str]:
+    cfg = settings or get_settings()
+    attempts = max(1, retries)
+    payload: dict | None = None
+    for attempt in range(attempts):
+        payload = _fetch_tags_payload(cfg)
+        if payload is not None:
+            break
+        if attempt < attempts - 1:
+            time.sleep(retry_delay_s)
+    if payload is None:
         return []
     models: list[str] = []
     for entry in payload.get("models", []):
@@ -35,9 +57,13 @@ def model_is_installed(model: str, settings: Settings | None = None) -> bool:
     return any(name == base or name.startswith(f"{base}:") for name in installed)
 
 
-def inspect_ollama(settings: Settings | None = None) -> dict:
+def inspect_ollama(
+    settings: Settings | None = None,
+    *,
+    retries: int = _DEFAULT_RETRIES,
+) -> dict:
     cfg = settings or get_settings()
-    installed = list_installed_models(cfg)
+    installed = list_installed_models(cfg, retries=retries)
     narration = cfg.ollama_model_narration
     aux = cfg.ollama_model_aux
     return {
@@ -51,10 +77,16 @@ def inspect_ollama(settings: Settings | None = None) -> dict:
     }
 
 
-def _ollama_reachable(cfg: Settings) -> bool:
-    url = f"{cfg.ollama_base_url.rstrip('/')}/api/tags"
-    try:
-        with urllib.request.urlopen(url, timeout=5) as response:
-            return response.status == 200
-    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError):
-        return False
+def _ollama_reachable(
+    cfg: Settings,
+    *,
+    retries: int = _DEFAULT_RETRIES,
+    retry_delay_s: float = _DEFAULT_RETRY_DELAY_S,
+) -> bool:
+    attempts = max(1, retries)
+    for attempt in range(attempts):
+        if _fetch_tags_payload(cfg, timeout=8.0) is not None:
+            return True
+        if attempt < attempts - 1:
+            time.sleep(retry_delay_s)
+    return False

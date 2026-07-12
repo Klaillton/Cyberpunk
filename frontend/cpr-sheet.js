@@ -25,10 +25,32 @@ function renderCprSheet(sheet, container) {
   const root = document.createElement("div");
   root.className = `cpr-sheet cpr-sheet--${layout === "cpr_full" ? "full" : layout === "cpr_generic" ? "generic" : "reference"}`;
 
+  const header = document.createElement("div");
+  header.className = "cpr-sheet-header";
+
+  if (sheet.id) {
+    const portrait = document.createElement("img");
+    portrait.className = "cpr-portrait";
+    portrait.src = `/api/character-image/${sheet.id}`;
+    portrait.alt = sheet.title || "Retrato";
+    portrait.loading = "lazy";
+    header.appendChild(portrait);
+  }
+
+  const meta = document.createElement("div");
+  meta.className = "cpr-sheet-meta";
   const badge = document.createElement("div");
   badge.className = "cpr-tier-badge";
   badge.textContent = CPR_TIER_LABELS[sheet.tier] || sheet.tier || "Ficha";
-  root.appendChild(badge);
+  meta.appendChild(badge);
+  if (sheet.title) {
+    const name = document.createElement("h3");
+    name.className = "cpr-sheet-title";
+    name.textContent = sheet.title;
+    meta.appendChild(name);
+  }
+  header.appendChild(meta);
+  root.appendChild(header);
 
   if (layout === "cpr_full") {
     root.appendChild(renderStatsPanel(sheet));

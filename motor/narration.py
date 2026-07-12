@@ -219,11 +219,12 @@ def _uses_llm_provider(settings: Settings) -> bool:
 def _ollama_preflight_message(settings: Settings) -> str | None:
     if settings.provider != "ollama":
         return None
-    report = inspect_ollama(settings)
+    report = inspect_ollama(settings, retries=4)
     if not report.get("reachable"):
         return (
             "Ollama indisponivel. Verifique se o servico esta rodando "
-            f"em {settings.ollama_base_url}."
+            f"em {settings.ollama_base_url} e aguarde o container ficar pronto. "
+            "Se acabou de iniciar o Docker, tente novamente em alguns segundos."
         )
     if not report.get("narration_ready"):
         model = settings.ollama_model_narration

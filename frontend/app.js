@@ -161,6 +161,17 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function normalizeAssetUrl(url) {
+  const raw = String(url || "").trim();
+  if (!raw) return raw;
+  if (/^https?:\/\//i.test(raw) || raw.startsWith("/api/")) return raw;
+  if (raw.startsWith("../imagens/")) return `/imagens/${raw.slice("../imagens/".length)}`;
+  if (raw.startsWith("./imagens/")) return `/imagens/${raw.slice("./imagens/".length)}`;
+  if (raw.startsWith("imagens/")) return `/${raw}`;
+  if (raw.startsWith("/imagens/")) return raw;
+  return raw;
+}
+
 function renderInlineMarkdown(text) {
   let html = escapeHtml(text);
   html = html.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
@@ -169,9 +180,16 @@ function renderInlineMarkdown(text) {
     /`([^`]+)`/g,
     "<code class=\"md-inline-code\">$1</code>",
   );
+  html = html.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_match, alt, src) => {
+    const resolved = escapeHtml(normalizeAssetUrl(src));
+    return `<img class="md-inline-image" src="${resolved}" alt="${alt}" loading="lazy" />`;
+  });
   html = html.replace(
     /\[([^\]]+)\]\(([^)]+)\)/g,
-    '<a href="$2" target="_blank" rel="noreferrer">$1</a>',
+    (_match, label, href) => {
+      const resolved = normalizeAssetUrl(href);
+      return `<a href="${resolved}" target="_blank" rel="noreferrer">${label}</a>`;
+    },
   );
   return html;
 }
@@ -201,6 +219,16 @@ function renderMarkdown(text) {
 
     if (/^---+$/.test(trimmed)) {
       parts.push("<hr class=\"md-hr\" />");
+      index += 1;
+      continue;
+    }
+
+    const imageOnly = trimmed.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+    if (imageOnly) {
+      const src = escapeHtml(normalizeAssetUrl(imageOnly[2]));
+      parts.push(
+        `<figure class="md-figure"><img class="md-image" src="${src}" alt="${escapeHtml(imageOnly[1])}" loading="lazy" /></figure>`,
+      );
       index += 1;
       continue;
     }
@@ -1684,8 +1712,9 @@ async function ensureCharacterProfileLoaded() {
     renderFicha(profile, sheetData);
     profileLoaded = true;
   } catch (err) {
+    const detail = err instanceof Error ? err.message : String(err);
     fichaStatus.textContent =
-      "Nao foi possivel carregar a ficha do personagem a partir dos arquivos de referencia.";
+      `Nao foi possivel carregar a ficha: ${detail}`;
     console.error(err);
   }
 }

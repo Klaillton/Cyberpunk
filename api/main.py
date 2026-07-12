@@ -69,6 +69,10 @@ def create_app() -> FastAPI:
     app.include_router(proposals.router)
     app.include_router(save.router)
 
+    images_dir = settings.images_dir
+    if images_dir.exists():
+        app.mount("/imagens", StaticFiles(directory=str(images_dir)), name="imagens")
+
     if settings.frontend_dir.exists():
         app.mount("/", StaticFiles(directory=str(settings.frontend_dir), html=True), name="frontend")
 

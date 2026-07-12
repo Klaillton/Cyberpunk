@@ -1,3 +1,39 @@
+.cpr-sheet-header {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.cpr-portrait {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid rgba(95, 230, 210, 0.35);
+  flex-shrink: 0;
+}
+
+.cpr-sheet-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+.cpr-sheet-title {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.25;
+}
+
+.md-figure,
+.md-inline-image,
+.md-image {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
 .cpr-sheet {
   display: grid;
   gap: 1rem;
