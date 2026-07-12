@@ -74,7 +74,8 @@ def format_provider_failure(provider: str, error: Exception, settings: Settings 
         if "timed out" in lowered or "timeout" in lowered:
             return (
                 f"Ollama demorou demais (timeout {cfg.ollama_request_timeout_s}s). "
-                f"O modelo '{cfg.ollama_model_narration}' pode estar carregando — aguarde e tente de novo."
+                f"O modelo '{cfg.ollama_model_narration}' com contexto grande pode levar varios minutos. "
+                "Reduza OLLAMA_NUM_CTX_NARRATION / OLLAMA_MAX_PROMPT_CHARS ou aguarde o warm-up e tente de novo."
             )
         if message:
             return f"Ollama falhou: {message[:240]}"
@@ -104,6 +105,7 @@ def run_ollama(
         "model": model or cfg.ollama_model_narration,
         "prompt": prompt,
         "stream": False,
+        "keep_alive": cfg.ollama_keep_alive,
     }
     options: dict = {}
     if temperature is not None:
@@ -341,7 +343,8 @@ def generate_turn(
     active_decision = decision
     active_prompt = prompt
 
-    max_attempts = _MAX_NARRACAO_QUALITY_ATTEMPTS if run_quality else 2
+    large_local = "14b" in cfg.ollama_model_narration.lower() or "13b" in cfg.ollama_model_narration.lower()
+    max_attempts = (2 if large_local else _MAX_NARRACAO_QUALITY_ATTEMPTS) if run_quality else 2
     while attempts < max_attempts:
         attempts += 1
         retry = attempts > 1

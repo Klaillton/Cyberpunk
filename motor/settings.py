@@ -73,6 +73,7 @@ class Settings:
     ollama_num_ctx_narration: int = 10_240
     ollama_num_ctx_aux: int = 4096
     ollama_num_gpu: int | None = None
+    ollama_keep_alive: str = "30m"
     ollama_request_timeout_s: int = 900
     update_proposals_enabled: bool = False
 
@@ -149,6 +150,7 @@ class Settings:
             ollama_num_ctx_narration=int(os.environ.get("OLLAMA_NUM_CTX_NARRATION", "10240")),
             ollama_num_ctx_aux=int(os.environ.get("OLLAMA_NUM_CTX_AUX", "4096")),
             ollama_num_gpu=_optional_int_env("OLLAMA_NUM_GPU"),
+            ollama_keep_alive=os.environ.get("OLLAMA_KEEP_ALIVE", "30m").strip() or "30m",
             ollama_request_timeout_s=int(os.environ.get("OLLAMA_REQUEST_TIMEOUT", "900")),
             update_proposals_enabled=update_proposals_enabled,
         )

@@ -77,6 +77,38 @@ def inspect_ollama(
     }
 
 
+def warm_ollama_model(settings: Settings | None = None, *, timeout: float = 180.0) -> bool:
+    """Carrega o modelo de narracao na memoria (evita timeout na primeira cena)."""
+    cfg = settings or get_settings()
+    model = cfg.ollama_model_narration
+    body: dict = {
+        "model": model,
+        "prompt": "Responda apenas: pronto.",
+        "stream": False,
+        "keep_alive": cfg.ollama_keep_alive,
+        "options": {
+            "num_predict": 8,
+            "num_ctx": min(cfg.ollama_num_ctx_narration, 2048),
+        },
+    }
+    if cfg.ollama_num_gpu is not None:
+        body["options"]["num_gpu"] = cfg.ollama_num_gpu
+    payload = json.dumps(body, ensure_ascii=False).encode("utf-8")
+    url = f"{cfg.ollama_base_url.rstrip('/')}/api/generate"
+    request = urllib.request.Request(
+        url,
+        data=payload,
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            json.loads(response.read().decode("utf-8"))
+        return True
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError):
+        return False
+
+
 def _ollama_reachable(
     cfg: Settings,
     *,

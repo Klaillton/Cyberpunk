@@ -77,6 +77,7 @@ def test_generate_turn_quality_rescue_uses_compact_grok_after_three_failures(
 ) -> None:
     settings = reset_settings()
     settings.provider = "ollama"
+    settings.ollama_model_narration = "llama3.1:8b"
     settings.llm_routing_policy = "local_only"
     settings.cloud_fallback_enabled = False
     settings.quality_rescue_cloud_enabled = True
