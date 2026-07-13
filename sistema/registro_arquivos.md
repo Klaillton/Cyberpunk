@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 11 de Julho de 2026
+**Última atualização:** 13 de Julho de 2026
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -29,6 +29,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Detalhes de facção ativa | `facoes/pack_badlands.md` | `relacionamentos/faccao_relacionamentos.md`, `reputacao.md` |
 | Facções menores / superficiais | `facoes/faccoes_geral.md` | `relacionamentos/faccao_relacionamentos.md` |
 | Atividades de downtime do Ryan | `logs/downtime_ryan.md` | `board/board_campanha.md`, `fichas/techie - ryan_wireghost_voss.md` |
+| **Guarda-roupa / visual por ocasião (Ryan)** | `fichas/ryan_guarda_roupas.md` | `imagens/ryan/guarda_roupas/`, ficha techie |
 | Background e gatilhos do Ryan (narrador) | `fichas/notas_narrador/ryan_background_completo.md` | `fichas/notas_narrador/ryan_gatilhos_memorias.md`, `fichas/techie - ryan_wireghost_voss.md` (Elisa "Doc" Moreau) |
 | Histórico de sessão | `logs/sessao_resumo_XXX.md` | Arquivos listados na seção "Arquivos Atualizados" de cada resumo |
 | Detalhes de job / gig concluído | `logs/job_XXX_*.md` | `logs/sessao_resumo_*.md`, `consequencias/consequencias_persistentes.md`, `heat.md` |
@@ -75,6 +76,7 @@ cyberpunk/
 │   ├── solo - jax_razor_kane.md
 │   ├── solo - reina_bearclaw_morales.md
 │   ├── techie - ryan_wireghost_voss.md
+│   ├── ryan_guarda_roupas.md      ← Visual por ocasião (Badlands / NC / Wireghost)
 │   ├── vehicle - the_mule.md
 │   ├── npc/                       ← Fichas mínimas (um NPC por arquivo)
 │   │   ├── npc_template.md
@@ -99,6 +101,7 @@ cyberpunk/
 │   ├── solo - reina_bearclaw_morales.png
 │   ├── techie - ryan_wireghost_voss.jpg              ← ficha Ryan (tático)
 │   ├── techie - ryan_wireghost_voss_daily_clothes.png ← Ryan casual/oficina
+│   ├── ryan/guarda_roupas/          ← catálogo de roupa (ver ryan_guarda_roupas.md)
 │   ├── vehicle - the_mule.jpg
 │   ├── Sasha.jpg
 │   ├── Lira.jpg
