@@ -54,3 +54,10 @@ terminals/
 # Sistema operacional/editor
 .DS_Store
 Thumbs.db
+
+# Referencia local (PDFs CPR, atlas) — nao faz parte do runtime do motor
+base/
+
+# Backups e rascunhos locais de fichas/imagens
+fichas/_backup_pre_cpr/
+imagens/old_ideas/
