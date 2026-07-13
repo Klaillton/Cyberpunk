@@ -2,6 +2,7 @@
 
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
+**Não é o tier-0 anti-esquecimento** — use primeiro `logs/context_pack_atual.md`.  
 **Última atualização:** 09 de Julho de 2026 — final da tarde (sessão 010)
 
 ---

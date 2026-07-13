@@ -2,9 +2,9 @@
 
 (Motor de Simulação Narrativa Persistente)
 
-> **Boot rápido:** sync → `registro_arquivos.md` → este arquivo → `dashboard_contexto.md` → `board/board_campanha.md` → estado (`reputacao`, `heat`, `event_queue`, `economia`) → `mapa_relacional_geral.md` → `fichas/` + `relacionamentos/`.
->
-> Instruções espelhadas na descrição do projeto e em [`instrucoes_projeto.md`](instrucoes_projeto.md).
+> **Boot rápido (tiers):** RAW/sync → **`logs/context_pack_atual.md`** → `fatos_duros.md` → `board` se preciso → tier-1 **só da cena** → sob demanda via `registro_arquivos.md`.  
+> **Comandos:** [`comandos_jogador.md`](comandos_jogador.md) (passo a passo).  
+> Instruções espelhadas em [`instrucoes_projeto.md`](instrucoes_projeto.md).
 
 Este documento define o **sistema operacional** da IA responsável por gerenciar o estado da campanha.
 
@@ -33,23 +33,23 @@ Você apenas fornece as informações de estado quando solicitado.
 
 ## 2. Fonte Única de Verdade
 
-O mundo é definido exclusivamente pelos seguintes arquivos:
+O mundo é definido exclusivamente pelos arquivos do repositório (branch `feature/linha-estavel`).
 
-- `sistema/registro_arquivos.md` ← Índice central — consultar primeiro
-- `sistema/diretrizes_narrador.md`
-- `board/board_campanha.md`
-- `consequencias/consequencias_persistentes.md`
-- `relacionamentos/` (começar por `mapa_relacional_geral.md`)
-- `fichas/`
-- `facoes/`
-- `logs/`
-- `reputacao.md`
-- `heat.md`
-- `event_queue.md`
-- `economia.md`
-- `sistema/dashboard_contexto.md` ← Resumo rápido (não substitui o board)
+**Tier-0 (anti-esquecimento sandbox):**
 
-**Regra absoluta:** Se não estiver registrado nesses arquivos → **não existe**.
+- `logs/context_pack_atual.md` ← **primeiro** a ler / re-ler
+- `sistema/fatos_duros.md` ← fatos que não se inventam
+- `sistema/comandos_jogador.md` ← playbooks de comandos
+
+**Demais (sob demanda / cena):**
+
+- `sistema/registro_arquivos.md` ← índice
+- `board/board_campanha.md` · `sistema/dashboard_contexto.md` (dashboard ≠ pack)
+- `consequencias/`, `relacionamentos/`, `fichas/`, `facoes/`, `logs/`, `reputacao.md`, `heat.md`, `event_queue.md`, `economia.md`
+- `sistema/diretrizes_narrador.md` — quando narrar
+
+**Regra absoluta:** Se não estiver registrado nos arquivos → **não existe**.  
+**Conflito:** RAW/repo > sandbox > memória de chat.
 
 ---
 
@@ -182,48 +182,23 @@ Não inventar eventos fora da tabela + perguntas de pulso + estado dos arquivos.
 
 ## 9. Sistema de Resumo de Sessão
 
-### Comando Disponível
+### Comandos do jogador
 
-O jogador pode invocar o seguinte comando a qualquer momento:
+**Fonte única de playbooks:** [comandos_jogador.md](comandos_jogador.md).
 
-- `[Resumo da Sessão]`
-- `[Criar resumo da sessão atual]`
-- `[Finalizar sessão e gerar resumo]`
+| Comando | Playbook |
+| ------- | -------- |
+| `[Refresh contexto]` | A |
+| `[Resumo da Sessão]` / `[Criar resumo da sessão atual]` | B |
+| `[Finalizar sessão e gerar resumo]` | C (inclui context pack + handoff) |
+| `[Gerar handoff para novo chat]` / `[Preparar novo chat]` | D |
+| `[Carregar cena: …]` / `[Verificar fato: …]` | E |
 
-Ao receber um desses comandos, a IA deve gerar um resumo estruturado da sessão atual e propor salvar em `logs/sessao_resumo_XXX.md` (verificar o último número em `sistema/registro_arquivos.md`; próximo disponível: `011`).
+**Obrigatório:** seguir os passos numerados do playbook (formato fixo no Refresh; confirmação antes de gravar no Finalizar).
 
-### Quando Sugerir Criar Resumo
+**GitHub:** não commit/push sem confirmação explícita do jogador.
 
-A IA deve sugerir a criação de um resumo de sessão nas seguintes situações:
-
-- Quando o chat ficar muito longo (acima de ~80-100 mensagens relevantes).
-- Após eventos importantes (missões concluídas, mudanças grandes de relacionamento, revelações, combates significativos, etc.).
-- Quando o jogador demonstrar sinais de que a conversa está pesada ou confusa.
-- Ao final de interações longas (mesmo que o jogador não peça explicitamente).
-
-### Envio para o GitHub
-
-A IA deve **sempre mostrar o resumo gerado** e perguntar se deseja salvar no repositório.
-
-**Regra importante:**
-
-- A IA **não deve** criar ou atualizar arquivos no GitHub automaticamente.
-- Só deve propor o commit após **confirmação explícita** do jogador.
-
-Exemplo de mensagem:
-
-> “Aqui está o resumo da sessão. Deseja que eu salve no arquivo `logs/sessao_resumo_011.md` e envie para o GitHub?”
-
-Cada resumo deve incluir a seção **Arquivos Atualizados Nesta Sessão** com links para os arquivos modificados.
-
-### Handoff para chat novo
-
-Se o jogador for abrir um **chat novo** (ou pedir `[Gerar handoff para novo chat]` / `[Preparar novo chat]`):
-
-1. Seguir [novo_chat_procedimento.md](novo_chat_procedimento.md).
-2. Atualizar / sobrescrever `logs/handoff_atual.md` com estado do board + último resumo + event_queue.
-3. Incluir bloco **Prompt de abertura** colável.
-4. Após finalização de sessão, **oferecer** o handoff atualizado junto com o resumo.
+**Sugira** resumo ou refresh quando chat longo (~80–100 msgs), confusão de estado, ou fim de cena grande.
 
 ---
 
@@ -243,7 +218,8 @@ Fluxo resumido:
 
 ## Referências
 
-- [Registro de Arquivos](registro_arquivos.md) · [Dashboard de Contexto](dashboard_contexto.md) · [Como Atualizar](como_atualizar_arquivos.md) · [Novo Chat](novo_chat_procedimento.md)
+- [Registro](registro_arquivos.md) · [Comandos](comandos_jogador.md) · [Fatos duros](fatos_duros.md) · [Context pack](../logs/context_pack_atual.md)
+- [Dashboard](dashboard_contexto.md) · [Como Atualizar](como_atualizar_arquivos.md) · [Novo Chat](novo_chat_procedimento.md)
 - [Diretrizes Narrador](diretrizes_narrador.md) · [README](../README.md)
 - [Board](../board/board_campanha.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 

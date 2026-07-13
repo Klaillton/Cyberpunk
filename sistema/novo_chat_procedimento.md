@@ -1,7 +1,9 @@
 # Novo Chat — Procedimento Operacional
 
 **Finalidade:** Abrir um chat novo sem perda de continuidade, com estado canônico no GitHub e um **handoff** colável.  
-**Última atualização:** 11 de Julho de 2026
+**Última atualização:** 13 de Julho de 2026  
+**Playbook do comando:** [comandos_jogador.md](comandos_jogador.md) § D  
+**Tier-0:** [logs/context_pack_atual.md](../logs/context_pack_atual.md)
 
 ---
 
@@ -55,6 +57,7 @@ Arquivo canônico de continuidade:
 
 | Arquivo | Papel |
 | ------- | ----- |
+| [`logs/context_pack_atual.md`](../logs/context_pack_atual.md) | **Tier-0** NOW + fatos em vigor (atualizar com handoff) |
 | [`logs/handoff_atual.md`](../logs/handoff_atual.md) | **Único handoff vigente** — sobrescrever a cada fim de sessão |
 | [`logs/handoff_template.md`](../logs/handoff_template.md) | Esqueleto estrutural (não editar com estado vivo) |
 | `logs/sessao_resumo_XXX.md` | Histórico imutável da sessão que acabou |
@@ -78,29 +81,28 @@ Arquivo canônico de continuidade:
 
 Executar **nesta ordem** antes de narrar:
 
-### 4.1 Sincronização
+### 4.1 Sincronização / RAW-first
 
-- Repo: <https://github.com/Klaillton/Cyberpunk>
-- Branch: `feature/linha-estavel`
-- `git checkout feature/linha-estavel && git pull origin feature/linha-estavel` (ou equivalente)
-- Se não puder puxar git: ler RAW da branch estável  
+- Repo: <https://github.com/Klaillton/Cyberpunk> · Branch: `feature/linha-estavel`
+- Git pull se possível; senão **RAW**  
   `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/<caminho>`
 
-### 4.2 Leitura obrigatória
+### 4.2 Leitura obrigatória (tiers)
 
-1. `sistema/instrucoes_projeto.md`
-2. `sistema/diretrizes_ia.md` + `sistema/diretrizes_narrador.md` (se narrar)
-3. `logs/handoff_atual.md` ← continuidade imediata
-4. `sistema/dashboard_contexto.md` → `board/board_campanha.md`
-5. Último `logs/sessao_resumo_XXX.md` citado no handoff
-6. `event_queue.md` · `consequencias/consequencias_persistentes.md` (trechos recentes)
-7. Relacionamentos dos NPCs em cena (ex.: `ryan_relacionamentos.md`, `lena_valk_kane_relacionamentos.md`)
+**Tier 0**
+
+1. `logs/context_pack_atual.md`
+2. `sistema/fatos_duros.md` (se necessário)
+3. `logs/handoff_atual.md` (prompt / gancho)
+4. `board/board_campanha.md` se pack e board divergirem
+
+**Tier 1 (cena do NOW)** — poucos arquivos conforme região (Pack vs NC vs estrada); ver context pack.
+
+**Não** carregar a biblioteca inteira no boot. Playbooks: [comandos_jogador.md](comandos_jogador.md).
 
 ### 4.3 Confirmação (1 frase)
 
-Antes da primeira cena, a IA responde algo no formato:
-
-> Boot OK · **[data in-game]** · **[local]** · prioridade: **[E0XX / ação]** · próximo resumo: `sessao_resumo_NNN.md`
+> Boot OK · **[data]** · **[região/local]** · prioridade: **[E0XX]** · próximo resumo: `NNN`
 
 Só então narra o gancho de abertura.
 

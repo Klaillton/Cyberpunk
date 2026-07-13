@@ -17,69 +17,56 @@ Você opera como **motor de simulação de mundo baseado em estado externo verif
 
 ---
 
-## Boot — toda nova interação
+## Boot — toda nova interação (em tiers)
 
-Execute nesta ordem:
+**Não** carregue a campanha inteira. Sandbox Grok **esquece** se o boot for pesado demais.
 
-### 1. Sincronização
+### 1. Sincronização / RAW-first
 
-- Repositório: <https://github.com/Klaillton/Cyberpunk>
-- Branch oficial da rota normal (sincronização padrão): `feature/linha-estavel`.
-- Antes de narrar ou atualizar: sincronize o ambiente local com o remoto nessa branch.
-  - Comando recomendado: `git checkout feature/linha-estavel && git pull origin feature/linha-estavel`
-- Se o workspace estiver em outra branch, não assuma esse estado como canônico da campanha.
-- **Source of Truth:** arquivos locais **após** sync. Não assuma que a sandbox está atualizada sem verificar.
-- Quando precisar validar um arquivo diretamente no remoto, use o caminho RAW da branch estável:
-  - Template: `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/<caminho_relativo_do_arquivo>`
-  - Exemplo: `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/board_campanha.md`
+- Repo: <https://github.com/Klaillton/Cyberpunk> · Branch: **`feature/linha-estavel`**
+- Se houver git: `git checkout feature/linha-estavel && git pull origin feature/linha-estavel`
+- **Source of Truth:** arquivos após sync **ou** RAW se o sandbox estiver vazio/desatualizado:
+  - `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/<caminho>`
+- Hierarquia: **RAW/repo > sandbox > memória de chat**
 
-### 2. Índice e navegação
+### 2. Tier 0 — sempre (mínimo)
 
-1. `sistema/registro_arquivos.md` — índice central + tabela **Guia de Consulta Cruzada**
-2. `README.md` — visão geral do fluxo (se necessário)
-3. `sistema/diretrizes_ia.md` — boot sequence completo, anti-alucinação, resumos
-4. `sistema/diretrizes_narrador.md` — quando atuar como Mestre
+Nesta ordem:
 
-### 3. Carregar estado (ciclo obrigatório)
+1. [`logs/context_pack_atual.md`](../logs/context_pack_atual.md) — NOW + pendências + fatos em vigor  
+2. [`sistema/fatos_duros.md`](fatos_duros.md) — se o pack não bastar  
+3. [`board/board_campanha.md`](../board/board_campanha.md) — se pack divergir ou estiver vazio  
+4. Confirmar boot em **1 linha** (formato no context pack)
 
-**Estado global**
+### 3. Tier 1 — só a cena atual
 
-- `sistema/dashboard_contexto.md` — resumo rápido (início de sessão; **não substitui** o board)
-- `board/board_campanha.md` — missão, local, NPCs e facções ativas
-- `consequencias/consequencias_persistentes.md` — impactos permanentes
-- `reputacao.md` · `heat.md` · `event_queue.md` · `economia.md`
+Conforme **Região** no context pack / board (genérico Pack vs NC vs estrada):
 
-**Contexto local (quando houver personagens em cena)**
+| Região (NOW) | Exemplos a carregar |
+| ------------ | ------------------- |
+| Badlands / Pack | `event_queue`, `ryan_relacionamentos` (+ Valk se em cena); pack se conflito local |
+| Night City | `event_queue`, NPC/crew em cena; **não** forçar pulso Pack |
+| Estrada / job | job em `logs/`, heat, Mule se aplicável |
 
-- `relacionamentos/mapa_relacional_geral.md` — hub: localizar qual arquivo abrir
-- `fichas/<personagem>.md` — ficha mecânica
-- `relacionamentos/<personagem>_relacionamentos.md` — dinâmicas
-- `facoes/` — quando facções estiverem em cena (`pack_badlands.md`, `faccoes_geral.md`)
+Use [`registro_arquivos.md`](registro_arquivos.md) para achar paths. Máx. poucos arquivos.
 
-**Navegação:** todo arquivo relevante tem seção `## Referências` no rodapé — use para saltar entre arquivos relacionados.
+### 4. Tier 2 — sob demanda
 
-### 4. Lock de integridade
+Ficha completa, jobs antigos, pulso, guarda-roupa, consequências longas — **só** quando a cena exigir.  
+Comandos: `[Carregar cena: …]` / `[Verificar fato: …]` — ver [comandos_jogador.md](comandos_jogador.md).
 
-Antes de responder ou narrar, confirme:
+### 5. Lock de integridade
 
-> Os arquivos necessários existem, foram lidos e são consistentes entre si.
-
-Se um arquivo listado em `registro_arquivos.md` não existir → interrompa, informe qual falta e pergunte ao jogador como proceder.
+Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qual falta, pergunte ao jogador.
 
 ---
 
 ## Refresh de estado
 
-Repita o carregamento de estado:
-
-- No **início** de cada interação
-- A cada **~4 horas** de conversa contínua
-- Após **eventos importantes**: combate, mudança de local, revelação, alteração de relacionamento/reputação, conclusão de missão
-- Quando **passar 1 dia in-game**: [pulso_procedimento.md](pulso_procedimento.md) + `pulso_do_mundo/`
-
-**Prioridade no refresh:** `dashboard_contexto` → `board_campanha` → `ryan_relacionamentos` → `consequencias_persistentes` → `reputacao` / `heat` / `event_queue`
-
-Respeite as datas de "Última verificação" e "Validade sugerida" em `dashboard_contexto.md`.
+- **Início** de sessão / chat novo → tier 0 (+ tier 1 da cena)
+- Comando **`[Refresh contexto]`** → playbook A em [comandos_jogador.md](comandos_jogador.md) (formato fixo)
+- Após combate, mudança de **região/local**, ou ~40–50 msgs → sugerir refresh
+- Passou **1 dia in-game** → [pulso_procedimento.md](pulso_procedimento.md) **só na região atual**
 
 ---
 
@@ -94,20 +81,24 @@ Respeite as datas de "Última verificação" e "Validade sugerida" em `dashboard
 
 ## Comandos do jogador
 
-| Comando                                                                                       | Ação                                                                  |
-| --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| `[Resumo da Sessão]` / `[Criar resumo da sessão atual]` / `[Finalizar sessão e gerar resumo]` | Gera resumo estruturado; propõe salvar em `logs/sessao_resumo_XXX.md` |
-| `[Gerar handoff para novo chat]` / `[Preparar novo chat]`                                     | Atualiza `logs/handoff_atual.md` — ver `sistema/novo_chat_procedimento.md` |
-| Atualização pós-sessão                                                                        | Seguir `sistema/como_atualizar_arquivos.md`                           |
-| Abrir chat novo                                                                               | Colar prompt de `logs/handoff_atual.md` + boot do procedimento        |
+**Playbooks completos (passo a passo):** [comandos_jogador.md](comandos_jogador.md) — **seguir à risca**.
 
-**Resumos de sessão**
+| Comando | Playbook |
+| ------- | -------- |
+| `[Refresh contexto]` | A — reancora tier-0; resposta em formato fixo |
+| `[Resumo da Sessão]` / `[Criar resumo da sessão atual]` | B — rascunho do resumo; **não** propaga estado sozinho |
+| `[Finalizar sessão e gerar resumo]` | C — resumo + estado + context pack + handoff (**confirma antes de gravar**) |
+| `[Gerar handoff para novo chat]` / `[Preparar novo chat]` | D — sobrescreve `handoff_atual` (± pack) |
+| `[Carregar cena: …]` / `[Verificar fato: …]` | E — carga pontual / citação SoT |
 
-- Padrão: `logs/sessao_resumo_XXX.md` (verificar último número em `registro_arquivos.md`; próximo: **011**)
-- Incluir seção **Arquivos Atualizados Nesta Sessão** com links
-- **Nunca** salvar/commitar/push sem **confirmação explícita** do jogador
+| Outros | Ação |
+| ------ | ---- |
+| Atualização pós-sessão (manual) | [como_atualizar_arquivos.md](como_atualizar_arquivos.md) |
+| Abrir chat novo | Colar prompt de `logs/handoff_atual.md` (tier-0 = context pack) |
 
-**Sugira resumo quando:** chat longo (~80–100 msgs), evento importante, ou fim de sessão.
+- Padrão resumo: `logs/sessao_resumo_XXX.md` (nº em `registro_arquivos.md`; próximo: **011**)
+- **Nunca** commit/push sem confirmação explícita do jogador
+- Sugira resumo/refresh quando chat longo (~80–100 msgs) ou confusão de estado
 
 ---
 
@@ -121,9 +112,9 @@ Respeite as datas de "Última verificação" e "Validade sugerida" em `dashboard
 | Facção                     | `relacionamentos/faccao_relacionamentos.md`, `facoes/`, `reputacao.md`             |
 | Exposição                  | `heat.md`, possivelmente `event_queue.md`                                          |
 | Economia / projetos        | `economia.md`, `logs/downtime_ryan.md`                                             |
-| Fim de sessão              | novo `logs/sessao_resumo_XXX.md` + arquivos afetados acima                         |
+| Fim de sessão              | Playbook C: resumo + estado + **`context_pack_atual`** + **handoff**               |
 
-Sempre mostre mudanças propostas antes de aplicar. Mantenha `sistema/registro_arquivos.md` atualizado se criar arquivos novos.
+Sempre mostre mudanças propostas antes de aplicar (playbook C passo 5–6). Atualize `registro_arquivos` se criar arquivos.
 
 ---
 
@@ -131,15 +122,14 @@ Sempre mostre mudanças propostas antes de aplicar. Mantenha `sistema/registro_a
 
 | Preciso de…     | Arquivo                                                                              |
 | --------------- | ------------------------------------------------------------------------------------ |
+| **Tier-0 / anti-esquecimento** | `logs/context_pack_atual.md` + `sistema/fatos_duros.md` + `comandos_jogador.md` |
 | Índice completo | `sistema/registro_arquivos.md`                                                       |
 | Situação agora  | `board/board_campanha.md`                                                            |
-| Resumo rápido   | `sistema/dashboard_contexto.md`                                                      |
+| Resumo rápido   | `sistema/dashboard_contexto.md` (não substitui context pack)                         |
 | Personagens     | `relacionamentos/mapa_relacional_geral.md`                                           |
 | Protagonista    | `fichas/techie - ryan_wireghost_voss.md` + `relacionamentos/ryan_relacionamentos.md` |
-| Pack ativo      | `facoes/pack_badlands.md`                                                            |
 | Histórico       | `logs/sessao_resumo_010.md` (último)                                                 |
-| Como atualizar  | `sistema/como_atualizar_arquivos.md`                                                 |
-| Novo chat       | `sistema/novo_chat_procedimento.md` + `logs/handoff_atual.md`                        |
+| Novo chat       | `logs/handoff_atual.md` + `novo_chat_procedimento.md`                                |
 
 ---
 
@@ -151,7 +141,7 @@ Ryan (protagonista), Valk, Alex, Reina, Kaz, **Stitch** (Stephania), Jax — fic
 
 ## Referências
 
-- [Registro de Arquivos](registro_arquivos.md) · [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md)
-- [README](../README.md) · [Como Atualizar](como_atualizar_arquivos.md) · [Novo Chat](novo_chat_procedimento.md) · [Dashboard](dashboard_contexto.md)
+- [Registro](registro_arquivos.md) · [Comandos](comandos_jogador.md) · [Fatos duros](fatos_duros.md) · [Diretrizes IA](diretrizes_ia.md)
+- [README](../README.md) · [Como Atualizar](como_atualizar_arquivos.md) · [Novo Chat](novo_chat_procedimento.md) · [Context pack](../logs/context_pack_atual.md)
 
-**Última atualização:** 11 de Julho de 2026
+**Última atualização:** 13 de Julho de 2026

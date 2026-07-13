@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 13 de Julho de 2026
+**Última atualização:** 13 de Julho de 2026 (context pack + comandos)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -38,8 +38,11 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Regras da IA (boot sequence) | `sistema/diretrizes_ia.md` | `instrucoes_projeto.md`, este arquivo |
 | Regras do narrador | `sistema/diretrizes_narrador.md` | `sistema/diretrizes_ia.md` |
 | Como atualizar após sessão | `sistema/como_atualizar_arquivos.md` | Este arquivo |
-| **Abrir chat novo / handoff** | `sistema/novo_chat_procedimento.md` | `logs/handoff_atual.md`, `logs/handoff_template.md`, último `sessao_resumo_*.md` |
-| Continuidade colável (estado vigente) | `logs/handoff_atual.md` | [novo_chat_procedimento.md](novo_chat_procedimento.md), `board/board_campanha.md` |
+| **Tier-0 / anti-esquecimento sandbox** | `logs/context_pack_atual.md` | `sistema/fatos_duros.md`, `sistema/comandos_jogador.md` |
+| Fatos que não se inventam | `sistema/fatos_duros.md` | context pack, board |
+| Playbooks de comandos do jogador | `sistema/comandos_jogador.md` | instrucoes_projeto, diretrizes_ia |
+| **Abrir chat novo / handoff** | `sistema/novo_chat_procedimento.md` | `logs/handoff_atual.md`, `logs/context_pack_atual.md`, último `sessao_resumo_*.md` |
+| Continuidade colável (estado vigente) | `logs/handoff_atual.md` | context pack, board |
 | Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
 | Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
 
@@ -136,6 +139,8 @@ cyberpunk/
 │   ├── sessao_resumo_008.md
 │   ├── sessao_resumo_009.md
 │   ├── sessao_resumo_010.md
+│   ├── context_pack_atual.md      ← Tier-0 anti-esquecimento (NOW)
+│   ├── context_pack_template.md
 │   ├── handoff_atual.md           ← Continuidade para chat novo
 │   └── handoff_template.md
 ├── relacionamentos/
@@ -151,6 +156,8 @@ cyberpunk/
     ├── instrucoes_projeto.md      ← Instruções do projeto (espelho versionado)
     ├── pulso_procedimento.md      ← Motor off-screen (1×/dia in-game)
     ├── novo_chat_procedimento.md  ← Abrir chat novo + handoff
+    ├── comandos_jogador.md        ← Playbooks passo a passo
+    ├── fatos_duros.md             ← F-IDs anti-alucinação
     ├── como_atualizar_arquivos.md
     ├── dashboard_contexto.md
     ├── diretrizes_ia.md

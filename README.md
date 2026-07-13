@@ -29,9 +29,12 @@ Visão geral da estrutura do projeto e de como os arquivos se conectam entre si.
 - [diretrizes_ia.md](sistema/diretrizes_ia.md) — Boot sequence e regras da IA
 - [diretrizes_narrador.md](sistema/diretrizes_narrador.md) — Regras de narração
 - [como_atualizar_arquivos.md](sistema/como_atualizar_arquivos.md) — Como manter os arquivos atualizados
+- [context_pack_atual.md](logs/context_pack_atual.md) — **Tier-0** (NOW + fatos; anti-esquecimento sandbox)
+- [comandos_jogador.md](sistema/comandos_jogador.md) — Playbooks `[Refresh]`, `[Finalizar]`, handoff, etc.
+- [fatos_duros.md](sistema/fatos_duros.md) — Fatos que a IA não pode inventar
 - [novo_chat_procedimento.md](sistema/novo_chat_procedimento.md) — Procedimento para abrir chat novo + handoff
 - [handoff_atual.md](logs/handoff_atual.md) — Continuidade colável (estado vigente)
-- [dashboard_contexto.md](sistema/dashboard_contexto.md) — Resumo rápido do estado atual
+- [dashboard_contexto.md](sistema/dashboard_contexto.md) — Resumo rápido (não substitui context pack)
 - [board_campanha.md](board/board_campanha.md) — Board oficial da campanha
 - [mapa_relacional_geral.md](relacionamentos/mapa_relacional_geral.md) — Hub de personagens e relações
 
@@ -40,17 +43,13 @@ Visão geral da estrutura do projeto e de como os arquivos se conectam entre si.
 ## Fluxo de Consulta da IA
 
 ```text
-registro_arquivos.md  →  identificar qual arquivo usar
+context_pack_atual.md + fatos_duros.md  →  tier-0 (sempre)
         ↓
-dashboard_contexto.md  →  resumo rápido (início de sessão)
+board (se pack divergir) + tier-1 da cena (região atual)
         ↓
-board_campanha.md  →  missão, NPCs, facções ativas
+registro_arquivos.md  →  achar arquivo sob demanda
         ↓
-consequencias + reputacao + heat + event_queue + economia  →  estado mecânico
-        ↓
-mapa_relacional_geral.md  →  localizar personagem
-        ↓
-ficha + relacionamentos  →  contexto do NPC em cena
+mapa_relacional / ficha / relacionamentos  →  NPC em cena
 ```
 
 ---
@@ -75,7 +74,9 @@ ficha + relacionamentos  →  contexto do NPC em cena
 
 Consulte [sistema/como_atualizar_arquivos.md](sistema/como_atualizar_arquivos.md) para comandos e fluxo de atualização pós-sessão.
 
-Para **abrir um chat novo** sem perder continuidade: [sistema/novo_chat_procedimento.md](sistema/novo_chat_procedimento.md) e cole o prompt de [logs/handoff_atual.md](logs/handoff_atual.md).
+Para **abrir um chat novo** sem perder continuidade: [sistema/novo_chat_procedimento.md](sistema/novo_chat_procedimento.md) e cole o prompt de [logs/handoff_atual.md](logs/handoff_atual.md) (tier-0 = [context pack](logs/context_pack_atual.md)).
+
+**Sandbox Grok esqueceu arquivos/fatos?** Peça `[Refresh contexto]` (playbook em [comandos_jogador.md](sistema/comandos_jogador.md)) ou reabra o chat com o context pack RAW.
 
 Após cada sessão, os arquivos mais críticos a revisar são:
 

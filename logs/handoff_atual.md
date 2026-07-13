@@ -5,10 +5,12 @@
 **Data in-game ao fechar:** 09 de Julho de 2026 · final da tarde  
 **Branch canônica:** `feature/linha-estavel`  
 **Procedimento:** [sistema/novo_chat_procedimento.md](../sistema/novo_chat_procedimento.md)  
-**Última atualização deste handoff:** 11 de Julho de 2026
+**Playbook:** [comandos_jogador.md](../sistema/comandos_jogador.md) § D  
+**Tier-0:** [context_pack_atual.md](context_pack_atual.md) · [fatos_duros.md](../sistema/fatos_duros.md)  
+**Última atualização deste handoff:** 13 de Julho de 2026
 
 > **Como usar:** abra um chat novo e cole o bloco **Prompt de abertura** (§ abaixo).  
-> **Canon:** arquivos no GitHub na branch estável. Este handoff é ponte, não source of truth.
+> **Canon:** arquivos no GitHub na branch estável. **Primeiro arquivo a ler:** `context_pack_atual.md`. Este handoff é ponte, não source of truth.
 
 ---
 
@@ -17,10 +19,12 @@
 | Recurso | URL / caminho |
 | ------- | ------------- |
 | Repo | https://github.com/Klaillton/Cyberpunk |
+| **Context pack (RAW)** | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md |
 | Board (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/board_campanha.md |
+| Fatos duros (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/fatos_duros.md |
+| Comandos (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/comandos_jogador.md |
 | Sessão 010 (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_010.md |
 | Este handoff (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md |
-| Procedimento (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/novo_chat_procedimento.md |
 | Share part3 (auxiliar) | https://grok.com/share/c2hhcmQtMw_07808d03-3ca1-4816-8ca8-187dadfeaba9 |
 
 ---
@@ -114,23 +118,24 @@ Detalhes: [sessao_resumo_010.md](sessao_resumo_010.md)
 ```markdown
 # Cyberpunk RED — Continuidade (Sessão 011)
 
-## Boot obrigatório
-- Repo: https://github.com/Klaillton/Cyberpunk
-- Branch canônica: `feature/linha-estavel` (sincronize antes de narrar)
-- Source of truth: arquivos do repo **após** sync. Não invente fatos fora dos arquivos.
-- Procedimento de novo chat: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/novo_chat_procedimento.md
+## Boot obrigatório (tiers — não carregue a campanha inteira)
+- Repo: https://github.com/Klaillton/Cyberpunk · Branch: `feature/linha-estavel`
+- Hierarquia: **RAW/repo > sandbox > memória de chat**
+- **Tier-0 (sempre):** context pack → fatos duros → board se divergir
+  - https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md
+  - https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/fatos_duros.md
+  - https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/comandos_jogador.md
 - Handoff: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md
-- RAW board: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/board_campanha.md
-- RAW sessão 010: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_010.md
-- Share anterior (auxiliar, não canon): https://grok.com/share/c2hhcmQtMw_07808d03-3ca1-4816-8ca8-187dadfeaba9
+- Board: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/board_campanha.md
+- Sessão 010: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_010.md
+- Share (auxiliar, não canon): https://grok.com/share/c2hhcmQtMw_07808d03-3ca1-4816-8ca8-187dadfeaba9
 
 Leia nesta ordem:
-1. `sistema/instrucoes_projeto.md` + `sistema/diretrizes_ia.md` + `sistema/diretrizes_narrador.md`
-2. `logs/handoff_atual.md`
-3. `sistema/dashboard_contexto.md` → `board/board_campanha.md`
-4. `logs/sessao_resumo_010.md`
-5. `event_queue.md` · trechos recentes de `consequencias/consequencias_persistentes.md`
-6. `relacionamentos/ryan_relacionamentos.md` · `relacionamentos/lena_valk_kane_relacionamentos.md`
+1. `logs/context_pack_atual.md` + `sistema/fatos_duros.md`
+2. `logs/handoff_atual.md` (este prompt / gancho)
+3. `board/board_campanha.md` se necessário
+4. Tier-1 da cena (Badlands agora): `event_queue.md`, `relacionamentos/ryan_relacionamentos.md` (+ Valk se em cena)
+5. Comandos: seguir `sistema/comandos_jogador.md` à risca
 
 ---
 
