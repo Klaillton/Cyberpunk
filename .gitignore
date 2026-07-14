@@ -32,6 +32,13 @@ terminals/
 # Secrets de deploy (manter deploy/.env.example versionável)
 deploy/.env
 
+# Backups locais de fichas (antes de CPR / experimentos)
+fichas/_backup_pre_cpr/
+
+# Rascunhos e variantes de imagem não canônicas
+imagens/old_ideas/
+imagens/media - emilia_echo_rivera.jpg
+
 # Artefatos temporários gerados por testes
 tests/tmp_e2e_data/
 tests/tmp_journal/
