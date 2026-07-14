@@ -88,7 +88,7 @@ Alta para iniciativa e awareness em combate próximo. Reina é o tanque emociona
 
 ## Referências
 
-- **Guarda-roupa (crew):** [crew_guarda_roupas.md](crew_guarda_roupas.md) — Reina: combate, tático, gym/marcial
+- **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) — catálogo de roupa (não amarra personagem)
 - [Relacionamentos Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md)
 - [Crew](../relacionamentos/crew_relacionamentos.md)

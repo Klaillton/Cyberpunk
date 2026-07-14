@@ -30,7 +30,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Facções menores / superficiais | `facoes/faccoes_geral.md` | `relacionamentos/faccao_relacionamentos.md` |
 | Atividades de downtime do Ryan | `logs/downtime_ryan.md` | `board/board_campanha.md`, `fichas/techie - ryan_wireghost_voss.md` |
 | **Guarda-roupa / visual por ocasião (Ryan)** | `fichas/ryan_guarda_roupas.md` | `imagens/ryan/guarda_roupas/`, ficha techie |
-| **Guarda-roupa / visual (moças da crew)** | `fichas/crew_guarda_roupas.md` | `imagens/crew/guarda_roupas/`, fichas Valk/Alex/Reina/Stitch |
+| **Guarda-roupa / peças por ocasião (feminino)** | `fichas/crew_guarda_roupas.md` | `imagens/crew/guarda_roupas/` — foco em **roupa**, não personagem da foto |
 | Background e gatilhos do Ryan (narrador) | `fichas/notas_narrador/ryan_background_completo.md` | `fichas/notas_narrador/ryan_gatilhos_memorias.md`, `fichas/techie - ryan_wireghost_voss.md` (Elisa "Doc" Moreau) |
 | Histórico de sessão | `logs/sessao_resumo_XXX.md` | Arquivos listados na seção "Arquivos Atualizados" de cada resumo |
 | Detalhes de job / gig concluído | `logs/job_XXX_*.md` | `logs/sessao_resumo_*.md`, `consequencias/consequencias_persistentes.md`, `heat.md` |
