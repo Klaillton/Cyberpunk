@@ -75,13 +75,14 @@ cyberpunk/
 ├── fichas/
 │   ├── fixer - kaz_the_broker_takahashi.md
 │   ├── medtech - stephania_stitch_voss.md
+│   ├── media - emilia_echo_rivera.md
 │   ├── netrunner - alex_specter_kane.md
 │   ├── nomad - lena_valk_kane.md
 │   ├── solo - jax_razor_kane.md
 │   ├── solo - reina_bearclaw_morales.md
 │   ├── techie - ryan_wireghost_voss.md
 │   ├── ryan_guarda_roupas.md      ← Visual por ocasião (Badlands / NC / Wireghost)
-│   ├── crew_guarda_roupas.md      ← Visual compartilhado Valk/Alex/Reina/Stitch
+│   ├── crew_guarda_roupas.md      ← Catálogo de roupa (ocasião; não personagem)
 │   ├── vehicle - the_mule.md
 │   ├── npc/                       ← Fichas mínimas (um NPC por arquivo)
 │   │   ├── npc_template.md
@@ -106,8 +107,9 @@ cyberpunk/
 │   ├── solo - reina_bearclaw_morales.png
 │   ├── techie - ryan_wireghost_voss.jpg              ← ficha Ryan (tático)
 │   ├── techie - ryan_wireghost_voss_daily_clothes.png ← Ryan casual/oficina
+│   ├── media - emilia_echo_rivera.jpg                 ← ficha Echo
 │   ├── ryan/guarda_roupas/          ← catálogo Ryan (ver ryan_guarda_roupas.md)
-│   ├── crew/guarda_roupas/          ← catálogo moças da crew (ver crew_guarda_roupas.md)
+│   ├── crew/guarda_roupas/          ← catálogo roupa por ocasião (ver crew_guarda_roupas.md)
 │   ├── vehicle - the_mule.jpg
 │   ├── Sasha.jpg
 │   ├── Lira.jpg

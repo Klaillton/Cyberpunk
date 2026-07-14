@@ -32,6 +32,7 @@
 | Kaz "The Broker" Takahashi | [fixer - kaz_the_broker_takahashi.md](../fichas/fixer%20-%20kaz_the_broker_takahashi.md) | [ryan_relacionamentos.md](ryan_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [faccao_relacionamentos.md](faccao_relacionamentos.md) |
 | Dr. Stephania "Stitch" Voss | [medtech - stephania_stitch_voss.md](../fichas/medtech%20-%20stephania_stitch_voss.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | roupa: [crew_guarda_roupas](../fichas/crew_guarda_roupas.md); [ryan_relacionamentos](ryan_relacionamentos.md); **não** confundir com Elisa "Doc" Moreau |
 | Jax "Razor" Kane | [solo - jax_razor_kane.md](../fichas/solo%20-%20jax_razor_kane.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | [lena_valk_kane_relacionamentos.md](lena_valk_kane_relacionamentos.md) |
+| Emilia "Echo" Rivera | [media - emilia_echo_rivera.md](../fichas/media%20-%20emilia_echo_rivera.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | roupa: [crew_guarda_roupas](../fichas/crew_guarda_roupas.md); recrutada por Kaz; ghost reporter |
 
 ---
 

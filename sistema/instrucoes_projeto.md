@@ -135,7 +135,7 @@ Sempre mostre mudanças propostas antes de aplicar (playbook C passo 5–6). Atu
 
 ## Personagens da crew (referência rápida)
 
-Ryan (protagonista), Valk, Alex, Reina, Kaz, **Stitch** (Stephania), Jax — fichas em `fichas/`, relações em `relacionamentos/`, matriz da crew em `crew_relacionamentos.md`. **Doc** = Elisa Moreau (passado de Ryan), não Stitch.
+Ryan (protagonista), Valk, Alex, Reina, Kaz, **Stitch** (Stephania), Jax, **Echo** (Emilia Rivera, Media) — fichas em `fichas/`, relações em `relacionamentos/`, matriz da crew em `crew_relacionamentos.md`. **Doc** = Elisa Moreau (passado de Ryan), não Stitch.
 
 ---
 
