@@ -113,6 +113,7 @@ Compartilha o sobrenome **Voss** com Ryan, mas **não há parentesco** — coinc
 ## Referências
 
 - [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Valk](../relacionamentos/lena_valk_kane_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- **Guarda-roupa (crew):** [crew_guarda_roupas.md](crew_guarda_roupas.md) — Stitch: utility, formal office/blazer, soft sair
 - **Pulso:** [stephania_stitch.md](../pulso_do_mundo/crew/stephania_stitch.md)
 - **Imagem:** [medtech - stephania_stitch_voss.jpg](../imagens/medtech%20-%20stephania_stitch_voss.jpg)
 - **Estado:** [Board](../board/board_campanha.md)

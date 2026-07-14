@@ -104,6 +104,7 @@ Ryan e Valk estão namorando. Ryan ajuda ativamente ela com manutenção do [The
 ## Referências
 
 - **Equipe / veículo:** [The Mule — ficha](vehicle%20-%20the_mule.md) · [imagem do Mule](../imagens/vehicle%20-%20the_mule.jpg)
+- **Guarda-roupa (crew):** [crew_guarda_roupas.md](crew_guarda_roupas.md) — Valk monta looks NC; Badlands = utility/casual nomad
 - [Relacionamentos Valk](../relacionamentos/lena_valk_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 - **Imagem (Valk):** [nomad - lena_valk_kane.jpg](../imagens/nomad%20-%20lena_valk_kane.jpg)
 - **Estado:** [Board](../board/board_campanha.md) · [Pack Badlands](../facoes/pack_badlands.md)

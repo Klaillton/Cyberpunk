@@ -108,5 +108,6 @@ Recentemente, ao ouvir que Valk estava trabalhando novamente (e fazendo jobs com
 
 ## Referências
 
+- **Guarda-roupa (crew):** [crew_guarda_roupas.md](crew_guarda_roupas.md) — Alex: tech/netrunner, street, club
 - [Relacionamentos Alex](../relacionamentos/alex_specter_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)
