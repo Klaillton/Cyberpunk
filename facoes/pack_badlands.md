@@ -2,7 +2,7 @@
 
 **Tipo:** Pack Nômade  
 **Status com o Jogador:** Aliado / Relação em fortalecimento  
-**Última atualização:** 15 de Julho de 2026 (sessão 011; F14 Jax pack)
+**Última atualização:** 15 de Julho de 2026 (sessão 011; Scout)
 
 ---
 
@@ -43,6 +43,7 @@ Pulsos off-screen: [pulso_do_mundo/pack_badlands/](../pulso_do_mundo/pack_badlan
 | **Tomas** | [tomas_recruit.md](../fichas/npc/tomas_recruit.md) | Mecânica; sob monitoramento |
 | **Sasha** | [sasha.md](../fichas/npc/sasha.md) | Testemunha do Incidente 001; medo/respeito por Ryan |
 | **Lira** | [lira.md](../fichas/npc/lira.md) | Atiradora/batedora; tenta se aproximar de Valk; ajudou a acalmar o pack pós-Incidente 002 |
+| **Scout** | [scout.md](../fichas/npc/scout.md) | — | Sentinela/recon; scavs 05/07 e 10/07 — **≠** Jax "Razor" Kane (crew) |
 
 ## Locais e Bases Conhecidas
 

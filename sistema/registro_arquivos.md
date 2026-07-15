@@ -96,7 +96,7 @@ cyberpunk/
 │   │   ├── tomas_recruit.md
 │   │   ├── sasha.md
 │   │   ├── lira.md
-│   │   └── jax_pack.md
+│   │   └── scout.md
 │   └── notas_narrador/
 │       ├── ryan_background_completo.md
 │       └── ryan_gatilhos_memorias.md
@@ -122,7 +122,7 @@ cyberpunk/
 │   ├── template_pulso_npc.md
 │   ├── pack_badlands/
 │   │   ├── pulso_geral.md
-│   │   ├── reyes.md, tio_gringo.md, sasha_e_lira.md, jax_pack.md
+│   │   ├── reyes.md, tio_gringo.md, sasha_e_lira.md, scout.md
 │   │   ├── criancas.md, recrutas.md
 │   └── crew/
 │       ├── valk.md, kaz.md, alex.md, reina.md

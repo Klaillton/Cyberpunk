@@ -37,7 +37,7 @@
 | F01–F02 | Branch `feature/linha-estavel`; arquivos = SoT |
 | **F03** | Warden = drone **terrestre** scorpion (**não voa**) |
 | **F04** | **Stitch** = Stephania (crew); **Doc** = Elisa Moreau (passado) |
-| **F14** | **Jax (pack)** ≠ **Jax "Razor" Kane** (crew NC) |
+| **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | F07 | Ryan × Valk consolidados |
 | F08 | Mule = de Valk; equipe Valk + Mule |
 | **F11** | Casas modulares — **pack geral** ainda sem revelação oficial (Reyes não aprovou) |

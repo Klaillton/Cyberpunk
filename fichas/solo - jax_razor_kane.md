@@ -1,6 +1,6 @@
 # Jax "Razor" Kane
 
-> **F14:** Solo da **crew** em Night City. **Não** é o **Jax** sentinela do Pack Badlands nas scavs ([jax_pack.md](npc/jax_pack.md)).
+> **F14:** Solo da **crew** em Night City. **Não** é **Scout**, sentinela do Pack Badlands ([scout.md](npc/scout.md)).
 
 **Role:** Solo (Combat Awareness)  
 **Idade aparente:** 38 anos  

@@ -212,7 +212,7 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 
 - **Jogador:** "Valk, planeja a caça às aves amanhã."
 - **Errado:** repetir "qual rota prefere A/B/C?" quatro vezes.
-- **Certo:** Valk devolve plano (saída 05h20, rota pelo leste, Jax (pack)/Rusty no perímetro, volta 10h30); Ryan só ajusta se quiser.
+- **Certo:** Valk devolve plano (saída 05h20, rota pelo leste, Scout/Rusty no perímetro, volta 10h30); Ryan só ajusta se quiser.
 
 ---
 
