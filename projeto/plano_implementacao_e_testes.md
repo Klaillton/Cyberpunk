@@ -4,7 +4,7 @@
 > **Status vivo:** [status_projeto.md](./status_projeto.md) (atualizar a cada sprint)  
 > Regra: **nenhuma fase fecha sem sua bateria de testes verde.**
 
-**Última revisão:** 09/07/2026 · **107 pytest** (+2 slow) · **19 e2e**
+**Última revisão:** 15/07/2026 · **160 pytest** (+2 slow deselected) · **19 e2e**
 
 ---
 
@@ -15,7 +15,7 @@
        ─────────────────────────────────
       Integração HTTP (narracao_api real)
      ───────────────────────────────────
-    Unitários (engine + helpers da API)      107 testes
+    Unitários (engine + helpers da API)      160 testes
 ```
 
 | Comando | Escopo |
@@ -37,7 +37,8 @@
 [Sprint A]   ✅ qualidade do turno (FAISS + router + gate no hot path)
 [Sprint B]   ✅ UX, e2e, CI
 [Sprint C]   ⏸ Pi + sync (opcional / adiado — ver status_projeto.md)
-[Sprint D]   🔄 Criação ficha CPR — ver [criacao_personagem_cpr.md](./criacao_personagem_cpr.md)
+[Sprint D]   ✅ Criação ficha CPR — ver [criacao_personagem_cpr.md](./criacao_personagem_cpr.md)
+[Sprint E]   ✅ Jogar estável (perfil 8B, health, quality gate, meta UI)
 ```
 
 ---
@@ -136,6 +137,34 @@ Extensão da branch `feat/narracao-solo-mvp` (não prevista no plano original):
 | B4 | `.github/workflows/test.yml` | ✅ |
 
 **Testes novos:** `test_message_router.py`, `chat.spec.js`, `session-summary.spec.js`, `routing-preview.spec.js`
+
+---
+
+## Sprint D — Criação ficha CPR ✅ concluída
+
+| # | Entrega | Status |
+|---|---------|--------|
+| D1 | Wizard CPR no frontend | ✅ |
+| D2 | API `character_creation` | ✅ |
+| D3 | Fichas migradas + validador | ✅ |
+
+**Testes:** `test_character_creation_*`, `test_character_creation_validator`
+
+---
+
+## Sprint E — Jogar estável ✅ concluída
+
+**Objetivo:** sessão diária rápida e previsível com Ollama 8B, sem rescue Grok acidental.
+
+| # | Entrega | Onde |
+|---|---------|------|
+| E1 | Perfil `run-narracao-stable-local.ps1` | `scripts/` |
+| E2 | Bootstrap Ollama compartilhado | `scripts/lib/OllamaBootstrap.ps1` |
+| E3 | Preflight health no startup | `api/main.py`, `/api/health` |
+| E4 | Quality gate relaxado (ação + diálogo) | `motor/llm/quality_gate.py` |
+| E5 | Meta UI rescue só com grok real | `frontend/app.js` |
+
+**Testes:** `test_simple_action_quality.py`, `test_ollama_health.py`
 
 ---
 

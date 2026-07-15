@@ -82,6 +82,24 @@ def create_app() -> FastAPI:
 app = create_app()
 
 
+def _print_ollama_preflight(settings) -> None:
+    if settings.provider != "ollama":
+        return
+    from motor.ollama_health import inspect_ollama
+
+    ollama = inspect_ollama(settings)
+    if not ollama.get("reachable"):
+        base = ollama.get("base_url", "127.0.0.1:11434")
+        print(f"AVISO: Ollama offline em {base}. Narracao falhara ate subir o servico.")
+        return
+    model = ollama.get("configured_narration", "modelo de narracao")
+    if not ollama.get("narration_ready"):
+        print(f"AVISO: modelo '{model}' nao instalado. Rode: ollama pull {model}")
+        return
+    installed = len(ollama.get("installed_models") or [])
+    print(f"Ollama OK — {model} pronto ({installed} modelos em cache).")
+
+
 def main() -> int:
     import uvicorn
 
@@ -96,6 +114,7 @@ def main() -> int:
 
     print(f"Servidor iniciado em http://{settings.host}:{settings.port}")
     print(f"Provider: {settings.provider} - {provider_display_name()}")
+    _print_ollama_preflight(settings)
     uvicorn.run(
         "api.main:app",
         host=settings.host,

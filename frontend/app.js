@@ -1494,7 +1494,9 @@ function formatTurnQualityMeta(meta) {
   if (meta.turn_attempts > 1) {
     parts.push(`tentativas: ${meta.turn_attempts}`);
   }
+  const usedProvider = meta.provider || routing?.provider;
   if (
+    usedProvider === "grok" &&
     Array.isArray(routing?.reasons) &&
     routing.reasons.some((reason) => String(reason).includes("quality_gate:rescue_cloud"))
   ) {
@@ -2437,16 +2439,22 @@ function apiHasFeature(feature) {
 }
 
 function buildOllamaHealthWarning(health) {
-  const ollama = health?.ollama;
-  if (!ollama) {
+  if (!health) {
     return "";
   }
+  const ollama = health.ollama;
+  if (!ollama) {
+    return health.status === "degraded" ? "API em modo degradado." : "";
+  }
   if (!ollama.reachable) {
-    return `Ollama offline em ${ollama.base_url || "127.0.0.1:11434"}. Inicie o app Ollama.`;
+    return `Ollama offline em ${ollama.base_url || "127.0.0.1:11434"}. Rode: docker compose -f deploy/docker-compose.yml up -d ollama`;
   }
   if (!ollama.narration_ready) {
     const model = ollama.configured_narration || "modelo de narracao";
     return `Modelo '${model}' nao instalado. Rode: ollama pull ${model}`;
+  }
+  if (health.status === "degraded") {
+    return "Ollama responde, mas a API esta degradada — verifique modelos e logs.";
   }
   return "";
 }

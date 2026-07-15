@@ -1,6 +1,6 @@
 # Status do Projeto — Motor Narrativo Solo
 
-> **Atualizado:** 09 de Julho de 2026  
+> **Atualizado:** 15 de Julho de 2026  
 > **Branch de referência:** `feat/narracao-solo-mvp`  
 > **Documentos irmãos:** [plano_implementacao_e_testes.md](./plano_implementacao_e_testes.md) · [especificacao_tecnica_v1.1.md](./especificacao_tecnica_v1.1.md)
 
@@ -10,9 +10,11 @@
 
 | Item | Valor |
 |------|-------|
-| **Fase atual** | **Sprint B concluída** |
-| **Testes** | 107 pytest (+2 slow deselected) · 19 e2e Playwright |
-| **Provider padrão** | Ollama `llama3.1:8b` no laptop |
+| **Fase atual** | **Sprint E concluída** (jogar estável) |
+| **Testes** | 160 pytest (+2 slow deselected) · 19 e2e Playwright |
+| **Provider padrão** | Ollama local (`llama3.1:8b` perfil estável) |
+| **Perfis Ollama** | `run-narracao-stable-local.ps1` (8B, diário) · `run-narracao-max-local.ps1` (14B, cenas críticas) |
+| **Canon de estado** | Markdown + Git · SQLite/FAISS como índice derivado |
 | **Topologia em uso** | **Laptop-only** (`docker-compose.yml` ou `narracao_api.py` local) |
 | **Topologia Pi** | **Adiada** — ver [Decisão: Raspberry Pi](#decisão-raspberry-pi) |
 
@@ -28,54 +30,50 @@
 | 3 | Indexação SQLite + FAISS | ✅ |
 | 4 | ProviderRouter + Quality Gate (módulos + preview API) | ✅ |
 | 5 | Updates assistidos (propostas + UI) | ✅ |
-| 5.1 | MVP sessão solo (ver abaixo) | ✅ |
+| 5.1 | MVP sessão solo (canais, brief, resumo, parser) | ✅ |
 
-### Fase 5.1 — MVP sessão solo (não estava no plano original)
+### Sprint A — Qualidade do turno ✅
 
-Entregue na branch atual, além do escopo das Fases 0–5:
+FAISS no contexto, router + gate no hot path, `provider_routing_log`, metadados na API.
 
-| Entrega | Arquivos principais |
-|---------|---------------------|
-| Canais **Mestre** e **Sistema** | `api/routers/message.py`, prompts em `scripts/narracao_engine.py` |
-| **Brief** da campanha | `motor/brief_service.py`, `GET /api/brief` |
-| Comandos de **resumo de sessão** | `motor/session_command_handler.py` |
-| Parser jogador **ação / fala / beat** | `motor/player_message.py`, `frontend/app.js` |
-| Histórico no chat (narração, mestre, sistema) | `frontend/app.js`, `api/schemas.py` |
-| Contexto inteligente Mestre/Sistema | `select_context_files`, índice de fichas |
-| Filtro de templates na indexação | `motor/markdown/campaign_paths.py` |
-| Menu sidebar por grupos | `frontend/app.js`, `styles.css` |
+### Sprint B — UX e canais ✅
+
+Ingest Sistema, e2e canais/resumo/qualidade, drawer Roteamento, CI GitHub Actions.
+
+### Sprint D — Criação ficha CPR ✅
+
+Wizard CPR Complete Package, API `character_creation`, fichas migradas, motor de validação.
+
+### Sprint E — Jogar estável ✅
+
+| # | Item | Notas |
+|---|------|-------|
+| E1 | Script `run-narracao-stable-local.ps1` (8B) | Turno alvo ~30–90s |
+| E2 | Helpers Ollama compartilhados | `scripts/lib/OllamaBootstrap.ps1` |
+| E3 | Preflight Ollama no startup da API | `api/main.py` |
+| E4 | Aviso frontend se API `degraded` | `buildOllamaHealthWarning` |
+| E5 | Quality gate relaxado (ação simples + diálogo standard) | `quality_gate.py` |
+| E6 | Meta UI: rescue Grok só se provider real for grok | `app.js` |
+| E7 | Rescue Grok bloqueado em `local_only` | `router.py` + scripts |
+| E8 | Auto-start container Ollama se parado | `Ensure-OllamaDocker` |
 
 ---
 
 ## Em andamento / próximo
 
-### Sprint A — Qualidade do turno ✅ concluída
+| Prioridade | Item | Status |
+|------------|------|--------|
+| — | Sprint C (Pi 24/7) | ⏸ Adiado |
+| Baixa | Endpoints `/api/scene`, `/api/world`, `/api/timeline` | ⬜ |
+| Baixa | `migrate_legacy` → pasta `campanha/` | ⏸ |
 
-| # | Item | Status | Notas |
-|---|------|--------|-------|
-| A1 | FAISS + EntityResolver no contexto | ✅ | `motor/context_service.py` |
-| A2 | ProviderRouter no hot path | ✅ | `motor/narration.generate_turn` |
-| A3 | ResponseQualityGate + retry (máx. 1) | ✅ | Correção local ou cloud fallback |
-| A4 | Tabela `provider_routing_log` | ✅ | migration `003_*.sql` + `RoutingLogStore` |
-| A5 | Metadados na API (`routing_decision`, `quality_*`) | ✅ | `MessageResponse` estendido |
-| A6 | Quality gate reconhece NPCs do board/fichas | ✅ | `quality_gate.py` |
+**Uso recomendado para sessão:**
 
-### Sprint B — UX e canais ✅ concluída
-
-| # | Item | Status | Notas |
-|---|------|--------|-------|
-| B1 | UPDATE_PROPOSALS no canal Sistema (`channel == "sistema"`) | ✅ | `message.py` + `test_message_router.py` |
-| B2 | E2E canal Sistema + resumo de sessão + meta qualidade | ✅ | `chat.spec.js`, `session-summary.spec.js` |
-| B3 | UI routing preview | ✅ | drawer `Roteamento` + `routing-preview.spec.js` |
-| B4 | CI GitHub Actions | ✅ | `.github/workflows/test.yml` |
-
-### Sprint C — Infra opcional (Pi)
-
-| # | Item | Status |
-|---|------|--------|
-| C1 | Validar `docker-compose.pi.yml` em ARM | ⬜ Adiado |
-| C2 | Script sync Pi ↔ laptop | ⬜ Adiado |
-| C3 | systemd unit | ⬜ Adiado |
+```powershell
+docker compose -f deploy/docker-compose.yml up -d ollama
+. scripts/run-narracao-stable-local.ps1   # diário (8B)
+# . scripts/run-narracao-max-local.ps1    # cenas críticas (14B)
+```
 
 ---
 
@@ -91,77 +89,39 @@ Entregue na branch atual, além do escopo das Fases 0–5:
 | Router + gate no **hot path** | ✅ |
 | `provider_routing_log` | ✅ |
 | Hybrid retry cloud logado | ✅ (quando `hybrid` + cloud habilitado) |
-| `migrate_legacy` → pasta `campanha/` | ⏸ Adiado (layout legado na raiz funciona) |
+| Perfil estável 8B para jogar | ✅ |
+| `migrate_legacy` → pasta `campanha/` | ⏸ Adiado |
 | Endpoints `/api/scene`, `/api/world`, `/api/timeline` | ⏸ Baixa prioridade |
+
+---
+
+## Decisão: Markdown vs banco de dados
+
+**Manter markdown como fonte de verdade** (`fichas/`, `board/`, `relacionamentos/`, journal).  
+SQLite (`data/motor.db`) e FAISS permanecem **índices derivados** via `sync_engine`.  
+Não migrar canon para DB relacional nesta fase — Git + editabilidade humana valem mais para campanha solo.
 
 ---
 
 ## Decisão: Raspberry Pi
 
-### Papel original (spec v1.1)
-
-O Pi seria um **hub de estado 24/7** — sem LLM:
-
-- `campanha/` (git/rsync)
-- `data/motor.db` leve
-- API read-only opcional (ficha, journal)
-- Laptop assume Ollama + FAISS + sessão
-
-### Hardware disponível (documentado)
-
-| Dispositivo | Papel ideal | LLM 7–8B |
-|-------------|-------------|----------|
-| **Laptop** (i7-12650H, 64 GB, **RTX 4070**) | Sessão completa: motor + Ollama + embeddings | ✅ GPU |
-| **Raspberry Pi 4 (8 GB)** | API leve, sync, estado | ❌ impraticável |
-| **GitHub** | Source of truth remoto | — |
-| **Cloud** (Grok etc.) | Fallback via ProviderRouter | ✅ por token |
-
-### Recomendação (Jul/2026)
-
-**Não descartar o Pi do projeto, mas adiar a Fase 6 (Sprint C) indefinidamente.**
-
-| Abordagem | Veredito |
-|-----------|----------|
-| **Laptop-only + Git** (atual) | ✅ **Padrão** — cobre 100% do uso solo: sessão, indexação, Ollama na GPU |
-| **Pi como hub 24/7** | ⏸ **Opcional** — só vale se houver necessidade concreta de acessar ficha/journal/API **sem ligar o laptop** |
-| **Pi rodando LLM** | ❌ **Descartado** — 8 GB RAM não sustenta `llama3.1:8b` com qualidade |
-| **Azure/AKS** | ❌ **Fora de escopo** para campanha solo — custo e complexidade sem ganho para 1 jogador |
-
-### Vantagens reais do Pi (quando faria sentido)
-
-1. **Disponibilidade LAN** — consultar ficha/NPC/journal de tablet/celular na rede local com laptop desligado.
-2. **Âncora física do estado** — Pi sempre no mesmo IP, volume `motor_data` montado, menos “esqueci de dar pull”.
-3. **Baixo consumo** — manter índice SQLite + API read-only 24/7 sem manter RTX/laptop ligados.
-
-### Por que adiar (não implementar agora)
-
-1. **GitHub já é o hub de sync** — `git pull` antes da sessão resolve canon remoto.
-2. **Complexidade extra** — script bidirecional Pi↔laptop, drift de `data/motor.db`, systemd, ARM builds.
-3. **Sessão exige laptop de qualquer forma** — Ollama na 4070 é o gargalo; Pi não substitui isso.
-4. **Scaffold existe** (`docker-compose.pi.yml`) — retomar quando houver requisito explícito de acesso 24/7.
-
-### Alternativa mais simples que o Pi
-
-Se o objetivo for só **backup/sync**, priorizar:
-
-```text
-GitHub (canon)  →  git pull no laptop  →  sessão  →  commit/push pós-sessão
-```
-
-Opcional depois: **GitHub Actions CI** (Sprint B4) — mais valor imediato que Pi.
+**Adiar Sprint C indefinidamente.** Laptop-only + GitHub cobre 100% do uso solo.  
+Retomar Pi só se precisar de API read-only 24/7 na LAN sem ligar o laptop.  
+Detalhes históricos mantidos na spec v1.1; scaffold `docker-compose.pi.yml` existe.
 
 ---
 
 ## Comandos úteis
 
 ```bash
-npm run test:unit          # 107 pytest
+npm run test:unit          # 160 pytest (2 slow deselected)
 npm run test:e2e           # 19 Playwright
 npm run test:all           # gate completo
 npm run test:slow          # smoke Ollama real
 npm run index:rebuild      # SQLite + FAISS
 
-python scripts/narracao_api.py   # API local :8787
+pwsh -File scripts/run-narracao-stable-local.ps1   # sessão diária
+pwsh -File scripts/run-narracao-max-local.ps1      # qualidade máxima
 ```
 
 ---
@@ -170,7 +130,6 @@ python scripts/narracao_api.py   # API local :8787
 
 | Data | Mudança |
 |------|---------|
-| 2026-07-09 | Criação: status pós-Fase 5, Fase 5.1, decisão Pi adiado, backlog Sprints A–C |
-| 2026-07-09 | Sprint A: ContextService, TurnOrchestrator, routing log, API metadata |
-| 2026-07-09 | Sprint B: ingest Sistema, e2e canais/resumo/qualidade, CI, meta UI |
-| 2026-07-09 | B3: drawer Roteamento (routing preview), e2e estável workers:1 |
+| 2026-07-09 | Criação: status pós-Fase 5, Fase 5.1, decisão Pi adiado |
+| 2026-07-09 | Sprints A e B concluídas |
+| 2026-07-15 | Sprint D CPR, Sprint E jogar estável, perfis Ollama 8B/14B, decisão markdown vs DB |

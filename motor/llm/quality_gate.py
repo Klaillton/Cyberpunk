@@ -143,6 +143,15 @@ def is_simple_player_action(message: str) -> bool:
     return _SIMPLE_ACTION_RE.search(text) is not None
 
 
+def is_standard_dialogue_turn(message: str) -> bool:
+    """Turno standard com fala do jogador — relaxa eco/repeticao sem pular controles criticos."""
+    text = message.strip()
+    if not text or len(text) > 400:
+        return False
+    parsed = parse_player_message(text)
+    return bool(parsed.speeches)
+
+
 class ResponseQualityGate:
     def validate(
         self,
@@ -156,18 +165,23 @@ class ResponseQualityGate:
     ) -> QualityReport:
         checks: list[QualityCheck] = []
         known_tokens = self._known_tokens(manifest)
-        simple_turn = is_simple_player_action(player_message) and tier in {"trivial", "standard"}
+        relaxed_tier = tier in {"trivial", "standard"}
+        simple_turn = is_simple_player_action(player_message) and relaxed_tier
+        dialogue_turn = is_standard_dialogue_turn(player_message) and relaxed_tier
+        relaxed_turn = simple_turn or dialogue_turn
 
-        checks.append(self._check_minimum_length(reply, channel, simple_turn=simple_turn))
+        checks.append(self._check_minimum_length(reply, channel, simple_turn=relaxed_turn))
         checks.append(self._check_protagonist_control(reply))
         checks.append(self._check_meta_questions(reply, channel))
         checks.append(self._check_duplicate_prefix(reply, channel))
-        checks.append(self._check_player_echo(reply, player_message, channel, simple_turn=simple_turn))
+        checks.append(
+            self._check_player_echo(reply, player_message, channel, simple_turn=relaxed_turn)
+        )
         checks.append(self._check_npc_echoes_player(reply, player_message, channel))
-        if not simple_turn:
+        if not relaxed_turn:
             checks.append(self._check_narrator_repeat(reply, previous_narrator, channel))
         checks.append(self._check_scene_continuity(reply, player_message, channel))
-        if not simple_turn:
+        if not relaxed_turn:
             checks.append(self._check_invented_npc(reply, known_tokens))
         checks.append(self._check_board_consistency(reply, manifest))
 

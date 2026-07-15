@@ -1,6 +1,10 @@
 from __future__ import annotations
 
-from motor.llm.quality_gate import ResponseQualityGate, is_simple_player_action
+from motor.llm.quality_gate import (
+    ResponseQualityGate,
+    is_simple_player_action,
+    is_standard_dialogue_turn,
+)
 from motor.llm.types import ContextManifest
 
 
@@ -18,6 +22,31 @@ def test_quality_gate_relaxed_for_simple_action_echo() -> None:
     reply = (
         "Ryan caminha em direcao a oficina improvisada. O cheiro de metal quente e oleo paira no ar. "
         "Ferramentas e projetos mecanicos ocupam as bancadas."
+    )
+    report = gate.validate(
+        reply,
+        manifest,
+        channel="narracao",
+        player_message=player,
+        tier="standard",
+    )
+    assert report.passed is True
+
+
+def test_is_standard_dialogue_turn_detects_player_speech() -> None:
+    assert is_standard_dialogue_turn('Eu me aproximo e digo: "Elias, como vai o projeto?"')
+
+
+def test_quality_gate_relaxed_for_standard_dialogue() -> None:
+    gate = ResponseQualityGate()
+    manifest = ContextManifest(
+        total_chars=2000,
+        entity_ids=["ryan_wireghost_voss", "elias"],
+    )
+    player = 'Eu entro na oficina e pergunto: "Elias, como esta o andamento?"'
+    reply = (
+        '[NPC-M:Elias] "Quase pronto, falta calibrar o chassis." '
+        "Elias limpa as maos num pano oleoso enquanto gestos para as pecas na bancada."
     )
     report = gate.validate(
         reply,
