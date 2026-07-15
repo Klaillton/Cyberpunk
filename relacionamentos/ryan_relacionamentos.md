@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 09 de Julho de 2026 (sessão 010)
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 
 ---
 
@@ -24,7 +24,7 @@
 
 **Status:** Namorando (relação consolidada e profunda)  
 **Intensidade:** Alta  
-**Última atualização:** 09 de Julho de 2026 (sessão 010)
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 
 **Evolução conhecida:**
 
@@ -63,6 +63,14 @@
 - Intimidade e aftercare pós-scav; Valk busca Ryan na oficina após dias de produção.
 - Conversa sobre eventual partida de Ryan, legado no pack e visita à Doc (Valk quer ir junto).
 - Combinam scav de **containers** para o dia seguinte; projeto das casas ainda secreto.
+
+**Atualização da sessão (10–15/07 — sessão 011):**
+
+- Liderou scav containers (10/07); revelou casas modulares ao time de produção (11/07); montou protótipo com Valk e alunos.
+- Delegou apresentação a Reyes a Valk + Tio Gringo (14/07); discurso de capacitação ao time (cada família constrói/repara).
+- Conversa aberta com Valk sobre **Sasha/Lira** (tutoria/assistentes; ciúme + excitação).
+- Episódio emocional no depósito (14/07); Valk acolheu.
+- Esboço caçada aves com Valk (15/07) — referência para drones.
 
 **Estado atual:**
 

@@ -1,6 +1,6 @@
 # Economia Persistente
 
-**Última atualização:** 09 de Julho de 2026
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 
 ## Situação Financeira - Ryan "Wireghost" Voss
 
@@ -19,14 +19,14 @@
 | Defesa            | Fortemente melhorada             | Perímetro + Mule + cerca em estrela |
 | **Badlands Node** | Protótipo em progresso           | Biodigestor + filtragem de água avançando |
 | Destilaria        | Elias responsável autônomo       | Excedente econômico em visão de médio prazo |
-| Materiais         | Depósito reforçado (05/07)       | Saque Raffen + scav: chapas, perfis, tubulações, isolamento, peças mecânicas |
-| **Casas modulares** | Peças ~quase prontas; containers pendentes | Scav de containers (10/07); protótipo ~90 m² expansível |
+| Materiais         | Depósito reforçado (10/07)       | Container A + material B; scav 05/07 + 10/07 |
+| **Casas modulares** | Protótipo externo montado/testado | Aguarda Reyes (E014); escala pós-aprovação — [sessao_resumo_011](logs/sessao_resumo_011.md) |
 
 ## Observações Econômicas Gerais
 
 - Ryan está trocando **trabalho técnico** por hospedagem e proteção no Pack.
 - A atualização do Mule foi feita sem custo direto para Valk (presente).
-- O Pack está ganhando autonomia técnica graças ao ensino de Ryan (peças sem revelar o produto final).
+- O Pack está ganhando autonomia técnica; time de produção conhece o projeto de casas modulares (aguarda aprovação Reyes para revelação geral).
 - **Badlands Node** e destilaria podem reduzir dependência externa e gerar excedente.
 - Não há dívidas ou contratos pendentes registrados no momento.
 

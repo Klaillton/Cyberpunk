@@ -1,6 +1,6 @@
 # Consequências Persistentes
 
-**Última atualização:** 09 de Julho de 2026 (sessão 010)
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 
 ---
 
@@ -198,6 +198,26 @@ Fim do período: peças principais quase prontas para protótipo; **scav de cont
 - Vínculo Ryan × Valk aprofundado (operacional + conversa sobre futuro e Doc).
 - Segunda scav de containers na fila imediata.
 
+## 10 a 15 de Julho de 2026 - Scav containers, protótipo casas e apresentação Reyes (sessão 011)
+
+**10/07 — E010:** Ryan liderou scav de containers (Valk, Rusty, Jax + apoio). Recon solo + drones + Warden; área limpa. Container A içado e rebocado no Mule; Container B desmontado; material carregado. Retorno sem incidentes.
+
+**11/07:** Ryan revelou o projeto de **casas modulares dobráveis** ao time de produção e Tio Gringo (projeção Warden). Iniciou montagem do protótipo com Container A.
+
+**11–13/07:** Estrutura externa montada e testada (abrir/fechar). Valk projetou layout interno. Ryan discursou ao time sobre capacitação — cada família constrói/repara a própria casa; alunos como futuros professores.
+
+**14/07:** Apresentação formal a **Reyes** — Valk e Tio Gringo lideraram; alunos explicaram partes; Ryan suporte técnico. Reyes ouviu e prometeu responder no mesmo dia; **resposta ainda pendente** em 15/07 manhã.
+
+**14–15/07:** Ryan propôs caçada de aves (referência para drones observação). Valk apresentou esboço de plano (grupos pequenos, rota leste/sul, recon drones, saída amanhã cedo se Reyes não atrasar).
+
+**Impactos:**
+
+- **E010 resolvida**; Container A e material estrutural no pack.
+- Protótipo piloto **operacional externamente**; interno em modelagem.
+- Segredo F11 **parcialmente levantado** (time produção + Tio Gringo); pack geral aguarda Reyes.
+- **E014** (resposta Reyes) e **E013** (caçada aves) abertos.
+- Reputação Ryan como mentor/arquiteto reforçada; Ryan × Valk com conversa sobre Sasha/Lira.
+
 ---
 
 **Regras de uso deste arquivo:**
@@ -214,4 +234,4 @@ Fim do período: peças principais quase prontas para protótipo; **scav de cont
 - [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
 - [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Facções](../relacionamentos/faccao_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- [Sessão 008](../logs/sessao_resumo_008.md) · [Sessão 009](../logs/sessao_resumo_009.md) · [Última sessão (010)](../logs/sessao_resumo_010.md) · [Downtime](../logs/downtime_ryan.md)
+- [Sessão 008](../logs/sessao_resumo_008.md) · [Sessão 009](../logs/sessao_resumo_009.md) · [Sessão 010](../logs/sessao_resumo_010.md) · [Última sessão (011)](../logs/sessao_resumo_011.md) · [Downtime](../logs/downtime_ryan.md)
