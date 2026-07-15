@@ -25,11 +25,40 @@ if (-not $env:OLLAMA_NUM_GPU) {
     $env:OLLAMA_NUM_GPU = "28"
 }
 
+function Get-OllamaBaseUrl {
+    if ($env:OLLAMA_BASE_URL) { return $env:OLLAMA_BASE_URL }
+    return "http://127.0.0.1:11434"
+}
+
+function Test-OllamaApiReachable {
+    param([int]$TimeoutSec = 3)
+    try {
+        $null = Invoke-RestMethod -Uri "$(Get-OllamaBaseUrl)/api/tags" -Method Get -TimeoutSec $TimeoutSec
+        return $true
+    } catch {
+        return $false
+    }
+}
+
+function Ensure-OllamaDocker {
+    if (Test-OllamaApiReachable) { return }
+    $docker = Get-Command docker -ErrorAction SilentlyContinue
+    if (-not $docker) {
+        throw "Ollama nao responde em $(Get-OllamaBaseUrl) e Docker CLI nao encontrado."
+    }
+    $composeFile = Join-Path $PSScriptRoot.Parent.FullName "deploy/docker-compose.yml"
+    Write-Host "Ollama offline — iniciando container cyberpunk-ollama ..."
+    docker compose -f $composeFile up -d ollama
+    if ($LASTEXITCODE -ne 0) {
+        throw "Falha ao subir Ollama. Rode: docker compose -f deploy/docker-compose.yml up -d ollama"
+    }
+}
+
 function Test-OllamaModelInstalled {
     param([string]$ModelName)
-    $baseUrl = if ($env:OLLAMA_BASE_URL) { $env:OLLAMA_BASE_URL } else { "http://127.0.0.1:11434" }
+    if (-not (Test-OllamaApiReachable)) { return $false }
     try {
-        $tags = curl -s "$baseUrl/api/tags" | ConvertFrom-Json
+        $tags = Invoke-RestMethod -Uri "$(Get-OllamaBaseUrl)/api/tags" -Method Get -TimeoutSec 8
         foreach ($entry in $tags.models) {
             if ($entry.name -eq $ModelName) { return $true }
         }
@@ -50,14 +79,14 @@ function Invoke-OllamaPull {
         & ollama pull $ModelName
         return
     }
-    $baseUrl = if ($env:OLLAMA_BASE_URL) { $env:OLLAMA_BASE_URL } else { "http://127.0.0.1:11434" }
+    $baseUrl = Get-OllamaBaseUrl
     Write-Host "CLI ausente — baixando $ModelName via API $baseUrl ..."
     curl -s -N -X POST "$baseUrl/api/pull" -d "{`"name`":`"$ModelName`"}" | Out-Null
 }
 
 function Wait-OllamaReady {
-    param([int]$MaxSeconds = 90)
-    $baseUrl = if ($env:OLLAMA_BASE_URL) { $env:OLLAMA_BASE_URL } else { "http://127.0.0.1:11434" }
+    param([int]$MaxSeconds = 120)
+    $baseUrl = Get-OllamaBaseUrl
     $deadline = (Get-Date).AddSeconds($MaxSeconds)
     while ((Get-Date) -lt $deadline) {
         try {
@@ -75,7 +104,7 @@ function Wait-OllamaReady {
 
 function Warm-OllamaModel {
     param([string]$ModelName)
-    $baseUrl = if ($env:OLLAMA_BASE_URL) { $env:OLLAMA_BASE_URL } else { "http://127.0.0.1:11434" }
+    $baseUrl = Get-OllamaBaseUrl
     Write-Host "Aquecendo modelo $ModelName (primeira carga pode levar 1-3 min)..."
     $payload = @{
         model      = $ModelName
@@ -95,9 +124,10 @@ function Warm-OllamaModel {
     }
 }
 
+Ensure-OllamaDocker
+Wait-OllamaReady
 Invoke-OllamaPull $env:OLLAMA_MODEL_NARRATION
 Invoke-OllamaPull "phi3:mini"
-Wait-OllamaReady
 Warm-OllamaModel $env:OLLAMA_MODEL_NARRATION
 
 Write-Host "Iniciando API com narracao local maxima ($($env:OLLAMA_MODEL_NARRATION))..."
