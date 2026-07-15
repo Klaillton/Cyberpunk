@@ -4,6 +4,12 @@ import re
 import unicodedata
 
 from motor.llm.types import ContextManifest, QualityCheck, QualityReport
+from motor.npc_agency import (
+    _PLANNING_PING_PONG_RE,
+    is_delegation_turn,
+    is_npc_agency_turn,
+    reply_passes_delegation_check,
+)
 from motor.player_message import parse_player_message
 
 _PROTAGONIST_VERBS = (
@@ -165,14 +171,24 @@ class ResponseQualityGate:
     ) -> QualityReport:
         checks: list[QualityCheck] = []
         known_tokens = self._known_tokens(manifest)
-        relaxed_tier = tier in {"trivial", "standard"}
-        simple_turn = is_simple_player_action(player_message) and relaxed_tier
-        dialogue_turn = is_standard_dialogue_turn(player_message) and relaxed_tier
-        relaxed_turn = simple_turn or dialogue_turn
+        agency_tier = tier in {"trivial", "standard", "complex"}
+        simple_turn = is_simple_player_action(player_message) and agency_tier
+        dialogue_turn = is_standard_dialogue_turn(player_message) and agency_tier
+        agency_turn = is_npc_agency_turn(player_message) and agency_tier
+        relaxed_turn = simple_turn or dialogue_turn or agency_turn
 
-        checks.append(self._check_minimum_length(reply, channel, simple_turn=relaxed_turn))
+        checks.append(
+            self._check_minimum_length(
+                reply,
+                channel,
+                simple_turn=relaxed_turn,
+                delegation_turn=is_delegation_turn(player_message),
+            )
+        )
         checks.append(self._check_protagonist_control(reply))
-        checks.append(self._check_meta_questions(reply, channel))
+        checks.append(self._check_meta_questions(reply, channel, player_message=player_message))
+        if is_delegation_turn(player_message):
+            checks.append(self._check_delegation_fulfilled(reply, player_message))
         checks.append(self._check_duplicate_prefix(reply, channel))
         checks.append(
             self._check_player_echo(reply, player_message, channel, simple_turn=relaxed_turn)
@@ -249,10 +265,22 @@ class ResponseQualityGate:
         tokens.update(allow)
         return tokens
 
-    def _check_minimum_length(self, reply: str, channel: str, *, simple_turn: bool = False) -> QualityCheck:
+    def _check_minimum_length(
+        self,
+        reply: str,
+        channel: str,
+        *,
+        simple_turn: bool = False,
+        delegation_turn: bool = False,
+    ) -> QualityCheck:
         if channel == "narrador":
             return QualityCheck(name="minimum_length", passed=True, detail="Canal narrador isento")
-        min_len = 35 if simple_turn else 50
+        if delegation_turn:
+            min_len = 80
+        elif simple_turn:
+            min_len = 35
+        else:
+            min_len = 50
         passed = len(reply.strip()) >= min_len
         return QualityCheck(
             name="minimum_length",
@@ -269,14 +297,30 @@ class ResponseQualityGate:
             detail="Narrador controlou acao do protagonista" if not passed else "Sem controle do protagonista",
         )
 
-    def _check_meta_questions(self, reply: str, channel: str) -> QualityCheck:
+    def _check_meta_questions(
+        self,
+        reply: str,
+        channel: str,
+        *,
+        player_message: str = "",
+    ) -> QualityCheck:
         if channel != "narracao":
             return QualityCheck(name="meta_questions", passed=True, detail="Canal isento")
-        passed = _META_QUESTION_RE.search(reply) is None
+        passed = _META_QUESTION_RE.search(reply) is None and _PLANNING_PING_PONG_RE.search(reply) is None
+        detail = "Sem pergunta meta"
+        if not passed:
+            if is_delegation_turn(player_message) and _PLANNING_PING_PONG_RE.search(reply):
+                detail = "Devolveu planejamento ao jogador (delegacao nao executada)"
+            else:
+                detail = "Pergunta meta ao jogador (o que voce faz)"
+        return QualityCheck(name="meta_questions", passed=passed, detail=detail)
+
+    def _check_delegation_fulfilled(self, reply: str, player_message: str) -> QualityCheck:
+        passed = reply_passes_delegation_check(reply, player_message)
         return QualityCheck(
-            name="meta_questions",
+            name="delegation_fulfilled",
             passed=passed,
-            detail="Pergunta meta ao jogador (o que voce faz)" if not passed else "Sem pergunta meta",
+            detail="NPC deve entregar plano concreto (horario/rota/equipe)" if not passed else "Delegacao atendida",
         )
 
     def _check_duplicate_prefix(self, reply: str, channel: str) -> QualityCheck:

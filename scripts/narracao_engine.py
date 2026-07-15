@@ -28,6 +28,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
 from motor.markdown.campaign_paths import is_template_path
+from motor.npc_agency import agency_context_paths, build_agency_prompt_block, is_npc_agency_turn
 from motor.player_message import format_player_message_for_prompt, parse_player_message
 from motor.npc import list_campaign_sheets
 from motor.llm.quality_gate import _sentences, _word_overlap_ratio
@@ -248,6 +249,13 @@ INTENT_RULES: list[tuple[re.Pattern[str], list[str]]] = [
         ["sistema/pulso_procedimento.md", "pulso_do_mundo/README.md"],
     ),
     (
+        re.compile(
+            r"\b(planej\w*|organiz\w*|agencia\s*npc|observ.*silenc|deixem.*decid|ca[cç]a|aves?)\b",
+            re.IGNORECASE,
+        ),
+        ["sistema/npc_agencia_cena.md"],
+    ),
+    (
         _TIMELINE_QUESTION_RE,
         [
             "relacionamentos/crew_polycule_ryan_valk_alex_reina.md",
@@ -428,6 +436,8 @@ def select_context_files(
         for pattern, files in INTENT_RULES:
             if pattern.search(user_message):
                 selected.update(files)
+        if is_npc_agency_turn(user_message):
+            selected.update(agency_context_paths(user_message))
         selected.update(["reputacao.md", "heat.md", "event_queue.md", "economia.md"])
 
     paths = resolve_paths(sorted(selected))
@@ -1121,6 +1131,8 @@ def _build_ollama_prompt(
             "- PROIBIDO perguntar 'O que voce faz em seguida?' ou 'Agora, o que voce faz?'.",
             "- Mantenha hora do dia e local do historico/board (ex: manha continua manha; nao ponha sol se pondo sem passagem de tempo).",
             "- Quando um NPC falar, use uma linha por fala: [NPC-M: Nome] \"texto\" ou [NPC-F: Nome] \"texto\".",
+            "- NPCs podem trocar 1-2 falas entre si na mesma resposta (linhas separadas com tags).",
+            "- Se Ryan DELEGOU planejamento/logistica a um NPC, esse NPC ENTREGA plano concreto — nao devolva A/B/C.",
             "- Nao coloque narracao depois da fala na mesma linha (sem ', diz ele' apos a tag).",
             "- Acao fisica de NPC (sem fala) pode usar [NPC-M: Nome] descricao curta da acao.",
             "- Nao repita paragrafos da sua ultima resposta no historico (ex: nao re-descrever Elias na destilaria se ja foi dito).",
@@ -1141,6 +1153,9 @@ def _build_ollama_prompt(
                     _last_narrator_text(history) or "(primeira resposta da cena)",
                 ]
             )
+        agency_block = build_agency_prompt_block(user_message, history)
+        if agency_block:
+            header_parts.extend(["", agency_block])
         header_parts.extend(
             [
                 "",

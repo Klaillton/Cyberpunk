@@ -5,6 +5,7 @@ import re
 from motor.entities.entity_resolver import ResolvedEntities
 from motor.llm.channel_profiles import is_aux_channel, is_narration_channel
 from motor.llm.types import ContextManifest, TurnRequest
+from motor.npc_agency import is_delegation_turn, is_npc_agency_turn
 
 _COMBAT_RE = re.compile(
     r"\b(combate|combatei|atir|dispar|iniciativa|dano|armadura|raffen|incursao|hack|quickdraw)\b",
@@ -59,6 +60,13 @@ class SceneComplexityScorer:
         if len(clean) < 80 and npc_count <= 1 and not is_narration_channel(request.channel):
             score -= 3
             reasons.append("heuristic:short_message")
+
+        if is_npc_agency_turn(clean):
+            score -= 4
+            reasons.append("heuristic:npc_agency")
+        if is_delegation_turn(clean):
+            score -= 2
+            reasons.append("heuristic:delegation")
 
         return score, reasons
 
