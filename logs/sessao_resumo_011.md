@@ -14,7 +14,7 @@
 ## Eventos Principais
 
 - **09/07 noite:** Intimidade/banho na tenda com Valk; combinam scav de containers para a manhã seguinte.
-- **10/07 — E010 scav containers:** Time Ryan, Valk, Rusty, Jax + apoio; recon solo + Vespas + Warden; área limpa. **Container A** içado e rebocado no Mule; **Container B** cortado/desmontado; material carregado no A. Retorno sem incidentes.
+- **10/07 — E010 scav containers:** Time Ryan, Valk, Rusty, Jax (pack) + apoio; recon solo + Vespas + Warden; área limpa. **Container A** içado e rebocado no Mule; **Container B** cortado/desmontado; material carregado no A. Retorno sem incidentes.
 - **11/07 — Revelação ao time de produção:** Ryan revela o projeto de **casas modulares dobráveis** a Tio Gringo e alunos (Warden projeta modelo 3D). Visão: protótipo → testes → apresentação Reyes → motorização; cada família com casa própria no futuro.
 - **11–13/07 — Montagem protótipo:** Estrutura externa montada e testada (abrir/fechar). Valk projeta layout interno (Neuralink + Warden). Integração com climatização, banho, turbina Tomas, placas solares (cada casa = unidade de geração redundante).
 - **13/07 — Discurso ao time:** Ryan propõe que cada família participe da construção/reparo da própria casa; alunos viram professores; conhecimento compartilhado fortalece o pack.

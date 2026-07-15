@@ -71,7 +71,7 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 
 | Data | Atividade | Progresso | Observações |
 | ---- | --------- | --------- | ----------- |
-| 05/07 | Scav Badlands (time Valk/Rusty/Jax) | Material estrutural recuperado | Containers inteiros ficaram para 2ª viagem |
+| 05/07 | Scav Badlands (time Valk/Rusty/Jax pack) | Material estrutural recuperado | Containers inteiros ficaram para 2ª viagem |
 | 05–09/07 | Oficina: peças do protótipo (alunos + Ryan) | Peças principais quase prontas | Propósito ainda secreto; “só Ryan” |
 | 05–09/07 | Badlands Node + destilaria/estufa | Em progresso | Biodigestor e filtragem tomando forma |
 | 10/07 | Scav containers (E010) | Concluída | Container A rebocado; B desmontado |
@@ -89,7 +89,7 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 
 | Data | Atividade | Progresso | Observações |
 | ---- | --------- | --------- | ----------- |
-| 10/07 | Scav containers | E010 resolvida | Rusty, Jax, Valk |
+| 10/07 | Scav containers | E010 resolvida | Rusty, Jax (pack), Valk |
 | 11/07 | Revelação time produção | Segredo F11 parcial | Warden projeta modelo 3D |
 | 11–13/07 | Protótipo externo | Testado abrir/fechar | Valk: layout interno |
 | 14/07 | Apresentação Reyes | Pendente E014 | Valk + Tio Gringo lideram |

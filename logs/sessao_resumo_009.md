@@ -16,7 +16,7 @@
 - Ryan alinha Mara, Tomas e Elias (objetivos do dia); avisa Reyes que fará scav de containers com Valk e retorna no mesmo dia.
 - Planejamento de incursão: site da incursão anterior (containers no prédio) + curiosidade em base militar abandonada; partida no Mule com Valk.
 - **04/07–05/07 noite — perímetro:** Conversa sob as estrelas; Ryan compartilha memória vaga da “tia” (rua, comida, músicas) e canta para Valk com Warden (*Hurt*, *Sleeping in the Cold Below*, *House of the Rising Sun*, *The Night We Met*, *The Real Folk Blues*); vulnerabilidade emocional acolhida.
-- **05/07 manhã (fim de sessão):** Café; Ryan retoma rotina — verifica progresso de destilaria, estufa e projetos do núcleo técnico; Valk organiza scav (Rusty/Jax, dois veículos). Ryan observa a área técnica de longe e é recebido por Tomas, Mara e Elias.
+- **05/07 manhã (fim de sessão):** Café; Ryan retoma rotina — verifica progresso de destilaria, estufa e projetos do núcleo técnico; Valk organiza scav (Rusty/Jax do pack, dois veículos). Ryan observa a área técnica de longe e é recebido por Tomas, Mara e Elias.
 
 ---
 
@@ -45,7 +45,7 @@
 
 - Priorizar descompressão com Valk antes de retomar projetos.
 - Manter casas modulares em segredo até protótipo funcional.
-- Delegar organização da scav a Valk (Rusty/Jax, dois carros); ir pessoalmente supervisionar destilaria/estufa/Node.
+- Delegar organização da scav a Valk (Rusty/Jax pack, dois carros); ir pessoalmente supervisionar destilaria/estufa/Node.
 - Compartilhar memórias e música no perímetro (vulnerabilidade consciente).
 
 ---

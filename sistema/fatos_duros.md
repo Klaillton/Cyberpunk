@@ -2,7 +2,7 @@
 
 **Finalidade:** lista **estável** de fatos que a IA **não pode inventar nem inverter**.  
 **Uso:** tier-0 com `logs/context_pack_atual.md`; comando `[Verificar fato]`; boot/refresh.  
-**Última revisão estrutural:** 13 de Julho de 2026
+**Última revisão estrutural:** 15 de Julho de 2026 (F14 — Jax pack ≠ Razor)
 
 > Snapshot de **data/local/prioridade** vive no **context pack** (muda a cada sessão).  
 > Este arquivo muda **raramente** — só quando a campanha redefinir um fato canônico.
@@ -29,7 +29,8 @@
 | **F03** | **Warden** = drone **terrestre** scorpion-like (modo mochila/transporte). **Não voa** | Ficha Ryan |
 | **F04** | **Stitch** = Dr. Stephania Voss (MedTech da **crew**). **Doc** = Elisa “Doc” Moreau (passado de Ryan). Nunca trocar os nomes | Ficha Stitch; ficha Ryan § Contatos |
 | **F05** | Ryan e Stephania compartilham sobrenome **Voss** por coincidência — **sem parentesco** | Ficha Stitch / ryan_relacionamentos |
-| **F06** | Protagonista jogável: **Ryan “Wireghost” Voss** (Techie). Valk, Alex, Reina, Kaz, Stitch, Jax = crew | mapa_relacional |
+| **F06** | Protagonista jogável: **Ryan “Wireghost” Voss** (Techie). Valk, Alex, Reina, Kaz, Stitch, **Jax “Razor” Kane** = **crew** (NC) | mapa_relacional |
+| **F14** | **Jax (Pack Badlands)** = sentinela do acampamento (scavs). **≠** Jax **“Razor” Kane** (Solo crew). Sem sobrenome Kane; Razor **não** está nas Badlands | [jax_pack.md](../fichas/npc/jax_pack.md) |
 | **F07** | Ryan × Valk = relação **consolidada** (amor declarado); Valk costuma escolher roupa em saídas | ryan / lena relacionamentos; guarda-roupa |
 | **F08** | **The Mule** = veículo de Valk; equipe operacional **Valk + Mule** | vehicle - the_mule; ficha Valk |
 | **F09** | Job 001 (extração Vossler / Biotechnica) e incursões Raffen são **passados registrados** em `logs/` — não reinventar o outcome | job_001, incidentes, sessões |
@@ -47,8 +48,8 @@ Estes **não** são eternos. Se o `board` disser outra região, **ignorar** a li
 | ID | Enquanto válido | Fato |
 | -- | --------------- | ---- |
 | **L01** | Ryan hospedado no Pack Badlands | Reyes = líder; Tio Gringo = forja; acampamento = base atual |
-| **L02** | Downtime Pack (pós-010) | Scav materiais 05/07 feita; **E010** scav containers pendente; Node em progresso |
-| **L03** | Segredo casas | Pack / Tio Gringo / alunos **não** sabem o propósito das peças (até revelação) |
+| **L02** | Downtime Pack (pós-011) | E010 concluída 10/07; protótipo externo OK; Node em progresso |
+| **L03** | Segredo casas | Time produção + Tio Gringo **sabem**; pack geral aguarda Reyes (F11 parcial) |
 
 Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; marcar L0x como N/A no pack; não carregar pulso Pack por default.
 
@@ -61,6 +62,7 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 - Não revelar casas modulares ao pack “porque é óbvio”.
 - Não usar data de chat Grok (ex. 24/06) se o **board** diz julho/2026.
 - Não criar NPC/facção/local já listado em `registro_arquivos` / mapa.
+- Não colocar **Jax “Razor” Kane** (crew) nas Badlands em scav/incursão — usar **Jax (pack)** ([jax_pack.md](../fichas/npc/jax_pack.md)).
 
 ---
 

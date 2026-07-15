@@ -2,7 +2,7 @@
 
 **Tipo:** Pack Nômade  
 **Status com o Jogador:** Aliado / Relação em fortalecimento  
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 15 de Julho de 2026 (sessão 011; F14 Jax pack)
 
 ---
 

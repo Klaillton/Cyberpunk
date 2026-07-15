@@ -2,7 +2,7 @@
 
 **Finalidade:** Hub central de personagens e relações. Use este arquivo para localizar rapidamente onde buscar contexto sobre cada NPC da campanha.
 
-**Última atualização:** 11 de Julho de 2026
+**Última atualização:** 15 de Julho de 2026 (F14 — Jax pack)
 
 ---
 
@@ -31,7 +31,7 @@
 | Reina "Bearclaw" Morales | [solo - reina_bearclaw_morales.md](../fichas/solo%20-%20reina_bearclaw_morales.md) | [reina_bearclaw_morales_relacionamentos.md](reina_bearclaw_morales_relacionamentos.md) | roupa: [crew_guarda_roupas](../fichas/crew_guarda_roupas.md); [crew](crew_relacionamentos.md), [polycule](crew_polycule_ryan_valk_alex_reina.md) |
 | Kaz "The Broker" Takahashi | [fixer - kaz_the_broker_takahashi.md](../fichas/fixer%20-%20kaz_the_broker_takahashi.md) | [ryan_relacionamentos.md](ryan_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [faccao_relacionamentos.md](faccao_relacionamentos.md) |
 | Dr. Stephania "Stitch" Voss | [medtech - stephania_stitch_voss.md](../fichas/medtech%20-%20stephania_stitch_voss.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | roupa: [crew_guarda_roupas](../fichas/crew_guarda_roupas.md); [ryan_relacionamentos](ryan_relacionamentos.md); **não** confundir com Elisa "Doc" Moreau |
-| Jax "Razor" Kane | [solo - jax_razor_kane.md](../fichas/solo%20-%20jax_razor_kane.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | [lena_valk_kane_relacionamentos.md](lena_valk_kane_relacionamentos.md) |
+| Jax "Razor" Kane | [solo - jax_razor_kane.md](../fichas/solo%20-%20jax_razor_kane.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | **Crew NC** — não confundir com Jax (pack) |
 | Emilia "Echo" Rivera | [media - emilia_echo_rivera.md](../fichas/media%20-%20emilia_echo_rivera.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | roupa: [crew_guarda_roupas](../fichas/crew_guarda_roupas.md); recrutada por Kaz; ghost reporter |
 
 ---
@@ -59,6 +59,7 @@ Personagens com personalidade e eventos próprios, mas **sem ficha RED completa*
 | Tomas (recruta) | [tomas_recruit.md](../fichas/npc/tomas_recruit.md) | — | Monitoramento ativo (sessão 003–005) |
 | Sasha (pack) | [sasha.md](../fichas/npc/sasha.md) | [Sasha.jpg](../imagens/Sasha.jpg) | [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) |
 | Lira (pack) | [lira.md](../fichas/npc/lira.md) | [Lira.jpg](../imagens/Lira.jpg) | [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md), [sessao_002](../logs/sessao_resumo_002.md) |
+| Jax (pack) | [jax_pack.md](../fichas/npc/jax_pack.md) | — | Sentinela/scav — **≠** [Jax Razor Kane](../fichas/solo%20-%20jax_razor_kane.md) |
 
 **Template:** [npc_template.md](../fichas/npc/npc_template.md)
 
@@ -81,7 +82,8 @@ Motor: [pulso_procedimento.md](../sistema/pulso_procedimento.md) · Índice: [pu
 | Alex | [alex.md](../pulso_do_mundo/crew/alex.md) | NC / futuro |
 | Reina | [reina.md](../pulso_do_mundo/crew/reina.md) | NC / futuro |
 | Stitch (Stephania) | [stephania_stitch.md](../pulso_do_mundo/crew/stephania_stitch.md) | NC / remoto |
-| Jax | [jax.md](../pulso_do_mundo/crew/jax.md) | NC / remoto |
+| Jax (pack) | [jax_pack.md](../pulso_do_mundo/pack_badlands/jax_pack.md) | Badlands |
+| Jax "Razor" Kane | [jax.md](../pulso_do_mundo/crew/jax.md) | NC / remoto — crew |
 
 ---
 

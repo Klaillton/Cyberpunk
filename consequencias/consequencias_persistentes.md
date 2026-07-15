@@ -175,7 +175,7 @@ Após a Operação Torre Raffen (registrada na sessão 008), Ryan passou períod
 
 No perímetro, Ryan cantou para Valk (*Hurt*, *Sleeping in the Cold Below*, entre outras) e compartilhou memória fragmentada de uma “tia” da infância na rua — gatilho emocional adicional.
 
-Na manhã de 05/07, Ryan retomou supervisão do núcleo técnico (Tomas, Mara, Elias): destilaria e estufa em progresso consistente; Valk organizou scav de containers com Rusty/Jax.
+Na manhã de 05/07, Ryan retomou supervisão do núcleo técnico (Tomas, Mara, Elias): destilaria e estufa em progresso consistente; Valk organizou scav de containers com Rusty/Jax (pack).
 
 **Impactos:**
 
@@ -185,7 +185,7 @@ Na manhã de 05/07, Ryan retomou supervisão do núcleo técnico (Tomas, Mara, E
 
 ## 05 a 09 de Julho de 2026 - Scav de Materiais e Produção das Casas Modulares (sessão 010)
 
-Ryan executou scav tática com time (Valk, Rusty, Jax + 2; dois veículos). Reconhecimento solo + drones (Hornet, Vesper, Barbed); área limpa. Recuperou material estrutural (chapas, perfis, tubulações, vigas, isolamento, peças mecânicas); containers inteiros ficaram para segunda viagem. Trabalho em duplas com cobertura de perímetro.
+Ryan executou scav tática com time (Valk, Rusty, Jax do pack + 2; dois veículos). Reconhecimento solo + drones (Hornet, Vesper, Barbed); área limpa. Recuperou material estrutural (chapas, perfis, tubulações, vigas, isolamento, peças mecânicas); containers inteiros ficaram para segunda viagem. Trabalho em duplas com cobertura de perímetro.
 
 Nos dias seguintes, montou linha de produção na oficina com alunos do Tio Gringo (propósito das peças ainda secreto). Peças complexas feitas por Ryan; volume pelos alunos. Cerca em estrela e **Badlands Node** (biodigestor + filtragem de água) avançaram em paralelo. Destilaria e estufa seguiram sob o núcleo técnico.
 
@@ -200,7 +200,7 @@ Fim do período: peças principais quase prontas para protótipo; **scav de cont
 
 ## 10 a 15 de Julho de 2026 - Scav containers, protótipo casas e apresentação Reyes (sessão 011)
 
-**10/07 — E010:** Ryan liderou scav de containers (Valk, Rusty, Jax + apoio). Recon solo + drones + Warden; área limpa. Container A içado e rebocado no Mule; Container B desmontado; material carregado. Retorno sem incidentes.
+**10/07 — E010:** Ryan liderou scav de containers (Valk, Rusty, Jax do pack + apoio). Recon solo + drones + Warden; área limpa. Container A içado e rebocado no Mule; Container B desmontado; material carregado. Retorno sem incidentes.
 
 **11/07:** Ryan revelou o projeto de **casas modulares dobráveis** ao time de produção e Tio Gringo (projeção Warden). Iniciou montagem do protótipo com Container A.
 

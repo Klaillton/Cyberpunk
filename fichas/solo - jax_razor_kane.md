@@ -1,5 +1,7 @@
 # Jax "Razor" Kane
 
+> **F14:** Solo da **crew** em Night City. **Não** é o **Jax** sentinela do Pack Badlands nas scavs ([jax_pack.md](npc/jax_pack.md)).
+
 **Role:** Solo (Combat Awareness)  
 **Idade aparente:** 38 anos  
 **Conceito:** Ex-Solo corporativo da Militech virado freelancer após operação sabotada pela própria corp. Especialista em combate urbano, infiltração armada e proteção próxima. Alto REF e BODY, focado em Shoulder Arms, Melee e Athletics. Tem ranço leve de corporações, mas é extremamente profissional e leal enquanto o pagamento (ou a causa) valer. Viu a reputação da crew contra a BT e acha que “finalmente tem uma crew que não vai me deixar pra trás”. Personalidade: Direto, seco, humor negro de veterano. Cicatrizes visíveis, chrome de combate óbvio (cyberarm + Kerenzikov alto). Gancho de entrada: Kaz o contata porque Jax estava procurando exatamente uma crew que “não tem medo de morder a mão que alimenta”.

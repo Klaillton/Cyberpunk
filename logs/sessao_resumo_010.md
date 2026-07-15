@@ -11,7 +11,7 @@
 
 ## Eventos Principais
 
-- **05/07 manhã — partida:** Após checar o núcleo técnico (Tomas, Mara, Elias), Ryan junta-se a Valk. Time de scav: Valk, Rusty, Jax + 2; **dois veículos** (Mule + apoio). Rota leste.
+- **05/07 manhã — partida:** Após checar o núcleo técnico (Tomas, Mara, Elias), Ryan junta-se a Valk. Time de scav: Valk, Rusty, **Jax (pack)** + 2; **dois veículos** (Mule + apoio). Rota leste.
 - **Reconhecimento tático:** Ryan assume modo operador — drop a ~3 km, posição seis horas; Vespas (Hornet, Vesper, Barbed) em setores; aproximação solo. Área de sucata/containers **limpa** (sem hostis, sem sinais recentes).
 - **Confirmação de material:** ao menos **dois containers** viáveis + chapas, perfis, tubulações, vigas, isolamento, peças mecânicas. Ryan autoriza coluna; trabalho em **duplas** (inspeção + segurança); Jax em cobertura de longa distância com Ryan no perímetro.
 - **Coleta:** ~1h30 de scav disciplinado. Containers inteiros **não** saíram nesta viagem (peso); material cortado/separado carregado nos dois veículos. Retorno limpo (saída da ravina, cobertura, logs do Mule no datapad).
@@ -27,7 +27,7 @@
 ### Relacionamentos
 
 - Ryan × Valk: vínculo reforçado (scav em equipe, intimidade pós-missão, conversa sobre eventual partida de Ryan, promessa de ir à **Doc Moreau** (Elisa) juntos, “troféu”/possessividade leve no pack).
-- Jax / Rusty: colaboração operacional sólida no scav (cobertura e condução).
+- Jax (pack) / Rusty: colaboração operacional sólida no scav (cobertura e condução).
 - Alunos / Tio Gringo: respeito técnico; Ryan recusa título de “chefe”; pagamento via Tio Gringo/Reyes se necessário.
 
 ### Reputação / Heat / Economia
@@ -48,7 +48,9 @@
 ## Decisões Importantes do Jogador
 
 - Priorizar recon solo e “área limpa” antes de qualquer avanço do time.
-- Ninguém trabalha sozinho no scav (duplas + drones + Jax em sniper).
+- Ninguém trabalha sozinho no scav (duplas + drones + Jax do pack em sniper).
+
+> **Nota canônica (F14):** Jax nas scavs = sentinela do Pack Badlands — **não** Jax "Razor" Kane (crew NC).
 - Manter casas modulares em **segredo** até protótipo viável (incl. alunos e Tio Gringo por ora).
 - Delegar volume de peças aos alunos; fazer pessoalmente o que for crítico.
 - Agendar scav de containers com Valk para o dia seguinte.

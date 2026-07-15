@@ -3,6 +3,8 @@
 **Última atualização:** 04 de Julho de 2026  
 **Escopo:** **Night City / remoto** — Jax **não** está nas Badlands. Acionar quando Ryan estiver em NC, crew em operação conjunta, ou **job/mensagem** que envolva reforço de combate.
 
+> **F14:** O **Jax** das scavs no Pack é outro NPC — [jax_pack.md](../pack_badlands/jax_pack.md). Não é este personagem.
+
 ## Motivações Atuais
 
 - Encontrar crew que “não tem medo de morder a mão que alimenta” (reputação pós-BT).

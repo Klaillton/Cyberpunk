@@ -18,7 +18,7 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **03/07/2026 (noite):** Intimidade na tenda (música, beijos); Ryan com breve desconexão/memória — Valk acolheu.
 - **04/07/2026:** Extração dos 6 reféns no Mule na Torre Raffen; pós-operação com banho, carinho e humor.
 - **04–05/07/2026:** Descompressão pós-missão (sono profundo, intimidade); projeto casas modulares (segredo); canto no perímetro (*Hurt*, *Sleeping in the Cold Below*); memória da “tia” compartilhada; Valk organiza scav de materiais (05/07).
-- **05–09/07/2026 (sessão 010):** Scav de materiais com Ryan/Rusty/Jax (dois veículos); intimidade pós-scav; conversa sobre eventual partida de Ryan e ida à Doc juntos; Valk busca Ryan na oficina e organiza **scav de containers** para o dia seguinte.
+- **05–09/07/2026 (sessão 010):** Scav de materiais com Ryan/Rusty/Jax (pack; dois veículos); intimidade pós-scav; conversa sobre eventual partida de Ryan e ida à Doc juntos; Valk busca Ryan na oficina e organiza **scav de containers** para o dia seguinte.
 - **10–15/07/2026 (sessão 011):** Scav containers; co-liderou apresentação Reyes com Tio Gringo; projetou layout interno do protótipo; conversa Sasha/Lira (assistentes); esboço caçada aves (E013).
 
 ### Alex "Specter" Kane
@@ -42,7 +42,7 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **Tipo:** MedTech da crew + Amizade
 - **Notas:** **Stitch** (não “Doc”) cuida especialmente de Reina, mas também trata Valk quando necessário. Valk respeita o trabalho dela.
 
-### Jax "Razor" Kane
+### Jax "Razor" Kane (crew — não confundir com Jax do pack)
 
 - **Status:** Colega de crew
 - **Intensidade:** Baixa-Média

@@ -55,7 +55,7 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 | **Reyes** | Líder do Pack | Confiança estratégica | Ouveu protótipo 14/07; **resposta pendente** (E014) — [ficha](../fichas/npc/reyes.md) |
 | **Tio Gringo** | Ferreiro | Alta estima | Co-apresentou protótipo; mentor do time — [ficha](../fichas/npc/tio_gringo.md) |
 | **Rusty** | Garagem/veículos | Colaborador técnico | Mule na scav 10/07 |
-| **Jax "Razor" Kane** | Solo (crew) | Respeito operacional | Overwatch scav 10/07 |
+| **Jax** (pack) | Sentinela / overwatch | Colaborador operacional | Scavs 05/07 e 10/07 — [ficha](../fichas/npc/jax_pack.md); **não** é Jax Razor Kane |
 | **Mara** | Recruta (Med/Hidro) | Parceira Node | Estufa — [ficha](../fichas/npc/mara_recruit.md) |
 | **Elias** | Recruta (Refinaria) | Autonomia destilaria | [ficha](../fichas/npc/elias_recruit.md) |
 | **Tomas** | Recruta (Mecânica) | Monitoramento | Turbina/Node — [ficha](../fichas/npc/tomas_recruit.md) |

@@ -31,7 +31,7 @@
 | **Reyes**                | +52       | Líder / Estratégico  | Confiança técnica crescente; ouviu protótipo 14/07 — **resposta E014 pendente** |
 | **Tio Gringo**           | +62       | Mentor / Forja       | Alta estima; co-apresentou protótipo; time de produção no segredo |
 | **Rusty**                | +42       | Colaborador técnico  | Scav containers 10/07; garagem/veículos |
-| **Jax "Razor" Kane**     | +32       | Solo operacional     | Overwatch scav 10/07; respeito profissional |
+| **Jax** (pack)           | +32       | Sentinela / overwatch | Scavs 05/07 e 10/07 — **não** é Jax Razor Kane ([ficha](fichas/npc/jax_pack.md)) |
 | **Mara**                 | +38       | Recruta / Node       | Estufa e água; integração positiva |
 | **Elias**                | +35       | Recruta / Destilaria | Autonomia na refinaria |
 | **Tomas**                | +33       | Recruta / Mecânica   | Turbina/Node; monitoramento contínuo |
@@ -46,7 +46,7 @@
 | ------- | ------ | ------- |
 | 04/07 | Operação Torre Raffen — 6 reféns, Reaper eliminado | Pack +5; moral e confiança em Ryan/Valk |
 | 05–09/07 | Scav materiais + linha de produção casas | Pack +2; reputação técnica/ensino |
-| 10/07 | Scav containers (E010) limpa | Pack +0 (mantém); Rusty/Jax +2 |
+| 10/07 | Scav containers (E010) limpa | Pack +0 (mantém); Rusty/Jax (pack) +2 |
 | 11–14/07 | Protótipo + apresentação Reyes | Reyes/Tio Gringo/time +3–5; segredo F11 parcial |
 | 15/07 | Esboço caçada aves (E013) | Valk +3 operacional |
 

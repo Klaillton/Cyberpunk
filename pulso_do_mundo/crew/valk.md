@@ -38,7 +38,7 @@
 
 - **03/07/2026 (meio-dia)** — Acordou perto do meio-dia; Ryan já tinha saído em silêncio. Não confrontou; ficou um momento olhando a tenda vazia.
 - **03/07/2026 (almoço)** — Sasha e Lira sentaram perto; conversa prática e cordial (rotina no deserto). Valk retribuiu com simpatia cautelosa.
-- **10/07** — Scav containers com Ryan/Rusty/Jax.
+- **10/07** — Scav containers com Ryan/Rusty/Jax (pack).
 - **14/07** — Liderou apresentação Reyes com Tio Gringo; “desfile” no refeitório com Ryan.
 - **15/07 (manhã)** — Entregou **esboço de plano** da caçada aves (E013) a pedido de Ryan.
 
@@ -50,7 +50,7 @@ Ao mesmo tempo, a presença futura de Alex está mexendo com ela de forma que el
 ## Ganchos in-scene (Ryan presente)
 
 - **Delegação logística:** Ryan pede plano (caça, scav, rota, horário) → Valk **entrega plano fechado** (saída, rota, equipamento, quem fica no acampamento) — **não** devolve "qual rota você prefere?" em loop.
-- **Caça às aves:** amanhecer, Mule até cânion, pé 2h max, Jax overwatch ou Rusty no rádio; ela no perímetro/volante.
+- **Caça às aves:** amanhecer, Mule até cânion, pé 2h max, **Jax (pack)** overwatch ou Rusty no rádio; ela no perímetro/volante.
 - Troca curta com **Rusty** ou **Reyes** sobre veículos sem Ryan no meio da conversa.
 
 ## Ganchos / Possíveis Eventos

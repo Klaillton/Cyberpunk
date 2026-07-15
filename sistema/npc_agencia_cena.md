@@ -81,7 +81,7 @@ Isso viola:
 
 **Valk:** "Amanhã: saída **05h20**, antes do calor. Leva o **Mule** só até o cânion seco — depois a pé, duas horas máximo. Rotas: entramos pelo **leste do acampamento**, contorno da linha de postes queimados; evitamos o trecho aberto depois do meio-dia — Raffen passou ali na semana passada, segundo Rusty."
 
-**Valk:** "Equipamento: rifle leve ou arco — o que você preferir levar, eu cubro munição e kit de campo. **Jax** fica de overwatch no alto do cânion se ele topar; senão, **Rusty** no rádio do acampamento. **Reyes** não precisa saber ainda — é caça, não incursão."
+**Valk:** "Equipamento: rifle leve ou arco — o que você preferir levar, eu cubro munição e kit de campo. **Jax** (sentinela do pack) fica de overwatch no alto do cânion se ele topar; senão, **Rusty** no rádio do acampamento. **Reyes** não precisa saber ainda — é caça, não incursão."
 
 **Valk:** "Eu fico no volante e no perímetro. Você caça; eu não entro na linha de tiro. Volta prevista **10h30**. Se quiser mudar só uma coisa — horário ou quem fica no acampamento — diz agora; senão, amanhã é isso."
 
@@ -96,7 +96,7 @@ Isso viola:
 
 ### Quando Ryan ainda decide
 
-- **Veto ou ajuste** explícito: "sem Jax", "saímos mais cedo", "quero arco, não rifle".
+- **Veto ou ajuste** explícito: "sem Jax (pack)", "saímos mais cedo", "quero arco, não rifle".
 - **Risco novo** não previsto no plano (sinal de Raffen, clima, ferimento).
 - **Segredo de campanha** que Valk não conhece (ex.: não revelar casas modulares — F11).
 

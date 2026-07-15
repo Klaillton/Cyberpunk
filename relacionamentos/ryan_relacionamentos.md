@@ -55,11 +55,11 @@
 - Pós-operação: descompressão na tenda (desconexão/memória, sono profundo); intimidade prolongada na manhã seguinte.
 - Ryan apresentou projeto secreto de casas modulares dobráveis; Valk engajada na organização do scav.
 - Noite no perímetro: Ryan cantou para Valk e compartilhou memória vaga da “tia”; Valk acolheu com carinho.
-- 05/07: Ryan retomou supervisão técnica; Valk prepara incursão de containers com Rusty/Jax.
+- 05/07: Ryan retomou supervisão técnica; Valk prepara incursão de containers com Rusty/Jax (pack).
 
 **Atualização da sessão (05–09/07 — sessão 010):**
 
-- Scav de materiais em equipe (Valk, Rusty, Jax): Ryan recon solo + drones; time em duplas; retorno limpo.
+- Scav de materiais em equipe (Valk, Rusty, Jax do pack): Ryan recon solo + drones; time em duplas; retorno limpo.
 - Intimidade e aftercare pós-scav; Valk busca Ryan na oficina após dias de produção.
 - Conversa sobre eventual partida de Ryan, legado no pack e visita à Doc (Valk quer ir junto).
 - Combinam scav de **containers** para o dia seguinte; projeto das casas ainda secreto.
@@ -179,7 +179,7 @@ Ryan e Valk integrados no Pack em downtime produtivo. Ryan: arquiteto/mentor (No
 - **Reyes** (Líder) → Confiança estratégica crescente. **14/07:** ouviu protótipo; prometeu responder — sem resposta em 15/07 manhã.
 - **Tio Gringo** (Ferreiro) → Co-apresentou protótipo; time de produção no segredo desde 11/07.
 - **Rusty** (Garagem) → Scav containers 10/07; colaborador técnico recorrente.
-- **Jax** (Overwatch) → Scav 10/07; respeito operacional.
+- **Jax** (pack, overwatch) → Scavs 05/07 e 10/07 — [ficha](../fichas/npc/jax_pack.md). **Não** é Jax "Razor" Kane (crew NC).
 - **Mara** (Recruta) → [ficha](../fichas/npc/mara_recruit.md). **03/07:** aprovou visão do Node; responsável por ciclo biológico e água.
 - **Elias** (Recruta) → [ficha](../fichas/npc/elias_recruit.md). **03/07:** autonomia na destilaria; integrado ao Node com visão de excedente econômico.
 - **Tomas** (Recruta) → [ficha](../fichas/npc/tomas_recruit.md). **03/07:** mecânica e protótipos no Node; monitoramento contínuo (02/07).
