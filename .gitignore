@@ -44,6 +44,8 @@ data/
 deploy/.env
 .env
 .env.*
+!.env.example
+!deploy/.env.example
 
 # Terminais/sessões do agente IA (Cursor/Grok)
 terminals/
