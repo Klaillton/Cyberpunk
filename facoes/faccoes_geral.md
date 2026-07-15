@@ -2,21 +2,21 @@
 
 **Finalidade:** Arquivo para registrar facções menores, grupos passageios ou informações superficiais que ainda não foram aprofundadas.
 
-**Última atualização:** 01 de Julho de 2026
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 
 ---
 
 ## Raffen Shiv (Bando Menor)
 
-**Status com o Jogador:** Hostil (um grupo foi eliminado pelo jogador)
+**Status com o Jogador:** Hostil (remanescentes — vigilância E008)
 
 **Resumo:**
-Bando emboscou o pack no [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) (22–23/06). [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md): mesma área, ~16 Raffen eliminados em incursão noturna silenciosa (Ryan solo). Outros bandos avistados sem contato direto.
+[Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) + [002](../logs/incidente_002_incursao_noturna_raffen.md). **04/07:** célula da **Torre Raffen** eliminada (Reaper). Scavs **05/07** e **10/07** limpas — sem contato novo.
 
 **Notas:**
 
-- Ainda não há informações detalhadas sobre liderança ou estrutura.
-- Pode ser revisitado futuramente caso o jogador cruze novamente com eles.
+- Heat residual possível com outros grupos Raffen.
+- Reputação: **-45** — ver [reputacao.md](../reputacao.md).
 
 ---
 

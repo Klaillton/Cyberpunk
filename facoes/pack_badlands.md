@@ -2,7 +2,7 @@
 
 **Tipo:** Pack Nômade  
 **Status com o Jogador:** Aliado / Relação em fortalecimento  
-**Última atualização:** 04 de Julho de 2026 (sessão 008)
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 
 ---
 
@@ -22,7 +22,8 @@ Ver arquivo principal: `relacionamentos/faccao_relacionamentos.md`
 
 - Ryan é visto como protetor e professor técnico.
 - Tem boa relação com a maioria dos membros, especialmente com o Tio Gringo.
-- Relação com o líder Reyes é de respeito técnico, mas ainda com certa cautela devido ao lado operador de Ryan.
+- Relação com Reyes: confiança estratégica crescente; ouviu protótipo casas (14/07) — **resposta E014 pendente**.
+- Time de produção + Tio Gringo conhecem o projeto de casas modulares; pack geral aguarda aprovação.
 
 ## Pulso do Mundo (off-screen)
 
@@ -59,18 +60,26 @@ Pulsos off-screen: [pulso_do_mundo/pack_badlands/](../pulso_do_mundo/pack_badlan
 - **02/07:** Reunião estratégica com Reyes e Tio Gringo sobre integração dos novos recrutas (Mara, Elias e Tomas). Ryan recomendou Elias para a destilaria e monitoramento de Tomas.
 - **03/07:** **Badlands Node v0.1** aprovado por Reyes. Mara (água/bio), Tomas (mecânica), Elias (destilaria) com papéis delegados.
 - **04/07:** Operação **Torre de Transmissão Raffen** — 6 reféns resgatados; Reaper neutralizado; vigilância elevada.
+- **05–09/07:** Scav materiais; linha de produção casas modulares (segredo parcial).
+- **10/07:** Scav containers (E010) — Container A rebocado; B desmontado.
+- **11/07:** Projeto casas revelado ao time de produção + Tio Gringo.
+- **11–13/07:** Protótipo externo montado/testado; Valk no layout interno.
+- **14/07:** Apresentação formal a Reyes (Valk + Tio Gringo + alunos); resposta prometida, **pendente** em 15/07.
+- **15/07:** Esboço caçada aves (E013) com Valk.
 
 ## Rumores e Informações Parciais
 
-- O Pack parece estar satisfeito com a presença de Ryan, mas ainda não sabe muito sobre seu passado.
-- Alguns membros demonstram receio/respeito pelo lado mais letal de Ryan.
+- Pack aguarda decisão de Reyes sobre habitação modular.
+- Ryan reafirmado como arquiteto técnico e mentor; “desfile” Ryan/Valk no refeitório (14/07) chamou atenção.
+- Alguns membros ainda misturam admiração com cautela pelo lado operador.
 
 ## Notas e Pendências
 
-- A relação com o Pack é temporária, mas já gerou impacto positivo.
-- **Integração dos novos recrutas (Mara, Elias, Tomas):** Em andamento com supervisão. Avaliação inicial positiva, com recomendações específicas de Ryan.
-- Mesmo que Ryan saia por um tempo, o que ele fez pelo Pack (ensino, perímetro, Mule) deve gerar repercussão permanente.
-- Possível desenvolvimento futuro: o Pack pode virar uma base ou contato recorrente.
+- **E014** — Resposta Reyes sobre protótipo.
+- **E012** — Interno + móveis; escala pós-aprovação.
+- **E013** — Caçada aves (referência drones).
+- Recrutas validados em Node/destilaria/estufa; alunos no protótipo.
+- Mesmo que Ryan saia por um tempo, legado técnico (perímetro, Node, casas, ensino) já é permanente.
 
 ---
 

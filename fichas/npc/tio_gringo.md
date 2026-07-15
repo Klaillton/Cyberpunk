@@ -32,11 +32,14 @@
 | 28/06/2026 | Supervisiona tendas e playground; noite em claro com Ryan no Mule. |
 | 02/07/2026 | Reunião com Reyes e Ryan sobre desempenho dos novos recrutas. |
 | 03/07/2026 | Alinhamento com Ryan e Rusty; pré-validação do blueprint **Badlands Node v0.1**. |
+| 11/07/2026 | Ryan revela projeto **casas modulares** ao time de produção (Warden projeta modelo). |
+| 11–13/07/2026 | Mentoria na montagem do protótipo externo com alunos. |
+| 14/07/2026 | **Co-liderou apresentação a Reyes** com Valk; alunos explicaram partes. |
 
 ## Relação com a crew
 
-- **Ryan:** Alta estima mútua; Ryan protege o ego dele ao ensinar o pack.
-- **Valk:** Cordial; parte da vida do acampamento.
+- **Ryan:** Alta estima mútua; orgulho do time de produção no protótipo.
+- **Valk:** Parceira na apresentação Reyes; cordial no dia a dia.
 
 ## Notas para o narrador
 
@@ -48,7 +51,7 @@
 ## Referências
 
 - [Pack Badlands](../../facoes/pack_badlands.md) · [Downtime Ryan](../../logs/downtime_ryan.md)
-- [Sessão 005](../../logs/sessao_resumo_005.md) · [Sessão 007](../../logs/sessao_resumo_007.md)
+- [Sessão 005](../../logs/sessao_resumo_005.md) · [Sessão 007](../../logs/sessao_resumo_007.md) · [Sessão 011](../../logs/sessao_resumo_011.md)
 - [Mapa Relacional](../../relacionamentos/mapa_relacional_geral.md)
 - Imagens: [Tio_Gringo.jpg](../../imagens/Tio_Gringo.jpg) · [Tio_Gringo_arm.jpg](../../imagens/Tio_Gringo_arm.jpg)
 - Pulso: [tio_gringo.md](../../pulso_do_mundo/pack_badlands/tio_gringo.md)

@@ -1,6 +1,6 @@
 # Pulso - Recrutas (Mara, Elias, Tomas)
 
-**Última atualização:** 04 de Julho de 2026  
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 **Escopo:** Acionar com Ryan nas **Badlands** (acampamento). Integração ativa desde 01/07.
 
 ## Motivações Atuais
@@ -38,10 +38,11 @@
 - **03/07/2026 (tarde)** — Elias pediu válvula ao Tio Gringo; integração positiva na destilaria.
 - **03/07/2026 (tarde)** — Mara ajudou a carregar suprimentos com membros antigos do pack.
 - **03/07/2026 (dia)** — **Badlands Node v0.1** aprovado por Reyes; papéis delegados: Mara (água/bio), Tomas (mecânica), Elias (destilaria). *(sessão 007)*
+- **11–14/07/2026** — Alunos do Tio Gringo participaram da montagem/apresentação do protótipo casas (time de produção).
 
 ## Relação com Ryan
 
-Ryan consolidou o núcleo técnico no **Badlands Node v0.1**. Elias autônomo na destilaria; Tomas em mecânica/protótipos sob **monitoramento**; Mara parceira no módulo piloto Água + Biodigestor.
+Núcleo técnico validado no Node. Alunos de forja no protótipo casas; Tomas integrado a turbina/placas no layout; Mara/Elias seguem em paralelo.
 
 ## Ganchos in-scene (Ryan presente)
 

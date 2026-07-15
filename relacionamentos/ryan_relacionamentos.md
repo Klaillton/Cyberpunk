@@ -167,20 +167,19 @@
 **Status:** Hospedagem + Integração em andamento  
 **Confiança geral com o Pack:** Média-Alta (em crescimento)  
 **Duração prevista:** Indefinida  
-**Última atualização:** 05 de Julho de 2026 (sessão 009)
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 
 **Líder do Pack:** Reyes
 
 **Estado atual:**
-Ryan e Valk estão sendo abrigados pelo Pack. Em troca, Ryan tem ajudado intensamente com manutenção, melhorias tecnológicas, construção de perímetro, drones e participação em incursões.
-
-Ryan está ativamente **ensinando novas pessoas do Pack** seu conhecimento técnico e de precisão. Ele também tem ajudado diretamente o **Tio Gringo** (ferreiro mais velho do Pack), com quem construiu uma relação de respeito técnico.
+Ryan e Valk integrados no Pack em downtime produtivo. Ryan: arquiteto/mentor (Node, protótipo casas modulares, scav, drones). Protótipo **externo OK**; apresentação Reyes (14/07) — **E014 pendente**.
 
 **NPCs relevantes do Pack:**
 
-- **Reyes** (Líder) → Relação cautelosa, mas com confiança técnica crescente. **02/07:** concordou com plano de consolidação interna. **03/07:** aprovou oficialmente o **Badlands Node v0.1**.
-- **Tio Gringo** (Ferreiro mais velho) → Respeito técnico alto. **03/07:** pré-validação do blueprint do Badlands Node com Ryan.
-- **Rusty** (Responsável veículos/garagem) → Colaborador técnico. **03/07:** alinhamento de tarefas e pré-apresentação do Node.
+- **Reyes** (Líder) → Confiança estratégica crescente. **14/07:** ouviu protótipo; prometeu responder — sem resposta em 15/07 manhã.
+- **Tio Gringo** (Ferreiro) → Co-apresentou protótipo; time de produção no segredo desde 11/07.
+- **Rusty** (Garagem) → Scav containers 10/07; colaborador técnico recorrente.
+- **Jax** (Overwatch) → Scav 10/07; respeito operacional.
 - **Mara** (Recruta) → [ficha](../fichas/npc/mara_recruit.md). **03/07:** aprovou visão do Node; responsável por ciclo biológico e água.
 - **Elias** (Recruta) → [ficha](../fichas/npc/elias_recruit.md). **03/07:** autonomia na destilaria; integrado ao Node com visão de excedente econômico.
 - **Tomas** (Recruta) → [ficha](../fichas/npc/tomas_recruit.md). **03/07:** mecânica e protótipos no Node; monitoramento contínuo (02/07).

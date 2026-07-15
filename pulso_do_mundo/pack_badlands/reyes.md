@@ -1,14 +1,15 @@
 # Pulso - Reyes (Líder do Pack)
 
-**Última atualização:** 04 de Julho de 2026  
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 **Escopo:** Badlands — acampamento do pack.
 
 ## Motivações Atuais
 - Manter o Pack seguro e estável.
 - Avaliar os novos recrutas (Mara, Elias e Tomas) e decidir o futuro deles no grupo.
 - Decidir até onde expandir as atividades do Pack (destilaria, estufa, comércio, etc.).
-- Gerenciar a presença de Ryan e Valk, equilibrando os benefícios que eles trazem com os riscos (especialmente o lado mais perigoso de Ryan).
-- Fortalecer a estrutura defensiva e produtiva do Pack.
+- **Decidir sobre o protótipo de casas modulares** (E014) — prometeu responder 14/07; pendente em 15/07 manhã.
+- Gerenciar a presença de Ryan e Valk, equilibrando benefícios e riscos.
+- Fortalecer infraestrutura (Node, habitação, defesa).
 
 ## Perguntas de Pulso
 
@@ -35,10 +36,11 @@
 - **03/07/2026 (tarde)** — Enviou dupla de reconhecimento rotineira; retorno sem contato hostil.
 - **03/07/2026 (tarde)** — Observou recrutas de longe; decidiu que precisa alinhar com Ryan sobre supervisão de Tomas (ainda não abordou).
 - **03/07/2026 (dia)** — **Aprovou oficialmente** o **Badlands Node v0.1** após apresentação de Ryan. *(sessão 007)*
+- **14/07/2026** — Ouve apresentação do protótipo casas (Valk + Tio Gringo + alunos); promete resposta no mesmo dia — **ainda não comunicou** em 15/07 manhã.
 
 ## Relação com Ryan
 
-Reyes respeita a competência técnica de Ryan e reconhece o valor que ele trouxe para o Pack. **03/07:** concedeu luz verde ao Badlands Node v0.1 — confiança estratégica elevada. Mantém cautela pelo lado operador de Ryan, mas passou a tratá-lo como arquiteto de infraestrutura do Pack.
+Reyes trata Ryan como **arquiteto/mentor** do Pack (Node + protótipo casas). Confiança estratégica elevada; cautela residual pelo lado operador. **Decisão sobre habitação modular pendente** (E014).
 
 ## Ganchos in-scene (Ryan presente)
 

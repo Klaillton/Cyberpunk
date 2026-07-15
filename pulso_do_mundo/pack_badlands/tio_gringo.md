@@ -1,6 +1,6 @@
 # Pulso - Tio Gringo
 
-**Última atualização:** 04 de Julho de 2026  
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 **Escopo:** Badlands — oficina/forja do pack.
 
 ## Motivações Atuais
@@ -40,12 +40,11 @@
 - **03/07/2026 (tarde)** — Trabalhou sozinho na forja; ajustou ferramenta que Ryan havia calibrado.
 - **03/07/2026 (tarde)** — Elias (recruta) pediu uma válvula para a destilaria — atendido sem drama.
 - **03/07/2026 (dia)** — Pré-validação do blueprint **Badlands Node v0.1** com Ryan e Rusty. *(sessão 007)*
+- **11–14/07/2026** — Time de produção no projeto casas; co-apresentação a Reyes (14/07). Orgulho dos alunos no protótipo.
 
 ## Relação com Ryan
 
-Tio Gringo respeita bastante Ryan. Ele reconhece a habilidade técnica dele e gosta de ter alguém competente para trabalhar junto. No entanto, ele também percebe que Ryan carrega algo "pesado" e que às vezes se isola demais.
-
-**Importante:** Tio Gringo já perguntou diretamente para Ryan se ele está ensinando tanto e ajudando tanto o Pack porque pretende ir embora em breve. A conversa ficou sem definição clara, e isso gerou uma certa desconfiança velada da parte dele. Ele ainda não comentou isso com mais ninguém, mas está observando.
+Alta estima reforçada pelo protótipo e pela apresentação. Ainda observa se Ryan planeja partir (pergunta anterior sem resposta clara), mas o engajamento recente no legado (casas, ensino) amenizou a desconfiança.
 
 ## Ganchos in-scene (Ryan presente)
 

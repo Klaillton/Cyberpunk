@@ -1,7 +1,7 @@
 # Gatilhos e Revelação Gradual - Memórias de Ryan "Wireghost" Voss
 
 **Versão do Narrador (Restrito)**  
-**Última atualização:** 03 de Julho de 2026
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 
 Ryan possui uma resistência **bem maior** do que a maioria das pessoas a gatilhos emocionais. Sua mente desenvolveu mecanismos fortes de dissociação e repressão ao longo da vida. Por isso, as memórias reprimidas **não voltam facilmente**.
 
@@ -81,6 +81,7 @@ Quando um gatilho funciona, Ryan costuma apresentar alguns sinais:
 | A Doc mencionar algo sobre o passado dele durante uma conversa mais séria               | Médio              | Pode ficar irritado ou desconfortável sem saber explicar o motivo.                                |
 | Ser imobilizado durante um combate ou situação de risco                                 | Médio              | Pode ter um flash rápido ou uma reação mais forte que o normal.                                   |
 | Ver alguém sendo obrigado a fazer algo contra a vontade (especialmente alguém do grupo) | Médio              | Gera um desconforto que ele não consegue explicar direito.                                        |
+| **14/07/2026** — Episódio emocional no **depósito** (gatilho “herói” / legado) após apresentação Reyes | Médio | Desconexão breve; Valk acolheu. Não virou memória clara — reforça tema legado/partida. |
 
 ---
 

@@ -76,7 +76,7 @@
 ---
 
 **Arquivo gerado em:** 15 de Julho de 2026  
-**Enviado para GitHub:** Aguardando confirmação do jogador
+**Enviado para GitHub:** Sim (`feature/linha-estavel`, commit `5dc8372`); backfill reputação/estado em commit posterior
 
 ---
 
@@ -88,6 +88,16 @@
 - [relacionamentos/lena_valk_kane_relacionamentos.md](../relacionamentos/lena_valk_kane_relacionamentos.md)
 - [event_queue.md](../event_queue.md)
 - [economia.md](../economia.md)
+- [reputacao.md](../reputacao.md)
+- [heat.md](../heat.md)
+- [facoes/pack_badlands.md](../facoes/pack_badlands.md)
+- [relacionamentos/faccao_relacionamentos.md](../relacionamentos/faccao_relacionamentos.md)
+- [logs/downtime_ryan.md](downtime_ryan.md)
+- [fichas/npc/reyes.md](../fichas/npc/reyes.md)
+- [fichas/npc/tio_gringo.md](../fichas/npc/tio_gringo.md)
+- [pulso_do_mundo/pack_badlands/](../pulso_do_mundo/pack_badlands/) (reyes, tio_gringo, pulso_geral, sasha_e_lira, recrutas)
+- [pulso_do_mundo/crew/valk.md](../pulso_do_mundo/crew/valk.md)
+- [fichas/notas_narrador/ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md)
 - [sistema/dashboard_contexto.md](../sistema/dashboard_contexto.md)
 - [logs/context_pack_atual.md](context_pack_atual.md)
 - [logs/handoff_atual.md](handoff_atual.md)

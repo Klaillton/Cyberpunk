@@ -1,8 +1,8 @@
 # Pulso do Pack - Eventos Off-Screen (Geral)
 
 **Pack:** Pack Nômade de Badlands (acampamento atual)  
-**Última atualização:** 04 de Julho de 2026  
-**Contexto atual:** Ryan e Valk estão integrados. Ryan construiu a cerca defensiva, atualizou o Mule e demonstrou habilidade de combate (operador frio). O Pack está em fase de consolidação.
+**Última atualização:** 15 de Julho de 2026 (sessão 011)  
+**Contexto atual:** Protótipo casas **externo OK**; apresentação Reyes (14/07); **E014** pendente. Time produção no segredo. E013 caçada aves em planejamento.
 
 **Procedimento:** [sistema/pulso_procedimento.md](../../sistema/pulso_procedimento.md) — **1 rolagem d100 por linha, por dia in-game.**
 
@@ -12,7 +12,8 @@
 
 _(Remover quando resolvido. Cada um concede +1 rolagem extra em linhas de impacto ≤ 3 da categoria indicada.)_
 
-- Nenhum no momento.
+- **E014** — Reyes deve responder sobre protótipo casas (+1 rolagem em linhas Reyes / Social até resolver).
+- **Protótipo visível** no acampamento (+1 Oficina / Social se Ryan ausente).
 
 ---
 
@@ -49,6 +50,8 @@ _(Registrar com data in-game. Arquivar após 5 entradas — ver procedimento.)_
 
 - **03/07/2026 (tarde)** — Refeitório e rotina estáveis; clima social levemente agitado por fofoca sobre Ryan/Valk (sem confronto). Ver [logs/pulso_20260703.md](../../logs/pulso_20260703.md).
 - **03/07/2026 (tarde)** — Reconhecimento rotineiro enviado por Reyes; nada anormal reportado.
+- **14/07/2026** — Apresentação protótipo a Reyes; pack comenta “desfile” Ryan/Valk no refeitório.
+- **15/07/2026 (manhã)** — Aguardando resposta Reyes; oficina com protótipo montado.
 
 ---
 

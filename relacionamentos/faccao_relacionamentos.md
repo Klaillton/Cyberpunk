@@ -1,7 +1,7 @@
 # Relacionamentos entre Facções
 
 **Campanha:** Cyberpunk RED  
-**Última atualização:** 03 de Julho de 2026
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 
 ---
 
@@ -9,10 +9,17 @@
 
 ### Pack Nômade de Badlands
 
-- **Status com a Crew:** Aliado em construção
-- **Motivo:** Ryan está hospedado no Pack e tem ajudado intensamente com melhorias técnicas, defensivas e ensino.
+- **Status com a Crew:** Aliado consolidado
+- **Motivo:** Ryan hospedado no Pack; arquiteto/mentor (Node, protótipo casas, scav, ensino).
 - **Risco atual:** Baixo
-- **Impacto na Crew:** Ryan está construindo uma relação sólida com o Pack. **03/07:** Badlands Node v0.1 aprovado — Ryan como arquiteto de infraestrutura. Mesmo que saia por um tempo, o que ele fez deve gerar repercussão permanente.
+- **Impacto na Crew:** Reputação Pack **+72**. Torre Raffen (6 reféns), protótipo apresentado a Reyes (14/07, **E014** pendente). Time produção no segredo; pack geral aguarda aprovação.
+
+### Raffen Shiv (remanescentes)
+
+- **Status com a Crew:** Hostil (latente)
+- **Motivo:** Célula da torre eliminada (04/07); incursões anteriores (001, 002).
+- **Risco atual:** Médio (vigilância residual — E008)
+- **Impacto na Crew:** Scavs 05/07 e 10/07 limpas; sem contato novo.
 
 ### Biotechnica (BT)
 
@@ -37,7 +44,8 @@
 | Biotechnica | Arasaka  | Rivalidade corporativa | Alta        | Ativa        | Competição constante           |
 | Biotechnica | Crew     | Hostilidade latente    | Média       | Investigando | Devido à operação recente      |
 | Arasaka     | Crew     | Neutro                 | Baixa       | Observando   | Ryan evita contato             |
-| Pack Nômade | Crew     | Aliança em construção  | Média-Alta  | Positiva     | Ryan está integrado e ajudando |
+| Pack Nômade | Crew     | Aliança consolidada    | Alta        | Positiva     | Protótipo casas em jogo; Reyes decide (E014) |
+| Raffen Shiv | Pack     | Hostilidade residual   | Média       | Vigilância   | Torre eliminada; outros grupos possíveis |
 
 ---
 

@@ -17,7 +17,7 @@
 - **Protótipo casas modulares:** externo montado/testado; interno em modelagem.
 - Apresentação a **Reyes (14/07)** — resposta **pendente** (E014).
 - Time de produção + Tio Gringo no segredo; pack geral aguarda aprovação.
-- Reputação Pack: **+65 (Muito Positiva)**.
+- Reputação Pack: **+72 (Muito Positiva)** — ver [reputacao.md](../reputacao.md).
 
 ---
 

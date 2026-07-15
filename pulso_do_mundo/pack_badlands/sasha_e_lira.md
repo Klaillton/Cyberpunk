@@ -1,6 +1,6 @@
 # Pulso - Sasha e Lira
 
-**Última atualização:** 04 de Julho de 2026  
+**Última atualização:** 15 de Julho de 2026 (sessão 011)
 **Escopo:** Badlands — jovens do pack.
 
 ## Motivações Atuais
@@ -34,8 +34,11 @@
 
 - **03/07/2026 (almoço)** — Sentaram perto de Valk; conversa leve sobre rotina no deserto (água, turnos, calor) — sem flerte com Ryan.
 - **03/07/2026 (tarde)** — Fofoca velada entre veteranas: “as meninas parecem sinceras agora” em relação à aproximação com Valk.
+- **14/07/2026** — Observaram “desfile” Ryan/Valk no refeitório pós-apresentação Reyes.
 
 ## Relação com Valk
+
+**15/07:** Ryan e Valk conversaram abertamente sobre **Sasha/Lira como tutoria/assistentes** — Valk com ciúme moderado + excitação de Ryan; tutoria ainda não iniciada formalmente.
 
 Inicialmente Sasha demonstrou interesse romântico em Ryan quando ele chegou e começou a se destacar no Pack. Ela tentou se aproximar, mas Valk bloqueou publicamente, deixando claro que Ryan estava com ela. Houve alguns momentos complicados, mas depois de esclarecimentos, as coisas se acalmaram.
 

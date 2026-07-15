@@ -36,11 +36,12 @@
 | 01–02/07/2026 | Recebe recrutas Mara, Elias, Tomas; reunião estratégica com Ryan e Tio Gringo. |
 | 03/07/2026 | **Aprovou oficialmente** o projeto **Badlands Node v0.1** após apresentação de Ryan. |
 | 04/07/2026 | Recebeu debrief de Ryan após operação na Torre Raffen (6 reféns, ameaça neutralizada). |
+| 14/07/2026 | Apresentação formal do **protótipo casas modulares** — Valk + Tio Gringo + alunos; Ryan suporte técnico. Prometeu responder no mesmo dia — **sem resposta** em 15/07 manhã (E014). |
 
 ## Relação com a crew
 
-- **Ryan:** Respeito técnico + cautela pelo lado operador; consulta em expansão do pack.
-- **Valk:** Reconhece como nômade confiável desde a chegada.
+- **Ryan:** Arquiteto/mentor de confiança; cautela residual pelo lado operador. Decisão sobre protótipo **pendente**.
+- **Valk:** Liderou apresentação; reconhecida como parceira operacional de Ryan.
 
 ## Notas para o narrador
 
@@ -52,7 +53,7 @@
 ## Referências
 
 - [Pack Badlands](../../facoes/pack_badlands.md) · [Board](../../board/board_campanha.md)
-- [Sessão 007](../../logs/sessao_resumo_007.md) · [Sessão 008](../../logs/sessao_resumo_008.md)
+- [Sessão 007](../../logs/sessao_resumo_007.md) · [Sessão 008](../../logs/sessao_resumo_008.md) · [Sessão 011](../../logs/sessao_resumo_011.md)
 - [Mapa Relacional](../../relacionamentos/mapa_relacional_geral.md)
 - Imagens: [Reyes.jpg](../../imagens/Reyes.jpg) · [Reyes_token.jpg](../../imagens/Reyes_token.jpg)
 - Pulso: [reyes.md](../../pulso_do_mundo/pack_badlands/reyes.md)
