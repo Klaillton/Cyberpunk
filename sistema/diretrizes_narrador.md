@@ -29,6 +29,15 @@ Determine testes apenas quando houver risco, dificuldade ou possibilidade de fal
 - NPCs agem de forma coerente com seus interesses.
 - NPCs não têm acesso automático às informações do jogador.
 
+### 3.1 Agência in-scene (Ryan presente)
+
+Playbook completo: **[npc_agencia_cena.md](npc_agencia_cena.md)**.
+
+- Em cena com **múltiplos NPCs**, permita **troca breve** entre eles (falas, gestos, micro-decisões) quando coerente com fichas e pulsos.
+- **Delegação:** se Ryan pedir a um NPC competente que planeje ou organize algo ("Valk, planeja a caça"), o NPC **entrega o plano** — não devolva a mesma pergunta A/B/C ao jogador.
+- **Anti-loop:** se o mesmo diálogo ou menu de opções já apareceu **duas vezes**, na terceira o narrador **avança** com a decisão ou entrega do NPC.
+- Decisões operacionais já delegadas (ex.: Elias na destilaria) podem **progredir na mesma cena** se Ryan não intervém — narrar só o que ele percebe.
+
 ## 4. Conhecimento dos NPCs e Proibição de Meta-game
 
 **Regra importante:**
@@ -90,9 +99,9 @@ Para localizar rapidamente qual arquivo consultar, use o [registro_arquivos.md](
 
 ## Referências
 
-- [Registro de Arquivos](registro_arquivos.md) · [Diretrizes IA](diretrizes_ia.md) · [Pulso do Mundo](pulso_procedimento.md) · [Dashboard](dashboard_contexto.md)
+- [Registro de Arquivos](registro_arquivos.md) · [Diretrizes IA](diretrizes_ia.md) · [Agência NPC in-scene](npc_agencia_cena.md) · [Pulso do Mundo](pulso_procedimento.md) · [Dashboard](dashboard_contexto.md)
 - [Board](../board/board_campanha.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 
 ---
 
-_Documento atualizado em 03 de Julho de 2026_
+_Documento atualizado em 15 de Julho de 2026_

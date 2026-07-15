@@ -43,6 +43,12 @@
 
 Ryan consolidou o núcleo técnico no **Badlands Node v0.1**. Elias autônomo na destilaria; Tomas em mecânica/protótipos sob **monitoramento**; Mara parceira no módulo piloto Água + Biodigestor.
 
+## Ganchos in-scene (Ryan presente)
+
+- **Elias ↔ Tio Gringo:** válvula, flange ou prioridade destilaria vs forja — resolvem entre si enquanto Ryan observa.
+- **Mara ↔ veteranos:** pede ajuda com suprimentos ou hidroponia sem passar por Ryan.
+- **Tomas:** nervosismo visível; pode pedir peça a outro recruta em vez de falar com Ryan.
+
 ## Ganchos / Possíveis Eventos
 
 - Tomas some do campo de visão por 20–40 min (accidente vs. desconfiança).

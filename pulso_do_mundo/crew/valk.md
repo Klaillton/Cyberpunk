@@ -44,6 +44,12 @@
 Valk está profundamente envolvida com Ryan. Ela valoriza muito o que têm juntos e tem medo de estragar isso.  
 Ao mesmo tempo, a presença futura de Alex está mexendo com ela de forma que ela mesma ainda não sabe muito bem como lidar. Ela não quer escolher entre os dois, mas também não quer machucar Ryan.
 
+## Ganchos in-scene (Ryan presente)
+
+- **Delegação logística:** Ryan pede plano (caça, scav, rota, horário) → Valk **entrega plano fechado** (saída, rota, equipamento, quem fica no acampamento) — **não** devolve "qual rota você prefere?" em loop.
+- **Caça às aves:** amanhecer, Mule até cânion, pé 2h max, Jax overwatch ou Rusty no rádio; ela no perímetro/volante.
+- Troca curta com **Rusty** ou **Reyes** sobre veículos sem Ryan no meio da conversa.
+
 ## Ganchos / Possíveis Eventos
 
 - Valk vai até a oficina porque Ryan está se isolando demais.

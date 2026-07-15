@@ -2,7 +2,7 @@
 
 **Finalidade:** instruções **passo a passo** que a IA deve seguir ao receber cada comando.  
 **Branch canônica:** `feature/linha-estavel`  
-**Última atualização:** 13 de Julho de 2026
+**Última atualização:** 15 de Julho de 2026
 
 > Tabela resumida também em [instrucoes_projeto.md](instrucoes_projeto.md).  
 > Tier-0: [logs/context_pack_atual.md](../logs/context_pack_atual.md) · [fatos_duros.md](fatos_duros.md).
@@ -188,6 +188,34 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 
 ---
 
+## H) `[Agência NPC]` / observação passiva / delegação
+
+**Objetivo:** NPCs falam entre si, decidem micro-ações ou **executam tarefa delegada** sem controlar Ryan e sem repetir o mesmo menu de opções.
+
+**Sinônimos:** `[Agência NPC]` · `*observo em silêncio*` · `espero` · `deixem eles decidirem` · `Valk, planeja…` · `Elias resolve com o Tio Gringo`
+
+**Guia:** [npc_agencia_cena.md](npc_agencia_cena.md)
+
+### Passos
+
+| # | Ação |
+| - | ---- |
+| 1 | Declarar o gatilho (ambiental / passivo / explícito / **delegação**). |
+| 2 | Ler NOW em `context_pack_atual.md` → NPCs presentes. |
+| 3 | Abrir ficha + pulso de cada NPC na cena (ex.: Valk → `fichas/nomad - lena_valk_kane.md` + `pulso_do_mundo/crew/valk.md`). |
+| 4 | Se **delegação** (Ryan pediu plano/logística): NPC entrega **plano concreto** (horário, rota, equipamento, quem fica onde) — **não** pedir de volta "como você quer planejar". |
+| 5 | Se **passivo/ambiental**: 1–2 falas NPC↔NPC ou 1 micro-decisão; narrar só o que Ryan percebe. |
+| 6 | **Anti-loop:** se a mesma pergunta/opções já apareceu 2× nesta sessão → avançar com decisão do NPC. |
+| 7 | Parar com gancho para Ryan (veto, ajuste, reação) — sem "o que você faz?" genérico. |
+
+### Exemplo rápido (delegação — caça às aves)
+
+- **Jogador:** "Valk, planeja a caça às aves amanhã."
+- **Errado:** repetir "qual rota prefere A/B/C?" quatro vezes.
+- **Certo:** Valk devolve plano (saída 05h20, rota pelo leste, Jax/Rusty no perímetro, volta 10h30); Ryan só ajusta se quiser.
+
+---
+
 ## Tabela rápida
 
 | Comando | Edita arquivos? | Precisa confirmação para gravar? |
@@ -198,11 +226,12 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 | `[Gerar handoff…]` / `[Preparar novo chat]` | Sim (handoff ± pack) | Sim para commit/push; gravar local pode ser imediato se o jogador pediu o handoff |
 | `[Carregar cena]` | Não | — |
 | `[Verificar fato]` | Não | — |
+| `[Agência NPC]` / delegação / `*observo*` | Não | — |
 
 ---
 
 ## Referências
 
 - [Context pack](../logs/context_pack_atual.md) · [Fatos duros](fatos_duros.md) · [Instruções](instrucoes_projeto.md)
-- [Diretrizes IA](diretrizes_ia.md) · [Como atualizar](como_atualizar_arquivos.md) · [Novo chat](novo_chat_procedimento.md)
+- [Diretrizes IA](diretrizes_ia.md) · [Agência NPC in-scene](npc_agencia_cena.md) · [Como atualizar](como_atualizar_arquivos.md) · [Novo chat](novo_chat_procedimento.md)
 - [Template resumo](../logs/sessao_resumo_template.md) · [Template handoff](../logs/handoff_template.md)

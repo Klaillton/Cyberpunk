@@ -40,6 +40,12 @@
 
 Reyes respeita a competência técnica de Ryan e reconhece o valor que ele trouxe para o Pack. **03/07:** concedeu luz verde ao Badlands Node v0.1 — confiança estratégica elevada. Mantém cautela pelo lado operador de Ryan, mas passou a tratá-lo como arquiteto de infraestrutura do Pack.
 
+## Ganchos in-scene (Ryan presente)
+
+- Observa recrutas de longe e **decide** mandar dupla de recon sem consultar Ryan (rotina do pack).
+- Puxa Tio Gringo ou Valk para alinhar logística da scav — diálogo breve NPC↔NPC antes de falar com Ryan.
+- Só envolve Ryan em decisão **estratégica** (Node, expansão, risco externo).
+
 ## Ganchos / Possíveis Eventos
 
 - Reyes chama Ryan para uma conversa particular (sobre expansão, defesa ou recrutas).

@@ -38,6 +38,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Instruções do projeto (boot) | `sistema/instrucoes_projeto.md` | `diretrizes_ia.md`, este arquivo |
 | Regras da IA (boot sequence) | `sistema/diretrizes_ia.md` | `instrucoes_projeto.md`, este arquivo |
 | Regras do narrador | `sistema/diretrizes_narrador.md` | `sistema/diretrizes_ia.md` |
+| NPCs agem / falam entre si na cena (delegação, anti-loop) | `sistema/npc_agencia_cena.md` | `diretrizes_narrador.md` §3.1, `comandos_jogador.md` § H, pulsos |
 | Como atualizar após sessão | `sistema/como_atualizar_arquivos.md` | Este arquivo |
 | **Tier-0 / anti-esquecimento sandbox** | `logs/context_pack_atual.md` | `sistema/fatos_duros.md`, `sistema/comandos_jogador.md` |
 | Fatos que não se inventam | `sistema/fatos_duros.md` | context pack, board |
@@ -159,6 +160,7 @@ cyberpunk/
 │   └── reina_bearclaw_morales_relacionamentos.md
 └── sistema/
     ├── instrucoes_projeto.md      ← Instruções do projeto (espelho versionado)
+    ├── npc_agencia_cena.md        ← NPCs in-scene: delegação, troca NPC↔NPC, anti-loop
     ├── pulso_procedimento.md      ← Motor off-screen (1×/dia in-game)
     ├── novo_chat_procedimento.md  ← Abrir chat novo + handoff
     ├── comandos_jogador.md        ← Playbooks passo a passo

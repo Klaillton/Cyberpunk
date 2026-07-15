@@ -90,6 +90,7 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 | `[Finalizar sessão e gerar resumo]` | C — resumo + estado + context pack + handoff (**confirma antes de gravar**) |
 | `[Gerar handoff para novo chat]` / `[Preparar novo chat]` | D — sobrescreve `handoff_atual` (± pack) |
 | `[Carregar cena: …]` / `[Verificar fato: …]` | E — carga pontual / citação SoT |
+| `[Agência NPC]` / delegação / `*observo em silêncio*` | H — NPCs agem ou planejam; ver [npc_agencia_cena.md](npc_agencia_cena.md) |
 
 | Outros | Ação |
 | ------ | ---- |

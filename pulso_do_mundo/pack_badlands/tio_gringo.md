@@ -47,6 +47,12 @@ Tio Gringo respeita bastante Ryan. Ele reconhece a habilidade técnica dele e go
 
 **Importante:** Tio Gringo já perguntou diretamente para Ryan se ele está ensinando tanto e ajudando tanto o Pack porque pretende ir embora em breve. A conversa ficou sem definição clara, e isso gerou uma certa desconfiança velada da parte dele. Ele ainda não comentou isso com mais ninguém, mas está observando.
 
+## Ganchos in-scene (Ryan presente)
+
+- **Elias:** pede peça ou validação técnica na destilaria — Tio Gringo responde direto (válvula, flange, meia hora de ajuste).
+- **Valk:** comenta com Tio Gringo que Ryan está exausto — troca curta sem envolver Ryan no centro.
+- Decide sozinho prioridade de forja vs pedido de recruta se Ryan não intervém.
+
 ## Ganchos / Possíveis Eventos
 
 - Tio Gringo vai até a oficina chamar Ryan porque precisa de ajuda em algo específico.

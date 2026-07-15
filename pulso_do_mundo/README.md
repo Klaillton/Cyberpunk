@@ -2,6 +2,8 @@
 
 Simulação off-screen de NPCs e do pack enquanto Ryan não está na cena.
 
+**In-scene (Ryan presente):** NPCs também podem agir na mesma cena — delegação, troca NPC↔NPC, anti-loop. Ver [sistema/npc_agencia_cena.md](../sistema/npc_agencia_cena.md).
+
 ## Como usar
 
 1. Leia o motor em **[sistema/pulso_procedimento.md](../sistema/pulso_procedimento.md)**.
