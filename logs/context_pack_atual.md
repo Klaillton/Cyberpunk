@@ -38,6 +38,7 @@
 | **F03** | Warden = drone **terrestre** scorpion (**não voa**) |
 | **F04** | **Stitch** = Stephania (crew); **Doc** = Elisa Moreau (passado) |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
+| **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” (promessa 14/07; gatilho ativo) |
 | F07 | Ryan × Valk consolidados |
 | F08 | Mule = de Valk; equipe Valk + Mule |
 | **F11** | Casas modulares — **pack geral** ainda sem revelação oficial (Reyes não aprovou) |
@@ -65,7 +66,7 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 ## O que acabou de acontecer (011 — 1 parágrafo)
 
-Scav containers (10/07); protótipo externo montado/testado (11–13/07); apresentação Reyes (14/07, resposta pendente); esboço caçada aves com Valk (15/07 manhã).
+Scav containers (10/07); protótipo externo montado/testado (11–13/07); apresentação Reyes (14/07, resposta pendente); episódio **“herói solitário”** com Valk (oficina→depósito; ela prometeu não repetir; reconciliaram); esboço caçada aves com Valk (15/07 manhã).
 
 Detalhe: [sessao_resumo_011.md](sessao_resumo_011.md) · Share: [part4](https://grok.com/share/c2hhcmQtMw_c462a01a-83a2-4634-aca9-08598b3bbc38)
 

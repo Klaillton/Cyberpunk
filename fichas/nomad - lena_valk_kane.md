@@ -74,6 +74,8 @@ Lealdade comprovada, confiabilidade e liberdade na estrada. Acredita que ações
 
 Ryan e Valk estão namorando. Ryan ajuda ativamente ela com manutenção do [The Mule](vehicle%20-%20the_mule.md), upgrades e nas missões. No pack e na crew maior eles formam trio com o veículo; na estrada, o núcleo operacional continua sendo **Valk + Mule**.
 
+**Fala (pós-14/07/2026):** Valk **evita** chamar Ryan de “herói” ou “herói solitário” — a expressão acionou um gatilho doloroso e ela **prometeu** parar (episódio na oficina/depósito após a apresentação das casas dobráveis). Ver [gatilhos Ryan](notas_narrador/ryan_gatilhos_memorias.md) e [relacionamentos Valk](../relacionamentos/lena_valk_kane_relacionamentos.md).
+
 ## Tabela de Serviços
 
 | Serviço                              | Preço Base       | Risco         | Observações                          |

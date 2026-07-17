@@ -210,6 +210,8 @@ Fim do período: peças principais quase prontas para protótipo; **scav de cont
 
 **14–15/07:** Ryan propôs caçada de aves (referência para drones observação). Valk apresentou esboço de plano (grupos pequenos, rota leste/sul, recon drones, saída amanhã cedo se Reyes não atrasar).
 
+**14/07 tarde (oficina → depósito) — gatilho “herói solitário”:** Após a apresentação das casas e a comemoração do time na oficina, Valk e Ryan falaram de incursões / base militar. Valk repetiu **“herói solitário”** (preocupação protetora). Ryan pediu para não o chamar de herói; ela **prometeu** parar; **repetiu** a expressão → Ryan se afastou ao depósito da oficina (raiva + dor sem memória do porquê). Valk o buscou; conversaram; reconciliaram. Relação permanece estável. Gatilho verbal **ativo**; Valk com restrição de fala consciente. Detalhe: [ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md) · **F15**.
+
 **Impactos:**
 
 - **E010 resolvida**; Container A e material estrutural no pack.
@@ -217,6 +219,7 @@ Fim do período: peças principais quase prontas para protótipo; **scav de cont
 - Segredo F11 **parcialmente levantado** (time produção + Tio Gringo); pack geral aguarda Reyes.
 - **E014** (resposta Reyes) e **E013** (caçada aves) abertos.
 - Reputação Ryan como mentor/arquiteto reforçada; Ryan × Valk com conversa sobre Sasha/Lira.
+- **Gatilho “herói” / “herói solitário”** registrado e ativo; Valk **não** reutiliza a expressão com Ryan (promessa 14/07).
 
 ---
 

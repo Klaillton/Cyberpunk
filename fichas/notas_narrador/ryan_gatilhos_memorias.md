@@ -1,7 +1,7 @@
 # Gatilhos e Revelação Gradual - Memórias de Ryan "Wireghost" Voss
 
 **Versão do Narrador (Restrito)**  
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 17 de Julho de 2026 (canonização gatilho “herói solitário” — sessão 011)
 
 Ryan possui uma resistência **bem maior** do que a maioria das pessoas a gatilhos emocionais. Sua mente desenvolveu mecanismos fortes de dissociação e repressão ao longo da vida. Por isso, as memórias reprimidas **não voltam facilmente**.
 
@@ -51,6 +51,8 @@ Os gatilhos mais eficazes são aqueles que:
 
 - **Situações que lembram "obediência forçada" ou "perda de controle"**.
 
+- **A palavra “herói” / “herói solitário”** dirigida a Ryan (ver [seção dedicada](#gatilho-canônico-herói--herói-solitário-ativo-desde-14072026)).
+
 ### Gatilhos que quase não funcionam:
 
 - Violência em si (ele está muito acostumado).
@@ -81,7 +83,62 @@ Quando um gatilho funciona, Ryan costuma apresentar alguns sinais:
 | A Doc mencionar algo sobre o passado dele durante uma conversa mais séria               | Médio              | Pode ficar irritado ou desconfortável sem saber explicar o motivo.                                |
 | Ser imobilizado durante um combate ou situação de risco                                 | Médio              | Pode ter um flash rápido ou uma reação mais forte que o normal.                                   |
 | Ver alguém sendo obrigado a fazer algo contra a vontade (especialmente alguém do grupo) | Médio              | Gera um desconforto que ele não consegue explicar direito.                                        |
-| **14/07/2026** — Episódio emocional no **depósito** (gatilho “herói” / legado) após apresentação Reyes | Médio | Desconexão breve; Valk acolheu. Não virou memória clara — reforça tema legado/partida. |
+| **14/07/2026** — Valk repete **“herói solitário”** na oficina (pós-apresentação casas); Ryan se afasta ao depósito | Médio | Raiva + dor **sem** memória do porquê; pediu tempo; Valk prometeu parar e acolheu. Ver seção dedicada abaixo. |
+
+---
+
+## Gatilho canônico: “herói” / “herói solitário” (ativo desde 14/07/2026)
+
+**Status:** ativo · memória **não** desbloqueada · relação Ryan × Valk **estável** após o episódio.
+
+### Frases gatilho
+
+- **“herói”**, **“herói solitário”** e variações (*“meu herói…”*, *“nada de herói…”*, *“sem herói solitário”*) quando **dirigidas a Ryan** no sentido de salvação solo, fardo heroico ou “não vá sozinho como um herói”.
+- Não é insulto — costuma vir de **preocupação protetora**. Ainda assim aciona.
+
+### Histórico de uso (antes do estalo)
+
+- Em sessões anteriores Valk (e outros) usaram “herói” de **brincadeira**; Ryan às vezes ria e desviava (*“não, herói não…”*).
+- O **estalo forte** foi em **14/07/2026**, com **guarda baixa** (pós-apresentação Reyes das casas dobráveis, comemoração do time na **oficina**, conversa íntima sobre incursões / base militar / caça).
+
+### Sequência canônica (14/07/2026)
+
+1. **Oficina** — Valk repete *“Sem herói solitário, combinado?”* por preocupação com planos de scav/incursão.
+2. Ryan pede com seriedade: *“Não me chama de herói… Eu não sou um herói… Só… não me chama de herói de novo.”* Abraço.
+3. Valk **promete**: *“Desculpa… Não vou mais chamar. Prometo.”*
+4. Pouco depois, no mesmo contexto, Valk **repete** *“herói solitário”* de novo.
+5. Ryan se **afasta** — vai ao **depósito da oficina**, testa nas mãos, só respirando.
+6. Sintomas: **raiva + dor**; tenta lembrar e **não consegue o porquê**.
+7. Valk o busca; acolhe; Ryan verbaliza o bloqueio; reconciliam; voltam juntos. **Ficou bem.**
+
+### Efeito observado (o que narrar)
+
+| Nível | O que acontece |
+| ----- | -------------- |
+| Sensação | Raiva e dor antigas, desproporcionais à frase |
+| Memória | **Nada claro.** Não inventar flashback nem “explicação” do trauma |
+| Comportamento | Silêncio, tensão, impulso de **se afastar**; em pico forte: pede tempo e sai |
+| Depois | Pode voltar ao carinho se acolhido; não precisa monólogo de trauma |
+
+**Nível de revelação:** médio (afeto bruto + bloqueio). Origem permanece em `ryan_background_completo.md` para desbloqueio futuro (Doc / alta carga) — **não revelar agora**.
+
+### Comportamento NPC — Valk (obrigatório pós-14/07)
+
+- Valk **sabe** que a palavra machuca e **prometeu** não usar.
+- **Proibido** reutilizar “herói” / “herói solitário” com Ryan como bordão, apelido ou “combinado?”.
+- A mesma preocupação se expressa com **outras frases**: *“não vai sozinho”*, *“a gente planeja juntos”*, *“sem solo”*, *“com cobertura”*, *“leva o time”*.
+- Se a narradora fizer Valk usar de novo **sem** motivo de plot forçado pelo jogador = **quebra de canon / quebra de promessa** (e possível novo pico emocional).
+
+### Outros NPCs
+
+- “Herói” de brincadeira por outro personagem → reação **leve a média** (desconforto, desvio, humor seco), não necessariamente o pico do depósito.
+- Repetição **depois** de Ryan pedir para parar (qualquer pessoa) eleva a chance de pico, sobretudo com **guarda baixa**.
+
+### Regra para o narrador
+
+- Preferir **sinais** (silêncio, olhar, afastamento, “Minha cabeça não presta”) a monólogo de trauma.
+- **Não forçar** memória clara nem explicar o “porquê” in-fiction.
+- Detalhe relacional: [Ryan](../../relacionamentos/ryan_relacionamentos.md) · [Valk](../../relacionamentos/lena_valk_kane_relacionamentos.md) · fato duro **F15**.
 
 ---
 
@@ -104,6 +161,7 @@ Quando um gatilho funciona, Ryan costuma apresentar alguns sinais:
 - Em **modo operador** quase não funciona.
 - Os gatilhos mais fortes são aqueles que **contradizem** a versão distorcida que ele tem da própria vida.
 - Ele pode "desligar" sem necessariamente ter uma memória clara.
+- **“Herói” / “herói solitário”** (sobre Ryan) = gatilho **ativo**; Valk **não** usa mais (promessa 14/07; **F15**).
 
 ---
 

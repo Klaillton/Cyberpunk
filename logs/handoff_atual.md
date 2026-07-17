@@ -43,6 +43,7 @@ Ryan e Valk no café; esboço de caçada de aves feito; **Reyes ainda não respo
 - **11/07:** Revelação ao time de produção; início montagem protótipo.
 - **11–13/07:** Estrutura externa OK; Valk no layout interno; discurso capacitação.
 - **14/07:** Apresentação Reyes (Valk + Tio Gringo + alunos); resposta prometida, **pendente**.
+- **14/07 tarde:** Gatilho **“herói solitário”** (Valk → Ryan; promessa dela; afastamento ao depósito; reconciliação). **F15:** Valk não reutiliza a expressão.
 - **15/07:** Esboço caçada aves (Valk: 2–3 veículos, recon drones, amanhã cedo).
 
 Detalhe: [sessao_resumo_011.md](sessao_resumo_011.md)
@@ -76,6 +77,7 @@ Detalhe: [sessao_resumo_011.md](sessao_resumo_011.md)
 - Protótipo casas: externo OK; Reyes **não respondeu** (E014)
 - Caçada aves: esboço Valk (E013)
 - Warden = terrestre. F11: pack geral ainda sem revelação oficial.
+- **F15:** Valk **não** chama Ryan de “herói” / “herói solitário”.
 
 ## Comece
 Confirme boot (1 frase) e continue: **manhã 15/07 — Ryan aguarda Reyes ou confirma caçada com Valk.**

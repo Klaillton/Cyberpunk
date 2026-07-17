@@ -30,6 +30,7 @@
 - Consolidada; intimidade frequente.
 - Valk liderou apresentação Reyes; projeto layout interno.
 - Discussão Sasha/Lira (tutoria); esboço caçada aves.
+- **F15:** Valk **evita** “herói” / “herói solitário” com Ryan (promessa 14/07; gatilho que dói).
 
 ---
 

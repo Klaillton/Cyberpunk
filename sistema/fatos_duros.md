@@ -2,7 +2,7 @@
 
 **Finalidade:** lista **estável** de fatos que a IA **não pode inventar nem inverter**.  
 **Uso:** tier-0 com `logs/context_pack_atual.md`; comando `[Verificar fato]`; boot/refresh.  
-**Última revisão estrutural:** 15 de Julho de 2026 (F14 — Scout ≠ Razor)
+**Última revisão estrutural:** 17 de Julho de 2026 (F15 — Valk não chama Ryan de “herói”)
 
 > Snapshot de **data/local/prioridade** vive no **context pack** (muda a cada sessão).  
 > Este arquivo muda **raramente** — só quando a campanha redefinir um fato canônico.
@@ -38,6 +38,7 @@
 | **F11** | Casas modulares dobráveis = projeto de Ryan; **segredo** até protótipo / revelação consciente | board / event_queue E012 |
 | **F12** | Vespas de combate/recon: **Hornet, Vesper, Barbed** (além do Warden) — nomes e papéis conforme ficha | ficha Ryan |
 | **F13** | Próximo número de resumo de sessão: ver `registro_arquivos.md` (não inventar o NNN) | registro_arquivos |
+| **F15** | Valk **não** se refere a Ryan como **“herói”** / **“herói solitário”** (promessa pós-episódio **14/07/2026** na oficina/depósito). Preocupação = outras palavras. Gatilho ativo; memória **não** desbloqueada | [ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md) · relacionamentos Ryan/Valk |
 
 ---
 
@@ -63,6 +64,7 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 - Não usar data de chat Grok (ex. 24/06) se o **board** diz julho/2026.
 - Não criar NPC/facção/local já listado em `registro_arquivos` / mapa.
 - Não colocar **Jax “Razor” Kane** (crew) nas Badlands em scav/incursão — usar **Scout** ([scout.md](../fichas/npc/scout.md)).
+- Não fazer Valk chamar Ryan de **“herói”** / **“herói solitário”** (bordão ou “combinado?”) — promessa 14/07; gatilho que dói (**F15**). Usar *não vai sozinho*, *planeja comigo*, *leva o time*.
 
 ---
 

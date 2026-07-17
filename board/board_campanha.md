@@ -32,6 +32,7 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 - **Scav 10/07 (E010):** Container A rebocado; B desmontado; retorno limpo.
 - **11/07:** Projeto revelado ao time de produção + Tio Gringo (Warden/holograma).
 - **14/07:** Apresentação a Reyes — Valk + Tio Gringo + alunos; Reyes prometeu responder no mesmo dia.
+- **14/07:** Gatilho “herói solitário” (Valk × Ryan); ela prometeu não repetir; reconciliaram (**F15**).
 - **Operação Torre Raffen (04/07):** Reaper e braços eliminados; 6 reféns salvos.
 - Reyes aprovou Badlands Node (03/07); protótipo em execução.
 
@@ -51,7 +52,7 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 
 | Nome                 | Papel                  | Relação com Ryan                  | Notas |
 |----------------------|------------------------|-----------------------------------|-------|
-| **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Liderou apresentação Reyes; esboço caçada aves — [ficha](../fichas/nomad%20-%20lena_valk_kane.md) |
+| **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Liderou apresentação Reyes; esboço caçada aves; **evita “herói” com Ryan (F15)** — [ficha](../fichas/nomad%20-%20lena_valk_kane.md) |
 | **Reyes** | Líder do Pack | Confiança estratégica | Ouveu protótipo 14/07; **resposta pendente** (E014) — [ficha](../fichas/npc/reyes.md) |
 | **Tio Gringo** | Ferreiro | Alta estima | Co-apresentou protótipo; mentor do time — [ficha](../fichas/npc/tio_gringo.md) |
 | **Rusty** | Garagem/veículos | Colaborador técnico | Mule na scav 10/07 |

@@ -20,6 +20,8 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **04–05/07/2026:** Descompressão pós-missão (sono profundo, intimidade); projeto casas modulares (segredo); canto no perímetro (*Hurt*, *Sleeping in the Cold Below*); memória da “tia” compartilhada; Valk organiza scav de materiais (05/07).
 - **05–09/07/2026 (sessão 010):** Scav de materiais com Ryan/Rusty/Scout (dois veículos); intimidade pós-scav; conversa sobre eventual partida de Ryan e ida à Doc juntos; Valk busca Ryan na oficina e organiza **scav de containers** para o dia seguinte.
 - **10–15/07/2026 (sessão 011):** Scav containers; co-liderou apresentação Reyes com Tio Gringo; projetou layout interno do protótipo; conversa Sasha/Lira (assistentes); esboço caçada aves (E013).
+- **14/07/2026 (oficina → depósito) — gatilho “herói solitário”:** Na oficina (pós-apresentação das casas dobráveis / comemoração do time), falando de incursões e base militar, Valk usou **“herói solitário”** por preocupação. Ryan pediu sério para parar; ela **prometeu** não chamar mais. Pouco depois **repetiu** a expressão → Ryan se afastou ao **depósito da oficina** (raiva + dor sem lembrar o porquê). Valk o buscou, acolheu; reconciliaram; voltaram juntos. Relação estável.
+- **Regra de fala (ativa):** Valk **não** se refere a Ryan como “herói” / “herói solitário”. Expressa a mesma preocupação com outras palavras (*não vai sozinho*, *a gente planeja juntos*, *sem solo*, *com cobertura*). Ver [gatilhos Ryan](../fichas/notas_narrador/ryan_gatilhos_memorias.md) e **F15**.
 
 ### Alex "Specter" Kane
 

@@ -69,17 +69,19 @@
 - Liderou scav containers (10/07); revelou casas modulares ao time de produção (11/07); montou protótipo com Valk e alunos.
 - Delegou apresentação a Reyes a Valk + Tio Gringo (14/07); discurso de capacitação ao time (cada família constrói/repara).
 - Conversa aberta com Valk sobre **Sasha/Lira** (tutoria/assistentes; ciúme + excitação).
-- Episódio emocional no depósito (14/07); Valk acolheu.
+- **14/07 — gatilho “herói solitário”:** Na oficina (pós-apresentação casas / comemoração), Valk usou a expressão por preocupação com incursões; Ryan pediu para parar; ela **prometeu**; repetiu → Ryan se afastou ao **depósito** (raiva + dor **sem** lembrar o porquê). Valk o buscou; reconciliaram; voltaram juntos. Detalhe: [ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md).
 - Esboço caçada aves com Valk (15/07) — referência para drones.
 
 **Estado atual:**
 
 - Ryan e Valk estão juntos de forma estável e cumplices no piloto de habitação.
 - Valk apoia os projetos de Ryan e equilibra o “modo operador” com a vida no pack.
+- Valk **não** usa mais “herói” / “herói solitário” com Ryan (**promessa 14/07**; fato **F15**).
 
 **Notas do Narrador:**
 
 - A relação está em um bom momento, mas ainda carrega resquícios da tensão antiga.
+- Gatilho verbal “herói” permanece **ativo** (memória fechada); Valk está ciente e evita a palavra.
 
 ---
 

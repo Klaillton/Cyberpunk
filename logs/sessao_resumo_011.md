@@ -19,7 +19,7 @@
 - **11–13/07 — Montagem protótipo:** Estrutura externa montada e testada (abrir/fechar). Valk projeta layout interno (Neuralink + Warden). Integração com climatização, banho, turbina Tomas, placas solares (cada casa = unidade de geração redundante).
 - **13/07 — Discurso ao time:** Ryan propõe que cada família participe da construção/reparo da própria casa; alunos viram professores; conhecimento compartilhado fortalece o pack.
 - **14/07 — Apresentação Reyes:** Ryan, Valk e Tio Gringo arrumados; Valk + Tio Gringo lideram apresentação com alunos (Ryan só suporte técnico/Warden). Protótipo revelado. Reyes ouviu, perguntou, disse que **pensaria e responderia ainda hoje** — resposta **não chegou** até 15/07 manhã.
-- **14/07 tarde/noite:** Ryan propõe caçada de pássaros (referência para drones observação); episódio emocional no depósito (gatilho “herói”); Valk acolhe.
+- **14/07 tarde/noite — oficina → depósito:** Pós-apresentação e comemoração do time; conversa com Valk sobre incursões/base militar/caça. Valk usa **“herói solitário”** (preocupação); Ryan pede para parar; ela **promete**; **repete** → Ryan se afasta ao **depósito da oficina** (raiva + dor sem lembrar o porquê). Valk o busca; reconciliam; voltam juntos. Em seguida: proposta de caçada de pássaros (referência drones).
 - **15/07 manhã:** Ryan pede a Valk plano da **caçada às aves**; ela entrega **esboço** (2–3 veículos, rota leste/sul, recon drones, abortar se hostil; saída amanhã cedo se Reyes não atrasar).
 
 ---
@@ -29,6 +29,7 @@
 ### Relacionamentos
 
 - Ryan × Valk: consolidados; intimidade frequente; Ryan delega apresentação a ela; conversa aberta sobre **Sasha/Lira** (tutoria/assistentes, ciúme + excitação de Ryan).
+- **Gatilho “herói solitário” (14/07):** Valk prometeu não usar a expressão; repetiu uma vez → afastamento de Ryan ao depósito; reconciliação. Valk evita a palavra daí em diante (**F15**).
 - Time de produção / Tio Gringo: confiança e orgulho reforçados; alunos ganham protagonismo na apresentação.
 
 ### Reputação / Heat / Economia

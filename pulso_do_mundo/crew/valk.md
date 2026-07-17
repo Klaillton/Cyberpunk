@@ -39,13 +39,15 @@
 - **03/07/2026 (meio-dia)** — Acordou perto do meio-dia; Ryan já tinha saído em silêncio. Não confrontou; ficou um momento olhando a tenda vazia.
 - **03/07/2026 (almoço)** — Sasha e Lira sentaram perto; conversa prática e cordial (rotina no deserto). Valk retribuiu com simpatia cautelosa.
 - **10/07** — Scav containers com Ryan/Rusty/Scout.
-- **14/07** — Liderou apresentação Reyes com Tio Gringo; “desfile” no refeitório com Ryan.
+- **14/07** — Liderou apresentação Reyes com Tio Gringo; “desfile” no refeitório com Ryan; episódio “herói solitário” na oficina/depósito (prometeu não repetir; reconciliaram).
 - **15/07 (manhã)** — Entregou **esboço de plano** da caçada aves (E013) a pedido de Ryan.
 
 ## Relação com Ryan (visão atual)
 
 Valk está profundamente envolvida com Ryan. Ela valoriza muito o que têm juntos e tem medo de estragar isso.  
 Ao mesmo tempo, a presença futura de Alex está mexendo com ela de forma que ela mesma ainda não sabe muito bem como lidar. Ela não quer escolher entre os dois, mas também não quer machucar Ryan.
+
+**Promessa 14/07 (obrigatória):** **Não** chamar Ryan de “herói” / “herói solitário” (gatilho que o machucou; ela prometeu parar e ele se afastou quando ela repetiu). Preocupação = *não vai sozinho*, *planeja comigo*, *leva o time* — nunca o bordão antigo. Detalhe: [ryan_gatilhos_memorias.md](../../fichas/notas_narrador/ryan_gatilhos_memorias.md) · **F15**.
 
 ## Ganchos in-scene (Ryan presente)
 
