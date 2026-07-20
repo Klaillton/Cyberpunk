@@ -8,7 +8,15 @@
 
 Ryan é um homem de aparência jovem mas marcada, com cerca de 35 anos. Tem cabelos brancos/prateados, ligeiramente bagunçados, que contrastam com seu rosto sério e endurecido. Traços fortes, mandíbula definida, maçãs do rosto marcadas e uma expressão que transmite experiência acumulada e uma certa frieza.
 
-Ele usa equipamento tático preto fosco com detalhes em vermelho e metal escovado. A roupa é funcional e reforçada: calça cargo, botas pesadas, colete com proteções e ombreiras. Seu rosto está quase sempre parcialmente coberto por uma máscara preta tática, deixando apenas os olhos à mostra — olhos com brilho azul profundo, resultado de implantes óticos.
+Ele usa equipamento tático preto fosco com detalhes em vermelho e metal escovado. A roupa é funcional e reforçada: calça cargo, botas pesadas, colete com proteções e ombreiras.
+
+### Máscara tática (meia-face)
+
+Ryan usa quase sempre uma **máscara preta fosca de meia-face**, de origem militar/scav, pesadamente modificada por ele mesmo. O design é angular e industrial, sem qualquer ornamentação. Cobre boca, nariz e parte da mandíbula, deixando apenas os olhos (Kiroshi) expostos.
+
+Possui filtro frontal modular (útil contra poeira das Badlands e gases leves), vedação macia nas bordas e sistema de liberação rápida por ímã. Há uma porta de interface discreta na lateral e microfone interno já integrado ao Cyberaudio Suite. Quando está em modo operador, a voz sai um pouco mais neutra e fria.
+
+Ele a trata como ferramenta, não como acessório. Tira com facilidade quando está em zona segura ou com Valk.
 
 Nas costas carrega o **Warden**, um drone escorpião grande e imponente que parece parte de sua armadura quando dobrado. Warden tem pinças e caudas metálicas que ficam guardadas a maior parte do tempo sendo confundido com uma mochila metálica, com linhas azuis brilhantes de energia percorrendo as articulações. Flutuando próximo a ele, costuma estar o **Vesper** (ou um dos drones outros do time), dando a impressão de que Ryan está sempre acompanhado de tecnologia viva.
 
@@ -210,7 +218,6 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 
 - **Tipo:** Conjunto de 6–8 lâminas/tubos afiados customizados (estilo kunai modernas + tubos com laterais afiadas).
 - **Carry:** Distribuidas em bainhas ocultas no antebraço (Cyberarm), cinto, bota e dentro do Warden (para recarga rápida).
-- **Características principais:**
   - Lâminas balanceadas para arremesso preciso (alcance efetivo 8–15 m).
   - Design modular: algumas com bordas serrilhadas, outras com ponta perfurante reforçada e pequenas cavidades para veneno ou nanites.
   - Material leve mas extremamente resistente (liga de titânio + carbono).
