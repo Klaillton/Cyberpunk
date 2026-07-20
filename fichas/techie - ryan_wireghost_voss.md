@@ -28,10 +28,12 @@ Seu visual transmite alguém que já passou por muita coisa e transformou o trau
 | --- | ------- |
 | **Tático / operador** (Warden + Vespas) | ![Ryan tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) |
 | **Dia a dia / oficina** (roupa de trabalho) | ![Ryan casual](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png) |
+| **Máscara tática** (meia-face) | ![Máscara tática](../imagens/ryan/mascara_tatica.jpg) |
 | **Guarda-roupa por ocasião** | [ryan_guarda_roupas.md](ryan_guarda_roupas.md) · pasta [imagens/ryan/guarda_roupas/](../imagens/ryan/guarda_roupas/) |
 
 - Tático: [imagens/techie - ryan_wireghost_voss.jpg](../imagens/techie%20-%20ryan_wireghost_voss.jpg)
 - Casual / workshop: [imagens/techie - ryan_wireghost_voss_daily_clothes.png](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png)
+- Máscara: [imagens/ryan/mascara_tatica.jpg](../imagens/ryan/mascara_tatica.jpg)
 - Catálogo completo (Badlands / NC / Wireghost): [**Guarda-roupa**](ryan_guarda_roupas.md)
 
 **Narração visual:** em job/scav/combate, preferir o visual tático (armadura, Warden nas costas) ou seções Wireghost do guarda-roupa. Em pack, oficina e cenas domésticas com Valk, preferir henley / daily_clothes e o catálogo Badlands.
@@ -305,7 +307,7 @@ Antigo cliente que deve vários favores a ele.
 ## Referências
 
 - [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)
-- **Imagens:** [tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) · [casual / oficina](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png) · [**guarda-roupa**](ryan_guarda_roupas.md)
+- **Imagens:** [tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) · [casual / oficina](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png) · [máscara](../imagens/ryan/mascara_tatica.jpg) · [**guarda-roupa**](ryan_guarda_roupas.md)
 - **Notas do Narrador:** [Background completo](notas_narrador/ryan_background_completo.md) · [Gatilhos e memórias](notas_narrador/ryan_gatilhos_memorias.md)
 - **Elisa "Doc" Moreau:** ver [Contatos e Amigos](#contatos-e-amigos) (sem ficha própria)
 - **Estado:** [Board](../board/board_campanha.md) · [Downtime](../logs/downtime_ryan.md) · [Consequências](../consequencias/consequencias_persistentes.md)
