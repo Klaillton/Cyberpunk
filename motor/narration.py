@@ -129,6 +129,8 @@ def _ollama_generate_once(
         "prompt": prompt,
         "stream": False,
         "keep_alive": cfg.ollama_keep_alive,
+        # Gemma 4 (e afins) defaultam thinking e deixam `response` vazio.
+        "think": False,
     }
     options: dict = {}
     if temperature is not None:
@@ -159,6 +161,11 @@ def _ollama_generate_once(
         raise RuntimeError(f"Ollama indisponivel em {cfg.ollama_base_url}: {exc}") from exc
 
     text = str(parsed.get("response", "")).strip()
+    if not text:
+        # Fallback se think nao foi desligado: usar thinking so como ultimo recurso.
+        thinking = str(parsed.get("thinking", "")).strip()
+        if thinking:
+            text = thinking
     if not text:
         raise RuntimeError(
             f"Ollama retornou resposta vazia (modelo: {model or cfg.ollama_model_narration})"
@@ -397,7 +404,8 @@ def generate_turn(
     active_decision = decision
     active_prompt = prompt
 
-    large_local = "14b" in cfg.ollama_model_narration.lower() or "13b" in cfg.ollama_model_narration.lower()
+    model_l = cfg.ollama_model_narration.lower()
+    large_local = any(tag in model_l for tag in ("12b", "13b", "14b", "gemma4"))
     max_attempts = (2 if large_local else _MAX_NARRACAO_QUALITY_ATTEMPTS) if run_quality else 2
     while attempts < max_attempts:
         attempts += 1
