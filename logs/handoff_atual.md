@@ -1,12 +1,12 @@
 # Handoff atual — Continuidade para novo chat
 
-**Gerado após:** sessão **011**  
-**Próxima sessão:** **012** → `logs/sessao_resumo_012.md`  
-**Data in-game ao fechar:** 15 de Julho de 2026 · manhã  
+**Gerado após:** sessão **012**  
+**Próxima sessão:** **013** → `logs/sessao_resumo_013.md`  
+**Data in-game ao fechar:** 20 de Julho de 2026 · tarde  
 **Branch canônica:** `feature/linha-estavel`  
-**Última atualização deste handoff:** 15 de Julho de 2026
+**Última atualização deste handoff:** 22 de Julho de 2026
 
-> **Primeiro arquivo a ler:** `context_pack_atual.md`
+> **Primeiro arquivo a ler:** `logs/context_pack_atual.md`
 
 ---
 
@@ -14,10 +14,10 @@
 
 | Recurso | URL |
 | ------- | --- |
-| **Share IV (sessão 011)** | https://grok.com/share/c2hhcmQtMw_c462a01a-83a2-4634-aca9-08598b3bbc38 |
 | Context pack (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md |
-| Sessão 011 (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_011.md |
+| Sessão 012 (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_012.md |
 | Handoff (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md |
+| Board | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/board_campanha.md |
 
 ---
 
@@ -25,62 +25,85 @@
 
 | Campo | Valor |
 | ----- | ----- |
-| Data | **15/07/2026**, manhã |
-| Local | Pack Badlands — refeitório / oficina |
-| Prioridade | **E014** Reyes · **E013** caçada aves · **E012** protótipo |
-| Protótipo | Externo montado/testado; interno em modelagem |
-| Segredo | Time produção + Tio Gringo sabem; pack geral aguarda Reyes |
+| Data | **20/07/2026**, tarde |
+| Local | Pack Badlands — área aberta (pós-demonstração) |
+| Prioridade | Preparação viagem Night City · Tutoria Sasha/Lira · Organização com Reyes |
+| Drones | **Condor + Corujas operacionais** (demonstrados ao Pack) |
+| Relação Ryan × Valk | Consolidada + **decisão conjunta de ir a Night City** |
 
-### Cena de abertura sugerida
+### Cena de abertura (continuidade exata)
 
-Ryan e Valk no café; esboço de caçada de aves feito; **Reyes ainda não respondeu** sobre o protótipo (apresentação 14/07).
+**Área aberta do Pack — Tarde de 20/07/2026.**
+
+Ryan acabou de falar:
+
+> — Não sei… é literalmente a primeira vez que eu não tenho nada na cabeça.  
+> (sorriso de canto)  
+> — Posso pensar em algumas formas bem agradáveis de perder tempo… mas acho que você tem coisas mais importantes pra fazer do que me entreter o dia inteiro.  
+> (piscadinha)  
+> — Então… me coloca nas patrulhas? Ou a gente some um pouco nas Badlands?
+
+Valk respondeu:
+
+> — Formas agradáveis de perder tempo eu sempre topo. Mas você tem razão… eu tenho umas coisas pra resolver ainda hoje.  
+> — Patrulhas eu posso te colocar sim. Ou a gente some nas Badlands por um ou dois dias se você quiser. Mas só depois que eu terminar de organizar o time e falar com o Reyes sobre a demonstração dos drones.  
+> (se levanta, puxando Ryan)  
+> — Vamos voltar pro meio do pessoal antes que alguém ache que a gente sumiu. Depois a gente decide se vai patrulhar ou sumir.
+
+O Condor continua planando alto. O Pack ainda está reunido e animado.
+
+**O que Ryan faz agora?**
 
 ---
 
-## O que acabou de acontecer (sessão 011)
+## O que acabou de acontecer (sessão 012)
 
-- **10/07:** Scav containers — Container A rebocado, B desmontado.
-- **11/07:** Revelação ao time de produção; início montagem protótipo.
-- **11–13/07:** Estrutura externa OK; Valk no layout interno; discurso capacitação.
-- **14/07:** Apresentação Reyes (Valk + Tio Gringo + alunos); resposta prometida, **pendente**.
-- **14/07 tarde:** Gatilho **“herói solitário”** (Valk → Ryan; promessa dela; afastamento ao depósito; reconciliação). **F15:** Valk não reutiliza a expressão.
-- **15/07:** Esboço caçada aves (Valk: 2–3 veículos, recon drones, amanhã cedo).
+- Incursão na torre de transmissão (chrome + componentes recuperados; corpos queimados).
+- Construção dos drones miméticos: **Condor** (observação longa distância) e **Corujas** (recon silencioso).
+- Demonstração pública ao Pack (impacto alto).
+- Conversa decisiva com Valk: Ryan admitiu que o Pack não precisa mais dele e precisa voltar a Night City. Valk escolheu ir com ele. Combinado: terminar assuntos em NC e, se possível, retornar juntos.
+- Sobre Sasha/Lira: Lira mostrou curiosidade aberta; Sasha ainda reservada. Valk indo devagar.
 
-Detalhe: [sessao_resumo_011.md](sessao_resumo_011.md)
+Detalhe completo: [sessao_resumo_012.md](sessao_resumo_012.md)
 
 ---
 
-## Pendências
+## Pendências quentes
 
 | ID | Evento |
 | -- | ------ |
-| **E014** | Resposta Reyes |
-| **E013** | Caçada aves (referência drones) |
-| **E012** | Interno + móveis + escala |
-| E007/E008/E011 | Node, Raffen, Doc |
+| **E015** | Viagem / assuntos de Ryan em Night City (com Valk) |
+| Tutoria | Valk + Sasha/Lira (assistentes) |
+| E012 | Casas modulares (interno + possível revelação) |
+| E007 | Badlands Node |
+| E011 | Visita à Doc Moreau (Elisa) |
 
 ---
 
-## Prompt de abertura (copiar)
+## Prompt de abertura (copiar e colar no novo chat)
 
 ```markdown
-# Cyberpunk RED — Continuidade (Sessão 012)
+# Cyberpunk RED — Continuidade (Sessão 013)
 
 ## Boot (tier-0)
 - Repo: https://github.com/Klaillton/Cyberpunk · branch `feature/linha-estavel`
-- https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md
-- https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_011.md
-- Share IV: https://grok.com/share/c2hhcmQtMw_c462a01a-83a2-4634-aca9-08598b3bbc38
+- Leia primeiro: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md
+- Resumo da sessão anterior: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_012.md
+- Handoff: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md
 
 ## Estado
-- **15/07/2026 manhã** · Pack Badlands
-- Protótipo casas: externo OK; Reyes **não respondeu** (E014)
-- Caçada aves: esboço Valk (E013)
-- Warden = terrestre. F11: pack geral ainda sem revelação oficial.
-- **F15:** Valk **não** chama Ryan de “herói” / “herói solitário”.
+- **20/07/2026 tarde** · Pack Badlands
+- Condor + Corujas operacionais e já demonstrados ao Pack
+- Ryan e Valk decidiram ir a Night City juntos
+- **F15 ativo:** Valk **não** chama Ryan de “herói” / “herói solitário”
+- Warden = drone terrestre (não voa)
 
-## Comece
-Confirme boot (1 frase) e continue: **manhã 15/07 — Ryan aguarda Reyes ou confirma caçada com Valk.**
+## Cena atual (continuidade)
+Área aberta do Pack. Valk acabou de se levantar e puxar Ryan de volta para o meio do pessoal, dizendo que precisa organizar o time e falar com Reyes sobre os drones antes de decidir entre patrulha ou sumir nas Badlands.
 
-Aguarde ação do jogador.
+O Condor ainda está planando alto.
+
+**Continue exatamente desta cena.**
+
+Confirme o boot em 1 linha e aguarde a ação do jogador.
 ```
