@@ -1,7 +1,7 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** 15 de Julho de 2026 (manhã) — Pack Badlands  
-**Local:** Acampamento do Pack Nômade de Badlands — refeitório / oficina
+**Data Atual:** 20 de Julho de 2026 (tarde) — Pack Badlands  
+**Local:** Acampamento do Pack Nômade de Badlands — área aberta / tenda Ryan & Valk
 
 ---
 
@@ -9,42 +9,41 @@
 
 Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badlands. Seu foco atual é:
 
-- **Casas modulares dobráveis** — protótipo **externo montado e testado**; layout interno em modelagem com Valk; **aguardando resposta de Reyes** (E014).
-- **Badlands Node** — biodigestor e módulo de filtragem de água em progresso (Mara, Tomas, Elias).
-- Destilaria (Elias) e estufa modular (Mara) em execução contínua.
-- Equilibrar vida pessoal com Valk, mentoria do time e projetos de drones (referência: caçada aves — E013).
+- **Drones miméticos** — Condor (observação longa distância) e Corujas (recon silencioso) **operacionais e demonstrados** ao Pack (20/07).
+- **Casas modulares dobráveis** — protótipo externo montado/testado; layout interno em modelagem; aguardando escala/revelação completa.
+- **Badlands Node** — biodigestor e filtragem avançando (Mara, Tomas, Elias com autonomia crescente).
+- **Decisão de partida:** Ryan e Valk decidiram ir a Night City juntos para resolver assuntos pessoais de Ryan. Possível retorno ao Pack depois.
 
-**Prioridade atual:** Resposta Reyes (E014) → escala do protótipo (E012) → caçada aves / drones (E013).
+**Prioridade atual:** Preparação viagem Night City · Tutoria Valk com Sasha/Lira · Progresso Node/casas.
 
 **Projetos em andamento:**
 
-- **Casas modulares dobráveis** — Container A no pack; protótipo operacional (abrir/fechar); time de produção + Tio Gringo **no segredo**; pack geral aguarda aprovação.
-- **Badlands Node** — protótipo Água + Biodigestor avançando.
+- **Drones miméticos** — Condor + Corujas ativos (alerta antecipado 15–40 min).
+- **Casas modulares** — Container A no pack; protótipo operacional; time de produção + Tio Gringo no segredo parcial.
+- **Badlands Node** — protótipo Água + Biodigestor avançando com autonomia dos recrutas.
 - Destilaria — Elias (autonomia).
 - Estufa modular — Mara (ciclo biológico/água).
-- Cerca em estrela — pessoal treinado mais autônomo.
-- Drones observação — referência biológica via caçada aves (planejamento).
+- Cerca em estrela — concluída.
 
 ---
 
 ## Pistas Confirmadas
 
-- **Scav 10/07 (E010):** Container A rebocado; B desmontado; retorno limpo.
-- **11/07:** Projeto revelado ao time de produção + Tio Gringo (Warden/holograma).
-- **14/07:** Apresentação a Reyes — Valk + Tio Gringo + alunos; Reyes prometeu responder no mesmo dia.
-- **14/07:** Gatilho “herói solitário” (Valk × Ryan); ela prometeu não repetir; reconciliaram (**F15**).
+- **16–17/07:** Incursão Torre de Transmissão — chrome e componentes recuperados; corpos queimados.
+- **20/07:** Demonstração pública Condor + Corujas — Pack impressionado.
+- **20/07:** Decisão Ryan + Valk: ir a Night City juntos; possível retorno.
+- **14/07:** Apresentação casas a Reyes; gatilho “herói solitário” reconciliado (F15).
 - **Operação Torre Raffen (04/07):** Reaper e braços eliminados; 6 reféns salvos.
-- Reyes aprovou Badlands Node (03/07); protótipo em execução.
 
 ---
 
 ## Rumores e Suspeitas
 
-- Wireghost reafirmado como arquiteto técnico e mentor do pack.
-- Pack aguarda decisão de Reyes sobre habitação modular.
-- Possível heat residual Raffen (vigilância ainda recomendada).
-- Biotechnica pode estar investigando discretamente.
-- Ryan e Valk “desfile” elegante no refeitório (14/07) chamou atenção.
+- Wireghost visto como arquiteto técnico e mentor; agora também provedor de “olhos no céu”.
+- Pack mais seguro e autônomo graças aos projetos de Ryan.
+- Possível heat residual Raffen.
+- Biotechnica latente.
+- Ryan e Valk preparando saída (ainda não anunciada formalmente).
 
 ---
 
@@ -52,15 +51,15 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 
 | Nome                 | Papel                  | Relação com Ryan                  | Notas |
 |----------------------|------------------------|-----------------------------------|-------|
-| **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Liderou apresentação Reyes; esboço caçada aves; **evita “herói” com Ryan (F15)** — [ficha](../fichas/nomad%20-%20lena_valk_kane.md) |
-| **Reyes** | Líder do Pack | Confiança estratégica | Ouveu protótipo 14/07; **resposta pendente** (E014) — [ficha](../fichas/npc/reyes.md) |
-| **Tio Gringo** | Ferreiro | Alta estima | Co-apresentou protótipo; mentor do time — [ficha](../fichas/npc/tio_gringo.md) |
-| **Rusty** | Garagem/veículos | Colaborador técnico | Mule na scav 10/07 |
-| **Scout** | Sentinela / recon | Colaborador operacional | Scavs 05/07 e 10/07 — [ficha](../fichas/npc/scout.md); **não** é Jax Razor Kane |
-| **Mara** | Recruta (Med/Hidro) | Parceira Node | Estufa — [ficha](../fichas/npc/mara_recruit.md) |
-| **Elias** | Recruta (Refinaria) | Autonomia destilaria | [ficha](../fichas/npc/elias_recruit.md) |
-| **Tomas** | Recruta (Mecânica) | Monitoramento | Turbina/Node — [ficha](../fichas/npc/tomas_recruit.md) |
-| **Sasha / Lira** | Pack | Interação crescente | Valk quer tutoria/assistentes |
+| **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Decidiu ir a NC com Ryan; evita “herói” (F15) — [ficha](../fichas/nomad%20-%20lena_valk_kane.md) |
+| **Reyes** | Líder do Pack | Confiança estratégica | Ouveu protótipo; Pack avançou com autonomia |
+| **Tio Gringo** | Ferreiro | Alta estima | Testou Condor; mentor do time |
+| **Rusty** | Garagem/veículos | Colaborador técnico | Incursões recorrentes |
+| **Scout** | Sentinela / recon | Colaborador operacional | Scavs — [ficha](../fichas/npc/scout.md); **não** é Jax |
+| **Mara** | Recruta (Med/Hidro) | Parceira Node | Estufa com autonomia |
+| **Elias** | Recruta (Refinaria) | Autonomia destilaria | |
+| **Tomas** | Recruta (Mecânica) | Monitoramento | |
+| **Sasha / Lira** | Pack | Interação crescente | Tutoria Valk; Lira aberta a intimidade, Sasha reservada |
 
 ---
 
@@ -68,14 +67,14 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 
 | Facção          | Status com a Crew    | Nível de Risco | Notas |
 | --------------- | -------------------- | -------------- | --------------------------------- |
-| **Pack Nômade** | Aliado consolidado   | Baixo          | Moral alto; protótipo em jogo |
+| **Pack Nômade** | Aliado consolidado   | Baixo          | Moral alto; drones operacionais |
 | **Raffen (remanescentes)** | Hostil potencial | Médio | Vigilância elevada |
 | **Biotechnica** | Hostil (latente)     | Médio          | Investigação possível |
 | **Arasaka**     | Hostil (pessoal)     | Baixo          | Ryan evita contato |
 
 ---
 
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 20 de Julho de 2026 (sessão 012)
 
 ---
 
@@ -87,4 +86,4 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 
 **Facções:** [Pack Badlands](../facoes/pack_badlands.md) · [Facções Gerais](../facoes/faccoes_geral.md) · [Rel. Facções](../relacionamentos/faccao_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 011](../logs/sessao_resumo_011.md) · [Share IV](https://grok.com/share/c2hhcmQtMw_c462a01a-83a2-4634-aca9-08598b3bbc38)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 012](../logs/sessao_resumo_012.md)
