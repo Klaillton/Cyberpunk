@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 15 de Julho de 2026 (sessão 011 finalizada)
+**Última atualização:** 20 de Julho de 2026 (sessão 012 finalizada)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -48,7 +48,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
 | Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `011`). Próximo número disponível: **012**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `012`). Próximo número disponível: **013**.
 
 ---
 
@@ -146,6 +146,8 @@ cyberpunk/
 │   ├── sessao_resumo_008.md
 │   ├── sessao_resumo_009.md
 │   ├── sessao_resumo_010.md
+│   ├── sessao_resumo_011.md
+│   ├── sessao_resumo_012.md
 │   ├── context_pack_atual.md      ← Tier-0 anti-esquecimento (NOW)
 │   ├── context_pack_template.md
 │   ├── handoff_atual.md           ← Continuidade para chat novo
@@ -213,7 +215,7 @@ cyberpunk/
   - `relacionamentos/ryan_relacionamentos.md`
   - `sistema/dashboard_contexto.md`
   - `relacionamentos/mapa_relacional_geral.md`
-- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **012**.
+- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **013**.
 - **Handoff / chat novo:** Após sessão, atualizar `logs/handoff_atual.md` via [novo_chat_procedimento.md](novo_chat_procedimento.md).
 - **Jobs / Gigs:** Padrão `logs/job_XXX_<slug>.md` para briefing, execução e fallout permanente. Sessões referenciam o job; não duplicar táticas completas no resumo.
 - **NPCs secundários:** Um arquivo em `fichas/npc/<slug>.md` quando o personagem tem personalidade ou eventos que não cabem só no board/facção. Índice em [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md). **Não** misturar vários NPCs num único arquivo (dificulta busca da IA).

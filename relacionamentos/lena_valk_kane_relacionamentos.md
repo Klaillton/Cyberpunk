@@ -8,10 +8,10 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 
 ### Ryan "Wireghost" Voss
 
-- **Status:** Namorando (relação consolidada)
+- **Status:** Namorando (relação consolidada + decisão conjunta de viagem)
 - **Intensidade:** Alta
 - **Tipo:** Romântico + Aliança profunda
-- **Notas:** Existe amor mútuo. Valk aceita tanto o lado carinhoso quanto o lado frio/operador de Ryan. A relação é intensa, carinhosa e um pouco possessiva. Eles evitam ficar muito tempo sozinhos em espaços pequenos por causa da tensão não resolvida do passado.
+- **Notas:** Existe amor mútuo. Valk aceita tanto o lado carinhoso quanto o lado frio/operador de Ryan. A relação é intensa, carinhosa e um pouco possessiva.
 - **02/07/2026 (noite):** Intimidade prolongada com Ryan na tenda (massagem com óleo laranja + alecrim, conexão profunda, sono abraçados).
 - **03/07/2026 (manhã):** Dormindo na tenda; Ryan saiu em silêncio após cafuné, abraço e beijo no rosto (ela não acordou).
 - **03/07/2026 (dia):** Ryan dedicou o dia ao **Badlands Node v0.1** (apresentação, delegação, blueprint, aprovação por Reyes).
@@ -22,6 +22,8 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **10–15/07/2026 (sessão 011):** Scav containers; co-liderou apresentação Reyes com Tio Gringo; projetou layout interno do protótipo; conversa Sasha/Lira (assistentes); esboço caçada aves (E013).
 - **14/07/2026 (oficina → depósito) — gatilho “herói solitário”:** Na oficina (pós-apresentação das casas dobráveis / comemoração do time), falando de incursões e base militar, Valk usou **“herói solitário”** por preocupação. Ryan pediu sério para parar; ela **prometeu** não chamar mais. Pouco depois **repetiu** a expressão → Ryan se afastou ao **depósito da oficina** (raiva + dor sem lembrar o porquê). Valk o buscou, acolheu; reconciliaram; voltaram juntos. Relação estável.
 - **Regra de fala (ativa):** Valk **não** se refere a Ryan como “herói” / “herói solitário”. Expressa a mesma preocupação com outras palavras (*não vai sozinho*, *a gente planeja juntos*, *sem solo*, *com cobertura*). Ver [gatilhos Ryan](../fichas/notas_narrador/ryan_gatilhos_memorias.md) e **F15**.
+- **16–20/07/2026 (sessão 012):** Incursão torre juntos; construção e demonstração dos drones (Condor + Corujas). **Conversa decisiva:** Ryan admitiu que o Pack não precisa mais dele e precisa voltar a Night City. Valk escolheu ir com ele por escolha própria (não culpa). Combinado: terminar assuntos em NC e, se possível, retornar juntos. Valk reforçou que não aceita ser deixada “pra proteger”.
+- **Sobre Sasha/Lira (intimidade):** Lira mostrou curiosidade aberta; Sasha ainda reservada, mas não rejeitou a ideia completamente. Valk está indo devagar (tutoria/assistentes em andamento).
 
 ### Alex "Specter" Kane
 

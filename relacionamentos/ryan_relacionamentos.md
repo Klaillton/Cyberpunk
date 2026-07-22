@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 20 de Julho de 2026 (sessão 012)
 
 ---
 
@@ -9,7 +9,7 @@
 
 | Personagem               | Sentimento de Ryan    | Sentimento em relação a Ryan | Intensidade | Status             | Tipo                             |
 | ------------------------ | --------------------- | ---------------------------- | ----------- | ------------------ | -------------------------------- |
-| Lena "Valk" Kane         | Afeto + Tensão        | Afeto + Confiança            | Alta        | Estável            | Romântico / Aliada               |
+| Lena "Valk" Kane         | Afeto + Tensão        | Afeto + Confiança            | Alta        | Estável + viagem   | Romântico / Aliada               |
 | Alex "Specter" Kane      | Desconfiança          | Provação / Interesse         | Média       | Observando         | Potencial rival                  |
 | Reina "Bearclaw" Morales | Neutro / Cautela      | Proteção (Mãe Urso)          | Média       | Em desenvolvimento | Aliada / Irmã mais velha         |
 | Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado                   |
@@ -22,9 +22,9 @@
 
 ### Lena "Valk" Kane
 
-**Status:** Namorando (relação consolidada e profunda)  
+**Status:** Namorando (relação consolidada + decisão conjunta de viagem a Night City)  
 **Intensidade:** Alta  
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 20 de Julho de 2026 (sessão 012)
 
 **Evolução conhecida:**
 
@@ -72,10 +72,17 @@
 - **14/07 — gatilho “herói solitário”:** Na oficina (pós-apresentação casas / comemoração), Valk usou a expressão por preocupação com incursões; Ryan pediu para parar; ela **prometeu**; repetiu → Ryan se afastou ao **depósito** (raiva + dor **sem** lembrar o porquê). Valk o buscou; reconciliaram; voltaram juntos. Detalhe: [ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md).
 - Esboço caçada aves com Valk (15/07) — referência para drones.
 
+**Atualização da sessão (16–20/07 — sessão 012):**
+
+- Incursão torre de transmissão (chrome + componentes, incluindo braço Reaper); queima dos corpos.
+- Construção Condor e Corujas; demonstração pública ao Pack (impacto alto).
+- **Conversa decisiva:** Ryan admitiu que o Pack não precisa mais dele e precisa voltar a Night City. Valk escolheu ir com ele por escolha própria. Combinado: terminar assuntos em NC e, se possível, retornar juntos. Valk reforçou que não aceita ser deixada “pra proteger”.
+- **Sobre Sasha/Lira (intimidade):** Lira mostrou curiosidade aberta; Sasha ainda reservada, mas não rejeitou a ideia completamente. Valk está indo devagar.
+
 **Estado atual:**
 
-- Ryan e Valk estão juntos de forma estável e cumplices no piloto de habitação.
-- Valk apoia os projetos de Ryan e equilibra o “modo operador” com a vida no pack.
+- Ryan e Valk estão juntos de forma estável e cumplices.
+- Decisão conjunta de viagem a Night City.
 - Valk **não** usa mais “herói” / “herói solitário” com Ryan (**promessa 14/07**; fato **F15**).
 
 **Notas do Narrador:**
@@ -166,31 +173,31 @@
 
 ### Pack Nômade de Badlands (Hospedagem Atual)
 
-**Status:** Hospedagem + Integração em andamento  
-**Confiança geral com o Pack:** Média-Alta (em crescimento)  
-**Duração prevista:** Indefinida  
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Status:** Hospedagem + Integração em andamento (preparando saída)  
+**Confiança geral com o Pack:** Alta  
+**Duração prevista:** Indefinida (possível retorno)  
+**Última atualização:** 20 de Julho de 2026 (sessão 012)
 
 **Líder do Pack:** Reyes
 
 **Estado atual:**
-Ryan e Valk integrados no Pack em downtime produtivo. Ryan: arquiteto/mentor (Node, protótipo casas modulares, scav, drones). Protótipo **externo OK**; apresentação Reyes (14/07) — **E014 pendente**.
+Ryan e Valk integrados no Pack em downtime produtivo. Ryan: arquiteto/mentor (Node, protótipo casas, scav, drones). Drones Condor + Corujas demonstrados. Pack com autonomia crescente. Decisão de partida para Night City.
 
 **NPCs relevantes do Pack:**
 
-- **Reyes** (Líder) → Confiança estratégica crescente. **14/07:** ouviu protótipo; prometeu responder — sem resposta em 15/07 manhã.
-- **Tio Gringo** (Ferreiro) → Co-apresentou protótipo; time de produção no segredo desde 11/07.
-- **Rusty** (Garagem) → Scav containers 10/07; colaborador técnico recorrente.
-- **Scout** (overwatch) → Scavs 05/07 e 10/07 — [ficha](../fichas/npc/scout.md). **Não** é Jax "Razor" Kane (crew NC).
-- **Mara** (Recruta) → [ficha](../fichas/npc/mara_recruit.md). **03/07:** aprovou visão do Node; responsável por ciclo biológico e água.
-- **Elias** (Recruta) → [ficha](../fichas/npc/elias_recruit.md). **03/07:** autonomia na destilaria; integrado ao Node com visão de excedente econômico.
-- **Tomas** (Recruta) → [ficha](../fichas/npc/tomas_recruit.md). **03/07:** mecânica e protótipos no Node; monitoramento contínuo (02/07).
-- **Sasha** → [ficha](../fichas/npc/sasha.md). Presenciou o [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) (confronto + execução). Medo/respeito pelo lado soldado de Ryan.
-- **Lira** → [ficha](../fichas/npc/lira.md). Tentando se aproximar de Valk. Assustada com o lado operador (ouviu falar / viu de longe); ajudou Valk a acalmar o grupo após o [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md).
+- **Reyes** (Líder) → Confiança estratégica. Pack avançou com autonomia.
+- **Tio Gringo** (Ferreiro) → Testou Condor; mentor do time.
+- **Rusty** (Garagem) → Scavs e incursões recorrentes.
+- **Scout** (overwatch) → Scavs — [ficha](../fichas/npc/scout.md). **Não** é Jax "Razor" Kane (crew NC).
+- **Mara** (Recruta) → [ficha](../fichas/npc/mara_recruit.md). Estufa com autonomia.
+- **Elias** (Recruta) → [ficha](../fichas/npc/elias_recruit.md). Destilaria com autonomia.
+- **Tomas** (Recruta) → [ficha](../fichas/npc/tomas_recruit.md). Mecânica e monitoramento.
+- **Sasha** → [ficha](../fichas/npc/sasha.md). Tutoria Valk; reservada quanto a intimidade.
+- **Lira** → [ficha](../fichas/npc/lira.md). Tutoria Valk; curiosidade aberta quanto a intimidade.
 - **Crianças do Pack** → Ryan interage bem com elas (faceta mais gentil).
 
 **Notas do Narrador:**
-Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto como alguém útil, protetor e que está disposto a ensinar. A revelação do lado operador — [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) (confronto) + [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md) (16 hostis solo, silencioso) — gerou admiração e cautela.
+Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto como alguém útil, protetor e que está disposto a ensinar. A demonstração dos drones reforçou essa imagem.
 
 ---
 
