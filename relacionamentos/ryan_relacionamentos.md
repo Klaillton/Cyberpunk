@@ -137,6 +137,7 @@
 **Notas do Narrador:**
 
 - Quem mediou os braços foi **Elisa “Doc” Moreau**, nunca a Stitch.
+- **Ideia futura (não ativa):** se em NC, após jobs com a crew, **Reina se machucar de forma grave**, Ryan pode iniciar o [projeto de armadura custom](../fichas/reina_armour_project.md) — **não canônico** até entrega in-fiction.
 - Evolução romântica futura é possível, mas seria complexa devido à dinâmica atual com Valk e Alex. Ver arco proposto em [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
 
 ---

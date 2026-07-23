@@ -82,6 +82,12 @@ Hoje Reina vive como freelancer de rua: resolve na porrada quando necessário, m
 - Light/Medium Armorjack
 - 500eb + dinheiro de gigs
 
+### Ideia futura (não ativa)
+
+- [Projeto de armadura custom (Ryan)](reina_armour_project.md) — **não canônico** até: Ryan em NC + jobs com a crew + **Reina se machuca** + entrega in-fiction.
+- Visuais (só após o projeto estar **ATIVO**): Estágio 1 / 2 / bursts em `imagens/reina/` (`reina_armour_1`, `reina_armour_2`, `reina_bursts`).
+- **Até lá:** Armorjack padrão desta ficha. **Não** narrar SP/exo do projeto como gear existente.
+
 ## Role Ability (Solo - Combat Awareness)
 
 Alta para iniciativa e awareness em combate próximo. Reina é o tanque emocional e físico da crew — protetora, divertida, mas letal quando “seus garotos” estão em risco.
@@ -89,6 +95,7 @@ Alta para iniciativa e awareness em combate próximo. Reina é o tanque emociona
 ## Referências
 
 - **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) — catálogo de roupa (não amarra personagem)
+- **Projeto futuro (não ativo):** [reina_armour_project.md](reina_armour_project.md)
 - [Relacionamentos Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md)
 - [Crew](../relacionamentos/crew_relacionamentos.md)
