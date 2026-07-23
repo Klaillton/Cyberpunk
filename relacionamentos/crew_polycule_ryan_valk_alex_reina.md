@@ -14,9 +14,11 @@ Ryan está em um relacionamento intenso com **Lena "Valk" Kane**.
 
 Kaz está escondido em Night City fugindo da Biotechnica. A reputação de Ryan e Valk após o trabalho contra a BT está ajudando ele a conseguir trabalhos melhores e formar uma equipe mais sólida. Alex reconhece o **Mule** do trabalho contra a BT e vai atrás da equipe. Como ela já trabalhou com Kaz e Valk no passado, Kaz oferece o serviço para ela (precisando especialmente de uma runner para lidar com a BT).
 
-Para trazer **Stephania “Stitch”** (MedTech) para o time, Kaz conversa com ela. Stitch só aceita participar se a **Reina** (sua amiga e quem já a protegeu várias vezes) também entrar. Reina aceita ao saber que o trabalho envolve o grupo que enfrentou a BT, achando que podem precisar de reforço caso haja retaliação.
+Para trazer **Stephania “Stitch”** (MedTech da crew) para o time, Kaz conversa com ela. Stitch só aceita participar se a **Reina** (sua amiga e quem já a protegeu várias vezes) também entrar. Reina aceita ao saber que o trabalho envolve o grupo que enfrentou a BT — e, ao perceber que Ryan está vivo no grupo, o instinto de proteger quem **ela sabe** que lhe deu os braços de volta pesa na decisão.
 
-Quando a crew se reúne, Reina fica surpresa ao ver Ryan (achava que ele tinha morrido). Ryan, porém, **não a reconhece**. Ele a cumprimenta de forma educada, porém com certa distância, e chega até a elogiar a qualidade dos braços cibernéticos dela. Isso confirma para Reina que Ryan realmente não lembra dela nem sabe que foi ele quem construiu os braços. Ela fica grata, mas não pode agradecer ainda, o que reforça seu instinto protetor em relação a ele desde o início.
+**Cânone dos braços (não confundir Docs):** a mediadora do favor foi a **Dra. Elisa “Doc” Moreau** (passado de Ryan/Reina). **Stitch não** tem papel nisso.
+
+Quando a crew se reúne, Reina fica surpresa ao ver Ryan (achava que ele tinha morrido). Ryan, porém, **não a reconhece**. Ele a cumprimenta de forma educada, porém com certa distância, e chega até a elogiar a qualidade dos braços cibernéticos dela. Isso confirma para Reina que Ryan realmente não lembra dela **nem** sabe que foi ele quem construiu os braços — **Reina sabe; Ryan não**. Ela fica grata, mas não pode agradecer ainda, o que reforça seu instinto protetor em relação a ele desde o início.
 
 Reina, sem querer, vira o **motor** da dinâmica: Alex conversa com ela sobre Valk, Valk desabafa com ela sobre o conflito entre Ryan e Alex, e até Ryan acaba sendo afetado pela mudança de comportamento das duas. O objetivo é construir um **polycule/harem** de forma orgânica, com bastante conflito emocional interno e desenvolvimento de personagem.
 
@@ -49,8 +51,8 @@ Antes de qualquer coisa romântica acontecer de forma explícita, Reina já deve
 - **Ryan não lida bem com tensão emocional**: Quando a pressão aumenta, ele tende a desligar e entrar em modo "operador frio" por longos períodos. Tanto Valk quanto Reina são cuidadosas com isso.
 - **Valk é possessiva**, mas Alex consegue desarmar essa possessividade com facilidade.
 - **Alex quer Valk primeiro**. Seu interesse em Ryan começa como curiosidade/provocação ("o que ela vê nesse cara?"), podendo evoluir depois.
-- **Reina entra para proteger Ryan**. No processo, ela começa a desenvolver sentimentos por ele. Seu papel como confidente faz com que ela acabe no centro da dinâmica.
-- Ryan **não lembra** da Reina e também não faz ideia que foi ele quem construiu os braços dela. Isso vira um gancho importante para o passado confuso dele.
+- **Reina entra para proteger Ryan**. Ela **sabe** que ele fez os cyberarms dela (arranjo via **Doc Moreau**, não Stitch); ele **não lembra**. No processo, ela começa a desenvolver sentimentos por ele. Seu papel como confidente faz com que ela acabe no centro da dinâmica.
+- Ryan **não lembra** da Reina e também não faz ideia que foi ele quem construiu os braços dela. Isso vira um gancho importante para o passado confuso dele e para a dívida emocional assimétrica de Reina.
 - O beijo entre **Valk e Alex** aconteceu há alguns anos. Ryan ainda não sabe no início.
 
 ---
@@ -75,12 +77,13 @@ Antes de qualquer coisa romântica acontecer de forma explícita, Reina já deve
 - Reina age primeiro por proteção e só depois percebe que está se apaixonando. Seu papel como confidente é o que a coloca no centro da história.
 - Ryan tende a se fechar quando sente risco emocional alto. Isso é um dos principais gatilhos da história.
 - Valk tem dificuldade em escolher entre Ryan e Alex no início.
-- Ryan não lembrar da Reina e não saber que construiu os braços dela são ganchos importantes para o passado dele.
+- Ryan não lembrar da Reina e não saber que construiu os braços dela são ganchos importantes para o passado dele; **Reina carrega o segredo** (gratidão sem cobrança em voz alta).
+- **Doc Moreau (Elisa)** ≠ **Stitch (Stephania)**: a primeira é a do favor/cyberarms; a segunda é só amiga/MedTech da crew.
 
 ---
 
 **Status:** Ideia em desenvolvimento  
-**Última atualização:** 03 de Julho de 2026
+**Última atualização:** 23 de Julho de 2026
 
 ---
 

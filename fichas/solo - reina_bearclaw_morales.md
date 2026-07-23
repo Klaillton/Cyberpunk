@@ -12,9 +12,9 @@ Reina "Bearclaw" Morales é uma ex-lutadora de arenas underground e ex-seguranç
 
 Sua vida mudou drasticamente quando sofreu uma **emboscada da BT** (Biotechnica) e perdeu os dois braços. Foi um golpe brutal que quase a tirou do jogo de vez.
 
-Ela conhece o **Ryan** há mais tempo através da **Dra. Elisa "Doc" Moreau**. Enquanto a Doc tratava o Ryan, ele teve um surto violento e Reina ajudou a contê-lo fisicamente (Ryan não se lembra desse episódio).
+Ela conhece o **Ryan** há mais tempo através da **Dra. Elisa "Doc" Moreau** (terapeuta/ripperdoc do **passado** deles — **não** é a Stitch da crew). Enquanto a Doc tratava o Ryan, ele teve um surto violento e Reina ajudou a contê-lo fisicamente (Ryan não se lembra desse episódio).
 
-Posteriormente, quando Reina perdeu os braços, a Doc cobrou um favor pesado do Ryan. Ele, usando peças de altíssima qualidade, construiu os **Cyberarms dela** — um trabalho que está no **Estado da Arte**. Reina **não sabe** que foi Ryan quem fez os braços.
+Posteriormente, quando Reina perdeu os braços, a **Doc Moreau** cobrou um favor pesado do Ryan. Ele, usando peças de altíssima qualidade, construiu os **Cyberarms dela** — um trabalho que está no **Estado da Arte**. **Reina sabe** que foi Ryan quem fez os braços (a Doc deixou isso claro / ela entendeu o arranjo). **Ryan não lembra** de ter feito o trabalho nem da dívida — e Reina **não cobra nem agradece em voz alta** por respeito à amnésia dele e porque prefere provar no cuidado do que no discurso.
 
 Hoje Reina vive como freelancer de rua: resolve na porrada quando necessário, mas sempre tenta desarmar a situação primeiro com **presença intimidadora**. É a **“Mãe Urso”** da crew — protetora, descontraída, de riso alto e piadas pesadas. Sua altura de **1,92m** reforça ainda mais esse papel: ela costuma abraçar as pessoas **por cima**, quase envolvendo quem está ao seu lado, especialmente Ryan, a quem trata abertamente como um **irmão mais novo**.
 

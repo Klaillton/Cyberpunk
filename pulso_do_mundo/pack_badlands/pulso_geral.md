@@ -1,8 +1,8 @@
 # Pulso do Pack - Eventos Off-Screen (Geral)
 
 **Pack:** Pack Nômade de Badlands (acampamento atual)  
-**Última atualização:** 15 de Julho de 2026 (sessão 011)  
-**Contexto atual:** Protótipo casas **externo OK**; apresentação Reyes (14/07); **E014** pendente. Time produção no segredo. E013 caçada aves em planejamento.
+**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)  
+**Contexto atual:** Condor + Corujas **operacionais** (demo 20/07). Casas externo OK; E014 implícita. Cerca concluída. Ryan+Valk planejam NC (E015).
 
 **Procedimento:** [sistema/pulso_procedimento.md](../../sistema/pulso_procedimento.md) — **1 rolagem d100 por linha, por dia in-game.**
 
@@ -12,8 +12,9 @@
 
 _(Remover quando resolvido. Cada um concede +1 rolagem extra em linhas de impacto ≤ 3 da categoria indicada.)_
 
-- **E014** — Reyes deve responder sobre protótipo casas (+1 rolagem em linhas Reyes / Social até resolver).
-- **Protótipo visível** no acampamento (+1 Oficina / Social se Ryan ausente).
+- **E014** — Revelação/escala casas ainda parcial (+1 Reyes / Social até revelação completa).
+- **Drones públicos** (Condor/Corujas) — pack animado (+1 Social / Vida diária se Ryan ausente).
+- **E015** — Possível saída Ryan+Valk (ainda não anunciada) — não catalisa até rumor público.
 
 ---
 
@@ -48,10 +49,10 @@ _(Remover quando resolvido. Cada um concede +1 rolagem extra em linhas de impact
 
 _(Registrar com data in-game. Arquivar após 5 entradas — ver procedimento.)_
 
-- **03/07/2026 (tarde)** — Refeitório e rotina estáveis; clima social levemente agitado por fofoca sobre Ryan/Valk (sem confronto). Ver [logs/pulso_20260703.md](../../logs/pulso_20260703.md).
-- **03/07/2026 (tarde)** — Reconhecimento rotineiro enviado por Reyes; nada anormal reportado.
-- **14/07/2026** — Apresentação protótipo a Reyes; pack comenta “desfile” Ryan/Valk no refeitório.
+- **03/07/2026 (tarde)** — Refeitório e rotina estáveis; fofoca Ryan/Valk. Ver [logs/pulso_20260703.md](../../logs/pulso_20260703.md).
+- **14/07/2026** — Apresentação protótipo a Reyes; “desfile” Ryan/Valk no refeitório.
 - **15/07/2026 (manhã)** — Aguardando resposta Reyes; oficina com protótipo montado.
+- **16–20/07/2026 — GAP B1 (sem pulso formal):** dias da sessão 012 sem ciclos d100. Estado off-screen **não simulado por rolagem**; fatos canônicos vêm de [sessao_resumo_012](../../logs/sessao_resumo_012.md) (torre, construção drones, demo 20/07, decisão NC). **Retomar d100 no próximo amanhecer in-game.**
 
 ---
 

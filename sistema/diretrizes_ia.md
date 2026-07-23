@@ -166,17 +166,27 @@ Se essa condição não for verdadeira:
 
 ---
 
-## 8. Pulso do Mundo (off-screen)
+## 8. Pulso do Mundo e ledgers de tempo (off-screen)
 
-Quando o narrador indicar que **passou 1 dia in-game** (ou mais):
+### 8.1 Gatilho principal
 
-1. Executar [pulso_procedimento.md](pulso_procedimento.md).
-2. Rolagem **1×/dia/linha** em `pulso_do_mundo/pack_badlands/pulso_geral.md`.
-3. Atualizar _Eventos Off-Screen Recentes_ no pulso NPC afetado.
-4. Propagar impactos a `board`, `consequencias`, `relacionamentos`, `event_queue`, `heat` conforme necessário.
-5. Opcional: `logs/pulso_YYYYMMDD.md` para auditoria.
+Quando o **Narrador/IA** (ou o jogador) **avançar ≥ 1 dia in-game**:
+
+1. Executar [pulso_procedimento.md](pulso_procedimento.md) **antes** de narrar o novo dia.  
+2. Rolagem **1×/dia/linha** na tabela da região atual (Pack → `pulso_do_mundo/pack_badlands/pulso_geral.md`).  
+3. Atualizar _Eventos Off-Screen Recentes_ no pulso NPC afetado (**preferir gravar na hora**).  
+4. Propagar impactos a `board`, `consequencias`, `relacionamentos`, `event_queue`, `heat`, `reputacao` conforme necessário.  
+5. Se Ryan usou o tempo em **projeto** → `logs/downtime_ryan.md`.  
+6. Opcional: `logs/pulso_YYYYMMDD.md` para auditoria.
+
+**Proibido:** escrever “amanheceu / N dias depois” sem ciclo de pulso (ou gap B1 documentado em `pulso_procedimento.md`).
 
 Não inventar eventos fora da tabela + perguntas de pulso + estado dos arquivos.
+
+### 8.2 Finalize — matriz de ledgers
+
+No playbook **C** ([comandos_jogador.md](comandos_jogador.md)), **sempre avaliar** (delta ou “sem delta” no resumo):  
+`consequencias`, `facoes/` + `faccao_relacionamentos`, `heat`, `reputacao`, `economia`, `downtime_ryan`, pulso se 1+ dia — além de board / dashboard / event_queue / context_pack / handoff.
 
 ---
 

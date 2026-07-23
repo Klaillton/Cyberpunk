@@ -287,7 +287,7 @@ Antigo cliente que deve vários favores a ele.
 
 - **Lena “Valk” Kane**: Relação que passou do profissional para algo mais pessoal. Existe tensão romântica não resolvida. Ryan cuida dela de forma indireta (upgrades no veículo e no chrome).
 - **Alex “Specter” Kane**: Alex é provocadora com ele (especialmente quando Valk está por perto). Flerta e cutuca Ryan de propósito, mas seu interesse real é em Valk.
-- **Reina “Bearclaw” Morales**: Já se conheceram através da Doc. Ryan não lembra dos detalhes. Reina o trata com um instinto protetor.
+- **Reina “Bearclaw” Morales**: Já se conheceram através da **Doc Moreau** (Elisa — não Stitch). Ryan não lembra dos detalhes (incluindo ter construído os cyberarms dela). **Reina sabe** e o trata com instinto protetor sem revelar a dívida em voz alta.
 
 **Objetivo atual:** Construir sua própria rede de tecnologia e influência fora do controle corporativo, usando drones e equipamentos customizados como principal ferramenta.
 

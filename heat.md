@@ -1,7 +1,7 @@
 # Sistema de Heat (Perseguição / Exposição)
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
 
 ## Nível Atual de Heat
 
@@ -25,7 +25,9 @@
 - Trabalho técnico de alto nível no Pack (pode chamar atenção)
 - Scav 05/07 e **10/07** (containers) limpas (sem aumento de heat)
 - Apresentação do protótipo a Reyes (14/07) — visibilidade **interna** ao pack; sem exposição externa (+0)
-- Caçada aves planejada (E013) — atividade de baixo perfil se mantiver protocolo
+- Caçada aves (E013, 16/07) — baixo perfil (+0)
+- Incursão torre 16–17/07 — queima de corpos (limpeza de rastros); heat residual Raffen **mantido**, sem novo salto documentado
+- Demo Condor/Corujas (20/07) — exposição **interna** ao pack (+0 externo)
 
 ## Como Reduzir o Heat
 

@@ -1,19 +1,27 @@
 # Pulso do Mundo — Procedimento Operacional
 
 **Finalidade:** Simular o que acontece off-screen enquanto Ryan não está presente (ou está dormindo / focado em outra coisa).  
-**Última atualização:** 03 de Julho de 2026
+**Última atualização:** 23 de Julho de 2026
 
 ---
 
 ## 1. Quando rodar
 
-| Gatilho | Ação |
-| ------- | ---- |
-| **Passou 1 dia in-game** | Rodar **1 ciclo diário completo** (obrigatório) |
-| Ryan dorme a noite toda | Considerar 1 dia; rodar ao narrar o despertar |
-| Viagem / downtime longo (vários dias) | 1 ciclo **por dia** narrado (não pular dias sem simular) |
-| **Evento catalisador** (ver §4) | Ciclo diário **+** rolagens extras nas categorias elegíveis |
-| Início de sessão (manhã) | Ler `Eventos Off-Screen Recentes` nos pulsos ativos; narrar 0–2 em cena |
+| Prioridade | Gatilho | Ação |
+| ---------- | ------- | ---- |
+| **#1** | **Narrador/IA avança ≥1 dia in-game** (escreve “amanhece”, “dois dias depois”, elipse, etc.) | **Obrigatório** — rodar ciclo(s) **antes** de narrar o novo dia. Não espera comando do jogador. |
+| #2 | **Passou 1 dia in-game** (qualquer origem) | Rodar **1 ciclo diário completo** |
+| #3 | Ryan dorme a noite toda | Considerar 1 dia; rodar ao narrar o despertar |
+| #4 | Viagem / downtime longo (vários dias) | 1 ciclo **por dia** narrado (ou consolidado com datas listadas) |
+| #5 | **Evento catalisador** (ver §4) | Ciclo diário **+** rolagens extras nas categorias elegíveis |
+| #6 | Início de sessão (manhã) | Ler `Eventos Off-Screen Recentes` nos pulsos ativos; narrar 0–2 em cena |
+| #7 | **Finalize sessão** com `data_fim > data_início` | Rodar ciclos **faltantes** (ou registrar gap B1 — ver abaixo) antes de fechar |
+
+**Proibido:** narrar amanhecer / elipse multi-dia **sem** ciclo de pulso (ou gap explícito documentado).
+
+**Pulso × downtime:** este procedimento cobre o **mundo** (NPCs/pack). O trabalho produtivo do Ryan vai em `logs/downtime_ryan.md`, não substitui o pulso.
+
+**Gap de dias sem pulso (política B1):** se dias in-game passaram sem ciclos (ex. sessão longa mal fechada), **não inventar d100 retroativos**. Registrar no `pulso_geral` / log: *“dias DD–DD sem pulso formal; estado derivado do resumo de sessão”* e retomar rolagens no próximo amanhecer.
 
 **Escopo geográfico:**
 

@@ -3,59 +3,58 @@
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
 **Não é o tier-0** — use primeiro `logs/context_pack_atual.md`.  
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
 
 ---
 
 ## 1. Situação Atual com o Pack de Badlands
 
-**Última verificação:** 15/07/2026
+**Última verificação:** 20/07/2026
 
 **Resumo:**
 
-- **Scav containers (10/07)** concluída; Container A no pack.
-- **Protótipo casas modulares:** externo montado/testado; interno em modelagem.
-- Apresentação a **Reyes (14/07)** — resposta **pendente** (E014).
-- Time de produção + Tio Gringo no segredo; pack geral aguarda aprovação.
-- Reputação Pack: **+72 (Muito Positiva)** — ver [reputacao.md](../reputacao.md).
+- **Condor + Corujas** operacionais e demonstrados ao Pack (20/07).
+- Cerca concluída; Node / destilaria / estufa com autonomia crescente.
+- Casas modulares: externo OK; interno em modelagem; revelação geral parcial (E014 implícita).
+- Ryan e Valk decidiram ir a **Night City** (E015); possível retorno.
+- Reputação Pack: **+75 (Muito Positiva)** — ver [reputacao.md](../reputacao.md).
 
 ---
 
 ## 2. Relação com Lena "Valk" Kane
 
-**Última verificação:** 15/07/2026
+**Última verificação:** 20/07/2026
 
 **Resumo:**
 
-- Consolidada; intimidade frequente.
-- Valk liderou apresentação Reyes; projeto layout interno.
-- Discussão Sasha/Lira (tutoria); esboço caçada aves.
-- **F15:** Valk **evita** “herói” / “herói solitário” com Ryan (promessa 14/07; gatilho que dói).
+- Consolidada; decisão conjunta de viagem a NC.
+- Tutoria Sasha/Lira em andamento (Lira aberta, Sasha reservada).
+- **F15:** Valk **evita** “herói” / “herói solitário” com Ryan.
 
 ---
 
 ## 3. Nível de Heat
 
-**Heat Global:** Média (scav limpa; vigilância Raffen residual).
+**Heat Global:** Média (vigilância Raffen residual E008; scavs/torre limpas; demo drones só interna).
 
 ---
 
 ## 4. Eventos Pendentes
 
-- **E014** — Resposta Reyes
-- **E012** — Protótipo interno + escala
-- **E013** — Caçada aves (drones)
-- E007 Node · E008 Raffen · E011 Doc
+- **E015** — Viagem / assuntos Ryan em NC (com Valk)
+- **E012** — Casas interno + escala/revelação
+- **E014** — Reyes / revelação casas (implícita)
+- E007 Node · E008 Raffen · E011 Doc Moreau
 
 ---
 
 ## 5. Localização
 
-- **Local:** Pack Badlands — oficina / refeitório
-- **Data:** 15/07/2026 manhã
+- **Local:** Pack Badlands — área aberta / tenda Ryan & Valk
+- **Data:** 20/07/2026 tarde
 
 ---
 
 ## Referências
 
-- [Board](../board/board_campanha.md) · [Sessão 011](../logs/sessao_resumo_011.md) · [Share IV](https://grok.com/share/c2hhcmQtMw_c462a01a-83a2-4634-aca9-08598b3bbc38)
+- [Board](../board/board_campanha.md) · [Sessão 012](../logs/sessao_resumo_012.md) · [Context pack](../logs/context_pack_atual.md)

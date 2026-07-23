@@ -88,18 +88,23 @@ Peça:
 | Novo impacto permanente | `consequencias/consequencias_persistentes.md` |
 | Interação com NPC | `relacionamentos/ryan_relacionamentos.md` e/ou arquivo individual + `crew_relacionamentos.md` |
 | Progresso no arco polycule | `relacionamentos/crew_polycule_ryan_valk_alex_reina.md` + arquivos individuais dos envolvidos + `crew_relacionamentos.md` |
-| Mudança com facção | `relacionamentos/faccao_relacionamentos.md`, `facoes/`, `reputacao.md` |
+| Mudança com facção / pack / corp | `relacionamentos/faccao_relacionamentos.md`, `facoes/`, `reputacao.md` |
 | Ação chamativa / discrição | `heat.md`, possivelmente `event_queue.md` |
-| Dinheiro, recursos, projetos | `economia.md`, `logs/downtime_ryan.md` |
+| Dinheiro, recursos, projetos pack | `economia.md` |
+| Ryan trabalhou em projeto (oficina, scav, construção) | `logs/downtime_ryan.md` (+ `economia.md` se materiais) |
 | Evento futuro agendado | `event_queue.md` |
-| Fim de sessão | Playbook **C** em [comandos_jogador.md](comandos_jogador.md): resumo + estado + **`logs/context_pack_atual.md`** + **`logs/handoff_atual.md`** |
+| Fim de sessão | Playbook **C**: resumo + **matriz completa de ledgers** + **`context_pack_atual`** + **`handoff_atual`** — ver checklist em [comandos_jogador.md](comandos_jogador.md) |
 | Abrir chat novo / continuidade | [novo_chat_procedimento.md](novo_chat_procedimento.md) + playbook **D** |
 | Pedido de handoff | `[Gerar handoff…]` — playbook D; sobrescrever `handoff_atual` (± context pack) |
 | Mid-chat esqueceu estado | `[Refresh contexto]` — playbook **A** (tier-0 only) |
-| Passou 1+ dia in-game / Ryan dormiu a noite | [pulso_procedimento.md](pulso_procedimento.md) → `pulso_do_mundo/` + `event_queue` / `consequencias` se impacto |
+| **Narrador/IA avança ≥1 dia** (amanhece, elipse, dorme) | [pulso_procedimento.md](pulso_procedimento.md) **obrigatório** → `pulso_do_mundo/` + ledgers se impacto; downtime se Ryan produziu |
+| Passou 1+ dia in-game / Ryan dormiu a noite | Idem pulso; preferir gravar *Eventos Off-Screen* na hora |
 | Job / gig concluído | `logs/job_XXX_<slug>.md` (usar [job_template.md](../logs/job_template.md)) + consequências, heat, event_queue |
 | NPC com personalidade ou arco próprio | `fichas/npc/<slug>.md` (usar [npc_template.md](../fichas/npc/npc_template.md)) + entrada em [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md) |
 | Tempo off-screen (mundo vivo) | [pulso_procedimento.md](pulso_procedimento.md) + pulso em `pulso_do_mundo/` + opcional `logs/pulso_YYYYMMDD.md` |
+
+**Matriz de finalize (sempre avaliar; “sem delta” no resumo se zero):**  
+`board` · `dashboard` · `event_queue` · `consequencias` · `facoes/` + `faccao_relacionamentos` · `heat` · `reputacao` · `economia` · `downtime_ryan` · pulso se 1+ dia · relacionamentos tocados · `context_pack` · `handoff`.
 
 Consulte a tabela completa em [registro_arquivos.md](registro_arquivos.md) (seção "Guia de Consulta Cruzada").
 

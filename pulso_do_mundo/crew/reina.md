@@ -39,9 +39,9 @@
 
 ## Relação com Ryan
 
-Reina tem uma conexão profunda e antiga com Ryan. Ela o viu em um dos piores momentos da vida dele (durante uma crise grave), ajudou a contê-lo fisicamente e, depois, Ryan construiu os braços dela ela sabe. Quando ele desapareceu, ela achou que ele tivesse morrido.
+Reina tem uma conexão profunda e antiga com Ryan, mediada pela **Dra. Elisa “Doc” Moreau** (passado — **não** confundir com Stitch). Ela o viu em um dos piores momentos da vida dele (durante uma crise grave), ajudou a contê-lo fisicamente e, depois, sob favor cobrado pela Doc, **Ryan construiu os cyberarms dela**. **Reina sabe** disso; **Ryan não lembra**. Quando ele desapareceu, ela achou que ele tivesse morrido.
 
-Agora que o reencontrou vivo e namorando Valk, ela está processando muitas coisas ao mesmo tempo. Seu instinto protetor está bem ativado, mas ela também está confusa sobre como se posicionar (principalmente porque Ryan não lembra dela).
+Agora que o reencontrou vivo e namorando Valk, ela está processando muitas coisas ao mesmo tempo. Seu instinto protetor está bem ativado (dívida + carinho), mas ela também está confusa sobre como se posicionar — principalmente porque Ryan não lembra dela **nem** do trabalho nos braços, e ela ainda não cobra nem agradece em voz alta.
 
 ## Ganchos / Possíveis Eventos
 

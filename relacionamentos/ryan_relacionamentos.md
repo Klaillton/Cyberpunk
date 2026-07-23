@@ -122,19 +122,21 @@
 
 **Histórico relevante:**
 
-- Reina conheceu Ryan através da Doc.
+- Reina conheceu Ryan através da **Dra. Elisa “Doc” Moreau** (**não** Stitch).
 - Ajudou a conter Ryan fisicamente durante uma de suas crises graves após sair da Arasaka (Ryan não lembra).
-- Quando Reina perdeu os braços, Ryan construiu os dela sem cobrar nada (cyberware de alto nível).
+- Quando Reina perdeu os braços, a **Doc Moreau** cobrou favor de Ryan; ele construiu os cyberarms dela sem cobrar nada (cyberware Estado da Arte).
+- **Reina sabe** que foi Ryan quem fez os braços. **Ryan não lembra** do trabalho nem do favor.
 - Depois disso Ryan desapareceu e Reina achou que ele tivesse morrido.
 - Ao ver o trabalho contra a Biotechnica, ela identificou que era Ryan e quis entrar na crew.
 
 **Estado atual:**
 
 - Reina trata Ryan como um **irmão mais novo**.
-- Existe uma dívida emocional não dita de parte de Reina.
+- Existe uma **dívida emocional assimétrica**: ela carrega gratidão e proteção; ele não tem a memória correspondente. Ela **não agradece nem revela** em voz alta (ainda).
 
 **Notas do Narrador:**
 
+- Quem mediou os braços foi **Elisa “Doc” Moreau**, nunca a Stitch.
 - Evolução romântica futura é possível, mas seria complexa devido à dinâmica atual com Valk e Alex. Ver arco proposto em [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
 
 ---

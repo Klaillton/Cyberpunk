@@ -1,6 +1,6 @@
 # Consequências Persistentes
 
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
 
 ---
 
@@ -221,6 +221,25 @@ Fim do período: peças principais quase prontas para protótipo; **scav de cont
 - Reputação Ryan como mentor/arquiteto reforçada; Ryan × Valk com conversa sobre Sasha/Lira.
 - **Gatilho “herói” / “herói solitário”** registrado e ativo; Valk **não** reutiliza a expressão com Ryan (promessa 14/07).
 
+## 16 a 20 de Julho de 2026 - Drones miméticos, torre e decisão Night City (sessão 012)
+
+**16–17/07 — Incursão Torre de Transmissão:** Ryan, Valk, Jax e Rusty. Recon com drones. Recuperação de chrome e componentes eletrônicos dos corpos (incluindo braço Reaper). Queima dos restos. Retorno limpo. Detalhe: [sessao_resumo_012](../logs/sessao_resumo_012.md).
+
+**17–20/07 — Construção drones miméticos:** **Condor** (observação longa distância, ~3 m envergadura, placas solares, sensores) e **Corujas** (voo silencioso, recon noturno) concluídos com material da torre + caçada de aves (**E013** resolvida).
+
+**20/07 — Demonstração pública:** Condor e Corujas apresentados ao Pack inteiro. Impacto forte; Pack impressionado. Tio Gringo testou visor.
+
+**20/07 — Decisão Ryan × Valk:** Ryan admite que o Pack não precisa mais dele como figura indispensável e precisa voltar a Night City. Valk escolhe ir com ele. Combinado: terminar assuntos em NC e, se possível, retornar juntos. Gatilho “herói” reforçado (Valk continua evitando — F15). **E015** aberta.
+
+**Impactos:**
+
+- Pack com **capacidade aérea** de alerta (horizonte visual / alerta antecipado — ver board).
+- Chrome e componentes da torre no inventário de projetos / oficina.
+- **E013** resolvida; **E015** (viagem NC com Valk) pendente de alta prioridade.
+- Relação Ryan × Valk consolidada com decisão conjunta de partida (possível retorno).
+- Cerca em estrela concluída; Node/destilaria/estufa com autonomia crescente (contexto 012).
+- Heat residual Raffen permanece (E008); demo de drones = exposição **interna** ao pack (sem aumento de heat externo documentado).
+
 ---
 
 **Regras de uso deste arquivo:**
@@ -237,4 +256,4 @@ Fim do período: peças principais quase prontas para protótipo; **scav de cont
 - [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
 - [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Facções](../relacionamentos/faccao_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- [Sessão 008](../logs/sessao_resumo_008.md) · [Sessão 009](../logs/sessao_resumo_009.md) · [Sessão 010](../logs/sessao_resumo_010.md) · [Última sessão (011)](../logs/sessao_resumo_011.md) · [Downtime](../logs/downtime_ryan.md)
+- [Sessão 010](../logs/sessao_resumo_010.md) · [Sessão 011](../logs/sessao_resumo_011.md) · [Última sessão (012)](../logs/sessao_resumo_012.md) · [Downtime](../logs/downtime_ryan.md)

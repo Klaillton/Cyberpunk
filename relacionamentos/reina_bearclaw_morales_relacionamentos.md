@@ -6,19 +6,19 @@
 
 - **Status:** Amiga e ripperdoc de confiança (passado / rede antiga)
 - **Tipo de relação:** Pessoal + Profissional
-- **Notas:** **Doc** = Elisa Moreau. Ligação histórica com Reina e Ryan (surto / cyberarms). Não confundir com a MedTech da crew.
+- **Notas:** **Doc** = Elisa Moreau. Ligação histórica com Reina e Ryan (surto / cyberarms feitos por Ryan sob favor da Doc). **Não confundir** com Stephania “Stitch” Voss (MedTech da crew).
 
 ### Dr. Stephania “Stitch” Voss (MedTech da crew)
 
 - **Status:** Amiga próxima + médica da crew
 - **Tipo de relação:** Pessoal + Profissional
-- **Notas:** **Stitch** cuida especialmente de Reina (quem mais se machuca). Stitch só entrou na crew se Reina viesse junto. Ficha: [medtech - stephania_stitch_voss.md](../fichas/medtech%20-%20stephania_stitch_voss.md).
+- **Notas:** **Stitch** cuida especialmente de Reina (quem mais se machuca). Stitch só entrou na crew se Reina viesse junto. **Não** é a Doc do passado de Reina/Ryan e **não** está por trás dos cyberarms. Ficha: [medtech - stephania_stitch_voss.md](../fichas/medtech%20-%20stephania_stitch_voss.md).
 
 ### Ryan “Wireghost” Voss
 
 - **Status:** Conhecido / Aliado
-- **Tipo de relação:** Proteção (estilo "Mãe Urso")
-- **Notas:** Reina já conheceu Ryan através da Doc. Ryan não se lembra dos detalhes. Existe potencial romântico no futuro — ver [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
+- **Tipo de relação:** Proteção (estilo "Mãe Urso") + dívida emocional assimétrica
+- **Notas:** Reina conheceu Ryan através da **Doc Moreau** (Elisa). **Reina sabe** que Ryan construiu os cyberarms dela; **Ryan não lembra**. Ela carrega gratidão e instinto protetor sem cobrar o favor em voz alta. Existe potencial romântico no futuro — ver [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
 
 ### Lena “Valk” Kane
 

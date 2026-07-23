@@ -1,7 +1,7 @@
 # Relacionamentos da Crew
 
 **Grupo:** Crew atual (Ryan, Valk, Alex, Reina, Kaz, Stitch, Jax, Echo)  
-**Última atualização:** 14 de Julho de 2026
+**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
 
 ## MAPA DE RELAÇÕES DA CREW
 
@@ -11,7 +11,7 @@
 | Lena "Valk" Kane    | Alex "Specter" Kane   | Interesse romântico (Alex)                | Média       | Unilateral         | Alex demonstra interesse; sem parentesco com Valk/Jax |
 | Lena "Valk" Kane    | Ryan "Wireghost" Voss | Namorando (relação consolidada)           | Alta        | Estável            | Amor mútuo                 |
 | Alex "Specter" Kane | Ryan "Wireghost" Voss | Provocação / Rivalidade velada            | Média       | Tensão             | Alex cutuca Ryan           |
-| Reina "Bearclaw"    | Ryan "Wireghost" Voss | Proteção (Mãe Urso) + Potencial romântico | Média       | Em desenvolvimento | Ryan não lembra do passado |
+| Reina "Bearclaw"    | Ryan "Wireghost" Voss | Proteção (Mãe Urso) + Potencial romântico | Média       | Em desenvolvimento | Reina sabe dos braços; Ryan não lembra |
 | Kaz Takahashi       | Ryan "Wireghost" Voss | Aliança profissional                      | Média       | Estável            | Kaz trouxe jobs            |
 | Dr. Stephania "Stitch" | Ryan "Wireghost" Voss | Aliança funcional                         | Média       | Estável            | Suporte médico; sem parentesco — coincidência de sobrenome Voss |
 | Dr. Stephania "Stitch" | Reina "Bearclaw"      | Amizade + Cuidado especial                | Alta        | Estável            | Stitch cuida mais de Reina    |
@@ -22,11 +22,11 @@
 
 ## DINÂMICAS IMPORTANTES
 
-- **Ryan + Valk**: Relação romântica consolidada.
+- **Ryan + Valk**: Relação romântica consolidada; decisão conjunta de ir a Night City (E015), possível retorno ao Pack.
 - **Alex + Valk**: Interesse romântico de Alex.
 - **Alex + Ryan**: Provocação constante (especialmente por causa de Valk).
-- **Reina + Ryan**: Relação protetora atual, com potencial romântico futuro.
-- **Reina + Stitch**: Amizade forte. Stitch dá atenção especial a Reina.
+- **Reina + Ryan**: Relação protetora atual (dívida assimétrica: ela sabe que ele fez os cyberarms; ele não lembra — arranjo via **Doc Moreau**, não Stitch), com potencial romântico futuro.
+- **Reina + Stitch**: Amizade forte. Stitch dá atenção especial a Reina (crew atual; **sem** papel no passado dos braços).
 - **Echo + crew**: Media/ghost reporter — drama, intel e exposição pública de inimigos; planos “espetaculares” como Plano B.
 - **Sobrenomes coincidentes (sem parentesco):** Valk, Alex e Jax compartilham **Kane**; Ryan e Stitch compartilham **Voss**. A crew brinca com isso, mas ninguém é parente de ninguém por causa do sobrenome.
 - **Futuro possível**: Dinâmica romântica complicada entre Ryan, Valk, Alex e Reina — ver [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).

@@ -1,12 +1,12 @@
 # Sistema de Reputação
 
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
 
 ## Reputação Geral
 
 | Facção / Grupo              | Reputação | Nível          | Notas                                                                            |
 | --------------------------- | --------- | -------------- | -------------------------------------------------------------------------------- |
-| **Pack Nômade de Badlands** | +72       | Muito Positiva | Ryan como arquiteto/mentor (Node, protótipo casas, scav limpa). Valk aceita como parceira; liderou apresentação a Reyes. Moral alto pós-Torre Raffen (6 reféns). |
+| **Pack Nômade de Badlands** | +75       | Muito Positiva | +3 (demo Condor/Corujas 20/07). Arquiteto/mentor + “olhos no céu”; moral alto; autonomia crescente. |
 | **Raffen Shiv (remanescentes)** | -45   | Hostil         | Célula da torre eliminada (04/07); heat residual. Scavs 05/07 e 10/07 sem contato — vigilância ainda recomendada. |
 | **Biotechnica (BT)**        | -35       | Hostil         | A crew realizou uma operação limpa contra eles. Ainda sem retaliação confirmada. |
 | **Arasaka**                 | -70       | Muito Hostil   | Ryan é ex-funcionário traído. Evita qualquer contato.                            |
@@ -19,7 +19,7 @@
 
 | NPC                      | Reputação | Tipo de Relação      | Notas                           |
 | ------------------------ | --------- | -------------------- | ------------------------------- |
-| Lena "Valk" Kane         | +88       | Romântica / Aliada   | Consolidada; liderou apresentação Reyes; esboço caçada aves (E013) |
+| Lena "Valk" Kane         | +90       | Romântica / Aliada   | Consolidada; decisão conjunta NC (E015); evita “herói” (F15) |
 | Alex "Specter" Kane      | -15       | Rivalidade velada    | Interesse em Valk gera tensão   |
 | Reina "Bearclaw" Morales | +30       | Protetora (Mãe Urso) | Trata Ryan como irmão mais novo |
 | Kaz "The Broker"         | +40       | Aliança profissional | Confia no potencial da crew     |
@@ -28,8 +28,8 @@
 
 | NPC                      | Reputação | Tipo de Relação      | Notas |
 | ------------------------ | --------- | -------------------- | ----- |
-| **Reyes**                | +52       | Líder / Estratégico  | Confiança técnica crescente; ouviu protótipo 14/07 — **resposta E014 pendente** |
-| **Tio Gringo**           | +62       | Mentor / Forja       | Alta estima; co-apresentou protótipo; time de produção no segredo |
+| **Reyes**                | +54       | Líder / Estratégico  | Pack avançou com autonomia; E014 implícita; drones reforçam valor de Ryan |
+| **Tio Gringo**           | +65       | Mentor / Forja       | Alta estima; testou Condor; co-apresentou protótipo |
 | **Rusty**                | +42       | Colaborador técnico  | Scav containers 10/07; garagem/veículos |
 | **Scout**                | +32       | Sentinela / recon     | Scavs 05/07 e 10/07 — apelido canônico ([ficha](fichas/npc/scout.md)) |
 | **Mara**                 | +38       | Recruta / Node       | Estufa e água; integração positiva |
@@ -56,4 +56,4 @@
 
 - [Board](board/board_campanha.md) · [Consequências](consequencias/consequencias_persistentes.md) · [Dashboard](sistema/dashboard_contexto.md)
 - [Rel. Facções](relacionamentos/faccao_relacionamentos.md) · [Pack Badlands](facoes/pack_badlands.md) · [Facções Gerais](facoes/faccoes_geral.md)
-- [Sessão 011](logs/sessao_resumo_011.md) · Relacionados: [Heat](heat.md) · [Event Queue](event_queue.md) · [Economia](economia.md)
+- [Sessão 012](logs/sessao_resumo_012.md) · Relacionados: [Heat](heat.md) · [Event Queue](event_queue.md) · [Economia](economia.md)

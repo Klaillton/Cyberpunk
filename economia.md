@@ -1,6 +1,6 @@
 # Economia Persistente
 
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
 
 ## Situação Financeira - Ryan "Wireghost" Voss
 
@@ -16,11 +16,12 @@
 | Item              | Status                           | Impacto de Ryan                 |
 | ----------------- | -------------------------------- | ------------------------------- |
 | Autonomia técnica | Em crescimento forte             | Linha de produção + ensino na oficina |
-| Defesa            | Fortemente melhorada             | Perímetro + Mule + cerca em estrela |
-| **Badlands Node** | Protótipo em progresso           | Biodigestor + filtragem de água avançando |
+| Defesa            | Fortemente melhorada             | Perímetro + Mule + cerca **concluída** + **Condor/Corujas** |
+| **Badlands Node** | Protótipo em progresso           | Biodigestor + filtragem; recrutas com autonomia |
 | Destilaria        | Elias responsável autônomo       | Excedente econômico em visão de médio prazo |
-| Materiais         | Depósito reforçado (10/07)       | Container A + material B; scav 05/07 + 10/07 |
-| **Casas modulares** | Protótipo externo montado/testado | Aguarda Reyes (E014); escala pós-aprovação — [sessao_resumo_011](logs/sessao_resumo_011.md) |
+| Materiais         | Depósito reforçado               | Scavs 05/07 + 10/07; **chrome/componentes torre** 16–17/07 |
+| **Casas modulares** | Protótipo externo OK; interno modelagem | E014 implícita; escala/revelação parcial — [sessao_resumo_012](logs/sessao_resumo_012.md) |
+| **Drones miméticos** | Condor + Corujas operacionais | Valor operacional (alerta 15–40 min); demo 20/07 |
 
 ## Observações Econômicas Gerais
 
@@ -41,6 +42,6 @@
 ## Referências
 
 - [Board](board/board_campanha.md) · [Consequências](consequencias/consequencias_persistentes.md) · [Dashboard](sistema/dashboard_contexto.md)
-- [Ficha Ryan](fichas/techie%20-%20ryan_wireghost_voss.md) · [Downtime](logs/downtime_ryan.md) · [Sessão 010](logs/sessao_resumo_010.md)
+- [Ficha Ryan](fichas/techie%20-%20ryan_wireghost_voss.md) · [Downtime](logs/downtime_ryan.md) · [Sessão 012](logs/sessao_resumo_012.md)
 - Relacionados: [Reputação](reputacao.md) · [Heat](heat.md) · [Event Queue](event_queue.md)
 - [Pack Badlands](facoes/pack_badlands.md)

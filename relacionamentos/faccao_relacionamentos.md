@@ -1,7 +1,7 @@
 # Relacionamentos entre Facções
 
 **Campanha:** Cyberpunk RED  
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
 
 ---
 
@@ -10,16 +10,16 @@
 ### Pack Nômade de Badlands
 
 - **Status com a Crew:** Aliado consolidado
-- **Motivo:** Ryan hospedado no Pack; arquiteto/mentor (Node, protótipo casas, scav, ensino).
+- **Motivo:** Ryan hospedado no Pack; arquiteto/mentor (Node, casas, scav, ensino, **drones miméticos**).
 - **Risco atual:** Baixo
-- **Impacto na Crew:** Reputação Pack **+72**. Torre Raffen (6 reféns), protótipo apresentado a Reyes (14/07, **E014** pendente). Time produção no segredo; pack geral aguarda aprovação.
+- **Impacto na Crew:** Reputação Pack **+75**. Condor/Corujas demo 20/07; cerca OK; E014 implícita; possível saída Ryan+Valk (E015) ainda não formalizada ao pack.
 
 ### Raffen Shiv (remanescentes)
 
 - **Status com a Crew:** Hostil (latente)
 - **Motivo:** Célula da torre eliminada (04/07); incursões anteriores (001, 002).
 - **Risco atual:** Médio (vigilância residual — E008)
-- **Impacto na Crew:** Scavs 05/07 e 10/07 limpas; sem contato novo.
+- **Impacto na Crew:** Scavs 05/07 e 10/07 limpas; incursão torre 16–17/07 sem contato novo; E008 ativo.
 
 ### Biotechnica (BT)
 
@@ -44,7 +44,7 @@
 | Biotechnica | Arasaka  | Rivalidade corporativa | Alta        | Ativa        | Competição constante           |
 | Biotechnica | Crew     | Hostilidade latente    | Média       | Investigando | Devido à operação recente      |
 | Arasaka     | Crew     | Neutro                 | Baixa       | Observando   | Ryan evita contato             |
-| Pack Nômade | Crew     | Aliança consolidada    | Alta        | Positiva     | Protótipo casas em jogo; Reyes decide (E014) |
+| Pack Nômade | Crew     | Aliança consolidada    | Alta        | Positiva     | Drones operacionais; casas em andamento; E015 pendente |
 | Raffen Shiv | Pack     | Hostilidade residual   | Média       | Vigilância   | Torre eliminada; outros grupos possíveis |
 
 ---

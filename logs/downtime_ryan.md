@@ -1,8 +1,8 @@
 # Downtime de Ryan "Wireghost" Voss
 
 **Personagem:** Ryan "Wireghost" Voss  
-**Local atual:** Badlands – Pequena oficina com usinagem e forja  
-**Período:** Junho de 2026 (Downtime após operação contra a Biotechnica)
+**Local atual:** Badlands – Pack Nômade (oficina / área aberta)  
+**Período ativo:** Junho–Julho de 2026 · **NOW:** 20/07/2026 (pós sessão 012)
 
 ---
 
@@ -48,10 +48,9 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 
 | Data       | Atividade                          | Tempo gasto | Progresso | Observações                          |
 | ---------- | ---------------------------------- | ----------- | --------- | ------------------------------------ |
-| 25/06/2026 | Planejamento dos projetos musicais | ~2h         | 10%       | Definiu o Mini Synth como prioridade |
-|            |                                    |             |           |                                      |
-|            |                                    |             |           |                                      |
-|            |                                    |             |           |                                      |
+| 25/06/2026 | Planejamento dos projetos musicais | ~2h | 10% | Mini Synth prioridade |
+| 05–15/07 | Casas modulares + Node + scavs | multi-dia | alto | Ver blocos abaixo |
+| 16–20/07 | Torre + Condor/Corujas + demo | multi-dia | concluído | Sessão 012 |
 
 ---
 
@@ -61,7 +60,7 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 - Registre materiais usados, dificuldades encontradas e qualquer desenvolvimento interessante.
 - Este log serve tanto para manter consistência quanto para gerar possíveis ganchos futuros (ex: alguém interessado nos instrumentos, problema com componentes raros, etc.).
 
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
 
 ---
 
@@ -79,7 +78,7 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 | 14/07 | Apresentação Reyes | Aguardando | Resposta E014 pendente |
 | 15/07 | Planejamento caçada aves | Esboço Valk | E013; saída amanhã cedo se Reyes não atrasar |
 
-**Próximo marco:** resposta Reyes (E014) → interno + móveis (E012) → caçada aves (E013).
+**Próximo marco (em 15/07):** resposta Reyes (E014) → interno + móveis (E012) → caçada aves (E013).
 
 ---
 
@@ -92,6 +91,31 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 | 10/07 | Scav containers | E010 resolvida | Rusty, Scout, Valk |
 | 11/07 | Revelação time produção | Segredo F11 parcial | Warden projeta modelo 3D |
 | 11–13/07 | Protótipo externo | Testado abrir/fechar | Valk: layout interno |
+| 14/07 | Apresentação Reyes | Aguardando E014 | Valk + Tio Gringo lideraram |
+| 15/07 | Esboço caçada aves | E013 planejada | Saída com Valk |
+
+---
+
+## 16 a 20 de Julho de 2026 – Torre, Condor e Corujas (sessão 012)
+
+**Atividade:** Incursão torre + construção/demonstração drones miméticos; decisão de partida.
+
+| Data | Atividade | Progresso | Observações |
+| ---- | --------- | --------- | ----------- |
+| 16–17/07 | Incursão Torre de Transmissão | Concluída | Chrome + componentes (braço Reaper); corpos queimados; Valk, Jax, Rusty |
+| 16/07 | Caçada aves (E013) | Resolvida | Material biológico / referência para drones |
+| 17–20/07 | Construção **Condor** + **Corujas** | Operacionais | Mimético, solar (Condor), recon noturno (Corujas) |
+| 20/07 | Demo pública ao Pack | Concluída | Pack impressionado; Tio Gringo testou visor |
+| 20/07 | Decisão NC com Valk | Combinado | Terminar assuntos NC; possível retorno — **E015** |
+
+**Status dos projetos (20/07):**
+
+- Condor + Corujas: **operacionais e demonstrados**
+- Casas modulares: externo OK; interno em modelagem; revelação pack geral ainda parcial
+- Badlands Node / destilaria / estufa: autonomia crescente dos recrutas
+- Mini Synth / projetos musicais: **pausados** (prioridade drones e saída NC)
+
+**Próximo marco:** preparação viagem Night City (E015); Node/casas em background no pack.
 | 14/07 | Apresentação Reyes | Pendente E014 | Valk + Tio Gringo lideram |
 | 15/07 | Caçada aves (planej.) | Esboço Valk | Referência drones observação |
 
@@ -99,5 +123,5 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 
 ## Referências
 
-- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Sessão 010](sessao_resumo_010.md) · [Sessão 011](sessao_resumo_011.md)
+- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Sessão 011](sessao_resumo_011.md) · [Sessão 012](sessao_resumo_012.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Economia](../economia.md) · [Consequências](../consequencias/consequencias_persistentes.md)

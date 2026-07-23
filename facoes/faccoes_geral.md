@@ -2,7 +2,7 @@
 
 **Finalidade:** Arquivo para registrar facções menores, grupos passageios ou informações superficiais que ainda não foram aprofundadas.
 
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
 
 ---
 
@@ -11,7 +11,7 @@
 **Status com o Jogador:** Hostil (remanescentes — vigilância E008)
 
 **Resumo:**
-[Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) + [002](../logs/incidente_002_incursao_noturna_raffen.md). **04/07:** célula da **Torre Raffen** eliminada (Reaper). Scavs **05/07** e **10/07** limpas — sem contato novo.
+[Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) + [002](../logs/incidente_002_incursao_noturna_raffen.md). **04/07:** célula da **Torre Raffen** eliminada (Reaper). Scavs **05/07** e **10/07** limpas. **16–17/07:** incursão torre (chrome/componentes; corpos queimados) — sem contato Raffen novo; heat residual (E008) mantido.
 
 **Notas:**
 

@@ -66,7 +66,9 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 - **Início** de sessão / chat novo → tier 0 (+ tier 1 da cena)
 - Comando **`[Refresh contexto]`** → playbook A em [comandos_jogador.md](comandos_jogador.md) (formato fixo)
 - Após combate, mudança de **região/local**, ou ~40–50 msgs → sugerir refresh
-- Passou **1 dia in-game** → [pulso_procedimento.md](pulso_procedimento.md) **só na região atual**
+- Passou **1 dia in-game** (incluindo quando o **Narrador/IA** escreve “amanheceu / N dias depois”) → [pulso_procedimento.md](pulso_procedimento.md) **obrigatório**, só na região atual — **antes** de narrar o novo dia
+- Ryan usou tempo em **projeto** → `logs/downtime_ryan.md`
+- **Finalize** → matriz completa de ledgers (não só board/event_queue): consequências, facções, heat, reputação, economia, downtime, pulso se dias avançaram — ver playbook C
 
 ---
 
@@ -112,8 +114,10 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 | Interação com NPC          | `relacionamentos/ryan_relacionamentos.md` + individual + `crew_relacionamentos.md` |
 | Facção                     | `relacionamentos/faccao_relacionamentos.md`, `facoes/`, `reputacao.md`             |
 | Exposição                  | `heat.md`, possivelmente `event_queue.md`                                          |
-| Economia / projetos        | `economia.md`, `logs/downtime_ryan.md`                                             |
-| Fim de sessão              | Playbook C: resumo + estado + **`context_pack_atual`** + **handoff**               |
+| Economia / materiais       | `economia.md`                                                                      |
+| Projetos do Ryan (tempo)   | `logs/downtime_ryan.md`                                                            |
+| Narrador avança ≥1 dia     | [pulso_procedimento.md](pulso_procedimento.md) + `pulso_do_mundo/`                 |
+| Fim de sessão              | Playbook C: resumo + **matriz ledgers** + **`context_pack_atual`** + **handoff**   |
 
 Sempre mostre mudanças propostas antes de aplicar (playbook C passo 5–6). Atualize `registro_arquivos` se criar arquivos.
 

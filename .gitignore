@@ -45,3 +45,12 @@ tests/tmp_journal/
 # WAL/SHM de SQLite (sempre locais)
 *.db-wal
 *.db-shm
+base/Cyberpunk 2077 - A Cyberpunk RED Supplement.pdf
+base/RTG-CPR-DLC-12DaysofGearmasv1.01.pdf
+base/RTG-CPR-DLC-12DaysofREDmas.pdf
+base/RTG-CPR-DLC-Edgerunner-Folio.pdf
+base/RTG-CPR-DLC-InventedTechUpgradesv1.1.pdf
+base/RTG-CPR-DLC-WoodchippersGaragev1.01.pdf
+base/RTG-CPR-DLC-YourNewBestFriendv1.1.pdf
+base/RTG-CPR-OldGuns.pdf
+base/RTG-CPR-TwelveDaysofGunmasv1.3.pdf

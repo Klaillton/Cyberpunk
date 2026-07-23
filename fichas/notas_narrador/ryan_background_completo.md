@@ -147,7 +147,7 @@ Ele continua instalando chrome e visitando a Doc regularmente. Acredita que “s
 - A frase **“Minha cabeça não presta, ela é uma bagunça”** é tanto uma constatação quanto uma defesa. Ele usa isso para justificar não investigar seu próprio passado.
 - A supressão de memórias feita pela Arasaka + o trabalho da Doc criaram uma espécie de **“tampa”** emocional. Quando essa tampa ameaça abrir (através de gatilhos), Ryan tem bloqueios ou surtos.
 - A relação com a **Doc** é complexa: ela é uma das poucas pessoas que sabe (pelo menos parte) do que aconteceu com ele. Por isso ela o trata com uma mistura de cuidado e frustração.
-- **Reina** sabe mais do que Ryan imagina sobre o passado dele (especialmente o período após o massacre), mas respeita o fato de que ele não lembra.
+- **Reina** sabe mais do que Ryan imagina sobre o passado dele (especialmente o período após o massacre e o fato de que **ele construiu os cyberarms dela** sob favor da **Doc Moreau**), mas respeita o fato de que ele não lembra e **não revela** a dívida em voz alta.
 
 ---
 

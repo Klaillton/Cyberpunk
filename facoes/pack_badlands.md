@@ -1,8 +1,8 @@
 # Pack Nômade de Badlands
 
 **Tipo:** Pack Nômade  
-**Status com o Jogador:** Aliado / Relação em fortalecimento  
-**Última atualização:** 15 de Julho de 2026 (sessão 011; Scout)
+**Status com o Jogador:** Aliado consolidado  
+**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
 
 ---
 
@@ -22,8 +22,9 @@ Ver arquivo principal: `relacionamentos/faccao_relacionamentos.md`
 
 - Ryan é visto como protetor e professor técnico.
 - Tem boa relação com a maioria dos membros, especialmente com o Tio Gringo.
-- Relação com Reyes: confiança estratégica crescente; ouviu protótipo casas (14/07) — **resposta E014 pendente**.
-- Time de produção + Tio Gringo conhecem o projeto de casas modulares; pack geral aguarda aprovação.
+- Relação com Reyes: confiança estratégica; ouviu protótipo casas (14/07); **E014** em andamento/implícita (pack avançou com autonomia; revelação completa ainda pendente).
+- Time de produção + Tio Gringo no projeto de casas; pack geral aguarda revelação oficial completa.
+- Pack tem **Condor + Corujas** (drones miméticos, demo 20/07) — “olhos no céu”.
 
 ## Pulso do Mundo (off-screen)
 
@@ -65,22 +66,29 @@ Pulsos off-screen: [pulso_do_mundo/pack_badlands/](../pulso_do_mundo/pack_badlan
 - **10/07:** Scav containers (E010) — Container A rebocado; B desmontado.
 - **11/07:** Projeto casas revelado ao time de produção + Tio Gringo.
 - **11–13/07:** Protótipo externo montado/testado; Valk no layout interno.
-- **14/07:** Apresentação formal a Reyes (Valk + Tio Gringo + alunos); resposta prometida, **pendente** em 15/07.
+- **14/07:** Apresentação formal a Reyes (Valk + Tio Gringo + alunos); resposta prometida.
 - **15/07:** Esboço caçada aves (E013) com Valk.
+- **16–17/07:** Incursão Torre de Transmissão — chrome/componentes; corpos queimados.
+- **16–20/07:** Construção Condor + Corujas; **E013** resolvida (caçada aves usada como referência).
+- **20/07:** Demonstração pública dos drones ao Pack; moral alto; Tio Gringo testou visor.
+- **20/07:** Ryan e Valk decidiram ir a Night City (possível retorno) — ainda não anunciado formalmente ao pack.
+- Cerca em estrela **concluída**; destilaria (Elias) e estufa (Mara) com autonomia.
 
 ## Rumores e Informações Parciais
 
-- Pack aguarda decisão de Reyes sobre habitação modular.
-- Ryan reafirmado como arquiteto técnico e mentor; “desfile” Ryan/Valk no refeitório (14/07) chamou atenção.
+- Pack vê Ryan como arquiteto/mentor e agora provedor de alerta aéreo.
+- Habitação modular: progresso interno; revelação geral ainda parcial.
+- “Desfile” Ryan/Valk (14/07) e demo dos drones (20/07) reforçam visibilidade do casal.
 - Alguns membros ainda misturam admiração com cautela pelo lado operador.
+- Possível saída de Ryan e Valk para NC (ainda rumor/planejamento interno).
 
 ## Notas e Pendências
 
-- **E014** — Resposta Reyes sobre protótipo.
+- **E014** — Resposta Reyes / revelação casas (implícita em andamento).
 - **E012** — Interno + móveis; escala pós-aprovação.
-- **E013** — Caçada aves (referência drones).
-- Recrutas validados em Node/destilaria/estufa; alunos no protótipo.
-- Mesmo que Ryan saia por um tempo, legado técnico (perímetro, Node, casas, ensino) já é permanente.
+- **E015** — Viagem Ryan + Valk a Night City (preparação).
+- Recrutas em Node/destilaria/estufa; drones operacionais no pack.
+- Mesmo que Ryan saia, legado técnico (perímetro, Node, casas, ensino, **drones**) já é permanente.
 
 ---
 

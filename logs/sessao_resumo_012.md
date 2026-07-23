@@ -41,18 +41,25 @@
 
 ---
 
-## Arquivos Atualizados Nesta Sessão
+## Arquivos Avaliados / Atualizados Nesta Sessão
 
-- `logs/sessao_resumo_012.md` (este)
-- `logs/context_pack_atual.md`
-- `board/board_campanha.md`
-- `relacionamentos/ryan_relacionamentos.md`
-- `relacionamentos/lena_valk_kane_relacionamentos.md`
-- `event_queue.md`
-- `sistema/registro_arquivos.md`
+**Na gravação original (20/07):** resumo, context_pack, board, ryan_rels, valk_rels, event_queue, registro.
 
-**Share / continuidade:** Atualizar handoff se necessário.
+**Backfill ledgers (23/07 — higiene SoT, sem inventar fatos):**
+
+- [consequencias/consequencias_persistentes.md](../consequencias/consequencias_persistentes.md)
+- [logs/downtime_ryan.md](downtime_ryan.md)
+- [facoes/pack_badlands.md](../facoes/pack_badlands.md) · [facoes/faccoes_geral.md](../facoes/faccoes_geral.md)
+- [relacionamentos/faccao_relacionamentos.md](../relacionamentos/faccao_relacionamentos.md)
+- [heat.md](../heat.md) · [reputacao.md](../reputacao.md) · [economia.md](../economia.md)
+- [sistema/dashboard_contexto.md](../sistema/dashboard_contexto.md)
+- [pulso_do_mundo/pack_badlands/pulso_geral.md](../pulso_do_mundo/pack_badlands/pulso_geral.md) — **gap B1** 16–20/07
+- [relacionamentos/crew_relacionamentos.md](../relacionamentos/crew_relacionamentos.md)
+
+**Pipeline (23/07):** playbook C + gatilho de pulso no Narrador — ver `sistema/comandos_jogador.md`, `pulso_procedimento.md`, `diretrizes_narrador.md`.
+
+**Share / continuidade:** handoff/context pack já em 20/07.
 
 ---
 
-**Última atualização do resumo:** 20 de Julho de 2026
+**Última atualização do resumo:** 23 de Julho de 2026 (backfill ledgers)

@@ -72,14 +72,37 @@ Evite usar nomes iguais ou muito semelhantes aos de NPCs persistentes e importan
 
 Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver necessidade de correção, complementação ou melhoria na fluidez da cena.
 
-## 8. Pulso do Mundo (off-screen)
+## 8. Pulso do Mundo e tempo in-game (hard rules)
 
-Quando **passar 1 dia in-game** (noite, viagem, downtime), o mundo do pack continua sem Ryan.
+### 8.1 Gatilho principal — o Narrador/IA avança o dia
 
-1. Seguir [pulso_procedimento.md](pulso_procedimento.md) — **1 rolagem d100 por linha/dia** em `pulso_do_mundo/pack_badlands/pulso_geral.md`.
-2. Resolver com o pulso NPC indicado (perguntas + ganchos).
-3. Narrar ao jogador só o que Ryan **perceberia** (rumor, abordagem, clima no acampamento).
-4. Pedir à IA gestora que registre em *Eventos Off-Screen Recentes* e arquivos de estado.
+> **Sempre que a narração (IA/Narrador) avançar ≥ 1 dia calendário in-game, o pulso é obrigatório** antes (ou junto) da cena do “novo dia”.  
+> **Não depende** de o jogador digitar comando. Proibido narrar “amanheceu / dois dias depois / você dorme e acorda” **sem** rodar o ciclo.
+
+| Ato narrativo | Ação |
+| ------------- | ---- |
+| Dorme / amanhece / manhã seguinte | **1** ciclo de pulso |
+| Elipse multi-dia (“passam N dias”) | **1 ciclo por dia** ou consolidado **com datas listadas** |
+| Só muda período no **mesmo** dia (manhã→noite) | Sem pulso diário |
+| Ryan usou o tempo em projeto (oficina, scav, construção) | Além do pulso: atualizar `logs/downtime_ryan.md` |
+
+**Mini-playbook (antes de continuar a cena):**
+
+1. Detectar avanço ≥1 dia in-game.  
+2. Abrir [pulso_procedimento.md](pulso_procedimento.md) + pasta da **região atual**.  
+3. Rodar ciclo(s); gravar *Eventos Off-Screen Recentes* (preferência: **na hora**).  
+4. Se impacto: propagar a heat / reputação / event_queue / consequências conforme procedimento.  
+5. Se Ryan trabalhou no período: anotar em `logs/downtime_ryan.md`.  
+6. Narrar **só** o que Ryan perceberia (rumor, clima, abordagem).
+
+**Pulso ≠ downtime:** pulso = o que o **mundo** fez; downtime = o que **Ryan** fez com o tempo.
+
+### 8.2 Ciclo de pulso (resumo)
+
+1. Seguir [pulso_procedimento.md](pulso_procedimento.md) — **1 rolagem d100 por linha/dia** na tabela da região (`pulso_do_mundo/pack_badlands/pulso_geral.md` se Pack).  
+2. Resolver com o pulso NPC indicado (perguntas + ganchos).  
+3. Narrar ao jogador só o que Ryan **perceberia**.  
+4. Registrar em *Eventos Off-Screen Recentes* e ledgers se necessário.
 
 **Catalisadores** (combate, confronto, ferimento, etc.) permitem eventos sociais leves repetirem no mesmo dia; ameaças externas permanecem raras.
 
@@ -104,4 +127,4 @@ Para localizar rapidamente qual arquivo consultar, use o [registro_arquivos.md](
 
 ---
 
-_Documento atualizado em 15 de Julho de 2026_
+_Documento atualizado em 23 de Julho de 2026_

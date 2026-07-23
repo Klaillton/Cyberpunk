@@ -2,7 +2,7 @@
 
 **Finalidade:** instruções **passo a passo** que a IA deve seguir ao receber cada comando.  
 **Branch canônica:** `feature/linha-estavel`  
-**Última atualização:** 15 de Julho de 2026
+**Última atualização:** 23 de Julho de 2026
 
 > Tabela resumida também em [instrucoes_projeto.md](instrucoes_projeto.md).  
 > Tier-0: [logs/context_pack_atual.md](../logs/context_pack_atual.md) · [fatos_duros.md](fatos_duros.md).
@@ -93,36 +93,57 @@
 
 ## C) `[Finalizar sessão e gerar resumo]`
 
-**Objetivo:** fechar a sessão de forma canônica: resumo + estado + context pack + handoff.
+**Objetivo:** fechar a sessão de forma canônica: resumo + **matriz completa de ledgers** + context pack + handoff.
 
 ### Passos
 
 | # | Ação |
 | - | ---- |
 | 1 | Declarar: `Finalizar sessão — playbook completo.` |
-| 2 | Ler: `sessao_resumo_template.md`, `registro_arquivos.md` (NNN), `board`, `dashboard_contexto`, `event_queue`, `como_atualizar_arquivos.md`, `context_pack_atual`, `fatos_duros`. |
-| 3 | Gerar **rascunho** de `logs/sessao_resumo_NNN.md` (conteúdo como em B). |
-| 4 | Montar **tabela de mudanças propostas** (Arquivo → o que muda), usando `como_atualizar_arquivos.md`: |
+| 2 | Ler: `sessao_resumo_template.md`, `registro_arquivos.md` (NNN), `board`, `dashboard_contexto`, `event_queue`, `como_atualizar_arquivos.md`, `context_pack_atual`, `fatos_duros`, **e a matriz de ledgers:** `consequencias/consequencias_persistentes.md`, `heat.md`, `reputacao.md`, `economia.md`, `logs/downtime_ryan.md`, `facoes/` relevantes, `relacionamentos/faccao_relacionamentos.md`, `pulso_procedimento.md` (se data avançou). |
+| 3 | Calcular **data início → fim** da sessão e quantos **dias in-game** passaram. |
+| 4 | Gerar **rascunho** de `logs/sessao_resumo_NNN.md` (conteúdo como em B), com seções: Rep/Heat/Econ · Downtime · Facções/Consequências · Pulsos (dias) — usar **“sem delta”** quando avaliou e nada mudou. |
+| 5 | Montar **tabela de mudanças propostas** (Arquivo → o que muda). **Sempre avaliar** (não pular por omissão): |
 | | - Missão/local/NPCs → `board`, `dashboard` |
-| | - Impacto permanente → `consequencias` |
+| | - Impacto permanente / arco → `consequencias` |
+| | - Facção / pack / corp → `facoes/`, `faccao_relacionamentos`, `reputacao` |
+| | - Exposição → `heat` |
+| | - Dinheiro / materiais / projetos pack → `economia` |
+| | - Ryan produziu (oficina, scav, construção) → `logs/downtime_ryan.md` |
 | | - NPCs → relacionamentos relevantes |
-| | - Facção / heat / economia → arquivos correspondentes |
-| | - **Sempre no finalize:** `logs/context_pack_atual.md` + `logs/handoff_atual.md` |
+| | - **1+ dia in-game** → [pulso_procedimento.md](pulso_procedimento.md) (ciclos faltantes ou gap B1 documentado); região atual only |
+| | - **Sempre:** `logs/context_pack_atual.md` + `logs/handoff_atual.md` |
 | | - `registro_arquivos` se novo resumo ou arquivo |
-| 5 | **Mostrar ao jogador:** (1) resumo completo; (2) tabela Arquivo → mudança. |
-| 6 | **Parar.** Pedir confirmação explícita: aplicar arquivos? commit/push? |
-| 7 | **Só após confirmação:** escrever arquivos no workspace. |
-| 8 | Ordem de escrita: `sessao_resumo_NNN` → board → dashboard → event_queue → consequencias/rels (se houver) → **context_pack** → **handoff** → registro. |
-| 9 | Responder com: lista de paths alterados + próximo NNN+1 + lembrete de colar prompt do handoff se abrir chat novo. |
-| 10 | Commit/push **somente** se o jogador confirmou. |
+| 6 | **Mostrar ao jogador:** (1) resumo completo; (2) tabela Arquivo → mudança (incluir linhas “sem delta” se quiser transparência). |
+| 7 | **Parar.** Pedir confirmação explícita: aplicar arquivos? commit/push? |
+| 8 | **Só após confirmação:** escrever arquivos no workspace. |
+| 9 | **Ordem de escrita:** `sessao_resumo_NNN` → board + dashboard → event_queue → consequencias → facoes/ + faccao_rels (se tocado) → relacionamentos NPC/crew → heat + reputacao + economia → downtime_ryan (se projeto) → pulso (se 1+ dia) → **context_pack** → **handoff** → registro. |
+| 10 | Responder com: lista de paths **avaliados e** alterados + próximo NNN+1 + lembrete de handoff se chat novo. |
+| 11 | Commit/push **somente** se o jogador confirmou. |
+
+### Checklist rápido (colar na cabeça)
+
+```text
+[ ] Dias in-game (início → fim)
+[ ] Board + dashboard
+[ ] Event queue
+[ ] Consequências
+[ ] Facções / facção_rels
+[ ] Heat / reputação / economia (delta ou “sem”)
+[ ] Downtime (Ryan produziu?)
+[ ] Pulso (ciclos ou gap B1)
+[ ] Relacionamentos tocados
+[ ] Context pack + handoff
+[ ] Resumo lista paths avaliados
+```
 
 ### Caso especial: só RP, estado canônico igual
 
-Ainda gerar resumo mínimo; atualizar handoff + context pack com “sem mudança mecânica / só roleplay”; board só se data/local in-game avançou.
+Ainda gerar resumo mínimo; preencher seções de ledger com **“sem delta”**; atualizar handoff + context pack; board só se data/local in-game avançou (e aí pulso se dia mudou).
 
 ### Se passou 1+ dia in-game na sessão
 
-Após confirmação, seguir também [pulso_procedimento.md](pulso_procedimento.md) se aplicável à **região atual** (não forçar pulso Pack em NC).
+**Obrigatório** (não opcional): seguir [pulso_procedimento.md](pulso_procedimento.md) na **região atual** (não forçar pulso Pack em NC). Se ciclos não foram rodados durante o RP, rodar faltantes no finalize **ou** documentar gap B1.
 
 ---
 
