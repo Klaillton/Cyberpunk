@@ -1,10 +1,10 @@
 # Handoff atual — Continuidade para novo chat
 
-**Gerado após:** sessão **012**  
-**Próxima sessão:** **013** → `logs/sessao_resumo_013.md`  
-**Data in-game ao fechar:** 20 de Julho de 2026 · tarde  
+**Gerado após:** sessão **013**  
+**Próxima sessão:** **014** → `logs/sessao_resumo_014.md`  
+**Data in-game ao fechar:** 21 de Julho de 2026 · manhã  
 **Branch canônica:** `feature/linha-estavel`  
-**Última atualização deste handoff:** 22 de Julho de 2026
+**Última atualização deste handoff:** 25 de Julho de 2026
 
 > **Primeiro arquivo a ler:** `logs/context_pack_atual.md`
 
@@ -15,7 +15,7 @@
 | Recurso | URL |
 | ------- | --- |
 | Context pack (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md |
-| Sessão 012 (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_012.md |
+| Sessão 013 (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_013.md |
 | Handoff (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md |
 | Board | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/board_campanha.md |
 
@@ -25,46 +25,30 @@
 
 | Campo | Valor |
 | ----- | ----- |
-| Data | **20/07/2026**, tarde |
-| Local | Pack Badlands — área aberta (pós-demonstração) |
+| Data | **21/07/2026**, manhã |
+| Local | Pack Badlands — tenda Ryan & Valk |
 | Prioridade | Preparação viagem Night City · Tutoria Sasha/Lira · Organização com Reyes |
 | Drones | **Condor + Corujas operacionais** (demonstrados ao Pack) |
-| Relação Ryan × Valk | Consolidada + **decisão conjunta de ir a Night City** |
+| Relação Ryan × Valk | Consolidada + intimidade 20/07 + **decisão conjunta de ir a Night City** |
 
 ### Cena de abertura (continuidade exata)
 
-**Área aberta do Pack — Tarde de 20/07/2026.**
+**Tenda Ryan & Valk — Manhã de 21/07/2026.**
 
-Ryan acabou de falar:
-
-> — Não sei… é literalmente a primeira vez que eu não tenho nada na cabeça.  
-> (sorriso de canto)  
-> — Posso pensar em algumas formas bem agradáveis de perder tempo… mas acho que você tem coisas mais importantes pra fazer do que me entreter o dia inteiro.  
-> (piscadinha)  
-> — Então… me coloca nas patrulhas? Ou a gente some um pouco nas Badlands?
-
-Valk respondeu:
-
-> — Formas agradáveis de perder tempo eu sempre topo. Mas você tem razão… eu tenho umas coisas pra resolver ainda hoje.  
-> — Patrulhas eu posso te colocar sim. Ou a gente some nas Badlands por um ou dois dias se você quiser. Mas só depois que eu terminar de organizar o time e falar com o Reyes sobre a demonstração dos drones.  
-> (se levanta, puxando Ryan)  
-> — Vamos voltar pro meio do pessoal antes que alguém ache que a gente sumiu. Depois a gente decide se vai patrulhar ou sumir.
-
-O Condor continua planando alto. O Pack ainda está reunido e animado.
+Ryan e Valk acordam juntos após a noite íntima. O Pack está em rotina matinal. Condor e Corujas operacionais. A decisão de ir a Night City permanece.
 
 **O que Ryan faz agora?**
 
 ---
 
-## O que acabou de acontecer (sessão 012)
+## O que acabou de acontecer (sessão 013)
 
-- Incursão na torre de transmissão (chrome + componentes recuperados; corpos queimados).
-- Construção dos drones miméticos: **Condor** (observação longa distância) e **Corujas** (recon silencioso).
-- Demonstração pública ao Pack (impacto alto).
-- Conversa decisiva com Valk: Ryan admitiu que o Pack não precisa mais dele e precisa voltar a Night City. Valk escolheu ir com ele. Combinado: terminar assuntos em NC e, se possível, retornar juntos.
-- Sobre Sasha/Lira: Lira mostrou curiosidade aberta; Sasha ainda reservada. Valk indo devagar.
+- Jantar e conversa sobre uso dos drones e carga de trabalho de Valk.
+- Noite íntima intensa + aftercare na tenda.
+- Ryan adormeceu no meio da frase.
+- Avanço de 1 dia in-game (20→21/07).
 
-Detalhe completo: [sessao_resumo_012.md](sessao_resumo_012.md)
+Detalhe completo: [sessao_resumo_013.md](sessao_resumo_013.md)
 
 ---
 
@@ -83,25 +67,23 @@ Detalhe completo: [sessao_resumo_012.md](sessao_resumo_012.md)
 ## Prompt de abertura (copiar e colar no novo chat)
 
 ```markdown
-# Cyberpunk RED — Continuidade (Sessão 013)
+# Cyberpunk RED — Continuidade (Sessão 014)
 
 ## Boot (tier-0)
 - Repo: https://github.com/Klaillton/Cyberpunk · branch `feature/linha-estavel`
 - Leia primeiro: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md
-- Resumo da sessão anterior: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_012.md
+- Resumo da sessão anterior: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_013.md
 - Handoff: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md
 
 ## Estado
-- **20/07/2026 tarde** · Pack Badlands
+- **21/07/2026 manhã** · Pack Badlands · tenda Ryan & Valk
 - Condor + Corujas operacionais e já demonstrados ao Pack
 - Ryan e Valk decidiram ir a Night City juntos
 - **F15 ativo:** Valk **não** chama Ryan de “herói” / “herói solitário”
 - Warden = drone terrestre (não voa)
 
 ## Cena atual (continuidade)
-Área aberta do Pack. Valk acabou de se levantar e puxar Ryan de volta para o meio do pessoal, dizendo que precisa organizar o time e falar com Reyes sobre os drones antes de decidir entre patrulha ou sumir nas Badlands.
-
-O Condor ainda está planando alto.
+Tenda. Manhã de 21/07. Ryan e Valk acordam juntos após a noite. Pack em rotina matinal.
 
 **Continue exatamente desta cena.**
 

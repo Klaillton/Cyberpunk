@@ -1,9 +1,9 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **012** · **Próxima:** **013** (`sessao_resumo_013.md`)  
+**Gerado após:** sessão **013** · **Próxima:** **014** (`sessao_resumo_014.md`)  
 **Branch:** `feature/linha-estavel`  
-**Atualizado:** 20 de Julho de 2026
+**Atualizado:** 21 de Julho de 2026
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
 > Fatos estáveis: [sistema/fatos_duros.md](../sistema/fatos_duros.md).  
@@ -15,18 +15,18 @@
 
 | Campo | Valor |
 | ----- | ----- |
-| Data in-game | **20/07/2026** |
-| Período | Tarde / final da tarde |
+| Data in-game | **21/07/2026** |
+| Período | Manhã |
 | Região | **Badlands** |
-| Local específico | Pack Nômade — área aberta / tenda Ryan & Valk |
+| Local específico | Pack Nômade — tenda Ryan & Valk |
 | Facção / base local | Pack Badlands (hospedagem) |
-| Cena / gancho | Demonstração drones concluída · Decisão Ryan + Valk ir a Night City |
+| Cena / gancho | Acordar após noite íntima · Preparação viagem NC |
 | Prioridade | Preparação viagem NC · Assuntos pessoais Ryan · Tutoria Sasha/Lira |
 | Segredos ativos | Casas modulares — time produção + Tio Gringo sabem; pack geral ainda aguarda revelação oficial completa |
 
 ### Cena de abertura sugerida
 
-**Final da tarde 20/07 — área aberta / tenda.** Após demonstração do Condor e conversa decisiva com Valk. Pack animado com drones. Ryan e Valk decidiram ir a Night City juntos.
+**Manhã 21/07 — tenda Ryan & Valk.** Ryan e Valk acordam juntos após a noite. Pack em rotina matinal. Condor + Corujas operacionais. Decisão de ir a Night City permanece.
 
 ---
 
@@ -66,11 +66,11 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 ---
 
-## O que acabou de acontecer (012 — 1 parágrafo)
+## O que acabou de acontecer (013 — 1 parágrafo)
 
-Incursão torre (chrome + componentes); construção Condor e Corujas; demonstração pública ao Pack (impacto alto); conversa decisiva Ryan × Valk: Pack autônomo o suficiente, Ryan precisa voltar a NC, Valk escolhe ir junto. Decisão de terminar assuntos e, se possível, retornar.
+Noite de 20/07: jantar + conversa sobre uso dos drones e carga de Valk; intimidade intensa na tenda + aftercare; Ryan adormeceu no meio da frase. Avanço para manhã de 21/07.
 
-Detalhe: [sessao_resumo_012.md](sessao_resumo_012.md)
+Detalhe: [sessao_resumo_013.md](sessao_resumo_013.md)
 
 ---
 
@@ -94,7 +94,7 @@ Base: `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estav
 | `sistema/fatos_duros.md` |
 | `board/board_campanha.md` |
 | `logs/handoff_atual.md` |
-| `logs/sessao_resumo_012.md` |
+| `logs/sessao_resumo_013.md` |
 | `sistema/comandos_jogador.md` |
 
 ---
@@ -102,7 +102,7 @@ Base: `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estav
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · 20/07/2026 · Badlands/Pack · prioridade: preparação NC + tutoria Sasha/Lira · próximo resumo: 013
+Boot OK · 21/07/2026 · Badlands/Pack · prioridade: preparação NC + tutoria Sasha/Lira · próximo resumo: 014
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.

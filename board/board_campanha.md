@@ -1,7 +1,7 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** 20 de Julho de 2026 (tarde) — Pack Badlands  
-**Local:** Acampamento do Pack Nômade de Badlands — área aberta / tenda Ryan & Valk
+**Data Atual:** 21 de Julho de 2026 (manhã) — Pack Badlands  
+**Local:** Acampamento do Pack Nômade de Badlands — tenda Ryan & Valk
 
 ---
 
@@ -74,7 +74,7 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 
 ---
 
-**Última atualização:** 20 de Julho de 2026 (sessão 012)
+**Última atualização:** 21 de Julho de 2026 (sessão 013)
 
 ---
 
@@ -86,4 +86,4 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 
 **Facções:** [Pack Badlands](../facoes/pack_badlands.md) · [Facções Gerais](../facoes/faccoes_geral.md) · [Rel. Facções](../relacionamentos/faccao_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 012](../logs/sessao_resumo_012.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 013](../logs/sessao_resumo_013.md)
