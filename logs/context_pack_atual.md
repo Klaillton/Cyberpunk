@@ -1,7 +1,7 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **013** · **Próxima:** **014** (`sessao_resumo_014.md`)  
+**Gerado após:** sessão **014** · **Próxima:** **015** (`sessao_resumo_015.md`)  
 **Branch:** `feature/linha-estavel`  
 **Atualizado:** 21 de Julho de 2026
 
@@ -16,17 +16,17 @@
 | Campo | Valor |
 | ----- | ----- |
 | Data in-game | **21/07/2026** |
-| Período | Manhã |
+| Período | Tarde |
 | Região | **Badlands** |
-| Local específico | Pack Nômade — tenda Ryan & Valk |
+| Local específico | Em deslocamento — observação leve de base militar |
 | Facção / base local | Pack Badlands (hospedagem) |
-| Cena / gancho | Acordar após noite íntima · Preparação viagem NC |
-| Prioridade | Preparação viagem NC · Assuntos pessoais Ryan · Tutoria Sasha/Lira |
+| Cena / gancho | Ryan saiu sozinho para observação (máscara + Vespas + Warden). Voltar antes do escuro. |
+| Prioridade | Observação base militar · Preparação viagem NC · Tutoria Sasha/Lira |
 | Segredos ativos | Casas modulares — time produção + Tio Gringo sabem; pack geral ainda aguarda revelação oficial completa |
 
 ### Cena de abertura sugerida
 
-**Manhã 21/07 — tenda Ryan & Valk.** Ryan e Valk acordam juntos após a noite. Pack em rotina matinal. Condor + Corujas operacionais. Decisão de ir a Night City permanece.
+**Tarde 21/07 — Badlands.** Ryan em deslocamento a pé para observação leve de base militar. Condições de Valk: rádio, Warden, voltar antes do escuro, virar se cheirar errado. Vespas + Warden em formação.
 
 ---
 
@@ -63,14 +63,15 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 | E011 | Visita Doc **Moreau** (Elisa); Valk junto |
 | E001/E006 | Biotechnica latente |
 | Tutoria | Valk + Sasha/Lira (assistentes; intimidade: Lira aberta, Sasha reservada) |
+| Novo | Enxame mini-drones (ideia + sondagem materiais) |
 
 ---
 
-## O que acabou de acontecer (013 — 1 parágrafo)
+## O que acabou de acontecer (014 — 1 parágrafo)
 
-Noite de 20/07: jantar + conversa sobre uso dos drones e carga de Valk; intimidade intensa na tenda + aftercare; Ryan adormeceu no meio da frase. Avanço para manhã de 21/07.
+Manhã 21/07: intimidade + café com Valk; ideia do enxame de mini-drones a partir de formigas; sondagem com Tomas (látex) e Mara (resina/seiva); Ryan se puxa do hiperfoco; decide sair sozinho para observação leve de base militar sob condições de Valk. Saiu equipado (máscara + Vespas + Warden).
 
-Detalhe: [sessao_resumo_013.md](sessao_resumo_013.md)
+Detalhe: [sessao_resumo_014.md](sessao_resumo_014.md)
 
 ---
 
@@ -79,7 +80,7 @@ Detalhe: [sessao_resumo_013.md](sessao_resumo_013.md)
 | Tier | Quando | O que ler |
 | ---- | ------ | --------- |
 | **0** | Sempre / `[Refresh contexto]` | **Este arquivo** → `fatos_duros` → `board` se divergir |
-| **1** | Cena Badlands Pack | `event_queue.md`, `ryan_relacionamentos.md`, Valk, `npc_agencia_cena.md` se delegação |
+| **1** | Cena Badlands Pack / trânsito | `event_queue.md`, `ryan_relacionamentos.md`, Valk, `npc_agencia_cena.md` se delegação |
 | **2** | Sob demanda | `registro_arquivos.md` → ficha, pulso, guarda-roupa… |
 
 ---
@@ -94,7 +95,7 @@ Base: `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estav
 | `sistema/fatos_duros.md` |
 | `board/board_campanha.md` |
 | `logs/handoff_atual.md` |
-| `logs/sessao_resumo_013.md` |
+| `logs/sessao_resumo_014.md` |
 | `sistema/comandos_jogador.md` |
 
 ---
@@ -102,7 +103,7 @@ Base: `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estav
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · 21/07/2026 · Badlands/Pack · prioridade: preparação NC + tutoria Sasha/Lira · próximo resumo: 014
+Boot OK · 21/07/2026 · Badlands (em trânsito) · prioridade: observação base militar + preparação NC · próximo resumo: 015
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.

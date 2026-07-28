@@ -1,20 +1,21 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** 21 de Julho de 2026 (manhã) — Pack Badlands  
-**Local:** Acampamento do Pack Nômade de Badlands — tenda Ryan & Valk
+**Data Atual:** 21 de Julho de 2026 (tarde) — Pack Badlands / em trânsito  
+**Local:** Em deslocamento para observação leve de base militar (Badlands)
 
 ---
 
 ## Missão Atual
 
-Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badlands. Seu foco atual é:
+Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badlands, com saída pontual de observação. Seu foco atual é:
 
 - **Drones miméticos** — Condor (observação longa distância) e Corujas (recon silencioso) **operacionais e demonstrados** ao Pack (20/07).
 - **Casas modulares dobráveis** — protótipo externo montado/testado; layout interno em modelagem; aguardando escala/revelação completa.
 - **Badlands Node** — biodigestor e filtragem avançando (Mara, Tomas, Elias com autonomia crescente).
+- **Novo (ideia):** Enxame de mini-drones formiga — fase de sondagem de materiais (látex/resina). Não prioritário.
 - **Decisão de partida:** Ryan e Valk decidiram ir a Night City juntos para resolver assuntos pessoais de Ryan. Possível retorno ao Pack depois.
 
-**Prioridade atual:** Preparação viagem Night City · Tutoria Valk com Sasha/Lira · Progresso Node/casas.
+**Prioridade atual:** Observação base militar (leve, solo, retorno antes do escuro) · Preparação viagem Night City · Tutoria Valk com Sasha/Lira · Progresso Node/casas.
 
 **Projetos em andamento:**
 
@@ -24,6 +25,7 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 - Destilaria — Elias (autonomia).
 - Estufa modular — Mara (ciclo biológico/água).
 - Cerca em estrela — concluída.
+- **Enxame mini-drones (ideia)** — sondagem de materiais com Tomas e Mara; prova de conceito ~10 unidades.
 
 ---
 
@@ -51,14 +53,14 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 
 | Nome                 | Papel                  | Relação com Ryan                  | Notas |
 |----------------------|------------------------|-----------------------------------|-------|
-| **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Decidiu ir a NC com Ryan; evita “herói” (F15) — [ficha](../fichas/nomad%20-%20lena_valk_kane.md) |
+| **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Decidiu ir a NC com Ryan; evita “herói” (F15); confiança operacional reforçada (autorizou saída solo) — [ficha](../fichas/nomad%20-%20lena_valk_kane.md) |
 | **Reyes** | Líder do Pack | Confiança estratégica | Ouveu protótipo; Pack avançou com autonomia |
 | **Tio Gringo** | Ferreiro | Alta estima | Testou Condor; mentor do time |
 | **Rusty** | Garagem/veículos | Colaborador técnico | Incursões recorrentes |
 | **Scout** | Sentinela / recon | Colaborador operacional | Scavs — [ficha](../fichas/npc/scout.md); **não** é Jax |
-| **Mara** | Recruta (Med/Hidro) | Parceira Node | Estufa com autonomia |
+| **Mara** | Recruta (Med/Hidro) | Parceira Node | Estufa com autonomia; disponível para resina/seiva de teste |
 | **Elias** | Recruta (Refinaria) | Autonomia destilaria | |
-| **Tomas** | Recruta (Mecânica) | Monitoramento | |
+| **Tomas** | Recruta (Mecânica) | Monitoramento | Disponível para processar látex/polímero de teste |
 | **Sasha / Lira** | Pack | Interação crescente | Tutoria Valk; Lira aberta a intimidade, Sasha reservada |
 
 ---
@@ -74,7 +76,7 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 
 ---
 
-**Última atualização:** 21 de Julho de 2026 (sessão 013)
+**Última atualização:** 21 de Julho de 2026 (sessão 014)
 
 ---
 
@@ -86,4 +88,4 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 
 **Facções:** [Pack Badlands](../facoes/pack_badlands.md) · [Facções Gerais](../facoes/faccoes_geral.md) · [Rel. Facções](../relacionamentos/faccao_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 013](../logs/sessao_resumo_013.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 014](../logs/sessao_resumo_014.md)

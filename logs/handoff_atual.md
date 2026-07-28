@@ -1,10 +1,10 @@
 # Handoff atual — Continuidade para novo chat
 
-**Gerado após:** sessão **013**  
-**Próxima sessão:** **014** → `logs/sessao_resumo_014.md`  
-**Data in-game ao fechar:** 21 de Julho de 2026 · manhã  
+**Gerado após:** sessão **014**  
+**Próxima sessão:** **015** → `logs/sessao_resumo_015.md`  
+**Data in-game ao fechar:** 21 de Julho de 2026 · tarde  
 **Branch canônica:** `feature/linha-estavel`  
-**Última atualização deste handoff:** 25 de Julho de 2026
+**Última atualização deste handoff:** 28 de Julho de 2026
 
 > **Primeiro arquivo a ler:** `logs/context_pack_atual.md`
 
@@ -15,7 +15,7 @@
 | Recurso | URL |
 | ------- | --- |
 | Context pack (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md |
-| Sessão 013 (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_013.md |
+| Sessão 014 (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_014.md |
 | Handoff (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md |
 | Board | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/board_campanha.md |
 
@@ -25,30 +25,31 @@
 
 | Campo | Valor |
 | ----- | ----- |
-| Data | **21/07/2026**, manhã |
-| Local | Pack Badlands — tenda Ryan & Valk |
-| Prioridade | Preparação viagem Night City · Tutoria Sasha/Lira · Organização com Reyes |
-| Drones | **Condor + Corujas operacionais** (demonstrados ao Pack) |
-| Relação Ryan × Valk | Consolidada + intimidade 20/07 + **decisão conjunta de ir a Night City** |
+| Data | **21/07/2026**, tarde |
+| Local | Badlands — em deslocamento para observação de base militar |
+| Prioridade | Observação leve (voltar antes do escuro) · Preparação viagem Night City |
+| Drones | Condor + Corujas operacionais no Pack; Vespas + Warden com Ryan |
+| Relação Ryan × Valk | Consolidada + confiança operacional reforçada (autorizou saída solo) |
+| Novo projeto | Enxame mini-drones (ideia + sondagem materiais com Tomas/Mara) |
 
 ### Cena de abertura (continuidade exata)
 
-**Tenda Ryan & Valk — Manhã de 21/07/2026.**
+**Tarde 21/07 — Badlands.**
 
-Ryan e Valk acordam juntos após a noite íntima. O Pack está em rotina matinal. Condor e Corujas operacionais. A decisão de ir a Night City permanece.
+Ryan saiu do Pack equipado (máscara tática + três Vespas + Warden). Condições de Valk: rádio, Warden, voltar antes do escuro, virar se cheirar errado. Ele está em deslocamento a pé para observação leve de uma base militar. Estado emocional: letargia residual pós-hiperfoco misturada com a semente do projeto de enxame.
 
 **O que Ryan faz agora?**
 
 ---
 
-## O que acabou de acontecer (sessão 013)
+## O que acabou de acontecer (sessão 014)
 
-- Jantar e conversa sobre uso dos drones e carga de trabalho de Valk.
-- Noite íntima intensa + aftercare na tenda.
-- Ryan adormeceu no meio da frase.
-- Avanço de 1 dia in-game (20→21/07).
+- Manhã: intimidade + café com Valk; desenvolvimento da dinâmica de poder e vulnerabilidade.
+- Ideia do enxame de mini-drones a partir de formigas; diagrama no chão; sondagem com Tomas (látex) e Mara (resina/seiva).
+- Ryan se puxa do hiperfoco e decide sair sozinho para observação.
+- Saiu equipado. Em trânsito ao fechar.
 
-Detalhe completo: [sessao_resumo_013.md](sessao_resumo_013.md)
+Detalhe completo: [sessao_resumo_014.md](sessao_resumo_014.md)
 
 ---
 
@@ -61,29 +62,32 @@ Detalhe completo: [sessao_resumo_013.md](sessao_resumo_013.md)
 | E012 | Casas modulares (interno + possível revelação) |
 | E007 | Badlands Node |
 | E011 | Visita à Doc Moreau (Elisa) |
+| Novo | Enxame mini-drones (sondagem) |
 
 ---
 
 ## Prompt de abertura (copiar e colar no novo chat)
 
 ```markdown
-# Cyberpunk RED — Continuidade (Sessão 014)
+# Cyberpunk RED — Continuidade (Sessão 015)
 
 ## Boot (tier-0)
 - Repo: https://github.com/Klaillton/Cyberpunk · branch `feature/linha-estavel`
 - Leia primeiro: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md
-- Resumo da sessão anterior: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_013.md
+- Resumo da sessão anterior: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_014.md
 - Handoff: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md
 
 ## Estado
-- **21/07/2026 manhã** · Pack Badlands · tenda Ryan & Valk
-- Condor + Corujas operacionais e já demonstrados ao Pack
-- Ryan e Valk decidiram ir a Night City juntos
+- **21/07/2026 tarde** · Badlands · em deslocamento
+- Ryan saiu sozinho para observação leve de base militar
+- Condições de Valk: rádio, Warden, voltar antes do escuro, virar se cheirar errado
+- Vespas + Warden com ele
 - **F15 ativo:** Valk **não** chama Ryan de “herói” / “herói solitário”
 - Warden = drone terrestre (não voa)
+- Novo projeto em mente: enxame de mini-drones formiga (sondagem de materiais)
 
 ## Cena atual (continuidade)
-Tenda. Manhã de 21/07. Ryan e Valk acordam juntos após a noite. Pack em rotina matinal.
+Ryan está marchando nas Badlands em direção à base militar para observação leve. Máscara no rosto. Vespas em formação baixa. Warden no chão atrás.
 
 **Continue exatamente desta cena.**
 
