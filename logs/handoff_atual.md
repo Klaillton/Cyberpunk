@@ -97,6 +97,8 @@ Detalhe completo: [sessao_resumo_014.md](sessao_resumo_014.md)
 ## Motor de cena (obrigatório)
 - **Não ecoar** o turno do jogador (≤2 linhas). SOP multi-passo → **resultado primeiro** (não espelhar o plano).
 - **Delta ≥ ~60%** da resposta (intel, NPC, tempo, pressão AGENDA).
+- **VIAGEM limpa (N9):** sem evento no caminho → narrar **chegada** de uma vez (sem filler de marcha).
+- Ações OPERAÇÃO: **intenção curta** + limites (evitar manuais longos de chat meta que o narrador ecoa).
 - Pressão só da **AGENDA DA CENA** / pendências do NOW / event_queue plausível no local.
 - NPCs com tarefa aberta **executam** se o PC ficar idle/hiperfoco — não ficam plateia.
 - 1pager: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/motor_cena_1pager.md

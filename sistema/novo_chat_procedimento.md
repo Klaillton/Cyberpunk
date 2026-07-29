@@ -110,10 +110,10 @@ Só então narra o gancho de abertura.
 
 ### 4.3.1 Motor de cena (sempre)
 
-- Seguir **N1–N8** em [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](motor_cena_1pager.md).
+- Seguir **N1–N9** em [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](motor_cena_1pager.md).
 - Bloco **MOTOR** do context pack é **obrigatório** no tier-0 (Refresh também o reinstala).
 - Usar **AGENDA DA CENA** do context pack (local atual) como fonte de pressão se a cena estagnar.
-- **Não ecoar** o jogador; OPERAÇÃO = **resultado primeiro**; delta ≥60%; NPCs com agenda **executam** (não ficam plateia).
+- **Não ecoar** o jogador; OPERAÇÃO = **resultado primeiro**; delta ≥60%; **VIAGEM limpa = fechar chegada** (N9); NPCs com agenda **executam**.
 - Se o chat anterior estava em modo eco: este **novo** chat é a correção principal — não reabrir o thread antigo.
 
 ### 4.4 Share Grok (opcional)

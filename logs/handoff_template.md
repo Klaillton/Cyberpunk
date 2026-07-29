@@ -49,9 +49,9 @@ Leia: instrucoes_projeto → diretrizes_ia → handoff_atual → dashboard → b
 
 ## Regras duras
 - Sem meta-game; Warden = drone terrestre scorpion-like; datas do board; próximo resumo NNN
-- **Motor de cena (N1–N8):** não ecoar; resultado-primeiro em OPERAÇÃO; delta ≥60%; SOP comprimido; pressão AGENDA/queue/NOW
+- **Motor de cena (N1–N9):** não ecoar; resultado-primeiro; delta ≥60%; SOP comprimido; fecho de viagem limpa; pressão AGENDA/queue/NOW
 - AGENDA DA CENA = ganchos do **local atual** (reescrever se mudou de região)
-- Chat longo com eco → preferir **novo chat**; mid-chat: `[Motor de cena]`
+- Ação OPERAÇÃO curta (intenção + limites); chat longo com eco → **novo chat**; mid-chat: `[Motor de cena]`
 
 ## Comece
 Confirme boot em 1 frase e continue a partir de: [gancho]

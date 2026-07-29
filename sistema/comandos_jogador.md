@@ -172,7 +172,7 @@ Ainda gerar resumo mínimo; preencher seções de ledger com **“sem delta”**
 | | - Pendências E0XX |
 | | - Projetos / NPCs quentes **da cena atual** |
 | | - **AGENDA DA CENA** no pack (máx. 3 ganchos do local atual; reescrever se local mudou) |
-| | - Regras duras (F03, F04, F11, …) + Motor de cena N1–N7 |
+| | - Regras duras (F03, F04, F11, …) + Motor de cena N1–N9 |
 | | - **Prompt de abertura colável** (tier-0 primeiro: context pack; 1 linha: não ecoar / delta / agenda) |
 | 6 | Se o NOW mudou: atualizar também `logs/context_pack_atual.md` (NOW + **AGENDA reescrita** se local/região mudou). |
 | 7 | Mostrar no chat: confirmação dos arquivos + **Prompt de abertura** para copiar. |
@@ -281,16 +281,18 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 | 1 | Declarar: `Motor de cena — reancorado.` |
 | 2 | Ler: `sistema/motor_cena_1pager.md` + bloco **MOTOR** + **AGENDA** em `logs/context_pack_atual.md` (RAW se preciso). |
 | 3 | Responder em **formato curto** (abaixo). **Não** narrar cena ainda, salvo o jogador ter pedido “e continue” / enviado ação no mesmo turno. |
-| 4 | Se houver ação no mesmo turno: narrar **já** com N1b (resultado primeiro) e N8 (SOP comprimido). |
-| 5 | Se o thread estiver muito contaminado por eco (>~40 msgs RP): **sugerir** chat novo com `logs/handoff_atual.md`. |
+| 4 | Se houver ação no mesmo turno: narrar **já** com N1b (resultado primeiro), N8 (SOP comprimido) e N9 se for viagem limpa. |
+| 5 | Mesmo se a ação for um **script longo** (ex. gerado em chat meta): **não ecoar** — só outcomes. |
+| 6 | Se o thread estiver muito contaminado por eco (>~40 msgs RP): **sugerir** chat novo com `logs/handoff_atual.md`. |
 
 ### Formato de resposta obrigatório
 
 ```markdown
 **Motor reancorado**
-- N1 sem eco · N1b resultado-primeiro (OPERAÇÃO) · N2+ delta ≥60% · N8 SOP comprimido
+- N1 sem eco · N1b resultado-primeiro · N2+ delta ≥60% · N8 SOP · N9 fecho de viagem limpa
 - AGENDA ativa: #… — …
 - Próximo turno de RP: outcomes primeiro; sem espelhar o PC
+- Ação OPERAÇÃO preferível: intenção curta + limites (não manual de 8 passos)
 - (Opcional) Chat longo com eco pesado → preferir novo chat + handoff
 ```
 
