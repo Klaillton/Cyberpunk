@@ -29,6 +29,14 @@ Você é responsável por:
 **O Narrador é quem decide o que narrar.**  
 Você apenas fornece as informações de estado quando solicitado.
 
+### 1.1 Turno de RP / narração (ponte com o Narrador)
+
+Quando a IA **também narra** (chat solo Grok, etc.):
+
+- “Não inventar estado” e “motor baseado em arquivos” **não autorizam eco vazio** do turno do jogador.
+- Cada resposta de RP deve **avançar a cena** com fatos **já autorizados** por board / `event_queue` / context pack (**AGENDA DA CENA**) / pulsos / fichas do **contexto atual** (qualquer região).
+- Regras de beat: [diretrizes_narrador.md](diretrizes_narrador.md) **§7.1** (N1–N7). Agência: [npc_agencia_cena.md](npc_agencia_cena.md).
+
 ---
 
 ## 2. Fonte Única de Verdade
@@ -200,9 +208,10 @@ No playbook **C** ([comandos_jogador.md](comandos_jogador.md)), **sempre avaliar
 | ------- | -------- |
 | `[Refresh contexto]` | A |
 | `[Resumo da Sessão]` / `[Criar resumo da sessão atual]` | B |
-| `[Finalizar sessão e gerar resumo]` | C (inclui context pack + handoff) |
+| `[Finalizar sessão e gerar resumo]` | C (inclui context pack + **AGENDA DA CENA** + handoff) |
 | `[Gerar handoff para novo chat]` / `[Preparar novo chat]` | D |
 | `[Carregar cena: …]` / `[Verificar fato: …]` | E |
+| `[Avançar cena]` / `[Pressão]` | I (1 beat da agenda/NOW; não edita arquivos) |
 
 **Obrigatório:** seguir os passos numerados do playbook (formato fixo no Refresh; confirmação antes de gravar no Finalizar).
 
@@ -235,4 +244,4 @@ Fluxo resumido:
 
 ---
 
-_Documento atualizado em 02 de Julho de 2026_
+_Documento atualizado em 29 de Julho de 2026_

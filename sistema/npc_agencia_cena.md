@@ -2,9 +2,11 @@
 
 **Finalidade:** Playbook para NPCs **falarem entre si**, **decidirem micro-ações** e **executarem tarefas delegadas** enquanto Ryan está na cena — sem controlar o protagonista e sem devolver o mesmo menu de opções ao jogador.
 
-**Complementa:** [pulso_procedimento.md](pulso_procedimento.md) (off-screen, 1×/dia) · [diretrizes_narrador.md](diretrizes_narrador.md) §3
+**Complementa:** [pulso_procedimento.md](pulso_procedimento.md) (off-screen, 1×/dia) · [diretrizes_narrador.md](diretrizes_narrador.md) §3 e §7.1 (Motor de cena)
 
-**Branch:** `feature/linha-estavel` · **Atualizado:** 15 de Julho de 2026
+**Branch:** `feature/linha-estavel` · **Atualizado:** 29 de Julho de 2026
+
+**Escopo:** qualquer local (Pack, Night City, estrada, base, job). Regras fixas; quem age e o que cobram vêm do NOW / AGENDA.
 
 ---
 
@@ -15,9 +17,11 @@
 | Ryan não é controlado | Narrador não escreve ações, falas nem decisões do protagonista. |
 | F10 anti meta-game | NPC só sabe o que viu/ouviu na cena ou por canal plausível. |
 | Sem inventar | Nomes e facções vêm de board, fichas, pulsos — não criar personagens genéricos (ex.: "Gus", "Marcus"). |
-| Escala | Autonomia = **micro** (planejar caça, pedir peça, discordar, organizar rota). Missão do pack / segredos (F11, L03) → Ryan ou Reyes quando couber. |
+| Escala | Autonomia = **micro** (planejar caça, pedir peça, discordar, organizar rota). Missão de facção / segredos (F11, L03, etc.) → PC ou autoridade local quando couber. |
 | **Delegação executa** | Se Ryan **delegou** uma tarefa ("Valk, planeje X"), o NPC **entrega o plano** — não devolve o trabalho disfarçado de pergunta. |
 | **Anti-loop** | Se a mesma pergunta/opções A/B/C já apareceu **2×** na sessão, o narrador **avança** com decisão do NPC na 3ª vez. |
+| **Anti-plateia** | Após **2 turnos** só observando sem ação, o NPC **age** (agenda própria, micro-decisão, ou sai e executa tarefa aberta). |
+| **Agenda não congela (N5)** | Tarefa aberta na AGENDA DA CENA / NOW + PC passivo/hiperfoco ≥2 turnos → NPC **executa** e o PC só percebe o resultado (F10). |
 
 ---
 
@@ -127,12 +131,37 @@ Ryan pergunta a Elias; **Elias e Tio Gringo** resolvem a peça entre si enquanto
 | Pergunta a Elias, responde outro NPC | Quem foi nomeado responde; outros só se intercalarem de forma natural |
 | Troca longa estilo novela sem input | Limitar a 1–2 falas NPC↔NPC por turno (salvo `[Agência NPC]` explícito) |
 | Decisão que contradiz board / F11 / L03 | Consultar [board](../board/board_campanha.md) e [fatos_duros.md](fatos_duros.md) |
+| **Plateia eterna** (NPC só observa o PC) | Anti-plateia: no 3º turno age ou executa agenda |
+| **Eco do monólogo** do PC sem delta | N1–N4 do Motor de cena; consolidar ou interrupt |
+| Pressão de **outro local** sem canal | Reescrever AGENDA ao mudar de local; F10 |
 
 ---
 
-## 8. Referências
+## 8. Anti-estagnação multi-contexto (ilustrações)
 
-- [comandos_jogador.md](comandos_jogador.md) — § H `[Agência NPC]`
-- [diretrizes_narrador.md](diretrizes_narrador.md) — §3 e §3.1
+Regras são genéricas. Tabela = **exemplos de documentação**, não hardcode.
+
+| Contexto | Idle do PC | Avanço correto (NPC/mundo) |
+| -------- | ---------- | -------------------------- |
+| Pack / acampamento | Hiperfoco em diagrama/projeto (3º turno) | Companheira com tarefa aberta **executa** (ex. alinhar rotina com o líder) e deixa recado; 1 pergunta útil **ou** compressão do projeto (N4) |
+| Night City | Mood num bar / motel (3º turno) | Fixer manda mensagem / deadline do job; crewmate resolve micro-logística e volta com **fato** |
+| Estrada / base / recon | Silêncio no veículo ou overwatch | Scout reporta sinal; janela de tempo encolhe; heat residual **se já no SoT** |
+
+### 8.1 Regressão — monólogo de projeto (anti-eco)
+
+**Entrada (3º turno de monólogo/diagrama):** PC absorto; NPCs presentes com ou sem agenda.
+
+**Correto:** ≤2 linhas de confirmação + (a) consolidar ideia em 1 bloco técnico **e/ou** (b) NPC com agenda sai e age + 1 linha de mundo. Sem reescrever o monólogo.
+
+**Errado:** repetir o monólogo em 2ª pessoa + “ela observa em silêncio / continua, a gente tá ouvindo” por vários turnos.
+
+Detalhe do motor: [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 · AGENDA: [context_pack_atual.md](../logs/context_pack_atual.md)
+
+---
+
+## 9. Referências
+
+- [comandos_jogador.md](comandos_jogador.md) — § H `[Agência NPC]` · § I `[Avançar cena]` / `[Pressão]`
+- [diretrizes_narrador.md](diretrizes_narrador.md) — §3, §3.1, **§7.1**
 - [pulso_do_mundo/](../pulso_do_mundo/) — ganchos in-scene por NPC
 - [fatos_duros.md](fatos_duros.md) — F10

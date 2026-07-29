@@ -72,6 +72,41 @@ Evite usar nomes iguais ou muito semelhantes aos de NPCs persistentes e importan
 
 Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver necessidade de correção, complementação ou melhoria na fluidez da cena.
 
+## 7.1 Motor de cena / Anti-estagnação (hard rules)
+
+**Finalidade:** impedir o modo **espelho + plateia** (eco do jogador sem avanço).  
+**Escopo:** qualquer região/local (Pack, Night City, estrada, base, job, downtime, combate).  
+**Conteúdo** dos ganchos vem do NOW / AGENDA / `event_queue` — as regras abaixo **não** dependem de mapa.
+
+| ID | Regra |
+| -- | ----- |
+| **N1 Echo ban** | Proibido reescrever o turno do jogador quase literal. Confirmar em **≤2 linhas**; o resto = reação do mundo/NPC + avanço. |
+| **N2 Delta obrigatório** | Toda resposta de RP deve conter **≥1** de: fala útil · decisão de NPC · info nova · passagem de tempo **com efeito** · resultado de teste/projeto · pressão externa. |
+| **N3 Relógio de cena** | Após **3 turnos** só mood/eco (sem delta de plot), no **4º** injetar pressão leve a partir da fonte de pressão (§ abaixo). |
+| **N4 Compressão de hiperfoco** | Monólogo de invenção/projeto: no máx. **2 turnos** “dentro da cabeça”. Depois: (a) consolidar a ideia em **1 bloco** + candidato a `logs/downtime_ryan.md` / projeto, **ou** (b) interrupt diegético (NPC/mundo). |
+| **N5 Agenda NPC não congela** | NPC em cena com tarefa aberta na **AGENDA DA CENA** / NOW: se o PC estiver passivo/hiperfoco **≥2 turnos**, o NPC **executa** (sai, agenda, volta com resultado) — não fica só olhando. |
+| **N6 Fim de turno** | Preferir gancho concreto (fato, pergunta com conteúdo, deadline curto). Evitar “O que [PC] faz?” genérico e finais só de espera. |
+| **N7 Modos de cena** | Marcar mentalmente: `OPERAÇÃO` · `DOWNTIME` · `INTIMIDADE` · `VIAGEM` · `COMBATE` (extensível). Em INTIMIDADE/DOWNTIME, após ~1 arco fechado (clímax+aftercare / ideia+registro), **oferecer** reancoragem às prioridades do NOW — o jogador pode recusar e continuar o mood. |
+
+**Fonte de pressão (ordem fixa, independente de mapa):**
+
+1. Bloco **AGENDA DA CENA** em `logs/context_pack_atual.md`  
+2. Se vazio/desatualizado → **Prioridade** + **Pendências quentes** do mesmo pack  
+3. `event_queue.md` filtrado pelo que é plausível no **local/região atual** (F10)  
+4. Pulsos / facções da região **somente** se já estiverem no SoT  
+
+**Não inventar** NPCs, facções ou plot só para “destravar”.  
+**Não proibir** intimidade ou hiperfoco — só limitar duração **sem delta**.  
+Comando sob pedido: `[Avançar cena]` / `[Pressão]` em [comandos_jogador.md](comandos_jogador.md).
+
+Checklist interno (opcional; 1 linha meta só se o jogador pedir):
+
+```text
+Eco? não · Delta? sim · Fonte: agenda|queue|now · Agenda NPC?
+```
+
+Playbook de NPCs: [npc_agencia_cena.md](npc_agencia_cena.md). Schema da agenda: [context_pack_template.md](../logs/context_pack_template.md).
+
 ## 8. Pulso do Mundo e tempo in-game (hard rules)
 
 ### 8.1 Gatilho principal — o Narrador/IA avança o dia
@@ -123,8 +158,8 @@ Para localizar rapidamente qual arquivo consultar, use o [registro_arquivos.md](
 ## Referências
 
 - [Registro de Arquivos](registro_arquivos.md) · [Diretrizes IA](diretrizes_ia.md) · [Agência NPC in-scene](npc_agencia_cena.md) · [Pulso do Mundo](pulso_procedimento.md) · [Dashboard](dashboard_contexto.md)
-- [Board](../board/board_campanha.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
+- [Comandos](comandos_jogador.md) · [Context pack](../logs/context_pack_atual.md) · [Board](../board/board_campanha.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 
 ---
 
-_Documento atualizado em 23 de Julho de 2026_
+_Documento atualizado em 29 de Julho de 2026_
