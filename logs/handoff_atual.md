@@ -6,7 +6,8 @@
 **Branch canônica:** `feature/linha-estavel`  
 **Última atualização deste handoff:** 28 de Julho de 2026
 
-> **Primeiro arquivo a ler:** `logs/context_pack_atual.md`
+> **Primeiro arquivo a ler:** `logs/context_pack_atual.md` (bloco **MOTOR** + **AGENDA**)  
+> **Se o chat atual já ecoa o jogador** (>~40 msgs RP no estilo espelho): **abra chat novo** e cole o prompt abaixo — regras no meio de thread longo falham. Mid-chat: `[Motor de cena]`.
 
 ---
 
@@ -94,11 +95,13 @@ Detalhe completo: [sessao_resumo_014.md](sessao_resumo_014.md)
 - Novo projeto em mente: enxame de mini-drones formiga (sondagem de materiais)
 
 ## Motor de cena (obrigatório)
-- **Não ecoar** o turno do jogador (≤2 linhas de confirmação).
-- Toda resposta de RP com **delta** (NPC age, info nova, tempo com efeito, pressão).
+- **Não ecoar** o turno do jogador (≤2 linhas). SOP multi-passo → **resultado primeiro** (não espelhar o plano).
+- **Delta ≥ ~60%** da resposta (intel, NPC, tempo, pressão AGENDA).
 - Pressão só da **AGENDA DA CENA** / pendências do NOW / event_queue plausível no local.
 - NPCs com tarefa aberta **executam** se o PC ficar idle/hiperfoco — não ficam plateia.
-- Estagnou? Jogador pode usar `[Avançar cena]` / `[Pressão]`.
+- 1pager: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/motor_cena_1pager.md
+- Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]`.
+- Chat longo com eco pesado → **novo chat** com este handoff (não confiar só no refresh).
 
 ## Cena atual (continuidade)
 Ryan está marchando nas Badlands em direção à base militar para observação leve. Máscara no rosto. Vespas em formação baixa. Warden no chão atrás.

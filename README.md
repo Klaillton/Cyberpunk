@@ -28,6 +28,7 @@ Visão geral da estrutura do projeto e de como os arquivos se conectam entre si.
 - [instrucoes_projeto.md](sistema/instrucoes_projeto.md) — Instruções do projeto (boot da IA)
 - [diretrizes_ia.md](sistema/diretrizes_ia.md) — Boot sequence e regras da IA
 - [diretrizes_narrador.md](sistema/diretrizes_narrador.md) — Regras de narração (**§7.1 Motor de cena** anti-estagnação)
+- [motor_cena_1pager.md](sistema/motor_cena_1pager.md) — 1 página anti-eco (mid-chat / colável)
 - [npc_agencia_cena.md](sistema/npc_agencia_cena.md) — NPCs agem in-scene (delegação, anti-plateia)
 - [como_atualizar_arquivos.md](sistema/como_atualizar_arquivos.md) — Como manter os arquivos atualizados
 - [context_pack_atual.md](logs/context_pack_atual.md) — **Tier-0** (NOW + fatos; anti-esquecimento sandbox)
