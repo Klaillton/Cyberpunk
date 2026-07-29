@@ -39,6 +39,35 @@ Citar IDs de `sistema/fatos_duros.md` (F01–F13 + L0x se aplicável):
 
 ---
 
+## AGENDA DA CENA (anti-estagnação)
+
+> **Schema fixo · instâncias por cena.** Válido em qualquer região/local.  
+> Preencher com ganchos do **local/região atuais** e pendências plausíveis (F10).  
+> Atualizar em: boot de sessão · **mudança de local** (reescrever inteira) · Finalizar · quando um gancho resolver.  
+> Máx. **3** ganchos. Preferir IDs de `event_queue` / NPCs já no SoT.  
+> Motor: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 (N1–N7).
+
+| # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
+| - | ---------------- | ---------------- | ---------------------------------------------- |
+| 1 | | NPC ou mundo | ação concreta + resultado perceptível |
+| 2 | | | |
+| 3 | | | |
+
+| Campo | Valor |
+| ----- | ----- |
+| **Modo atual** | OPERAÇÃO / DOWNTIME / INTIMIDADE / VIAGEM / COMBATE |
+| **Turnos sem delta (estimado)** | 0 |
+| **Região / local (NOW)** | *(espelhar bloco NOW — não é campo Pack-only)* |
+
+**Preenchimento (qualquer mapa):**
+
+1. Ler NOW (data, região, local, prioridade).  
+2. Até 3 itens de Pendências quentes / `event_queue` **relevantes a este local**.  
+3. Tarefas abertas de NPCs **presentes ou em alcance de comunicação**.  
+4. Mudou de local (ex. Pack → estrada → NC)? → **reescrever a agenda inteira**; não carregar ganchos de outro lugar sem canal plausível.
+
+---
+
 ## Carga de contexto
 
 | Tier | Quando | Arquivos |

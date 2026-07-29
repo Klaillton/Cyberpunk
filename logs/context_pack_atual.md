@@ -67,6 +67,25 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 ---
 
+## AGENDA DA CENA (anti-estagnação)
+
+> Schema genérico — instâncias do **NOW atual** (Badlands · trânsito / observação). Ao mudar de local, **reescrever**.  
+> Motor: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · Comando: `[Avançar cena]` / `[Pressão]`.
+
+| # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
+| - | ---------------- | ---------------- | ---------------------------------------------- |
+| 1 | Observação leve da base (janela até o escuro) | Mundo / drones | Fato perceptível (movimento, silhueta, rádio, tempo) sem forçar combate |
+| 2 | Condições de Valk (rádio, Warden, virar se cheirar errado) | Valk (canal rádio se plausível) ou lembrete diegético | Pressão de tempo / check-in / risco se a luz baixar |
+| 3 | Volta ao Pack antes do anoitecer · E015 em background | Pack off-screen (F10) | Rumor/lembrete só se canal (rádio, Condor, retorno) |
+
+| Campo | Valor |
+| ----- | ----- |
+| **Modo atual** | OPERAÇÃO |
+| **Turnos sem delta (estimado)** | 0 |
+| **Região / local (NOW)** | Badlands · em deslocamento → base militar (observação leve) |
+
+---
+
 ## O que acabou de acontecer (014 — 1 parágrafo)
 
 Manhã 21/07: intimidade + café com Valk; ideia do enxame de mini-drones a partir de formigas; sondagem com Tomas (látex) e Mara (resina/seiva); Ryan se puxa do hiperfoco; decide sair sozinho para observação leve de base militar sob condições de Valk. Saiu equipado (máscara + Vespas + Warden).
@@ -80,7 +99,7 @@ Detalhe: [sessao_resumo_014.md](sessao_resumo_014.md)
 | Tier | Quando | O que ler |
 | ---- | ------ | --------- |
 | **0** | Sempre / `[Refresh contexto]` | **Este arquivo** → `fatos_duros` → `board` se divergir |
-| **1** | Cena Badlands Pack / trânsito | `event_queue.md`, `ryan_relacionamentos.md`, Valk, `npc_agencia_cena.md` se delegação |
+| **1** | Cena Badlands Pack / trânsito | `event_queue.md`, `ryan_relacionamentos.md`, Valk, `npc_agencia_cena.md` se delegação/agência · Motor de cena §7.1 |
 | **2** | Sob demanda | `registro_arquivos.md` → ficha, pulso, guarda-roupa… |
 
 ---
@@ -113,4 +132,4 @@ Hierarquia: **RAW/repo > sandbox > memória de chat**.
 ## Referências
 
 - [Handoff](handoff_atual.md) · [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
-- [Comandos](../sistema/comandos_jogador.md) · [Agência NPC](../sistema/npc_agencia_cena.md)
+- [Comandos](../sistema/comandos_jogador.md) · [Agência NPC](../sistema/npc_agencia_cena.md) · [Motor de cena](../sistema/diretrizes_narrador.md)

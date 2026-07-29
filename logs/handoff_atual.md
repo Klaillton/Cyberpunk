@@ -64,6 +64,12 @@ Detalhe completo: [sessao_resumo_014.md](sessao_resumo_014.md)
 | E011 | Visita à Doc Moreau (Elisa) |
 | Novo | Enxame mini-drones (sondagem) |
 
+### AGENDA DA CENA (resumo — detalhe no context pack)
+
+1. Observação leve da base (janela até o escuro)  
+2. Condições de Valk (rádio, Warden, virar se arriscado)  
+3. Volta ao Pack antes do anoitecer · E015 em background  
+
 ---
 
 ## Prompt de abertura (copiar e colar no novo chat)
@@ -76,6 +82,7 @@ Detalhe completo: [sessao_resumo_014.md](sessao_resumo_014.md)
 - Leia primeiro: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md
 - Resumo da sessão anterior: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_014.md
 - Handoff: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md
+- Narrador: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/diretrizes_narrador.md (§7.1 Motor de cena)
 
 ## Estado
 - **21/07/2026 tarde** · Badlands · em deslocamento
@@ -85,6 +92,13 @@ Detalhe completo: [sessao_resumo_014.md](sessao_resumo_014.md)
 - **F15 ativo:** Valk **não** chama Ryan de “herói” / “herói solitário”
 - Warden = drone terrestre (não voa)
 - Novo projeto em mente: enxame de mini-drones formiga (sondagem de materiais)
+
+## Motor de cena (obrigatório)
+- **Não ecoar** o turno do jogador (≤2 linhas de confirmação).
+- Toda resposta de RP com **delta** (NPC age, info nova, tempo com efeito, pressão).
+- Pressão só da **AGENDA DA CENA** / pendências do NOW / event_queue plausível no local.
+- NPCs com tarefa aberta **executam** se o PC ficar idle/hiperfoco — não ficam plateia.
+- Estagnou? Jogador pode usar `[Avançar cena]` / `[Pressão]`.
 
 ## Cena atual (continuidade)
 Ryan está marchando nas Badlands em direção à base militar para observação leve. Máscara no rosto. Vespas em formação baixa. Warden no chão atrás.

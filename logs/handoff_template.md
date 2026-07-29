@@ -49,6 +49,8 @@ Leia: instrucoes_projeto → diretrizes_ia → handoff_atual → dashboard → b
 
 ## Regras duras
 - Sem meta-game; Warden = drone terrestre scorpion-like; datas do board; próximo resumo NNN
+- **Motor de cena (N1–N7):** não ecoar o jogador; delta obrigatório; pressão só de AGENDA/queue/NOW; agenda NPC não congela
+- AGENDA DA CENA = ganchos do **local atual** (reescrever se mudou de região)
 
 ## Comece
 Confirme boot em 1 frase e continue a partir de: [gancho]
