@@ -7,7 +7,7 @@
 
 ---
 
-## Regras (N1–N8, resumo)
+## Regras (N1–N9, resumo)
 
 | # | Faça | Não faça |
 | - | ---- | -------- |
@@ -19,9 +19,10 @@
 | N5 | NPC com agenda **executa** se PC idle ≥2 | Plateia (“continua, a gente ouve”) |
 | N6 | Gancho concreto no fim | “O que você faz?” vazio |
 | N8 | SOP multi-passo → **outcomes** + 1–3 dados novos | Re-narrar cada passo do PC |
+| N9 | Viagem limpa: **fechar chegada** (ou 1 evento) | Filler de marcha 3+ turnos |
 
 **Pressão:** AGENDA DA CENA → pendências do pack → `event_queue` (só local atual, F10).  
-**Não inventar** NPCs/facções/plot fora do SoT.
+**Não inventar** NPCs/facções/plot fora do SoT. **Não** inventar encontro aleatório só para encher caminho.
 
 ---
 
@@ -34,6 +35,27 @@
 [Gancho]
 ```
 
+## Esqueleto VIAGEM limpa (N9)
+
+```text
+[Anomalia no caminho?] se sim → 1 beat
+[Se não] → chegada ao destino (1 bloco). Fim da marcha.
+```
+
+---
+
+## Ação do jogador (evita loop meta → SOP → eco)
+
+**Bom:** intenção + limites em poucas linhas.  
+**Ruim:** manual de 8 passos (o narrador vai querer copiar).
+
+```text
+Intenção: mapear exterior da base; drones fora do perímetro; sem infiltração.
+Quero: resultados EM/visual + rotas — sem eco do meu plano.
+```
+
+Mesmo se colar SOP longo (ex. de chat meta): narrador aplica **N1b + N8**.
+
 ---
 
 ## Chat longo
@@ -43,4 +65,4 @@ Neste chat: `[Motor de cena]` + próximo turno já em modo resultado-primeiro.
 
 ---
 
-_Atualizado: 29 de Julho de 2026_
+_Atualizado: 29 de Julho de 2026 (v2.1)_

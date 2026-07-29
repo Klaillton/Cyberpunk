@@ -92,6 +92,17 @@ Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver nec
 | **N6 Fim de turno** | Preferir gancho concreto (fato, pergunta com conteúdo, deadline curto). Evitar “O que [PC] faz?” genérico e finais só de espera. |
 | **N7 Modos de cena** | Marcar mentalmente: `OPERAÇÃO` · `DOWNTIME` · `INTIMIDADE` · `VIAGEM` · `COMBATE` (extensível). Em INTIMIDADE/DOWNTIME, após ~1 arco fechado (clímax+aftercare / ideia+registro), **oferecer** reancoragem às prioridades do NOW — o jogador pode recusar e continuar o mood. N1b é prioritário em OPERAÇÃO/VIAGEM; em mood íntimo, N1 ainda vale (sem espelho longo). |
 | **N8 Compressão de SOP** | Se o PC listou N passos de recon/craft/viagem → narrar **outcomes agregados** + **1–3 dados novos**; re-narrar passo só se **falhar**, **mudar**, ou revelar info. |
+| **N9 Fecho de deslocamento** | Em `VIAGEM` / retorno / marcha: se **2 turnos** seguidos **sem** anomalia e **sem** item de AGENDA exigindo beat no caminho → no **3º** (ou **já no 1º** se o PC disser “se limpo, sigo até X” / “chega no destino”) **fechar chegada** ou **1 evento real**. **Proibido** filler de marcha (“continua andando…”) em série. Não inventar encontro aleatório só para preencher. |
+
+### 7.1.0 Como o jogador escreve ação (OPERAÇÃO) — anti-loop meta/RP
+
+Ações longas em 1ª pessoa (SOP de 5–8 passos, sobretudo geradas em chat meta) **alimentam** o eco: o narrador reescreve o manual.
+
+| Bom (intenção + limites) | Ruim (manual para copiar) |
+| ------------------------ | ------------------------- |
+| Mapear exterior da base; drones fora do perímetro; sem infiltração. Quero resultados EM/visual + rotas. | Listar cada drone, cada passo de varredura, cada confirmação… |
+
+Narrador: mesmo se o PC colar SOP longo → **N1b + N8** (outcomes, não espelho).
 
 **Fonte de pressão (ordem fixa, independente de mapa):**
 
@@ -121,10 +132,18 @@ Comandos: `[Avançar cena]` / `[Pressão]` · `[Motor de cena]` / `[Anti-eco]` e
 *(gancho concreto — sem “o que você faz?”)*
 ```
 
-### 7.1.2 Checklist interno
+### 7.1.2 Exemplo canônico — retorno limpo (N9)
+
+**Entrada (PC):** “Mantenho o ritmo; se espectro/visual limpos, sigo direto até o Pack.”
+
+**Errado:** 2–3 turnos de “você continua andando… sol baixa… nenhum alerta…”.
+
+**Certo:** uma batida — chegada ao perímetro/Pack **ou** 1 anomalia real no caminho (só se AGENDA/SoT autorizar). Sem filler.
+
+### 7.1.3 Checklist interno
 
 ```text
-Eco? não · SOP comprimido? sim · Resultado primeiro (se OP)? sim · Delta ≥60%? sim · Fonte: agenda|queue|now
+Eco? não · SOP comprimido? sim · Resultado primeiro (se OP)? sim · Delta ≥60%? sim · Viagem limpa fechada (N9)? · Fonte: agenda|queue|now
 ```
 
 Playbook de NPCs: [npc_agencia_cena.md](npc_agencia_cena.md). Schema da agenda: [context_pack_template.md](../logs/context_pack_template.md).
@@ -184,4 +203,4 @@ Para localizar rapidamente qual arquivo consultar, use o [registro_arquivos.md](
 
 ---
 
-_Documento atualizado em 29 de Julho de 2026 (v2: N1b/N2+/N8 eco operacional)_
+_Documento atualizado em 29 de Julho de 2026 (v2.1: N9 fecho de deslocamento + ação curta)_
