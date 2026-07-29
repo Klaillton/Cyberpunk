@@ -242,6 +242,8 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 
 **Outros:** Bolsa de ferramentas, kit de reparo, componentes para drones, Agent.
 
+> **Consumíveis / sobras / estoque mínimo** (higiene, óleo, chrome em depósito, etc.) **não** se listam aqui em detalhe — ver [economia.md](../economia.md) § **Ryan — estoque mínimo** e § Estoque. Loadout tático acima permanece a fonte de combate/chrome/drones nomeados.
+
 ## Personalidade e Ganchos
 
 - Calmo, profissional e pragmático. Quase sempre mantém a compostura.

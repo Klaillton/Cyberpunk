@@ -37,6 +37,7 @@
 ## Notas para o narrador
 
 - Responsável autônomo pela destilaria no **Badlands Node v0.1**; motivado após sessão 007.
+- **Capacidade (A-ELI):** refino/processamento; **sabões** e **óleos** quando há insumos — qty em [economia.md](../../economia.md) § Estoque (ex. P001, P002).
 
 ---
 

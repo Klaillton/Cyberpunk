@@ -36,6 +36,7 @@
 ## Notas para o narrador
 
 - Papel ativo no **Badlands Node v0.1**: ciclo biológico e água (módulo piloto Água + Biodigestor).
+- **Capacidade (A-MAR):** seiva/resina/insumos de estufa — qty/pedidos em [economia.md](../../economia.md) § Estoque (ex. P006).
 
 ---
 

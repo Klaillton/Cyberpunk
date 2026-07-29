@@ -46,6 +46,18 @@ Pulsos off-screen: [pulso_do_mundo/pack_badlands/](../pulso_do_mundo/pack_badlan
 | **Lira** | [lira.md](../fichas/npc/lira.md) | Atiradora/batedora; tenta se aproximar de Valk; ajudou a acalmar o pack pós-Incidente 002 |
 | **Scout** | [scout.md](../fichas/npc/scout.md) | — | Sentinela/recon; scavs 05/07 e 10/07 — **≠** Jax "Razor" Kane (crew) |
 
+## Produção e estoque (micro-recursos)
+
+Capacidades e lotes do Pack (destilaria, estufa, oficina, higiene, scav) vivem em **[economia.md](../economia.md)** § **Atores** / § **Estoque** — schema genérico multi-local.  
+Consulta: `[Estoque]` / `[Estoque: destilaria]` · **não** duplicar qty neste arquivo.
+
+| Ator (resumo) | Capacidade |
+| ------------- | ---------- |
+| Elias · destilaria | refino; sabões; óleos |
+| Mara · estufa | seiva/resina; ciclo água/bio |
+| Oficina · Tio Gringo + alunos | metalurgia; peças; casas |
+| Pack comum | consome higiene/comida/peças |
+
 ## Locais e Bases Conhecidas
 
 - **Acampamento Principal** — Área com tendas, fogueira central e refeitório improvisado.
