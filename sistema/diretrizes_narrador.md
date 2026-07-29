@@ -148,6 +148,17 @@ Eco? não · SOP comprimido? sim · Resultado primeiro (se OP)? sim · Delta ≥
 
 Playbook de NPCs: [npc_agencia_cena.md](npc_agencia_cena.md). Schema da agenda: [context_pack_template.md](../logs/context_pack_template.md).
 
+### 7.2 Micro-recursos na cena (estoque — sem dump)
+
+Ledger: [economia.md](../economia.md) § Atores / Estoque / Ryan mínimo.  
+Consulta jogador: `[Estoque]` — [comandos_jogador.md](comandos_jogador.md) § K.
+
+| Situação | Comportamento |
+| -------- | ------------- |
+| Entra ou foca facility de produção (destilaria, estufa, oficina, depósito) | Pode mencionar **1–2** itens/capacidades **já no ledger** que Ryan perceberia — sem listar a tabela |
+| Assunto de higiene, insumos, scav nomeado, “tem X?” | Abrir estoque **filtrado**; se **não registrado** → não inventar “óbvio” |
+| Boot / Refresh / context pack | **Não** carregar o ledger inteiro |
+
 ## 8. Pulso do Mundo e tempo in-game (hard rules)
 
 ### 8.1 Gatilho principal — o Narrador/IA avança o dia

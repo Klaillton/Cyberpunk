@@ -63,6 +63,12 @@ Mesmo se colar SOP longo (ex. de chat meta): narrador aplica **N1b + N8**.
 Se o estilo eco já dominou o thread (>~40 msgs de RP): **preferir chat novo** com prompt de `logs/handoff_atual.md`.  
 Neste chat: `[Motor de cena]` + próximo turno já em modo resultado-primeiro.
 
+## Estoque (sem matar tier-0)
+
+- Ledger: `economia.md` § Atores / Estoque / Ryan — **não** no boot completo.  
+- Jogador: `[Estoque]` / `[O que tem: X]`.  
+- Na cena (facility): no máx. 1–2 itens **registrados** que Ryan veria; sem inventar.
+
 ---
 
-_Atualizado: 29 de Julho de 2026 (v2.1)_
+_Atualizado: 29 de Julho de 2026 (v2.1 + estoque)_

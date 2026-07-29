@@ -111,7 +111,8 @@
 | | - Impacto permanente / arco → `consequencias` |
 | | - Facção / pack / corp → `facoes/`, `faccao_relacionamentos`, `reputacao` |
 | | - Exposição → `heat` |
-| | - Dinheiro / materiais / projetos pack → `economia` |
+| | - Dinheiro / materiais / projetos pack → `economia` (macro) |
+| | - Item criado/consumido/scav/transferido **ou** capacidade nova de ator → `economia.md` § Atores / § Estoque / § Ryan mínimo |
 | | - Ryan produziu (oficina, scav, construção) → `logs/downtime_ryan.md` |
 | | - NPCs → relacionamentos relevantes |
 | | - **1+ dia in-game** → [pulso_procedimento.md](pulso_procedimento.md) (ciclos faltantes ou gap B1 documentado); região atual only |
@@ -132,7 +133,8 @@
 [ ] Event queue
 [ ] Consequências
 [ ] Facções / facção_rels
-[ ] Heat / reputação / economia (delta ou “sem”)
+[ ] Heat / reputação / economia macro (delta ou “sem”)
+[ ] Estoque / atores / Ryan mínimo (delta ou “sem”)
 [ ] Downtime (Ryan produziu?)
 [ ] Pulso (ciclos ou gap B1)
 [ ] Relacionamentos tocados
@@ -311,12 +313,44 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 | `[Agência NPC]` / delegação / `*observo*` | Não | — |
 | `[Avançar cena]` / `[Pressão]` | Não | — |
 | `[Motor de cena]` / `[Anti-eco]` | Não | — |
+| `[Estoque]` / `[Recursos]` / `[O que tem: …]` | Não | — |
+
+---
+
+## K) `[Estoque]` / `[Recursos]` / `[O que tem: <filtro>]`
+
+**Objetivo:** consulta **sob demanda** ao ledger de micro-recursos — **sem** inventário RPG no tier-0.  
+**Sinônimos:** `[Estoque]` · `[Recursos]` · `[O que tem: X]` · `[Estoque: Ryan]` · `[Estoque: destilaria]`
+
+**SoT:** [economia.md](../economia.md) — § Atores · § Estoque · § Ryan mínimo
+
+### Passos
+
+| # | Ação |
+| - | ---- |
+| 1 | Declarar: `Estoque — consulta ledger.` |
+| 2 | Abrir `economia.md` (local ou RAW). |
+| 3 | **Filtrar:** (a) argumento do jogador (ator, item, local) **ou** (b) default = **região/local do NOW** + **Ryan mínimo** + atores presentes na cena. |
+| 4 | Responder **só linhas relevantes** (alvo ≤ ~15 linhas): IDs, item, onde, qtd, nota curta. Incluir **capacidade** do ator se o filtro for facility/NPC. |
+| 5 | Se nada bater: **“Não registrado no SoT”** — **não inventar** estoque “óbvio”. |
+| 6 | **Não** narrar RP salvo o jogador pediu continue no mesmo turno. |
+| 7 | **Não** dump da tabela inteira (mata legibilidade; não é o objetivo). |
+
+### Exemplos
+
+```text
+[Estoque]                 → NOW + Ryan mínimo
+[Estoque: Ryan]
+[Estoque: destilaria]     → A-ELI + P* ligados
+[O que tem: sabonete]
+[Recursos: Pack]
+```
 
 ---
 
 ## Referências
 
-- [Context pack](../logs/context_pack_atual.md) · [Fatos duros](fatos_duros.md) · [Instruções](instrucoes_projeto.md)
+- [Context pack](../logs/context_pack_atual.md) · [Fatos duros](fatos_duros.md) · [Instruções](instrucoes_projeto.md) · [Economia / estoque](../economia.md)
 - [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md) §7.1 · [Motor 1pager](motor_cena_1pager.md) · [Agência NPC](npc_agencia_cena.md)
 - [Como atualizar](como_atualizar_arquivos.md) · [Novo chat](novo_chat_procedimento.md)
 - [Template resumo](../logs/sessao_resumo_template.md) · [Template handoff](../logs/handoff_template.md)

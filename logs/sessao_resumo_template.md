@@ -25,7 +25,14 @@
 
 - Reputação: [delta ou **sem delta**]
 - Heat: [delta ou **sem delta**]
-- Economia: [delta ou **sem delta**]
+- Economia (macro): [delta ou **sem delta**]
+
+### Estoque / produção
+
+- Capacidade nova (ator A-xxx): … | **sem delta**
+- Itens criados / consumidos / movidos (IDs P-xxx): … | **sem delta**
+- Ryan mínimo (corpo/oficina): … | **sem delta**
+- Ledger: [economia.md](../economia.md) § Atores / Estoque / Ryan
 
 ### Consequências / Facções
 

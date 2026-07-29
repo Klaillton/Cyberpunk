@@ -45,6 +45,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | **Tier-0 / anti-esquecimento sandbox** | `logs/context_pack_atual.md` | `fatos_duros.md`, `comandos_jogador.md`, bloco **MOTOR** + **AGENDA** |
 | Fatos que não se inventam | `sistema/fatos_duros.md` | context pack, board |
 | Playbooks de comandos do jogador | `sistema/comandos_jogador.md` | instrucoes_projeto, diretrizes_ia |
+| Micro-recursos / estoque / produtores | `economia.md` § Atores · Estoque · Ryan mínimo | `[Estoque]` playbook K; pack_badlands (só link) |
 | **Abrir chat novo / handoff** | `sistema/novo_chat_procedimento.md` | `logs/handoff_atual.md`, `logs/context_pack_atual.md`, último `sessao_resumo_*.md` |
 | Continuidade colável (estado vigente) | `logs/handoff_atual.md` | context pack, board |
 | Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |

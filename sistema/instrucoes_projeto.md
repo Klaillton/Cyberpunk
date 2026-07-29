@@ -95,6 +95,7 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 | `[Agência NPC]` / delegação / `*observo em silêncio*` | H — NPCs agem ou planejam; ver [npc_agencia_cena.md](npc_agencia_cena.md) |
 | `[Avançar cena]` / `[Pressão]` | I — 1 beat da AGENDA/NOW; ver [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 |
 | `[Motor de cena]` / `[Anti-eco]` | J — reancora anti-eco; [motor_cena_1pager.md](motor_cena_1pager.md) |
+| `[Estoque]` / `[Recursos]` / `[O que tem: …]` | K — micro-recursos; [economia.md](../economia.md) |
 
 | Outros | Ação |
 | ------ | ---- |
@@ -116,7 +117,7 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 | Interação com NPC          | `relacionamentos/ryan_relacionamentos.md` + individual + `crew_relacionamentos.md` |
 | Facção                     | `relacionamentos/faccao_relacionamentos.md`, `facoes/`, `reputacao.md`             |
 | Exposição                  | `heat.md`, possivelmente `event_queue.md`                                          |
-| Economia / materiais       | `economia.md`                                                                      |
+| Economia / materiais       | `economia.md` (macro + § Atores/Estoque/Ryan — **não** no tier-0)                 |
 | Projetos do Ryan (tempo)   | `logs/downtime_ryan.md`                                                            |
 | Narrador avança ≥1 dia     | [pulso_procedimento.md](pulso_procedimento.md) + `pulso_do_mundo/`                 |
 | Fim de sessão              | Playbook C: resumo + **matriz ledgers** + **`context_pack_atual`** + **handoff**   |

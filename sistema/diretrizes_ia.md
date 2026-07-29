@@ -195,7 +195,7 @@ Não inventar eventos fora da tabela + perguntas de pulso + estado dos arquivos.
 ### 8.2 Finalize — matriz de ledgers
 
 No playbook **C** ([comandos_jogador.md](comandos_jogador.md)), **sempre avaliar** (delta ou “sem delta” no resumo):  
-`consequencias`, `facoes/` + `faccao_relacionamentos`, `heat`, `reputacao`, `economia`, `downtime_ryan`, pulso se 1+ dia — além de board / dashboard / event_queue / context_pack / handoff.
+`consequencias`, `facoes/` + `faccao_relacionamentos`, `heat`, `reputacao`, `economia` (macro **e** § estoque/atores se tocado), `downtime_ryan`, pulso se 1+ dia — além de board / dashboard / event_queue / context_pack / handoff.
 
 ---
 
@@ -214,6 +214,7 @@ No playbook **C** ([comandos_jogador.md](comandos_jogador.md)), **sempre avaliar
 | `[Carregar cena: …]` / `[Verificar fato: …]` | E |
 | `[Avançar cena]` / `[Pressão]` | I (1 beat da agenda/NOW; não edita arquivos) |
 | `[Motor de cena]` / `[Anti-eco]` | J (reancora estilo; 1pager + pack MOTOR) |
+| `[Estoque]` / `[Recursos]` / `[O que tem: …]` | K (ledger `economia.md`; filtro; sem inventar) |
 
 **Obrigatório:** seguir os passos numerados do playbook (formato fixo no Refresh; confirmação antes de gravar no Finalizar).
 
