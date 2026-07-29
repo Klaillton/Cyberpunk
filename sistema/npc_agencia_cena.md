@@ -22,6 +22,7 @@
 | **Anti-loop** | Se a mesma pergunta/opções A/B/C já apareceu **2×** na sessão, o narrador **avança** com decisão do NPC na 3ª vez. |
 | **Anti-plateia** | Após **2 turnos** só observando sem ação, o NPC **age** (agenda própria, micro-decisão, ou sai e executa tarefa aberta). |
 | **Agenda não congela (N5)** | Tarefa aberta na AGENDA DA CENA / NOW + PC passivo/hiperfoco ≥2 turnos → NPC **executa** e o PC só percebe o resultado (F10). |
+| **Cena solo** | Sem NPC presente: pressão = AGENDA (mundo, drones, tempo, rádio se canal plausível) — não “inventa plateia”. |
 
 ---
 

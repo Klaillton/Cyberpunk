@@ -34,8 +34,9 @@ Você apenas fornece as informações de estado quando solicitado.
 Quando a IA **também narra** (chat solo Grok, etc.):
 
 - “Não inventar estado” e “motor baseado em arquivos” **não autorizam eco vazio** do turno do jogador.
-- Cada resposta de RP deve **avançar a cena** com fatos **já autorizados** por board / `event_queue` / context pack (**AGENDA DA CENA**) / pulsos / fichas do **contexto atual** (qualquer região).
-- Regras de beat: [diretrizes_narrador.md](diretrizes_narrador.md) **§7.1** (N1–N7). Agência: [npc_agencia_cena.md](npc_agencia_cena.md).
+- Cada resposta de RP deve **avançar a cena** com fatos **já autorizados** por board / `event_queue` / context pack (**MOTOR** + **AGENDA DA CENA**) / pulsos / fichas do **contexto atual** (qualquer região).
+- **Proibido eco operacional:** não re-narrar SOP multi-passo do jogador; em OPERAÇÃO, **resultado primeiro** (N1b / N8).
+- Regras de beat: [diretrizes_narrador.md](diretrizes_narrador.md) **§7.1** (N1–N8) · [motor_cena_1pager.md](motor_cena_1pager.md). Agência: [npc_agencia_cena.md](npc_agencia_cena.md).
 
 ---
 
@@ -212,6 +213,7 @@ No playbook **C** ([comandos_jogador.md](comandos_jogador.md)), **sempre avaliar
 | `[Gerar handoff para novo chat]` / `[Preparar novo chat]` | D |
 | `[Carregar cena: …]` / `[Verificar fato: …]` | E |
 | `[Avançar cena]` / `[Pressão]` | I (1 beat da agenda/NOW; não edita arquivos) |
+| `[Motor de cena]` / `[Anti-eco]` | J (reancora estilo; 1pager + pack MOTOR) |
 
 **Obrigatório:** seguir os passos numerados do playbook (formato fixo no Refresh; confirmação antes de gravar no Finalizar).
 
