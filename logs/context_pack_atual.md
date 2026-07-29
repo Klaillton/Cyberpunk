@@ -7,21 +7,7 @@
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
 > Fatos estáveis: [sistema/fatos_duros.md](../sistema/fatos_duros.md).  
-> Comandos: [sistema/comandos_jogador.md](../sistema/comandos_jogador.md).  
-> 1pager: [sistema/motor_cena_1pager.md](../sistema/motor_cena_1pager.md).
-
----
-
-## MOTOR (todo turno de RP)
-
-1. **Não ecoar** o PC (≤2 linhas). Se descreveu procedimento/SOP → pular para **resultado**.  
-2. **Delta** = **maior parte** da resposta (~≥60%): intel, NPC, tempo com efeito, pressão AGENDA.  
-3. Em `OPERAÇÃO` / `VIAGEM`: **resultado primeiro** (não espelhar o plano).  
-4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).  
-5. Fonte de pressão: **AGENDA DA CENA** → pendências → `event_queue` (F10).  
-6. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]`.
-
-Detalhe: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
+> Comandos: [sistema/comandos_jogador.md](../sistema/comandos_jogador.md).
 
 ---
 
@@ -30,17 +16,17 @@ Detalhe: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · [m
 | Campo | Valor |
 | ----- | ----- |
 | Data in-game | **21/07/2026** |
-| Período | Tarde |
+| Período | Final da tarde / início da noite |
 | Região | **Badlands** |
-| Local específico | Em deslocamento — observação leve de base militar |
+| Local específico | Pack Nômade — tenda Ryan & Valk |
 | Facção / base local | Pack Badlands (hospedagem) |
-| Cena / gancho | Ryan saiu sozinho para observação (máscara + Vespas + Warden). Voltar antes do escuro. |
-| Prioridade | Observação base militar · Preparação viagem NC · Tutoria Sasha/Lira |
+| Cena / gancho | Ryan voltou da observação da base militar · Modelo 3D externo coletado |
+| Prioridade | Preparação viagem NC · Estudo do modelo 3D · Tutoria Sasha/Lira |
 | Segredos ativos | Casas modulares — time produção + Tio Gringo sabem; pack geral ainda aguarda revelação oficial completa |
 
 ### Cena de abertura sugerida
 
-**Tarde 21/07 — Badlands.** Ryan em deslocamento a pé para observação leve de base militar. Condições de Valk: rádio, Warden, voltar antes do escuro, virar se cheirar errado. Vespas + Warden em formação.
+**Final da tarde 21/07 — tenda Ryan & Valk.** Ryan acabou de voltar da observação leve da base militar. Está só de calça, corpo ainda quente da marcha. Modelo 3D externo coletado. Sem infiltração.
 
 ---
 
@@ -78,31 +64,13 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 | E001/E006 | Biotechnica latente |
 | Tutoria | Valk + Sasha/Lira (assistentes; intimidade: Lira aberta, Sasha reservada) |
 | Novo | Enxame mini-drones (ideia + sondagem materiais) |
-
----
-
-## AGENDA DA CENA (anti-estagnação)
-
-> Schema genérico — instâncias do **NOW atual** (Badlands · trânsito / observação). Ao mudar de local, **reescrever**.  
-> Motor: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · Comando: `[Avançar cena]` / `[Pressão]`.
-
-| # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
-| - | ---------------- | ---------------- | ---------------------------------------------- |
-| 1 | Observação leve da base (janela até o escuro) | Mundo / drones | Fato perceptível (movimento, silhueta, rádio, tempo) sem forçar combate |
-| 2 | Condições de Valk (rádio, Warden, virar se cheirar errado) | Valk (canal rádio se plausível) ou lembrete diegético | Pressão de tempo / check-in / risco se a luz baixar |
-| 3 | Volta ao Pack antes do anoitecer · E015 em background | Pack off-screen (F10) | Rumor/lembrete só se canal (rádio, Condor, retorno) |
-
-| Campo | Valor |
-| ----- | ----- |
-| **Modo atual** | OPERAÇÃO |
-| **Turnos sem delta (estimado)** | 0 |
-| **Região / local (NOW)** | Badlands · em deslocamento → base militar (observação leve) |
+| Novo | Modelo 3D da base militar (estudo posterior) |
 
 ---
 
 ## O que acabou de acontecer (014 — 1 parágrafo)
 
-Manhã 21/07: intimidade + café com Valk; ideia do enxame de mini-drones a partir de formigas; sondagem com Tomas (látex) e Mara (resina/seiva); Ryan se puxa do hiperfoco; decide sair sozinho para observação leve de base militar sob condições de Valk. Saiu equipado (máscara + Vespas + Warden).
+Manhã 21/07: intimidade + café com Valk; ideia do enxame de mini-drones; sondagem com Tomas e Mara. Tarde: saída solo para observação leve de base militar (condições de Valk respeitadas); mapeamento externo concluído (modelo 3D coletado); retorno ao Pack ainda com a última luz. Ryan está de volta na tenda.
 
 Detalhe: [sessao_resumo_014.md](sessao_resumo_014.md)
 
@@ -113,7 +81,7 @@ Detalhe: [sessao_resumo_014.md](sessao_resumo_014.md)
 | Tier | Quando | O que ler |
 | ---- | ------ | --------- |
 | **0** | Sempre / `[Refresh contexto]` | **Este arquivo** → `fatos_duros` → `board` se divergir |
-| **1** | Cena Badlands Pack / trânsito | `event_queue.md`, `ryan_relacionamentos.md`, Valk, `npc_agencia_cena.md` se delegação/agência · Motor de cena §7.1 |
+| **1** | Cena Badlands Pack | `event_queue.md`, `ryan_relacionamentos.md`, Valk, `npc_agencia_cena.md` se delegação |
 | **2** | Sob demanda | `registro_arquivos.md` → ficha, pulso, guarda-roupa… |
 
 ---
@@ -136,7 +104,7 @@ Base: `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estav
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · 21/07/2026 · Badlands (em trânsito) · prioridade: observação base militar + preparação NC · próximo resumo: 015
+Boot OK · 21/07/2026 · Badlands/Pack · prioridade: estudo modelo 3D + preparação NC · próximo resumo: 015
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.
@@ -146,4 +114,4 @@ Hierarquia: **RAW/repo > sandbox > memória de chat**.
 ## Referências
 
 - [Handoff](handoff_atual.md) · [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
-- [Comandos](../sistema/comandos_jogador.md) · [Agência NPC](../sistema/npc_agencia_cena.md) · [Motor de cena](../sistema/diretrizes_narrador.md)
+- [Comandos](../sistema/comandos_jogador.md) · [Agência NPC](../sistema/npc_agencia_cena.md)

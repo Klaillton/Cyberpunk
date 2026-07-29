@@ -1,13 +1,12 @@
 # Handoff atual — Continuidade para novo chat
 
-**Gerado após:** sessão **014**  
+**Gerado após:** sessão **014** (continuação)  
 **Próxima sessão:** **015** → `logs/sessao_resumo_015.md`  
-**Data in-game ao fechar:** 21 de Julho de 2026 · tarde  
+**Data in-game ao fechar:** 21 de Julho de 2026 · final da tarde / início da noite  
 **Branch canônica:** `feature/linha-estavel`  
-**Última atualização deste handoff:** 28 de Julho de 2026
+**Última atualização deste handoff:** 29 de Julho de 2026
 
-> **Primeiro arquivo a ler:** `logs/context_pack_atual.md` (bloco **MOTOR** + **AGENDA**)  
-> **Se o chat atual já ecoa o jogador** (>~40 msgs RP no estilo espelho): **abra chat novo** e cole o prompt abaixo — regras no meio de thread longo falham. Mid-chat: `[Motor de cena]`.
+> **Primeiro arquivo a ler:** `logs/context_pack_atual.md`
 
 ---
 
@@ -26,31 +25,32 @@
 
 | Campo | Valor |
 | ----- | ----- |
-| Data | **21/07/2026**, tarde |
-| Local | Badlands — em deslocamento para observação de base militar |
-| Prioridade | Observação leve (voltar antes do escuro) · Preparação viagem Night City |
-| Drones | Condor + Corujas operacionais no Pack; Vespas + Warden com Ryan |
-| Relação Ryan × Valk | Consolidada + confiança operacional reforçada (autorizou saída solo) |
+| Data | **21/07/2026**, final da tarde |
+| Local | Pack Badlands — tenda Ryan & Valk |
+| Prioridade | Preparação viagem Night City · Estudo do modelo 3D da base · Tutoria Sasha/Lira |
+| Drones | Condor + Corujas operacionais no Pack; Vespas + Warden com Ryan (retornaram) |
+| Relação Ryan × Valk | Consolidada + confiança operacional reforçada |
 | Novo projeto | Enxame mini-drones (ideia + sondagem materiais com Tomas/Mara) |
+| Observação | Base militar — mapeamento **externo** concluído (modelo 3D coletado). Sem infiltração. |
 
 ### Cena de abertura (continuidade exata)
 
-**Tarde 21/07 — Badlands.**
+**Final da tarde 21/07 — tenda Ryan & Valk.**
 
-Ryan saiu do Pack equipado (máscara tática + três Vespas + Warden). Condições de Valk: rádio, Warden, voltar antes do escuro, virar se cheirar errado. Ele está em deslocamento a pé para observação leve de uma base militar. Estado emocional: letargia residual pós-hiperfoco misturada com a semente do projeto de enxame.
+Ryan acabou de voltar da observação leve da base militar. Removeu a máscara e o equipamento, está só de calça, o corpo ainda quente da marcha, suor na mandíbula e no pescoço. Warden no canto da tenda. Vespas do lado de fora. Ele acabou de entrar na tenda após esticar os braços e soltar a tensão dos ombros.
 
 **O que Ryan faz agora?**
 
 ---
 
-## O que acabou de acontecer (sessão 014)
+## O que acabou de acontecer (sessão 014 — continuação)
 
-- Manhã: intimidade + café com Valk; desenvolvimento da dinâmica de poder e vulnerabilidade.
-- Ideia do enxame de mini-drones a partir de formigas; diagrama no chão; sondagem com Tomas (látex) e Mara (resina/seiva).
-- Ryan se puxa do hiperfoco e decide sair sozinho para observação.
-- Saiu equipado. Em trânsito ao fechar.
+- Manhã: intimidade + café com Valk; ideia do enxame de mini-drones; sondagem com Tomas e Mara.
+- Tarde: saída solo para observação leve de base militar (condições de Valk respeitadas).
+- Mapeamento externo concluído (modelo 3D coletado). Nenhuma infiltração. Espectro limpo.
+- Retorno ao Pack ainda com a última luz. Ryan está de volta na tenda, resfriando.
 
-Detalhe completo: [sessao_resumo_014.md](sessao_resumo_014.md)
+Detalhe: [sessao_resumo_014.md](sessao_resumo_014.md)
 
 ---
 
@@ -64,12 +64,7 @@ Detalhe completo: [sessao_resumo_014.md](sessao_resumo_014.md)
 | E007 | Badlands Node |
 | E011 | Visita à Doc Moreau (Elisa) |
 | Novo | Enxame mini-drones (sondagem) |
-
-### AGENDA DA CENA (resumo — detalhe no context pack)
-
-1. Observação leve da base (janela até o escuro)  
-2. Condições de Valk (rádio, Warden, virar se arriscado)  
-3. Volta ao Pack antes do anoitecer · E015 em background  
+| Novo | Modelo 3D da base militar (estudo posterior) |
 
 ---
 
@@ -83,30 +78,18 @@ Detalhe completo: [sessao_resumo_014.md](sessao_resumo_014.md)
 - Leia primeiro: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md
 - Resumo da sessão anterior: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_014.md
 - Handoff: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md
-- Narrador: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/diretrizes_narrador.md (§7.1 Motor de cena)
 
 ## Estado
-- **21/07/2026 tarde** · Badlands · em deslocamento
-- Ryan saiu sozinho para observação leve de base militar
-- Condições de Valk: rádio, Warden, voltar antes do escuro, virar se cheirar errado
-- Vespas + Warden com ele
+- **21/07/2026 final da tarde** · Pack Badlands · tenda Ryan & Valk
+- Ryan acabou de voltar da observação leve da base militar
+- Modelo 3D externo coletado (sem infiltração)
+- Vespas + Warden de volta
 - **F15 ativo:** Valk **não** chama Ryan de “herói” / “herói solitário”
 - Warden = drone terrestre (não voa)
 - Novo projeto em mente: enxame de mini-drones formiga (sondagem de materiais)
 
-## Motor de cena (obrigatório)
-- **Não ecoar** o turno do jogador (≤2 linhas). SOP multi-passo → **resultado primeiro** (não espelhar o plano).
-- **Delta ≥ ~60%** da resposta (intel, NPC, tempo, pressão AGENDA).
-- **VIAGEM limpa (N9):** sem evento no caminho → narrar **chegada** de uma vez (sem filler de marcha).
-- Ações OPERAÇÃO: **intenção curta** + limites (evitar manuais longos de chat meta que o narrador ecoa).
-- Pressão só da **AGENDA DA CENA** / pendências do NOW / event_queue plausível no local.
-- NPCs com tarefa aberta **executam** se o PC ficar idle/hiperfoco — não ficam plateia.
-- 1pager: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/motor_cena_1pager.md
-- Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]`.
-- Chat longo com eco pesado → **novo chat** com este handoff (não confiar só no refresh).
-
 ## Cena atual (continuidade)
-Ryan está marchando nas Badlands em direção à base militar para observação leve. Máscara no rosto. Vespas em formação baixa. Warden no chão atrás.
+Tenda. Ryan acabou de entrar, só de calça, corpo ainda quente da marcha, suor na mandíbula e no pescoço. Equipamento deixado perto da entrada. Warden no canto.
 
 **Continue exatamente desta cena.**
 
