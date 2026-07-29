@@ -38,10 +38,11 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Incidente narrativo marcante (combate, confronto) | `logs/incidente_XXX_*.md` | `consequencias/consequencias_persistentes.md`, `event_queue.md`, sessões |
 | Instruções do projeto (boot) | `sistema/instrucoes_projeto.md` | `diretrizes_ia.md`, este arquivo |
 | Regras da IA (boot sequence) | `sistema/diretrizes_ia.md` | `instrucoes_projeto.md`, este arquivo |
-| Regras do narrador | `sistema/diretrizes_narrador.md` | `sistema/diretrizes_ia.md` |
-| NPCs agem / falam entre si na cena (delegação, anti-loop) | `sistema/npc_agencia_cena.md` | `diretrizes_narrador.md` §3.1, `comandos_jogador.md` § H, pulsos |
+| Regras do narrador | `sistema/diretrizes_narrador.md` | `sistema/diretrizes_ia.md`, **§7.1 Motor de cena** |
+| Motor de cena (1 página anti-eco) | `sistema/motor_cena_1pager.md` | context pack bloco MOTOR, `comandos_jogador.md` § J |
+| NPCs agem / falam entre si na cena (delegação, anti-loop) | `sistema/npc_agencia_cena.md` | `diretrizes_narrador.md` §3.1/§7.1, `comandos_jogador.md` § H |
 | Como atualizar após sessão | `sistema/como_atualizar_arquivos.md` | Este arquivo |
-| **Tier-0 / anti-esquecimento sandbox** | `logs/context_pack_atual.md` | `sistema/fatos_duros.md`, `sistema/comandos_jogador.md` |
+| **Tier-0 / anti-esquecimento sandbox** | `logs/context_pack_atual.md` | `fatos_duros.md`, `comandos_jogador.md`, bloco **MOTOR** + **AGENDA** |
 | Fatos que não se inventam | `sistema/fatos_duros.md` | context pack, board |
 | Playbooks de comandos do jogador | `sistema/comandos_jogador.md` | instrucoes_projeto, diretrizes_ia |
 | **Abrir chat novo / handoff** | `sistema/novo_chat_procedimento.md` | `logs/handoff_atual.md`, `logs/context_pack_atual.md`, último `sessao_resumo_*.md` |
@@ -49,7 +50,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
 | Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `012`). Próximo número disponível: **013**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `014`). Próximo número disponível: **015**.
 
 ---
 
@@ -165,6 +166,7 @@ cyberpunk/
 └── sistema/
     ├── instrucoes_projeto.md      ← Instruções do projeto (espelho versionado)
     ├── npc_agencia_cena.md        ← NPCs in-scene: delegação, troca NPC↔NPC, anti-loop
+    ├── motor_cena_1pager.md       ← Anti-eco / resultado-primeiro (mid-chat)
     ├── pulso_procedimento.md      ← Motor off-screen (1×/dia in-game)
     ├── novo_chat_procedimento.md  ← Abrir chat novo + handoff
     ├── comandos_jogador.md        ← Playbooks passo a passo

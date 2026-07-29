@@ -94,6 +94,7 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 | `[Carregar cena: …]` / `[Verificar fato: …]` | E — carga pontual / citação SoT |
 | `[Agência NPC]` / delegação / `*observo em silêncio*` | H — NPCs agem ou planejam; ver [npc_agencia_cena.md](npc_agencia_cena.md) |
 | `[Avançar cena]` / `[Pressão]` | I — 1 beat da AGENDA/NOW; ver [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 |
+| `[Motor de cena]` / `[Anti-eco]` | J — reancora anti-eco; [motor_cena_1pager.md](motor_cena_1pager.md) |
 
 | Outros | Ação |
 | ------ | ---- |

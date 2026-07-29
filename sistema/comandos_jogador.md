@@ -31,11 +31,12 @@
 | # | Ação |
 | - | ---- |
 | 1 | Declarar: `Refresh contexto — tier-0.` |
-| 2 | Abrir **nesta ordem**: `logs/context_pack_atual.md` → `sistema/fatos_duros.md` → (só se pack vazio/contraditório) `board/board_campanha.md`. |
+| 2 | Abrir **nesta ordem**: `logs/context_pack_atual.md` (incl. bloco **MOTOR** + **AGENDA**) → `sistema/fatos_duros.md` → (só se pack vazio/contraditório) `board/board_campanha.md`. |
 | 3 | Se local falhar: mesmos paths via **RAW**. |
 | 4 | **Proibido** neste comando: reler ficha completa, todos os relacionamentos, todos os `sessao_resumo_*`, pasta `pulso_do_mundo` inteira. |
-| 5 | Responder **no formato fixo abaixo** (obrigatório). |
-| 6 | Se o jogador não disse “continue”: perguntar se retoma a cena. Se disse “refresh e continue”: após o formato fixo, retomar a cena com o estado reancorado. |
+| 5 | Responder **no formato fixo abaixo** (obrigatório) — **inclui linha Motor**. |
+| 6 | Se o jogador **não** pediu continue/ação no mesmo turno: perguntar se retoma a cena. |
+| 7 | Se o mesmo turno trouxer **ação de RP** após o refresh (ex. `[Refresh]` + marcha/recon): (a) bloco refresh completo (b) narração **já em modo resultado-primeiro** (N1b) — **proibido** ecoar o procedimento do jogador. |
 
 ### Formato de resposta obrigatório
 
@@ -46,6 +47,7 @@
 - Prioridade (E0XX ou livre): …
 - Fato duro 1 (ex. F03 Warden terrestre): …
 - Fato duro 2 (ex. F04 Stitch ≠ Doc): …
+- Motor: N1 sem eco · resultado-primeiro se OPERAÇÃO · AGENDA #… (1 linha do gancho ativo)
 - Conflito detectado? Não | Sim — fonte vencedora: RAW/board/pack
 ```
 
@@ -55,6 +57,7 @@
 - Mudança de local ou região
 - Fim de combate / job
 - Jogador confuso sobre “onde estamos” ou “o que está pendente”
+- Estilo eco dominante (sugerir também `[Motor de cena]` ou **chat novo** com handoff)
 
 ---
 
@@ -244,7 +247,7 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 **Escopo:** qualquer local (não amarrado a Pack).  
 **Sinônimos:** `[Avançar cena]` · `[Pressão]` · `[Injeta pressão]`
 
-**Guia:** [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 (N1–N7)
+**Guia:** [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 (N1–N8)
 
 ### Passos
 
@@ -253,7 +256,7 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 | 1 | Declarar: `Avançar cena — 1 gancho da AGENDA/NOW.` |
 | 2 | Ler: `logs/context_pack_atual.md` → **AGENDA DA CENA** + NOW + pendências quentes. Se agenda vazia: `event_queue.md` filtrado pelo **local/região atual** (F10). |
 | 3 | Escolher **1** gancho de maior prioridade **plausível no local atual**. |
-| 4 | Narrar o interrupt/avanço em diegese: **sem** eco do último turno do jogador (N1); com **delta** (N2). |
+| 4 | Narrar o interrupt/avanço em diegese: **sem** eco do último turno do jogador (N1); com **delta** (N2+). |
 | 5 | Deixar o jogador reagir. **Não** editar arquivos neste comando (salvo o jogador pedir no mesmo turno). |
 
 ### O que não fazer
@@ -261,6 +264,35 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 - Inventar NPC/facção/plot fora do SoT.  
 - Usar gancho de **outro local** sem canal in-fiction.  
 - Transformar o comando em resumo meta longo — é um **beat narrativo**.
+
+---
+
+## J) `[Motor de cena]` / `[Anti-eco]`
+
+**Objetivo:** reancorar o estilo narrativo **sem** fechar sessão — corrige eco/espelho mid-chat.  
+**Sinônimos:** `[Motor de cena]` · `[Anti-eco]` · `[Motor de cena — reler]`
+
+**Guia:** [motor_cena_1pager.md](motor_cena_1pager.md) · [diretrizes_narrador.md](diretrizes_narrador.md) §7.1
+
+### Passos
+
+| # | Ação |
+| - | ---- |
+| 1 | Declarar: `Motor de cena — reancorado.` |
+| 2 | Ler: `sistema/motor_cena_1pager.md` + bloco **MOTOR** + **AGENDA** em `logs/context_pack_atual.md` (RAW se preciso). |
+| 3 | Responder em **formato curto** (abaixo). **Não** narrar cena ainda, salvo o jogador ter pedido “e continue” / enviado ação no mesmo turno. |
+| 4 | Se houver ação no mesmo turno: narrar **já** com N1b (resultado primeiro) e N8 (SOP comprimido). |
+| 5 | Se o thread estiver muito contaminado por eco (>~40 msgs RP): **sugerir** chat novo com `logs/handoff_atual.md`. |
+
+### Formato de resposta obrigatório
+
+```markdown
+**Motor reancorado**
+- N1 sem eco · N1b resultado-primeiro (OPERAÇÃO) · N2+ delta ≥60% · N8 SOP comprimido
+- AGENDA ativa: #… — …
+- Próximo turno de RP: outcomes primeiro; sem espelhar o PC
+- (Opcional) Chat longo com eco pesado → preferir novo chat + handoff
+```
 
 ---
 
@@ -276,11 +308,13 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 | `[Verificar fato]` | Não | — |
 | `[Agência NPC]` / delegação / `*observo*` | Não | — |
 | `[Avançar cena]` / `[Pressão]` | Não | — |
+| `[Motor de cena]` / `[Anti-eco]` | Não | — |
 
 ---
 
 ## Referências
 
 - [Context pack](../logs/context_pack_atual.md) · [Fatos duros](fatos_duros.md) · [Instruções](instrucoes_projeto.md)
-- [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md) §7.1 · [Agência NPC](npc_agencia_cena.md) · [Como atualizar](como_atualizar_arquivos.md) · [Novo chat](novo_chat_procedimento.md)
+- [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md) §7.1 · [Motor 1pager](motor_cena_1pager.md) · [Agência NPC](npc_agencia_cena.md)
+- [Como atualizar](como_atualizar_arquivos.md) · [Novo chat](novo_chat_procedimento.md)
 - [Template resumo](../logs/sessao_resumo_template.md) · [Template handoff](../logs/handoff_template.md)

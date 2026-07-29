@@ -100,6 +100,7 @@ Peça:
 | Pedido de handoff | `[Gerar handoff…]` — playbook D; sobrescrever `handoff_atual` (± context pack + AGENDA) |
 | Mid-chat esqueceu estado | `[Refresh contexto]` — playbook **A** (tier-0 only) |
 | Cena estagnou (mood/eco) | `[Avançar cena]` / `[Pressão]` — playbook **I**; não edita arquivos |
+| Narrador ecoando SOP / espelho | `[Motor de cena]` / `[Anti-eco]` — playbook **J**; se chat longo, preferir **novo chat** + handoff |
 | **Narrador/IA avança ≥1 dia** (amanhece, elipse, dorme) | [pulso_procedimento.md](pulso_procedimento.md) **obrigatório** → `pulso_do_mundo/` + ledgers se impacto; downtime se Ryan produziu |
 | Passou 1+ dia in-game / Ryan dormiu a noite | Idem pulso; preferir gravar *Eventos Off-Screen* na hora |
 | Job / gig concluído | `logs/job_XXX_<slug>.md` (usar [job_template.md](../logs/job_template.md)) + consequências, heat, event_queue |
