@@ -1,9 +1,10 @@
 # Novo Chat — Procedimento Operacional
 
 **Finalidade:** Abrir um chat novo sem perda de continuidade, com estado canônico no GitHub e um **handoff** colável.  
-**Última atualização:** 13 de Julho de 2026  
+**Última atualização:** 29 de Julho de 2026  
 **Playbook do comando:** [comandos_jogador.md](comandos_jogador.md) § D  
-**Tier-0:** [logs/context_pack_atual.md](../logs/context_pack_atual.md)
+**Tier-0:** [logs/context_pack_atual.md](../logs/context_pack_atual.md)  
+**Narração:** [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 (Motor de cena N1–N7)
 
 ---
 
@@ -70,8 +71,9 @@ Arquivo canônico de continuidade:
 4. **O que acabou de acontecer** — bullets da última sessão (sem recontar a campanha inteira)
 5. **Prioridade / pendências** — `event_queue` + ganchos
 6. **Projetos e NPCs quentes** — só o ativo agora
-7. **Regras duras** — anti meta-game, Warden, datas canônicas, próximo `sessao_resumo_NNN`
-8. **Prompt colável** — bloco pronto para o jogador colar no chat novo
+7. **AGENDA DA CENA** — até 3 ganchos do **local atual** no context pack (reescrever se a cena mudou de região/local)
+8. **Regras duras** — anti meta-game, Warden, datas canônicas, próximo `sessao_resumo_NNN`, **Motor de cena N1–N7** (não ecoar; delta; pressão só da agenda/queue/NOW)
+9. **Prompt colável** — bloco pronto para o jogador colar no chat novo
 
 **Não incluir:** spoilers de notas do narrador, segredos que NPCs não sabem expostos como “o pack já sabe”, inventário completo da campanha.
 
@@ -105,6 +107,12 @@ Executar **nesta ordem** antes de narrar:
 > Boot OK · **[data]** · **[região/local]** · prioridade: **[E0XX]** · próximo resumo: `NNN`
 
 Só então narra o gancho de abertura.
+
+### 4.3.1 Motor de cena (sempre)
+
+- Seguir **N1–N7** em [diretrizes_narrador.md](diretrizes_narrador.md) §7.1.
+- Usar **AGENDA DA CENA** do context pack (local atual) como fonte de pressão se a cena estagnar.
+- **Não ecoar** o jogador; cada turno de RP com **delta**; NPCs com agenda **executam** (não ficam plateia).
 
 ### 4.4 Share Grok (opcional)
 

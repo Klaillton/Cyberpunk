@@ -93,11 +93,12 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 | `[Gerar handoff para novo chat]` / `[Preparar novo chat]` | D — sobrescreve `handoff_atual` (± pack) |
 | `[Carregar cena: …]` / `[Verificar fato: …]` | E — carga pontual / citação SoT |
 | `[Agência NPC]` / delegação / `*observo em silêncio*` | H — NPCs agem ou planejam; ver [npc_agencia_cena.md](npc_agencia_cena.md) |
+| `[Avançar cena]` / `[Pressão]` | I — 1 beat da AGENDA/NOW; ver [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 |
 
 | Outros | Ação |
 | ------ | ---- |
 | Atualização pós-sessão (manual) | [como_atualizar_arquivos.md](como_atualizar_arquivos.md) |
-| Abrir chat novo | Colar prompt de `logs/handoff_atual.md` (tier-0 = context pack) |
+| Abrir chat novo | Colar prompt de `logs/handoff_atual.md` (tier-0 = context pack + AGENDA + Motor de cena) |
 
 - Padrão resumo: `logs/sessao_resumo_XXX.md` (nº em `registro_arquivos.md`; próximo: **011**)
 - **Nunca** commit/push sem confirmação explícita do jogador

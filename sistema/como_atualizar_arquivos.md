@@ -93,10 +93,13 @@ Peça:
 | Dinheiro, recursos, projetos pack | `economia.md` |
 | Ryan trabalhou em projeto (oficina, scav, construção) | `logs/downtime_ryan.md` (+ `economia.md` se materiais) |
 | Evento futuro agendado | `event_queue.md` |
-| Fim de sessão | Playbook **C**: resumo + **matriz completa de ledgers** + **`context_pack_atual`** + **`handoff_atual`** — ver checklist em [comandos_jogador.md](comandos_jogador.md) |
+| Fim de sessão | Playbook **C**: resumo + **matriz completa de ledgers** + **`context_pack_atual`** (NOW + **AGENDA DA CENA**) + **`handoff_atual`** — ver checklist em [comandos_jogador.md](comandos_jogador.md) |
+| **Mudança de região/local** (Pack↔estrada↔NC↔base…) | Reescrever **AGENDA DA CENA** no `context_pack_atual` (máx. 3 ganchos do **novo** NOW; não carregar ganchos do local antigo sem canal F10) + board/dashboard se missão mudou |
+| Gancho da AGENDA resolvido | Atualizar/remover linha na AGENDA do pack; se vazio, preencher a partir de pendências quentes do local |
 | Abrir chat novo / continuidade | [novo_chat_procedimento.md](novo_chat_procedimento.md) + playbook **D** |
-| Pedido de handoff | `[Gerar handoff…]` — playbook D; sobrescrever `handoff_atual` (± context pack) |
+| Pedido de handoff | `[Gerar handoff…]` — playbook D; sobrescrever `handoff_atual` (± context pack + AGENDA) |
 | Mid-chat esqueceu estado | `[Refresh contexto]` — playbook **A** (tier-0 only) |
+| Cena estagnou (mood/eco) | `[Avançar cena]` / `[Pressão]` — playbook **I**; não edita arquivos |
 | **Narrador/IA avança ≥1 dia** (amanhece, elipse, dorme) | [pulso_procedimento.md](pulso_procedimento.md) **obrigatório** → `pulso_do_mundo/` + ledgers se impacto; downtime se Ryan produziu |
 | Passou 1+ dia in-game / Ryan dormiu a noite | Idem pulso; preferir gravar *Eventos Off-Screen* na hora |
 | Job / gig concluído | `logs/job_XXX_<slug>.md` (usar [job_template.md](../logs/job_template.md)) + consequências, heat, event_queue |
@@ -104,7 +107,7 @@ Peça:
 | Tempo off-screen (mundo vivo) | [pulso_procedimento.md](pulso_procedimento.md) + pulso em `pulso_do_mundo/` + opcional `logs/pulso_YYYYMMDD.md` |
 
 **Matriz de finalize (sempre avaliar; “sem delta” no resumo se zero):**  
-`board` · `dashboard` · `event_queue` · `consequencias` · `facoes/` + `faccao_relacionamentos` · `heat` · `reputacao` · `economia` · `downtime_ryan` · pulso se 1+ dia · relacionamentos tocados · `context_pack` · `handoff`.
+`board` · `dashboard` · `event_queue` · `consequencias` · `facoes/` + `faccao_relacionamentos` · `heat` · `reputacao` · `economia` · `downtime_ryan` · pulso se 1+ dia · relacionamentos tocados · `context_pack` (**NOW + AGENDA DA CENA**) · `handoff`.
 
 Consulte a tabela completa em [registro_arquivos.md](registro_arquivos.md) (seção "Guia de Consulta Cruzada").
 

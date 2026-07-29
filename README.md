@@ -27,10 +27,11 @@ Visão geral da estrutura do projeto e de como os arquivos se conectam entre si.
 - [registro_arquivos.md](sistema/registro_arquivos.md) — Índice central e guia de referências cruzadas
 - [instrucoes_projeto.md](sistema/instrucoes_projeto.md) — Instruções do projeto (boot da IA)
 - [diretrizes_ia.md](sistema/diretrizes_ia.md) — Boot sequence e regras da IA
-- [diretrizes_narrador.md](sistema/diretrizes_narrador.md) — Regras de narração
+- [diretrizes_narrador.md](sistema/diretrizes_narrador.md) — Regras de narração (**§7.1 Motor de cena** anti-estagnação)
+- [npc_agencia_cena.md](sistema/npc_agencia_cena.md) — NPCs agem in-scene (delegação, anti-plateia)
 - [como_atualizar_arquivos.md](sistema/como_atualizar_arquivos.md) — Como manter os arquivos atualizados
 - [context_pack_atual.md](logs/context_pack_atual.md) — **Tier-0** (NOW + fatos; anti-esquecimento sandbox)
-- [comandos_jogador.md](sistema/comandos_jogador.md) — Playbooks `[Refresh]`, `[Finalizar]`, handoff, etc.
+- [comandos_jogador.md](sistema/comandos_jogador.md) — Playbooks `[Refresh]`, `[Finalizar]`, handoff, `[Avançar cena]`, etc.
 - [fatos_duros.md](sistema/fatos_duros.md) — Fatos que a IA não pode inventar
 - [novo_chat_procedimento.md](sistema/novo_chat_procedimento.md) — Procedimento para abrir chat novo + handoff
 - [handoff_atual.md](logs/handoff_atual.md) — Continuidade colável (estado vigente)

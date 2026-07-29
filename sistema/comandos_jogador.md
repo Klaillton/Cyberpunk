@@ -2,7 +2,7 @@
 
 **Finalidade:** instruções **passo a passo** que a IA deve seguir ao receber cada comando.  
 **Branch canônica:** `feature/linha-estavel`  
-**Última atualização:** 23 de Julho de 2026
+**Última atualização:** 29 de Julho de 2026
 
 > Tabela resumida também em [instrucoes_projeto.md](instrucoes_projeto.md).  
 > Tier-0: [logs/context_pack_atual.md](../logs/context_pack_atual.md) · [fatos_duros.md](fatos_duros.md).
@@ -112,7 +112,7 @@
 | | - Ryan produziu (oficina, scav, construção) → `logs/downtime_ryan.md` |
 | | - NPCs → relacionamentos relevantes |
 | | - **1+ dia in-game** → [pulso_procedimento.md](pulso_procedimento.md) (ciclos faltantes ou gap B1 documentado); região atual only |
-| | - **Sempre:** `logs/context_pack_atual.md` + `logs/handoff_atual.md` |
+| | - **Sempre:** `logs/context_pack_atual.md` (incl. **AGENDA DA CENA** do NOW; se **local/região mudou**, reescrever agenda inteira) + `logs/handoff_atual.md` |
 | | - `registro_arquivos` se novo resumo ou arquivo |
 | 6 | **Mostrar ao jogador:** (1) resumo completo; (2) tabela Arquivo → mudança (incluir linhas “sem delta” se quiser transparência). |
 | 7 | **Parar.** Pedir confirmação explícita: aplicar arquivos? commit/push? |
@@ -133,7 +133,7 @@
 [ ] Downtime (Ryan produziu?)
 [ ] Pulso (ciclos ou gap B1)
 [ ] Relacionamentos tocados
-[ ] Context pack + handoff
+[ ] Context pack (NOW + **AGENDA DA CENA** coerente com local) + handoff
 [ ] Resumo lista paths avaliados
 ```
 
@@ -168,9 +168,10 @@ Ainda gerar resumo mínimo; preencher seções de ledger com **“sem delta”**
 | | - O que aconteceu (5–12 bullets) |
 | | - Pendências E0XX |
 | | - Projetos / NPCs quentes **da cena atual** |
-| | - Regras duras (F03, F04, F11, …) |
-| | - **Prompt de abertura colável** (tier-0 primeiro: context pack) |
-| 6 | Se o NOW mudou: atualizar também `logs/context_pack_atual.md`. |
+| | - **AGENDA DA CENA** no pack (máx. 3 ganchos do local atual; reescrever se local mudou) |
+| | - Regras duras (F03, F04, F11, …) + Motor de cena N1–N7 |
+| | - **Prompt de abertura colável** (tier-0 primeiro: context pack; 1 linha: não ecoar / delta / agenda) |
+| 6 | Se o NOW mudou: atualizar também `logs/context_pack_atual.md` (NOW + **AGENDA reescrita** se local/região mudou). |
 | 7 | Mostrar no chat: confirmação dos arquivos + **Prompt de abertura** para copiar. |
 | 8 | Commit/push só com confirmação do jogador. |
 
@@ -237,6 +238,32 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 
 ---
 
+## I) `[Avançar cena]` / `[Pressão]`
+
+**Objetivo:** forçar **1 beat** de plot a partir da AGENDA / NOW quando a cena entrou em mood/eco sem avanço.  
+**Escopo:** qualquer local (não amarrado a Pack).  
+**Sinônimos:** `[Avançar cena]` · `[Pressão]` · `[Injeta pressão]`
+
+**Guia:** [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 (N1–N7)
+
+### Passos
+
+| # | Ação |
+| - | ---- |
+| 1 | Declarar: `Avançar cena — 1 gancho da AGENDA/NOW.` |
+| 2 | Ler: `logs/context_pack_atual.md` → **AGENDA DA CENA** + NOW + pendências quentes. Se agenda vazia: `event_queue.md` filtrado pelo **local/região atual** (F10). |
+| 3 | Escolher **1** gancho de maior prioridade **plausível no local atual**. |
+| 4 | Narrar o interrupt/avanço em diegese: **sem** eco do último turno do jogador (N1); com **delta** (N2). |
+| 5 | Deixar o jogador reagir. **Não** editar arquivos neste comando (salvo o jogador pedir no mesmo turno). |
+
+### O que não fazer
+
+- Inventar NPC/facção/plot fora do SoT.  
+- Usar gancho de **outro local** sem canal in-fiction.  
+- Transformar o comando em resumo meta longo — é um **beat narrativo**.
+
+---
+
 ## Tabela rápida
 
 | Comando | Edita arquivos? | Precisa confirmação para gravar? |
@@ -248,11 +275,12 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 | `[Carregar cena]` | Não | — |
 | `[Verificar fato]` | Não | — |
 | `[Agência NPC]` / delegação / `*observo*` | Não | — |
+| `[Avançar cena]` / `[Pressão]` | Não | — |
 
 ---
 
 ## Referências
 
 - [Context pack](../logs/context_pack_atual.md) · [Fatos duros](fatos_duros.md) · [Instruções](instrucoes_projeto.md)
-- [Diretrizes IA](diretrizes_ia.md) · [Agência NPC in-scene](npc_agencia_cena.md) · [Como atualizar](como_atualizar_arquivos.md) · [Novo chat](novo_chat_procedimento.md)
+- [Diretrizes IA](diretrizes_ia.md) · [Diretrizes Narrador](diretrizes_narrador.md) §7.1 · [Agência NPC](npc_agencia_cena.md) · [Como atualizar](como_atualizar_arquivos.md) · [Novo chat](novo_chat_procedimento.md)
 - [Template resumo](../logs/sessao_resumo_template.md) · [Template handoff](../logs/handoff_template.md)
