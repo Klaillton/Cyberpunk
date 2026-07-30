@@ -1,31 +1,33 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** 21 de Julho de 2026 (tarde) — Pack Badlands / em trânsito  
-**Local:** Em deslocamento para observação leve de base militar (Badlands)
+**Data Atual:** 21 de Julho de 2026 (noite) — Pack Badlands  
+**Local:** Pack Nômade — tenda Ryan & Valk
 
 ---
 
 ## Missão Atual
 
-Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badlands, com saída pontual de observação. Seu foco atual é:
+Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badlands. Seu foco atual é:
 
-- **Drones miméticos** — Condor (observação longa distância) e Corujas (recon silencioso) **operacionais e demonstrados** ao Pack (20/07).
+- **Drones miméticos** — Condor e Corujas **operacionais e demonstrados** ao Pack (20/07).
 - **Casas modulares dobráveis** — protótipo externo montado/testado; layout interno em modelagem; aguardando escala/revelação completa.
 - **Badlands Node** — biodigestor e filtragem avançando (Mara, Tomas, Elias com autonomia crescente).
-- **Novo (ideia):** Enxame de mini-drones formiga — fase de sondagem de materiais (látex/resina). Não prioritário.
-- **Decisão de partida:** Ryan e Valk decidiram ir a Night City juntos para resolver assuntos pessoais de Ryan. Possível retorno ao Pack depois.
+- **Novo (ideia):** Enxame de mini-drones formiga — fase de sondagem de materiais. Não prioritário.
+- **Modelo 3D base militar** — mapeamento externo concluído (21/07). Lugar aparenta abandono há meses; cerca arrombada para dentro; sem defesas ativas. Estudo posterior opcional.
+- **Decisão de partida:** Ryan e Valk decidiram ir a Night City juntos. Possível retorno ao Pack depois.
 
-**Prioridade atual:** Observação base militar (leve, solo, retorno antes do escuro) · Preparação viagem Night City · Tutoria Valk com Sasha/Lira · Progresso Node/casas.
+**Prioridade atual:** Preparação viagem Night City · Tutoria Valk com Sasha/Lira · Progresso Node/casas · Estudo modelo 3D (opcional).
 
 **Projetos em andamento:**
 
-- **Drones miméticos** — Condor + Corujas ativos (alerta antecipado 15–40 min).
+- **Drones miméticos** — Condor + Corujas ativos.
 - **Casas modulares** — Container A no pack; protótipo operacional; time de produção + Tio Gringo no segredo parcial.
 - **Badlands Node** — protótipo Água + Biodigestor avançando com autonomia dos recrutas.
 - Destilaria — Elias (autonomia).
-- Estufa modular — Mara (ciclo biológico/água).
+- Estufa modular — Mara.
 - Cerca em estrela — concluída.
-- **Enxame mini-drones (ideia)** — sondagem de materiais com Tomas e Mara; prova de conceito ~10 unidades.
+- **Enxame mini-drones (ideia)** — sondagem de materiais com Tomas e Mara.
+- **Modelo 3D base militar** — coletado; estudo posterior.
 
 ---
 
@@ -35,6 +37,7 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 - **20/07:** Demonstração pública Condor + Corujas — Pack impressionado.
 - **20/07:** Decisão Ryan + Valk: ir a Night City juntos; possível retorno.
 - **14/07:** Apresentação casas a Reyes; gatilho “herói solitário” reconciliado (F15).
+- **21/07:** Observação leve base militar — modelo 3D externo; abandono aparente.
 - **Operação Torre Raffen (04/07):** Reaper e braços eliminados; 6 reféns salvos.
 
 ---
@@ -53,7 +56,7 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 
 | Nome                 | Papel                  | Relação com Ryan                  | Notas |
 |----------------------|------------------------|-----------------------------------|-------|
-| **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Decidiu ir a NC com Ryan; evita “herói” (F15); confiança operacional reforçada (autorizou saída solo) — [ficha](../fichas/nomad%20-%20lena_valk_kane.md) |
+| **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Decidiu ir a NC com Ryan; evita “herói” (F15); confiança operacional reforçada — [ficha](../fichas/nomad%20-%20lena_valk_kane.md) |
 | **Reyes** | Líder do Pack | Confiança estratégica | Ouveu protótipo; Pack avançou com autonomia |
 | **Tio Gringo** | Ferreiro | Alta estima | Testou Condor; mentor do time |
 | **Rusty** | Garagem/veículos | Colaborador técnico | Incursões recorrentes |
@@ -76,7 +79,7 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 
 ---
 
-**Última atualização:** 21 de Julho de 2026 (sessão 014)
+**Última atualização:** 21 de Julho de 2026 (sessão 015)
 
 ---
 
@@ -88,4 +91,4 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 
 **Facções:** [Pack Badlands](../facoes/pack_badlands.md) · [Facções Gerais](../facoes/faccoes_geral.md) · [Rel. Facções](../relacionamentos/faccao_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 014](../logs/sessao_resumo_014.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 015](../logs/sessao_resumo_015.md)

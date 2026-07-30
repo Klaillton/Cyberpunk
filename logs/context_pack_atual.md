@@ -1,9 +1,9 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **014** · **Próxima:** **015** (`sessao_resumo_015.md`)  
+**Gerado após:** sessão **015** · **Próxima:** **016** (`sessao_resumo_016.md`)  
 **Branch:** `feature/linha-estavel`  
-**Atualizado:** 21 de Julho de 2026
+**Atualizado:** 21 de Julho de 2026 (noite)
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
 > Fatos estáveis: [sistema/fatos_duros.md](../sistema/fatos_duros.md).  
@@ -16,17 +16,17 @@
 | Campo | Valor |
 | ----- | ----- |
 | Data in-game | **21/07/2026** |
-| Período | Final da tarde / início da noite |
+| Período | Noite (pós-sono) |
 | Região | **Badlands** |
 | Local específico | Pack Nômade — tenda Ryan & Valk |
 | Facção / base local | Pack Badlands (hospedagem) |
-| Cena / gancho | Ryan voltou da observação da base militar · Modelo 3D externo coletado |
-| Prioridade | Preparação viagem NC · Estudo do modelo 3D · Tutoria Sasha/Lira |
+| Cena / gancho | Ryan e Valk dormiram após estudo do modelo 3D e intimidade |
+| Prioridade | Preparação viagem NC · Estudo modelo 3D (opcional) · Tutoria Sasha/Lira |
 | Segredos ativos | Casas modulares — time produção + Tio Gringo sabem; pack geral ainda aguarda revelação oficial completa |
 
 ### Cena de abertura sugerida
 
-**Final da tarde 21/07 — tenda Ryan & Valk.** Ryan acabou de voltar da observação leve da base militar. Está só de calça, corpo ainda quente da marcha. Modelo 3D externo coletado. Sem infiltração.
+**Manhã 22/07 ou continuação noite 21/07 — tenda Ryan & Valk.** Após o sono. Modelo 3D da base disponível para estudo posterior.
 
 ---
 
@@ -46,6 +46,7 @@
 | **L02** | E010 concluída; Container A no pack; Node andando |
 | **L03** | Time de produção + Tio Gringo conhecem o projeto |
 | **Novo** | Condor + Corujas operacionais (drones miméticos) |
+| **Novo** | Modelo 3D externo da base militar coletado (21/07) |
 
 Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
@@ -68,11 +69,11 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 ---
 
-## O que acabou de acontecer (014 — 1 parágrafo)
+## O que acabou de acontecer (015 — 1 parágrafo)
 
-Manhã 21/07: intimidade + café com Valk; ideia do enxame de mini-drones; sondagem com Tomas e Mara. Tarde: saída solo para observação leve de base militar (condições de Valk respeitadas); mapeamento externo concluído (modelo 3D coletado); retorno ao Pack ainda com a última luz. Ryan está de volta na tenda.
+Final da tarde/noite 21/07: Ryan retornou da observação da base (modelo 3D externo limpo, lugar aparenta abandono). Jantar + conversa sobre preocupação e cuidado com Valk. Estudo do modelo na tenda. Intimidade (Valk no controle). Sono.
 
-Detalhe: [sessao_resumo_014.md](sessao_resumo_014.md)
+Detalhe: [sessao_resumo_015.md](sessao_resumo_015.md)
 
 ---
 
@@ -86,32 +87,10 @@ Detalhe: [sessao_resumo_014.md](sessao_resumo_014.md)
 
 ---
 
-## RAW (sandbox falhou?)
-
-Base: `https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/`
-
-| Arquivo |
-| ------- |
-| `logs/context_pack_atual.md` |
-| `sistema/fatos_duros.md` |
-| `board/board_campanha.md` |
-| `logs/handoff_atual.md` |
-| `logs/sessao_resumo_014.md` |
-| `sistema/comandos_jogador.md` |
-
----
-
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · 21/07/2026 · Badlands/Pack · prioridade: estudo modelo 3D + preparação NC · próximo resumo: 015
+Boot OK · 21/07/2026 noite · Badlands/Pack · prioridade: preparação NC + estudo modelo 3D · próximo resumo: 016
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.
-
----
-
-## Referências
-
-- [Handoff](handoff_atual.md) · [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
-- [Comandos](../sistema/comandos_jogador.md) · [Agência NPC](../sistema/npc_agencia_cena.md)
