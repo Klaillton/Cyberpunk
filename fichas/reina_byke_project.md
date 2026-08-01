@@ -1,13 +1,28 @@
-# Consolidação — Moto de Reina “Bearclaw” Morales (pós-modificação)
+# Projeto de Moto Custom — Reina “Bearclaw” Morales
 
-**Status:** Conceito futuro. Não ativo na campanha.  
-**Contexto:** Ryan modifica a moto dela após ela aparecer na oficina pedindo upgrades. O diálogo de entrada já foi esboçado.
+> **STATUS: IDEIA FUTURA — NÃO CANÔNICO AINDA**  
+> **Não usar em cena** como veículo existente.  
+> **Não** listar esta moto na ficha de Reina até o projeto ser **entregue e testado in-fiction**.  
+> **Ativar quando:** Reina aparece na oficina pedindo upgrades + Ryan modifica + entrega in-fiction.  
+> Até lá: spec de design + referência visual para o Narrador.  
+> Visual oficial: `imagens/reina/bike9.jpg` (sheet multi-ângulo). Outras `bike*.jpg` em `imagens/reina/` são rascunhos — **não** preferir sobre `bike9`.
+
+**Contexto:** Ryan modifica a moto dela após ela aparecer na oficina pedindo upgrades. O diálogo de entrada já foi esboçado.  
+**Filosofia:** A moto é para chegar e sair. O Mule continua sendo a plataforma pesada de missão.
+
+---
+
+## Referência visual
+
+_(Meta / design até o projeto estar ATIVO. Em cena só após entrega.)_
+
+![Moto custom — sheet multi-ângulo](../imagens/reina/bike9.jpg)
 
 ---
 
 ## Visual e Estrutura Geral
 
-- Moto pesada, horizontal, visual **brutalista e industrial**.
+- Moto pesada, horizontal, visual **brutalista e industrial** (ver sheet acima).
 - Acabamento preto fosco com poucos detalhes em cinza escuro / metal escovado.
 - **Duas rodas traseiras largas** em eixos independentes + uma roda dianteira larga.
 - Postura alongada o suficiente para acomodar uma piloto de 1,92 m sem parecer pequena sob ela.
@@ -111,4 +126,13 @@ A moto também pode se mover de forma semi-autônoma ou receber comandos remotos
 
 ---
 
-**Fim da consolidação da moto.**
+## Referências
+
+- [Ficha Reina](solo%20-%20reina_bearclaw_morales.md) — equipamento/veículo atual **sem** este projeto
+- [Projeto de armadura](reina_armour_project.md) — acoplamento da maleta (Estágio 2) na cauda da moto
+- [Relacionamentos Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md)
+- Visual oficial: `imagens/reina/bike9.jpg`
+
+---
+
+**Fim da consolidação da moto.** · Status vigente: **IDEIA FUTURA**

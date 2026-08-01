@@ -84,9 +84,14 @@ Hoje Reina vive como freelancer de rua: resolve na porrada quando necessário, m
 
 ### Ideia futura (não ativa)
 
+Projetos do Ryan para Reina. **Não canônicos** até entrega in-fiction. **Não** narrar como gear/veículo existente até o status virar ATIVO.
+
 - [Projeto de armadura custom (Ryan)](reina_armour_project.md) — **não canônico** até: Ryan em NC + jobs com a crew + **Reina se machuca** + entrega in-fiction.
-- Visuais (só após o projeto estar **ATIVO**): Estágio 1 / 2 / bursts em `imagens/reina/` (`reina_armour_1`, `reina_armour_2`, `reina_bursts`).
-- **Até lá:** Armorjack padrão desta ficha. **Não** narrar SP/exo do projeto como gear existente.
+  - Visuais (só após **ATIVO**): Estágio 1 / 2 / bursts em `imagens/reina/` (`reina_armour_1`, `reina_armour_2`, `reina_bursts`).
+  - **Até lá:** Armorjack padrão desta ficha. **Não** narrar SP/exo do projeto como gear existente.
+- [Projeto de moto custom (Ryan)](reina_byke_project.md) — **não canônico** até: Reina pede upgrades na oficina + Ryan modifica + entrega in-fiction.
+  - Visual oficial (meta/design até **ATIVO**): `imagens/reina/bike9.jpg`.
+  - **Até lá:** sem moto custom na ficha. **Não** narrar o trike/modos de roda/armamento da consolidação como veículo existente.
 
 ## Role Ability (Solo - Combat Awareness)
 
@@ -95,7 +100,7 @@ Alta para iniciativa e awareness em combate próximo. Reina é o tanque emociona
 ## Referências
 
 - **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) — catálogo de roupa (não amarra personagem)
-- **Projeto futuro (não ativo):** [reina_armour_project.md](reina_armour_project.md)
+- **Projetos futuros (não ativos):** [armadura](reina_armour_project.md) · [moto](reina_byke_project.md)
 - [Relacionamentos Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md)
 - [Crew](../relacionamentos/crew_relacionamentos.md)
