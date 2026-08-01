@@ -1,7 +1,7 @@
 # Guarda-Roupa — Catálogo feminino (peças e silhuetas)
 
 **Pasta de imagens:** [imagens/crew/guarda_roupas/](../imagens/crew/guarda_roupas/)  
-**Curadoria:** Women Style (varredura + gaps de cena) · **26 → ~118 looks** · 01/08/2026
+**Curadoria:** Women Style + lotes pré-selecionados · **26 → ~140 looks** · 01/08/2026
 
 > **Foco absoluto: a roupa.**  
 > Use este arquivo para descrever **corte, tecido, cor, camadas, calçado e acessórios de vestuário**.  
@@ -143,6 +143,28 @@
 | Formal — terno 3 peças | `formal_black_threepiece_suit.jpg` | Blazer + colete + gravata + calça |
 | Evening — halter longo | `evening_black_halter_long_slit.jpg` | Vestido preto longo fenda + botas |
 | Street — robe tinta | `street_ink_robe_gown.jpg` | Robe/vestido preto-branco + tênis salto |
+| Medical — jaleco clássico | `medical_lab_coat_classic.jpg` | Jaleco branco + camisa azul + calça preta |
+| Medical — jaleco street | `medical_street_lab_coat.jpg` | Jaleco aberto + top preto + calça + OTK |
+| Medical — casaco tech | `medical_tech_hooded_coat.jpg` | Casaco branco capuz + body tech |
+| Medical — uniforme branco | `medical_white_uniform_set.jpg` | Uniforme/jumpsuit branco (sheet) |
+| Medical — nurse branca | `medical_nurse_dress_white.jpg` | Vestido enfermeira branco midi |
+| Medical — nurse assimétrico | `medical_nurse_dress_asym.jpg` | Vestido enfermeira branco assimétrico |
+| Medical — nurse rosa | `medical_nurse_dress_pink.jpg` | Vestido enfermeira rosa mini |
+| Sleep — tee oversized | `sleep_oversized_tee.jpg` | Camiseta oversized curta |
+| Sleep — roupão branco | `sleep_white_robe.jpg` | Roupão felpudo branco |
+| Sleep — cami cetim | `sleep_satin_cami_shorts.jpg` | Cami + short cetim branco |
+| Sleep — lace azul | `sleep_blue_lace_set.jpg` | Vestido renda + robe sheer azul |
+| Sleep — lingerie robe | `sleep_lingerie_robe_set.jpg` | Set lingerie + robe (flatlay) |
+| Sleep — onesie hearts | `sleep_plush_onesie_hearts.jpg` | Onesie plush P&B |
+| Sleep — onesie bear | `sleep_plush_onesie_bear.jpg` | Onesie plush marrom |
+| Formal — vest + saia bege | `formal_vest_tan_pleat.jpg` | Camisa + colete + saia plissada bege |
+| Formal — navy gold mini | `formal_navy_gold_mini.jpg` | Blusa + mini navy dourado |
+| Evening — velvet lace | `evening_black_velvet_lace.jpg` | Veludo preto ombro a ombro + renda |
+| Evening — sparkle black | `evening_black_sparkle_gown.jpg` | Gown preto brilhante fenda |
+| Evening — blue oneshoulder | `evening_blue_oneshoulder_gown.jpg` | Gown azul one-shoulder |
+| Swim — coverup sheer | `swim_black_sheer_coverup.jpg` | Top + capa sheer preta longa |
+| Fantasia — ice gown | `fantasy_ice_gown_sheet.jpg` | Gown prata/gelo (sheet) |
+| Fantasia — snow coord | `fantasy_snow_coord.jpg` | Crop + saia azul neve |
 
 ---
 
@@ -2062,6 +2084,341 @@ Street fashion, night out artístico, media event.
 
 ---
 
+# MEDICAL / CLÍNICO
+
+## Jaleco clássico
+
+**Arquivo:** `medical_lab_coat_classic.jpg`  
+![lab coat classic](../imagens/crew/guarda_roupas/medical_lab_coat_classic.jpg)
+
+### Descrição visual (roupa)
+- Jaleco/lab coat **branco** longo, botões, cinto  
+- Camisa azul clara por baixo  
+- Calça preta justa; botas pretas  
+- Luvas pretas; bolsa/cinto utilitário  
+
+### Quando usar
+Clínica, Stitch em ambiente limpo, ripperdoc “profissional”.
+
+---
+
+## Jaleco street / medtech de rua
+
+**Arquivo:** `medical_street_lab_coat.jpg`  
+![street lab coat](../imagens/crew/guarda_roupas/medical_street_lab_coat.jpg)
+
+### Descrição visual (roupa)
+- Jaleco branco aberto, forro/teal  
+- Top/corset preto com tiras e cinto  
+- Calça preta justa; botas pretas OTK  
+- (Kit médico = acessório de cena se a ficha/job pedir; **ignorar chrome** se não for da ficha)  
+
+### Quando usar
+Medtech em campo, Stitch street, clínica de rua.
+
+---
+
+## Casaco tech com capuz
+
+**Arquivo:** `medical_tech_hooded_coat.jpg`  
+![tech hooded coat](../imagens/crew/guarda_roupas/medical_tech_hooded_coat.jpg)
+
+### Descrição visual (roupa)
+- Casaco branco longo com **capuz** e linhas tech  
+- Body/undersuit escuro  
+- Cinto; visual lab futurista  
+- (Ignorar máscara/implantes se não forem da ficha)  
+
+### Quando usar
+Lab high-tech, ripperdoc corporativo, medtech “cyber”.
+
+---
+
+## Uniforme branco (sheet)
+
+**Arquivo:** `medical_white_uniform_set.jpg`  
+![white uniform](../imagens/crew/guarda_roupas/medical_white_uniform_set.jpg)
+
+### Descrição visual (roupa)
+- Uniforme/jumpsuit branco justo  
+- Casaco/sobretudo branco longo com cinto  
+- Botas brancas de salto/bloco  
+- (Sheet multi-ângulo — extrair o set)  
+
+### Quando usar
+Corp medical, clínica premium, visual limpo all-white.
+
+---
+
+## Nurse dress branca
+
+**Arquivo:** `medical_nurse_dress_white.jpg`  
+![nurse white](../imagens/crew/guarda_roupas/medical_nurse_dress_white.jpg)
+
+### Descrição visual (roupa)
+- Vestido enfermeira **branco** comprimento joelho/midi  
+- Gola alta; cinto; bolsos  
+- Tênis/sapatos brancos  
+- (Sheet; gorro opcional)  
+
+### Quando usar
+Clínica, hospital, visual “enfermeira clássica”.
+
+---
+
+## Nurse dress assimétrico
+
+**Arquivo:** `medical_nurse_dress_asym.jpg`  
+![nurse asym](../imagens/crew/guarda_roupas/medical_nurse_dress_asym.jpg)
+
+### Descrição visual (roupa)
+- Vestido enfermeira branco com barra **assimétrica**  
+- Detalhe preto nas mangas/gola  
+- Luvas pretas; saltos pretos  
+
+### Quando usar
+Clínica estilizada, Stitch “arrumada” medical.
+
+---
+
+## Nurse dress rosa
+
+**Arquivo:** `medical_nurse_dress_pink.jpg`  
+![nurse pink](../imagens/crew/guarda_roupas/medical_nurse_dress_pink.jpg)
+
+### Descrição visual (roupa)
+- Vestido enfermeira **rosa** mini  
+- Cinto branco; meias 7/8 brancas  
+- Saltos pretos  
+- (Mais costume/fantasia medical)  
+
+### Quando usar
+Cena estilizada / costume — **não** default realista de hospital.
+
+---
+
+# SLEEP / CASA
+
+## Tee oversized
+
+**Arquivo:** `sleep_oversized_tee.jpg`  
+![sleep tee](../imagens/crew/guarda_roupas/sleep_oversized_tee.jpg)
+
+### Descrição visual (roupa)
+- Camiseta oversized cinza-azul, manga curta  
+- Comprimento quase short; visual “só a camisa”  
+
+### Quando usar
+Casa, safehouse, manhã preguiçosa, intimidade casual.
+
+---
+
+## Roupão branco
+
+**Arquivo:** `sleep_white_robe.jpg`  
+![white robe](../imagens/crew/guarda_roupas/sleep_white_robe.jpg)
+
+### Descrição visual (roupa)
+- Roupão/bathrobe **branco** felpudo  
+- Faixa na cintura; bolsos  
+
+### Quando usar
+Pós-banho, manhã, hotel, downtime doméstico.
+
+---
+
+## Cami cetim + short
+
+**Arquivo:** `sleep_satin_cami_shorts.jpg`  
+![satin cami](../imagens/crew/guarda_roupas/sleep_satin_cami_shorts.jpg)
+
+### Descrição visual (roupa)
+- Top/cami cetim branco com renda  
+- Short cetim combinando  
+- Visual pijama/lingerie soft  
+
+### Quando usar
+Sleep ousado-leve, cena íntima em casa.
+
+---
+
+## Lace azul + robe
+
+**Arquivo:** `sleep_blue_lace_set.jpg`  
+![blue lace sleep](../imagens/crew/guarda_roupas/sleep_blue_lace_set.jpg)
+
+### Descrição visual (roupa)
+- Vestido/corset renda azul claro  
+- Robe sheer azul com faixa e babados  
+
+### Quando usar
+Sleep fashion, intimidade, “pijama de saída”.
+
+---
+
+## Lingerie + robe (flatlay)
+
+**Arquivo:** `sleep_lingerie_robe_set.jpg`  
+![lingerie robe set](../imagens/crew/guarda_roupas/sleep_lingerie_robe_set.jpg)
+
+### Descrição visual (roupa)
+- Conjunto lingerie magenta (sutiã + calcinha + babydoll)  
+- Robe de renda magenta com faixa  
+- (Flatlay — extrair peças)  
+
+### Quando usar
+Especial/sleep ousado — só se a cena pedir.
+
+---
+
+## Onesie plush hearts
+
+**Arquivo:** `sleep_plush_onesie_hearts.jpg`  
+![onesie hearts](../imagens/crew/guarda_roupas/sleep_plush_onesie_hearts.jpg)
+
+### Descrição visual (roupa)
+- Onesie/macacão plush curto P&B com estampa  
+- Capuz com orelhas  
+
+### Quando usar
+Casa fofa, humor, downtime pack (Reina vibe opcional).
+
+---
+
+## Onesie plush bear
+
+**Arquivo:** `sleep_plush_onesie_bear.jpg`  
+![onesie bear](../imagens/crew/guarda_roupas/sleep_plush_onesie_bear.jpg)
+
+### Descrição visual (roupa)
+- Onesie plush marrom curto  
+- Capuz com cara de ursinho  
+
+### Quando usar
+Sleep fofo, humor, intimidade casual.
+
+---
+
+# FORMAL / EVENING / SWIM / FANTASIA (lote novo)
+
+## Vest + saia plissada bege
+
+**Arquivo:** `formal_vest_tan_pleat.jpg`  
+![vest tan pleat](../imagens/crew/guarda_roupas/formal_vest_tan_pleat.jpg)
+
+### Descrição visual (roupa)
+- Camisa branca social  
+- Colete preto  
+- Mini saia plissada bege; cinto fino  
+- Botas pretas com tiras  
+
+### Quando usar
+Semi-formal, escritório casual, saída apresentável.
+
+---
+
+## Navy gold mini
+
+**Arquivo:** `formal_navy_gold_mini.jpg`  
+![navy gold mini](../imagens/crew/guarda_roupas/formal_navy_gold_mini.jpg)
+
+### Descrição visual (roupa)
+- Blusa off-shoulder creme/azul com bordado dourado  
+- Mini saia navy; cinto dourado  
+- Luvas brancas  
+
+### Quando usar
+Evento semi-formal, jantar, fantasia elegante.
+
+---
+
+## Velvet black lace
+
+**Arquivo:** `evening_black_velvet_lace.jpg`  
+![velvet lace](../imagens/crew/guarda_roupas/evening_black_velvet_lace.jpg)
+
+### Descrição visual (roupa)
+- Vestido longo veludo preto, ombro a ombro  
+- Mangas e painel de renda; fenda alta  
+- Saltos pretos  
+
+### Quando usar
+Gala, evening clássico.
+
+---
+
+## Sparkle black gown
+
+**Arquivo:** `evening_black_sparkle_gown.jpg`  
+![sparkle gown](../imagens/crew/guarda_roupas/evening_black_sparkle_gown.jpg)
+
+### Descrição visual (roupa)
+- Gown preto com brilho/bordado  
+- Decote fluido; mangas sheer; fenda e cauda  
+
+### Quando usar
+Gala high-end.
+
+---
+
+## Blue one-shoulder gown
+
+**Arquivo:** `evening_blue_oneshoulder_gown.jpg`  
+![blue oneshoulder](../imagens/crew/guarda_roupas/evening_blue_oneshoulder_gown.jpg)
+
+### Descrição visual (roupa)
+- Gown azul one-shoulder com fenda  
+- Capa/sheer com detalhes prateados  
+
+### Quando usar
+Gala, evening colorido.
+
+---
+
+## Swim — sheer coverup
+
+**Arquivo:** `swim_black_sheer_coverup.jpg`  
+![swim coverup](../imagens/crew/guarda_roupas/swim_black_sheer_coverup.jpg)
+
+### Descrição visual (roupa)
+- Top/bandeau preto  
+- Parte de baixo preta  
+- Capa/robe sheer preta longa aberta  
+
+### Quando usar
+Praia, piscina, resort — **não** job.
+
+---
+
+## Fantasy ice gown
+
+**Arquivo:** `fantasy_ice_gown_sheet.jpg`  
+![ice gown](../imagens/crew/guarda_roupas/fantasy_ice_gown_sheet.jpg)
+
+### Descrição visual (roupa)
+- Gown prata/gelo fluido (sheet frente/costas)  
+- Mangas e recortes  
+
+### Quando usar
+Fantasia, evento raro — **não** job.
+
+---
+
+## Fantasy snow coord
+
+**Arquivo:** `fantasy_snow_coord.jpg`  
+![snow coord](../imagens/crew/guarda_roupas/fantasy_snow_coord.jpg)
+
+### Descrição visual (roupa)
+- Crop azul com mangas bufantes  
+- Saia midi com fenda e estampa neve  
+- Botas de salto claras  
+
+### Quando usar
+Fantasia inverno, costume.
+
+---
+
 ## Notas de narração
 
 1. Descreva **só a roupa** a partir do slot escolhido.  
@@ -2073,7 +2430,8 @@ Street fashion, night out artístico, media event.
 7. Slots `piece_*`: sempre completar mentalmente com outra peça (saia/calça/short/botas) se a foto for só tronco.  
 8. Seção **Especial / ousado**: só quando a cena pedir; não default de job.  
 9. Preferir o **Índice — Shorts & rompers** quando quiser silhueta curta em vez de calça.  
-10. **Gaps ainda sem asset no pool** (ver fim do arquivo se listados no commit/resumo): medical/lab, sleep/camisola, biker shorts puros, bermuda de alfaiataria.
+10. Medical/sleep: usar slots `medical_*` e `sleep_*`; kit médico e chrome só se a ficha tiver.  
+11. Ainda raro no catálogo: **biker shorts** puros, **bermuda de alfaiataria**, scrubs “hospital real” (não nurse dress).
 
 ---
 
