@@ -1,7 +1,7 @@
 # Guarda-Roupa — Catálogo feminino (peças e silhuetas)
 
 **Pasta de imagens:** [imagens/crew/guarda_roupas/](../imagens/crew/guarda_roupas/)  
-**Curadoria:** Women Style (varredura) + batch pré-selecionado · **26 → ~104 looks** · 01/08/2026
+**Curadoria:** Women Style (varredura + gaps de cena) · **26 → ~118 looks** · 01/08/2026
 
 > **Foco absoluto: a roupa.**  
 > Use este arquivo para descrever **corte, tecido, cor, camadas, calçado e acessórios de vestuário**.  
@@ -129,6 +129,20 @@
 | Especial — plaid asym | `special_plaid_asymmetric_dress.png` | Vestido xadrez assimétrico (flat) |
 | Especial — sheer qipao | `special_sheer_cheongsam.jpg` | Cheongsam sheer dourado |
 | Especial — purple suit | `special_purple_suit_mini.jpg` | Terno roxo mini |
+| Stealth — jumpsuit preto | `stealth_black_jumpsuit.jpg` | Macacão/jumpsuit preto inteiro + botas |
+| Stealth — combat all black | `stealth_black_combat_set.jpg` | Top preto + calça tática preta + botas |
+| Chuva — trench couro | `rain_black_leather_trench.jpg` | Trench couro preto pesado + luvas |
+| Clima — trench oliva | `weather_olive_trench.jpg` | Trench oliva longo + tank + calça |
+| Lounge — hoodie + moletom | `lounge_hoodie_sweatpants.jpg` | Hoodie crop + calça moletom |
+| Tech — body + crop branco | `tech_bodysuit_white_crop.jpg` | Bodysuit preto + crop branco (sheet) |
+| Casual — tank + jeans solto | `casual_tank_boyfriend_jeans.jpg` | Top + jeans boyfriend + botas |
+| Casual — tee simples | `casual_tee_simple_pants.jpg` | Camiseta preta + calça marrom |
+| Media — jaqueta branca | `media_white_jacket_cargo.jpg` | Crop + jaqueta branca + cargo preta |
+| Media/corp — uniforme | `media_corp_uniform_jacket.jpg` | Jaqueta cinza/preta zip + calça (ignorar arma) |
+| Formal — pantsuit preto | `formal_black_pantsuit.jpg` | Blazer + camisa + calça pretos |
+| Formal — terno 3 peças | `formal_black_threepiece_suit.jpg` | Blazer + colete + gravata + calça |
+| Evening — halter longo | `evening_black_halter_long_slit.jpg` | Vestido preto longo fenda + botas |
+| Street — robe tinta | `street_ink_robe_gown.jpg` | Robe/vestido preto-branco + tênis salto |
 
 ---
 
@@ -1827,6 +1841,227 @@ Fantasia/uniforme estilizado — **não** job.
 
 ---
 
+# GAPS DE CENA (stealth, clima, media, lounge, formal)
+
+## Stealth — jumpsuit preto
+
+**Arquivo:** `stealth_black_jumpsuit.jpg`  
+![stealth jumpsuit](../imagens/crew/guarda_roupas/stealth_black_jumpsuit.jpg)
+
+### Descrição visual (roupa)
+- Macacão/jumpsuit **preto** de uma peça, zíper central  
+- Gola alta; bolsos cargo nas coxas  
+- Botas pretas de combate  
+- (Ignorar patches/emblemas e armas nas costas)  
+
+### Quando usar
+Job stealth, infiltração, “tudo preto funcional” (não clube).
+
+---
+
+## Stealth — combat all black
+
+**Arquivo:** `stealth_black_combat_set.jpg`  
+![stealth combat](../imagens/crew/guarda_roupas/stealth_black_combat_set.jpg)
+
+### Descrição visual (roupa)
+- Top/halter preto com tiras  
+- Calça tática preta justa com cintas e joelheiras de roupa  
+- Botas altas pretas; luvas sem dedos  
+- (Sheet — extrair o look de corpo)  
+
+### Quando usar
+Operação noturna, close combat discreto.
+
+---
+
+## Chuva / noite — trench couro pesado
+
+**Arquivo:** `rain_black_leather_trench.jpg`  
+![rain trench](../imagens/crew/guarda_roupas/rain_black_leather_trench.jpg)
+
+### Descrição visual (roupa)
+- Trench/casaco de **couro preto** longo, botões duplos, ombreiras  
+- Camadas pretas por baixo (gola alta / body)  
+- Cinto; luvas pretas; botas  
+- Visual “chuva de Night City”  
+
+### Quando usar
+Chuva, frio urbano, deslocamento noturno (variante mais pesada do street_leather_trench).
+
+---
+
+## Clima / scav — trench oliva
+
+**Arquivo:** `weather_olive_trench.jpg`  
+![olive trench](../imagens/crew/guarda_roupas/weather_olive_trench.jpg)
+
+### Descrição visual (roupa)
+- Trench/casaco **oliva** longo, aberto  
+- Tank/top cinza justo  
+- Calça tática escura; cintos e joelheiras de roupa  
+- Botas altas; luvas  
+
+### Quando usar
+Badlands úmido, scav, clima ruim, “pronta pro tempo”.
+
+---
+
+## Lounge — hoodie + calça moletom
+
+**Arquivo:** `lounge_hoodie_sweatpants.jpg`  
+![lounge sweatpants](../imagens/crew/guarda_roupas/lounge_hoodie_sweatpants.jpg)
+
+### Descrição visual (roupa)
+- Hoodie crop bege/off-white  
+- Top esportivo preto por baixo  
+- Calça de moletom cinza com cordão  
+- Visual casa / pós-treino / “acordei assim”  
+
+### Quando usar
+Safehouse, manhã, downtime (mais “calça lounge” que só short).
+
+---
+
+## Tech — bodysuit + crop branco
+
+**Arquivo:** `tech_bodysuit_white_crop.jpg`  
+![tech bodysuit](../imagens/crew/guarda_roupas/tech_bodysuit_white_crop.jpg)
+
+### Descrição visual (roupa)
+- Bodysuit/legging preto com linhas claras  
+- Crop/moletom branco com alças  
+- Tênis chunky brancos  
+- (Sheet manequim — só roupa)  
+
+### Quando usar
+Netrunner, tech fashion, job leve de rua.
+
+---
+
+## Casual — tank + jeans boyfriend
+
+**Arquivo:** `casual_tank_boyfriend_jeans.jpg`  
+![boyfriend jeans](../imagens/crew/guarda_roupas/casual_tank_boyfriend_jeans.jpg)
+
+### Descrição visual (roupa)
+- Top/sports bra azul-turquesa  
+- Jeans azul **solto** (boyfriend/mom), rasgado no joelho  
+- Botas marrom; cinto/pochete de couro  
+
+### Quando usar
+Pack, folga, casual sem cargo.
+
+---
+
+## Casual — tee + calça simples
+
+**Arquivo:** `casual_tee_simple_pants.jpg`  
+![simple tee pants](../imagens/crew/guarda_roupas/casual_tee_simple_pants.jpg)
+
+### Descrição visual (roupa)
+- Camiseta preta lisa, manga curta  
+- Calça marrom/caqui reta, cinto  
+- Visual mínimo de bar/pack  
+
+### Quando usar
+Downtime, conversa, “só roupa de gente normal”.
+
+---
+
+## Media — jaqueta branca + cargo
+
+**Arquivo:** `media_white_jacket_cargo.jpg`  
+![media white jacket](../imagens/crew/guarda_roupas/media_white_jacket_cargo.jpg)
+
+### Descrição visual (roupa)
+- Crop/top preto gola alta  
+- Jaqueta cropped **branca** com bolsos  
+- Calça cargo preta com tiras  
+- Óculos escuros; botas pretas  
+
+### Quando usar
+Rua com câmera, job de media, visual “pronta pra gravação”.
+
+---
+
+## Media / corp — jaqueta uniforme
+
+**Arquivo:** `media_corp_uniform_jacket.jpg`  
+![media corp](../imagens/crew/guarda_roupas/media_corp_uniform_jacket.jpg)
+
+### Descrição visual (roupa)
+- Jaqueta zip cinza/preta, detalhe azul no ombro  
+- Calça preta justa  
+- Cinto utilitário de roupa; luvas  
+- **Ignorar** pistolas, coldres e texto da foto  
+
+### Quando usar
+Ambiente corp/segurança, entrevista, “uniforme limpo”.
+
+---
+
+## Formal — pantsuit preto
+
+**Arquivo:** `formal_black_pantsuit.jpg`  
+![black pantsuit](../imagens/crew/guarda_roupas/formal_black_pantsuit.jpg)
+
+### Descrição visual (roupa)
+- Blazer preto  
+- Camisa preta social  
+- Calça de alfaiataria preta  
+
+### Quando usar
+Reunião, corp, visual profissional completo (além da camisa office).
+
+---
+
+## Formal — terno 3 peças
+
+**Arquivo:** `formal_black_threepiece_suit.jpg`  
+![threepiece suit](../imagens/crew/guarda_roupas/formal_black_threepiece_suit.jpg)
+
+### Descrição visual (roupa)
+- Blazer + colete + camisa branca + gravata preta  
+- Calça de terno preta  
+- (Ignorar orelhas/cauda cosplay)  
+
+### Quando usar
+Evento formal, corpo andrógino/power suit, cliente high-end.
+
+---
+
+## Evening — halter longo fenda
+
+**Arquivo:** `evening_black_halter_long_slit.jpg`  
+![halter long slit](../imagens/crew/guarda_roupas/evening_black_halter_long_slit.jpg)
+
+### Descrição visual (roupa)
+- Vestido/macacão longo preto, gola alta  
+- Fenda alta na perna; cinto com fivelas  
+- Botas pretas  
+- (Ignorar espada)  
+
+### Quando usar
+Noite elegante, evening com mobilidade, visual “longo mas prático”.
+
+---
+
+## Street — robe tinta P&B
+
+**Arquivo:** `street_ink_robe_gown.jpg`  
+![ink robe](../imagens/crew/guarda_roupas/street_ink_robe_gown.jpg)
+
+### Descrição visual (roupa)
+- Robe/vestido longo preto com manchas brancas  
+- Faixa/obi branca na cintura  
+- Tênis/saltos brancos altos  
+
+### Quando usar
+Street fashion, night out artístico, media event.
+
+---
+
 ## Notas de narração
 
 1. Descreva **só a roupa** a partir do slot escolhido.  
@@ -1837,7 +2072,8 @@ Fantasia/uniforme estilizado — **não** job.
 6. Flatlay, character sheet, watermark ou UI de loja: **extrair só o estilo da roupa**.  
 7. Slots `piece_*`: sempre completar mentalmente com outra peça (saia/calça/short/botas) se a foto for só tronco.  
 8. Seção **Especial / ousado**: só quando a cena pedir; não default de job.  
-9. Preferir o **Índice — Shorts & rompers** quando quiser silhueta curta em vez de calça.
+9. Preferir o **Índice — Shorts & rompers** quando quiser silhueta curta em vez de calça.  
+10. **Gaps ainda sem asset no pool** (ver fim do arquivo se listados no commit/resumo): medical/lab, sleep/camisola, biker shorts puros, bermuda de alfaiataria.
 
 ---
 
