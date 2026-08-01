@@ -1,7 +1,7 @@
 # Guarda-Roupa — Catálogo feminino (peças e silhuetas)
 
 **Pasta de imagens:** [imagens/crew/guarda_roupas/](../imagens/crew/guarda_roupas/)  
-**Curadoria:** Women Style + lotes pré-selecionados · **26 → ~140 looks** · 01/08/2026
+**Curadoria:** Women Style + lotes pré-selecionados · **26 → ~150 looks** · 01/08/2026
 
 > **Foco absoluto: a roupa.**  
 > Use este arquivo para descrever **corte, tecido, cor, camadas, calçado e acessórios de vestuário**.  
@@ -165,6 +165,16 @@
 | Swim — coverup sheer | `swim_black_sheer_coverup.jpg` | Top + capa sheer preta longa |
 | Fantasia — ice gown | `fantasy_ice_gown_sheet.jpg` | Gown prata/gelo (sheet) |
 | Fantasia — snow coord | `fantasy_snow_coord.jpg` | Crop + saia azul neve |
+| Gym — biker black set | `gym_biker_black_set.jpg` | Crop + biker shorts pretos |
+| Gym — biker + halter | `gym_biker_halter_set.png` | Top halter + biker short pretos |
+| Gym — tech romper | `gym_tech_romper_black.jpg` | Romper manga longa zip tech |
+| Medical — scrubs azuis | `medical_scrubs_blue.jpg` | Scrubs azuis clássicos |
+| Medical — scrubs slate | `medical_scrubs_slate.jpg` | Scrubs cinza-azul hospital |
+| Medical — scrubs light | `medical_scrubs_light_blue.jpg` | Scrubs azul claro justos |
+| Sleep — onesie HK | `sleep_onesie_hello_kitty.jpg` | Onesie/romper rosa estampado |
+| Sleep — bunny body | `sleep_bunny_hoodie_body.jpg` | Body canelado + capuz orelhas |
+| Lounge — ruched black | `lounge_black_ruched_set.jpg` | Crop + short franzido pretos |
+| Swim — one-piece | `swim_black_white_onepiece.jpg` | Maiô preto com borda branca |
 
 ---
 
@@ -195,6 +205,10 @@ Use esta lista quando a cena pede **perna descoberta / short**, não calça long
 | Soft steampunk short | `soft_steampunk_shorts_coat.jpg` | Short + cauda |
 | Club corset platform | `club_corset_platform.png` | Shorts club legado |
 | Casual skort | `casual_black_skort.jpg` | Saia-short |
+| Gym biker black | `gym_biker_black_set.jpg` | Biker shorts + crop |
+| Gym biker halter | `gym_biker_halter_set.png` | Biker short + top |
+| Lounge ruched | `lounge_black_ruched_set.jpg` | Short franzido |
+| Gym tech romper | `gym_tech_romper_black.jpg` | Romper short tech |
 
 ---
 
@@ -2419,6 +2433,161 @@ Fantasia inverno, costume.
 
 ---
 
+# MEDICAL — SCRUBS (hospital real)
+
+## Scrubs azuis clássicos
+
+**Arquivo:** `medical_scrubs_blue.jpg`  
+![scrubs blue](../imagens/crew/guarda_roupas/medical_scrubs_blue.jpg)
+
+### Descrição visual (roupa)
+- Top scrub **azul** V-neck, manga curta  
+- Calça scrub azul com bolsos e cordão  
+- (Estetoscópio = prop de cena se fizer sentido)  
+
+### Quando usar
+Hospital, clínica, Stitch em plantão realista.
+
+---
+
+## Scrubs slate / cinza-azul
+
+**Arquivo:** `medical_scrubs_slate.jpg`  
+![scrubs slate](../imagens/crew/guarda_roupas/medical_scrubs_slate.jpg)
+
+### Descrição visual (roupa)
+- Scrubs azul-acinzentado, top envelope com bolso  
+- Calça scrub com cordão e bolsos laterais  
+
+### Quando usar
+Hospital moderno, plantão, visual clean medical.
+
+---
+
+## Scrubs light blue (justos)
+
+**Arquivo:** `medical_scrubs_light_blue.jpg`  
+![scrubs light](../imagens/crew/guarda_roupas/medical_scrubs_light_blue.jpg)
+
+### Descrição visual (roupa)
+- Scrubs azul claro, corte mais justo  
+- Top V profundo; calça combinando  
+- Luvas azuis opcionais  
+
+### Quando usar
+Clínica estilizada / medical fashion — ainda é scrub, não nurse dress.
+
+---
+
+# GYM / BIKER / ROMPER
+
+## Biker black set
+
+**Arquivo:** `gym_biker_black_set.jpg`  
+![biker black set](../imagens/crew/guarda_roupas/gym_biker_black_set.jpg)
+
+### Descrição visual (roupa)
+- Crop top preto de malha esportiva, manga curta  
+- **Biker shorts** pretos de cintura alta  
+- (Produto flutuante — extrair set)  
+
+### Quando usar
+Treino, gym, visual “biker short + crop”.
+
+---
+
+## Biker + top halter
+
+**Arquivo:** `gym_biker_halter_set.png`  
+![biker halter](../imagens/crew/guarda_roupas/gym_biker_halter_set.png)
+
+### Descrição visual (roupa)
+- Top/halter preto com cut-out  
+- Biker shorts pretos de cintura alta  
+- (Flatlay de peças)  
+
+### Quando usar
+Gym fashion, street atlético, short justo.
+
+---
+
+## Tech romper preto
+
+**Arquivo:** `gym_tech_romper_black.jpg`  
+![tech romper](../imagens/crew/guarda_roupas/gym_tech_romper_black.jpg)
+
+### Descrição visual (roupa)
+- Romper/body manga longa preto e cinza  
+- Zíper frontal; painéis mesh; fivelas nos braços  
+- Comprimento short  
+- (Frente e costas)  
+
+### Quando usar
+Gym tech, street cyber leve, treino.
+
+---
+
+## Lounge black ruched set
+
+**Arquivo:** `lounge_black_ruched_set.jpg`  
+![ruched set](../imagens/crew/guarda_roupas/lounge_black_ruched_set.jpg)
+
+### Descrição visual (roupa)
+- Crop preto canelado com tiras laterais  
+- Short preto franzido (ruched) com cadarços  
+- (Produto)  
+
+### Quando usar
+Casa, lounge, short set casual.
+
+---
+
+# SLEEP / SWIM (lote)
+
+## Onesie Hello Kitty
+
+**Arquivo:** `sleep_onesie_hello_kitty.jpg`  
+![onesie hk](../imagens/crew/guarda_roupas/sleep_onesie_hello_kitty.jpg)
+
+### Descrição visual (roupa)
+- Onesie/romper rosa manga longa com estampa  
+- Botões na frente; comprimento short  
+- (Manequim)  
+
+### Quando usar
+Sleep fofo, humor, downtime pack.
+
+---
+
+## Bunny hoodie body
+
+**Arquivo:** `sleep_bunny_hoodie_body.jpg`  
+![bunny body](../imagens/crew/guarda_roupas/sleep_bunny_hoodie_body.jpg)
+
+### Descrição visual (roupa)
+- Body canelado cinza com capuz e orelhas longas  
+- Mangas longas; abertura atrás  
+- (Manequim frente/costas)  
+
+### Quando usar
+Sleep/costume fofo — especial casa.
+
+---
+
+## Swim one-piece black/white
+
+**Arquivo:** `swim_black_white_onepiece.jpg`  
+![onepiece swim](../imagens/crew/guarda_roupas/swim_black_white_onepiece.jpg)
+
+### Descrição visual (roupa)
+- Maiô/one-piece preto com borda branca  
+- Decote V profundo; alças finas  
+
+### Quando usar
+Praia, piscina (junto com `swim_black_sheer_coverup` se quiser capa).
+
+---
+
 ## Notas de narração
 
 1. Descreva **só a roupa** a partir do slot escolhido.  
@@ -2431,7 +2600,7 @@ Fantasia inverno, costume.
 8. Seção **Especial / ousado**: só quando a cena pedir; não default de job.  
 9. Preferir o **Índice — Shorts & rompers** quando quiser silhueta curta em vez de calça.  
 10. Medical/sleep: usar slots `medical_*` e `sleep_*`; kit médico e chrome só se a ficha tiver.  
-11. Ainda raro no catálogo: **biker shorts** puros, **bermuda de alfaiataria**, scrubs “hospital real” (não nurse dress).
+11. Scrubs hospital: `medical_scrubs_*`. Biker: `gym_biker_*`. Ainda raro: **bermuda de alfaiataria**.
 
 ---
 
