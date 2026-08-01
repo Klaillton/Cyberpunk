@@ -1,7 +1,7 @@
 # Guarda-Roupa — Catálogo feminino (peças e silhuetas)
 
 **Pasta de imagens:** [imagens/crew/guarda_roupas/](../imagens/crew/guarda_roupas/)  
-**Curadoria:** Women Style + lotes pré-selecionados · **26 → ~150 looks** · 01/08/2026
+**Curadoria:** Women Style + lotes pré-selecionados · **26 → ~155 looks** · 01/08/2026
 
 > **Foco absoluto: a roupa.**  
 > Use este arquivo para descrever **corte, tecido, cor, camadas, calçado e acessórios de vestuário**.  
@@ -175,6 +175,11 @@
 | Sleep — bunny body | `sleep_bunny_hoodie_body.jpg` | Body canelado + capuz orelhas |
 | Lounge — ruched black | `lounge_black_ruched_set.jpg` | Crop + short franzido pretos |
 | Swim — one-piece | `swim_black_white_onepiece.jpg` | Maiô preto com borda branca |
+| Formal — bermuda terno cinza | `formal_grey_bermuda_suit.jpg` | Blazer + bermuda alfaiataria cinza |
+| Formal — bermuda blazer bege | `formal_beige_bermuda_blazer.jpg` | Blazer bege + bermuda bege plissada |
+| Casual — bermuda cáqui | `casual_khaki_bermuda_shirt.jpg` | Camisa + bermuda cáqui no joelho |
+| Formal — culotte bege | `formal_beige_culotte_crop.jpg` | Camisa crop + culotte/pantacourt bege |
+| Formal — wideleg branca | `formal_white_wideleg_crop.jpg` | Top + calça wide-leg branca crop |
 
 ---
 
@@ -209,6 +214,9 @@ Use esta lista quando a cena pede **perna descoberta / short**, não calça long
 | Gym biker halter | `gym_biker_halter_set.png` | Biker short + top |
 | Lounge ruched | `lounge_black_ruched_set.jpg` | Short franzido |
 | Gym tech romper | `gym_tech_romper_black.jpg` | Romper short tech |
+| Formal bermuda cinza | `formal_grey_bermuda_suit.jpg` | Bermuda alfaiataria + blazer |
+| Formal bermuda bege | `formal_beige_bermuda_blazer.jpg` | Bermuda alfaiataria bege |
+| Casual bermuda cáqui | `casual_khaki_bermuda_shirt.jpg` | Bermuda joelho smart casual |
 
 ---
 
@@ -2588,6 +2596,85 @@ Praia, piscina (junto com `swim_black_sheer_coverup` se quiser capa).
 
 ---
 
+# FORMAL — BERMUDA ALFAIATARIA
+
+## Bermuda terno cinza + blazer
+
+**Arquivo:** `formal_grey_bermuda_suit.jpg`  
+![grey bermuda suit](../imagens/crew/guarda_roupas/formal_grey_bermuda_suit.jpg)
+
+### Descrição visual (roupa)
+- Blazer cinza alfaiataria, botões duplos  
+- Top/camisole branco  
+- **Bermuda** cinza do mesmo tecido, cintura alta, comprimento joelho  
+- Saltos nude  
+
+### Quando usar
+Formal verão, reunião corp, “power suit” sem calça longa.
+
+---
+
+## Bermuda bege + blazer
+
+**Arquivo:** `formal_beige_bermuda_blazer.jpg`  
+![beige bermuda](../imagens/crew/guarda_roupas/formal_beige_bermuda_blazer.jpg)
+
+### Descrição visual (roupa)
+- Blazer bege aberto  
+- Tank branco canelado  
+- Bermuda bege plissada, cinto marrom, joelho  
+- Saltos finos  
+
+### Quando usar
+Dia elegante, cliente semi-formal, street money.
+
+---
+
+## Bermuda cáqui + camisa
+
+**Arquivo:** `casual_khaki_bermuda_shirt.jpg`  
+![khaki bermuda](../imagens/crew/guarda_roupas/casual_khaki_bermuda_shirt.jpg)
+
+### Descrição visual (roupa)
+- Camisa azul clara manga curta (chambray)  
+- Bermuda cáqui/bege reta no joelho, cinto marrom  
+- Tênis brancos  
+
+### Quando usar
+Smart casual, deslocamento urbano leve, “arrumada mas de short”.
+
+---
+
+## Culotte bege + camisa crop
+
+**Arquivo:** `formal_beige_culotte_crop.jpg`  
+![beige culotte](../imagens/crew/guarda_roupas/formal_beige_culotte_crop.jpg)
+
+### Descrição visual (roupa)
+- Camisa crop listrada cinza/branca  
+- Calça **culotte**/pantacourt bege com pregas (comprimento longo-quase joelho)  
+- Tênis brancos  
+
+### Quando usar
+Formal verão largo (irmão da bermuda; silhueta mais longa/larga).
+
+---
+
+## Wide-leg branca crop
+
+**Arquivo:** `formal_white_wideleg_crop.jpg`  
+![white wideleg](../imagens/crew/guarda_roupas/formal_white_wideleg_crop.jpg)
+
+### Descrição visual (roupa)
+- Top/cami bege  
+- Calça wide-leg branca de alfaiataria, barra cropada  
+- Saltos  
+
+### Quando usar
+Soft formal, pack “arrumada”, **não** é bermuda (calça).
+
+---
+
 ## Notas de narração
 
 1. Descreva **só a roupa** a partir do slot escolhido.  
@@ -2600,7 +2687,7 @@ Praia, piscina (junto com `swim_black_sheer_coverup` se quiser capa).
 8. Seção **Especial / ousado**: só quando a cena pedir; não default de job.  
 9. Preferir o **Índice — Shorts & rompers** quando quiser silhueta curta em vez de calça.  
 10. Medical/sleep: usar slots `medical_*` e `sleep_*`; kit médico e chrome só se a ficha tiver.  
-11. Scrubs hospital: `medical_scrubs_*`. Biker: `gym_biker_*`. Ainda raro: **bermuda de alfaiataria**.
+11. Scrubs: `medical_scrubs_*`. Biker: `gym_biker_*`. Bermuda alfaiataria: `formal_*_bermuda_*` / `casual_khaki_bermuda_shirt`.
 
 ---
 
