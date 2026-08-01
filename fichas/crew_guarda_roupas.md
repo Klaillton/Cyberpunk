@@ -1,7 +1,7 @@
 # Guarda-Roupa — Catálogo feminino (peças e silhuetas)
 
 **Pasta de imagens:** [imagens/crew/guarda_roupas/](../imagens/crew/guarda_roupas/)  
-**Curadoria:** Women Style + batch pré-selecionado · **26 → ~65 looks** · 01/08/2026
+**Curadoria:** Women Style (varredura) + batch pré-selecionado · **26 → ~104 looks** · 01/08/2026
 
 > **Foco absoluto: a roupa.**  
 > Use este arquivo para descrever **corte, tecido, cor, camadas, calçado e acessórios de vestuário**.  
@@ -90,6 +90,75 @@
 | Peça — halter listrado | `piece_pinstripe_halter.jpg` | Colete/halter pinstripe (completar) |
 | Peça — colete + gola | `piece_olive_vest_turtleneck.jpg` | Colete oliva + turtleneck (completar) |
 | Peça — camisa halter | `piece_striped_halter_shirt.jpg` | Camisa halter listrada (completar) |
+| Gym — short oliva | `gym_olive_short_set.jpg` | Sports bra + short oliva + boné |
+| Gym — running preto | `gym_black_running_set.jpg` | Top + short corrida pretos |
+| Combate — cargo short | `combat_cargo_shorts_boots.jpg` | Crop + short cargo + botas |
+| Street — micro short | `street_crop_micro_shorts.jpg` | Tank + micro short + pano quadril |
+| Combate — short verde | `combat_halter_green_shorts.jpg` | Halter + short verde |
+| Street — hoodie + short | `street_hoodie_denim_shorts.jpg` | Hoodie crop + short jeans (flat) |
+| Tech — pink short set | `tech_pink_short_set.jpg` | Crop tech + short + jaqueta |
+| Club — corset short | `club_corset_leather_shorts.png` | Corset + short couro + OTK |
+| Club — goth short | `club_goth_leather_shorts.jpg` | Short couro + casaco goth |
+| Soft — steampunk short | `soft_steampunk_shorts_coat.jpg` | Short + cauda burgundy + corset |
+| Street — plaid roxo mini | `street_purple_plaid_mini.jpg` | Xadrez roxo + mini preta |
+| Street — hoodie + pleat bege | `street_hoodie_beige_pleat.jpg` | Hoodie zip + saia plissada bege |
+| Street — leather pleat | `street_leather_pleat_mini.jpg` | Crop + mini couro plissada |
+| Formal — cape + pleat | `formal_cape_pleat_mini.jpg` | Cape-blazer + saia plissada |
+| Street — grey hoodie mini | `street_grey_hoodie_black_mini.jpg` | Hoodie cinza + mini preta |
+| Street — red hoodie pleat | `street_red_hoodie_pleat.jpg` | Hoodie vermelho + saia plissada |
+| Club — bra + jacket + mini | `club_bra_jacket_pleat.jpg` | Crop/bra + jaqueta + mini + OTK |
+| Casual — skort preto | `casual_black_skort.jpg` | Tank + saia-short plissada |
+| Especial — school shirt | `special_school_shirt_pleat.jpg` | Camisa crop + saia marinho |
+| Especial — school vest | `special_school_vest_red_skirt.jpg` | Colete + saia vermelha |
+| Formal — lace + midi | `formal_lace_beige_midi.jpg` | Blusa renda + saia midi bege |
+| Evening — purple satin | `evening_purple_satin_slit.jpg` | Cetim roxo + fenda |
+| Club — strapless mini | `club_black_strapless_mini.jpg` | Mini tomara-que-caia lace-up |
+| Evening — cross slit | `evening_black_cross_slit.jpg` | Vestido preto cruzado + fenda |
+| Evening — cream mini | `evening_cream_satin_mini.jpg` | Mini cetim creme |
+| Soft — black mini boots | `soft_black_mini_boots.jpg` | Mini preto + botas |
+| Evening — white hooded | `evening_white_hooded_gown.png` | Vestido branco + capa + corset |
+| Evening — black hooded | `evening_black_hooded_gown.png` | Vestido preto capuz + fenda |
+| Fantasia — orange white | `fantasy_orange_white_gown.jpg` | Vestido branco/laranja |
+| Fantasia — green long | `fantasy_green_long_dress.jpg` | Vestido longo verde |
+| Evening — white qipao | `evening_white_qipao.jpg` | Qipao branca fenda |
+| Soft — pink layered | `soft_pink_layered_skirt.jpg` | Jaqueta rosa + saias camadas |
+| Fantasia — teal coat | `fantasy_teal_coat_skirt.jpg` | Casaco teal + saia (sheet) |
+| Especial — latex mini | `special_latex_mini_tie.jpg` | Camisa + mini latex |
+| Especial — navy slit | `special_navy_extreme_slit.jpg` | Vestido marinho fenda extrema |
+| Especial — latex red | `special_latex_bodysuit_red.jpg` | Body latex + jaqueta vermelha |
+| Especial — plaid asym | `special_plaid_asymmetric_dress.png` | Vestido xadrez assimétrico (flat) |
+| Especial — sheer qipao | `special_sheer_cheongsam.jpg` | Cheongsam sheer dourado |
+| Especial — purple suit | `special_purple_suit_mini.jpg` | Terno roxo mini |
+
+---
+
+## Índice — Shorts & rompers
+
+Use esta lista quando a cena pede **perna descoberta / short**, não calça longa.
+
+| Slot | Arquivo | Tipo |
+| ---- | ------- | ---- |
+| Badlands crop short | `badlands_crop_shorts.jpg` (+ rear) | Short cargo militar |
+| Utility romper | `utility_olive_romper.jpg` | Macaquinho short |
+| Street mocha romper | `street_mocha_romper.jpg` | Romper bodycon |
+| Casual plaid short | `casual_plaid_denim_shorts.jpg` | Short jeans |
+| Casual overalls | `casual_denim_overalls.jpg` | Jardineira short |
+| Casual tank short | `casual_tank_denim_shorts.jpg` / `_alt` | Short jeans |
+| Casual micro short | `casual_offshoulder_microshorts.jpg` | Micro short |
+| Lounge grey / hoodie | `lounge_grey_set.jpg` · `lounge_hoodie_shorts.jpg` | Short moletom |
+| Gym sportswear | `gym_sportswear.jpg` | Short academia |
+| Gym olive set | `gym_olive_short_set.jpg` | Short oliva |
+| Gym running black | `gym_black_running_set.jpg` | Short corrida |
+| Combat cargo short | `combat_cargo_shorts_boots.jpg` | Short cargo + botas |
+| Combat green short | `combat_halter_green_shorts.jpg` | Short verde |
+| Street micro crop | `street_crop_micro_shorts.jpg` | Micro short ação |
+| Street hoodie denim short | `street_hoodie_denim_shorts.jpg` | Short jeans street |
+| Tech pink short | `tech_pink_short_set.jpg` | Short tech |
+| Club corset leather short | `club_corset_leather_shorts.png` | Short couro + OTK |
+| Club goth short | `club_goth_leather_shorts.jpg` | Short goth |
+| Soft steampunk short | `soft_steampunk_shorts_coat.jpg` | Short + cauda |
+| Club corset platform | `club_corset_platform.png` | Shorts club legado |
+| Casual skort | `casual_black_skort.jpg` | Saia-short |
 
 ---
 
@@ -1149,6 +1218,615 @@ Base de look summer/formal-leve — combine com saia do catálogo.
 
 ---
 
+# SHORTS NOVOS (varredura)
+
+## Gym — short oliva set
+
+**Arquivo:** `gym_olive_short_set.jpg`  
+![gym olive short](../imagens/crew/guarda_roupas/gym_olive_short_set.jpg)
+
+### Descrição visual (roupa)
+- Sports bra / top oliva  
+- Short oliva com cordão  
+- Boné oliva; tênis esportivos  
+
+### Quando usar
+Treino, pack em calor, visual fitness nomad.
+
+---
+
+## Gym — running preto
+
+**Arquivo:** `gym_black_running_set.jpg`  
+![gym black running](../imagens/crew/guarda_roupas/gym_black_running_set.jpg)
+
+### Descrição visual (roupa)
+- Top esportivo preto com detalhe claro  
+- Short de corrida preto com cordão e barra clara  
+
+### Quando usar
+Academia, corrida, treino limpo.
+
+---
+
+## Combate — cargo short + botas
+
+**Arquivo:** `combat_cargo_shorts_boots.jpg`  
+![combat cargo shorts](../imagens/crew/guarda_roupas/combat_cargo_shorts_boots.jpg)
+
+### Descrição visual (roupa)
+- Crop/top com cintas  
+- Short cargo cáqui com bolsos e cinto  
+- Botas altas + meia-arrastão em uma perna  
+- Capas/ombro decorativos (roupa)  
+- **Ignorar** arma da foto  
+
+### Quando usar
+Ação, street combat, visual “short + botas”.
+
+---
+
+## Street — crop + micro short
+
+**Arquivo:** `street_crop_micro_shorts.jpg`  
+![street micro shorts](../imagens/crew/guarda_roupas/street_crop_micro_shorts.jpg)
+
+### Descrição visual (roupa)
+- Tank/crop branco  
+- Micro short preto com cintos e panos no quadril  
+- Botas de combate; luvas/braçadeiras  
+
+### Quando usar
+Ação ousada, street edgerunner, calor extremo.
+
+---
+
+## Combate — halter + short verde
+
+**Arquivo:** `combat_halter_green_shorts.jpg`  
+![combat green shorts](../imagens/crew/guarda_roupas/combat_halter_green_shorts.jpg)
+
+### Descrição visual (roupa)
+- Top/halter preto crop  
+- Short verde militar curto  
+- Cinto largo com bolsos utilitários  
+
+### Quando usar
+Campo leve, combate hot weather, visual curto.
+
+---
+
+## Street — hoodie + short jeans (flat)
+
+**Arquivo:** `street_hoodie_denim_shorts.jpg`  
+![hoodie denim shorts](../imagens/crew/guarda_roupas/street_hoodie_denim_shorts.jpg)
+
+### Descrição visual (roupa)
+- Hoodie crop preto rasgado / cutouts  
+- Short jeans preto destroyed  
+- Cinto + correntes (acessório de roupa)  
+- (Flatlay — extrair só peças)  
+
+### Quando usar
+Street alt, night out casual.
+
+---
+
+## Tech — pink short set
+
+**Arquivo:** `tech_pink_short_set.jpg`  
+![tech pink short](../imagens/crew/guarda_roupas/tech_pink_short_set.jpg)
+
+### Descrição visual (roupa)
+- Crop tech preto/rosa, gola alta  
+- Short preto de cintura alta  
+- Jaqueta oversized branca/rosa  
+- Cinto rosa com bolsos  
+- (Manequim — só roupa)  
+
+### Quando usar
+Street-tech, job fashion cyber (variante short do tech_crop_jacket).
+
+---
+
+## Club — corset + short couro + OTK
+
+**Arquivo:** `club_corset_leather_shorts.png`  
+![corset leather shorts](../imagens/crew/guarda_roupas/club_corset_leather_shorts.png)
+
+### Descrição visual (roupa)
+- Corset/top preto off-shoulder, mangas sino, lace-up  
+- Short de couro preto com lace-up lateral  
+- Botas pretas platform over-knee  
+- (Flatlay de peças)  
+
+### Quando usar
+Clube, noite ousada (parecido com club_corset_platform; short mais fechado).
+
+---
+
+## Club — goth short + casaco
+
+**Arquivo:** `club_goth_leather_shorts.jpg`  
+![goth leather shorts](../imagens/crew/guarda_roupas/club_goth_leather_shorts.jpg)
+
+### Descrição visual (roupa)
+- Short preto de couro  
+- Casaco longo preto com detalhes vermelhos  
+- Meias-liga; botas altas lace-up  
+- (Sheet multi-view — usar short + camadas)  
+
+### Quando usar
+Clube goth, night out dramático **com short**.
+
+---
+
+## Soft — steampunk short + cauda
+
+**Arquivo:** `soft_steampunk_shorts_coat.jpg`  
+![steampunk shorts](../imagens/crew/guarda_roupas/soft_steampunk_shorts_coat.jpg)
+
+### Descrição visual (roupa)
+- Blusa branca off-shoulder  
+- Corset preto  
+- Short preto sob cauda/saia burgundy high-low  
+- Meias-liga; relógio de bolso  
+- (Sheet — extrair peças)  
+
+### Quando usar
+Fantasia, bar temático — variante short do steampunk_corset.
+
+---
+
+# SAIAS NOVAS (varredura)
+
+## Street — plaid roxo + mini
+
+**Arquivo:** `street_purple_plaid_mini.jpg`  
+![purple plaid mini](../imagens/crew/guarda_roupas/street_purple_plaid_mini.jpg)
+
+### Descrição visual (roupa)
+- Camisa xadrez roxa crop aberta  
+- Top preto por baixo  
+- Mini saia preta; cinto com corrente  
+- Meia-arrastão  
+
+### Quando usar
+Bar, street alt (variante do street_alt_plaid).
+
+---
+
+## Street — hoodie + saia bege
+
+**Arquivo:** `street_hoodie_beige_pleat.jpg`  
+![hoodie beige pleat](../imagens/crew/guarda_roupas/street_hoodie_beige_pleat.jpg)
+
+### Descrição visual (roupa)
+- Hoodie crop preto com zíper  
+- Mini saia plissada bege/clara  
+- Meias 7/8 pretas  
+
+### Quando usar
+Street fashion, folga urbana.
+
+---
+
+## Street — mini couro plissada
+
+**Arquivo:** `street_leather_pleat_mini.jpg`  
+![leather pleat mini](../imagens/crew/guarda_roupas/street_leather_pleat_mini.jpg)
+
+### Descrição visual (roupa)
+- Crop/tank branco com harness de roupa  
+- Mini plissada de couro preto  
+- Meia-calça; botas altas  
+- **Ignorar** arma e chrome da foto  
+
+### Quando usar
+Street/clube; visual “crop + saia couro”.
+
+---
+
+## Formal — cape + saia plissada
+
+**Arquivo:** `formal_cape_pleat_mini.jpg`  
+![cape pleat mini](../imagens/crew/guarda_roupas/formal_cape_pleat_mini.jpg)
+
+### Descrição visual (roupa)
+- Blazer/capa preta  
+- Top/camisole burgundy  
+- Mini saia plissada preta  
+- Cinto largo; meias-liga  
+- (Figura sem rosto — só roupa)  
+
+### Quando usar
+Semi-formal ousado, jantar, clube elegante.
+
+---
+
+## Street — grey hoodie + mini preta
+
+**Arquivo:** `street_grey_hoodie_black_mini.jpg`  
+![grey hoodie mini](../imagens/crew/guarda_roupas/street_grey_hoodie_black_mini.jpg)
+
+### Descrição visual (roupa)
+- Hoodie cinza crop  
+- Mini saia preta com zíperes  
+- Meias brancas altas  
+
+### Quando usar
+Street casual ousado, casa/saída.
+
+---
+
+## Street — red hoodie + pleat
+
+**Arquivo:** `street_red_hoodie_pleat.jpg`  
+![red hoodie pleat](../imagens/crew/guarda_roupas/street_red_hoodie_pleat.jpg)
+
+### Descrição visual (roupa)
+- Hoodie crop vermelho/preto  
+- Mini saia plissada preta  
+- Corrente de cinto; tênis/botas  
+- (Concept sheet — extrair look principal)  
+
+### Quando usar
+Street fashion (irmão do street_hoodie_pleat).
+
+---
+
+## Club — bra + jaqueta + mini
+
+**Arquivo:** `club_bra_jacket_pleat.jpg`  
+![bra jacket pleat](../imagens/crew/guarda_roupas/club_bra_jacket_pleat.jpg)
+
+### Descrição visual (roupa)
+- Top tipo sutiã/crop com correntes  
+- Jaqueta preta aberta  
+- Mini plissada preta  
+- Botas OTK pretas  
+
+### Quando usar
+Clube ousado — **só se a cena pedir** exposição alta.
+
+---
+
+## Casual — skort preto
+
+**Arquivo:** `casual_black_skort.jpg`  
+![black skort](../imagens/crew/guarda_roupas/casual_black_skort.jpg)
+
+### Descrição visual (roupa)
+- Tank/top alça preto  
+- Saia-short plissada preta com cordão  
+
+### Quando usar
+Casual, gym fashion, folga.
+
+---
+
+## Formal — renda + midi bege
+
+**Arquivo:** `formal_lace_beige_midi.jpg`  
+![lace beige midi](../imagens/crew/guarda_roupas/formal_lace_beige_midi.jpg)
+
+### Descrição visual (roupa)
+- Blusa de renda preta gola alta, mangas longas  
+- Saia midi/longuete bege plissada  
+- Bolsa estruturada; saltos  
+- (Ignorar orelhas/cauda cosplay)  
+
+### Quando usar
+Jantar, cliente semi-formal, visual elegante com **saia** (não calça).
+
+---
+
+# EVENING / FANTASIA NOVOS
+
+## Purple satin slit
+
+**Arquivo:** `evening_purple_satin_slit.jpg`  
+![purple satin](../imagens/crew/guarda_roupas/evening_purple_satin_slit.jpg)
+
+### Descrição visual (roupa)
+- Vestido cetim roxo, halter, decote V  
+- Fenda alta; saltos  
+- Mangas-luva tipo bandage (opcional)  
+
+### Quando usar
+Gala, jantar alto, destaque roxo.
+
+---
+
+## Club strapless mini
+
+**Arquivo:** `club_black_strapless_mini.jpg`  
+![strapless mini](../imagens/crew/guarda_roupas/club_black_strapless_mini.jpg)
+
+### Descrição visual (roupa)
+- Mini tomara-que-caia preto, lace-up no busto  
+- Meia-arrastão  
+
+### Quando usar
+Clube, noite minimalista ousada.
+
+---
+
+## Black cross slit
+
+**Arquivo:** `evening_black_cross_slit.jpg`  
+![cross slit](../imagens/crew/guarda_roupas/evening_black_cross_slit.jpg)
+
+### Descrição visual (roupa)
+- Vestido preto, alças cruzadas no peito, cut-out  
+- Saia com fenda alta / abertura frontal  
+- Sandálias de tira  
+
+### Quando usar
+Evening ousado, corpo, gala.
+
+---
+
+## Cream satin mini
+
+**Arquivo:** `evening_cream_satin_mini.jpg`  
+![cream mini](../imagens/crew/guarda_roupas/evening_cream_satin_mini.jpg)
+
+### Descrição visual (roupa)
+- Mini vestido cetim creme, alça fina, decote fluido  
+- Correntes na coxa (acessório)  
+
+### Quando usar
+Date, jantar, evening soft.
+
+---
+
+## Soft black mini + botas
+
+**Arquivo:** `soft_black_mini_boots.jpg`  
+![black mini boots](../imagens/crew/guarda_roupas/soft_black_mini_boots.jpg)
+
+### Descrição visual (roupa)
+- Mini vestido preto, alças, lace-up frontal  
+- Botas marrom de cano médio  
+
+### Quando usar
+Pack, street soft, visual “vestido + bota”.
+
+---
+
+## White hooded gown
+
+**Arquivo:** `evening_white_hooded_gown.png`  
+![white hooded](../imagens/crew/guarda_roupas/evening_white_hooded_gown.png)
+
+### Descrição visual (roupa)
+- Vestido branco fluido com capa/capuz  
+- Corset/cinto preto na cintura  
+- Luvas pretas; botas OTK pretas  
+- Fenda na perna  
+
+### Quando usar
+Gala fantasia, evento cerimonial.
+
+---
+
+## Black hooded gown
+
+**Arquivo:** `evening_black_hooded_gown.png`  
+![black hooded](../imagens/crew/guarda_roupas/evening_black_hooded_gown.png)
+
+### Descrição visual (roupa)
+- Vestido/casaco longo preto com capuz  
+- Bordado no decote; fenda alta  
+- Botas pretas lace-up  
+
+### Quando usar
+Evening dark, fantasia, inverno dramático.
+
+---
+
+## Fantasy orange-white gown
+
+**Arquivo:** `fantasy_orange_white_gown.jpg`  
+![orange white gown](../imagens/crew/guarda_roupas/fantasy_orange_white_gown.jpg)
+
+### Descrição visual (roupa)
+- Vestido branco e laranja, off-shoulder, fenda  
+- Detalhes dourados; saltos laranja  
+
+### Quando usar
+Fantasia, gala colorida — **não** job.
+
+---
+
+## Fantasy green long dress
+
+**Arquivo:** `fantasy_green_long_dress.jpg`  
+![green long](../imagens/crew/guarda_roupas/fantasy_green_long_dress.jpg)
+
+### Descrição visual (roupa)
+- Vestido longo verde com fenda  
+- Blusa branca por baixo; cinto de couro  
+
+### Quando usar
+Fantasia soft, evento temático.
+
+---
+
+## White qipao
+
+**Arquivo:** `evening_white_qipao.jpg`  
+![white qipao](../imagens/crew/guarda_roupas/evening_white_qipao.jpg)
+
+### Descrição visual (roupa)
+- Qipao branca com motivo impresso  
+- Fendas laterais altas; saltos claros  
+- (Ignorar orelhas/cauda)  
+
+### Quando usar
+Evening ousado estruturado (variante clara do qipao preto).
+
+---
+
+## Soft pink layered
+
+**Arquivo:** `soft_pink_layered_skirt.jpg`  
+![pink layered](../imagens/crew/guarda_roupas/soft_pink_layered_skirt.jpg)
+
+### Descrição visual (roupa)
+- Jaqueta/cropped rosa  
+- Top branco; saias em camadas rosa/creme  
+- Botas de cadarço claras  
+- **Ignorar** bastão/arma da foto  
+
+### Quando usar
+Pack soft, fantasia leve, visual boho-rosa.
+
+---
+
+## Fantasy teal coat + skirt
+
+**Arquivo:** `fantasy_teal_coat_skirt.jpg`  
+![teal coat](../imagens/crew/guarda_roupas/fantasy_teal_coat_skirt.jpg)
+
+### Descrição visual (roupa)
+- Casaco/capa teal com capuz  
+- Vestido ou saia cinza-azul com cinto de couro  
+- Botas de cano  
+- (Sheet de peças — combinar look)  
+
+### Quando usar
+Fantasia, cold weather temático.
+
+---
+
+# ESPECIAL / OUSADO / LINGERIE DE OCASIÃO
+
+> Só se a **cena** pedir (clube, corpo, fantasia). **Não** default de job/campo.
+
+## Latex mini + gravata
+
+**Arquivo:** `special_latex_mini_tie.jpg`  
+![latex mini tie](../imagens/crew/guarda_roupas/special_latex_mini_tie.jpg)
+
+### Descrição visual (roupa)
+- Camisa branca sem mangas + gravata  
+- Mini saia latex/brilhante preta  
+- Meias 7/8 rendadas  
+- (Ignorar orelhas cosplay)  
+
+### Quando usar
+Clube ousado, roleplay fashion.
+
+---
+
+## Navy extreme slit
+
+**Arquivo:** `special_navy_extreme_slit.jpg`  
+![navy extreme](../imagens/crew/guarda_roupas/special_navy_extreme_slit.jpg)
+
+### Descrição visual (roupa)
+- Vestido marinho gola alta, corset preto  
+- Fenda extrema; tiras nas coxas  
+- Meia-calça OTK preta; luvas longas  
+
+### Quando usar
+Gala ousada, corpo high-end.
+
+---
+
+## Latex body + jaqueta vermelha
+
+**Arquivo:** `special_latex_bodysuit_red.jpg`  
+![latex red](../imagens/crew/guarda_roupas/special_latex_bodysuit_red.jpg)
+
+### Descrição visual (roupa)
+- Body/catsuit latex preto com cinto e correntes  
+- Jaqueta vermelha curta  
+- Óculos vermelhos (acessório)  
+
+### Quando usar
+Night out extremo, clube.
+
+---
+
+## Plaid asymmetric dress (flat)
+
+**Arquivo:** `special_plaid_asymmetric_dress.png`  
+![plaid asym](../imagens/crew/guarda_roupas/special_plaid_asymmetric_dress.png)
+
+### Descrição visual (roupa)
+- Vestido xadrez P&B assimétrico + corset lace-up  
+- Beanie preto; botas platform  
+- Meia/legging rasgada (peça)  
+- (Flatlay)  
+
+### Quando usar
+Alt/goth club, fantasia street.
+
+---
+
+## Sheer cheongsam dourado
+
+**Arquivo:** `special_sheer_cheongsam.jpg`  
+![sheer cheongsam](../imagens/crew/guarda_roupas/special_sheer_cheongsam.jpg)
+
+### Descrição visual (roupa)
+- Vestido tipo cheongsam sheer preto/dourado  
+- Fenda alta; meias; saltos  
+- (Ignorar orelhas/cauda)  
+
+### Quando usar
+Evento ousado, corpo temático.
+
+---
+
+## Purple suit mini
+
+**Arquivo:** `special_purple_suit_mini.jpg`  
+![purple suit mini](../imagens/crew/guarda_roupas/special_purple_suit_mini.jpg)
+
+### Descrição visual (roupa)
+- Blazer roxo + colete + camisa branca + gravata vermelha  
+- Mini saia do terno; luvas roxas; botas  
+- Sobretudo roxo aberto  
+
+### Quando usar
+Clube / formal ousado, presença “power suit” curta.
+
+---
+
+## Especial — school shirt + saia
+
+**Arquivo:** `special_school_shirt_pleat.jpg`  
+![school shirt](../imagens/crew/guarda_roupas/special_school_shirt_pleat.jpg)
+
+### Descrição visual (roupa)
+- Camisa branca crop + laço vermelho  
+- Mini saia plissada marinho  
+- Choker  
+
+### Quando usar
+**Só** fantasia/roleplay — não default de personagem.
+
+---
+
+## Especial — school vest + saia vermelha
+
+**Arquivo:** `special_school_vest_red_skirt.jpg`  
+![school vest](../imagens/crew/guarda_roupas/special_school_vest_red_skirt.jpg)
+
+### Descrição visual (roupa)
+- Camisa branca + colete preto + gravata  
+- Mini saia plissada vermelha  
+- Meias 7/8  
+
+### Quando usar
+Fantasia/uniforme estilizado — **não** job.
+
+---
+
 ## Notas de narração
 
 1. Descreva **só a roupa** a partir do slot escolhido.  
@@ -1157,7 +1835,9 @@ Base de look summer/formal-leve — combine com saia do catálogo.
 4. **Quem** veste o look é decisão da cena / ficha — não deste arquivo.  
 5. Em dúvida de “o que ela está vestindo?”, abra o slot da ocasião e liste 3–5 peças.  
 6. Flatlay, character sheet, watermark ou UI de loja: **extrair só o estilo da roupa**.  
-7. Slots `piece_*`: sempre completar mentalmente com outra peça (saia/calça/short/botas) se a foto for só tronco.
+7. Slots `piece_*`: sempre completar mentalmente com outra peça (saia/calça/short/botas) se a foto for só tronco.  
+8. Seção **Especial / ousado**: só quando a cena pedir; não default de job.  
+9. Preferir o **Índice — Shorts & rompers** quando quiser silhueta curta em vez de calça.
 
 ---
 
