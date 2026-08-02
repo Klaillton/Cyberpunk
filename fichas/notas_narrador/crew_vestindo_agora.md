@@ -15,7 +15,7 @@ Preferir **arquivo** (estável). `#` é atalho do índice atual.
 
 | Quem | Arquivo | # | 1 linha de roupa | Desde (data) | Origem |
 | ---- | ------- | - | ---------------- | ------------ | ------ |
-| Valk | | | | | dona / empréstimo (?) |
+| Valk | *(cena)* | — | Shorts de cintura alta + camisa xadrez amarrada na cintura + boné | 22/07/2026 manhã | dona |
 | Alex | | | | | |
 | Reina | | | | | |
 | Stitch | | | | | |
@@ -33,7 +33,7 @@ Preferir **arquivo** (estável). `#` é atalho do índice atual.
 
 | Quem | Ontem (arquivo) | Últimos 3 (mais recente à esquerda) |
 | ---- | --------------- | ----------------------------------- |
-| Valk | | |
+| Valk | | *(cena 22/07)* |
 | Alex | | |
 | Reina | | |
 | Stitch | | |
@@ -69,5 +69,5 @@ Detalhe e prosa de empréstimo: diretrizes § **Roupa em cena**.
 
 | Campo | Valor |
 | ----- | ----- |
-| Sessão / data in-game | |
-| Notas | |
+| Sessão / data in-game | 016 / 22/07/2026 manhã |
+| Notas | Valk: shorts cintura alta + camisa xadrez amarrada + boné (cena atual) |
