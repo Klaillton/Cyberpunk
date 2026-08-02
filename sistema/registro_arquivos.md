@@ -16,7 +16,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Resumo rápido para início de sessão | `sistema/dashboard_contexto.md` | `board/board_campanha.md`, `reputacao.md`, `heat.md`, `event_queue.md` |
 | Impactos permanentes de eventos passados | `consequencias/consequencias_persistentes.md` | `board/board_campanha.md`, `logs/sessao_resumo_*.md` |
 | Reputação com facções/NPCs | `reputacao.md` | `relacionamentos/faccao_relacionamentos.md`, `facoes/` |
-| Exposição / perseguição | `heat.md` | `event_queue.md`, `consequencias/consequencias_persistentes.md` |
+| Exposição / perseguição | `heat.md` | `event_queue.md`, `consequencias/consequencias_persistentes.md`, `sistema/echo_exposicao.md` |
+| Vazamento Media (Echo) / Void List | `sistema/echo_exposicao.md` | `heat.md`, `reputacao.md`, ficha Echo |
 | Eventos pendentes no mundo | `event_queue.md` | `board/board_campanha.md`, `consequencias/consequencias_persistentes.md` |
 | Situação financeira | `economia.md` | `board/board_campanha.md`, `logs/downtime_ryan.md` |
 | Relações do protagonista | `relacionamentos/ryan_relacionamentos.md` | `relacionamentos/mapa_relacional_geral.md`, `relacionamentos/crew_relacionamentos.md` |
@@ -187,7 +188,8 @@ cyberpunk/
 | ------- | ------ | ---------- | ------------------- |
 | `board/board_campanha.md` | Ativo | Estado narrativo atual | `dashboard_contexto.md`, `consequencias/consequencias_persistentes.md` |
 | `reputacao.md` | Ativo | Reputação por facção e NPC | `relacionamentos/faccao_relacionamentos.md`, `facoes/` |
-| `heat.md` | Ativo | Nível de exposição/perseguição | `event_queue.md`, `consequencias/consequencias_persistentes.md` |
+| `heat.md` | Ativo | Nível de exposição/perseguição | `event_queue.md`, `consequencias/consequencias_persistentes.md`, `sistema/echo_exposicao.md` |
+| `sistema/echo_exposicao.md` | Ativo | Void List / Null / níveis de vazamento Echo | `heat.md`, `reputacao.md`, ficha Echo |
 | `event_queue.md` | Ativo | Fila de eventos globais pendentes | `board/board_campanha.md`, `heat.md` |
 | `economia.md` | Ativo | Estado financeiro e econômico | `board/board_campanha.md`, `logs/downtime_ryan.md` |
 | `consequencias/consequencias_persistentes.md` | Ativo | Impactos permanentes | `board/board_campanha.md`, `logs/sessao_resumo_*.md` |

@@ -79,6 +79,21 @@ Agora opera nas sombras como **Echo**: vaza material bruto para fixers, edita na
 
 ---
 
+## Exposição e marca (SoT)
+
+**Regras completas:** [sistema/echo_exposicao.md](../sistema/echo_exposicao.md) · [heat.md](../heat.md) · [reputacao.md](../reputacao.md)
+
+| Campo | Valor |
+| ----- | ----- |
+| Marca pública | **Void List** |
+| Código interno (crew + Kaz) | **Null** — nunca em headline |
+| Default sem consulta | **Nível 1 Fantasma** (funções + marca; sem rosto/handle) |
+| Linha vermelha | Detalhe individual (rosto, street name, Pack, Mule ID, Null) = **risco de morte**; crew veta N3–4 por padrão |
+| Se ela insistir em N3+ | **Tensão de equipe** (personalidade headline vs sobrevivência) |
+| SOP | Editar rostos no pós **ou** máscaras no job; Mule com camadas anti-ID + Alex em NET |
+
+**Script de propaganda preferido:** “A **Void List**… a solo / a netrunner / o tech / a nomad…” — genérico no indivíduo, forte na marca.
+
 ## Role Ability: Media (Credibility)
 
 - **Credibility:** 7  

@@ -1,11 +1,26 @@
 # Sistema de Heat (Perseguição / Exposição)
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
+**Última atualização:** 01 de Agosto de 2026 (Echo / Void List)
+
+**Exposição Media (Echo):** regras de vazamento, marca e lavagem → **[sistema/echo_exposicao.md](sistema/echo_exposicao.md)**  
+(Heat Global = marca / Void List · Heat individual = rostos, handles, detalhes que matam.)
 
 ## Nível Atual de Heat
 
 **Heat Global da Crew:** **Média**
+
+### Marca e camadas (resumo)
+
+| Camada | Nome | Notas |
+| ------ | ---- | ----- |
+| Pública | **Void List** | Marca vazia; research não acha pessoa concreta |
+| Interna (crew + Kaz) | **Null** | Safehouse / projeto — **nunca** em headline |
+
+| Campo | Valor |
+| ----- | ----- |
+| Modo padrão Echo | Fantasma (N1) |
+| Último vazamento Echo | — |
 
 ### Heat por Personagem
 
@@ -15,9 +30,12 @@
 | **Lena "Valk" Kane**      | Baixa         | Mais discreta, foco em transporte e sobrevivência                      |
 | **Alex "Specter" Kane**   | Média         | Atividades de Netrunning aumentam exposição                            |
 | **Reina "Bearclaw"**      | Baixa         | Ainda pouco exposta publicamente                                       |
+| **Emilia "Echo" Rivera**  | Baixa         | Media em camadas; ainda sem headline com rosto próprio documentada     |
+| **Stitch / Jax / Echo op** | —             | Atualizar se vazamento N3+ ou op pública os citar                      |
 
 ## Fatores que Aumentam o Heat
 
+- **Vazamento Echo** conforme nível 0–4 em [echo_exposicao.md](sistema/echo_exposicao.md) (N1 = Global leve; N3+ = individual alto)
 - Operação bem-sucedida contra a Biotechnica (+)
 - Incursões Raffen: [Incidente 001](logs/incidente_001_incursao_recursos_raffen.md) + [Incidente 002](logs/incidente_002_incursao_noturna_raffen.md) (~16 hostis noturnos) (+)
 - Operação Torre Raffen (04/07) — possível residual com outros grupos (+)
@@ -61,5 +79,5 @@ O Heat é um sistema **dinâmico**. Ele sobe com ações chamativas e pode cair 
 ## Referências
 
 - [Board](board/board_campanha.md) · [Consequências](consequencias/consequencias_persistentes.md) · [Dashboard](sistema/dashboard_contexto.md)
-- Relacionados: [Reputação](reputacao.md) · [Event Queue](event_queue.md) · [Economia](economia.md)
-- [Ryan](relacionamentos/ryan_relacionamentos.md) · [Facções](relacionamentos/faccao_relacionamentos.md)
+- Relacionados: [Reputação](reputacao.md) · [Event Queue](event_queue.md) · [Economia](economia.md) · **[Echo / exposição](sistema/echo_exposicao.md)**
+- [Ryan](relacionamentos/ryan_relacionamentos.md) · [Facções](relacionamentos/faccao_relacionamentos.md) · [Echo](fichas/media%20-%20emilia_echo_rivera.md)

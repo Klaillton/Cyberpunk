@@ -1,6 +1,9 @@
 # Sistema de Reputação
 
-**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
+**Última atualização:** 01 de Agosto de 2026 (Echo / Void List)
+
+**Vazamentos da Echo** (reputação anti-corp / rua vs Heat): [sistema/echo_exposicao.md](sistema/echo_exposicao.md).  
+Marca pública: **Void List**. Preferir **função** (“a solo”, “o tech”) + marca — não rostos/handles. Heat individual ≠ Heat Global ([heat.md](heat.md)).
 
 ## Reputação Geral
 
@@ -56,4 +59,4 @@
 
 - [Board](board/board_campanha.md) · [Consequências](consequencias/consequencias_persistentes.md) · [Dashboard](sistema/dashboard_contexto.md)
 - [Rel. Facções](relacionamentos/faccao_relacionamentos.md) · [Pack Badlands](facoes/pack_badlands.md) · [Facções Gerais](facoes/faccoes_geral.md)
-- [Sessão 012](logs/sessao_resumo_012.md) · Relacionados: [Heat](heat.md) · [Event Queue](event_queue.md) · [Economia](economia.md)
+- [Sessão 012](logs/sessao_resumo_012.md) · Relacionados: [Heat](heat.md) · **[Echo / exposição](sistema/echo_exposicao.md)** · [Event Queue](event_queue.md) · [Economia](economia.md)

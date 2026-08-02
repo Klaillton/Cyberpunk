@@ -235,6 +235,20 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 **Dona ≠ exclusividade:** outra da casa pode emprestar (polycule/crew).  
 **Biblioteca completa** só se o jogador pedir detalhe ou o pick falhar: [crew_guarda_roupas.md](../fichas/crew_guarda_roupas.md).
 
+### E4) `[Vazamento N]` / `[Echo fantasma]` / `[Echo headline]`
+
+**Objetivo:** fixar o nível de exposição da Echo e propagar Heat/Rep.
+
+| Comando | Efeito |
+| ------- | ------ |
+| `[Echo fantasma]` / `[Vazamento 1]` | Nível 1: Void List + funções; Heat ind. baixo |
+| `[Vazamento 2]` | Headline sem rosto |
+| `[Echo headline]` / `[Vazamento 3]` | Rosto/handle — **tensão**; ind. alto se for |
+| `[Vazamento 0]` | Nada público / engaveta |
+| `[Vazamento 4]` | Dossiê / Null / Pack — **crise** |
+
+SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md` com 1 linha de delta (ou “sem delta”).
+
 ---
 
 ## H) `[Agência NPC]` / observação passiva / delegação

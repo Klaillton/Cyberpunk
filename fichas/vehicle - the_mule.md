@@ -49,6 +49,16 @@ O The Mule é uma van 6x6 convertida em configuração **8x8** com pneus duplos 
 | Grenade Launcher                | GL   | 8d6\* | 12          | 1   | Side Mount (direita) | Secundária. Usada para área ou para abrir caminho. \*Dano varia conforme o tipo de granada.         |
 | **MIAC-5 (Mule Integrated Assault Cannon)** | Cannon | Variável | 5 (carregador) | 1   | Internal Hidden Mount | Canhão pesado oculto. APFSDS, HEAT, HEDP-R. Mira hidropneumática (15°). Sistema de ocultação retrátil. |
 
+## Anti-identidade e Media (SOP Void List)
+
+Em jobs filmáveis / com Echo:
+
+- **Camadas anti-ID** no visual do Mule (ângulo, cobertura, vanity no cut — não “placa real” no ar).  
+- **Anti-hack / anti-dox** no link do veículo com a **netrunner (Alex)** + feed da Echo.  
+- Material público atribui a op à **Void List** e a **funções** (“a nomad”, “o tech”), não a rostos/handles.  
+- Código interno **Null** e base Pack **não** saem no material.  
+- Detalhe: [sistema/echo_exposicao.md](../sistema/echo_exposicao.md).
+
 ## Sistemas de Contramedidas (Defesa Ativa e Ofensiva)
 
 Adaptado de sistemas de veículos de alto nível (estilo “The Beast”), o The Mule possui um conjunto de contramedidas improvisadas mas eficazes, montadas de forma artesanal.

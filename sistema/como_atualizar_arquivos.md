@@ -90,6 +90,7 @@ Peça:
 | Progresso no arco polycule | `relacionamentos/crew_polycule_ryan_valk_alex_reina.md` + arquivos individuais dos envolvidos + `crew_relacionamentos.md` |
 | Mudança com facção / pack / corp | `relacionamentos/faccao_relacionamentos.md`, `facoes/`, `reputacao.md` |
 | Ação chamativa / discrição | `heat.md`, possivelmente `event_queue.md` |
+| Vazamento / propaganda da Echo | `sistema/echo_exposicao.md` + `heat.md` + `reputacao.md` (nível 0–4; Void List vs rostos) |
 | Dinheiro, recursos, projetos pack (macro) | `economia.md` (topo) |
 | Item criado/consumido/scav/transferido; capacidade de produção (Elias, Mara, oficina, Ryan…) | `economia.md` § **Atores** / § **Estoque** / § **Ryan mínimo** — consulta `[Estoque]` |
 | Ryan trabalhou em projeto (oficina, scav, construção) | `logs/downtime_ryan.md` (+ `economia.md` se materiais) |
