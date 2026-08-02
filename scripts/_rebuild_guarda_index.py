@@ -28,6 +28,7 @@ while i < len(lines):
         h2 = l[3:].strip()
         arquivo = None
         quando = ""
+        vibe = ""
         j = i + 1
         while j < len(lines) and not lines[j].startswith("## ") and not (
             lines[j].startswith("# ") and not lines[j].startswith("## ")
@@ -35,6 +36,9 @@ while i < len(lines):
             m = re.search(r"\*\*Arquivo:\*\*\s*`([^`]+)`", lines[j])
             if m:
                 arquivo = m.group(1)
+            m2 = re.search(r"\*\*Combina com[^*]*:\*\*\s*(.+)", lines[j])
+            if m2:
+                vibe = m2.group(1).strip().rstrip("  ")
             if lines[j].startswith("### Quando usar"):
                 if j + 1 < len(lines):
                     quando = lines[j + 1].strip()
@@ -46,6 +50,7 @@ while i < len(lines):
                     "h2": h2,
                     "file": arquivo,
                     "quando": quando,
+                    "vibe": vibe,
                     "header_line": i,
                 }
             )
@@ -93,6 +98,8 @@ def categorize(look):
     # Filename prefixes win (most reliable)
     if f.startswith("piece_"):
         return "Peças (completar)"
+    if f.startswith("intimate_"):
+        return "Íntimo / nightwear"
     if f.startswith("medical_") or "scrubs" in f or "nurse" in f or "lab_coat" in f:
         return "Medical / clínico"
     if f.startswith("swim_") or "swim" in f:
@@ -188,6 +195,7 @@ cat_order = [
     "Tech / media",
     "Gym / treino",
     "Lounge / sleep / casa",
+    "Íntimo / nightwear",
     "Formal / office",
     "Club / noite",
     "Evening / gala",
@@ -239,7 +247,7 @@ idx.append(
 idx.append("\n")
 idx.append(
     "**Como usar na cena:** diga o número (`#047`) ou o **nome rápido**. "
-    "Categorias = ocasião (espelham o campo *Quando usar*).\n"
+    "Categorias = ocasião. **Vibe** = *Combina com (sugestão)* — **não** default de personagem.\n"
 )
 idx.append("\n")
 idx.append("### Categorias (ocasião)\n")
@@ -263,17 +271,20 @@ for cat in cat_order:
     idx.append(f'<a id="cat-{slug}"></a>\n')
     idx.append(f"### {cat}\n")
     idx.append("\n")
-    idx.append("| # | Nome rápido | Arquivo | Quando usar (resumo) |\n")
-    idx.append("| -: | ----------- | ------- | -------------------- |\n")
+    idx.append("| # | Nome rápido | Arquivo | Vibe (sugestão) | Quando usar (resumo) |\n")
+    idx.append("| -: | ----------- | ------- | --------------- | -------------------- |\n")
     for look in items:
         q = look["quando"].replace("|", "/")
-        if len(q) > 70:
-            q = q[:67] + "…"
+        if len(q) > 60:
+            q = q[:57] + "…"
         if not q:
             q = "—"
+        v = (look.get("vibe") or "qualquer").replace("|", "/")
+        if len(v) > 28:
+            v = v[:26] + "…"
         idx.append(
             f"| **{look['id3']}** | [{look['quick']}](#{look['anchor']}) "
-            f"| `{look['file']}` | {q} |\n"
+            f"| `{look['file']}` | {v} | {q} |\n"
         )
     idx.append("\n")
 
