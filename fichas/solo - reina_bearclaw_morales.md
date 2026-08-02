@@ -18,6 +18,14 @@ Posteriormente, quando Reina perdeu os braços, a **Doc Moreau** cobrou um favor
 
 Hoje Reina vive como freelancer de rua: resolve na porrada quando necessário, mas sempre tenta desarmar a situação primeiro com **presença intimidadora**. É a **“Mãe Urso”** da crew — protetora, descontraída, de riso alto e piadas pesadas. Sua altura de **1,92m** reforça ainda mais esse papel: ela costuma abraçar as pessoas **por cima**, quase envolvendo quem está ao seu lado, especialmente Ryan, a quem trata abertamente como um **irmão mais novo**.
 
+### Presença física (narrador)
+
+| Campo | Valor |
+| ----- | ----- |
+| **Altura** | **1,92 m** (marca da personagem) |
+| **Build** | **Muito treinada** — músculos densos e bem definidos, presença de solo; ao mesmo tempo **traços bem femininos** (não “masculinizada”) |
+| **Nota** | A mais alta da crew (Jax ~1,90 m quase no olho; Ryan 1,85 m no abraço “por cima”). A altura **é** parte do kit de intimidação e de carinho. |
+
 ## Presença e Reações
 
 - Quando Reina entra em um ambiente, as pessoas naturalmente abrem espaço. Muitos descrevem como se “o teto tivesse ficado mais baixo”.

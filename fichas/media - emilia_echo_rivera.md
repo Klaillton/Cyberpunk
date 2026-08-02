@@ -9,6 +9,14 @@
 **Descrição visual (baseada na imagem):**  
 Mulher de 29 anos com visual cyberpunk chamativo. Cabelos longos e ondulados com mechas em **laranja vibrante / preto** e franja clara no lado claro; olhos âmbar. Traje preto justo com LEDs neon roxo e cyan, colar com lua crescente iluminada, choker tech e brincos luminosos. Expressão confiante, sarcástica e um tanto sedutora. Fundo de Night City chuvosa com neon.
 
+### Presença física (narrador)
+
+| Campo | Valor |
+| ----- | ----- |
+| **Altura** | **~1,60 m** |
+| **Build** | Corpo **mais feminino / “idol”** — fofa no primeiro contato, musculatura **normal** (sem bulk de treino pesado); a câmera ama antes do cérebro julgar |
+| **Nota** | **Contraste da crew** alta e forte: pequena no pack, **grande na transmissão**. Invoca carisma de idol + instinto de proteção (Reina/Jax/Ryan “somem ela” na foto de grupo; na live, só ela aparece). Não é frágil de skill — é a face e a narrativa pública. |
+
 **Narração visual:** em jobs e gravações, visual da imagem (neon ativo). Em downtime no Pack ou cenas casuais, versão mais contida do mesmo estilo. Quase sempre com câmera, micro-drone de gravação ou Agent à mão. Roupas por ocasião: [crew_guarda_roupas.md](crew_guarda_roupas.md) · cards/estado em `notas_narrador/` (dona habitual media/tech; empréstimo ok).
 
 ---

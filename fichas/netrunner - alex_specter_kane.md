@@ -7,6 +7,14 @@
 **Descrição Visual:**  
 Alex é uma jovem de aparência atlética e cyberpunk marcante. Tem cabelo loiro curto e bagunçado (estilo pixie cut molhado pela chuva), pele clara, traços finos e expressivos. Seus olhos possuem Kiroshi Optics com glow intenso (um verde brilhante e o outro azul cibernético com circuitos visíveis). Usa uma jaqueta vermelha brilhante com detalhes prateados, patches e proteções nos ombros, sobre um top preto justo. A imagem mostra ela em uma rua de Night City chuvosa à noite, cercada por neon vermelho e holografias, transmitindo atitude confiante e perigosa.
 
+### Presença física (narrador)
+
+| Campo | Valor |
+| ----- | ----- |
+| **Altura** | **~1,68 m** |
+| **Build** | **Menos atlética que Valk** — músculos de **yoga / ginástica** (tonificada, flexível, sem bulk de academia pesada) |
+| **Nota** | Compacta e afiada; no pack de altos, parece “a menor perigosa”. Contraste claro com Valk (1,75 m) e Reina (1,92 m). |
+
 **Imagem de Referência:**  
 ![Alex "Specter" Kane](../imagens/netrunner%20-%20alex_specter_kane.jpg)
 

@@ -22,6 +22,14 @@ Nas costas carrega o **Warden**, um drone escorpião grande e imponente que pare
 
 Seu visual transmite alguém que já passou por muita coisa e transformou o trauma em ferramenta. Ele não tenta parecer amigável — parece eficiente e perigoso.
 
+### Presença física (narrador)
+
+| Campo | Valor |
+| ----- | ----- |
+| **Altura** | **1,85 m** |
+| **Build** | Porte de **treinamento militar intenso** — músculos funcionais e densidade de quem viveu campo; o chrome **não** é a origem do porte (já era assim antes dos implantes “aparecerem”) |
+| **Nota** | Âncora da crew: alto o bastante para presença, mas a Reina (1,92 m) e o Jax (~1,90 m) ainda cobrem ele no abraço / na fila. |
+
 **Imagens de referência:**
 
 | Uso | Arquivo |

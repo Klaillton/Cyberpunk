@@ -15,6 +15,14 @@ Jax "Razor" Kane aparece como um veterano imponente e endurecido pela guerra das
 
 _(Imagem anexada: /home/workdir/attachments/solo - jax_razor_kane.png)_
 
+### Presença física (narrador)
+
+| Campo | Valor |
+| ----- | ----- |
+| **Altura** | **~1,90 m** |
+| **Build** | **Treino militar intenso** — músculos **funcionais + bodybuilder**; força óbvia mesmo parado |
+| **Nota** | Torre da crew ao lado da Reina (ela ainda leva por ~2 cm). Quase olho no olho com ela; cobre Ryan no grupo. |
+
 ## Atributos (62 pontos distribuídos com foco em combate)
 
 - INT: 5

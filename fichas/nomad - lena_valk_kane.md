@@ -23,6 +23,14 @@ Valk e o **The Mule** são **quase uma equipe própria** — mais do que “dono
 
 Lena “Valk” Kane é uma mulher de aparência marcante e perigosa. Tem cabelos castanhos longos e ondulados, olhos azuis penetrantes e uma expressão séria e determinada. Seu corpo é atlético e tonificado, com abdômen definido. Ela usa um top cropped preto justo com detalhes de cyberware azul brilhante nos ombros e braços. Tem um coldre na cintura e um visual tático prático. Transmite uma aura de competência, frieza e força física.
 
+### Presença física (narrador)
+
+| Campo | Valor |
+| ----- | ----- |
+| **Altura** | **~1,75 m** |
+| **Build** | **Bem atlética** — músculos traçados de academia / treino constante; tonificada, não bulk de solo |
+| **Nota** | Mais alta e “soldado” que Alex; abaixo de Ryan/Reina/Jax. Presença de quem carrega o Mule e a extração. |
+
 ## Estatísticas
 
 | INT | REF | DEX | TECH | COOL | WILL | LUCK | MOVE | BODY |

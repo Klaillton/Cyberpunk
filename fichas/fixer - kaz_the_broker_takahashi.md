@@ -11,6 +11,14 @@
 **Descrição Física (baseada na imagem):**  
 Kaz é um homem de aparência afiada e imponente, com cerca de 38 anos. Tem cabelo branco-prateado bem penteado, pele com cicatrizes sutis e linhas cibernéticas visíveis. Usa óculos redondos com lentes vermelhas que escondem o olhar penetrante. Seu pescoço possui implante cromado alto e visível. Veste um terno escuro elegante e bem cortado (com reforço sutil), camisa social, gravata e abotoaduras douradas. Unhas pretas longas e bem cuidadas, anéis discretos e uma tatuagem circular complexa (estilo oculto/corporativo) no dorso da mão direita. Expressão sempre calma, profissional e ligeiramente sarcástica — o tipo de sorriso que promete negócios perigosos.
 
+### Presença física (narrador)
+
+| Campo | Valor |
+| ----- | ----- |
+| **Altura** | **~1,78 m** |
+| **Build** | Magro-elegante / presença de **terno** — não compete com solos em bulk |
+| **Nota** | Abaixo de Ryan, acima de Valk no “meio”. Intimida com óculos e sorriso, não com ombro. |
+
 ## Personalidade
 
 Calmo, profissional e sempre três passos à frente. Fala pouco, mas quando abre a boca é direto, sarcástico e com um senso de humor seco. Tem charme de rua, mas nunca força — prefere deixar as pessoas acharem que a ideia foi delas. Leal à crew enquanto o lucro e a sobrevivência andarem juntos, mas não é ingênuo: sabe que em Night City todo mundo tem um preço. Odeia ser traído e guarda rancor frio. Veste-se bem (mas não chamativo), sempre com um terno ou jaqueta de qualidade, óculos espelhados e um sorriso que não chega aos olhos.

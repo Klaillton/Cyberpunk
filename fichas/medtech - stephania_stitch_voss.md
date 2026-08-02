@@ -10,6 +10,14 @@ Mulher de cabelos vermelhos vibrantes longos em rabo de cavalo tático, com impl
 
 ![Dr. Stephania "Stitch" Voss - MedTech](../imagens/medtech%20-%20stephania_stitch_voss.jpg)
 
+### Presença física (narrador)
+
+| Campo | Valor |
+| ----- | ----- |
+| **Altura** | **~1,70 m** |
+| **Build** | Musculatura de **quem pratica corrida** — magra-forte, resistência, sem bulk de academia |
+| **Nota** | “Mãe do grupo” no meio-termo de altura; não intimida por tamanho, intimida por seringa e olhar. |
+
 ## Background
 
 Gaijin (origem brasileira/portuguesa). Traída por corp que a descartou por “otimização de custos”. Agora freelancer nas ruas, procurando crews que batem de frente com as megacorps.
