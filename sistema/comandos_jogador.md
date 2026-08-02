@@ -213,6 +213,28 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 | 4 | Julgar: **Verdadeiro** / **Falso** / **Parcial** / **Não registrado**. |
 | 5 | Se não registrado: dizer que **não existe** no SoT — não inventar. |
 
+### E3) `[Vestindo]` / `[Roupa <modo>]` / `[Roupa <quem> <modo>]`
+
+**Objetivo:** roupa consistente sem abrir o catálogo de ~194 looks.
+
+| Comando | Efeito |
+| ------- | ------ |
+| `[Vestindo]` | Listar tabela **vestindo agora** (só quem está em cena) |
+| `[Roupa street]` / `[Roupa job]` / `[Roupa casa]` / `[Roupa íntimo]` / `[Roupa medical]` / `[Roupa gala]` / `[Roupa formal]` | Pick do **card** do modo para quem está em cena |
+| `[Roupa Valk job]` | Pick só para essa personagem |
+| `[Roupa arquivo:street_allblack_set.png]` | Fixar look explícito |
+
+| # | Ação |
+| - | ---- |
+| 1 | Ler [crew_vestindo_agora.md](../fichas/notas_narrador/crew_vestindo_agora.md) + card em [roupa_por_ocasiao.md](../fichas/notas_narrador/roupa_por_ocasiao.md). |
+| 2 | Aplicar anti-ontem / últimos 3; pesos **dona** (alto) / pool (médio) / **empréstimo** dona≠ela (baixo); vibe Combina com. |
+| 3 | Evitar duas com o **mesmo** arquivo na cena (re-sorteio). |
+| 4 | Atualizar estado (origem `dona` ou `empréstimo (Nome)`). |
+| 5 | Descrever **1–3 linhas** de roupa e seguir a cena — **não** dump do catálogo. |
+
+**Dona ≠ exclusividade:** outra da casa pode emprestar (polycule/crew).  
+**Biblioteca completa** só se o jogador pedir detalhe ou o pick falhar: [crew_guarda_roupas.md](../fichas/crew_guarda_roupas.md).
+
 ---
 
 ## H) `[Agência NPC]` / observação passiva / delegação
@@ -305,6 +327,7 @@ Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
 | Comando | Edita arquivos? | Precisa confirmação para gravar? |
 | ------- | --------------- | -------------------------------- |
 | `[Refresh contexto]` | Não | — |
+| `[Vestindo]` / `[Roupa …]` | Sim (estado vestindo) se fixar look | Não para listar; sim se o fluxo da mesa gravar pack |
 | `[Resumo da Sessão]` / `[Criar resumo…]` | Só se jogador pedir (b) | Sim para gravar |
 | `[Finalizar sessão e gerar resumo]` | Sim (após sim) | **Sim** antes de gravar |
 | `[Gerar handoff…]` / `[Preparar novo chat]` | Sim (handoff ± pack) | Sim para commit/push; gravar local pode ser imediato se o jogador pediu o handoff |

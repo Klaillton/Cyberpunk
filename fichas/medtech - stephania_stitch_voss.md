@@ -113,7 +113,16 @@ Compartilha o sobrenome **Voss** com Ryan, mas **não há parentesco** — coinc
 ## Referências
 
 - [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Valk](../relacionamentos/lena_valk_kane_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) — catálogo de roupa (não amarra personagem)
+- **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) · estado [notas_narrador/crew_vestindo_agora.md](notas_narrador/crew_vestindo_agora.md) · cards [notas_narrador/roupa_por_ocasiao.md](notas_narrador/roupa_por_ocasiao.md)
+
+### Vestuário (atalho narrador)
+
+| Uso | Arquivo | Notas |
+| --- | ------- | ----- |
+| Plantão / clínica | `medical_scrubs_blue.jpg` · `medical_lab_coat_classic.jpg` | **Dona habitual** medical |
+| Street medtech | `medical_street_lab_coat.jpg` | |
+| Casa | lounge / sleep pool comum | |
+| Default se vazio | card **Clínica / medical** | |
 - **Pulso:** [stephania_stitch.md](../pulso_do_mundo/crew/stephania_stitch.md)
 - **Imagem:** [medtech - stephania_stitch_voss.jpg](../imagens/medtech%20-%20stephania_stitch_voss.jpg)
 - **Estado:** [Board](../board/board_campanha.md)

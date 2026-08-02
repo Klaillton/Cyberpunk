@@ -99,7 +99,16 @@ Alta para iniciativa e awareness em combate próximo. Reina é o tanque emociona
 
 ## Referências
 
-- **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) — catálogo de roupa (não amarra personagem)
+- **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) · estado [notas_narrador/crew_vestindo_agora.md](notas_narrador/crew_vestindo_agora.md) · cards [notas_narrador/roupa_por_ocasiao.md](notas_narrador/roupa_por_ocasiao.md)
+
+### Vestuário (atalho narrador)
+
+| Uso | Arquivo | Notas |
+| --- | ------- | ----- |
+| Soft / pack | `soft_*` sundress, floral, kimono | **Dona habitual** soft |
+| Gala / evening | `evening_pink_nightgown_cape.jpg` · gowns estrelas/penas | Armário “glam” da casa (empréstimo ok) |
+| Casa | sleep rosa, onesies fofos | |
+| Default se vazio | card **Soft** ou **Gala** | |
 - **Projetos futuros (não ativos):** [armadura](reina_armour_project.md) · [moto](reina_byke_project.md)
 - [Relacionamentos Reina](../relacionamentos/reina_bearclaw_morales_relacionamentos.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md)

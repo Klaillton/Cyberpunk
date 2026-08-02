@@ -23,6 +23,29 @@
 - `intimate_*` e nightwear ousado: ok para intimidade (ex. Ryan/Valk) e para qualquer outra se a cena pedir.
 - Club/formal ousado: costuma combinar com **Alex**; gala/soft com **Reina**; utilitário/pack com **Valk** — sempre opcional.
 
+### Dona (habitual) e empréstimo
+
+> **Não** é exclusividade rígida. É “de quem é o armário”.
+
+| Campo | Significado |
+| ----- | ----------- |
+| **Dona (habitual)** | Quem usa o look com mais frequência; no dia a dia, normalmente só ela |
+| **Empréstimo** | `sim` (padrão na casa/polycule) — outra da crew **pode** vestir por ocasião |
+
+- Pick do narrador: **peso alto** se dona = personagem; **peso baixo** se dona = outra (empréstimo); sem dona = pool comum.  
+- Empréstimo na prosa (às vezes): *“pegou a camiseta da Reina”*, *“ainda com o perfume dela”*.  
+- Estado em cena: [notas_narrador/crew_vestindo_agora.md](notas_narrador/crew_vestindo_agora.md) · Cards: [notas_narrador/roupa_por_ocasiao.md](notas_narrador/roupa_por_ocasiao.md).
+
+Looks **com dona habitual** (atalhos — o resto do catálogo é pool sem dona):
+
+| Dona | Arquivos / tipos típicos |
+| ---- | ------------------------ |
+| **Valk** | pack/tático, combat, stealth, vários `intimate_*` e sleep ousado |
+| **Alex** | all-black, club harness/mini, ternos power, formal harness |
+| **Reina** | soft/pack floral, gowns evening/fantasy, nightwear rosa/angelical |
+| **Stitch** | medical/scrubs/jaleco (quando em plantão) |
+| **Echo** | tech/media jackets |
+
 **Peças incompletas:** slots `piece_*` descrevem só o que a foto mostra e trazem **Completar com:** — combine com outras peças do catálogo ou da cena.
 
 ---

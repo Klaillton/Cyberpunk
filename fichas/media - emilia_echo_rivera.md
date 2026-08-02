@@ -9,7 +9,7 @@
 **Descrição visual (baseada na imagem):**  
 Mulher de 29 anos com visual cyberpunk chamativo. Cabelos longos e ondulados com mechas em **laranja vibrante / preto** e franja clara no lado claro; olhos âmbar. Traje preto justo com LEDs neon roxo e cyan, colar com lua crescente iluminada, choker tech e brincos luminosos. Expressão confiante, sarcástica e um tanto sedutora. Fundo de Night City chuvosa com neon.
 
-**Narração visual:** em jobs e gravações, visual da imagem (neon ativo). Em downtime no Pack ou cenas casuais, versão mais contida do mesmo estilo. Quase sempre com câmera, micro-drone de gravação ou Agent à mão. Roupas por ocasião: [crew_guarda_roupas.md](crew_guarda_roupas.md) (catálogo de peças — não amarra personagem).
+**Narração visual:** em jobs e gravações, visual da imagem (neon ativo). Em downtime no Pack ou cenas casuais, versão mais contida do mesmo estilo. Quase sempre com câmera, micro-drone de gravação ou Agent à mão. Roupas por ocasião: [crew_guarda_roupas.md](crew_guarda_roupas.md) · cards/estado em `notas_narrador/` (dona habitual media/tech; empréstimo ok).
 
 ---
 
@@ -145,6 +145,14 @@ Estilo: discreto o suficiente para “repórter de rua”, chamativo o bastante 
 ## Referências
 
 - [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md)
-- **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md)
+- **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) · estado [notas_narrador/crew_vestindo_agora.md](notas_narrador/crew_vestindo_agora.md) · cards [notas_narrador/roupa_por_ocasiao.md](notas_narrador/roupa_por_ocasiao.md)
+
+### Vestuário (atalho narrador)
+
+| Uso | Arquivo | Notas |
+| --- | ------- | ----- |
+| Gravação / street tech | `media_white_jacket_cargo.jpg` · `tech_netrunner_pink.jpg` | **Dona habitual** media/tech |
+| Corp / entrevista | `media_corp_uniform_jacket.jpg` | |
+| Default se vazio | card **Tech / media** | |
 - **Imagem:** [media - emilia_echo_rivera.jpg](../imagens/media%20-%20emilia_echo_rivera.jpg)
 - **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md) · [Event Queue](../event_queue.md) · [Registro](../sistema/registro_arquivos.md)

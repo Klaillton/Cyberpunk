@@ -81,13 +81,26 @@ Citar IDs de `sistema/fatos_duros.md` (F01–F13 + L0x se aplicável):
 
 ---
 
+## Vestindo agora (só quem está em cena)
+
+> Estado completo: [fichas/notas_narrador/crew_vestindo_agora.md](../fichas/notas_narrador/crew_vestindo_agora.md) · Cards: [roupa_por_ocasiao.md](../fichas/notas_narrador/roupa_por_ocasiao.md)  
+> **≤15 linhas.** Não colar o catálogo de 194 looks.
+
+| Quem | Arquivo | 1 linha | Origem |
+| ---- | ------- | ------- | ------ |
+| | | | dona / empréstimo (?) |
+
+Atualizar em: mudança de local · manhã · job · intimidade/gala · `[Roupa …]`.
+
+---
+
 ## Carga de contexto
 
 | Tier | Quando | Arquivos |
 | ---- | ------ | -------- |
 | **0** | Sempre / refresh | Este pack → `fatos_duros` → `board` se pack suspeito |
-| **1** | Cena atual | *preencher conforme região* |
-| **2** | Sob demanda | via `registro_arquivos.md` |
+| **1** | Cena atual | *preencher conforme região* · roupa: cards + vestindo agora |
+| **2** | Sob demanda | via `registro_arquivos.md` · catálogo guarda-roupas só se detalhe/# |
 
 ### Tier-1 sugerido para ESTE snapshot
 

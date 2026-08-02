@@ -108,6 +108,15 @@ Recentemente, ao ouvir que Valk estava trabalhando novamente (e fazendo jobs com
 
 ## Referências
 
-- **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) — catálogo de roupa (não amarra personagem)
+- **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) · estado [notas_narrador/crew_vestindo_agora.md](notas_narrador/crew_vestindo_agora.md) · cards [notas_narrador/roupa_por_ocasiao.md](notas_narrador/roupa_por_ocasiao.md)
+
+### Vestuário (atalho narrador)
+
+| Uso | Arquivo | Notas |
+| --- | ------- | ----- |
+| Street / all-black | `street_allblack_set.png` · `street_leather_trench.jpg` | **Dona habitual** street ousado |
+| Clube | `club_black_leather_harness_mini.png` · corset/mini | Empréstimo de gowns da Reina = ocasião |
+| Formal power | `formal_black_red_tie_suit.jpg` · harness formal | |
+| Default se vazio | card **Street** ou **Club** | |
 - [Relacionamentos Alex](../relacionamentos/alex_specter_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)

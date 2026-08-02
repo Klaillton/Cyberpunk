@@ -62,6 +62,48 @@ As consequências devem ser realistas e persistentes. O mundo continua existindo
 - Priorize descrição, diálogo e consequências.
 - Evite resumos excessivos e explicações desnecessárias de regras.
 
+## 6.1 Roupa em cena (narrador)
+
+**Biblioteca (não carregar inteira):** [crew_guarda_roupas.md](../fichas/crew_guarda_roupas.md)  
+**Cards (1 tela):** [roupa_por_ocasiao.md](../fichas/notas_narrador/roupa_por_ocasiao.md)  
+**Estado:** [crew_vestindo_agora.md](../fichas/notas_narrador/crew_vestindo_agora.md)
+
+### Quando descrever roupa
+
+- Entrada em cena / mudança de local com “roupas novas”  
+- Downtime manhã, gala, clube, intimidade  
+- Jogador pediu look ou `[Roupa …]`  
+
+### Quando **não**
+
+- Todo turno de combate tático ou recon (só se mudou de fato)  
+- Eco de 12 peças copiadas do catálogo  
+
+### Fluxo
+
+1. Ler **vestindo agora** (quem está em cena).  
+2. Se vazio ou troca: **card do modo** → pick (dona / vibe / anti-ontem).  
+3. Atualizar estado (arquivo estável + origem dona/empréstimo).  
+4. **1–3 linhas** de roupa (cor + silhueta + 1 detalhe) → voltar ao plot.  
+5. Catálogo grande só se precisar de detalhe ou `#` explícito.
+
+### Dona e empréstimo
+
+- **Dona habitual** = de quem é o armário (usa com frequência).  
+- **Empréstimo** entre a casa (Valk/Alex/Reina/…) é **ok e orgânico** — peso menor no pick, não proibido.  
+- Às vezes na prosa: *“camiseta da Reina”*, *“pegou no armário dela”*.  
+
+### Anti-repetição
+
+- Evitar o look de **ontem** e, se possível, os **últimos 3** daquela personagem.  
+- Data = NOW do context pack.
+
+### Consistência
+
+- Mesmo local/dia: **reusar** o estado, não reinventar o outfit a cada parágrafo.
+
+---
+
 ## 7. Boas Práticas de Narração
 
 ### Evitar Nomes Duplicados
