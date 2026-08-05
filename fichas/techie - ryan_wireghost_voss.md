@@ -180,9 +180,15 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 
 Ryan carrega um loadout modular, versátil e altamente customizado, priorizando **stealth**, **mobilidade** e **jack of all trades**. Todas as armas de fogo possuem integração total via **Neural Link + Smartgun Link + Kiroshi Optics**.
 
+> **Tokens:** imagens a ~¼ do original em [`imagens/ryan/armas/tokens/`](../imagens/ryan/armas/tokens/).  
+> Full-res (se precisar zoom): [`imagens/ryan/armas/`](../imagens/ryan/armas/).  
+> Markdown puro **não** controla tamanho nem “lado a lado”; usamos HTML (`<img width>`) + tabela — funciona no GitHub e na maioria dos viewers.
+
 #### 1. Primária — **Ghostwire Phantom Mk.II Foldable DMR** (7.62x51 NATO)
 
-![Phantom Mk.II DMR](../imagens/ryan/armas/ghostwire_phantom_mk2_dmr.jpg)
+| Token (~¼) | Resumo |
+| :---: | :--- |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_phantom_mk2_dmr_token.jpg" width="150" alt="Phantom Mk.II DMR" /><br>[full-res](../imagens/ryan/armas/ghostwire_phantom_mk2_dmr.jpg) | **Tipo:** DMR semi-auto dobrável · **Peso:** ~5,9 kg<br>**Mag:** 20 (opc. 30) · **Função:** mid-range / cobertura da crew<br>**Par:** [Sniper 1b](#ghostwire-phantom-sniper) |
 
 - **Tipo:** Designated Marksman Rifle semi-automático dobrável.
 - **Peso:** ~5,9 kg (confortável graças ao Grafted Muscle + Reinforced Tendons).
@@ -203,7 +209,9 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 
 <a id="ghostwire-phantom-sniper"></a>
 
-![Phantom Mk.II Sniper](../imagens/ryan/armas/ghostwire_phantom_mk2_sniper.jpg)
+| Token (~¼) | Resumo |
+| :---: | :--- |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_phantom_mk2_sniper_token.jpg" width="140" alt="Phantom Mk.II Sniper" /><br>[full-res](../imagens/ryan/armas/ghostwire_phantom_mk2_sniper.jpg) | **Tipo:** sniper long-range dobrável (família Phantom)<br>**Peso:** ~7,2 kg / ~4,8 kg dobrado · **Mag:** 10 (opc. 5 match)<br>**Função:** overwatch / eliminação além do mid da DMR |
 
 - **Tipo:** Sniper rifle semi-automático de precisão long-range, dobrável (plataforma Phantom Mk.II compartilhada com a DMR).
 - **Peso:** ~7,2 kg desdobrado com escopo e bipé (~4,8 kg dobrado sem óptica pesada) — Grafted Muscle + Reinforced Tendons compensam o bulk.
@@ -225,7 +233,9 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 
 #### 2. Secundária Rápida — **Ghostwire Vanguard Heavy Pistol** (12.7mm / .50 AE)
 
-![Vanguard Heavy Pistol](../imagens/ryan/armas/ghostwire_vanguard_heavy_pistol.png)
+| Token (~¼) | Resumo |
+| :---: | :--- |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_vanguard_heavy_pistol_token.jpg" width="100" alt="Vanguard Heavy Pistol" /><br>[full-res](../imagens/ryan/armas/ghostwire_vanguard_heavy_pistol.png) | **Tipo:** Very Heavy Pistol · **Mag:** 10–15<br>**Carry:** coldre de coxa ou pop-up Cyberarm<br>**Função:** quick-draw / CQB médio |
 
 - **Tipo:** Very Heavy Pistol semi-automática custom.
 - **Carry:** Coldre de coxa rápido ou **Pop-up no Cyberarm direito**.
@@ -242,7 +252,9 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 
 #### 3. Terciária Surpresa / CQC — **Ghostwire Revolver Breaker** (Calibre 12 Revolving Shotgun)
 
-![Revolver Breaker](../imagens/ryan/armas/ghostwire_revolver_breaker.jpg)
+| Token (~¼) | Resumo |
+| :---: | :--- |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_revolver_breaker_token.jpg" width="120" alt="Revolver Breaker" /><br>[full-res](../imagens/ryan/armas/ghostwire_revolver_breaker.jpg) | **Tipo:** escopeta revolving cal. 12 · **Cilindro:** 5–7<br>**Carry:** bota / small of back<br>**Função:** CQC “punch solver” |
 
 - **Tipo:** Escopeta curta revolving (cilindro giratório de 5-7 tiros).
 - **Carry:** Na bota (ankle rig) ou atrás da cintura (small of back) — quase invisível.
@@ -257,7 +269,9 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 
 #### 4. Arma Branca / Arremessável — **Ghostwire Shadowblades** (Conjunto de Lâminas de Arremesso)
 
-![Shadowblades](../imagens/ryan/armas/ghostwire_shadowblades.jpg)
+| Token (~¼) | Resumo |
+| :---: | :--- |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_shadowblades_token.jpg" width="150" alt="Shadowblades" /><br>[full-res](../imagens/ryan/armas/ghostwire_shadowblades.jpg) | **Tipo:** 6–8 lâminas de arremesso · **Alcance:** 8–15 m<br>**Carry:** antebraço / cinto / bota / Warden<br>**Função:** stealth kill + arremesso |
 
 - **Tipo:** Conjunto de 6–8 lâminas/tubos afiados customizados (estilo kunai modernas + tubos com laterais afiadas).
 - **Carry:** Distribuidas em bainhas ocultas no antebraço (Cyberarm), cinto, bota e dentro do Warden (para recarga rápida).
