@@ -15,9 +15,11 @@
 > - Várias cores diferentes.
 > - Algumas (vinho, branca...) praticamente nunca são usadas, mas vieram no pacote.
 >
-> Já Valk enxerga roupas de outra forma. Aos poucos ela vai substituindo peças, escolhendo roupas para ocasiões especiais e montando um segundo guarda-roupa para Night City.
+> Já Valk enxerga roupas de outra forma. Ela escolhe, separa e monta um segundo armário — **[Ryan by Valk](#ryan-by-valk)**.
 >
-> Ryan nunca discute.
+> Ryan **não monta look**. Não adapta a roupa conforme quem está em casa.  
+> Critério dele: **confortável + foi ela quem deu.**  
+> Se ela abre, fecha ou ajusta, ele deixa.
 >
 > > "Se você gosta... eu gosto."
 >
@@ -25,7 +27,8 @@
 >
 > > "Você fica feliz quando eu uso."
 
-**Nota sobre as imagens:** as refs de `guarda_roupas/` são **catálogo de roupa** (corte, cor, vibe). Cabelo/rosto do modelo da foto **não** substituem o Ryan canônico (cabelo prata/branco, ficha tática e daily_clothes).
+**Nota sobre as imagens:** as refs de `guarda_roupas/` são **catálogo de roupa** (corte, cor, vibe). Cabelo/rosto do modelo da foto **não** substituem o Ryan canônico (cabelo prata/branco, ficha tática e daily_clothes).  
+**Armas Ghostwire** não ficam aqui — ver [ficha mecânica](techie%20-%20ryan_wireghost_voss.md) e [imagens/ryan/armas/](../imagens/ryan/armas/).
 
 ---
 
@@ -44,7 +47,14 @@
 | Night City | Street / deslocamento | `street_style.jpg` | — |
 | Night City | Cliente comum | `camisa_gola_padre.jpg` | — |
 | Night City | Cliente corporativo | `great_style.jpg` | — |
-| Night City | Evento formal | `great_style.jpg` | — |
+| Night City | Evento formal | `great_style.jpg` / `valk_terno_preto.jpg` | — |
+| **Valk** | Camisa verde militar | `valk_camisa_verde_militar.jpg` | — |
+| **Valk** | Long sleeve / tee justa | `valk_longsleeve_cinza.jpg`, `valk_tee_*.jpg` | — |
+| **Valk** | Tank preto + calça | `valk_tank_preto_calca.jpg` | — |
+| **Valk** | Shorts / peças curtas | `valk_shorts_*.jpg`, `casual_tee_shorts_preto.jpg`, `lounge_joggers_preto.jpg` | — |
+| **Valk** | Polo / apresentável | `valk_polo_cinza.jpg`, `valk_gola_alta_preta.jpg`, `valk_blazer_cinza.jpg` | — |
+| **Valk** | Formal (terno) | `valk_terno_preto.jpg` | — |
+| **Valk** | Casaco aberto (casa) | `valk_casaco_cinza_aberto.jpg` | — |
 | Wireghost | Operação rápida | `quick_operator.jpg` | [tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) |
 | Wireghost | Operação completa | `stealth_operator.jpg` | [tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) |
 
@@ -286,6 +296,8 @@ Visual:
 
 ## Cliente Corporativo
 
+<a id="cliente-corporativo"></a>
+
 **Referência:** `great_style.jpg`
 
 ![Cliente corporativo](../imagens/ryan/guarda_roupas/great_style.jpg)
@@ -308,19 +320,263 @@ Valk insiste.
 
 ## Evento Formal
 
-**Referência:** `great_style.jpg`
+Quando realmente precisa impressionar. Valk escolhe o nível:
 
-![Evento formal](../imagens/ryan/guarda_roupas/great_style.jpg)
+| Nível | Arquivo | Notas |
+| ----- | ------- | ----- |
+| Formal sem gravata (default dele) | `great_style.jpg` | Colete street + camisa — ver [Cliente Corporativo](#cliente-corporativo) |
+| Formal completo (Valk forçou) | `valk_terno_preto.jpg` | Terno + gravata — ver [Formal Valk](#formal-valk-terno) |
 
-Quando realmente precisa impressionar.
+**Referência (default):** `great_style.jpg`
+
+![Evento formal — great_style](../imagens/ryan/guarda_roupas/great_style.jpg)
+
+**Referência (Valk / terno):** `valk_terno_preto.jpg`
+
+![Evento formal — terno Valk](../imagens/ryan/guarda_roupas/valk_terno_preto.jpg)
 
 ### Descrição visual
 
+**Default (`great_style`):**
+
 - Base do cliente corporativo + **blazer técnico** escuro por cima do colete (se a ocasião exigir).
 - Camisa branca ou grafite; calça social; botas sociais escuras.
-- **Nunca gravata.**
+- **Sem gravata** — Ryan simplesmente não gosta.
 
-Ryan simplesmente não gosta.
+**Quando Valk sobe o nível (`valk_terno_preto`):**
+
+- Terno preto completo, camisa branca, **gravata preta**, lenço de bolso.
+- Barba e cabelo arrumados (ela insistiu).
+- Ele veste, reclama baixinho, e usa. Catálogo completo: [Ryan by Valk → Formal](#formal-valk-terno).
+
+---
+
+# RYAN BY VALK
+
+<a id="ryan-by-valk"></a>
+
+Peças que **Valk** escolheu e separou para ele.
+
+Ryan não escolhe essas roupas.  
+Ele veste porque são confortáveis e porque foi ela quem deu.  
+Valk é quem decide como ele fica nelas (aberta, fechada, mais justa, etc.).
+
+Ele não adapta a roupa conforme quem está em casa.  
+Se está confortável e foi ela quem deixou, ele usa.
+
+---
+
+## Camisa Verde Militar (aberta/fechada)
+
+**Referência:** `valk_camisa_verde_militar.jpg`
+
+![Camisa verde militar](../imagens/ryan/guarda_roupas/valk_camisa_verde_militar.jpg)
+
+### Descrição visual
+
+- **Camisa utilitária verde-oliva** manga curta, zip frontal, bolsos no peito, ombros com alças.
+- Por baixo: peito à mostra quando aberta; pode fechar o zip até o peito ou quase todo.
+- **Shorts oliva** leves (drawstring) — look de casa/calor, não de job.
+- Relógio no pulso (opcional).
+
+### Dinâmica Valk
+
+- Escolhida por Valk.
+- Ryan veste **fechada por padrão**.
+- Valk costuma **abrir** quando estão sozinhos.
+- Ela ajusta o zip; ele não discute.
+
+### Uso
+
+- Casa, safehouse, momentos em que ela separa a roupa.
+- Não é “roupa de sair” nem look Wireghost.
+
+---
+
+## Camiseta / Long Sleeve justa
+
+**Referências:**
+
+| Peça | Arquivo |
+| ---- | ------- |
+| Long sleeve cinza (V-neck) | `valk_longsleeve_cinza.jpg` |
+| Tee branca justa | `valk_tee_branca_justa.jpg` |
+| Tee cinza justa | `valk_tee_cinza_justa.jpg` |
+
+![Long sleeve cinza](../imagens/ryan/guarda_roupas/valk_longsleeve_cinza.jpg)
+
+![Tee branca justa](../imagens/ryan/guarda_roupas/valk_tee_branca_justa.jpg)
+
+![Tee cinza justa](../imagens/ryan/guarda_roupas/valk_tee_cinza_justa.jpg)
+
+### Descrição visual
+
+- Peças **limpas e justas** (cinza, preta ou branca na família).
+- Long sleeve: decote em V, tecido fino que marca o tronco, manga colada.
+- Tees: manga curta justa + calça escura/reta (cinza ou preta) quando o ref for full-body.
+- Zero estampa barulhenta; visual “ele nem pensou nisso”.
+
+### Dinâmica Valk
+
+- Peças que ele usa sem pensar.
+- Confortáveis e que **Valk gosta de ver nele**.
+- Ela separa a cor; ele veste.
+
+### Uso
+
+- Casa, safehouse, oficina leve, downtime.
+- Base sob casaco/blazer quando Valk monta algo mais apresentável.
+
+---
+
+## Tank Top preto + calça
+
+**Referência:** `valk_tank_preto_calca.jpg`
+
+![Tank preto + calça](../imagens/ryan/guarda_roupas/valk_tank_preto_calca.jpg)
+
+### Descrição visual
+
+- **Tank / regata preta** justa (ombros e braços à mostra).
+- **Calça cinza ou escura** reta, cinto simples.
+- Sapato/bota limpa quando o ref pede full-body.
+- Silhueta funcional — não é o cargo tático do `worker.jpg`, é a versão “Valk separou e está limpa”.
+
+### Uso
+
+- Oficina quente, casa, ou quando Valk separa para ele não suar de graça.
+- Próximo do trabalho pesado/treino, mas **sem** o kit de bolsos e luvas de job.
+
+---
+
+## Shorts e peças curtas
+
+**Referências:**
+
+| Peça | Arquivo |
+| ---- | ------- |
+| Shorts preto treino | `valk_shorts_preto.jpg` |
+| Shorts vinho/marsala | `valk_shorts_vinho.jpg` |
+| Tee preta + short + tênis | `casual_tee_shorts_preto.jpg` |
+| Joggers pretos (peito nu / lounge) | `lounge_joggers_preto.jpg` |
+
+![Shorts preto](../imagens/ryan/guarda_roupas/valk_shorts_preto.jpg)
+
+![Shorts vinho](../imagens/ryan/guarda_roupas/valk_shorts_vinho.jpg)
+
+![Tee + shorts preto](../imagens/ryan/guarda_roupas/casual_tee_shorts_preto.jpg)
+
+![Joggers pretos](../imagens/ryan/guarda_roupas/lounge_joggers_preto.jpg)
+
+### Descrição visual
+
+- Shorts atléticos curtos (preto ou vinho), elástico, às vezes com forro de compressão.
+- Conjunto casual: tee preta justa + short preto com friso + meias e tênis.
+- Lounge: joggers pretos com cordão, sandália ou pé descalço; peito nu se o calor/ambiente pedir.
+
+### Uso
+
+Usados principalmente:
+
+- Para dormir
+- Pós-intimidade
+- Quando ele precisa sair **rápido** da tenda/safehouse para pegar alguma coisa
+
+Não é “roupa de sair”. É o que ele veste quando **não quer se vestir de verdade**.
+
+---
+
+## Polo / peças mais apresentáveis
+
+**Referências:**
+
+| Peça | Arquivo |
+| ---- | ------- |
+| Polo cinza escuro | `valk_polo_cinza.jpg` |
+| Gola alta preta justa | `valk_gola_alta_preta.jpg` |
+| Blazer cinza + gola alta | `valk_blazer_cinza.jpg` |
+
+![Polo cinza](../imagens/ryan/guarda_roupas/valk_polo_cinza.jpg)
+
+![Gola alta preta](../imagens/ryan/guarda_roupas/valk_gola_alta_preta.jpg)
+
+![Blazer cinza](../imagens/ryan/guarda_roupas/valk_blazer_cinza.jpg)
+
+### Descrição visual
+
+- **Polo** cinza/grafite, manga curta, caimento limpo no peito e ombros.
+- **Gola alta preta** justa (manga ¾ ou longa) — base limpa sob blazer ou sozinha.
+- **Blazer / casaco cinza claro** aberto sobre gola alta preta + calça preta e cinto — smart casual que Valk monta.
+
+### Uso
+
+Valk separa quando precisa que ele esteja um pouco mais apresentável (cliente, jantar, etc.).  
+Ele veste sem opinião.
+
+Complementa (não substitui) `camisa_gola_padre.jpg` e `great_style.jpg` do armário “funcional / NC”.
+
+---
+
+## Formal Valk (terno)
+
+<a id="formal-valk-terno"></a>
+
+**Referência:** `valk_terno_preto.jpg`
+
+![Terno preto](../imagens/ryan/guarda_roupas/valk_terno_preto.jpg)
+
+### Descrição visual
+
+- **Terno preto** completo: blazer entalhado, camisa branca, gravata preta, lenço de bolso.
+- Barba e cabelo arrumados (Valk insistiu).
+- Nível **acima** de `great_style.jpg` (colete street) — ocasião rara em que ela quer “engenheiro que fecha contrato”.
+
+### Nota de personagem
+
+Ryan **não gosta** de gravata. No armário dele, o default formal sem gravata continua sendo `great_style.jpg`.  
+Este terno existe porque **Valk separou** — ele veste, reclama baixinho, e usa.
+
+### Uso
+
+- Evento formal extremo, cliente corporativo pesado, jantar onde “colete street” não passa.
+- Não é look do dia a dia.
+
+---
+
+## Casaco cinza aberto (casa)
+
+**Referência:** `valk_casaco_cinza_aberto.jpg`
+
+![Casaco cinza aberto](../imagens/ryan/guarda_roupas/valk_casaco_cinza_aberto.jpg)
+
+### Descrição visual
+
+- **Casaco / sobretudo cinza** longo, aberto, peito à mostra.
+- Calça cinza larga, cinto marrom, botas escuras.
+- Visual de “ela abriu o casaco e ele deixou” — casa / safehouse / intimidade casual, não job.
+
+### Dinâmica Valk
+
+- Ela decide o quanto fica aberto.
+- Ele só veste o que estava na cama.
+
+### Uso
+
+- Casa, pós-banho, cenas domésticas com Valk.
+- Não usar como street em Night City sem ela ter montado o look de propósito.
+
+---
+
+## Dinâmica geral (Ryan by Valk)
+
+- Ryan não monta look.
+- Valk escolhe e deixa a roupa.
+- Ele veste.
+- Se ela abre, fecha ou ajusta, ele deixa.
+- O critério dele é simples: **confortável + foi ela quem deu.**
+
+Catálogo de looks **dele** (oficina, Wireghost, street que ele pegou sozinho): seções Badlands / Night City / Wireghost abaixo e acima.  
+Este bloco é o **segundo armário** — o que tem a mão dela.
 
 ---
 
@@ -412,35 +668,13 @@ Fim da análise.
 
 # Relação com Valk
 
-Ryan quase nunca escolhe roupa quando sai com Valk.
+Ryan quase nunca escolhe roupa quando sai com Valk. Ela separa na cama; ele veste. Sem reclamar.
 
-Ela simplesmente separa a roupa na cama.
+> "Se você gosta... eu gosto." · "Porque você fica feliz quando eu uso."
 
-Ele veste.
+Ele não entende de moda. Ela entende — da mesma forma que ela confia nele em drone e chrome, ele confia nela no que veste.
 
-Sem reclamar.
-
-Sem discutir.
-
-Não porque não tenha opinião.
-
-Mas porque a lógica dele é extremamente simples.
-
-> "Se você gosta... eu gosto."
-
-Ou, quando Valk pergunta por quê:
-
-> "Porque você fica feliz quando eu uso."
-
-Para Ryan, isso encerra completamente a discussão.
-
-Ele não entende de moda.
-
-Ela entende.
-
-Da mesma forma que ela confia nele para construir um drone ou projetar um veículo, ele confia nela para decidir como ele deve se vestir.
-
-Para ele, é apenas outra demonstração silenciosa de parceria.
+**Catálogo das peças que ela monta:** [Ryan by Valk](#ryan-by-valk).
 
 ---
 

@@ -182,6 +182,8 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 
 #### 1. Primária — **Ghostwire Phantom Mk.II Foldable DMR** (7.62x51 NATO)
 
+![Phantom Mk.II DMR](../imagens/ryan/armas/ghostwire_phantom_mk2_dmr.jpg)
+
 - **Tipo:** Designated Marksman Rifle semi-automático dobrável.
 - **Peso:** ~5,9 kg (confortável graças ao Grafted Muscle + Reinforced Tendons).
 - **Características principais:**
@@ -195,8 +197,35 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
   - Smart Suppressor Variable + Signature Masking.
   - Auto-Repair Nanites + ports de reparo rápido (Cyberarm).
 - **Função:** Cobertura precisa de avanço/retirada da crew + supressão leve de veículos/equipamentos não blindados.
+- **Par de plataforma:** [1b. Phantom Mk.II Foldable Sniper](#ghostwire-phantom-sniper) — secundária de alcance longo da mesma família.
+
+#### 1b. Secundária de alcance (par da DMR) — **Ghostwire Phantom Mk.II Foldable Sniper** (7.62x51 match / .300 opcional)
+
+<a id="ghostwire-phantom-sniper"></a>
+
+![Phantom Mk.II Sniper](../imagens/ryan/armas/ghostwire_phantom_mk2_sniper.jpg)
+
+- **Tipo:** Sniper rifle semi-automático de precisão long-range, dobrável (plataforma Phantom Mk.II compartilhada com a DMR).
+- **Peso:** ~7,2 kg desdobrado com escopo e bipé (~4,8 kg dobrado sem óptica pesada) — Grafted Muscle + Reinforced Tendons compensam o bulk.
+- **Relação com a DMR:** Corpo-irmão / config de alcance da primária — **não** substitui Vanguard, Breaker nem Shadowblades. Ryan leva a DMR no mid-range e monta o Sniper quando a crew precisa de overwatch ou eliminação limpa além do mid. Munição base **compatível** com a DMR (7.62x51); kit opcional .300 para jobs de penetração extra (não é AMR).
+- **Características principais:**
+  - Sistema dobrável (compacta para transporte no Warden / bolsa de job; desdobra em 3–4 segundos — um pouco mais lento que a DMR por causa do cano/freio).
+  - Cano longo de precisão + **supressor integrado** pesado (assinatura sonora/térmica mínima).
+  - Magazine **10 tiros** (opção 5 match-grade) — cadência deliberada, não semi de cobertura.
+  - Óptica de precisão (escopo variable) + rails; bipé dobrável; freio de boca hexagonal (ref visual).
+  - **Sem** underbarrel GL (diferente da DMR) — prioriza estabilidade e silhueta limpa de overwatch.
+- **Gimmicks Techie:**
+  - Ballistic Computer Overclock (longo alcance, vento, movimento, lead em alvos em deslocamento).
+  - Smart Suppressor Variable + Signature Masking (mesma família da DMR; modo “ghost shot” ainda mais quieto, ao custo de cadência).
+  - Auto-Repair Nanites + ports de reparo rápido (Cyberarm).
+  - Quick-swap de módulos / óptica com o corpo DMR no pack (quando o job permite setup pré-contato).
+  - Spotting link com **Vespas** (Hornet/Vesper): marcação de alvo em tempo real via Kiroshi + Neural Link.
+- **Função:** Precisão a longa distância; overwatch e eliminação silenciosa. A DMR cobre mid-range e suporte de avanço; o Sniper cobre o “além do mid”.
+- **Quando NÃO levar:** jobs CQB puros, infiltração ultra-leve, ou quando o pack só precisa de mid-range (aí a DMR sozinha basta).
 
 #### 2. Secundária Rápida — **Ghostwire Vanguard Heavy Pistol** (12.7mm / .50 AE)
+
+![Vanguard Heavy Pistol](../imagens/ryan/armas/ghostwire_vanguard_heavy_pistol.png)
 
 - **Tipo:** Very Heavy Pistol semi-automática custom.
 - **Carry:** Coldre de coxa rápido ou **Pop-up no Cyberarm direito**.
@@ -213,6 +242,8 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 
 #### 3. Terciária Surpresa / CQC — **Ghostwire Revolver Breaker** (Calibre 12 Revolving Shotgun)
 
+![Revolver Breaker](../imagens/ryan/armas/ghostwire_revolver_breaker.jpg)
+
 - **Tipo:** Escopeta curta revolving (cilindro giratório de 5-7 tiros).
 - **Carry:** Na bota (ankle rig) ou atrás da cintura (small of back) — quase invisível.
 - **Características principais:**
@@ -225,6 +256,8 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
   - Supressor adaptável + Signature Masking.
 
 #### 4. Arma Branca / Arremessável — **Ghostwire Shadowblades** (Conjunto de Lâminas de Arremesso)
+
+![Shadowblades](../imagens/ryan/armas/ghostwire_shadowblades.jpg)
 
 - **Tipo:** Conjunto de 6–8 lâminas/tubos afiados customizados (estilo kunai modernas + tubos com laterais afiadas).
 - **Carry:** Distribuidas em bainhas ocultas no antebraço (Cyberarm), cinto, bota e dentro do Warden (para recarga rápida).
@@ -246,7 +279,9 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 - **Quick-Mod Modular:** Troca de acessórios em segundos.
 - **Auto-Repair Nanites + Signature Masking:** Redução de manutenção e assinatura (térmica/sonora/EM).
 
-**Filosofia de Combate:** Ryan prioriza terminar o confronto o mais rápido e silenciosamente possível. Usa drones para intel, DMR para engajamento médio, Vanguard para quick-draw, Revolver Breaker para CQC devastador e Shadowblades para eliminações silenciosas ou arremessos surpresa. Tudo modular, reparável em campo e otimizado para máxima versatilidade.
+**Filosofia de Combate:** Ryan prioriza terminar o confronto o mais rápido e silenciosamente possível. Usa drones para intel, **DMR** para engajamento médio, **Phantom Sniper** para long-range / overwatch quando o mid-range não basta, Vanguard para quick-draw, Revolver Breaker para CQC devastador e Shadowblades para eliminações silenciosas ou arremessos surpresa. Tudo modular, reparável em campo e otimizado para máxima versatilidade.
+
+**Refs visuais de armas:** [imagens/ryan/armas/](../imagens/ryan/armas/)
 
 **Outros:** Bolsa de ferramentas, kit de reparo, componentes para drones, Agent.
 
@@ -309,9 +344,11 @@ Antigo cliente que deve vários favores a ele.
 | ------------- | ------------------------- | ------------------------------------------------------------------------------ |
 | **CQC**       | Close Quarters Combat     | Combate em distâncias muito curtas (dentro de salas, veículos, corpo a corpo). |
 | **CQB**       | Close Quarters Battle     | Versão mais militar de CQC — limpeza de ambientes confinados.                  |
-| **DMR**       | Designated Marksman Rifle | Rifle de precisão média para suporte à crew (o Phantom).                       |
-| **AMR**       | Anti-Materiel Rifle       | Rifle anti-material pesado (.50 BMG) — Ryan não usa.                           |
-| **Mid-range** | Distância média           | 50 ~ 400 metros (zona principal do Phantom).                                   |
+| **DMR**         | Designated Marksman Rifle | Rifle de precisão média (Phantom Mk.II DMR, 7.62, mag 20/30, + GL).            |
+| **Sniper**      | Precision long-range      | Phantom Mk.II Foldable Sniper — par da DMR (mag 10, sem GL, overwatch).         |
+| **AMR**         | Anti-Materiel Rifle       | Rifle anti-material pesado (.50 BMG) — Ryan **não** usa (Sniper não é AMR).    |
+| **Mid-range**   | Distância média           | ~50–400 m (zona principal da DMR).                                             |
+| **Long-range**  | Distância longa           | Além do mid — zona do Phantom Sniper (overwatch / eliminação limpa).           |
 | **Suppress**  | Supressão                 | Atirar para manter o inimigo abaixado.                                         |
 
 ## Referências
