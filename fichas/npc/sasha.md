@@ -22,7 +22,7 @@
 - Pistola nas incursões; não é soldado de formação, mas se equipa como quem já foi ao fogo.
 
 **Imagem de referência:**  
-![Sasha](../../imagens/Sasha.jpg)
+<img src="../../imagens/Sasha.jpg" width="220" alt="Sasha" />
 
 ## Eventos narrativos
 

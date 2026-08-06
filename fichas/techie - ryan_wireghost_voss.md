@@ -34,9 +34,9 @@ Seu visual transmite alguém que já passou por muita coisa e transformou o trau
 
 | Uso | Arquivo |
 | --- | ------- |
-| **Tático / operador** (Warden + Vespas) | ![Ryan tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) |
-| **Dia a dia / oficina** (roupa de trabalho) | ![Ryan casual](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png) |
-| **Máscara tática** (meia-face) | ![Máscara tática](../imagens/ryan/mascara_tatica.jpg) |
+| **Tático / operador** (Warden + Vespas) | <img src="../imagens/techie%20-%20ryan_wireghost_voss.jpg" width="220" alt="Ryan tático" /> |
+| **Dia a dia / oficina** (roupa de trabalho) | <img src="../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png" width="220" alt="Ryan casual" /> |
+| **Máscara tática** (meia-face) | <img src="../imagens/ryan/mascara_tatica.jpg" width="220" alt="Máscara tática" /> |
 | **Guarda-roupa por ocasião** | [ryan_guarda_roupas.md](ryan_guarda_roupas.md) · pasta [imagens/ryan/guarda_roupas/](../imagens/ryan/guarda_roupas/) |
 
 - Tático: [imagens/techie - ryan_wireghost_voss.jpg](../imagens/techie%20-%20ryan_wireghost_voss.jpg)
@@ -188,7 +188,7 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 
 | Token (~¼) | Resumo |
 | :---: | :--- |
-| <img src="../imagens/ryan/armas/tokens/ghostwire_phantom_mk2_dmr_token.jpg" width="150" alt="Phantom Mk.II DMR" /><br>[full-res](../imagens/ryan/armas/ghostwire_phantom_mk2_dmr.jpg) | **Tipo:** DMR semi-auto dobrável · **Peso:** ~5,9 kg<br>**Mag:** 20 (opc. 30) · **Função:** mid-range / cobertura da crew<br>**Par:** [Sniper 1b](#ghostwire-phantom-sniper) |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_phantom_mk2_dmr_token.jpg" width="140" alt="Phantom Mk.II DMR" /><br>[full-res](../imagens/ryan/armas/ghostwire_phantom_mk2_dmr.jpg) | **Tipo:** DMR semi-auto dobrável · **Peso:** ~5,9 kg<br>**Mag:** 20 (opc. 30) · **Função:** mid-range / cobertura da crew<br>**Par:** [Sniper 1b](#ghostwire-phantom-sniper) |
 
 - **Tipo:** Designated Marksman Rifle semi-automático dobrável.
 - **Peso:** ~5,9 kg (confortável graças ao Grafted Muscle + Reinforced Tendons).
@@ -235,7 +235,7 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 
 | Token (~¼) | Resumo |
 | :---: | :--- |
-| <img src="../imagens/ryan/armas/tokens/ghostwire_vanguard_heavy_pistol_token.jpg" width="100" alt="Vanguard Heavy Pistol" /><br>[full-res](../imagens/ryan/armas/ghostwire_vanguard_heavy_pistol.png) | **Tipo:** Very Heavy Pistol · **Mag:** 10–15<br>**Carry:** coldre de coxa ou pop-up Cyberarm<br>**Função:** quick-draw / CQB médio |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_vanguard_heavy_pistol_token.jpg" width="140" alt="Vanguard Heavy Pistol" /><br>[full-res](../imagens/ryan/armas/ghostwire_vanguard_heavy_pistol.png) | **Tipo:** Very Heavy Pistol · **Mag:** 10–15<br>**Carry:** coldre de coxa ou pop-up Cyberarm<br>**Função:** quick-draw / CQB médio |
 
 - **Tipo:** Very Heavy Pistol semi-automática custom.
 - **Carry:** Coldre de coxa rápido ou **Pop-up no Cyberarm direito**.
@@ -254,7 +254,7 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 
 | Token (~¼) | Resumo |
 | :---: | :--- |
-| <img src="../imagens/ryan/armas/tokens/ghostwire_revolver_breaker_token.jpg" width="120" alt="Revolver Breaker" /><br>[full-res](../imagens/ryan/armas/ghostwire_revolver_breaker.jpg) | **Tipo:** escopeta revolving cal. 12 · **Cilindro:** 5–7<br>**Carry:** bota / small of back<br>**Função:** CQC “punch solver” |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_revolver_breaker_token.jpg" width="140" alt="Revolver Breaker" /><br>[full-res](../imagens/ryan/armas/ghostwire_revolver_breaker.jpg) | **Tipo:** escopeta revolving cal. 12 · **Cilindro:** 5–7<br>**Carry:** bota / small of back<br>**Função:** CQC “punch solver” |
 
 - **Tipo:** Escopeta curta revolving (cilindro giratório de 5-7 tiros).
 - **Carry:** Na bota (ankle rig) ou atrás da cintura (small of back) — quase invisível.
@@ -271,7 +271,7 @@ Ryan carrega um loadout modular, versátil e altamente customizado, priorizando 
 
 | Token (~¼) | Resumo |
 | :---: | :--- |
-| <img src="../imagens/ryan/armas/tokens/ghostwire_shadowblades_token.jpg" width="150" alt="Shadowblades" /><br>[full-res](../imagens/ryan/armas/ghostwire_shadowblades.jpg) | **Tipo:** 6–8 lâminas de arremesso · **Alcance:** 8–15 m<br>**Carry:** antebraço / cinto / bota / Warden<br>**Função:** stealth kill + arremesso |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_shadowblades_token.jpg" width="140" alt="Shadowblades" /><br>[full-res](../imagens/ryan/armas/ghostwire_shadowblades.jpg) | **Tipo:** 6–8 lâminas de arremesso · **Alcance:** 8–15 m<br>**Carry:** antebraço / cinto / bota / Warden<br>**Função:** stealth kill + arremesso |
 
 - **Tipo:** Conjunto de 6–8 lâminas/tubos afiados customizados (estilo kunai modernas + tubos com laterais afiadas).
 - **Carry:** Distribuidas em bainhas ocultas no antebraço (Cyberarm), cinto, bota e dentro do Warden (para recarga rápida).

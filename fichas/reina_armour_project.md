@@ -60,9 +60,9 @@ _(Meta / design até o projeto estar ATIVO. Em cena só após entrega.)_
 
 | Estágio / sistema | Imagem |
 | ----------------- | ------ |
-| Estágio 1 (catsuit) | ![Estágio 1](../imagens/reina/reina_armour_1.jpg) |
-| Estágio 2 (exo) | ![Estágio 2](../imagens/reina/reina_armour_2.jpg) |
-| Bursts principais | ![Bursts](../imagens/reina/reina_bursts.jpg) |
+| Estágio 1 (catsuit) | <img src="../imagens/reina/reina_armour_1.jpg" width="220" alt="Estágio 1" /> |
+| Estágio 2 (exo) | <img src="../imagens/reina/reina_armour_2.jpg" width="220" alt="Estágio 2" /> |
+| Bursts principais | <img src="../imagens/reina/reina_bursts.jpg" width="220" alt="Bursts" /> |
 
 ---
 
@@ -70,7 +70,7 @@ _(Meta / design até o projeto estar ATIVO. Em cena só após entrega.)_
 
 ### Estágio 1 — Catsuit Reforçado (uso diário)
 
-![Estágio 1 — catsuit reforçado](../imagens/reina/reina_armour_1.jpg)
+<img src="../imagens/reina/reina_armour_1.jpg" width="220" alt="Estágio 1 — catsuit reforçado" />
 
 - Baseado no catsuit que ela já usa, elevado para padrão próximo de Nanosuit.
 - Material balístico + placas flexíveis/compósitos integrados.
@@ -91,7 +91,7 @@ _(Meta / design até o projeto estar ATIVO. Em cena só após entrega.)_
 
 ### Estágio 2 — Exoesqueleto Acoplável (modo combate)
 
-![Estágio 2 — exoesqueleto](../imagens/reina/reina_armour_2.jpg)
+<img src="../imagens/reina/reina_armour_2.jpg" width="220" alt="Estágio 2 — exoesqueleto" />
 
 - Transportado como **maleta grande** (~1 m × 60 cm, 28–32 kg) com alça reforçada.
 - Reina carrega a maleta a maior parte do tempo.
@@ -132,7 +132,7 @@ _(Meta / design até o projeto estar ATIVO. Em cena só após entrega.)_
 
 ## Sistema de Bursts
 
-![Bursts principais](../imagens/reina/reina_bursts.jpg)
+<img src="../imagens/reina/reina_bursts.jpg" width="220" alt="Bursts principais" />
 
 **Principais (costas):**
 

@@ -18,7 +18,7 @@
 - Arquétipo visual de ferreiro de estrada; trabalhou sozinho na forja muito tempo.
 
 **Imagem de referência:**  
-![Tio Gringo](../../imagens/Tio_Gringo.jpg)
+<img src="../../imagens/Tio_Gringo.jpg" width="220" alt="Tio Gringo" />
 
 - Retrato: [imagens/Tio_Gringo.jpg](../../imagens/Tio_Gringo.jpg)
 - Detalhe do braço/prótese (opcional): [imagens/Tio_Gringo_arm.jpg](../../imagens/Tio_Gringo_arm.jpg)

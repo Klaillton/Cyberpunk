@@ -18,7 +18,7 @@
 -
 
 **Imagem de referência (se houver em `imagens/`):**  
-![Nome](../../imagens/<arquivo>.jpg)
+<img src="../../imagens/<arquivo>.jpg" width="220" alt="Nome" />
 
 ## Eventos narrativos
 

@@ -1,7 +1,8 @@
 # Guarda-Roupa — Catálogo feminino (peças e silhuetas)
 
 **Pasta de imagens:** [imagens/crew/guarda_roupas/](../imagens/crew/guarda_roupas/)  
-**Curadoria:** Women Style + lotes pré-selecionados · **26 → ~194 looks** · IDs `#001`–`#194`
+**Curadoria:** Women Style + lotes pré-selecionados · **26 → ~194 looks** · IDs `#001`–`#194`  
+**Exibição:** looks em `<img width="320">` (HTML) — arquivos originais intactos.
 
 > **Foco absoluto: a roupa.**  
 > Use este arquivo para descrever **corte, tecido, cor, camadas, calçado e acessórios de vestuário**.  
@@ -64,11 +65,11 @@ Looks **com dona habitual** (atalhos — o resto do catálogo é pool sem dona):
 - [Combate / stealth / job](#cat-combate-stealth-job) (038–043, 6 looks)
 - [Tech / media](#cat-tech-media) (044–049, 6 looks)
 - [Gym / treino](#cat-gym-treino) (050–057, 8 looks)
-- [Lounge / sleep / casa](#cat-lounge-sleep-casa) (058–082, 25 looks)
-- [Íntimo / nightwear](#cat-intimo-nightwear) (083–088, 6 looks)
-- [Formal / office](#cat-formal-office) (089–111, 23 looks)
-- [Club / noite](#cat-club-noite) (112–122, 11 looks)
-- [Evening / gala](#cat-evening-gala) (123–143, 21 looks)
+- [Lounge / sleep / casa](#cat-lounge-sleep-casa) (058–083, 26 looks)
+- [Íntimo / nightwear](#cat-intimo-nightwear) (084–089, 6 looks)
+- [Formal / office](#cat-formal-office) (090–110, 21 looks)
+- [Club / noite](#cat-club-noite) (111–121, 11 looks)
+- [Evening / gala](#cat-evening-gala) (122–143, 22 looks)
 - [Soft / pack / fantasia](#cat-soft-pack-fantasia) (144–168, 25 looks)
 - [Medical / clínico](#cat-medical-clinico) (169–178, 10 looks)
 - [Swim / praia](#cat-swim-praia) (179–180, 2 looks)
@@ -197,92 +198,92 @@ Looks **com dona habitual** (atalhos — o resto do catálogo é pool sem dona):
 | **079** | [Sutiã lounge + cardigan](#look-079) | `lounge_bra_cardigan_shorts.jpg` | qualquer | Casa, manhã, lounge íntimo. |
 | **080** | [Onesie plush panda](#look-080) | `sleep_plush_onesie_panda.jpg` | qualquer | Sleep fofo, humor, downtime pack. |
 | **081** | [Robe rosa renda](#look-081) | `sleep_pink_lace_robe_set.jpg` | Reina / Valk | Sleep fashion, intimidade soft. |
-| **082** | [Cami floral branca + set](#look-082) | `sleep_white_floral_cami_set.jpg` | Valk / qualquer | Sleep, intimidade leve, casa. |
+| **082** | [Pijama cetim preto](#look-082) | `sleep_black_satin_pj_set.jpg` | qualquer | Casa, safehouse, sleep, pós-banho — não clube. |
+| **083** | [Cami floral branca + set](#look-083) | `sleep_white_floral_cami_set.jpg` | Valk / qualquer | Sleep, intimidade leve, casa. |
 
 <a id="cat-intimo-nightwear"></a>
 ### Íntimo / nightwear
 
 | # | Nome rápido | Arquivo | Vibe (sugestão) | Quando usar (resumo) |
 | -: | ----------- | ------- | --------------- | -------------------- |
-| **083** | [Robe sheer + sutiã](#look-083) | `intimate_black_sheer_robe.jpg` | Valk / intimidade | Intimidade, pós-banho ousado. |
-| **084** | [Set vinho renda](#look-084) | `intimate_burgundy_lace_set.jpg` | Valk / intimidade | Intimidade Ryan/Valk ou cena íntima; completar com robe s… |
-| **085** | [Tricô crop + fio](#look-085) | `intimate_knit_crop_thong.png` | Valk / intimidade | Intimidade / look ousado incompleto (ref). |
-| **086** | [Camisa sheer + fio](#look-086) | `intimate_sheer_shirt_thong.png` | Valk / intimidade | Intimidade, manhã ousada. |
-| **087** | [Tee branca + calcinha](#look-087) | `intimate_white_tee_panties.jpg` | Valk / intimidade | Intimidade; manhã ousada; completar com robe se quiser. |
-| **088** | [Babydoll sheer preto](#look-088) | `intimate_black_sheer_babydoll_ref.jpg` | Valk / intimidade | Intimidade, nightwear ousado. |
+| **084** | [Robe sheer + sutiã](#look-084) | `intimate_black_sheer_robe.jpg` | Valk / intimidade | Intimidade, pós-banho ousado. |
+| **085** | [Set vinho renda](#look-085) | `intimate_burgundy_lace_set.jpg` | Valk / intimidade | Intimidade Ryan/Valk ou cena íntima; completar com robe s… |
+| **086** | [Tricô crop + fio](#look-086) | `intimate_knit_crop_thong.png` | Valk / intimidade | Intimidade / look ousado incompleto (ref). |
+| **087** | [Camisa sheer + fio](#look-087) | `intimate_sheer_shirt_thong.png` | Valk / intimidade | Intimidade, manhã ousada. |
+| **088** | [Tee branca + calcinha](#look-088) | `intimate_white_tee_panties.jpg` | Valk / intimidade | Intimidade; manhã ousada; completar com robe se quiser. |
+| **089** | [Babydoll sheer preto](#look-089) | `intimate_black_sheer_babydoll_ref.jpg` | Valk / intimidade | Intimidade, nightwear ousado. |
 
 <a id="cat-formal-office"></a>
 ### Formal / office
 
 | # | Nome rápido | Arquivo | Vibe (sugestão) | Quando usar (resumo) |
 | -: | ----------- | ------- | --------------- | -------------------- |
-| **089** | [Blazer + saia](#look-089) | `formal_blazer_skirt.jpg` | qualquer | Cliente semi-formal, jantar elegante, “arrumada sem ser g… |
-| **090** | [Camisa office](#look-090) | `formal_shirt_office.jpg` | qualquer | Reunião, clínica, visual profissional de rua. |
-| **091** | [Roxo elegante](#look-091) | `formal_purple_elegant.jpg` | qualquer | Evento de gala com estética “fantasia urbana”. |
-| **092** | [Cream blazer + saia plissada](#look-092) | `formal_cream_pleat.jpg` | qualquer | Cliente semi-formal, café de negócios, “arrumada clara”. |
-| **093** | [Camisa + colete + saia couro](#look-093) | `formal_vest_leather_skirt.jpg` | Alex | Street-formal, entrevista ousada, visual “colete + saia”. |
-| **094** | [Wide-leg bege + crop listrado](#look-094) | `formal_wideleg_beige.jpg` | qualquer | Dia elegante em NC, reunião casual, silhueta de calça **a… |
-| **095** | [Formal — cape + saia plissada](#look-095) | `formal_cape_pleat_mini.jpg` | qualquer | Semi-formal ousado, jantar, clube elegante. |
-| **096** | [Formal — renda + midi bege](#look-096) | `formal_lace_beige_midi.jpg` | qualquer | Jantar, cliente semi-formal, visual elegante com **saia**… |
-| **097** | [Formal — pantsuit preto](#look-097) | `formal_black_pantsuit.jpg` | Alex | Reunião, corp, visual profissional completo (além da cami… |
-| **098** | [Formal — terno 3 peças](#look-098) | `formal_black_threepiece_suit.jpg` | Alex | Evento formal, corpo andrógino/power suit, cliente high-end. |
-| **099** | [Vest + saia plissada bege](#look-099) | `formal_vest_tan_pleat.jpg` | qualquer | Semi-formal, escritório casual, saída apresentável. |
-| **100** | [Navy gold mini](#look-100) | `formal_navy_gold_mini.jpg` | qualquer | Evento semi-formal, jantar, fantasia elegante. |
-| **101** | [Bermuda terno cinza + blazer](#look-101) | `formal_grey_bermuda_suit.jpg` | Alex | Formal verão, reunião corp, “power suit” sem calça longa. |
-| **102** | [Bermuda bege + blazer](#look-102) | `formal_beige_bermuda_blazer.jpg` | qualquer | Dia elegante, cliente semi-formal, street money. |
-| **103** | [Culotte bege + camisa crop](#look-103) | `formal_beige_culotte_crop.jpg` | qualquer | Formal verão largo (irmão da bermuda; silhueta mais longa… |
-| **104** | [Wide-leg branca crop](#look-104) | `formal_white_wideleg_crop.jpg` | qualquer | Soft formal, pack “arrumada”, **não** é bermuda (calça). |
-| **105** | [Camisa + calça couro](#look-105) | `formal_shirt_leather_harness.jpg` | Alex | Formal ousado, job de rua high-end, corpo. |
-| **106** | [Terno preto gravata vermelha](#look-106) | `formal_black_red_tie_suit.jpg` | Alex | Formal andrógino, evento, poder. |
-| **107** | [Camisa + gravata + harness](#look-107) | `formal_shirt_tie_harness.jpg` | Alex | Formal fetish-light, clube corp. |
-| **108** | [Casaco steampunk marrom](#look-108) | `formal_steampunk_brown_coat.jpg` | qualquer | Fantasia steampunk, formal dark. |
-| **109** | [Camisa branca + calça preta](#look-109) | `formal_white_shirt_black_pants.jpg` | Valk / qualquer | Office, formal simples, visual limpo. |
-| **110** | [Blazer preto + mini](#look-110) | `formal_black_blazer_mini.jpg` | Alex | Semi-formal, night out power, corpo. |
-| **111** | [Terno preto gravata vermelha](#look-111) | `formal_black_suit_red_tie_power.jpg` | Alex | Formal andrógino, evento, poder. |
+| **090** | [Blazer + saia](#look-090) | `formal_blazer_skirt.jpg` | qualquer | Cliente semi-formal, jantar elegante, “arrumada sem ser g… |
+| **091** | [Camisa office](#look-091) | `formal_shirt_office.jpg` | qualquer | Reunião, clínica, visual profissional de rua. |
+| **092** | [Roxo elegante](#look-092) | `formal_purple_elegant.jpg` | qualquer | Evento de gala com estética “fantasia urbana”. |
+| **093** | [Cream blazer + saia plissada](#look-093) | `formal_cream_pleat.jpg` | qualquer | Cliente semi-formal, café de negócios, “arrumada clara”. |
+| **094** | [Camisa + colete + saia couro](#look-094) | `formal_vest_leather_skirt.jpg` | Alex | Street-formal, entrevista ousada, visual “colete + saia”. |
+| **095** | [Wide-leg bege + crop listrado](#look-095) | `formal_wideleg_beige.jpg` | qualquer | Dia elegante em NC, reunião casual, silhueta de calça **a… |
+| **096** | [Formal — cape + saia plissada](#look-096) | `formal_cape_pleat_mini.jpg` | qualquer | Semi-formal ousado, jantar, clube elegante. |
+| **097** | [Formal — renda + midi bege](#look-097) | `formal_lace_beige_midi.jpg` | qualquer | Jantar, cliente semi-formal, visual elegante com **saia**… |
+| **098** | [Formal — pantsuit preto](#look-098) | `formal_black_pantsuit.jpg` | Alex | Reunião, corp, visual profissional completo (além da cami… |
+| **099** | [Formal — terno 3 peças](#look-099) | `formal_black_threepiece_suit.jpg` | Alex | Evento formal, corpo andrógino/power suit, cliente high-end. |
+| **100** | [Vest + saia plissada bege](#look-100) | `formal_vest_tan_pleat.jpg` | qualquer | Semi-formal, escritório casual, saída apresentável. |
+| **101** | [Navy gold mini](#look-101) | `formal_navy_gold_mini.jpg` | qualquer | Evento semi-formal, jantar, fantasia elegante. |
+| **102** | [Bermuda terno cinza + blazer](#look-102) | `formal_grey_bermuda_suit.jpg` | Alex | Formal verão, reunião corp, “power suit” sem calça longa. |
+| **103** | [Bermuda bege + blazer](#look-103) | `formal_beige_bermuda_blazer.jpg` | qualquer | Dia elegante, cliente semi-formal, street money. |
+| **104** | [Culotte bege + camisa crop](#look-104) | `formal_beige_culotte_crop.jpg` | qualquer | Formal verão largo (irmão da bermuda; silhueta mais longa… |
+| **105** | [Wide-leg branca crop](#look-105) | `formal_white_wideleg_crop.jpg` | qualquer | Soft formal, pack “arrumada”, **não** é bermuda (calça). |
+| **106** | [Camisa + calça couro](#look-106) | `formal_shirt_leather_harness.jpg` | Alex | Formal ousado, job de rua high-end, corpo. |
+| **107** | [Terno preto gravata vermelha](#look-107) | `formal_black_red_tie_suit.jpg` | Alex | Formal andrógino, evento, poder. |
+| **108** | [Camisa + gravata + harness](#look-108) | `formal_shirt_tie_harness.jpg` | Alex | Formal fetish-light, clube corp. |
+| **109** | [Casaco steampunk marrom](#look-109) | `formal_steampunk_brown_coat.jpg` | qualquer | Fantasia steampunk, formal dark. |
+| **110** | [Camisa branca + calça preta](#look-110) | `formal_white_shirt_black_pants.jpg` | Valk / qualquer | Office, formal simples, visual limpo. |
 
 <a id="cat-club-noite"></a>
 ### Club / noite
 
 | # | Nome rápido | Arquivo | Vibe (sugestão) | Quando usar (resumo) |
 | -: | ----------- | ------- | --------------- | -------------------- |
-| **112** | [Corset + platform](#look-112) | `club_corset_platform.png` | Alex | Clube, corpo, noite ousada. |
-| **113** | [Goth plaid](#look-113) | `club_goth_plaid.png` | Alex | Night out alt/goth. |
-| **114** | [Casaco gótico](#look-114) | `club_gothic_coat.jpg` | Alex | Clube high-end, visual dark dramático. |
-| **115** | [Mini preto ombro a ombro](#look-115) | `club_black_minidress.jpg` | Alex | Clube, jantar ousado, night out minimalista. |
-| **116** | [Catsuit canelado costas abertas](#look-116) | `club_ribbed_openback_catsuit.png` | Alex | Clube, corpo, visual bodycon ousado (sem calça solta). |
-| **117** | [Club — corset + short couro + OTK](#look-117) | `club_corset_leather_shorts.png` | Alex | Clube, noite ousada (parecido com club_corset_platform; s… |
-| **118** | [Club — goth short + casaco](#look-118) | `club_goth_leather_shorts.jpg` | Alex | Clube goth, night out dramático **com short**. |
-| **119** | [Club — bra + jaqueta + mini](#look-119) | `club_bra_jacket_pleat.jpg` | Alex | Clube ousado — **só se a cena pedir** exposição alta. |
-| **120** | [Club strapless mini](#look-120) | `club_black_strapless_mini.jpg` | Alex | Clube, noite minimalista ousada. |
-| **121** | [Halter couro + mini](#look-121) | `club_black_leather_harness_mini.png` | Alex | Clube, night out ousado. |
-| **122** | [Vestido preto correntes](#look-122) | `club_black_chain_mermaid.jpg` | Alex | Clube high-end, corpo. |
+| **111** | [Corset + platform](#look-111) | `club_corset_platform.png` | Alex | Clube, corpo, noite ousada. |
+| **112** | [Goth plaid](#look-112) | `club_goth_plaid.png` | Alex | Night out alt/goth. |
+| **113** | [Casaco gótico](#look-113) | `club_gothic_coat.jpg` | Alex | Clube high-end, visual dark dramático. |
+| **114** | [Mini preto ombro a ombro](#look-114) | `club_black_minidress.jpg` | Alex | Clube, jantar ousado, night out minimalista. |
+| **115** | [Catsuit canelado costas abertas](#look-115) | `club_ribbed_openback_catsuit.png` | Alex | Clube, corpo, visual bodycon ousado (sem calça solta). |
+| **116** | [Club — corset + short couro + OTK](#look-116) | `club_corset_leather_shorts.png` | Alex | Clube, noite ousada (parecido com club_corset_platform; s… |
+| **117** | [Club — goth short + casaco](#look-117) | `club_goth_leather_shorts.jpg` | Alex | Clube goth, night out dramático **com short**. |
+| **118** | [Club — bra + jaqueta + mini](#look-118) | `club_bra_jacket_pleat.jpg` | Alex | Clube ousado — **só se a cena pedir** exposição alta. |
+| **119** | [Club strapless mini](#look-119) | `club_black_strapless_mini.jpg` | Alex | Clube, noite minimalista ousada. |
+| **120** | [Halter couro + mini](#look-120) | `club_black_leather_harness_mini.png` | Alex | Clube, night out ousado. |
+| **121** | [Vestido preto correntes](#look-121) | `club_black_chain_mermaid.jpg` | Alex | Clube high-end, corpo. |
 
 <a id="cat-evening-gala"></a>
 ### Evening / gala
 
 | # | Nome rápido | Arquivo | Vibe (sugestão) | Quando usar (resumo) |
 | -: | ----------- | ------- | --------------- | -------------------- |
-| **123** | [Gown preto](#look-123) | `evening_gown_black.jpg` | Reina | Gala, corpo, evento formal de alto nível. |
-| **124** | [Fenda preta](#look-124) | `evening_slit_dress.jpg` | Reina | Variante de evening mais ousada e minimalista. |
-| **125** | [Qipao / cheongsam](#look-125) | `evening_qipao_black.jpg` | Reina | Evento formal com estética leste-asiática / ousado estrut… |
-| **126** | [Gown vermelho](#look-126) | `evening_red_gown.jpg` | Reina | Gala quente, destaque visual vermelho. |
-| **127** | [Purple satin slit](#look-127) | `evening_purple_satin_slit.jpg` | Reina | Gala, jantar alto, destaque roxo. |
-| **128** | [Black cross slit](#look-128) | `evening_black_cross_slit.jpg` | Reina | Evening ousado, corpo, gala. |
-| **129** | [Cream satin mini](#look-129) | `evening_cream_satin_mini.jpg` | Reina | Date, jantar, evening soft. |
-| **130** | [White hooded gown](#look-130) | `evening_white_hooded_gown.png` | Reina | Gala fantasia, evento cerimonial. |
-| **131** | [Black hooded gown](#look-131) | `evening_black_hooded_gown.png` | Reina | Evening dark, fantasia, inverno dramático. |
-| **132** | [White qipao](#look-132) | `evening_white_qipao.jpg` | Reina | Evening ousado estruturado (variante clara do qipao preto). |
-| **133** | [Evening — halter longo fenda](#look-133) | `evening_black_halter_long_slit.jpg` | Reina | Noite elegante, evening com mobilidade, visual “longo mas… |
-| **134** | [Velvet black lace](#look-134) | `evening_black_velvet_lace.jpg` | Reina | Gala, evening clássico. |
-| **135** | [Sparkle black gown](#look-135) | `evening_black_sparkle_gown.jpg` | Reina | Gala high-end. |
-| **136** | [Blue one-shoulder gown](#look-136) | `evening_blue_oneshoulder_gown.jpg` | Reina | Gala, evening colorido. |
-| **137** | [Vestido rosa + capa](#look-137) | `evening_pink_nightgown_cape.jpg` | Reina | Gala soft, nightwear elegante. |
-| **138** | [Gown preto estrelas](#look-138) | `evening_black_star_gown.jpg` | Reina | Gala, fantasia celestial. |
-| **139** | [Gown branco penas](#look-139) | `evening_white_feather_gown.jpg` | Reina | Gala, fantasia angelical. |
-| **140** | [Gown lilás estrelas](#look-140) | `evening_lilac_star_gown.jpg` | Reina | Gala, fantasia. |
-| **141** | [Gown branco corset](#look-141) | `evening_white_corset_gown.jpg` | Reina | Gala romântica, fantasia. |
-| **142** | [Mermaid glitter preta](#look-142) | `evening_black_mermaid_glitter.jpg` | Reina | Gala, evening high-end. |
-| **143** | [Cape + corset preto](#look-143) | `evening_black_cape_corset.jpg` | Reina / Alex | Evening dramático, clube high-end, fantasia. |
+| **122** | [Gown preto](#look-122) | `evening_gown_black.jpg` | Reina | Gala, corpo, evento formal de alto nível. |
+| **123** | [Fenda preta](#look-123) | `evening_slit_dress.jpg` | Reina | Variante de evening mais ousada e minimalista. |
+| **124** | [Qipao / cheongsam](#look-124) | `evening_qipao_black.jpg` | Reina | Evento formal com estética leste-asiática / ousado estrut… |
+| **125** | [Gown vermelho](#look-125) | `evening_red_gown.jpg` | Reina | Gala quente, destaque visual vermelho. |
+| **126** | [Purple satin slit](#look-126) | `evening_purple_satin_slit.jpg` | Reina | Gala, jantar alto, destaque roxo. |
+| **127** | [Black cross slit](#look-127) | `evening_black_cross_slit.jpg` | Reina | Evening ousado, corpo, gala. |
+| **128** | [Cream satin mini](#look-128) | `evening_cream_satin_mini.jpg` | Reina | Date, jantar, evening soft. |
+| **129** | [White hooded gown](#look-129) | `evening_white_hooded_gown.png` | Reina | Gala fantasia, evento cerimonial. |
+| **130** | [Black hooded gown](#look-130) | `evening_black_hooded_gown.png` | Reina | Evening dark, fantasia, inverno dramático. |
+| **131** | [White qipao](#look-131) | `evening_white_qipao.jpg` | Reina | Evening ousado estruturado (variante clara do qipao preto). |
+| **132** | [Evening — halter longo fenda](#look-132) | `evening_black_halter_long_slit.jpg` | Reina | Noite elegante, evening com mobilidade, visual “longo mas… |
+| **133** | [Velvet black lace](#look-133) | `evening_black_velvet_lace.jpg` | Reina | Gala, evening clássico. |
+| **134** | [Sparkle black gown](#look-134) | `evening_black_sparkle_gown.jpg` | Reina | Gala high-end. |
+| **135** | [Blue one-shoulder gown](#look-135) | `evening_blue_oneshoulder_gown.jpg` | Reina | Gala, evening colorido. |
+| **136** | [Vestido rosa + capa](#look-136) | `evening_pink_nightgown_cape.jpg` | Reina | Gala soft, nightwear elegante. |
+| **137** | [Gown preto estrelas](#look-137) | `evening_black_star_gown.jpg` | Reina | Gala, fantasia celestial. |
+| **138** | [Gown branco penas](#look-138) | `evening_white_feather_gown.jpg` | Reina | Gala, fantasia angelical. |
+| **139** | [Gown lilás estrelas](#look-139) | `evening_lilac_star_gown.jpg` | Reina | Gala, fantasia. |
+| **140** | [Gown branco corset](#look-140) | `evening_white_corset_gown.jpg` | Reina | Gala romântica, fantasia. |
+| **141** | [Mermaid glitter preta](#look-141) | `evening_black_mermaid_glitter.jpg` | Reina | Gala, evening high-end. |
+| **142** | [Cape + corset preto](#look-142) | `evening_black_cape_corset.jpg` | Reina / Alex | Evening dramático, clube high-end, fantasia. |
+| **143** | [Mini vinho corset dourado](#look-143) | `evening_wine_corset_mini.jpg` | qualquer | Evening fantasy, evento temático, gala ousada curta. |
 
 <a id="cat-soft-pack-fantasia"></a>
 ### Soft / pack / fantasia
@@ -353,7 +354,7 @@ Looks **com dona habitual** (atalhos — o resto do catálogo é pool sem dona):
 | **187** | [Especial — school shirt + saia](#look-187) | `special_school_shirt_pleat.jpg` | cena especial | **Só** fantasia/roleplay — não default de personagem. |
 | **188** | [Especial — school vest + saia vermelha](#look-188) | `special_school_vest_red_skirt.jpg` | cena especial | Fantasia/uniforme estilizado — **não** job. |
 | **189** | [Mini angelical branca](#look-189) | `special_white_gold_angel_mini.jpg` | cena especial | Costume, especial, clube temático. |
-| **190** | [Bodysuit harness preto](#look-190) | `special_black_harness_bodysuit.jpg` | Alex / cena especial | Clube, corpo, especial — não default de job. |
+| **190** | [Cosplay borboleta](#look-190) | `special_butterfly_wing_set.jpg` | cena especial | Costume, cosplay, fantasia de evento — **não** default de… |
 
 <a id="cat-pecas-completar"></a>
 ### Peças (completar)
@@ -401,10 +402,10 @@ Mesmos **#** do índice principal — silhueta curta / uma peça curta.
 | **078** | [Tee ombro + boyshort](#look-078) | `sleep_black_offshoulder_boyshort.png` |
 | **079** | [Sutiã lounge + cardigan](#look-079) | `lounge_bra_cardigan_shorts.jpg` |
 | **080** | [Onesie plush panda](#look-080) | `sleep_plush_onesie_panda.jpg` |
-| **101** | [Bermuda terno cinza + blazer](#look-101) | `formal_grey_bermuda_suit.jpg` |
-| **102** | [Bermuda bege + blazer](#look-102) | `formal_beige_bermuda_blazer.jpg` |
-| **117** | [Club — corset + short couro + OTK](#look-117) | `club_corset_leather_shorts.png` |
-| **118** | [Club — goth short + casaco](#look-118) | `club_goth_leather_shorts.jpg` |
+| **102** | [Bermuda terno cinza + blazer](#look-102) | `formal_grey_bermuda_suit.jpg` |
+| **103** | [Bermuda bege + blazer](#look-103) | `formal_beige_bermuda_blazer.jpg` |
+| **116** | [Club — corset + short couro + OTK](#look-116) | `club_corset_leather_shorts.png` |
+| **117** | [Club — goth short + casaco](#look-117) | `club_goth_leather_shorts.jpg` |
 | **159** | [Soft — steampunk short + cauda](#look-159) | `soft_steampunk_shorts_coat.jpg` |
 
 ---
@@ -417,7 +418,7 @@ Mesmos **#** do índice principal — silhueta curta / uma peça curta.
 **Arquivo:** `badlands_tactical.jpg`  
 **Nome rápido:** Tático / scav · **#001**
 **Combina com (sugestão):** Valk / Alex / pack  
-![badlands tactical](../imagens/crew/guarda_roupas/badlands_tactical.jpg)
+<img src="../imagens/crew/guarda_roupas/badlands_tactical.jpg" width="320" alt="badlands tactical" />
 
 ### Descrição visual (roupa)
 - Casaco/trench **verde-oliva** longo, aberto, bolsos grandes  
@@ -438,7 +439,7 @@ Campo, scav, perímetro, deslocamento em Badlands com visual “pronta para o te
 **Arquivo:** `badlands_utility.jpg`  
 **Nome rápido:** Utilitário / pack · **#002**
 **Combina com (sugestão):** Valk / Alex / pack  
-![badlands utility](../imagens/crew/guarda_roupas/badlands_utility.jpg)
+<img src="../imagens/crew/guarda_roupas/badlands_utility.jpg" width="320" alt="badlands utility" />
 
 ### Descrição visual (roupa)
 - Boné  
@@ -458,7 +459,7 @@ Dia a dia de acampamento, oficina, patrulha leve, trabalho prático.
 **Arquivo:** `badlands_casual_nomad.jpg`  
 **Nome rápido:** Casual nomad · **#003**
 **Combina com (sugestão):** Valk / Alex / pack  
-![badlands casual](../imagens/crew/guarda_roupas/badlands_casual_nomad.jpg)
+<img src="../imagens/crew/guarda_roupas/badlands_casual_nomad.jpg" width="320" alt="badlands casual" />
 
 ### Descrição visual (roupa)
 - Top esportivo / crop sem mangas (azul ou similar)  
@@ -475,8 +476,8 @@ Folga no pack, fogueira, visual nomad descontraído.
 ## Crop militar + short (frente / costas)
 
 **Arquivos:** `badlands_crop_shorts.jpg` · `badlands_crop_shorts_rear.jpg`  
-![badlands crop front](../imagens/crew/guarda_roupas/badlands_crop_shorts.jpg)  
-![badlands crop rear](../imagens/crew/guarda_roupas/badlands_crop_shorts_rear.jpg)
+<img src="../imagens/crew/guarda_roupas/badlands_crop_shorts.jpg" width="320" alt="badlands crop front" />  
+<img src="../imagens/crew/guarda_roupas/badlands_crop_shorts_rear.jpg" width="320" alt="badlands crop rear" />
 
 ### Descrição visual (roupa)
 - Jaqueta **crop** militar verde-oliva, gola, zíper, patches de ombro  
@@ -496,7 +497,7 @@ Campo quente, patrulha leve, visual militar-casual **sem calça longa** — silh
 **Arquivo:** `utility_olive_romper.jpg`  
 **Nome rápido:** Macaquinho utilitário oliva · **#004**
 **Combina com (sugestão):** Valk / pack  
-![utility olive romper](../imagens/crew/guarda_roupas/utility_olive_romper.jpg)
+<img src="../imagens/crew/guarda_roupas/utility_olive_romper.jpg" width="320" alt="utility olive romper" />
 
 ### Descrição visual (roupa)
 - Macaquinho/jumpsuit curto **oliva**, manga curta, colarinho  
@@ -515,7 +516,7 @@ Trabalho prático, oficina ao ar livre, visual utilitário “de uma peça só�
 **Arquivo:** `badlands_floral_maxi.jpg`  
 **Nome rápido:** Maxi floral + botas · **#005**
 **Combina com (sugestão):** Valk / Alex / pack  
-![badlands floral maxi](../imagens/crew/guarda_roupas/badlands_floral_maxi.jpg)
+<img src="../imagens/crew/guarda_roupas/badlands_floral_maxi.jpg" width="320" alt="badlands floral maxi" />
 
 ### Descrição visual (roupa)
 - Vestido longo floral (fundo azul-acinzentado, flores rosadas)  
@@ -536,7 +537,7 @@ Pack em folga, Badlands “arrumada”, contraste feminino com o deserto — sem
 **Arquivo:** `street_cargo_athletic.jpg`  
 **Nome rápido:** Cargo atlético · **#006**
 **Combina com (sugestão):** qualquer  
-![street cargo](../imagens/crew/guarda_roupas/street_cargo_athletic.jpg)
+<img src="../imagens/crew/guarda_roupas/street_cargo_athletic.jpg" width="320" alt="street cargo" />
 
 ### Descrição visual (roupa)
 - Crop top preto, gola alta, costas/ombros descobertos (halter)  
@@ -556,7 +557,7 @@ Rua, deslocamento urbano, visual street atlético.
 **Arquivo:** `street_allblack_set.png`  
 **Nome rápido:** All-black set · **#007**
 **Combina com (sugestão):** Alex / Valk  
-![all black](../imagens/crew/guarda_roupas/street_allblack_set.png)
+<img src="../imagens/crew/guarda_roupas/street_allblack_set.png" width="320" alt="all black" />
 
 ### Descrição visual (roupa)
 - Top halter preto com **cadarço/lace-up** na frente  
@@ -576,7 +577,7 @@ Saída urbana “tudo preto”, base de street fashion.
 **Arquivo:** `street_alt_plaid.jpg`  
 **Nome rápido:** Alt plaid · **#008**
 **Combina com (sugestão):** qualquer  
-![alt plaid](../imagens/crew/guarda_roupas/street_alt_plaid.jpg)
+<img src="../imagens/crew/guarda_roupas/street_alt_plaid.jpg" width="320" alt="alt plaid" />
 
 ### Descrição visual (roupa)
 - Camisa xadrez **roxa/lilás** cropped, aberta  
@@ -596,7 +597,7 @@ Night out casual, bar, vibe alt.
 **Arquivo:** `street_leather_trench.jpg`  
 **Nome rápido:** Leather trench · **#009**
 **Combina com (sugestão):** Alex / Valk  
-![leather trench](../imagens/crew/guarda_roupas/street_leather_trench.jpg)
+<img src="../imagens/crew/guarda_roupas/street_leather_trench.jpg" width="320" alt="leather trench" />
 
 ### Descrição visual (roupa)
 - Trench/casaco de **couro preto**, botões duplos, ombreiras estruturadas  
@@ -616,7 +617,7 @@ Noite em Night City, visual edgerunner elegante, presença forte sem kit de comb
 **Arquivo:** `street_hoodie_pleat.jpg`  
 **Nome rápido:** Hoodie + saia · **#010**
 **Combina com (sugestão):** qualquer  
-![hoodie pleat](../imagens/crew/guarda_roupas/street_hoodie_pleat.jpg)
+<img src="../imagens/crew/guarda_roupas/street_hoodie_pleat.jpg" width="320" alt="hoodie pleat" />
 
 ### Descrição visual (roupa)
 - Moletom cropped **vermelho e preto**, capuz, cordões  
@@ -635,7 +636,7 @@ Street fashion jovem, folga urbana, visual casual ousado.
 **Arquivo:** `street_mocha_romper.jpg`  
 **Nome rápido:** Mocha romper · **#011**
 **Combina com (sugestão):** qualquer  
-![mocha romper](../imagens/crew/guarda_roupas/street_mocha_romper.jpg)
+<img src="../imagens/crew/guarda_roupas/street_mocha_romper.jpg" width="320" alt="mocha romper" />
 
 ### Descrição visual (roupa)
 - Macaquinho canelado **marrom/mocha**, manga curta  
@@ -654,7 +655,7 @@ Rua, deslocamento leve, visual bodycon casual sem calça.
 **Arquivo:** `street_tee_belt_dress.jpg`  
 **Nome rápido:** Tee oversized + cinto · **#012**
 **Combina com (sugestão):** qualquer  
-![tee belt dress](../imagens/crew/guarda_roupas/street_tee_belt_dress.jpg)
+<img src="../imagens/crew/guarda_roupas/street_tee_belt_dress.jpg" width="320" alt="tee belt dress" />
 
 ### Descrição visual (roupa)
 - Camiseta oversized branca usada como mini-vestido  
@@ -673,7 +674,7 @@ Street minimal, saída rápida, vibe “camiseta virada look”.
 **Arquivo:** `street_floral_kimono.jpg`  
 **Nome rápido:** Kimono floral + short · **#013**
 **Combina com (sugestão):** qualquer  
-![floral kimono](../imagens/crew/guarda_roupas/street_floral_kimono.jpg)
+<img src="../imagens/crew/guarda_roupas/street_floral_kimono.jpg" width="320" alt="floral kimono" />
 
 ### Descrição visual (roupa)
 - Kimono/robe longo **vermelho floral** aberto  
@@ -692,7 +693,7 @@ Noite de rua, festival, visual boho-urbano.
 **Arquivo:** `street_plaid_leather_mini.jpg`  
 **Nome rápido:** Plaid + mini couro + OTK · **#014**
 **Combina com (sugestão):** Alex / Valk  
-![plaid leather mini](../imagens/crew/guarda_roupas/street_plaid_leather_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/street_plaid_leather_mini.jpg" width="320" alt="plaid leather mini" />
 
 ### Descrição visual (roupa)
 - Camisa flannel **xadrez vermelho/preto**, nó na cintura ou aberta  
@@ -713,7 +714,7 @@ Bar, night out, street ousado com saia (não calça).
 **Arquivo:** `casual_plaid_denim_shorts.jpg`  
 **Nome rápido:** Plaid + short jeans · **#028**
 **Combina com (sugestão):** qualquer  
-![plaid denim shorts](../imagens/crew/guarda_roupas/casual_plaid_denim_shorts.jpg)
+<img src="../imagens/crew/guarda_roupas/casual_plaid_denim_shorts.jpg" width="320" alt="plaid denim shorts" />
 
 ### Descrição visual (roupa)
 - Camisa flannel **vermelha/preta**, nó na barra  
@@ -731,7 +732,7 @@ Dia a dia pack/NC, visual “camisa de lenhador + short”.
 **Arquivo:** `casual_denim_overalls.jpg`  
 **Nome rápido:** Jardineira jeans curta · **#029**
 **Combina com (sugestão):** qualquer  
-![denim overalls](../imagens/crew/guarda_roupas/casual_denim_overalls.jpg)
+<img src="../imagens/crew/guarda_roupas/casual_denim_overalls.jpg" width="320" alt="denim overalls" />
 
 ### Descrição visual (roupa)
 - Jardineira/overall **jeans clara**, comprimento short  
@@ -750,7 +751,7 @@ Folga, oficina leve, visual casual prático.
 **Arquivo:** `casual_tank_denim_shorts.jpg`  
 **Nome rápido:** Tank + short jeans · **#030**
 **Combina com (sugestão):** qualquer  
-![tank denim shorts](../imagens/crew/guarda_roupas/casual_tank_denim_shorts.jpg)
+<img src="../imagens/crew/guarda_roupas/casual_tank_denim_shorts.jpg" width="320" alt="tank denim shorts" />
 
 ### Descrição visual (roupa)
 - Tank/top canelado escuro, decote V  
@@ -769,7 +770,7 @@ Calor, rua casual, pack em folga.
 **Arquivo:** `casual_tank_denim_shorts_alt.png`  
 **Nome rápido:** Tank + short jeans · **#031**
 **Combina com (sugestão):** qualquer  
-![tank denim alt](../imagens/crew/guarda_roupas/casual_tank_denim_shorts_alt.png)
+<img src="../imagens/crew/guarda_roupas/casual_tank_denim_shorts_alt.png" width="320" alt="tank denim alt" />
 
 ### Descrição visual (roupa)
 - Tank branco justo  
@@ -787,7 +788,7 @@ Variante limpa do tank + short; verão / Badlands dia.
 **Arquivo:** `casual_offshoulder_microshorts.jpg`  
 **Nome rápido:** Crop off-shoulder + micro short · **#032**
 **Combina com (sugestão):** qualquer  
-![offshoulder micro](../imagens/crew/guarda_roupas/casual_offshoulder_microshorts.jpg)
+<img src="../imagens/crew/guarda_roupas/casual_offshoulder_microshorts.jpg" width="320" alt="offshoulder micro" />
 
 ### Descrição visual (roupa)
 - Crop off-shoulder marrom, manga longa, zíper e detalhe metálico  
@@ -805,7 +806,7 @@ Street ousado, clube casual, visual “crop + short” sem calça.
 **Arquivo:** `casual_plaid_shorts_video.png`  
 **Nome rápido:** Plaid + short · **#033**
 **Combina com (sugestão):** qualquer  
-![plaid shorts video](../imagens/crew/guarda_roupas/casual_plaid_shorts_video.png)
+<img src="../imagens/crew/guarda_roupas/casual_plaid_shorts_video.png" width="320" alt="plaid shorts video" />
 
 ### Descrição visual (roupa)
 - Mesma vibe de flannel xadrez vermelho com nó + short jeans  
@@ -824,7 +825,7 @@ Igual `casual_plaid_denim_shorts` — ref. alternativa do mesmo look.
 **Arquivo:** `lounge_grey_set.jpg`  
 **Nome rápido:** Conjunto moletom cinza · **#058**
 **Combina com (sugestão):** qualquer  
-![lounge grey](../imagens/crew/guarda_roupas/lounge_grey_set.jpg)
+<img src="../imagens/crew/guarda_roupas/lounge_grey_set.jpg" width="320" alt="lounge grey" />
 
 ### Descrição visual (roupa)
 - Crop moletom cinza, ombro a ombro / decote V  
@@ -842,7 +843,7 @@ Casa, safehouse, manhã preguiçosa, downtime.
 **Arquivo:** `lounge_hoodie_shorts.jpg`  
 **Nome rápido:** Hoodie cropped + short moletom · **#059**
 **Combina com (sugestão):** qualquer  
-![lounge hoodie](../imagens/crew/guarda_roupas/lounge_hoodie_shorts.jpg)
+<img src="../imagens/crew/guarda_roupas/lounge_hoodie_shorts.jpg" width="320" alt="lounge hoodie" />
 
 ### Descrição visual (roupa)
 - Hoodie cropped cinza com zíper, caído num ombro  
@@ -863,7 +864,7 @@ Lounge fashion, casa NC, visual “acordei e saí assim”.
 **Arquivo:** `tech_netrunner_pink.jpg`  
 **Nome rápido:** Netrunner · **#044**
 **Combina com (sugestão):** Echo / qualquer  
-![tech pink](../imagens/crew/guarda_roupas/tech_netrunner_pink.jpg)
+<img src="../imagens/crew/guarda_roupas/tech_netrunner_pink.jpg" width="320" alt="tech pink" />
 
 ### Descrição visual (roupa)
 - Jaqueta curta **rosa**  
@@ -883,7 +884,7 @@ Visual tech/netrunner, clube tech, job de rua com estética cyber.
 **Arquivo:** `tech_crop_jacket.jpg`  
 **Nome rápido:** Crop + jaqueta tech · **#045**
 **Combina com (sugestão):** Echo / qualquer  
-![tech crop](../imagens/crew/guarda_roupas/tech_crop_jacket.jpg)
+<img src="../imagens/crew/guarda_roupas/tech_crop_jacket.jpg" width="320" alt="tech crop" />
 
 ### Descrição visual (roupa)
 - Crop top preto com zíperes e detalhes rosa, gola alta  
@@ -898,13 +899,13 @@ Variante street-tech, saída fashion cyber.
 
 # CLUBE / NOITE
 
-<a id="look-112"></a>
-## 112 · Corset + platform
+<a id="look-111"></a>
+## 111 · Corset + platform
 
 **Arquivo:** `club_corset_platform.png`  
-**Nome rápido:** Corset + platform · **#112**
+**Nome rápido:** Corset + platform · **#111**
 **Combina com (sugestão):** Alex  
-![club corset](../imagens/crew/guarda_roupas/club_corset_platform.png)
+<img src="../imagens/crew/guarda_roupas/club_corset_platform.png" width="320" alt="club corset" />
 
 ### Descrição visual (roupa)
 - Corset/top preto off-shoulder, cadarço frontal, mangas longas tipo sino  
@@ -916,13 +917,13 @@ Clube, corpo, noite ousada.
 
 ---
 
-<a id="look-113"></a>
-## 113 · Goth plaid
+<a id="look-112"></a>
+## 112 · Goth plaid
 
 **Arquivo:** `club_goth_plaid.png`  
-**Nome rápido:** Goth plaid · **#113**
+**Nome rápido:** Goth plaid · **#112**
 **Combina com (sugestão):** Alex  
-![goth plaid](../imagens/crew/guarda_roupas/club_goth_plaid.png)
+<img src="../imagens/crew/guarda_roupas/club_goth_plaid.png" width="320" alt="goth plaid" />
 
 ### Descrição visual (roupa)
 - Top/vestido com corset e saia **xadrez** assimétrica (preto e cinza)  
@@ -935,13 +936,13 @@ Night out alt/goth.
 
 ---
 
-<a id="look-114"></a>
-## 114 · Casaco gótico
+<a id="look-113"></a>
+## 113 · Casaco gótico
 
 **Arquivo:** `club_gothic_coat.jpg`  
-**Nome rápido:** Casaco gótico · **#114**
+**Nome rápido:** Casaco gótico · **#113**
 **Combina com (sugestão):** Alex  
-![gothic coat](../imagens/crew/guarda_roupas/club_gothic_coat.jpg)
+<img src="../imagens/crew/guarda_roupas/club_gothic_coat.jpg" width="320" alt="gothic coat" />
 
 ### Descrição visual (roupa)
 - Sobretudo longo preto com detalhes/forro **vermelho**  
@@ -954,13 +955,13 @@ Clube high-end, visual dark dramático.
 
 ---
 
-<a id="look-115"></a>
-## 115 · Mini preto ombro a ombro
+<a id="look-114"></a>
+## 114 · Mini preto ombro a ombro
 
 **Arquivo:** `club_black_minidress.jpg`  
-**Nome rápido:** Mini preto ombro a ombro · **#115**
+**Nome rápido:** Mini preto ombro a ombro · **#114**
 **Combina com (sugestão):** Alex  
-![black minidress](../imagens/crew/guarda_roupas/club_black_minidress.jpg)
+<img src="../imagens/crew/guarda_roupas/club_black_minidress.jpg" width="320" alt="black minidress" />
 
 ### Descrição visual (roupa)
 - Vestido mini preto justo, ombro a ombro / um ombro  
@@ -973,13 +974,13 @@ Clube, jantar ousado, night out minimalista.
 
 ---
 
-<a id="look-116"></a>
-## 116 · Catsuit canelado costas abertas
+<a id="look-115"></a>
+## 115 · Catsuit canelado costas abertas
 
 **Arquivo:** `club_ribbed_openback_catsuit.png`  
-**Nome rápido:** Catsuit canelado costas abertas · **#116**
+**Nome rápido:** Catsuit canelado costas abertas · **#115**
 **Combina com (sugestão):** Alex  
-![openback catsuit](../imagens/crew/guarda_roupas/club_ribbed_openback_catsuit.png)
+<img src="../imagens/crew/guarda_roupas/club_ribbed_openback_catsuit.png" width="320" alt="openback catsuit" />
 
 ### Descrição visual (roupa)
 - Body/catsuit **canelado** claro, gola alta  
@@ -994,13 +995,13 @@ Clube, corpo, visual bodycon ousado (sem calça solta).
 
 # FORMAL
 
-<a id="look-089"></a>
-## 089 · Blazer + saia
+<a id="look-090"></a>
+## 090 · Blazer + saia
 
 **Arquivo:** `formal_blazer_skirt.jpg`  
-**Nome rápido:** Blazer + saia · **#089**
+**Nome rápido:** Blazer + saia · **#090**
 **Combina com (sugestão):** qualquer  
-![blazer skirt](../imagens/crew/guarda_roupas/formal_blazer_skirt.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_blazer_skirt.jpg" width="320" alt="blazer skirt" />
 
 ### Descrição visual (roupa)
 - Blazer preto aberto  
@@ -1014,13 +1015,13 @@ Cliente semi-formal, jantar elegante, “arrumada sem ser gala”.
 
 ---
 
-<a id="look-090"></a>
-## 090 · Camisa office
+<a id="look-091"></a>
+## 091 · Camisa office
 
 **Arquivo:** `formal_shirt_office.jpg`  
-**Nome rápido:** Camisa office · **#090**
+**Nome rápido:** Camisa office · **#091**
 **Combina com (sugestão):** qualquer  
-![office shirt](../imagens/crew/guarda_roupas/formal_shirt_office.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_shirt_office.jpg" width="320" alt="office shirt" />
 
 ### Descrição visual (roupa)
 - Camisa social de colarinho, cor escura (marinho/preto), mangas dobradas  
@@ -1033,13 +1034,13 @@ Reunião, clínica, visual profissional de rua.
 
 ---
 
-<a id="look-091"></a>
-## 091 · Roxo elegante
+<a id="look-092"></a>
+## 092 · Roxo elegante
 
 **Arquivo:** `formal_purple_elegant.jpg`  
-**Nome rápido:** Roxo elegante · **#091**
+**Nome rápido:** Roxo elegante · **#092**
 **Combina com (sugestão):** qualquer  
-![purple elegant](../imagens/crew/guarda_roupas/formal_purple_elegant.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_purple_elegant.jpg" width="320" alt="purple elegant" />
 
 ### Descrição visual (roupa)
 - Conjunto roxo (top gola alta / mandarim + calça cargo elegante)  
@@ -1052,13 +1053,13 @@ Evento de gala com estética “fantasia urbana”.
 
 ---
 
-<a id="look-092"></a>
-## 092 · Cream blazer + saia plissada
+<a id="look-093"></a>
+## 093 · Cream blazer + saia plissada
 
 **Arquivo:** `formal_cream_pleat.jpg`  
-**Nome rápido:** Cream blazer + saia plissada · **#092**
+**Nome rápido:** Cream blazer + saia plissada · **#093**
 **Combina com (sugestão):** qualquer  
-![cream pleat](../imagens/crew/guarda_roupas/formal_cream_pleat.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_cream_pleat.jpg" width="320" alt="cream pleat" />
 
 ### Descrição visual (roupa)
 - Blazer cropped **creme/bege**, botões  
@@ -1071,13 +1072,13 @@ Cliente semi-formal, café de negócios, “arrumada clara”.
 
 ---
 
-<a id="look-093"></a>
-## 093 · Camisa + colete + saia couro
+<a id="look-094"></a>
+## 094 · Camisa + colete + saia couro
 
 **Arquivo:** `formal_vest_leather_skirt.jpg`  
-**Nome rápido:** Camisa + colete + saia couro · **#093**
+**Nome rápido:** Camisa + colete + saia couro · **#094**
 **Combina com (sugestão):** Alex  
-![vest leather skirt](../imagens/crew/guarda_roupas/formal_vest_leather_skirt.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_vest_leather_skirt.jpg" width="320" alt="vest leather skirt" />
 
 ### Descrição visual (roupa)
 - Camisa social branca de colarinho  
@@ -1091,13 +1092,13 @@ Street-formal, entrevista ousada, visual “colete + saia”.
 
 ---
 
-<a id="look-094"></a>
-## 094 · Wide-leg bege + crop listrado
+<a id="look-095"></a>
+## 095 · Wide-leg bege + crop listrado
 
 **Arquivo:** `formal_wideleg_beige.jpg`  
-**Nome rápido:** Wide-leg bege + crop listrado · **#094**
+**Nome rápido:** Wide-leg bege + crop listrado · **#095**
 **Combina com (sugestão):** qualquer  
-![wideleg beige](../imagens/crew/guarda_roupas/formal_wideleg_beige.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_wideleg_beige.jpg" width="320" alt="wideleg beige" />
 
 ### Descrição visual (roupa)
 - Calça **wide-leg** bege/creme de alfaiataria, prega  
@@ -1112,13 +1113,13 @@ Dia elegante em NC, reunião casual, silhueta de calça **ampla** (não cargo).
 
 # EVENING / GALA
 
-<a id="look-123"></a>
-## 123 · Gown preto
+<a id="look-122"></a>
+## 122 · Gown preto
 
 **Arquivo:** `evening_gown_black.jpg`  
-**Nome rápido:** Gown preto · **#123**
+**Nome rápido:** Gown preto · **#122**
 **Combina com (sugestão):** Reina  
-![gown black](../imagens/crew/guarda_roupas/evening_gown_black.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_gown_black.jpg" width="320" alt="gown black" />
 
 ### Descrição visual (roupa)
 - Vestido longo preto, decote profundo  
@@ -1130,13 +1131,13 @@ Gala, corpo, evento formal de alto nível.
 
 ---
 
-<a id="look-124"></a>
-## 124 · Fenda preta
+<a id="look-123"></a>
+## 123 · Fenda preta
 
 **Arquivo:** `evening_slit_dress.jpg`  
-**Nome rápido:** Fenda preta · **#124**
+**Nome rápido:** Fenda preta · **#123**
 **Combina com (sugestão):** Reina  
-![slit dress](../imagens/crew/guarda_roupas/evening_slit_dress.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_slit_dress.jpg" width="320" alt="slit dress" />
 
 ### Descrição visual (roupa)
 - Vestido preto com alças cruzadas no peito  
@@ -1148,13 +1149,13 @@ Variante de evening mais ousada e minimalista.
 
 ---
 
-<a id="look-125"></a>
-## 125 · Qipao / cheongsam
+<a id="look-124"></a>
+## 124 · Qipao / cheongsam
 
 **Arquivo:** `evening_qipao_black.jpg`  
-**Nome rápido:** Qipao / cheongsam · **#125**
+**Nome rápido:** Qipao / cheongsam · **#124**
 **Combina com (sugestão):** Reina  
-![qipao](../imagens/crew/guarda_roupas/evening_qipao_black.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_qipao_black.jpg" width="320" alt="qipao" />
 
 ### Descrição visual (roupa)
 - Vestido tipo qipao preto, gola alta  
@@ -1166,13 +1167,13 @@ Evento formal com estética leste-asiática / ousado estruturado.
 
 ---
 
-<a id="look-126"></a>
-## 126 · Gown vermelho
+<a id="look-125"></a>
+## 125 · Gown vermelho
 
 **Arquivo:** `evening_red_gown.jpg`  
-**Nome rápido:** Gown vermelho · **#126**
+**Nome rápido:** Gown vermelho · **#125**
 **Combina com (sugestão):** Reina  
-![red gown](../imagens/crew/guarda_roupas/evening_red_gown.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_red_gown.jpg" width="320" alt="red gown" />
 
 ### Descrição visual (roupa)
 - Vestido vermelho com detalhes dourados  
@@ -1192,7 +1193,7 @@ Gala quente, destaque visual vermelho.
 **Arquivo:** `combat_bodysuit_green.jpg`  
 **Nome rápido:** Bodysuit / tactical top verde · **#038**
 **Combina com (sugestão):** Valk / Alex / pack  
-![bodysuit](../imagens/crew/guarda_roupas/combat_bodysuit_green.jpg)
+<img src="../imagens/crew/guarda_roupas/combat_bodysuit_green.jpg" width="320" alt="bodysuit" />
 
 ### Descrição visual (roupa)
 - Top/body tático **verde-escuro** justo, zíperes e tiras  
@@ -1211,7 +1212,7 @@ Combate, treino pesado, visual de campo fechado.
 **Arquivo:** `combat_cargo_olive.jpg`  
 **Nome rápido:** Cargo oliva · **#039**
 **Combina com (sugestão):** Valk / Alex / pack  
-![cargo olive](../imagens/crew/guarda_roupas/combat_cargo_olive.jpg)
+<img src="../imagens/crew/guarda_roupas/combat_cargo_olive.jpg" width="320" alt="cargo olive" />
 
 ### Descrição visual (roupa)
 - Jaqueta militar oliva aberta  
@@ -1230,7 +1231,7 @@ Ação, patrulha, visual militar-casual.
 **Arquivo:** `gym_sportswear.jpg`  
 **Nome rápido:** Gym · **#050**
 **Combina com (sugestão):** qualquer  
-![gym](../imagens/crew/guarda_roupas/gym_sportswear.jpg)
+<img src="../imagens/crew/guarda_roupas/gym_sportswear.jpg" width="320" alt="gym" />
 
 ### Descrição visual (roupa)
 - Top esportivo preto com borda clara  
@@ -1248,7 +1249,7 @@ Treino físico, aquecimento.
 **Arquivo:** `gym_tennis_skirt.jpg`  
 **Nome rápido:** Gym — tennis skirt · **#051**
 **Combina com (sugestão):** qualquer  
-![tennis skirt](../imagens/crew/guarda_roupas/gym_tennis_skirt.jpg)
+<img src="../imagens/crew/guarda_roupas/gym_tennis_skirt.jpg" width="320" alt="tennis skirt" />
 
 ### Descrição visual (roupa)
 - Crop preto com painéis **mesh**/rede nas mangas e peito  
@@ -1266,7 +1267,7 @@ Treino, academia, vibe esportiva **com saia** em vez de calça.
 **Arquivo:** `training_martial.jpg`  
 **Nome rápido:** Marcial · **#052**
 **Combina com (sugestão):** qualquer  
-![martial](../imagens/crew/guarda_roupas/training_martial.jpg)
+<img src="../imagens/crew/guarda_roupas/training_martial.jpg" width="320" alt="martial" />
 
 ### Descrição visual (roupa)
 - Top esportivo / halter  
@@ -1286,7 +1287,7 @@ Sparring, dojo, treino marcial.
 **Arquivo:** `soft_blouse_corset.png`  
 **Nome rápido:** Blusa + corset soft · **#144**
 **Combina com (sugestão):** Reina / qualquer  
-![soft corset](../imagens/crew/guarda_roupas/soft_blouse_corset.png)
+<img src="../imagens/crew/guarda_roupas/soft_blouse_corset.png" width="320" alt="soft corset" />
 
 ### Descrição visual (roupa)
 - Blusa clara, mangas longas levemente bufantes  
@@ -1306,7 +1307,7 @@ Jantar no pack, “arrumada sem ser clube”, saída apresentável.
 **Arquivo:** `soft_floral_sundress_boots.jpg`  
 **Nome rápido:** Sundress floral + botas · **#145**
 **Combina com (sugestão):** Reina / qualquer  
-![floral sundress](../imagens/crew/guarda_roupas/soft_floral_sundress_boots.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_floral_sundress_boots.jpg" width="320" alt="floral sundress" />
 
 ### Descrição visual (roupa)
 - Vestido curto floral rosa/claro, decote V, alças  
@@ -1325,7 +1326,7 @@ Pack em folga, dia de campo leve, visual soft com bota.
 **Arquivo:** `soft_knit_minidress.jpg`  
 **Nome rápido:** Mini tricô cut-outs · **#146**
 **Combina com (sugestão):** Reina / qualquer  
-![knit minidress](../imagens/crew/guarda_roupas/soft_knit_minidress.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_knit_minidress.jpg" width="320" alt="knit minidress" />
 
 ### Descrição visual (roupa)
 - Vestido mini de tricô bege, gola alta  
@@ -1344,7 +1345,7 @@ Noite soft, date, visual bodycon tricô.
 **Arquivo:** `soft_pink_floral_mini.jpg`  
 **Nome rápido:** Mini floral tomara-que-caia · **#147**
 **Combina com (sugestão):** Reina / qualquer  
-![pink floral mini](../imagens/crew/guarda_roupas/soft_pink_floral_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_pink_floral_mini.jpg" width="320" alt="pink floral mini" />
 
 ### Descrição visual (roupa)
 - Vestido mini **rosa floral**, tomara-que-caia  
@@ -1362,7 +1363,7 @@ Casa, saída leve, visual “vestido de verão” indoor/outdoor.
 **Arquivo:** `soft_white_lace_mini.jpg`  
 **Nome rápido:** Mini branco lace-up · **#148**
 **Combina com (sugestão):** Reina / qualquer  
-![white lace mini](../imagens/crew/guarda_roupas/soft_white_lace_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_white_lace_mini.jpg" width="320" alt="white lace mini" />
 
 ### Descrição visual (roupa)
 - Mini vestido branco romântico, mangas bufantes  
@@ -1382,7 +1383,7 @@ Evento leve, jantar pack, fantasia soft (não job).
 **Arquivo:** `soft_olive_pleat_set.jpg`  
 **Nome rápido:** Halter oliva + saia plissada · **#149**
 **Combina com (sugestão):** Reina / qualquer  
-![olive pleat](../imagens/crew/guarda_roupas/soft_olive_pleat_set.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_olive_pleat_set.jpg" width="320" alt="olive pleat" />
 
 ### Descrição visual (roupa)
 - Top halter **oliva/cáqui**, gola alta, crop  
@@ -1401,7 +1402,7 @@ Street soft, verão, visual saia + crop sem calça.
 **Arquivo:** `soft_floral_coord.jpg`  
 **Nome rápido:** Co-ord floral crop + saia · **#150**
 **Combina com (sugestão):** Reina / qualquer  
-![floral coord](../imagens/crew/guarda_roupas/soft_floral_coord.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_floral_coord.jpg" width="320" alt="floral coord" />
 
 ### Descrição visual (roupa)
 - Crop floral rosa, ombro a ombro, manga bufante  
@@ -1419,7 +1420,7 @@ Dia ensolarado, pack em folga, visual verão co-ord.
 **Arquivo:** `soft_orange_sundress.jpg`  
 **Nome rápido:** Vestido laranja godê · **#151**
 **Combina com (sugestão):** Reina / qualquer  
-![orange sundress](../imagens/crew/guarda_roupas/soft_orange_sundress.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_orange_sundress.jpg" width="320" alt="orange sundress" />
 
 ### Descrição visual (roupa)
 - Vestido midi/curto **laranja**, ombro a ombro  
@@ -1437,7 +1438,7 @@ Folga, visual alegre; anime OK — extrair só corte e cor.
 **Arquivo:** `soft_lace_highlow.jpg`  
 **Nome rápido:** Vestido renda high-low + botas · **#152**
 **Combina com (sugestão):** Reina / qualquer  
-![lace highlow](../imagens/crew/guarda_roupas/soft_lace_highlow.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_lace_highlow.jpg" width="320" alt="lace highlow" />
 
 ### Descrição visual (roupa)
 - Vestido creme com renda/bordado dourado  
@@ -1455,7 +1456,7 @@ Evento ao ar livre, pack “arrumada”, visual romântico com bota.
 **Arquivo:** `soft_shirt_dress_boots.jpg`  
 **Nome rápido:** Vestido-camisa creme + botas · **#153**
 **Combina com (sugestão):** Reina / qualquer  
-![shirt dress boots](../imagens/crew/guarda_roupas/soft_shirt_dress_boots.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_shirt_dress_boots.jpg" width="320" alt="shirt dress boots" />
 
 ### Descrição visual (roupa)
 - Vestido-camisa creme, mangas longas bufantes  
@@ -1474,7 +1475,7 @@ Cidade, jantar pack, visual apresentável soft.
 **Arquivo:** `soft_peplum_boots.jpg`  
 **Nome rápido:** Peplum high-low + short + botas · **#154**
 **Combina com (sugestão):** Reina / qualquer  
-![peplum boots](../imagens/crew/guarda_roupas/soft_peplum_boots.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_peplum_boots.jpg" width="320" alt="peplum boots" />
 
 ### Descrição visual (roupa)
 - Top/peplum creme com cadarço e **cauda high-low** de babados  
@@ -1493,7 +1494,7 @@ Pack, visual boho-country, contraste peplum + short.
 **Arquivo:** `soft_boho_kimono.jpg`  
 **Nome rápido:** Kimono boho + crochê + short · **#155**
 **Combina com (sugestão):** Reina / qualquer  
-![boho kimono](../imagens/crew/guarda_roupas/soft_boho_kimono.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_boho_kimono.jpg" width="320" alt="boho kimono" />
 
 ### Descrição visual (roupa)
 - Kimono/cardigan aberto com estampa **étnica** (terracota, azul, creme)  
@@ -1512,7 +1513,7 @@ Pack, verão, visual boho descontraído.
 **Arquivo:** `soft_blouse_baroque_skirt.jpg`  
 **Nome rápido:** Blusa branca + saia barroca · **#156**
 **Combina com (sugestão):** Reina / qualquer  
-![baroque skirt](../imagens/crew/guarda_roupas/soft_blouse_baroque_skirt.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_blouse_baroque_skirt.jpg" width="320" alt="baroque skirt" />
 
 ### Descrição visual (roupa)
 - Blusa branca de colarinho, mangas longas, detalhes de renda  
@@ -1530,7 +1531,7 @@ Evento semi-formal, jantar, visual “blusa + saia” elegante.
 **Arquivo:** `soft_white_floral_crop_skirt.jpg`  
 **Nome rápido:** Crop floral + mini babado branca · **#157**
 **Combina com (sugestão):** Reina / qualquer  
-![floral crop skirt](../imagens/crew/guarda_roupas/soft_white_floral_crop_skirt.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_white_floral_crop_skirt.jpg" width="320" alt="floral crop skirt" />
 
 ### Descrição visual (roupa)
 - Crop branco com flores miúdas, alças, babados, cadarço no peito  
@@ -1548,7 +1549,7 @@ Verão, pack, visual soft-branco co-ord.
 **Arquivo:** `steampunk_corset.jpg`  
 **Nome rápido:** Steampunk corset · **#158**
 **Combina com (sugestão):** qualquer  
-![steampunk](../imagens/crew/guarda_roupas/steampunk_corset.jpg)
+<img src="../imagens/crew/guarda_roupas/steampunk_corset.jpg" width="320" alt="steampunk" />
 
 ### Descrição visual (roupa)
 - Blusa branca ombro a ombro, mangas longas  
@@ -1570,7 +1571,7 @@ Fantasia, bar temático, evento raro — **não** look de job.
 **Arquivo:** `piece_olive_crop_vest.jpg`  
 **Nome rápido:** Colete crop oliva · **#191**
 **Combina com (sugestão):** qualquer  
-![olive crop vest](../imagens/crew/guarda_roupas/piece_olive_crop_vest.jpg)
+<img src="../imagens/crew/guarda_roupas/piece_olive_crop_vest.jpg" width="320" alt="olive crop vest" />
 
 ### Descrição visual (roupa)
 - Colete crop **oliva**, sem mangas, gola, zíper central  
@@ -1593,7 +1594,7 @@ Camada street/badlands sobre base simples.
 **Arquivo:** `piece_pinstripe_halter.jpg`  
 **Nome rápido:** Halter pinstripe · **#192**
 **Combina com (sugestão):** qualquer  
-![pinstripe halter](../imagens/crew/guarda_roupas/piece_pinstripe_halter.jpg)
+<img src="../imagens/crew/guarda_roupas/piece_pinstripe_halter.jpg" width="320" alt="pinstripe halter" />
 
 ### Descrição visual (roupa)
 - Top/colete **halter** preto com listras finas brancas  
@@ -1615,7 +1616,7 @@ Street semi-formal, camada de destaque no tronco.
 **Arquivo:** `piece_olive_vest_turtleneck.jpg`  
 **Nome rápido:** Colete oliva + gola alta · **#193**
 **Combina com (sugestão):** qualquer  
-![olive vest turtleneck](../imagens/crew/guarda_roupas/piece_olive_vest_turtleneck.jpg)
+<img src="../imagens/crew/guarda_roupas/piece_olive_vest_turtleneck.jpg" width="320" alt="olive vest turtleneck" />
 
 ### Descrição visual (roupa)
 - Colete oliva com bolsos e zíper  
@@ -1638,7 +1639,7 @@ Camada utilitária urbana / pack.
 **Arquivo:** `piece_striped_halter_shirt.jpg`  
 **Nome rápido:** Camisa halter listrada · **#194**
 **Combina com (sugestão):** qualquer  
-![striped halter](../imagens/crew/guarda_roupas/piece_striped_halter_shirt.jpg)
+<img src="../imagens/crew/guarda_roupas/piece_striped_halter_shirt.jpg" width="320" alt="striped halter" />
 
 ### Descrição visual (roupa)
 - Camisa **halter** azul/branca listrada, colarinho, botões  
@@ -1662,7 +1663,7 @@ Base de look summer/formal-leve — combine com saia do catálogo.
 **Arquivo:** `gym_olive_short_set.jpg`  
 **Nome rápido:** Gym — short oliva set · **#053**
 **Combina com (sugestão):** qualquer  
-![gym olive short](../imagens/crew/guarda_roupas/gym_olive_short_set.jpg)
+<img src="../imagens/crew/guarda_roupas/gym_olive_short_set.jpg" width="320" alt="gym olive short" />
 
 ### Descrição visual (roupa)
 - Sports bra / top oliva  
@@ -1680,7 +1681,7 @@ Treino, pack em calor, visual fitness nomad.
 **Arquivo:** `gym_black_running_set.jpg`  
 **Nome rápido:** Gym — running preto · **#054**
 **Combina com (sugestão):** qualquer  
-![gym black running](../imagens/crew/guarda_roupas/gym_black_running_set.jpg)
+<img src="../imagens/crew/guarda_roupas/gym_black_running_set.jpg" width="320" alt="gym black running" />
 
 ### Descrição visual (roupa)
 - Top esportivo preto com detalhe claro  
@@ -1697,7 +1698,7 @@ Academia, corrida, treino limpo.
 **Arquivo:** `combat_cargo_shorts_boots.jpg`  
 **Nome rápido:** Combate — cargo short + botas · **#040**
 **Combina com (sugestão):** Valk / Alex / pack  
-![combat cargo shorts](../imagens/crew/guarda_roupas/combat_cargo_shorts_boots.jpg)
+<img src="../imagens/crew/guarda_roupas/combat_cargo_shorts_boots.jpg" width="320" alt="combat cargo shorts" />
 
 ### Descrição visual (roupa)
 - Crop/top com cintas  
@@ -1717,7 +1718,7 @@ Ação, street combat, visual “short + botas”.
 **Arquivo:** `street_crop_micro_shorts.jpg`  
 **Nome rápido:** Street — crop + micro short · **#015**
 **Combina com (sugestão):** Alex / Valk  
-![street micro shorts](../imagens/crew/guarda_roupas/street_crop_micro_shorts.jpg)
+<img src="../imagens/crew/guarda_roupas/street_crop_micro_shorts.jpg" width="320" alt="street micro shorts" />
 
 ### Descrição visual (roupa)
 - Tank/crop branco  
@@ -1735,7 +1736,7 @@ Ação ousada, street edgerunner, calor extremo.
 **Arquivo:** `combat_halter_green_shorts.jpg`  
 **Nome rápido:** Combate — halter + short verde · **#041**
 **Combina com (sugestão):** Valk / Alex / pack  
-![combat green shorts](../imagens/crew/guarda_roupas/combat_halter_green_shorts.jpg)
+<img src="../imagens/crew/guarda_roupas/combat_halter_green_shorts.jpg" width="320" alt="combat green shorts" />
 
 ### Descrição visual (roupa)
 - Top/halter preto crop  
@@ -1753,7 +1754,7 @@ Campo leve, combate hot weather, visual curto.
 **Arquivo:** `street_hoodie_denim_shorts.jpg`  
 **Nome rápido:** Street — hoodie + short jeans · **#016**
 **Combina com (sugestão):** qualquer  
-![hoodie denim shorts](../imagens/crew/guarda_roupas/street_hoodie_denim_shorts.jpg)
+<img src="../imagens/crew/guarda_roupas/street_hoodie_denim_shorts.jpg" width="320" alt="hoodie denim shorts" />
 
 ### Descrição visual (roupa)
 - Hoodie crop preto rasgado / cutouts  
@@ -1772,7 +1773,7 @@ Street alt, night out casual.
 **Arquivo:** `tech_pink_short_set.jpg`  
 **Nome rápido:** Tech — pink short set · **#046**
 **Combina com (sugestão):** Echo / qualquer  
-![tech pink short](../imagens/crew/guarda_roupas/tech_pink_short_set.jpg)
+<img src="../imagens/crew/guarda_roupas/tech_pink_short_set.jpg" width="320" alt="tech pink short" />
 
 ### Descrição visual (roupa)
 - Crop tech preto/rosa, gola alta  
@@ -1786,13 +1787,13 @@ Street-tech, job fashion cyber (variante short do tech_crop_jacket).
 
 ---
 
-<a id="look-117"></a>
-## 117 · Club — corset + short couro + OTK
+<a id="look-116"></a>
+## 116 · Club — corset + short couro + OTK
 
 **Arquivo:** `club_corset_leather_shorts.png`  
-**Nome rápido:** Club — corset + short couro + OTK · **#117**
+**Nome rápido:** Club — corset + short couro + OTK · **#116**
 **Combina com (sugestão):** Alex  
-![corset leather shorts](../imagens/crew/guarda_roupas/club_corset_leather_shorts.png)
+<img src="../imagens/crew/guarda_roupas/club_corset_leather_shorts.png" width="320" alt="corset leather shorts" />
 
 ### Descrição visual (roupa)
 - Corset/top preto off-shoulder, mangas sino, lace-up  
@@ -1805,13 +1806,13 @@ Clube, noite ousada (parecido com club_corset_platform; short mais fechado).
 
 ---
 
-<a id="look-118"></a>
-## 118 · Club — goth short + casaco
+<a id="look-117"></a>
+## 117 · Club — goth short + casaco
 
 **Arquivo:** `club_goth_leather_shorts.jpg`  
-**Nome rápido:** Club — goth short + casaco · **#118**
+**Nome rápido:** Club — goth short + casaco · **#117**
 **Combina com (sugestão):** Alex  
-![goth leather shorts](../imagens/crew/guarda_roupas/club_goth_leather_shorts.jpg)
+<img src="../imagens/crew/guarda_roupas/club_goth_leather_shorts.jpg" width="320" alt="goth leather shorts" />
 
 ### Descrição visual (roupa)
 - Short preto de couro  
@@ -1830,7 +1831,7 @@ Clube goth, night out dramático **com short**.
 **Arquivo:** `soft_steampunk_shorts_coat.jpg`  
 **Nome rápido:** Soft — steampunk short + cauda · **#159**
 **Combina com (sugestão):** Reina / qualquer  
-![steampunk shorts](../imagens/crew/guarda_roupas/soft_steampunk_shorts_coat.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_steampunk_shorts_coat.jpg" width="320" alt="steampunk shorts" />
 
 ### Descrição visual (roupa)
 - Blusa branca off-shoulder  
@@ -1852,7 +1853,7 @@ Fantasia, bar temático — variante short do steampunk_corset.
 **Arquivo:** `street_purple_plaid_mini.jpg`  
 **Nome rápido:** Street — plaid roxo + mini · **#017**
 **Combina com (sugestão):** Alex / Valk  
-![purple plaid mini](../imagens/crew/guarda_roupas/street_purple_plaid_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/street_purple_plaid_mini.jpg" width="320" alt="purple plaid mini" />
 
 ### Descrição visual (roupa)
 - Camisa xadrez roxa crop aberta  
@@ -1871,7 +1872,7 @@ Bar, street alt (variante do street_alt_plaid).
 **Arquivo:** `street_hoodie_beige_pleat.jpg`  
 **Nome rápido:** Street — hoodie + saia bege · **#018**
 **Combina com (sugestão):** qualquer  
-![hoodie beige pleat](../imagens/crew/guarda_roupas/street_hoodie_beige_pleat.jpg)
+<img src="../imagens/crew/guarda_roupas/street_hoodie_beige_pleat.jpg" width="320" alt="hoodie beige pleat" />
 
 ### Descrição visual (roupa)
 - Hoodie crop preto com zíper  
@@ -1889,7 +1890,7 @@ Street fashion, folga urbana.
 **Arquivo:** `street_leather_pleat_mini.jpg`  
 **Nome rápido:** Street — mini couro plissada · **#019**
 **Combina com (sugestão):** Alex / Valk  
-![leather pleat mini](../imagens/crew/guarda_roupas/street_leather_pleat_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/street_leather_pleat_mini.jpg" width="320" alt="leather pleat mini" />
 
 ### Descrição visual (roupa)
 - Crop/tank branco com harness de roupa  
@@ -1902,13 +1903,13 @@ Street/clube; visual “crop + saia couro”.
 
 ---
 
-<a id="look-095"></a>
-## 095 · Formal — cape + saia plissada
+<a id="look-096"></a>
+## 096 · Formal — cape + saia plissada
 
 **Arquivo:** `formal_cape_pleat_mini.jpg`  
-**Nome rápido:** Formal — cape + saia plissada · **#095**
+**Nome rápido:** Formal — cape + saia plissada · **#096**
 **Combina com (sugestão):** qualquer  
-![cape pleat mini](../imagens/crew/guarda_roupas/formal_cape_pleat_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_cape_pleat_mini.jpg" width="320" alt="cape pleat mini" />
 
 ### Descrição visual (roupa)
 - Blazer/capa preta  
@@ -1928,7 +1929,7 @@ Semi-formal ousado, jantar, clube elegante.
 **Arquivo:** `street_grey_hoodie_black_mini.jpg`  
 **Nome rápido:** Street — grey hoodie + mini preta · **#020**
 **Combina com (sugestão):** Alex / Valk  
-![grey hoodie mini](../imagens/crew/guarda_roupas/street_grey_hoodie_black_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/street_grey_hoodie_black_mini.jpg" width="320" alt="grey hoodie mini" />
 
 ### Descrição visual (roupa)
 - Hoodie cinza crop  
@@ -1946,7 +1947,7 @@ Street casual ousado, casa/saída.
 **Arquivo:** `street_red_hoodie_pleat.jpg`  
 **Nome rápido:** Street — red hoodie + pleat · **#021**
 **Combina com (sugestão):** qualquer  
-![red hoodie pleat](../imagens/crew/guarda_roupas/street_red_hoodie_pleat.jpg)
+<img src="../imagens/crew/guarda_roupas/street_red_hoodie_pleat.jpg" width="320" alt="red hoodie pleat" />
 
 ### Descrição visual (roupa)
 - Hoodie crop vermelho/preto  
@@ -1959,13 +1960,13 @@ Street fashion (irmão do street_hoodie_pleat).
 
 ---
 
-<a id="look-119"></a>
-## 119 · Club — bra + jaqueta + mini
+<a id="look-118"></a>
+## 118 · Club — bra + jaqueta + mini
 
 **Arquivo:** `club_bra_jacket_pleat.jpg`  
-**Nome rápido:** Club — bra + jaqueta + mini · **#119**
+**Nome rápido:** Club — bra + jaqueta + mini · **#118**
 **Combina com (sugestão):** Alex  
-![bra jacket pleat](../imagens/crew/guarda_roupas/club_bra_jacket_pleat.jpg)
+<img src="../imagens/crew/guarda_roupas/club_bra_jacket_pleat.jpg" width="320" alt="bra jacket pleat" />
 
 ### Descrição visual (roupa)
 - Top tipo sutiã/crop com correntes  
@@ -1984,7 +1985,7 @@ Clube ousado — **só se a cena pedir** exposição alta.
 **Arquivo:** `casual_black_skort.jpg`  
 **Nome rápido:** Casual — skort preto · **#034**
 **Combina com (sugestão):** qualquer  
-![black skort](../imagens/crew/guarda_roupas/casual_black_skort.jpg)
+<img src="../imagens/crew/guarda_roupas/casual_black_skort.jpg" width="320" alt="black skort" />
 
 ### Descrição visual (roupa)
 - Tank/top alça preto  
@@ -1995,13 +1996,13 @@ Casual, gym fashion, folga.
 
 ---
 
-<a id="look-096"></a>
-## 096 · Formal — renda + midi bege
+<a id="look-097"></a>
+## 097 · Formal — renda + midi bege
 
 **Arquivo:** `formal_lace_beige_midi.jpg`  
-**Nome rápido:** Formal — renda + midi bege · **#096**
+**Nome rápido:** Formal — renda + midi bege · **#097**
 **Combina com (sugestão):** qualquer  
-![lace beige midi](../imagens/crew/guarda_roupas/formal_lace_beige_midi.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_lace_beige_midi.jpg" width="320" alt="lace beige midi" />
 
 ### Descrição visual (roupa)
 - Blusa de renda preta gola alta, mangas longas  
@@ -2016,13 +2017,13 @@ Jantar, cliente semi-formal, visual elegante com **saia** (não calça).
 
 # EVENING / FANTASIA NOVOS
 
-<a id="look-127"></a>
-## 127 · Purple satin slit
+<a id="look-126"></a>
+## 126 · Purple satin slit
 
 **Arquivo:** `evening_purple_satin_slit.jpg`  
-**Nome rápido:** Purple satin slit · **#127**
+**Nome rápido:** Purple satin slit · **#126**
 **Combina com (sugestão):** Reina  
-![purple satin](../imagens/crew/guarda_roupas/evening_purple_satin_slit.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_purple_satin_slit.jpg" width="320" alt="purple satin" />
 
 ### Descrição visual (roupa)
 - Vestido cetim roxo, halter, decote V  
@@ -2034,13 +2035,13 @@ Gala, jantar alto, destaque roxo.
 
 ---
 
-<a id="look-120"></a>
-## 120 · Club strapless mini
+<a id="look-119"></a>
+## 119 · Club strapless mini
 
 **Arquivo:** `club_black_strapless_mini.jpg`  
-**Nome rápido:** Club strapless mini · **#120**
+**Nome rápido:** Club strapless mini · **#119**
 **Combina com (sugestão):** Alex  
-![strapless mini](../imagens/crew/guarda_roupas/club_black_strapless_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/club_black_strapless_mini.jpg" width="320" alt="strapless mini" />
 
 ### Descrição visual (roupa)
 - Mini tomara-que-caia preto, lace-up no busto  
@@ -2051,13 +2052,13 @@ Clube, noite minimalista ousada.
 
 ---
 
-<a id="look-128"></a>
-## 128 · Black cross slit
+<a id="look-127"></a>
+## 127 · Black cross slit
 
 **Arquivo:** `evening_black_cross_slit.jpg`  
-**Nome rápido:** Black cross slit · **#128**
+**Nome rápido:** Black cross slit · **#127**
 **Combina com (sugestão):** Reina  
-![cross slit](../imagens/crew/guarda_roupas/evening_black_cross_slit.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_black_cross_slit.jpg" width="320" alt="cross slit" />
 
 ### Descrição visual (roupa)
 - Vestido preto, alças cruzadas no peito, cut-out  
@@ -2069,13 +2070,13 @@ Evening ousado, corpo, gala.
 
 ---
 
-<a id="look-129"></a>
-## 129 · Cream satin mini
+<a id="look-128"></a>
+## 128 · Cream satin mini
 
 **Arquivo:** `evening_cream_satin_mini.jpg`  
-**Nome rápido:** Cream satin mini · **#129**
+**Nome rápido:** Cream satin mini · **#128**
 **Combina com (sugestão):** Reina  
-![cream mini](../imagens/crew/guarda_roupas/evening_cream_satin_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_cream_satin_mini.jpg" width="320" alt="cream mini" />
 
 ### Descrição visual (roupa)
 - Mini vestido cetim creme, alça fina, decote fluido  
@@ -2092,7 +2093,7 @@ Date, jantar, evening soft.
 **Arquivo:** `soft_black_mini_boots.jpg`  
 **Nome rápido:** Soft black mini + botas · **#160**
 **Combina com (sugestão):** Reina / qualquer  
-![black mini boots](../imagens/crew/guarda_roupas/soft_black_mini_boots.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_black_mini_boots.jpg" width="320" alt="black mini boots" />
 
 ### Descrição visual (roupa)
 - Mini vestido preto, alças, lace-up frontal  
@@ -2103,13 +2104,13 @@ Pack, street soft, visual “vestido + bota”.
 
 ---
 
-<a id="look-130"></a>
-## 130 · White hooded gown
+<a id="look-129"></a>
+## 129 · White hooded gown
 
 **Arquivo:** `evening_white_hooded_gown.png`  
-**Nome rápido:** White hooded gown · **#130**
+**Nome rápido:** White hooded gown · **#129**
 **Combina com (sugestão):** Reina  
-![white hooded](../imagens/crew/guarda_roupas/evening_white_hooded_gown.png)
+<img src="../imagens/crew/guarda_roupas/evening_white_hooded_gown.png" width="320" alt="white hooded" />
 
 ### Descrição visual (roupa)
 - Vestido branco fluido com capa/capuz  
@@ -2122,13 +2123,13 @@ Gala fantasia, evento cerimonial.
 
 ---
 
-<a id="look-131"></a>
-## 131 · Black hooded gown
+<a id="look-130"></a>
+## 130 · Black hooded gown
 
 **Arquivo:** `evening_black_hooded_gown.png`  
-**Nome rápido:** Black hooded gown · **#131**
+**Nome rápido:** Black hooded gown · **#130**
 **Combina com (sugestão):** Reina  
-![black hooded](../imagens/crew/guarda_roupas/evening_black_hooded_gown.png)
+<img src="../imagens/crew/guarda_roupas/evening_black_hooded_gown.png" width="320" alt="black hooded" />
 
 ### Descrição visual (roupa)
 - Vestido/casaco longo preto com capuz  
@@ -2146,7 +2147,7 @@ Evening dark, fantasia, inverno dramático.
 **Arquivo:** `fantasy_orange_white_gown.jpg`  
 **Nome rápido:** Fantasy orange-white gown · **#161**
 **Combina com (sugestão):** Reina  
-![orange white gown](../imagens/crew/guarda_roupas/fantasy_orange_white_gown.jpg)
+<img src="../imagens/crew/guarda_roupas/fantasy_orange_white_gown.jpg" width="320" alt="orange white gown" />
 
 ### Descrição visual (roupa)
 - Vestido branco e laranja, off-shoulder, fenda  
@@ -2163,7 +2164,7 @@ Fantasia, gala colorida — **não** job.
 **Arquivo:** `fantasy_green_long_dress.jpg`  
 **Nome rápido:** Fantasy green long dress · **#162**
 **Combina com (sugestão):** Reina  
-![green long](../imagens/crew/guarda_roupas/fantasy_green_long_dress.jpg)
+<img src="../imagens/crew/guarda_roupas/fantasy_green_long_dress.jpg" width="320" alt="green long" />
 
 ### Descrição visual (roupa)
 - Vestido longo verde com fenda  
@@ -2174,13 +2175,13 @@ Fantasia soft, evento temático.
 
 ---
 
-<a id="look-132"></a>
-## 132 · White qipao
+<a id="look-131"></a>
+## 131 · White qipao
 
 **Arquivo:** `evening_white_qipao.jpg`  
-**Nome rápido:** White qipao · **#132**
+**Nome rápido:** White qipao · **#131**
 **Combina com (sugestão):** Reina  
-![white qipao](../imagens/crew/guarda_roupas/evening_white_qipao.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_white_qipao.jpg" width="320" alt="white qipao" />
 
 ### Descrição visual (roupa)
 - Qipao branca com motivo impresso  
@@ -2198,7 +2199,7 @@ Evening ousado estruturado (variante clara do qipao preto).
 **Arquivo:** `soft_pink_layered_skirt.jpg`  
 **Nome rápido:** Soft pink layered · **#163**
 **Combina com (sugestão):** Reina / qualquer  
-![pink layered](../imagens/crew/guarda_roupas/soft_pink_layered_skirt.jpg)
+<img src="../imagens/crew/guarda_roupas/soft_pink_layered_skirt.jpg" width="320" alt="pink layered" />
 
 ### Descrição visual (roupa)
 - Jaqueta/cropped rosa  
@@ -2217,7 +2218,7 @@ Pack soft, fantasia leve, visual boho-rosa.
 **Arquivo:** `fantasy_teal_coat_skirt.jpg`  
 **Nome rápido:** Fantasy teal coat + skirt · **#164**
 **Combina com (sugestão):** Reina  
-![teal coat](../imagens/crew/guarda_roupas/fantasy_teal_coat_skirt.jpg)
+<img src="../imagens/crew/guarda_roupas/fantasy_teal_coat_skirt.jpg" width="320" alt="teal coat" />
 
 ### Descrição visual (roupa)
 - Casaco/capa teal com capuz  
@@ -2240,7 +2241,7 @@ Fantasia, cold weather temático.
 **Arquivo:** `special_latex_mini_tie.jpg`  
 **Nome rápido:** Latex mini + gravata · **#181**
 **Combina com (sugestão):** Alex  
-![latex mini tie](../imagens/crew/guarda_roupas/special_latex_mini_tie.jpg)
+<img src="../imagens/crew/guarda_roupas/special_latex_mini_tie.jpg" width="320" alt="latex mini tie" />
 
 ### Descrição visual (roupa)
 - Camisa branca sem mangas + gravata  
@@ -2259,7 +2260,7 @@ Clube ousado, roleplay fashion.
 **Arquivo:** `special_navy_extreme_slit.jpg`  
 **Nome rápido:** Navy extreme slit · **#182**
 **Combina com (sugestão):** cena especial  
-![navy extreme](../imagens/crew/guarda_roupas/special_navy_extreme_slit.jpg)
+<img src="../imagens/crew/guarda_roupas/special_navy_extreme_slit.jpg" width="320" alt="navy extreme" />
 
 ### Descrição visual (roupa)
 - Vestido marinho gola alta, corset preto  
@@ -2277,7 +2278,7 @@ Gala ousada, corpo high-end.
 **Arquivo:** `special_latex_bodysuit_red.jpg`  
 **Nome rápido:** Latex body + jaqueta vermelha · **#183**
 **Combina com (sugestão):** Alex  
-![latex red](../imagens/crew/guarda_roupas/special_latex_bodysuit_red.jpg)
+<img src="../imagens/crew/guarda_roupas/special_latex_bodysuit_red.jpg" width="320" alt="latex red" />
 
 ### Descrição visual (roupa)
 - Body/catsuit latex preto com cinto e correntes  
@@ -2295,7 +2296,7 @@ Night out extremo, clube.
 **Arquivo:** `special_plaid_asymmetric_dress.png`  
 **Nome rápido:** Plaid asymmetric dress · **#184**
 **Combina com (sugestão):** cena especial  
-![plaid asym](../imagens/crew/guarda_roupas/special_plaid_asymmetric_dress.png)
+<img src="../imagens/crew/guarda_roupas/special_plaid_asymmetric_dress.png" width="320" alt="plaid asym" />
 
 ### Descrição visual (roupa)
 - Vestido xadrez P&B assimétrico + corset lace-up  
@@ -2314,7 +2315,7 @@ Alt/goth club, fantasia street.
 **Arquivo:** `special_sheer_cheongsam.jpg`  
 **Nome rápido:** Sheer cheongsam dourado · **#185**
 **Combina com (sugestão):** cena especial  
-![sheer cheongsam](../imagens/crew/guarda_roupas/special_sheer_cheongsam.jpg)
+<img src="../imagens/crew/guarda_roupas/special_sheer_cheongsam.jpg" width="320" alt="sheer cheongsam" />
 
 ### Descrição visual (roupa)
 - Vestido tipo cheongsam sheer preto/dourado  
@@ -2332,7 +2333,7 @@ Evento ousado, corpo temático.
 **Arquivo:** `special_purple_suit_mini.jpg`  
 **Nome rápido:** Purple suit mini · **#186**
 **Combina com (sugestão):** cena especial  
-![purple suit mini](../imagens/crew/guarda_roupas/special_purple_suit_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/special_purple_suit_mini.jpg" width="320" alt="purple suit mini" />
 
 ### Descrição visual (roupa)
 - Blazer roxo + colete + camisa branca + gravata vermelha  
@@ -2350,7 +2351,7 @@ Clube / formal ousado, presença “power suit” curta.
 **Arquivo:** `special_school_shirt_pleat.jpg`  
 **Nome rápido:** Especial — school shirt + saia · **#187**
 **Combina com (sugestão):** cena especial  
-![school shirt](../imagens/crew/guarda_roupas/special_school_shirt_pleat.jpg)
+<img src="../imagens/crew/guarda_roupas/special_school_shirt_pleat.jpg" width="320" alt="school shirt" />
 
 ### Descrição visual (roupa)
 - Camisa branca crop + laço vermelho  
@@ -2368,7 +2369,7 @@ Clube / formal ousado, presença “power suit” curta.
 **Arquivo:** `special_school_vest_red_skirt.jpg`  
 **Nome rápido:** Especial — school vest + saia vermelha · **#188**
 **Combina com (sugestão):** cena especial  
-![school vest](../imagens/crew/guarda_roupas/special_school_vest_red_skirt.jpg)
+<img src="../imagens/crew/guarda_roupas/special_school_vest_red_skirt.jpg" width="320" alt="school vest" />
 
 ### Descrição visual (roupa)
 - Camisa branca + colete preto + gravata  
@@ -2388,7 +2389,7 @@ Fantasia/uniforme estilizado — **não** job.
 **Arquivo:** `stealth_black_jumpsuit.jpg`  
 **Nome rápido:** Stealth — jumpsuit preto · **#042**
 **Combina com (sugestão):** Valk / Alex / pack  
-![stealth jumpsuit](../imagens/crew/guarda_roupas/stealth_black_jumpsuit.jpg)
+<img src="../imagens/crew/guarda_roupas/stealth_black_jumpsuit.jpg" width="320" alt="stealth jumpsuit" />
 
 ### Descrição visual (roupa)
 - Macacão/jumpsuit **preto** de uma peça, zíper central  
@@ -2407,7 +2408,7 @@ Job stealth, infiltração, “tudo preto funcional” (não clube).
 **Arquivo:** `stealth_black_combat_set.jpg`  
 **Nome rápido:** Stealth — combat all black · **#043**
 **Combina com (sugestão):** Valk / Alex / pack  
-![stealth combat](../imagens/crew/guarda_roupas/stealth_black_combat_set.jpg)
+<img src="../imagens/crew/guarda_roupas/stealth_black_combat_set.jpg" width="320" alt="stealth combat" />
 
 ### Descrição visual (roupa)
 - Top/halter preto com tiras  
@@ -2426,7 +2427,7 @@ Operação noturna, close combat discreto.
 **Arquivo:** `rain_black_leather_trench.jpg`  
 **Nome rápido:** Chuva / noite — trench couro pesado · **#022**
 **Combina com (sugestão):** qualquer  
-![rain trench](../imagens/crew/guarda_roupas/rain_black_leather_trench.jpg)
+<img src="../imagens/crew/guarda_roupas/rain_black_leather_trench.jpg" width="320" alt="rain trench" />
 
 ### Descrição visual (roupa)
 - Trench/casaco de **couro preto** longo, botões duplos, ombreiras  
@@ -2445,7 +2446,7 @@ Chuva, frio urbano, deslocamento noturno (variante mais pesada do street_leather
 **Arquivo:** `weather_olive_trench.jpg`  
 **Nome rápido:** Clima / scav — trench oliva · **#023**
 **Combina com (sugestão):** qualquer  
-![olive trench](../imagens/crew/guarda_roupas/weather_olive_trench.jpg)
+<img src="../imagens/crew/guarda_roupas/weather_olive_trench.jpg" width="320" alt="olive trench" />
 
 ### Descrição visual (roupa)
 - Trench/casaco **oliva** longo, aberto  
@@ -2464,7 +2465,7 @@ Badlands úmido, scav, clima ruim, “pronta pro tempo”.
 **Arquivo:** `lounge_hoodie_sweatpants.jpg`  
 **Nome rápido:** Lounge — hoodie + calça moletom · **#060**
 **Combina com (sugestão):** qualquer  
-![lounge sweatpants](../imagens/crew/guarda_roupas/lounge_hoodie_sweatpants.jpg)
+<img src="../imagens/crew/guarda_roupas/lounge_hoodie_sweatpants.jpg" width="320" alt="lounge sweatpants" />
 
 ### Descrição visual (roupa)
 - Hoodie crop bege/off-white  
@@ -2483,7 +2484,7 @@ Safehouse, manhã, downtime (mais “calça lounge” que só short).
 **Arquivo:** `tech_bodysuit_white_crop.jpg`  
 **Nome rápido:** Tech — bodysuit + crop branco · **#047**
 **Combina com (sugestão):** Echo / qualquer  
-![tech bodysuit](../imagens/crew/guarda_roupas/tech_bodysuit_white_crop.jpg)
+<img src="../imagens/crew/guarda_roupas/tech_bodysuit_white_crop.jpg" width="320" alt="tech bodysuit" />
 
 ### Descrição visual (roupa)
 - Bodysuit/legging preto com linhas claras  
@@ -2502,7 +2503,7 @@ Netrunner, tech fashion, job leve de rua.
 **Arquivo:** `casual_tank_boyfriend_jeans.jpg`  
 **Nome rápido:** Casual — tank + jeans boyfriend · **#035**
 **Combina com (sugestão):** qualquer  
-![boyfriend jeans](../imagens/crew/guarda_roupas/casual_tank_boyfriend_jeans.jpg)
+<img src="../imagens/crew/guarda_roupas/casual_tank_boyfriend_jeans.jpg" width="320" alt="boyfriend jeans" />
 
 ### Descrição visual (roupa)
 - Top/sports bra azul-turquesa  
@@ -2520,7 +2521,7 @@ Pack, folga, casual sem cargo.
 **Arquivo:** `casual_tee_simple_pants.jpg`  
 **Nome rápido:** Casual — tee + calça simples · **#036**
 **Combina com (sugestão):** qualquer  
-![simple tee pants](../imagens/crew/guarda_roupas/casual_tee_simple_pants.jpg)
+<img src="../imagens/crew/guarda_roupas/casual_tee_simple_pants.jpg" width="320" alt="simple tee pants" />
 
 ### Descrição visual (roupa)
 - Camiseta preta lisa, manga curta  
@@ -2538,7 +2539,7 @@ Downtime, conversa, “só roupa de gente normal”.
 **Arquivo:** `media_white_jacket_cargo.jpg`  
 **Nome rápido:** Media — jaqueta branca + cargo · **#048**
 **Combina com (sugestão):** Echo / qualquer  
-![media white jacket](../imagens/crew/guarda_roupas/media_white_jacket_cargo.jpg)
+<img src="../imagens/crew/guarda_roupas/media_white_jacket_cargo.jpg" width="320" alt="media white jacket" />
 
 ### Descrição visual (roupa)
 - Crop/top preto gola alta  
@@ -2557,7 +2558,7 @@ Rua com câmera, job de media, visual “pronta pra gravação”.
 **Arquivo:** `media_corp_uniform_jacket.jpg`  
 **Nome rápido:** Media / corp — jaqueta uniforme · **#049**
 **Combina com (sugestão):** Echo / qualquer  
-![media corp](../imagens/crew/guarda_roupas/media_corp_uniform_jacket.jpg)
+<img src="../imagens/crew/guarda_roupas/media_corp_uniform_jacket.jpg" width="320" alt="media corp" />
 
 ### Descrição visual (roupa)
 - Jaqueta zip cinza/preta, detalhe azul no ombro  
@@ -2570,13 +2571,13 @@ Ambiente corp/segurança, entrevista, “uniforme limpo”.
 
 ---
 
-<a id="look-097"></a>
-## 097 · Formal — pantsuit preto
+<a id="look-098"></a>
+## 098 · Formal — pantsuit preto
 
 **Arquivo:** `formal_black_pantsuit.jpg`  
-**Nome rápido:** Formal — pantsuit preto · **#097**
+**Nome rápido:** Formal — pantsuit preto · **#098**
 **Combina com (sugestão):** Alex  
-![black pantsuit](../imagens/crew/guarda_roupas/formal_black_pantsuit.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_black_pantsuit.jpg" width="320" alt="black pantsuit" />
 
 ### Descrição visual (roupa)
 - Blazer preto  
@@ -2588,13 +2589,13 @@ Reunião, corp, visual profissional completo (além da camisa office).
 
 ---
 
-<a id="look-098"></a>
-## 098 · Formal — terno 3 peças
+<a id="look-099"></a>
+## 099 · Formal — terno 3 peças
 
 **Arquivo:** `formal_black_threepiece_suit.jpg`  
-**Nome rápido:** Formal — terno 3 peças · **#098**
+**Nome rápido:** Formal — terno 3 peças · **#099**
 **Combina com (sugestão):** Alex  
-![threepiece suit](../imagens/crew/guarda_roupas/formal_black_threepiece_suit.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_black_threepiece_suit.jpg" width="320" alt="threepiece suit" />
 
 ### Descrição visual (roupa)
 - Blazer + colete + camisa branca + gravata preta  
@@ -2606,13 +2607,13 @@ Evento formal, corpo andrógino/power suit, cliente high-end.
 
 ---
 
-<a id="look-133"></a>
-## 133 · Evening — halter longo fenda
+<a id="look-132"></a>
+## 132 · Evening — halter longo fenda
 
 **Arquivo:** `evening_black_halter_long_slit.jpg`  
-**Nome rápido:** Evening — halter longo fenda · **#133**
+**Nome rápido:** Evening — halter longo fenda · **#132**
 **Combina com (sugestão):** Reina  
-![halter long slit](../imagens/crew/guarda_roupas/evening_black_halter_long_slit.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_black_halter_long_slit.jpg" width="320" alt="halter long slit" />
 
 ### Descrição visual (roupa)
 - Vestido/macacão longo preto, gola alta  
@@ -2631,7 +2632,7 @@ Noite elegante, evening com mobilidade, visual “longo mas prático”.
 **Arquivo:** `street_ink_robe_gown.jpg`  
 **Nome rápido:** Street — robe tinta P&B · **#024**
 **Combina com (sugestão):** qualquer  
-![ink robe](../imagens/crew/guarda_roupas/street_ink_robe_gown.jpg)
+<img src="../imagens/crew/guarda_roupas/street_ink_robe_gown.jpg" width="320" alt="ink robe" />
 
 ### Descrição visual (roupa)
 - Robe/vestido longo preto com manchas brancas  
@@ -2651,7 +2652,7 @@ Street fashion, night out artístico, media event.
 **Arquivo:** `medical_lab_coat_classic.jpg`  
 **Nome rápido:** Jaleco clássico · **#169**
 **Combina com (sugestão):** Stitch / qualquer  
-![lab coat classic](../imagens/crew/guarda_roupas/medical_lab_coat_classic.jpg)
+<img src="../imagens/crew/guarda_roupas/medical_lab_coat_classic.jpg" width="320" alt="lab coat classic" />
 
 ### Descrição visual (roupa)
 - Jaleco/lab coat **branco** longo, botões, cinto  
@@ -2670,7 +2671,7 @@ Clínica, Stitch em ambiente limpo, ripperdoc “profissional”.
 **Arquivo:** `medical_street_lab_coat.jpg`  
 **Nome rápido:** Jaleco street / medtech de rua · **#170**
 **Combina com (sugestão):** Stitch / qualquer  
-![street lab coat](../imagens/crew/guarda_roupas/medical_street_lab_coat.jpg)
+<img src="../imagens/crew/guarda_roupas/medical_street_lab_coat.jpg" width="320" alt="street lab coat" />
 
 ### Descrição visual (roupa)
 - Jaleco branco aberto, forro/teal  
@@ -2689,7 +2690,7 @@ Medtech em campo, Stitch street, clínica de rua.
 **Arquivo:** `medical_tech_hooded_coat.jpg`  
 **Nome rápido:** Casaco tech com capuz · **#171**
 **Combina com (sugestão):** Stitch / qualquer  
-![tech hooded coat](../imagens/crew/guarda_roupas/medical_tech_hooded_coat.jpg)
+<img src="../imagens/crew/guarda_roupas/medical_tech_hooded_coat.jpg" width="320" alt="tech hooded coat" />
 
 ### Descrição visual (roupa)
 - Casaco branco longo com **capuz** e linhas tech  
@@ -2708,7 +2709,7 @@ Lab high-tech, ripperdoc corporativo, medtech “cyber”.
 **Arquivo:** `medical_white_uniform_set.jpg`  
 **Nome rápido:** Uniforme branco · **#172**
 **Combina com (sugestão):** Stitch / qualquer  
-![white uniform](../imagens/crew/guarda_roupas/medical_white_uniform_set.jpg)
+<img src="../imagens/crew/guarda_roupas/medical_white_uniform_set.jpg" width="320" alt="white uniform" />
 
 ### Descrição visual (roupa)
 - Uniforme/jumpsuit branco justo  
@@ -2727,7 +2728,7 @@ Corp medical, clínica premium, visual limpo all-white.
 **Arquivo:** `medical_nurse_dress_white.jpg`  
 **Nome rápido:** Nurse dress branca · **#173**
 **Combina com (sugestão):** Stitch / qualquer  
-![nurse white](../imagens/crew/guarda_roupas/medical_nurse_dress_white.jpg)
+<img src="../imagens/crew/guarda_roupas/medical_nurse_dress_white.jpg" width="320" alt="nurse white" />
 
 ### Descrição visual (roupa)
 - Vestido enfermeira **branco** comprimento joelho/midi  
@@ -2746,7 +2747,7 @@ Clínica, hospital, visual “enfermeira clássica”.
 **Arquivo:** `medical_nurse_dress_asym.jpg`  
 **Nome rápido:** Nurse dress assimétrico · **#174**
 **Combina com (sugestão):** Stitch / qualquer  
-![nurse asym](../imagens/crew/guarda_roupas/medical_nurse_dress_asym.jpg)
+<img src="../imagens/crew/guarda_roupas/medical_nurse_dress_asym.jpg" width="320" alt="nurse asym" />
 
 ### Descrição visual (roupa)
 - Vestido enfermeira branco com barra **assimétrica**  
@@ -2764,7 +2765,7 @@ Clínica estilizada, Stitch “arrumada” medical.
 **Arquivo:** `medical_nurse_dress_pink.jpg`  
 **Nome rápido:** Nurse dress rosa · **#175**
 **Combina com (sugestão):** Stitch / qualquer  
-![nurse pink](../imagens/crew/guarda_roupas/medical_nurse_dress_pink.jpg)
+<img src="../imagens/crew/guarda_roupas/medical_nurse_dress_pink.jpg" width="320" alt="nurse pink" />
 
 ### Descrição visual (roupa)
 - Vestido enfermeira **rosa** mini  
@@ -2785,7 +2786,7 @@ Cena estilizada / costume — **não** default realista de hospital.
 **Arquivo:** `sleep_oversized_tee.jpg`  
 **Nome rápido:** Tee oversized · **#061**
 **Combina com (sugestão):** qualquer  
-![sleep tee](../imagens/crew/guarda_roupas/sleep_oversized_tee.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_oversized_tee.jpg" width="320" alt="sleep tee" />
 
 ### Descrição visual (roupa)
 - Camiseta oversized cinza-azul, manga curta  
@@ -2802,7 +2803,7 @@ Casa, safehouse, manhã preguiçosa, intimidade casual.
 **Arquivo:** `sleep_white_robe.jpg`  
 **Nome rápido:** Roupão branco · **#062**
 **Combina com (sugestão):** qualquer  
-![white robe](../imagens/crew/guarda_roupas/sleep_white_robe.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_white_robe.jpg" width="320" alt="white robe" />
 
 ### Descrição visual (roupa)
 - Roupão/bathrobe **branco** felpudo  
@@ -2819,7 +2820,7 @@ Pós-banho, manhã, hotel, downtime doméstico.
 **Arquivo:** `sleep_satin_cami_shorts.jpg`  
 **Nome rápido:** Cami cetim + short · **#063**
 **Combina com (sugestão):** Valk / intimidade  
-![satin cami](../imagens/crew/guarda_roupas/sleep_satin_cami_shorts.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_satin_cami_shorts.jpg" width="320" alt="satin cami" />
 
 ### Descrição visual (roupa)
 - Top/cami cetim branco com renda  
@@ -2837,7 +2838,7 @@ Sleep ousado-leve, cena íntima em casa.
 **Arquivo:** `sleep_blue_lace_set.jpg`  
 **Nome rápido:** Lace azul + robe · **#064**
 **Combina com (sugestão):** qualquer  
-![blue lace sleep](../imagens/crew/guarda_roupas/sleep_blue_lace_set.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_blue_lace_set.jpg" width="320" alt="blue lace sleep" />
 
 ### Descrição visual (roupa)
 - Vestido/corset renda azul claro  
@@ -2854,7 +2855,7 @@ Sleep fashion, intimidade, “pijama de saída”.
 **Arquivo:** `sleep_lingerie_robe_set.jpg`  
 **Nome rápido:** Lingerie + robe · **#065**
 **Combina com (sugestão):** Valk / intimidade  
-![lingerie robe set](../imagens/crew/guarda_roupas/sleep_lingerie_robe_set.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_lingerie_robe_set.jpg" width="320" alt="lingerie robe set" />
 
 ### Descrição visual (roupa)
 - Conjunto lingerie magenta (sutiã + calcinha + babydoll)  
@@ -2872,7 +2873,7 @@ Especial/sleep ousado — só se a cena pedir.
 **Arquivo:** `sleep_plush_onesie_hearts.jpg`  
 **Nome rápido:** Onesie plush hearts · **#066**
 **Combina com (sugestão):** qualquer  
-![onesie hearts](../imagens/crew/guarda_roupas/sleep_plush_onesie_hearts.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_plush_onesie_hearts.jpg" width="320" alt="onesie hearts" />
 
 ### Descrição visual (roupa)
 - Onesie/macacão plush curto P&B com estampa  
@@ -2889,7 +2890,7 @@ Casa fofa, humor, downtime pack (Reina vibe opcional).
 **Arquivo:** `sleep_plush_onesie_bear.jpg`  
 **Nome rápido:** Onesie plush bear · **#067**
 **Combina com (sugestão):** qualquer  
-![onesie bear](../imagens/crew/guarda_roupas/sleep_plush_onesie_bear.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_plush_onesie_bear.jpg" width="320" alt="onesie bear" />
 
 ### Descrição visual (roupa)
 - Onesie plush marrom curto  
@@ -2902,13 +2903,13 @@ Sleep fofo, humor, intimidade casual.
 
 # FORMAL / EVENING / SWIM / FANTASIA (lote novo)
 
-<a id="look-099"></a>
-## 099 · Vest + saia plissada bege
+<a id="look-100"></a>
+## 100 · Vest + saia plissada bege
 
 **Arquivo:** `formal_vest_tan_pleat.jpg`  
-**Nome rápido:** Vest + saia plissada bege · **#099**
+**Nome rápido:** Vest + saia plissada bege · **#100**
 **Combina com (sugestão):** qualquer  
-![vest tan pleat](../imagens/crew/guarda_roupas/formal_vest_tan_pleat.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_vest_tan_pleat.jpg" width="320" alt="vest tan pleat" />
 
 ### Descrição visual (roupa)
 - Camisa branca social  
@@ -2921,13 +2922,13 @@ Semi-formal, escritório casual, saída apresentável.
 
 ---
 
-<a id="look-100"></a>
-## 100 · Navy gold mini
+<a id="look-101"></a>
+## 101 · Navy gold mini
 
 **Arquivo:** `formal_navy_gold_mini.jpg`  
-**Nome rápido:** Navy gold mini · **#100**
+**Nome rápido:** Navy gold mini · **#101**
 **Combina com (sugestão):** qualquer  
-![navy gold mini](../imagens/crew/guarda_roupas/formal_navy_gold_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_navy_gold_mini.jpg" width="320" alt="navy gold mini" />
 
 ### Descrição visual (roupa)
 - Blusa off-shoulder creme/azul com bordado dourado  
@@ -2939,13 +2940,13 @@ Evento semi-formal, jantar, fantasia elegante.
 
 ---
 
-<a id="look-134"></a>
-## 134 · Velvet black lace
+<a id="look-133"></a>
+## 133 · Velvet black lace
 
 **Arquivo:** `evening_black_velvet_lace.jpg`  
-**Nome rápido:** Velvet black lace · **#134**
+**Nome rápido:** Velvet black lace · **#133**
 **Combina com (sugestão):** Reina  
-![velvet lace](../imagens/crew/guarda_roupas/evening_black_velvet_lace.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_black_velvet_lace.jpg" width="320" alt="velvet lace" />
 
 ### Descrição visual (roupa)
 - Vestido longo veludo preto, ombro a ombro  
@@ -2957,13 +2958,13 @@ Gala, evening clássico.
 
 ---
 
-<a id="look-135"></a>
-## 135 · Sparkle black gown
+<a id="look-134"></a>
+## 134 · Sparkle black gown
 
 **Arquivo:** `evening_black_sparkle_gown.jpg`  
-**Nome rápido:** Sparkle black gown · **#135**
+**Nome rápido:** Sparkle black gown · **#134**
 **Combina com (sugestão):** Reina  
-![sparkle gown](../imagens/crew/guarda_roupas/evening_black_sparkle_gown.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_black_sparkle_gown.jpg" width="320" alt="sparkle gown" />
 
 ### Descrição visual (roupa)
 - Gown preto com brilho/bordado  
@@ -2974,13 +2975,13 @@ Gala high-end.
 
 ---
 
-<a id="look-136"></a>
-## 136 · Blue one-shoulder gown
+<a id="look-135"></a>
+## 135 · Blue one-shoulder gown
 
 **Arquivo:** `evening_blue_oneshoulder_gown.jpg`  
-**Nome rápido:** Blue one-shoulder gown · **#136**
+**Nome rápido:** Blue one-shoulder gown · **#135**
 **Combina com (sugestão):** Reina  
-![blue oneshoulder](../imagens/crew/guarda_roupas/evening_blue_oneshoulder_gown.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_blue_oneshoulder_gown.jpg" width="320" alt="blue oneshoulder" />
 
 ### Descrição visual (roupa)
 - Gown azul one-shoulder com fenda  
@@ -2997,7 +2998,7 @@ Gala, evening colorido.
 **Arquivo:** `swim_black_sheer_coverup.jpg`  
 **Nome rápido:** Swim — sheer coverup · **#179**
 **Combina com (sugestão):** qualquer  
-![swim coverup](../imagens/crew/guarda_roupas/swim_black_sheer_coverup.jpg)
+<img src="../imagens/crew/guarda_roupas/swim_black_sheer_coverup.jpg" width="320" alt="swim coverup" />
 
 ### Descrição visual (roupa)
 - Top/bandeau preto  
@@ -3015,7 +3016,7 @@ Praia, piscina, resort — **não** job.
 **Arquivo:** `fantasy_ice_gown_sheet.jpg`  
 **Nome rápido:** Fantasy ice gown · **#165**
 **Combina com (sugestão):** Reina  
-![ice gown](../imagens/crew/guarda_roupas/fantasy_ice_gown_sheet.jpg)
+<img src="../imagens/crew/guarda_roupas/fantasy_ice_gown_sheet.jpg" width="320" alt="ice gown" />
 
 ### Descrição visual (roupa)
 - Gown prata/gelo fluido (sheet frente/costas)  
@@ -3032,7 +3033,7 @@ Fantasia, evento raro — **não** job.
 **Arquivo:** `fantasy_snow_coord.jpg`  
 **Nome rápido:** Fantasy snow coord · **#166**
 **Combina com (sugestão):** Reina  
-![snow coord](../imagens/crew/guarda_roupas/fantasy_snow_coord.jpg)
+<img src="../imagens/crew/guarda_roupas/fantasy_snow_coord.jpg" width="320" alt="snow coord" />
 
 ### Descrição visual (roupa)
 - Crop azul com mangas bufantes  
@@ -3052,7 +3053,7 @@ Fantasia inverno, costume.
 **Arquivo:** `medical_scrubs_blue.jpg`  
 **Nome rápido:** Scrubs azuis clássicos · **#176**
 **Combina com (sugestão):** Stitch / qualquer  
-![scrubs blue](../imagens/crew/guarda_roupas/medical_scrubs_blue.jpg)
+<img src="../imagens/crew/guarda_roupas/medical_scrubs_blue.jpg" width="320" alt="scrubs blue" />
 
 ### Descrição visual (roupa)
 - Top scrub **azul** V-neck, manga curta  
@@ -3070,7 +3071,7 @@ Hospital, clínica, Stitch em plantão realista.
 **Arquivo:** `medical_scrubs_slate.jpg`  
 **Nome rápido:** Scrubs slate / cinza-azul · **#177**
 **Combina com (sugestão):** Stitch / qualquer  
-![scrubs slate](../imagens/crew/guarda_roupas/medical_scrubs_slate.jpg)
+<img src="../imagens/crew/guarda_roupas/medical_scrubs_slate.jpg" width="320" alt="scrubs slate" />
 
 ### Descrição visual (roupa)
 - Scrubs azul-acinzentado, top envelope com bolso  
@@ -3087,7 +3088,7 @@ Hospital moderno, plantão, visual clean medical.
 **Arquivo:** `medical_scrubs_light_blue.jpg`  
 **Nome rápido:** Scrubs light blue · **#178**
 **Combina com (sugestão):** Stitch / qualquer  
-![scrubs light](../imagens/crew/guarda_roupas/medical_scrubs_light_blue.jpg)
+<img src="../imagens/crew/guarda_roupas/medical_scrubs_light_blue.jpg" width="320" alt="scrubs light" />
 
 ### Descrição visual (roupa)
 - Scrubs azul claro, corte mais justo  
@@ -3107,7 +3108,7 @@ Clínica estilizada / medical fashion — ainda é scrub, não nurse dress.
 **Arquivo:** `gym_biker_black_set.jpg`  
 **Nome rápido:** Biker black set · **#055**
 **Combina com (sugestão):** qualquer  
-![biker black set](../imagens/crew/guarda_roupas/gym_biker_black_set.jpg)
+<img src="../imagens/crew/guarda_roupas/gym_biker_black_set.jpg" width="320" alt="biker black set" />
 
 ### Descrição visual (roupa)
 - Crop top preto de malha esportiva, manga curta  
@@ -3125,7 +3126,7 @@ Treino, gym, visual “biker short + crop”.
 **Arquivo:** `gym_biker_halter_set.png`  
 **Nome rápido:** Biker + top halter · **#056**
 **Combina com (sugestão):** qualquer  
-![biker halter](../imagens/crew/guarda_roupas/gym_biker_halter_set.png)
+<img src="../imagens/crew/guarda_roupas/gym_biker_halter_set.png" width="320" alt="biker halter" />
 
 ### Descrição visual (roupa)
 - Top/halter preto com cut-out  
@@ -3143,7 +3144,7 @@ Gym fashion, street atlético, short justo.
 **Arquivo:** `gym_tech_romper_black.jpg`  
 **Nome rápido:** Tech romper preto · **#057**
 **Combina com (sugestão):** qualquer  
-![tech romper](../imagens/crew/guarda_roupas/gym_tech_romper_black.jpg)
+<img src="../imagens/crew/guarda_roupas/gym_tech_romper_black.jpg" width="320" alt="tech romper" />
 
 ### Descrição visual (roupa)
 - Romper/body manga longa preto e cinza  
@@ -3162,7 +3163,7 @@ Gym tech, street cyber leve, treino.
 **Arquivo:** `lounge_black_ruched_set.jpg`  
 **Nome rápido:** Lounge black ruched set · **#068**
 **Combina com (sugestão):** qualquer  
-![ruched set](../imagens/crew/guarda_roupas/lounge_black_ruched_set.jpg)
+<img src="../imagens/crew/guarda_roupas/lounge_black_ruched_set.jpg" width="320" alt="ruched set" />
 
 ### Descrição visual (roupa)
 - Crop preto canelado com tiras laterais  
@@ -3182,7 +3183,7 @@ Casa, lounge, short set casual.
 **Arquivo:** `sleep_onesie_hello_kitty.jpg`  
 **Nome rápido:** Onesie Hello Kitty · **#069**
 **Combina com (sugestão):** qualquer  
-![onesie hk](../imagens/crew/guarda_roupas/sleep_onesie_hello_kitty.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_onesie_hello_kitty.jpg" width="320" alt="onesie hk" />
 
 ### Descrição visual (roupa)
 - Onesie/romper rosa manga longa com estampa  
@@ -3200,7 +3201,7 @@ Sleep fofo, humor, downtime pack.
 **Arquivo:** `sleep_bunny_hoodie_body.jpg`  
 **Nome rápido:** Bunny hoodie body · **#070**
 **Combina com (sugestão):** qualquer  
-![bunny body](../imagens/crew/guarda_roupas/sleep_bunny_hoodie_body.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_bunny_hoodie_body.jpg" width="320" alt="bunny body" />
 
 ### Descrição visual (roupa)
 - Body canelado cinza com capuz e orelhas longas  
@@ -3218,7 +3219,7 @@ Sleep/costume fofo — especial casa.
 **Arquivo:** `swim_black_white_onepiece.jpg`  
 **Nome rápido:** Swim one-piece black/white · **#180**
 **Combina com (sugestão):** qualquer  
-![onepiece swim](../imagens/crew/guarda_roupas/swim_black_white_onepiece.jpg)
+<img src="../imagens/crew/guarda_roupas/swim_black_white_onepiece.jpg" width="320" alt="onepiece swim" />
 
 ### Descrição visual (roupa)
 - Maiô/one-piece preto com borda branca  
@@ -3231,13 +3232,13 @@ Praia, piscina (junto com `swim_black_sheer_coverup` se quiser capa).
 
 # FORMAL — BERMUDA ALFAIATARIA
 
-<a id="look-101"></a>
-## 101 · Bermuda terno cinza + blazer
+<a id="look-102"></a>
+## 102 · Bermuda terno cinza + blazer
 
 **Arquivo:** `formal_grey_bermuda_suit.jpg`  
-**Nome rápido:** Bermuda terno cinza + blazer · **#101**
+**Nome rápido:** Bermuda terno cinza + blazer · **#102**
 **Combina com (sugestão):** Alex  
-![grey bermuda suit](../imagens/crew/guarda_roupas/formal_grey_bermuda_suit.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_grey_bermuda_suit.jpg" width="320" alt="grey bermuda suit" />
 
 ### Descrição visual (roupa)
 - Blazer cinza alfaiataria, botões duplos  
@@ -3250,13 +3251,13 @@ Formal verão, reunião corp, “power suit” sem calça longa.
 
 ---
 
-<a id="look-102"></a>
-## 102 · Bermuda bege + blazer
+<a id="look-103"></a>
+## 103 · Bermuda bege + blazer
 
 **Arquivo:** `formal_beige_bermuda_blazer.jpg`  
-**Nome rápido:** Bermuda bege + blazer · **#102**
+**Nome rápido:** Bermuda bege + blazer · **#103**
 **Combina com (sugestão):** qualquer  
-![beige bermuda](../imagens/crew/guarda_roupas/formal_beige_bermuda_blazer.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_beige_bermuda_blazer.jpg" width="320" alt="beige bermuda" />
 
 ### Descrição visual (roupa)
 - Blazer bege aberto  
@@ -3275,7 +3276,7 @@ Dia elegante, cliente semi-formal, street money.
 **Arquivo:** `casual_khaki_bermuda_shirt.jpg`  
 **Nome rápido:** Bermuda cáqui + camisa · **#037**
 **Combina com (sugestão):** qualquer  
-![khaki bermuda](../imagens/crew/guarda_roupas/casual_khaki_bermuda_shirt.jpg)
+<img src="../imagens/crew/guarda_roupas/casual_khaki_bermuda_shirt.jpg" width="320" alt="khaki bermuda" />
 
 ### Descrição visual (roupa)
 - Camisa azul clara manga curta (chambray)  
@@ -3287,13 +3288,13 @@ Smart casual, deslocamento urbano leve, “arrumada mas de short”.
 
 ---
 
-<a id="look-103"></a>
-## 103 · Culotte bege + camisa crop
+<a id="look-104"></a>
+## 104 · Culotte bege + camisa crop
 
 **Arquivo:** `formal_beige_culotte_crop.jpg`  
-**Nome rápido:** Culotte bege + camisa crop · **#103**
+**Nome rápido:** Culotte bege + camisa crop · **#104**
 **Combina com (sugestão):** qualquer  
-![beige culotte](../imagens/crew/guarda_roupas/formal_beige_culotte_crop.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_beige_culotte_crop.jpg" width="320" alt="beige culotte" />
 
 ### Descrição visual (roupa)
 - Camisa crop listrada cinza/branca  
@@ -3305,13 +3306,13 @@ Formal verão largo (irmão da bermuda; silhueta mais longa/larga).
 
 ---
 
-<a id="look-104"></a>
-## 104 · Wide-leg branca crop
+<a id="look-105"></a>
+## 105 · Wide-leg branca crop
 
 **Arquivo:** `formal_white_wideleg_crop.jpg`  
-**Nome rápido:** Wide-leg branca crop · **#104**
+**Nome rápido:** Wide-leg branca crop · **#105**
 **Combina com (sugestão):** qualquer  
-![white wideleg](../imagens/crew/guarda_roupas/formal_white_wideleg_crop.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_white_wideleg_crop.jpg" width="320" alt="white wideleg" />
 
 ### Descrição visual (roupa)
 - Top/cami bege  
@@ -3338,7 +3339,7 @@ Soft formal, pack “arrumada”, **não** é bermuda (calça).
 **Categoria:** sleep  
 **Combina com (sugestão):** qualquer  
 
-![Camisetão-vestido azul](../imagens/crew/guarda_roupas/sleep_oversized_tee_dress_blue.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_oversized_tee_dress_blue.jpg" width="320" alt="Camisetão-vestido azul" />
 
 ### Descrição visual (roupa)
 - Camiseta oversized azul-acinzentada usada como mini-vestido; bolsos laterais
@@ -3356,7 +3357,7 @@ Casa, safehouse, manhã, intimidade casual.
 **Categoria:** sleep  
 **Combina com (sugestão):** qualquer  
 
-![Onesie plush vaca](../imagens/crew/guarda_roupas/sleep_plush_onesie_cow.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_plush_onesie_cow.jpg" width="320" alt="Onesie plush vaca" />
 
 ### Descrição visual (roupa)
 - Onesie/macacão plush P&B com capuz e orelhas
@@ -3374,7 +3375,7 @@ Sleep fofo, humor, downtime pack.
 **Categoria:** sleep  
 **Combina com (sugestão):** Valk / intimidade  
 
-![Cami + short pretos](../imagens/crew/guarda_roupas/sleep_black_cami_shorts.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_black_cami_shorts.jpg" width="320" alt="Cami + short pretos" />
 
 ### Descrição visual (roupa)
 - Top cami preto com renda + short combinando
@@ -3392,7 +3393,7 @@ Pijama elegante, intimidade.
 **Categoria:** sleep  
 **Combina com (sugestão):** Valk / intimidade  
 
-![Slip branco renda](../imagens/crew/guarda_roupas/sleep_white_lace_slip.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_white_lace_slip.jpg" width="320" alt="Slip branco renda" />
 
 ### Descrição visual (roupa)
 - Camisola/slip branca com renda e amarração lateral
@@ -3410,7 +3411,7 @@ Sleep ousado-leve, intimidade.
 **Categoria:** sleep  
 **Combina com (sugestão):** Valk / intimidade  
 
-![Babydoll rosa + robe](../imagens/crew/guarda_roupas/sleep_pink_babydoll_robe.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_pink_babydoll_robe.jpg" width="320" alt="Babydoll rosa + robe" />
 
 ### Descrição visual (roupa)
 - Babydoll rosa renda + robe sheer rosa babados
@@ -3428,7 +3429,7 @@ Sleep fashion, intimidade.
 **Categoria:** sleep  
 **Combina com (sugestão):** Valk / intimidade  
 
-![Babydoll sheer preto](../imagens/crew/guarda_roupas/sleep_black_sheer_babydoll.png)
+<img src="../imagens/crew/guarda_roupas/sleep_black_sheer_babydoll.png" width="320" alt="Babydoll sheer preto" />
 
 ### Descrição visual (roupa)
 - Babydoll preto renda + tule transparente
@@ -3446,7 +3447,7 @@ Intimidade, nightwear ousado.
 **Categoria:** sleep  
 **Combina com (sugestão):** qualquer  
 
-![Moletom estrela + short](../imagens/crew/guarda_roupas/sleep_star_sweater_set.png)
+<img src="../imagens/crew/guarda_roupas/sleep_star_sweater_set.png" width="320" alt="Moletom estrela + short" />
 
 ### Descrição visual (roupa)
 - Moletom cinza/preto com estrela + short renda + pantufas (opcional)
@@ -3464,7 +3465,7 @@ Casa, pijama fofo, qualquer personagem.
 **Categoria:** sleep  
 **Combina com (sugestão):** qualquer  
 
-![Tee ombro + boyshort](../imagens/crew/guarda_roupas/sleep_black_offshoulder_boyshort.png)
+<img src="../imagens/crew/guarda_roupas/sleep_black_offshoulder_boyshort.png" width="320" alt="Tee ombro + boyshort" />
 
 ### Descrição visual (roupa)
 - Camiseta preta ombro a ombro + boyshort preto com cruz
@@ -3482,7 +3483,7 @@ Casa, intimidade casual ousada.
 **Categoria:** sleep  
 **Combina com (sugestão):** qualquer  
 
-![Sutiã lounge + cardigan](../imagens/crew/guarda_roupas/lounge_bra_cardigan_shorts.jpg)
+<img src="../imagens/crew/guarda_roupas/lounge_bra_cardigan_shorts.jpg" width="320" alt="Sutiã lounge + cardigan" />
 
 ### Descrição visual (roupa)
 - Sutiã branco 'LOUNGE' + short moletom cinza + cardigan bege
@@ -3492,15 +3493,15 @@ Casa, manhã, lounge íntimo.
 
 ---
 
-<a id="look-083"></a>
-## 083 · Robe sheer + sutiã
+<a id="look-084"></a>
+## 084 · Robe sheer + sutiã
 
 **Arquivo:** `intimate_black_sheer_robe.jpg`  
-**Nome rápido:** Robe sheer + sutiã · **#083**
+**Nome rápido:** Robe sheer + sutiã · **#084**
 **Categoria:** intimate  
 **Combina com (sugestão):** Valk / intimidade  
 
-![Robe sheer + sutiã](../imagens/crew/guarda_roupas/intimate_black_sheer_robe.jpg)
+<img src="../imagens/crew/guarda_roupas/intimate_black_sheer_robe.jpg" width="320" alt="Robe sheer + sutiã" />
 
 ### Descrição visual (roupa)
 - Robe preto transparente renda + sutiã preto
@@ -3510,15 +3511,15 @@ Intimidade, pós-banho ousado.
 
 ---
 
-<a id="look-084"></a>
-## 084 · Set vinho renda
+<a id="look-085"></a>
+## 085 · Set vinho renda
 
 **Arquivo:** `intimate_burgundy_lace_set.jpg`  
-**Nome rápido:** Set vinho renda · **#084**
+**Nome rápido:** Set vinho renda · **#085**
 **Categoria:** intimate  
 **Combina com (sugestão):** Valk / intimidade  
 
-![Set vinho renda](../imagens/crew/guarda_roupas/intimate_burgundy_lace_set.jpg)
+<img src="../imagens/crew/guarda_roupas/intimate_burgundy_lace_set.jpg" width="320" alt="Set vinho renda" />
 
 ### Descrição visual (roupa)
 - Top crop vinho renda + calcinha combinando (cruz no peito)
@@ -3528,15 +3529,15 @@ Intimidade Ryan/Valk ou cena íntima; completar com robe se quiser.
 
 ---
 
-<a id="look-085"></a>
-## 085 · Tricô crop + fio
+<a id="look-086"></a>
+## 086 · Tricô crop + fio
 
 **Arquivo:** `intimate_knit_crop_thong.png`  
-**Nome rápido:** Tricô crop + fio · **#085**
+**Nome rápido:** Tricô crop + fio · **#086**
 **Categoria:** intimate  
 **Combina com (sugestão):** Valk / intimidade  
 
-![Tricô crop + fio](../imagens/crew/guarda_roupas/intimate_knit_crop_thong.png)
+<img src="../imagens/crew/guarda_roupas/intimate_knit_crop_thong.png" width="320" alt="Tricô crop + fio" />
 
 ### Descrição visual (roupa)
 - Suéter/tricô crochê ombro de fora + calcinha fio preta
@@ -3546,15 +3547,15 @@ Intimidade / look ousado incompleto (ref).
 
 ---
 
-<a id="look-086"></a>
-## 086 · Camisa sheer + fio
+<a id="look-087"></a>
+## 087 · Camisa sheer + fio
 
 **Arquivo:** `intimate_sheer_shirt_thong.png`  
-**Nome rápido:** Camisa sheer + fio · **#086**
+**Nome rápido:** Camisa sheer + fio · **#087**
 **Categoria:** intimate  
 **Combina com (sugestão):** Valk / intimidade  
 
-![Camisa sheer + fio](../imagens/crew/guarda_roupas/intimate_sheer_shirt_thong.png)
+<img src="../imagens/crew/guarda_roupas/intimate_sheer_shirt_thong.png" width="320" alt="Camisa sheer + fio" />
 
 ### Descrição visual (roupa)
 - Camisa roxa/azul semi-transparente + calcinha fio renda preta
@@ -3564,15 +3565,15 @@ Intimidade, manhã ousada.
 
 ---
 
-<a id="look-121"></a>
-## 121 · Halter couro + mini
+<a id="look-120"></a>
+## 120 · Halter couro + mini
 
 **Arquivo:** `club_black_leather_harness_mini.png`  
-**Nome rápido:** Halter couro + mini · **#121**
+**Nome rápido:** Halter couro + mini · **#120**
 **Categoria:** club  
 **Combina com (sugestão):** Alex  
 
-![Halter couro + mini](../imagens/crew/guarda_roupas/club_black_leather_harness_mini.png)
+<img src="../imagens/crew/guarda_roupas/club_black_leather_harness_mini.png" width="320" alt="Halter couro + mini" />
 
 ### Descrição visual (roupa)
 - Top halter couro preto com argola + mini saia rebites + botas altas
@@ -3590,7 +3591,7 @@ Clube, night out ousado.
 **Categoria:** club  
 **Combina com (sugestão):** Alex / Valk  
 
-![Top off + micro denim](../imagens/crew/guarda_roupas/street_bikini_micro_denim.png)
+<img src="../imagens/crew/guarda_roupas/street_bikini_micro_denim.png" width="320" alt="Top off + micro denim" />
 
 ### Descrição visual (roupa)
 - Top branco off-shoulder + micro short jeans + fio preto por baixo
@@ -3600,15 +3601,15 @@ Street ousado, verão extremo, intimidade casual.
 
 ---
 
-<a id="look-122"></a>
-## 122 · Vestido preto correntes
+<a id="look-121"></a>
+## 121 · Vestido preto correntes
 
 **Arquivo:** `club_black_chain_mermaid.jpg`  
-**Nome rápido:** Vestido preto correntes · **#122**
+**Nome rápido:** Vestido preto correntes · **#121**
 **Categoria:** club  
 **Combina com (sugestão):** Alex  
 
-![Vestido preto correntes](../imagens/crew/guarda_roupas/club_black_chain_mermaid.jpg)
+<img src="../imagens/crew/guarda_roupas/club_black_chain_mermaid.jpg" width="320" alt="Vestido preto correntes" />
 
 ### Descrição visual (roupa)
 - Vestido preto sereia cut-outs + correntes douradas
@@ -3618,15 +3619,15 @@ Clube high-end, corpo.
 
 ---
 
-<a id="look-105"></a>
-## 105 · Camisa + calça couro
+<a id="look-106"></a>
+## 106 · Camisa + calça couro
 
 **Arquivo:** `formal_shirt_leather_harness.jpg`  
-**Nome rápido:** Camisa + calça couro · **#105**
+**Nome rápido:** Camisa + calça couro · **#106**
 **Categoria:** formal  
 **Combina com (sugestão):** Alex  
 
-![Camisa + calça couro](../imagens/crew/guarda_roupas/formal_shirt_leather_harness.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_shirt_leather_harness.jpg" width="320" alt="Camisa + calça couro" />
 
 ### Descrição visual (roupa)
 - Camisa cinza social + calça couro preta + cinto multi + botas
@@ -3636,15 +3637,15 @@ Formal ousado, job de rua high-end, corpo.
 
 ---
 
-<a id="look-106"></a>
-## 106 · Terno preto gravata vermelha
+<a id="look-107"></a>
+## 107 · Terno preto gravata vermelha
 
 **Arquivo:** `formal_black_red_tie_suit.jpg`  
-**Nome rápido:** Terno preto gravata vermelha · **#106**
+**Nome rápido:** Terno preto gravata vermelha · **#107**
 **Categoria:** formal  
 **Combina com (sugestão):** Alex  
 
-![Terno preto gravata vermelha](../imagens/crew/guarda_roupas/formal_black_red_tie_suit.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_black_red_tie_suit.jpg" width="320" alt="Terno preto gravata vermelha" />
 
 ### Descrição visual (roupa)
 - Blazer + camisa + gravata vermelha + calça pretos + luvas
@@ -3654,15 +3655,15 @@ Formal andrógino, evento, poder.
 
 ---
 
-<a id="look-107"></a>
-## 107 · Camisa + gravata + harness
+<a id="look-108"></a>
+## 108 · Camisa + gravata + harness
 
 **Arquivo:** `formal_shirt_tie_harness.jpg`  
-**Nome rápido:** Camisa + gravata + harness · **#107**
+**Nome rápido:** Camisa + gravata + harness · **#108**
 **Categoria:** formal  
 **Combina com (sugestão):** Alex  
 
-![Camisa + gravata + harness](../imagens/crew/guarda_roupas/formal_shirt_tie_harness.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_shirt_tie_harness.jpg" width="320" alt="Camisa + gravata + harness" />
 
 ### Descrição visual (roupa)
 - Camisa branca manga curta + gravata preta + harness/cinto peito + calça
@@ -3672,15 +3673,15 @@ Formal fetish-light, clube corp.
 
 ---
 
-<a id="look-108"></a>
-## 108 · Casaco steampunk marrom
+<a id="look-109"></a>
+## 109 · Casaco steampunk marrom
 
 **Arquivo:** `formal_steampunk_brown_coat.jpg`  
-**Nome rápido:** Casaco steampunk marrom · **#108**
+**Nome rápido:** Casaco steampunk marrom · **#109**
 **Categoria:** formal  
 **Combina com (sugestão):** qualquer  
 
-![Casaco steampunk marrom](../imagens/crew/guarda_roupas/formal_steampunk_brown_coat.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_steampunk_brown_coat.jpg" width="320" alt="Casaco steampunk marrom" />
 
 ### Descrição visual (roupa)
 - Casaco/colete marrom com detalhes metal + camisa branca babados
@@ -3690,15 +3691,15 @@ Fantasia steampunk, formal dark.
 
 ---
 
-<a id="look-137"></a>
-## 137 · Vestido rosa + capa
+<a id="look-136"></a>
+## 136 · Vestido rosa + capa
 
 **Arquivo:** `evening_pink_nightgown_cape.jpg`  
-**Nome rápido:** Vestido rosa + capa · **#137**
+**Nome rápido:** Vestido rosa + capa · **#136**
 **Categoria:** evening  
 **Combina com (sugestão):** Reina  
 
-![Vestido rosa + capa](../imagens/crew/guarda_roupas/evening_pink_nightgown_cape.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_pink_nightgown_cape.jpg" width="320" alt="Vestido rosa + capa" />
 
 ### Descrição visual (roupa)
 - Vestido longo rosa claro ombro a ombro + capa rosa
@@ -3708,15 +3709,15 @@ Gala soft, nightwear elegante.
 
 ---
 
-<a id="look-138"></a>
-## 138 · Gown preto estrelas
+<a id="look-137"></a>
+## 137 · Gown preto estrelas
 
 **Arquivo:** `evening_black_star_gown.jpg`  
-**Nome rápido:** Gown preto estrelas · **#138**
+**Nome rápido:** Gown preto estrelas · **#137**
 **Categoria:** evening  
 **Combina com (sugestão):** Reina  
 
-![Gown preto estrelas](../imagens/crew/guarda_roupas/evening_black_star_gown.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_black_star_gown.jpg" width="320" alt="Gown preto estrelas" />
 
 ### Descrição visual (roupa)
 - Vestido longo preto one-shoulder + estrelas/ouro + fenda (sheet)
@@ -3734,7 +3735,7 @@ Gala, fantasia celestial.
 **Categoria:** fantasy  
 **Combina com (sugestão):** Reina / fantasia  
 
-![Gown inverno azul](../imagens/crew/guarda_roupas/fantasy_winter_blue_cape.jpg)
+<img src="../imagens/crew/guarda_roupas/fantasy_winter_blue_cape.jpg" width="320" alt="Gown inverno azul" />
 
 ### Descrição visual (roupa)
 - Vestido azul gelo + capa pele + botas + cintos (sheet design)
@@ -3744,15 +3745,15 @@ Fantasia inverno, evento raro.
 
 ---
 
-<a id="look-139"></a>
-## 139 · Gown branco penas
+<a id="look-138"></a>
+## 138 · Gown branco penas
 
 **Arquivo:** `evening_white_feather_gown.jpg`  
-**Nome rápido:** Gown branco penas · **#139**
+**Nome rápido:** Gown branco penas · **#138**
 **Categoria:** evening  
 **Combina com (sugestão):** Reina  
 
-![Gown branco penas](../imagens/crew/guarda_roupas/evening_white_feather_gown.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_white_feather_gown.jpg" width="320" alt="Gown branco penas" />
 
 ### Descrição visual (roupa)
 - Vestido branco prata com ombros em pena/asa e bordado
@@ -3770,7 +3771,7 @@ Gala, fantasia angelical.
 **Categoria:** fantasy  
 **Combina com (sugestão):** Reina  
 
-![Vestido branco e vermelho](../imagens/crew/guarda_roupas/fantasy_white_red_rose_gown.jpg)
+<img src="../imagens/crew/guarda_roupas/fantasy_white_red_rose_gown.jpg" width="320" alt="Vestido branco e vermelho" />
 
 ### Descrição visual (roupa)
 - Corset branco + saia camadas branca/vermelha + rosas
@@ -3788,7 +3789,7 @@ Fantasia, evento, gala dramática.
 **Categoria:** special  
 **Combina com (sugestão):** cena especial  
 
-![Mini angelical branca](../imagens/crew/guarda_roupas/special_white_gold_angel_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/special_white_gold_angel_mini.jpg" width="320" alt="Mini angelical branca" />
 
 ### Descrição visual (roupa)
 - Corset branco/ouro + mini babados + meias 7/8 (sheet)
@@ -3798,15 +3799,15 @@ Costume, especial, clube temático.
 
 ---
 
-<a id="look-140"></a>
-## 140 · Gown lilás estrelas
+<a id="look-139"></a>
+## 139 · Gown lilás estrelas
 
 **Arquivo:** `evening_lilac_star_gown.jpg`  
-**Nome rápido:** Gown lilás estrelas · **#140**
+**Nome rápido:** Gown lilás estrelas · **#139**
 **Categoria:** evening  
 **Combina com (sugestão):** Reina  
 
-![Gown lilás estrelas](../imagens/crew/guarda_roupas/evening_lilac_star_gown.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_lilac_star_gown.jpg" width="320" alt="Gown lilás estrelas" />
 
 ### Descrição visual (roupa)
 - Vestido lilás/prata fluido com correntes e fenda
@@ -3816,15 +3817,15 @@ Gala, fantasia.
 
 ---
 
-<a id="look-141"></a>
-## 141 · Gown branco corset
+<a id="look-140"></a>
+## 140 · Gown branco corset
 
 **Arquivo:** `evening_white_corset_gown.jpg`  
-**Nome rápido:** Gown branco corset · **#141**
+**Nome rápido:** Gown branco corset · **#140**
 **Categoria:** evening  
 **Combina com (sugestão):** Reina  
 
-![Gown branco corset](../imagens/crew/guarda_roupas/evening_white_corset_gown.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_white_corset_gown.jpg" width="320" alt="Gown branco corset" />
 
 ### Descrição visual (roupa)
 - Vestido branco longo com corset e ombro de fora
@@ -3842,7 +3843,7 @@ Gala romântica, fantasia.
 **Categoria:** street  
 **Combina com (sugestão):** qualquer  
 
-![Crop roxo + calça](../imagens/crew/guarda_roupas/street_purple_crop_combat.jpg)
+<img src="../imagens/crew/guarda_roupas/street_purple_crop_combat.jpg" width="320" alt="Crop roxo + calça" />
 
 ### Descrição visual (roupa)
 - Crop/colete roxo + calça roxa larga + arm wraps pretos
@@ -3860,7 +3861,7 @@ Street combate fashion, pack ousado.
 **Categoria:** street  
 **Combina com (sugestão):** qualquer  
 
-![Flannel + crop + cargo](../imagens/crew/guarda_roupas/street_plaid_crop_cargo.jpg)
+<img src="../imagens/crew/guarda_roupas/street_plaid_crop_cargo.jpg" width="320" alt="Flannel + crop + cargo" />
 
 ### Descrição visual (roupa)
 - Jaqueta flannel vermelha + crop cinza + cargo preta com tiras
@@ -3870,14 +3871,14 @@ Street, pack, dia a dia ousado.
 
 ---
 
-<a id="look-109"></a>
-## 109 · Camisa branca + calça preta
+<a id="look-110"></a>
+## 110 · Camisa branca + calça preta
 
 **Arquivo:** `formal_white_shirt_black_pants.jpg`  
-**Nome rápido:** Camisa branca + calça preta · **#109**
+**Nome rápido:** Camisa branca + calça preta · **#110**
 **Combina com (sugestão):** Valk / qualquer  
 
-![camisa calca](../imagens/crew/guarda_roupas/formal_white_shirt_black_pants.jpg)
+<img src="../imagens/crew/guarda_roupas/formal_white_shirt_black_pants.jpg" width="320" alt="camisa calca" />
 
 ### Descrição visual (roupa)
 - Camisa branca social  
@@ -3888,14 +3889,14 @@ Office, formal simples, visual limpo.
 
 ---
 
-<a id="look-087"></a>
-## 087 · Tee branca + calcinha
+<a id="look-088"></a>
+## 088 · Tee branca + calcinha
 
 **Arquivo:** `intimate_white_tee_panties.jpg`  
-**Nome rápido:** Tee branca + calcinha · **#087**
+**Nome rápido:** Tee branca + calcinha · **#088**
 **Combina com (sugestão):** Valk / intimidade  
 
-![tee panties](../imagens/crew/guarda_roupas/intimate_white_tee_panties.jpg)
+<img src="../imagens/crew/guarda_roupas/intimate_white_tee_panties.jpg" width="320" alt="tee panties" />
 
 ### Descrição visual (roupa)
 - Camiseta branca oversized  
@@ -3906,32 +3907,33 @@ Intimidade; manhã ousada; completar com robe se quiser.
 
 ---
 
-<a id="look-110"></a>
-## 110 · Blazer preto + mini
+<a id="look-190"></a>
+## 190 · Cosplay borboleta
 
-**Arquivo:** `formal_black_blazer_mini.jpg`  
-**Nome rápido:** Blazer preto + mini · **#110**
-**Combina com (sugestão):** Alex  
+**Arquivo:** `special_butterfly_wing_set.jpg`  
+**Nome rápido:** Cosplay borboleta · **#190**
+**Combina com (sugestão):** cena especial  
 
-![blazer mini](../imagens/crew/guarda_roupas/formal_black_blazer_mini.jpg)
+<img src="../imagens/crew/guarda_roupas/special_butterfly_wing_set.jpg" width="320" alt="butterfly wing set" />
 
 ### Descrição visual (roupa)
-- Blazer preto  
-- Mini saia preta / look formal ousado  
+- Top triângulo tipo bikini com estampa de **asas de borboleta** (rosa → azul) e laço branco  
+- Saia curta assimétrica com a mesma estampa de asas e laço lateral  
+- Ref. de manequim / loja cosplay — **não** é blazer nem formal  
 
 ### Quando usar
-Semi-formal, night out power, corpo.
+Costume, cosplay, fantasia de evento — **não** default de personagem nem semi-formal.
 
 ---
 
-<a id="look-088"></a>
-## 088 · Babydoll sheer preto
+<a id="look-089"></a>
+## 089 · Babydoll sheer preto
 
 **Arquivo:** `intimate_black_sheer_babydoll_ref.jpg`  
-**Nome rápido:** Babydoll sheer preto · **#088**
+**Nome rápido:** Babydoll sheer preto · **#089**
 **Combina com (sugestão):** Valk / intimidade  
 
-![babydoll sheer](../imagens/crew/guarda_roupas/intimate_black_sheer_babydoll_ref.jpg)
+<img src="../imagens/crew/guarda_roupas/intimate_black_sheer_babydoll_ref.jpg" width="320" alt="babydoll sheer" />
 
 ### Descrição visual (roupa)
 - Babydoll / chemise preta sheer com renda  
@@ -3941,14 +3943,14 @@ Intimidade, nightwear ousado.
 
 ---
 
-<a id="look-142"></a>
-## 142 · Mermaid glitter preta
+<a id="look-141"></a>
+## 141 · Mermaid glitter preta
 
 **Arquivo:** `evening_black_mermaid_glitter.jpg`  
-**Nome rápido:** Mermaid glitter preta · **#142**
+**Nome rápido:** Mermaid glitter preta · **#141**
 **Combina com (sugestão):** Reina  
 
-![mermaid glitter](../imagens/crew/guarda_roupas/evening_black_mermaid_glitter.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_black_mermaid_glitter.jpg" width="320" alt="mermaid glitter" />
 
 ### Descrição visual (roupa)
 - Vestido sereia preto com brilho / glitter  
@@ -3965,7 +3967,7 @@ Gala, evening high-end.
 **Nome rápido:** Onesie plush panda · **#080**
 **Combina com (sugestão):** qualquer  
 
-![onesie panda](../imagens/crew/guarda_roupas/sleep_plush_onesie_panda.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_plush_onesie_panda.jpg" width="320" alt="onesie panda" />
 
 ### Descrição visual (roupa)
 - Onesie plush com tema panda / capuz  
@@ -3975,14 +3977,14 @@ Sleep fofo, humor, downtime pack.
 
 ---
 
-<a id="look-143"></a>
-## 143 · Cape + corset preto
+<a id="look-142"></a>
+## 142 · Cape + corset preto
 
 **Arquivo:** `evening_black_cape_corset.jpg`  
-**Nome rápido:** Cape + corset preto · **#143**
+**Nome rápido:** Cape + corset preto · **#142**
 **Combina com (sugestão):** Reina / Alex  
 
-![cape corset](../imagens/crew/guarda_roupas/evening_black_cape_corset.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_black_cape_corset.jpg" width="320" alt="cape corset" />
 
 ### Descrição visual (roupa)
 - Corset / body preto + capa  
@@ -3999,7 +4001,7 @@ Evening dramático, clube high-end, fantasia.
 **Nome rápido:** Robe rosa renda · **#081**
 **Combina com (sugestão):** Reina / Valk  
 
-![robe rosa](../imagens/crew/guarda_roupas/sleep_pink_lace_robe_set.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_pink_lace_robe_set.jpg" width="320" alt="robe rosa" />
 
 ### Descrição visual (roupa)
 - Robe / set rosa com renda  
@@ -4009,48 +4011,53 @@ Sleep fashion, intimidade soft.
 
 ---
 
-<a id="look-111"></a>
-## 111 · Terno preto gravata vermelha
+<a id="look-143"></a>
+## 143 · Mini vinho corset dourado
 
-**Arquivo:** `formal_black_suit_red_tie_power.jpg`  
-**Nome rápido:** Terno preto gravata vermelha · **#111**
-**Combina com (sugestão):** Alex  
+**Arquivo:** `evening_wine_corset_mini.jpg`  
+**Nome rápido:** Mini vinho corset dourado · **#143**
+**Combina com (sugestão):** qualquer  
 
-![suit red tie](../imagens/crew/guarda_roupas/formal_black_suit_red_tie_power.jpg)
-
-### Descrição visual (roupa)
-- Blazer + camisa + gravata vermelha + calça pretos  
-
-### Quando usar
-Formal andrógino, evento, poder.
-
----
-
-<a id="look-190"></a>
-## 190 · Bodysuit harness preto
-
-**Arquivo:** `special_black_harness_bodysuit.jpg`  
-**Nome rápido:** Bodysuit harness preto · **#190**
-**Combina com (sugestão):** Alex / cena especial  
-
-![harness body](../imagens/crew/guarda_roupas/special_black_harness_bodysuit.jpg)
+<img src="../imagens/crew/guarda_roupas/evening_wine_corset_mini.jpg" width="320" alt="wine corset mini" />
 
 ### Descrição visual (roupa)
-- Body / catsuit preto com harness  
+- Vestido mini **vinho** drapeado, ombro a ombro  
+- Costas com **corset** (ilhoses + cordão) e tassels dourados  
+- Barra assimétrica / high-low; detalhes dourados na bainha  
+- **Não** é terno (o terno + gravata vermelha correto é o **#107**)  
 
 ### Quando usar
-Clube, corpo, especial — não default de job.
+Evening fantasy, evento temático, gala ousada curta.
 
 ---
 
 <a id="look-082"></a>
-## 082 · Cami floral branca + set
+## 082 · Pijama cetim preto
+
+**Arquivo:** `sleep_black_satin_pj_set.jpg`  
+**Nome rápido:** Pijama cetim preto · **#082**
+**Combina com (sugestão):** qualquer  
+
+<img src="../imagens/crew/guarda_roupas/sleep_black_satin_pj_set.jpg" width="320" alt="satin pj set" />
+
+### Descrição visual (roupa)
+- Camisa de **cetim preto** manga curta, gola, botões brancos, vivo branco, bolso  
+- Short de cetim combinando com elástico e laço branco na cintura  
+- Lounge / sleep — **não** é bodysuit nem harness  
+
+### Quando usar
+Casa, safehouse, sleep, pós-banho — não clube.
+
+---
+
+<a id="look-083"></a>
+## 083 · Cami floral branca + set
 
 **Arquivo:** `sleep_white_floral_cami_set.jpg`  
-**Nome rápido:** Cami floral branca + set · **#082**
+**Nome rápido:** Cami floral branca + set · **#083**
 **Combina com (sugestão):** Valk / qualquer  
 
-![cami floral](../imagens/crew/guarda_roupas/sleep_white_floral_cami_set.jpg)
+<img src="../imagens/crew/guarda_roupas/sleep_white_floral_cami_set.jpg" width="320" alt="cami floral" />
 
 ### Descrição visual (roupa)
 - Cami / short set branco com detalhe floral  

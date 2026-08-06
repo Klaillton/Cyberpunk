@@ -4,7 +4,7 @@
 **Idade:** 32  
 **Conceito:** Motorista estoica e confiável, especialista em extrações e transporte de alto risco.
 
-![Lena "Valk" Kane](../imagens/nomad%20-%20lena_valk_kane.jpg)
+<img src="../imagens/nomad%20-%20lena_valk_kane.jpg" width="220" alt="Lena &quot;Valk&quot; Kane" />
 
 ## Equipe: Valk + The Mule
 
@@ -14,7 +14,7 @@ Valk e o **The Mule** são **quase uma equipe própria** — mais do que “dono
 | ----- | ------- |
 | Pilota / comandante | Valk — rotas, extração, “não deixo ninguém para trás” |
 | Plataforma | [**The Mule** — ficha completa](vehicle%20-%20the_mule.md) (8x8, Vanisher, MIAC-5, contramedidas) |
-| Imagem do veículo | ![The Mule](../imagens/vehicle%20-%20the_mule.jpg) · [arquivo](../imagens/vehicle%20-%20the_mule.jpg) |
+| Imagem do veículo | <img src="../imagens/vehicle%20-%20the_mule.jpg" width="220" alt="The Mule" /> · [arquivo](../imagens/vehicle%20-%20the_mule.jpg) |
 | Manutenção / upgrades | Ryan ajuda na oficina; a soberania do Mule é dela |
 
 **Regra de narração:** ao tratar Valk em missão com o veículo, abrir a ficha do Mule em paralelo — armamento, Vanisher, limpa-trilho e reputação de “van que não para” estão lá, não nesta ficha.

@@ -23,7 +23,7 @@
 - Voz provavelmente firme e um tom acima do necessário quando está animada ou nervosa.
 
 **Imagem de referência:**  
-![Lira](../../imagens/Lira.jpg)
+<img src="../../imagens/Lira.jpg" width="220" alt="Lira" />
 
 ## Eventos narrativos
 

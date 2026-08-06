@@ -2,7 +2,7 @@
 
 **Veículo de Lena “Valk” Kane • Mini Tanque Disfarçado de Van Velha**
 
-![The Mule](../imagens/vehicle%20-%20the_mule.jpg)
+<img src="../imagens/vehicle%20-%20the_mule.jpg" width="220" alt="The Mule" />
 
 | Tipo   | Van 8x8 Pesada Modificada                            | Peso Estimado | 9~11 toneladas                      |
 | ------ | ---------------------------------------------------- | ------------- | ----------------------------------- |

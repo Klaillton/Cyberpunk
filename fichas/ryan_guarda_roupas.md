@@ -1,7 +1,8 @@
 # Guarda-Roupa de Ryan Wireghost Voss
 
 **Ficha mecânica:** [techie - ryan_wireghost_voss.md](techie%20-%20ryan_wireghost_voss.md)  
-**Pasta de imagens:** [imagens/ryan/guarda_roupas/](../imagens/ryan/guarda_roupas/)
+**Pasta de imagens:** [imagens/ryan/guarda_roupas/](../imagens/ryan/guarda_roupas/)  
+**Exibição:** looks em `<img width="320">` (HTML) — arquivos originais intactos.
 
 > **Filosofia**
 >
@@ -75,7 +76,7 @@
 
 **Referência:** `henley2.jpg`
 
-![Oficina padrão](../imagens/ryan/guarda_roupas/henley2.jpg)
+<img src="../imagens/ryan/guarda_roupas/henley2.jpg" width="320" alt="Oficina padrão" />
 
 A roupa que Ryan usa praticamente todos os dias.
 
@@ -104,7 +105,7 @@ Aconteceu.
 
 **Referência:** `henley1.jpg`
 
-![Oficina calor extremo](../imagens/ryan/guarda_roupas/henley1.jpg)
+<img src="../imagens/ryan/guarda_roupas/henley1.jpg" width="320" alt="Oficina calor extremo" />
 
 Mesma lógica da henley padrão — só que no limite do conforto térmico.
 
@@ -126,7 +127,7 @@ Ryan nunca percebe.
 
 **Referência:** `worker.jpg`
 
-![Trabalho pesado](../imagens/ryan/guarda_roupas/worker.jpg)
+<img src="../imagens/ryan/guarda_roupas/worker.jpg" width="320" alt="Trabalho pesado" />
 
 Quando sabe que vai passar o dia carregando peso, soldando ou no treino bruto.
 
@@ -147,7 +148,7 @@ Visual extremamente funcional. Para treino com Reina: mesma base, sem corrente s
 
 **Referência:** `casual+botas.jpg`
 
-![Pós-expediente](../imagens/ryan/guarda_roupas/casual+botas.jpg)
+<img src="../imagens/ryan/guarda_roupas/casual+botas.jpg" width="320" alt="Pós-expediente" />
 
 Depois do banho. Primeira roupa limpa encontrada.
 
@@ -172,7 +173,7 @@ Usada para:
 
 **Referência:** `camisa_gola_padre.jpg`
 
-![Jantar do Pack](../imagens/ryan/guarda_roupas/camisa_gola_padre.jpg)
+<img src="../imagens/ryan/guarda_roupas/camisa_gola_padre.jpg" width="320" alt="Jantar do Pack" />
 
 Quando Valk quer que ele pareça um pouco mais apresentável.
 
@@ -196,7 +197,7 @@ Valk acha lindo.
 
 **Referência:** `casual+botas.jpg`
 
-![Casa NC](../imagens/ryan/guarda_roupas/casual+botas.jpg)
+<img src="../imagens/ryan/guarda_roupas/casual+botas.jpg" width="320" alt="Casa NC" />
 
 A roupa mais "Ryan" possível em apartamento / oficina caseira.
 
@@ -212,7 +213,7 @@ A roupa mais "Ryan" possível em apartamento / oficina caseira.
 
 **Referência:** `casual.jpg`
 
-![Casual limpo](../imagens/ryan/guarda_roupas/casual.jpg)
+<img src="../imagens/ryan/guarda_roupas/casual.jpg" width="320" alt="Casual limpo" />
 
 Quando precisa sair sem parecer “acabou de sair da forja”, mas ainda sem o kit Valk de cliente.
 
@@ -236,7 +237,7 @@ Quando precisa sair sem parecer “acabou de sair da forja”, mas ainda sem o k
 
 **Referência:** `street_style.jpg`
 
-![Street style](../imagens/ryan/guarda_roupas/street_style.jpg)
+<img src="../imagens/ryan/guarda_roupas/street_style.jpg" width="320" alt="Street style" />
 
 Deslocamento em Night City com cara de edgerunner discreto — sem armar o kit Wireghost completo.
 
@@ -260,7 +261,7 @@ Deslocamento em Night City com cara de edgerunner discreto — sem armar o kit W
 
 **Referência:** `worker.jpg`
 
-![Treino Reina](../imagens/ryan/guarda_roupas/worker.jpg)
+<img src="../imagens/ryan/guarda_roupas/worker.jpg" width="320" alt="Treino Reina" />
 
 Tudo pensado para movimento.
 
@@ -278,7 +279,7 @@ Nada pode atrapalhar.
 
 **Referência:** `camisa_gola_padre.jpg`
 
-![Cliente comum](../imagens/ryan/guarda_roupas/camisa_gola_padre.jpg)
+<img src="../imagens/ryan/guarda_roupas/camisa_gola_padre.jpg" width="320" alt="Cliente comum" />
 
 Primeiro nível do guarda-roupa montado pela Valk.
 
@@ -300,7 +301,7 @@ Visual:
 
 **Referência:** `great_style.jpg`
 
-![Cliente corporativo](../imagens/ryan/guarda_roupas/great_style.jpg)
+<img src="../imagens/ryan/guarda_roupas/great_style.jpg" width="320" alt="Cliente corporativo" />
 
 A roupa que Valk faz questão que ele use.
 
@@ -329,11 +330,11 @@ Quando realmente precisa impressionar. Valk escolhe o nível:
 
 **Referência (default):** `great_style.jpg`
 
-![Evento formal — great_style](../imagens/ryan/guarda_roupas/great_style.jpg)
+<img src="../imagens/ryan/guarda_roupas/great_style.jpg" width="320" alt="Evento formal — great_style" />
 
 **Referência (Valk / terno):** `valk_terno_preto.jpg`
 
-![Evento formal — terno Valk](../imagens/ryan/guarda_roupas/valk_terno_preto.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_terno_preto.jpg" width="320" alt="Evento formal — terno Valk" />
 
 ### Descrição visual
 
@@ -370,7 +371,7 @@ Se está confortável e foi ela quem deixou, ele usa.
 
 **Referência:** `valk_camisa_verde_militar.jpg`
 
-![Camisa verde militar](../imagens/ryan/guarda_roupas/valk_camisa_verde_militar.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_camisa_verde_militar.jpg" width="320" alt="Camisa verde militar" />
 
 ### Descrição visual
 
@@ -403,11 +404,11 @@ Se está confortável e foi ela quem deixou, ele usa.
 | Tee branca justa | `valk_tee_branca_justa.jpg` |
 | Tee cinza justa | `valk_tee_cinza_justa.jpg` |
 
-![Long sleeve cinza](../imagens/ryan/guarda_roupas/valk_longsleeve_cinza.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_longsleeve_cinza.jpg" width="320" alt="Long sleeve cinza" />
 
-![Tee branca justa](../imagens/ryan/guarda_roupas/valk_tee_branca_justa.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_tee_branca_justa.jpg" width="320" alt="Tee branca justa" />
 
-![Tee cinza justa](../imagens/ryan/guarda_roupas/valk_tee_cinza_justa.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_tee_cinza_justa.jpg" width="320" alt="Tee cinza justa" />
 
 ### Descrição visual
 
@@ -433,7 +434,7 @@ Se está confortável e foi ela quem deixou, ele usa.
 
 **Referência:** `valk_tank_preto_calca.jpg`
 
-![Tank preto + calça](../imagens/ryan/guarda_roupas/valk_tank_preto_calca.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_tank_preto_calca.jpg" width="320" alt="Tank preto + calça" />
 
 ### Descrição visual
 
@@ -460,13 +461,13 @@ Se está confortável e foi ela quem deixou, ele usa.
 | Tee preta + short + tênis | `casual_tee_shorts_preto.jpg` |
 | Joggers pretos (peito nu / lounge) | `lounge_joggers_preto.jpg` |
 
-![Shorts preto](../imagens/ryan/guarda_roupas/valk_shorts_preto.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_shorts_preto.jpg" width="320" alt="Shorts preto" />
 
-![Shorts vinho](../imagens/ryan/guarda_roupas/valk_shorts_vinho.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_shorts_vinho.jpg" width="320" alt="Shorts vinho" />
 
-![Tee + shorts preto](../imagens/ryan/guarda_roupas/casual_tee_shorts_preto.jpg)
+<img src="../imagens/ryan/guarda_roupas/casual_tee_shorts_preto.jpg" width="320" alt="Tee + shorts preto" />
 
-![Joggers pretos](../imagens/ryan/guarda_roupas/lounge_joggers_preto.jpg)
+<img src="../imagens/ryan/guarda_roupas/lounge_joggers_preto.jpg" width="320" alt="Joggers pretos" />
 
 ### Descrição visual
 
@@ -496,11 +497,11 @@ Não é “roupa de sair”. É o que ele veste quando **não quer se vestir de 
 | Gola alta preta justa | `valk_gola_alta_preta.jpg` |
 | Blazer cinza + gola alta | `valk_blazer_cinza.jpg` |
 
-![Polo cinza](../imagens/ryan/guarda_roupas/valk_polo_cinza.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_polo_cinza.jpg" width="320" alt="Polo cinza" />
 
-![Gola alta preta](../imagens/ryan/guarda_roupas/valk_gola_alta_preta.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_gola_alta_preta.jpg" width="320" alt="Gola alta preta" />
 
-![Blazer cinza](../imagens/ryan/guarda_roupas/valk_blazer_cinza.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_blazer_cinza.jpg" width="320" alt="Blazer cinza" />
 
 ### Descrição visual
 
@@ -523,7 +524,7 @@ Complementa (não substitui) `camisa_gola_padre.jpg` e `great_style.jpg` do arm�
 
 **Referência:** `valk_terno_preto.jpg`
 
-![Terno preto](../imagens/ryan/guarda_roupas/valk_terno_preto.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_terno_preto.jpg" width="320" alt="Terno preto" />
 
 ### Descrição visual
 
@@ -547,7 +548,7 @@ Este terno existe porque **Valk separou** — ele veste, reclama baixinho, e usa
 
 **Referência:** `valk_casaco_cinza_aberto.jpg`
 
-![Casaco cinza aberto](../imagens/ryan/guarda_roupas/valk_casaco_cinza_aberto.jpg)
+<img src="../imagens/ryan/guarda_roupas/valk_casaco_cinza_aberto.jpg" width="320" alt="Casaco cinza aberto" />
 
 ### Descrição visual
 
@@ -586,7 +587,7 @@ Este bloco é o **segundo armário** — o que tem a mão dela.
 
 **Referência:** `quick_operator.jpg`
 
-![Operação rápida](../imagens/ryan/guarda_roupas/quick_operator.jpg)
+<img src="../imagens/ryan/guarda_roupas/quick_operator.jpg" width="320" alt="Operação rápida" />
 
 ### Descrição visual
 
@@ -610,7 +611,7 @@ Retrato full com Warden/Vespas: [techie - ryan_wireghost_voss.jpg](../imagens/te
 
 **Referência:** `stealth_operator.jpg`
 
-![Operação completa](../imagens/ryan/guarda_roupas/stealth_operator.jpg)
+<img src="../imagens/ryan/guarda_roupas/stealth_operator.jpg" width="320" alt="Operação completa" />
 
 A identidade visual do Wireghost.
 

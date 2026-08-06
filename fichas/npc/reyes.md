@@ -19,9 +19,9 @@
 
 **Imagens de referência:**
 
-![Reyes](../../imagens/Reyes.jpg)
+<img src="../../imagens/Reyes.jpg" width="220" alt="Reyes" />
 
-![Reyes (token)](../../imagens/Reyes_token.jpg)
+<img src="../../imagens/Reyes_token.jpg" width="140" alt="Reyes (token)" />
 
 - Retrato (cena): [imagens/Reyes.jpg](../../imagens/Reyes.jpg)
 - Token (mapa / combate / UI): [imagens/Reyes_token.jpg](../../imagens/Reyes_token.jpg)

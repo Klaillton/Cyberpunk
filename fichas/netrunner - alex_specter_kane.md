@@ -16,7 +16,7 @@ Alex é uma jovem de aparência atlética e cyberpunk marcante. Tem cabelo loiro
 | **Nota** | Compacta e afiada; no pack de altos, parece “a menor perigosa”. Contraste claro com Valk (1,75 m) e Reina (1,92 m). |
 
 **Imagem de Referência:**  
-![Alex "Specter" Kane](../imagens/netrunner%20-%20alex_specter_kane.jpg)
+<img src="../imagens/netrunner%20-%20alex_specter_kane.jpg" width="220" alt="Alex &quot;Specter&quot; Kane" />
 
 ## Background breve
 

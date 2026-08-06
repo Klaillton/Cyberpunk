@@ -4,7 +4,7 @@
 **Idade aparente:** 29 anos  
 **Conceito:** Ex-repórter investigativa silenciada por megacorps; agora *ghost reporter* freelancer. Vaza verdades, filma ops no momento certo e transforma jobs em narrativas que elevam a reputação anti-corp da crew. Especialista em Perception, Human Perception, Streetwise, Persuasion e Composition.
 
-![Emilia "Echo" Rivera](../imagens/media%20-%20emilia_echo_rivera.jpg)
+<img src="../imagens/media%20-%20emilia_echo_rivera.jpg" width="220" alt="Emilia &quot;Echo&quot; Rivera" />
 
 **Descrição visual (baseada na imagem):**  
 Mulher de 29 anos com visual cyberpunk chamativo. Cabelos longos e ondulados com mechas em **laranja vibrante / preto** e franja clara no lado claro; olhos âmbar. Traje preto justo com LEDs neon roxo e cyan, colar com lua crescente iluminada, choker tech e brincos luminosos. Expressão confiante, sarcástica e um tanto sedutora. Fundo de Night City chuvosa com neon.

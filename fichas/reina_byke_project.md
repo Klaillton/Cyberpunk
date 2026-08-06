@@ -16,7 +16,7 @@
 
 _(Meta / design até o projeto estar ATIVO. Em cena só após entrega.)_
 
-![Moto custom — sheet multi-ângulo](../imagens/reina/bike9.jpg)
+<img src="../imagens/reina/bike9.jpg" width="220" alt="Moto custom — sheet multi-ângulo" />
 
 ---
 
