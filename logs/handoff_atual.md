@@ -41,9 +41,9 @@ Detalhe: [sessao_resumo_015.md](sessao_resumo_015.md)
 | -- | ------ |
 | **E015** | Viagem / assuntos de Ryan em Night City (com Valk) |
 | Tutoria | Valk + Sasha/Lira |
-| E012 | Casas modulares |
+| E012 | Casas — interno + revelação pública (E014 produção já ok) |
 | E007 | Badlands Node |
-| E011 | Visita à Doc Moreau (Elisa) |
+| E011 | Visita à Doc Moreau (Elisa) — [ficha](../fichas/npc/elisa_doc_moreau.md) |
 | Novo | Enxame mini-drones |
 | Novo | Modelo 3D da base militar (estudo) |
 ---

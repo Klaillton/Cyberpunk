@@ -6,7 +6,7 @@
 
 - **Status:** Amiga e ripperdoc de confiança (passado / rede antiga)
 - **Tipo de relação:** Pessoal + Profissional
-- **Notas:** **Doc** = Elisa Moreau. Ligação histórica com Reina e Ryan (surto / cyberarms feitos por Ryan sob favor da Doc). **Não confundir** com Stephania “Stitch” Voss (MedTech da crew).
+- **Notas:** **Doc** = Elisa Moreau ([ficha](../fichas/npc/elisa_doc_moreau.md)). Ligação histórica com Reina e Ryan (surto / cyberarms feitos por Ryan sob favor da Doc). **Não confundir** com Stephania “Stitch” Voss (MedTech da crew).
 
 ### Dr. Stephania “Stitch” Voss (MedTech da crew)
 

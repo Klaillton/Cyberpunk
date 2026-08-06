@@ -24,6 +24,9 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **Regra de fala (ativa):** Valk **não** se refere a Ryan como “herói” / “herói solitário”. Expressa a mesma preocupação com outras palavras (*não vai sozinho*, *a gente planeja juntos*, *sem solo*, *com cobertura*). Ver [gatilhos Ryan](../fichas/notas_narrador/ryan_gatilhos_memorias.md) e **F15**.
 - **16–20/07/2026 (sessão 012):** Incursão torre juntos; construção e demonstração dos drones (Condor + Corujas). **Conversa decisiva:** Ryan admitiu que o Pack não precisa mais dele e precisa voltar a Night City. Valk escolheu ir com ele por escolha própria (não culpa). Combinado: terminar assuntos em NC e, se possível, retornar juntos. Valk reforçou que não aceita ser deixada “pra proteger”.
 - **Sobre Sasha/Lira (intimidade):** Lira mostrou curiosidade aberta; Sasha ainda reservada, mas não rejeitou a ideia completamente. Valk está indo devagar (tutoria/assistentes em andamento).
+- **20/07 noite (sessão 013):** Intimidade + aftercare; reforço afetivo e de posse mútua.
+- **21/07 (sessões 014–015):** Aceita saída solo de Ryan à base militar sob condições claras; conversa sobre preocupação e sobre ele se deixar cuidar; estudo do modelo 3D juntos; intimidade (Valk no controle a pedido dele); sono na tenda.
+- **Estado (21/07 noite):** consolidada + viagem NC combinada + confiança operacional reforçada. **F15** ativo.
 
 ### Alex "Specter" Kane
 

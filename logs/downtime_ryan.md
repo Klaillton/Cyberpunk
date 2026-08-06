@@ -1,8 +1,8 @@
 # Downtime de Ryan "Wireghost" Voss
 
 **Personagem:** Ryan "Wireghost" Voss  
-**Local atual:** Badlands – Pack Nômade (oficina / área aberta)  
-**Período ativo:** Junho–Julho de 2026 · **NOW:** 20/07/2026 (pós sessão 012)
+**Local atual:** Badlands – Pack Nômade (tenda Ryan & Valk / oficina)  
+**Período ativo:** Junho–Julho de 2026 · **NOW:** 21/07/2026 noite (pós sessão 015)
 
 ---
 
@@ -51,6 +51,7 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 | 25/06/2026 | Planejamento dos projetos musicais | ~2h | 10% | Mini Synth prioridade |
 | 05–15/07 | Casas modulares + Node + scavs | multi-dia | alto | Ver blocos abaixo |
 | 16–20/07 | Torre + Condor/Corujas + demo | multi-dia | concluído | Sessão 012 |
+| 20–21/07 | RP + enxame (ideia) + base militar 3D | multi-sessão | ver blocos | Sessões 013–015 |
 
 ---
 
@@ -60,7 +61,7 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 - Registre materiais usados, dificuldades encontradas e qualquer desenvolvimento interessante.
 - Este log serve tanto para manter consistência quanto para gerar possíveis ganchos futuros (ex: alguém interessado nos instrumentos, problema com componentes raros, etc.).
 
-**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
+**Última atualização:** 21 de Julho de 2026 (sessão 015; backfill auditoria)
 
 ---
 
@@ -102,7 +103,7 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 
 | Data | Atividade | Progresso | Observações |
 | ---- | --------- | --------- | ----------- |
-| 16–17/07 | Incursão Torre de Transmissão | Concluída | Chrome + componentes (braço Reaper); corpos queimados; Valk, Jax, Rusty |
+| 16–17/07 | Incursão Torre de Transmissão | Concluída | Chrome + componentes (braço Reaper); corpos queimados; Valk, **Scout**, Rusty (F14) |
 | 16/07 | Caçada aves (E013) | Resolvida | Material biológico / referência para drones |
 | 17–20/07 | Construção **Condor** + **Corujas** | Operacionais | Mimético, solar (Condor), recon noturno (Corujas) |
 | 20/07 | Demo pública ao Pack | Concluída | Pack impressionado; Tio Gringo testou visor |
@@ -115,13 +116,32 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 - Badlands Node / destilaria / estufa: autonomia crescente dos recrutas
 - Mini Synth / projetos musicais: **pausados** (prioridade drones e saída NC)
 
-**Próximo marco:** preparação viagem Night City (E015); Node/casas em background no pack.
-| 14/07 | Apresentação Reyes | Pendente E014 | Valk + Tio Gringo lideram |
-| 15/07 | Caçada aves (planej.) | Esboço Valk | Referência drones observação |
+**Próximo marco (após 012):** preparação viagem Night City (E015); Node/casas em background no pack.
+
+---
+
+## 20 a 21 de Julho de 2026 – Relacional, enxame e base militar (sessões 013–015)
+
+| Data | Atividade | Progresso | Observações |
+| ---- | --------- | --------- | ----------- |
+| 20/07 noite | RP + intimidade (sessão 013) | — | Sem projeto técnico |
+| 21/07 manhã–tarde | Ideia **enxame mini-drones** + sondagem Tomas/Mara | Sondagem | P005/P006 pedidos; sem lote físico — [economia](../economia.md) |
+| 21/07 tarde | Observação leve **base militar** (solo) | Modelo 3D **externo** | Condições Valk: rádio, Warden, voltar antes do escuro, sem infiltração |
+| 21/07 noite | Estudo modelo 3D na tenda (Warden projeta) | Coletado | Abandono aparente; cerca arrombada para dentro; sem defesas ativas |
+
+**Status dos projetos (21/07 noite):**
+
+- Condor + Corujas: operacionais (pack)
+- Enxame mini-drones: **ideia + sondagem** (não prioritário vs E015)
+- Modelo 3D base militar: **coletado** — estudo posterior opcional
+- Casas / Node: background; E014 revelação geral ainda parcial
+- Mini Synth: pausado
+
+**Próximo marco:** preparação viagem Night City (E015); tutoria Sasha/Lira; estudo modelo 3D (opcional).
 
 ---
 
 ## Referências
 
-- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Sessão 011](sessao_resumo_011.md) · [Sessão 012](sessao_resumo_012.md)
+- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Sessão 012](sessao_resumo_012.md) · [Sessão 015](sessao_resumo_015.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Economia](../economia.md) · [Consequências](../consequencias/consequencias_persistentes.md)

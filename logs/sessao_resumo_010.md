@@ -13,7 +13,7 @@
 
 - **05/07 manhã — partida:** Após checar o núcleo técnico (Tomas, Mara, Elias), Ryan junta-se a Valk. Time de scav: Valk, Rusty, **Scout** + 2; **dois veículos** (Mule + apoio). Rota leste.
 - **Reconhecimento tático:** Ryan assume modo operador — drop a ~3 km, posição seis horas; Vespas (Hornet, Vesper, Barbed) em setores; aproximação solo. Área de sucata/containers **limpa** (sem hostis, sem sinais recentes).
-- **Confirmação de material:** ao menos **dois containers** viáveis + chapas, perfis, tubulações, vigas, isolamento, peças mecânicas. Ryan autoriza coluna; trabalho em **duplas** (inspeção + segurança); Jax em cobertura de longa distância com Ryan no perímetro.
+- **Confirmação de material:** ao menos **dois containers** viáveis + chapas, perfis, tubulações, vigas, isolamento, peças mecânicas. Ryan autoriza coluna; trabalho em **duplas** (inspeção + segurança); **Scout** em cobertura de longa distância com Ryan no perímetro.
 - **Coleta:** ~1h30 de scav disciplinado. Containers inteiros **não** saíram nesta viagem (peso); material cortado/separado carregado nos dois veículos. Retorno limpo (saída da ravina, cobertura, logs do Mule no datapad).
 - **Pós-scav no pack:** descarga na área técnica; agradecimento ao time; descompressão com Valk (refeição, intimidade, banho).
 - **Oficina:** Ryan inicia fabricação de peças do protótipo de casa modular com alunos do Tio Gringo — **linha de produção** sem revelar o propósito final. Prefere ser chamado só de “Ryan”.

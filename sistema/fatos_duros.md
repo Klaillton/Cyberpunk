@@ -27,7 +27,7 @@
 | **F01** | Branch canônica da rota normal: `feature/linha-estavel` | `instrucoes_projeto.md` |
 | **F02** | Source of truth = arquivos do repo. Memória de chat **não** é canon | `diretrizes_ia.md` |
 | **F03** | **Warden** = drone **terrestre** scorpion-like (modo mochila/transporte). **Não voa** | Ficha Ryan |
-| **F04** | **Stitch** = Dr. Stephania Voss (MedTech da **crew**). **Doc** = Elisa “Doc” Moreau (passado de Ryan). Nunca trocar os nomes | Ficha Stitch; ficha Ryan § Contatos |
+| **F04** | **Stitch** = Dr. Stephania Voss (MedTech da **crew**). **Doc** = Elisa “Doc” Moreau (passado de Ryan). Nunca trocar os nomes | [Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Doc](../fichas/npc/elisa_doc_moreau.md) |
 | **F05** | Ryan e Stephania compartilham sobrenome **Voss** por coincidência — **sem parentesco** | Ficha Stitch / ryan_relacionamentos |
 | **F06** | Protagonista jogável: **Ryan “Wireghost” Voss** (Techie). Valk, Alex, Reina, Kaz, Stitch, **Jax “Razor” Kane** = **crew** (NC) | mapa_relacional |
 | **F14** | **Scout** = sentinela/recon do Pack Badlands (apelido; scavs). **≠** Jax **“Razor” Kane** (Solo crew). Razor **não** está nas Badlands | [scout.md](../fichas/npc/scout.md) |
@@ -35,8 +35,10 @@
 | **F08** | **The Mule** = veículo de Valk; equipe operacional **Valk + Mule** | vehicle - the_mule; ficha Valk |
 | **F09** | Job 001 (extração Vossler / Biotechnica) e incursões Raffen são **passados registrados** em `logs/` — não reinventar o outcome | job_001, incidentes, sessões |
 | **F10** | NPCs só sabem o que viram/ouviram in-fiction (**anti meta-game**) | diretrizes_narrador |
-| **F11** | Casas modulares dobráveis = projeto de Ryan; **segredo** até protótipo / revelação consciente | board / event_queue E012 |
+| **F11** | Casas modulares dobráveis = projeto de Ryan; time produção + Tio Gringo sabem; **pack geral** sem anúncio oficial completo (E014: produção ok; revelação pública adiada / E012) | board / event_queue E012·E014 |
+| **F17** | **Doc** = Dra. Elisa Moreau ([npc/elisa_doc_moreau.md](../fichas/npc/elisa_doc_moreau.md)); visita **E011** pendente em NC | ficha Doc · E015 checklist |
 | **F12** | Vespas de combate/recon: **Hornet, Vesper, Barbed** (além do Warden) — nomes e papéis conforme ficha | ficha Ryan |
+| **F16** | **Condor** + **Corujas** = drones miméticos de Ryan, **operacionais** no Pack (demo 20/07). Não confundir com Vespas. Enxame mini-drones = só ideia (21/07) | ficha Ryan · board · sessão 012 |
 | **F13** | Próximo número de resumo de sessão: ver `registro_arquivos.md` (não inventar o NNN) | registro_arquivos |
 | **F15** | Valk **não** se refere a Ryan como **“herói”** / **“herói solitário”** (promessa pós-episódio **14/07/2026** na oficina/depósito). Preocupação = outras palavras. Gatilho ativo; memória **não** desbloqueada | [ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md) · relacionamentos Ryan/Valk |
 
@@ -50,7 +52,7 @@ Estes **não** são eternos. Se o `board` disser outra região, **ignorar** a li
 | -- | --------------- | ---- |
 | **L01** | Ryan hospedado no Pack Badlands | Reyes = líder; Tio Gringo = forja; acampamento = base atual |
 | **L02** | Downtime Pack (pós-011) | E010 concluída 10/07; protótipo externo OK; Node em progresso |
-| **L03** | Segredo casas | Time produção + Tio Gringo **sabem**; pack geral aguarda Reyes (F11 parcial) |
+| **L03** | Segredo casas | Time produção + Tio Gringo **sabem**; E014 produção **aprovada**; pack geral aguarda **anúncio público** (F11 / E012) |
 
 Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; marcar L0x como N/A no pack; não carregar pulso Pack por default.
 

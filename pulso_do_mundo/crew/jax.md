@@ -23,7 +23,7 @@
 
 **Sobre a crew:**
 
-- Interagiu com Reina, Doc ou Alex off-screen?
+- Interagiu com Reina, **Stitch** ou Alex off-screen? (Stitch = Stephania; **não** confundir com Elisa “Doc” Moreau)
 - Comentou a dinâmica Ryan/Valk com alguém (humor negro de veterano)?
 - Está satisfeito com a formação atual ou quer mais ação?
 

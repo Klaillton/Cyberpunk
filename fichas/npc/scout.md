@@ -27,6 +27,7 @@
 | ------------- | ------ |
 | 05/07/2026 | Scav de materiais — overwatch / cobertura de longa distância com Ryan (duplas + drones). |
 | 10/07/2026 | Scav containers (E010) — overwatch na ravina; confirma perímetro limpo; retorno sem incidentes. |
+| 16–17/07/2026 | Incursão Torre de Transmissão — time com Ryan, Valk e Rusty (chrome/componentes; corpos queimados). |
 
 ## Relação com a crew
 

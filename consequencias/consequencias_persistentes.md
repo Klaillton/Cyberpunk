@@ -1,6 +1,6 @@
 # Consequências Persistentes
 
-**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
+**Última atualização:** 21 de Julho de 2026 (sessão 015; backfill auditoria)
 
 ---
 
@@ -223,7 +223,7 @@ Fim do período: peças principais quase prontas para protótipo; **scav de cont
 
 ## 16 a 20 de Julho de 2026 - Drones miméticos, torre e decisão Night City (sessão 012)
 
-**16–17/07 — Incursão Torre de Transmissão:** Ryan, Valk, Jax e Rusty. Recon com drones. Recuperação de chrome e componentes eletrônicos dos corpos (incluindo braço Reaper). Queima dos restos. Retorno limpo. Detalhe: [sessao_resumo_012](../logs/sessao_resumo_012.md).
+**16–17/07 — Incursão Torre de Transmissão:** Ryan, Valk, **Scout** e Rusty. Recon com drones. Recuperação de chrome e componentes eletrônicos dos corpos (incluindo braço Reaper). Queima dos restos. Retorno limpo. (**F14:** Scout ≠ Jax "Razor" Kane.) Detalhe: [sessao_resumo_012](../logs/sessao_resumo_012.md).
 
 **17–20/07 — Construção drones miméticos:** **Condor** (observação longa distância, ~3 m envergadura, placas solares, sensores) e **Corujas** (voo silencioso, recon noturno) concluídos com material da torre + caçada de aves (**E013** resolvida).
 
@@ -239,6 +239,22 @@ Fim do período: peças principais quase prontas para protótipo; **scav de cont
 - Relação Ryan × Valk consolidada com decisão conjunta de partida (possível retorno).
 - Cerca em estrela concluída; Node/destilaria/estufa com autonomia crescente (contexto 012).
 - Heat residual Raffen permanece (E008); demo de drones = exposição **interna** ao pack (sem aumento de heat externo documentado).
+
+## 20 a 21 de Julho de 2026 - Pós-drones, enxame e base militar (sessões 013–015)
+
+**20/07 noite (013):** Reforço relacional Ryan × Valk (intimidade + aftercare); avanço para 21/07 manhã. Sem mudança de facção/heat/economia.
+
+**21/07 manhã–tarde (014):** Ideia de **enxame mini-drones** (sondagem Tomas/Mara; sem protótipo físico). Saída solo de Ryan para observação leve de **base militar** sob condições de Valk.
+
+**21/07 noite (015):** Modelo 3D **externo** da base coletado (abandono aparente; cerca arrombada para dentro; sem defesas ativas detectadas). Estudo na tenda; sem infiltração. Conversa sobre preocupação e “ser cuidado”; intimidade; sono.
+
+**Impactos:**
+
+- Novo ativo de inteligência: **modelo 3D externo** da base militar (estudo posterior opcional; gancho E018).
+- Projeto enxame em **fase de ideia** (não compete com E015).
+- Relação Ryan × Valk: confiança operacional + vulnerabilidade reforçadas; viagem NC mantida.
+- **Sem delta** documentado em reputação, heat global ou economia macro.
+- **E014 (canonizado na auditoria):** Reyes **aprovou** continuar produção e capacitação; **não** houve discurso público documentado; revelação ao pack geral **adiada** (F11 parcial). Ver [event_queue.md](../event_queue.md) § E014.
 
 ---
 
@@ -256,4 +272,4 @@ Fim do período: peças principais quase prontas para protótipo; **scav de cont
 - [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
 - [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Facções](../relacionamentos/faccao_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- [Sessão 010](../logs/sessao_resumo_010.md) · [Sessão 011](../logs/sessao_resumo_011.md) · [Última sessão (012)](../logs/sessao_resumo_012.md) · [Downtime](../logs/downtime_ryan.md)
+- [Sessão 012](../logs/sessao_resumo_012.md) · [Sessão 015](../logs/sessao_resumo_015.md) · [Downtime](../logs/downtime_ryan.md)

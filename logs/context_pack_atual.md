@@ -36,7 +36,7 @@
 | -- | ------ |
 | F01–F02 | Branch `feature/linha-estavel`; arquivos = SoT |
 | **F03** | Warden = drone **terrestre** scorpion (**não voa**) |
-| **F04** | **Stitch** = Stephania (crew); **Doc** = Elisa Moreau (passado) |
+| **F04** | **Stitch** = Stephania (crew); **Doc** = Elisa Moreau ([ficha](../fichas/npc/elisa_doc_moreau.md)) |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” (promessa 14/07; gatilho ativo) |
 | F07 | Ryan × Valk consolidados; decisão conjunta de ir a Night City |
@@ -44,8 +44,8 @@
 | **F11** | Casas modulares — pack geral ainda sem revelação oficial completa |
 | **L01** | No Pack: Reyes líder; Tio Gringo forja |
 | **L02** | E010 concluída; Container A no pack; Node andando |
-| **L03** | Time de produção + Tio Gringo conhecem o projeto |
-| **Novo** | Condor + Corujas operacionais (drones miméticos) |
+| **L03** | Time de produção + Tio Gringo conhecem o projeto; E014 = produção ok, pack geral ainda sem anúncio completo |
+| **F16** | Condor + Corujas operacionais (drones miméticos no Pack) |
 | **Novo** | Modelo 3D externo da base militar coletado (21/07) |
 
 Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
@@ -57,15 +57,15 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 | ID | Uma linha |
 | -- | --------- |
 | **E015** | Viagem / assuntos Ryan em Night City (com Valk) |
-| **E012** | Interno + móveis casas; possível revelação/escala |
+| **E012** | Interno + móveis casas; revelação **pública** ainda adiada (E014 já aprovou produção) |
 | **E013** | Caçada aves concluída (referência drones usada) |
 | E007 | Badlands Node |
 | E008 | Vigilância residual Raffen |
-| E011 | Visita Doc **Moreau** (Elisa); Valk junto |
+| E011 | Visita Doc **Moreau** (Elisa); Valk junto — [ficha](../fichas/npc/elisa_doc_moreau.md) |
 | E001/E006 | Biotechnica latente |
-| Tutoria | Valk + Sasha/Lira (assistentes; intimidade: Lira aberta, Sasha reservada) |
-| Novo | Enxame mini-drones (ideia + sondagem materiais) |
-| Novo | Modelo 3D da base militar (estudo posterior) |
+| E016 | Tutoria Valk + Sasha/Lira (Lira aberta, Sasha reservada) |
+| E017 | Enxame mini-drones (ideia + sondagem materiais) |
+| E018 | Modelo 3D da base militar (estudo posterior) |
 
 ---
 

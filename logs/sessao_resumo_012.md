@@ -11,7 +11,8 @@
 
 ## Eventos Principais
 
-- **16–17/07 — Incursão Torre de Transmissão:** Ryan, Valk, Jax e Rusty. Recon com drones. Recuperação de chrome e componentes eletrônicos dos corpos (incluindo braço Reaper). Queima dos restos. Retorno limpo.
+- **16–17/07 — Incursão Torre de Transmissão:** Ryan, Valk, **Scout** e Rusty. Recon com drones. Recuperação de chrome e componentes eletrônicos dos corpos (incluindo braço Reaper). Queima dos restos. Retorno limpo.  
+  > **F14:** Scout = sentinela do pack — **não** é Jax "Razor" Kane (crew NC).
 - **17–20/07 — Construção drones miméticos:** Condor (observação longa distância, ~3m envergadura, placas solares, sensores) e Corujas (voo silencioso, recon noturno) concluídos com material da torre + caçada de aves.
 - **20/07 — Demonstração pública:** Condor e Corujas apresentados ao Pack inteiro. Impacto forte; Pack impressionado e empolgado. Tio Gringo testou visor.
 - **Conversa decisiva com Valk (20/07):** Ryan admite que o Pack não precisa mais dele e precisa voltar a Night City. Valk escolhe ir com ele. Combinado: terminar assuntos em NC e, se possível, retornar juntos. Gatilho “herói” reforçado (Valk continua evitando).

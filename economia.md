@@ -25,7 +25,7 @@
 | **Badlands Node** | Protótipo em progresso           | Biodigestor + filtragem; recrutas com autonomia |
 | Destilaria        | Elias responsável autônomo       | Excedente + higiene/óleos (ver § Estoque) |
 | Materiais         | Depósito reforçado               | Scavs 05/07 + 10/07; **chrome/componentes torre** 16–17/07 |
-| **Casas modulares** | Protótipo externo OK; interno modelagem | E014 implícita; escala/revelação parcial — [sessao_resumo_012](logs/sessao_resumo_012.md) |
+| **Casas modulares** | Protótipo externo OK; interno modelagem | E014: produção aprovada; revelação pública adiada (E012) — [event_queue](event_queue.md) |
 | **Drones miméticos** | Condor + Corujas operacionais | Valor operacional (alerta 15–40 min); demo 20/07 |
 
 ## Observações Econômicas Gerais

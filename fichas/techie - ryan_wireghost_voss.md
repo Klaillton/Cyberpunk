@@ -172,7 +172,10 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 
 - Time de Drones Pequenos (Vespas): Hornet, Vesper e Barbed (reconhecimento, guerra eletrônica e distração).
 - Pill (Drone Mula - Besouro Bola): Drone médio com modo bola defensivo, choque na carapaça, flashbangs, fumaça e autodestruição como último recurso. Pode voltar sozinho e escalar.
-- Warden (Drone Escorpião Protetor): Drone grande que fica nas costas como mochila tática. Pinças como braços extras, podem ser usados como auxiliar nos trabalhos de techie. Duas caudas (taser + utilitária). Prioridade em proteger e tirar de perigo. Ele pode abrir a carapaça que é uma proteção balística dobrada e fornecer uma meia cobertura em perigo extremo. Pode também realizar procedimentos médicos de urgência para manter Ryan vivo em último caso.
+- Warden (Drone Escorpião Protetor): Drone **terrestre** scorpion-like (F03 — **não voa**). Fica nas costas como mochila tática. Pinças como braços extras, podem ser usados como auxiliar nos trabalhos de techie. Duas caudas (taser + utilitária). Prioridade em proteger e tirar de perigo. Ele pode abrir a carapaça que é uma proteção balística dobrada e fornecer uma meia cobertura em perigo extremo. Pode também realizar procedimentos médicos de urgência para manter Ryan vivo em último caso.
+- **Condor** (mimético, observação longa distância): ~3 m de envergadura, placas solares, sensores. Construído 17–20/07 com chrome/componentes da torre + referência da caçada de aves (E013). **Operacional** e demonstrado ao Pack (20/07). Em uso típico: **alerta aéreo do Pack** (horizonte visual ideal ~190 km; alerta 15–40 min) — não é loadout de bolso do Ryan.
+- **Corujas** (miméticas, recon noturno): voo silencioso. Mesmo pipeline 17–20/07. **Operacionais** no Pack com o Condor.
+- **Enxame mini-drones** (ideia, 21/07): prova de conceito mental (~10 unidades, malha); sondagem de materiais com Tomas/Mara — **sem protótipo físico ainda**.
 
 **Armadura:** Light Armorjack (SP 11) + Subdermal Armor + Skinweave → Corpo SP 19 / Cabeça SP 11
 
@@ -328,7 +331,8 @@ Um exemplo recente foi quando construiu um “playground” para as crianças do
 
 **Elisa “Doc” Moreau** (Therapy / Ripperdoc)  
 Terapeuta e ripperdoc de confiança. Já tratou Ryan várias vezes, tanto fisicamente quanto ajudando com os bloqueios mentais.  
-**Nota oculta:** Doc sabe muito mais sobre o passado de Ryan do que ele próprio lembra.
+**Nota oculta:** Doc sabe muito mais sobre o passado de Ryan do que ele próprio lembra.  
+**Ficha:** [npc/elisa_doc_moreau.md](npc/elisa_doc_moreau.md) · Visita pendente **E011** (checklist E015).
 
 **Matsunaga “Matsu”** (Ex-Militar / Arasaka)  
 Ex-colega de equipe que ainda é leal a ele e passa informações internas quando pode.
@@ -370,5 +374,5 @@ Antigo cliente que deve vários favores a ele.
 - [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)
 - **Imagens:** [tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) · [casual / oficina](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png) · [máscara](../imagens/ryan/mascara_tatica.jpg) · [**guarda-roupa**](ryan_guarda_roupas.md)
 - **Notas do Narrador:** [Background completo](notas_narrador/ryan_background_completo.md) · [Gatilhos e memórias](notas_narrador/ryan_gatilhos_memorias.md)
-- **Elisa "Doc" Moreau:** ver [Contatos e Amigos](#contatos-e-amigos) (sem ficha própria)
+- **Elisa "Doc" Moreau:** [npc/elisa_doc_moreau.md](npc/elisa_doc_moreau.md) · [Contatos e Amigos](#contatos-e-amigos)
 - **Estado:** [Board](../board/board_campanha.md) · [Downtime](../logs/downtime_ryan.md) · [Consequências](../consequencias/consequencias_persistentes.md)

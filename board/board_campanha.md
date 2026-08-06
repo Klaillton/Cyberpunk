@@ -10,7 +10,7 @@
 Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badlands. Seu foco atual é:
 
 - **Drones miméticos** — Condor e Corujas **operacionais e demonstrados** ao Pack (20/07).
-- **Casas modulares dobráveis** — protótipo externo montado/testado; layout interno em modelagem; aguardando escala/revelação completa.
+- **Casas modulares dobráveis** — protótipo externo montado/testado; layout interno em modelagem. **E014:** Reyes aprovou continuar produção/capacitação; **revelação pública** ao pack geral ainda adiada (E012 / F11 parcial).
 - **Badlands Node** — biodigestor e filtragem avançando (Mara, Tomas, Elias com autonomia crescente).
 - **Novo (ideia):** Enxame de mini-drones formiga — fase de sondagem de materiais. Não prioritário.
 - **Modelo 3D base militar** — mapeamento externo concluído (21/07). Lugar aparenta abandono há meses; cerca arrombada para dentro; sem defesas ativas. Estudo posterior opcional.
@@ -57,7 +57,7 @@ Ryan "Wireghost" Voss está em **downtime produtivo** no Pack Nômade de Badland
 | Nome                 | Papel                  | Relação com Ryan                  | Notas |
 |----------------------|------------------------|-----------------------------------|-------|
 | **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | Decidiu ir a NC com Ryan; evita “herói” (F15); confiança operacional reforçada — [ficha](../fichas/nomad%20-%20lena_valk_kane.md) |
-| **Reyes** | Líder do Pack | Confiança estratégica | Ouveu protótipo; Pack avançou com autonomia |
+| **Reyes** | Líder do Pack | Confiança estratégica | E014: aprovou produção/capacitação; revelação pública adiada — [event_queue](../event_queue.md) |
 | **Tio Gringo** | Ferreiro | Alta estima | Testou Condor; mentor do time |
 | **Rusty** | Garagem/veículos | Colaborador técnico | Incursões recorrentes |
 | **Scout** | Sentinela / recon | Colaborador operacional | Scavs — [ficha](../fichas/npc/scout.md); **não** é Jax |

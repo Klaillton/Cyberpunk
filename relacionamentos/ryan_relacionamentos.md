@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 20 de Julho de 2026 (sessão 012)
+**Última atualização:** 21 de Julho de 2026 (sessão 015)
 
 ---
 
@@ -24,7 +24,7 @@
 
 **Status:** Namorando (relação consolidada + decisão conjunta de viagem a Night City)  
 **Intensidade:** Alta  
-**Última atualização:** 20 de Julho de 2026 (sessão 012)
+**Última atualização:** 21 de Julho de 2026 (sessão 015)
 
 **Evolução conhecida:**
 
@@ -79,10 +79,25 @@
 - **Conversa decisiva:** Ryan admitiu que o Pack não precisa mais dele e precisa voltar a Night City. Valk escolheu ir com ele por escolha própria. Combinado: terminar assuntos em NC e, se possível, retornar juntos. Valk reforçou que não aceita ser deixada “pra proteger”.
 - **Sobre Sasha/Lira (intimidade):** Lira mostrou curiosidade aberta; Sasha ainda reservada, mas não rejeitou a ideia completamente. Valk está indo devagar.
 
+**Atualização (20/07 noite — sessão 013):**
+
+- Intimidade + aftercare; reforço de posse mútua e brincadeira; Ryan adormece no meio da frase. Avanço in-game para manhã 21/07.
+
+**Atualização (21/07 manhã–tarde — sessão 014):**
+
+- Conversa sobre Sasha/Lira e ritmo de Valk; dinâmica de poder/vulnerabilidade.
+- Ideia do enxame mini-drones (sondagem Tomas/Mara).
+- Saída **solo** para observação leve da base militar sob condições de Valk (rádio, Warden, voltar antes do escuro) — confiança operacional reforçada.
+
+**Atualização (21/07 noite — sessão 015):**
+
+- Retorno + jantar: conversa aberta sobre preocupação de Valk e sobre Ryan se acostumar a **ser cuidado**.
+- Estudo do modelo 3D na tenda; intimidade (Valk no controle a pedido de Ryan); aftercare; sono.
+
 **Estado atual:**
 
 - Ryan e Valk estão juntos de forma estável e cumplices.
-- Decisão conjunta de viagem a Night City.
+- Decisão conjunta de viagem a Night City; confiança operacional + vulnerabilidade emocional reforçadas (21/07).
 - Valk **não** usa mais “herói” / “herói solitário” com Ryan (**promessa 14/07**; fato **F15**).
 
 **Notas do Narrador:**
@@ -155,7 +170,7 @@
 **Intensidade:** Média-Alta  
 **Apelido:** **Stitch** — nunca “Doc” (Doc = Elisa Moreau)
 
-**Nota:** Compartilham o sobrenome **Voss**, mas **não são parentes** — coincidência que vira piada interna na crew (“será que são primos?”). **Não confundir** com **Elisa "Doc" Moreau** (terapeuta do passado de Ryan — sem ficha; ver [Contatos e Amigos](../fichas/techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos)).
+**Nota:** Compartilham o sobrenome **Voss**, mas **não são parentes** — coincidência que vira piada interna na crew (“será que são primos?”). **Não confundir** com **Elisa "Doc" Moreau** ([ficha](../fichas/npc/elisa_doc_moreau.md)).
 
 ### Jax "Razor" Kane
 

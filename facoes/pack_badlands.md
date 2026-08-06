@@ -2,7 +2,7 @@
 
 **Tipo:** Pack Nômade  
 **Status com o Jogador:** Aliado consolidado  
-**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
+**Última atualização:** 21 de Julho de 2026 (sessão 015; backfill auditoria)
 
 ---
 
@@ -22,8 +22,8 @@ Ver arquivo principal: `relacionamentos/faccao_relacionamentos.md`
 
 - Ryan é visto como protetor e professor técnico.
 - Tem boa relação com a maioria dos membros, especialmente com o Tio Gringo.
-- Relação com Reyes: confiança estratégica; ouviu protótipo casas (14/07); **E014** em andamento/implícita (pack avançou com autonomia; revelação completa ainda pendente).
-- Time de produção + Tio Gringo no projeto de casas; pack geral aguarda revelação oficial completa.
+- Relação com Reyes: confiança estratégica; ouviu protótipo casas (14/07); **E014 resolvido (implícito)** — produção/capacitação **aprovadas**; revelação **pública** ao pack geral **adiada** (F11 parcial). Detalhe: [event_queue.md](../event_queue.md).
+- Time de produção + Tio Gringo no projeto de casas; pack geral aguarda anúncio oficial completo.
 - Pack tem **Condor + Corujas** (drones miméticos, demo 20/07) — “olhos no céu”.
 
 ## Pulso do Mundo (off-screen)
@@ -44,7 +44,8 @@ Pulsos off-screen: [pulso_do_mundo/pack_badlands/](../pulso_do_mundo/pack_badlan
 | **Tomas** | [tomas_recruit.md](../fichas/npc/tomas_recruit.md) | Mecânica; sob monitoramento |
 | **Sasha** | [sasha.md](../fichas/npc/sasha.md) | Testemunha do Incidente 001; medo/respeito por Ryan |
 | **Lira** | [lira.md](../fichas/npc/lira.md) | Atiradora/batedora; tenta se aproximar de Valk; ajudou a acalmar o pack pós-Incidente 002 |
-| **Scout** | [scout.md](../fichas/npc/scout.md) | — | Sentinela/recon; scavs 05/07 e 10/07 — **≠** Jax "Razor" Kane (crew) |
+| **Scout** | [scout.md](../fichas/npc/scout.md) | — | Sentinela/recon; scavs 05/07, 10/07, torre 16–17/07 — **≠** Jax "Razor" Kane (crew) |
+| **Rusty** | [rusty.md](../fichas/npc/rusty.md) | — | Garagem/veículos; scavs e torre com Valk/Scout |
 
 ## Produção e estoque (micro-recursos)
 
@@ -84,6 +85,7 @@ Consulta: `[Estoque]` / `[Estoque: destilaria]` · **não** duplicar qty neste a
 - **16–20/07:** Construção Condor + Corujas; **E013** resolvida (caçada aves usada como referência).
 - **20/07:** Demonstração pública dos drones ao Pack; moral alto; Tio Gringo testou visor.
 - **20/07:** Ryan e Valk decidiram ir a Night City (possível retorno) — ainda não anunciado formalmente ao pack.
+- **21/07:** Ryan observou base militar (solo; modelo 3D externo); sem incidente no pack. Enxame mini-drones = ideia de Ryan (sondagem recrutas), sem projeto pack.
 - Cerca em estrela **concluída**; destilaria (Elias) e estufa (Mara) com autonomia.
 
 ## Rumores e Informações Parciais
@@ -96,8 +98,8 @@ Consulta: `[Estoque]` / `[Estoque: destilaria]` · **não** duplicar qty neste a
 
 ## Notas e Pendências
 
-- **E014** — Resposta Reyes / revelação casas (implícita em andamento).
-- **E012** — Interno + móveis; escala pós-aprovação.
+- **E014** — **Resolvido:** produção/capacitação ok; revelação pública adiada.
+- **E012** — Interno + móveis; anúncio amplo quando Reyes/time julgarem pronto.
 - **E015** — Viagem Ryan + Valk a Night City (preparação).
 - Recrutas em Node/destilaria/estufa; drones operacionais no pack.
 - Mesmo que Ryan saia, legado técnico (perímetro, Node, casas, ensino, **drones**) já é permanente.

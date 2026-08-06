@@ -5,7 +5,7 @@
 
 Ryan possui uma resistência **bem maior** do que a maioria das pessoas a gatilhos emocionais. Sua mente desenvolveu mecanismos fortes de dissociação e repressão ao longo da vida. Por isso, as memórias reprimidas **não voltam facilmente**.
 
-> **Nota:** **"A Doc"** neste arquivo é **Elisa "Doc" Moreau** ([Contatos e Amigos](../techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos) na ficha de Ryan). Não é **Stephania "Stitch" Voss** da crew ([ficha](../medtech%20-%20stephania_stitch_voss.md)).
+> **Nota:** **"A Doc"** neste arquivo é **Elisa "Doc" Moreau** ([ficha NPC](../npc/elisa_doc_moreau.md) · [Contatos](../techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos)). Não é **Stephania "Stitch" Voss** da crew ([ficha](../medtech%20-%20stephania_stitch_voss.md)).
 
 ---
 
@@ -168,5 +168,5 @@ Quando um gatilho funciona, Ryan costuma apresentar alguns sinais:
 ## Referências
 
 - [Background completo](ryan_background_completo.md) · [Ficha Ryan](../techie%20-%20ryan_wireghost_voss.md) · [Relacionamentos Ryan](../../relacionamentos/ryan_relacionamentos.md)
-- [Elisa "Doc" Moreau](../techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos) (sem ficha) · [Reina](../../relacionamentos/reina_bearclaw_morales_relacionamentos.md)
+- [Elisa "Doc" Moreau](../npc/elisa_doc_moreau.md) · [Reina](../../relacionamentos/reina_bearclaw_morales_relacionamentos.md)
 - **Estado:** [Board](../../board/board_campanha.md) · [Registro de Arquivos](../../sistema/registro_arquivos.md)

@@ -31,7 +31,7 @@ Marca pública: **Void List**. Preferir **função** (“a solo”, “o tech”
 
 | NPC                      | Reputação | Tipo de Relação      | Notas |
 | ------------------------ | --------- | -------------------- | ----- |
-| **Reyes**                | +54       | Líder / Estratégico  | Pack avançou com autonomia; E014 implícita; drones reforçam valor de Ryan |
+| **Reyes**                | +54       | Líder / Estratégico  | E014: produção casas aprovada (revelação pública adiada); drones reforçam valor de Ryan |
 | **Tio Gringo**           | +65       | Mentor / Forja       | Alta estima; testou Condor; co-apresentou protótipo |
 | **Rusty**                | +42       | Colaborador técnico  | Scav containers 10/07; garagem/veículos |
 | **Scout**                | +32       | Sentinela / recon     | Scavs 05/07 e 10/07 — apelido canônico ([ficha](fichas/npc/scout.md)) |

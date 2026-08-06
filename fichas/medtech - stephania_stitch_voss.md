@@ -27,7 +27,7 @@ Gaijin (origem brasileira/portuguesa). Traída por corp que a descartou por “o
 | Quem | Como chamar | Papel |
 | ---- | ----------- | ----- |
 | **Stephania “Stitch” Voss** | **Stitch** / Stephania | MedTech da **crew atual** (esta ficha) |
-| **Elisa “Doc” Moreau** | **a Doc** / Doc Moreau | Terapeuta/ripper do **passado de Ryan** — [Contatos e Amigos](techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos) |
+| **Elisa “Doc” Moreau** | **a Doc** / Doc Moreau | Terapeuta/ripper do **passado de Ryan** — [ficha NPC](npc/elisa_doc_moreau.md) |
 
 Compartilha o sobrenome **Voss** com Ryan, mas **não há parentesco** — coincidência que a crew usa para piadas (“será parente?”, “a família Voss chegou”).
 
@@ -134,4 +134,4 @@ Compartilha o sobrenome **Voss** com Ryan, mas **não há parentesco** — coinc
 - **Pulso:** [stephania_stitch.md](../pulso_do_mundo/crew/stephania_stitch.md)
 - **Imagem:** [medtech - stephania_stitch_voss.jpg](../imagens/medtech%20-%20stephania_stitch_voss.jpg)
 - **Estado:** [Board](../board/board_campanha.md)
-- **Não confundir:** [Elisa “Doc” Moreau](techie%20-%20ryan_wireghost_voss.md#contatos-e-amigos)
+- **Não confundir:** [Elisa “Doc” Moreau](npc/elisa_doc_moreau.md)
