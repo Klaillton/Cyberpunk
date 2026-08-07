@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: stable
 last_updated: 2026-08-07
 source: house rules — campanha Cyberpunk RED (repo)
@@ -15,7 +15,7 @@ Estas regras **não** são RAW; em conflito com o core book em mesa, o grupo pod
 ## 1. Cutoff (espelho F18)
 
 - Sessões **≤ 016:** outcomes canônicos nos logs — **sem retcon mecânico**.  
-- Sessões **≥ 017:** usar `regras_red` **v1.1.0** + este arquivo.
+- Sessões **≥ 017:** usar `regras_red` **v1.2.0** + este arquivo.
 
 ---
 
@@ -103,7 +103,19 @@ Vence o **defensor** / status quo (ver [01_core](../regras_red/01_core.md)), sal
 
 ---
 
+## 8. Humanity e eddies (1.2.0)
+
+- Ryan “não se importa com Humanity” = **atitude** — HL ainda é registrado ([05_cyberware](../regras_red/05_cyberware.md)).  
+- Eddies: faixa em [economia.md](../../economia.md); não inventar riqueza de job não registrado.  
+- Stats de arma sem número no loadout: **proibido** inventar d6 — completar loadout no Finalizar.
+
+---
+
 ## Changelog
+
+### 1.2.0 — 2026-08-07
+
+- HL ficção vs mecânica; eddies; proibição inventar dano de arma.
 
 ### 1.1.0 — 2026-08-07
 

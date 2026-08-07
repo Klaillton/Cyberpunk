@@ -1,20 +1,32 @@
 # Economia Persistente
 
-**Última atualização:** 29 de Julho de 2026 (ledger estoque §1–§3)
+**Última atualização:** 2026-08-07 (eddies explícitos · Ruleset 1.2.0)
 
 > **Dinheiro / macro** = seções abaixo.  
-> **Micro-recursos (genérico, multi-local)** = [Atores · Estoque · Ryan mínimo](#atores-produtores--consumidores).  
-> Consulta jogador: `[Estoque]` / `[Recursos]` / `[O que tem: …]` — [comandos_jogador.md](sistema/comandos_jogador.md) § K.  
-> **Não** carregar este ledger inteiro no tier-0 / context pack.
+> **Micro-recursos** = [Atores · Estoque · Ryan mínimo](#atores-produtores--consumidores).  
+> Consulta: `[Estoque]` — [comandos_jogador.md](sistema/comandos_jogador.md) § K.  
+> **Não** carregar ledger inteiro no tier-0.
 
 ## Situação Financeira - Ryan "Wireghost" Voss
 
-| Item                | Valor / Status     | Observações                                      |
-| ------------------- | ------------------ | ------------------------------------------------ |
-| Dinheiro em mãos    | Moderado           | Ryan não está rico, mas também não está quebrado |
-| Dívidas             | Nenhuma registrada | -                                                |
-| Contratos pendentes | Nenhum             | -                                                |
-| Custos operacionais | Baixos             | Está hospedado no Pack (em troca de trabalho)    |
+| Item | Valor / Status | Observações |
+| ---- | -------------- | ----------- |
+| **Eddies (eb) em mãos** | **1.500–4.000 eb** *(estimado · médio-baixo)* | **Não** era número canônico antes de 2026-08-07. Fixar valor exato no Finalizar quando o jogador quiser. Trabalhou no Pack por hospedagem, não por salário alto. |
+| Dívidas | Nenhuma registrada | — |
+| Contratos pendentes | Nenhum | Kaz / jobs futuros = E005 |
+| Custos operacionais | Baixos no Pack | Hospedagem × trabalho técnico |
+| Lifestyle atual | Pack (subsistência + oficina) | Em NC: ver [Lifestyle](#lifestyle-atalho-red) |
+
+### Lifestyle (atalho RED)
+
+| Nível | Custo mensal (ordem de grandeza) | Notas campanha |
+| ----- | -------------------------------- | -------------- |
+| Kibble / street | ~100–500 eb | Sobrevivência |
+| Pack Badlands | ~0 eb cash (trabalho) | Estado atual de Ryan |
+| Average NC | ~1.000–2.500 eb | Safehouse barato, comida |
+| Comfortable | ~3.000–5.000+ eb | Exige job/Kaz |
+
+Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × disponibilidade.
 
 ## Economia do Pack de Badlands
 

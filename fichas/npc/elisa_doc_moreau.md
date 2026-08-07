@@ -19,10 +19,12 @@
 ## Aparência / voz (rápido)
 
 - Mulher adulta (faixa 40–50), presença clínica; mãos estáveis de ripper.
+- Cabelo longo prateado/cinza; óculos redondos; chrome facial/pescoço dourado-prateado (ripperdoc).
 - Voz baixa, cadência de consultório; raramente grita.
 - Ambiente típico: clínica discreta em NC (não é o pack, não é a mesa de Stitch).
 
-**Imagem de referência:** *(ainda sem arquivo dedicado em `imagens/`)*
+**Imagem de referência:** [imagens/elisa_doc_moreau.jpg](../../imagens/elisa_doc_moreau.jpg)  
+*(Origem: `imagens/old_ideas/0d8f21f52bb41023d01d6956535f558c.jpg` — rosto/cabelo/chrome canônicos; roupa da foto é só referência visual, não default de cena.)*
 
 ## O que ela sabe (narrador)
 

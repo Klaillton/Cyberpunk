@@ -51,12 +51,15 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Continuidade colável (estado vigente) | `logs/handoff_atual.md` | context pack, board |
 | Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
 | Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
-| **Regras RED (mecânica / testes)** | `sistema/regras_red/00_integridade_regras.md` | `01`–`04`, `08`, `09` — **não** tier-0 |
+| **Regras RED (mecânica / testes)** | `sistema/regras_red/00_integridade_regras.md` | `01`–`09` — **não** tier-0 · Ruleset **1.2.0** |
 | Combate / ROF / stealth attack | `sistema/regras_red/02_combate.md` | `04_armas`, `03_ferimentos`, house |
-| Armas (categorias / ROF) | `sistema/regras_red/04_armas.md` | loadout do PC, ficha Mule |
+| Armas (categorias) | `sistema/regras_red/04_armas.md` | **dano/ROF no loadout** |
+| Cyberware / HL | `sistema/regras_red/05_cyberware.md` | ficha personagem |
+| Skills (mapa STAT) | `sistema/regras_red/06_skills.md` | ficha |
+| Role Abilities (crew) | `sistema/regras_red/07_roles.md` | fichas crew |
 | Maker / craft / drones (regras) | `sistema/regras_red/08_techie.md` | ficha Ryan, `ryan_loadout`, economia |
-| Veículos / perseguição / Mule (regras) | `sistema/regras_red/09_veiculos.md` | `fichas/vehicle - the_mule.md`, ficha Valk |
-| **Loadout tático Ryan (stats)** | `fichas/ryan_loadout.md` | ficha techie (resumo); combate sob demanda |
+| Veículos / perseguição / Mule (regras) | `sistema/regras_red/09_veiculos.md` | ficha Mule, Valk |
+| **Loadout tático Ryan (dano/ROF/WA)** | `fichas/ryan_loadout.md` | SoT stats armas/drones |
 | HP / SP / Death Save | `sistema/regras_red/03_ferimentos.md` | ficha do personagem, Finalizar |
 | House rules (stealth, drones, oficina) | `sistema/house_rules/regras_campanha.md` | `regras_red/00`, F03/F12/F16/F18 |
 | Versão do ruleset | `sistema/versionamento_regras.md` | `Ruleset: 1.1.0` no resumo |
@@ -203,6 +206,9 @@ cyberpunk/
     │   ├── 02_combate.md
     │   ├── 03_ferimentos.md
     │   ├── 04_armas.md
+    │   ├── 05_cyberware.md
+    │   ├── 06_skills.md
+    │   ├── 07_roles.md
     │   ├── 08_techie.md
     │   └── 09_veiculos.md
     ├── house_rules/

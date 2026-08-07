@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: stable
 last_updated: 2026-08-07
 source: Cyberpunk RED core (resumo operacional) + house rules da campanha
@@ -30,7 +30,7 @@ Provisório **não** se cola silenciosamente no RAW.
 
 | Campo | Valor |
 | ----- | ----- |
-| **ID** | F18 · Ruleset **v1.1.0** (era 1.0.0 na implantação inicial) |
+| **ID** | F18 · Ruleset **v1.2.0** (atual; ver versionamento) |
 | **Última sessão pré-camada** | **016** (e anteriores) |
 | **Primeira sessão com camada** | **017+** |
 | **Canon 001–016** | **Intacto** — não re-rolar, não “corrigir” kills/scavs/jobs |
@@ -78,25 +78,32 @@ PASSADO (≤016) → CANON CONSOLIDADO → REGRAS v1.0.0 → FUTURO (017+)
 
 ---
 
-## 5. Módulos (v1.1.0)
+## 5. Módulos (v1.2.0)
 
 | Arquivo | Uso |
 | ------- | --- |
 | [01_core.md](01_core.md) | Testes, DV, opostos, Luck, quando rolar |
 | [02_combate.md](02_combate.md) | Combate, ROF, grupo, stealth attack |
 | [03_ferimentos.md](03_ferimentos.md) | HP, SP, SW, Death Save, First Aid |
-| [04_armas.md](04_armas.md) | Categorias, ROF, alcance; links loadout |
+| [04_armas.md](04_armas.md) | Categorias; stats de item no loadout |
+| [05_cyberware.md](05_cyberware.md) | HL, instalação, humanidade |
+| [06_skills.md](06_skills.md) | STAT→skill, untrained |
+| [07_roles.md](07_roles.md) | Role Abilities da crew |
 | [08_techie.md](08_techie.md) | Maker, craft, drones |
 | [09_veiculos.md](09_veiculos.md) | Drive, perseguição, Mule |
-| [../house_rules/regras_campanha.md](../house_rules/regras_campanha.md) | Stealth, drones, oficina Pack |
+| [../house_rules/regras_campanha.md](../house_rules/regras_campanha.md) | Stealth, drones, oficina, HL ficção |
 | [../versionamento_regras.md](../versionamento_regras.md) | Versões |
 
 Loadout Ryan (stats custom): [ryan_loadout.md](../../fichas/ryan_loadout.md).  
-Fases 3+ (cyberware, roles, NET): [plans/add-cyberpunk-red-mechanics.md](../../plans/add-cyberpunk-red-mechanics.md).
+Fase 4 (NET): [plans/add-cyberpunk-red-mechanics.md](../../plans/add-cyberpunk-red-mechanics.md).
 
 ---
 
 ## Changelog
+
+### 1.2.0 — 2026-08-07
+
+- 05 cyberware, 06 skills, 07 roles; loadout com tabelas dano/ROF; eddies.
 
 ### 1.1.0 — 2026-08-07
 

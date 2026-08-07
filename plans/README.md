@@ -42,7 +42,7 @@
 
 | Plano | Status | Resumo |
 | ----- | ------ | ------ |
-| [add-cyberpunk-red-mechanics.md](add-cyberpunk-red-mechanics.md) | `in_progress` (Fases 0–2 **done**) | Ruleset **v1.1.0** · loadout Ryan separado |
+| [add-cyberpunk-red-mechanics.md](add-cyberpunk-red-mechanics.md) | `in_progress` (Fases 0–3 **done**) | Ruleset **v1.2.0** · loadout com dano/ROF |
 | ~~add_cyberpunk_mecanichs.md~~ | `cancelled` | Typo + conteúdo superado — ver link no arquivo |
 
 ---

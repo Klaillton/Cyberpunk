@@ -147,7 +147,7 @@ source: Cyberpunk RED core (resumo operacional)
 | **0** | `done` | Convenção `plans/` + **este** plano | `plans/README.md`, este arquivo |
 | **1 MVP** | `done` (2026-08-07) | Integridade + core + combate MVP + ferimentos + stealth/drones house + cutoff F18 + wire-up | `regras_red/00–03`, `house_rules/`, `fatos_duros`, `diretrizes_*`, `sessao_resumo_template`, Finalizar |
 | **2** | `done` (2026-08-07) | Combate 1.1 + armas + Techie/Maker + veículos + **ryan_loadout** | `02`, `04`, `08`, `09`, `fichas/ryan_loadout.md` |
-| **3** | pending | Roles crew restantes + cyberware/HL + eddies explícitos | `05–07`, patch `economia.md` |
+| **3** | `done` (2026-08-07) | Roles crew + cyberware/HL + eddies + **tabelas dano/ROF no loadout** | `05–07`, `economia`, `ryan_loadout` |
 | **4** | pending | Netrunning + referência | `10`, `11` |
 | **5** | pending | Auditoria combates **canônicos** (OBSERVAÇÃO, não RETCON) + Finalizar com HP/SP/HL | relatório em `plans/` ou `logs/` |
 
@@ -242,7 +242,8 @@ Além do playbook atual, avaliar:
 2. ~~Fase 0: `plans/README` + este plano~~
 3. ~~Fase 1 MVP: `regras_red/00–03` + house_rules + F18 + wire-up~~
 4. ~~Fase 2: 04/08/09 + combate 1.1 + ryan_loadout~~  
-5. **Próximo (quando pedir):** Fase 3 — roles crew + cyberware/HL + eddies
+5. ~~Fase 3: 05–07 + eddies + tabelas loadout~~  
+6. **Próximo (quando pedir):** Fase 4 — netrunning + referência
 
 ---
 

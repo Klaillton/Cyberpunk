@@ -141,7 +141,8 @@
 [ ] HP / SW / Death Save (se combate)
 [ ] SP / ablação (se armadura atingida)
 [ ] Inventário tático / munição (se relevante)
-[ ] Ruleset version no resumo (ex. Ruleset: 1.0.0) — ver regras_red/00
+[ ] Ruleset version no resumo (ex. Ruleset: 1.2.0)
+[ ] Eddies delta (economia) se dinheiro mudou
 [ ] Decisões provisórias mecânicas (promover house rule?)
 [ ] Context pack (NOW + **AGENDA DA CENA** coerente com local) + handoff
 [ ] Resumo lista paths avaliados

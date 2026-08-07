@@ -2,149 +2,133 @@
 
 **SoT** de armas, drones, armadura tática e integrações de combate de Ryan.  
 **Personagem (atributos, skills, role, personalidade):** [techie - ryan_wireghost_voss.md](techie%20-%20ryan_wireghost_voss.md)  
-**Regras de sistema:** [regras_red/02_combate.md](../sistema/regras_red/02_combate.md) · [04_armas.md](../sistema/regras_red/04_armas.md) · [08_techie.md](../sistema/regras_red/08_techie.md)  
-**Consumíveis / estoque de oficina:** [economia.md](../economia.md) § Ryan mínimo  
+**Regras:** [02_combate](../sistema/regras_red/02_combate.md) · [04_armas](../sistema/regras_red/04_armas.md) · [08_techie](../sistema/regras_red/08_techie.md)  
+**Consumíveis / oficina:** [economia.md](../economia.md) § Ryan mínimo  
 
-> **Não** duplicar stats aqui em outros arquivos. Ficha principal só mantém resumo + link.
+> **Stats RED** abaixo = âncora core + custom Techie (preenchidos 2026-08-07). Ajustar no Finalizar se o jogador fixar outros números.  
+> **Não** duplicar dice em `04_armas` — o loadout é o SoT do item.
 
-**Atualizado:** 2026-08-07 (extraído da ficha principal — Fase 2b)
+**Atualizado:** 2026-08-07 (tabelas combate · Fase 3a)
 
 ---
-## Drones / Gear / Armamento
 
-**Drones:**
+## Resumo — armas (combate)
 
-- Time de Drones Pequenos (Vespas): Hornet, Vesper e Barbed (reconhecimento, guerra eletrônica e distração).
-- Pill (Drone Mula - Besouro Bola): Drone médio com modo bola defensivo, choque na carapaça, flashbangs, fumaça e autodestruição como último recurso. Pode voltar sozinho e escalar.
-- Warden (Drone Escorpião Protetor): Drone **terrestre** scorpion-like (F03 — **não voa**). Fica nas costas como mochila tática. Pinças como braços extras, podem ser usados como auxiliar nos trabalhos de techie. Duas caudas (taser + utilitária). Prioridade em proteger e tirar de perigo. Ele pode abrir a carapaça que é uma proteção balística dobrada e fornecer uma meia cobertura em perigo extremo. Pode também realizar procedimentos médicos de urgência para manter Ryan vivo em último caso.
-- **Condor** (mimético, observação longa distância): ~3 m de envergadura, placas solares, sensores. Construído 17–20/07 com chrome/componentes da torre + referência da caçada de aves (E013). **Operacional** e demonstrado ao Pack (20/07). Em uso típico: **alerta aéreo do Pack** (horizonte visual ideal ~190 km; alerta 15–40 min) — não é loadout de bolso do Ryan.
-- **Corujas** (miméticas, recon noturno): voo silencioso. Mesmo pipeline 17–20/07. **Operacionais** no Pack com o Condor.
-- **Enxame mini-drones** (ideia, 21/07): prova de conceito mental (~10 unidades, malha); sondagem de materiais com Tomas/Mara — **sem protótipo físico ainda**.
+| Arma | Skill | Tipo RED (âncora) | WA | ROF | Mag | Alcance | Dano | Notas |
+| ---- | ----- | ----------------- | -- | --- | --- | ------- | ---- | ----- |
+| **Phantom Mk.II DMR** | Shoulder Arms | Assault Rifle (precision mid) | +1 | 1 | 20 (30) | Medium (Long −) | **5d6** | Supressor; smart; + GL underbarrel |
+| **Phantom Mk.II Sniper** | Shoulder Arms | Sniper Rifle | +1 | 1 | 10 (5 match) | Long / Extreme | **5d6** (match **5d6+1**) | Supressor pesado; sem GL; overwatch |
+| **GL underbarrel (DMR)** | Shoulder Arms | Grenade Launcher | +0 | 1 | 1–2 | Medium | **6d6** HE (outros tipos variável) | Só na DMR |
+| **Vanguard Heavy Pistol** | Handgun | Very Heavy Pistol | +0 | 1* | 10–15 | Close / Medium | **4d6** | *Burst gimmick 2 tiros (−1 2º); EMP 1/cena |
+| **Revolver Breaker** | Shoulder Arms | Shotgun | +0 | 1 | 5–7 | Close | **5d6** buck / **4d6** flechette | CQC; contact detonator = situacional |
+| **Shadowblades** | Athletics (arremesso) / Melee (corpo) | Thrown / Light Melee | +0 | 1 | 6–8 | Close (8–15 m) | **2d6** arremesso / **1d6** melee | Stealth; recall curto |
 
-**Armadura:** Light Armorjack (SP 11) + Subdermal Armor + Skinweave → Corpo SP 19 / Cabeça SP 11
+**Smartgun / Neural Link:** quando ativos e alvo marcado (Vespas/Kiroshi), **+1** ao ataque (já refletido em WA +1 das Phantoms; outras armas +1 situacional se smart lock).
 
-### Armamentos (Ghostwire Series - Custom Techie Loadout)
+---
 
-Ryan carrega um loadout modular, versátil e altamente customizado, priorizando **stealth**, **mobilidade** e **jack of all trades**. Todas as armas de fogo possuem integração total via **Neural Link + Smartgun Link + Kiroshi Optics**.
+## Armadura
 
-> **Tokens:** imagens a ~¼ do original em [`imagens/ryan/armas/tokens/`](../imagens/ryan/armas/tokens/).  
-> Full-res (se precisar zoom): [`imagens/ryan/armas/`](../imagens/ryan/armas/).  
-> Markdown puro **não** controla tamanho nem “lado a lado”; usamos HTML (`<img width>`) + tabela — funciona no GitHub e na maioria dos viewers.
+| Local | SP | Fonte |
+| ----- | -- | ----- |
+| **Corpo** | **19** | Light Armorjack 11 + Subdermal + Skinweave |
+| **Cabeça** | **11** | Armorjack / head coverage da ficha |
 
-#### 1. Primária — **Ghostwire Phantom Mk.II Foldable DMR** (7.62x51 NATO)
+Ablação: [03_ferimentos](../sistema/regras_red/03_ferimentos.md).
 
-| Token (~¼) | Resumo |
+---
+
+## Drones
+
+| Drone | Função | Combate | Notas |
+| ----- | ------ | ------- | ----- |
+| **Hornet / Vesper / Barbed** (Vespas) | Recon / EW / distração | Sem ROF de rifle; mods stealth/combate | Loadout de marcha |
+| **Pill** | Mula / bola defensiva | Flashbang, fumaça, choque carapaça, autodest. último recurso | Médio |
+| **Warden** | Proteção / tech / mochila | **Não voa (F03)**; cauda taser = stun (DV Resist Torture/Drugs ou BODY vs 15 — 1 uso/cena típico); meia-cobertura balística | Prioridade extrair Ryan |
+| **Condor** | Observação longa (Pack) | Sem ataque | F16; não bolso |
+| **Corujas** | Recon noturno (Pack) | Sem ataque | F16 |
+| **Enxame mini** | Ideia (E017) | — | Sem protótipo |
+
+---
+
+## Armamentos (Ghostwire Series) — detalhe
+
+Ryan carrega loadout modular (stealth, mobilidade, jack-of-all-trades). Armas de fogo: **Neural Link + Smartgun Link + Kiroshi**.
+
+> **Tokens:** [`imagens/ryan/armas/tokens/`](../imagens/ryan/armas/tokens/) · full-res [`imagens/ryan/armas/`](../imagens/ryan/armas/)
+
+### 1. Primária — Ghostwire Phantom Mk.II Foldable DMR (7.62×51)
+
+| Token | Stats combate |
 | :---: | :--- |
-| <img src="../imagens/ryan/armas/tokens/ghostwire_phantom_mk2_dmr_token.jpg" width="140" alt="Phantom Mk.II DMR" /><br>[full-res](../imagens/ryan/armas/ghostwire_phantom_mk2_dmr.jpg) | **Tipo:** DMR semi-auto dobrável · **Peso:** ~5,9 kg<br>**Mag:** 20 (opc. 30) · **Função:** mid-range / cobertura da crew<br>**Par:** [Sniper 1b](#ghostwire-phantom-sniper) |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_phantom_mk2_dmr_token.jpg" width="140" alt="Phantom Mk.II DMR" /><br>[full-res](../imagens/ryan/armas/ghostwire_phantom_mk2_dmr.jpg) | **Skill:** Shoulder Arms · **WA +1** · **ROF 1** · **Mag 20 (30)** · **Dano 5d6** · **Alcance:** Medium (Long com penalidade) · **GL:** 6d6 HE, ROF 1, 1–2 tiros |
 
-- **Tipo:** Designated Marksman Rifle semi-automático dobrável.
-- **Peso:** ~5,9 kg (confortável graças ao Grafted Muscle + Reinforced Tendons).
-- **Características principais:**
-  - Sistema dobrável (compacta em ~65 cm, desdobra em 2-3 segundos).
-  - Supressor integrado de alta eficiência (modo stealth).
-  - Magazine 20 tiros (opção de 30).
-  - Quick-change barrel (curto para CQB / longo para precisão).
-- **Gimmicks Techie:**
-  - **Underbarrel Grenade Launcher** (40mm, 1-2 tiros) — para supressão ou destruição de cobertura/equipamento leve.
-  - Ballistic Computer Overclock (trajetória em movimento, vento, cobertura leve).
-  - Smart Suppressor Variable + Signature Masking.
-  - Auto-Repair Nanites + ports de reparo rápido (Cyberarm).
-- **Função:** Cobertura precisa de avanço/retirada da crew + supressão leve de veículos/equipamentos não blindados.
-- **Par de plataforma:** [1b. Phantom Mk.II Foldable Sniper](#ghostwire-phantom-sniper) — secundária de alcance longo da mesma família.
+| Campo | Valor |
+| ----- | ----- |
+| Tipo RED | Assault Rifle (precision / DMR) |
+| Peso | ~5,9 kg |
+| Munição | 7.62×51 (compatível com Sniper da família) |
 
-#### 1b. Secundária de alcance (par da DMR) — **Ghostwire Phantom Mk.II Foldable Sniper** (7.62x51 match / .300 opcional)
+- Dobrável (~65 cm); desdobra 2–3 s; supressor integrado; quick-change barrel.  
+- **Gimmicks:** underbarrel GL 40 mm; Ballistic Computer; Smart Suppressor + Signature Masking; Auto-Repair Nanites.  
+- **Função:** mid-range, cobertura de crew.  
+- **Par:** [Sniper 1b](#ghostwire-phantom-sniper).
+
+### 1b. Phantom Mk.II Foldable Sniper
 
 <a id="ghostwire-phantom-sniper"></a>
 
-| Token (~¼) | Resumo |
+| Token | Stats combate |
 | :---: | :--- |
-| <img src="../imagens/ryan/armas/tokens/ghostwire_phantom_mk2_sniper_token.jpg" width="140" alt="Phantom Mk.II Sniper" /><br>[full-res](../imagens/ryan/armas/ghostwire_phantom_mk2_sniper.jpg) | **Tipo:** sniper long-range dobrável (família Phantom)<br>**Peso:** ~7,2 kg / ~4,8 kg dobrado · **Mag:** 10 (opc. 5 match)<br>**Função:** overwatch / eliminação além do mid da DMR |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_phantom_mk2_sniper_token.jpg" width="140" alt="Phantom Mk.II Sniper" /><br>[full-res](../imagens/ryan/armas/ghostwire_phantom_mk2_sniper.jpg) | **Skill:** Shoulder Arms · **WA +1** · **ROF 1** · **Mag 10 (5 match)** · **Dano 5d6** (match **5d6+1**) · **Alcance:** Long / Extreme · **Sem GL** |
 
-- **Tipo:** Sniper rifle semi-automático de precisão long-range, dobrável (plataforma Phantom Mk.II compartilhada com a DMR).
-- **Peso:** ~7,2 kg desdobrado com escopo e bipé (~4,8 kg dobrado sem óptica pesada) — Grafted Muscle + Reinforced Tendons compensam o bulk.
-- **Relação com a DMR:** Corpo-irmão / config de alcance da primária — **não** substitui Vanguard, Breaker nem Shadowblades. Ryan leva a DMR no mid-range e monta o Sniper quando a crew precisa de overwatch ou eliminação limpa além do mid. Munição base **compatível** com a DMR (7.62x51); kit opcional .300 para jobs de penetração extra (não é AMR).
-- **Características principais:**
-  - Sistema dobrável (compacta para transporte no Warden / bolsa de job; desdobra em 3–4 segundos — um pouco mais lento que a DMR por causa do cano/freio).
-  - Cano longo de precisão + **supressor integrado** pesado (assinatura sonora/térmica mínima).
-  - Magazine **10 tiros** (opção 5 match-grade) — cadência deliberada, não semi de cobertura.
-  - Óptica de precisão (escopo variable) + rails; bipé dobrável; freio de boca hexagonal (ref visual).
-  - **Sem** underbarrel GL (diferente da DMR) — prioriza estabilidade e silhueta limpa de overwatch.
-- **Gimmicks Techie:**
-  - Ballistic Computer Overclock (longo alcance, vento, movimento, lead em alvos em deslocamento).
-  - Smart Suppressor Variable + Signature Masking (mesma família da DMR; modo “ghost shot” ainda mais quieto, ao custo de cadência).
-  - Auto-Repair Nanites + ports de reparo rápido (Cyberarm).
-  - Quick-swap de módulos / óptica com o corpo DMR no pack (quando o job permite setup pré-contato).
-  - Spotting link com **Vespas** (Hornet/Vesper): marcação de alvo em tempo real via Kiroshi + Neural Link.
-- **Função:** Precisão a longa distância; overwatch e eliminação silenciosa. A DMR cobre mid-range e suporte de avanço; o Sniper cobre o “além do mid”.
-- **Quando NÃO levar:** jobs CQB puros, infiltração ultra-leve, ou quando o pack só precisa de mid-range (aí a DMR sozinha basta).
+| Campo | Valor |
+| ----- | ----- |
+| Tipo RED | Sniper Rifle (**não** AMR) |
+| Peso | ~7,2 kg / ~4,8 kg dobrado |
+| Munição | 7.62×51; kit opcional .300 (mesmo dano base; +1 AP narrativo se a mesa quiser) |
 
-#### 2. Secundária Rápida — **Ghostwire Vanguard Heavy Pistol** (12.7mm / .50 AE)
+- Overwatch / eliminação além do mid; spotting link Vespas.  
+- **Quando não levar:** CQB puro, pack ultra-leve.
 
-| Token (~¼) | Resumo |
+### 2. Vanguard Heavy Pistol (12.7 mm / .50 AE)
+
+| Token | Stats combate |
 | :---: | :--- |
-| <img src="../imagens/ryan/armas/tokens/ghostwire_vanguard_heavy_pistol_token.jpg" width="140" alt="Vanguard Heavy Pistol" /><br>[full-res](../imagens/ryan/armas/ghostwire_vanguard_heavy_pistol.png) | **Tipo:** Very Heavy Pistol · **Mag:** 10–15<br>**Carry:** coldre de coxa ou pop-up Cyberarm<br>**Função:** quick-draw / CQB médio |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_vanguard_heavy_pistol_token.jpg" width="140" alt="Vanguard" /><br>[full-res](../imagens/ryan/armas/ghostwire_vanguard_heavy_pistol.png) | **Skill:** Handgun · **WA +0** (+1 se smart lock) · **ROF 1** (burst 2: 2º tiro −1) · **Mag 10–15** · **Dano 4d6** · Close/Medium |
 
-- **Tipo:** Very Heavy Pistol semi-automática custom.
-- **Carry:** Coldre de coxa rápido ou **Pop-up no Cyberarm direito**.
-- **Características principais:**
-  - Alta letalidade em distâncias curtas/médias.
-  - Magazine 10-15 tiros.
-  - Supressor quick-detach.
-- **Gimmicks Techie:**
-  - Pop-up Cyberarm Integration (saque instantâneo mental).
-  - Burst Smart-Rounds (rajadas controladas de 2 tiros).
-  - EMP Micro-Pulse (tiro especial anti-drone/chrome).
-  - Recoil Compensator Dynamic (quase zero recoil com Kerenzikov).
-  - Quick-change barrel + rail para laser/IR.
+- Carry: coldre coxa ou pop-up Cyberarm.  
+- **Gimmicks:** burst 2; EMP micro-pulse (1 especial/cena, anti-drone/chrome leve); supressor QD; recoil compensator.
 
-#### 3. Terciária Surpresa / CQC — **Ghostwire Revolver Breaker** (Calibre 12 Revolving Shotgun)
+### 3. Revolver Breaker (cal. 12 revolving)
 
-| Token (~¼) | Resumo |
+| Token | Stats combate |
 | :---: | :--- |
-| <img src="../imagens/ryan/armas/tokens/ghostwire_revolver_breaker_token.jpg" width="140" alt="Revolver Breaker" /><br>[full-res](../imagens/ryan/armas/ghostwire_revolver_breaker.jpg) | **Tipo:** escopeta revolving cal. 12 · **Cilindro:** 5–7<br>**Carry:** bota / small of back<br>**Função:** CQC “punch solver” |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_revolver_breaker_token.jpg" width="140" alt="Breaker" /><br>[full-res](../imagens/ryan/armas/ghostwire_revolver_breaker.jpg) | **Skill:** Shoulder Arms · **WA +0** · **ROF 1** · **Cilindro 5–7** · **Dano 5d6** buck / **4d6** flechette · **Alcance:** Close |
 
-- **Tipo:** Escopeta curta revolving (cilindro giratório de 5-7 tiros).
-- **Carry:** Na bota (ankle rig) ou atrás da cintura (small of back) — quase invisível.
-- **Características principais:**
-  - Extremamente compacta (~45-55 cm).
-  - Devastadora em close range (“punch solver”).
-- **Gimmicks Techie:**
-  - Speed Cylinder Tech (recarga acelerada via Neural Link).
-  - Flechette / Buckshot Smart Switch (alternância mental de munição).
-  - Contact Detonator (modo explosivo no impacto).
-  - Supressor adaptável + Signature Masking.
+- Compacta 45–55 cm; bota / SOB.  
+- **Gimmicks:** speed cylinder; flechette/buck switch; contact detonator (1 load especial — dano área leve, risco friendly); supressor adaptável.
 
-#### 4. Arma Branca / Arremessável — **Ghostwire Shadowblades** (Conjunto de Lâminas de Arremesso)
+### 4. Shadowblades
 
-| Token (~¼) | Resumo |
+| Token | Stats combate |
 | :---: | :--- |
-| <img src="../imagens/ryan/armas/tokens/ghostwire_shadowblades_token.jpg" width="140" alt="Shadowblades" /><br>[full-res](../imagens/ryan/armas/ghostwire_shadowblades.jpg) | **Tipo:** 6–8 lâminas de arremesso · **Alcance:** 8–15 m<br>**Carry:** antebraço / cinto / bota / Warden<br>**Função:** stealth kill + arremesso |
+| <img src="../imagens/ryan/armas/tokens/ghostwire_shadowblades_token.jpg" width="140" alt="Shadowblades" /><br>[full-res](../imagens/ryan/armas/ghostwire_shadowblades.jpg) | **Arremesso:** Athletics · **2d6** · 8–15 m · ROF 1 · **Melee:** Melee Weapon · **1d6** · WA +0 |
 
-- **Tipo:** Conjunto de 6–8 lâminas/tubos afiados customizados (estilo kunai modernas + tubos com laterais afiadas).
-- **Carry:** Distribuidas em bainhas ocultas no antebraço (Cyberarm), cinto, bota e dentro do Warden (para recarga rápida).
-  - Lâminas balanceadas para arremesso preciso (alcance efetivo 8–15 m).
-  - Design modular: algumas com bordas serrilhadas, outras com ponta perfurante reforçada e pequenas cavidades para veneno ou nanites.
-  - Material leve mas extremamente resistente (liga de titânio + carbono).
-  - Podem ser recuperadas e reutilizadas facilmente.
-- **Gimmicks Techie:**
-  - **Magnetic Recall** — Ímãs discretos + Neural Link permitem puxar de volta algumas lâminas (distância curta).
-  - **Smart Edge Coating** — Nanocamadas que mantêm o fio absurdamente afiado e podem aplicar choque elétrico fraco (via Warden ou Cyberarm).
-  - **Stealth Finish** — Revestimento que reduz brilho e assinatura térmica.
-  - Integração com Cyberarm para arremesso mais rápido e preciso (quase automático).
+- 6–8 lâminas; carry antebraço/cinto/bota/Warden.  
+- **Gimmicks:** magnetic recall (curto); smart edge (choque fraco); stealth finish.
 
-### Integrações Gerais (Smart Swarm Sync)
+---
 
-- **Smart Swarm Sync** (sempre ativo): Todas as armas de fogo compartilham visão e marcação em tempo real com as **Vespas** (Hornet, Vesper, Barbed) via Kiroshi + Neural Link.
-- **Warden Sync:** Ao sacar qualquer arma, o Warden pode automaticamente abrir a carapaça balística como meia-cobertura e ativar modo proteção.
-- **Neural Ghost Link:** Todas as armas (incluindo as Shadowblades) são sentidas como extensão do corpo (recoil reduzido, mira/arremesso instintivo).
-- **Quick-Mod Modular:** Troca de acessórios em segundos.
-- **Auto-Repair Nanites + Signature Masking:** Redução de manutenção e assinatura (térmica/sonora/EM).
+## Integrações (Smart Swarm Sync)
 
-**Filosofia de Combate:** Ryan prioriza terminar o confronto o mais rápido e silenciosamente possível. Usa drones para intel, **DMR** para engajamento médio, **Phantom Sniper** para long-range / overwatch quando o mid-range não basta, Vanguard para quick-draw, Revolver Breaker para CQC devastador e Shadowblades para eliminações silenciosas ou arremessos surpresa. Tudo modular, reparável em campo e otimizado para máxima versatilidade.
+- **Smart Swarm Sync:** armas de fogo + Vespas + Kiroshi (marcação).  
+- **Warden Sync:** sacar arma → carapaça meia-cobertura / modo proteção.  
+- **Neural Ghost Link:** recoil/mira instintivos.  
+- **Quick-Mod / Auto-Repair / Signature Masking:** manutenção e assinatura.
 
-**Refs visuais de armas:** [imagens/ryan/armas/](../imagens/ryan/armas/)
+**Filosofia:** silêncio + drones + modularidade; DMR mid, Sniper long, Vanguard quick-draw, Breaker CQC, Shadowblades stealth.
 
-**Outros:** Bolsa de ferramentas, kit de reparo, componentes para drones, Agent.
+**Outros:** bolsa ferramentas, kit reparo, componentes drones, Agent.
 
-> **Consumíveis / sobras / estoque mínimo** (higiene, óleo, chrome em depósito, etc.) **não** se listam aqui — ver [economia.md](../economia.md) § **Ryan — estoque mínimo**.  
-> **Personagem / Maker ranks:** [techie - ryan_wireghost_voss.md](techie%20-%20ryan_wireghost_voss.md).
+> Consumíveis: [economia.md](../economia.md). Maker ranks: [ficha](techie%20-%20ryan_wireghost_voss.md).

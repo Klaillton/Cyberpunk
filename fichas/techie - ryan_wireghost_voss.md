@@ -165,6 +165,7 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 
 - Upgrade Expertise: 3 (reduz 1d6 HL em implantes elegíveis)
 - Invention: 1 (criação de drones e equipamentos customizados)
+- **Regras de mesa:** [07_roles.md](../sistema/regras_red/07_roles.md) · [08_techie.md](../sistema/regras_red/08_techie.md) · HL [05_cyberware.md](../sistema/regras_red/05_cyberware.md)
 
 ## Loadout tático
 
@@ -176,11 +177,12 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 | **Warden** | Drone **terrestre** scorpion (F03 — **não voa**); mochila / proteção |
 | **Vespas** | Hornet, Vesper, Barbed (recon / EW / distração) |
 | **Pack (não bolso)** | Condor + Corujas (F16) — alerta aéreo do Pack |
-| **Primária** | Ghostwire Phantom Mk.II **DMR** (+ par Sniper long-range) |
-| **Secundárias** | Vanguard Heavy Pistol · Revolver Breaker · Shadowblades |
-| **Filosofia** | Silêncio + drones + modularidade; job decide DMR vs Sniper |
+| **Primária** | Phantom DMR **5d6** ROF1 · Sniper **5d6** (stats em loadout) |
+| **Secundárias** | Vanguard **4d6** · Breaker **5d6** · Shadowblades **2d6**/**1d6** |
+| **Filosofia** | Silêncio + drones + modularidade |
 
-**Regras:** [02_combate](../sistema/regras_red/02_combate.md) · [04_armas](../sistema/regras_red/04_armas.md) · [08_techie](../sistema/regras_red/08_techie.md)  
+**Stats combate (dano/ROF/WA/mag):** [ryan_loadout.md](ryan_loadout.md)  
+**Regras:** [02](../sistema/regras_red/02_combate.md) · [05 HL](../sistema/regras_red/05_cyberware.md) · [07 Maker](../sistema/regras_red/07_roles.md) · [08](../sistema/regras_red/08_techie.md)  
 **Consumíveis / estoque:** [economia.md](../economia.md) § Ryan mínimo · **Maker:** ver Role Ability acima + `08_techie`
 
 ## Personalidade e Ganchos
