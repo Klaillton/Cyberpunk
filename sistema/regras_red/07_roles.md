@@ -56,7 +56,7 @@ Ryan **não** usa Moto por default.
 | Ficha | [netrunner - alex_specter_kane.md](../../fichas/netrunner%20-%20alex_specter_kane.md) |
 | Interface | Rank ~6–8 → NET Actions / turno |
 
-**Em mesa:** Interface define quantas ações NET por round; ICE/programas = Fase 4. Fora da NET: skills normais.
+**Em mesa:** Interface define quantas ações NET por round; ICE/programas = [10_netrunning.md](10_netrunning.md). Fora da NET: skills normais.
 
 ---
 

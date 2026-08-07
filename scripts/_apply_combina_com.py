@@ -17,17 +17,17 @@ OVERRIDES: dict[str, str] = {
     "fantasy_winter_blue_cape.jpg": "Reina / fantasia",
     "evening_white_feather_gown.jpg": "Reina",
     # ex-ref_pool
-    "formal_white_shirt_black_pants.jpg": "Valk / qualquer",
-    "intimate_white_tee_panties.jpg": "Valk / intimidade",
+    "special_racing_catsuit_yellow.jpg": "cena especial",
+    "fantasy_ice_blue_gown.jpg": "Reina / fantasia",
     "special_butterfly_wing_set.jpg": "cena especial",
     "intimate_black_sheer_babydoll_ref.jpg": "Valk / intimidade",
-    "evening_black_mermaid_glitter.jpg": "Reina",
-    "sleep_plush_onesie_panda.jpg": "qualquer",
-    "evening_black_cape_corset.jpg": "Reina / Alex",
-    "sleep_pink_lace_robe_set.jpg": "Reina / Valk",
+    "special_butterfly_bodysuit_blue.jpg": "cena especial",
+    "intimate_white_pink_babydoll.jpg": "Valk / intimidade",
+    "sleep_black_satin_romper.jpg": "Valk / intimidade",
+    "sleep_burgundy_satin_robe.jpg": "Reina / Valk",
     "evening_wine_corset_mini.jpg": "qualquer",
     "sleep_black_satin_pj_set.jpg": "qualquer",
-    "sleep_white_floral_cami_set.jpg": "Valk / qualquer",
+    "sleep_black_ribbed_cami_set.jpg": "qualquer",
 }
 
 

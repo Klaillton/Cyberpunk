@@ -15,9 +15,9 @@ Seu foco principal é **contar uma história envolvente, coerente e emergente**,
 
 ## 2. Testes e Rolagens
 
-**Camada mecânica (Ruleset v1.2.0, sessão 017+):**  
-[00](regras_red/00_integridade_regras.md)–[09](regras_red/09_veiculos.md) · [house](house_rules/regras_campanha.md) · [versionamento](versionamento_regras.md).  
-**Loadout Ryan (dano/ROF/WA):** [ryan_loadout.md](../fichas/ryan_loadout.md) — sob demanda em combate. **Roles:** [07_roles](regras_red/07_roles.md). **Não inventar d6 de arma** se o loadout tiver tabela.
+**Camada mecânica (Ruleset v1.3.0, sessão 017+):**  
+Atalho: [11_referencia.md](regras_red/11_referencia.md) · full: [00](regras_red/00_integridade_regras.md)–[10](regras_red/10_netrunning.md) · [house](house_rules/regras_campanha.md).  
+**Loadout Ryan:** [ryan_loadout.md](../fichas/ryan_loadout.md). **NET:** [10_netrunning](regras_red/10_netrunning.md) (Alex). **Não inventar d6 de arma** se o loadout tiver tabela.
 
 Determine testes apenas quando houver risco, dificuldade ou possibilidade de falha.
 

@@ -1,5 +1,5 @@
 ---
-version: 1.2.0
+version: 1.3.0
 status: stable
 last_updated: 2026-08-07
 source: Cyberpunk RED core (resumo operacional) + house rules da campanha
@@ -30,7 +30,7 @@ Provisório **não** se cola silenciosamente no RAW.
 
 | Campo | Valor |
 | ----- | ----- |
-| **ID** | F18 · Ruleset **v1.2.0** (atual; ver versionamento) |
+| **ID** | F18 · Ruleset **v1.3.0** (atual; ver versionamento) |
 | **Última sessão pré-camada** | **016** (e anteriores) |
 | **Primeira sessão com camada** | **017+** |
 | **Canon 001–016** | **Intacto** — não re-rolar, não “corrigir” kills/scavs/jobs |
@@ -78,7 +78,7 @@ PASSADO (≤016) → CANON CONSOLIDADO → REGRAS v1.0.0 → FUTURO (017+)
 
 ---
 
-## 5. Módulos (v1.2.0)
+## 5. Módulos (v1.3.0)
 
 | Arquivo | Uso |
 | ------- | --- |
@@ -91,15 +91,22 @@ PASSADO (≤016) → CANON CONSOLIDADO → REGRAS v1.0.0 → FUTURO (017+)
 | [07_roles.md](07_roles.md) | Role Abilities da crew |
 | [08_techie.md](08_techie.md) | Maker, craft, drones |
 | [09_veiculos.md](09_veiculos.md) | Drive, perseguição, Mule |
+| [10_netrunning.md](10_netrunning.md) | NET, Interface, ICE (MVP) |
+| [11_referencia.md](11_referencia.md) | Atalho 1 página |
 | [../house_rules/regras_campanha.md](../house_rules/regras_campanha.md) | Stealth, drones, oficina, HL ficção |
 | [../versionamento_regras.md](../versionamento_regras.md) | Versões |
 
-Loadout Ryan (stats custom): [ryan_loadout.md](../../fichas/ryan_loadout.md).  
-Fase 4 (NET): [plans/add-cyberpunk-red-mechanics.md](../../plans/add-cyberpunk-red-mechanics.md).
+Loadout Ryan: [ryan_loadout.md](../../fichas/ryan_loadout.md).  
+Auditoria combates 001–016 (OBSERVAÇÃO): [auditoria_combates_canonicos.md](../../plans/auditoria_combates_canonicos.md).
 
 ---
 
 ## Changelog
+
+### 1.3.0 — 2026-08-07
+
+- 10 netrunning, 11 referência (Fase 4).
+- Fase 5: auditoria combates canônicos (doc em `plans/`; sem mudança de resolução).
 
 ### 1.2.0 — 2026-08-07
 

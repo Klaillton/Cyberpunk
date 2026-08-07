@@ -148,8 +148,8 @@ source: Cyberpunk RED core (resumo operacional)
 | **1 MVP** | `done` (2026-08-07) | Integridade + core + combate MVP + ferimentos + stealth/drones house + cutoff F18 + wire-up | `regras_red/00–03`, `house_rules/`, `fatos_duros`, `diretrizes_*`, `sessao_resumo_template`, Finalizar |
 | **2** | `done` (2026-08-07) | Combate 1.1 + armas + Techie/Maker + veículos + **ryan_loadout** | `02`, `04`, `08`, `09`, `fichas/ryan_loadout.md` |
 | **3** | `done` (2026-08-07) | Roles crew + cyberware/HL + eddies + **tabelas dano/ROF no loadout** | `05–07`, `economia`, `ryan_loadout` |
-| **4** | pending | Netrunning + referência | `10`, `11` |
-| **5** | pending | Auditoria combates **canônicos** (OBSERVAÇÃO, não RETCON) + Finalizar com HP/SP/HL | relatório em `plans/` ou `logs/` |
+| **4** | `done` (2026-08-07) | Netrunning MVP + referência 1 página | `10`, `11` · Ruleset **1.3.0** |
+| **5** | `done` (2026-08-07) | Auditoria combates canônicos + Finalizar HP/SP/HL/loadout/NET | [auditoria_combates_canonicos.md](auditoria_combates_canonicos.md) |
 
 ### Critério de sucesso (MVP — Fase 1)
 
@@ -243,7 +243,9 @@ Além do playbook atual, avaliar:
 3. ~~Fase 1 MVP: `regras_red/00–03` + house_rules + F18 + wire-up~~
 4. ~~Fase 2: 04/08/09 + combate 1.1 + ryan_loadout~~  
 5. ~~Fase 3: 05–07 + eddies + tabelas loadout~~  
-6. **Próximo (quando pedir):** Fase 4 — netrunning + referência
+6. ~~Fase 4: 10 netrunning + 11 referência~~  
+7. ~~Fase 5: auditoria combates + Finalizar mecânico~~ → [auditoria_combates_canonicos.md](auditoria_combates_canonicos.md)  
+8. **Camada mecânica completa (fases 0–5).** Melhorias opcionais: Stealth na ficha Ryan; revisão HL/EMP; track Combat Awareness.
 
 ---
 

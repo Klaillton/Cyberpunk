@@ -48,7 +48,7 @@
 | **Novo** | Condor + Corujas operacionais (drones miméticos) |
 | **Novo** | Modelo 3D externo da base militar coletado (21/07) |
 | **Novo** | Lira + Sasha aceitaram acampamento leve 24/07 (todos no Mule) |
-| **F18** | Ruleset **v1.2.0** · 017+ · sem retcon 001–016 · [regras_red](../sistema/regras_red/00_integridade_regras.md) · [ryan_loadout](../fichas/ryan_loadout.md) (dano/ROF) |
+| **F18** | Ruleset **v1.3.0** · 017+ · sem retcon 001–016 · [regras_red](../sistema/regras_red/00_integridade_regras.md) · [11_referencia](../sistema/regras_red/11_referencia.md) · [ryan_loadout](../fichas/ryan_loadout.md) |
 
 Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 

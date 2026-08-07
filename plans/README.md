@@ -42,7 +42,8 @@
 
 | Plano | Status | Resumo |
 | ----- | ------ | ------ |
-| [add-cyberpunk-red-mechanics.md](add-cyberpunk-red-mechanics.md) | `in_progress` (Fases 0–3 **done**) | Ruleset **v1.2.0** · loadout com dano/ROF |
+| [add-cyberpunk-red-mechanics.md](add-cyberpunk-red-mechanics.md) | `done` (fases 0–5) | Ruleset **v1.3.0** · camada mecânica completa |
+| [auditoria_combates_canonicos.md](auditoria_combates_canonicos.md) | `done` | Observação I001/I002/J001/T008… · **sem retcon** |
 | ~~add_cyberpunk_mecanichs.md~~ | `cancelled` | Typo + conteúdo superado — ver link no arquivo |
 
 ---

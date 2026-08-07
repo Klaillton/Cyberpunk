@@ -5,7 +5,7 @@
 **Duração aproximada:** [X horas]  
 **Jogador:** Ryan "Wireghost" Voss  
 **Narrador:** [Seu nome ou IA]  
-**Ruleset:** [ex. 1.2.0 · ver `sistema/versionamento_regras.md`]  
+**Ruleset:** [ex. 1.3.0 · ver `sistema/versionamento_regras.md`]  
 
 ---
 
@@ -24,11 +24,16 @@
 
 ### Mecânica / ferimentos (se aplicável)
 
-- Combate / testes relevantes: [resumo 1–3 linhas ou **sem delta**]
-- HP / SW / Death Save: [delta ou **sem delta**]
+- Combate / stealth / testes relevantes: [1–3 linhas de **outcome** (skill, sucesso/falha, consequência) ou **sem delta**]
+- HP / SW / Death Save (PC + NPC nomeados): [delta ou **sem delta**]
 - SP / ablação: [delta ou **sem delta**]
+- Loadout / munição: [delta ou **sem delta** · ver `ryan_loadout` se Ryan]
+- HL / chrome instalado: [delta ou **sem delta**]
+- NET (se run): [alarme / Heat / dano netrunner ou **sem delta**]
 - Luck gasta: [n ou **sem delta**]
+- Eddies: [delta ou **sem delta** · `economia.md`]
 - Decisões provisórias → house rule?: [não / listar]
+- Ref: [11_referencia](../sistema/regras_red/11_referencia.md) · [auditoria combates](../plans/auditoria_combates_canonicos.md) (histórico only)
 
 ### Reputação / Heat / Economia
 

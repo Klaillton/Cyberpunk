@@ -88,6 +88,7 @@ Recentemente, ao ouvir que Valk estava trabalhando novamente (e fazendo jobs com
 
 - NET Actions por Turno: 3-4 (dependendo do Rank).
 - Habilidades disponíveis: Backdoor, Cloak, Control, Eye-Dee, Pathfinder, Scanner, Slide, Virus, Zap.
+- **Regras de mesa (MVP):** [sistema/regras_red/10_netrunning.md](../sistema/regras_red/10_netrunning.md) · [07_roles.md](../sistema/regras_red/07_roles.md)
 
 ## Drones / Gear / Armamento Inicial (sugestão)
 

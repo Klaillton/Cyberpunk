@@ -51,7 +51,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Continuidade colável (estado vigente) | `logs/handoff_atual.md` | context pack, board |
 | Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
 | Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
-| **Regras RED (mecânica / testes)** | `sistema/regras_red/00_integridade_regras.md` | `01`–`09` — **não** tier-0 · Ruleset **1.2.0** |
+| **Regras RED (mecânica / testes)** | `sistema/regras_red/11_referencia.md` (atalho) | `00`–`10` full · Ruleset **1.3.0** · **não** tier-0 |
+| Netrunning / Interface | `sistema/regras_red/10_netrunning.md` | ficha Alex, `07_roles` |
 | Combate / ROF / stealth attack | `sistema/regras_red/02_combate.md` | `04_armas`, `03_ferimentos`, house |
 | Armas (categorias) | `sistema/regras_red/04_armas.md` | **dano/ROF no loadout** |
 | Cyberware / HL | `sistema/regras_red/05_cyberware.md` | ficha personagem |
@@ -64,6 +65,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | House rules (stealth, drones, oficina) | `sistema/house_rules/regras_campanha.md` | `regras_red/00`, F03/F12/F16/F18 |
 | Versão do ruleset | `sistema/versionamento_regras.md` | `Ruleset: 1.1.0` no resumo |
 | Planos de trabalho (sistema) | `plans/README.md` | `plans/add-cyberpunk-red-mechanics.md` |
+| Auditoria combates pré-017 (só leitura) | `plans/auditoria_combates_canonicos.md` | F18 — **não** retcon |
 
 **Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `016`). Próximo número disponível: **017**.
 
@@ -210,7 +212,9 @@ cyberpunk/
     │   ├── 06_skills.md
     │   ├── 07_roles.md
     │   ├── 08_techie.md
-    │   └── 09_veiculos.md
+    │   ├── 09_veiculos.md
+    │   ├── 10_netrunning.md
+    │   └── 11_referencia.md
     ├── house_rules/
     │   ├── README.md
     │   └── regras_campanha.md     ← Stealth, drones

@@ -41,7 +41,7 @@
 | **F16** | **Condor** + **Corujas** = drones miméticos de Ryan, **operacionais** no Pack (demo 20/07). Não confundir com Vespas. Enxame mini-drones = só ideia (21/07) | ficha Ryan · board · sessão 012 |
 | **F13** | Próximo número de resumo de sessão: ver `registro_arquivos.md` (não inventar o NNN) | registro_arquivos |
 | **F15** | Valk **não** se refere a Ryan como **“herói”** / **“herói solitário”** (promessa pós-episódio **14/07/2026** na oficina/depósito). Preocupação = outras palavras. Gatilho ativo; memória **não** desbloqueada | [ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md) · relacionamentos Ryan/Valk |
-| **F18** | **Ruleset mecânico** em vigor a partir da sessão **017** (versão atual: **v1.2.0** — [versionamento_regras.md](versionamento_regras.md)). Sessões **001–016** = pré-camada (**sem retcon**). Stats de arma Ryan em [ryan_loadout.md](../fichas/ryan_loadout.md). | regras_red · loadout |
+| **F18** | **Ruleset mecânico** em vigor a partir da sessão **017** (versão atual: **v1.3.0** — [versionamento_regras.md](versionamento_regras.md)). Sessões **001–016** = pré-camada (**sem retcon**). Stats Ryan: [ryan_loadout.md](../fichas/ryan_loadout.md). NET: [10_netrunning.md](regras_red/10_netrunning.md). | regras_red · loadout |
 
 ---
 
@@ -68,8 +68,8 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 - Não criar NPC/facção/local já listado em `registro_arquivos` / mapa.
 - Não colocar **Jax “Razor” Kane** (crew) nas Badlands em scav/incursão — usar **Scout** ([scout.md](../fichas/npc/scout.md)).
 - Não fazer Valk chamar Ryan de **“herói”** / **“herói solitário”** (bordão ou “combinado?”) — promessa 14/07; gatilho que dói (**F15**). Usar *não vai sozinho*, *planeja comigo*, *leva o time*.
-- Não re-rolar nem “corrigir” outcomes das sessões **001–016** com a camada mecânica (**F18**).
-- Sob risco/oposição (sessão **017+**): não narrar sucesso automático; usar [regras_red](regras_red/00_integridade_regras.md).
+- Não re-rolar nem “corrigir” outcomes das sessões **001–016** com a camada mecânica (**F18**). Ver [auditoria_combates_canonicos.md](../plans/auditoria_combates_canonicos.md) (só observação).
+- Sob risco/oposição (sessão **017+**): não narrar sucesso automático; usar [regras_red](regras_red/00_integridade_regras.md) · atalho [11_referencia](regras_red/11_referencia.md).
 
 ---
 
