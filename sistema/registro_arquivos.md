@@ -51,11 +51,15 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Continuidade colável (estado vigente) | `logs/handoff_atual.md` | context pack, board |
 | Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
 | Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
-| **Regras RED (mecânica / testes)** | `sistema/regras_red/00_integridade_regras.md` | `01_core`, `02_combate`, `03_ferimentos` — **não** tier-0 |
-| Combate / stealth attack | `sistema/regras_red/02_combate.md` | `01_core`, `03_ferimentos`, `house_rules/regras_campanha.md` |
+| **Regras RED (mecânica / testes)** | `sistema/regras_red/00_integridade_regras.md` | `01`–`04`, `08`, `09` — **não** tier-0 |
+| Combate / ROF / stealth attack | `sistema/regras_red/02_combate.md` | `04_armas`, `03_ferimentos`, house |
+| Armas (categorias / ROF) | `sistema/regras_red/04_armas.md` | loadout do PC, ficha Mule |
+| Maker / craft / drones (regras) | `sistema/regras_red/08_techie.md` | ficha Ryan, `ryan_loadout`, economia |
+| Veículos / perseguição / Mule (regras) | `sistema/regras_red/09_veiculos.md` | `fichas/vehicle - the_mule.md`, ficha Valk |
+| **Loadout tático Ryan (stats)** | `fichas/ryan_loadout.md` | ficha techie (resumo); combate sob demanda |
 | HP / SP / Death Save | `sistema/regras_red/03_ferimentos.md` | ficha do personagem, Finalizar |
-| House rules (stealth, drones) | `sistema/house_rules/regras_campanha.md` | `regras_red/00`, fatos F03/F12/F16/F18 |
-| Versão do ruleset | `sistema/versionamento_regras.md` | cabeçalho `Ruleset:` no resumo de sessão |
+| House rules (stealth, drones, oficina) | `sistema/house_rules/regras_campanha.md` | `regras_red/00`, F03/F12/F16/F18 |
+| Versão do ruleset | `sistema/versionamento_regras.md` | `Ruleset: 1.1.0` no resumo |
 | Planos de trabalho (sistema) | `plans/README.md` | `plans/add-cyberpunk-red-mechanics.md` |
 
 **Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `016`). Próximo número disponível: **017**.
@@ -92,6 +96,7 @@ cyberpunk/
 │   ├── solo - jax_razor_kane.md
 │   ├── solo - reina_bearclaw_morales.md
 │   ├── techie - ryan_wireghost_voss.md
+│   ├── ryan_loadout.md            ← Armas / drones / SP (SoT tático)
 │   ├── ryan_guarda_roupas.md      ← Visual por ocasião (Badlands / NC / Wireghost)
 │   ├── crew_guarda_roupas.md      ← Catálogo de roupa (ocasião; não personagem)
 │   ├── vehicle - the_mule.md
@@ -196,7 +201,10 @@ cyberpunk/
     │   ├── 00_integridade_regras.md
     │   ├── 01_core.md
     │   ├── 02_combate.md
-    │   └── 03_ferimentos.md
+    │   ├── 03_ferimentos.md
+    │   ├── 04_armas.md
+    │   ├── 08_techie.md
+    │   └── 09_veiculos.md
     ├── house_rules/
     │   ├── README.md
     │   └── regras_campanha.md     ← Stealth, drones

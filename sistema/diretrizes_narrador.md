@@ -15,8 +15,9 @@ Seu foco principal é **contar uma história envolvente, coerente e emergente**,
 
 ## 2. Testes e Rolagens
 
-**Camada mecânica (Ruleset v1.0.0, a partir da sessão 017):**  
-[regras_red/00_integridade_regras.md](regras_red/00_integridade_regras.md) · [01_core.md](regras_red/01_core.md) · [02_combate.md](regras_red/02_combate.md) · [03_ferimentos.md](regras_red/03_ferimentos.md) · [house_rules/regras_campanha.md](house_rules/regras_campanha.md).
+**Camada mecânica (Ruleset v1.1.0, a partir da sessão 017):**  
+[00_integridade](regras_red/00_integridade_regras.md) · [01_core](regras_red/01_core.md) · [02_combate](regras_red/02_combate.md) · [03_ferimentos](regras_red/03_ferimentos.md) · [04_armas](regras_red/04_armas.md) · [08_techie](regras_red/08_techie.md) · [09_veiculos](regras_red/09_veiculos.md) · [house](house_rules/regras_campanha.md).  
+**Loadout Ryan (stats):** [ryan_loadout.md](../fichas/ryan_loadout.md) — sob demanda em combate, não no tier-0.
 
 Determine testes apenas quando houver risco, dificuldade ou possibilidade de falha.
 

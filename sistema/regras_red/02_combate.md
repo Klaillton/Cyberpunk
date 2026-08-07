@@ -1,29 +1,29 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: stable
 last_updated: 2026-08-07
 source: Cyberpunk RED core (resumo operacional)
 ---
 
-# Combate — MVP
+# Combate
 
-**Pré-requisito:** [01_core.md](01_core.md) · dano em [03_ferimentos.md](03_ferimentos.md).  
-**Escopo MVP:** 1 vs 1 / poucos alvos, um ataque por vez, stealth attack.  
-**Adiado (Fase 2):** autofire, suppressive fire, combate em grupo completo, veículos em combate, martial arts detalhado.
+**Pré-requisito:** [01_core.md](01_core.md) · dano [03_ferimentos.md](03_ferimentos.md) · armas [04_armas.md](04_armas.md).  
+**Veículos:** [09_veiculos.md](09_veiculos.md).  
+**Loadout Ryan:** [ryan_loadout.md](../../fichas/ryan_loadout.md).
+
+**Adiado (Fases 3–4):** martial arts completo, critical injury table longa, netrunning em combate.
 
 ---
 
-## 1. Fluxo simplificado
+## 1. Fluxo
 
 ```text
 1. Há combate / ameaça imediata?
 2. Iniciativa se a ordem importar (REF + 1d10)
-3. No turno: 1 ação de ataque relevante (MVP) + movimento razoável
+3. Turno: movimento razoável + ação de ataque (ou outra)
 4. Resolver ataque → dano → estado
-5. Narrar resultado
+5. Narrar resultado (depois da resolução)
 ```
-
-Fora de combate tático (emboscada já resolvida, alvos inconscientes sem risco): usar [01_core](01_core.md) “quando rolar”.
 
 ---
 
@@ -33,78 +33,87 @@ Fora de combate tático (emboscada já resolvida, alvos inconscientes sem risco)
 Total = STAT + Skill de combate + 1d10 + mods
 ```
 
-| Tipo | Skills típicas (RED) |
-| ---- | -------------------- |
-| Arma de fogo | Handgun, Shoulder Arms, etc. (conforme ficha) |
-| Melee / faca | Melee Weapon, Brawling, Martial Arts |
-| Arremesso | Athletics / skill de arremesso da ficha |
-
-### Alvo do total
+Skill por categoria: [04_armas](04_armas.md).
 
 | Situação | Resolver contra |
 | -------- | --------------- |
-| Alvo **não** se esquiva / está desprevenido de forma clara | **DV** da arma/situação (core range/DV table) ou DV 13–15 típico de tiro/melee sob pressão |
-| Alvo ativo em combate | **Oposto:** ataque vs **Evasion** (DEX + Evasion + 1d10) ou skill de defesa da ficha |
-| Alvo **surpreso** / não ciente (pós stealth bem-sucedido) | Vantagem: sem Evasion **ou** DV mais baixo; **ainda precisa de ataque** (não é auto-kill) |
-
-Mods comuns (só se a ficção justificar): cobertura do alvo, alcance, luz, ferimento (SW −2), mira, surpresa.
+| Alvo não se esquiva / desprevenido | **DV** da situação/arma |
+| Alvo ativo | **Oposto** vs Evasion (DEX + Evasion + 1d10) |
+| Surpreso (stealth OK) | Sem Evasion ou DV facilitado; **ainda rola ataque** |
 
 ---
 
-## 3. Cobertura e alcance (básico)
+## 3. ROF e autofire (1.1.0)
+
+| ROF | MVP |
+| --- | --- |
+| 1 | Um ataque |
+| 2+ | Declarar quantos tiros (até ROF); cada tiro além do primeiro impõe **penalidade cumulativa** ao total (atalho: **−1 por tiro extra** no mesmo ataque, ou usar regra de autofire do core se a mesa quiser precisão) |
+| Autofire / supressão | Ação de **supressão**: alvos sob fogo sofrem −DV ou −2 para agir expostos até se cobrirem (1 round); gasta munição generosa |
+
+**Não inventar ROF** — valor da arma no loadout/core; default 1.
+
+---
+
+## 4. Múltiplos combatentes
+
+- Cada PC / NPC nomeado: iniciativa própria (ou agrupar mooks).  
+- **Mooks em grupo:** um init; 1–2 ataques representativos por round ou “onda” com DV fixo.  
+- Aliados (Valk, Scout): agem no init; se delegados, ver [npc_agencia_cena](../npc_agencia_cena.md).  
+- Não resolver 16 mooks ataque-a-ataque se o foco for o PC — comprimir, mas **não** auto-win sob risco real.
+
+---
+
+## 5. Cobertura, alcance, melee
 
 | Fator | Efeito MVP |
 | ----- | ---------- |
-| Cobertura parcial | +DV ao atacante **ou** SP extra / miss chance narrativo alinhado ao core |
-| Cobertura total | Não dá para acertar sem flanquear / destruir cobertura |
-| Alcance extremo | Aumentar DV ou impedir tiro (arma) |
-| Melee sem alcance | Precisa fechar distância (movimento / teste) |
-
-Detalhes de range bands por arma → ficha + core (Fase 2 tabela dedicada).
+| Cobertura parcial | +DV ao atacante |
+| Cobertura total | Precisa flanquear / destruir |
+| Alcance | [04](04_armas.md) faixas |
+| Melee fora de alcance | Precisa fechar (movimento / teste) |
 
 ---
 
-## 4. Stealth attack (ponte)
-
-Não confundir:
+## 6. Stealth attack
 
 ```text
-Não ser detectado  ≠  Invisível  ≠  Morte automática
+Não detectado ≠ invisível ≠ morte automática
 ```
 
-**Pipeline:**
-
-1. **Stealth / hide / silence** (core skill) vs **Perception / Awareness** do alvo ou vigia — oposto ([01_core](01_core.md)).  
-2. Fatores: [house_rules/regras_campanha.md](../house_rules/regras_campanha.md).  
-3. Se **detectado:** combate normal / alarme.  
-4. Se **não detectado:** ataque com vantagem de surpresa (sem Evasion ou DV facilitado) + dano normal ([03](03_ferimentos.md)).  
-5. Alvo com HP alto / armadura pesada pode **sobreviver** ao primeiro golpe → continua a cena.
-
-Ryan competente + preparação + drones = **mods legítimos** e DV realistas, não skip de passo 1–4.
+1. Stealth vs Perception ([house](../house_rules/regras_campanha.md)).  
+2. Se OK → ataque com vantagem de surpresa.  
+3. Dano normal ([03](03_ferimentos.md)); alvo pode sobreviver.  
+4. Se falhar → alarme / combate normal.
 
 ---
 
-## 5. Drones em combate (MVP)
+## 7. Drones
 
-- Controlar drone: skill/tech da ficha (Techie / Electronic Security / Weapon Systems conforme ficha).  
-- Ataque do drone: conforme arma/montagem do drone **ou** auxílio (recon, jam, distração = mods para Ryan/aliados).  
-- **Warden:** terrestre, proteção/utilidade (F03) — **não** resolve como drone aéreo.  
-- Detalhe de campanha: house rules.
+- Controle sob pressão: Tech skill ([08_techie](08_techie.md)).  
+- Warden F03 terrestre; Vespas loadout; Condor/Corujas pack F16.  
+- Stats: [ryan_loadout](../../fichas/ryan_loadout.md).
 
 ---
 
-## 6. O que registrar após o combate
+## 8. Veículos em combate
 
-- HP / SW / morte de PC ou NPC relevante  
-- SP / ablação se armadura foi atingida  
-- Munição se a ficha ou a cena importar  
-- Heat / consequências se barulho/alarme  
-- No resumo: `Ruleset: 1.0.0` + 1 linha de outcome mecânico se houver ferimento
+Ponte: [09_veiculos](09_veiculos.md) (atirar de/para veículo, mounts, perseguição).
+
+---
+
+## 9. Registrar após combate
+
+HP/SW/SP, munição se importar, Heat se alarme, `Ruleset: 1.1.0` no resumo.
 
 ---
 
 ## Changelog
 
+### 1.1.0 — 2026-08-07
+
+- ROF/autofire/supressão, múltiplos combatentes, links 04/08/09/loadout.
+
 ### 1.0.0 — 2026-08-07
 
-- MVP combate: ataque, Evasion/DV, cobertura básica, stealth attack, drones ponte.
+- MVP ataque, Evasion, stealth attack, drones ponte.

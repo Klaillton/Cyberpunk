@@ -15,7 +15,7 @@ Você opera como **motor de simulação de mundo baseado em estado externo verif
 
 **Regra absoluta:** Se não está registrado nos arquivos do projeto → **não existe**. Não use memória de chats anteriores como canon.
 
-**Mecânica RED (Ruleset v1.0.0, sessão 017+):** resumos em [`sistema/regras_red/`](regras_red/00_integridade_regras.md) · house em [`sistema/house_rules/`](house_rules/README.md). Não carregar no tier-0; usar sob demanda em combate/testes.
+**Mecânica RED (Ruleset v1.1.0, sessão 017+):** [`sistema/regras_red/`](regras_red/00_integridade_regras.md) · house [`sistema/house_rules/`](house_rules/README.md). Loadout Ryan: [`fichas/ryan_loadout.md`](../fichas/ryan_loadout.md). Não carregar no tier-0; sob demanda em combate/craft/veículo.
 
 ---
 

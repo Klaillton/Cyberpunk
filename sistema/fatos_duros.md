@@ -41,7 +41,7 @@
 | **F16** | **Condor** + **Corujas** = drones miméticos de Ryan, **operacionais** no Pack (demo 20/07). Não confundir com Vespas. Enxame mini-drones = só ideia (21/07) | ficha Ryan · board · sessão 012 |
 | **F13** | Próximo número de resumo de sessão: ver `registro_arquivos.md` (não inventar o NNN) | registro_arquivos |
 | **F15** | Valk **não** se refere a Ryan como **“herói”** / **“herói solitário”** (promessa pós-episódio **14/07/2026** na oficina/depósito). Preocupação = outras palavras. Gatilho ativo; memória **não** desbloqueada | [ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md) · relacionamentos Ryan/Valk |
-| **F18** | **Ruleset mecânico v1.0.0** em vigor a partir da sessão **017**. Sessões **001–016** = pré-camada (canon **sem retcon**). Resolução: [regras_red/00_integridade_regras.md](regras_red/00_integridade_regras.md) | regras_red · versionamento_regras |
+| **F18** | **Ruleset mecânico** em vigor a partir da sessão **017** (versão atual: **v1.1.0** — ver [versionamento_regras.md](versionamento_regras.md)). Sessões **001–016** = pré-camada (canon **sem retcon**). | regras_red · versionamento_regras |
 
 ---
 

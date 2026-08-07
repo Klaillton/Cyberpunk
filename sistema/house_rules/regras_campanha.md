@@ -1,5 +1,5 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: stable
 last_updated: 2026-08-07
 source: house rules — campanha Cyberpunk RED (repo)
@@ -15,7 +15,7 @@ Estas regras **não** são RAW; em conflito com o core book em mesa, o grupo pod
 ## 1. Cutoff (espelho F18)
 
 - Sessões **≤ 016:** outcomes canônicos nos logs — **sem retcon mecânico**.  
-- Sessões **≥ 017:** usar `regras_red` v1.0.0 + este arquivo.
+- Sessões **≥ 017:** usar `regras_red` **v1.1.0** + este arquivo.
 
 ---
 
@@ -86,7 +86,28 @@ Vence o **defensor** / status quo (ver [01_core](../regras_red/01_core.md)), sal
 
 ---
 
+## 6. Oficina Pack e craft (1.1.0)
+
+- Trabalhar na **oficina / forja** com Tio Gringo e alunos: vantagem de ficção (**+1** ao total **ou** DV −1), uma vez por tarefa relevante — declarar o mod.  
+- **Não** empilhar com outros bônus inventados.  
+- Consumir materiais → [economia.md](../../economia.md) no Finalizar.  
+- Detalhe Maker: [08_techie](../regras_red/08_techie.md).
+
+---
+
+## 7. Loadout vs ficha (1.1.0)
+
+- Stats detalhados de armas/drones do Ryan: **[ryan_loadout.md](../../fichas/ryan_loadout.md)** (SoT).  
+- Ficha principal = personagem + resumo + link.  
+- Regras genéricas **não** moram no loadout — `regras_red/`.
+
+---
+
 ## Changelog
+
+### 1.1.0 — 2026-08-07
+
+- Oficina Pack, loadout separado, ruleset 1.1.0.
 
 ### 1.0.0 — 2026-08-07
 

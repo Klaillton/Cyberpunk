@@ -90,7 +90,7 @@
 
 ## Ryan — estoque mínimo e itens soltos
 
-**Loadout tático / chrome / drones nomeados** → [ficha Ryan](fichas/techie%20-%20ryan_wireghost_voss.md) (não duplicar aqui).  
+**Loadout tático / chrome / drones nomeados** → [ryan_loadout.md](fichas/ryan_loadout.md) (não duplicar aqui; ficha = resumo).  
 **Aqui:** consumíveis, sobras, o que “sempre tem” ou está na oficina pessoal.
 
 ### Mínimo em corpo / marcha (sempre que sair equipado, salvo ditado contrário)
@@ -101,7 +101,7 @@
 | Componentes básicos p/ drones | pouco | reparo de campo |
 | Agent | 1 | comunicação |
 | Máscara tática meia-face | 1 | quase sempre |
-| Vespas (Hornet, Vesper, Barbed) + Warden | loadout | ver ficha / F03 F12 |
+| Vespas (Hornet, Vesper, Barbed) + Warden | loadout | [ryan_loadout](fichas/ryan_loadout.md) / F03 F12 |
 
 ### Oficina / depósito pessoal (Pack)
 

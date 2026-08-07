@@ -1,5 +1,5 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: stable
 last_updated: 2026-08-07
 source: Cyberpunk RED core (resumo operacional) + house rules da campanha
@@ -30,10 +30,11 @@ Provisório **não** se cola silenciosamente no RAW.
 
 | Campo | Valor |
 | ----- | ----- |
-| **ID** | F18 · Ruleset **v1.0.0** |
+| **ID** | F18 · Ruleset **v1.1.0** (era 1.0.0 na implantação inicial) |
 | **Última sessão pré-camada** | **016** (e anteriores) |
-| **Primeira sessão com camada** | **017+** (quando este ruleset estiver no branch) |
+| **Primeira sessão com camada** | **017+** |
 | **Canon 001–016** | **Intacto** — não re-rolar, não “corrigir” kills/scavs/jobs |
+| **Versão atual** | [versionamento_regras.md](../versionamento_regras.md) |
 
 ```text
 PASSADO (≤016) → CANON CONSOLIDADO → REGRAS v1.0.0 → FUTURO (017+)
@@ -77,21 +78,29 @@ PASSADO (≤016) → CANON CONSOLIDADO → REGRAS v1.0.0 → FUTURO (017+)
 
 ---
 
-## 5. Módulos MVP (v1.0.0)
+## 5. Módulos (v1.1.0)
 
 | Arquivo | Uso |
 | ------- | --- |
 | [01_core.md](01_core.md) | Testes, DV, opostos, Luck, quando rolar |
-| [02_combate.md](02_combate.md) | Combate básico + ponte stealth attack |
+| [02_combate.md](02_combate.md) | Combate, ROF, grupo, stealth attack |
 | [03_ferimentos.md](03_ferimentos.md) | HP, SP, SW, Death Save, First Aid |
-| [../house_rules/regras_campanha.md](../house_rules/regras_campanha.md) | Stealth, drones, campanha |
+| [04_armas.md](04_armas.md) | Categorias, ROF, alcance; links loadout |
+| [08_techie.md](08_techie.md) | Maker, craft, drones |
+| [09_veiculos.md](09_veiculos.md) | Drive, perseguição, Mule |
+| [../house_rules/regras_campanha.md](../house_rules/regras_campanha.md) | Stealth, drones, oficina Pack |
 | [../versionamento_regras.md](../versionamento_regras.md) | Versões |
 
-Fases 2+ (armas detalhadas, Maker, NET, veículos, roles): ver [plans/add-cyberpunk-red-mechanics.md](../../plans/add-cyberpunk-red-mechanics.md).
+Loadout Ryan (stats custom): [ryan_loadout.md](../../fichas/ryan_loadout.md).  
+Fases 3+ (cyberware, roles, NET): [plans/add-cyberpunk-red-mechanics.md](../../plans/add-cyberpunk-red-mechanics.md).
 
 ---
 
 ## Changelog
+
+### 1.1.0 — 2026-08-07
+
+- Módulos 04/08/09; ruleset 1.1.0; link loadout Ryan.
 
 ### 1.0.0 — 2026-08-07
 
