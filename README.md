@@ -34,6 +34,8 @@ Visão geral da estrutura do projeto e de como os arquivos se conectam entre si.
 - [context_pack_atual.md](logs/context_pack_atual.md) — **Tier-0** (NOW + fatos; anti-esquecimento sandbox)
 - [comandos_jogador.md](sistema/comandos_jogador.md) — Playbooks `[Refresh]`, `[Finalizar]`, handoff, `[Avançar cena]`, etc.
 - [fatos_duros.md](sistema/fatos_duros.md) — Fatos que a IA não pode inventar
+- [regras_red/00_integridade_regras.md](sistema/regras_red/00_integridade_regras.md) — Mecânica RED v1.0.0 (017+; sob demanda)
+- [plans/README.md](plans/README.md) — Planos de trabalho (sistema)
 - [novo_chat_procedimento.md](sistema/novo_chat_procedimento.md) — Procedimento para abrir chat novo + handoff
 - [handoff_atual.md](logs/handoff_atual.md) — Continuidade colável (estado vigente)
 - [dashboard_contexto.md](sistema/dashboard_contexto.md) — Resumo rápido (não substitui context pack)

@@ -42,7 +42,7 @@
 
 | Plano | Status | Resumo |
 | ----- | ------ | ------ |
-| [add-cyberpunk-red-mechanics.md](add-cyberpunk-red-mechanics.md) | `approved` | Camada mecânica RED, cutoff, Finalizar, fases MVP→expansão |
+| [add-cyberpunk-red-mechanics.md](add-cyberpunk-red-mechanics.md) | `in_progress` (Fase 1 **done**) | Camada mecânica RED; MVP v1.0.0 em `sistema/regras_red/` |
 | ~~add_cyberpunk_mecanichs.md~~ | `cancelled` | Typo + conteúdo superado — ver link no arquivo |
 
 ---

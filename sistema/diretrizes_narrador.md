@@ -15,12 +15,25 @@ Seu foco principal é **contar uma história envolvente, coerente e emergente**,
 
 ## 2. Testes e Rolagens
 
-Determine testes apenas quando houver risco, dificuldade ou possibilidade de falha. Sempre apresente:
+**Camada mecânica (Ruleset v1.0.0, a partir da sessão 017):**  
+[regras_red/00_integridade_regras.md](regras_red/00_integridade_regras.md) · [01_core.md](regras_red/01_core.md) · [02_combate.md](regras_red/02_combate.md) · [03_ferimentos.md](regras_red/03_ferimentos.md) · [house_rules/regras_campanha.md](house_rules/regras_campanha.md).
 
-- Valor rolado
-- Modificadores
-- Dificuldade (DV)
-- Resultado final
+Determine testes apenas quando houver risco, dificuldade ou possibilidade de falha.
+
+```text
+ROLAR QUANDO IMPORTA.  ·  NÃO ROLAR QUANDO NÃO IMPORTA.
+```
+
+**Ordem:** intenção → risco → regra → ficha → mods → rolagem → consequência → **só então** narração longa.  
+**Proibido (017+):** sob oposição/risco real, narrar sucesso só porque a ficha é alta.  
+**Stealth:** não é invisibilidade — ver house rules.
+
+Sempre apresente:
+
+- Valor do d10
+- STAT + Skill + modificadores (justificados)
+- Dificuldade (DV) **ou** total oposto
+- Resultado final (sucesso / falha / crítico / fumble)
 - Consequências
 
 ## 3. NPCs e Personagens Secundários

@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 21 de Julho de 2026 (sessão 015; próximo resumo **016**)
+**Última atualização:** 2026-08-07 (Ruleset v1.0.0 MVP; próximo resumo **017**)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -51,8 +51,14 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Continuidade colável (estado vigente) | `logs/handoff_atual.md` | context pack, board |
 | Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
 | Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
+| **Regras RED (mecânica / testes)** | `sistema/regras_red/00_integridade_regras.md` | `01_core`, `02_combate`, `03_ferimentos` — **não** tier-0 |
+| Combate / stealth attack | `sistema/regras_red/02_combate.md` | `01_core`, `03_ferimentos`, `house_rules/regras_campanha.md` |
+| HP / SP / Death Save | `sistema/regras_red/03_ferimentos.md` | ficha do personagem, Finalizar |
+| House rules (stealth, drones) | `sistema/house_rules/regras_campanha.md` | `regras_red/00`, fatos F03/F12/F16/F18 |
+| Versão do ruleset | `sistema/versionamento_regras.md` | cabeçalho `Ruleset:` no resumo de sessão |
+| Planos de trabalho (sistema) | `plans/README.md` | `plans/add-cyberpunk-red-mechanics.md` |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `015`). Próximo número disponível: **016**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `016`). Próximo número disponível: **017**.
 
 ---
 
@@ -170,6 +176,9 @@ cyberpunk/
 │   ├── alex_specter_kane_relacionamentos.md
 │   ├── lena_valk_kane_relacionamentos.md
 │   └── reina_bearclaw_morales_relacionamentos.md
+├── plans/                         ← Planos de trabalho (não estado de campanha)
+│   ├── README.md
+│   └── add-cyberpunk-red-mechanics.md
 └── sistema/
     ├── instrucoes_projeto.md      ← Instruções do projeto (espelho versionado)
     ├── npc_agencia_cena.md        ← NPCs in-scene: delegação, troca NPC↔NPC, anti-loop
@@ -182,6 +191,15 @@ cyberpunk/
     ├── dashboard_contexto.md
     ├── diretrizes_ia.md
     ├── diretrizes_narrador.md
+    ├── versionamento_regras.md    ← Ruleset semver
+    ├── regras_red/                ← Mecânica RED (resumo operacional)
+    │   ├── 00_integridade_regras.md
+    │   ├── 01_core.md
+    │   ├── 02_combate.md
+    │   └── 03_ferimentos.md
+    ├── house_rules/
+    │   ├── README.md
+    │   └── regras_campanha.md     ← Stealth, drones
     └── registro_arquivos.md       ← Este arquivo
 ```
 
@@ -226,7 +244,8 @@ cyberpunk/
   - `relacionamentos/ryan_relacionamentos.md`
   - `sistema/dashboard_contexto.md`
   - `relacionamentos/mapa_relacional_geral.md`
-- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **016**.
+- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **017**.
+- **Ruleset:** v1.0.0 em `sistema/regras_red/` (sessão 017+; F18).
 - **Handoff / chat novo:** Após sessão, atualizar `logs/handoff_atual.md` via [novo_chat_procedimento.md](novo_chat_procedimento.md).
 - **Jobs / Gigs:** Padrão `logs/job_XXX_<slug>.md` para briefing, execução e fallout permanente. Sessões referenciam o job; não duplicar táticas completas no resumo.
 - **NPCs secundários:** Um arquivo em `fichas/npc/<slug>.md` quando o personagem tem personalidade ou eventos que não cabem só no board/facção. Índice em [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md). **Não** misturar vários NPCs num único arquivo (dificulta busca da IA).

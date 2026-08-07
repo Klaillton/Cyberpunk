@@ -144,8 +144,8 @@ source: Cyberpunk RED core (resumo operacional)
 
 | Fase | Status | Entrega | Paths principais |
 | ---- | ------ | ------- | ---------------- |
-| **0** | `done` (este trabalho) | Convenção `plans/` + **este** plano | `plans/README.md`, este arquivo |
-| **1 MVP** | pending | Integridade + core + quando rolar + stealth + ferimentos básicos + cutoff F-id + link narrador/IA + campo Ruleset no template de resumo | `regras_red/00–03`, `house_rules/`, `fatos_duros`, `diretrizes_*`, `sessao_resumo_template`, Finalizar checklist |
+| **0** | `done` | Convenção `plans/` + **este** plano | `plans/README.md`, este arquivo |
+| **1 MVP** | `done` (2026-08-07) | Integridade + core + combate MVP + ferimentos + stealth/drones house + cutoff F18 + wire-up | `regras_red/00–03`, `house_rules/`, `fatos_duros`, `diretrizes_*`, `sessao_resumo_template`, Finalizar |
 | **2** | pending | Combate + armas resumo + Techie/Maker + veículos (Mule) | `02`, `04`, `08`, `09` |
 | **3** | pending | Roles crew restantes + cyberware/HL + eddies explícitos | `05–07`, patch `economia.md` |
 | **4** | pending | Netrunning + referência | `10`, `11` |
@@ -239,8 +239,9 @@ Além do playbook atual, avaliar:
 ## 12. Próximo passo de execução
 
 1. ~~Pull sessão 016~~ (feito: `29aac0e`)
-2. ~~Este plano + `plans/README.md`~~ (Fase 0)
-3. **Quando o jogador pedir:** Fase 1 MVP (`regras_red/00–03` + house_rules + cutoff + wire-up Finalizar/narrador)
+2. ~~Fase 0: `plans/README` + este plano~~
+3. ~~Fase 1 MVP: `regras_red/00–03` + house_rules + F18 + wire-up~~
+4. **Próximo (quando pedir):** Fase 2 — armas resumo, Techie/Maker, veículos (Mule)
 
 ---
 

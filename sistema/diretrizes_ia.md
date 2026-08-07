@@ -37,6 +37,7 @@ Quando a IA **também narra** (chat solo Grok, etc.):
 - Cada resposta de RP deve **avançar a cena** com fatos **já autorizados** por board / `event_queue` / context pack (**MOTOR** + **AGENDA DA CENA**) / pulsos / fichas do **contexto atual** (qualquer região).
 - **Proibido eco operacional:** não re-narrar SOP multi-passo do jogador; em OPERAÇÃO, **resultado primeiro** (N1b / N8).
 - Regras de beat: [diretrizes_narrador.md](diretrizes_narrador.md) **§7.1** (N1–N8) · [motor_cena_1pager.md](motor_cena_1pager.md). Agência: [npc_agencia_cena.md](npc_agencia_cena.md).
+- **Mecânica (017+):** sob risco/oposição, carregar sob demanda [`regras_red/`](regras_red/00_integridade_regras.md) (não no tier-0). Não inventar mods. Cutoff F18: não retcon 001–016.
 
 ---
 

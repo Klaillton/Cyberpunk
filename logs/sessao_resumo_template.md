@@ -4,7 +4,8 @@
 **Data in-game (início → fim):** [DD/MM] → [DD/MM] · **Dias cobertos:** [N]  
 **Duração aproximada:** [X horas]  
 **Jogador:** Ryan "Wireghost" Voss  
-**Narrador:** [Seu nome ou IA]
+**Narrador:** [Seu nome ou IA]  
+**Ruleset:** [ex. 1.0.0 · ver `sistema/versionamento_regras.md`]  
 
 ---
 
@@ -20,6 +21,14 @@
 
 -
 -
+
+### Mecânica / ferimentos (se aplicável)
+
+- Combate / testes relevantes: [resumo 1–3 linhas ou **sem delta**]
+- HP / SW / Death Save: [delta ou **sem delta**]
+- SP / ablação: [delta ou **sem delta**]
+- Luck gasta: [n ou **sem delta**]
+- Decisões provisórias → house rule?: [não / listar]
 
 ### Reputação / Heat / Economia
 
