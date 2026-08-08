@@ -111,6 +111,24 @@ Vence o **defensor** / status quo (ver [01_core](../regras_red/01_core.md)), sal
 
 ---
 
+## 9. Agents WIREGHOST (F19) — mesa
+
+**SoT longo:** [plans/agent_security.md](../../plans/agent_security.md) · resumo: [ryan_loadout](../../fichas/ryan_loadout.md).
+
+| Cena | Resolução |
+| ---- | --------- |
+| Abrir **Vault** | Auth + tempo; **qualquer anomalia = corte** (sem duelo NET no cofre) |
+| **Dummy** (Profissional) | Atacante “entra” em L1 falso; Ryan testa detecção (Cybertech / Electronics); real já encerrou |
+| **Honeypot** invadido | L0 synthetic + canary; audit; [10_netrunning](../regras_red/10_netrunning.md) se jack formal |
+| Path deviation | Narrativa + resposta por Agent (Vault cut / Prof dummy / Honeypot audit) |
+| Sync → Vault | Downtime / ação segura; 3ª interface Neural one-shot; falha = sem patch |
+| Wipeout Vault | Decisão de cena; possível Surgery/First Aid se físico (Stitch/Doc) |
+| Black ICE | Capacidade possível; default gray + cut/dummy; black = **custo** (Heat/trace) |
+
+**≠** drone Warden (F03). Não colocar Pack real no Honeypot.
+
+---
+
 ## Changelog
 
 ### 1.2.0 — 2026-08-07

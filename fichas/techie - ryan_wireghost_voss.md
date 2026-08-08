@@ -137,8 +137,11 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
   - Subdermal Armor
   - Skinweave
   - Biomonitor
+  - **Vault WIREGHOST** — chip implantado (parece chrome comum); air-gap; L3–L4 (**F19** · [agent_security](../plans/agent_security.md))
+  - **Subdermal pocket** — compartimento para stick do Agent **Profissional** (F19)
 
-**HL Total atual (com dado cheio e redução):** 78 (após redução de 1d6 por implante elegível).
+**HL Total atual (com dado cheio e redução):** 78 (após redução de 1d6 por implante elegível).  
+*Nota SoT 2026-08-08:* Vault + pocket OPSEC contam como **já inclusos** no total 78 (soft-canon pré-Badlands) — não recalcular sem Finalizar explícito.
 
 ## Skills
 
@@ -180,7 +183,7 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 | **Primária** | Phantom DMR **5d6** ROF1 · Sniper **5d6** (stats em loadout) |
 | **Secundárias** | Vanguard **4d6** · Breaker **5d6** · Shadowblades **2d6**/**1d6** |
 | **Filosofia** | Silêncio + drones + modularidade |
-| **Agents** | Stack WIREGHOST: Vault / Profissional / Honeypot + **Arbiter** (F19) — [loadout](ryan_loadout.md) · [spec](../plans/agent_security.md) |
+| **Agents** | Vault (implant) · Profissional (subdermal stick) · Honeypot (visível) · Arbiter/Watchdog (F19) — [loadout](ryan_loadout.md) · [spec](../plans/agent_security.md) |
 
 **Stats combate (dano/ROF/WA/mag):** [ryan_loadout.md](ryan_loadout.md)  
 **Regras:** [02](../sistema/regras_red/02_combate.md) · [05 HL](../sistema/regras_red/05_cyberware.md) · [07 Maker](../sistema/regras_red/07_roles.md) · [08](../sistema/regras_red/08_techie.md)  

@@ -66,7 +66,7 @@ Não detectado ≠ invisível ≠ auto-kill. Stealth vs Perception → depois at
 | F03 | Warden **drone** terrestre — **não voa** |
 | F12 | Vespas Hornet/Vesper/Barbed |
 | F16 | Condor/Corujas no **Pack** |
-| F19 | Agents: Vault / Profissional / Honeypot + **Arbiter** (≠ Warden drone) · [agent_security](../../plans/agent_security.md) |
+| F19 | Vault **implant** · Profissional **subdermal** · Honeypot **visível** · Arbiter/Watchdog · [agent_security](../../plans/agent_security.md) · ≠ Warden drone |
 
 ---
 

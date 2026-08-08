@@ -135,23 +135,26 @@ Ryan carrega loadout modular (stealth, mobilidade, jack-of-all-trades). Armas de
 
 ## Agents WIREGHOST (OPSEC — padrão Ryan)
 
-**Spec completa:** [plans/agent_security.md](../plans/agent_security.md) · **F19**  
-**In-fiction:** arquitetura **já era padrão** pós-Arasaka; SoT formalizado 2026-08-07. Logs ≤016 não reescritos.
+**Spec completa:** [plans/agent_security.md](../plans/agent_security.md) (SoT 2026-08-08) · **F19**  
+**In-fiction:** já era padrão pós-Arasaka; logs ≤016 **não** reescritos.  
+**≠** drone **Warden** (F03). **Arbiter** / **Watchdog** = política e trajetória (software).
 
-| Unidade | Papel | Estado normal | Dados |
-| ------- | ----- | ------------- | ----- |
-| **Arbiter** | Política de confiança (software) | Sempre on nas regras locais | ≠ drone **Warden** (F03) |
-| **Vault** | Segredos / identidade / Pack | **Air-gap** (rede off) | L3–L4 only |
-| **Profissional** | Trabalho, contatos, ops | Online controlado | L1–L2 |
-| **Honeypot** | Isca + intel de atacantes | “Sujo” / atrativo | L0 synthetic + canaries |
+| Unidade | Forma física | Onde | Rede | Dados | Resposta a anomalia |
+| ------- | ------------ | ---- | ---- | ----- | ------------------- |
+| **Vault** | Chip metálico (parece outro implant) | **Implantado** corpo/cabeça | **Air-gap** (off default) | **L3–L4** only | **Corte imediato**; wipeout se captura |
+| **Profissional** | Stick metálico sem tela | **Subdermal pocket** | Ops / monitorado | L1–L2 | **Suspeita → Dummy** (real encerra) |
+| **Honeypot** | Agent comum com tela | **Visível** (mão/mesa) | “Sujo” / atrativo | **L0** synthetic + canaries | Dummy + audit + trace |
+| **Arbiter** | Política distribuída | Nos Agents | — | — | Drop de links proibidos |
+| **Watchdog** | Auditor de trajetória | Metadados de sessão | — | — | Path deviation → Arbiter |
 
 | Campo | Canon de mesa |
 | ----- | ------------- |
-| Neural Link | Unlock/UI de sessão no Vault — **não** substitui o Agent; sem keep-alive no cofre |
-| Vault físico | Store isolado (bolso/baú); rádio **proibido** em idle |
-| Sync Vault↔Profissional | Cabo / NFC one-shot / contato auth — nunca wireless rotineiro |
-| Honeypot | Estrutura “banco shadow”; **não** clone do Vault; **nunca** Pack real |
+| Neural Link + **Kiroshi** | UI/sessão Vault e Profissional; **não** guardam L3/L4 sozinhos; sem keep-alive no Vault |
+| Sync → Vault | **Não** direto do Profissional; pipeline sandbox → Profissional → **3ª interface** (Neural one-shot) → Vault → sessão destruída |
+| Honeypot | Cobertura social (“é o Agent dele”); trabalho **real** via Neural→Profissional; alimentado com fake recente |
+| L0–L4 | Ver spec § matriz; **nunca** Pack/chaves/médico reais no Honeypot |
+| Black ICE | Capacidade possível; default = gray + cut/dummy; black tem **custo** (Heat/trace) |
 
-**Marcha típica:** Profissional no corpo/bolso; Honeypot se quiser isca; Vault offline até Ryan abrir.
+**Marcha pública típica:** **Honeypot na mão**; processamento real no **Profissional** (subdermal); **Vault** offline até Ryan abrir sessão autorizada.
 
 > Consumíveis: [economia.md](../economia.md). Maker ranks: [ficha](techie%20-%20ryan_wireghost_voss.md).
