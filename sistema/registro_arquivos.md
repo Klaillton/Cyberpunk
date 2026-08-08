@@ -138,6 +138,8 @@ cyberpunk/
 │   ├── vehicle - the_mule.jpg
 │   ├── Sasha.jpg
 │   ├── Lira.jpg
+│   ├── lina_park.jpg              ← ficha npc/lina_park.md
+│   ├── elisa_doc_moreau.jpg       ← ficha npc/elisa_doc_moreau.md (Doc ≠ Stitch)
 │   ├── Reyes.jpg · Reyes_token.jpg  ← ficha npc/reyes.md
 │   └── Tio_Gringo.jpg · Tio_Gringo_arm.jpg  ← ficha npc/tio_gringo.md
 ├── pulso_do_mundo/                ← Off-screen NPCs (ver pulso_procedimento.md)

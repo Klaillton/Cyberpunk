@@ -17,6 +17,12 @@
 - Mulher de meia-idade, cabelo curto escuro, cicatriz no rosto.
 - Postura de veterana; 4 acompanhantes armados sem insígnias corporativas visíveis.
 
+**Imagem de referência:**
+
+<img src="../../imagens/lina_park.jpg" width="220" alt="Lina Park" />
+
+- Retrato: [imagens/lina_park.jpg](../../imagens/lina_park.jpg)
+
 ## Eventos narrativos
 
 | Data (aprox.) | Evento |

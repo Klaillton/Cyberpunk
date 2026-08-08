@@ -23,8 +23,12 @@
 - Voz baixa, cadência de consultório; raramente grita.
 - Ambiente típico: clínica discreta em NC (não é o pack, não é a mesa de Stitch).
 
-**Imagem de referência:** [imagens/elisa_doc_moreau.jpg](../../imagens/elisa_doc_moreau.jpg)  
-*(Origem: `imagens/old_ideas/0d8f21f52bb41023d01d6956535f558c.jpg` — rosto/cabelo/chrome canônicos; roupa da foto é só referência visual, não default de cena.)*
+**Imagem de referência:**
+
+<img src="../../imagens/elisa_doc_moreau.jpg" width="220" alt="Dra. Elisa Doc Moreau" />
+
+- Retrato: [imagens/elisa_doc_moreau.jpg](../../imagens/elisa_doc_moreau.jpg)  
+- Rosto/cabelo/chrome canônicos; roupa da foto é só referência visual, não default de cena.
 
 ## O que ela sabe (narrador)
 

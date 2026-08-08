@@ -51,8 +51,8 @@ Personagens com personalidade e eventos próprios, mas **sem ficha RED completa*
 | NPC | Ficha | Imagem | Também em |
 | --- | ----- | ------ | --------- |
 | Dr. Elias Vossler | [dr_elias_vossler.md](../fichas/npc/dr_elias_vossler.md) | — | [job_001](../logs/job_001_extracao_vossler.md) |
-| Dra. Elisa “Doc” Moreau | [elisa_doc_moreau.md](../fichas/npc/elisa_doc_moreau.md) | — | Passado Ryan/Reina; **E011**; **≠** Stitch |
-| Lina Park | [lina_park.md](../fichas/npc/lina_park.md) | — | [sessao_003](../logs/sessao_resumo_003.md) |
+| Dra. Elisa “Doc” Moreau | [elisa_doc_moreau.md](../fichas/npc/elisa_doc_moreau.md) | [elisa_doc_moreau.jpg](../imagens/elisa_doc_moreau.jpg) | Passado Ryan/Reina; **E011**; **≠** Stitch |
+| Lina Park | [lina_park.md](../fichas/npc/lina_park.md) | [lina_park.jpg](../imagens/lina_park.jpg) | [sessao_003](../logs/sessao_resumo_003.md) |
 | Reyes | [reyes.md](../fichas/npc/reyes.md) | [Reyes.jpg](../imagens/Reyes.jpg) · [token](../imagens/Reyes_token.jpg) | [pack_badlands.md](../facoes/pack_badlands.md), [board](../board/board_campanha.md), [pulso](../pulso_do_mundo/pack_badlands/reyes.md) |
 | Tio Gringo | [tio_gringo.md](../fichas/npc/tio_gringo.md) | [Tio_Gringo.jpg](../imagens/Tio_Gringo.jpg) | [pack_badlands.md](../facoes/pack_badlands.md), [pulso](../pulso_do_mundo/pack_badlands/tio_gringo.md) |
 | Mara (recruta) | [mara_recruit.md](../fichas/npc/mara_recruit.md) | — | [lina_park.md](../fichas/npc/lina_park.md) |
