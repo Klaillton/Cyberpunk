@@ -92,7 +92,7 @@ Interface rank → NET Actions/turno · ação vs DV do nó/ICE · programas do 
 
 ## HL / eddies
 
-- Chrome: [05](05_cyberware.md) · Ryan HL total na ficha.  
+- Chrome: [05](05_cyberware.md) · Ryan: **HL histórico 78** / **Humanidade atual 63/70** (pós-Doc; residual E011).  
 - Dinheiro: [economia.md](../../economia.md) (faixa 1,5k–4k eb estimada).
 
 ---

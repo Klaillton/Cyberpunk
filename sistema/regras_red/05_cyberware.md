@@ -57,7 +57,13 @@ Ryan “não se importa com Humanity” = **ficção** — ainda registra HL ([h
 | Speedware (Kerenzikov, etc.) | 2d6 – 3d6 |
 | Armor implant (subdermal, skinweave) | 1d6 – 2d6 |
 
-Usar **números da ficha/core** se existirem. Ryan: **HL total registrado 78** (não recalcular o passado).
+Usar **números da ficha/core** se existirem.
+
+**Ryan (reconciliação SoT):**  
+- **HL histórico 78** = pico/acumulado (dado cheio + Maker); **não** é HL em aberto.  
+- **Humanidade atual 63/70** (EMP 7) = pós-**Doc Moreau**; residual ~7 (fragmentação; E011).  
+- Chrome de combate **permanece**; Doc restaurou Humanidade o bastante para jogar, não “zerou o passado”.  
+- Detalhe: [ficha Ryan](../../fichas/techie%20-%20ryan_wireghost_voss.md) § Humanidade e Cyberware.
 
 ---
 

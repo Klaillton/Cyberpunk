@@ -31,7 +31,7 @@
 | Camada | Conteúdo | Revelar? |
 | ------ | -------- | -------- |
 | Público / Ryan | Removeu ou atenuou chips/bloqueios Arasaka; “ajudou com a cabeça”; trata ferimentos e chrome | Ryan **não** entende o alcance |
-| Oculto | Sabe **muito mais** do passado de Ryan do que ele lembra | Gradual — [gatilhos](../notas_narrador/ryan_gatilhos_memorias.md) · [background](../notas_narrador/ryan_background_completo.md) |
+| Oculto | Sabe **muito mais** do passado de Ryan do que ele lembra; estabilizou Humanidade pós-chrome/Arasaka (HL histórico alto → Humanidade atual 63/70) | Gradual — [gatilhos](../notas_narrador/ryan_gatilhos_memorias.md) · [background](../notas_narrador/ryan_background_completo.md) · ficha Ryan § Humanidade |
 | Reina | Mediadora do favor: cobrou Ryan para construir os **cyberarms** da Reina (Estado da Arte). **Reina sabe**; **Ryan não lembra** | Não despejar em monólogo |
 
 ## Eventos narrativos

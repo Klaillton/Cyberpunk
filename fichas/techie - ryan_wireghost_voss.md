@@ -125,7 +125,16 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 
 ## Humanidade e Cyberware
 
-- **Humanidade (HL) inicial:** Baseada em EMP 7.
+| Conceito | Valor | Notas |
+| -------- | ----- | ----- |
+| **EMP** | **7** | Stat atual (estável) |
+| **Humanidade máx.** (EMP × 10) | **70** | Teto atual enquanto EMP = 7 |
+| **HL histórico** (acumulado) | **78** | Soma de instalações com **dado cheio** + redução Maker (−1d6 em elegíveis, Upgrade Expertise 3). Inclui chrome de campo + Vault/pocket OPSEC (F19, soft-canon). **Não** é o “em aberto” de mesa. |
+| **Humanidade atual** | **63** / 70 | Pós-tratamento com **Dra. Elisa “Doc” Moreau** (recuperação substancial de Humanidade / estabilização; chips de controle atenuados). Residual **−7** = fragmentação de memória + entorpecimento — **ainda precisa** de acompanhamento (E011). |
+| **HL residual (efetivo)** | **~7** | Só o que “ainda pesa” para cyberpsycose / empurrões de mesa; **não** reabrir o ledger de 78. |
+
+**Reconciliação (cânon, sem retcon de EMP/chrome):** o número **78** registra o **pico/histórico** de perda (Arasaka + chrome pesado). A Doc **não tirou o chrome de combate**; restaurou o bastante para Ryan funcionar com **EMP 7** e Humanidade **63**. Novos implantes (017+) somam HL **novo** em cima do residual, não em cima de 78.
+
 - **Cyberware atual (foco em campo, drones e sobrevivência):**
   - Neural Link + Interface Plugs + Smartgun Link
   - Kiroshi Optics
@@ -140,8 +149,7 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
   - **Vault WIREGHOST** — chip implantado (parece chrome comum); air-gap; L3–L4 (**F19** · [agent_security](../plans/agent_security.md))
   - **Subdermal pocket** — compartimento para stick do Agent **Profissional** (F19)
 
-**HL Total atual (com dado cheio e redução):** 78 (após redução de 1d6 por implante elegível).  
-*Nota SoT 2026-08-08:* Vault + pocket OPSEC contam como **já inclusos** no total 78 (soft-canon pré-Badlands) — não recalcular sem Finalizar explícito.
+*Ledger item a item de HL por peça: não mantido. Não recalcular 78 nem 63 sem Finalizar explícito do jogador.*
 
 ## Skills
 

@@ -129,6 +129,8 @@ Após ser expulso da Arasaka, Ryan foi resgatado por uma crew. Nessa época ele 
 
 A Doc percebeu que havia algo muito errado com a cabeça dele. Começou a remover alguns chips e a tratar os danos causados pela Arasaka. O processo foi **extremamente doloroso**.
 
+**HL / Humanidade (mesa):** o chrome pesado e o abuso Arasaka geraram **HL histórico alto (78 na ficha — pico/acumulado)**. O trabalho da Doc **recuperou Humanidade o bastante** para Ryan operar com **EMP 7** e **Humanidade atual 63/70** (residual por fragmentação). Ela **não** removeu o loadout de campo. Ele **ainda precisa** de acompanhamento (E011). Ver ficha § Humanidade e Cyberware.
+
 ### Durante o tratamento:
 
 - Ryan teve **vários surtos psicóticos violentos**.
