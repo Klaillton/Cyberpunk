@@ -42,6 +42,7 @@
 | **F13** | Próximo número de resumo de sessão: ver `registro_arquivos.md` (não inventar o NNN) | registro_arquivos |
 | **F15** | Valk **não** se refere a Ryan como **“herói”** / **“herói solitário”** (promessa pós-episódio **14/07/2026** na oficina/depósito). Preocupação = outras palavras. Gatilho ativo; memória **não** desbloqueada | [ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md) · relacionamentos Ryan/Valk |
 | **F18** | **Ruleset mecânico** em vigor a partir da sessão **017** (versão atual: **v1.3.0** — [versionamento_regras.md](versionamento_regras.md)). Sessões **001–016** = pré-camada (**sem retcon**). Stats Ryan: [ryan_loadout.md](../fichas/ryan_loadout.md). NET: [10_netrunning.md](regras_red/10_netrunning.md). | regras_red · loadout |
+| **F19** | **Agents WIREGHOST:** **Vault** (air-gap, L3–L4) · **Profissional** (ops) · **Honeypot** (isca L0) · **Arbiter** (política). Padrão de Ryan (pós-Arasaka); spec SoT 2026-08-07. **Arbiter ≠** drone **Warden** (F03). Vault offline por default. Spec: [plans/agent_security.md](../plans/agent_security.md) | agent_security · loadout |
 
 ---
 
@@ -70,6 +71,8 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 - Não fazer Valk chamar Ryan de **“herói”** / **“herói solitário”** (bordão ou “combinado?”) — promessa 14/07; gatilho que dói (**F15**). Usar *não vai sozinho*, *planeja comigo*, *leva o time*.
 - Não re-rolar nem “corrigir” outcomes das sessões **001–016** com a camada mecânica (**F18**). Ver [auditoria_combates_canonicos.md](../plans/auditoria_combates_canonicos.md) (só observação).
 - Sob risco/oposição (sessão **017+**): não narrar sucesso automático; usar [regras_red](regras_red/00_integridade_regras.md) · atalho [11_referencia](regras_red/11_referencia.md).
+- Não confundir **Arbiter** (Agents) com **Warden** drone (**F03** / **F19**).
+- Não colocar dados reais do Pack / L3 no Honeypot; Vault **sem** rede em idle.
 
 ---
 

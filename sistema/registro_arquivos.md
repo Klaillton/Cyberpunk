@@ -66,6 +66,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Versão do ruleset | `sistema/versionamento_regras.md` | `Ruleset: 1.1.0` no resumo |
 | Planos de trabalho (sistema) | `plans/README.md` | `plans/add-cyberpunk-red-mechanics.md` |
 | Auditoria combates pré-017 (só leitura) | `plans/auditoria_combates_canonicos.md` | F18 — **não** retcon |
+| Agents OPSEC Ryan (Vault/Honeypot/…) | `plans/agent_security.md` | F19 · `ryan_loadout` · ≠ Warden drone |
 
 **Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `016`). Próximo número disponível: **017**.
 

@@ -44,6 +44,7 @@
 | ----- | ------ | ------ |
 | [add-cyberpunk-red-mechanics.md](add-cyberpunk-red-mechanics.md) | `done` (fases 0–5) | Ruleset **v1.3.0** · camada mecânica completa |
 | [auditoria_combates_canonicos.md](auditoria_combates_canonicos.md) | `done` | Observação I001/I002/J001/T008… · **sem retcon** |
+| [agent_security.md](agent_security.md) | `active` | Agents WIREGHOST (Vault/Profissional/Honeypot/**Arbiter**) · F19 · in-fiction |
 | ~~add_cyberpunk_mecanichs.md~~ | `cancelled` | Typo + conteúdo superado — ver link no arquivo |
 
 ---

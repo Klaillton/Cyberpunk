@@ -180,6 +180,7 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 | **Primária** | Phantom DMR **5d6** ROF1 · Sniper **5d6** (stats em loadout) |
 | **Secundárias** | Vanguard **4d6** · Breaker **5d6** · Shadowblades **2d6**/**1d6** |
 | **Filosofia** | Silêncio + drones + modularidade |
+| **Agents** | Stack WIREGHOST: Vault / Profissional / Honeypot + **Arbiter** (F19) — [loadout](ryan_loadout.md) · [spec](../plans/agent_security.md) |
 
 **Stats combate (dano/ROF/WA/mag):** [ryan_loadout.md](ryan_loadout.md)  
 **Regras:** [02](../sistema/regras_red/02_combate.md) · [05 HL](../sistema/regras_red/05_cyberware.md) · [07 Maker](../sistema/regras_red/07_roles.md) · [08](../sistema/regras_red/08_techie.md)  

@@ -129,6 +129,29 @@ Ryan carrega loadout modular (stealth, mobilidade, jack-of-all-trades). Armas de
 
 **Filosofia:** silêncio + drones + modularidade; DMR mid, Sniper long, Vanguard quick-draw, Breaker CQC, Shadowblades stealth.
 
-**Outros:** bolsa ferramentas, kit reparo, componentes drones, Agent.
+**Outros:** bolsa ferramentas, kit reparo, componentes drones.
+
+---
+
+## Agents WIREGHOST (OPSEC — padrão Ryan)
+
+**Spec completa:** [plans/agent_security.md](../plans/agent_security.md) · **F19**  
+**In-fiction:** arquitetura **já era padrão** pós-Arasaka; SoT formalizado 2026-08-07. Logs ≤016 não reescritos.
+
+| Unidade | Papel | Estado normal | Dados |
+| ------- | ----- | ------------- | ----- |
+| **Arbiter** | Política de confiança (software) | Sempre on nas regras locais | ≠ drone **Warden** (F03) |
+| **Vault** | Segredos / identidade / Pack | **Air-gap** (rede off) | L3–L4 only |
+| **Profissional** | Trabalho, contatos, ops | Online controlado | L1–L2 |
+| **Honeypot** | Isca + intel de atacantes | “Sujo” / atrativo | L0 synthetic + canaries |
+
+| Campo | Canon de mesa |
+| ----- | ------------- |
+| Neural Link | Unlock/UI de sessão no Vault — **não** substitui o Agent; sem keep-alive no cofre |
+| Vault físico | Store isolado (bolso/baú); rádio **proibido** em idle |
+| Sync Vault↔Profissional | Cabo / NFC one-shot / contato auth — nunca wireless rotineiro |
+| Honeypot | Estrutura “banco shadow”; **não** clone do Vault; **nunca** Pack real |
+
+**Marcha típica:** Profissional no corpo/bolso; Honeypot se quiser isca; Vault offline até Ryan abrir.
 
 > Consumíveis: [economia.md](../economia.md). Maker ranks: [ficha](techie%20-%20ryan_wireghost_voss.md).

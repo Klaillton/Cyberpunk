@@ -139,6 +139,8 @@ Ryan está usando esse downtime de forma criativa e pessoal. Ele parece estar bu
 
 **Próximo marco:** preparação viagem Night City (E015); tutoria Sasha/Lira; estudo modelo 3D (opcional).
 
+**Nota SoT (2026-08-07):** stack **Agents WIREGHOST** (Vault / Profissional / Honeypot + Arbiter) formalizada como **padrão operacional** de Ryan — [agent_security.md](../plans/agent_security.md) · F19. Não é build novo do zero; spec no repo. Sem retcon de logs ≤016.
+
 ---
 
 ## Referências

@@ -111,7 +111,7 @@ Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × dis
 | ---- | --- | ----- |
 | Bolsa de ferramentas + kit de reparo | 1 | Ficha § Outros |
 | Componentes básicos p/ drones | pouco | reparo de campo |
-| Agent | 1 | comunicação |
+| Agent stack WIREGHOST | Vault + Profissional (+ Honeypot se em isca) | [F19](sistema/fatos_duros.md) · [agent_security](plans/agent_security.md) · loadout |
 | Máscara tática meia-face | 1 | quase sempre |
 | Vespas (Hornet, Vesper, Barbed) + Warden | loadout | [ryan_loadout](fichas/ryan_loadout.md) / F03 F12 |
 

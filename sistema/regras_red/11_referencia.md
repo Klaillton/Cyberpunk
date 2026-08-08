@@ -59,13 +59,14 @@ Não detectado ≠ invisível ≠ auto-kill. Stealth vs Perception → depois at
 
 ---
 
-## Drones (fatos)
+## Drones e Agents (fatos)
 
 | ID | Regra |
 | -- | ----- |
-| F03 | Warden **não voa** |
+| F03 | Warden **drone** terrestre — **não voa** |
 | F12 | Vespas Hornet/Vesper/Barbed |
 | F16 | Condor/Corujas no **Pack** |
+| F19 | Agents: Vault / Profissional / Honeypot + **Arbiter** (≠ Warden drone) · [agent_security](../../plans/agent_security.md) |
 
 ---
 
