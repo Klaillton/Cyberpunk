@@ -21,7 +21,8 @@
 | N8 | SOP multi-passo → **outcomes** + 1–3 dados novos | Re-narrar cada passo do PC |
 | N9 | Viagem limpa: **fechar chegada** (ou 1 evento) | Filler de marcha 3+ turnos |
 
-**Pressão:** AGENDA DA CENA → pendências do pack → `event_queue` (só local atual, F10).  
+**Pressão:** AGENDA DA CENA → [arco_ativo.md](../board/arco_ativo.md) (L1 + **off-screen** de contatos) → pendências do pack → `event_queue` (só local atual, F10).  
+**Off-screen:** contatos mudos **não estão parados** — ver protocolo §2 do arco_ativo (estado + relógio + batida).  
 **Não inventar** NPCs/facções/plot fora do SoT. **Não** inventar encontro aleatório só para encher caminho.
 
 ---

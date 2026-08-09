@@ -6,6 +6,7 @@
 **Última atualização deste handoff:** 09 de Agosto de 2026
 
 > **Primeiro arquivo a ler:** `logs/context_pack_atual.md`  
+> **Arco + off-screen (se estagnar / idle):** `board/arco_ativo.md`  
 > **Canon:** arquivos do repo (após sync / RAW) > handoff > memória de chat
 
 ---
@@ -18,6 +19,7 @@
 | Sessão 017 (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_017.md |
 | Handoff (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md |
 | Board | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/board_campanha.md |
+| Arco ativo L1 + off-screen | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/arco_ativo.md |
 | Procedimento novo chat | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/novo_chat_procedimento.md |
 | Mecânica RED (sob demanda) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/regras_red/00_integridade_regras.md |
 
@@ -30,6 +32,7 @@
 2. `sistema/fatos_duros.md` (se houver dúvida de fato)
 3. Este handoff (gancho + prompt)
 4. `board/board_campanha.md` se pack e board divergirem
+5. `board/arco_ativo.md` se cena estagnar, idle de espera, ou arco E015 avançar (L1 + off-screen Kaz/Steel/Sparrow)
 
 **Mecânica (017+ — sob risco/oposição, não no tier-0):**
 - `sistema/regras_red/00_integridade_regras.md` → `01_core` / `02_combate` / `03_ferimentos` (+ 04–11 conforme necessidade)
@@ -62,10 +65,10 @@ Canais ainda mudos. Acampamento leve montado. Vespas em perímetro.
 **O que Ryan faz?**
 
 ### AGENDA DA CENA (Cânion / manhã)
-1. Decisão sobre permanecer no cânion ou mover.
-2. Monitoramento passivo dos canais Steel/Sparrow.
-3. Dinâmica residual com Lira (abertura) e Sasha (reserva).
-4. Pressão leve de tempo/recursos se decidirem ficar múltiplos dias (sem forçar combate).
+1. **B1** — Decisão: fica / 2º ping / move (Valk fala preferência + horário se idle).
+2. **B2** — Off-screen Steel/Sparrow (relógio 25–26/07): resposta parcial, “não agora”, ou silêncio *útil* com custo — **não** “canais mudos” eterno. Kaz em NC escondido montando crew (não some).
+3. Lira/Sasha residual **com fala** (sem murmúrio vazio).
+4. Detalhe e defaults: `board/arco_ativo.md`
 
 ---
 
@@ -83,7 +86,7 @@ Detalhe narrativo: [sessao_resumo_017.md](sessao_resumo_017.md)
 
 | ID | Evento |
 | -- | ------ |
-| **E015** | Contato NC (Steel/Sparrow) — tentado, sem resposta; próximo passo em aberto |
+| **E015** | Fase espera pós-ping; Steel/Sparrow no relógio; Kaz monta crew off-screen — [arco_ativo](../board/arco_ativo.md) |
 | **E019** | Olaria/desidratador/cogeração — delegado ao Pack |
 | Tutoria | Valk + Sasha/Lira (Lira mais aberta após 24/07) |
 | E012 | Casas modulares (F11 ainda ativo) |
@@ -123,6 +126,7 @@ Detalhe narrativo: [sessao_resumo_017.md](sessao_resumo_017.md)
 - Handoff: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md
 - Procedimento: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/novo_chat_procedimento.md
 - Board (se divergir do pack): https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/board_campanha.md
+- Arco L1 + off-screen (estagnação / espera de contato): https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/arco_ativo.md
 
 ## Mecânica (017+ — sob demanda, não carregar no tier-0)
 - **F18:** Ruleset **v1.3.0** a partir da 017; 001–016 intactos (sem retcon)

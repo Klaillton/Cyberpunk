@@ -1,6 +1,6 @@
 # Fila de Eventos do Mundo (Event Queue)
 
-**Última atualização:** 23 de Julho de 2026 (sessão 016)
+**Última atualização:** 24 de Julho de 2026 (pós-017) · Arco L1: [board/arco_ativo.md](board/arco_ativo.md)
 
 ## Eventos Ativos / Pendentes
 
@@ -8,18 +8,18 @@
 | ---- | ------------------------------------------------ | ------------ | ---------- | ---------------- | ---------------------------------------------------------- |
 | E001 | Investigação da Biotechnica                      | Em andamento | Média      | 2~6 semanas      | Ainda sem confirmação de que sabem quem foi                |
 | E004 | Interesse de Alex em Valk                        | Em andamento | Média      | Contínuo         | Off-screen em NC; reavaliar ao reencontro crew             |
-| E005 | Resposta de Kaz após o job contra BT             | Pendente     | Média      | Próximas semanas | Job 001 concluído; sem contato desde ~25/06 |
+| E005 | Resposta de Kaz após o job contra BT             | Pendente     | Média      | Próximas semanas | Job 001 concluído; sem contato desde ~25/06; **Kaz off-screen: escondido em NC, montando crew futura** (ver arco_ativo) |
 | E006 | Possível retaliação ou abordagem da Biotechnica  | Potencial    | Alta       | Médio prazo      | Ainda não ativado                                          |
 | E007 | Implementação **Badlands Node** (Água + Biodigestor) | Em andamento | Alta | Curto prazo | Biodigestor + filtragem em progresso com autonomia         |
 | E008 | Vigilância pós-operação **Torre Raffen** | Em andamento | Média | Dias restantes | Heat residual Raffen                                       |
 | E011 | Visita à **Doc Moreau** (Elisa) | Pendente | Média | Médio prazo | Ryan prometeu; Valk quer ir junto — **não** é Stitch; item de **E015** |
 | **E012** | Montagem protótipo casas + escala / revelação ao pack | Em andamento | Alta | Médio prazo | Externo OK; interno em modelagem; revelação pack geral parcial |
 | **E014** | **Resposta de Reyes** sobre protótipo casas modulares | **Resolvido (implícito)** | — | — | Revelação **pública** ao pack geral ainda em E012 |
-| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | Pendente | Alta | Curto prazo | Próximo passo: acampamento 24/07 + contato Sparrow/Steel |
-| E016 | Tutoria Valk + Sasha/Lira (assistentes) | Em andamento | Média | Contínuo | Lira aberta; Sasha reservada; **ambas no acampamento 24/07** |
+| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Em andamento** | Alta | Curto prazo | **Fase: espera pós-ping.** Steel/Sparrow pingados 24/07 (`RVW30sG1mBL_P?`) sem resposta — **relógio 25–26/07** (resposta ou silêncio útil). Norte: [arco_ativo.md](board/arco_ativo.md) |
+| E016 | Tutoria Valk + Sasha/Lira (assistentes) | Em andamento | Média | Contínuo | Lira aberta (24/07); Sasha reservada; **ambas no acampamento cânion** |
 | E017 | Enxame mini-drones (ideia / sondagem) | Em andamento | Baixa | — | Não prioritário vs E015; P005/P006 pedidos |
 | E018 | Modelo 3D base militar (estudo) | Pendente | Baixa | — | Mapeamento **externo** 21/07; abandono aparente; sem infiltração |
-| **E019** | **Olaria + desidratador + cogeração de calor da forja** | Pendente | Baixa | Médio prazo | Ideia 23/07; **delegada ao Pack** (Tio Gringo / time produção / cozinha). Discussão após retorno da saída. Sem construção nesta sessão. |
+| **E019** | **Olaria + desidratador + cogeração de calor da forja** | Pendente | Baixa | Médio prazo | Ideia 23/07; **delegada ao Pack** (Tio Gringo / time produção / cozinha). Discussão após retorno da saída. |
 
 ## Eventos Resolvidos (Recentes)
 
@@ -34,6 +34,6 @@
 
 ## Referências
 
-- [Board](board/board_campanha.md) · [Consequências](consequencias/consequencias_persistentes.md) · [Dashboard](sistema/dashboard_contexto.md)
+- [Arco ativo L1 + off-screen](board/arco_ativo.md) · [Board](board/board_campanha.md) · [Consequências](consequencias/consequencias_persistentes.md) · [Dashboard](sistema/dashboard_contexto.md)
 - Relacionados: [Reputação](reputacao.md) · [Heat](heat.md) · [Economia](economia.md)
 - [Ryan](relacionamentos/ryan_relacionamentos.md) · [Facções](relacionamentos/faccao_relacionamentos.md)

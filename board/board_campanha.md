@@ -11,6 +11,8 @@ Ryan "Wireghost" Voss está em **acampamento leve** nas Badlands com Valk, Lira 
 
 **Prioridade imediata:** Manhã **25/07** — decidir se permanece no cânion, tenta contato de novo (Steel / Sparrow) ou muda de posição. Manter discrição. Canais em recepção passiva.
 
+**Arco L1 + off-screen:** [arco_ativo.md](arco_ativo.md) — E015 em **espera pós-ping**; Kaz escondido em NC montando crew; Steel/Sparrow no relógio (resposta ou silêncio útil até 25–26/07).
+
 **Projetos em andamento:**
 
 - **Drones miméticos** — Condor + Corujas ativos (no Pack).
@@ -82,4 +84,4 @@ Ryan "Wireghost" Voss está em **acampamento leve** nas Badlands com Valk, Lira 
 
 **Personagem:** [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 017](../logs/sessao_resumo_017.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 017](../logs/sessao_resumo_017.md) · [Arco ativo](arco_ativo.md)

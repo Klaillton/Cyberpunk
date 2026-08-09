@@ -6,6 +6,7 @@
 **Atualizado:** 24 de Julho de 2026 (final de tarde / início de noite)
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
+> **Arco + off-screen (L1):** [board/arco_ativo.md](../board/arco_ativo.md) — sob demanda / se estagnar.  
 > Fatos estáveis: [sistema/fatos_duros.md](../sistema/fatos_duros.md).  
 > Comandos: [sistema/comandos_jogador.md](../sistema/comandos_jogador.md).
 
@@ -17,8 +18,8 @@
 2. **Delta** = **maior parte** da resposta (~≥60%): intel, NPC, tempo com efeito, pressão AGENDA.  
 3. Em `OPERAÇÃO` / `VIAGEM`: **resultado primeiro** (não espelhar o plano).  
 4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).  
-5. Fonte de pressão: **AGENDA DA CENA** → pendências → `event_queue` (F10).  
-6. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]`.
+5. Fonte de pressão: **AGENDA DA CENA** → [arco_ativo](../board/arco_ativo.md) (L1 + off-screen) → pendências → `event_queue` (F10).  
+6. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]` · Idle de arco? default em `arco_ativo`.
 
 Detalhe: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
 
@@ -47,15 +48,16 @@ Detalhe: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · [m
 
 | # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
 | - | ---------------- | ---------------- | ---------------------------------------------- |
-| 1 | Decisão manhã 25/07: permanecer no cânion, novo ping Steel/Sparrow, ou mudar posição | Ryan / Valk | Valk propõe rota ou horário de saída com critério de discrição |
-| 2 | Canais Steel/Sparrow em recepção passiva (ainda mudos) | Mundo / rádio | Ruído fraco, falso positivo, ou confirmação de silêncio (sem forçar plot) |
-| 3 | Dinâmica residual Lira (aberta) / Sasha (reservada) no acampamento | Lira / Sasha | Lira pede tarefa/drone; Sasha observa e marca limite de conforto |
+| 1 | **B1** Decisão manhã 25/07: fica / 2º ping Steel-Sparrow / move posição | Valk | Valk **fala** preferência + horário (discrição); 1 alternativa |
+| 2 | **B2** Off-screen: Steel/Sparrow (relógio 25–26/07) — silêncio tem estado, não é vazio | Mundo / rádio | 1 batida: ACK parcial, “não agora”, ruído útil, **ou** silêncio *com custo de tempo* — ver [arco_ativo](../board/arco_ativo.md) §3.3 |
+| 3 | Lira (aberta) / Sasha (reservada) — residual **com fala** | Lira | 1 pergunta audível (drone / amanhã / Pack); Sasha reage; **sem** murmúrio vazio |
 
 | Campo | Valor |
 | ----- | ----- |
 | **Modo atual** | DOWNTIME / VIAGEM (acampamento) |
 | **Turnos sem delta (estimado)** | 0 |
 | **Região / local (NOW)** | Badlands · Cânion (acampamento leve) |
+| **Arco L1** | E015 espera pós-ping · [arco_ativo.md](../board/arco_ativo.md) |
 
 ---
 
@@ -88,7 +90,7 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 | ID | Uma linha |
 | -- | --------- |
-| **E015** | Viagem / assuntos Ryan em Night City (com Valk) — contato Steel/Sparrow tentado 24/07, **sem resposta** |
+| **E015** | Viagem NC (c/ Valk) — ping Steel/Sparrow 24/07 **sem resposta**; off-screen: Kaz monta crew; Steel/Sparrow no relógio 25–26/07 ([arco_ativo](../board/arco_ativo.md)) |
 | **E019** | Olaria + desidratador + cogeração forja — ideia delegada ao Pack (23/07) |
 | **E012** | Interno + móveis casas; possível revelação/escala |
 | E007 | Badlands Node |

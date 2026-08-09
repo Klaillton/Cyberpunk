@@ -18,7 +18,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Reputação com facções/NPCs | `reputacao.md` | `relacionamentos/faccao_relacionamentos.md`, `facoes/` |
 | Exposição / perseguição | `heat.md` | `event_queue.md`, `consequencias/consequencias_persistentes.md`, `sistema/echo_exposicao.md` |
 | Vazamento Media (Echo) / Void List | `sistema/echo_exposicao.md` | `heat.md`, `reputacao.md`, ficha Echo |
-| Eventos pendentes no mundo | `event_queue.md` | `board/board_campanha.md`, `consequencias/consequencias_persistentes.md` |
+| Eventos pendentes no mundo | `event_queue.md` | `board/board_campanha.md`, `board/arco_ativo.md`, `consequencias/consequencias_persistentes.md` |
+| Arco em foco (L1) + NPCs off-screen | `board/arco_ativo.md` | `logs/context_pack_atual.md` (AGENDA), `event_queue.md` |
 | Situação financeira | `economia.md` | `board/board_campanha.md`, `logs/downtime_ryan.md` |
 | Relações do protagonista | `relacionamentos/ryan_relacionamentos.md` | `relacionamentos/mapa_relacional_geral.md`, `relacionamentos/crew_relacionamentos.md` |
 | Dinâmica entre membros da crew | `relacionamentos/crew_relacionamentos.md` | `relacionamentos/mapa_relacional_geral.md` |
@@ -86,6 +87,7 @@ cyberpunk/
 │   └── Night City 2045 Atlas Full.pdf
 ├── board/
 │   ├── board_campanha.md          ← Board oficial (estado narrativo)
+│   ├── arco_ativo.md              ← L1 progressão + off-screen NPCs
 │   └── campanha_referencia.md     ← Snapshot histórico (23/06)
 ├── consequencias/
 │   └── consequencias_persistentes.md
@@ -233,10 +235,11 @@ cyberpunk/
 | Arquivo | Status | Finalidade | Consultar junto com |
 | ------- | ------ | ---------- | ------------------- |
 | `board/board_campanha.md` | Ativo | Estado narrativo atual | `dashboard_contexto.md`, `consequencias/consequencias_persistentes.md` |
+| `board/arco_ativo.md` | Ativo | Arco L1 + protocolo off-screen de NPCs | `context_pack_atual.md`, `event_queue.md` |
 | `reputacao.md` | Ativo | Reputação por facção e NPC | `relacionamentos/faccao_relacionamentos.md`, `facoes/` |
 | `heat.md` | Ativo | Nível de exposição/perseguição | `event_queue.md`, `consequencias/consequencias_persistentes.md`, `sistema/echo_exposicao.md` |
 | `sistema/echo_exposicao.md` | Ativo | Void List / Null / níveis de vazamento Echo | `heat.md`, `reputacao.md`, ficha Echo |
-| `event_queue.md` | Ativo | Fila de eventos globais pendentes | `board/board_campanha.md`, `heat.md` |
+| `event_queue.md` | Ativo | Fila de eventos globais pendentes | `board/board_campanha.md`, `board/arco_ativo.md`, `heat.md` |
 | `economia.md` | Ativo | Estado financeiro e econômico | `board/board_campanha.md`, `logs/downtime_ryan.md` |
 | `consequencias/consequencias_persistentes.md` | Ativo | Impactos permanentes | `board/board_campanha.md`, `logs/sessao_resumo_*.md` |
 
