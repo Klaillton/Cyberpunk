@@ -136,6 +136,7 @@ A Doc percebeu que havia algo muito errado com a cabeça dele. Começou a remove
 - Ryan teve **vários surtos psicóticos violentos**.
 - Em mais de uma ocasião, precisou ser contido fisicamente (Reina Bearclaw fez isso mais de uma vez).
 - A Doc conseguiu remover ou atenuar parte do controle mental, mas **muita coisa permanece suprimida**.
+- Sob estresse extremo, pode emergir **memória procedural** (corpo executa; cabeça não explica) — ver [gatilhos § procedural](ryan_gatilhos_memorias.md). **Pista**, não superpoder; sem unlock permanente.
 
 Hoje Ryan vive de forma independente. Grande parte da sua vida até os ~20-25 anos permanece como um **borrão** ou completamente bloqueada. Ele tem apenas flashes e sensações desconfortáveis.
 
@@ -163,6 +164,8 @@ Essa história deve ser revelada **aos poucos**, preferencialmente através de:
 
 Nunca entregue tudo de uma vez.
 
+Refinamentos soft (não boot): [ideas_concepts/README.md](../../ideas_concepts/README.md).
+
 ---
 
 ## Referências
@@ -170,3 +173,4 @@ Nunca entregue tudo de uma vez.
 - [Ficha Ryan](../techie%20-%20ryan_wireghost_voss.md) · [Gatilhos e memórias](ryan_gatilhos_memorias.md) · [Relacionamentos Ryan](../../relacionamentos/ryan_relacionamentos.md)
 - [Elisa "Doc" Moreau](../npc/elisa_doc_moreau.md) · [Reina](../../relacionamentos/reina_bearclaw_morales_relacionamentos.md)
 - **Estado:** [Board](../../board/board_campanha.md) · [Consequências](../../consequencias/consequencias_persistentes.md)
+- **Soft / revisão futura:** [ideas_concepts/](../../ideas_concepts/README.md)

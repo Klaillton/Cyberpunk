@@ -143,8 +143,9 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 | Pack / casas / Node / olaria | Autonomia crescente; Ryan pode voltar depois de NC |
 | Biotechnica (E001/E006) | Latente |
 | Raffen (E008) | Heat residual, não chase ativo no cânion |
-| Crew / polycule / NC | Reencontro quando E015 avançar |
-| Doc Moreau (E011) | Pacote da ida a NC com Valk |
+| Crew / polycule / NC | Reencontros **após** E015 / crew montada; fases **opcionais** ([polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)) |
+| Doc Moreau (E011) | Visita com Valk em NC; lore pesado / BD 7 anos **bloqueado** até condições (ficha Doc) |
+| Latentes / procedural | Pista sob crisis — [gatilhos](../fichas/notas_narrador/ryan_gatilhos_memorias.md); soft [ideas_concepts](../ideas_concepts/README.md) |
 
 ---
 
@@ -231,4 +232,5 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 - [context_pack_atual.md](../logs/context_pack_atual.md) · [event_queue.md](../event_queue.md) · [board_campanha.md](board_campanha.md)  
 - [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md) · [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · [npc_agencia_cena.md](../sistema/npc_agencia_cena.md)  
-- [sessao_resumo_017.md](../logs/sessao_resumo_017.md)
+- [sessao_resumo_017.md](../logs/sessao_resumo_017.md)  
+- Soft longo prazo: [ideas_concepts/README.md](../ideas_concepts/README.md) (não boot)

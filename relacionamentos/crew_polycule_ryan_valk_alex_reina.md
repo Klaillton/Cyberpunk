@@ -1,8 +1,12 @@
 # Ideia Futura: Polycule / Harem Lento (Ryan + Valk + Alex + Reina)
 
-**Status:** Ideia futura de desenvolvimento  
-**Quando aplicar:** Após a crew estar formada e os personagens já tiverem interação suficiente  
-**Tom desejado:** Mistura de drama controlado, proteção emocional e desenvolvimento lento
+**Status:** Ideia futura de desenvolvimento · **fases desejadas, não obrigatórias**  
+**Quando aplicar:** Após a crew estar formada e os personagens já tiverem interação suficiente (pós-E015 / reencontros NC)  
+**Tom desejado:** Mistura de drama controlado, proteção emocional e desenvolvimento lento  
+**Não ativar** no Pack com Lira/Sasha como substituto de Reina/Alex — camadas distintas.
+
+> **Soft refinements:** [ideas_concepts/](../ideas_concepts/README.md) (`03`–`06`) — detalhe fino; **este arquivo + SoT de fichas vencem** em conflito.  
+> **Não** forçar o trilho 1→N do resumo de arco; o jogo pode desviar.
 
 ---
 
@@ -57,7 +61,9 @@ Antes de qualquer coisa romântica acontecer de forma explícita, Reina já deve
 
 ---
 
-## Arco Proposto (Fases)
+## Arco proposto (fases — **opcionais**)
+
+> Mapa do autor. A IA **não** avança fase por fase sozinha. Pular, atrasar ou abandonar fases é válido se o RP for noutro rumo.
 
 | Fase | Nome              | Foco              | Eventos Principais                                                 | Conflito Principal                     |
 | ---- | ----------------- | ----------------- | ------------------------------------------------------------------ | -------------------------------------- |
@@ -69,6 +75,16 @@ Antes de qualquer coisa romântica acontecer de forma explícita, Reina já deve
 | 6    | Formação do Grupo | Equilíbrio        | Os quatro começam a encontrar uma dinâmica estável.                | Aceitação e novos arranjos             |
 
 ---
+
+## Princípios estáveis (seguros)
+
+- Desenvolvimento **lento e orgânico** (SHOW).
+- **Alex não é vilã** — pode devolver Valk à verdade sobre Ryan.
+- **Reina** protege primeiro; romance depois de amizade/confiança.
+- **Valk não é “roubada”** — espaço vazio por afastamento/escolha dela; Reina ocupa presença.
+- Ryan **não lembra** da Reina nem dos braços; **Reina sabe** e não cobra em voz alta.
+- **Doc Moreau (Elisa)** ≠ **Stitch (Stephania)**.
+- Pack (Lira/Sasha) **não** substitui este arco.
 
 ## Notas e Considerações
 
@@ -82,8 +98,8 @@ Antes de qualquer coisa romântica acontecer de forma explícita, Reina já deve
 
 ---
 
-**Status:** Ideia em desenvolvimento  
-**Última atualização:** 23 de Julho de 2026
+**Status:** Ideia em desenvolvimento · fases opcionais  
+**Última atualização:** 11 de Agosto de 2026 (soft-link ideas_concepts)
 
 ---
 
@@ -93,3 +109,4 @@ Antes de qualquer coisa romântica acontecer de forma explícita, Reina já deve
 - **Individuais:** [Valk](lena_valk_kane_relacionamentos.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Reina](reina_bearclaw_morales_relacionamentos.md)
 - **Fichas:** [Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Valk](../fichas/nomad%20-%20lena_valk_kane.md) · [Alex](../fichas/netrunner%20-%20alex_specter_kane.md) · [Reina](../fichas/solo%20-%20reina_bearclaw_morales.md) · [Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Kaz](../fichas/fixer%20-%20kaz_the_broker_takahashi.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md)
+- **Soft:** [ideas_concepts/README.md](../ideas_concepts/README.md)

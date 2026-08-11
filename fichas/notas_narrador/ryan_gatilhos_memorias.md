@@ -1,7 +1,7 @@
 # Gatilhos e Revelação Gradual - Memórias de Ryan "Wireghost" Voss
 
 **Versão do Narrador (Restrito)**  
-**Última atualização:** 17 de Julho de 2026 (canonização gatilho “herói solitário” — sessão 011)
+**Última atualização:** 11 de Agosto de 2026 (nota procedural latente — soft, sem retcon)
 
 Ryan possui uma resistência **bem maior** do que a maioria das pessoas a gatilhos emocionais. Sua mente desenvolveu mecanismos fortes de dissociação e repressão ao longo da vida. Por isso, as memórias reprimidas **não voltam facilmente**.
 
@@ -71,6 +71,26 @@ Quando um gatilho funciona, Ryan costuma apresentar alguns sinais:
 - Repete a frase **“Minha cabeça não presta”** com mais frequência.
 - Tem dificuldade para explicar o que está sentindo.
 - Em casos mais fortes, pode ter pequenos **bloqueios emocionais** (fica frio e distante).
+
+---
+
+## Memória procedural / competência latente (nota de mesa — não poder)
+
+> **Integração segura** a partir de refinamentos em `ideas_concepts/` (soft).  
+> **Não** desbloqueia skills permanentes na ficha. **Não** retcona 001–017.
+
+Em estresse extremo (quase-morte, surto, contenção, trauma de campo), o **corpo** de Ryan pode executar um procedimento que a **cabeça** não sabe explicar depois.
+
+| Regra | Detalhe |
+| ----- | ------- |
+| Função | **Pista do passado** (“onde ele aprendeu isso?”), não buff de build |
+| Frequência | No máx. **1 manifestação forte por arco** (ou crisis nomeada); narrador oferece, jogador não “ativa skill” |
+| Duração | Só enquanto o estado extremo dura; depois **volta inacessível** |
+| Pós | Se quiser a habilidade de verdade → treino consciente do zero (talento possível, sem unlock automático) |
+| Mecânica | Respeitar Ruleset vigente e loadout; não inventar mods; outcome narrativo ou teste já justificado pelo SoT |
+| Ficha | **Sem** gravar skill nova até decisão explícita de mesa + Finalizar |
+
+Detalhe não promovido: [ideas_concepts/01_habilidades_latentes.md](../../ideas_concepts/01_habilidades_latentes.md) · índice [ideas_concepts/README.md](../../ideas_concepts/README.md).
 
 ---
 

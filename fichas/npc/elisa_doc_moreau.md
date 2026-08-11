@@ -60,6 +60,7 @@
 - Em cena: priorizar **cuidado + frustração profissional**, não monólogo de lore. Ryan em modo vulnerável = gatilhos possíveis; em modo operador = quase imune.
 - Anti-meta: NPCs do pack **não** conhecem a Doc salvo se o SoT disser o contrário.
 - Se a IA precisar de nome de local e não houver: clínica discreta em bairro de NC a definir no Finalizar — **não inventar** mega-clínica Arasaka.
+- **Cena pesada de BD / memória infantil (labirinto, 7 anos):** **bloqueada** por padrão. Soft em [ideas_concepts/02_memoria_moreau.md](../../ideas_concepts/02_memoria_moreau.md). Só se: E011 em curso + Valk (e/ou Reina) **incisivas** + Ryan/mesa abertos + **uma vez** no arco. Moreau pode recusar ou cortar. Não despejar no primeiro cumprimento.
 
 ## Status de campanha (NOW)
 
