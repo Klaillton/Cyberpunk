@@ -3,11 +3,12 @@
 **Finalidade:** reancorar o narrador mid-chat em ≤40 linhas.  
 **Tier-0:** também no bloco **MOTOR** de `logs/context_pack_atual.md`.  
 **Detalhe:** [diretrizes_narrador.md](diretrizes_narrador.md) §7.1  
+**Ambiente / ganchos:** [cena_ambientacao_ganchos.md](cena_ambientacao_ganchos.md)  
 **Comando:** `[Motor de cena]` / `[Anti-eco]` — [comandos_jogador.md](comandos_jogador.md)
 
 ---
 
-## Regras (N1–N9, resumo)
+## Regras (N1–N11, resumo)
 
 | # | Faça | Não faça |
 | - | ---- | -------- |
@@ -20,9 +21,11 @@
 | N6 | Gancho concreto no fim | “O que você faz?” vazio |
 | N8 | SOP multi-passo → **outcomes** + 1–3 dados novos | Re-narrar cada passo do PC |
 | N9 | Viagem limpa: **fechar chegada** (ou 1 evento) | Filler de marcha 3+ turnos |
+| N10 | Local novo / ação no terreno → **bloco AMBIENTE** + opções embutidas | Wallpaper poético sem layout jogável |
+| N11 | Relacional: **SHOW** (fala/gesto/escolha) | TELL (“ela está mais aberta”) sem batida |
 
-**Pressão:** AGENDA DA CENA → [arco_ativo.md](../board/arco_ativo.md) (L1 + **off-screen** de contatos) → pendências do pack → `event_queue` (só local atual, F10).  
-**Off-screen:** contatos mudos **não estão parados** — ver protocolo §2 do arco_ativo (estado + relógio + batida).  
+**Pressão:** AGENDA DA CENA → [arco_ativo.md](../board/arco_ativo.md) (L1 + off-screen + batidas §7) → pendências → `event_queue` (F10).  
+**Off-screen:** contatos mudos **não estão parados** — arco_ativo §2.  
 **Não inventar** NPCs/facções/plot fora do SoT. **Não** inventar encontro aleatório só para encher caminho.
 
 ---
@@ -36,11 +39,23 @@
 [Gancho]
 ```
 
-## Esqueleto VIAGEM limpa (N9)
+## Esqueleto VIAGEM limpa (N9) + local novo (N10)
 
 ```text
 [Anomalia no caminho?] se sim → 1 beat
-[Se não] → chegada ao destino (1 bloco). Fim da marcha.
+[Se não] → chegada:
+  ## AMBIENTE — <local>
+  (sentidos · layout · cobertura · recursos · pessoas · 3–5 opções no ar)
+  [1 batida AGENDA/NPC se couber]
+  [Gancho com conteúdo]
+```
+
+## Esqueleto DOWNTIME / relacional (mesmo sítio)
+
+```text
+[Delta: fala NPC SHOW — modelos em arco_ativo §7]
+[0–2 linhas ambiente só se mudou]
+[Gancho]
 ```
 
 ---
@@ -72,4 +87,4 @@ Neste chat: `[Motor de cena]` + próximo turno já em modo resultado-primeiro.
 
 ---
 
-_Atualizado: 29 de Julho de 2026 (v2.1 + estoque)_
+_Atualizado: 10 de Agosto de 2026 (v2.2 + ambiente N10 + relacional N11)_

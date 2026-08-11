@@ -155,13 +155,80 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 [ ] Off-screen dos contatos quentes preenchido (não “sumidos”)?
 [ ] Idle? → default §3.2 / protocolo §2 — 1 batida com conteúdo
 [ ] Delta ≥60%? Sem eco de mood do PC
+[ ] SHOW relacional (§7) se Lira/Sasha/Valk em foco
+[ ] Local novo / ação no terreno? → bloco AMBIENTE ([cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md))
+[ ] Gancho final com conteúdo (não “o que você faz?” vazio)
 [ ] F10 ok?
 ```
+
+---
+
+## 7. Batidas-modelo relacionais (estado 018 — SHOW)
+
+> **Uso:** quando o PC abre espaço ou idle relacional. **1 batida por bloco**, não as três de uma vez.  
+> Valk **não** resume o progresso das outras — elas **mostram**.  
+> Ambientação de lugar: [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md).
+
+### 7.0 Estado emocional (SoT curto pós-cena Sasha / mirante)
+
+| Quem | Onde está na cabeça | O que já aconteceu | Próximo passo orgânico |
+| ---- | ------------------- | ----------------- | ---------------------- |
+| **Valk** | Protege ritmo; ciúme leve mas confia; quer Ryan + plano de manhã | Viu Ryan feliz com a ideia das duas; clarificou “gosta do Pack ≠ romance” | Cobra decisão 25/07; residual carinho **com** conteúdo |
+| **Lira** | Mais aberta; olaria; Vespa; curiosidade sem pressa | Conversas 017; assobio na caça; menos cena densa na 018 | **Fala própria** (não só “solta” no relatório da Valk) |
+| **Sasha** | Medo de abandono; gosta do que Ryan fez; não prometeu NC | Cena aves: “mais tempo”, “não some sem avisar”, NC “eu penso” | **Residual** (distância/ajuda/silêncio) — não sumir da trama |
+
+### 7.1 Modelo **Lira** (abertura com voz)
+
+**Gatilho:** idle ≥2 · café/fogo · menção a Pack/drone/amanhã · Ryan sozinho perto dela.
+
+**Fazer (exemplo de forma, não script literal):**
+- 1–2 falas **audíveis** com pedido ou observação concreta (Vespa, olaria, “dorme cedo?”, “amanhã a gente move?”).
+- 1 gesto (assobio, sentar mais perto, sorriso de canto) **ligado** à fala.
+- Deixar **gancho** para Ryan responder em 1 linha.
+
+**Não fazer:** murmúrio inaudível; só reagir ao sorriso dele; Valk explicar que “ela está mais solta”.
+
+**Gancho típico pós-batida:** pergunta dela no ar **ou** escolha prática (vigia / sono / ajudar no Mule).
+
+### 7.2 Modelo **Sasha** (residual pós-cena forte)
+
+**Gatilho:** ≤2 turnos após batida emocional · fogueira · preparo de saída · Ryan passa perto.
+
+**Fazer:**
+- **Não** repetir o monólogo das aves.  
+- 1 residual: ajuda prática, distância calibrada diferente, frase curta (“Ainda não prometi nada sobre NC” / “Só… avisa se for sumir”) **ou** silêncio **ativo** (trabalha perto sem olhar).  
+- Se idle longo: ela confirma perímetro **e** 1 linha que lembra o medo de perda sem drama.
+
+**Não fazer:** sumir do bloco; virar romance forçado; Valk traduzir o sentimento dela.
+
+**Gancho típico:** ela espera resposta **ou** segue trabalhando deixando espaço — Ryan pode falar ou respeitar.
+
+### 7.3 Modelo **Valk** (vínculo + arco, sem TELL)
+
+**Gatilho:** intimidade · mirante · pós-conversa com as duas · manhã de decisão.
+
+**Fazer:**
+- ≤2 linhas de corpo + **1 fala com delta**: plano (horário/ping/move), limite, humor, medo, ou pergunta sobre o que ele *não* resolveu (Sasha/canal).  
+- Se falar das duas: **no máximo 1 meia-frase**, e em seguida **elas** aparecem ou a conversa volta para o casal/decisão.  
+- Preferir: “Amanhã às quatro. Eu dirijo o primeiro trecho.” em vez de “A Lira está solta e a Sasha segura.”
+
+**Não fazer:** eco longo de abraço; status report do polycule implícito; plateia.
+
+**Gancho típico:** decisão com horário **ou** convite (“fica mais um pouco / volta pro Mule”).
+
+### 7.4 Como combinar com ambiente e ops
+
+| Situação | Ordem na resposta |
+| -------- | ----------------- |
+| **Chegada a local novo** | Bloco AMBIENTE → 1 batida NPC/arco → gancho |
+| **Mesmo acampamento + relacional** | Delta fala/gesto (§7.x) → 0–1 linha ambiente se mudou → gancho |
+| **Ops (ping, caça, viagem)** | Resultado primeiro → 1 residual relacional se couber → gancho |
+| **Idle sem PC puxar** | Default §3.2 **usando modelos §7** (não cantil/fogo sozinhos) |
 
 ---
 
 ## Referências
 
 - [context_pack_atual.md](../logs/context_pack_atual.md) · [event_queue.md](../event_queue.md) · [board_campanha.md](board_campanha.md)  
-- [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · [npc_agencia_cena.md](../sistema/npc_agencia_cena.md)  
+- [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md) · [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · [npc_agencia_cena.md](../sistema/npc_agencia_cena.md)  
 - [sessao_resumo_017.md](../logs/sessao_resumo_017.md)

@@ -361,7 +361,43 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 | `[Agência NPC]` / delegação / `*observo*` | Não | — |
 | `[Avançar cena]` / `[Pressão]` | Não | — |
 | `[Motor de cena]` / `[Anti-eco]` | Não | — |
+| `[Ambientar]` / `[O que eu vejo?]` | Não | — |
+| `[Imagem do lugar]` | Não | — (opcional; ver política) |
 | `[Estoque]` / `[Recursos]` / `[O que tem: …]` | Não | — |
+
+---
+
+## J2) `[Ambientar]` / `[O que eu vejo?]`
+
+**Objetivo:** forçar **bloco AMBIENTE** (layout jogável + opções) sem fechar sessão.  
+**Sinônimos:** `[Ambientar]` · `[O que eu vejo?]` · `[Descreve o lugar]`
+
+**Guia:** [cena_ambientacao_ganchos.md](cena_ambientacao_ganchos.md)
+
+### Passos
+
+| # | Ação |
+| - | ---- |
+| 1 | Declarar: `Ambientar — bloco de local.` |
+| 2 | Ler NOW em `context_pack_atual` (local/região) + guia de ambientação. |
+| 3 | Entregar **só** o bloco AMBIENTE (§2.1 do guia): sentidos, layout, cobertura, recursos, pessoas, **3–5 opções no ar**. |
+| 4 | Fechar com **1 gancho** com conteúdo (não “o que você faz?” vazio). |
+| 5 | Se o jogador já mandou ação no mesmo turno: ambientar **e** resolver a ação (terreno primeiro se a ação depender dele). |
+
+---
+
+## J3) `[Imagem do lugar]` (opcional)
+
+**Objetivo:** 1 visual de **estabelecimento** do local atual — **não** substitui texto.  
+**Política:** [cena_ambientacao_ganchos.md](cena_ambientacao_ganchos.md) §6.
+
+| # | Ação |
+| - | ---- |
+| 1 | Só se local novo, landmark, ou pedido explícito — **não** todo turno. |
+| 2 | Primeiro garantir que o bloco AMBIENTE textual existe (gerar se faltar). |
+| 3 | Se a plataforma permitir gerar imagem: 1 establishing shot alinhado ao bloco (RED/2045, sem UI de jogo). |
+| 4 | Se não puder gerar: descrever o bloco com mais 2–3 detalhes visuais **ou** recusar busca web como “foto canônica” (ref. de mood genérico no máx.). |
+| 5 | Opções de jogo continuam no **texto**, não na imagem. |
 
 ---
 

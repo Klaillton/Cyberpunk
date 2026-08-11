@@ -77,7 +77,8 @@ Citar IDs de `sistema/fatos_duros.md` (F01–F13 + L0x se aplicável):
 1. Ler NOW (data, região, local, prioridade).  
 2. Até 3 itens de Pendências quentes / `event_queue` **relevantes a este local**.  
 3. Tarefas abertas de NPCs **presentes ou em alcance de comunicação**.  
-4. Mudou de local (ex. Pack → estrada → NC)? → **reescrever a agenda inteira**; não carregar ganchos de outro lugar sem canal plausível.
+4. Mudou de local (ex. Pack → estrada → NC)? → **reescrever a agenda inteira**; não carregar ganchos de outro lugar sem canal plausível.  
+5. Local novo na narração → bloco **AMBIENTE** ([cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md)); relacional SHOW ([arco_ativo.md](../board/arco_ativo.md) §7 se arco ativo).
 
 ---
 

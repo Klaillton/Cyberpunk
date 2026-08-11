@@ -20,6 +20,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Vazamento Media (Echo) / Void List | `sistema/echo_exposicao.md` | `heat.md`, `reputacao.md`, ficha Echo |
 | Eventos pendentes no mundo | `event_queue.md` | `board/board_campanha.md`, `board/arco_ativo.md`, `consequencias/consequencias_persistentes.md` |
 | Arco em foco (L1) + NPCs off-screen | `board/arco_ativo.md` | `logs/context_pack_atual.md` (AGENDA), `event_queue.md` |
+| Ambientação / ganchos / imagem opcional | `sistema/cena_ambientacao_ganchos.md` | `motor_cena_1pager.md`, `arco_ativo.md` §7 |
 | Situação financeira | `economia.md` | `board/board_campanha.md`, `logs/downtime_ryan.md` |
 | Relações do protagonista | `relacionamentos/ryan_relacionamentos.md` | `relacionamentos/mapa_relacional_geral.md`, `relacionamentos/crew_relacionamentos.md` |
 | Dinâmica entre membros da crew | `relacionamentos/crew_relacionamentos.md` | `relacionamentos/mapa_relacional_geral.md` |
@@ -200,6 +201,7 @@ cyberpunk/
     ├── instrucoes_projeto.md      ← Instruções do projeto (espelho versionado)
     ├── npc_agencia_cena.md        ← NPCs in-scene: delegação, troca NPC↔NPC, anti-loop
     ├── motor_cena_1pager.md       ← Anti-eco / resultado-primeiro (mid-chat)
+    ├── cena_ambientacao_ganchos.md ← AMBIENTE + opções + imagem opcional
     ├── pulso_procedimento.md      ← Motor off-screen (1×/dia in-game)
     ├── novo_chat_procedimento.md  ← Abrir chat novo + handoff
     ├── comandos_jogador.md        ← Playbooks passo a passo

@@ -32,7 +32,8 @@
 2. `sistema/fatos_duros.md` (se houver dúvida de fato)
 3. Este handoff (gancho + prompt)
 4. `board/board_campanha.md` se pack e board divergirem
-5. `board/arco_ativo.md` se cena estagnar, idle de espera, ou arco E015 avançar (L1 + off-screen Kaz/Steel/Sparrow)
+5. `board/arco_ativo.md` se cena estagnar, idle de espera, ou arco E015 avançar (L1 + off-screen + batidas §7 Lira/Sasha/Valk)
+6. `sistema/cena_ambientacao_ganchos.md` se local novo / jogador sem “ver” o terreno / precisar de opções
 
 **Mecânica (017+ — sob risco/oposição, não no tier-0):**
 - `sistema/regras_red/00_integridade_regras.md` → `01_core` / `02_combate` / `03_ferimentos` (+ 04–11 conforme necessidade)

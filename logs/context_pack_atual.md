@@ -18,10 +18,11 @@
 2. **Delta** = **maior parte** da resposta (~≥60%): intel, NPC, tempo com efeito, pressão AGENDA.  
 3. Em `OPERAÇÃO` / `VIAGEM`: **resultado primeiro** (não espelhar o plano).  
 4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).  
-5. Fonte de pressão: **AGENDA DA CENA** → [arco_ativo](../board/arco_ativo.md) (L1 + off-screen) → pendências → `event_queue` (F10).  
-6. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]` · Idle de arco? default em `arco_ativo`.
+5. Fonte de pressão: **AGENDA DA CENA** → [arco_ativo](../board/arco_ativo.md) (L1 + off-screen + §7 SHOW) → pendências → `event_queue` (F10).  
+6. Local novo / ação no terreno → bloco **AMBIENTE** ([cena_ambientacao](../sistema/cena_ambientacao_ganchos.md)).  
+7. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]` · Lugar opaco? `[Ambientar]`.
 
-Detalhe: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
+Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md)
 
 ---
 
