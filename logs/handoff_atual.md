@@ -38,7 +38,7 @@
 
 **Confirmação (1 linha):**
 ```
-Boot OK · ~26/07/2026 tarde · Badlands/borda NC · industrial · prioridade: AMBIENTE + B2 Sparrow + pesquisa · próximo resumo: 019 · Ruleset 1.3.0
+Boot OK · ~26/07/2026 tarde · Badlands/borda NC · industrial · prioridade: AMBIENTE + B2 (Sparrow/Steel NPCs) + pesquisa · próximo resumo: 019 · Ruleset 1.3.0
 ```
 
 ---
@@ -51,7 +51,7 @@ Boot OK · ~26/07/2026 tarde · Badlands/borda NC · industrial · prioridade: A
 | Local | Badlands — **indo / chegando** zona **industrial abandonada** (cobertura + fugas) |
 | Pessoas | Ryan + Valk + Lira + Sasha (Mule) |
 | Drones | Vespas + Warden com o grupo; Condor/Corujas no Pack |
-| Canais | **Sparrow: residual fraco, SEM ACK** (B2 **atrasado** — resolver na 019); Steel mudo; Kaz off-screen montando crew |
+| Contatos NC | **Lina “Sparrow” Park** — residual fraco, **sem resposta** (B2 atrasado); **Marcus “Steel” Rivera** mudo; Kaz off-screen. Fichas: `npc/lina_park.md`, `npc/marcus_steel_rivera.md`. **Pessoas, não sistemas.** |
 | Ryan × Valk | Juntos; ela **recusou** ops solo isolado; ele ainda “chateado” mas abraçados; plano em grupo |
 | Sasha | Abertura forte (018): medo de sumiço; NC “pensa”; “não some sem avisar” |
 | Lira | Cooperativa; olaria em background |
@@ -61,7 +61,7 @@ Boot OK · ~26/07/2026 tarde · Badlands/borda NC · industrial · prioridade: A
 ### Cena de abertura
 **Industrial abandonada — chegada.**  
 Bloco **AMBIENTE** (layout, cobertura, saídas, rádio, riscos).  
-**B2:** não encher com “Sparrow ainda respira” — **ACK / não agora / silêncio com custo**.  
+**B2:** não encher com “canal ainda respira”. **Sparrow/Steel = NPCs.** Resolver: **resposta da pessoa**, “não agora”, ou silêncio com custo.  
 Pesquisa em grupo / com extração clara. **O que Ryan faz?**
 
 ### AGENDA
@@ -72,7 +72,7 @@ Pesquisa em grupo / com extração clara. **O que Ryan faz?**
 ---
 
 ## O que acabou de acontecer (018)
-- Multi-dia Badlands: caça, Sasha profunda, Agent (OPSEC, Sparrow residual sem ACK).  
+- Multi-dia Badlands: caça, Sasha profunda, Agent (OPSEC, residual do handle da **Sparrow** sem resposta dela).  
 - Atrito solo vs equipe com Valk; reconciliação parcial.  
 - Plano industrial em grupo. Thread web fechado por qualidade.
 
@@ -102,7 +102,7 @@ Detalhe: [sessao_resumo_018.md](sessao_resumo_018.md)
 | F18 | Ruleset **1.3.0**; sem retcon 001–016 |
 | F19 | Agents ≠ Warden |
 | Motor | N1–N11: sem eco; delta ≥60%; AMBIENTE em local novo; SHOW relacional |
-| B2 | Residual Sparrow **não** substitui resolução no dia 3+ |
+| B2 | Residual do handle **Sparrow** (Lina Park) **não** substitui resposta no dia 3+ · ela é **NPC** |
 
 ---
 
@@ -127,7 +127,9 @@ Detalhe: [sessao_resumo_018.md](sessao_resumo_018.md)
 ## Estado
 - **~26/07/2026 tarde** · Badlands/borda NC · chegada **zona industrial abandonada**
 - Ryan + Valk + Lira + Sasha no Mule
-- Sparrow **residual SEM ACK** — B2 **atrasado**: resolver (ACK / "não agora" / silêncio com custo). Não só "ainda respira"
+- **F20:** Sparrow/Steel = **pessoas** (não sistema/drone). Fichas: `npc/lina_park.md`, `npc/marcus_steel_rivera.md`
+- **Lina “Sparrow” Park**: residual **sem resposta dela** — B2 atrasado. Resolver **resposta humana** / "não agora" / silêncio com custo
+- **Marcus “Steel” Rivera**: canal mudo; pode responder no lugar dela (≠ Echo Rivera)
 - Plano: pesquisa Agent **agora**; ad **amanhã cedo** se fizer sentido; **sem** ops solo sem extração
 - Valk recusou isolamento; Ryan ainda um pouco chateado mas juntos
 - Sasha: abertura 018 (não sumir sem avisar)

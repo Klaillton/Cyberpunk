@@ -15,7 +15,7 @@
 
 - Viagem multi-dia Badlands → **borda NC** com Valk, Lira, Sasha (Mule).
 - Plano: **zona industrial abandonada** → pesquisa Agent agora → ad amanhã (condicional).
-- **Sparrow residual sem ACK** (B2 atrasado). Steel mudo. Kaz off-screen montando crew.
+- **Lina “Sparrow” Park** (NPC): residual sem resposta (B2 atrasado). **Marcus “Steel” Rivera** mudo. Kaz off-screen.
 - Pack: drones Condor/Corujas, Node, casas (F11), E019 em background.
 - Reputação Pack alta (sem delta 018).
 
@@ -51,7 +51,7 @@
 
 - **Local:** Badlands / borda NC — zona industrial (chegada)
 - **Data:** ~26/07/2026 tarde–noite
-- **Prioridade:** AMBIENTE industrial + B2 Sparrow + pesquisa
+- **Prioridade:** AMBIENTE industrial + B2 (resposta Sparrow/Steel **como pessoas**) + pesquisa
 
 ---
 

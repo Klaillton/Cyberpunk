@@ -68,7 +68,7 @@
 ### 2.4 Frases-modelo (anti-filler)
 
 - **Bom:** “Canal morto de verdade — sem carrier. Valk: *amanhã cedo a gente decide: segundo ping ou move.*”  
-- **Bom:** “Um burst de 3s, protocolo errado, morre. Não é Sparrow; é ruído de outro tráfego.”  
+- **Bom:** “Um burst de 3s, protocolo errado, morre. Não é a **Lina ‘Sparrow’ Park**; é ruído de outro tráfego.”  
 - **Ruim:** “Canais ainda mudos. Estrelas. Água. Warden quieto.” (sem decisão / sem custo)
 
 ---
@@ -78,9 +78,9 @@
 | Campo | Valor |
 | ----- | ----- |
 | **ID** | E015 (+ E005 latente, E011 no pacote NC) |
-| **Fase** | **Aproximação NC** — industrial + pesquisa; canal Sparrow **residual sem ACK** (**B2 atrasado** no relógio 25–26/07) |
+| **Fase** | **Aproximação NC** — industrial + pesquisa; canal de **Lina “Sparrow” Park** residual sem resposta (**B2 atrasado**) |
 | **Local do PC** | Badlands / borda NC · zona **industrial abandonada** (chegada 019) |
-| **Objetivo do arco** | Localizar / reaproximar rede (Sparrow/Steel → Kaz) sem queimar discrição; Valk junto; **sem** ops solo sem extração |
+| **Objetivo do arco** | Localizar rede via contatos **Sparrow** / **Steel** (NPCs) → Kaz; sem queimar discrição; Valk junto; **sem** ops solo sem extração |
 | **Fora de foco (1 linha)** | Pack (Node, casas, olaria) roda sem Ryan · BT latente · Raffen residual |
 
 ### 3.1 Batidas possíveis (ordem flexível)
@@ -88,7 +88,7 @@
 | # | Batida | Gatilho típico | Resultado possível (exemplos) |
 | - | ------ | -------------- | ----------------------------- |
 | B1 | **Decisão 25/07** | amanhecer / Valk cobra | Fica no cânion · 2º ping · muda posição |
-| B2 | **Resposta de canal** | relógio off-screen Steel/Sparrow | ACK parcial · “não agora” · janela · silêncio *confirmado* com custo |
+| B2 | **Resposta de contato** | relógio off-screen **Steel** ou **Sparrow** (pessoas) | Resposta parcial · “não agora” · janela · silêncio *útil* com custo |
 | B3 | **Movimento Badlands** | após B1 “move” | Chegada a próximo ponto (N9); 0–1 anomalia só se AGENDA/SoT |
 | B4 | **Entrada / borda NC** | rota definida | Heat leve, escolha de entrada, não dump de plot |
 | B5 | **Rede NC** | contato ok | Kaz / intermediário / Doc Moreau (E011) / crew |
@@ -100,20 +100,20 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 1. **Valk** fecha plano de manhã: 1 preferência + 1 alternativa (fica / ping / move) com horário.  
 2. **Lira** faz **1 pergunta audível** (drone, o que fazem amanhã, olaria no Pack) — sem murmúrio vazio.  
-3. **Off-screen §3.3:** 1 batida de canal **ou** avanço de relógio (Steel/Sparrow/Kaz).  
+3. **Off-screen §3.3:** 1 batida de **contato** (Steel / Sparrow / Kaz) **ou** avanço de relógio.  
 4. Só então micro-logística (fogo, água, sono) — **nunca** sozinha como “delta”.
 
 ### 3.3 Off-screen agora (E015) — instância da §2.1
 
 | NPC / canal | Onde | O que está fazendo | Por que sem resposta (ainda) | Relógio | Como Ryan percebe | Default se idle |
 | ----------- | ---- | ------------------ | ---------------------------- | ------- | ----------------- | --------------- |
-| **Kaz** | Night City, **escondido** | Montando / reativando **crew futura** (gente, favores, buracos seguros) — baixo perfil | Não é o alvo do ping; rede ainda fragmentada; OPSEC | Avança em **dias** in-game mesmo sem o PC; reencontrável via Sparrow/Steel ou E005 | Só via intermediário, boato de fixer, ou contato na B5 | Não “some do mundo”: cada 1–2 dias de espera, 1 passo invisível na montagem (só vira fato se canal abrir) |
-| **Steel** | NC / rede de contatos | Agenda própria (trabalho, OPSEC, ou evitando calor) | Ping `RVW30sG1mBL_P?` pode estar em fila, filtrado, ou arriscado demais na hora | **25–26/07** (1ª janela útil) se PC não forçar; 2º ping do PC pode antecipar | Burst curto, ACK, “depois”, ou silêncio *com* razão implícita | Se PC espera sem 2º ping: **1 batida** até fim de 25/07 (resposta parcial **ou** silêncio útil) |
-| **Sparrow** | NC / rede de contatos | OPSEC / fila — **residual fraco observado** (018), **sem ACK** | Residual ≠ contato; relógio **estourou** sem resolução | **Imediato (019)** — B2 obrigatório | Burst, ACK, “não agora”, ou residual **morre** com custo | **Proibido** só repetir “ainda respira” no 3º dia+ |
+| **Kaz “The Broker”** | Night City, **escondido** | Montando crew futura | Não é alvo do ping | Dias | Via intermediário / B5 | Ficha crew |
+| **Marcus “Steel” Rivera** ([ficha](../fichas/npc/marcus_steel_rivera.md)) | NC | OPSEC / job / favores | Ping `RVW…` em fila ou risco | Relógio estourou → **019** | Burst, resposta, “depois”, silêncio com custo | **Pessoa**, não sistema; ≠ Echo Rivera |
+| **Lina “Sparrow” Park** ([ficha](../fichas/npc/lina_park.md)) | NC | OPSEC / fila — residual fraco **sem resposta** (018) | Residual ≠ ela confirmou | **Imediato (019)** B2 | Resposta dela, “não agora”, ou residual morre com custo | **Pessoa** (handle Sparrow); **não** drone/sistema |
 | **Crew NC** (Alex, etc.) | NC (off) | Vida normal / E004 latente | Fora do ping atual | Só se B5 ou reencontro | Cena ou boato | Não puxar sem gancho |
 | **Pack** (Reyes, Tio Gringo, Node) | Badlands | Rotina + E019 em discussão lenta | Ryan saiu | Pulso diário se dia avança | Mensagem só se canal Pack aberto | Background; não compete com E015 na cena |
 
-**Nota de mestragem:** a resposta de Steel/Sparrow **deve existir no relógio** (chegar, recusar, ou falhar de forma útil). Silêncio eterno sem custo **quebra** o L1. Kaz **não** precisa responder ao ping; precisa **estar ocupado com a crew** para o reencontro ter peso.
+**Nota de mestragem:** **Steel** e **Sparrow** são **NPCs humanos** com handle de rádio. A **resposta de um deles** deve existir no relógio (chegar, recusar, ou falhar de forma útil). Silêncio eterno sem custo **quebra** o L1. Não narrar “Sparrow” como modo/Agent/protocolo. Kaz **não** precisa responder ao ping.
 
 ### 3.4 O que **não** fazer neste arco (agora)
 
@@ -131,7 +131,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 | # | Gancho com conteúdo | Quem age se idle | Ação concreta |
 | - | ------------------- | ---------------- | ------------- |
 | 1 | **B1** — amanhã: fica / 2º ping / move (Valk tem preferência de discrição) | Valk | Propõe horário + opção preferida em **fala** |
-| 2 | **B2 / off-screen** — Steel ou Sparrow (relógio §3.3) | Mundo / rádio | 1 batida de canal **ou** silêncio *útil* + custo |
+| 2 | **B2** — resposta de **Steel** ou **Sparrow** (NPCs · §3.3) | Mundo / rádio | Resposta útil **ou** silêncio com custo — não jargão solto “ACK Sparrow” |
 | 3 | Lira/Sasha — abertura residual **com fala** | Lira (Sasha reage) | 1 pergunta ou limite audível; sem murmúrio vazio |
 
 ---

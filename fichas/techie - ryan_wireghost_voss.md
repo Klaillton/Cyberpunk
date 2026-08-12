@@ -233,11 +233,13 @@ Ex-colega de equipe que ainda é leal a ele e passa informações internas quand
 **Viktor “Vik” Ramos** (Ripperdoc de Night Market)  
 Velho contato que vende peças militares no mercado negro.
 
-**Lina “Sparrow” Park** (Fixer / Drone Specialist)  
-Especialista em drones. Ryan já ajudou ela várias vezes. Boa para jobs de reconhecimento.
+**Lina “Sparrow” Park** (Fixer / Drone Specialist) — **NPC pessoa**, handle de rádio **Sparrow** (não é sistema/drone).  
+Especialista em drones. Ryan já ajudou ela várias vezes. Boa para jobs de reconhecimento e janelas discretas.  
+**Ficha:** [npc/lina_park.md](npc/lina_park.md) · Ping E015 (017–018).
 
-**Marcus “Steel” Rivera** (Ex-Solo / Contato Militar)  
-Antigo cliente que deve vários favores a ele.
+**Marcus “Steel” Rivera** (Ex-Solo / Contato Militar) — **NPC pessoa**, handle **Steel** (não é sistema).  
+Antigo cliente que deve vários favores a ele. **≠** Emilia “Echo” Rivera (crew).  
+**Ficha:** [npc/marcus_steel_rivera.md](npc/marcus_steel_rivera.md) · Ping E015 (017–018).
 
 **Conexões importantes:**
 

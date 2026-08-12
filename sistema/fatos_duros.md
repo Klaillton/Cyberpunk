@@ -31,6 +31,7 @@
 | **F05** | Ryan e Stephania compartilham sobrenome **Voss** por coincidência — **sem parentesco** | Ficha Stitch / ryan_relacionamentos |
 | **F06** | Protagonista jogável: **Ryan “Wireghost” Voss** (Techie). Valk, Alex, Reina, Kaz, Stitch, **Jax “Razor” Kane** = **crew** (NC) | mapa_relacional |
 | **F14** | **Scout** = sentinela/recon do Pack Badlands (apelido; scavs). **≠** Jax **“Razor” Kane** (Solo crew). Razor **não** está nas Badlands | [scout.md](../fichas/npc/scout.md) |
+| **F20** | **Sparrow** = **Lina “Sparrow” Park** (contato/fixer, **pessoa**). **Steel** = **Marcus “Steel” Rivera** (contato, **pessoa**). Handles de rádio **≠** sistema/drone/protocolo. Steel **≠** Emilia “Echo” **Rivera** | [lina_park](../fichas/npc/lina_park.md) · [marcus_steel_rivera](../fichas/npc/marcus_steel_rivera.md) |
 | **F07** | Ryan × Valk = relação **consolidada** (amor declarado); Valk costuma escolher roupa em saídas | ryan / lena relacionamentos; guarda-roupa |
 | **F08** | **The Mule** = veículo de Valk; equipe operacional **Valk + Mule** | vehicle - the_mule; ficha Valk |
 | **F09** | Job 001 (extração Vossler / Biotechnica) e incursões Raffen são **passados registrados** em `logs/` — não reinventar o outcome | job_001, incidentes, sessões |
@@ -68,6 +69,7 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 - Não usar data de chat Grok (ex. 24/06) se o **board** diz julho/2026.
 - Não criar NPC/facção/local já listado em `registro_arquivos` / mapa.
 - Não colocar **Jax “Razor” Kane** (crew) nas Badlands em scav/incursão — usar **Scout** ([scout.md](../fichas/npc/scout.md)).
+- Não narrar **Sparrow** / **Steel** como software, modo Agent ou tipo de sinal — são **NPCs** (**F20**).
 - Não fazer Valk chamar Ryan de **“herói”** / **“herói solitário”** (bordão ou “combinado?”) — promessa 14/07; gatilho que dói (**F15**). Usar *não vai sozinho*, *planeja comigo*, *leva o time*.
 - Não re-rolar nem “corrigir” outcomes das sessões **001–016** com a camada mecânica (**F18**). Ver [auditoria_combates_canonicos.md](../plans/auditoria_combates_canonicos.md) (só observação).
 - Sob risco/oposição (sessão **017+**): não narrar sucesso automático; usar [regras_red](regras_red/00_integridade_regras.md) · atalho [11_referencia](regras_red/11_referencia.md).

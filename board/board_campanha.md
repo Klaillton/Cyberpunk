@@ -12,7 +12,7 @@ Ryan "Wireghost" Voss está em **viagem multi-dia** com Valk, Lira e Sasha (Mule
 **Prioridade imediata:**
 1. Chegar e firmar posição em **zona industrial abandonada** (cobertura + rotas de fuga).  
 2. **Pesquisa Agent** (agora).  
-3. Resolver canal **Sparrow/Steel** (B2): residual **sem ACK** está **atrasado** no relógio 25–26/07 — precisa ACK / “não agora” / silêncio com custo.  
+3. Resolver contato **Lina “Sparrow” Park** / **Marcus “Steel” Rivera** (B2, **NPCs**): residual Sparrow **sem resposta** atrasado — precisa resposta / “não agora” / silêncio com custo.  
 4. **Ad** planejado para **amanhã cedo** se ainda fizer sentido.  
 5. **Sem** ops solo isolado sem plano de extração (acordo tenso com Valk).
 
@@ -27,8 +27,8 @@ Ryan "Wireghost" Voss está em **viagem multi-dia** com Valk, Lira e Sasha (Mule
 
 ## Pistas Confirmadas
 
-- **24/07:** Saída Pack; ping Steel/Sparrow sem ACK; cânion.
-- **25–26/07:** Viagem; caça; Agent — OPSEC fixers alta; **Sparrow residual sem ACK**; Kaz sem rastro público.
+- **24/07:** Saída Pack; ping a **Steel** e **Sparrow** (contatos) sem resposta; cânion.
+- **25–26/07:** Viagem; caça; Agent — OPSEC alta; **canal da Sparrow residual sem resposta**; Kaz sem rastro público.
 - **018:** Conflito Ryan×Valk (solo vs equipe); plano industrial em grupo; pesquisa agora / ad amanhã.
 
 ---
@@ -36,7 +36,7 @@ Ryan "Wireghost" Voss está em **viagem multi-dia** com Valk, Lira e Sasha (Mule
 ## Rumores e Suspeitas
 
 - Heat residual Raffen; BT latente; rede NC cautelosa pós-jobs vazados.
-- Sparrow “respira” mas não confirma — OPSEC ou fila.
+- Handle da **Sparrow** (Lina Park) “respira” mas **ela** não confirma — OPSEC ou fila.
 
 ---
 
@@ -47,8 +47,9 @@ Ryan "Wireghost" Voss está em **viagem multi-dia** com Valk, Lira e Sasha (Mule
 | **Lena "Valk" Kane** | Parceira | Amor + atrito ops | Recusou solo; F15; no Mule |
 | **Lira** | Pack / viagem | Abertura | No Mule |
 | **Sasha** | Pack / viagem | Abertura forte 018 | “Não some sem avisar”; NC pensa |
-| **Steel / Sparrow** | Contatos NC | Canal para rede/Kaz | Residual Sparrow **sem ACK** |
-| **Kaz** | Fixer | Off-screen | Escondido; montando crew |
+| **Lina “Sparrow” Park** | Contato NC (NPC) | Handle Sparrow → rede/Kaz | [ficha](../fichas/npc/lina_park.md) · residual **sem resposta** |
+| **Marcus “Steel” Rivera** | Contato NC (NPC) | Handle Steel | [ficha](../fichas/npc/marcus_steel_rivera.md) · mudo 018 |
+| **Kaz “The Broker”** | Fixer crew | Off-screen | Escondido; montando crew |
 | **Reyes / Tio Gringo** | Pack | Background | E019 |
 
 ---

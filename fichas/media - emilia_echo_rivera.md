@@ -33,6 +33,8 @@ Fala rápido, adora debater e tem humor negro afiado. Extremamente criativa: que
 
 ## Background
 
+> **Não confundir** com **Marcus “Steel” Rivera** ([npc/marcus_steel_rivera.md](npc/marcus_steel_rivera.md)) — contato de Ryan, **outra pessoa**, mesmo sobrenome.
+
 Emilia Rivera era repórter investigativa promissora em um canal indie de Night City. Após exposições que derrubaram executivos de médio escalão de várias megacorps (incluindo Arasaka e Militech), sofreu um “acidente” que quase a matou. Sobreviveu com chrome de emergência e contatos de rua.
 
 Agora opera nas sombras como **Echo**: vaza material bruto para fixers, edita narrativas parciais e filma ops da crew para transformar vitórias em lendas urbanas anti-corp. Mantém rede de informantes e o canal criptografado **Echo Chamber**, onde solta verdades em doses controladas.

@@ -278,7 +278,7 @@ cyberpunk/
 - **Ruleset:** v1.3.0 em `sistema/regras_red/` (sessão 017+; F18).
 - **Handoff / chat novo:** Após sessão, atualizar `logs/handoff_atual.md` via [novo_chat_procedimento.md](novo_chat_procedimento.md).
 - **Jobs / Gigs:** Padrão `logs/job_XXX_<slug>.md` para briefing, execução e fallout permanente. Sessões referenciam o job; não duplicar táticas completas no resumo.
-- **NPCs secundários:** Um arquivo em `fichas/npc/<slug>.md` quando o personagem tem personalidade ou eventos que não cabem só no board/facção. Índice em [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md). **Não** misturar vários NPCs num único arquivo (dificulta busca da IA).
+- **NPCs secundários:** Um arquivo em `fichas/npc/<slug>.md` (snake_case). Título com nome civil + apelido/handle. Índice em [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md). **Não** misturar vários NPCs num arquivo. Handles de rádio (**Sparrow**, **Steel**, Scout) = **pessoas** — ver `lina_park.md`, `marcus_steel_rivera.md`, `scout.md`.
 - **Facções:** Detalhes em `facoes/`. Facções menores em `facoes/faccoes_geral.md`.
 - **Referências cruzadas:** Cada arquivo relevante possui seção `## Referências` apontando para arquivos relacionados.
 - O **Source of Truth** permanece nos arquivos locais do jogador.

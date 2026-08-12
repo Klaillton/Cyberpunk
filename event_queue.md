@@ -15,7 +15,7 @@
 | E011 | Visita à **Doc Moreau** (Elisa) | Pendente | Média | Médio prazo | Ryan prometeu; Valk quer ir junto — **não** é Stitch; item de **E015** |
 | **E012** | Montagem protótipo casas + escala / revelação ao pack | Em andamento | Alta | Médio prazo | Externo OK; interno em modelagem; revelação pack geral parcial |
 | **E014** | **Resposta de Reyes** sobre protótipo casas modulares | **Resolvido (implícito)** | — | — | Revelação **pública** ao pack geral ainda em E012 |
-| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Em andamento** | Alta | Curto prazo | **Fase: aproximação NC.** Ping 24/07; **Sparrow residual SEM ACK** (relógio 25–26 **atrasado** — B2 na 019). Plano: industrial abandonada + pesquisa; ad condicional amanhã. Norte: [arco_ativo.md](board/arco_ativo.md) |
+| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Em andamento** | Alta | Curto prazo | **Fase: aproximação NC.** Ping 24/07 a **Lina “Sparrow” Park** e **Marcus “Steel” Rivera** (NPCs). Residual Sparrow **sem resposta** (B2 atrasado → 019). Industrial + pesquisa. [lina_park](fichas/npc/lina_park.md) · [steel](fichas/npc/marcus_steel_rivera.md) · [arco](board/arco_ativo.md) |
 | E016 | Tutoria Valk + Sasha/Lira (assistentes) | Em andamento | Média | Contínuo | Lira aberta; **Sasha abertura forte 018**; **ambas no Mule** (viagem NC) |
 | E017 | Enxame mini-drones (ideia / sondagem) | Em andamento | Baixa | — | Não prioritário vs E015; P005/P006 pedidos |
 | E018 | Modelo 3D base militar (estudo) | Pendente | Baixa | — | Mapeamento **externo** 21/07; abandono aparente; sem infiltração |

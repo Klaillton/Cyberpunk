@@ -38,14 +38,14 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
 | Local específico | Em deslocamento / prestes a **zona industrial abandonada** (cobertura + rotas de fuga) |
 | Facção / base local | Nenhum (viagem; Pack atrás) |
 | Cena / gancho | Plano combinado: Mule + Ryan/Valk/Lira/Sasha → industrial; **pesquisa Agent agora**; **ad amanhã cedo** se fizer sentido |
-| Prioridade | (1) Chegada industrial + AMBIENTE (2) **B2 canal** Sparrow/Steel — residual **sem ACK** está **atrasado** no relógio (3) pesquisa; sem ops solo isolado |
+| Prioridade | (1) Chegada industrial + AMBIENTE (2) **B2** — resposta de **Lina “Sparrow” Park** e/ou **Marcus “Steel” Rivera** (NPCs; residual Sparrow sem resposta está **atrasado**) (3) pesquisa; sem ops solo isolado |
 | Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira ainda delicado/secreto entre elas |
 
 ### Cena de abertura sugerida
 
 **Chegada — zona industrial abandonada (Badlands/borda NC).**  
-Mule com os quatro. Luz baixa. Sparrow ainda só residual (SoT: **resolver B2** — não repetir “ainda respira” como único gancho).  
-Bloco **AMBIENTE** + 1 batida (canal ou layout) + gancho. O que Ryan faz?
+Mule com os quatro. Luz baixa. Canal da **Lina “Sparrow” Park** ainda só residual (ela **não** respondeu — SoT: **resolver B2**).  
+**Sparrow = NPC pessoa**, não sistema/drone. Bloco **AMBIENTE** + 1 batida + gancho. O que Ryan faz?
 
 ---
 
@@ -54,7 +54,7 @@ Bloco **AMBIENTE** + 1 batida (canal ou layout) + gancho. O que Ryan faz?
 | # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
 | - | ---------------- | ---------------- | ---------------------------------------------- |
 | 1 | Chegada industrial: cobertura, saídas, linha de rádio, riscos | Mundo / Valk | Bloco AMBIENTE + Valk marca ponto de estacionamento/extração |
-| 2 | **B2 (atrasado):** Sparrow residual **sem ACK** — relógio 25–26/07 já passou | Mundo / rádio | **Resolver:** ACK parcial, “não agora”, ou silêncio útil **com custo** — proibido só “ainda respira” |
+| 2 | **B2 (atrasado):** **Sparrow** (Lina Park) residual **sem resposta** — relógio 25–26 já passou | Contato NPC / rádio | **Resolver:** resposta dela, “não agora”, ou silêncio útil **com custo** — proibido só “canal ainda respira” |
 | 3 | Pesquisa Agent agora; ad amanhã; Valk **não** aceita Ryan isolado sem plano de extração | Valk | Cobra escopo da pesquisa ou fecha janela de tempo |
 
 | Campo | Valor |
@@ -82,6 +82,7 @@ Bloco **AMBIENTE** + 1 batida (canal ou layout) + gancho. O que Ryan faz?
 | **Novo** | Lira + Sasha na viagem; Sasha com abertura forte (018); Lira cooperativa |
 | **F18** | Ruleset **v1.3.0** · 017+ · sem retcon 001–016 |
 | **F19** | Agents: Vault / Profissional / Honeypot / Arbiter/Watchdog ≠ Warden |
+| **F20** | **Sparrow** = Lina Park (NPC); **Steel** = Marcus Rivera (NPC) — **não** sistemas |
 
 Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
@@ -91,7 +92,7 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 | ID | Uma linha |
 | -- | --------- |
-| **E015** | Aprox. NC — industrial + pesquisa; **Sparrow residual sem ACK** (B2 atrasado); Steel mudo; Kaz escondido montando crew |
+| **E015** | Aprox. NC — industrial + pesquisa; **Lina “Sparrow” Park** residual sem resposta (B2); **Marcus “Steel” Rivera** mudo; Kaz escondido · [fichas](../fichas/npc/lina_park.md) |
 | **E019** | Olaria/cogeração — Pack (Lira pode levar ideia ao voltar) |
 | **E012** | Casas interno / revelação pack |
 | E007 | Badlands Node |
@@ -114,7 +115,7 @@ Detalhe: [sessao_resumo_018.md](sessao_resumo_018.md)
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · ~26/07/2026 tarde · Badlands/borda NC · industrial · prioridade: AMBIENTE + B2 Sparrow + pesquisa · próximo resumo: 019 · Ruleset 1.3.0
+Boot OK · ~26/07/2026 tarde · Badlands/borda NC · industrial · prioridade: AMBIENTE + B2 (Sparrow/Steel NPCs) + pesquisa · próximo resumo: 019 · Ruleset 1.3.0
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.

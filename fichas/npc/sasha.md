@@ -1,8 +1,11 @@
-# Sasha — NPC Secundário
+# Sasha — NPC Secundário (Pack Badlands)
 
-**Tipo:** Membro do Pack Nômade (jovem)  
+**Nome / como chamar:** **Sasha** (sem sobrenome canônico no SoT)  
+**Tipo:** Membro do Pack Nômade (jovem) · assistente / incursões  
 **Facção / contexto:** Pack Badlands  
-**Status:** Ativo
+**Status:** Ativo · na viagem com Ryan/Valk/Lira (E015, pós-018)
+
+> **Pessoa (NPC do Pack).** Não é crew NC. Não confundir com Solos da crew.
 
 ---
 

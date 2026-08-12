@@ -1,8 +1,11 @@
-# Lira — NPC Secundário
+# Lira — NPC Secundário (Pack Badlands)
 
-**Tipo:** Membro do Pack Nômade (jovem)  
+**Nome / como chamar:** **Lira** (sem sobrenome canônico no SoT)  
+**Tipo:** Membro do Pack Nômade (jovem) · assistente / incursões  
 **Facção / contexto:** Pack Badlands  
-**Status:** Ativo
+**Status:** Ativo · na viagem com Ryan/Valk/Sasha (E015, pós-018)
+
+> **Pessoa (NPC do Pack).** Não é crew NC. Não confundir com Solos da crew.
 
 ---
 
