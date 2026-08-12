@@ -1,80 +1,70 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** 24 de Julho de 2026 (final de tarde / início de noite) — Cânion Badlands  
-**Local:** Acampamento leve junto a fio de água corrente
+**Data Atual:** ~26 de Julho de 2026 (tarde / início de noite) — Badlands, borda NC  
+**Local:** Em deslocamento / chegada a **zona industrial abandonada**
 
 ---
 
 ## Missão Atual
 
-Ryan "Wireghost" Voss está em **acampamento leve** nas Badlands com Valk, Lira e Sasha (todos no Mule), após saída do Pack e tentativa de contato NC sem resposta.
+Ryan "Wireghost" Voss está em **viagem multi-dia** com Valk, Lira e Sasha (Mule), aproximando-se de Night City.
 
-**Prioridade imediata:** Manhã **25/07** — decidir se permanece no cânion, tenta contato de novo (Steel / Sparrow) ou muda de posição. Manter discrição. Canais em recepção passiva.
+**Prioridade imediata:**
+1. Chegar e firmar posição em **zona industrial abandonada** (cobertura + rotas de fuga).  
+2. **Pesquisa Agent** (agora).  
+3. Resolver canal **Sparrow/Steel** (B2): residual **sem ACK** está **atrasado** no relógio 25–26/07 — precisa ACK / “não agora” / silêncio com custo.  
+4. **Ad** planejado para **amanhã cedo** se ainda fizer sentido.  
+5. **Sem** ops solo isolado sem plano de extração (acordo tenso com Valk).
 
-**Arco L1 + off-screen:** [arco_ativo.md](arco_ativo.md) — E015 em **espera pós-ping**; Kaz escondido em NC montando crew; Steel/Sparrow no relógio (resposta ou silêncio útil até 25–26/07).
+**Arco L1 + off-screen:** [arco_ativo.md](arco_ativo.md)
 
-**Projetos em andamento:**
+**Projetos em andamento (Pack / background):**
+- Condor + Corujas no Pack; casas modulares (F11); Node; E019 olaria delegada; enxame (ideia); modelo 3D base militar (estudo).
 
-- **Drones miméticos** — Condor + Corujas ativos (no Pack).
-- **Casas modulares** — Container A no pack; protótipo operacional; time de produção + Tio Gringo no segredo parcial.
-- **Badlands Node** — protótipo Água + Biodigestor avançando com autonomia dos recrutas.
-- Destilaria — Elias (autonomia).
-- Estufa modular — Mara.
-- Cerca em estrela — concluída.
-- **Enxame mini-drones (ideia)** — sondagem de materiais com Tomas e Mara.
-- **Modelo 3D base militar** — coletado; estudo posterior.
-- **Olaria + desidratador + cogeração forja (E019)** — ideia 23/07; **delegada ao Pack** (Tio Gringo / time produção / cozinha). Discussão após retorno.
-
-**Decisão de partida:** Ryan e Valk vão a Night City juntos. Possível retorno ao Pack depois. Contato Steel/Sparrow tentado 24/07 (`RVW30sG1mBL_P?`) — **sem resposta**.
+**Decisão de viagem:** Ryan + Valk a NC; possível retorno ao Pack. Sasha/Lira na viagem (Sasha: abertura 018).
 
 ---
 
 ## Pistas Confirmadas
 
-- **16–17/07:** Incursão Torre de Transmissão — chrome e componentes recuperados.
-- **20/07:** Demonstração pública Condor + Corujas; decisão Ryan + Valk ir a NC.
-- **21/07:** Observação leve base militar — modelo 3D externo; abandono aparente.
-- **23/07:** Lira e Sasha aceitaram acampamento leve (saída 24/07). Ideia olaria/cogeração apresentada e delegada ao Pack.
-- **24/07:** Saída Pack → parada intermediária → pings Steel/Sparrow sem resposta → cânion com água; acampamento leve. Lira com abertura reforçada; Sasha ainda reservada.
+- **24/07:** Saída Pack; ping Steel/Sparrow sem ACK; cânion.
+- **25–26/07:** Viagem; caça; Agent — OPSEC fixers alta; **Sparrow residual sem ACK**; Kaz sem rastro público.
+- **018:** Conflito Ryan×Valk (solo vs equipe); plano industrial em grupo; pesquisa agora / ad amanhã.
 
 ---
 
 ## Rumores e Suspeitas
 
-- Wireghost visto como arquiteto técnico e mentor; provedor de “olhos no céu”.
-- Pack mais seguro e autônomo.
-- Possível heat residual Raffen.
-- Biotechnica latente.
-- Ryan e Valk em deslocamento discreto para assuntos em NC (contatos mudos por ora).
+- Heat residual Raffen; BT latente; rede NC cautelosa pós-jobs vazados.
+- Sparrow “respira” mas não confirma — OPSEC ou fila.
 
 ---
 
 ## NPCs Importantes
 
-| Nome                 | Papel                  | Relação com Ryan                  | Notas |
-|----------------------|------------------------|-----------------------------------|-------|
-| **Lena "Valk" Kane** | Parceira               | Amor declarado; operacional + afeto | No acampamento; evita “herói” (F15); intimidade reforçada 24/07 |
-| **Reyes** | Líder do Pack | Confiança estratégica | Background (Pack) |
-| **Tio Gringo** | Ferreiro | Alta estima | Recebeu ideia olaria/cogeração; discutirá após retorno |
-| **Lira** | Pack / assistente | Respeito + abertura reforçada | No acampamento; drone-play Vespa 24/07 |
-| **Sasha** | Pack / assistente | Respeito + cautela | No acampamento; ainda reservada |
-| **Mara / Elias / Tomas** | Recrutas | Parceiros Node | Background (Pack) |
-| **Steel / Sparrow** | Contatos NC | Canal para localizar Kaz | Ping 24/07 sem resposta |
+| Nome | Papel | Relação com Ryan | Notas |
+|------|-------|------------------|-------|
+| **Lena "Valk" Kane** | Parceira | Amor + atrito ops | Recusou solo; F15; no Mule |
+| **Lira** | Pack / viagem | Abertura | No Mule |
+| **Sasha** | Pack / viagem | Abertura forte 018 | “Não some sem avisar”; NC pensa |
+| **Steel / Sparrow** | Contatos NC | Canal para rede/Kaz | Residual Sparrow **sem ACK** |
+| **Kaz** | Fixer | Off-screen | Escondido; montando crew |
+| **Reyes / Tio Gringo** | Pack | Background | E019 |
 
 ---
 
 ## Facções e Corporações
 
-| Facção          | Status com a Crew    | Nível de Risco | Notas |
-| --------------- | -------------------- | -------------- | --------------------------------- |
-| **Pack Nômade** | Aliado consolidado   | Baixo          | Moral alto; drones operacionais |
-| **Raffen (remanescentes)** | Hostil potencial | Médio | Vigilância elevada |
-| **Biotechnica** | Hostil (latente)     | Médio          | |
-| **Arasaka**     | Hostil (pessoal)     | Baixo          | Ryan evita contato |
+| Facção | Status | Risco | Notas |
+| ------ | ------ | ----- | ----- |
+| **Pack Nômade** | Aliado | Baixo | Ryan em deslocamento |
+| **Raffen** | Hostil pot. | Médio | Residual |
+| **Biotechnica** | Hostil latente | Médio | Silêncio público recente |
+| **Arasaka** | Hostil pessoal | Baixo | Ryan evita |
 
 ---
 
-**Última atualização:** 24 de Julho de 2026 (sessão 017)
+**Última atualização:** ~26 de Julho de 2026 (sessão 018)
 
 ---
 
@@ -84,4 +74,4 @@ Ryan "Wireghost" Voss está em **acampamento leve** nas Badlands com Valk, Lira 
 
 **Personagem:** [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 017](../logs/sessao_resumo_017.md) · [Arco ativo](arco_ativo.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 018](../logs/sessao_resumo_018.md) · [Arco ativo](arco_ativo.md)

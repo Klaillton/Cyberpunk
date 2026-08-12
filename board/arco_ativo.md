@@ -4,7 +4,7 @@
 **Não é tier-0 completo** — o narrador lê sob demanda quando a cena estagna ou o arco avança.  
 **Tier-0:** [context_pack_atual.md](../logs/context_pack_atual.md) (1 linha aponta para cá).  
 **Inventário longo prazo:** [event_queue.md](../event_queue.md).  
-**Atualizado:** 24/07/2026 (pós-017) · sessão vigente **018**
+**Atualizado:** ~26/07/2026 (pós-018) · sessão vigente **019**
 
 ---
 
@@ -78,9 +78,9 @@
 | Campo | Valor |
 | ----- | ----- |
 | **ID** | E015 (+ E005 latente, E011 no pacote NC) |
-| **Fase** | **Espera pós-ping** (Steel/Sparrow tentados 24/07, sem resposta) |
-| **Local do PC** | Cânion Badlands · acampamento leve · noite 24/07 → manhã 25/07 |
-| **Objetivo do arco** | Localizar / reaproximar rede de Ryan em NC (via Sparrow/Steel → Kaz) sem queimar discrição; Valk junto |
+| **Fase** | **Aproximação NC** — industrial + pesquisa; canal Sparrow **residual sem ACK** (**B2 atrasado** no relógio 25–26/07) |
+| **Local do PC** | Badlands / borda NC · zona **industrial abandonada** (chegada 019) |
+| **Objetivo do arco** | Localizar / reaproximar rede (Sparrow/Steel → Kaz) sem queimar discrição; Valk junto; **sem** ops solo sem extração |
 | **Fora de foco (1 linha)** | Pack (Node, casas, olaria) roda sem Ryan · BT latente · Raffen residual |
 
 ### 3.1 Batidas possíveis (ordem flexível)
@@ -109,7 +109,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 | ----------- | ---- | ------------------ | ---------------------------- | ------- | ----------------- | --------------- |
 | **Kaz** | Night City, **escondido** | Montando / reativando **crew futura** (gente, favores, buracos seguros) — baixo perfil | Não é o alvo do ping; rede ainda fragmentada; OPSEC | Avança em **dias** in-game mesmo sem o PC; reencontrável via Sparrow/Steel ou E005 | Só via intermediário, boato de fixer, ou contato na B5 | Não “some do mundo”: cada 1–2 dias de espera, 1 passo invisível na montagem (só vira fato se canal abrir) |
 | **Steel** | NC / rede de contatos | Agenda própria (trabalho, OPSEC, ou evitando calor) | Ping `RVW30sG1mBL_P?` pode estar em fila, filtrado, ou arriscado demais na hora | **25–26/07** (1ª janela útil) se PC não forçar; 2º ping do PC pode antecipar | Burst curto, ACK, “depois”, ou silêncio *com* razão implícita | Se PC espera sem 2º ping: **1 batida** até fim de 25/07 (resposta parcial **ou** silêncio útil) |
-| **Sparrow** | NC / rede de contatos | Idem / canal paralelo a Steel | Mesmo protocolo; pode estar em job ou muda | **25–26/07** (pode ser o 1º a responder **ou** o 2º) | Idem Steel; não precisa dos dois no mesmo turno | Alternar com Steel: **não** dois silêncios vazios seguidos sem custo de tempo |
+| **Sparrow** | NC / rede de contatos | OPSEC / fila — **residual fraco observado** (018), **sem ACK** | Residual ≠ contato; relógio **estourou** sem resolução | **Imediato (019)** — B2 obrigatório | Burst, ACK, “não agora”, ou residual **morre** com custo | **Proibido** só repetir “ainda respira” no 3º dia+ |
 | **Crew NC** (Alex, etc.) | NC (off) | Vida normal / E004 latente | Fora do ping atual | Só se B5 ou reencontro | Cena ou boato | Não puxar sem gancho |
 | **Pack** (Reyes, Tio Gringo, Node) | Badlands | Rotina + E019 em discussão lenta | Ryan saiu | Pulso diário se dia avança | Mensagem só se canal Pack aberto | Background; não compete com E015 na cena |
 

@@ -1,13 +1,15 @@
 # Handoff atual — Continuidade para novo chat
-**Gerado após:** sessão **017**  
-**Próxima sessão:** **018** → `logs/sessao_resumo_018.md`  
-**Data in-game ao fechar:** 24 de Julho de 2026 · final de tarde / início de noite  
+**Gerado após:** sessão **018**  
+**Próxima sessão:** **019** → `logs/sessao_resumo_019.md`  
+**Data in-game ao fechar:** ~26 de Julho de 2026 · tarde / início de noite  
 **Branch canônica:** `feature/linha-estavel`  
-**Última atualização deste handoff:** 09 de Agosto de 2026
+**Última atualização deste handoff:** 12 de Agosto de 2026
 
 > **Primeiro arquivo a ler:** `logs/context_pack_atual.md`  
-> **Arco + off-screen (se estagnar / idle):** `board/arco_ativo.md`  
-> **Canon:** arquivos do repo (após sync / RAW) > handoff > memória de chat
+> **Arco L1 + off-screen:** `board/arco_ativo.md`  
+> **Ambiente / ganchos:** `sistema/cena_ambientacao_ganchos.md`  
+> **Canon:** repo/RAW > handoff > memória de chat  
+> **Não** reabrir o thread web “Night City VIII” (~120 msgs) — qualidade degradada.
 
 ---
 
@@ -16,33 +18,27 @@
 | Recurso | URL |
 | ------- | --- |
 | Context pack (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md |
-| Sessão 017 (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_017.md |
+| Sessão 018 (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_018.md |
 | Handoff (RAW) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md |
+| Arco ativo | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/arco_ativo.md |
 | Board | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/board_campanha.md |
-| Arco ativo L1 + off-screen | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/arco_ativo.md |
+| Ambientação | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/cena_ambientacao_ganchos.md |
 | Procedimento novo chat | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/novo_chat_procedimento.md |
-| Mecânica RED (sob demanda) | https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/regras_red/00_integridade_regras.md |
 
 ---
 
 ## Boot (ordem de leitura)
 
-**Tier-0 (obrigatório antes de narrar):**
-1. `logs/context_pack_atual.md`
-2. `sistema/fatos_duros.md` (se houver dúvida de fato)
-3. Este handoff (gancho + prompt)
-4. `board/board_campanha.md` se pack e board divergirem
-5. `board/arco_ativo.md` se cena estagnar, idle de espera, ou arco E015 avançar (L1 + off-screen + batidas §7 Lira/Sasha/Valk)
-6. `sistema/cena_ambientacao_ganchos.md` se local novo / jogador sem “ver” o terreno / precisar de opções
-
-**Mecânica (017+ — sob risco/oposição, não no tier-0):**
-- `sistema/regras_red/00_integridade_regras.md` → `01_core` / `02_combate` / `03_ferimentos` (+ 04–11 conforme necessidade)
-- House: `sistema/house_rules/regras_campanha.md`
-- Loadout: `fichas/ryan_loadout.md`
+1. `logs/context_pack_atual.md`  
+2. `sistema/fatos_duros.md` (dúvida de fato)  
+3. Este handoff  
+4. `board/arco_ativo.md` se E015/canal/estagnação  
+5. `sistema/cena_ambientacao_ganchos.md` na **chegada industrial**  
+6. Board se divergir  
 
 **Confirmação (1 linha):**
 ```
-Boot OK · 24/07/2026 final de tarde · Cânion Badlands · prioridade: manhã 25/07 decidir posição/contato · próximo resumo: 018 · Ruleset 1.3.0
+Boot OK · ~26/07/2026 tarde · Badlands/borda NC · industrial · prioridade: AMBIENTE + B2 Sparrow + pesquisa · próximo resumo: 019 · Ruleset 1.3.0
 ```
 
 ---
@@ -51,35 +47,36 @@ Boot OK · 24/07/2026 final de tarde · Cânion Badlands · prioridade: manhã 2
 
 | Campo | Valor |
 | ----- | ----- |
-| Data | **24/07/2026**, final de tarde / início de noite |
-| Local | Cânion Badlands — acampamento leve junto a fio de água |
-| Prioridade | Manhã 25/07 — decidir permanecer, tentar contato de novo ou mudar de posição |
-| Participantes | Ryan + Valk + Lira + Sasha (todos no Mule / acampamento) |
-| Drones | Vespas em perímetro + carga; Warden em vigia terrestre; Condor + Corujas ficaram no Pack |
-| Relação Ryan × Valk | Consolidada + intimidade reforçada em 24/07 |
-| Contatos NC | Steel e Sparrow tentados (`RVW30sG1mBL_P?`) — **sem resposta** |
-| **Ruleset** | **v1.3.0** em vigor (**F18**); 001–016 sem retcon |
+| Data | **~26/07/2026**, tarde / luz baixa |
+| Local | Badlands — **indo / chegando** zona **industrial abandonada** (cobertura + fugas) |
+| Pessoas | Ryan + Valk + Lira + Sasha (Mule) |
+| Drones | Vespas + Warden com o grupo; Condor/Corujas no Pack |
+| Canais | **Sparrow: residual fraco, SEM ACK** (B2 **atrasado** — resolver na 019); Steel mudo; Kaz off-screen montando crew |
+| Ryan × Valk | Juntos; ela **recusou** ops solo isolado; ele ainda “chateado” mas abraçados; plano em grupo |
+| Sasha | Abertura forte (018): medo de sumiço; NC “pensa”; “não some sem avisar” |
+| Lira | Cooperativa; olaria em background |
+| Plano | Pesquisa Agent **agora** no industrial; **ad amanhã cedo** se fizer sentido |
+| Ruleset | **v1.3.0** |
 
-### Cena de abertura (continuidade)
-**Manhã 25/07 — Cânion.**  
-Canais ainda mudos. Acampamento leve montado. Vespas em perímetro.  
-**O que Ryan faz?**
+### Cena de abertura
+**Industrial abandonada — chegada.**  
+Bloco **AMBIENTE** (layout, cobertura, saídas, rádio, riscos).  
+**B2:** não encher com “Sparrow ainda respira” — **ACK / não agora / silêncio com custo**.  
+Pesquisa em grupo / com extração clara. **O que Ryan faz?**
 
-### AGENDA DA CENA (Cânion / manhã)
-1. **B1** — Decisão: fica / 2º ping / move (Valk fala preferência + horário se idle).
-2. **B2** — Off-screen Steel/Sparrow (relógio 25–26/07): resposta parcial, “não agora”, ou silêncio *útil* com custo — **não** “canais mudos” eterno. Kaz em NC escondido montando crew (não some).
-3. Lira/Sasha residual **com fala** (sem murmúrio vazio).
-4. Detalhe e defaults: `board/arco_ativo.md`
+### AGENDA
+1. AMBIENTE industrial + estacionar Mule.  
+2. B2 canal (atrasado).  
+3. Escopo pesquisa vs ad amanhã; Valk no ritmo de segurança.
 
 ---
 
-## O que acabou de acontecer (sessão 017)
-- Saída Pack → parada intermediária (intimidade Ryan×Valk) → tentativas de contato sem resposta → deslocamento até cânion → acampamento, banho, refeição → final de tarde/noite.
-- Lira recebeu abertura e controle temporário de Vespa.
-- Nenhuma ameaça externa detectada.
-- Canais em recepção passiva e mudos.
+## O que acabou de acontecer (018)
+- Multi-dia Badlands: caça, Sasha profunda, Agent (OPSEC, Sparrow residual sem ACK).  
+- Atrito solo vs equipe com Valk; reconciliação parcial.  
+- Plano industrial em grupo. Thread web fechado por qualidade.
 
-Detalhe narrativo: [sessao_resumo_017.md](sessao_resumo_017.md)
+Detalhe: [sessao_resumo_018.md](sessao_resumo_018.md)
 
 ---
 
@@ -87,70 +84,61 @@ Detalhe narrativo: [sessao_resumo_017.md](sessao_resumo_017.md)
 
 | ID | Evento |
 | -- | ------ |
-| **E015** | Fase espera pós-ping; Steel/Sparrow no relógio; Kaz monta crew off-screen — [arco_ativo](../board/arco_ativo.md) |
-| **E019** | Olaria/desidratador/cogeração — delegado ao Pack |
-| Tutoria | Valk + Sasha/Lira (Lira mais aberta após 24/07) |
-| E012 | Casas modulares (F11 ainda ativo) |
-| E007 | Badlands Node |
-| E011 | Visita Doc Moreau (Elisa); Valk junto |
-| E008 | Vigilância residual Raffen (latente) |
-| Outros | Enxame mini-drones (ideia); modelo 3D base militar (estudo) |
+| **E015** | Industrial + pesquisa + B2 canal; Kaz/crew NC |
+| Ad | Amanhã cedo (condicional) |
+| E011 | Doc Moreau c/ Valk |
+| E019 | Olaria Pack |
+| E012 / E007 / E008 | Background |
 
 ---
 
-## Regras duras (não negociar no boot)
+## Regras duras (boot)
 
 | ID | Regra |
 | -- | ------ |
-| F01–F02 | Branch `feature/linha-estavel`; arquivos = SoT |
-| **F03** | **Warden** = drone **terrestre** scorpion (**não voa**) |
-| **F04** | **Stitch** = Stephania (crew); **Doc** = Elisa Moreau (passado) |
-| **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
-| **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
-| **F18** | Ruleset **v1.3.0** na **017+**; **sem retcon** 001–016 |
-| **F19** | Agents Vault/Profissional/Honeypot/Arbiter/Watchdog ≠ Warden drone |
-| Motor | N1–N9: não ecoar; resultado-primeiro; delta ≥60%; viagem limpa = fechar chegada; pressão só de AGENDA/queue/NOW |
-| Meta | NPCs só sabem o que viram/ouviram in-fiction |
+| F03 | Warden **não voa** |
+| F04 | Stitch ≠ Doc Moreau |
+| F15 | Valk **não** “herói” |
+| F18 | Ruleset **1.3.0**; sem retcon 001–016 |
+| F19 | Agents ≠ Warden |
+| Motor | N1–N11: sem eco; delta ≥60%; AMBIENTE em local novo; SHOW relacional |
+| B2 | Residual Sparrow **não** substitui resolução no dia 3+ |
 
 ---
 
-## Prompt de abertura (copiar e colar no novo chat)
+## Prompt de abertura (copiar no novo chat)
 
 ```markdown
-# Cyberpunk RED — Continuidade (Sessão 018)
+# Cyberpunk RED — Continuidade (Sessão 019)
 
 ## Boot (tier-0)
 - Repo: https://github.com/Klaillton/Cyberpunk · branch `feature/linha-estavel`
-- Canon = arquivos do repo após sync / RAW (memória de chat **não** vence)
+- Canon = arquivos do repo após sync / RAW
 - Leia primeiro: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md
-- Resumo da sessão anterior: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_017.md
+- Resumo 018: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_018.md
 - Handoff: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md
+- Arco L1: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/arco_ativo.md
+- Ambientação: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/cena_ambientacao_ganchos.md
 - Procedimento: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/novo_chat_procedimento.md
-- Board (se divergir do pack): https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/board_campanha.md
-- Arco L1 + off-screen (estagnação / espera de contato): https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/arco_ativo.md
 
-## Mecânica (017+ — sob demanda, não carregar no tier-0)
-- **F18:** Ruleset **v1.3.0** a partir da 017; 001–016 intactos (sem retcon)
-- Integridade: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/regras_red/00_integridade_regras.md
-- Em risco/oposição/combate: carregar `regras_red/01–03` (+ 04–11 se preciso) + house conforme necessário
-- Loadout: `fichas/ryan_loadout.md` · Agents: **F19** (Arbiter ≠ Warden)
-- Não inventar mods; em dúvida, core book RAW
+## Mecânica
+- Ruleset **1.3.0** (F18); loadout sob demanda; sem inventar mods
 
 ## Estado
-- **24/07/2026 final de tarde / início de noite** · Cânion Badlands · acampamento leve
-- Contatos Steel e Sparrow tentados — **sem resposta**
-- Canais em recepção passiva
-- Prioridade manhã 25/07: decidir posição / novo contato / movimento
-- Participantes: Ryan + Valk + Lira + Sasha
+- **~26/07/2026 tarde** · Badlands/borda NC · chegada **zona industrial abandonada**
+- Ryan + Valk + Lira + Sasha no Mule
+- Sparrow **residual SEM ACK** — B2 **atrasado**: resolver (ACK / "não agora" / silêncio com custo). Não só "ainda respira"
+- Plano: pesquisa Agent **agora**; ad **amanhã cedo** se fizer sentido; **sem** ops solo sem extração
+- Valk recusou isolamento; Ryan ainda um pouco chateado mas juntos
+- Sasha: abertura 018 (não sumir sem avisar)
 
-## Cena atual
-Acampamento no cânion. Noite chegando.  
-Gancho preferido: **Manhã 25/07 — Cânion. Canais mudos. O que Ryan faz?**
+## Cena
+Chegada industrial. **AMBIENTE** primeiro (layout jogável + 3–5 opções). Depois B2 e/ou pesquisa. SHOW relacional se NPCs falarem.
+Gancho: o que Ryan faz?
 
-## Regras de narração
-- Motor de cena N1–N9: não ecoar; OPERAÇÃO = resultado primeiro; delta ≥60%; viagem limpa = fechar chegada
-- AGENDA DA CENA = ganchos do **local atual**
-- Próximo resumo: `logs/sessao_resumo_018.md` · no Finalizar, registrar **Ruleset: 1.3.0**
+## Narração
+- N1–N11 · delta ≥60% · sem eco de abraço/mood
+- Thread VIII **morto** — só este pack/handoff
 
-Confirme o boot em **1 linha** (data · local · prioridade · resumo 018 · Ruleset 1.3.0) e aguarde a ação do jogador.
+Confirme boot em **1 linha** (data · local · prioridade · resumo 019 · Ruleset 1.3.0) e aguarde o jogador.
 ```

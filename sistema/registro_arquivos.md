@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 2026-08-09 (curadoria sessão 017; Ruleset v1.3.0; próximo resumo **018**)
+**Última atualização:** 2026-08-12 (Finalizar sessão 018; Ruleset v1.3.0; próximo resumo **019**)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -71,7 +71,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Auditoria combates pré-017 (só leitura) | `plans/auditoria_combates_canonicos.md` | F18 — **não** retcon |
 | Agents OPSEC Ryan (Vault/Honeypot/…) | `plans/agent_security.md` | F19 · `ryan_loadout` · ≠ Warden drone |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `017`). Próximo número disponível: **018**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `018`). Próximo número disponível: **019**.
 
 ---
 
@@ -182,6 +182,7 @@ cyberpunk/
 │   ├── sessao_resumo_015.md
 │   ├── sessao_resumo_016.md
 │   ├── sessao_resumo_017.md
+│   ├── sessao_resumo_018.md
 │   ├── context_pack_atual.md      ← Tier-0 anti-esquecimento (NOW)
 │   ├── context_pack_template.md
 │   ├── handoff_atual.md           ← Continuidade para chat novo
@@ -273,7 +274,7 @@ cyberpunk/
   - `relacionamentos/ryan_relacionamentos.md`
   - `sistema/dashboard_contexto.md`
   - `relacionamentos/mapa_relacional_geral.md`
-- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **018**.
+- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **019**.
 - **Ruleset:** v1.3.0 em `sistema/regras_red/` (sessão 017+; F18).
 - **Handoff / chat novo:** Após sessão, atualizar `logs/handoff_atual.md` via [novo_chat_procedimento.md](novo_chat_procedimento.md).
 - **Jobs / Gigs:** Padrão `logs/job_XXX_<slug>.md` para briefing, execução e fallout permanente. Sessões referenciam o job; não duplicar táticas completas no resumo.

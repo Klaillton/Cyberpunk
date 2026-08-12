@@ -3,63 +3,58 @@
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
 **Não é o tier-0** — use primeiro `logs/context_pack_atual.md`.  
-**Última atualização:** 24 de Julho de 2026 (sessão 017)
+**Última atualização:** ~26 de Julho de 2026 (sessão 018)
 
 ---
 
-## 1. Situação Atual com o Pack de Badlands
+## 1. Situação Atual
 
-**Última verificação:** 24/07/2026
+**Última verificação:** ~26/07/2026
 
 **Resumo:**
 
-- **Condor + Corujas** operacionais no Pack (Ryan saiu com Vespas + Warden).
-- Cerca concluída; Node / destilaria / estufa com autonomia crescente.
-- Casas modulares: externo OK; interno em modelagem; revelação pública adiada (E012 / F11 parcial).
-- Ryan + Valk + Lira + Sasha em **acampamento leve** (cânion); E015 em andamento.
-- Contato Steel/Sparrow tentado 24/07 — **sem resposta**.
-- E019 olaria/cogeração **delegada ao Pack**.
-- Reputação Pack: **+75 (Muito Positiva)** — ver [reputacao.md](../reputacao.md).
+- Viagem multi-dia Badlands → **borda NC** com Valk, Lira, Sasha (Mule).
+- Plano: **zona industrial abandonada** → pesquisa Agent agora → ad amanhã (condicional).
+- **Sparrow residual sem ACK** (B2 atrasado). Steel mudo. Kaz off-screen montando crew.
+- Pack: drones Condor/Corujas, Node, casas (F11), E019 em background.
+- Reputação Pack alta (sem delta 018).
 
 ---
 
 ## 2. Relação com Lena "Valk" Kane
 
-**Última verificação:** 24/07/2026
+**Última verificação:** ~26/07/2026
 
 **Resumo:**
 
-- Consolidada; intimidade reforçada na parada intermediária 24/07.
-- No acampamento com Ryan; decisão conjunta de viagem a NC.
-- Lira com abertura reforçada (conversa + drone-play); Sasha ainda reservada.
-- **F15:** Valk **evita** “herói” / “herói solitário” com Ryan.
+- Consolidada; atrito 018 sobre ops solo (ela recusou isolamento).
+- Reconciliação parcial; seguem juntos no plano em grupo.
+- **F15** ativo.
 
 ---
 
 ## 3. Nível de Heat
 
-**Heat Global:** Média (vigilância Raffen residual E008; scavs/torre limpas; demo drones só interna). Sem delta na 017.
+**Heat Global:** Média (Raffen residual; aproximação NC discreta). Sem delta formal 018.
 
 ---
 
 ## 4. Eventos Pendentes
 
-- **E015** — Contato NC (Steel/Sparrow) tentado, sem resposta; próximo passo em aberto
-- **E019** — Olaria/desidratador/cogeração (delegada ao Pack)
-- **E012** — Casas interno + revelação **pública**
-- E007 Node · E008 Raffen · E011 Doc Moreau ([ficha](../fichas/npc/elisa_doc_moreau.md))
-- Tutoria Valk + Sasha/Lira · Enxame (sondagem) · Modelo 3D base (estudo opcional)
+- **E015** — Industrial + pesquisa + B2 canal + rede NC
+- **E011** Doc Moreau · **E019** olaria · **E012** casas · E007 Node · E008 Raffen
+- Ad amanhã (condicional)
 
 ---
 
 ## 5. Localização
 
-- **Local:** Cânion Badlands — acampamento leve (fio de água)
-- **Data:** 24/07/2026 **final de tarde / início de noite**
-- **Prioridade:** manhã 25/07 — posição / contato / movimento
+- **Local:** Badlands / borda NC — zona industrial (chegada)
+- **Data:** ~26/07/2026 tarde–noite
+- **Prioridade:** AMBIENTE industrial + B2 Sparrow + pesquisa
 
 ---
 
 ## Referências
 
-- [Board](../board/board_campanha.md) · [Context pack](../logs/context_pack_atual.md) · [Sessão 017](../logs/sessao_resumo_017.md)
+- [Board](../board/board_campanha.md) · [Context pack](../logs/context_pack_atual.md) · [Sessão 018](../logs/sessao_resumo_018.md) · [Arco](../board/arco_ativo.md)
