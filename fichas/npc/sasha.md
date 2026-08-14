@@ -3,7 +3,7 @@
 **Nome / como chamar:** **Sasha** (sem sobrenome canônico no SoT)  
 **Tipo:** Membro do Pack Nômade (jovem) · assistente / incursões  
 **Facção / contexto:** Pack Badlands  
-**Status:** Ativo · na viagem com Ryan/Valk/Lira (E015, pós-018)
+**Status:** Ativo · Pack (retorno 27/07 pós-viagem E015)
 
 > **Pessoa (NPC do Pack).** Não é crew NC. Não confundir com Solos da crew.
 
@@ -34,10 +34,11 @@
 | 22–23/06/2026 | **Incidente 001:** Devolveu fogo contra ordem de cobertura; presenciou execução e confronto de Ryan. |
 | 23/06/2026 | **Incidente 002:** Na incursão noturna ficou na colina de suporte; viu o resultado da limpeza silenciosa (~16 hostis). Permaneceu abalada — Valk conversou com ela depois. |
 | Jun/2026 | Aula/oficina: Ryan consertou algo com a cabeça entre as pernas dela sem perceber; ouviu Ryan e Valk perto da tenda. |
+| 24–27/07/2026 (018–019) | Viagem com Ryan/Valk/Lira (industrial + retorno). Abertura forte em 018 (“não some sem avisar”; NC “eu penso”). Em 019: overwatch/perímetro, despedida calorosa, residual positivo no refeitório. |
 
 ## Relação com a crew
 
-- **Ryan:** Respeito + medo após o incidente Raffen; vergonha em situações sociais anteriores.
+- **Ryan:** Respeito + medo residual após Raffen; **019:** pequeno avanço de confiança/proximidade após viagem — manteve “não some sem avisar”, aceitou despedida calorosa, permaneceu perto no refeitório. Ainda cautelosa, não fechada.
 - **Valk:** Tenta se aproximar; às vezes com ciúme possessivo de Ryan.
 
 ## Notas para o narrador
