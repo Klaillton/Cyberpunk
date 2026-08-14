@@ -1,6 +1,6 @@
 # Fila de Eventos do Mundo (Event Queue)
 
-**Última atualização:** ~26 de Julho de 2026 (pós-018) · Arco L1: [board/arco_ativo.md](board/arco_ativo.md)
+**Última atualização:** ~27 de Julho de 2026 (pós-019) · Arco L1: [board/arco_ativo.md](board/arco_ativo.md)
 
 ## Eventos Ativos / Pendentes
 
@@ -15,8 +15,8 @@
 | E011 | Visita à **Doc Moreau** (Elisa) | Pendente | Média | Médio prazo | Ryan prometeu; Valk quer ir junto — **não** é Stitch; item de **E015** |
 | **E012** | Montagem protótipo casas + escala / revelação ao pack | Em andamento | Alta | Médio prazo | Externo OK; interno em modelagem; revelação pack geral parcial |
 | **E014** | **Resposta de Reyes** sobre protótipo casas modulares | **Resolvido (implícito)** | — | — | Revelação **pública** ao pack geral ainda em E012 |
-| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Em andamento** | Alta | Curto prazo | **Fase: aproximação NC.** Ping 24/07 a **Lina “Sparrow” Park** e **Marcus “Steel” Rivera** (NPCs). Residual Sparrow **sem resposta** (B2 atrasado → 019). Industrial + pesquisa. [lina_park](fichas/npc/lina_park.md) · [steel](fichas/npc/marcus_steel_rivera.md) · [arco](board/arco_ativo.md) |
-| E016 | Tutoria Valk + Sasha/Lira (assistentes) | Em andamento | Média | Contínuo | Lira aberta; **Sasha abertura forte 018**; **ambas no Mule** (viagem NC) |
+| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Em andamento** | Alta | Curto prazo | **Fase: ad no ar + retorno Pack.** Pesquisa 019 feita; ad anônimo ativo (pacote ~3 dias); residual **Lina Park** sem ACK; **Marcus Rivera** mudo; Kaz off-screen. [lina_park](fichas/npc/lina_park.md) · [steel](fichas/npc/marcus_steel_rivera.md) · [arco](board/arco_ativo.md) |
+| E016 | Tutoria Valk + Sasha/Lira (assistentes) | Em andamento | Média | Contínuo | **019:** residual positivo ambas (viagem); Sasha “não some sem avisar”; Lira aberta a novas saídas; ambas no Pack |
 | E017 | Enxame mini-drones (ideia / sondagem) | Em andamento | Baixa | — | Não prioritário vs E015; P005/P006 pedidos |
 | E018 | Modelo 3D base militar (estudo) | Pendente | Baixa | — | Mapeamento **externo** 21/07; abandono aparente; sem infiltração |
 | **E019** | **Olaria + desidratador + cogeração de calor da forja** | Pendente | Baixa | Médio prazo | Ideia 23/07; **delegada ao Pack** (Tio Gringo / time produção / cozinha). Discussão após retorno da saída. |
