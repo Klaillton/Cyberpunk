@@ -8,7 +8,7 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 
 ### Ryan "Wireghost" Voss
 
-- **Status:** Namorando (relação consolidada + decisão conjunta de viagem)
+- **Status:** Namorando (relação consolidada + acordo de comunicação ops 019)
 - **Intensidade:** Alta
 - **Tipo:** Romântico + Aliança profunda
 - **Notas:** Existe amor mútuo. Valk aceita tanto o lado carinhoso quanto o lado frio/operador de Ryan. A relação é intensa, carinhosa e um pouco possessiva.
@@ -27,6 +27,7 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **20/07 noite (sessão 013):** Intimidade + aftercare; reforço afetivo e de posse mútua.
 - **21/07 (sessões 014–015):** Aceita saída solo de Ryan à base militar sob condições claras; conversa sobre preocupação e sobre ele se deixar cuidar; estudo do modelo 3D juntos; intimidade (Valk no controle a pedido dele); sono na tenda.
 - **Estado (21/07 noite):** consolidada + viagem NC combinada + confiança operacional reforçada. **F15** ativo.
+- **26–27/07 (sessão 019):** Viagem industrial (borda NC) + retorno Pack. Atrito de 018 (solo vs equipe) resolvido em conversa explícita. **Acordo:** Ryan dá o mínimo de plano antes do modo operador; Valk pergunta antes de subir o tom. Intimidade reforçada (garagem + tenda). Relação estável e cumplices. **F15** ativo.
 
 ### Alex "Specter" Kane
 
