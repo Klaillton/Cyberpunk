@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 21 de Julho de 2026 (sessão 015)
+**Última atualização:** 27 de Julho de 2026 (sessão 019)
 
 ---
 
@@ -9,7 +9,7 @@
 
 | Personagem               | Sentimento de Ryan    | Sentimento em relação a Ryan | Intensidade | Status             | Tipo                             |
 | ------------------------ | --------------------- | ---------------------------- | ----------- | ------------------ | -------------------------------- |
-| Lena "Valk" Kane         | Afeto + Tensão        | Afeto + Confiança            | Alta        | Estável + viagem   | Romântico / Aliada               |
+| Lena "Valk" Kane         | Afeto + Confiança     | Afeto + Confiança            | Alta        | Estável (acordo 019) | Romântico / Aliada             |
 | Alex "Specter" Kane      | Desconfiança          | Provação / Interesse         | Média       | Observando         | Potencial rival                  |
 | Reina "Bearclaw" Morales | Neutro / Cautela      | Proteção (Mãe Urso)          | Média       | Em desenvolvimento | Aliada / Irmã mais velha         |
 | Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado                   |
@@ -22,9 +22,9 @@
 
 ### Lena "Valk" Kane
 
-**Status:** Namorando (relação consolidada + decisão conjunta de viagem a Night City)  
+**Status:** Namorando (relação consolidada + acordo de comunicação ops 019)  
 **Intensidade:** Alta  
-**Última atualização:** 21 de Julho de 2026 (sessão 015)
+**Última atualização:** 27 de Julho de 2026 (sessão 019)
 
 **Evolução conhecida:**
 
@@ -94,16 +94,25 @@
 - Retorno + jantar: conversa aberta sobre preocupação de Valk e sobre Ryan se acostumar a **ser cuidado**.
 - Estudo do modelo 3D na tenda; intimidade (Valk no controle a pedido de Ryan); aftercare; sono.
 
+**Atualização (26–27/07 — sessão 019):**
+
+- Viagem industrial (borda NC): pesquisa Agent + ad anônimo; retorno ao Pack.
+- Atrito operacional de 018 (solo vs equipe) **resolvido** em conversa explícita na tenda.
+- **Acordo:** Ryan se esforça em dar o mínimo de plano antes do modo operador assumir; Valk pergunta antes de subir o tom.
+- Intimidade forte (garagem + tenda); relação reforçada.
+- Valk **não** usa mais “herói” / “herói solitário” (**F15**).
+
 **Estado atual:**
 
-- Ryan e Valk estão juntos de forma estável e cumplices.
-- Decisão conjunta de viagem a Night City; confiança operacional + vulnerabilidade emocional reforçadas (21/07).
-- Valk **não** usa mais “herói” / “herói solitário” com Ryan (**promessa 14/07**; fato **F15**).
+- Ryan e Valk juntos de forma estável e cumplices.
+- Acordo de comunicação operacional em vigor (019).
+- Decisão conjunta de assuntos em NC (ad no ar; aguardar pacote ~3 dias).
+- Valk **não** usa “herói” / “herói solitário” (**F15**).
 
 **Notas do Narrador:**
 
-- A relação está em um bom momento, mas ainda carrega resquícios da tensão antiga.
-- Gatilho verbal “herói” permanece **ativo** (memória fechada); Valk está ciente e evita a palavra.
+- Principal delta relacional permanente da 019 = acordo de comunicação.
+- Gatilho verbal “herói” permanece **ativo** (memória fechada); Valk evita a palavra.
 
 ---
 
@@ -210,8 +219,8 @@ Ryan e Valk integrados no Pack em downtime produtivo. Ryan: arquiteto/mentor (No
 - **Mara** (Recruta) → [ficha](../fichas/npc/mara_recruit.md). Estufa com autonomia.
 - **Elias** (Recruta) → [ficha](../fichas/npc/elias_recruit.md). Destilaria com autonomia.
 - **Tomas** (Recruta) → [ficha](../fichas/npc/tomas_recruit.md). Mecânica e monitoramento.
-- **Sasha** → [ficha](../fichas/npc/sasha.md). Tutoria Valk; reservada quanto a intimidade.
-- **Lira** → [ficha](../fichas/npc/lira.md). Tutoria Valk; curiosidade aberta quanto a intimidade.
+- **Sasha** → [ficha](../fichas/npc/sasha.md). Tutoria Valk; **019:** residual positivo pós-viagem (manteve “não some sem avisar”; despedida calorosa; perto no refeitório). Pequeno avanço de confiança, ainda cautelosa.
+- **Lira** → [ficha](../fichas/npc/lira.md). Tutoria Valk; **019:** residual positivo claro (“foi bom / chama de novo”); overwatch cooperativa; aberta a novas saídas.
 - **Crianças do Pack** → Ryan interage bem com elas (faceta mais gentil).
 
 **Notas do Narrador:**
