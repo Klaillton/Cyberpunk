@@ -4,7 +4,7 @@
 **Não é tier-0 completo** — o narrador lê sob demanda quando a cena estagna ou o arco avança.  
 **Tier-0:** [context_pack_atual.md](../logs/context_pack_atual.md) (1 linha aponta para cá).  
 **Inventário longo prazo:** [event_queue.md](../event_queue.md).  
-**Atualizado:** ~26/07/2026 (pós-018) · sessão vigente **019**
+**Atualizado:** ~27/07/2026 (pós-019) · sessão vigente **020**
 
 ---
 
@@ -78,9 +78,9 @@
 | Campo | Valor |
 | ----- | ----- |
 | **ID** | E015 (+ E005 latente, E011 no pacote NC) |
-| **Fase** | **Aproximação NC** — industrial + pesquisa; canal de **Lina “Sparrow” Park** residual sem resposta (**B2 atrasado**) |
-| **Local do PC** | Badlands / borda NC · zona **industrial abandonada** (chegada 019) |
-| **Objetivo do arco** | Localizar rede via contatos **Sparrow** / **Steel** (NPCs) → Kaz; sem queimar discrição; Valk junto; **sem** ops solo sem extração |
+| **Fase** | **Ad no ar + retorno Pack** — pesquisa 019 feita; ad anônimo ativo; residual **Lina Park** sem ACK (B2 parcial); **Marcus Rivera** mudo |
+| **Local do PC** | Pack Badlands (retorno 27/07) |
+| **Objetivo do arco** | Rede via contatos Sparrow/Steel (NPCs) → Kaz; ad coletando respostas; Valk junto; **sem** ops solo sem extração; acordo comunicação 019 |
 | **Fora de foco (1 linha)** | Pack (Node, casas, olaria) roda sem Ryan · BT latente · Raffen residual |
 
 ### 3.1 Batidas possíveis (ordem flexível)
@@ -109,7 +109,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 | ----------- | ---- | ------------------ | ---------------------------- | ------- | ----------------- | --------------- |
 | **Kaz “The Broker”** | Night City, **escondido** | Montando crew futura | Não é alvo do ping | Dias | Via intermediário / B5 | Ficha crew |
 | **Marcus “Steel” Rivera** ([ficha](../fichas/npc/marcus_steel_rivera.md)) | NC | OPSEC / job / favores | Ping `RVW…` em fila ou risco | Relógio estourou → **019** | Burst, resposta, “depois”, silêncio com custo | **Pessoa**, não sistema; ≠ Echo Rivera |
-| **Lina “Sparrow” Park** ([ficha](../fichas/npc/lina_park.md)) | NC | OPSEC / fila — residual fraco **sem resposta** (018) | Residual ≠ ela confirmou | **Imediato (019)** B2 | Resposta dela, “não agora”, ou residual morre com custo | **Pessoa** (handle Sparrow); **não** drone/sistema |
+| **Lina “Sparrow” Park** ([ficha](../fichas/npc/lina_park.md)) | NC | OPSEC / fila — residual fraco **sem ACK** (018–019) | Silêncio deliberado registrado 019 | **Aberto** (pacote ad ~3d) | Resposta dela, “não agora”, ou residual morre com custo | **Pessoa** (handle Sparrow); **não** drone/sistema |
 | **Crew NC** (Alex, etc.) | NC (off) | Vida normal / E004 latente | Fora do ping atual | Só se B5 ou reencontro | Cena ou boato | Não puxar sem gancho |
 | **Pack** (Reyes, Tio Gringo, Node) | Badlands | Rotina + E019 em discussão lenta | Ryan saiu | Pulso diário se dia avança | Mensagem só se canal Pack aberto | Background; não compete com E015 na cena |
 
@@ -126,13 +126,13 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ## 4. L0 — AGENDA sugerida (espelho; SoT da cena = context pack)
 
-> Se o pack divergir, **vence o pack**. Isto é rascunho alinhado ao cânion 24–25/07.
+> Se o pack divergir, **vence o pack**. Isto é rascunho alinhado ao Pack pós-retorno 27/07.
 
 | # | Gancho com conteúdo | Quem age se idle | Ação concreta |
 | - | ------------------- | ---------------- | ------------- |
-| 1 | **B1** — amanhã: fica / 2º ping / move (Valk tem preferência de discrição) | Valk | Propõe horário + opção preferida em **fala** |
-| 2 | **B2** — resposta de **Steel** ou **Sparrow** (NPCs · §3.3) | Mundo / rádio | Resposta útil **ou** silêncio com custo — não jargão solto “ACK Sparrow” |
-| 3 | Lira/Sasha — abertura residual **com fala** | Lira (Sasha reage) | 1 pergunta ou limite audível; sem murmúrio vazio |
+| 1 | Relógio do ad (~3 dias) | Mundo / fixer | Nota de tempo ou rumor leve |
+| 2 | Residual **Sparrow** / **Steel** (NPCs · §3.3) | Mundo / rádio | Resposta útil **ou** silêncio com custo |
+| 3 | Pack rotina / E019 / residual Sasha-Lira | Lira / Pack | 1 pergunta prática audível |
 
 ---
 
@@ -142,7 +142,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 | ------ | -------------- |
 | Pack / casas / Node / olaria | Autonomia crescente; Ryan pode voltar depois de NC |
 | Biotechnica (E001/E006) | Latente |
-| Raffen (E008) | Heat residual, não chase ativo no cânion |
+| Raffen (E008) | Heat residual, não chase ativo |
 | Crew / polycule / NC | Reencontros **após** E015 / crew montada; fases **opcionais** ([polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)) |
 | Doc Moreau (E011) | Visita com Valk em NC; lore pesado / BD 7 anos **bloqueado** até condições (ficha Doc) |
 | Latentes / procedural | Pista sob crisis — [gatilhos](../fichas/notas_narrador/ryan_gatilhos_memorias.md); soft [ideas_concepts](../ideas_concepts/README.md) |
@@ -164,67 +164,23 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ---
 
-## 7. Batidas-modelo relacionais (estado 018 — SHOW)
+## 7. Batidas-modelo relacionais (estado 019 — SHOW)
 
 > **Uso:** quando o PC abre espaço ou idle relacional. **1 batida por bloco**, não as três de uma vez.  
 > Valk **não** resume o progresso das outras — elas **mostram**.  
 > Ambientação de lugar: [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md).
 
-### 7.0 Estado emocional (SoT curto pós-cena Sasha / mirante)
+### 7.0 Estado emocional (SoT curto pós-019)
 
 | Quem | Onde está na cabeça | O que já aconteceu | Próximo passo orgânico |
 | ---- | ------------------- | ----------------- | ---------------------- |
-| **Valk** | Protege ritmo; ciúme leve mas confia; quer Ryan + plano de manhã | Viu Ryan feliz com a ideia das duas; clarificou “gosta do Pack ≠ romance” | Cobra decisão 25/07; residual carinho **com** conteúdo |
-| **Lira** | Mais aberta; olaria; Vespa; curiosidade sem pressa | Conversas 017; assobio na caça; menos cena densa na 018 | **Fala própria** (não só “solta” no relatório da Valk) |
-| **Sasha** | Medo de abandono; gosta do que Ryan fez; não prometeu NC | Cena aves: “mais tempo”, “não some sem avisar”, NC “eu penso” | **Residual** (distância/ajuda/silêncio) — não sumir da trama |
+| **Valk** | Acordo comunicação ops em vigor; relação reforçada | Viagem industrial; conversa explícita ops; intimidade | Downtime Pack; cobra plano se idle |
+| **Lira** | Residual positivo; aberta a novas saídas | Overwatch cooperativa; “foi bom / chama de novo” | **Fala própria** se em cena |
+| **Sasha** | Residual positivo; “não some sem avisar” mantido | Viagem; despedida calorosa; perto no refeitório | Residual (ajuda/distância) — não sumir |
 
-### 7.1 Modelo **Lira** (abertura com voz)
+### 7.1–7.4
 
-**Gatilho:** idle ≥2 · café/fogo · menção a Pack/drone/amanhã · Ryan sozinho perto dela.
-
-**Fazer (exemplo de forma, não script literal):**
-- 1–2 falas **audíveis** com pedido ou observação concreta (Vespa, olaria, “dorme cedo?”, “amanhã a gente move?”).
-- 1 gesto (assobio, sentar mais perto, sorriso de canto) **ligado** à fala.
-- Deixar **gancho** para Ryan responder em 1 linha.
-
-**Não fazer:** murmúrio inaudível; só reagir ao sorriso dele; Valk explicar que “ela está mais solta”.
-
-**Gancho típico pós-batida:** pergunta dela no ar **ou** escolha prática (vigia / sono / ajudar no Mule).
-
-### 7.2 Modelo **Sasha** (residual pós-cena forte)
-
-**Gatilho:** ≤2 turnos após batida emocional · fogueira · preparo de saída · Ryan passa perto.
-
-**Fazer:**
-- **Não** repetir o monólogo das aves.  
-- 1 residual: ajuda prática, distância calibrada diferente, frase curta (“Ainda não prometi nada sobre NC” / “Só… avisa se for sumir”) **ou** silêncio **ativo** (trabalha perto sem olhar).  
-- Se idle longo: ela confirma perímetro **e** 1 linha que lembra o medo de perda sem drama.
-
-**Não fazer:** sumir do bloco; virar romance forçado; Valk traduzir o sentimento dela.
-
-**Gancho típico:** ela espera resposta **ou** segue trabalhando deixando espaço — Ryan pode falar ou respeitar.
-
-### 7.3 Modelo **Valk** (vínculo + arco, sem TELL)
-
-**Gatilho:** intimidade · mirante · pós-conversa com as duas · manhã de decisão.
-
-**Fazer:**
-- ≤2 linhas de corpo + **1 fala com delta**: plano (horário/ping/move), limite, humor, medo, ou pergunta sobre o que ele *não* resolveu (Sasha/canal).  
-- Se falar das duas: **no máximo 1 meia-frase**, e em seguida **elas** aparecem ou a conversa volta para o casal/decisão.  
-- Preferir: “Amanhã às quatro. Eu dirijo o primeiro trecho.” em vez de “A Lira está solta e a Sasha segura.”
-
-**Não fazer:** eco longo de abraço; status report do polycule implícito; plateia.
-
-**Gancho típico:** decisão com horário **ou** convite (“fica mais um pouco / volta pro Mule”).
-
-### 7.4 Como combinar com ambiente e ops
-
-| Situação | Ordem na resposta |
-| -------- | ----------------- |
-| **Chegada a local novo** | Bloco AMBIENTE → 1 batida NPC/arco → gancho |
-| **Mesmo acampamento + relacional** | Delta fala/gesto (§7.x) → 0–1 linha ambiente se mudou → gancho |
-| **Ops (ping, caça, viagem)** | Resultado primeiro → 1 residual relacional se couber → gancho |
-| **Idle sem PC puxar** | Default §3.2 **usando modelos §7** (não cantil/fogo sozinhos) |
+Modelos Lira / Sasha / Valk e combinação com ambiente: manter lógica 018 (SHOW, 1 batida, sem TELL). Ver histórico em sessões 017–019.
 
 ---
 
@@ -232,5 +188,5 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 - [context_pack_atual.md](../logs/context_pack_atual.md) · [event_queue.md](../event_queue.md) · [board_campanha.md](board_campanha.md)  
 - [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md) · [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · [npc_agencia_cena.md](../sistema/npc_agencia_cena.md)  
-- [sessao_resumo_017.md](../logs/sessao_resumo_017.md)  
+- [sessao_resumo_019.md](../logs/sessao_resumo_019.md)  
 - Soft longo prazo: [ideas_concepts/README.md](../ideas_concepts/README.md) (não boot)
