@@ -3,7 +3,7 @@
 **Nome / como chamar:** **Lira** (sem sobrenome canônico no SoT)  
 **Tipo:** Membro do Pack Nômade (jovem) · assistente / incursões  
 **Facção / contexto:** Pack Badlands  
-**Status:** Ativo · na viagem com Ryan/Valk/Sasha (E015, pós-018)
+**Status:** Ativo · Pack (retorno 27/07 pós-viagem E015)
 
 > **Pessoa (NPC do Pack).** Não é crew NC. Não confundir com Solos da crew.
 
@@ -35,10 +35,11 @@
 | Jun/2026 | Tenta se aproximar de Valk enquanto Ryan se integra ao pack; tensão social leve com Sasha (ambas orbitam Valk). |
 | 23/06/2026 | **Incidente 002:** Não esteve na limpeza silenciosa; repercussão por histórias. Depois ajudou Valk a acalmar o grupo (Sasha ficou mais abalada). |
 | Pós-Raffen | Mantém cautela em relação ao “mecânico bonzinho” vs operador; admiração misturada com medo, como boa parte do pack. |
+| 24–27/07/2026 (018–019) | Viagem com Ryan/Valk/Sasha (industrial + retorno). Em 019: overwatch com Phantom (cooperativa), despedida positiva (“A gente foi. E foi bom. Quando tiver de novo, chama.”), residual aberto a novas saídas. |
 
 ## Relação com a crew
 
-- **Ryan:** Respeito pelo que faz pelo pack + medo do lado soldado; evita provocar, mas não some.
+- **Ryan:** Respeito pelo que faz pelo pack + medo residual do lado soldado; **019:** residual positivo claro da viagem — cooperativa no overwatch, aberta a novas saídas quando chamada.
 - **Valk:** Interesse romântico/social em construção; aliada em momentos de tensão no acampamento.
 - **Sasha:** Colega jovem do pack; competição leve pela atenção de Valk.
 
