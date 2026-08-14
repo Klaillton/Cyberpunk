@@ -3,58 +3,38 @@
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
 **Não é o tier-0** — use primeiro `logs/context_pack_atual.md`.  
-**Última atualização:** ~26 de Julho de 2026 (sessão 018)
+**Última atualização:** ~27 de Julho de 2026 (sessão 019)
 
 ---
 
 ## 1. Situação Atual
 
-**Última verificação:** ~26/07/2026
+**Última verificação:** ~27/07/2026 (noite)
 
 **Resumo:**
 
-- Viagem multi-dia Badlands → **borda NC** com Valk, Lira, Sasha (Mule).
-- Plano: **zona industrial abandonada** → pesquisa Agent agora → ad amanhã (condicional).
-- **Lina “Sparrow” Park** (NPC): residual sem resposta (B2 atrasado). **Marcus “Steel” Rivera** mudo. Kaz off-screen.
+- **Pack Badlands** — retorno da viagem industrial (borda NC).
+- Ad anônimo no ar (100 ed/dia; pacote a cada 3 dias). Aguardando respostas.
+- **Lina “Sparrow” Park** (NPC): residual sem ACK. **Marcus “Steel” Rivera** mudo. Kaz off-screen.
+- **Ryan × Valk:** acordo de comunicação ops fechado (019). Intimidade reforçada.
+- **Sasha / Lira:** residual positivo da viagem 019.
 - Pack: drones Condor/Corujas, Node, casas (F11), E019 em background.
-- Reputação Pack alta (sem delta 018).
 
 ---
 
-## 2. Relação com Lena "Valk" Kane
+## 2. Prioridades
 
-**Última verificação:** ~26/07/2026
-
-**Resumo:**
-
-- Consolidada; atrito 018 sobre ops solo (ela recusou isolamento).
-- Reconciliação parcial; seguem juntos no plano em grupo.
-- **F15** ativo.
+1. Relógio do ad (~3 dias).  
+2. Residual Sparrow / rede NC.  
+3. Downtime Pack / E019 se puxar.
 
 ---
 
-## 3. Nível de Heat
+## 3. Regras rápidas
 
-**Heat Global:** Média (Raffen residual; aproximação NC discreta). Sem delta formal 018.
-
----
-
-## 4. Eventos Pendentes
-
-- **E015** — Industrial + pesquisa + B2 canal + rede NC
-- **E011** Doc Moreau · **E019** olaria · **E012** casas · E007 Node · E008 Raffen
-- Ad amanhã (condicional)
+- F03 Warden terrestre · F15 Valk não “herói” · F18 Ruleset 1.3.0 · F20 Sparrow/Steel = NPCs  
+- Motor: sem eco · delta ≥60% · SHOW relacional
 
 ---
 
-## 5. Localização
-
-- **Local:** Badlands / borda NC — zona industrial (chegada)
-- **Data:** ~26/07/2026 tarde–noite
-- **Prioridade:** AMBIENTE industrial + B2 (resposta Sparrow/Steel **como pessoas**) + pesquisa
-
----
-
-## Referências
-
-- [Board](../board/board_campanha.md) · [Context pack](../logs/context_pack_atual.md) · [Sessão 018](../logs/sessao_resumo_018.md) · [Arco](../board/arco_ativo.md)
+**Referências:** [Context pack](../logs/context_pack_atual.md) · [Board](../board/board_campanha.md) · [Sessão 019](../logs/sessao_resumo_019.md)
