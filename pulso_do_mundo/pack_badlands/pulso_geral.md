@@ -1,8 +1,8 @@
 # Pulso do Pack - Eventos Off-Screen (Geral)
 
 **Pack:** Pack Nômade de Badlands (acampamento atual)  
-**Última atualização:** 21 de Julho de 2026 (sessão 015; backfill auditoria)  
-**Contexto atual:** Condor + Corujas **operacionais** (demo 20/07). Casas: E014 produção ok; revelação pública adiada (E012). Cerca concluída. Ryan+Valk planejam NC (E015). Modelo 3D base militar coletado (21/07).
+**Última atualização:** 27 de Julho de 2026 (sessão 019; gap B1)  
+**Contexto atual:** Ryan+Valk **de volta** ao Pack (~27/07 noite). Ad anônimo no ar (E015). Condor + Corujas operacionais. Casas: E014 ok; revelação pública adiada (E012). Cerca concluída. E019 olaria em background.
 
 **Procedimento:** [sistema/pulso_procedimento.md](../../sistema/pulso_procedimento.md) — **1 rolagem d100 por linha, por dia in-game.**
 
@@ -14,7 +14,7 @@ _(Remover quando resolvido. Cada um concede +1 rolagem extra em linhas de impact
 
 - **E012 / F11** — Revelação **pública** das casas ainda adiada (+1 Reyes / Social até anúncio ao pack geral). E014 (produção) já resolvido.
 - **Drones públicos** (Condor/Corujas) — pack animado (+1 Social / Vida diária se Ryan ausente).
-- **E015** — Possível saída Ryan+Valk (ainda não anunciada) — não catalisa até rumor público.
+- **E015** — Viagem encerrada (retorno 27/07). Residual Sparrow/ad = off-screen NC, **não** catalisa Pack até rumor público.
 
 ---
 
@@ -55,6 +55,7 @@ _(Registrar com data in-game. Arquivar após 5 entradas — ver procedimento.)_
 - **16–20/07/2026 — GAP B1 (sem pulso formal):** dias da sessão 012 sem ciclos d100. Estado off-screen **não simulado por rolagem**; fatos canônicos vêm de [sessao_resumo_012](../../logs/sessao_resumo_012.md) (torre, construção drones, demo 20/07, decisão NC).
 - **20→21/07 (sessão 013):** 1 ciclo de pulso **marcado como pendente** nos resumos 013/014 — **ainda sem log** `pulso_20260721.md`. Ao narrar manhã 22/07 ou novo dia, rodar d100 e registrar.
 - **21/07 (014–015):** mesmo dia in-game; sem novo ciclo diário.
+- **22–27/07/2026 — GAP B1 (sem pulso formal):** sessões 016–019 sem ciclos d100. **Não** inventar rolagem retroativa. Estado derivado dos resumos: Pack em rotina estável; Ryan+Valk+Sasha+Lira ausentes 24–27 (viagem industrial); retorno limpo 27/07 noite; **sem evento local relevante**. Retomar d100 no próximo amanhecer (~28/07).
 
 ---
 

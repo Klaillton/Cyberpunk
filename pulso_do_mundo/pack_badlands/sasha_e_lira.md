@@ -1,6 +1,6 @@
 # Pulso - Sasha e Lira
 
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 27 de Julho de 2026 (sessão 019)
 **Escopo:** Badlands — jovens do pack.
 
 ## Motivações Atuais
@@ -35,6 +35,7 @@
 - **03/07/2026 (almoço)** — Sentaram perto de Valk; conversa leve sobre rotina no deserto (água, turnos, calor) — sem flerte com Ryan.
 - **03/07/2026 (tarde)** — Fofoca velada entre veteranas: “as meninas parecem sinceras agora” em relação à aproximação com Valk.
 - **14/07/2026** — Observaram “desfile” Ryan/Valk no refeitório pós-apresentação Reyes.
+- **24–27/07 (018–019)** — Viagem com Ryan/Valk (industrial + retorno). Residual positivo: Sasha manteve “não some sem avisar”; Lira “foi bom / chama de novo”. Ambas no Pack (27/07 noite).
 
 ## Relação com Valk
 

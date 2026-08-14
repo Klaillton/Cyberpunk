@@ -104,7 +104,7 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 | Atualização pós-sessão (manual) | [como_atualizar_arquivos.md](como_atualizar_arquivos.md) |
 | Abrir chat novo | Colar prompt de `logs/handoff_atual.md` (tier-0 = context pack + AGENDA + Motor de cena) |
 
-- Padrão resumo: `logs/sessao_resumo_XXX.md` (nº em `registro_arquivos.md`; próximo: **011**)
+- Padrão resumo: `logs/sessao_resumo_XXX.md` (nº em `registro_arquivos.md`; próximo: **020**)
 - **Nunca** commit/push sem confirmação explícita do jogador
 - Sugira resumo/refresh quando chat longo (~80–100 msgs) ou confusão de estado
 
@@ -138,7 +138,7 @@ Sempre mostre mudanças propostas antes de aplicar (playbook C passo 5–6). Atu
 | Resumo rápido   | `sistema/dashboard_contexto.md` (não substitui context pack)                         |
 | Personagens     | `relacionamentos/mapa_relacional_geral.md`                                           |
 | Protagonista    | `fichas/techie - ryan_wireghost_voss.md` + `relacionamentos/ryan_relacionamentos.md` |
-| Histórico       | `logs/sessao_resumo_010.md` (último)                                                 |
+| Histórico       | `logs/sessao_resumo_019.md` (último)                                                 |
 | Novo chat       | `logs/handoff_atual.md` + `novo_chat_procedimento.md`                                |
 
 ---
@@ -154,4 +154,4 @@ Ryan (protagonista), Valk, Alex, Reina, Kaz, **Stitch** (Stephania), Jax, **Echo
 - [Registro](registro_arquivos.md) · [Comandos](comandos_jogador.md) · [Fatos duros](fatos_duros.md) · [Diretrizes IA](diretrizes_ia.md)
 - [README](../README.md) · [Como Atualizar](como_atualizar_arquivos.md) · [Novo Chat](novo_chat_procedimento.md) · [Context pack](../logs/context_pack_atual.md)
 
-**Última atualização:** 13 de Julho de 2026
+**Última atualização:** 14 de Agosto de 2026

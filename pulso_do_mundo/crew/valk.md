@@ -1,6 +1,6 @@
 # Pulso - Lena "Valk" Kane
 
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 27 de Julho de 2026 (sessão 019)
 **Escopo:** Acionar com Ryan nas **Badlands** (presente no acampamento).
 
 > **Nota:** Alex, Reina e Kaz **não** estão nas Badlands — menções a eles = evento futuro ou mensagem remota.
@@ -41,6 +41,7 @@
 - **10/07** — Scav containers com Ryan/Rusty/Scout.
 - **14/07** — Liderou apresentação Reyes com Tio Gringo; “desfile” no refeitório com Ryan; episódio “herói solitário” na oficina/depósito (prometeu não repetir; reconciliaram).
 - **15/07 (manhã)** — Entregou **esboço de plano** da caçada aves (E013) a pedido de Ryan.
+- **26–27/07 (019)** — Viagem industrial + retorno Pack. Atrito ops 018 resolvido; **acordo de comunicação** (ele dá plano mínimo; ela pergunta antes de subir o tom). Intimidade reforçada.
 
 ## Relação com Ryan (visão atual)
 

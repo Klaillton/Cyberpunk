@@ -1,6 +1,6 @@
 # Economia Persistente
 
-**Última atualização:** 2026-08-07 (eddies explícitos · Ruleset 1.2.0)
+**Última atualização:** 2026-08-14 (contrato ad anônimo · sessão 019)
 
 > **Dinheiro / macro** = seções abaixo.  
 > **Micro-recursos** = [Atores · Estoque · Ryan mínimo](#atores-produtores--consumidores).  
@@ -13,7 +13,7 @@
 | ---- | -------------- | ----------- |
 | **Eddies (eb) em mãos** | **1.500–4.000 eb** *(estimado · médio-baixo)* | **Não** era número canônico antes de 2026-08-07. Fixar valor exato no Finalizar quando o jogador quiser. Trabalhou no Pack por hospedagem, não por salário alto. |
 | Dívidas | Nenhuma registrada | — |
-| Contratos pendentes | Nenhum | Kaz / jobs futuros = E005 |
+| Contratos pendentes | **Ad anônimo (E015)** — 100 ed/dia | Fixer 2º escalão; pacote de respostas a cada **3 dias**; renovável. Contratado ~27/07 (019). **Ainda não debitado** |
 | Custos operacionais | Baixos no Pack | Hospedagem × trabalho técnico |
 | Lifestyle atual | Pack (subsistência + oficina) | Em NC: ver [Lifestyle](#lifestyle-atalho-red) |
 
@@ -46,7 +46,7 @@ Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × dis
 - A atualização do Mule foi feita sem custo direto para Valk (presente).
 - O Pack está ganhando autonomia técnica; time de produção conhece o projeto de casas modulares (aguarda aprovação Reyes para revelação geral).
 - **Badlands Node** e destilaria podem reduzir dependência externa e gerar excedente.
-- Não há dívidas ou contratos pendentes registrados no momento.
+- Dívidas: nenhuma. Contrato ativo: ad anônimo 100 ed/dia (pacote ~3 dias) — ver tabela acima; 1º débito ainda pendente.
 
 **Possíveis Futuros Impactos Econômicos:**
 
