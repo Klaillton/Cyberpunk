@@ -153,24 +153,52 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 
 ## Skills
 
-**Skills Principais:**
+**Fonte:** Roll20 (ficha original) + esta ficha. Onde os dois divergiam, **média inteira** (Evasion 5/6 → **6**).  
+**Complemento de mesa (teto baixo):** só o que o loadout/canon já usava e não estava em nenhum dos dois — não é level-up.
 
-- Cybertech: 8
-- Basic Tech: 7
-- Electronics/Security Tech: 7
-- Weaponstech: 6
-- Streetwise: 6
-- Persuasion: 6
-- Human Perception: 6
-- Athletics: 6
-- Shoulder Arms: 5
-- Perception: 6
-- Evasion: 5
-- Martial Arts: 4
-- Performance: 4 (estilo rítmico / movimentos sincronizados)
-- Beatbox: 3 (hobby separado)
+### Técnica
 
-**Linguagens:** Streetslang 4 + Português (origem brasileira).
+| Skill | Nível | Skill | Nível |
+| ----- | ----- | ----- | ----- |
+| Cybertech | 8 | Basic Tech | 7 |
+| Electronics/Security Tech | 7 | Air Vehicle Tech | 6 |
+| Weaponstech | 6 | Land Vehicle Tech | 5 |
+| First Aid | 4 | Sea Vehicle Tech | 4 |
+
+### Combate / corpo
+
+| Skill | Nível | Skill | Nível |
+| ----- | ----- | ----- | ----- |
+| Athletics | 6 | Evasion | 6 |
+| Shoulder Arms | 5 | Stealth | 4 |
+| Handgun | 4 | Martial Arts | 4 |
+| Melee Weapon | 3 | | |
+
+### Percepção / cabeça
+
+| Skill | Nível | Skill | Nível |
+| ----- | ----- | ----- | ----- |
+| Perception | 6 | Deduction | 4 |
+| Tracking | 2 | Library Search | 2 |
+| Conceal/Reveal Object | 2 | Concentration | 3 |
+| Wilderness Survival | 2 | | |
+
+### Social / performance
+
+| Skill | Nível | Skill | Nível |
+| ----- | ----- | ----- | ----- |
+| Streetwise | 6 | Persuasion | 6 |
+| Human Perception | 6 | Performance | 4 |
+| Beatbox | 3 | | |
+
+**Linguagens:** Streetslang 4 · Português (nativo / origem brasileira).
+
+**Notas de mesa:**
+- **Air Vehicle Tech 6** cobre Condor / Corujas / Vespas (manutenção e voo de drone). **Não** é Pilot Air Vehicle.
+- **First Aid 4** é campo; cirurgia/paramédico continuam com Stitch / Warden / Doc.
+- **Stealth 4** é o Roll20. Incursões limpas (001/002/torre) foram prep + drones + plano — não justificam Stealth 6+.
+- **Handgun 4** e **Melee Weapon 3** fecham o loadout (Vanguard / facas / Shadowblades em corpo). CQC “de forma” continua em Martial Arts 4.
+- **Beatbox 3** é hobby (não é skill core); Performance 4 é o rítmico em cena.
 
 ## Role Ability: Maker
 

@@ -148,13 +148,7 @@ HISTÓRICO: Scavs limpas, containers, sem contato hostil — intacto.
 | Solo Combat Awareness (Jax/Reina) | 07 resumo — **ainda leve** (sem track de pontos por cena na ficha) |
 | Operator / Credibility | 07 resumo — ok para mesa |
 | Medicine ranks detalhados | 03+07 — ok MVP |
-| Stealth skill na ficha Ryan | **Gap:** ficha não lista Stealth explicitamente; 06 sugere untrained ou completar ficha |
-
-```text
-OBSERVAÇÃO: Considerar adicionar Stealth (DEX) na ficha Ryan no próximo Finalizar
-se o jogador aceitar (ex. 5–6). Até lá: DEX + 1d10 untrained ou Athletics situacional.
-HISTÓRICO: Ops furtivas 001–016 não mudam.
-```
+| Stealth skill na ficha Ryan | **Fechado:** Stealth **4** (Roll20). Ops furtivas 001–016 = prep + drones, sem retcon. |
 
 ### 3.4 Ficha Ryan coerente com core?
 

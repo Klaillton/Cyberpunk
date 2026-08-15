@@ -41,14 +41,23 @@ Combate: ver [04_armas](04_armas.md). Craft: [08_techie](08_techie.md). Veículo
 | Cybertech | 8 | Chrome, drones |
 | Basic Tech | 7 | Fabrication, reparo |
 | Electronics/Security Tech | 7 | Jam, security, EW |
+| Air Vehicle Tech | 6 | Vespas / Condor / Corujas (não é Pilot) |
 | Weaponstech | 6 | Armas custom |
+| Land Vehicle Tech | 5 | Mule / oficina |
 | Shoulder Arms | 5 | DMR / Sniper / Breaker |
+| Handgun | 4 | Vanguard |
 | Athletics | 6 | Shadowblades arremesso, movimento |
-| Evasion | 5 | Defesa |
+| Evasion | 6 | Defesa |
+| Stealth | 4 | Infiltração; ops limpas = prep + drones |
+| Melee Weapon | 3 | Facas / Shadowblades em corpo |
+| Martial Arts | 4 | CQC de forma |
+| First Aid | 4 | Campo; sem Paramedic/Surgery |
 | Perception | 6 | Recon |
+| Deduction | 4 | Ler cena / plano |
 | Streetwise / Persuasion / Human Perception | 6 | Social |
-| Martial Arts | 4 | CQC |
-| Stealth | *(se não listada: DEX untrained ou Athletics situacional — preferir completar ficha)* | House stealth |
+| Tracking / Library Search / Conceal | 2 | Utilitário baixo |
+| Concentration | 3 | Hiperfoco / programação |
+| Wilderness Survival | 2 | Badlands |
 
 Valores oficiais: [ficha Ryan](../../fichas/techie%20-%20ryan_wireghost_voss.md).
 
