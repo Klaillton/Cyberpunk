@@ -4,7 +4,7 @@
 **Não é tier-0 completo** — o narrador lê sob demanda quando a cena estagna ou o arco avança.  
 **Tier-0:** [context_pack_atual.md](../logs/context_pack_atual.md) (1 linha aponta para cá).  
 **Inventário longo prazo:** [event_queue.md](../event_queue.md).  
-**Atualizado:** ~27/07/2026 (pós-019) · sessão vigente **020**
+**Atualizado:** ~29/07/2026 (pós-020) · sessão vigente **021**
 
 ---
 
@@ -78,10 +78,10 @@
 | Campo | Valor |
 | ----- | ----- |
 | **ID** | E015 (+ E005 latente, E011 no pacote NC) |
-| **Fase** | **Ad no ar + retorno Pack** — pesquisa 019 feita; ad anônimo ativo; residual **Lina Park** sem ACK (B2 parcial); **Marcus Rivera** mudo |
-| **Local do PC** | Pack Badlands (retorno 27/07) |
-| **Objetivo do arco** | Rede via contatos Sparrow/Steel (NPCs) → Kaz; ad coletando respostas; Valk junto; **sem** ops solo sem extração; acordo comunicação 019 |
-| **Fora de foco (1 linha)** | Pack (Node, casas, olaria) roda sem Ryan · BT latente · Raffen residual |
+| **Fase** | **Ad no ar + coleta preparada** — módulo de sinal Condor pronto (020); janela 30/07 15h–17h; residual **Lina Park** sem ACK (B2 parcial); **Marcus Rivera** mudo |
+| **Local do PC** | Pack Badlands (29/07 tarde) |
+| **Objetivo do arco** | Rede via contatos Sparrow/Steel (NPCs) → Kaz; ad coletando respostas; coleta via Condor isolado; Valk junto; **sem** ops solo sem extração; acordo comunicação 019 |
+| **Fora de foco (1 linha)** | Pack (Node, casas, olaria) roda sem Ryan · BT latente · Raffen residual · ideia bola-assistente Reyes (tempo livre) |
 
 ### 3.1 Batidas possíveis (ordem flexível)
 
@@ -93,12 +93,13 @@
 | B4 | **Entrada / borda NC** | rota definida | Heat leve, escolha de entrada, não dump de plot |
 | B5 | **Rede NC** | contato ok | Kaz / intermediário / Doc Moreau (E011) / crew |
 | B6 | **Assunto pessoal Ryan** | em NC | sem fechar Pack; 1–2 cenas, não monólogo eterno |
+| B7 | **Coleta Condor** | 30/07 15h–17h | Pacote recebido / falha / silêncio útil |
 
 ### 3.2 Default se idle (PC não puxa)
 
 Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
-1. **Valk** fecha plano de manhã: 1 preferência + 1 alternativa (fica / ping / move) com horário.  
+1. **Valk** fecha plano de manhã: 1 preferência + 1 alternativa (teste módulo / ajustes / espera) com horário.  
 2. **Lira** faz **1 pergunta audível** (drone, o que fazem amanhã, olaria no Pack) — sem murmúrio vazio.  
 3. **Off-screen §3.3:** 1 batida de **contato** (Steel / Sparrow / Kaz) **ou** avanço de relógio.  
 4. Só então micro-logística (fogo, água, sono) — **nunca** sozinha como “delta”.
@@ -109,9 +110,9 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 | ----------- | ---- | ------------------ | ---------------------------- | ------- | ----------------- | --------------- |
 | **Kaz “The Broker”** | Night City, **escondido** | Montando crew futura | Não é alvo do ping | Dias | Via intermediário / B5 | Ficha crew |
 | **Marcus “Steel” Rivera** ([ficha](../fichas/npc/marcus_steel_rivera.md)) | NC | OPSEC / job / favores | Ping `RVW…` em fila ou risco | Relógio estourou → **019** | Burst, resposta, “depois”, silêncio com custo | **Pessoa**, não sistema; ≠ Echo Rivera |
-| **Lina “Sparrow” Park** ([ficha](../fichas/npc/lina_park.md)) | NC | OPSEC / fila — residual fraco **sem ACK** (018–019) | Silêncio deliberado registrado 019 | **Aberto** (pacote ad ~3d) | Resposta dela, “não agora”, ou residual morre com custo | **Pessoa** (handle Sparrow); **não** drone/sistema |
+| **Lina “Sparrow” Park** ([ficha](../fichas/npc/lina_park.md)) | NC | OPSEC / fila — residual fraco **sem ACK** (018–020) | Silêncio deliberado registrado 019 | **Aberto** (pacote ad ~agora) | Resposta dela, “não agora”, ou residual morre com custo | **Pessoa** (handle Sparrow); **não** drone/sistema |
 | **Crew NC** (Alex, etc.) | NC (off) | Vida normal / E004 latente | Fora do ping atual | Só se B5 ou reencontro | Cena ou boato | Não puxar sem gancho |
-| **Pack** (Reyes, Tio Gringo, Node) | Badlands | Rotina + E019 em discussão lenta | Ryan saiu | Pulso diário se dia avança | Mensagem só se canal Pack aberto | Background; não compete com E015 na cena |
+| **Pack** (Reyes, Tio Gringo, Node) | Badlands | Rotina + E019 em discussão lenta | Ryan presente | Pulso diário se dia avança | Mensagem só se canal Pack aberto | Background; não compete com E015 na cena |
 
 **Nota de mestragem:** **Steel** e **Sparrow** são **NPCs humanos** com handle de rádio. A **resposta de um deles** deve existir no relógio (chegar, recusar, ou falhar de forma útil). Silêncio eterno sem custo **quebra** o L1. Não narrar “Sparrow” como modo/Agent/protocolo. Kaz **não** precisa responder ao ping.
 
@@ -126,13 +127,13 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ## 4. L0 — AGENDA sugerida (espelho; SoT da cena = context pack)
 
-> Se o pack divergir, **vence o pack**. Isto é rascunho alinhado ao Pack pós-retorno 27/07.
+> Se o pack divergir, **vence o pack**. Isto é rascunho alinhado ao Pack pós-020.
 
 | # | Gancho com conteúdo | Quem age se idle | Ação concreta |
 | - | ------------------- | ---------------- | ------------- |
-| 1 | Relógio do ad (~3 dias) | Mundo / fixer | Nota de tempo ou rumor leve |
-| 2 | Residual **Sparrow** / **Steel** (NPCs · §3.3) | Mundo / rádio | Resposta útil **ou** silêncio com custo |
-| 3 | Pack rotina / E019 / residual Sasha-Lira | Lira / Pack | 1 pergunta prática audível |
+| 1 | Teste integrado módulo + ajustes menores | Valk / Tio | Cobra teste ou pergunta se o pássaro voa amanhã |
+| 2 | Janela Condor 30/07 15h–17h + possível 1º pacote ad | Mundo / fixer | Nota de tempo ou burst de rede |
+| 3 | Residual **Sparrow** / **Steel** (NPCs · §3.3) | Mundo / rádio | Resposta útil **ou** silêncio com custo |
 
 ---
 
@@ -146,6 +147,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 | Crew / polycule / NC | Reencontros **após** E015 / crew montada; fases **opcionais** ([polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)) |
 | Doc Moreau (E011) | Visita com Valk em NC; lore pesado / BD 7 anos **bloqueado** até condições (ficha Doc) |
 | Latentes / procedural | Pista sob crisis — [gatilhos](../fichas/notas_narrador/ryan_gatilhos_memorias.md); soft [ideas_concepts](../ideas_concepts/README.md) |
+| Ideia Reyes (bola) | Conceito registrado 020; tempo livre apenas |
 
 ---
 
@@ -164,23 +166,23 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ---
 
-## 7. Batidas-modelo relacionais (estado 019 — SHOW)
+## 7. Batidas-modelo relacionais (estado 020 — SHOW)
 
 > **Uso:** quando o PC abre espaço ou idle relacional. **1 batida por bloco**, não as três de uma vez.  
 > Valk **não** resume o progresso das outras — elas **mostram**.  
 > Ambientação de lugar: [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md).
 
-### 7.0 Estado emocional (SoT curto pós-019)
+### 7.0 Estado emocional (SoT curto pós-020)
 
 | Quem | Onde está na cabeça | O que já aconteceu | Próximo passo orgânico |
 | ---- | ------------------- | ----------------- | ---------------------- |
-| **Valk** | Acordo comunicação ops em vigor; relação reforçada | Viagem industrial; conversa explícita ops; intimidade | Downtime Pack; cobra plano se idle |
+| **Valk** | Acordo comunicação ops em vigor e praticado; residual íntimo alto | Módulo construído junto; intimidade 28–29/07 | Downtime Pack; cobra teste/plano se idle |
 | **Lira** | Residual positivo; aberta a novas saídas | Overwatch cooperativa; “foi bom / chama de novo” | **Fala própria** se em cena |
 | **Sasha** | Residual positivo; “não some sem avisar” mantido | Viagem; despedida calorosa; perto no refeitório | Residual (ajuda/distância) — não sumir |
 
 ### 7.1–7.4
 
-Modelos Lira / Sasha / Valk e combinação com ambiente: manter lógica 018 (SHOW, 1 batida, sem TELL). Ver histórico em sessões 017–019.
+Modelos Lira / Sasha / Valk e combinação com ambiente: manter lógica 018–020 (SHOW, 1 batida, sem TELL). Ver histórico em sessões 017–020.
 
 ---
 
@@ -188,5 +190,5 @@ Modelos Lira / Sasha / Valk e combinação com ambiente: manter lógica 018 (SHO
 
 - [context_pack_atual.md](../logs/context_pack_atual.md) · [event_queue.md](../event_queue.md) · [board_campanha.md](board_campanha.md)  
 - [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md) · [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · [npc_agencia_cena.md](../sistema/npc_agencia_cena.md)  
-- [sessao_resumo_019.md](../logs/sessao_resumo_019.md)  
+- [sessao_resumo_020.md](../logs/sessao_resumo_020.md)  
 - Soft longo prazo: [ideas_concepts/README.md](../ideas_concepts/README.md) (não boot)
