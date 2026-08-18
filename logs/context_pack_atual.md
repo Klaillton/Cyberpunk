@@ -1,9 +1,9 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **019** · **Próxima:** **020** (`sessao_resumo_020.md`)  
+**Gerado após:** sessão **020** · **Próxima:** **021** (`sessao_resumo_021.md`)  
 **Branch:** `feature/linha-estavel`  
-**Atualizado:** ~27 de Julho de 2026 (noite) — Pack Badlands
+**Atualizado:** ~29 de Julho de 2026 (início da tarde) — Pack Badlands
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
 > **Arco + off-screen (L1):** [board/arco_ativo.md](../board/arco_ativo.md) — sob demanda / se estagnar.  
@@ -32,20 +32,20 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
 
 | Campo | Valor |
 | ----- | ----- |
-| Data in-game | **~27/07/2026** |
-| Período | Noite (Pack) |
+| Data in-game | **~29/07/2026** |
+| Período | Início da tarde (Pack) |
 | Região | **Badlands / Pack** |
-| Local específico | Pack (tenda Ryan/Valk; retorno da viagem industrial) |
+| Local específico | Pack (caminho oficina → refeitório; módulo na bancada) |
 | Facção / base local | Pack Nômade Badlands |
-| Cena / gancho | Pós-retorno; ad no ar (pacote ~3 dias); residual Lina Park sem ACK; acordo Valk em vigor |
-| Prioridade | (1) Aguardar pacote do ad (2) Residual Sparrow/Steel (3) Downtime Pack / E019 olaria se puxar |
+| Cena / gancho | Módulo de sinal Condor pronto (hardware); falta teste integrado + voo 30/07 15h–17h; ad no ar |
+| Prioridade | (1) Teste integrado módulo + voo Condor 30/07 (2) Possível 1º pacote do ad (3) Residual Sparrow |
 | Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira ainda delicado |
 
 ### Cena de abertura sugerida
 
-**Pack — noite pós-retorno.**  
-Ryan + Valk na tenda (acordo de comunicação ops fechado). Sasha/Lira com residual positivo da viagem. Ad anônimo no ar (primeiro pacote em ~3 dias). Residual de Lina “Sparrow” Park ainda sem ACK.  
-Gancho: o que Ryan faz no Pack / processa / espera.
+**Pack — tarde 29/07 ou manhã 30/07.**  
+Módulo de sinal (mochila Condor) montado e dry-fit feito. Dois ajustes menores pendentes. Janela Condor confirmada com Tio Gringo: 30/07 15h–17h. Ad anônimo no ar; primeiro pacote esperado em breve. Residual Lina Park sem ACK. Ryan + Valk com residual íntimo forte pós-020.  
+Gancho: teste integrado / ajustes finais / o que Ryan faz até a janela.
 
 ---
 
@@ -53,16 +53,16 @@ Gancho: o que Ryan faz no Pack / processa / espera.
 
 | # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
 | - | ---------------- | ---------------- | ---------------------------------------------- |
-| 1 | Ad no ar — relógio ~3 dias para primeiro pacote | Mundo / fixer | Nota de tempo ou rumor leve de rede |
-| 2 | Residual Lina Park sem ACK (silêncio deliberado registrado) | Contato NPC | 1 batida útil de silêncio/custo ou burst fraco |
-| 3 | Pack rotina / E019 olaria / residual Sasha-Lira | Pack / Lira | Lira ou Tio Gringo puxa 1 pergunta prática |
+| 1 | Teste integrado módulo + ajustes menores (costura / fluxo) | Valk / Tio | Valk cobra teste ou Tio pergunta se o pássaro voa amanhã |
+| 2 | Janela Condor 30/07 15h–17h + possível 1º pacote ad | Mundo / fixer | Nota de tempo ou burst de rede |
+| 3 | Residual Lina Park / Pack rotina | Contato / Lira | 1 batida útil de silêncio ou pergunta prática |
 
 | Campo | Valor |
 | ----- | ----- |
-| **Modo atual** | DOWNTIME / Pack |
+| **Modo atual** | DOWNTIME / Pack (preparação ops) |
 | **Turnos sem delta (estimado)** | 0 |
 | **Região / local (NOW)** | Badlands · Pack |
-| **Arco L1** | E015 (ad ativo; B2 parcial) · [arco_ativo.md](../board/arco_ativo.md) |
+| **Arco L1** | E015 (ad ativo; coleta via Condor preparada) · [arco_ativo.md](../board/arco_ativo.md) |
 
 ---
 
@@ -75,11 +75,11 @@ Gancho: o que Ryan faz no Pack / processa / espera.
 | **F04** | **Stitch** = Stephania (crew); **Doc** = Elisa Moreau (passado) |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
-| F07 | Ryan × Valk consolidados (**acordo comunicação ops 019**) |
+| F07 | Ryan × Valk consolidados (**acordo comunicação ops 019** + intimidade 020) |
 | F08 | Mule = de Valk; equipe Valk + Mule |
 | **F11** | Casas modulares — pack geral sem revelação oficial completa |
 | **L01–L03** | Pack: Reyes, Tio Gringo, Container A, time produção no segredo parcial |
-| **Novo** | Lira + Sasha: residual positivo 019 (viagem); Sasha “não some sem avisar”; Lira aberta a novas saídas |
+| **Novo** | Lira + Sasha: residual positivo 019 mantido |
 | **F18** | Ruleset **v1.3.0** · 017+ · sem retcon 001–016 |
 | **F19** | Agents: Vault / Profissional / Honeypot / Arbiter/Watchdog ≠ Warden |
 | **F20** | **Sparrow** = Lina Park (NPC); **Steel** = Marcus Rivera (NPC) — **não** sistemas |
@@ -92,29 +92,29 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 | ID | Uma linha |
 | -- | --------- |
-| **E015** | Ad anônimo no ar (pacote ~3 dias); residual **Lina Park** sem ACK; **Marcus Rivera** mudo; Kaz escondido |
-| **E019** | Olaria/cogeração — Pack (Lira pode levar ideia) |
+| **E015** | Ad anônimo no ar; módulo Condor pronto; voo 30/07 15h–17h; residual **Lina Park** sem ACK; **Marcus Rivera** mudo; Kaz escondido |
+| **Módulo Condor** | Hardware pronto; falta Agent temporário + teste integrado + 2 ajustes menores |
+| **E019** | Olaria/cogeração — Pack (background) |
 | **E012** | Casas interno / revelação pack |
 | E007 | Badlands Node |
 | E008 | Raffen residual |
 | E011 | Doc Moreau (c/ Valk) em NC |
-| E001/E006 | BT latente |
-| Tutoria / Lira-Sasha | Residual positivo 019; ambas no Pack |
+| Ideia Reyes | Bola-assistente flutuante (conceito; tempo livre) |
 
 ---
 
-## O que acabou de acontecer (019 — 1 parágrafo)
+## O que acabou de acontecer (020 — 1 parágrafo)
 
-26–27/07: chegada industrial → pesquisa Agent (BT leak contido; Sparrow/Steel OPSEC alta) → ad anônimo no ar → overnight + intimidade → retorno Pack → conversa explícita Ryan×Valk (acordo comunicação ops) → residual positivo Sasha/Lira → noite na tenda.
+28–29/07 Pack: Ryan planejou e construiu módulo de sinal tipo mochila para o Condor (coleta anônima do pacote do ad). Tio Gringo reservou o pássaro para 30/07 15h–17h. Hardware funcional (SDR adaptado, ventilação passiva, placa reconstruída). Dry-fit ok com 2 ajustes menores. Intimidade forte com Valk (noite + manhã). Ideia de assistente flutuante para Reyes registrada como projeto futuro. Sessão fechada no caminho para o refeitório.
 
-Detalhe: [sessao_resumo_019.md](sessao_resumo_019.md)
+Detalhe: [sessao_resumo_020.md](sessao_resumo_020.md)
 
 ---
 
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · ~27/07/2026 noite · Pack Badlands · prioridade: ad (~3d) + residual Sparrow + downtime · próximo resumo: 020 · Ruleset 1.3.0
+Boot OK · ~29/07/2026 tarde · Pack Badlands · prioridade: teste módulo + voo Condor 30/07 + possível 1º pacote ad · próximo resumo: 021 · Ruleset 1.3.0
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.
