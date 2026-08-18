@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 27 de Julho de 2026 (sessão 019)
+**Última atualização:** 29 de Julho de 2026 (sessão 020)
 
 ---
 
@@ -9,7 +9,7 @@
 
 | Personagem               | Sentimento de Ryan    | Sentimento em relação a Ryan | Intensidade | Status             | Tipo                             |
 | ------------------------ | --------------------- | ---------------------------- | ----------- | ------------------ | -------------------------------- |
-| Lena "Valk" Kane         | Afeto + Confiança     | Afeto + Confiança            | Alta        | Estável (acordo 019) | Romântico / Aliada             |
+| Lena "Valk" Kane         | Afeto + Confiança     | Afeto + Confiança            | Alta        | Estável (acordo 019 + intimidade 020) | Romântico / Aliada             |
 | Alex "Specter" Kane      | Desconfiança          | Provação / Interesse         | Média       | Observando         | Potencial rival                  |
 | Reina "Bearclaw" Morales | Neutro / Cautela      | Proteção (Mãe Urso)          | Média       | Em desenvolvimento | Aliada / Irmã mais velha         |
 | Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado                   |
@@ -22,9 +22,9 @@
 
 ### Lena "Valk" Kane
 
-**Status:** Namorando (relação consolidada + acordo de comunicação ops 019)  
+**Status:** Namorando (relação consolidada + acordo de comunicação ops 019 + intimidade reforçada 020)  
 **Intensidade:** Alta  
-**Última atualização:** 27 de Julho de 2026 (sessão 019)
+**Última atualização:** 29 de Julho de 2026 (sessão 020)
 
 **Evolução conhecida:**
 
@@ -102,16 +102,26 @@
 - Intimidade forte (garagem + tenda); relação reforçada.
 - Valk **não** usa mais “herói” / “herói solitário” (**F15**).
 
+**Atualização (28–29/07 — sessão 020):**
+
+- Planejamento conjunto do módulo de sinal para o Condor (Ryan explicou o plano completo; Valk aceitou sob o acordo 019).
+- Construção do módulo (Ryan + Valk ajudando na costura/couro e testes).
+- Intimidade prolongada (noite 28→29 + manhã 29): aftercare forte, banho compartilhado, residual de carinho alto.
+- Acordo de comunicação 019 **praticado com sucesso** durante o planejamento ops.
+- Relação estável, cumplicidade reforçada.
+
 **Estado atual:**
 
 - Ryan e Valk juntos de forma estável e cumplices.
-- Acordo de comunicação operacional em vigor (019).
-- Decisão conjunta de assuntos em NC (ad no ar; aguardar pacote ~3 dias).
+- Acordo de comunicação operacional em vigor (019) e usado ativamente.
+- Intimidade 020 reforçou o residual afetivo.
+- Decisão conjunta de assuntos em NC (ad no ar; coleta via Condor preparada).
 - Valk **não** usa “herói” / “herói solitário” (**F15**).
 
 **Notas do Narrador:**
 
 - Principal delta relacional permanente da 019 = acordo de comunicação.
+- 020 reforçou a prática do acordo + residual íntimo.
 - Gatilho verbal “herói” permanece **ativo** (memória fechada); Valk evita a palavra.
 
 ---
@@ -203,17 +213,17 @@
 **Status:** Hospedagem + Integração em andamento (preparando saída)  
 **Confiança geral com o Pack:** Alta  
 **Duração prevista:** Indefinida (possível retorno)  
-**Última atualização:** 20 de Julho de 2026 (sessão 012)
+**Última atualização:** 29 de Julho de 2026 (sessão 020)
 
 **Líder do Pack:** Reyes
 
 **Estado atual:**
-Ryan e Valk integrados no Pack em downtime produtivo. Ryan: arquiteto/mentor (Node, protótipo casas, scav, drones). Drones Condor + Corujas demonstrados. Pack com autonomia crescente. Decisão de partida para Night City.
+Ryan e Valk integrados no Pack em downtime produtivo. Ryan: arquiteto/mentor (Node, protótipo casas, scav, drones, módulo de sinal Condor). Drones Condor + Corujas demonstrados. Pack com autonomia crescente. Decisão de assuntos NC via ad + coleta Condor.
 
 **NPCs relevantes do Pack:**
 
-- **Reyes** (Líder) → Confiança estratégica. Pack avançou com autonomia.
-- **Tio Gringo** (Ferreiro) → Testou Condor; mentor do time.
+- **Reyes** (Líder) → Confiança estratégica. Pack avançou com autonomia. Ideia de assistente flutuante registrada (conceito futuro).
+- **Tio Gringo** (Ferreiro) → Testou Condor; mentor do time; reservou Condor para 30/07 15h–17h.
 - **Rusty** (Garagem) → Scavs e incursões recorrentes.
 - **Scout** (overwatch) → Scavs — [ficha](../fichas/npc/scout.md). **Não** é Jax "Razor" Kane (crew NC).
 - **Mara** (Recruta) → [ficha](../fichas/npc/mara_recruit.md). Estufa com autonomia.
@@ -224,7 +234,7 @@ Ryan e Valk integrados no Pack em downtime produtivo. Ryan: arquiteto/mentor (No
 - **Crianças do Pack** → Ryan interage bem com elas (faceta mais gentil).
 
 **Notas do Narrador:**
-Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto como alguém útil, protetor e que está disposto a ensinar. A demonstração dos drones reforçou essa imagem.
+Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto como alguém útil, protetor e que está disposto a ensinar. A demonstração dos drones e o trabalho de oficina reforçaram essa imagem.
 
 ---
 
