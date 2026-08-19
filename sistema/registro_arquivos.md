@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 2026-08-14 (Finalizar sessão 019; Ruleset v1.3.0; próximo resumo **020**)
+**Última atualização:** 2026-08-18 (pós sessão 020; Ruleset v1.3.0; próximo resumo **021**)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -76,7 +76,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Auditoria combates pré-017 (só leitura) | `plans/auditoria_combates_canonicos.md` | F18 — **não** retcon |
 | Agents OPSEC Ryan (Vault/Honeypot/…) | `plans/agent_security.md` | F19 · `ryan_loadout` · ≠ Warden drone |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `019`). Próximo número disponível: **020**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `020`). Próximo número disponível: **021**.
 
 ---
 

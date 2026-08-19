@@ -2,7 +2,7 @@
 
 **Finalidade:** Hub central de personagens e relações. Use este arquivo para localizar rapidamente onde buscar contexto sobre cada NPC da campanha.
 
-**Última atualização:** 12 de Agosto de 2026 (Sparrow/Steel = NPCs nomeados; E015)
+**Última atualização:** 29 de Julho de 2026 (pós-020; crew NC off-screen)
 
 ---
 

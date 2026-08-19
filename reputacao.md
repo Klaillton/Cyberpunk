@@ -1,6 +1,6 @@
 # Sistema de Reputação
 
-**Última atualização:** 01 de Agosto de 2026 (Echo / Void List)
+**Última atualização:** 29 de Julho de 2026 (pós-020; Sasha/Lira pós-viagem)
 
 **Vazamentos da Echo** (reputação anti-corp / rua vs Heat): [sistema/echo_exposicao.md](sistema/echo_exposicao.md).  
 Marca pública: **Void List**. Preferir **função** (“a solo”, “o tech”) + marca — não rostos/handles. Heat individual ≠ Heat Global ([heat.md](heat.md)).
@@ -22,7 +22,7 @@ Marca pública: **Void List**. Preferir **função** (“a solo”, “o tech”
 
 | NPC                      | Reputação | Tipo de Relação      | Notas                           |
 | ------------------------ | --------- | -------------------- | ------------------------------- |
-| Lena "Valk" Kane         | +90       | Romântica / Aliada   | Consolidada; decisão conjunta NC (E015); evita “herói” (F15) |
+| Lena "Valk" Kane         | +90       | Romântica / Aliada   | Consolidada; acordo ops 019; residual íntimo 020; F15 |
 | Alex "Specter" Kane      | -15       | Rivalidade velada    | Interesse em Valk gera tensão   |
 | Reina "Bearclaw" Morales | +30       | Protetora (Mãe Urso) | Trata Ryan como irmão mais novo |
 | Kaz "The Broker"         | +40       | Aliança profissional | Confia no potencial da crew     |
@@ -38,8 +38,8 @@ Marca pública: **Void List**. Preferir **função** (“a solo”, “o tech”
 | **Mara**                 | +38       | Recruta / Node       | Estufa e água; integração positiva |
 | **Elias**                | +35       | Recruta / Destilaria | Autonomia na refinaria |
 | **Tomas**                | +33       | Recruta / Mecânica   | Turbina/Node; monitoramento contínuo |
-| **Sasha**                | +15       | Pack / Cautela       | Admiração + medo do lado operador (Incidente 001) |
-| **Lira**                 | +22       | Pack / Aproximação   | Tentando se aproximar de Valk; ajudou pós-Incidente 002 |
+| **Sasha**                | +20       | Pack / Confiança cautelosa | Pós-viagem 019: “não some sem avisar”; despedida calorosa; ainda não fechada |
+| **Lira**                 | +28       | Pack / Cooperativa   | Pós-viagem 019: “foi bom / chama de novo”; overwatch; aberta a novas saídas |
 
 ---
 
@@ -52,6 +52,9 @@ Marca pública: **Void List**. Preferir **função** (“a solo”, “o tech”
 | 10/07 | Scav containers (E010) limpa | Pack +0 (mantém); Rusty/Scout +2 |
 | 11–14/07 | Protótipo + apresentação Reyes | Reyes/Tio Gringo/time +3–5; segredo F11 parcial |
 | 15/07 | Esboço caçada aves (E013) | Valk +3 operacional |
+| 16–20/07 | Demo Condor/Corujas | Pack +3 (já no +75) |
+| 24–27/07 | Viagem Sasha/Lira (018–019) | Sasha +5; Lira +6; residual viagem |
+| 28–29/07 | Módulo Condor (020) | Sem delta numérico; Tio/oficina estável |
 
 ---
 

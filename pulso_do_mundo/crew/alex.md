@@ -1,7 +1,8 @@
 # Pulso - Alex "Specter" Kane
 
-**Última atualização:** 03 de Julho de 2026  
-**Escopo:** **Night City / futuro** — Alex **não** está nas Badlands. Acionar só após integração da crew em NC ou via comlink/rumor.
+**Última atualização:** 29 de Julho de 2026  
+**Escopo:** **Night City / futuro** — Alex **não** está nas Badlands.  
+**Regra:** pulso de *vida* off-screen ok (Kaz, jobs, rumor). **Não** avançar romance / polycule / provocação a Ryan até a crew se reunir em NC. Soft em [ideas_concepts](../../ideas_concepts/README.md).
 
 ## Motivações Atuais
 - Se aproximar de Valk (seu interesse principal está nela).

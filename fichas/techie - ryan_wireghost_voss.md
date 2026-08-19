@@ -271,7 +271,7 @@ Antigo cliente que deve vários favores a ele. **≠** Emilia “Echo” Rivera 
 
 **Conexões importantes:**
 
-- **Lena “Valk” Kane**: Relação que passou do profissional para algo mais pessoal. Existe tensão romântica não resolvida. Ryan cuida dela de forma indireta (upgrades no veículo e no chrome).
+- **Lena “Valk” Kane**: Namoro consolidado (F07). Acordo de comunicação ops **019** (ele dá o mínimo de plano; ela pergunta antes de subir o tom). Intimidade e aftercare de rotina; residual forte pós-**020**. **F15:** ela não o chama de “herói”. Cuida dela também na oficina (Mule, módulo Condor).
 - **Alex “Specter” Kane**: Alex é provocadora com ele (especialmente quando Valk está por perto). Flerta e cutuca Ryan de propósito, mas seu interesse real é em Valk.
 - **Reina “Bearclaw” Morales**: Já se conheceram através da **Doc Moreau** (Elisa — não Stitch). Ryan não lembra dos detalhes (incluindo ter construído os cyberarms dela). **Reina sabe** e o trata com instinto protetor sem revelar a dívida em voz alta.
 

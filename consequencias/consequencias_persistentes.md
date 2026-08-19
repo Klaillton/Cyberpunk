@@ -1,6 +1,6 @@
 # Consequências Persistentes
 
-**Última atualização:** 21 de Julho de 2026 (sessão 015; backfill auditoria)
+**Última atualização:** 29 de Julho de 2026 (sessão 020)
 
 ---
 
@@ -256,6 +256,40 @@ Fim do período: peças principais quase prontas para protótipo; **scav de cont
 - **Sem delta** documentado em reputação, heat global ou economia macro.
 - **E014 (canonizado na auditoria):** Reyes **aprovou** continuar produção e capacitação; **não** houve discurso público documentado; revelação ao pack geral **adiada** (F11 parcial). Ver [event_queue.md](../event_queue.md) § E014.
 
+## 22 a 23 de Julho de 2026 - Tutoria, olaria e saída combinada (sessão 016)
+
+Tutoria de tiro/alongamento com **Sasha e Lira**. Conversa Ryan × Valk sobre limites com as duas (nenhum dos dois prioriza; hospedagem NC só se elas quiserem e souberem que é passageiro). Ideia **olaria + desidratador + cogeração** (E019) **delegada ao Pack** — Tio cauteloso, cozinha animada; nada construído. Saída combinada para **24/07** (Mule: Ryan, Valk, Sasha, Lira).
+
+**Impactos:**
+
+- E016 avança (tutoria + convite de viagem aceito: Lira sim; Sasha sim com condição de voltar junto).
+- E019 no background do Pack.
+
+## 24 a 27 de Julho de 2026 - Viagem, ad e retorno (sessões 017–019)
+
+**017:** Saída do Pack. Acampamento leve. Ping **Steel** e **Sparrow** sem ACK. Cânion.
+
+**018:** Caça; conversa densa Ryan × **Sasha** (“não some sem avisar”; NC “eu penso”). Agent: BT quieta em público; Sparrow residual sem ACK; Steel mudo. Conflito Ryan × Valk (solo vs equipe); plano industrial em grupo.
+
+**019:** Zona industrial (borda NC). Pesquisa Agent (exposição BT baixa; OPSEC Sparrow/Steel). **Ad anônimo** no ar (100 ed/dia, pacote ~3 dias). Retorno Pack 27/07. Despedida calorosa Sasha/Lira. **Acordo comunicação ops** Ryan × Valk. Residual positivo Sasha/Lira no refeitório.
+
+**Impactos:**
+
+- E015 muda de “ir a NC” para **ad à distância + retorno Pack**.
+- Residual **Lina Park** sem ACK; **Marcus Rivera** mudo — ambos off-screen NC.
+- Sasha/Lira: camada Pack, residual de viagem — **não** são substituto da crew/polycule.
+- Heat: ad anônimo **+0** documentado.
+
+## 28 a 29 de Julho de 2026 - Módulo Condor (sessão 020)
+
+Ryan explica o plano completo a Valk (acordo 019). Tio reserva Condor **30/07 15h–17h** e libera sucata. Módulo de sinal (mochila: alumínio + couro, SDR adaptado, ventilação passiva, placa reconstruída) **pronto** em hardware; falta teste integrado + 2 ajustes menores. Intimidade reforçada. Ideia de **assistente flutuante para Reyes** (E020) = conceito, sem prazo, **não apresentada**.
+
+**Impactos:**
+
+- Coleta do ad via Condor passa a ser o próximo beat operacional (E015).
+- Relação Ryan × Valk: acordo praticado + residual íntimo alto.
+- Sem delta de reputação/heat/economia (ad ainda não debitado).
+
 ---
 
 **Regras de uso deste arquivo:**
@@ -272,4 +306,4 @@ Fim do período: peças principais quase prontas para protótipo; **scav de cont
 - [Board](../board/board_campanha.md) · [Dashboard](../sistema/dashboard_contexto.md)
 - [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Facções](../relacionamentos/faccao_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- [Sessão 012](../logs/sessao_resumo_012.md) · [Sessão 015](../logs/sessao_resumo_015.md) · [Downtime](../logs/downtime_ryan.md)
+- [Sessão 012](../logs/sessao_resumo_012.md) · [Sessão 019](../logs/sessao_resumo_019.md) · [Sessão 020](../logs/sessao_resumo_020.md) · [Downtime](../logs/downtime_ryan.md)

@@ -1,5 +1,8 @@
 # Relacionamentos - Reina Bearclaw Morales
 
+**Última atualização:** 29 de Julho de 2026  
+**Estado de cena:** **Off-screen.** Reencontro (“ele não reconhece”) e qualquer romance = **depois** da crew junta em NC. Soft: [ideas_concepts/03](../ideas_concepts/03_reina_ryan.md) · [04](../ideas_concepts/04_reina_valk.md) · [polycule](crew_polycule_ryan_valk_alex_reina.md).
+
 ## Contatos e Aliados
 
 ### Elisa “Doc” Moreau (Therapy / Ripperdoc)
@@ -18,7 +21,7 @@
 
 - **Status:** Conhecido / Aliado
 - **Tipo de relação:** Proteção (estilo "Mãe Urso") + dívida emocional assimétrica
-- **Notas:** Reina conheceu Ryan através da **Doc Moreau** (Elisa). **Reina sabe** que Ryan construiu os cyberarms dela; **Ryan não lembra**. Ela carrega gratidão e instinto protetor sem cobrar o favor em voz alta. Existe potencial romântico no futuro — ver [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
+- **Notas:** Reina conheceu Ryan através da **Doc Moreau** (Elisa). **Reina sabe** que Ryan construiu os cyberarms dela; **Ryan não lembra**. Gratidão e instinto protetor **sem** revelar em voz alta — isso só vira cena no reencontro. Romance = fase posterior, opcional. Amizade com Valk **antes** de qualquer romance (princípio de `04`).
 
 ### Lena “Valk” Kane
 

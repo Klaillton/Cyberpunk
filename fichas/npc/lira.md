@@ -36,12 +36,14 @@
 | 23/06/2026 | **Incidente 002:** Não esteve na limpeza silenciosa; repercussão por histórias. Depois ajudou Valk a acalmar o grupo (Sasha ficou mais abalada). |
 | Pós-Raffen | Mantém cautela em relação ao “mecânico bonzinho” vs operador; admiração misturada com medo, como boa parte do pack. |
 | 24–27/07/2026 (018–019) | Viagem com Ryan/Valk/Sasha (industrial + retorno). Em 019: overwatch com Phantom (cooperativa), despedida positiva (“A gente foi. E foi bom. Quando tiver de novo, chama.”), residual aberto a novas saídas. |
+| 28–29/07/2026 (020) | Pack. Cumprimento no refeitório; **sem** delta novo. Residual 019 mantido. |
 
 ## Relação com a crew
 
-- **Ryan:** Respeito pelo que faz pelo pack + medo residual do lado soldado; **019:** residual positivo claro da viagem — cooperativa no overwatch, aberta a novas saídas quando chamada.
-- **Valk:** Interesse romântico/social em construção; aliada em momentos de tensão no acampamento.
-- **Sasha:** Colega jovem do pack; competição leve pela atenção de Valk.
+- **Ryan:** Respeito + medo residual do operador; **pós-viagem 019:** residual positivo claro — overwatch cooperativa, “foi bom / chama de novo”. 020 sem delta.
+- **Valk:** Aproximação ativa / tutoria; aliada em tensão no acampamento. Respeito ao namoro.
+- **Sasha:** Colega jovem do pack; competição leve pela atenção de Valk, agora mais amizade compartilhada.
+- **Camada:** Pack. **Não** é crew NC nem peça de polycule.
 
 ## Notas para o narrador
 

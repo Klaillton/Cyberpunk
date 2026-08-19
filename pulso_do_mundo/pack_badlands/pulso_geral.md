@@ -1,8 +1,8 @@
 # Pulso do Pack - Eventos Off-Screen (Geral)
 
 **Pack:** Pack Nômade de Badlands (acampamento atual)  
-**Última atualização:** 27 de Julho de 2026 (sessão 019; gap B1)  
-**Contexto atual:** Ryan+Valk **de volta** ao Pack (~27/07 noite). Ad anônimo no ar (E015). Condor + Corujas operacionais. Casas: E014 ok; revelação pública adiada (E012). Cerca concluída. E019 olaria em background.
+**Última atualização:** 29 de Julho de 2026 (sessão 020)  
+**Contexto atual:** Ryan+Valk no Pack (~29/07 tarde). Ad no ar; módulo Condor pronto; voo **30/07 15h–17h**. Condor + Corujas operacionais. Casas F11. E019 background. E020 = ideia (não apresentada).
 
 **Procedimento:** [sistema/pulso_procedimento.md](../../sistema/pulso_procedimento.md) — **1 rolagem d100 por linha, por dia in-game.**
 

@@ -3,56 +3,55 @@
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
 **Não é o tier-0** — use primeiro `logs/context_pack_atual.md`.  
-**Última atualização:** ~27 de Julho de 2026 (sessão 019)
+**Última atualização:** ~29 de Julho de 2026 (sessão 020)
 
 ---
 
 ## 1. Situação Atual
 
-**Última verificação:** ~27/07/2026 (noite)
+**Última verificação:** ~29/07/2026 (início da tarde)
 
 **Resumo:**
 
-- **Pack Badlands** — retorno da viagem industrial (borda NC).
-- Ad anônimo no ar (100 ed/dia; pacote a cada 3 dias). Aguardando respostas.
-- **Lina “Sparrow” Park** (NPC): residual sem ACK. **Marcus “Steel” Rivera** mudo. Kaz off-screen.
-- Pack: drones Condor/Corujas, Node, casas (F11), E019 em background.
-- Reputação Pack alta (sem delta 019).
+- **Pack Badlands** — oficina / refeitório. Módulo de sinal do Condor **pronto** (hardware); falta teste integrado.
+- Voo Condor **30/07 15h–17h** (Tio reservou). Ad anônimo no ar; 1º pacote esperado em breve.
+- **Lina “Sparrow” Park:** residual sem ACK. **Marcus “Steel” Rivera** mudo. Kaz off-screen.
+- Pack: Condor/Corujas, Node, casas (F11), E019 background. E020 = ideia (bola Reyes), sem prazo.
+- Reputação Pack alta (sem delta 020).
 
 ---
 
 ## 2. Relação com Lena "Valk" Kane
 
-**Última verificação:** ~27/07/2026
+**Última verificação:** ~29/07/2026
 
 **Resumo:**
 
-- Consolidada; acordo de comunicação ops **fechado** (019).
-- Atrito 018 (ops solo vs equipe) resolvido em conversa explícita.
-- Intimidade reforçada (SHOW 019).
+- Consolidada; acordo de comunicação ops **em vigor** (019) e **usado** na 020.
+- Atrito 018 resolvido. Residual íntimo forte (020).
 - **F15** ativo.
 
 ---
 
 ## 3. Nível de Heat
 
-**Heat Global:** Média (Raffen residual; aproximação NC discreta). Sem delta formal 019 (ad anônimo).
+**Heat Global:** Média (Raffen residual; ad anônimo = +0 documentado). Sem delta 020.
 
 ---
 
 ## 4. Eventos Pendentes
 
-- **E015** — Ad no ar (pacote ~3 dias) + residual Sparrow sem ACK + Steel mudo
-- **E011** Doc Moreau · **E019** olaria · **E012** casas · E007 Node · E008 Raffen
-- **E016** Sasha/Lira: residual positivo 019 (ambas no Pack)
+- **E015** — Ad no ar + coleta Condor 30/07 15h–17h + residual Sparrow sem ACK + Steel mudo
+- **E011** Doc Moreau · **E019** olaria · **E012** casas · E007 Node · E008 Raffen · **E020** ideia (Reyes)
+- **E016** Sasha/Lira: residual positivo 019 (ambas no Pack; 020 só cumprimento)
 
 ---
 
 ## 5. Localização
 
-- **Local:** Pack Badlands (tenda Ryan/Valk; retorno da viagem)
-- **Data:** ~27/07/2026 noite
-- **Prioridade:** relógio do ad (~3d) + residual Sparrow + downtime Pack / E019 se puxar
+- **Local:** Pack Badlands (oficina → refeitório; módulo na bancada)
+- **Data:** ~29/07/2026 início da tarde
+- **Prioridade:** teste integrado módulo + voo 30/07 + 1º pacote do ad
 
 ---
 
@@ -63,4 +62,4 @@
 
 ---
 
-**Referências:** [Context pack](../logs/context_pack_atual.md) · [Board](../board/board_campanha.md) · [Sessão 019](../logs/sessao_resumo_019.md) · [Arco](../board/arco_ativo.md)
+**Referências:** [Context pack](../logs/context_pack_atual.md) · [Board](../board/board_campanha.md) · [Sessão 020](../logs/sessao_resumo_020.md) · [Arco](../board/arco_ativo.md)

@@ -35,10 +35,13 @@
 | 11/07/2026 | Ryan revela projeto **casas modulares** ao time de produção (Warden projeta modelo). |
 | 11–13/07/2026 | Mentoria na montagem do protótipo externo com alunos. |
 | 14/07/2026 | **Co-liderou apresentação a Reyes** com Valk; alunos explicaram partes. |
+| 20/07/2026 | Demo pública Condor/Corujas; testou visor. |
+| 23/07/2026 | Ouviu ideia olaria/cogeração (E019); discussão adiada. |
+| 28–29/07/2026 | Reservou **Condor 30/07 15h–17h** (sem conflito com Corujas). Liberou sucata da prateleira esquerda para o módulo de sinal. Resmungou da placa (“se não pegar fogo…”). |
 
 ## Relação com a crew
 
-- **Ryan:** Alta estima mútua; orgulho do time de produção no protótipo.
+- **Ryan:** Alta estima mútua; orgulho do time de produção no protótipo. Cooperação de oficina estável (janela Condor + sucata 020).
 - **Valk:** Parceira na apresentação Reyes; cordial no dia a dia.
 
 ## Notas para o narrador

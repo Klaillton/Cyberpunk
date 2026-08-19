@@ -2,7 +2,7 @@
 
 **Tipo:** Pack Nômade  
 **Status com o Jogador:** Aliado consolidado  
-**Última atualização:** 21 de Julho de 2026 (sessão 015; backfill auditoria)
+**Última atualização:** 29 de Julho de 2026 (sessão 020)
 
 ---
 
@@ -86,6 +86,9 @@ Consulta: `[Estoque]` / `[Estoque: destilaria]` · **não** duplicar qty neste a
 - **20/07:** Demonstração pública dos drones ao Pack; moral alto; Tio Gringo testou visor.
 - **20/07:** Ryan e Valk decidiram ir a Night City (possível retorno) — ainda não anunciado formalmente ao pack.
 - **21/07:** Ryan observou base militar (solo; modelo 3D externo); sem incidente no pack. Enxame mini-drones = ideia de Ryan (sondagem recrutas), sem projeto pack.
+- **22–23/07:** Tutoria Sasha/Lira; ideia olaria/cogeração **delegada** ao Pack (E019). Saída combinada para 24/07.
+- **24–27/07:** Ryan+Valk+Sasha+Lira na viagem (acampamento / industrial / ad). **Retorno 27/07** noite. Pack em rotina.
+- **28–29/07:** Módulo de sinal para o Condor (coleta do ad). Tio reservou o pássaro **30/07 15h–17h**.
 - Cerca em estrela **concluída**; destilaria (Elias) e estufa (Mara) com autonomia.
 
 ## Rumores e Informações Parciais
@@ -94,13 +97,14 @@ Consulta: `[Estoque]` / `[Estoque: destilaria]` · **não** duplicar qty neste a
 - Habitação modular: progresso interno; revelação geral ainda parcial.
 - “Desfile” Ryan/Valk (14/07) e demo dos drones (20/07) reforçam visibilidade do casal.
 - Alguns membros ainda misturam admiração com cautela pelo lado operador.
-- Possível saída de Ryan e Valk para NC (ainda rumor/planejamento interno).
+- Saída 24–27/07 já aconteceu e **voltaram**; pack geral não recebeu discurso. Coleta do ad via Condor (30/07) ainda é assunto de oficina, não de refeitório.
 
 ## Notas e Pendências
 
 - **E014** — **Resolvido:** produção/capacitação ok; revelação pública adiada.
 - **E012** — Interno + móveis; anúncio amplo quando Reyes/time julgarem pronto.
-- **E015** — Viagem Ryan + Valk a Night City (preparação).
+- **E015** — Ad no ar; coleta via Condor **30/07 15h–17h** (módulo pronto; falta teste).
+- **E020** — Ideia bola-assistente Reyes (conceito; Ryan ainda não apresentou).
 - Recrutas em Node/destilaria/estufa; drones operacionais no pack.
 - Mesmo que Ryan saia, legado técnico (perímetro, Node, casas, ensino, **drones**) já é permanente.
 

@@ -35,11 +35,13 @@
 | 23/06/2026 | **Incidente 002:** Na incursão noturna ficou na colina de suporte; viu o resultado da limpeza silenciosa (~16 hostis). Permaneceu abalada — Valk conversou com ela depois. |
 | Jun/2026 | Aula/oficina: Ryan consertou algo com a cabeça entre as pernas dela sem perceber; ouviu Ryan e Valk perto da tenda. |
 | 24–27/07/2026 (018–019) | Viagem com Ryan/Valk/Lira (industrial + retorno). Abertura forte em 018 (“não some sem avisar”; NC “eu penso”). Em 019: overwatch/perímetro, despedida calorosa, residual positivo no refeitório. |
+| 28–29/07/2026 (020) | Pack. Cumprimento no refeitório; **sem** delta novo. Residual 019 mantido. |
 
 ## Relação com a crew
 
-- **Ryan:** Respeito + medo residual após Raffen; **019:** pequeno avanço de confiança/proximidade após viagem — manteve “não some sem avisar”, aceitou despedida calorosa, permaneceu perto no refeitório. Ainda cautelosa, não fechada.
-- **Valk:** Tenta se aproximar; às vezes com ciúme possessivo de Ryan.
+- **Ryan:** Respeito + medo residual após Raffen; **pós-viagem 019:** pequeno avanço (“não some sem avisar”, despedida calorosa, perto no refeitório). Ainda cautelosa, não fechada. 020 sem delta.
+- **Valk:** Aproximação genuína / tutoria devagar. Respeito ao namoro > flerte residual.
+- **Camada:** Pack. **Não** é crew NC nem peça de polycule.
 
 ## Notas para o narrador
 

@@ -1,7 +1,8 @@
 # Pulso - Reina "Bearclaw" Morales
 
-**Última atualização:** 03 de Julho de 2026  
-**Escopo:** **Night City / futuro** — Reina **não** está nas Badlands. Acionar após reencontro em NC ou contato remoto.
+**Última atualização:** 29 de Julho de 2026  
+**Escopo:** **Night City / futuro** — Reina **não** está nas Badlands.  
+**Regra:** sem reencontro, sem revelar braços, sem romance. Soft em [ideas_concepts/03–04](../../ideas_concepts/README.md). Acionar só com crew junta em NC.
 
 ## Motivações Atuais
 - Proteger Ryan (ela tem um instinto protetor forte com ele desde o passado).

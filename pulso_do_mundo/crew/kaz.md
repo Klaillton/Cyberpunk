@@ -1,7 +1,7 @@
 # Pulso - Kaz "The Broker" Takahashi
 
-**Última atualização:** 03 de Julho de 2026  
-**Escopo:** **Night City / remoto** — acionar quando Ryan estiver em NC, ou quando **mensagem/job** de Kaz chegar ao pack. Não simular cena local nas Badlands.
+**Última atualização:** 29 de Julho de 2026  
+**Escopo:** **Night City / remoto** — Kaz **escondido**, montando crew futura (arco_ativo). Sem cena no Pack. Job/mensagem só se o relógio NC pedir.
 
 ## Motivações Atuais
 

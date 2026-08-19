@@ -1,7 +1,7 @@
 # Relacionamentos entre Facções
 
 **Campanha:** Cyberpunk RED  
-**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
+**Última atualização:** 29 de Julho de 2026 (pós-020)
 
 ---
 
@@ -12,7 +12,7 @@
 - **Status com a Crew:** Aliado consolidado
 - **Motivo:** Ryan hospedado no Pack; arquiteto/mentor (Node, casas, scav, ensino, **drones miméticos**).
 - **Risco atual:** Baixo
-- **Impacto na Crew:** Reputação Pack **+75**. Condor/Corujas demo 20/07; cerca OK; E014 implícita; possível saída Ryan+Valk (E015) ainda não formalizada ao pack.
+- **Impacto na Crew:** Reputação Pack **+75**. Condor/Corujas operacionais; módulo de sinal (020) para coleta do ad. Cerca OK; E014 implícita (revelação pública adiada). Viagem 24–27/07 **feita e voltaram**; pack geral sem discurso.
 
 ### Raffen Shiv (remanescentes)
 
@@ -44,7 +44,7 @@
 | Biotechnica | Arasaka  | Rivalidade corporativa | Alta        | Ativa        | Competição constante           |
 | Biotechnica | Crew     | Hostilidade latente    | Média       | Investigando | Devido à operação recente      |
 | Arasaka     | Crew     | Neutro                 | Baixa       | Observando   | Ryan evita contato             |
-| Pack Nômade | Crew     | Aliança consolidada    | Alta        | Positiva     | Drones operacionais; casas em andamento; E015 pendente |
+| Pack Nômade | Crew     | Aliança consolidada    | Alta        | Positiva     | Drones + módulo Condor; casas F11; Ryan/Valk de volta |
 | Raffen Shiv | Pack     | Hostilidade residual   | Média       | Vigilância   | Torre eliminada; outros grupos possíveis |
 
 ---
@@ -53,7 +53,7 @@
 
 - A operação contra a **Biotechnica** foi limpa, mas não é impossível que eles descubram quem foi responsável no futuro.
 - Ryan carrega ranço pessoal contra a **Arasaka**, o que pode influenciar decisões caso a corporação apareça na campanha.
-- O **Pack Nômade de Badlands** está se tornando uma relação importante. Mesmo que Ryan saia por um tempo, o que ele construiu (perímetro, ensino, Mule) deve gerar repercussão permanente.
+- O **Pack Nômade de Badlands** é base atual. Ryan+Valk **saíram e voltaram** (24–27/07); legado (perímetro, ensino, drones, módulo) permanece mesmo se saírem de novo.
 - Kaz pode trazer jobs que envolvam corporações no futuro.
 
 ---

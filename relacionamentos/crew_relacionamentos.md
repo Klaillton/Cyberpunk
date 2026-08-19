@@ -1,7 +1,10 @@
 # Relacionamentos da Crew
 
 **Grupo:** Crew atual (Ryan, Valk, Alex, Reina, Kaz, Stitch, Jax, Echo)  
-**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
+**Última atualização:** 29 de Julho de 2026 (pós-020)
+
+> **Crew NC = off-screen.** Ryan+Valk estão no Pack. Alex, Reina, Kaz, Stitch, Jax, Echo **não** estão em cena.  
+> Soft-canon (Moreau, latentes, polycule, Reina-não-reconhece) vive em [ideas_concepts/](../ideas_concepts/README.md) e no [polycule](crew_polycule_ryan_valk_alex_reina.md). **Nada disso está ativo** até a crew se reunir em NC. Lira/Sasha = camada Pack, outra história.
 
 ## MAPA DE RELAÇÕES DA CREW
 
@@ -9,7 +12,7 @@
 | ------------------- | --------------------- | ----------------------------------------- | ----------- | ------------------ | -------------------------- |
 | Lena "Valk" Kane    | Jax "Razor" Kane      | Colega de crew                            | Baixa-Média | Profissional       | Sem parentesco — só coincidência de sobrenome Kane |
 | Lena "Valk" Kane    | Alex "Specter" Kane   | Interesse romântico (Alex)                | Média       | Unilateral         | Alex demonstra interesse; sem parentesco com Valk/Jax |
-| Lena "Valk" Kane    | Ryan "Wireghost" Voss | Namorando (relação consolidada)           | Alta        | Estável            | Amor mútuo                 |
+| Lena "Valk" Kane    | Ryan "Wireghost" Voss | Namorando (consolidada + acordo 019)      | Alta        | Estável            | Amor mútuo; F15; residual 020 |
 | Alex "Specter" Kane | Ryan "Wireghost" Voss | Provocação / Rivalidade velada            | Média       | Tensão             | Alex cutuca Ryan           |
 | Reina "Bearclaw"    | Ryan "Wireghost" Voss | Proteção (Mãe Urso) + Potencial romântico | Média       | Em desenvolvimento | Reina sabe dos braços; Ryan não lembra |
 | Kaz Takahashi       | Ryan "Wireghost" Voss | Aliança profissional                      | Média       | Estável            | Kaz trouxe jobs            |
@@ -22,14 +25,11 @@
 
 ## DINÂMICAS IMPORTANTES
 
-- **Ryan + Valk**: Relação romântica consolidada; decisão conjunta de ir a Night City (E015), possível retorno ao Pack.
-- **Alex + Valk**: Interesse romântico de Alex.
-- **Alex + Ryan**: Provocação constante (especialmente por causa de Valk).
-- **Reina + Ryan**: Relação protetora atual (dívida assimétrica: ela sabe que ele fez os cyberarms; ele não lembra — arranjo via **Doc Moreau**, não Stitch), com potencial romântico futuro.
-- **Reina + Stitch**: Amizade forte. Stitch dá atenção especial a Reina (crew atual; **sem** papel no passado dos braços).
-- **Echo + crew**: Media/ghost reporter — drama, intel e exposição pública de inimigos; planos “espetaculares” como Plano B.
-- **Sobrenomes coincidentes (sem parentesco):** Valk, Alex e Jax compartilham **Kane**; Ryan e Stitch compartilham **Voss**. A crew brinca com isso, mas ninguém é parente de ninguém por causa do sobrenome.
-- **Futuro possível**: Dinâmica romântica complicada entre Ryan, Valk, Alex e Reina — ver [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
+- **Ryan + Valk (ativo):** Namoro consolidado; acordo ops 019; residual íntimo 020; E015 = ad + coleta Condor, não “irem morar em NC agora”.
+- **Crew NC (latente):** Alex, Reina, Kaz (escondido, montando crew), Stitch, Jax, Echo — **off-screen**. Sem reencontro, sem provocação em cena, sem romance.
+- **Reina → Ryan (canon de ficha, inativo em cena):** Ela sabe dos braços; ele não lembra (Doc Moreau, não Stitch). Só vira cena **no reencontro NC**.
+- **Polycule / Alex×Valk passado / fases 1–11:** [ideas_concepts](../ideas_concepts/README.md) + [polycule](crew_polycule_ryan_valk_alex_reina.md). **Desejado, não obrigatório. Não iniciar** até a crew estar junta em NC.
+- **Sobrenomes coincidentes (sem parentesco):** Kane (Valk/Alex/Jax) e Voss (Ryan/Stitch).
 
 ---
 

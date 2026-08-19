@@ -130,21 +130,21 @@
 
 **Status:** Desconfiança mútua / Rivalidade velada  
 **Intensidade:** Média  
-**Última atualização:** 25 de Junho de 2026
+**Última atualização:** 29 de Julho de 2026 (off-screen)
 
 **Evolução conhecida:**
 
-- Alex tem demonstrado interesse romântico em Lena Valk.
-- Costuma provocar Ryan com comentários carregados, especialmente quando Valk está por perto.
+- Alex tem demonstrado interesse romântico em Lena Valk (ficha / soft-canon).
+- Costuma provocar Ryan com comentários carregados quando está na mesma cena.
 
 **Estado atual:**
 
-- Alex parece se divertir cutucando Ryan.
-- Ryan mantém distância e desconfiança.
+- **Off-screen em NC.** Sem provocação em mesa até o reencontro da crew.
+- Soft (ideas_concepts / polycule): não vilã; timing **depois** da crew junta. **Não ativo.**
 
 **Notas do Narrador:**
 
-- Alex pode se tornar uma fonte de tensão indireta caso tente avançar com Valk.
+- Não puxar Alex para o Pack. Lira/Sasha **não** substituem este arco.
 
 ---
 
@@ -152,7 +152,7 @@
 
 **Status:** Aliada / Relação protetora (estilo "Mãe Urso")  
 **Intensidade:** Média  
-**Última atualização:** 25 de Junho de 2026
+**Última atualização:** 29 de Julho de 2026 (off-screen)
 
 **Histórico relevante:**
 
@@ -165,14 +165,15 @@
 
 **Estado atual:**
 
-- Reina trata Ryan como um **irmão mais novo**.
-- Existe uma **dívida emocional assimétrica**: ela carrega gratidão e proteção; ele não tem a memória correspondente. Ela **não agradece nem revela** em voz alta (ainda).
+- **Off-screen.** O reencontro (“ele não reconhece”; ela não revela os braços) **espera** a crew em NC.
+- Dívida assimétrica e instinto protetor são **ficha**, não cena corrente.
+- Romance / amizade com Valk primeiro = [ideas_concepts/03–04](../ideas_concepts/README.md) + [polycule](crew_polycule_ryan_valk_alex_reina.md). **Não ativo.**
 
 **Notas do Narrador:**
 
 - Quem mediou os braços foi **Elisa “Doc” Moreau**, nunca a Stitch.
-- **Ideia futura (não ativa):** se em NC, após jobs com a crew, **Reina se machucar de forma grave**, Ryan pode iniciar o [projeto de armadura custom](../fichas/reina_armour_project.md) — **não canônico** até entrega in-fiction.
-- Evolução romântica futura é possível, mas seria complexa devido à dinâmica atual com Valk e Alex. Ver arco proposto em [crew_polycule_ryan_valk_alex_reina.md](crew_polycule_ryan_valk_alex_reina.md).
+- **Ideia futura (não ativa):** armadura custom se Reina se machucar grave em NC — [reina_armour_project.md](../fichas/reina_armour_project.md).
+- Não avançar fases do polycule no Pack.
 
 ---
 
@@ -229,8 +230,8 @@ Ryan e Valk integrados no Pack em downtime produtivo. Ryan: arquiteto/mentor (No
 - **Mara** (Recruta) → [ficha](../fichas/npc/mara_recruit.md). Estufa com autonomia.
 - **Elias** (Recruta) → [ficha](../fichas/npc/elias_recruit.md). Destilaria com autonomia.
 - **Tomas** (Recruta) → [ficha](../fichas/npc/tomas_recruit.md). Mecânica e monitoramento.
-- **Sasha** → [ficha](../fichas/npc/sasha.md). Tutoria Valk; **019:** residual positivo pós-viagem (manteve “não some sem avisar”; despedida calorosa; perto no refeitório). Pequeno avanço de confiança, ainda cautelosa.
-- **Lira** → [ficha](../fichas/npc/lira.md). Tutoria Valk; **019:** residual positivo claro (“foi bom / chama de novo”); overwatch cooperativa; aberta a novas saídas.
+- **Sasha** → [ficha](../fichas/npc/sasha.md). Tutoria Valk; **019:** residual positivo pós-viagem (“não some sem avisar”; despedida calorosa; perto no refeitório). Pequeno avanço de confiança, ainda cautelosa. **020:** cumprimento no refeitório, sem delta. Camada Pack — **não** é crew/polycule.
+- **Lira** → [ficha](../fichas/npc/lira.md). Tutoria Valk; **019:** residual positivo claro (“foi bom / chama de novo”); overwatch cooperativa; aberta a novas saídas. **020:** cumprimento, sem delta. Camada Pack — **não** é crew/polycule.
 - **Crianças do Pack** → Ryan interage bem com elas (faceta mais gentil).
 
 **Notas do Narrador:**

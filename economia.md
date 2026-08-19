@@ -1,6 +1,6 @@
 # Economia Persistente
 
-**Última atualização:** 2026-08-14 (contrato ad anônimo · sessão 019)
+**Última atualização:** 2026-08-18 (pós-020 · módulo Condor + ad ainda não debitado)
 
 > **Dinheiro / macro** = seções abaixo.  
 > **Micro-recursos** = [Atores · Estoque · Ryan mínimo](#atores-produtores--consumidores).  
@@ -39,6 +39,7 @@ Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × dis
 | Materiais         | Depósito reforçado               | Scavs 05/07 + 10/07; **chrome/componentes torre** 16–17/07 |
 | **Casas modulares** | Protótipo externo OK; interno modelagem | E014: produção aprovada; revelação pública adiada (E012) — [event_queue](event_queue.md) |
 | **Drones miméticos** | Condor + Corujas operacionais | Valor operacional (alerta 15–40 min); demo 20/07 |
+| **Módulo de sinal Condor** | Protótipo pronto (020) | Mochila de alcance p/ coleta do ad; falta teste integrado + voo 30/07 |
 
 ## Observações Econômicas Gerais
 

@@ -80,7 +80,9 @@ Lealdade comprovada, confiabilidade e liberdade na estrada. Acredita que ações
 
 ## Relação com Ryan “Wireghost” Voss
 
-Ryan e Valk estão namorando. Ryan ajuda ativamente ela com manutenção do [The Mule](vehicle%20-%20the_mule.md), upgrades e nas missões. No pack e na crew maior eles formam trio com o veículo; na estrada, o núcleo operacional continua sendo **Valk + Mule**.
+Ryan e Valk estão namorando de forma **consolidada** (F07). Dividem tenda no Pack; aftercare e rotina de carinho são o normal, não exceção. Ryan ajuda na manutenção do [The Mule](vehicle%20-%20the_mule.md), upgrades e nas missões. No pack e na crew maior eles formam trio com o veículo; na estrada, o núcleo operacional continua sendo **Valk + Mule**.
+
+**Acordo ops (019, em vigor):** ele dá o mínimo de plano antes do modo operador; ela pergunta antes de subir o tom. Praticado na 020 (módulo Condor).
 
 **Fala (pós-14/07/2026):** Valk **evita** chamar Ryan de “herói” ou “herói solitário” — a expressão acionou um gatilho doloroso e ela **prometeu** parar (episódio na oficina/depósito após a apresentação das casas dobráveis). Ver [gatilhos Ryan](notas_narrador/ryan_gatilhos_memorias.md) e [relacionamentos Valk](../relacionamentos/lena_valk_kane_relacionamentos.md).
 
@@ -104,8 +106,8 @@ Ryan e Valk estão namorando. Ryan ajuda ativamente ela com manutenção do [The
 - O [The Mule](vehicle%20-%20the_mule.md) é a única coisa que restou do antigo pack. É sagrado para ela — e parte da **equipe Valk + Mule**.
 - Ela nunca abandona ninguém no veículo. “Não deixo ninguém para trás” é seu código pessoal.
 - Tem ranço de corporações. Aceita jobs contra elas com mais facilidade.
-- O quase-momento com Ryan ainda pesa. Eles evitam ficar sozinhos por muito tempo em espaços pequenos.
-- Quando está sozinha com Ryan, ela fica um pouco mais suave (quase imperceptível para os outros).
+- O “quase-momento” de junho **já passou**. Eles dividem tenda, ficam sozinhos de propósito e o aftercare é rotina (020).
+- Quando está sozinha com Ryan, ela fica um pouco mais suave (ainda discreta para o pack).
 - Prefere trabalhar sozinha ou com crews pequenos e confiáveis.
 - **Kane não é família:** Valk, Alex e Jax compartilham o sobrenome por coincidência. A crew brinca, mas não há parentesco entre eles.
 

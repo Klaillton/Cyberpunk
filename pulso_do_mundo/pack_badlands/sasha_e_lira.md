@@ -1,6 +1,6 @@
 # Pulso - Sasha e Lira
 
-**Última atualização:** 27 de Julho de 2026 (sessão 019)
+**Última atualização:** 29 de Julho de 2026 (pós-020; residual viagem 019)
 **Escopo:** Badlands — jovens do pack.
 
 ## Motivações Atuais
@@ -36,6 +36,7 @@
 - **03/07/2026 (tarde)** — Fofoca velada entre veteranas: “as meninas parecem sinceras agora” em relação à aproximação com Valk.
 - **14/07/2026** — Observaram “desfile” Ryan/Valk no refeitório pós-apresentação Reyes.
 - **24–27/07 (018–019)** — Viagem com Ryan/Valk (industrial + retorno). Residual positivo: Sasha manteve “não some sem avisar”; Lira “foi bom / chama de novo”. Ambas no Pack (27/07 noite).
+- **28–29/07 (020)** — Cumprimentos no refeitório. Sem avanço novo. Residual 019 **vigente**.
 
 ## Relação com Valk
 
@@ -47,7 +48,7 @@ Atualmente, Sasha e Lira estão **genuinamente interessadas em construir uma ami
 
 ## Relação com Ryan
 
-O interesse inicial que Sasha tinha por Ryan diminuiu bastante após os acontecimentos com Valk. Hoje elas o veem mais como "o namorado da Valk" do que como alvo romântico. Ainda podem achar ele atraente (especialmente depois de terem visto o lado operador frio dele), mas o respeito por Valk é prioridade.
+Pós-viagem **019:** confiança prática subiu (Lira chama de novo; Sasha pede aviso). Não é romance ativo com Ryan. Ainda podem achar ele atraente; o respeito por Valk é prioridade. **Não** fundir com polycule NC (Alex/Reina) — camadas distintas.
 
 ## Ganchos / Possíveis Eventos
 
