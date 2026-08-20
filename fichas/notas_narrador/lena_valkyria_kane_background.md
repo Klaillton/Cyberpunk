@@ -130,6 +130,18 @@ Soberania do Mule continua **dela**. Ryan mexe com permissão implícita de quem
 
 ---
 
+## Lente da relação (narrador)
+
+Tema, não destino.
+
+Ryan é exatamente o tipo de pessoa que ameaça ativar o pior mecanismo de defesa dela. Competente, independente, criativo, faz operações sozinho e frequentemente escolhe o caminho mais difícil porque é o mais eficiente **para ele**. Ou seja: quase uma máquina de apertar todos os botões errados da Valk.
+
+E, ao mesmo tempo, é justamente alguém que pode entender o Mule, trabalhar nele e perceber coisas que ela não consegue traduzir em palavras.
+
+Isso cria uma relação orgânica: o mesmo homem que ela tem medo de perder no retrovisor é o único que, no veículo sagrado, enxerga o que faltou naquele dia. Nem o medo nem a confiança precisam “ganhar”. Os dois existem juntos. Em cena, isso aparece sozinho (018, 019, base 021) — não precisa ser anunciado.
+
+---
+
 ## O que os dois podem aprender um com o outro
 
 Tema, não plot obrigatório.

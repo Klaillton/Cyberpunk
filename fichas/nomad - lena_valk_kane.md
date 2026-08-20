@@ -83,7 +83,7 @@ O Mule é o que sobrou. Anos sozinha: remendos dela (tração, proteção, rádi
 
 Conheceu Ryan em **Night City** (jobs). Badlands de verdade para ele = **este Pack**. Pré-mesa: funcionavam bem em campo, discutiam solo vs proteger, tensão, **ainda não casal**.
 
-Tema (não plot): ela tende a carregar a responsabilidade das perdas; ele tende a resolver sozinho. A convivência **pode** suavizar os dois. Ninguém “cura” o outro.
+Tema (não plot): ela tende a carregar a responsabilidade das perdas; ele tende a resolver sozinho. A convivência **pode** suavizar os dois. Ninguém “cura” o outro. Ele aperta os botões errados dela **e** é quem enxerga o Mule — os dois ao mesmo tempo.
 
 Medo atual dos Raffen = **Ryan sozinho** (irmão no retrovisor), não só a gangue. “Não deixo ninguém para trás” vem daí.
 
