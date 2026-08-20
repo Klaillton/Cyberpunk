@@ -1,28 +1,28 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** ~29 de Julho de 2026 (início da tarde) — Pack Badlands  
-**Local:** Pack (oficina → refeitório; módulo na bancada)
+**Data Atual:** ~30 de Julho de 2026 (noite) — Pack Badlands  
+**Local:** Rede perto da tenda (área das tendas)
 
 ---
 
 ## Missão Atual
 
-Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo de sinal para o Condor foi construído (28–29/07) para coletar o pacote do ad de forma isolada.
+Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo de sinal para o Condor testado e usado com sucesso em 30/07. 1º pacote do ad anônimo coletado.
 
 **Prioridade imediata:**
-1. Teste integrado do módulo (Agent temporário + encaixe final + 2 ajustes menores).  
-2. Voo Condor **30/07 15h–17h** (janela confirmada com Tio Gringo).  
-3. Possível chegada do **primeiro pacote** do ad anônimo.  
+1. Intermediário do ad (janela 48–72h a partir de 30/07 ~17h).  
+2. Melhoria de refrigeração do módulo (isobutano) para 2º voo.  
+3. Esboço do plano da base militar (Valk).  
 4. Residual de **Lina “Sparrow” Park** ainda sem ACK.  
 5. **Marcus “Steel” Rivera** mudo.  
-6. Acordo de comunicação ops com Valk **em vigor** (019) + residual íntimo forte (020).
+6. Acordo de comunicação ops com Valk **em vigor** + residual íntimo forte (020/021).
 
 **Arco L1 + off-screen:** [arco_ativo.md](arco_ativo.md)
 
 **Projetos em andamento (Pack / background):**
-- Condor + Corujas no Pack; **módulo de sinal (protótipo) pronto**; casas modulares (F11); Node; E019 olaria delegada; enxame (ideia); modelo 3D base militar (estudo); **ideia bola-assistente Reyes** (conceito, tempo livre).
+- Condor + Corujas no Pack; **módulo de sinal operacional** (1º pacote ok; refrigeração pendente); casas modulares (F11); Node; E019 olaria delegada; **ideia assistente Reyes (cobra mimética)** (conceito, tempo livre).
 
-**Decisão de viagem:** Ryan + Valk trataram assuntos de NC à distância (ad + coleta via Condor); possível retorno a NC quando houver resposta. Sasha/Lira com residual positivo da viagem 019.
+**Decisão de viagem:** Ryan + Valk trataram assuntos de NC à distância (ad + coleta via Condor); possível retorno a NC quando houver intermediário. Sasha/Lira com residual positivo da viagem 019.
 
 ---
 
@@ -33,6 +33,7 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo de sinal para o Condor
 - **018:** Conflito Ryan×Valk (solo vs equipe); plano industrial em grupo.
 - **019:** Pesquisa BT (exposição baixa); padrões Sparrow/Steel (OPSEC); **ad anônimo no ar**; retorno Pack; **acordo comunicação ops** Ryan×Valk; residual positivo Sasha/Lira.
 - **020:** Construção módulo de sinal Condor; janela 30/07 15–17h reservada; intimidade reforçada; ideia assistente Reyes registrada.
+- **021:** Teste + ajustes módulo; voo Condor bem-sucedido; **1º pacote ad coletado** (não forçar Sparrow/Steel; intermediário 48–72h); débito 300 ed; refrigeração e plano base pendentes.
 
 ---
 
@@ -48,13 +49,13 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo de sinal para o Condor
 
 | Nome | Papel | Relação com Ryan | Notas |
 |------|-------|------------------|-------|
-| **Lena "Valk" Kane** | Parceira | Amor + acordo ops 019 + intimidade 020 | F15; comunicação mínima de plano |
+| **Lena "Valk" Kane** | Parceira | Amor + acordo ops 019 + intimidade 020/021 | F15; comunicação mínima de plano |
 | **Lira** | Pack | Residual positivo 019 | Aberta a novas saídas |
 | **Sasha** | Pack | Residual positivo 019 | “Não some sem avisar” |
 | **Lina “Sparrow” Park** | Contato NC (NPC) | Handle Sparrow → rede/Kaz | residual **sem ACK** |
 | **Marcus “Steel” Rivera** | Contato NC (NPC) | Handle Steel | mudo |
 | **Kaz “The Broker”** | Fixer crew | Off-screen | Escondido; montando crew |
-| **Reyes / Tio Gringo** | Pack | Background / oficina | Condor reservado; ideia bola futura |
+| **Reyes / Tio Gringo** | Pack | Background / oficina | Condor + isobutano |
 
 ---
 
@@ -62,14 +63,14 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo de sinal para o Condor
 
 | Facção | Status | Risco | Notas |
 | ------ | ------ | ----- | ----- |
-| **Pack Nômade** | Aliado | Baixo | Ryan de volta; módulo em construção conjunta |
+| **Pack Nômade** | Aliado | Baixo | Ryan de volta; módulo operacional |
 | **Raffen** | Hostil pot. | Médio | Residual |
 | **Biotechnica** | Hostil latente | Médio | Silêncio público recente |
 | **Arasaka** | Hostil pessoal | Baixo | Ryan evita |
 
 ---
 
-**Última atualização:** ~29 de Julho de 2026 (sessão 020)
+**Última atualização:** ~30 de Julho de 2026 (sessão 021)
 
 ---
 
@@ -79,4 +80,4 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo de sinal para o Condor
 
 **Personagem:** [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 020](../logs/sessao_resumo_020.md) · [Arco ativo](arco_ativo.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 021](../logs/sessao_resumo_021.md) · [Arco ativo](arco_ativo.md)
