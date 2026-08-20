@@ -73,9 +73,19 @@ Lena “Valkirya” Kane é uma mulher de aparência marcante e perigosa. Tem ca
 
 **Total Humanity Loss:** 23 | **EMP Atual:** 5 | **Humanidade:** 50
 
-## Background
+## Background (mini)
 
-Lena “Valkirya” Kane cresceu em um pequeno pack nômade independente. Durante o Tempo do Vermelho, o pack foi atacado e quase completamente destruído. Ela sobreviveu porque estava dirigindo um dos veículos de fuga. Desde então, trabalha como motorista independente, oferecendo serviços de transporte, extração e proteção para crews que pagam bem e não abandonam os seus. É conhecida por ser extremamente confiável e por nunca deixar ninguém para trás.
+**Nota completa (narrador):** [lena_valkyria_kane_background.md](notas_narrador/lena_valkyria_kane_background.md) — backstory ≠ mesa; não misturar upgrades.
+
+Cresceu num pack nômade pequeno. O **Mule** foi projeto de família (ela, o pai, o irmão) — abrigo, não máquina de guerra. No dia em que o dirigiria sozinha, **Raffen Shiv** destruíram o pack. O irmão a colocou no Mule e ficou para trás. Ela partiu, voltou na tempestade, viu família morrer, não salvou, partiu de novo. Sobreviventes dispersos; ela nunca soube o resto.
+
+O Mule é o que sobrou. Anos sozinha: remendos dela (tração, proteção, rádio). **Não** inclui 8x8 / Vanisher / MIAC — isso é presente do Ryan **na campanha**, no Pack.
+
+Conheceu Ryan em **Night City** (jobs). Badlands de verdade para ele = **este Pack**. Pré-mesa: funcionavam bem em campo, discutiam solo vs proteger, tensão, **ainda não casal**.
+
+Tema (não plot): ela tende a carregar a responsabilidade das perdas; ele tende a resolver sozinho. A convivência **pode** suavizar os dois. Ninguém “cura” o outro.
+
+Medo atual dos Raffen = **Ryan sozinho** (irmão no retrovisor), não só a gangue. “Não deixo ninguém para trás” vem daí.
 
 ## Personalidade
 
@@ -112,7 +122,6 @@ Ryan e Valk estão namorando de forma **consolidada** (F07). Dividem tenda no Pa
 
 ## Notas / Journal
 
-- Backstory (pack, Raffen, Mule, pré-Ryan): [lena_valkyria_kane_background.md](notas_narrador/lena_valkyria_kane_background.md) — **não** misturar com upgrades da campanha.
 - O [The Mule](vehicle%20-%20the_mule.md) é a única coisa que restou do antigo pack. É sagrado para ela — e parte da **equipe Valk + Mule**.
 - Ela nunca abandona ninguém no veículo. “Não deixo ninguém para trás” é seu código pessoal.
 - Tem ranço de corporações. Aceita jobs contra elas com mais facilidade.
@@ -125,6 +134,7 @@ Ryan e Valk estão namorando de forma **consolidada** (F07). Dividem tenda no Pa
 
 ## Referências
 
+- **Background (narrador):** [lena_valkyria_kane_background.md](notas_narrador/lena_valkyria_kane_background.md)
 - **Equipe / veículo:** [The Mule — ficha](vehicle%20-%20the_mule.md) · [imagem do Mule](../imagens/vehicle%20-%20the_mule.jpg)
 - **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) · estado [notas_narrador/crew_vestindo_agora.md](notas_narrador/crew_vestindo_agora.md) · cards [notas_narrador/roupa_por_ocasiao.md](notas_narrador/roupa_por_ocasiao.md)
 

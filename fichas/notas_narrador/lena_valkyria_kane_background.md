@@ -130,12 +130,19 @@ Soberania do Mule continua **dela**. Ryan mexe com permissão implícita de quem
 
 ---
 
-## O que os dois ensinam (tema, não plot)
+## O que os dois podem aprender um com o outro
 
-Ele está ensinando Lena que nem toda perda é responsabilidade dela.  
-Ela está ensinando Ryan que sobreviver não significa fazer tudo sozinho.
+Tema, não plot obrigatório.
 
-No meio, o Mule: começou como projeto de uma família, salvou Lena, carregou a culpa durante anos, e agora — pelas mãos **dela** (anos) e **dele** (campanha) — continua sendo reconstruído. Quantas vezes forem necessárias.
+A relação entre Valk e Ryan cria naturalmente um contraste entre duas formas diferentes de lidar com sobrevivência e responsabilidade.
+
+Valk tende a assumir responsabilidade pelas pessoas ao seu redor e tem dificuldade em aceitar que algumas perdas estão além de seu controle. Ryan tende a assumir sozinho problemas que considera capazes de resolver, mesmo quando isso aumenta desnecessariamente o risco para si.
+
+Com o tempo, a convivência **pode** levar Valk a aceitar que proteger alguém não significa controlar todas as circunstâncias ao redor dessa pessoa, enquanto Ryan **pode** aprender que competência e autonomia não significam necessariamente precisar enfrentar tudo sozinho.
+
+Isso **não** significa que um “cure” o outro, nem que qualquer mudança precise acontecer de forma completa. São tendências que podem aparecer naturalmente na relação dos dois e serem exploradas conforme a campanha avançar.
+
+No meio, o Mule: começou como projeto de uma família, salvou Lena, carregou a culpa durante anos, e agora — pelas mãos **dela** (anos) e **dele** (campanha) — continua sendo reconstruído. Quantas vezes forem necessárias. Não é metáfora de cura; é o que os dois já fazem, incompleto.
 
 ---
 
