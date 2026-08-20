@@ -33,14 +33,14 @@
 
 ---
 
-## Ideia registrada (evoluiu — sem prazo)
+## Ideia registrada (E020 — sem prazo)
 
 **Assistente pessoal para Reyes**  
-- Forma anterior: bola flutuante.  
-- Forma atual (021): **cobra mimética** (enrola como gola no pescoço; cabeça no ombro).  
-- Função: inventário, consumo, produção (forja/destilaria/hidroponia), manutenção, agenda, comunicação, alertas, distribuição de tarefas, monitoramento de veículos, previsão de necessidades, registros do Pack + conselhos (IA local treinada com dados do Pack).  
-- Specs: Agent de base + versão mais básica da IA de Ryan; capacidade computacional distribuída se possível.  
-- Status: **conceito apenas**. Tempo livre.
+- Forma **vigente:** drone **mimético de cobra** (enrola como gola; cabeça no ombro; **não** voa / **não** é Condor). Na 020 saiu como bola.  
+- Função: agenda, lembretes, anotações, alertas, conselhos leves; IA local configurável pelo Reyes.  
+- Specs: Agent melhorado (versão mais básica que a de Ryan); voz; bateria intercambiável + interna + indução.  
+- Escopo: **só Pack**. Ainda **não apresentada**.  
+- Status: **conceito**. Tempo livre.
 
 ---
 

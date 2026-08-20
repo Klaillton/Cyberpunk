@@ -4,7 +4,7 @@
 **Não é tier-0 completo** — o narrador lê sob demanda quando a cena estagna ou o arco avança.  
 **Tier-0:** [context_pack_atual.md](../logs/context_pack_atual.md) (1 linha aponta para cá).  
 **Inventário longo prazo:** [event_queue.md](../event_queue.md).  
-**Atualizado:** ~29/07/2026 (pós-020) · sessão vigente **021**
+**Atualizado:** ~30/07/2026 (pós-021) · sessão vigente **022**
 
 ---
 
@@ -78,10 +78,10 @@
 | Campo | Valor |
 | ----- | ----- |
 | **ID** | E015 (+ E005 latente, E011 no pacote NC) |
-| **Fase** | **Ad no ar + coleta preparada** — módulo de sinal Condor pronto (020); janela 30/07 15h–17h; residual **Lina Park** sem ACK (B2 parcial); **Marcus Rivera** mudo |
-| **Local do PC** | Pack Badlands (29/07 tarde) |
+| **Fase** | **1º pacote coletado** — intermediário 48–72h (a partir de 30/07 ~17h); ad continua; residual **Lina Park** sem ACK; **Marcus Rivera** mudo |
+| **Local do PC** | Pack Badlands (30/07 noite · rede) |
 | **Objetivo do arco** | Rede via contatos Sparrow/Steel (NPCs) → Kaz; ad coletando respostas; coleta via Condor isolado; Valk junto; **sem** ops solo sem extração; acordo comunicação 019 |
-| **Fora de foco (1 linha)** | Pack (Node, casas, olaria) roda sem Ryan · BT latente · Raffen residual · ideia bola-assistente Reyes (tempo livre) |
+| **Fora de foco (1 linha)** | Pack (Node, casas, olaria) roda sem Ryan · BT latente · Raffen residual · E020 cobra mimética Reyes (tempo livre) |
 
 ### 3.1 Batidas possíveis (ordem flexível)
 
@@ -93,13 +93,13 @@
 | B4 | **Entrada / borda NC** | rota definida | Heat leve, escolha de entrada, não dump de plot |
 | B5 | **Rede NC** | contato ok | Kaz / intermediário / Doc Moreau (E011) / crew |
 | B6 | **Assunto pessoal Ryan** | em NC | sem fechar Pack; 1–2 cenas, não monólogo eterno |
-| B7 | **Coleta Condor** | 30/07 15h–17h | Pacote recebido / falha / silêncio útil |
+| B7 | **Coleta Condor** | 30/07 15h–17h | **Feita** — 1º pacote anônimo; intermediário 48–72h |
 
 ### 3.2 Default se idle (PC não puxa)
 
 Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
-1. **Valk** fecha plano de manhã: 1 preferência + 1 alternativa (teste módulo / ajustes / espera) com horário.  
+1. **Valk** fecha plano de manhã: refrigeração / isobutano **ou** mostra rascunho da base.  
 2. **Lira** faz **1 pergunta audível** (drone, o que fazem amanhã, olaria no Pack) — sem murmúrio vazio.  
 3. **Off-screen §3.3:** 1 batida de **contato** (Steel / Sparrow / Kaz) **ou** avanço de relógio.  
 4. Só então micro-logística (fogo, água, sono) — **nunca** sozinha como “delta”.
@@ -127,13 +127,13 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ## 4. L0 — AGENDA sugerida (espelho; SoT da cena = context pack)
 
-> Se o pack divergir, **vence o pack**. Isto é rascunho alinhado ao Pack pós-020.
+> Se o pack divergir, **vence o pack**. Isto é rascunho alinhado ao Pack pós-021.
 
 | # | Gancho com conteúdo | Quem age se idle | Ação concreta |
 | - | ------------------- | ---------------- | ------------- |
-| 1 | Teste integrado módulo + ajustes menores | Valk / Tio | Cobra teste ou pergunta se o pássaro voa amanhã |
-| 2 | Janela Condor 30/07 15h–17h + possível 1º pacote ad | Mundo / fixer | Nota de tempo ou burst de rede |
-| 3 | Residual **Sparrow** / **Steel** (NPCs · §3.3) | Mundo / rádio | Resposta útil **ou** silêncio com custo |
+| 1 | Refrigeração módulo (isobutano) + 2º voo | Valk / Tio | Tio oferece isobutano ou Valk cobra o módulo |
+| 2 | Intermediário do ad (48–72h) | Mundo / fixer | Burst, recado, ou silêncio com custo |
+| 3 | Esboço plano base militar (Valk) | Valk | Valk apresenta rascunho ou cobra time |
 
 ---
 
@@ -147,7 +147,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 | Crew / polycule / NC | Reencontros **após** E015 / crew montada; fases **opcionais** ([polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)) |
 | Doc Moreau (E011) | Visita com Valk em NC; lore pesado / BD 7 anos **bloqueado** até condições (ficha Doc) |
 | Latentes / procedural | Pista sob crisis — [gatilhos](../fichas/notas_narrador/ryan_gatilhos_memorias.md); soft [ideas_concepts](../ideas_concepts/README.md) |
-| Ideia Reyes (bola) | Conceito registrado 020; tempo livre apenas |
+| Ideia Reyes (cobra mimética, E020) | Conceito 020 (era bola); tempo livre; **não** apresentada |
 
 ---
 

@@ -48,6 +48,7 @@
 - Demo Condor/Corujas (20/07) — exposição **interna** ao pack (+0 externo)
 - Ad anônimo 27/07 (019) — sem rosto, +0 heat documentado
 - Módulo Condor 28–29/07 (020) — oficina interna, +0 externo
+- Coleta Condor + 1º pacote ad 30/07 (021) — anônimo, +0 externo
 
 ## Como Reduzir o Heat
 

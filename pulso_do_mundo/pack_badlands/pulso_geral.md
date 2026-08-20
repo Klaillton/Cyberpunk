@@ -1,8 +1,10 @@
 # Pulso do Pack - Eventos Off-Screen (Geral)
 
 **Pack:** Pack Nômade de Badlands (acampamento atual)  
-**Última atualização:** 29 de Julho de 2026 (sessão 020)  
-**Contexto atual:** Ryan+Valk no Pack (~29/07 tarde). Ad no ar; módulo Condor pronto; voo **30/07 15h–17h**. Condor + Corujas operacionais. Casas F11. E019 background. E020 = ideia (não apresentada).
+**Última atualização:** 30 de Julho de 2026 (sessão 021)  
+**Contexto atual:** Ryan+Valk no Pack (~30/07 noite). 1º pacote ad coletado; intermediário 48–72h. Módulo operacional (refrigeração pendente). E020 cobra = ideia.
+
+**Gap B1:** 29→30/07 sem d100 formal; estado derivado do resumo 021 (Pack estável). Retomar rolagem no próximo amanhecer (31/07).
 
 **Procedimento:** [sistema/pulso_procedimento.md](../../sistema/pulso_procedimento.md) — **1 rolagem d100 por linha, por dia in-game.**
 

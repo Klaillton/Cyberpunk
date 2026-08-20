@@ -89,6 +89,7 @@ Consulta: `[Estoque]` / `[Estoque: destilaria]` · **não** duplicar qty neste a
 - **22–23/07:** Tutoria Sasha/Lira; ideia olaria/cogeração **delegada** ao Pack (E019). Saída combinada para 24/07.
 - **24–27/07:** Ryan+Valk+Sasha+Lira na viagem (acampamento / industrial / ad). **Retorno 27/07** noite. Pack em rotina.
 - **28–29/07:** Módulo de sinal para o Condor (coleta do ad). Tio reservou o pássaro **30/07 15h–17h**.
+- **30/07:** Voo Condor 15h–17h; **1º pacote do ad** coletado. Refrigeração (isobutano) marcada.
 - Cerca em estrela **concluída**; destilaria (Elias) e estufa (Mara) com autonomia.
 
 ## Rumores e Informações Parciais
@@ -104,7 +105,7 @@ Consulta: `[Estoque]` / `[Estoque: destilaria]` · **não** duplicar qty neste a
 - **E014** — **Resolvido:** produção/capacitação ok; revelação pública adiada.
 - **E012** — Interno + móveis; anúncio amplo quando Reyes/time julgarem pronto.
 - **E015** — Ad no ar; coleta via Condor **30/07 15h–17h** (módulo pronto; falta teste).
-- **E020** — Ideia bola-assistente Reyes (conceito; Ryan ainda não apresentou).
+- **E020** — Assistente Reyes: cobra mimética (conceito; não apresentada).
 - Recrutas em Node/destilaria/estufa; drones operacionais no pack.
 - Mesmo que Ryan saia, legado técnico (perímetro, Node, casas, ensino, **drones**) já é permanente.
 

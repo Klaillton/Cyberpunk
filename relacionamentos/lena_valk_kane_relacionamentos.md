@@ -29,6 +29,7 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **Estado (21/07 noite):** consolidada + viagem NC combinada + confiança operacional reforçada. **F15** ativo.
 - **26–27/07 (sessão 019):** Viagem industrial (borda NC) + retorno Pack. Atrito de 018 (solo vs equipe) resolvido em conversa explícita. **Acordo:** Ryan dá o mínimo de plano antes do modo operador; Valk pergunta antes de subir o tom. Intimidade reforçada (garagem + tenda). Relação estável e cumplices. **F15** ativo.
 - **28–29/07 (sessão 020):** Planejamento conjunto do módulo de sinal Condor (Ryan explicou o plano completo sob o acordo; Valk aceitou e ajudou na costura/testes). Intimidade prolongada (noite 28→29 + manhã 29) + aftercare forte + banho compartilhado. Residual de carinho e cumplicidade alto. Acordo 019 praticado com sucesso. **F15** ativo.
+- **29–30/07 (sessão 021):** Teste + voo Condor; 1º pacote. Intimidade forte (rede/tenda/banho/cafuné); dormiram na rede. **Base militar:** ela monta o esboço (rotas, abort, quem entra); Ryan decide solo-primeiro só depois de ver de perto. **F15** ativo.
 
 ### Alex "Specter" Kane
 

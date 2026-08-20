@@ -282,13 +282,23 @@ Tutoria de tiro/alongamento com **Sasha e Lira**. Conversa Ryan × Valk sobre li
 
 ## 28 a 29 de Julho de 2026 - Módulo Condor (sessão 020)
 
-Ryan explica o plano completo a Valk (acordo 019). Tio reserva Condor **30/07 15h–17h** e libera sucata. Módulo de sinal (mochila: alumínio + couro, SDR adaptado, ventilação passiva, placa reconstruída) **pronto** em hardware; falta teste integrado + 2 ajustes menores. Intimidade reforçada. Ideia de **assistente flutuante para Reyes** (E020) = conceito, sem prazo, **não apresentada**.
+Ryan explica o plano completo a Valk (acordo 019). Tio reserva Condor **30/07 15h–17h** e libera sucata. Módulo de sinal (mochila: alumínio + couro, SDR adaptado, ventilação passiva, placa reconstruída) **pronto** em hardware; falta teste integrado + 2 ajustes menores. Intimidade reforçada. Ideia **E020** (assistente Reyes) = conceito, sem prazo, **não apresentada**. Forma vigente: **cobra mimética** (na 020 saiu como bola).
 
 **Impactos:**
 
 - Coleta do ad via Condor passa a ser o próximo beat operacional (E015).
 - Relação Ryan × Valk: acordo praticado + residual íntimo alto.
-- Sem delta de reputação/heat/economia (ad ainda não debitado).
+- Sem delta de reputação/heat no 020; economia do ad debitada na **021**.
+
+## 29 a 30 de Julho de 2026 - Coleta Condor (sessão 021)
+
+Teste integrado + ajustes do módulo. Voo 30/07 15h–17h limpo. **1º pacote do ad** (anônimo): não forçar Sparrow/Steel; intermediário 48–72h; não responder por este caminho. Ad permanece no ar. **–300 eb**. Refrigeração (isobutano) e 2º voo (área diferente) pendentes. Valk esboça plano da base militar. Dormiram na rede.
+
+**Impactos:**
+
+- E015 avança para “aguardar intermediário”.
+- Pacote **sem** assinatura “R.” (correção de continuidade).
+- Sem delta de reputação/heat.
 
 ---
 

@@ -20,7 +20,7 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo de sinal para o Condor
 **Arco L1 + off-screen:** [arco_ativo.md](arco_ativo.md)
 
 **Projetos em andamento (Pack / background):**
-- Condor + Corujas no Pack; **módulo de sinal operacional** (1º pacote ok; refrigeração pendente); casas modulares (F11); Node; E019 olaria delegada; **ideia assistente Reyes (cobra mimética)** (conceito, tempo livre).
+- Condor + Corujas no Pack; **módulo de sinal operacional** (1º pacote ok; refrigeração pendente); casas (F11); Node; E019 olaria; enxame (ideia); modelo 3D base militar (estudo, Valk esboça plano); **E020 cobra mimética Reyes** (conceito, tempo livre).
 
 **Decisão de viagem:** Ryan + Valk trataram assuntos de NC à distância (ad + coleta via Condor); possível retorno a NC quando houver intermediário. Sasha/Lira com residual positivo da viagem 019.
 
@@ -55,7 +55,7 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo de sinal para o Condor
 | **Lina “Sparrow” Park** | Contato NC (NPC) | Handle Sparrow → rede/Kaz | residual **sem ACK** |
 | **Marcus “Steel” Rivera** | Contato NC (NPC) | Handle Steel | mudo |
 | **Kaz “The Broker”** | Fixer crew | Off-screen | Escondido; montando crew |
-| **Reyes / Tio Gringo** | Pack | Background / oficina | Condor + isobutano |
+| **Reyes / Tio Gringo** | Pack | Background / oficina | Isobutano p/ refrigeração; E020 cobra (ideia, não apresentada) |
 
 ---
 

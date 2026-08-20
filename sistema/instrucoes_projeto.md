@@ -104,7 +104,7 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 | Atualização pós-sessão (manual) | [como_atualizar_arquivos.md](como_atualizar_arquivos.md) |
 | Abrir chat novo | Colar prompt de `logs/handoff_atual.md` (tier-0 = context pack + AGENDA + Motor de cena) |
 
-- Padrão resumo: `logs/sessao_resumo_XXX.md` (nº em `registro_arquivos.md`; próximo: **021**)
+- Padrão resumo: `logs/sessao_resumo_XXX.md` (nº em `registro_arquivos.md`; próximo: **022**)
 - **Nunca** commit/push sem confirmação explícita do jogador
 - Sugira resumo/refresh quando chat longo (~80–100 msgs) ou confusão de estado
 - **Rodapé OOC:** `ctrl N/90` no fim de cada resposta de RP (boot `ctrl 2/90`). Só conta; não é cena.

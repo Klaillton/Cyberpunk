@@ -39,7 +39,7 @@
 | 14/07/2026 | Apresentação formal do **protótipo casas modulares** — Valk + Tio Gringo + alunos; Ryan suporte técnico. |
 | ~15–20/07/2026 | **E014 resolvido (implícito):** produção e capacitação **aprovadas**; revelação **pública** ao pack geral **adiada** (F11). Sem discurso documentado. |
 | 24–27/07/2026 | Ryan+Valk (e Sasha/Lira) saíram e **voltaram**; ad anônimo no ar. Sem anúncio formal ao pack geral. |
-| 28–29/07/2026 | Ryan constrói módulo de sinal para o Condor (coleta do ad). Tio reserva o pássaro **30/07 15h–17h**. Ideia de assistente flutuante para Reyes = **conceito**, sem prazo (Ryan ainda não apresentou). |
+| 28–29/07/2026 | Ryan constrói módulo de sinal para o Condor (coleta do ad). Tio reserva o pássaro **30/07 15h–17h**. Ideia de assistente (E020) = **conceito**; forma vigente **cobra mimética** (na 020 saiu como bola). Sem prazo; Ryan ainda não apresentou. |
 
 ## Relação com a crew
 

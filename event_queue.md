@@ -15,12 +15,12 @@
 | E011 | Visita à **Doc Moreau** (Elisa) | Pendente | Média | Médio prazo | Ryan prometeu; Valk quer ir junto — **não** é Stitch; item de **E015** |
 | **E012** | Montagem protótipo casas + escala / revelação ao pack | Em andamento | Alta | Médio prazo | Externo OK; interno em modelagem; revelação pack geral parcial |
 | **E014** | **Resposta de Reyes** sobre protótipo casas modulares | **Resolvido (implícito)** | — | — | Revelação **pública** ao pack geral ainda em E012 |
-| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Em andamento** | Alta | Curto prazo | **Fase: ad no ar + coleta via Condor.** Viagem 24–27/07 feita; retorno Pack. Ad anônimo ativo (pacote ~3 dias). **Módulo de sinal** pronto (020); falta teste integrado + voo **30/07 15h–17h**. Residual **Lina Park** sem ACK; **Marcus Rivera** mudo; Kaz off-screen. [lina_park](fichas/npc/lina_park.md) · [steel](fichas/npc/marcus_steel_rivera.md) · [arco](board/arco_ativo.md) |
+| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Em andamento** | Alta | Curto prazo | **Fase: 1º pacote coletado (30/07).** Ad continua no ar. Mensagem anônima: não forçar Sparrow/Steel; intermediário **48–72h**; não responder por este caminho. Débito **300 eb** pago. Residual **Lina Park** sem ACK; **Marcus Rivera** mudo; Kaz off-screen. |
 | E016 | Tutoria Valk + Sasha/Lira (assistentes) | Em andamento | Média | Contínuo | **019:** residual positivo ambas (viagem); Sasha “não some sem avisar”; Lira aberta a novas saídas; ambas no Pack |
 | E017 | Enxame mini-drones (ideia / sondagem) | Em andamento | Baixa | — | Não prioritário vs E015; P005/P006 pedidos |
 | E018 | Modelo 3D base militar (estudo) | Pendente | Baixa | — | Mapeamento **externo** 21/07; abandono aparente; sem infiltração |
 | **E019** | **Olaria + desidratador + cogeração de calor da forja** | Pendente | Baixa | Médio prazo | Ideia 23/07; **delegada ao Pack** (Tio Gringo / time produção / cozinha). Discussão após retorno (já de volta). |
-| E020 | Assistente flutuante para **Reyes** (bola, punho) | Ideia | Baixa | Tempo livre | Conceito 020; IA local, voz, bateria + indução, configurável. **Sem prazo.** Ryan ainda **não** apresentou a Reyes. |
+| E020 | Assistente para **Reyes** (cobra mimética) | Ideia | Baixa | Tempo livre | Conceito 020 (saiu como bola; **forma vigente = cobra mimética**, não voa). IA local, voz, bateria + indução, configurável. **Sem prazo.** Ryan ainda **não** apresentou. |
 
 ## Eventos Resolvidos (Recentes)
 

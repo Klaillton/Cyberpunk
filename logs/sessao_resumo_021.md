@@ -122,9 +122,12 @@
 | `logs/context_pack_atual.md` | **sim** (NOW pós-021) |
 | `logs/handoff_atual.md` | **sim** (022) |
 | `board/board_campanha.md` | **sim** |
-| `board/arco_ativo.md` | **sim** (B7 coleta concluída) |
+| `board/arco_ativo.md` | **sim** (B7 feita; intermediário) |
 | `logs/downtime_ryan.md` | **sim** |
 | `relacionamentos/ryan_relacionamentos.md` | **sim** (Valk 021) |
-| `economia.md` | **sim** (–300 eb) |
-| event_queue / consequencias / heat / reputacao / facoes | **sem delta** (avaliados) |
-| pulso (29→30/07) | **avaliado** — Pack estável |
+| `relacionamentos/lena_valk_kane_relacionamentos.md` | **sim** |
+| `event_queue.md` | **sim** (E015 1º pacote) |
+| `economia.md` | **sim** (–300 eb; estoque restaurado + P007) |
+| `consequencias/consequencias_persistentes.md` | **sim** (bloco 021) |
+| heat / reputacao | **sem delta** |
+| pulso (29→30/07) | **gap B1** — Pack estável |

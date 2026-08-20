@@ -62,6 +62,7 @@ Módulo funcionou. Intermediário em 48–72h. Ryan melhora refrigeração. Valk
 - Mensagem: não forçar Sparrow/Steel; intermediário em 48–72h.  
 - Ad permanece no ar; débito 300 ed.  
 - Refrigeração marcada para 31/07; plano base com Valk.  
+- E020 cobra mimética = conceito (não apresentada).  
 - Dormiram na rede.
 
 Detalhe: [sessao_resumo_021.md](sessao_resumo_021.md)
@@ -90,6 +91,7 @@ Detalhe: [sessao_resumo_021.md](sessao_resumo_021.md)
 | F19 | Agents ≠ Warden |
 | F20 | Sparrow = Lina Park (NPC); Steel = Marcus Rivera (NPC) |
 | Motor | N1–N11: sem eco; delta ≥60%; AMBIENTE em local novo; SHOW relacional |
+| Rodapé | OOC `ctrl N/90` (+2); boot `ctrl 2/90`; não narrar |
 
 ---
 
@@ -113,15 +115,17 @@ Detalhe: [sessao_resumo_021.md](sessao_resumo_021.md)
 
 ## Estado
 - **~30/07/2026 noite** · Pack Badlands (rede)
-- Ryan + Valk (acordo 019 + intimidade 020/021 reforçada)
+- Ryan + Valk (acordo 019 + intimidade 020/021)
 - Módulo Condor: 1º pacote coletado; refrigeração pendente
 - Ad: intermediário possível em 48–72h; –300 eb debitados
 - Valk esboçando plano da base militar
+- E020 cobra mimética = conceito (não apresentada)
 
 ## Cena
 Pack. Pós-coleta. **SHOW** residual. Gancho: refrigeração / intermediário / plano base?
 
 ## Narração
 - N1–N11 · delta ≥60% · sem eco de mood/abraço
-- Confirme boot em **1 linha** e aguarde o jogador.
+- Rodapé OOC: linha em branco + `ctrl N/90` (+2). 1ª resposta = `ctrl 2/90`. Perdeu = `ctrl ?/90`. Não narrar; não chrome; ninguém na cena vê.
+- Confirme boot em **1 linha**, imprima `ctrl 2/90`, e aguarde o jogador.
 ```

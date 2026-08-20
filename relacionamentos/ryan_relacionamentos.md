@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 29 de Julho de 2026 (sessão 020)
+**Última atualização:** 30 de Julho de 2026 (sessão 021)
 
 ---
 
@@ -22,9 +22,9 @@
 
 ### Lena "Valk" Kane
 
-**Status:** Namorando (relação consolidada + acordo de comunicação ops 019 + intimidade reforçada 020)  
+**Status:** Namorando (relação consolidada + acordo de comunicação ops 019 + intimidade reforçada 020/021)  
 **Intensidade:** Alta  
-**Última atualização:** 29 de Julho de 2026 (sessão 020)
+**Última atualização:** 30 de Julho de 2026 (sessão 021)
 
 **Evolução conhecida:**
 
@@ -110,12 +110,18 @@
 - Acordo de comunicação 019 **praticado com sucesso** durante o planejamento ops.
 - Relação estável, cumplicidade reforçada.
 
+**Atualização (29–30/07 — sessão 021):**
+
+- Teste do módulo + voo Condor juntos (acordo 019 praticado).
+- Intimidade forte (rede, tenda, banho, cafuné até a noite); dormiram na rede.
+- Base militar: Valk esboça o plano; Ryan decide sozinho-primeiro só depois de ver de perto; decisão de quem entra **junto**.
+
 **Estado atual:**
 
 - Ryan e Valk juntos de forma estável e cumplices.
-- Acordo de comunicação operacional em vigor (019) e usado ativamente.
-- Intimidade 020 reforçou o residual afetivo.
-- Decisão conjunta de assuntos em NC (ad no ar; coleta via Condor preparada).
+- Acordo 019 em vigor (ops + base militar).
+- Residual íntimo 020/021 alto.
+- Ad: 1º pacote coletado; intermediário 48–72h; –300 eb.
 - Valk **não** usa “herói” / “herói solitário” (**F15**).
 
 **Notas do Narrador:**
