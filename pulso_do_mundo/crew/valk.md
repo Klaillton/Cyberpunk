@@ -1,4 +1,6 @@
-# Pulso - Lena "Valk" Kane
+# Pulso - Lena “Valkirya” Kane
+
+> Handle **Valkirya**. **Valk** = apelido do Ryan (**F21**).
 
 **Última atualização:** 27 de Julho de 2026 (sessão 019)
 **Escopo:** Acionar com Ryan nas **Badlands** (presente no acampamento).

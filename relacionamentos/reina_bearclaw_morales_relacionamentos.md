@@ -23,7 +23,7 @@
 - **Tipo de relação:** Proteção (estilo "Mãe Urso") + dívida emocional assimétrica
 - **Notas:** Reina conheceu Ryan através da **Doc Moreau** (Elisa). **Reina sabe** que Ryan construiu os cyberarms dela; **Ryan não lembra**. Gratidão e instinto protetor **sem** revelar em voz alta — isso só vira cena no reencontro. Romance = fase posterior, opcional. Amizade com Valk **antes** de qualquer romance (princípio de `04`).
 
-### Lena “Valk” Kane
+### Lena “Valkirya” Kane
 
 - **Status:** Aliada
 - **Tipo de relação:** Profissional / Amizade em construção

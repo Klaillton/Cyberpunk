@@ -43,6 +43,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | **Projeto futuro moto Reina (não canônico)** | `fichas/reina_byke_project.md` | Ficha Reina; `imagens/reina/bike9.jpg` — **só após ATIVO** |
 | Background e gatilhos do Ryan (narrador) | `fichas/notas_narrador/ryan_background_completo.md` | `fichas/notas_narrador/ryan_gatilhos_memorias.md`, `fichas/techie - ryan_wireghost_voss.md` (Elisa "Doc" Moreau) |
 | Curiosidade: valor agregado ao Pack (estimativa) | `fichas/notas_narrador/ryan_valor_pack.md` | **Não** é ledger; Ryan não sabe; [economia.md](../economia.md) |
+| Background Valkirya (narrador) | `fichas/notas_narrador/lena_valkyria_kane_background.md` | Backstory ≠ mesa; upgrades Mule = campanha |
 | Histórico de sessão | `logs/sessao_resumo_XXX.md` | Arquivos listados na seção "Arquivos Atualizados" de cada resumo |
 | Detalhes de job / gig concluído | `logs/job_XXX_*.md` | `logs/sessao_resumo_*.md`, `consequencias/consequencias_persistentes.md`, `heat.md` |
 | Incidente narrativo marcante (combate, confronto) | `logs/incidente_XXX_*.md` | `consequencias/consequencias_persistentes.md`, `event_queue.md`, sessões |

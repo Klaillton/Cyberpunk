@@ -33,12 +33,13 @@ Detalhe: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · [m
 | Cena / gancho | |
 | Prioridade | E0XX ou livre |
 | Segredos ativos | |
+| Temperatura Ryan × Valkirya | baseline ops / residual íntimo / aftercare / frio público — **vence a ficha** |
 
 ---
 
 ## Fatos duros em vigor
 
-Citar IDs de `sistema/fatos_duros.md` (F01–F13 + L0x se aplicável):
+Citar IDs de `sistema/fatos_duros.md` (F01–F21 + L0x se aplicável):
 
 - F03, F04, F11, …
 - L0x: …

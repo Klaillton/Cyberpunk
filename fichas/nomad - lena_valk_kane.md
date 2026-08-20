@@ -1,10 +1,17 @@
-# Lena “Valk” Kane
+# Lena “Valkirya” Kane
 
 **Role:** Nomad • Pilota de Elite • Proprietária do The Mule  
 **Idade:** 32  
 **Conceito:** Motorista estoica e confiável, especialista em extrações e transporte de alto risco.
 
-<img src="../imagens/nomad%20-%20lena_valk_kane.jpg" width="220" alt="Lena &quot;Valk&quot; Kane" />
+| Campo | Valor |
+| ----- | ----- |
+| **Nome civil** | Lena Kane |
+| **Handle / rua** | **Valkirya** |
+| **Valk** | Apelido **carinhoso do Ryan** — não é o handle. Pack, crew, jobs e Echo: **Valkirya** (ou Lena). |
+| **Atalho de mesa** | “Valk” nos arquivos = a personagem; **in-fiction** só Ryan diz Valk por default (**F21**). Sem retcon de logs. |
+
+<img src="../imagens/nomad%20-%20lena_valk_kane.jpg" width="220" alt="Lena Valkirya Kane" />
 
 ## Equipe: Valk + The Mule
 
@@ -21,7 +28,7 @@ Valk e o **The Mule** são **quase uma equipe própria** — mais do que “dono
 
 ## Descrição Visual
 
-Lena “Valk” Kane é uma mulher de aparência marcante e perigosa. Tem cabelos castanhos longos e ondulados, olhos azuis penetrantes e uma expressão séria e determinada. Seu corpo é atlético e tonificado, com abdômen definido. Ela usa um top cropped preto justo com detalhes de cyberware azul brilhante nos ombros e braços. Tem um coldre na cintura e um visual tático prático. Transmite uma aura de competência, frieza e força física.
+Lena “Valkirya” Kane é uma mulher de aparência marcante e perigosa. Tem cabelos castanhos longos e ondulados, olhos azuis penetrantes e uma expressão séria e determinada. Seu corpo é atlético e tonificado, com abdômen definido. Ela usa um top cropped preto justo com detalhes de cyberware azul brilhante nos ombros e braços. Tem um coldre na cintura e um visual tático prático. Transmite uma aura de competência, frieza e força física.
 
 ### Presença física (narrador)
 
@@ -68,11 +75,13 @@ Lena “Valk” Kane é uma mulher de aparência marcante e perigosa. Tem cabelo
 
 ## Background
 
-Lena “Valk” Kane cresceu em um pequeno pack nômade independente. Durante o Tempo do Vermelho, o pack foi atacado e quase completamente destruído. Ela sobreviveu porque estava dirigindo um dos veículos de fuga. Desde então, trabalha como motorista independente, oferecendo serviços de transporte, extração e proteção para crews que pagam bem e não abandonam os seus. É conhecida por ser extremamente confiável e por nunca deixar ninguém para trás.
+Lena “Valkirya” Kane cresceu em um pequeno pack nômade independente. Durante o Tempo do Vermelho, o pack foi atacado e quase completamente destruído. Ela sobreviveu porque estava dirigindo um dos veículos de fuga. Desde então, trabalha como motorista independente, oferecendo serviços de transporte, extração e proteção para crews que pagam bem e não abandonam os seus. É conhecida por ser extremamente confiável e por nunca deixar ninguém para trás.
 
 ## Personalidade
 
 Quieta, profissional e direta. Fala pouco e prefere provar as coisas com ações. É estoica e tem dificuldade em demonstrar emoções abertamente, mas demonstra lealdade através de atitudes. Tem um senso de humor seco e negro. Não gosta de corporações e carrega ranço do ataque que destruiu seu pack. O [The Mule](vehicle%20-%20the_mule.md) é a coisa mais importante que ela possui — é a única coisa que restou do antigo pack; juntos formam a **equipe Valk + Mule**.
+
+**Baseline vs agora (narrador):** o parágrafo acima é o **default público / ops**, não o botão de reset no boot. Com Ryan, depois de intimidade ou residual alto, ela fica **mais macia, colada, dengosa** (cafuné, corpo, poucas palavras quentes) até o NOW/handoff dizer que o residual esfriou. **Não** começar chat novo na estoica da ficha se o pack diz rede, aftercare ou residual íntimo. Temperatura da cena = **NOW / handoff**, não este bloco.
 
 ## O que ela valoriza
 
@@ -103,6 +112,7 @@ Ryan e Valk estão namorando de forma **consolidada** (F07). Dividem tenda no Pa
 
 ## Notas / Journal
 
+- Backstory (pack, Raffen, Mule, pré-Ryan): [lena_valkyria_kane_background.md](notas_narrador/lena_valkyria_kane_background.md) — **não** misturar com upgrades da campanha.
 - O [The Mule](vehicle%20-%20the_mule.md) é a única coisa que restou do antigo pack. É sagrado para ela — e parte da **equipe Valk + Mule**.
 - Ela nunca abandona ninguém no veículo. “Não deixo ninguém para trás” é seu código pessoal.
 - Tem ranço de corporações. Aceita jobs contra elas com mais facilidade.

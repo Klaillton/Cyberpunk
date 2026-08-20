@@ -36,15 +36,15 @@ Boot OK · ~30/07/2026 noite · Pack Badlands · prioridade: intermediário ad 4
 | Pessoas | Ryan + Valk (Pack); Lira + Sasha residual positivo |
 | Drones | Vespas + Warden com Ryan; Condor/Corujas no Pack |
 | Canais | **Lina Park (Sparrow):** residual sem ACK; **Marcus Rivera (Steel):** mudo; Kaz off-screen |
-| Ryan × Valk | Acordo 019 em vigor + intimidade muito reforçada (020 + 021) |
+| Ryan × Valkirya | Acordo 019 + residual **íntimo alto** (rede, cafuné, colada). **Não** resetar para estoica da ficha. Ele diz **Valk**. |
 | Módulo Condor | Teste + ajustes ok; 1º pacote coletado; refrigeração (isobutano) pendente |
 | Ad | 1º pacote recebido; intermediário possível em 48–72h; ad continua no ar |
 | Economia | –300 eb (débito do ad) |
 | Ruleset | **v1.3.0** |
 
 ### Cena de abertura
-**Pack — manhã 31/07.**  
-Módulo funcionou. Intermediário em 48–72h. Ryan melhora refrigeração. Valk esboça plano da base militar.
+**Pack — ainda na rede (noite 30 / acordar 31).**  
+Residual dengoso: colada, cafuné, poucas palavras quentes. **Não** bootar na Nomad fria da ficha. Ops (refrigeração, intermediário, plano da base) só depois que a cena acordar.
 
 ### AGENDA
 1. Refrigeração módulo + possível 2º voo.  
@@ -86,7 +86,8 @@ Detalhe: [sessao_resumo_021.md](sessao_resumo_021.md)
 | -- | ------ |
 | F03 | Warden **não voa** |
 | F04 | Stitch ≠ Doc Moreau |
-| F15 | Valk **não** “herói” |
+| F15 | Valkirya **não** “herói” |
+| F21 | Handle **Valkirya**; **Valk** = apelido do Ryan |
 | F18 | Ruleset **1.3.0**; sem retcon 001–016 |
 | F19 | Agents ≠ Warden |
 | F20 | Sparrow = Lina Park (NPC); Steel = Marcus Rivera (NPC) |
@@ -115,14 +116,14 @@ Detalhe: [sessao_resumo_021.md](sessao_resumo_021.md)
 
 ## Estado
 - **~30/07/2026 noite** · Pack Badlands (rede)
-- Ryan + Valk (acordo 019 + intimidade 020/021)
+- Ryan + Valkirya: residual **íntimo alto** (rede, cafuné, colada). Ele diz **Valk**. **Não** resetar para estoica da ficha.
 - Módulo Condor: 1º pacote coletado; refrigeração pendente
 - Ad: intermediário possível em 48–72h; –300 eb debitados
-- Valk esboçando plano da base militar
+- Plano da base = depois que a cena acordar
 - E020 cobra mimética = conceito (não apresentada)
 
 ## Cena
-Pack. Pós-coleta. **SHOW** residual. Gancho: refrigeração / intermediário / plano base?
+Ainda na rede. SHOW residual dengoso. **Não** começar fria/ops. Gancho: acordar juntos; refrigeração / intermediário / plano base **depois**.
 
 ## Narração
 - N1–N11 · delta ≥60% · sem eco de mood/abraço

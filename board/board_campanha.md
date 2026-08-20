@@ -49,7 +49,7 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo de sinal para o Condor
 
 | Nome | Papel | Relação com Ryan | Notas |
 |------|-------|------------------|-------|
-| **Lena "Valk" Kane** | Parceira | Amor + acordo ops 019 + intimidade 020/021 | F15; comunicação mínima de plano |
+| **Lena “Valkirya” Kane** | Parceira | Amor + acordo ops 019 + intimidade 020/021 | Ryan diz **Valk**; handle **Valkirya** (F21); F15 |
 | **Lira** | Pack | Residual positivo 019 | Aberta a novas saídas |
 | **Sasha** | Pack | Residual positivo 019 | “Não some sem avisar” |
 | **Lina “Sparrow” Park** | Contato NC (NPC) | Handle Sparrow → rede/Kaz | residual **sem ACK** |

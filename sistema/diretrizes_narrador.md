@@ -52,6 +52,17 @@ Playbook completo: **[npc_agencia_cena.md](npc_agencia_cena.md)**.
 - **Anti-loop:** se o mesmo diálogo ou menu de opções já apareceu **duas vezes**, na terceira o narrador **avança** com a decisão ou entrega do NPC.
 - Decisões operacionais já delegadas (ex.: Elias na destilaria) podem **progredir na mesma cena** se Ryan não intervém — narrar só o que ele percebe.
 
+### 3.2 Nomes — Valkirya / Valk (**F21**)
+
+- Handle de rua: **Valkirya**. Nome civil: Lena Kane.
+- **Valk** = apelido **carinhoso do Ryan**. Ele usa. Outros (Pack, crew, jobs, Echo): **Valkirya** ou Lena, salvo se tiverem pego o apelido dele.
+- Atalho de mesa “Valk” nos arquivos está ok. **Não** reescrever logs/diálogos antigos.
+
+### 3.3 Temperatura NPC (anti-reset no boot)
+
+Ficha = **baseline**. NOW / handoff = **tom desta cena**.  
+Se o pack diz residual íntimo, aftercare, rede, cafuné: **não** reabrir a personagem na versão fria da ficha. O default estoico volta em público/ops ou quando o NOW esfriar. Vale para Valkirya em especial.
+
 ## 4. Conhecimento dos NPCs e Proibição de Meta-game
 
 **Regra importante:**

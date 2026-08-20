@@ -150,7 +150,7 @@ Estilo: discreto o suficiente para “repórter de rua”, chamativo o bastante 
 | Quem | Dinâmica |
 | ---- | -------- |
 | **Ryan "Wireghost" Voss** | Admiração técnica + flerte leve |
-| **Lena "Valk" Kane** | Respeito profundo (“nunca abandona”) |
+| **Lena “Valkirya” Kane** | Respeito profundo (“nunca abandona”) |
 | **Kaz "The Broker"** | Recrutadora / aliada profissional |
 | **Crew em geral** | Quer transformar o grupo em lenda anti-corp via narrativa |
 

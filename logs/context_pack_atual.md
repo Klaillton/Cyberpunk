@@ -41,11 +41,12 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
 | Cena / gancho | 1º pacote do ad coletado; intermediário em 48–72h; refrigeração módulo pendente; plano base militar com Valk |
 | Prioridade | (1) Intermediário ad (48–72h) (2) Refrigeração módulo + 2º voo (3) Esboço plano base militar |
 | Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira ainda delicado |
+| **Temperatura Ryan × Valkirya** | **Residual íntimo alto.** Rede, cafuné, colada. **Não** resetar para estoica da ficha no boot. |
 
 ### Cena de abertura sugerida
 
-**Pack — manhã 31/07.**  
-Módulo de sinal funcionou (1º pacote anônimo recebido). Ad continua no ar. Intermediário possível em 48–72h. Ryan vai melhorar refrigeração (isobutano). Valk monta esboço do plano da base militar. Residual íntimo alto.
+**Pack — noite 30/07 / acordar 31/07 na rede.**  
+Ainda juntos na rede (lua, cafuné, residual dengoso). **Não** começar a cena fria/ops. Só depois: refrigeração (isobutano), intermediário 48–72h, esboço da base (ela).
 
 ---
 
@@ -74,9 +75,10 @@ Módulo de sinal funcionou (1º pacote anônimo recebido). Ad continua no ar. In
 | **F03** | Warden = drone **terrestre** scorpion (**não voa**) |
 | **F04** | **Stitch** = Stephania (crew); **Doc** = Elisa Moreau (passado) |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
-| **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
-| F07 | Ryan × Valk consolidados (**acordo comunicação ops 019** + intimidade 020/021) |
-| F08 | Mule = de Valk; equipe Valk + Mule |
+| **F15** | Valkirya **não** chama Ryan de “herói” / “herói solitário” |
+| F07 | Ryan × Valkirya consolidados (**acordo comunicação ops 019** + intimidade 020/021) |
+| F08 | Mule = dela; equipe Valk + Mule (atalho) |
+| **F21** | Handle = **Valkirya**. **Valk** = apelido do Ryan. Sem retcon de logs |
 | **F11** | Casas modulares — pack geral sem revelação oficial completa |
 | **L01–L03** | Pack: Reyes, Tio Gringo, Container A, time produção no segredo parcial |
 | **Novo** | Lira + Sasha: residual positivo 019 mantido |

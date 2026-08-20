@@ -22,7 +22,7 @@ Marca pública: **Void List**. Preferir **função** (“a solo”, “o tech”
 
 | NPC                      | Reputação | Tipo de Relação      | Notas                           |
 | ------------------------ | --------- | -------------------- | ------------------------------- |
-| Lena "Valk" Kane         | +90       | Romântica / Aliada   | Consolidada; acordo ops 019; residual íntimo 020; F15 |
+| Lena “Valkirya” Kane     | +90       | Romântica / Aliada   | Ryan: **Valk**; handle **Valkirya** (F21). Acordo 019; residual 020/021; F15 |
 | Alex "Specter" Kane      | -15       | Rivalidade velada    | Interesse em Valk gera tensão   |
 | Reina "Bearclaw" Morales | +30       | Protetora (Mãe Urso) | Trata Ryan como irmão mais novo |
 | Kaz "The Broker"         | +40       | Aliança profissional | Confia no potencial da crew     |

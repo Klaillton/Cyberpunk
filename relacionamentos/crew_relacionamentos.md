@@ -10,9 +10,9 @@
 
 | Personagem A        | Personagem B          | Tipo de Relação                           | Intensidade | Status             | Notas                      |
 | ------------------- | --------------------- | ----------------------------------------- | ----------- | ------------------ | -------------------------- |
-| Lena "Valk" Kane    | Jax "Razor" Kane      | Colega de crew                            | Baixa-Média | Profissional       | Sem parentesco — só coincidência de sobrenome Kane |
-| Lena "Valk" Kane    | Alex "Specter" Kane   | Interesse romântico (Alex)                | Média       | Unilateral         | Alex demonstra interesse; sem parentesco com Valk/Jax |
-| Lena "Valk" Kane    | Ryan "Wireghost" Voss | Namorando (consolidada + acordo 019)      | Alta        | Estável            | Amor mútuo; F15; residual 020 |
+| Lena “Valkirya” Kane | Jax "Razor" Kane     | Colega de crew                            | Baixa-Média | Profissional       | Handle **Valkirya** (F21). Sem parentesco Kane |
+| Lena “Valkirya” Kane | Alex "Specter" Kane  | Interesse romântico (Alex)                | Média       | Unilateral         | Alex demonstra interesse; sem parentesco |
+| Lena “Valkirya” Kane | Ryan "Wireghost" Voss | Namorando (consolidada + acordo 019)    | Alta        | Estável            | Ele diz **Valk**; F15; residual 020/021 |
 | Alex "Specter" Kane | Ryan "Wireghost" Voss | Provocação / Rivalidade velada            | Média       | Tensão             | Alex cutuca Ryan           |
 | Reina "Bearclaw"    | Ryan "Wireghost" Voss | Proteção (Mãe Urso) + Potencial romântico | Média       | Em desenvolvimento | Reina sabe dos braços; Ryan não lembra |
 | Kaz Takahashi       | Ryan "Wireghost" Voss | Aliança profissional                      | Média       | Estável            | Kaz trouxe jobs            |
@@ -20,7 +20,7 @@
 | Dr. Stephania "Stitch" | Reina "Bearclaw"      | Amizade + Cuidado especial                | Alta        | Estável            | Stitch cuida mais de Reina    |
 | Jax "Razor" Kane    | Ryan "Wireghost" Voss | Respeito profissional                     | Baixa       | Neutro             | Pouca interação            |
 | Emilia "Echo" Rivera | Ryan "Wireghost" Voss | Admiração técnica + flerte leve         | Baixa-Média | Em formação        | Ghost reporter; recrutada por Kaz |
-| Emilia "Echo" Rivera | Lena "Valk" Kane    | Respeito                                  | Baixa-Média | Em formação        | “Nomad que nunca abandona” |
+| Emilia "Echo" Rivera | Lena “Valkirya” Kane | Respeito                                 | Baixa-Média | Em formação        | “Nomad que nunca abandona” |
 | Emilia "Echo" Rivera | Kaz Takahashi       | Aliança profissional                      | Média       | Estável            | Kaz recrutou Echo          |
 
 ## DINÂMICAS IMPORTANTES

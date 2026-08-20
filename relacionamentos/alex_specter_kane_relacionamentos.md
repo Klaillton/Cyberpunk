@@ -9,7 +9,7 @@ Alex é sarcástica, provocadora e tem um humor afiado. Gosta de cutucar as din�
 
 ## Relacionamentos Principais
 
-### Lena "Valk" Kane
+### Lena “Valkirya” Kane
 
 - **Status:** Interesse romântico (de Alex)
 - **Intensidade:** Média-Alta

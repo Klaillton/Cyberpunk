@@ -36,6 +36,7 @@ Leia: instrucoes_projeto → diretrizes_ia → handoff_atual → dashboard → b
 
 ## Estado atual
 - Data / local / prioridade
+- **Temperatura Ryan × Valkirya** (1 linha; vence a ficha estoica)
 - Cena de abertura
 
 ## O que acabou de acontecer

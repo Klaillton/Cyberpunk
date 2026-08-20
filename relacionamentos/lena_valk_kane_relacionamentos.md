@@ -1,4 +1,6 @@
-# Relacionamentos - Lena "Valk" Kane
+# Relacionamentos - Lena “Valkirya” Kane
+
+> Handle **Valkirya**. **Valk** = apelido do Ryan (**F21**). Sem retcon de logs.
 
 ## Visão Geral
 

@@ -27,7 +27,7 @@
 | Personagem                | Nível de Heat | Justificativa                                                          |
 | ------------------------- | ------------- | ---------------------------------------------------------------------- |
 | **Ryan "Wireghost" Voss** | Média         | Operação contra Biotechnica + demonstração de habilidade letal no Pack |
-| **Lena "Valk" Kane**      | Baixa         | Mais discreta, foco em transporte e sobrevivência                      |
+| **Lena “Valkirya” Kane**  | Baixa         | Handle **Valkirya**; mais discreta, transporte/sobrevivência |
 | **Alex "Specter" Kane**   | Média         | Atividades de Netrunning aumentam exposição                            |
 | **Reina "Bearclaw"**      | Baixa         | Ainda pouco exposta publicamente                                       |
 | **Emilia "Echo" Rivera**  | Baixa         | Media em camadas; ainda sem headline com rosto próprio documentada     |

@@ -1,6 +1,6 @@
 # THE MULE
 
-**Veículo de Lena “Valk” Kane • Mini Tanque Disfarçado de Van Velha**
+**Veículo de Lena “Valkirya” Kane • Mini Tanque Disfarçado de Van Velha**
 
 **Mecânica (Drive, perseguição, mounts):** [sistema/regras_red/09_veiculos.md](../sistema/regras_red/09_veiculos.md)
 
@@ -9,7 +9,7 @@
 | Tipo   | Van 8x8 Pesada Modificada                            | Peso Estimado | 9~11 toneladas                      |
 | ------ | ---------------------------------------------------- | ------------- | ----------------------------------- |
 | Origem | Construído e remendado por nômades ao longo dos anos | Conceito      | Mini tanque disfarçado de van velha |
-| Pilota / dona | [Lena “Valk” Kane](nomad%20-%20lena_valk_kane.md) | Equipe | **Valk + Mule** — quase uma unidade própria (extração, fuga, convoy) |
+| Pilota / dona | [Lena “Valkirya” Kane](nomad%20-%20lena_valk_kane.md) | Equipe | **Valk + Mule** (atalho; handle dela = **Valkirya**, F21) |
 | Imagem | [imagens/vehicle - the_mule.jpg](../imagens/vehicle%20-%20the_mule.jpg) | Manutenção (atual) | Ryan (Wireghost) nos upgrades; Valk no comando |
 
 **Configuração de Rodas:** 8x8 (pneus duplos nos eixos traseiros)

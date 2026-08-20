@@ -240,7 +240,7 @@ Quando entra em modo de trabalho, Ryan se torna o **"operador"**: frio, pragmát
 
 Ele já esteve com outras mulheres antes, mas sempre foi algo puramente físico, na maioria das vezes iniciado por outras pessoas após jobs. Ele tratava como “parte do trabalho”.
 
-A chegada de **Lena “Valk” Kane** foi algo completamente novo para ele. Pela primeira vez em muito tempo, ele passou a sentir coisas de forma mais intensa e constante.
+A chegada de **Lena “Valkirya” Kane** (ele a chama de **Valk**) foi algo completamente novo para ele. Pela primeira vez em muito tempo, ele passou a sentir coisas de forma mais intensa e constante.
 
 ### Memórias Reprimidas e Gatilhos
 
@@ -271,7 +271,7 @@ Antigo cliente que deve vários favores a ele. **≠** Emilia “Echo” Rivera 
 
 **Conexões importantes:**
 
-- **Lena “Valk” Kane**: Namoro consolidado (F07). Acordo de comunicação ops **019** (ele dá o mínimo de plano; ela pergunta antes de subir o tom). Intimidade e aftercare de rotina; residual forte pós-**020**. **F15:** ela não o chama de “herói”. Cuida dela também na oficina (Mule, módulo Condor).
+- **Lena “Valkirya” Kane**: Namoro consolidado (F07). Ele a chama de **Valk** (F21). Acordo de comunicação ops **019**. Intimidade e aftercare de rotina; residual 020/021. **F15:** ela não o chama de “herói”. Cuida dela na oficina (Mule, módulo Condor).
 - **Alex “Specter” Kane**: Alex é provocadora com ele (especialmente quando Valk está por perto). Flerta e cutuca Ryan de propósito, mas seu interesse real é em Valk.
 - **Reina “Bearclaw” Morales**: Já se conheceram através da **Doc Moreau** (Elisa — não Stitch). Ryan não lembra dos detalhes (incluindo ter construído os cyberarms dela). **Reina sabe** e o trata com instinto protetor sem revelar a dívida em voz alta.
 

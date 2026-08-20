@@ -2,7 +2,7 @@
 
 **Finalidade:** lista **estável** de fatos que a IA **não pode inventar nem inverter**.  
 **Uso:** tier-0 com `logs/context_pack_atual.md`; comando `[Verificar fato]`; boot/refresh.  
-**Última revisão estrutural:** 17 de Julho de 2026 (F15 — Valk não chama Ryan de “herói”)
+**Última revisão estrutural:** 20 de Agosto de 2026 (F21 — handle Valkirya; Valk = apelido do Ryan)
 
 > Snapshot de **data/local/prioridade** vive no **context pack** (muda a cada sessão).  
 > Este arquivo muda **raramente** — só quando a campanha redefinir um fato canônico.
@@ -29,11 +29,12 @@
 | **F03** | **Warden** = drone **terrestre** scorpion-like (modo mochila/transporte). **Não voa** | Ficha Ryan |
 | **F04** | **Stitch** = Dr. Stephania Voss (MedTech da **crew**). **Doc** = Elisa “Doc” Moreau (passado de Ryan). Nunca trocar os nomes | [Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Doc](../fichas/npc/elisa_doc_moreau.md) |
 | **F05** | Ryan e Stephania compartilham sobrenome **Voss** por coincidência — **sem parentesco** | Ficha Stitch / ryan_relacionamentos |
-| **F06** | Protagonista jogável: **Ryan “Wireghost” Voss** (Techie). Valk, Alex, Reina, Kaz, Stitch, **Jax “Razor” Kane** = **crew** (NC) | mapa_relacional |
+| **F06** | Protagonista jogável: **Ryan “Wireghost” Voss** (Techie). Valkirya, Alex, Reina, Kaz, Stitch, **Jax “Razor” Kane** = **crew** (NC) | mapa_relacional |
 | **F14** | **Scout** = sentinela/recon do Pack Badlands (apelido; scavs). **≠** Jax **“Razor” Kane** (Solo crew). Razor **não** está nas Badlands | [scout.md](../fichas/npc/scout.md) |
 | **F20** | **Sparrow** = **Lina “Sparrow” Park** (contato/fixer, **pessoa**). **Steel** = **Marcus “Steel” Rivera** (contato, **pessoa**). Handles de rádio **≠** sistema/drone/protocolo. Steel **≠** Emilia “Echo” **Rivera** | [lina_park](../fichas/npc/lina_park.md) · [marcus_steel_rivera](../fichas/npc/marcus_steel_rivera.md) |
-| **F07** | Ryan × Valk = relação **consolidada** (amor declarado); Valk costuma escolher roupa em saídas | ryan / lena relacionamentos; guarda-roupa |
-| **F08** | **The Mule** = veículo de Valk; equipe operacional **Valk + Mule** | vehicle - the_mule; ficha Valk |
+| **F07** | Ryan × Valkirya = relação **consolidada** (amor declarado); ela costuma escolher roupa em saídas | ryan / lena relacionamentos; guarda-roupa |
+| **F08** | **The Mule** = veículo dela; equipe operacional **Valk + Mule** (atalho de mesa) | vehicle - the_mule; ficha |
+| **F21** | Handle de rua = **Valkirya**. **Valk** = apelido **carinhoso do Ryan**. Nome civil: Lena Kane. Outros (Pack, crew, jobs, Echo) usam **Valkirya** ou Lena, não “Valk”, salvo se tiverem pego o apelido dele. **Sem retcon** de logs/diálogos já gravados | ficha nomad · este arquivo |
 | **F09** | Job 001 (extração Vossler / Biotechnica) e incursões Raffen são **passados registrados** em `logs/` — não reinventar o outcome | job_001, incidentes, sessões |
 | **F10** | NPCs só sabem o que viram/ouviram in-fiction (**anti meta-game**) | diretrizes_narrador |
 | **F11** | Casas modulares dobráveis = projeto de Ryan; time produção + Tio Gringo sabem; **pack geral** sem anúncio oficial completo (E014: produção ok; revelação pública adiada / E012) | board / event_queue E012·E014 |
@@ -41,7 +42,7 @@
 | **F12** | Vespas de combate/recon: **Hornet, Vesper, Barbed** (além do Warden) — nomes e papéis conforme ficha | ficha Ryan |
 | **F16** | **Condor** + **Corujas** = drones miméticos de Ryan, **operacionais** no Pack (demo 20/07). Não confundir com Vespas. Enxame mini-drones = só ideia (21/07) | ficha Ryan · board · sessão 012 |
 | **F13** | Próximo número de resumo de sessão: ver `registro_arquivos.md` (não inventar o NNN) | registro_arquivos |
-| **F15** | Valk **não** se refere a Ryan como **“herói”** / **“herói solitário”** (promessa pós-episódio **14/07/2026** na oficina/depósito). Preocupação = outras palavras. Gatilho ativo; memória **não** desbloqueada | [ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md) · relacionamentos Ryan/Valk |
+| **F15** | Valkirya **não** se refere a Ryan como **“herói”** / **“herói solitário”** (promessa pós-episódio **14/07/2026** na oficina/depósito). Preocupação = outras palavras. Gatilho ativo; memória **não** desbloqueada | [ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md) · relacionamentos |
 | **F18** | **Ruleset mecânico** em vigor a partir da sessão **017** (versão atual: **v1.3.0** — [versionamento_regras.md](versionamento_regras.md)). Sessões **001–016** = pré-camada (**sem retcon**). Stats Ryan: [ryan_loadout.md](../fichas/ryan_loadout.md). NET: [10_netrunning.md](regras_red/10_netrunning.md). | regras_red · loadout |
 | **F19** | **Agents WIREGHOST:** **Vault** (chip **implantado**, air-gap, **corte em qualquer anomalia**, wipeout se captura; L3–L4) · **Profissional** (stick **subdermal**, ops, **dummy** se suspeita) · **Honeypot** (Agent **visível** = cobertura + isca L0; sem Pack/L3 real) · **Arbiter** + **Watchdog** (política e trajetória). Soft-canon pós-Arasaka; SoT 2026-08-08. **Arbiter ≠** drone **Warden** (**F03**). Spec: [plans/agent_security.md](../plans/agent_security.md) | agent_security · loadout |
 
@@ -70,7 +71,8 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 - Não criar NPC/facção/local já listado em `registro_arquivos` / mapa.
 - Não colocar **Jax “Razor” Kane** (crew) nas Badlands em scav/incursão — usar **Scout** ([scout.md](../fichas/npc/scout.md)).
 - Não narrar **Sparrow** / **Steel** como software, modo Agent ou tipo de sinal — são **NPCs** (**F20**).
-- Não fazer Valk chamar Ryan de **“herói”** / **“herói solitário”** (bordão ou “combinado?”) — promessa 14/07; gatilho que dói (**F15**). Usar *não vai sozinho*, *planeja comigo*, *leva o time*.
+- Não fazer Valkirya chamar Ryan de **“herói”** / **“herói solitário”** (bordão ou “combinado?”) — promessa 14/07; gatilho que dói (**F15**). Usar *não vai sozinho*, *planeja comigo*, *leva o time*.
+- Não tratar **Valk** como handle de rua. Handle = **Valkirya**. **Valk** = só Ryan (carinho), salvo NPC que tenha pego o apelido (**F21**). Logs antigos **não** reescrever.
 - Não re-rolar nem “corrigir” outcomes das sessões **001–016** com a camada mecânica (**F18**). Ver [auditoria_combates_canonicos.md](../plans/auditoria_combates_canonicos.md) (só observação).
 - Sob risco/oposição (sessão **017+**): não narrar sucesso automático; usar [regras_red](regras_red/00_integridade_regras.md) · atalho [11_referencia](regras_red/11_referencia.md).
 - Não confundir **Arbiter** / **Watchdog** (Agents) com **Warden** drone (**F03** / **F19**).

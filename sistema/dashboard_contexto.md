@@ -20,13 +20,13 @@
 
 ---
 
-## 2. Relação com Lena "Valk" Kane
+## 2. Relação com Lena “Valkirya” Kane
 
 **Última verificação:** ~30/07/2026
 
 **Resumo:**
 
-- Consolidada; acordo 019 em vigor (ops + base). Residual íntimo 020/021. **F15** ativo.
+- Consolidada; acordo 019. Residual **íntimo alto** (rede/cafuné). **Não** bootar estoica. **F15** · **F21**.
 
 ---
 

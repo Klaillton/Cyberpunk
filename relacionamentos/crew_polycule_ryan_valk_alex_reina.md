@@ -12,7 +12,7 @@
 
 ## Premissa
 
-Ryan está em um relacionamento intenso com **Lena "Valk" Kane**.  
+Ryan está em um relacionamento intenso com **Lena “Valkirya” Kane** (ele a chama de **Valk**).  
 **Alex "Specter" Kane** reaparece e desperta uma atração antiga em Valk.  
 **Reina "Bearclaw" Morales** já atua como a **confidente emocional** da crew (principalmente das meninas) antes mesmo de qualquer tensão romântica explodir.
 

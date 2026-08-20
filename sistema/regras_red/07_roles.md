@@ -25,13 +25,13 @@ Netrunning profundo: Fase 4 ([10](10_netrunning.md) quando existir).
 
 ---
 
-## Nomad — Moto (Valk)
+## Nomad — Moto (Valkirya)
 
 | Campo | Valor |
 | ----- | ----- |
 | Ficha | [nomad - lena_valk_kane.md](../../fichas/nomad%20-%20lena_valk_kane.md) |
 | Veículo | [The Mule](../../fichas/vehicle%20-%20the_mule.md) · [09_veiculos](09_veiculos.md) |
-| F08 | Equipe **Valk + Mule** |
+| F08 | Equipe **Valk + Mule** (atalho; handle = **Valkirya**, F21) |
 
 **Em mesa:** bônus com veículos da família/pack (rank Moto na ficha se listado); Drive e perseguição; extração.  
 Ryan **não** usa Moto por default.
