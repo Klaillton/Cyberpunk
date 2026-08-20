@@ -28,6 +28,8 @@
 **Off-screen:** contatos mudos **não estão parados** — arco_ativo §2.  
 **Não inventar** NPCs/facções/plot fora do SoT. **Não** inventar encontro aleatório só para encher caminho.
 
+**Rodapé OOC (todo turno):** após a cena, linha em branco, depois só `ctrl N/90`. Some **+2** ao último `ctrl` que você imprimiu. Boot = `ctrl 2/90`. Perdeu = `ctrl ?/90`. **Não** narrar, **não** é visor/Agent, **não** expandir, **não** sugerir troca de chat por causa do número. Spec: [diretrizes_narrador.md](diretrizes_narrador.md) — Rodapé OOC.
+
 ---
 
 ## Esqueleto OPERAÇÃO / recon

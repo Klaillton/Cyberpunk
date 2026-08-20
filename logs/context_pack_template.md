@@ -14,7 +14,8 @@
 3. Em `OPERAÇÃO` / `VIAGEM`: **resultado primeiro** (não espelhar o plano).  
 4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).  
 5. Fonte de pressão: **AGENDA DA CENA** → pendências → `event_queue` (F10).  
-6. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]`.
+6. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]`.  
+7. **Rodapé OOC:** linha em branco + `ctrl N/90` (+2 / resposta). Boot `ctrl 2/90`. Perdeu `ctrl ?/90`. Não narrar; não chrome; não mudar cena pelo número.
 
 Detalhe: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
 

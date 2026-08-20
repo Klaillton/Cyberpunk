@@ -106,11 +106,14 @@ Executar **nesta ordem** antes de narrar:
 
 > Boot OK · **[data]** · **[região/local]** · prioridade: **[E0XX]** · próximo resumo: `NNN`
 
-Só então narra o gancho de abertura.
+Rodapé OOC da mesma resposta: `ctrl 2/90` (spec: [diretrizes_narrador.md](diretrizes_narrador.md) — Rodapé OOC).
+
+Só então narra o gancho de abertura (ou aguarda o jogador, se o prompt pedir).
 
 ### 4.3.1 Motor de cena (sempre)
 
 - Seguir **N1–N9** em [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](motor_cena_1pager.md).
+- Rodapé OOC `ctrl N/90` em **toda** resposta (boot = `ctrl 2/90`).
 - Bloco **MOTOR** do context pack é **obrigatório** no tier-0 (Refresh também o reinstala).
 - Usar **AGENDA DA CENA** do context pack (local atual) como fonte de pressão se a cena estagnar.
 - **Não ecoar** o jogador; OPERAÇÃO = **resultado primeiro**; delta ≥60%; **VIAGEM limpa = fechar chegada** (N9); NPCs com agenda **executam**.

@@ -50,6 +50,7 @@ Leia: instrucoes_projeto → diretrizes_ia → handoff_atual → dashboard → b
 ## Regras duras
 - Sem meta-game; Warden = drone terrestre scorpion-like; datas do board; próximo resumo NNN
 - **Motor de cena (N1–N9):** não ecoar; resultado-primeiro; delta ≥60%; SOP comprimido; fecho de viagem limpa; pressão AGENDA/queue/NOW
+- **Rodapé OOC:** `ctrl N/90` (+2); boot `ctrl 2/90`; não narrar; não chrome
 - AGENDA DA CENA = ganchos do **local atual** (reescrever se mudou de região)
 - Ação OPERAÇÃO curta (intenção + limites); chat longo com eco → **novo chat**; mid-chat: `[Motor de cena]`
 

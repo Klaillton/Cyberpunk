@@ -342,6 +342,7 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 - AGENDA ativa: #… — …
 - Próximo turno de RP: outcomes primeiro; sem espelhar o PC
 - Ação OPERAÇÃO preferível: intenção curta + limites (não manual de 8 passos)
+- Rodapé OOC: `ctrl N/90` continua (não narrar)
 - (Opcional) Chat longo com eco pesado → preferir novo chat + handoff
 ```
 

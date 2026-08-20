@@ -134,7 +134,8 @@ Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver nec
 **Escopo:** qualquer região/local (Pack, Night City, estrada, base, job, downtime, combate).  
 **Conteúdo** dos ganchos vem do NOW / AGENDA / `event_queue` — as regras abaixo **não** dependem de mapa.  
 **Superfície tier-0:** bloco **MOTOR** em `logs/context_pack_atual.md` (o Refresh **deve** reancorar isso).  
-**1pager:** [motor_cena_1pager.md](motor_cena_1pager.md)
+**1pager:** [motor_cena_1pager.md](motor_cena_1pager.md)  
+**Rodapé OOC:** bloco após a tabela N (não é regra N; não muda a cena).
 
 | ID | Regra |
 | -- | ----- |
@@ -149,6 +150,28 @@ Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver nec
 | **N7 Modos de cena** | Marcar mentalmente: `OPERAÇÃO` · `DOWNTIME` · `INTIMIDADE` · `VIAGEM` · `COMBATE` (extensível). Em INTIMIDADE/DOWNTIME, após ~1 arco fechado (clímax+aftercare / ideia+registro), **oferecer** reancoragem às prioridades do NOW — o jogador pode recusar e continuar o mood. N1b é prioritário em OPERAÇÃO/VIAGEM; em mood íntimo, N1 ainda vale (sem espelho longo). |
 | **N8 Compressão de SOP** | Se o PC listou N passos de recon/craft/viagem → narrar **outcomes agregados** + **1–3 dados novos**; re-narrar passo só se **falhar**, **mudar**, ou revelar info. |
 | **N9 Fecho de deslocamento** | Em `VIAGEM` / retorno / marcha: se **2 turnos** seguidos **sem** anomalia e **sem** item de AGENDA exigindo beat no caminho → no **3º** (ou **já no 1º** se o PC disser “se limpo, sigo até X” / “chega no destino”) **fechar chegada** ou **1 evento real**. **Proibido** filler de marcha (“continua andando…”) em série. Não inventar encontro aleatório só para preencher. |
+
+### Rodapé OOC (`ctrl`) — só conta, não é cena
+
+**Finalidade:** o jogador ver quantas msgs o chat já tem. **Não** é mecânica, **não** é HUD in-fiction, **não** muda N1–N11.
+
+Toda resposta de RP (incluindo o boot) termina assim:
+
+```text
+<última linha da cena>
+
+ctrl 12/90
+```
+
+| Faça | Não faça |
+| ---- | -------- |
+| Uma linha em branco, depois só `ctrl N/90` | `---`, caixa ASCII, “HUD”, “visor”, “canto da tela” |
+| +**2** em cima do último `ctrl` que **você** imprimiu | Recontar o chat de memória |
+| Boot (1ª resposta) = `ctrl 2/90` | Narrar o rodapé (“uma linha surge na visão…”) |
+| Perdeu o número = `ctrl ?/90` (o jogador corrige) | Expandir: HP, heat, estoque, menu, “talvez trocar de chat” |
+| Se o jogador colar `ctrl N/90`, use **N+1** na sua resposta | Ryan/Valk/Pack verem ou comentarem o número |
+
+Denominador **90** = teto prático deste modelo neste jogo. O jogador decide quando finalizar. O narrador **não** sugere troca, Finalizar ou anti-eco *por causa do número*.
 
 ### 7.1.0 Como o jogador escreve ação (OPERAÇÃO) — anti-loop meta/RP
 

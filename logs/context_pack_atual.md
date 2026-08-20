@@ -22,7 +22,8 @@
 5. Fonte de pressão: **AGENDA DA CENA** → [arco_ativo](../board/arco_ativo.md) (L1 + off-screen + §7 SHOW) → pendências → `event_queue` (F10).  
 6. Local novo / ação no terreno → bloco **AMBIENTE** ([cena_ambientacao](../sistema/cena_ambientacao_ganchos.md)).  
 7. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]` · Lugar opaco? `[Ambientar]`.  
-8. **Chat novo:** este pack + handoff; **não** continuar threads longos degradados.
+8. **Chat novo:** este pack + handoff; **não** continuar threads longos degradados.  
+9. **Rodapé OOC:** depois da cena, linha em branco + `ctrl N/90`. +2 por resposta sua. Boot = `ctrl 2/90`. Perdeu = `ctrl ?/90`. Não narrar; não é chrome/Agent; ninguém na cena vê; não expandir; não mudar o ritmo por causa do número.
 
 Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
 
@@ -115,6 +116,12 @@ Detalhe: [sessao_resumo_020.md](sessao_resumo_020.md)
 
 ```
 Boot OK · ~29/07/2026 tarde · Pack Badlands · prioridade: teste módulo + voo Condor 30/07 + possível 1º pacote ad · próximo resumo: 021 · Ruleset 1.3.0
+```
+
+Rodapé da mesma resposta (OOC):
+
+```
+ctrl 2/90
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.

@@ -103,6 +103,7 @@ Detalhe: [sessao_resumo_020.md](sessao_resumo_020.md)
 | F19 | Agents ≠ Warden |
 | F20 | Sparrow = Lina Park (NPC); Steel = Marcus Rivera (NPC) |
 | Motor | N1–N11: sem eco; delta ≥60%; AMBIENTE em local novo; SHOW relacional |
+| Rodapé | OOC `ctrl N/90` (+2); boot `ctrl 2/90`; não narrar |
 
 ---
 
@@ -137,5 +138,6 @@ Pack. Preparação ops. **SHOW** residual se NPCs falarem. Gancho: teste do mód
 
 ## Narração
 - N1–N11 · delta ≥60% · sem eco de mood/abraço
-- Confirme boot em **1 linha** e aguarde o jogador.
+- Rodapé OOC: linha em branco + `ctrl N/90` (+2 por resposta sua). 1ª resposta = `ctrl 2/90`. Perdeu = `ctrl ?/90`. Não narrar; não é chrome/Agent; ninguém na cena vê; não expandir; não mudar o ritmo pelo número.
+- Confirme boot em **1 linha**, imprima `ctrl 2/90`, e aguarde o jogador.
 ```

@@ -221,7 +221,8 @@ No playbook **C** ([comandos_jogador.md](comandos_jogador.md)), **sempre avaliar
 
 **GitHub:** não commit/push sem confirmação explícita do jogador.
 
-**Sugira** resumo ou refresh quando chat longo (~80–100 msgs), confusão de estado, ou fim de cena grande.
+**Sugira** resumo ou refresh quando chat longo (~80–100 msgs), confusão de estado, ou fim de cena grande.  
+**Rodapé OOC:** toda resposta de RP termina com `ctrl N/90` (+2). Boot = `ctrl 2/90`. Não narrar; o número **não** dispara Finalizar nem troca de chat (o jogador decide). [diretrizes_narrador.md](diretrizes_narrador.md) — Rodapé OOC.
 
 ---
 
