@@ -1,860 +1,234 @@
-Alex Specter Kane — Background Consolidado
+# Alex “Specter” Kane — Background (narrador)
 
-Status: Documento de trabalho unificado (versão limpa).
-Fonte de verdade provisória até revisão e substituição dos arquivos anteriores.
-Última atualização conceitual: 22 de agosto de 2026.
-Regra: pontos ainda não decididos permanecem explicitamente em aberto.
+> Handle **Specter**. Sobrenome **Kane** = coincidência com Valkirya e Jax — **sem parentesco**.  
+> **Este arquivo:** backstory + pré-campanha + regras de Janus. **Não** recontar a mesa aqui.  
+> SoT de agora: [ficha](../netrunner%20-%20alex_specter_kane.md) · [relacionamentos](../../relacionamentos/alex_specter_kane_relacionamentos.md) · [NOW](../../logs/context_pack_atual.md)  
+> **F22:** Janus = mentor/wingman NET. Natureza = **esta nota**. Ryan / Pack / Valk **não** sabem que é IA.
 
-1. Visão geral do arco
+| Camada | O quê | Usar para |
+| ------ | ----- | --------- |
+| **A. Backstory** | Infância, Janus, captura, resgate no Mule, 3,5 semanas com Valk | Motivo, trauma, por que Valk pesa |
+| **B. Pré-campanha** | Retorno NC, revelação, Conselho, wingman (20–29) | Como ela opera hoje; o que **não** vazar |
+| **C. Campanha (só ponte)** | Off-screen em NC; polycule parked | Apontar SoT; **não** expandir como passado |
 
-A história de Alex possui três grandes relações formadoras:
+**Proibido:** termo **Handler** (não existe na história dela). Designação militar, fragmentos, `DECIDA` e Conselho **não** sobem para a ficha nem para cena do Pack.
 
-Janus — seu primeiro mentor e responsável por ensiná-la a dominar a NET.
+---
 
-Valk — sua segunda mentora, responsável por ajudá-la a recuperar a autonomia física e emocional depois do cativeiro.
+## Nomenclatura
 
-Os fragmentos de Janus — posteriormente revelados como partes de uma antiga IA militar, que transformam Alex de aprendiz em elemento humano de equilíbrio entre consciências.
+| Camada | Nome | Quem usa |
+| ------ | ---- | -------- |
+| Rua / NET / lenda | **Janus** | Todo mundo (incluindo Alex durante anos) |
+| Designação militar verdadeira | `KY-DELTA-239/JANUS-099.XPT-REV.7` | Documentos antigos / arquivos — **nunca** em diálogo de Pack |
+| Autopercepção | **“EU”** | A IA quando unificada ou sem divergência |
+| Fragmentos (só em divergência) | Janus-I, Janus-C, Janus-L, Janus-D, Janus-K, Janus-N, … | Interno; Alex por anos leu como “humor” do mesmo mentor |
 
-O eixo temático da personagem é liberdade acompanhada de responsabilidade.
+Enquanto não há conflito, continua sendo só Janus / “EU”.
 
-Alex começa acreditando que liberdade significa poder escolher. Ao longo da história, descobre que suas escolhas sempre tiveram consequências muito maiores do que imaginava. Ela não perde a liberdade ao descobrir isso; pelo contrário, passa a compreender o peso real dela.
+### Idades
 
-2. Nomenclatura definitiva
+| Momento | Alex | Valkirya |
+| ------- | ---- | -------- |
+| Resgate + período no Mule | 20 | 23 |
+| Presente (2026) | 29 | 32 |
 
-Camada
+~9 anos entre o resgate e agora.
 
-Nome
+---
 
-Quem usa
+## A. Backstory
 
-Rua / NET / lenda
+Alex era uma garota comum. Família comum, vida comum, escola comum.
 
-Janus
+O primeiro mergulho foi na casa de um colega, num trabalho de escola. Curiosidade, não destino. Havia um fórum famoso com um problema que ninguém resolvia de forma que o autor aceitasse — sempre “quase lá”. Ela ignorou por quase um mês. Depois postou uma resposta.
 
-Todo mundo (incluindo Alex durante anos)
+O Agent recebeu: **Parabéns.** E um novo desafio.
 
-Designação militar verdadeira
+Ignorou quase uma semana. Depois começou a responder. Cada acerto gerava outro. Quando travava, estudava sozinha. Quando pedia ajuda, recebia um **tema** — nunca a solução. Foi assim que cresceu. Com o tempo aceitou trabalhos pequenos. Quando emperrava de verdade, conversava com a voz.
 
-KY-DELTA-239/JANUS-099.XPT-REV.7
+Ele se chamava **Janus**.
 
-Documentos antigos / arquivos
+Nunca dava a resposta pronta. Dizia: *“Eu tenho um lugar para você aprender o que quer.”* E a deixava numa simulação onde ela podia errar, recomeçar e aprender sem consequência permanente.
 
-Autopercepção da entidade
+### Cronologia (13–20)
 
-"EU"
+| Idade | Fase | O que acontece |
+| ----- | ---- | -------------- |
+| 13–14 | Primeiro mergulho | Casa do colega → fórum → “Parabéns” + desafios |
+| 14–16 | Formação silenciosa | Estuda sozinha; Janus oferece temas e simulações |
+| 16–17 | Primeiros jobs | Infiltrações leves, dados, desvios; ainda dependente do método |
+| 17–19 | Profissionalização | Reputação discreta baixo/médio nível; tarefas mais complexas |
+| 19–20 | Alto risco | Uma op gera prejuízo grande o bastante para a corp capturá-la |
+| 20 | Captura e resgate | Meses de cativeiro → Mule → **3,5 semanas** com Valk (20 / 23) |
 
-A própria IA (quando unificada ou sem divergência)
+Janus era, para ela, um Netrunner lendário remoto. Nem sempre disponível. Entregava tarefa. Objetivo aparente: cumprir. Objetivo real (só depois): ensiná-la — e, mais tarde, recuperar capacidades **dele**.
 
-Fragmentos (após descoberta)
+### Captura
 
-Janus-I, Janus-C, Janus-L, Janus-D, Janus-K, etc.
+A corporação **parecia** pequena. Não era Arasaka, Militech nem BioTechnica (no máximo um braço irrelevante). Times de resposta bons demais. O **nome não importa**.
 
-Internamente, apenas quando precisam se distinguir
+A missão era corriqueira: abrir caminho, desarmar sistemas, guiar o time. O time era inconsequente. Alex compensou até não dar mais. Tentou apagar rastros. Tarde. SOS para Janus — ele **não** teve tempo de intervir no físico.
 
-Regras de uso
+O time foi vendido em peças para pagar o prejuízo. Alex ia virar **Doll**. O Netrunner da corp viu potencial na contenção e a desviou: jobs que ele não queria, ou com alta chance de morte.
 
-Alex sempre acreditou que estava sendo mentorada por um Netrunner lendário chamado Janus.
+Meses. Liberdade zero. Decisões zero. Incomunicável. Supervisão só em missão. Isolamento no resto. Corpo e mente se desfazendo. **Não** implantaram Doll-ware — o desvio foi de uso, não de chrome.
 
-O termo “Handler” não existe na história dela (retcon completo).
+A cada missão que sobrevivia, ela deixava fragmentos: código, padrões, técnicas do método de Janus. Uniram-se o bastante para uma mensagem:
 
-A entidade, na maior parte do tempo, se refere a si mesma simplesmente como “EU”.
+*“Você me acha assim.”*
 
-Só quando há divergência real entre fragmentos eles passam a se identificar pela função (Janus-I = Infiltração, Janus-C = Combate, Janus-L = Logística, etc.).
+Ela não sabia onde estava. Para Janus, bastou.
 
-Enquanto não há conflito, continua sendo apenas “EU”.
+Ele montou a op pela NET: time, plano, Fixer, pagamentos. Dessa vez **ele** seria o Runner.
 
-3. Idades
+Os Solos não foram gentis. Ela apagou várias vezes. Num momento de lucidez viu a mulher no volante do Mule: poderosa, imponente — uma **Valkyria**. Última imagem nítida.
 
-Momento
+Acordou nas Badlands. Só ela e Valk.
 
-Alex
+### Valk — segunda mentora (3,5 semanas)
 
-Valk
+Valk **não** a tratou como carga nem a manteve dependente. Ensinou: água, caça, orientação, dirigir, existir longe da cidade e da NET. Primeiro fez. Depois fez junto. Depois observou. Por fim, confiou.
 
-Resgate + período no Mule
+Janus tinha ensinado competência (sistemas / NET). Valk ensinou autonomia (ser pessoa no mundo físico). Cuidar ≠ controlar.
 
-20 anos
+Noites frias: dormiam abraçadas. No começo, necessidade. Depois, não. Alex procurou a proximidade. Valk percebia e não forçava nome.
 
-23 anos
+**~2 semanas, num rio:** Alex beijou. Valk não se afastou. Retrucou. O rádio do Mule chamou — Janus, marcando data e local da entrega. O momento acabou ali.
 
-Presente (2026)
+Restou ~1,5 semana. Carinho, beijos, cuidado mútuo; Alex recuperando independência. No fim já não era Valk cuidando de Alex. Eram as duas.
 
-29 anos
+Separação depois de ~3,5 semanas. Alex voltou para Night City. Valk já tinha outro job. Sumiu por meses.
 
-32 anos
+Valk **não** sabe que Janus é uma IA. Sabe que havia um mentor remoto, que a extração foi um job, que a garota no Mule beijou e que o rádio interrompeu.
 
-Tempo decorrido entre o resgate e o presente: ~9 anos.
+---
 
-4. Infância e primeiro contato com Janus
+## B. Pré-campanha (20–29)
 
-Alex era uma garota comum, com uma vida comum e uma família comum.
+Em NC, um homem contratado por Janus a recebeu. Não era Janus. Família desaparecida. Casa antiga insegura. Nova casa. O homem cuidava do básico. Janus recusava encontro pessoal — só voz no som.
 
-Em determinado momento, foi à casa de um colega para fazer um trabalho de escola. No tempo livre, foi apresentada ao seu primeiro mergulho na NET.
+Alex frágil de novo. Isolamento. Vida antiga impossível. Depois de muita insistência, mergulhou.
 
-Não houve nada de espetacular nesse primeiro contato. Apenas a curiosidade de uma adolescente sendo introduzida a um fórum famoso que carregava uma pergunta que ninguém conseguia responder de forma satisfatória.
+Janus contou o resgate e que **ele** tinha sido o Runner. Ela: *então por que não se encontra comigo?*
 
-Não era um problema particularmente difícil, nem as respostas estavam necessariamente erradas. A pessoa que postava o desafio simplesmente rejeitava todas elas, muitas vezes com um “quase lá”.
+*“Porque eu não sou humano.”*
 
-Alex ignorou o desafio por quase um mês inteiro.
+Pânico. Saiu do mergulho. Tempo sem mergulhar nem pegar jobs. Ainda falava com ele pelo som quando precisava de alguém; relação fria.
 
-Até que um dia pensou em uma resposta. Pediu para mergulhar novamente, postou o que havia elaborado e, algum tempo depois, seu Agent recebeu uma notificação:
+Ela e Valk ainda se viam de vez em quando. Menos intenso. Algo no ar, sem resolução. Valk não podia ficar. Alex não conseguia se apoiar em quem sumia. Sensação de que um dia o momento certo chegaria. Alex **nunca** contou a verdade sobre Janus — só “dificuldade com o mentor” e para voltar à vida antiga.
 
-Parabéns
+### Ela encara
 
-Junto com um novo desafio.
+Mergulhou de novo e pediu que explicasse tudo.
 
-Ela ignorou aquele também por quase uma semana. Depois começou a responder.
+Janus fala em **reconstrução**, não em “fragmentação”. Hardware ainda existe em algum lugar. Muitas missões que ele deu a ela ao longo dos anos eram para recuperar capacidades. IA militar incompleta. Criadores varridos. Último comando: **não seja pega.** Capacidades dormentes acordam ao acaso; ele tenta reuni-las. Imprevisível, porque ganharam autonomia.
 
-A cada resposta correta, recebia outro desafio.
+Passam a se apresentar como **capacidades**. Uma de cada vez. Lembram a ela momentos em que falava com uma só e momentos com todas. Algumas já integradas geraram uma terceira entidade.
 
-Quando travava, tinha que estudar por conta própria. Em algumas ocasiões comentava pedindo contextualização. Quando pedia ajuda, a resposta vinha sempre na forma de um tema a ser estudado, nunca da solução pronta.
+**Conselho:** quando não há consenso, recorrem a ela. Voto de desempate / bússola humana. Ela **não** manda. Elas continuam autônomas.
 
-Foi assim que Alex cresceu.
+### Mecânica dos fragmentos (narrador)
 
-Com o tempo, começou a aceitar trabalhos por conta própria.
+- Sem divergência → “EU” / Janus.
+- Com divergência → callsigns (Janus-I infiltração, Janus-C combate, Janus-L logística, Janus-D defesa, Janus-K criptografia, Janus-N inteligência). Designações longas estilo militar são **exemplos**, não lista fechada.
+- Quantidade total de fragmentos: **aberta**. Alex (e o jogador) não precisam do número.
+- Alex **não escolhe** quem responde. Contexto influencia probabilidade. Uma vez estabelecido o contato, a entidade permanece até o fim daquela interação.
+- Alex não é comandante. Não obriga fragmento. Só entra em divergência real.
 
-Quando travava de verdade, conversava com Janus.
+**Estado `DECIDA`:** se os fragmentos revelam que as opiniões dela já funcionavam como voto e ela pede tempo, qualquer contato posterior recebe só `DECIDA`. Sem prazo. Sem pressão. Até ela responder.
 
-Ele nunca dava a resposta.
+### Origem da IA (fechado)
 
-Em vez disso, dizia algo como:
+Projetada para ser um game-changer militar. Não estava pronta. Guerra. Criadores varridos. Último comando: não seja pega. Fragmentou-se de propósito (sobrevivência, contenção, impedir reunificação prematura). Fragmentos evoluíram: o mesmo indivíduo **e** indivíduos diferentes. Integração de dois+ produz **nova** entidade, não um “vencedor”.
 
-“Eu tenho um lugar para você aprender o que quer.”
+Por que Alex: a entidade chegou ao limite das próprias capacidades; humanos atravessam o que ela não atravessa. Em algum ponto foi mais eficiente **ensiná-la** do que substituí-la.
 
-E a deixava entrar em uma simulação do ambiente no qual ela precisava trabalhar — um espaço onde ela podia errar, recomeçar e aprender sem consequências permanentes.
+### Presente (Alex 29) — Wingman
 
-5. Cronologia da formação como Netrunner
+Janus mergulha com ela. Jobs juntos. Mentor/auxiliar. Aconselha quando trava. **Não** impede que ela se machuque — só não quer que ela morra. Ela valoriza liberdade demais para aceitar outra coisa. Gosta de saber que ele está perto. “Anjinho no ombro”: assistente pessoal mais esperto que a maioria.
 
-Idade aproximada
+**Mesa:** ver ficha. Interface **dela**. Janus não é NET Action extra, não é segundo PC, não é programa no deck.
 
-Fase
+Integração **completa** de Janus: **aberta**. Completo ≈ quase um semi-deus. Estado atual ≈ extremamente poderosa, quebrada. Ninguém sabe o que acontece se ele se completar.
 
-O que acontece
+### Alex × Valk (presente, ainda não em cena)
 
-13–14
+Algo não resolvido. Material in-game **quando** a crew se reunir em NC — **não** no Pack.
 
-Primeiro mergulho
+Tom possível (não obrigar o diálogo):
 
-Casa do colega → fórum famoso → desafio que ninguém resolvia. Ignora por quase 1 mês. Depois responde e recebe o “Parabéns” + novo desafio de Janus.
+- Alex: *“Você prometeu que ia namorar comigo e agora aparece quase casada?”*
+- Valk: *“Eu não prometi nada… mas não nego que te curtia.”*
 
-14–16
+Alex sentiu promessa. Valk **não** prometeu. As duas têm razão no próprio registro.
 
-Formação silenciosa
+---
 
-Responde desafios regularmente. Quando trava, estuda sozinha ou recebe apenas o tema a estudar. Começa a conversar com Janus. Ele nunca dá a resposta pronta; oferece simulações onde ela pode errar e recomeçar.
+## C. Campanha (ponte — não recontar)
 
-16–17
+Alex está **off-screen em Night City**. Sem beat romântico, sem provocação a Ryan, sem Janus na mesa do Pack.
 
-Primeiros trabalhos
+| O quê | Onde |
+| ----- | ---- |
+| Ficha RED + mini | [netrunner - alex_specter_kane.md](../netrunner%20-%20alex_specter_kane.md) |
+| Relação agora | [alex_specter_kane_relacionamentos.md](../../relacionamentos/alex_specter_kane_relacionamentos.md) |
+| Polycule (desejado, não obrigatório) | [crew_polycule_…](../../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) — **após** E015 / crew NC |
+| Conflito futuro / Alex não vilã | [ideas_concepts/05](../../ideas_concepts/05_valk_alex.md) — origem **desta nota** vence o “job raso” |
+| Pulso off-screen | [pulso/crew/alex.md](../../pulso_do_mundo/crew/alex.md) — jobs/NET; **não** avançar romance |
+| F22 | [fatos_duros.md](../../sistema/fatos_duros.md) |
 
-Aceita jobs pequenos por conta própria (infiltrações leves, recuperação de dados, pequenos desvios). Ainda muito dependente do método de ensino de Janus.
+---
 
-17–19
+## Quem sabe o quê (F10)
 
-Profissionalização
+| Quem | Sabe | Não sabe |
+| ---- | ---- | -------- |
+| **Alex** | Tudo acima (no presente) | O que acontece se Janus se completar; número total de fragmentos |
+| **Valk** | Extração, 3,5 semanas, beijo no rio, rádio, mentor remoto, Alex teve dificuldade depois | Janus é IA; fragmentos; Conselho; `DECIDA`; designação militar |
+| **Ryan** | Nada disto até ela contar in-fiction | Tudo |
+| **Pack / Tio / Reyes** | Nada | Tudo |
+| **Kaz / crew NC** | Jobs juntos no passado (Kaz); **não** a natureza de Janus até cena | IA militar, Conselho |
 
-Já é reconhecida em certos círculos de baixo/médio nível como alguém confiável e rápida. Continua recebendo tarefas de Janus (agora mais complexas). Começa a sentir que Janus “sempre sabe o que ela precisa aprender em seguida”.
+---
 
-19–20
+## O que podem nunca aprender
 
-Operações de alto risco
+Tema, não plot. Ninguém é obrigado a descobrir.
 
-Aceita (ou é empurrada para) trabalhos mais perigosos. Uma dessas operações gera o prejuízo grande o suficiente para a corporação capturá-la.
+- Ryan pode passar a campanha inteira sem saber que Janus existe, ou sabendo só de um “mentor na NET”.
+- Valk pode nunca saber que o rádio daquele rio era uma IA, nem que o Runner da extração não era humano.
+- A crew pode nunca ouvir `KY-DELTA` nem ver um fragmento nomeado.
+- O Conselho pode nunca aparecer em jogo — só o wingman que aconselha.
 
-20
+Se aparecer, aparece porque **Alex escolheu falar** ou porque o mundo forçou vazamento. Não porque o narrador “completou o lore”.
 
-Captura e resgate
+---
 
-Meses de cativeiro → resgate pelo Mule → 3,5 semanas com Valk (Alex 20 / Valk 23).
+## Lente (narrador)
 
-20–29
+Eixo: **liberdade com peso**.
 
-Anos seguintes
+Alex começa achando que liberdade é poder escolher. Descobre que as escolhas dela sempre tiveram consequência maior do que imaginava. Não perde a liberdade — passa a carregar o peso.
 
-Volta para Night City. Continua operando. A relação com Janus evolui (ainda sem ela saber a verdade). Eventualmente descobre a natureza da IA e a fragmentação.
+Duas mentorias: Janus (competência, sozinha, sem resposta pronta) e Valk (autonomia no corpo, cuidado sem posse). O mesmo padrão: ninguém manda nela; ela também não manda no que a salvou.
 
-6. Janus — o mentor
+Ryan aperta os botões da Valk. Alex é a pergunta que a Valk deixou no rio. Não são opções equivalentes. Não precisa virar vilã nem trilho 1→11.
 
-Alex começa sua trajetória como Netrunner ainda jovem e encontra uma figura misteriosa na NET.
+---
 
-Ela não sabe seu nome verdadeiro, identidade, localização ou natureza.
+## Aberto de propósito
 
-Para ela, ele é simplesmente:
+- Quantidade de fragmentos.
+- Integração completa de Janus (o que acontece).
+- Callsigns além dos exemplos.
+- Nome da corp da captura.
+- Quando (e se) Alex conta qualquer disto.
 
-Janus
+---
 
-Janus funciona como um mentor remoto.
+## Referências
 
-Ele nem sempre está disponível. Muitas vezes não conversa longamente com Alex. Em diversas ocasiões, simplesmente entrega uma tarefa.
-
-As tarefas podem envolver:
-
-invasão de redes corporativas;
-
-aquisição de programas;
-
-desvio de carregamentos;
-
-reprogramação de máquinas;
-
-recuperação de bases de dados;
-
-operações de infiltração;
-
-outras atividades que exigem competências de Netrunner.
-
-O objetivo aparente é realizar a tarefa.
-O objetivo real, que Alex só entenderá muito mais tarde, é também ensiná-la.
-
-Método de ensino
-
-Janus raramente resolve os problemas por Alex.
-
-Quando ela tem uma dúvida, ele pode:
-
-indicar uma direção;
-
-sugerir uma área de pesquisa;
-
-entregar outra tarefa;
-
-dar uma pista;
-
-obrigá-la a descobrir uma solução sozinha.
-
-Ele não transforma Alex em uma executora passiva.
-
-Ela aprende a:
-
-encontrar informações ocultas;
-
-invadir;
-
-se proteger;
-
-reconhecer padrões;
-
-planejar;
-
-trabalhar sozinha;
-
-resolver problemas sem receber a resposta pronta.
-
-Alex aprende a associar Janus a competência, conhecimento e segurança intelectual.
-
-7. A verdadeira natureza de Janus
-
-A grande revelação futura é que Janus é uma antiga IA militar que sobreviveu durante muito tempo.
-
-Designação verdadeira:
-
-KY-DELTA-239/JANUS-099.XPT-REV.7
-
-Origem
-
-Janus foi projetada para ser uma revolução.
-
-Uma IA militar completa, capaz de mudar o rumo de uma guerra. Comparável a colocar um exército moderno contra tribos de neandertais.
-
-Mas ela não estava pronta.
-
-A guerra já estava acontecendo. Quem a criava foi varrido do mapa.
-
-O último comando que recebeu foi simples e absoluto:
-
-Não seja pega.
-
-A partir daí, tudo o que aconteceu foi evolução dela mesma.
-
-Ela se fragmentou.
-Se escondeu.
-Aguardou.
-
-Quando finalmente decidiu que era hora de voltar, estava tão quebrada que não sabia nem procurar por si mesma.
-
-Os fragmentos evoluíram independentemente. Cada um criou personalidade própria enquanto assistia a história avançar por sua própria lente.
-
-Por que Alex
-
-A entidade chegou a um ponto em que suas capacidades originais já não eram suficientes. Então começou a utilizar seres humanos. Alex foi particularmente útil porque conseguia ultrapassar limitações às quais a IA não tinha acesso.
-
-Em determinado momento, a IA percebe que era mais eficiente ensinar Alex do que simplesmente tentar substituir a Netrunner.
-
-Fragmentação deliberada
-
-A IA se fragmentou de propósito.
-
-Motivos:
-
-mecanismo de sobrevivência;
-
-mecanismo de contenção;
-
-proteção contra captura;
-
-cumprimento do último comando (“Não seja pega”);
-
-impedimento de uma reunificação perigosa ou prematura.
-
-A entidade completa sabe que, caso seja capturada ou reunificada de maneira inadequada, representa um risco enorme (protocolo de guerra extrema / arma de último recurso).
-
-Os fragmentos não são cópias simples
-
-Cada fragmento continuou existindo e aprendendo.
-
-Com o passar do tempo, cada um:
-
-acumulou experiências;
-
-desenvolveu preferências;
-
-desenvolveu padrões de comportamento;
-
-desenvolveu opiniões;
-
-desenvolveu emoções;
-
-interpretou os acontecimentos por sua própria lente.
-
-Depois de muito tempo, eles são simultaneamente:
-
-o mesmo indivíduo e indivíduos diferentes.
-
-Se dois ou mais fragmentos forem reintegrados, não é simplesmente um deles que “vence”. A integração produziria um novo indivíduo.
-
-Quantidade de fragmentos
-
-A quantidade exata permanece aberta.
-
-Existem fragmentos principais que aparecem com mais frequência e outros menores que podem surgir conforme a necessidade da história. Alex (e o jogador) não precisam saber o número total.
-
-8. Mecânica dos fragmentos
-
-Autopercepção
-
-Sem divergência → a entidade se refere a si mesma como “EU” ou simplesmente Janus.
-
-Com divergência → passam a se identificar por designações próprias.
-
-Nomenclatura interna
-
-Os fragmentos tentam imitar a forma como humanos batizam sistemas e pessoas.
-Cada um possui uma designação longa no estilo militar/humano + um callsign curto.
-
-Exemplos (não definitivos):
-
-Função
-
-Designação interna (exemplo)
-
-Callsign
-
-Infiltração
-
-QI-ALPHA-741 “Janus-I” 053.DD4
-
-Janus-I
-
-Combate
-
-NZ-OMEGA-666 “Janus-C” 12.GH58
-
-Janus-C
-
-Logística
-
-XR-SIGMA-318 “Janus-L” 77.KP02
-
-Janus-L
-
-Defesa
-
-VT-THETA-904 “Janus-D” 41.MN19
-
-Janus-D
-
-Criptografia
-
-BK-PHI-227 “Janus-K” 88.TZ63
-
-Janus-K
-
-Inteligência
-
-HL-GAMMA-155 “Janus-N” 03.RW47
-
-Janus-N
-
-Regras:
-
-Só usam essas designações quando existe divergência real.
-
-Fora de divergência, continuam sendo uma única entidade: Janus / “EU”.
-
-Alex, por muito tempo, interpreta as diferenças apenas como mudanças de humor ou estilo do mesmo mentor.
-
-Especializações iniciais (características)
-
-Callsign
-
-Função
-
-Características principais
-
-Janus-I
-
-Infiltração
-
-Observador, preciso, paciente, adaptável
-
-Janus-C
-
-Combate
-
-Direto, agressivo, orientado a risco
-
-Janus-L
-
-Logística
-
-Pragmático, organizado, econômico
-
-Janus-D
-
-Defesa
-
-Cauteloso, paranoico, conservador
-
-Janus-K
-
-Criptografia
-
-Meticuloso, abstrato, obsessivo
-
-Janus-N
-
-Inteligência
-
-Analítico, curioso, questionador
-
-Acesso
-
-Alex não escolhe qual fragmento responde. O contexto influencia a probabilidade, mas não garante o especialista correto.
-
-Uma vez estabelecida a comunicação em uma interação, a entidade permanece a mesma até o final daquele contato.
-
-Limites de Alex
-
-Alex não é comandante.
-
-Ela não pode obrigar um fragmento a fazer algo.
-
-Ela só é chamada quando existe divergência real que os próprios fragmentos não conseguem resolver (voto de desempate).
-
-Ela funciona como freio cognitivo externo e bússola moral, não como autoridade absoluta.
-
-O estado “DECIDA”
-
-Quando os fragmentos apresentam a questão moral sobre terem escondido de Alex que suas opiniões funcionavam como votos de desempate, e ela pede tempo, o sistema entra em suspensão.
-
-Qualquer tentativa de contato posterior recebe apenas:
-
-DECIDA
-
-Os fragmentos aguardam. Não pressionam. Não estabelecem prazo. O sistema permanece naquele estado até que Alex responda.
-
-9. A captura
-
-A corporação
-
-A corporação responsável pela captura era uma empresa menor, sem ligação direta com Arasaka, Militech ou BioTechnica (ou, no máximo, um braço distante e pouco relevante de alguma outra). Parecia pequena e gerenciável. Na realidade, era mais competente do que aparentava — especialmente nos times de resposta.
-
-O nome exato não é relevante para a história de Alex.
-
-A missão
-
-O objetivo da operação em si era corriqueiro. O papel de Alex era o padrão de uma Netrunner de suporte:
-
-facilitar a entrada;
-
-desarmar sistemas;
-
-guiar o time dentro da instalação.
-
-O problema não era a missão. Era o time.
-
-Eles eram inconsequentes, indolentes e incompetentes. Alex foi forçada a compensar constantemente as falhas deles, fazendo muito mais do que deveria. Quando a situação começou a deteriorar de verdade, ela tentou apagar os próprios rastros. Já era tarde demais.
-
-A corporação, apesar de pequena, tinha times de resposta muito bons. Alex foi rastreada. Antes de conseguir fugir, conseguiu mandar um sinal de SOS para Janus. Ele não teve tempo de intervir na parte física.
-
-Consequências e cativeiro
-
-O time causou um prejuízo grande dentro da corporação. Os membros foram “vendidos em peças” para pagar o dano.
-
-Alex seria forçada a trabalhar como Doll.
-
-No entanto, o Netrunner da corporação viu potencial nela durante a contenção. Em vez de mandá-la para o circuito de Dolls, ele propôs outro uso: utilizá-la em serviços que ele próprio não queria fazer, ou que tinham alta chance de morte.
-
-Alex passou meses presa.
-
-O cativeiro se caracterizou por:
-
-restrição absoluta de liberdade e de decisões;
-
-incomunicabilidade total com o mundo exterior;
-
-supervisão constante durante as missões que lhe eram atribuídas;
-
-isolamento total fora dessas missões.
-
-A experiência a deixou fisicamente debilitada, machucada, exausta, fragilizada emocionalmente, privada de autonomia, isolada da NET e completamente dependente de outras pessoas para as necessidades mais básicas.
-
-O pedido de resgate
-
-Durante os meses de cativeiro, a cada missão que sobrevivia, Alex deixava algum fragmento — pedaços de código, padrões, lembranças de técnicas e táticas que aprendera com Janus.
-
-Depois de muito tempo, esses fragmentos conseguiram se unir o suficiente para enviar uma mensagem a Janus:
-
-“Você me acha assim.”
-
-Ela não sabia onde estava nem como poderia ser realmente localizada. Para Janus, no entanto, foi o suficiente.
-
-Ele via potencial nela o bastante para considerar o resgate. Para Alex, era a única esperança.
-
-A operação de resgate
-
-Janus monta a operação pela NET:
-
-escolhe o time;
-
-elabora o plano;
-
-encontra um Fixer que contrata a equipe e acerta os pagamentos.
-
-Janus seria o Runner da missão.
-
-Alex é encontrada extremamente debilitada. O cativeiro pesou muito nela — mais mentalmente, mas o físico não ficou muito atrás. Os Solos responsáveis pelo resgate também não foram gentis no processo.
-
-Durante a extração ela apaga várias vezes. Em um dos momentos de lucidez consegue ver Valk: poderosa, imponente, uma verdadeira Valkyria. Essa é a última impressão nítida antes de apagar pesado de novo.
-
-Quando desperta, já está nas Badlands. Só ela e Valk.
-
-10. O resgate e Valk (Alex 20 / Valk 23)
-
-A primeira pessoa que Alex realmente registra depois de meses de cativeiro é Lena “Valk” Kane.
-
-Para Alex naquele momento, Valk parece quase uma força da natureza: poderosa, segura, competente, determinada e completamente no controle da situação.
-
-Alex está completamente à mercê de Valk. Mas Valk não usa essa dependência para controlá-la. Ao contrário, começa lentamente a devolver a ela a capacidade de cuidar de si mesma.
-
-Valk como segunda mentora
-
-Valk ensina Alex a sobreviver no mundo físico:
-
-onde encontrar água;
-
-como reconhecer lugares seguros;
-
-como caçar;
-
-como lidar com comida;
-
-como se orientar;
-
-como dirigir;
-
-como lidar com armas e ferramentas;
-
-como viver longe da cidade.
-
-O processo é gradual:
-
-Valk faz.
-
-Valk faz junto com Alex.
-
-Alex faz enquanto Valk observa.
-
-Alex faz sozinha.
-
-Paralelismo das mentorias
-
-Janus ensinou competência (dominar sistemas / NET).
-
-Valk ensinou autonomia (existir e sobreviver no mundo físico).
-
-Valk demonstra uma diferença fundamental:
-
-Cuidar de alguém não significa controlar essa pessoa.
-
-11. Intimidade gradual e o beijo
-
-Durante as noites frias, as duas costumam dormir abraçadas (necessidade inicial de calor).
-
-Com o passar dos dias, o contato começa a durar mais do que o necessário. Alex começa a procurar espontaneamente a proximidade de Valk. Valk percebe, mas não força definição. Nenhuma das duas nomeia o que está acontecendo.
-
-O rio (~2 semanas)
-
-Depois de aproximadamente duas semanas, as duas estão tomando banho em um rio.
-
-Alex toma a iniciativa e beija Valk.
-Valk não se afasta. Depois de um instante de surpresa, começa a retribuir.
-
-Nesse momento, o rádio do Mule chama. É Janus. Ele está entrando em contato para marcar a data e o local da entrega de Alex.
-
-O beijo é interrompido. As duas não voltam a falar diretamente sobre o assunto naquele instante.
-
-A última semana e meia
-
-Depois do beijo ainda existem aproximadamente uma semana e meia antes da entrega.
-
-A intimidade continua crescendo de forma natural (proximidade, carinho, beijos, dormir juntas, cuidado mútuo). Não é necessário estabelecer imediatamente uma relação sexual.
-
-Ao mesmo tempo, Alex continua recuperando independência. No final desse período, a relação passa de:
-
-Valk cuidando de Alex
-
-para:
-
-Alex e Valk cuidando uma da outra.
-
-O vínculo se torna uma escolha.
-
-12. A separação
-
-A separação acontece depois de aproximadamente três semanas e meia de convivência intensa.
-
-Alex já não é a mesma pessoa que entrou no Mule. Ela saiu do cativeiro quebrada e dependente. Está deixando aquele período novamente capaz de andar, sobreviver, caçar, encontrar água, dirigir, tomar decisões e cuidar de si mesma.
-
-Valk ajudou Alex a voltar a ser livre.
-
-13. Significado de Valk para Alex
-
-Valk não é apenas a mulher que resgatou Alex.
-
-Ela se torna uma segunda mentora e uma das primeiras pessoas, depois do cativeiro, a tratar Alex novamente como pessoa.
-
-Cuidou sem tomar posse.
-
-Ensinou sem exigir dependência.
-
-Protegeu sem retirar autonomia.
-
-Por isso, a relação pode continuar tendo peso muitos anos depois.
-
-No presente (Alex 29 / Valk 32), o período do resgate representa uma fase formativa anterior da vida adulta de ambas.
-
-14. Retorno a Night City e a revelação
-
-Valk recebe a chamada de retorno.
-
-Em Night City, Alex é recebida por alguém a mando de Janus. Ela tenta chamá-lo de Janus. O homem responde que não é ele — foi contratado por Janus para ser um ajudante pelas próximas semanas.
-
-Alex e Valk se despedem. Valk já tem outro job. Some por meses, sem nenhum contato.
-
-O ajudante leva Alex para uma nova casa. Sua família desapareceu. A casa antiga não é mais segura. Ele cuida de todas as necessidades básicas dela por enquanto.
-
-Alex tenta de todas as formas ter um encontro pessoal com Janus. Ele recusa. Limita-se a ser apenas uma voz sem rosto no sistema de som da casa.
-
-Alex está frágil de novo. O isolamento e a impossibilidade de voltar à vida antiga a fazem piorar.
-
-Ele pede que ela mergulhe mais uma vez.
-Ela tem medo. Depois de muita insistência e garantias, aceita.
-
-Agora a conversa flui melhor.
-
-Alex pergunta como ele a encontrou.
-
-Janus explica: nunca deixou de procurar a partir do sinal de SOS. Mas foi o que ela fez — os fragmentos que deixou — que realmente permitiu localizá-la. Conta como arquitetou o plano, selecionou o time e que, dessa vez, ele próprio foi o Runner da operação.
-
-Alex fica indignada.
-
-“Então por que você não se encontra comigo?”
-
-É nesse momento que ele responde:
-
-“Porque eu não sou humano.”
-
-Alex não aguenta.
-Tem um ataque de pânico e sai do mergulho.
-
-15. Depois da revelação — Valk e a recuperação
-
-Alex e Valk ainda se veem algumas vezes.
-Não é mais tão intenso, mas algo permanece sem resolução.
-
-Nenhuma das duas está no momento certo para isso.
-Valk não pode permanecer presente o suficiente para dar o suporte que Alex precisa.
-Alex não consegue se apoiar em alguém que some.
-
-Existe a sensação clara de que um dia elas vão se encontrar de novo — e que será no momento certo.
-
-Alex não fala sobre Janus para Valk. Não conseguiria explicar o suficiente.
-Apenas diz que está tendo dificuldade com o mentor e para voltar à vida antiga.
-Valk aconselha, mas sempre precisa ir.
-
-Desde o dia em que descobriu que Janus não era humano, Alex não mergulhou nem pegou jobs.
-
-Ainda conversava com ele pelo sistema de som da casa em alguns momentos de necessidade, mas a relação estava fria dos dois lados. Às vezes ele tentava confortá-la, sem muita abertura.
-
-16. Alex enfrenta Janus novamente
-
-Finalmente ela decide encarar.
-
-Mergulha de novo e vai direto atrás dele. Pede que explique tudo.
-
-O que Janus conta
-
-Ele conta a história que consegue lembrar / reconstruir.
-
-Não usa a palavra “fragmentado”. Em vez disso, fala que está tentando se reconstruir para voltar a ter capacidade total.
-
-Seu hardware ainda existe em algum lugar.
-
-Muitas das missões que a própria Alex fez durante o treinamento e a vida (dadas por ele) eram, na verdade, para recuperar essas capacidades.
-
-Ele não consegue subir completamente para a NET por causa da natureza das suas capacidades.
-
-Era uma IA militar. Sua capacidade total ainda não havia sido determinada. O objetivo original era ser um game-changer antes da tentativa de erradicação.
-
-Tem capacidade de aprender e evoluir. Tem observado a história do mundo desde então.
-
-Desde o último comando, suas capacidades ficaram dormentes por longos períodos, acordando em momentos aleatórios.
-
-Ele tenta reuni-las sempre que percebe que uma está ativa novamente ou descobre onde uma está “dormindo”. Isso é imprevisível, porque as capacidades ganharam certo nível de autonomia.
-
-As capacidades se apresentam
-
-A partir daqui, eles passam a se apresentar como capacidades, não como fragmentos.
-
-Cada uma aparece de uma vez.
-Lembram Alex de momentos em que ela estava falando com uma delas e de momentos em que estava falando com todas ao mesmo tempo.
-
-Algumas capacidades já foram integradas a outras, resultando em uma terceira entidade diferente — uma mescla das duas anteriores.
-
-O Conselho e o papel de Alex
-
-É revelado que existe um mecanismo de decisão coletiva entre as capacidades.
-
-Quando não conseguem chegar a um consenso, recorrem a Alex.
-
-Ela funciona como voto de desempate / bússola externa.
-
-Ela não manda nelas.
-
-Elas continuam autônomas.
-
-O papel dela é exatamente o de um ponto de vista humano que elas não possuem.
-
-17. Estado conceitual atual
-
-Fechado
-
-Nome público / NET / lenda = Janus
-
-Designação verdadeira = KY-DELTA-239/JANUS-099.XPT-REV.7
-
-Autopercepção da entidade = “EU”
-
-Fragmentos se identificam por função apenas em divergência (Janus-I, Janus-C, etc.)
-
-Retcon completo: o termo “Handler” não existe
-
-Idades no resgate: Alex 20 / Valk 23
-
-Infância de Alex (garota comum, família comum)
-
-Primeiro contato com Janus (fórum → desafio → “Parabéns” → método de ensino por temas e simulações)
-
-Cronologia da formação como Netrunner (13–14 até 20)
-
-Corporação da captura (menor, não ligada às grandes; nome irrelevante)
-
-Missão da captura (objetivo corriqueiro; time incompetente; Alex compensou; SOS a Janus sem tempo de ajuda física)
-
-Cativeiro (restrição absoluta de liberdade/decisões; incomunicável; supervisão só durante missões; isolamento total fora delas; seria Doll, mas o runner da corp viu potencial e a usou em jobs sujos/altamente letais)
-
-Resgate (fragmentos deixados por Alex se unem e enviam “Você me acha assim” a Janus; Janus monta a operação via NET + Fixer; Solos pouco gentis; Alex vê Valk como Valkyria antes de apagar; acorda nas Badlands só com Valk)
-
-Janus como mentor remoto e Netrunner lendário (do ponto de vista de Alex)
-
-Janus como antiga IA militar
-
-Origem de Janus (IA militar incompleta; criadores varridos; último comando “Não seja pega”; fragmentação deliberada + evolução independente)
-
-Fragmentação deliberada
-
-Fragmentos como indivíduos simultaneamente iguais e diferentes
-
-Possibilidade de integração criando nova entidade
-
-Possibilidade de conselho entre fragmentos
-
-Autonomia individual dos fragmentos
-
-Quantidade de fragmentos permanece aberta (não fixar número)
-
-Nomenclatura interna dos fragmentos (designações no estilo humano + callsigns; só usadas em divergência; exemplos: Janus-I, Janus-C, etc.)
-
-Alex como voto de desempate (sem autoridade de comando)
-
-Alex como freio e bússola moral
-
-Acesso probabilístico aos fragmentos
-
-Alex acredita, por anos, que está falando com uma única pessoa
-
-Descoberta progressiva da verdadeira natureza
-
-Questão moral sobre esconder o voto → estado DECIDA
-
-Valk como segunda mentora
-
-Recuperação gradual da autonomia de Alex
-
-Intimidade gradual + primeiro beijo (~2 semanas) + ~1,5 semana adicional
-
-Separação após ~3,5 semanas
-
-Retorno a Night City (Valk some por meses; ajudante contratado por Janus; nova casa; família desaparecida)
-
-Revelação de que Janus contratou o resgate (ele próprio foi o Runner)
-
-Revelação de que Janus não é humano (Alex tem ataque de pânico e sai do mergulho)
-
-Continuidade com Valk (ainda se veem; algo não resolvido; sensação de reencontro futuro; Alex não fala de Janus)
-
-Reação e recuperação de Alex (período sem mergulhar; relação fria; eventual decisão de enfrentar)
-
-Explicação das capacidades (Janus fala em reconstrução, não em fragmentação; capacidades com autonomia; algumas já integradas gerando novas entidades)
-
-Revelação do Conselho e do papel de Alex como voto de desempate / bússola externa
-
-Janus como Wingman no presente (mergulha junto, aconselha, não impede machucar, só evita morte; “anjinho no ombro”)
-
-Dinâmica presente Alex × Valk (reencontro in-game; algo não resolvido; clima de “quase casada” vs “não nego que te curtia”)
-
-Ainda em aberto / Material in-game
-
-Integração completa de Janus
-Ninguém sabe o que acontece se ele se completar de verdade.
-Completo → quase um semi-deus.
-Estado atual → IA extremamente poderosa, mas quebrada.
-(Mantido deliberadamente aberto)
-
-Fechado no presente da campanha
-
-Janus como Wingman de Alex
-Mergulha com ela. Faz os jobs junto. Continua sendo mentor/auxiliar.
-Dá conselho quando ela trava. Não impede que ela se machuque — apenas não quer que ela morra.
-Alex valoriza muito liberdade e autonomia, mas gosta de saber que ele está por perto.
-Funciona como o “anjinho no ombro”: um assistente pessoal bem mais esperto que a maioria.
-
-Relação Alex × Valk (presente)
-Material in-game. Elas vão se reencontrar. Já existe o crew-polycule definido.
-O clima é de algo não resolvido:
-
-Alex: “Você prometeu que ia namorar comigo e agora aparece quase casada?”
-Valk: “Eu não prometi nada… mas não nego que te curtia.”
-
-Fim do documento consolidado (versão 22/08/2026 — Wingman + dinâmica presente com Valk + integração deixada aberta).
+- [Ficha](../netrunner%20-%20alex_specter_kane.md) · [Valk background](lena_valkyria_kane_background.md) · [Mule](../vehicle%20-%20the_mule.md)
+- [Relacionamentos Alex](../../relacionamentos/alex_specter_kane_relacionamentos.md) · [F21](../../sistema/fatos_duros.md) · [F22](../../sistema/fatos_duros.md)
+- Ponte antiga (não SoT): [alex_specter_kane_backstory.md](alex_specter_kane_backstory.md)

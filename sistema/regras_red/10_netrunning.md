@@ -21,7 +21,7 @@ Em dúvida de arquitetura/ICE full → `base/Cyberpunk Red.pdf`.
 
 | Papel | Regra |
 | ----- | ----- |
-| **Netrunner** (Alex) | Role Ability **Interface** = NET Actions por turno (rank na ficha ≈ 6–8 → **3–4** actions) |
+| **Netrunner** (Alex) | Role Ability **Interface 6** = **3** NET Actions / turno |
 | Outro PC | Só se tiver Interface; senão meatspace / support |
 | Techie | Desligar power, jam, hardware — testes TECH, não NET Actions |
 
@@ -104,12 +104,13 @@ Resolução típica: Interface vs DV da ICE **ou** programa de ataque vs defesa 
 
 ## 7. Alex — defaults de mesa
 
-| Campo | Valor (ficha / resumo) |
-| ----- | ---------------------- |
-| Interface | 6–8 → **3–4 NET Actions** |
-| Deck | Standard+ / 7+ slots (sugerido) |
-| Programs | Sword, DeckKRASH, Worm, Shield, … (completar no Finalizar se job exigir lista exata) |
-| Meat | Handgun/SMG leve, SP 11 |
+| Campo | Valor (ficha) |
+| ----- | ------------- |
+| Interface | **6** → **3 NET Actions** |
+| Deck | Excellent Cyberdeck, **7 slots** |
+| Programs | Armor, Sword, Sword, See Ya, Worm, Shield, Speedy Gonzalvez |
+| Meat | Heavy Pistol, faca, Light Armorjack **SP 11** |
+| Janus | Wingman / conselho. **Não** Action extra. **Não** segundo PC (**F22**) |
 
 Se o job precisar de programa específico e a ficha não listar: **DV +2** ou “Alex não tem — Ryan/Kaz providenciam downtime”.
 

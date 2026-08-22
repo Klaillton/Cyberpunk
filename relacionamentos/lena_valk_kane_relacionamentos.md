@@ -35,10 +35,10 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 
 ### Alex "Specter" Kane
 
-- **Status:** Interesse romântico de Alex
-- **Intensidade:** Média
-- **Tipo:** Unilateral (por enquanto)
-- **Notas:** Off-screen. Interesse de Alex é ficha/soft-canon; **sem** beat no Pack. Kane = coincidência de sobrenome. Polycule **estacionado** até crew NC.
+- **Status:** Faísca antiga (mútua no passado); presente não resolvido
+- **Intensidade:** Média (off-screen)
+- **Tipo:** Passado no Mule; Valk está com Ryan **agora**
+- **Notas:** Extração ~9 anos (Valk 23 / Alex 20): ~3,5 semanas no Mule, beijo no rio, rádio do mentor interrompeu; Valk sumiu por meses. Ela **não** sabe que Janus é IA (**F22**). **Sem** beat no Pack. Kane = coincidência. Polycule **estacionado** até crew NC. Detalhe: [nota Alex](../fichas/notas_narrador/alex_specter_kane_background_consolidado.md) · [Valk background § A](../fichas/notas_narrador/lena_valkyria_kane_background.md).
 
 ### Reina "Bearclaw" Morales
 

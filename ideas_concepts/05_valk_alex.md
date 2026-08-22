@@ -1,23 +1,16 @@
 # Valk e Alex — Relação e Conflito
 
-> **Status:** **REVISÃO FUTURA** · soft · overlap polycule  
+> **Status:** origem **integrada** · conflito ainda **REVISÃO FUTURA** · soft · overlap polycule  
+> Origem (resgate / Mule / rio) = [nota Alex](../fichas/notas_narrador/alex_specter_kane_background_consolidado.md) · [Valk background § A](../fichas/notas_narrador/lena_valkyria_kane_background.md).  
 > Alex não vilã — princípio ok; timing **após** crew NC. [README.md](README.md).
 
 ## Conceito-base
 
-Valk e Alex se conheceram durante um job.
+**Origem (SoT):** não foi “um job e talvez um beijo”. Foi extração no Mule ~9 anos (Alex 20 / Valk 23): ~3,5 semanas, autonomia devolvida, beijo no rio, rádio interrompeu, Valk sumiu por meses. Detalhe na nota — **não** repetir Janus aqui.
 
-Houve química imediata, mas não uma grande história de amor.
+O que este arquivo ainda guarda é o **conflito futuro** (quando a crew se juntar):
 
-Depois do trabalho:
-- conversaram;
-- houve alguma carícia;
-- possivelmente um beijo;
-- cada uma seguiu seu caminho.
-
-Não houve promessa.
-Não houve relacionamento estabelecido.
-Não houve traição de Ryan.
+Não houve **promessa da Valk** (ela não prometeu namoro). Alex pode ter sentido que houve. Não houve relacionamento estabelecido. Não houve traição de Ryan.
 
 A relação ficou como uma possibilidade inacabada.
 

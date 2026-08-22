@@ -63,6 +63,12 @@ Playbook completo: **[npc_agencia_cena.md](npc_agencia_cena.md)**.
 Ficha = **baseline**. NOW / handoff = **tom desta cena**.  
 Se o pack diz residual íntimo, aftercare, rede, cafuné: **não** reabrir a personagem na versão fria da ficha. O default estoico volta em público/ops ou quando o NOW esfriar. Vale para Valkirya em especial.
 
+### 3.4 Janus (**F22**) — Alex off-screen
+
+- Mentor/wingman NET de Alex = **Janus**. Nunca “Handler”.
+- Natureza (IA, fragmentos) = [nota](../fichas/notas_narrador/alex_specter_kane_background_consolidado.md). **Não** narrar no Pack.
+- Não é segundo PC nem Interface extra. Interface dela = **6** (3 NET Actions).
+
 ## 4. Conhecimento dos NPCs e Proibição de Meta-game
 
 **Regra importante:**

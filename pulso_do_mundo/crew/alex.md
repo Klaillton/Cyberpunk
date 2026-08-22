@@ -1,15 +1,16 @@
 # Pulso - Alex "Specter" Kane
 
-**Última atualização:** 29 de Julho de 2026  
+**Última atualização:** 22 de Agosto de 2026  
 **Escopo:** **Night City / futuro** — Alex **não** está nas Badlands.  
-**Regra:** pulso de *vida* off-screen ok (Kaz, jobs, rumor). **Não** avançar romance / polycule / provocação a Ryan até a crew se reunir em NC. Soft em [ideas_concepts](../../ideas_concepts/README.md).
+**Regra:** pulso de *vida* off-screen ok (Kaz, jobs, rumor, NET). **Não** avançar romance / polycule / provocação a Ryan até a crew se reunir em NC. **Não** narrar Janus (F22). Soft em [ideas_concepts](../../ideas_concepts/README.md).  
+**Background:** [nota](../../fichas/notas_narrador/alex_specter_kane_background_consolidado.md)
 
 ## Motivações Atuais
-- Se aproximar de Valk (seu interesse principal está nela).
-- Entender melhor quem é Ryan e o que Valk vê nele (interesse secundário e provocativo no início).
-- Se integrar à crew de forma útil (como Netrunner).
-- Explorar a atração que sente por Valk, respeitando (ou testando) os limites do relacionamento dela com Ryan.
-- Manter uma relação funcional com Kaz (já trabalhou com ele antes).
+- Jobs de NET em NC (Interface 6; wingman **não** aparece no pulso).
+- Manter relação funcional com Kaz (já trabalhou com ele antes).
+- Se aproximar de Valk **quando** a crew se juntar (não agora).
+- Entender melhor quem é Ryan e o que Valk vê nele (só após reencontro).
+- Se integrar à crew de forma útil (como Netrunner) — **após** E015.
 
 ## Perguntas de Pulso
 
@@ -40,7 +41,7 @@
 
 ## Relação com Valk
 
-Alex tem interesse romântico/sexual em Valk desde antes. O beijo que tiveram no passado ainda pesa para ela. Seu objetivo principal é se aproximar de Valk, e o interesse em Ryan é inicialmente secundário (ela quer entender o que Valk vê nele). Ela pode ser provocativa, mas também demonstra paciência quando percebe que Valk está dividida.
+Alex tem interesse romântico/sexual em Valk desde o resgate (~9 anos; 3,5 semanas no Mule; beijo no rio). O beijo ainda pesa. Objetivo principal quando se reencontrarem: aproximar-se de Valk; Ryan é secundário no início. **Não** avançar isto no pulso do Pack.
 
 ## Relação com Ryan
 
@@ -58,6 +59,7 @@ No começo, Alex via Ryan mais como "o namorado de Valk" do que como alguém int
 
 - **Procedimento:** [sistema/pulso_procedimento.md](../../sistema/pulso_procedimento.md)
 - **Ficha de Alex:** [fichas/netrunner - alex_specter_kane.md](../../fichas/netrunner%20-%20alex_specter_kane.md)
+- **Nota (narrador):** [alex_specter_kane_background_consolidado.md](../../fichas/notas_narrador/alex_specter_kane_background_consolidado.md)
 - **Relacionamentos de Ryan:** [ryan_relacionamentos.md](../../relacionamentos/ryan_relacionamentos.md)
 - **Relacionamentos de Valk:** [lena_valk_kane_relacionamentos.md](../../relacionamentos/lena_valk_kane_relacionamentos.md)
 - **Consequências Persistentes:** [consequencias_persistentes.md](../../consequencias/consequencias_persistentes.md)

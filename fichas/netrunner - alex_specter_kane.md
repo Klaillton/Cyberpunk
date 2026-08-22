@@ -1,8 +1,8 @@
 # Alex "Specter" Kane
 
-**Role:** Netrunner  
-**Idade aparente:** 28-32 anos (atualmente ~29)  
-**Conceito:** Hacker freelancer paranoico, ex-corp (talvez ex-Netwatch ou Arasaka low-level), agora trabalhando nas sombras de Night City, caçando dados, virando jobs contra megacorps e construindo reputação como "ghost in the machine". Especialista em infiltração digital, extração de info e sabotagem sutil.
+**Role:** Netrunner (Interface **6**)  
+**Idade:** 29  
+**Conceito:** Hacker freelancer paranoica, formada nas sombras — **não** ex-corp. Caça dados, vira jobs contra megacorps e constrói reputação de ghost na NET. Especialista em infiltração digital, extração de info e sabotagem sutil.
 
 **Descrição Visual:**  
 Alex é uma jovem de aparência atlética e cyberpunk marcante. Tem cabelo loiro curto e bagunçado (estilo pixie cut molhado pela chuva), pele clara, traços finos e expressivos. Seus olhos possuem Kiroshi Optics com glow intenso (um verde brilhante e o outro azul cibernético com circuitos visíveis). Usa uma jaqueta vermelha brilhante com detalhes prateados, patches e proteções nos ombros, sobre um top preto justo. A imagem mostra ela em uma rua de Night City chuvosa à noite, cercada por neon vermelho e holografias, transmitindo atitude confiante e perigosa.
@@ -18,105 +18,126 @@ Alex é uma jovem de aparência atlética e cyberpunk marcante. Tem cabelo loiro
 **Imagem de Referência:**  
 <img src="../imagens/netrunner%20-%20alex_specter_kane.jpg" width="220" alt="Alex &quot;Specter&quot; Kane" />
 
-## Background breve
+## Background (mini)
 
-Cresceu nas ruas digitais após o DataKrash. Traído por uma corp que o usou como ferramenta descartável, agora vive como edgerunner, vendendo segredos e zerando ICEs. Valoriza liberdade, lealdade e velocidade no NET. Tem ranço de corporações e uma obsessão por IA antigas.
+**Nota completa (narrador):** [alex_specter_kane_background_consolidado.md](notas_narrador/alex_specter_kane_background_consolidado.md) — backstory ≠ mesa; **não** despejar Janus no Pack.
 
-**Nota:** O sobrenome **Kane** é coincidência com Valk e Jax — **não há parentesco** entre os três.
+Família comum. NET por curiosidade (~13–14). Mentor remoto **Janus** (nunca “Handler”): ensina por temas e simulação, nunca pela resposta pronta. Aos 20, job com time incompetente; corp menor (não Arasaka/Netwatch) a rastreia. Meses de cativeiro (quase Doll — **sem** Doll-ware). Resgate no [Mule](vehicle%20-%20the_mule.md): Valk no volante. Alex 20 / Valk 23. ~3,5 semanas nas Badlands; Valk devolve autonomia. Beijo no rio; rádio interrompe. Valk some meses.
 
-**Atualização na História e Personalidade:**
-Alex "Specter" Kane é uma Netrunner de 29 anos, extremamente competente, sarcástica e viciada em viver no fio da navalha — tanto mergulhada no NET quanto nas ruas perigosas de Night City. Tem um senso de humor afiado e provocador, especialmente direcionado a Ryan "Wireghost" Voss.
+Anos em Night City. Janus continua no ouvido — wingman na NET, não segundo piloto. **F22:** natureza de Janus = só a nota. Ryan / Pack / Valk **não** sabem que é IA.
 
-Ela adora cutucar o Tech ex-Arasaka com comentários carregados, roçadas “sem querer”, elogios exagerados ao trabalho dele e flertes falsos — principalmente quando Valk está por perto. Faz isso porque acha a tensão não resolvida entre Ryan e Valk hilária e um pouco patética. No fundo, Alex não tem interesse romântico real em Ryan. Ela provoca ele basicamente por causa da Valk: presta atenção nele na medida em que a Valk presta, e não se importaria de “dividir” a Nomad com ele se isso a aproximasse mais dela.
+Sobrenome **Kane** = coincidência com Valkirya e Jax — **sem parentesco**.
 
-**O verdadeiro interesse de Alex é Lena “Valkirya” Kane.** Ela sente uma atração forte e duradoura pela piloto estoica, confiável e de poucas palavras. Anos atrás, após uma extração tensa e cheia de adrenalina, as duas acabaram se beijando com vontade (mais por parte da Alex). Valk, que estava sozinha há algum tempo, deixou rolar no calor do momento. Porém, Alex era bem mais nova na época, foram interrompidas antes que avançasse mais, e o assunto morreu quando os caminhos delas se separaram.
+**Estado de cena:** off-screen em NC. Sem beat romântico no Pack. Polycule = depois da crew junta.
 
-Recentemente, ao ouvir que Valk estava trabalhando novamente (e fazendo jobs com o crew), Alex voltou a se aproximar. Quando surge a chance de ficarem sozinhas — dentro do The Mule em viagens longas, ou em um esconderijo após um job —, Alex tenta avanços sutis: um toque demorado no ombro ou na mão, elogios baixos (“você dirige como se o mundo inteiro devesse abrir caminho”), ou comentários mais diretos como “talvez a gente devesse testar se essa tensão no ar é só adrenalina… ou algo mais”. Ela respeita os limites de Valk, nunca força a barra, mas é clara em suas intenções e torce para que algo volte a acontecer.
+## Personalidade
 
-## Atributos (62 Pontos)
+**Público / ops:** sarcástica, provocadora, humor afiado. Leal à crew pequena; desconfia de corps. Guarda segredos — sobretudo os dela.
 
-| Atributo           | Valor | Modificador      |
-| ------------------ | ----- | ---------------- |
-| INT (Inteligência) | 8     | +8               |
-| REF (Reflexos)     | 6     | +6               |
-| DEX (Destreza)     | 5     | +5               |
-| TECH (Técnica)     | 7     | +7               |
-| COOL (Frieza)      | 7     | +7               |
-| WILL (Vontade)     | 6     | +6               |
-| LUCK (Sorte)       | 5     | +5               |
-| MOVE (Movimento)   | 5     | +5               |
-| BODY (Corpo)       | 5     | +5               |
-| EMP (Empatia)      | 5     | +5 (antes de HL) |
+**NET:** fria, calculista, implacável. Paranoica com o corpo (câmeras, ICE, rastros).
 
-**Total gasto em Stats:** 62 pontos (balanceado para Netrunner: priorizei INT/TECH/COOL para hacking, com REF/DEX decentes para sobrevivência física).
+**Com Valk:** o interesse real é ela. Provoca Ryan **por causa** da Valk (tensão alheia, não romance com ele). Avanços sutis, respeita limite, nunca força. Passado no Mule ainda pesa; presente não resolvido.
 
-## Humanidade e Cyberware
+**Baseline vs agora (narrador):** o parágrafo público é o default. Ela **não está na mesa**. Temperatura = NOW / handoff quando reencontrar. Não bootar flerte nem lore de Janus numa cena do Pack.
 
-- **Humanidade (HL) inicial:** Baseada em EMP 5 (50).
-- **Cyberware sugerido inicial (foco em Netrunning, mantenha HL controlada):**
-  - Neural Link + Interface Plugs (obrigatório): HL ~7-12
-  - Cyberdeck (Standard ou bom, com slots para Programs)
-  - Kiroshi Optics (visão aprimorada)
-  - Cyberaudio Suite (com scrambler)
-  - Biomonitor
-  - Outros opcionais: Pain Editor, Synaptic Accelerator (para iniciativa no NET/meat).
+## Janus (mesa)
 
-**HL Total estimada inicial:** ~20-30 (EMP efetivo ~3-4). Monitore para evitar Cyberpsychosis.
+Mentor / wingman na NET. Aconselha, aponta tema, simulação **fora** de combate. **Não** rola por ela. **Não** é NET Action extra. **Não** é programa no deck. **Não** é segundo PC. Run = Interface **dela** vs DV. Detalhe: [nota](notas_narrador/alex_specter_kane_background_consolidado.md) · **F22**.
 
-## Skills
+## Atributos (62 pontos)
 
-**Skills Principais (exemplos priorizados):**
+| Atributo | Valor |
+| -------- | ----- |
+| INT | 8 |
+| REF | 6 |
+| DEX | 5 |
+| TECH | 7 |
+| COOL | 7 |
+| WILL | 6 |
+| LUCK | 5 |
+| MOVE | 5 |
+| BODY | 5 |
+| EMP | 5 |
 
-- Interface (Role Ability): 6-8 (essencial - determina NET Actions por turno: 3-4 com Rank 6+)
-- Cybertech: 6-7
-- Basic Tech: 6
-- Electronics/Security Tech: 6-7
-- Cryptography: 6
-- Library Search: 6
-- Perception: 5-6
-- Stealth / Conceal/Reveal Object: 5-6
-- Handgun: 4-5 (autodefesa)
-- Athletics / Evasion: 4-5
-- Education / Science (escolha): 5
-- Streetwise / Local Expert (Night City): 5
-- Human Perception / Persuasion: 4
-- Concentration: 4
+**HP Total:** 40  
+**Seriously Wounded:** 20  
+**Death Save:** BODY 5  
+**EMP:** 5  
+**Humanidade atual:** 20 (50 − HL 30)
 
-**Linguagens:** Streetslang 4 + sua origem cultural (ex: Português/inglês).
+## Role Ability: Interface 6
 
-## Role Ability: Interface
+- **NET Actions / turno:** **3**
+- Ações: Backdoor, Cloak, Control, Eye-Dee, Pathfinder, Scanner, Slide, Virus, Zap — conforme programa no deck.
+- Regras: [10_netrunning.md](../sistema/regras_red/10_netrunning.md) · [07_roles.md](../sistema/regras_red/07_roles.md)
 
-- NET Actions por Turno: 3-4 (dependendo do Rank).
-- Habilidades disponíveis: Backdoor, Cloak, Control, Eye-Dee, Pathfinder, Scanner, Slide, Virus, Zap.
-- **Regras de mesa (MVP):** [sistema/regras_red/10_netrunning.md](../sistema/regras_red/10_netrunning.md) · [07_roles.md](../sistema/regras_red/07_roles.md)
+## Skills (86 pts; Interface à parte)
 
-## Drones / Gear / Armamento Inicial (sugestão)
+| Skill | Nível | Skill | Nível |
+| ----- | ----- | ----- | ----- |
+| Library Search | 7 | Perception | 5 |
+| Cybertech | 6 | Stealth | 5 |
+| Basic Tech | 6 | Conceal/Reveal Object | 5 |
+| Electronics/Security Tech | 6 | Evasion | 5 |
+| Cryptography | 6 | Education | 5 |
+| Handgun | 4 | Streetwise | 5 |
+| Athletics | 4 | Local Expert (Night City) | 5 |
+| Human Perception | 4 | | |
+| Persuasion | 4 | | |
+| Concentration | 4 | | |
 
-- Cyberdeck bom (7+ slots para Programs).
-- Programs iniciais: Sword, DeckKRASH, Worm, Shield, etc. (ataque, defesa, infiltração).
-- Arma: Heavy Pistol ou SMG compacta + faca.
-- Armadura: Light Armorjack (SP 11) + roupas discretas/techwear.
-- Outros: Agent, Bug Detector, Data Chips, Kit de ferramentas, Flashbangs.
-- Veículo/Contato: Conexão com Nomad (ex: Valk) ou Tech (ex: Ryan Wireghost) para suporte físico.
+**Linguagens (livres):** Streetslang 4 · Inglês 4.
 
-## Personalidade e Ganchos
+## Cyberware
 
-- Calmo e analítico no NET, mas paranoico com corpos (sempre verifica câmeras/ICE).
-- Humor seco, fala em jargão tech. Leal a crew pequena, mas desconfia de corps.
-- Tensão com crew: Pode ter conexão com Ryan/Valk (suporte técnico mútuo).
-- Objetivo inicial: Um job de extração de dados contra uma corp pequena, ou caçar um ghost do passado.
+| Cyberware | HL | Efeito |
+| --------- | -- | ------ |
+| Neural Link | 7 | Interface com deck e armas inteligentes |
+| Interface Plugs | 7 | Jack in |
+| Cybereyes (Kiroshi) | 7 | Glow verde / azul da imagem; visão aprimorada |
+| Cyberaudio Suite (scrambler) | 7 | Áudio + anti-snoop |
+| Biomonitor | 2 | Sinais vitais |
 
-**Personalidade atualizada:**
+**Total Humanity Loss:** 30 | **EMP:** 5 | **Humanidade atual:** 20  
+Sem Pain Editor, sem speedware, **sem Doll-ware**.
 
-- Provocadora, brincalhona e um pouco sádica (no bom sentido) com as dinâmicas alheias.
-- Leal ao crew, mas guarda segredos (especialmente os dela).
-- No NET: fria, calculista e implacável. Fora dele: sorridente, flertadora e sempre com uma piada pronta.
-- Tem um fraquinho por pessoas "difíceis de ler" — como Valk.
+## Deck e programs
+
+**Excellent Cyberdeck** — **7 slots**.
+
+| Slot | Program |
+| ---- | ------- |
+| 1 | Armor |
+| 2 | Sword |
+| 3 | Sword |
+| 4 | See Ya |
+| 5 | Worm |
+| 6 | Shield |
+| 7 | Speedy Gonzalvez |
+
+Sem programa custom / “Janus.exe”. Se o job pedir programa que não está aqui: DV +2 ou downtime (Kaz/Ryan), [10_netrunning](../sistema/regras_red/10_netrunning.md) §7.
+
+## Gear (meat)
+
+- Heavy Pistol
+- Faca
+- Light Armorjack **SP 11**
+- Agent
+- Kit de ferramentas
+- Bug Detector, data chips, flashbangs (utilitário)
+
+## Relação com a crew
+
+**Valkirya:** atração antiga, mútua no passado (Mule), não resolvida. Off-screen. Ver [relacionamentos](../relacionamentos/alex_specter_kane_relacionamentos.md).  
+**Ryan:** provocação por causa da Valk; sem interesse romântico real nele **agora**.  
+**Reina:** interesse possível, parked até NC.  
+Polycule: [crew_polycule_…](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) — **não** iniciar no Pack.
 
 ---
 
 ## Referências
 
+- **Background (narrador):** [alex_specter_kane_background_consolidado.md](notas_narrador/alex_specter_kane_background_consolidado.md)
 - **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) · estado [notas_narrador/crew_vestindo_agora.md](notas_narrador/crew_vestindo_agora.md) · cards [notas_narrador/roupa_por_ocasiao.md](notas_narrador/roupa_por_ocasiao.md)
 
 ### Vestuário (atalho narrador)
@@ -128,4 +149,4 @@ Recentemente, ao ouvir que Valk estava trabalhando novamente (e fazendo jobs com
 | Formal power | `formal_black_red_tie_suit.jpg` · harness formal | |
 | Default se vazio | card **Street** ou **Club** | |
 - [Relacionamentos Alex](../relacionamentos/alex_specter_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md) · **F22**

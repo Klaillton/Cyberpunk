@@ -76,6 +76,16 @@ Por isso o medo deles não é racional. Mesmo depois de anos, mesmo depois de se
 
 *(O que o Ryan fez contra os Raffen no Pack é **campanha**, § C — não apaga este medo.)*
 
+### Extração — Alex (Valk 23)
+
+Anos depois do pack, ainda sozinha, Lena pegou um job de extração nas Badlands. A carga era uma Netrunner de **20 anos**, debilitada, quase Doll. Os Solos não foram gentis. Lena estava no volante do Mule.
+
+Quando a garota acordou, só as duas. Lena **não** a tratou como carga. Ensinou água, caça, direção, existir longe da cidade — o mesmo método que depois usaria com qualquer um que precisasse andar de novo: fez, fez junto, observou, confiou.
+
+~3,5 semanas. Noites frias no Mule. Um beijo num rio (~2 semanas); o rádio chamou (mentor remoto marcando a entrega). Ainda ~1,5 semana de cuidado mútuo. Depois Lena tinha outro job. Sumiu por meses. Ainda se viram, de vez em quando; nunca nomearam.
+
+A garota era **Alex “Specter” Kane**. Kane = coincidência. Detalhe do lado dela (mentor, cativeiro): [nota Alex](alex_specter_kane_background_consolidado.md). Lena **não** sabe o que o rádio era. **Não** despejar isso em cena com Ryan.
+
 ---
 
 ## B. Pré-campanha (jobs com Ryan, ainda não casal)

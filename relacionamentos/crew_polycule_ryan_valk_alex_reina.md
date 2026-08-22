@@ -14,6 +14,7 @@
 
 Ryan está em um relacionamento intenso com **Lena “Valkirya” Kane** (ele a chama de **Valk**).  
 **Alex "Specter" Kane** reaparece e desperta uma atração antiga em Valk.  
+**Origem dessa atração:** extração no Mule ~9 anos (resgate, 3,5 semanas, beijo no rio) — [nota Alex](../fichas/notas_narrador/alex_specter_kane_background_consolidado.md). **Não** o job raso antigo. Polycule continua **desejado, não obrigatório**.  
 **Reina "Bearclaw" Morales** já atua como a **confidente emocional** da crew (principalmente das meninas) antes mesmo de qualquer tensão romântica explodir.
 
 Kaz está escondido em Night City fugindo da Biotechnica. A reputação de Ryan e Valk após o trabalho contra a BT está ajudando ele a conseguir trabalhos melhores e formar uma equipe mais sólida. Alex reconhece o **Mule** do trabalho contra a BT e vai atrás da equipe. Como ela já trabalhou com Kaz e Valk no passado, Kaz oferece o serviço para ela (precisando especialmente de uma runner para lidar com a BT).

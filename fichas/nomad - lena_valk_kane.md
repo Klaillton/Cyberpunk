@@ -135,6 +135,7 @@ Ryan e Valk estão namorando de forma **consolidada** (F07). Dividem tenda no Pa
 ## Referências
 
 - **Background (narrador):** [lena_valkyria_kane_background.md](notas_narrador/lena_valkyria_kane_background.md)
+- **Alex (resgate, narrador):** [alex_specter_kane_background_consolidado.md](notas_narrador/alex_specter_kane_background_consolidado.md) — Valk **não** sabe que Janus é IA (**F22**)
 - **Equipe / veículo:** [The Mule — ficha](vehicle%20-%20the_mule.md) · [imagem do Mule](../imagens/vehicle%20-%20the_mule.jpg)
 - **Guarda-roupa (peças/ocasião):** [crew_guarda_roupas.md](crew_guarda_roupas.md) · estado [notas_narrador/crew_vestindo_agora.md](notas_narrador/crew_vestindo_agora.md) · cards [notas_narrador/roupa_por_ocasiao.md](notas_narrador/roupa_por_ocasiao.md)
 

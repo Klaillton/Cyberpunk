@@ -2,7 +2,7 @@
 
 **Finalidade:** lista **estável** de fatos que a IA **não pode inventar nem inverter**.  
 **Uso:** tier-0 com `logs/context_pack_atual.md`; comando `[Verificar fato]`; boot/refresh.  
-**Última revisão estrutural:** 20 de Agosto de 2026 (F21 — handle Valkirya; Valk = apelido do Ryan)
+**Última revisão estrutural:** 22 de Agosto de 2026 (F22 — Janus / Alex; natureza só na nota)
 
 > Snapshot de **data/local/prioridade** vive no **context pack** (muda a cada sessão).  
 > Este arquivo muda **raramente** — só quando a campanha redefinir um fato canônico.
@@ -35,6 +35,7 @@
 | **F07** | Ryan × Valkirya = relação **consolidada** (amor declarado); ela costuma escolher roupa em saídas | ryan / lena relacionamentos; guarda-roupa |
 | **F08** | **The Mule** = veículo dela; equipe operacional **Valk + Mule** (atalho de mesa) | vehicle - the_mule; ficha |
 | **F21** | Handle de rua = **Valkirya**. **Valk** = apelido **carinhoso do Ryan**. Nome civil: Lena Kane. Outros (Pack, crew, jobs, Echo) usam **Valkirya** ou Lena, não “Valk”, salvo se tiverem pego o apelido dele. **Sem retcon** de logs/diálogos já gravados | ficha nomad · este arquivo |
+| **F22** | Mentor/companheiro NET de **Alex “Specter” Kane** = **Janus** (nunca “Handler”). Natureza e fragmentos = só a [nota do narrador](../fichas/notas_narrador/alex_specter_kane_background_consolidado.md). Ryan, Pack e Valkirya **não** sabem que Janus é IA. Não narrar Janus em cena do Pack. Não usar Janus como segundo PC / Interface extra. Interface dela = **6** (3 NET Actions) | ficha Alex · nota |
 | **F09** | Job 001 (extração Vossler / Biotechnica) e incursões Raffen são **passados registrados** em `logs/` — não reinventar o outcome | job_001, incidentes, sessões |
 | **F10** | NPCs só sabem o que viram/ouviram in-fiction (**anti meta-game**) | diretrizes_narrador |
 | **F11** | Casas modulares dobráveis = projeto de Ryan; time produção + Tio Gringo sabem; **pack geral** sem anúncio oficial completo (E014: produção ok; revelação pública adiada / E012) | board / event_queue E012·E014 |
@@ -73,6 +74,7 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 - Não narrar **Sparrow** / **Steel** como software, modo Agent ou tipo de sinal — são **NPCs** (**F20**).
 - Não fazer Valkirya chamar Ryan de **“herói”** / **“herói solitário”** (bordão ou “combinado?”) — promessa 14/07; gatilho que dói (**F15**). Usar *não vai sozinho*, *planeja comigo*, *leva o time*.
 - Não tratar **Valk** como handle de rua. Handle = **Valkirya**. **Valk** = só Ryan (carinho), salvo NPC que tenha pego o apelido (**F21**). Logs antigos **não** reescrever.
+- Não chamar o mentor de Alex de **Handler**. Não revelar que **Janus** é IA em cena do Pack. Não rolar Janus no lugar dela (**F22**).
 - Não re-rolar nem “corrigir” outcomes das sessões **001–016** com a camada mecânica (**F18**). Ver [auditoria_combates_canonicos.md](../plans/auditoria_combates_canonicos.md) (só observação).
 - Sob risco/oposição (sessão **017+**): não narrar sucesso automático; usar [regras_red](regras_red/00_integridade_regras.md) · atalho [11_referencia](regras_red/11_referencia.md).
 - Não confundir **Arbiter** / **Watchdog** (Agents) com **Warden** drone (**F03** / **F19**).
