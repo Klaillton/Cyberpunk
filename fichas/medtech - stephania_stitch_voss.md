@@ -20,7 +20,13 @@ Mulher de cabelos vermelhos vibrantes longos em rabo de cavalo tático, com impl
 
 ## Background
 
-Gaijin (origem brasileira/portuguesa). Traída por corp que a descartou por “otimização de custos”. Agora freelancer nas ruas, procurando crews que batem de frente com as megacorps.
+Família trabalhadora (origem brasileira/portuguesa). Vocação prática desde cedo: não suportava ver algo quebrado quando acreditava que podia consertar. Chegou a Night City já como Ripperdoc. Trabalhou em clínica corporativa de baixo escalão, onde se tornou excelente técnica, mas entrou em atrito constante com a lógica de custo (atendia pacientes que não podiam pagar “por fora” e operava pequena clínica paralela). Saiu por não aguentar mais brigar com a administração.
+
+O nome **Stitch** nasceu na rua, de forma orgânica, depois de uma sessão longa de costura.
+
+Conheceu **Reina** quando esta ainda era lutadora/guarda-costas. Atendia-a com frequência. Quando Reina perdeu os braços, Stephania fez a **instalação e a reabilitação** dos cyberarms (fabricados por Ryan sob favor de Elisa “Doc” Moreau). A relação virou família. Por isso a condição de entrada na crew: “Se a Reina não vier, eu não vou.”
+
+Código: “Não deixo ninguém morrer na mesa.”
 
 **Nota (anti-confusão de nomes):**
 
@@ -29,14 +35,14 @@ Gaijin (origem brasileira/portuguesa). Traída por corp que a descartou por “o
 | **Stephania “Stitch” Voss** | **Stitch** / Stephania | MedTech da **crew atual** (esta ficha) |
 | **Elisa “Doc” Moreau** | **a Doc** / Doc Moreau | Terapeuta/ripper do **passado de Ryan** — [ficha NPC](npc/elisa_doc_moreau.md) |
 
-Compartilha o sobrenome **Voss** com Ryan, mas **não há parentesco** — coincidência que a crew usa para piadas (“será parente?”, “a família Voss chegou”).
+Compartilha o sobrenome **Voss** com Ryan, mas **sem parentesco**. O sobrenome em comum só alimenta piadas internas.
 
-**Gancho de entrada:** Ouviu falar do trabalho limpo contra a BT e da extração impecável da crew. Se ofereceu pro Kaz: “Toda crew que fode corp precisa de alguém pra costurar depois. Eu sou essa pessoa.” (daí o street name **Stitch**.)
+**Background completo (5 fases):** [notas_narrador/stephania_stitch_background.md](notas_narrador/stephania_stitch_background.md)
 
 ## Atributos (62 pontos)
 
 | Atributo | Valor |
-| -------- | ----- |
+|----------|-------|
 | INT      | 7     |
 | REF      | 6     |
 | DEX      | 6     |
