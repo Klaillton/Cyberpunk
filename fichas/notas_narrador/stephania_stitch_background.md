@@ -89,10 +89,90 @@ Por isso a condição de entrada na crew:
 
 ---
 
+## 6. Dois episódios formativos (a espinha dorsal moral)
+
+### 6.1 O paciente que ela não conseguiu salvar
+
+Uma crew voltou de um Job. Trouxeram um amigo.  
+“Trouxeram” é quase uma expressão errada: trouxeram partes dele. Contêineres separados. Corpo incompleto. O suficiente para Stitch reconhecer quem era, mas não o suficiente para reconstruí-lo.
+
+Ele ainda estava consciente o bastante para entender a situação.
+
+Stitch avaliou. Não existia procedimento milagroso. Não existia “Stitch dá um jeito”. Não existia tecnologia secreta. Ela simplesmente sabia que não conseguia.
+
+E então ele pediu:  
+“Stitch… me deixa morrer.”
+
+Esse foi o momento em que ela aprendeu a diferença entre difícil e impossível.
+
+A regra “ninguém morre na minha mesa” não significa “eu sempre vou manter você vivo”.  
+Significa: “Enquanto houver algo que eu possa fazer, você não vai morrer porque eu desisti.”
+
+E quando realmente não há mais nada a fazer, ela não transforma o paciente em uma máquina de sofrimento só para cumprir uma promessa.
+
+Foi aqui que ela aprendeu a distinguir, com precisão clínica, o impossível do difícil. Por isso é tão boa em emergência.
+
+### 6.2 A família que não tinha cobertura
+
+O contraponto.
+
+Uma pessoa chega precisando de tratamento. Stitch avalia. Sabe exatamente o que precisa ser feito. Não é uma cirurgia extraordinária — é um procedimento que ela poderia fazer de olhos fechados.
+
+O plano não cobre.  
+A família não tem dinheiro.  
+Alguém da administração diz, basicamente: “Não autorizado.”
+
+Stitch faz.  
+Não faz discurso. Manda preparar a sala. Trata.
+
+Depois vem a cobrança.
+
+Ela não vira revolucionária. Não ameaça ninguém.  
+Pega o prontuário, os protocolos, os números, o contrato, o procedimento realizado e começa a desmontar burocraticamente a decisão. Porque conhece o sistema por dentro.
+
+Não está dizendo “o sistema é injusto”.  
+Está dizendo: “Você quer me explicar exatamente qual cláusula diz que eu deveria deixar uma pessoa piorar quando eu tinha capacidade de tratá-la?”
+
+Se alguém responde “o plano não cobre”, ela responde:  
+“Eu não perguntei o que o plano cobre.”
+
+Esses dois episódios (separados por anos) formam a filosofia adulta dela:
+
+- Nem todo mundo pode ser salvo.
+- Mas isso nunca pode ser usado como desculpa para não tentar.
+
+Stitch não odeia corporações por princípio. Ela se revolta quando eficiência financeira começa a ser confundida com impossibilidade médica.
+
+---
+
+## Filosofia / Código
+
+**Frase de street (o que a crew ouve):**  
+“Não deixo ninguém morrer na mesa.”
+
+**Significado real (o que ela vive):**  
+“Enquanto você estiver lutando, eu luto com você.”
+
+### A distinção central
+
+Há diferença entre:
+
+1. **“Eu quero morrer agora”**  
+   Choque, dor brutal, desorientação. A pessoa está pedindo para a dor parar, não necessariamente para a vida terminar. Stitch trata isso como sintoma. Estabiliza. Controla a dor. Costura. Dá tempo. Pode ser extremamente insistente:  
+   “Não. Você não quer morrer. Você quer que isso pare. São coisas diferentes.”
+
+2. **“Eu não quero mais viver”**  
+   O paciente sobreviveu ao trauma físico, mas desistiu conscientemente da própria vida. Stitch consegue consertar o corpo, mas não consegue obrigar uma pessoa a querer continuar vivendo. Quando percebe que a desistência é real e consciente, ela respeita. Não trata como fraqueza, covardia ou fracasso médico.
+
+Stitch não luta contra a morte.  
+Ela luta contra a desistência — até o momento em que percebe que a desistência é realmente a escolha consciente do próprio paciente.
+
+---
+
 ## Notas de tom e relação
 
 - Stitch **não** odeia corporações de forma ideológica. Ela trabalhou nelas, aprendeu nelas e salvou gente graças à infraestrutura. O problema, para ela, começa quando a contabilidade decide quem merece tratamento.
-- Com Valk: mesmo princípio moral, ângulos diferentes. Valk não deixa ninguém para trás. Stitch não deixa ninguém morrer na mesa. Potencial de amizade forte.
+- Com Valk: mesmo princípio moral, ângulos diferentes. Valk não deixa ninguém para trás. Stitch não deixa ninguém morrer na mesa enquanto a pessoa ainda estiver lutando. Potencial de amizade forte.
 - Com Ryan: paciente frequente + coincidência de sobrenome + “você tem ideia de quanto eu odeio quando vocês me dão trabalho?” enquanto costura. Sem mistério necessário.
 
 ---

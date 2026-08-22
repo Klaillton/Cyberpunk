@@ -26,7 +26,10 @@ O nome **Stitch** nasceu na rua, de forma orgânica, depois de uma sessão longa
 
 Conheceu **Reina** quando esta ainda era lutadora/guarda-costas. Atendia-a com frequência. Quando Reina perdeu os braços, Stephania fez a **instalação e a reabilitação** dos cyberarms (fabricados por Ryan sob favor de Elisa “Doc” Moreau). A relação virou família. Por isso a condição de entrada na crew: “Se a Reina não vier, eu não vou.”
 
-Código: “Não deixo ninguém morrer na mesa.”
+**Código (street):** “Não deixo ninguém morrer na mesa.”  
+**Código (real):** “Enquanto você estiver lutando, eu luto com você.”
+
+**Background completo (5 fases + filosofia + episódios formativos):** [notas_narrador/stephania_stitch_background.md](notas_narrador/stephania_stitch_background.md)
 
 **Nota (anti-confusão de nomes):**
 
@@ -36,8 +39,6 @@ Código: “Não deixo ninguém morrer na mesa.”
 | **Elisa “Doc” Moreau** | **a Doc** / Doc Moreau | Terapeuta/ripper do **passado de Ryan** — [ficha NPC](npc/elisa_doc_moreau.md) |
 
 Compartilha o sobrenome **Voss** com Ryan, mas **sem parentesco**. O sobrenome em comum só alimenta piadas internas.
-
-**Background completo (5 fases):** [notas_narrador/stephania_stitch_background.md](notas_narrador/stephania_stitch_background.md)
 
 ## Atributos (62 pontos)
 
