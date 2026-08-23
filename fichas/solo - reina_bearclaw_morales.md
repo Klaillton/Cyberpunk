@@ -72,16 +72,17 @@ Pontos por cena para iniciativa, detecção de emboscada e bônus de CQC — gas
 
 | Cyberware | HL | Efeito |
 | --------- | -- | ------ |
-| Cyberarm (dir.) | 7 | Força; melee pesado; garras retráteis. Funções avançadas **sem** bônus até cena |
-| Cyberarm (esq.) | 7 | Idem. Fabricados por Ryan; instalados por Stitch |
+| Cyberarm (dir.) | 0 | Força; melee pesado; garras retráteis. Funções avançadas **sem** bônus até cena |
+| Cyberarm (esq.) | 0 | Idem. Fabricados por Ryan; instalados por Stitch; Eles são tão avançados/integrados que não geram HL |
 | Neural Link | 7 | Interface com armas inteligentes / braços |
 | Interface Plugs | 7 | Jack |
 | Kerenzikov | 7 | +2 Initiative / testes de Reflexo (sempre ligado) |
 | Pain Editor | 7 | Ignora dor / penalidades por ferimento por período limitado |
 | Biomonitor | 2 | Sinais vitais |
 
-**Total Humanity Loss:** 44 | **EMP:** 5 | **Humanidade atual:** 6  
+**Total Humanity Loss:** 30 | **EMP:** 5 | **Humanidade atual:** 40  
 Sem Sandevistan. Sem o SP da [armadura-projeto](reina_armour_project.md).
+Nota: Humanidade 20 corresponde ao estado inicial após a instalação do conjunto de cyberware. Através da reabilitação com Stitch, acompanhamento da Elisa e adaptação prolongada ao novo corpo, Reina recuperou parte significativa de sua estabilidade emocional e identidade corporal. O valor atual representa seu estado presente, não o imediatamente posterior à instalação. **Ryan não apenas devolveu os braços a Reina. Ele devolveu a sensação de ter braços.**
 
 ## Gear (meat)
 
