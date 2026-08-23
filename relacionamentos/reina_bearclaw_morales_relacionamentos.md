@@ -1,7 +1,8 @@
 # Relacionamentos - Reina Bearclaw Morales
 
-**Última atualização:** 29 de Julho de 2026  
-**Estado de cena:** **Off-screen.** Reencontro (“ele não reconhece”) e qualquer romance = **depois** da crew junta em NC. Soft: [ideas_concepts/03](../ideas_concepts/03_reina_ryan.md) · [04](../ideas_concepts/04_reina_valk.md) · [polycule](crew_polycule_ryan_valk_alex_reina.md).
+**Última atualização:** 23 de Agosto de 2026  
+**Estado de cena:** **Off-screen.** Reencontro (“ele não reconhece”) e qualquer romance = **depois** da crew junta em NC. Soft: [ideas_concepts/03](../ideas_concepts/03_reina_ryan.md) · [04](../ideas_concepts/04_reina_valk.md) · [polycule](crew_polycule_ryan_valk_alex_reina.md).  
+**Background:** [nota do narrador](../fichas/notas_narrador/reina_bearclaw_morales_background.md)
 
 ## Contatos e Aliados
 
@@ -46,5 +47,5 @@
 ## Referências
 
 - [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Crew](crew_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md)
-- [Ficha Reina](../fichas/solo%20-%20reina_bearclaw_morales.md) · [Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md)
+- [Ficha Reina](../fichas/solo%20-%20reina_bearclaw_morales.md) · [nota](../fichas/notas_narrador/reina_bearclaw_morales_background.md) · [Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md)

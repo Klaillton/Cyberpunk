@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 2026-08-22 (ficha Alex RED + nota Janus **F22**; próximo resumo **022**)
+**Última atualização:** 2026-08-23 (nota + ficha RED Reina; próximo resumo **022**)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -45,6 +45,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Curiosidade: valor agregado ao Pack (estimativa) | `fichas/notas_narrador/ryan_valor_pack.md` | **Não** é ledger; Ryan não sabe; [economia.md](../economia.md) |
 | Background Valkirya (narrador) | `fichas/notas_narrador/lena_valkyria_kane_background.md` | Backstory ≠ mesa; upgrades Mule = campanha |
 | Background Alex (narrador) | `fichas/notas_narrador/alex_specter_kane_background_consolidado.md` | Janus **F22**; backstory ≠ mesa; `backstory.md` = ponte |
+| Background Reina (narrador) | `fichas/notas_narrador/reina_bearclaw_morales_background.md` | Braços / Doc / Stitch; backstory ≠ mesa; reencontro parked |
 | Histórico de sessão | `logs/sessao_resumo_XXX.md` | Arquivos listados na seção "Arquivos Atualizados" de cada resumo |
 | Detalhes de job / gig concluído | `logs/job_XXX_*.md` | `logs/sessao_resumo_*.md`, `consequencias/consequencias_persistentes.md`, `heat.md` |
 | Incidente narrativo marcante (combate, confronto) | `logs/incidente_XXX_*.md` | `consequencias/consequencias_persistentes.md`, `event_queue.md`, sessões |
@@ -142,6 +143,7 @@ cyberpunk/
 │       ├── lena_valkyria_kane_background.md
 │       ├── alex_specter_kane_background_consolidado.md  ← Janus F22
 │       ├── alex_specter_kane_backstory.md               ← ponte
+│       ├── reina_bearclaw_morales_background.md
 │       ├── crew_vestindo_agora.md
 │       └── roupa_por_ocasiao.md
 ├── imagens/

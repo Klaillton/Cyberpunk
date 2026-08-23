@@ -1,8 +1,9 @@
 # Pulso - Reina "Bearclaw" Morales
 
-**Última atualização:** 29 de Julho de 2026  
+**Última atualização:** 23 de Agosto de 2026  
 **Escopo:** **Night City / futuro** — Reina **não** está nas Badlands.  
-**Regra:** sem reencontro, sem revelar braços, sem romance. Soft em [ideas_concepts/03–04](../../ideas_concepts/README.md). Acionar só com crew junta em NC.
+**Regra:** sem reencontro, sem revelar braços, sem romance. Soft em [ideas_concepts/03–04](../../ideas_concepts/README.md). Acionar só com crew junta em NC.  
+**Background:** [nota](../../fichas/notas_narrador/reina_bearclaw_morales_background.md)
 
 ## Motivações Atuais
 - Proteger Ryan (ela tem um instinto protetor forte com ele desde o passado).
@@ -56,6 +57,7 @@ Agora que o reencontrou vivo e namorando Valk, ela está processando muitas cois
 
 - **Procedimento:** [sistema/pulso_procedimento.md](../../sistema/pulso_procedimento.md)
 - **Ficha de Reina:** [fichas/solo - reina_bearclaw_morales.md](../../fichas/solo%20-%20reina_bearclaw_morales.md)
+- **Nota (narrador):** [reina_bearclaw_morales_background.md](../../fichas/notas_narrador/reina_bearclaw_morales_background.md)
 - **Relacionamentos de Ryan:** [ryan_relacionamentos.md](../../relacionamentos/ryan_relacionamentos.md)
 - **Relacionamentos de Reina:** [reina_bearclaw_morales_relacionamentos.md](../../relacionamentos/reina_bearclaw_morales_relacionamentos.md)
 - **Consequências Persistentes:** [consequencias_persistentes.md](../../consequencias/consequencias_persistentes.md)

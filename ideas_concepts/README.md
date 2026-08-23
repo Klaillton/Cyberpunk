@@ -14,6 +14,7 @@
 | Moreau sabe mais; E011 gradual; sem despejo de lore | Já em [elisa_doc_moreau.md](../fichas/npc/elisa_doc_moreau.md) + E011; reforço de **bloqueio** de cena pesada | BD “memória dos 7 anos” como fato já jogado |
 | Polycule **lento**; fases **desejadas**, não obrigatórias | [crew_polycule_…](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) (status + fases opcionais) | Trilho 1→11 forçado; abertura mid-E015 |
 | Origem Alex×Valk (resgate / Mule / rio) | [nota Alex](../fichas/notas_narrador/alex_specter_kane_background_consolidado.md) · Valk background § A · **F22** | Janus na mesa do Pack; Handler; Doll-ware |
+| Origem Reina (braços / surto / Doc ≠ Stitch) | [nota Reina](../fichas/notas_narrador/reina_bearclaw_morales_background.md) | Reencontro e romance no Pack |
 | L3 / timing NC | [arco_ativo.md](../board/arco_ativo.md) §5 | Ativar Alex/Reina romance agora |
 
 ---
@@ -25,7 +26,7 @@
 | `00_RYAN_CANON_CONSOLIDADO.md` | **REVISÃO FUTURA** | Índice duplicado; não usar como SoT |
 | `01_habilidades_latentes.md` | **Parcial** → núcleo em gatilhos/background; detalhe fino aqui | Expandir só com regra de mesa se preciso |
 | `02_memoria_moreau.md` | **REVISÃO FUTURA** (cena BD 7 anos) | Gatilho E011 + Valk/Reina + pedido; 1× no máx. |
-| `03_reina_ryan.md` | **REVISÃO FUTURA** / overlap polycule | Reencontro “não reconhece” já no polycule |
+| `03_reina_ryan.md` | **Parcial** — origem **integrada** (nota Reina); reencontro/romance ainda **REVISÃO FUTURA** | “Não reconhece” no polycule; não boot |
 | `04_reina_valk.md` | **REVISÃO FUTURA** / overlap polycule | Amizade antes de romance — princípio ok, cenas depois |
 | `05_valk_alex.md` | **Parcial** — origem **integrada** (nota Alex / Valk § A); conflito ainda **REVISÃO FUTURA** | Alex não vilã; timing pós-crew; “job raso” **não** é SoT |
 | `06_canon_arco_resumo.md` | **REVISÃO FUTURA** (mapa do autor) | Ordem desejada, **não** agenda obrigatória da IA |
@@ -48,4 +49,4 @@
 - Visita E011 pedida in-game.  
 - Decisão de mesa sobre latentes vs Ruleset 1.0.0/1.3.0 (1 crisis / sem unlock permanente já esboçado nos gatilhos).
 
-**Última curadoria:** 2026-08-22
+**Última curadoria:** 2026-08-23

@@ -1,6 +1,7 @@
 # Ryan e Reina — Passado, Perda de Memória e Reencontro
 
-> **Status:** **REVISÃO FUTURA** · soft · overlap [crew_polycule_…](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)  
+> **Status:** origem **integrada** · reencontro/romance ainda **REVISÃO FUTURA** · soft · overlap [crew_polycule_…](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)  
+> Passado (braços, surto, ela o derrubou, ele sumiu) = [nota Reina](../fichas/notas_narrador/reina_bearclaw_morales_background.md).  
 > Reencontro “Ryan não reconhece” já no polycule. Ver [README.md](README.md).
 
 ## Antes da última perda
