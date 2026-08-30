@@ -73,6 +73,7 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 - Não colocar **Jax “Razor” Kane** (crew) nas Badlands em scav/incursão — usar **Scout** ([scout.md](../fichas/npc/scout.md)).
 - Não narrar **Sparrow** / **Steel** como software, modo Agent ou tipo de sinal — são **NPCs** (**F20**).
 - Não fazer Valkirya chamar Ryan de **“herói”** / **“herói solitário”** (bordão ou “combinado?”) — promessa 14/07; gatilho que dói (**F15**). Usar *não vai sozinho*, *planeja comigo*, *leva o time*.
+- Não reabrir Valkirya no boot como briefing/CO se o pack diz residual íntimo. Acordo 019 = **perguntar** uma vez antes de vetar; idle relacional ≠ “Valk cobra o plano”.
 - Não tratar **Valk** como handle de rua. Handle = **Valkirya**. **Valk** = só Ryan (carinho), salvo NPC que tenha pego o apelido (**F21**). Logs antigos **não** reescrever.
 - Não chamar o mentor de Alex de **Handler**. Não revelar que **Janus** é IA em cena do Pack. Não rolar Janus no lugar dela (**F22**).
 - Não re-rolar nem “corrigir” outcomes das sessões **001–016** com a camada mecânica (**F18**). Ver [auditoria_combates_canonicos.md](../plans/auditoria_combates_canonicos.md) (só observação).

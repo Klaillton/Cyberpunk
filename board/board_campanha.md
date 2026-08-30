@@ -15,7 +15,7 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo Condor operacional e r
 3. Base militar: perímetro externo mapeado (abandonada); **não entra agora**; gatilho = mensagem → manhã seguinte; overwatch de Valk só nesse dia.  
 4. Residual de **Lina “Sparrow” Park** ainda sem ACK.  
 5. **Marcus “Steel” Rivera** mudo.  
-6. Acordo 019 em vigor + residual íntimo (020–023). Tom ajustado na manhã 01/08.
+6. Acordo 019 em vigor (**perguntar**, não cobrar) + residual íntimo alto. Paz física 01/08. Voz no boot 024 = curta e quente.
 
 **Arco L1 + off-screen:** [arco_ativo.md](arco_ativo.md)
 

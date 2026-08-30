@@ -85,7 +85,7 @@ Toda resposta de RP (exceto fechamento de sessão) termina com **≥1**:
 
 | Tipo | Exemplo |
 | ---- | ------- |
-| **Decisão com horário** | Valk: “Saímos às quatro ou segundo ping agora.” |
+| **Decisão com horário** | Valk (ops, se o plano ainda está aberto): “Saímos às quatro ou espera o recado?” — **não** se o plano já fechou |
 | **NPC com voz** | Lira pergunta; Sasha marca limite |
 | **Ambiente que convida ação** | “Há lenha seca a 30 m sob o paredão.” |
 | **Canal / tempo** | Burst fraco; silêncio útil com custo |

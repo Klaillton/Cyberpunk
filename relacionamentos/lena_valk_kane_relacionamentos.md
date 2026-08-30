@@ -32,6 +32,8 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **26–27/07 (sessão 019):** Viagem industrial (borda NC) + retorno Pack. Atrito de 018 (solo vs equipe) resolvido em conversa explícita. **Acordo:** Ryan dá o mínimo de plano antes do modo operador; Valk pergunta antes de subir o tom. Intimidade reforçada (garagem + tenda). Relação estável e cumplices. **F15** ativo.
 - **28–29/07 (sessão 020):** Planejamento conjunto do módulo de sinal Condor (Ryan explicou o plano completo sob o acordo; Valk aceitou e ajudou na costura/testes). Intimidade prolongada (noite 28→29 + manhã 29) + aftercare forte + banho compartilhado. Residual de carinho e cumplicidade alto. Acordo 019 praticado com sucesso. **F15** ativo.
 - **29–30/07 (sessão 021):** Teste + voo Condor; 1º pacote. Intimidade forte (rede/tenda/banho/cafuné); dormiram na rede. **Base militar:** ela monta o esboço (rotas, abort, quem entra); Ryan decide solo-primeiro só depois de ver de perto. **F15** ativo.
+- **30–31/07 (sessão 022):** Refrigeração módulo + recon externo da base. Residual íntimo alto. Acordo 019 praticado.
+- **31/07–01/08 (sessão 023):** Jantar fechou Condor/base (trava). Tom soou cobrança; Ryan pediu para parar. Noite quieta. Manhã: conversa direta + reconciliação (cócega/café). Oficina juntos. Residual íntimo alto. **Voz:** curta e quente com ele; 019 = perguntar, não cobrar. **Não** reabrir o jantar.
 
 ### Alex "Specter" Kane
 

@@ -25,7 +25,7 @@
 
 **Resumo:**
 
-- Consolidada; acordo 019. Residual íntimo alto. Tom ajustado de manhã (023). **F15**.
+- Consolidada; acordo 019 (**perguntar**, não cobrar). Residual íntimo alto. Paz física 01/08. **Não** reabrir o jantar 023 nem o registro de CO. **F15**.
 
 ---
 
@@ -57,6 +57,7 @@
 - F03 Warden terrestre · F15 Valk não “herói” · F18 Ruleset 1.3.0 · F20 Sparrow/Steel = NPCs
 - Motor: sem eco · delta ≥60% · SHOW relacional
 - Trava 023: não reabrir Condor/base como briga
+- Valk: residual alto = curta **e** quente; 1 pergunta antes de vetar; sem caderno no boot
 
 ---
 

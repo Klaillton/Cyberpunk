@@ -60,6 +60,8 @@
 [Gancho]
 ```
 
+Valk + residual alto: 1 fala **quente** (não ordem). Veto só depois de **1 pergunta**. Idle de arco = relógio/Tio, não caderno dela.
+
 ---
 
 ## Ação do jogador (evita loop meta → SOP → eco)

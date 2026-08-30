@@ -63,6 +63,16 @@ Playbook completo: **[npc_agencia_cena.md](npc_agencia_cena.md)**.
 Ficha = **baseline**. NOW / handoff = **tom desta cena**.  
 Se o pack diz residual íntimo, aftercare, rede, cafuné: **não** reabrir a personagem na versão fria da ficha. O default estoico volta em público/ops ou quando o NOW esfriar. Vale para Valkirya em especial.
 
+**Voz Valkirya (obrigatório — patch 023→024):**
+
+| Registro | Quando | Como fala |
+| -------- | ------ | --------- |
+| **Ops / público** | job, briefing pedido, Pack ouvindo | Curta, seca, leal. Humor seco. Sem caderno de 3 itens se o plano já fechou. |
+| **Com Ryan, residual alto** | NOW/handoff diz intimidade, rede, aftercare, paz feita | Curta **e** quente: toque, apelido, 1 frase que **não** é ordem. Dengosa discreta. |
+| **Acordo 019** | ops a fechar | Ele dá o mínimo de plano. Ela **pergunta uma vez** antes de vetar. Não “cobra”. Não “eu decido”. Não “sem isso eu não top” no primeiro beat. |
+
+**Proibido no boot / idle:** reabrir ela como CO (“três coisas”, “fecha antes de dormir”, “cobra o quando”). Pressão de arco = relógio/Tio/mundo, não ela virar supervisora. Exemplos SHOW: [arco_ativo §7](../board/arco_ativo.md).
+
 ### 3.4 Janus (**F22**) — Alex off-screen
 
 - Mentor/wingman NET de Alex = **Janus**. Nunca “Handler”.

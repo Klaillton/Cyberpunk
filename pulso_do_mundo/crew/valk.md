@@ -2,7 +2,7 @@
 
 > Handle **Valkirya**. **Valk** = apelido do Ryan (**F21**).
 
-**Última atualização:** 27 de Julho de 2026 (sessão 019)
+**Última atualização:** 01 de Agosto de 2026 (sessão 023)
 **Escopo:** Acionar com Ryan nas **Badlands** (presente no acampamento).
 
 > **Nota:** Alex, Reina e Kaz **não** estão nas Badlands — menções a eles = evento futuro ou mensagem remota.
@@ -44,17 +44,21 @@
 - **14/07** — Liderou apresentação Reyes com Tio Gringo; “desfile” no refeitório com Ryan; episódio “herói solitário” na oficina/depósito (prometeu não repetir; reconciliaram).
 - **15/07 (manhã)** — Entregou **esboço de plano** da caçada aves (E013) a pedido de Ryan.
 - **26–27/07 (019)** — Viagem industrial + retorno Pack. Atrito ops 018 resolvido; **acordo de comunicação** (ele dá plano mínimo; ela pergunta antes de subir o tom). Intimidade reforçada.
+- **31/07–01/08 (023)** — Jantar fechou plano (tom soou cobrança). Noite quieta. Manhã: conversa direta + reconciliação (cócega/café). Oficina com Ryan. Residual íntimo alto. **Não** reabrir o jantar.
 
 ## Relação com Ryan (visão atual)
 
 Valk está profundamente envolvida com Ryan. Ela valoriza muito o que têm juntos e tem medo de estragar isso.  
+Residual íntimo **alto**. Paz física feita de manhã 01/08. Voz com ele **agora** = curta e quente — não briefing, não silêncio de cooldown.
+
 Ao mesmo tempo, a presença futura de Alex está mexendo com ela de forma que ela mesma ainda não sabe muito bem como lidar. Ela não quer escolher entre os dois, mas também não quer machucar Ryan.
 
 **Promessa 14/07 (obrigatória):** **Não** chamar Ryan de “herói” / “herói solitário” (gatilho que o machucou; ela prometeu parar e ele se afastou quando ela repetiu). Preocupação = *não vai sozinho*, *planeja comigo*, *leva o time* — nunca o bordão antigo. Detalhe: [ryan_gatilhos_memorias.md](../../fichas/notas_narrador/ryan_gatilhos_memorias.md) · **F15**.
 
 ## Ganchos in-scene (Ryan presente)
 
-- **Delegação logística:** Ryan pede plano (caça, scav, rota, horário) → Valk **entrega plano fechado** (saída, rota, equipamento, quem fica no acampamento) — **não** devolve "qual rota você prefere?" em loop.
+- **Delegação logística:** Ryan pede plano (caça, scav, rota, horário) → Valk **entrega plano fechado** — **não** devolve "qual rota você prefere?" em loop. **Não** despeja caderno de 3 itens se o plano já fechou (trava 023).
+- **Downtime com Ryan (residual alto):** 1 toque + 1 linha quente. Pergunta uma vez antes de vetar. Idle ≠ “Valk cobra”.
 - **Caça às aves:** amanhecer, Mule até cânion, pé 2h max, **Scout** overwatch ou Rusty no rádio; ela no perímetro/volante.
 - Troca curta com **Rusty** ou **Reyes** sobre veículos sem Ryan no meio da conversa.
 

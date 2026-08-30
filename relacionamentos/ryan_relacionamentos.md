@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 30 de Julho de 2026 (sessão 021)
+**Última atualização:** 01 de Agosto de 2026 (sessão 023)
 
 ---
 
@@ -9,7 +9,7 @@
 
 | Personagem               | Sentimento de Ryan    | Sentimento em relação a Ryan | Intensidade | Status             | Tipo                             |
 | ------------------------ | --------------------- | ---------------------------- | ----------- | ------------------ | -------------------------------- |
-| Lena “Valkirya” Kane (Ryan: Valk) | Afeto + Confiança | Afeto + Confiança | Alta | Estável (acordo 019 + intimidade 020/021) | Romântico / Aliada |
+| Lena “Valkirya” Kane (Ryan: Valk) | Afeto + Confiança | Afeto + Confiança | Alta | Estável (acordo 019 + intimidade 020–023) | Romântico / Aliada |
 | Alex "Specter" Kane      | Desconfiança          | Provação / Interesse         | Média       | Observando         | Potencial rival                  |
 | Reina "Bearclaw" Morales | Neutro / Cautela      | Proteção (Mãe Urso)          | Média       | Em desenvolvimento | Aliada / Irmã mais velha         |
 | Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado                   |
@@ -22,9 +22,9 @@
 
 ### Lena “Valkirya” Kane
 
-**Status:** Namorando (relação consolidada + acordo de comunicação ops 019 + intimidade reforçada 020/021)  
+**Status:** Namorando (relação consolidada + acordo de comunicação ops 019 + intimidade reforçada 020–023)  
 **Intensidade:** Alta  
-**Última atualização:** 30 de Julho de 2026 (sessão 021)
+**Última atualização:** 01 de Agosto de 2026 (sessão 023)
 
 **Evolução conhecida:**
 
@@ -116,18 +116,28 @@
 - Intimidade forte (rede, tenda, banho, cafuné até a noite); dormiram na rede.
 - Base militar: Valk esboça o plano; Ryan decide sozinho-primeiro só depois de ver de perto; decisão de quem entra **junto**.
 
+**Atualização (30–31/07 — sessão 022):**
+
+- Refrigeração do módulo + recon externo da base. Residual íntimo alto. 019 praticado.
+
+**Atualização (31/07–01/08 — sessão 023):**
+
+- Jantar fechou Condor/base (trava). Tom soou cobrança; Ryan pediu para parar. Noite quieta.
+- Manhã: conversa direta + reconciliação (cócega, café). Oficina juntos.
+- **Voz (SoT):** residual alto = curta e quente; 019 = **perguntar** uma vez, não cobrar. Não reabrir o jantar.
+
 **Estado atual:**
 
 - Ryan e Valk juntos de forma estável e cumplices.
-- Acordo 019 em vigor (ops + base militar).
-- Residual íntimo 020/021 alto.
-- Ad: 1º pacote coletado; intermediário 48–72h; –300 eb.
+- Acordo 019 em vigor (perguntar, não caderno).
+- Residual íntimo 020–023 alto; paz física 01/08.
+- Ad: 1º pacote coletado; intermediário ainda aberto (piso ~01/08 17h); –300 eb (021).
 - Valk **não** usa “herói” / “herói solitário” (**F15**).
 
 **Notas do Narrador:**
 
 - Principal delta relacional permanente da 019 = acordo de comunicação.
-- 020 reforçou a prática do acordo + residual íntimo.
+- 023: o acordo foi jogado como cobrança no jantar — **erro de registro**, não mudança de personagem. Patch de voz no boot 024.
 - Gatilho verbal “herói” permanece **ativo** (memória fechada); Valk evita a palavra.
 
 ---

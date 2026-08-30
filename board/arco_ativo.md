@@ -4,7 +4,7 @@
 **Não é tier-0 completo** — o narrador lê sob demanda quando a cena estagna ou o arco avança.  
 **Tier-0:** [context_pack_atual.md](../logs/context_pack_atual.md) (1 linha aponta para cá).  
 **Inventário longo prazo:** [event_queue.md](../event_queue.md).  
-**Atualizado:** ~30/07/2026 (pós-021) · sessão vigente **022**
+**Atualizado:** ~01/08/2026 (pós-023) · sessão vigente **024**
 
 ---
 
@@ -67,7 +67,7 @@
 
 ### 2.4 Frases-modelo (anti-filler)
 
-- **Bom:** “Canal morto de verdade — sem carrier. Valk: *amanhã cedo a gente decide: segundo ping ou move.*”  
+- **Bom:** “Canal morto de verdade — sem carrier.” Valk (residual alto, sem caderno): *“Ainda nada. Vem.”* Ou, se o plano ainda estiver aberto: *“Espera o recado ou move amanhã cedo?”*  
 - **Bom:** “Um burst de 3s, protocolo errado, morre. Não é a **Lina ‘Sparrow’ Park**; é ruído de outro tráfego.”  
 - **Ruim:** “Canais ainda mudos. Estrelas. Água. Warden quieto.” (sem decisão / sem custo)
 
@@ -78,16 +78,16 @@
 | Campo | Valor |
 | ----- | ----- |
 | **ID** | E015 (+ E005 latente, E011 no pacote NC) |
-| **Fase** | **1º pacote coletado** — intermediário 48–72h (a partir de 30/07 ~17h); ad continua; residual **Lina Park** sem ACK; **Marcus Rivera** mudo |
-| **Local do PC** | Pack Badlands (30/07 noite · rede) |
-| **Objetivo do arco** | Rede via contatos Sparrow/Steel (NPCs) → Kaz; ad coletando respostas; coleta via Condor isolado; Valk junto; **sem** ops solo sem extração; acordo comunicação 019 |
+| **Fase** | **1º pacote coletado** — intermediário 48–72h **ainda aberto** (piso ~01/08 17h · teto ~02/08 17h); ad continua; residual **Lina Park** sem ACK; **Marcus Rivera** mudo |
+| **Local do PC** | Pack Badlands (~01/08 após almoço) |
+| **Objetivo do arco** | Rede via contatos Sparrow/Steel (NPCs) → Kaz; ad coletando; Condor ~02/08; Valk junto; **sem** ops solo sem extração; acordo 019 = **perguntar**, não cobrar |
 | **Fora de foco (1 linha)** | Pack (Node, casas, olaria) roda sem Ryan · BT latente · Raffen residual · E020 cobra mimética Reyes (tempo livre) |
 
 ### 3.1 Batidas possíveis (ordem flexível)
 
 | # | Batida | Gatilho típico | Resultado possível (exemplos) |
 | - | ------ | -------------- | ----------------------------- |
-| B1 | **Decisão 25/07** | amanhecer / Valk cobra | Fica no cânion · 2º ping · muda posição |
+| B1 | **Decisão 25/07** | **feita** (cânion) | — |
 | B2 | **Resposta de contato** | relógio off-screen **Steel** ou **Sparrow** (pessoas) | Resposta parcial · “não agora” · janela · silêncio *útil* com custo |
 | B3 | **Movimento Badlands** | após B1 “move” | Chegada a próximo ponto (N9); 0–1 anomalia só se AGENDA/SoT |
 | B4 | **Entrada / borda NC** | rota definida | Heat leve, escolha de entrada, não dump de plot |
@@ -99,10 +99,10 @@
 
 Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
-1. **Valk** fecha plano de manhã: refrigeração / isobutano **ou** mostra rascunho da base.  
-2. **Lira** faz **1 pergunta audível** (drone, o que fazem amanhã, olaria no Pack) — sem murmúrio vazio.  
-3. **Off-screen §3.3:** 1 batida de **contato** (Steel / Sparrow / Kaz) **ou** avanço de relógio.  
-4. Só então micro-logística (fogo, água, sono) — **nunca** sozinha como “delta”.
+1. **Relógio E015:** burst do intermediário **ou** silêncio útil (piso ~17h; após teto, custo).  
+2. **Tio** aponta peça no almoxarifado / oficina — 1 tarefa concreta.  
+3. **Valk:** 1 batida SHOW (toque + 1 linha quente). **Sem** reabrir Condor/base. **Sem** caderno.  
+4. **Lira** (se em cena): **1 pergunta audível** — sem murmúrio vazio.
 
 ### 3.3 Off-screen agora (E015) — instância da §2.1
 
@@ -120,20 +120,21 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 - Inventar combate Raffen/BT só porque a noite está quieta.  
 - Revelar paradeiro exato de Kaz sem canal.  
-- Transformar Lira/Sasha em tutorial eterno no lugar de B1/B2.  
-- Eco de mood / música como substituto de batida de arco.
+- Transformar Lira/Sasha em tutorial eterno no lugar de B2.  
+- Eco de mood / música como substituto de batida de arco.  
+- Reabrir Valk como CO / caderno de 3 itens / “cobra o plano” — especialmente no boot.
 
 ---
 
 ## 4. L0 — AGENDA sugerida (espelho; SoT da cena = context pack)
 
-> Se o pack divergir, **vence o pack**. Isto é rascunho alinhado ao Pack pós-021.
+> Se o pack divergir, **vence o pack**. Rascunho alinhado ao Pack pós-023.
 
 | # | Gancho com conteúdo | Quem age se idle | Ação concreta |
 | - | ------------------- | ---------------- | ------------- |
-| 1 | Refrigeração módulo (isobutano) + 2º voo | Valk / Tio | Tio oferece isobutano ou Valk cobra o módulo |
-| 2 | Intermediário do ad (48–72h) | Mundo / fixer | Burst, recado, ou silêncio com custo |
-| 3 | Esboço plano base militar (Valk) | Valk | Valk apresenta rascunho ou cobra time |
+| 1 | Intermediário do ad (piso ~01/08 17h) | Mundo / fixer | Burst, recado, ou silêncio com custo |
+| 2 | Condor ~02/08 (Sasha/Lira na mochila) | Sasha / Tio | Checagem da mochila — **não** Valk renegociar |
+| 3 | Tarde oca: oficina / almoxarifado / rede | Tio / Valk | Tio aponta peça; Valk oferece sombra **sem** briefing |
 
 ---
 
@@ -166,23 +167,34 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ---
 
-## 7. Batidas-modelo relacionais (estado 020 — SHOW)
+## 7. Batidas-modelo relacionais (estado 023 — SHOW)
 
 > **Uso:** quando o PC abre espaço ou idle relacional. **1 batida por bloco**, não as três de uma vez.  
 > Valk **não** resume o progresso das outras — elas **mostram**.  
 > Ambientação de lugar: [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md).
 
-### 7.0 Estado emocional (SoT curto pós-020)
+### 7.0 Estado emocional (SoT curto pós-023)
 
 | Quem | Onde está na cabeça | O que já aconteceu | Próximo passo orgânico |
 | ---- | ------------------- | ----------------- | ---------------------- |
-| **Valk** | Acordo comunicação ops em vigor e praticado; residual íntimo alto | Módulo construído junto; intimidade 28–29/07 | Downtime Pack; cobra teste/plano se idle |
-| **Lira** | Residual positivo; aberta a novas saídas | Overwatch cooperativa; “foi bom / chama de novo” | **Fala própria** se em cena |
-| **Sasha** | Residual positivo; “não some sem avisar” mantido | Viagem; despedida calorosa; perto no refeitório | Residual (ajuda/distância) — não sumir |
+| **Valk** | Residual íntimo alto; paz física feita de manhã 01/08; plano ops **fechado** (trava 023) | Jantar 31/07 soou cobrança; reconciliação na tenda (cócega/café) | SHOW quente curto; **não** reabrir jantar nem Condor/base |
+| **Lira** | Residual positivo; aberta a novas saídas | Overwatch; Condor no gancho | **Fala própria** se em cena |
+| **Sasha** | Residual positivo; “não some sem avisar” | Confirmou mochila Condor 01/08 | Residual (ajuda/distância) — não sumir |
 
-### 7.1–7.4
+### 7.1 Voz Valkirya — exemplos (obrigatório no boot)
 
-Modelos Lira / Sasha / Valk e combinação com ambiente: manter lógica 018–020 (SHOW, 1 batida, sem TELL). Ver histórico em sessões 017–020.
+| Ruim (chat 023 contaminado — **não copiar**) | Bom (residual alto / downtime) |
+| -------------------------------------------- | ------------------------------ |
+| “Três coisas. Sem ordem bonita.” | (toque no pulso) “Ainda nada no link. Vem.” |
+| “Qual desses três você quer fechar antes de dormir.” | “Oficina ou sombra. Eu vou com você.” |
+| “Sem isso eu não top.” / “Eu decido o como.” | “Se marcar o dia, eu cubro. Quer isso — ou espera o recado?” |
+| “Não transformar café em tribunal.” / “bonitinha de encomenda.” | “Cara amarrada passou.” + beijo / copo / ombro |
+| Silêncio de cooldown a noite inteira como resposta afetiva | 1 linha baixa + corpo colado; se estiver chateada, **fala** |
+
+**Ops (quando o plano ainda está aberto e Ryan pediu):** curta, seca, leal — *“Mule no leste. Abort no rádio. Eu no volante.”*  
+**Ops (plano já fechado — trava 023):** **não** reabre. Uma confirmação no máximo: *“Continua o combinado.”*
+
+Acordo 019 = **uma pergunta** antes de vetar. Idle de arco **não** é ela virar CO.
 
 ---
 
@@ -190,5 +202,5 @@ Modelos Lira / Sasha / Valk e combinação com ambiente: manter lógica 018–02
 
 - [context_pack_atual.md](../logs/context_pack_atual.md) · [event_queue.md](../event_queue.md) · [board_campanha.md](board_campanha.md)  
 - [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md) · [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · [npc_agencia_cena.md](../sistema/npc_agencia_cena.md)  
-- [sessao_resumo_020.md](../logs/sessao_resumo_020.md)  
+- [sessao_resumo_023.md](../logs/sessao_resumo_023.md)  
 - Soft longo prazo: [ideas_concepts/README.md](../ideas_concepts/README.md) (não boot)

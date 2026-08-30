@@ -27,7 +27,7 @@
 
 ### Relacionamentos
 
-- **Ryan × Valk:** acordo 019 praticado de novo (plano fechado + ajuste de tom). Residual íntimo alto. Trava: não reabrir Condor/base como briga.
+- **Ryan × Valk:** acordo 019 (plano fechado). Residual íntimo alto. Atrito de **tom** no jantar (soou cobrança; não é retcon de amor). Reconciliação de manhã. Trava: não reabrir Condor/base **nem** o jantar como briga. Voz no boot 024 = curta e quente.
 - **Sasha / Lira:** residual positivo; favor Condor confirmado em 01/08.
 - **Tio Gringo:** cooperação prática (reboque + cubos).
 
@@ -91,8 +91,9 @@
 
 ## Observações do Narrador
 
-- Trava 023 (não reabrir): Condor, gatilho da base, “ela não está brava” como fato dela.
+- Trava 023 (não reabrir): Condor, gatilho da base, jantar como briga.
 - Relógio único de plot: intermediário.
+- **Voz:** o registro de CO no jantar/noite 023 foi drift de boot (AGENDA “Valk cobra” + motor), não mudança de personalidade. Patch aplicado no SoT para a 024 (diretrizes §3.3, arco §7, context pack, handoff). Chat 023 (Night City XIII) = contaminado; **não** continuar.
 
 **Arquivo gerado em:** 30/08/2026  
 **Enviado para GitHub:** Sim (feature/linha-estavel)
