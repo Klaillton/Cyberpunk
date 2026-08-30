@@ -1,9 +1,9 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **022** · **Próxima:** **023** (`sessao_resumo_023.md`)  
+**Gerado após:** sessão **023** · **Próxima:** **024** (`sessao_resumo_024.md`)  
 **Branch:** `feature/linha-estavel`  
-**Atualizado:** ~31 de Julho de 2026 (tarde) — Pack Badlands
+**Atualizado:** ~01 de Agosto de 2026 (após almoço) — Pack Badlands
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
 > **Arco + off-screen (L1):** [board/arco_ativo.md](../board/arco_ativo.md) — sob demanda / se estagnar.  
@@ -33,19 +33,19 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
 
 | Campo | Valor |
 | ----- | ----- |
-| Data in-game | **~31/07/2026** |
-| Período | Tarde (Pack) |
+| Data in-game | **~01/08/2026** |
+| Período | Após almoço (Pack) |
 | Região | **Badlands / Pack** |
-| Local específico | Setor de veículos / oficina (Mule recém-vistorado) |
+| Local específico | Refeitório → tarde oca (oficina / almoxarifado / rede) |
 | Facção / base local | Pack Nômade Badlands |
-| Cena / gancho | Recon base concluído; intermediário ad ainda aberto; voo Condor pré-programado ~02/08 |
-| Prioridade | (1) Intermediário ad (48–72h) (2) Voo Condor +58h / 4h (3) Decisão de entrada na base |
+| Cena / gancho | Intermediário ainda mudo; piso 48h ~17h; Condor ~02/08 |
+| Prioridade | (1) Intermediário ad (piso ~01/08 17h · teto ~02/08 17h) (2) Tarde oca / oficina (3) Condor ~02/08 |
 | Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira ainda delicado |
 
 ### Cena de abertura sugerida
 
-**Pack — tarde/noite 31/07.**  
-Módulo refrigerado e pré-programado. Sasha/Lira cuidam da liberação do Condor. Perímetro externo da base mapeado e abandonado. Intermediário do ad ainda sem contato.
+**Pack — tarde 01/08.**  
+Almoço fechado. Reboque e cubos feitos. Condor no gancho com Sasha/Lira. Link sem burst. Faltam horas para o piso da janela de 48h.
 
 ---
 
@@ -53,16 +53,18 @@ Módulo refrigerado e pré-programado. Sasha/Lira cuidam da liberação do Condo
 
 | # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
 | - | ---------------- | ---------------- | ---------------------------------------------- |
-| 1 | Intermediário do ad (48–72h a partir de 30/07 ~17h) | Mundo / fixer | Nota de tempo ou burst |
-| 2 | Voo Condor pré-programado (~02/08, 4h) | Sasha/Lira / Tio | Lembra da janela ou pede checagem da mochila |
-| 3 | Base: intel externa ok; entrada ainda aberta | Valk | Valk cobra se entra solo, com time, ou espera |
+| 1 | Intermediário do ad (48–72h a partir de 30/07 ~17h) | Mundo / fixer | Burst **ou** nota de relógio; após teto, silêncio com custo |
+| 2 | Voo Condor pré-programado (~02/08, 4h) | Sasha/Lira / Tio | Checagem da mochila / “confirma à tarde” |
+| 3 | Tarde oca: oficina / almoxarifado / rede | Tio / Valk | Tio aponta peça ou Valk escolhe sombra vs bancada |
 
 | Campo | Valor |
 | ----- | ----- |
-| **Modo atual** | DOWNTIME / Pack (pós-recon) |
+| **Modo atual** | DOWNTIME / Pack (pós-almoço 01/08) |
 | **Turnos sem delta (estimado)** | 0 |
 | **Região / local (NOW)** | Badlands · Pack |
-| **Arco L1** | E015 (intermediário pendente) · [arco_ativo.md](../board/arco_ativo.md) |
+| **Arco L1** | E015 (intermediário; janela aberta) · [arco_ativo.md](../board/arco_ativo.md) |
+
+**Trava 023 (não reabrir):** Condor ~02/08 não se renegocia; base = mensagem → manhã seguinte; overwatch dela só nesse dia; 019 em vigor.
 
 ---
 
@@ -75,11 +77,11 @@ Módulo refrigerado e pré-programado. Sasha/Lira cuidam da liberação do Condo
 | **F04** | **Stitch** = Stephania (crew); **Doc** = Elisa Moreau (passado) |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
-| F07 | Ryan × Valk consolidados (**acordo comunicação ops 019** + intimidade 020/021/022) |
+| F07 | Ryan × Valk consolidados (**acordo comunicação ops 019** + intimidade 020–023) |
 | F08 | Mule = de Valk; equipe Valk + Mule |
 | **F11** | Casas modulares — pack geral sem revelação oficial completa |
 | **L01–L03** | Pack: Reyes, Tio Gringo, Container A, time produção no segredo parcial |
-| **Novo** | Lira + Sasha: residual positivo 019/022 (favor Condor) |
+| **Novo** | Lira + Sasha: residual positivo 019/022/023 (favor Condor) |
 | **F18** | Ruleset **v1.3.0** · 017+ · sem retcon 001–016 |
 | **F19** | Agents: Vault / Profissional / Honeypot / Arbiter/Watchdog ≠ Warden |
 | **F20** | **Sparrow** = Lina Park (NPC); **Steel** = Marcus Rivera (NPC) — **não** sistemas |
@@ -92,27 +94,27 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 | ID | Uma linha |
 | -- | --------- |
-| **E015** | 1º pacote ad coletado (30/07); intermediário 48–72h; residual **Lina Park** sem ACK; **Marcus Rivera** mudo; Kaz escondido |
-| **Módulo Condor** | Refrigeração ok; pré-programado +58h / 4h; Sasha/Lira liberam |
-| **Base militar** | Perímetro externo mapeado (abandonado); entrada (solo ou time) ainda aberta |
+| **E015** | 1º pacote 30/07; intermediário 48–72h **ainda aberto** (piso ~01/08 17h); Lina Park sem ACK; Marcus Rivera mudo; Kaz escondido |
+| **Módulo Condor** | Refrigeração ok; pré-programado ~02/08 / 4h; Sasha/Lira na mochila |
+| **Base militar** | Perímetro externo mapeado (abandonado); **não entra agora**; gatilho = mensagem → manhã seguinte |
 | **E019** | Olaria/cogeração — Pack (background) |
 | **E012** | Casas interno / revelação pack |
 | Ideia Reyes | Assistente cobra mimética (conceito; tempo livre) |
 
 ---
 
-## O que acabou de acontecer (022 — 1 parágrafo)
+## O que acabou de acontecer (023 — 1 parágrafo)
 
-31/07 Pack: refrigeração passiva do módulo Condor concluída; Condor reservado +58h/4h e pré-programado; Sasha/Lira aceitam liberar o voo. Ryan+Valk fizeram recon externo completo da base militar (quatro lados, sem entrada): abandonada, sem EM, sem rastros. Acordo 019 reforçado. Mule limpo e vistorado. Intermediário do ad ainda sem contato.
+31/07–01/08 Pack: jantar fechou plano (Condor intacto; base gatilhada). Noite quieta. Manhã: conversa de tom + reconciliação. Oficina: olhal do reboque (luva+pino) e cubos do trailer da cerca. Sasha confirma Condor. Almoço. Intermediário mudo; piso 48h ainda à frente.
 
-Detalhe: [sessao_resumo_022.md](sessao_resumo_022.md)
+Detalhe: [sessao_resumo_023.md](sessao_resumo_023.md)
 
 ---
 
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · ~31/07/2026 tarde · Pack Badlands · prioridade: intermediário ad + voo Condor ~02/08 + decisão base · próximo resumo: 023 · Ruleset 1.3.0
+Boot OK · ~01/08/2026 após almoço · Pack Badlands · prioridade: intermediário (piso ~17h) + tarde oca + Condor ~02/08 · próximo resumo: 024 · Ruleset 1.3.0
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.
