@@ -1,6 +1,6 @@
 # Downtime Ryan — Log
 
-**Última atualização:** 31/07/2026 (sessão 022)
+**Última atualização:** 01/08/2026 (sessão 023)
 
 ---
 
@@ -47,8 +47,8 @@
 ## Notas
 
 - Acordo de comunicação 019 praticado (ops + base militar).
-- Intimidade 020 + 021 + 022 reforçou residual com Valk.
-- Base militar: perímetro externo mapeado (022); entrada ainda aberta.
+- Intimidade 020 + 021 reforçou residual com Valk.
+- Base militar: esboço de plano delegado a Valk; Ryan decide entrada solo após ver de perto.
 
 ---
 
@@ -61,3 +61,13 @@
 - Limpeza e vistoria do Mule.
 
 **Estado ao fechar 022:** Módulo refrigerado e pré-programado. Base com intel externa completa. Intermediário do ad ainda pendente.
+
+---
+
+## 01/08/2026 — Oficina Pack (sessão 023)
+
+**Trabalho realizado:**
+- Olhal do reboque: corte da solda ruim; luva fresada; pino passante; solda no metal preparado. Teste de carga ok.
+- Três cubos do trailer da cerca: buchas novas + folga regulada.
+
+**Estado ao fechar 023:** Peças Pack operacionais. Sem gasto de eddies. Intermediário ainda pendente.
