@@ -29,7 +29,7 @@
 | **F03** | **Warden** = drone **terrestre** scorpion-like (modo mochila/transporte). **Não voa** | Ficha Ryan |
 | **F04** | **Stitch** = Dr. Stephania Voss (MedTech da **crew**). **Doc** = Elisa “Doc” Moreau (passado de Ryan). Nunca trocar os nomes | [Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Doc](../fichas/npc/elisa_doc_moreau.md) |
 | **F05** | Ryan e Stephania compartilham sobrenome **Voss** por coincidência — **sem parentesco** | Ficha Stitch / ryan_relacionamentos |
-| **F06** | Protagonista jogável: **Ryan “Wireghost” Voss** (Techie). Valkirya, Alex, Reina, Kaz, Stitch, **Jax “Razor” Kane** = **crew** (NC) | mapa_relacional |
+| **F06** | Protagonista jogável: **Ryan “Wireghost” Voss** (Techie). Valkirya, Alex, Reina, Kaz, Stitch, **Jax “Razor” Kane**, **Emilia “Echo” Rivera** (Media) = **crew** (NC) | mapa_relacional |
 | **F14** | **Scout** = sentinela/recon do Pack Badlands (apelido; scavs). **≠** Jax **“Razor” Kane** (Solo crew). Razor **não** está nas Badlands | [scout.md](../fichas/npc/scout.md) |
 | **F20** | **Sparrow** = **Lina “Sparrow” Park** (contato/fixer, **pessoa**). **Steel** = **Marcus “Steel” Rivera** (contato, **pessoa**). Handles de rádio **≠** sistema/drone/protocolo. Steel **≠** Emilia “Echo” **Rivera** | [lina_park](../fichas/npc/lina_park.md) · [marcus_steel_rivera](../fichas/npc/marcus_steel_rivera.md) |
 | **F07** | Ryan × Valkirya = relação **consolidada** (amor declarado); ela costuma escolher roupa em saídas | ryan / lena relacionamentos; guarda-roupa |
@@ -72,6 +72,7 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 - Não criar NPC/facção/local já listado em `registro_arquivos` / mapa.
 - Não colocar **Jax “Razor” Kane** (crew) nas Badlands em scav/incursão — usar **Scout** ([scout.md](../fichas/npc/scout.md)).
 - Não narrar **Sparrow** / **Steel** como software, modo Agent ou tipo de sinal — são **NPCs** (**F20**).
+- Não despejar backstory da **Echo** (acidente, Correção Editorial, Chamber, flerte) numa cena do Pack. Off-screen até reencontro NC. ≠ Steel Rivera.
 - Não fazer Valkirya chamar Ryan de **“herói”** / **“herói solitário”** (bordão ou “combinado?”) — promessa 14/07; gatilho que dói (**F15**). Usar *não vai sozinho*, *planeja comigo*, *leva o time*.
 - Não reabrir Valkirya no boot como briefing/CO se o pack diz residual íntimo. Acordo 019 = **perguntar** uma vez antes de vetar; idle relacional ≠ “Valk cobra o plano”.
 - Não tratar **Valk** como handle de rua. Handle = **Valkirya**. **Valk** = só Ryan (carinho), salvo NPC que tenha pego o apelido (**F21**). Logs antigos **não** reescrever.

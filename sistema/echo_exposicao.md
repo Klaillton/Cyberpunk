@@ -3,7 +3,7 @@
 **SoT** de como a Media da crew move **reputação anti-corp** vs **Heat Global** vs **Heat individual**.  
 **Arquivos ligados:** [heat.md](../heat.md) · [reputacao.md](../reputacao.md) · [ficha Echo](../fichas/media%20-%20emilia_echo_rivera.md) · [The Mule](../fichas/vehicle%20-%20the_mule.md)
 
-**Última atualização:** 2026-08-01
+**Última atualização:** 2026-08-30 (ficha Echo alinhada: mini + HP/HL RED; este arquivo continua o SoT de vazamento)
 
 ---
 

@@ -84,6 +84,7 @@ Residual íntimo **alto**. Paz física feita de manhã 01/08. Chat **023 contami
 | F01–F02 | Branch `feature/linha-estavel`; arquivos = SoT |
 | **F03** | Warden = drone **terrestre** scorpion (**não voa**) |
 | **F04** | **Stitch** = Stephania (crew); **Doc** = Elisa Moreau (passado) |
+| **F06** | Crew NC inclui **Echo** (Media) — off-screen; ≠ Steel Rivera |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
 | F07 | Ryan × Valk consolidados (**acordo 019 = perguntar, não cobrar** + intimidade 020–023; voz agora = curta e quente) |
@@ -93,7 +94,7 @@ Residual íntimo **alto**. Paz física feita de manhã 01/08. Chat **023 contami
 | **Novo** | Lira + Sasha: residual positivo 019/022/023 (favor Condor) |
 | **F18** | Ruleset **v1.3.0** · 017+ · sem retcon 001–016 |
 | **F19** | Agents: Vault / Profissional / Honeypot / Arbiter/Watchdog ≠ Warden |
-| **F20** | **Sparrow** = Lina Park (NPC); **Steel** = Marcus Rivera (NPC) — **não** sistemas |
+| **F20** | **Sparrow** = Lina Park (NPC); **Steel** = Marcus Rivera (NPC) — **não** sistemas; Steel **≠** Echo |
 
 Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 

@@ -1,9 +1,17 @@
 # Emilia “Echo” Rivera — Background (narrador)
 
-**Status:** Canon (2026-08-30). Mecânica e exposição continuam na [ficha](../media%20-%20emilia_echo_rivera.md) e em [echo_exposicao.md](../../sistema/echo_exposicao.md).  
-**Uso:** sob demanda / reencontro NC. **Não** carregar no tier-0. **Não** narrar este arquivo no Pack.
+**Status:** Canon (2026-08-30). Mecânica e exposição na [ficha](../media%20-%20emilia_echo_rivera.md) e em [echo_exposicao.md](../../sistema/echo_exposicao.md).  
+**Este arquivo:** backstory + o que ela não sabe. **Não** recontar a mesa aqui.  
+**Uso:** sob demanda / reencontro NC. **Não** carregar no tier-0. **Não** narrar no Pack.
 
-> **Não confundir** com **Marcus “Steel” Rivera**. Mesmo sobrenome, outra pessoa (F20).
+> **Não confundir** com **Marcus “Steel” Rivera**. Mesmo sobrenome, outra pessoa (**F20**).  
+> SoT de agora: [ficha](../media%20-%20emilia_echo_rivera.md) (mini) · [NOW](../../logs/context_pack_atual.md) se ela entrar em cena.
+
+| Camada | O quê | Usar para |
+| ------ | ----- | --------- |
+| **A. Backstory** | Heywood, canal, padrão, van, Chamber | Motivo, culpa, por que Echo e não Emilia |
+| **B. Pré-campanha** | Job 001 como material; Kaz recruta | Encaixe Void List × voz |
+| **C. Campanha** | Off-screen NC; default N1 | Apontar heat / echo_exposicao; **não** expandir no Pack |
 
 ---
 
@@ -120,4 +128,5 @@ Sem abuso extra, família morta, tortura, infância miserável. O interessante n
 - [Ficha](../media%20-%20emilia_echo_rivera.md)
 - [Job 001 Vossler](../../logs/job_001_extracao_vossler.md)
 - [Echo exposição](../../sistema/echo_exposicao.md)
-- [Crew](../../relacionamentos/crew_relacionamentos.md)
+- [Crew](../../relacionamentos/crew_relacionamentos.md) · [Ryan](../../relacionamentos/ryan_relacionamentos.md)
+- [Pulso](../../pulso_do_mundo/crew/echo.md)

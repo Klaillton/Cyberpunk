@@ -15,6 +15,7 @@
 | Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado                   |
 | Dr. Stephania "Stitch" Voss | Confiança             | Respeito                     | Média-Alta  | Estável            | Aliada / MedTech da crew (sem parentesco) |
 | Jax "Razor" Kane         | Respeito              | Respeito                     | Baixa       | Profissional       | Aliado de crew                   |
+| Emilia "Echo" Rivera     | Curiosidade / cautela | Admiração técnica + flerte leve | Baixa-Média | Off-screen (NC)    | Media da crew; Void List; ≠ Steel |
 
 ---
 
@@ -213,6 +214,18 @@
 **Status:** Aliado de crew  
 **Intensidade:** Baixa
 
+### Emilia "Echo" Rivera
+
+**Status:** Media da crew (NC, off-screen)  
+**Intensidade:** Baixa-Média  
+**Última atualização:** 30 de Agosto de 2026
+
+- Recrutada por Kaz (encaixe Void List × voz). Viu o Job 001 como fato que a corp ia apagar.
+- Anti-Echo: Ryan constrói sistemas que funcionam sem aparecer. Flerte é residual, não o *porquê*.
+- **Não** está no Pack. **Não** puxar acidente / Chamber / headline. Default vazamento **N1 Fantasma**.
+- Sobrenome Rivera **≠** Marcus “Steel” Rivera (**F20**).
+- Ficha: [media - emilia_echo_rivera.md](../fichas/media%20-%20emilia_echo_rivera.md) · nota: [emilia_echo_rivera_background.md](../fichas/notas_narrador/emilia_echo_rivera_background.md) · pulso: [echo.md](../pulso_do_mundo/crew/echo.md)
+
 ---
 
 ## RISCOS E CONFLITOS POTENCIAIS
@@ -266,7 +279,7 @@ Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto com
 ## Referências
 
 - [Mapa Relacional Geral](mapa_relacional_geral.md) · [Crew](crew_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md) · [Facções](faccao_relacionamentos.md)
-- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ficha Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md)
+- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ficha Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Ficha Echo](../fichas/media%20-%20emilia_echo_rivera.md)
 - **Individuais:** [Valk](lena_valk_kane_relacionamentos.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Reina](reina_bearclaw_morales_relacionamentos.md)
 - **Notas do Narrador:** [Background Ryan](../fichas/notas_narrador/ryan_background_completo.md) · [Gatilhos Ryan](../fichas/notas_narrador/ryan_gatilhos_memorias.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md) · [Reputação](../reputacao.md)

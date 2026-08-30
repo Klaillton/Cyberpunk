@@ -32,7 +32,7 @@
 | Kaz "The Broker" Takahashi | [fixer - kaz_the_broker_takahashi.md](../fichas/fixer%20-%20kaz_the_broker_takahashi.md) | [ryan_relacionamentos.md](ryan_relacionamentos.md) | [crew_relacionamentos.md](crew_relacionamentos.md), [faccao_relacionamentos.md](faccao_relacionamentos.md) |
 | Dr. Stephania "Stitch" Voss | [medtech - stephania_stitch_voss.md](../fichas/medtech%20-%20stephania_stitch_voss.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | roupa: [crew_guarda_roupas](../fichas/crew_guarda_roupas.md); [ryan_relacionamentos](ryan_relacionamentos.md); **não** confundir com Elisa "Doc" Moreau |
 | Jax "Razor" Kane | [solo - jax_razor_kane.md](../fichas/solo%20-%20jax_razor_kane.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | **Crew NC** — não confundir com Scout |
-| Emilia "Echo" Rivera | [media - emilia_echo_rivera.md](../fichas/media%20-%20emilia_echo_rivera.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | roupa: [crew_guarda_roupas](../fichas/crew_guarda_roupas.md); recrutada por Kaz; ghost reporter |
+| Emilia "Echo" Rivera | [media - emilia_echo_rivera.md](../fichas/media%20-%20emilia_echo_rivera.md) | [crew_relacionamentos.md](crew_relacionamentos.md) · [ryan](ryan_relacionamentos.md) | [background](../fichas/notas_narrador/emilia_echo_rivera_background.md); [exposição](../sistema/echo_exposicao.md); [pulso](../pulso_do_mundo/crew/echo.md); roupa: [crew_guarda_roupas](../fichas/crew_guarda_roupas.md); **F06** · **F20** ≠ Steel |
 
 ---
 
@@ -87,6 +87,7 @@ Motor: [pulso_procedimento.md](../sistema/pulso_procedimento.md) · Índice: [pu
 | Stitch (Stephania) | [stephania_stitch.md](../pulso_do_mundo/crew/stephania_stitch.md) | NC / remoto |
 | Scout | [scout.md](../pulso_do_mundo/pack_badlands/scout.md) | Badlands |
 | Jax "Razor" Kane | [jax.md](../pulso_do_mundo/crew/jax.md) | NC / remoto — crew |
+| Echo | [echo.md](../pulso_do_mundo/crew/echo.md) | NC / futuro — crew; ≠ Steel |
 
 ---
 

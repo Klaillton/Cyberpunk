@@ -38,5 +38,5 @@
 
 - [Mapa Relacional Geral](mapa_relacional_geral.md) · [Ryan](ryan_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md) · [Facções](faccao_relacionamentos.md)
 - **Fichas:** [Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Valk](../fichas/nomad%20-%20lena_valk_kane.md) · [Alex](../fichas/netrunner%20-%20alex_specter_kane.md) · [Reina](../fichas/solo%20-%20reina_bearclaw_morales.md) · [Kaz](../fichas/fixer%20-%20kaz_the_broker_takahashi.md) · [Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Echo](../fichas/media%20-%20emilia_echo_rivera.md) · [Jax](../fichas/solo%20-%20jax_razor_kane.md)
-- **Echo (narrador):** [emilia_echo_rivera_background.md](../fichas/notas_narrador/emilia_echo_rivera_background.md)
+- **Echo (narrador):** [emilia_echo_rivera_background.md](../fichas/notas_narrador/emilia_echo_rivera_background.md) · pulso [echo.md](../pulso_do_mundo/crew/echo.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md) · [Reputação](../reputacao.md)
