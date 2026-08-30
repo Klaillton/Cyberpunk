@@ -1,6 +1,6 @@
 # Jax “Razor” Kane — Background (narrador)
 
-**Status:** Canon (2026-08-30). Mecânica e visual continuam na [ficha](../solo%20-%20jax_razor_kane.md).  
+**Status:** Canon (2026-08-30). Mecânica na [ficha](../solo%20-%20jax_razor_kane.md) (mini + RED).  
 **Uso:** sob demanda / reencontro NC / job conjunto. **Não** carregar no tier-0. **Não** narrar este arquivo no Pack.
 
 > **F14:** Jax ≠ **Scout** (sentinela do Pack).  

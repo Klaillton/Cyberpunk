@@ -47,14 +47,21 @@
 
 Respeito profissional baixo volume — pouca interação direta até agora. Jax julga por resultado. Rumores do lado operador aumentam interesse tático, não emocional. Se nascer placar entre os dois, é campo vs bancada.
 
-## Ganchos / Possíveis Eventos
+## Ganchos / Possíveis Eventos (só após reencontro / canal)
 
 - Kaz propõe job que exige Jax + Ryan na mesma extração.
-- Jax aparece em NC quando Ryan retorna — “ouvi que você faz silêncio. Gosto disso.”
-- Treino conjunto / placar no stand com Reina enquanto Ryan está fora.
-- Contato Militech antigo tenta recrutar de volta — Jax recusa (perda aceitável) e avisa Kaz.
-- Mensagem para Valkirya sobre transporte blindado para o próximo gig.
-- Noite de bar: dardo, sinuca, máquina. Jax anota o placar e paga a rodada se perder.
+- Jax em NC quando Ryan retorna — “ouvi que você faz silêncio. Gosto disso.”
+- Treino / placar no stand com Reina enquanto Ryan está fora (F10 se Ryan souber).
+- Contato Militech antigo tenta recrutar — Jax recusa (perda aceitável) e avisa Kaz.
+- Mensagem para Valkirya sobre transporte blindado.
+- Noite de bar: dardo, sinuca. Anota o placar; paga a rodada se perder.
+
+## Ganchos in-scene (Ryan presente)
+
+_(Só se ele estiver **na mesma cena** — hoje não está.)_
+
+- Uma frase de placar ou extração; não despeja currículo Militech.
+- Handle **Valkirya** (F21). ≠ Scout (F14).
 
 ## Ligações
 

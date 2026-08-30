@@ -71,6 +71,7 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 - Não usar data de chat Grok (ex. 24/06) se o **board** diz julho/2026.
 - Não criar NPC/facção/local já listado em `registro_arquivos` / mapa.
 - Não colocar **Jax “Razor” Kane** (crew) nas Badlands em scav/incursão — usar **Scout** ([scout.md](../fichas/npc/scout.md)).
+- Não tratar Jax como vendetta anti-Militech nem como tema de cyberpsychosis. Off-screen até NC / job conjunto.
 - Não narrar **Sparrow** / **Steel** como software, modo Agent ou tipo de sinal — são **NPCs** (**F20**).
 - Não despejar backstory da **Echo** (acidente, Correção Editorial, Chamber, flerte) numa cena do Pack. Off-screen até reencontro NC. ≠ Steel Rivera.
 - Não fazer Valkirya chamar Ryan de **“herói”** / **“herói solitário”** (bordão ou “combinado?”) — promessa 14/07; gatilho que dói (**F15**). Usar *não vai sozinho*, *planeja comigo*, *leva o time*.

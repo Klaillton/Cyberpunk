@@ -42,7 +42,7 @@ Ryan **não** usa Moto por default.
 
 | Campo | Valor |
 | ----- | ----- |
-| Jax | [solo - jax_razor_kane.md](../../fichas/solo%20-%20jax_razor_kane.md) — Combat Awareness ~6–7 |
+| Jax | [solo - jax_razor_kane.md](../../fichas/solo%20-%20jax_razor_kane.md) — Combat Awareness **6** (rifle / extração armada) |
 | Reina | [solo - reina_bearclaw_morales.md](../../fichas/solo%20-%20reina_bearclaw_morales.md) — Combat Awareness **6** (CQC / proteção) |
 
 **Em mesa (resumo core):** pontos de Combat Awareness por cena para init, detecção de emboscada, bônus de combate — gastar conforme rank; não spam infinito.

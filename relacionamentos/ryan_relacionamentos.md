@@ -14,7 +14,7 @@
 | Reina "Bearclaw" Morales | Neutro / Cautela      | Proteção (Mãe Urso)          | Média       | Em desenvolvimento | Aliada / Irmã mais velha         |
 | Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado                   |
 | Dr. Stephania "Stitch" Voss | Confiança             | Respeito                     | Média-Alta  | Estável            | Aliada / MedTech da crew (sem parentesco) |
-| Jax "Razor" Kane         | Respeito              | Respeito                     | Baixa       | Profissional       | Aliado de crew                   |
+| Jax "Razor" Kane         | Respeito              | Respeito                     | Baixa       | Off-screen (NC)    | Solo da crew; ≠ Scout (F14) |
 | Emilia "Echo" Rivera     | Curiosidade / cautela | Admiração técnica + flerte leve | Baixa-Média | Off-screen (NC)    | Media da crew; Void List; ≠ Steel |
 
 ---
@@ -211,8 +211,15 @@
 
 ### Jax "Razor" Kane
 
-**Status:** Aliado de crew  
-**Intensidade:** Baixa
+**Status:** Solo da crew (NC, off-screen)  
+**Intensidade:** Baixa  
+**Última atualização:** 30 de Agosto de 2026
+
+- Ex-Militech, freelancer. Kaz trouxe. Critério: pagam, escolhem alvo, voltam pelos seus.
+- Respeito profissional baixo volume. Placar latente: campo vs bancada. Sem rivalidade emocional.
+- **Não** está no Pack. **Não** é Scout (**F14**). Kane ≠ família.
+- Combate ≠ guerra; placar ≠ agressão; Militech = carreira, não vendetta.
+- Ficha: [solo - jax_razor_kane.md](../fichas/solo%20-%20jax_razor_kane.md) · nota: [jax_razor_kane_background.md](../fichas/notas_narrador/jax_razor_kane_background.md) · pulso: [jax.md](../pulso_do_mundo/crew/jax.md)
 
 ### Emilia "Echo" Rivera
 
@@ -279,7 +286,7 @@ Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto com
 ## Referências
 
 - [Mapa Relacional Geral](mapa_relacional_geral.md) · [Crew](crew_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md) · [Facções](faccao_relacionamentos.md)
-- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ficha Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Ficha Echo](../fichas/media%20-%20emilia_echo_rivera.md)
+- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ficha Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Ficha Echo](../fichas/media%20-%20emilia_echo_rivera.md) · [Ficha Jax](../fichas/solo%20-%20jax_razor_kane.md)
 - **Individuais:** [Valk](lena_valk_kane_relacionamentos.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Reina](reina_bearclaw_morales_relacionamentos.md)
 - **Notas do Narrador:** [Background Ryan](../fichas/notas_narrador/ryan_background_completo.md) · [Gatilhos Ryan](../fichas/notas_narrador/ryan_gatilhos_memorias.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md) · [Reputação](../reputacao.md)
