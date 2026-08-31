@@ -51,9 +51,17 @@ Narrador: o primeiro lugar em que ela erra o *porquê* é esse padrão.
 
 ## Culpa do colega
 
-Escolha racional: não havia janela de tirá-lo da externa. Dois cadáveres vs. um chip no bolso da limpeza.
+### A van (cena — não resumir)
 
-Culpa irracional: ela sabe que não podia ter feito nada. Uma parte dela continua na pergunta errada — “por que eu saí e ele não?”
+A externa era kit, van branca, um poste, um ângulo que o canal jurava “humano”. Relatório já escrito em algum lugar: a menina não soube operar o equipamento. Headline pronta. Ela ainda era pequena demais para justificar caçada cara *se o acidente colasse*.
+
+O colega marcado estava no banco de trás. Mesmo moletom. Mesma dor de cabeça de quem não dormiu. Ela tinha avisado três semanas antes. Ele tinha rido. *Paranoia de quem come o próprio time.*
+
+Não houve janela. Não houve herói. Houve o som do kit falhando no horário certo e o cheiro de plástico quente. Ela viu o movimento no espelho — gente que não era equipe de rua — e fez a conta: dois cadáveres e o chip no bolso da limpeza, ou um.
+
+Ela saiu com o chip. A porta da van bateu. O asfalto estava molhado. Ela não olhou para trás porque olhar não mudava a matemática.
+
+A culpa que ficou é irracional, e ela sabe. Mesmo assim uma parte dela continua na pergunta errada: *por que eu saí e ele não?*
 
 **Não** tratar Echo como “a que abandonou o parceiro”. Tratar como sobrevivente que não consegue desligar a pergunta.
 

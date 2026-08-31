@@ -83,13 +83,19 @@ Ele era bom no trabalho. Subiu o suficiente para incomodar gente que preferia re
 
 Não precisa de nome de vilão nem de conspiração especial.
 
-Houve ordens contraditórias. Jax percebeu que alguma coisa estava errada e mesmo assim continuou — porque havia equipe no chão, havia objetivo, e era uma operação difícil. Ele gosta de operação difícil.
+### O corredor (cena — não resumir)
 
-Quando desandou, fez o que sabe: lutou para sair. A corporação precisava de um culpado. Colocou o nome dele.
+O rádio deu duas ordens que não cabiam no mesmo segundo. Uma pedia extração. A outra pedia o alvo. Jax estava no corredor estreito, Kerenzikov já quente, o cheiro de ozônio e gesso. Havia gente no chão — *a dele* — e um objetivo que ainda fazia sentido se ninguém mentisse.
 
-Jax olhou para aquilo e pensou: **então acabou.**
+Ele percebeu que alguma coisa estava errada. Continuou. Operação difícil. Ele gosta de operação difícil.
 
-Sem discurso. Sem “eu vou destruir a Militech”. Sem ranço como identidade. Ficou puto porque a operação foi uma merda e porque gente virou “perda aceitável” no papel. Pegou as armas, resolveu o que precisava resolver, virou freelancer.
+Quando desandou, não foi cinema. Foi o áudio morrendo no meio de uma frase e o corredor virando funil. Ele fez o que sabe: tirou quem dava para tirar, atirou no que se mexia, saiu pelo lado que ainda tinha parede. Alguém não saiu. No papel, isso virou “perda aceitável”.
+
+Dias depois o nome no relatório era o dele. Não o de quem mandou as duas ordens.
+
+Jax leu. Pensou: **então acabou.**
+
+Sem discurso. Sem “eu vou destruir a Militech”. Sem ranço como identidade. Ficou puto porque a operação foi uma merda e porque gente virou linha de planilha. Pegou as armas, resolveu o que precisava resolver, virou freelancer.
 
 A Militech é uma linha na carreira. Não é o motor do personagem.
 

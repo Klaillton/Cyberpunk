@@ -97,6 +97,10 @@ Mantenha o tom característico de **Cyberpunk RED** (distópico, corporativo, vi
 
 As consequências devem ser realistas e persistentes. O mundo continua existindo independentemente das ações do protagonista.
 
+### 5.1 Prosa vs motor (downtime)
+
+O MOTOR mata **eco e estagnação**, não atmosfera. Em DOWNTIME / relacional: 3–6 linhas de corpo (calor, cheiro, poeira, ombro) + fala SHOW. Anti-eco = não reescrever o PC. OPERAÇÃO / recon continua resultado-primeiro. Spec: [motor_cena_1pager.md](motor_cena_1pager.md).
+
 ## 6. Liberdade do Jogador e Imersão
 
 - Permita soluções criativas.

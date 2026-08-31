@@ -17,7 +17,7 @@ Mulher de 29 anos, visual cyberpunk chamativo. Cabelos longos ondulados com mech
 | **Build** | Corpo **mais feminino / “idol”** — fofa no primeiro contato, musculatura **normal** (sem bulk) |
 | **Nota** | **Contraste da crew** alta e forte: pequena no pack, **grande na transmissão**. Não é frágil de skill — é a face e a narrativa pública. |
 
-**Narração visual:** jobs/gravações = neon da imagem. Downtime = versão mais contida. Quase sempre câmera, micro-drone ou Agent. Roupas: [crew_guarda_roupas.md](crew_guarda_roupas.md) · cards/estado em `notas_narrador/` (dona habitual media/tech; empréstimo ok).
+**Presença (prosa, antes da tabela):** Echo entra pequena. A sala só percebe quando ela fala — rápido, com as mãos, um olho no frame mesmo sem câmera no peito. Neon quando está trabalhando; versão mais contida no downtime. Quase sempre Agent, micro-drone ou a ideia de um corte. Na foto de grupo a crew “some ela”; na live, só ela aparece. Roupas: [crew_guarda_roupas.md](crew_guarda_roupas.md) · cards/estado em `notas_narrador/` (dona habitual media/tech; empréstimo ok).
 
 ---
 

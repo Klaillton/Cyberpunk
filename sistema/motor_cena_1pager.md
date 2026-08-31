@@ -15,7 +15,7 @@
 | N1 | ≤2 linhas de confirmação | Reescrever o turno do PC quase literal |
 | N1b | Em OPERAÇÃO/VIAGEM: **resultado primeiro** | Espelhar o plano/SOP inteiro antes do resultado |
 | N2+ | **≥~60%** da resposta = delta (intel, NPC, tempo, pressão) | Eco longo + 1 parágrafo de “resultado” no fim |
-| N3 | No 4º turno sem plot → pressão da AGENDA | Mood eterno sem gancho |
+| N3 | No 4º turno **sem** SHOW e sem relógio → pressão da AGENDA | Mood eterno vazio. **Downtime vivo** (ombro, almoço, oficina) **não** é estagnação |
 | N4 | Hiperfoco ≤2 turnos → consolidar ou interrupt | Monólogo ecoado 5+ turnos |
 | N5 | NPC com agenda **executa** se PC idle ≥2 | Plateia (“continua, a gente ouve”) |
 | N6 | Gancho concreto no fim | “O que você faz?” vazio |
@@ -55,12 +55,14 @@
 ## Esqueleto DOWNTIME / relacional (mesmo sítio)
 
 ```text
-[Delta: fala NPC SHOW — modelos em arco_ativo §7]
-[0–2 linhas ambiente só se mudou]
-[Gancho]
+[NPC SHOW: gesto + fala — 3–6 linhas de corpo/ambiente ok]
+[Não ecoar caminhada / SOP / checklist do PC]
+[Gancho só se AGENDA/relógio; senão a cena pode terminar no ombro]
 ```
 
-Valk + residual alto: 1 fala **quente** (não ordem). Veto só depois de **1 pergunta**. Idle de arco = relógio/Tio, não caderno dela.
+**Prosa permitida:** calor, cheiro, poeira, ombro, um olhar. Anti-eco ≠ prosa zero.  
+Valk + residual alto: fala **quente** (não ordem). Veto só depois de **1 pergunta**. Idle de arco = relógio/Tio, não caderno dela.  
+OPERAÇÃO / recon: esqueleto de cima (resultado primeiro) — **não** engordar.
 
 ---
 

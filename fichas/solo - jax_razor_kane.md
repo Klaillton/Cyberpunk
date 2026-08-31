@@ -18,6 +18,8 @@
 | **Build** | **Treino militar intenso** — músculos funcionais + bodybuilder; força óbvia parado |
 | **Nota** | Torre da crew ao lado da Reina (ela leva ~2 cm). Quase olho no olho com ela; cobre Ryan no grupo. |
 
+**Presença (prosa, antes da tabela):** Jax enche a porta sem se anunciar. Mede o cômodo como linha de tiro e não parece estar medindo. Charuto, Kiroshi vermelho, o braço pesado parado ao longo do corpo até precisar. Não performa altura. Senta onde vê a saída. Se compete, é uma frase e um placar — não um discurso.
+
 ---
 
 ## Background (mini)
