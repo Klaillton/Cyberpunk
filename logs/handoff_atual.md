@@ -1,17 +1,21 @@
 # Handoff atual — Continuidade para novo chat
-**Gerado no corte:** sessão **024 em andamento** (ctrl ~70/90 · almoço)  
-**Próximo resumo (quando finalizar):** **024** → `logs/sessao_resumo_024.md`  
-**Data in-game ao cortar:** ~02 de Agosto de 2026 · almoço · Condor no ar  
+**Última sessão com resumo:** **023**  
+**024:** **em andamento — ainda sem `sessao_resumo_024.md`**  
 **Branch canônica:** `feature/linha-estavel`  
 **Última atualização deste handoff:** 31 de Agosto de 2026
 
-> **Primeiro arquivo a ler:** `logs/context_pack_atual.md`  
-> **Arco L1 + off-screen:** `board/arco_ativo.md`  
-> **Voz Valkirya:** `board/arco_ativo.md` §7 + `sistema/diretrizes_narrador.md` §3.3  
+> **Canon:** repo/RAW > handoff > memória de chat  
 > **Prosa downtime:** `sistema/motor_cena_1pager.md` + diretrizes §5.1  
-> **Canon:** repo/RAW > handoff > memória de chat
+> **Voz Valkirya:** `board/arco_ativo.md` §7
 
-**Cortar este chat.** Ctrl 70. Almoço é quebra limpa. O motor novo **não pega** num thread que já aprendeu o esqueleto magro. Não dar `[Refresh]` aqui — abrir chat **novo**.
+**Não pular o Finalizar.** O recorte do ctrl 70 (Condor no ar, almoço) é **um beat**, não o log da 024. Share de chat não existe neste projeto — só link de projeto. Sem export / sem `[Finalizar]` no Grok, o SoT da 024 fica furado.
+
+**Como fechar a 024 (escolha uma):**
+1. No chat atual: `[Finalizar sessão e gerar resumo]` — ele tem o log inteiro. Depois cola o rascunho aqui.  
+2. Exporta o chat 024 em `.md` (como o `cyberpunk_chat.md` da 023) e manda o arquivo.  
+3. Só então: commit do resumo + chat novo com prosa.
+
+Último beat **visto daqui** (não auditado vs o resto da 024): oficina; Valk+Sasha+Lira no gancho; Condor no ar sem pacote; almoço no ar; teto do intermediário à tarde.
 
 ---
 
@@ -55,7 +59,7 @@ Boot OK · ~02/08/2026 almoço · Pack · Condor no ar · Valk = residual quente
 | Ryan × Valk | Residual íntimo alto; ela ficou com as duas (*“Eu fico. Ele está na oficina.”*) |
 | Oficina (último beat) | Tio no ferro; Vespas limpas (Barbed no limite, Hornet com pedra — alinhado); Warden ok; HMG cinta no Mule; DMR limpa; estojo no trilho do hatch |
 | Base militar | **Não entra agora**; gatilho = mensagem → manhã seguinte |
-| 024 | **Não finalizada** — este corte continua a mesma sessão |
+| 024 | **Não finalizada** — snapshot = último beat visto daqui; **falta log** |
 | Ruleset | **v1.3.0** |
 
 ### Cena de abertura
@@ -74,7 +78,9 @@ Oficina vista. Almoço no ar. Condor voando. Valk no gancho. Ryan pode ir comer 
 
 ---
 
-## Prompt de abertura (copiar no novo chat)
+## Prompt de abertura (só depois do Finalizar)
+
+Não colar isto até existir `sessao_resumo_024.md` (ou o rascunho do Grok conferido). Sem isso o chat novo herda um furo entre 023 e o ctrl 70.
 
 ```markdown
 # Cyberpunk RED — Continuidade (Sessão 024, continua)

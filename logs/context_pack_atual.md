@@ -1,7 +1,7 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **023** · **024 em andamento** (corte ctrl ~70, almoço)  
+**Gerado após:** sessão **023** · **024 em andamento (sem resumo — falta Finalizar)**  
 **Branch:** `feature/linha-estavel`  
 **Atualizado:** ~02 de Agosto de 2026 (almoço no ar; Condor no voo) — Pack Badlands
 
@@ -117,7 +117,7 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 **023:** jantar 31/07 fechou plano; tom soou cobrança; reconciliação 01/08; oficina (olhal + cubos). Detalhe: [sessao_resumo_023.md](sessao_resumo_023.md)
 
-**024 (em andamento, não finalizada):** downtime Pack. Corte no almoço ~02/08. Ryan na oficina (Tio; Vespas/Warden/armas vistos). Valk com Sasha/Lira no gancho do Condor. Pássaro **no ar**, sem pacote. Almoço no ar. Teto do intermediário à tarde. Chat da 024 em **ctrl 70/90** — **não continuar**; prosa do motor magrou demais.
+**024 (em andamento, sem resumo):** último beat **visto daqui** (ctrl ~70, um recorte — não o log): Ryan oficina; Valk+Sasha+Lira no gancho; Condor **no ar**, sem pacote; almoço no ar; teto intermediário à tarde. **Falta Finalizar** (`sessao_resumo_024.md`). Não tratar este NOW como sessão fechada.
 
 ---
 
