@@ -1,6 +1,6 @@
 # Downtime Ryan — Log
 
-**Última atualização:** 01/08/2026 (sessão 023)
+**Última atualização:** 02/08/2026 (sessão 024)
 
 ---
 
@@ -71,3 +71,15 @@
 - Três cubos do trailer da cerca: buchas novas + folga regulada.
 
 **Estado ao fechar 023:** Peças Pack operacionais. Sem gasto de eddies. Intermediário ainda pendente.
+
+---
+
+## 02/08/2026 — Manutenção pós-intercepto (sessão 024)
+
+**Trabalho realizado:**
+- Vespas: poeira; lâmina do Barbed no limite alinhada; pedra na carcaça do Hornet removida.
+- Warden: pinças e cauda ok; sem ablação nova.
+- HMG do Mule: cinta recomposta; DMR limpa.
+- Ideia (não construída): torre remota da HMG + compensador de balanço.
+
+**Estado ao fechar 024:** Gear de campo servido. Sem gasto de eddies. Condor ainda no ar.
