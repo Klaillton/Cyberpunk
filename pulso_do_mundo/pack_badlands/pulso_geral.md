@@ -1,8 +1,8 @@
 # Pulso do Pack - Eventos Off-Screen (Geral)
 
 **Pack:** Pack Nômade de Badlands (acampamento atual)  
-**Última atualização:** 30 de Julho de 2026 (sessão 021)  
-**Contexto atual:** Ryan+Valk no Pack (~30/07 noite). 1º pacote ad coletado; intermediário 48–72h. Módulo operacional (refrigeração pendente). E020 cobra = ideia.
+**Última atualização:** 02 de Agosto de 2026 (sessão 024)  
+**Contexto atual:** Ryan+Valk no Pack (~02/08). Condor no ar; intermediário teto ~17h. Cutter = rastreio amanhã. E020 cobra = ideia.
 
 **Gap B1:** 29→30/07 sem d100 formal; estado derivado do resumo 021 (Pack estável). Retomar rolagem no próximo amanhecer (31/07).
 
@@ -41,13 +41,15 @@ _(Remover quando resolvido. Cada um concede +1 rolagem extra em linhas de impact
 | **Ameaças** | Movimento suspeito Biotechnica | 5 | 8 | 1 | [reyes](reyes.md) | Cooldown 14 dias |
 | **Eventos Especiais** | Alguém se machuca | 3 | 40 | 1 | [recrutas](recrutas.md) / [criancas](criancas.md) | |
 | **Eventos Especiais** | Pequena celebração / união do pack | 2 | 60 | 1 | [pulso_geral](pulso_geral.md) | |
-| **Combate / Incursões** | Ryan chamado para incursão ou proteção | 4 | 18 | 1 | [reyes](reyes.md) | Cooldown 7 dias; vê Ryan como combatente |
+| **Combate / Incurções** | Ryan chamado para incurção ou proteção | 4 | 18 | 1 | [reyes](reyes.md) | Cooldown 7 dias; vê Ryan como combatente |
 
 **Legenda impacto:** 1 Micro · 2 Baixo · 3 Médio · 4 Alto · 5 Crítico
 
 ---
 
 ## 2. Eventos Off-Screen Recentes
+
+- **01→02/08/2026 (sessão 024):** ciclo d100 em `logs/pulso_20260802.md`. Hits: rumor Raffen; caça saiu; Tio na forja; Sasha/Lira no Condor; chamado de incurção diferido. **Cooldown 14 dias** na linha Raffen (hit 02/08).
 
 _(Registrar com data in-game. Arquivar após 5 entradas — ver procedimento.)_
 
@@ -68,7 +70,7 @@ Eventos que podem puxar Ryan de volta para a cena:
 - Alguém quebrou peça importante — precisa de Ryan na oficina.
 - Tio Gringo quer mostrar melhoria feita sozinho ou pergunta de novo sobre planos de Ryan.
 - Sasha ou Lira querem falar com Ryan sobre Valk (ou convite social).
-- Sugestão de incursão (reconhecimento, proteção de carga).
+- Sugestão de incurção (reconhecimento, proteção de carga).
 - Crianças querem mostrar algo que aprenderam.
 - Valk vai até a oficina porque Ryan está isolado demais.
 - Reyes quer conversa sobre recrutas, expansão ou defesa.
@@ -89,6 +91,6 @@ Eventos que podem puxar Ryan de volta para a cena:
 ## 5. Notas
 
 - O Pack vê Ryan como **polivalente** (mecânico + combatente) — aumenta chamados para missões com risco.
-- Cerca + incursões Raffen geraram respeito e receio; comentários sobre o “operador” continuam.
+- Cerca + incurções Raffen geraram respeito e receio; comentários sobre o “operador” continuam.
 - **Fofoca e atração** (Ryan/Valk) são **micro-eventos**: podem ocorrer mais de uma vez por dia se o dia for socialmente agitado (catalisador).
 - **Scavenge / ameaça externa** são **raros**: limiar baixo + cooldown longo — não confundir com rotina diária.

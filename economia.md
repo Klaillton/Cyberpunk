@@ -1,6 +1,6 @@
 # Economia Persistente
 
-**Última atualização:** 2026-08-20 (pós-021 · débito ad 300 eb)
+**Última atualização:** 2026-08-02 in-game / 2026-08-31 real (pós-024 · sem delta cash)
 
 > **Dinheiro / macro** = seções abaixo.  
 > **Micro-recursos** = [Atores · Estoque · Ryan mínimo](#atores-produtores--consumidores).  
@@ -39,7 +39,7 @@ Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × dis
 | Materiais         | Depósito reforçado               | Scavs 05/07 + 10/07; **chrome/componentes torre** 16–17/07 |
 | **Casas modulares** | Protótipo externo OK; interno modelagem | E014: produção aprovada; revelação pública adiada (E012) |
 | **Drones miméticos** | Condor + Corujas operacionais | Valor operacional (alerta 15–40 min); demo 20/07 |
-| **Módulo de sinal Condor** | Operacional (021) | 1º pacote coletado; refrigeração pendente para 2º voo |
+| **Módulo de sinal Condor** | Operacional (021) | 1º pacote coletado; refrigerado; **no ar** 02/08 |
 
 ## Observações Econômicas Gerais
 
@@ -88,7 +88,7 @@ Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × dis
 | P004 | Material estrutural scav (chapas/containers) | Badlands · Pack · depósito | A-OFC / A-PCK | bastante | 010–011 | Casas / cerca |
 | P005 | Látex/polímero (teste enxame) | Badlands · destilaria (pedido) | A-ELI | nenhum ainda | 014 | Sob demanda |
 | P006 | Resina/seiva (teste enxame) | Badlands · estufa (pedido) | A-MAR | nenhum ainda | 014 | Sob demanda |
-| P007 | Módulo de sinal Condor | Badlands · oficina / Condor | A-RYA | 1 (protótipo) | 020–021 | Operacional; refrigeração pendente |
+| P007 | Módulo de sinal Condor | Badlands · oficina / Condor | A-RYA | 1 (protótipo) | 020–022 | Operacional e refrigerado; **no ar** 02/08 |
 
 ### Histórico / esgotado
 
