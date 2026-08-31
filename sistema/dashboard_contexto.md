@@ -3,7 +3,7 @@
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
 **Não é o tier-0** — use primeiro `logs/context_pack_atual.md`.  
-**Última atualização:** ~02 de Agosto de 2026 (024 em andamento · corte almoço)
+**Última atualização:** ~02 de Agosto de 2026 (pós-024)
 
 ---
 
@@ -13,8 +13,9 @@
 
 **Resumo:**
 
-- **Pack Badlands** — almoço. Ryan oficina; Valk+Sasha+Lira no gancho. Condor **no ar**, sem pacote.
-- Intermediário: teto **à tarde**. Base gatilhada. 024 **não** finalizada.
+- **Pack Badlands** — almoço no ar. Ryan oficina (gear servido); Valk+Sasha+Lira no gancho. Condor **no ar**, sem pacote.
+- Intermediário: teto **~02/08 17h**. Base gatilhada.
+- Célula **Cutter**: patrulha destruída; camp leste; rastreio **amanhã**.
 - **Lina “Sparrow” Park:** residual sem ACK. **Marcus “Steel” Rivera** mudo. Kaz off-screen.
 
 ---
@@ -31,16 +32,15 @@
 
 ## 3. Nível de Heat
 
-**Heat Global:** Média. Sem delta 023.
+**Heat Global:** Média. Residual Raffen **sobe um grau** (Cutter 024).
 
 ---
 
 ## 4. Eventos Pendentes
 
-- **E015** — intermediário teto **à tarde 02/08**
-- Condor **no ar** · base gatilhada · **E020** cobra (ideia)
+- **E015** — intermediário teto **~02/08 17h**
+- Condor **no ar** · Cutter amanhã · base gatilhada · **E020** cobra (ideia)
 - **E011** Doc · **E019** olaria · **E012** casas · E007 Node · E008 Raffen
-- **E016** Sasha/Lira residual 019/023
 
 ---
 
@@ -48,7 +48,7 @@
 
 - **Local:** Pack · oficina (Ryan) / gancho Condor (Valk)
 - **Data:** ~02/08/2026 almoço
-- **Prioridade:** almoço · Condor pousar · teto intermediário
+- **Prioridade:** Condor pousar · teto intermediário · Cutter amanhã
 
 ---
 
@@ -57,8 +57,8 @@
 - F03 Warden terrestre · F15 Valk não “herói” · F18 Ruleset 1.3.0 · F20 Sparrow/Steel = NPCs
 - Motor: sem eco · OPERAÇÃO resultado-primeiro · **DOWNTIME prosa 3–6 linhas**
 - Trava 023: não reabrir Condor/base como briga
-- Valk: residual alto = curta **e** quente; 1 pergunta antes de vetar; sem caderno no boot
+- Valk: residual alto = curta **e** quente; 1 pergunta antes de vetar
 
 ---
 
-**Referências:** [Context pack](../logs/context_pack_atual.md) · [Board](../board/board_campanha.md) · [Sessão 023](../logs/sessao_resumo_023.md) · [Arco](../board/arco_ativo.md)
+**Referências:** [Context pack](../logs/context_pack_atual.md) · [Board](../board/board_campanha.md) · [Sessão 024](../logs/sessao_resumo_024.md) · [Arco](../board/arco_ativo.md)
