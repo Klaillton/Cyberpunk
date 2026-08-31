@@ -1,7 +1,7 @@
 # Relacionamentos entre Facções
 
 **Campanha:** Cyberpunk RED  
-**Última atualização:** 29 de Julho de 2026 (pós-020)
+**Última atualização:** 02 de Agosto de 2026 (pós-024 · Cutter)
 
 ---
 
@@ -12,14 +12,16 @@
 - **Status com a Crew:** Aliado consolidado
 - **Motivo:** Ryan hospedado no Pack; arquiteto/mentor (Node, casas, scav, ensino, **drones miméticos**).
 - **Risco atual:** Baixo
-- **Impacto na Crew:** Reputação Pack **+75**. Condor/Corujas operacionais; módulo de sinal (020) para coleta do ad. Cerca OK; E014 implícita (revelação pública adiada). Viagem 24–27/07 **feita e voltaram**; pack geral sem discurso.
+- **Impacto na Crew:** Reputação Pack **+78**. Condor/Corujas operacionais; módulo de sinal para coleta do ad. Cerca OK; E014 implícita (revelação pública adiada). Viagem 24–27/07 **feita e voltaram**; pack geral sem discurso. Caça protegida 02/08.
 
 ### Raffen Shiv (remanescentes)
 
+- **024:** Patrulha de 2 cascos destruída no encalço da caça do Pack. Intel de cativos: líder de campo **Cutter**; camp em corte de rio seco a leste (~2h de máquina); 10–12 restantes. Camp **não** visitado.
+
 - **Status com a Crew:** Hostil (latente)
-- **Motivo:** Célula da torre eliminada (04/07); incursões anteriores (001, 002).
+- **Motivo:** Célula da torre eliminada (04/07); incurções anteriores (001, 002).
 - **Risco atual:** Médio (vigilância residual — E008)
-- **Impacto na Crew:** Scavs 05/07 e 10/07 limpas; incursão torre 16–17/07 sem contato novo; E008 ativo.
+- **Impacto na Crew:** Scavs 05/07 e 10/07 limpas; incurção torre 16–17/07 sem contato novo; E008 ativo; patrulha Cutter 02/08 destruída.
 
 ### Biotechnica (BT)
 
@@ -45,7 +47,7 @@
 | Biotechnica | Crew     | Hostilidade latente    | Média       | Investigando | Devido à operação recente      |
 | Arasaka     | Crew     | Neutro                 | Baixa       | Observando   | Ryan evita contato             |
 | Pack Nômade | Crew     | Aliança consolidada    | Alta        | Positiva     | Drones + módulo Condor; casas F11; Ryan/Valk de volta |
-| Raffen Shiv | Pack     | Hostilidade residual   | Média       | Vigilância   | Torre eliminada; outros grupos possíveis |
+| Raffen Shiv | Pack     | Hostilidade residual   | Média-Alta  | Vigilância   | Torre 04/07; patrulha Cutter 02/08; camp leste intacto |
 
 ---
 
@@ -53,7 +55,7 @@
 
 - A operação contra a **Biotechnica** foi limpa, mas não é impossível que eles descubram quem foi responsável no futuro.
 - Ryan carrega ranço pessoal contra a **Arasaka**, o que pode influenciar decisões caso a corporação apareça na campanha.
-- O **Pack Nômade de Badlands** é base atual. Ryan+Valk **saíram e voltaram** (24–27/07); legado (perímetro, ensino, drones, módulo) permanece mesmo se saírem de novo.
+- O **Pack Nômade de Badlands** é base atual. Ryan+Valk **saíram e voltaram** (24–27/07); legado permanece mesmo se saírem de novo.
 - Kaz pode trazer jobs que envolvam corporações no futuro.
 
 ---

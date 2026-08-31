@@ -1,7 +1,7 @@
 # Sistema de Heat (Perseguição / Exposição)
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 29 de Julho de 2026 (pós-020; Echo / Void List intacto)
+**Última atualização:** 02 de Agosto de 2026 (pós-024; célula Cutter)
 
 **Exposição Media (Echo):** regras de vazamento, marca e lavagem → **[sistema/echo_exposicao.md](sistema/echo_exposicao.md)**  
 (Heat Global = marca / Void List · Heat individual = rostos, handles, detalhes que matam.)
@@ -37,18 +37,19 @@
 
 - **Vazamento Echo** conforme nível 0–4 em [echo_exposicao.md](sistema/echo_exposicao.md) (N1 = Global leve; N3+ = individual alto)
 - Operação bem-sucedida contra a Biotechnica (+)
-- Incursões Raffen: [Incidente 001](logs/incidente_001_incursao_recursos_raffen.md) + [Incidente 002](logs/incidente_002_incursao_noturna_raffen.md) (~16 hostis noturnos) (+)
+- Incurções Raffen: [Incidente 001](logs/incidente_001_incursao_recursos_raffen.md) + [Incidente 002](logs/incidente_002_incursao_noturna_raffen.md) (~16 hostis noturnos) (+)
 - Operação Torre Raffen (04/07) — possível residual com outros grupos (+)
 - Revelação de múltiplas facetas (especialmente o lado operador frio) (+)
 - Trabalho técnico de alto nível no Pack (pode chamar atenção)
 - Scav 05/07 e **10/07** (containers) limpas (sem aumento de heat)
 - Apresentação do protótipo a Reyes (14/07) — visibilidade **interna** ao pack; sem exposição externa (+0)
 - Caçada aves (E013, 16/07) — baixo perfil (+0)
-- Incursão torre 16–17/07 — queima de corpos (limpeza de rastros); heat residual Raffen **mantido**, sem novo salto documentado
+- Incurção torre 16–17/07 — queima de corpos (limpeza de rastros); heat residual Raffen **mantido**, sem novo salto documentado
 - Demo Condor/Corujas (20/07) — exposição **interna** ao pack (+0 externo)
 - Ad anônimo 27/07 (019) — sem rosto, +0 heat documentado
 - Módulo Condor 28–29/07 (020) — oficina interna, +0 externo
 - Coleta Condor + 1º pacote ad 30/07 (021) — anônimo, +0 externo
+- Intercepto Raffen 02/08 (024) — patrulha Cutter destruída; camp leste intacto (+ residual)
 
 ## Como Reduzir o Heat
 

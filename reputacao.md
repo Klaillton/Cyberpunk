@@ -1,6 +1,6 @@
 # Sistema de Reputação
 
-**Última atualização:** 29 de Julho de 2026 (pós-020; Sasha/Lira pós-viagem)
+**Última atualização:** 02 de Agosto de 2026 (pós-024; caça protegida / Cutter)
 
 **Vazamentos da Echo** (reputação anti-corp / rua vs Heat): [sistema/echo_exposicao.md](sistema/echo_exposicao.md).  
 Marca pública: **Void List**. Preferir **função** (“a solo”, “o tech”) + marca — não rostos/handles. Heat individual ≠ Heat Global ([heat.md](heat.md)).
@@ -9,8 +9,8 @@ Marca pública: **Void List**. Preferir **função** (“a solo”, “o tech”
 
 | Facção / Grupo              | Reputação | Nível          | Notas                                                                            |
 | --------------------------- | --------- | -------------- | -------------------------------------------------------------------------------- |
-| **Pack Nômade de Badlands** | +75       | Muito Positiva | +3 (demo Condor/Corujas 20/07). Arquiteto/mentor + “olhos no céu”; moral alto; autonomia crescente. |
-| **Raffen Shiv (remanescentes)** | -45   | Hostil         | Célula da torre eliminada (04/07); heat residual. Scavs 05/07 e 10/07 sem contato — vigilância ainda recomendada. |
+| **Pack Nômade de Badlands** | +78       | Muito Positiva | +3 (024: caça protegida + debrief Reyes). Demo drones 20/07 já no total anterior. |
+| **Raffen Shiv (remanescentes)** | -50   | Hostil         | Torre 04/07 + patrulha **Cutter** 02/08 destruída; camp leste (~2h) intacto. |
 | **Biotechnica (BT)**        | -35       | Hostil         | A crew realizou uma operação limpa contra eles. Ainda sem retaliação confirmada. |
 | **Arasaka**                 | -70       | Muito Hostil   | Ryan é ex-funcionário traído. Evita qualquer contato.                            |
 | **Kaz "The Broker"**        | +40       | Positiva       | Vê potencial na crew e está trazendo mais jobs. Sem contato direto desde 25/06.  |
@@ -31,7 +31,7 @@ Marca pública: **Void List**. Preferir **função** (“a solo”, “o tech”
 
 | NPC                      | Reputação | Tipo de Relação      | Notas |
 | ------------------------ | --------- | -------------------- | ----- |
-| **Reyes**                | +54       | Líder / Estratégico  | E014: produção casas aprovada (revelação pública adiada); drones reforçam valor de Ryan |
+| **Reyes**                | +56       | Líder / Estratégico  | Debrief 024 aceito; rastreio Cutter amanhã; E014 intacto |
 | **Tio Gringo**           | +65       | Mentor / Forja       | Alta estima; testou Condor; co-apresentou protótipo |
 | **Rusty**                | +42       | Colaborador técnico  | Scav containers 10/07; garagem/veículos |
 | **Scout**                | +32       | Sentinela / recon     | Scavs 05/07 e 10/07 — apelido canônico ([ficha](fichas/npc/scout.md)) |
@@ -55,6 +55,7 @@ Marca pública: **Void List**. Preferir **função** (“a solo”, “o tech”
 | 16–20/07 | Demo Condor/Corujas | Pack +3 (já no +75) |
 | 24–27/07 | Viagem Sasha/Lira (018–019) | Sasha +5; Lira +6; residual viagem |
 | 28–29/07 | Módulo Condor (020) | Sem delta numérico; Tio/oficina estável |
+| 02/08 | Intercepto Cutter + caça intacta (024) | Pack +3; Raffen −5; Reyes +2 |
 
 ---
 
