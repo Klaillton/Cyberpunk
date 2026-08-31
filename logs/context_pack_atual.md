@@ -55,7 +55,7 @@ Ryan saiu da oficina (Vespas/Warden/armas servidos). Valk ficou com Sasha/Lira n
 | - | ---------------- | ---------------- | ---------------------------------------------- |
 | 1 | Condor no ar — pacote ainda não | Sasha/Lira / mundo | Pouso, burst, ou silêncio até o pássaro voltar |
 | 2 | Teto do intermediário **~02/08 17h** | Mundo / fixer | Burst **ou** silêncio com custo depois do teto |
-| 3 | Cutter / corte leste (Reyes: amanhã) | Reyes / Valk | Não raid hoje; se idle, Valk marca mapa ou Reyes cobra rumo |
+| 3 | Cutter / corte leste (Reyes: amanhã) | Reyes | Não raid hoje; se idle, Reyes lembra “amanhã um corte” — **não** Valk CO |
 
 | Campo | Valor |
 | ----- | ----- |
@@ -126,7 +126,7 @@ Detalhe: [sessao_resumo_024.md](sessao_resumo_024.md)
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · ~02/08/2026 almoço · Pack · Condor no ar · Valk = residual quente · Cutter = amanhã · próximo resumo: 025 · Ruleset 1.3.0
+Boot OK · ~02/08/2026 almoço · Pack · Condor no ar · Valk = residual quente · prosa downtime on · Cutter = amanhã · próximo resumo: 025 · Ruleset 1.3.0
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.

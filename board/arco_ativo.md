@@ -4,7 +4,7 @@
 **Não é tier-0 completo** — o narrador lê sob demanda quando a cena estagna ou o arco avança.  
 **Tier-0:** [context_pack_atual.md](../logs/context_pack_atual.md) (1 linha aponta para cá).  
 **Inventário longo prazo:** [event_queue.md](../event_queue.md).  
-**Atualizado:** ~01/08/2026 (pós-023) · sessão vigente **024**
+**Atualizado:** ~02/08/2026 (pós-024) · sessão vigente **025**
 
 ---
 
@@ -78,10 +78,10 @@
 | Campo | Valor |
 | ----- | ----- |
 | **ID** | E015 (+ E005 latente, E011 no pacote NC) |
-| **Fase** | **1º pacote coletado** — intermediário 48–72h **ainda aberto** (piso ~01/08 17h · teto ~02/08 17h); ad continua; residual **Lina Park** sem ACK; **Marcus Rivera** mudo |
-| **Local do PC** | Pack Badlands (~01/08 após almoço) |
-| **Objetivo do arco** | Rede via contatos Sparrow/Steel (NPCs) → Kaz; ad coletando; Condor ~02/08; Valk junto; **sem** ops solo sem extração; acordo 019 = **perguntar**, não cobrar |
-| **Fora de foco (1 linha)** | Pack (Node, casas, olaria) roda sem Ryan · BT latente · Raffen residual · E020 cobra mimética Reyes (tempo livre) |
+| **Fase** | 1º pacote 30/07; intermediário **teto ~02/08 17h**; Condor **no ar** 02/08 (sem pacote); residual **Lina Park** sem ACK; **Marcus Rivera** mudo |
+| **Local do PC** | Pack Badlands (~02/08 almoço · oficina / gancho Condor) |
+| **Objetivo do arco** | Rede Sparrow/Steel → Kaz; ad coletando; Condor 2º voo; Valk junto; **sem** ops solo sem extração; acordo 019 = **perguntar**, não cobrar |
+| **Fora de foco (1 linha)** | Célula **Cutter** (E008) = amanhã, Reyes · Pack Node/casas/olaria · BT latente · E020 cobra Reyes |
 
 ### 3.1 Batidas possíveis (ordem flexível)
 
@@ -99,10 +99,10 @@
 
 Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
-1. **Relógio E015:** burst do intermediário **ou** silêncio útil (piso ~17h; após teto, custo).  
-2. **Tio** aponta peça no almoxarifado / oficina — 1 tarefa concreta.  
-3. **Valk:** 1 batida SHOW (toque + 1 linha quente). **Sem** reabrir Condor/base. **Sem** caderno.  
-4. **Lira** (se em cena): **1 pergunta audível** — sem murmúrio vazio.
+1. **Condor:** pouso / pacote **ou** silêncio até o pássaro voltar.  
+2. **Relógio E015:** teto ~17h — burst **ou** silêncio com custo depois.  
+3. **Valk:** 1 batida SHOW (toque + 1 linha quente). **Sem** caderno. **Sem** cobrá-lo no Cutter hoje.  
+4. **Reyes / Cutter:** só se idle longo — “amanhã cedo, um corte”; **não** raid agora.
 
 ### 3.3 Off-screen agora (E015) — instância da §2.1
 
@@ -118,7 +118,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ### 3.4 O que **não** fazer neste arco (agora)
 
-- Inventar combate Raffen/BT só porque a noite está quieta.  
+- Inventar **segundo** combate Raffen/BT hoje (Cutter = amanhã, Reyes).  
 - Revelar paradeiro exato de Kaz sem canal.  
 - Transformar Lira/Sasha em tutorial eterno no lugar de B2.  
 - Eco de mood / música como substituto de batida de arco.  
@@ -128,13 +128,13 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ## 4. L0 — AGENDA sugerida (espelho; SoT da cena = context pack)
 
-> Se o pack divergir, **vence o pack**. Rascunho alinhado ao Pack pós-023.
+> Se o pack divergir, **vence o pack**. Rascunho alinhado ao Pack pós-024.
 
 | # | Gancho com conteúdo | Quem age se idle | Ação concreta |
 | - | ------------------- | ---------------- | ------------- |
-| 1 | Intermediário do ad (piso ~01/08 17h) | Mundo / fixer | Burst, recado, ou silêncio com custo |
-| 2 | Condor ~02/08 (Sasha/Lira na mochila) | Sasha / Tio | Checagem da mochila — **não** Valk renegociar |
-| 3 | Tarde oca: oficina / almoxarifado / rede | Tio / Valk | Tio aponta peça; Valk oferece sombra **sem** briefing |
+| 1 | Condor no ar, sem pacote | Sasha / Lira / mundo | Pouso ou silêncio até voltar |
+| 2 | Intermediário teto ~02/08 17h | Mundo / fixer | Burst, recado, ou silêncio com custo |
+| 3 | Cutter: um corte **amanhã** (Reyes) | Reyes | Não raid hoje; mapa de manhã |
 
 ---
 
@@ -167,7 +167,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ---
 
-## 7. Batidas-modelo relacionais (estado 023 — SHOW)
+## 7. Batidas-modelo relacionais (estado 024 — SHOW)
 
 > **Uso:** quando o PC abre espaço ou idle relacional. **1 batida por bloco**, não as três de uma vez.  
 > Valk **não** resume o progresso das outras — elas **mostram**.  
@@ -177,9 +177,9 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 | Quem | Onde está na cabeça | O que já aconteceu | Próximo passo orgânico |
 | ---- | ------------------- | ----------------- | ---------------------- |
-| **Valk** | Residual íntimo alto; paz física feita de manhã 01/08; plano ops **fechado** (trava 023) | Jantar 31/07 soou cobrança; reconciliação na tenda (cócega/café) | SHOW quente curto; **não** reabrir jantar nem Condor/base |
-| **Lira** | Residual positivo; aberta a novas saídas | Overwatch; Condor no gancho | **Fala própria** se em cena |
-| **Sasha** | Residual positivo; “não some sem avisar” | Confirmou mochila Condor 01/08 | Residual (ajuda/distância) — não sumir |
+| **Valk** | Residual íntimo alto; fechou o intercepto; no gancho com as duas | 024: “Agora”; distância combinada Sasha/Lira | SHOW quente; **não** reabrir jantar/base; **não** CO do Cutter hoje |
+| **Lira** | Residual positivo; viu fogo de longe | Condor no ar | **Fala própria** se em cena |
+| **Sasha** | Residual positivo; assusta com operador; distância combinada | Viu HMG de longe | Residual (ajuda/distância) — não sumir |
 
 ### 7.1 Voz Valkirya — exemplos (obrigatório no boot)
 

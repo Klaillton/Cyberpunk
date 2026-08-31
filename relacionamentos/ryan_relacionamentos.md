@@ -136,8 +136,8 @@ Tarde 01/08 com Valk sem abrir canal. Intercepto Raffen 02/08 (Valk no volante).
 
 - Ryan e Valk juntos de forma estável e cumplices.
 - Acordo 019 em vigor (perguntar, não caderno).
-- Residual íntimo 020–023 alto; paz física 01/08.
-- Ad: 1º pacote coletado; intermediário ainda aberto (piso ~01/08 17h); –300 eb (021).
+- Residual íntimo 020–024 alto.
+- Ad: 1º pacote coletado; intermediário **teto ~02/08 17h**; Condor no ar; –300 eb (021).
 - Valk **não** usa “herói” / “herói solitário” (**F15**).
 
 **Notas do Narrador:**
