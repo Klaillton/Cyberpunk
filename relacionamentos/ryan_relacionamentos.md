@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 01 de Agosto de 2026 (sessão 023)
+**Última atualização:** 02 de Agosto de 2026 (sessão 024)
 
 ---
 
@@ -25,7 +25,7 @@
 
 **Status:** Namorando (relação consolidada + acordo de comunicação ops 019 + intimidade reforçada 020–023)  
 **Intensidade:** Alta  
-**Última atualização:** 01 de Agosto de 2026 (sessão 023)
+**Última atualização:** 02 de Agosto de 2026 (sessão 024)
 
 **Evolução conhecida:**
 
@@ -126,6 +126,11 @@
 - Jantar fechou Condor/base (trava). Tom soou cobrança; Ryan pediu para parar. Noite quieta.
 - Manhã: conversa direta + reconciliação (cócega, café). Oficina juntos.
 - **Voz (SoT):** residual alto = curta e quente; 019 = **perguntar** uma vez, não cobrar. Não reabrir o jantar.
+
+
+**Atualização (01–02/08 — sessão 024):**
+Tarde 01/08 com Valk sem abrir canal. Intercepto Raffen 02/08 (Valk no volante). Debrief Reyes. Distância combinada de Sasha/Lira (viram fogo de longe). Residual íntimo alto; 019 praticado.
+
 
 **Estado atual:**
 
@@ -250,7 +255,7 @@
 **Status:** Hospedagem + Integração em andamento (preparando saída)  
 **Confiança geral com o Pack:** Alta  
 **Duração prevista:** Indefinida (possível retorno)  
-**Última atualização:** 29 de Julho de 2026 (sessão 020)
+**Última atualização:** 02 de Agosto de 2026 (sessão 024)
 
 **Líder do Pack:** Reyes
 
