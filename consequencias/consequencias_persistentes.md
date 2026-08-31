@@ -1,6 +1,6 @@
 # Consequências Persistentes
 
-**Última atualização:** 29 de Julho de 2026 (sessão 020)
+**Última atualização:** 02 de Agosto de 2026 (sessão 024)
 
 ---
 
@@ -301,6 +301,18 @@ Teste integrado + ajustes do módulo. Voo 30/07 15h–17h limpo. **1º pacote do
 - Sem delta de reputação/heat.
 
 ---
+
+
+## 01 a 02 de Agosto de 2026 - Intercepto Cutter (sessão 024)
+
+Tarde 01/08 com Valk; canal do intermediário fechado. Pulso Pack 01→02. Madrugada 02/08: Condor + Mule interceptam 2 cascos leves no encalço da caça do Pack. Patrulha destruída (HMG, Vespas, jam, DMR, execuções dos dois cativos). Intel: célula Raffen, líder de campo **Cutter**, camp em rio seco a leste (~2h), 10–12 restantes, não sabiam do Mule. Reyes: rastreio amanhã (um corte), sem raid hoje; caça só com rádio e olho no ar. Condor segue no corredor sem pacote. Teto do intermediário ~02/08 17h.
+
+**Impactos:**
+
+- Heat Raffen sobe um grau (camp intacto).
+- Pack: caça protegida; protocolo endurecido.
+- E015 não fecha — intermediário ainda no relógio.
+- Relação Sasha/Lira: viram fogo/HMG de longe; Ryan manteve distância.
 
 **Regras de uso deste arquivo:**
 
