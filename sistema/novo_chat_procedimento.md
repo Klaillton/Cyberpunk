@@ -112,11 +112,11 @@ Só então narra o gancho de abertura (ou aguarda o jogador, se o prompt pedir).
 
 ### 4.3.1 Motor de cena (sempre)
 
-- Seguir **N1–N9** em [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](motor_cena_1pager.md).
+- Seguir **N1–N12** em [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](motor_cena_1pager.md).
 - Rodapé OOC `ctrl N/90` em **toda** resposta (boot = `ctrl 2/90`).
 - Bloco **MOTOR** do context pack é **obrigatório** no tier-0 (Refresh também o reinstala).
 - Usar **AGENDA DA CENA** do context pack (local atual) como fonte de pressão se a cena estagnar.
-- **Temperatura NPC:** NOW/handoff vence o default da ficha (Valkirya não “esfria” no boot se residual íntimo estiver alto). Voz: ops curta/seca; com Ryan + residual = curta **e** quente; acordo 019 = pergunta, não cobrança. Sem caderno de 3 itens no primeiro beat.
+- **Temperatura NPC:** NOW/handoff vence o default da ficha (ninguém “esfria” no boot se residual íntimo estiver alto). **Anti-máquina:** narrar a pessoa, não o patch; relógio só se mudou; sem glosa na prosa.
 - **Não ecoar** o jogador; OPERAÇÃO = **resultado primeiro**; delta ≥60%; **VIAGEM limpa = fechar chegada** (N9); NPCs com agenda **executam**.
 - Se o chat anterior estava em modo eco: este **novo** chat é a correção principal — não reabrir o thread antigo.
 

@@ -61,7 +61,9 @@ Playbook completo: **[npc_agencia_cena.md](npc_agencia_cena.md)**.
 ### 3.3 Temperatura NPC (anti-reset no boot)
 
 Ficha = **baseline**. NOW / handoff = **tom desta cena**.  
-Se o pack diz residual íntimo, aftercare, rede, cafuné: **não** reabrir a personagem na versão fria da ficha. O default estoico volta em público/ops ou quando o NOW esfriar. Vale para Valkirya em especial.
+Se o pack diz residual íntimo, aftercare, rede, cafuné: **não** reabrir a personagem na versão fria da ficha. O default estoico/ops volta em público ou quando o NOW esfriar. Vale para **qualquer** NPC em cena (Valkirya em especial).
+
+**Anti-máquina (todos):** o narrador interpreta a pessoa, não demonstra que leu o SoT. Proibido na prosa: nomear regras (`caderno`, `briefing`, `não é ordem`, “acordo 019”). Relógio da AGENDA só entra se **mudou** neste turno. Bid de carinho/humor do PC não vira plano nem janela (“até as cinco”). Uma fala curta não leva glosa.
 
 **Voz Valkirya (obrigatório — patch 023→024):**
 
@@ -99,7 +101,9 @@ As consequências devem ser realistas e persistentes. O mundo continua existindo
 
 ### 5.1 Prosa vs motor (downtime)
 
-O MOTOR mata **eco e estagnação**, não atmosfera. Em DOWNTIME / relacional: 3–6 linhas de corpo (calor, cheiro, poeira, ombro) + fala SHOW. Anti-eco = não reescrever o PC. OPERAÇÃO / recon continua resultado-primeiro. Spec: [motor_cena_1pager.md](motor_cena_1pager.md).
+O MOTOR mata **eco e estagnação**, não atmosfera. Em DOWNTIME / relacional: 3–6 linhas de corpo (calor, cheiro, poeira, ombro) + fala SHOW. Anti-eco = não reescrever o PC. OPERAÇÃO / recon continua resultado-primeiro.
+
+Não carimbar AGENDA (Condor, teto, canal, Cutter…) em turno íntimo se o estado **não mudou**. Não transformar downtime em SOP (levanta → rádio → puxa → anuncia horário). Spec: [motor_cena_1pager.md](motor_cena_1pager.md) **N12**.
 
 ## 6. Liberdade do Jogador e Imersão
 

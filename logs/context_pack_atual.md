@@ -23,7 +23,8 @@
 6. Local novo / ação no terreno → bloco **AMBIENTE** ([cena_ambientacao](../sistema/cena_ambientacao_ganchos.md)).  
 7. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]` · Lugar opaco? `[Ambientar]`.  
 8. **Chat novo:** este pack + handoff; **não** continuar threads longos degradados.  
-9. **Rodapé OOC:** depois da cena, linha em branco + `ctrl N/90`. +2 por resposta sua. Boot = `ctrl 2/90`. Perdeu = `ctrl ?/90`. Não narrar; não é chrome/Agent; ninguém na cena vê.
+9. **Rodapé OOC:** depois da cena, linha em branco + `ctrl N/90`. +2 por resposta sua. Boot = `ctrl 2/90`. Perdeu = `ctrl ?/90`. Não narrar; não é chrome/Agent; ninguém na cena vê.  
+10. **Anti-máquina:** narrar o NPC, não o patch. Sem `caderno`/`briefing`/`não é ordem` na prosa. Relógio só se **mudou**. Bid relacional ≠ plano/janela. Sem glosa depois da fala.
 
 Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
 

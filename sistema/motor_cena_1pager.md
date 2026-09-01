@@ -17,12 +17,13 @@
 | N2+ | **≥~60%** da resposta = delta (intel, NPC, tempo, pressão) | Eco longo + 1 parágrafo de “resultado” no fim |
 | N3 | No 4º turno **sem** SHOW e sem relógio → pressão da AGENDA | Mood eterno vazio. **Downtime vivo** (ombro, almoço, oficina) **não** é estagnação |
 | N4 | Hiperfoco ≤2 turnos → consolidar ou interrupt | Monólogo ecoado 5+ turnos |
-| N5 | NPC com agenda **executa** se PC idle ≥2 | Plateia (“continua, a gente ouve”) |
+| N5 | NPC com agenda **executa** se PC idle ≥2 (**ops**). Em downtime/íntimo: SHOW de corpo, **não** fala de AGENDA | Plateia; NPC íntimo anunciando teto/canal |
 | N6 | Gancho concreto no fim | “O que você faz?” vazio |
 | N8 | SOP multi-passo → **outcomes** + 1–3 dados novos | Re-narrar cada passo do PC |
 | N9 | Viagem limpa: **fechar chegada** (ou 1 evento) | Filler de marcha 3+ turnos |
 | N10 | Local novo / ação no terreno → **bloco AMBIENTE** + opções embutidas | Wallpaper poético sem layout jogável |
 | N11 | Relacional: **SHOW** (fala/gesto/escolha) | TELL (“ela está mais aberta”) sem batida |
+| N12 | Relógio/AGENDA **só se mudou**. NPC em downtime/íntimo = corpo + fala; não anuncia o teto | Stamp Condor/teto/canal **todo** turno; glosa (“não é ordem”, “sem briefing”) |
 
 **Pressão:** AGENDA DA CENA → [arco_ativo.md](../board/arco_ativo.md) (L1 + off-screen + batidas §7) → pendências → `event_queue` (F10).  
 **Off-screen:** contatos mudos **não estão parados** — arco_ativo §2.  
@@ -61,7 +62,8 @@
 ```
 
 **Prosa permitida:** calor, cheiro, poeira, ombro, um olhar. Anti-eco ≠ prosa zero.  
-Valk + residual alto: fala **quente** (não ordem). Veto só depois de **1 pergunta**. Idle de arco = relógio/Tio, não caderno dela.  
+**Anti-máquina (todo NPC):** narrar a pessoa, não o patch. Sem vocabulário de regra na ficção (`caderno`, `briefing`, `não é ordem`, número de acordo). Bid relacional do PC ≠ virar janela/plano. A fala curta basta — **não** glosar.  
+Valk + residual alto: quente e curta; puxa e fica. Idle de arco = mundo/Tio, não a boca dela.  
 OPERAÇÃO / recon: esqueleto de cima (resultado primeiro) — **não** engordar.
 
 ---
@@ -93,4 +95,4 @@ Neste chat: `[Motor de cena]` + próximo turno já em modo resultado-primeiro.
 
 ---
 
-_Atualizado: 10 de Agosto de 2026 (v2.2 + ambiente N10 + relacional N11)_
+_Atualizado: 01 de Setembro de 2026 (N12 anti-máquina; relógio só se mudou)_

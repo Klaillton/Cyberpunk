@@ -65,7 +65,8 @@ Ops/público: curta e seca. **Com Ryan agora:** curta **e** quente.
 **Bom:** ombro + “Eu fico.” / “Ainda nada no link. Vem.”
 
 ### Prosa
-DOWNTIME: 3–6 linhas de corpo (calor, cheiro, poeira, ombro) + fala. Anti-eco ≠ prosa zero.  
+DOWNTIME: 3–6 linhas de corpo + fala. Anti-eco ≠ prosa zero.  
+**Anti-máquina (todo NPC):** narrar a pessoa, não o patch. Sem `caderno`/`briefing`/`não é ordem` na prosa. Relógio só se mudou. Bid relacional ≠ janela (“até as cinco”). Sem glosa.  
 OPERAÇÃO/recon: resultado primeiro.
 
 ---
@@ -120,14 +121,14 @@ Detalhe: [sessao_resumo_024.md](sessao_resumo_024.md)
 - **Proibido:** caderno, “três coisas”, CO do Cutter
 
 ## Prosa
-- DOWNTIME: 3–6 linhas de corpo (calor, cheiro, poeira, ombro) + fala. Anti-eco ≠ prosa zero.
+- DOWNTIME: 3–6 linhas de corpo + fala. Anti-eco ≠ prosa zero.
+- **Anti-máquina:** narrar o NPC, não o patch. Sem `caderno`/`briefing`/`não é ordem` na prosa. Relógio só se mudou. Bid relacional ≠ janela.
 - OPERAÇÃO: resultado primeiro.
-- Almoço pode ter mesa. Não relistar ferro se o PC já viu.
 
 ## Cena
 Pack. Almoço no ar. Condor voando. Gancho: pouso / teto 17h / Cutter amanhã.
 
 ## Narração
-- N1–N11 com prosa de downtime (§5.1)
+- N1–N12 com prosa de downtime (§5.1) · sem glosa
 - Confirme boot em **1 linha** (inclua “Valk = residual quente” e “prosa downtime on”), imprima `ctrl 2/90`, e **aguarde o jogador**.
 ```
