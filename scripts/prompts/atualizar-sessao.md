@@ -27,7 +27,7 @@ Os arquivos em `.grok-sync/deltas/` contêm **apenas mensagens novas** desde o �
    - Downtime se Ryan produziu
    - Pulso se 1+ dia (ciclos ou gap B1 documentado — **não inventar d100 retroativos**)
    - Relacionamentos tocados
-   - Sempre: context_pack + handoff se for fechamento de sessão
+   - Sempre: context_pack (**NOW + NORTE + AGENDA**; NORTE só se o horizonte mudou) + handoff se for fechamento de sessão
 4. No resumo, preencher **Arquivos Avaliados / Atualizados** com links relativos.
 5. Atualizar `sistema/registro_arquivos.md` se criou job, incidente, NPC ou novo resumo (ajustar "Próximo número disponível" para {NEXT_SESSION_NUM}).
 6. Marcar no resumo: `**Enviado para GitHub:** Sim` (o script fará o commit).

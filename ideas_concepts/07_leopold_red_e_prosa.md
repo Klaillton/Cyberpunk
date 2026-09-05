@@ -1,6 +1,6 @@
 # 07 — Leopold: o que ainda é soft
 
-**Status:** **Parcial** — handle, símbolo, stats, presença e slogan **já** na ficha / nota.  
+**Status:** **Parcial** — causa, repertório, Uncredited e hipocrisia do sobrenome **já** na ficha / nota.  
 **Não** é tier-0. O narrador **não** carrega isto no boot.
 
 **SoT:** [ficha](../fichas/rockerboy%20-%20leopold_habsbruck.md) · [nota](../fichas/notas_narrador/leopold_habsbruck_background.md) · **F23**
@@ -16,9 +16,13 @@ Notas pontuais novas: [rockerboy_added_story.md](rockerboy_added_story.md) (esva
 - Vídeo agora: abre com o slogan; pode fechar com a pergunta da autorização
 - CI **6** · 62 stats · 100 skills · fashionware HL 0 · ~1,72 m
 - Primeiro encontro Zoners → semanas → volta quieta → Prometheus no quarto
-- **Sem** nome do líder Zoner. **Sem** nome profissional da crew
+- Causa 1+2+3 · tese *a cidade pertence a quem vive nela* · repertório (aparece / ajuda / não para-militar)
+- Doações Habsbrück nas campanhas (logo na entrega; família ≠ vilã)
+- Sobrenome: **usa, esconde, vergonha** (deliberado; ainda no privilégio)
+- **Sem** nome do líder Zoner. Ele acha que Zoners = “aquela gangue” (são células)
+- **Sem** nome profissional da crew
 - **Uncredited** = nome de **saída** (Leo + Echo). ≠ Void List. ≠ Kaz. ≠ Prometheus. **F24**
-- Kit transmissão: caveira (Leo pinta cada job) vs espartana (Prometheus só se o job for a mensagem dele) — [echo_exposicao §7.1](../sistema/echo_exposicao.md)
+- Kit transmissão: caveira vs espartana — [echo_exposicao §7.1](../sistema/echo_exposicao.md)
 - Segundo encontro Zoners / resgate da crew = parked
 
 ---

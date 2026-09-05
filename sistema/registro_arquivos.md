@@ -19,7 +19,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Exposição / perseguição | `heat.md` | `event_queue.md`, `consequencias/consequencias_persistentes.md`, `sistema/echo_exposicao.md` |
 | Vazamento Media (Echo) / Void List | `sistema/echo_exposicao.md` | `heat.md`, `reputacao.md`, ficha Echo · kit caveira/espartana **§7.1** · **Uncredited** = saída **F24**, não job |
 | Eventos pendentes no mundo | `event_queue.md` | `board/board_campanha.md`, `board/arco_ativo.md`, `consequencias/consequencias_persistentes.md` |
-| Arco em foco (L1) + NPCs off-screen | `board/arco_ativo.md` | `logs/context_pack_atual.md` (AGENDA), `event_queue.md` |
+| Arco em foco (L1) + NPCs off-screen | `board/arco_ativo.md` | `logs/context_pack_atual.md` (**NORTE** + AGENDA), `event_queue.md` |
 | Ambientação / ganchos / imagem opcional | `sistema/cena_ambientacao_ganchos.md` | `motor_cena_1pager.md`, `arco_ativo.md` §7 |
 | Soft-canon / refinamentos futuros (não tier-0) | `ideas_concepts/README.md` | polycule, gatilhos, Moreau — **não** boot |
 | Situação financeira | `economia.md` | `board/board_campanha.md`, `logs/downtime_ryan.md` |
@@ -59,7 +59,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Motor de cena (1 página anti-eco) | `sistema/motor_cena_1pager.md` | context pack bloco MOTOR, `comandos_jogador.md` § J |
 | NPCs agem / falam entre si na cena (delegação, anti-loop) | `sistema/npc_agencia_cena.md` | `diretrizes_narrador.md` §3.1/§7.1, `comandos_jogador.md` § H |
 | Como atualizar após sessão | `sistema/como_atualizar_arquivos.md` | Este arquivo |
-| **Tier-0 / anti-esquecimento sandbox** | `logs/context_pack_atual.md` | `fatos_duros.md`, `comandos_jogador.md`, bloco **MOTOR** + **AGENDA** |
+| Horizontes da campanha (curto / médio / longo / fora) | `logs/context_pack_atual.md` bloco **NORTE** | `board/arco_ativo.md` (L1), `event_queue.md` (L2). **Não** copiar no board/dashboard |
+| **Tier-0 / anti-esquecimento sandbox** | `logs/context_pack_atual.md` | `fatos_duros.md`, `comandos_jogador.md`, bloco **MOTOR** + **NORTE** + **AGENDA** |
 | Fatos que não se inventam | `sistema/fatos_duros.md` | context pack, board |
 | Playbooks de comandos do jogador | `sistema/comandos_jogador.md` | instrucoes_projeto, diretrizes_ia |
 | Micro-recursos / estoque / produtores | `economia.md` § Atores · Estoque · Ryan mínimo | `[Estoque]` playbook K; pack_badlands (só link) |

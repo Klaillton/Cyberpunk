@@ -221,9 +221,11 @@ Narrador: mesmo se o PC colar SOP longo → **N1b + N8** (outcomes, não espelho
 **Fonte de pressão (ordem fixa, independente de mapa):**
 
 1. Bloco **AGENDA DA CENA** em `logs/context_pack_atual.md`  
-2. Se vazio/desatualizado → **Prioridade** + **Pendências quentes** do mesmo pack  
+2. Se vazio/desatualizado → **NORTE curto** (+ pendências quentes do mesmo pack)  
 3. `event_queue.md` filtrado pelo que é plausível no **local/região atual** (F10)  
 4. Pulsos / facções da região **somente** se já estiverem no SoT  
+
+**NORTE** no pack = horizontes (curto / médio / longo / fora). AGENDA = quem age se idle. Não tratar NORTE médio/longo como quest desta resposta.  
 
 **Não inventar** NPCs, facções ou plot só para “destravar”.  
 **Não proibir** intimidade ou hiperfoco — só limitar duração **sem delta**.  

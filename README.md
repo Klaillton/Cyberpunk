@@ -31,7 +31,7 @@ Visão geral da estrutura do projeto e de como os arquivos se conectam entre si.
 - [motor_cena_1pager.md](sistema/motor_cena_1pager.md) — 1 página anti-eco (mid-chat / colável)
 - [npc_agencia_cena.md](sistema/npc_agencia_cena.md) — NPCs agem in-scene (delegação, anti-plateia)
 - [como_atualizar_arquivos.md](sistema/como_atualizar_arquivos.md) — Como manter os arquivos atualizados
-- [context_pack_atual.md](logs/context_pack_atual.md) — **Tier-0** (NOW + fatos; anti-esquecimento sandbox)
+- [context_pack_atual.md](logs/context_pack_atual.md) — **Tier-0** (NOW + **NORTE** + AGENDA + fatos)
 - [comandos_jogador.md](sistema/comandos_jogador.md) — Playbooks `[Refresh]`, `[Finalizar]`, handoff, `[Avançar cena]`, etc.
 - [fatos_duros.md](sistema/fatos_duros.md) — Fatos que a IA não pode inventar
 - [regras_red/11_referencia.md](sistema/regras_red/11_referencia.md) — Mecânica RED atalho (Ruleset 1.3.0 · 017+)

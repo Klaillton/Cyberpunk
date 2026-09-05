@@ -38,9 +38,8 @@
 
 ## 4. Eventos Pendentes
 
-- **E015** — intermediário teto **~02/08 17h**
-- Condor **no ar** · Cutter amanhã · base gatilhada · **E020** cobra (ideia)
-- **E011** Doc · **E019** olaria · **E012** casas · E007 Node · E008 Raffen
+- **Norte:** bloco NORTE no [context pack](../logs/context_pack_atual.md) (curto / médio / longo / fora).
+- **L2:** [event_queue.md](../event_queue.md) — não listar E0XX aqui.
 
 ---
 
@@ -48,7 +47,7 @@
 
 - **Local:** Pack · oficina (Ryan) / gancho Condor (Valk)
 - **Data:** ~02/08/2026 almoço
-- **Prioridade:** Condor pousar · teto intermediário · Cutter amanhã
+- **Prioridade:** NORTE curto no pack
 
 ---
 

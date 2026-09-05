@@ -13,7 +13,7 @@
 2. **Delta** = **maior parte** da resposta (~≥60%): intel, NPC, tempo com efeito, pressão AGENDA.  
 3. Em `OPERAÇÃO` / `VIAGEM`: **resultado primeiro** (não espelhar o plano).  
 4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).  
-5. Fonte de pressão: **AGENDA DA CENA** → pendências → `event_queue` (F10).  
+5. Fonte de pressão: **AGENDA DA CENA** → **NORTE curto** → [arco_ativo](../board/arco_ativo.md) (L1) → `event_queue` (F10).  
 6. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]`.  
 7. **Rodapé OOC:** linha em branco + `ctrl N/90` (+2 / resposta). Boot `ctrl 2/90`. Perdeu `ctrl ?/90`. Não narrar; não chrome; não mudar cena pelo número.
 
@@ -31,9 +31,26 @@ Detalhe: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · [m
 | Local específico | |
 | Facção / base local | |
 | Cena / gancho | |
-| Prioridade | E0XX ou livre |
+| Prioridade | **NORTE curto** |
 | Segredos ativos | |
 | Temperatura Ryan × Valkirya | baseline ops / residual íntimo / aftercare / frio público — **vence a ficha** |
+
+---
+
+## NORTE (orientação, não quest log)
+
+> Horizontes. **Não** é trilho nem lista para fechar nesta resposta.  
+> Curto = esta sessão. Médio = L1 (1–3 sessões). Longo = frentes, **sem** spoiler.  
+> Operação: AGENDA (L0) · [arco_ativo](../board/arco_ativo.md) (L1) · `event_queue` (L2) · arco §5 (L3).  
+> **Finalizar:** só a linha cujo horizonte mudou. Se não mudou, não tocar.  
+> **Uma fonte:** não copiar esta tabela no board / dashboard.
+
+| Horizonte | Norte |
+| --------- | ----- |
+| **Curto** (hoje / sessão) | |
+| **Médio** (1–3 sessões) | |
+| **Longo** (campanha) | |
+| **Fora agora** | |
 
 ---
 
@@ -46,7 +63,9 @@ Citar IDs de `sistema/fatos_duros.md` (F01–F21 + L0x se aplicável):
 
 ---
 
-## Pendências quentes (event_queue)
+## Pendências quentes
+
+> Só o que pode estourar **hoje** e **não** está na AGENDA / NORTE curto. Inventário: `event_queue.md`. Máx. **3**.
 
 | ID | Uma linha |
 | -- | --------- |
@@ -77,7 +96,7 @@ Citar IDs de `sistema/fatos_duros.md` (F01–F21 + L0x se aplicável):
 **Preenchimento (qualquer mapa):**
 
 1. Ler NOW (data, região, local, prioridade).  
-2. Até 3 itens de Pendências quentes / `event_queue` **relevantes a este local**.  
+2. Até 3 itens de **NORTE curto** / Pendências quentes **relevantes a este local**.  
 3. Tarefas abertas de NPCs **presentes ou em alcance de comunicação**.  
 4. Mudou de local (ex. Pack → estrada → NC)? → **reescrever a agenda inteira**; não carregar ganchos de outro lugar sem canal plausível.  
 5. Local novo na narração → bloco **AMBIENTE** ([cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md)); relacional SHOW ([arco_ativo.md](../board/arco_ativo.md) §7 se arco ativo).

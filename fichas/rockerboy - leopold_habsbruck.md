@@ -68,11 +68,17 @@ Infância de chairman: educação de executivo, porta que abre pelo sobrenome. R
 
 **Antes de Prometheus:** viu seguranças de corp extorquindo um negócio em South Night City. Entrou com o **nome da família**, sem arma, sem plano. Os seguranças pausaram para descobrir se Habsbrück mandava ali (não mandava). Chegaram os **Zoners** da célula local. Briga. Leo se escondeu, apanhou. Um Zoner reconheceu o Habsbrück. O líder — carismático, educado, líder de comunidade — levou o garoto consigo. Semanas: trabalho braçal (comunidade e operações), arma na mão no fundo da cena, sempre ao lado daquele homem. Volta **sem resgate hollywoodiano**: uma ligação, um carro de terno, caixas no porta-malas, quarto, silêncio.
 
-**Prometheus nasce no quarto.** Máscara, chama, vídeos. Anos seguintes: relativamente famoso na rua. A chama circula. Ele acha que fala com conhecimento de causa.
+**Prometheus nasce no quarto.** Depois: escola, festas, graffiti de brincadeira, vídeos que outras pessoas compartilham **antes** dele medir o tamanho. Máscara, chama, “o fogo não é deles.” Relativamente famoso na rua.
+
+**Causa (ainda sem programa político):** contra a concentração de recursos e poder que deixa as corps controlarem o **acesso** à cidade. Comunidades apagadas, serviço básico como mercadoria, quem vive vs. quem compra.
+
+> **“A cidade pertence a quem vive nela, não a quem consegue comprá-la.”**
+
+Sabe **contra** o quê é. Ainda descobre **a favor** do quê.
 
 **O que ele acredita:** fugiu, vive por conta, aprendeu o que é lutar, construiu a própria voz.
 
-**Estado de cena:** off-screen em NC. Sem beat no Pack. Segundo encontro com Zoners / resgate da crew = **parked**.
+**Estado de cena:** off-screen em NC. Sem beat no Pack. Zoners = ponto de virada, **não** identidade; ele acha que “Zoners = aquela gangue” (são células). Segundo encontro / resgate da crew = **parked**. Líder **sem nome**.
 
 ---
 
@@ -81,6 +87,8 @@ Infância de chairman: educação de executivo, porta que abre pelo sobrenome. R
 Fora da câmera, não é rebelde 24/7. A birra adolescente virou convicção. Gosta de acompanhar operações. Gosta de estar onde as coisas acontecem. Se há parede e história, dificilmente ignora.
 
 **Falha:** confunde a importância da própria mensagem com a importância para o público. Aprendizado (ainda incompleto): *preciso encontrar o público certo.*
+
+Ainda usa o **sobrenome** de vez em quando (porta de festa, desarmar merda antes de explodir). É deliberado — não desapegou do privilégio. Fica com **vergonha** e **esconde**. Não é trunfo de mesa; se vazar, é cena.
 
 Ninguém manda nele. Influência ≠ disponibilidade. Se desaparecer tempo demais, a crew vai buscá-lo.
 
@@ -181,6 +189,22 @@ Sem chrome de combate, sem Kiroshi, sem neural de ofício. O que se vê é fashi
 
 ---
 
+## Fora do job da crew (Prometheus)
+
+Ainda tem 21 anos. Não é revolucionário clandestino. **Não** parte para sabotagem pesada, terror, assassinato ou para-militar. Coragem tem teto: prisão e violência grave ainda o param.
+
+O que ele **faz** (e é por isso que escutam — ele **aparece**):
+
+- Chama na parede, frases, vídeos curtos, discursos, protesto, ocupação, campanha
+- Mobilizar moradores/trabalhadores quando acha que a comunidade está na merda
+- Ajuda material: comida, roupa, remédio — carrega caixa depois do discurso
+- Marra e espetáculo: gosta de entrada e frase; isso **não** substitui o trabalho
+- Pressão pública para corp resolver ou doar
+
+Muitas campanhas dele recebem doação **Habsbrück** (fundação, logo na entrega). Ele ferve. O dinheiro chegou. Não há o que contestar. Família ≠ vilã. Detalhe: [nota](notas_narrador/leopold_habsbruck_background.md).
+
+---
+
 ## Relação com a crew
 
 A presença dele começou menos ideológica do que ele gostaria de admitir. Kaz conhece a origem e as semanas. O acordo visível para Leopold: está na crew, acompanha jobs, é útil.
@@ -197,7 +221,7 @@ Detalhe: [nota](notas_narrador/leopold_habsbruck_background.md) · [relacionamen
 
 ## Parked (não fecha a ficha)
 
-- Segundo encontro com os Zoners / resgate da crew.
+- Segundo encontro com os Zoners / resgate da crew. Ele pode entrar em **outra** célula achando que “conhece essa gente”.
 - **Sem** nome do líder Zoner. **Sem** nome profissional da crew (job = Void List / Kaz).
 - **Mais tarde na vida (não agora):** “EU SÓ ANUNCIO, chooms. Estou só iluminando o caminho. A revolução é de vocês.” — ver nota. Não usar aos 21.
 

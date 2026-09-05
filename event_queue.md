@@ -1,6 +1,7 @@
 # Fila de Eventos do Mundo (Event Queue)
 
-**Última atualização:** ~02 de Agosto de 2026 (pós-024) · Arco L1: [board/arco_ativo.md](board/arco_ativo.md)
+**Última atualização:** ~02 de Agosto de 2026 (pós-024) · Arco L1: [board/arco_ativo.md](board/arco_ativo.md)  
+**Norte no boot:** bloco **NORTE** em [logs/context_pack_atual.md](logs/context_pack_atual.md). Esta fila = inventário L2 — não copiar no pack.
 
 ## Eventos Ativos / Pendentes
 

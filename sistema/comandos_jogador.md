@@ -31,7 +31,7 @@
 | # | Ação |
 | - | ---- |
 | 1 | Declarar: `Refresh contexto — tier-0.` |
-| 2 | Abrir **nesta ordem**: `logs/context_pack_atual.md` (incl. bloco **MOTOR** + **AGENDA**) → `sistema/fatos_duros.md` → (só se pack vazio/contraditório) `board/board_campanha.md`. |
+| 2 | Abrir **nesta ordem**: `logs/context_pack_atual.md` (incl. bloco **MOTOR** + **NORTE** + **AGENDA**) → `sistema/fatos_duros.md` → (só se pack vazio/contraditório) `board/board_campanha.md`. |
 | 3 | Se local falhar: mesmos paths via **RAW**. |
 | 4 | **Proibido** neste comando: reler ficha completa, todos os relacionamentos, todos os `sessao_resumo_*`, pasta `pulso_do_mundo` inteira. |
 | 5 | Responder **no formato fixo abaixo** (obrigatório) — **inclui linha Motor**. |
@@ -44,7 +44,8 @@
 **Boot refresh OK**
 - Data in-game: …
 - Região / local / período: …
-- Prioridade (E0XX ou livre): …
+- NORTE curto: …
+- NORTE médio (1 linha): …
 - Fato duro 1 (ex. F03 Warden terrestre): …
 - Fato duro 2 (ex. F04 Stitch ≠ Doc): …
 - Motor: N1 sem eco · resultado-primeiro se OPERAÇÃO · AGENDA #… (1 linha do gancho ativo)
@@ -116,7 +117,7 @@
 | | - Ryan produziu (oficina, scav, construção) → `logs/downtime_ryan.md` |
 | | - NPCs → relacionamentos relevantes |
 | | - **1+ dia in-game** → [pulso_procedimento.md](pulso_procedimento.md) (ciclos faltantes ou gap B1 documentado); região atual only |
-| | - **Sempre:** `logs/context_pack_atual.md` (incl. **AGENDA DA CENA** do NOW; se **local/região mudou**, reescrever agenda inteira) + `logs/handoff_atual.md` |
+| | - **Sempre:** `logs/context_pack_atual.md` (incl. **NORTE** + **AGENDA DA CENA** do NOW; se **local/região mudou**, reescrever agenda inteira; **NORTE:** só a linha cujo horizonte mudou) + `logs/handoff_atual.md` |
 | | - `registro_arquivos` se novo resumo ou arquivo |
 | 6 | **Mostrar ao jogador:** (1) resumo completo; (2) tabela Arquivo → mudança (incluir linhas “sem delta” se quiser transparência). |
 | 7 | **Parar.** Pedir confirmação explícita: aplicar arquivos? commit/push? |
@@ -147,7 +148,7 @@
 [ ] Eddies delta (economia)
 [ ] Testes/combate: 1–3 linhas de outcome mecânico (não só prosa)
 [ ] Decisões provisórias mecânicas (promover house rule?)
-[ ] Context pack (NOW + AGENDA) + handoff
+[ ] Context pack (NOW + NORTE + AGENDA) + handoff
 [ ] Resumo lista paths avaliados
 ```
 
@@ -180,14 +181,14 @@ Ainda gerar resumo mínimo; preencher seções de ledger com **“sem delta”**
 | 5 | Checklist do handoff: |
 | | - Metadados (após sessão X / próxima Y) |
 | | - Links RAW (context pack, board, handoff, última sessão, comandos) |
-| | - NOW (região, local, prioridade, segredos) |
+| | - NOW (região, local, segredos) + **NORTE** (apontar ao pack; não copiar a tabela) |
 | | - O que aconteceu (5–12 bullets) |
-| | - Pendências E0XX |
+| | - Pendências desta sessão (pack); E0XX = `event_queue`, não dump |
 | | - Projetos / NPCs quentes **da cena atual** |
 | | - **AGENDA DA CENA** no pack (máx. 3 ganchos do local atual; reescrever se local mudou) |
 | | - Regras duras (F03, F04, F11, …) + Motor de cena N1–N9 |
 | | - **Prompt de abertura colável** (tier-0 primeiro: context pack; 1 linha: não ecoar / delta / agenda) |
-| 6 | Se o NOW mudou: atualizar também `logs/context_pack_atual.md` (NOW + **AGENDA reescrita** se local/região mudou). |
+| 6 | Se o NOW mudou: atualizar também `logs/context_pack_atual.md` (NOW + **NORTE** se o horizonte mudou + **AGENDA reescrita** se local/região mudou). |
 | 7 | Mostrar no chat: confirmação dos arquivos + **Prompt de abertura** para copiar. |
 | 8 | Commit/push só com confirmação do jogador. |
 
@@ -303,7 +304,7 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 | # | Ação |
 | - | ---- |
 | 1 | Declarar: `Avançar cena — 1 gancho da AGENDA/NOW.` |
-| 2 | Ler: `logs/context_pack_atual.md` → **AGENDA DA CENA** + NOW + pendências quentes. Se agenda vazia: `event_queue.md` filtrado pelo **local/região atual** (F10). |
+| 2 | Ler: `logs/context_pack_atual.md` → **AGENDA DA CENA** + **NORTE curto** + NOW + pendências quentes. Se agenda vazia: NORTE curto, senão `event_queue.md` filtrado pelo **local/região atual** (F10). |
 | 3 | Escolher **1** gancho de maior prioridade **plausível no local atual**. |
 | 4 | Narrar o interrupt/avanço em diegese: **sem** eco do último turno do jogador (N1); com **delta** (N2+). |
 | 5 | Deixar o jogador reagir. **Não** editar arquivos neste comando (salvo o jogador pedir no mesmo turno). |

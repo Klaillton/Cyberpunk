@@ -6,6 +6,7 @@
 **Atualizado:** ~02 de Agosto de 2026 (pré-almoço / almoço no ar) — Pack Badlands
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
+> **Norte (curto / médio / longo / fora):** bloco **NORTE** neste arquivo — única cópia.  
 > **Arco + off-screen (L1):** [board/arco_ativo.md](../board/arco_ativo.md) — sob demanda / se estagnar.  
 > Fatos estáveis: [sistema/fatos_duros.md](../sistema/fatos_duros.md).  
 > Comandos: [sistema/comandos_jogador.md](../sistema/comandos_jogador.md).  
@@ -19,7 +20,7 @@
 2. **Delta** = **maior parte** da resposta (~≥60%): intel, NPC, tempo, pressão AGENDA. Em **DOWNTIME**, o delta pode ser SHOW (gesto, cheiro, fala) — não precisa de burst.  
 3. Em `OPERAÇÃO` / `VIAGEM`: **resultado primeiro** (não espelhar o plano). **DOWNTIME:** 3–6 linhas de corpo ok. Anti-eco ≠ prosa zero.  
 4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).  
-5. Fonte de pressão: **AGENDA DA CENA** → [arco_ativo](../board/arco_ativo.md) (L1 + off-screen + §7 SHOW) → pendências → `event_queue` (F10).  
+5. Fonte de pressão: **AGENDA DA CENA** → **NORTE curto** → [arco_ativo](../board/arco_ativo.md) (L1) → `event_queue` (F10).  
 6. Local novo / ação no terreno → bloco **AMBIENTE** ([cena_ambientacao](../sistema/cena_ambientacao_ganchos.md)).  
 7. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]` · Lugar opaco? `[Ambientar]`.  
 8. **Chat novo:** este pack + handoff; **não** continuar threads longos degradados.  
@@ -40,13 +41,29 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
 | Local específico | Oficina (Ryan saiu); Valk + Sasha + Lira no gancho do Condor |
 | Facção / base local | Pack Nômade Badlands |
 | Cena / gancho | Condor **no ar**, sem pacote; teto intermediário **à tarde**; Cutter = amanhã |
-| Prioridade | (1) Condor pousar / pacote (2) Teto intermediário ~17h (3) Cutter: um corte amanhã |
+| Prioridade | **NORTE curto** |
 | Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira ainda delicado |
 
 ### Cena de abertura sugerida
 
 **Pack — almoço ~02/08.**  
 Ryan saiu da oficina (Vespas/Warden/armas servidos). Valk ficou com Sasha/Lira no gancho. Condor é um ponto no corredor, **sem pacote**. Teto do intermediário ainda à tarde. Cutter não é desta hora.
+
+---
+
+## NORTE (orientação, não quest log)
+
+> Horizontes. **Não** é trilho nem lista para fechar nesta resposta.  
+> Curto = esta sessão. Médio = L1 (1–3 sessões). Longo = frentes, **sem** spoiler.  
+> Operação: AGENDA (L0) · [arco_ativo](../board/arco_ativo.md) (L1) · `event_queue` (L2) · arco §5 (L3).  
+> **Finalizar:** só a linha cujo horizonte mudou. Se não mudou, não tocar.
+
+| Horizonte | Norte |
+| --------- | ----- |
+| **Curto** (hoje / 025) | Condor pousar **ou** silêncio até o pássaro voltar; teto intermediário **~02/08 17h** (burst ou silêncio com custo); Cutter = **amanhã**, Reyes — não raid hoje |
+| **Médio** (1–3 sessões) | Intermediário → borda NC **com Valk**; Sparrow/Steel respondem **ou** o silêncio custa; Kaz só por canal |
+| **Longo** (campanha) | Pack autónomo para voltar; crew NC quando E015 fechar; Moreau/memória **só se Ryan puxar**; BT latente |
+| **Fora agora** | Infiltração da base · revelação pública das casas · segundo combate Raffen · dump Moreau · Valk de CO / reabrir jantar 023 |
 
 ---
 
@@ -105,16 +122,12 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 ## Pendências quentes
 
+> Só o que pode estourar **hoje** e **não** está na AGENDA / NORTE curto. Inventário: `event_queue.md`.
+
 | ID | Uma linha |
 | -- | --------- |
-| **E015** | 1º pacote 30/07; intermediário **teto ~02/08 17h**; Lina Park sem ACK; Marcus Rivera mudo; Kaz escondido |
-| **Módulo Condor** | **No ar** (~02/08); Sasha/Lira + Valk no gancho; sem pacote ainda |
-| **Cutter** | Célula Raffen; rio seco leste ~2h; camp não visitado; Reyes = mapa amanhã |
-| **Base militar** | Perímetro externo mapeado (abandonado); **não entra agora**; gatilho = mensagem → manhã seguinte |
-| **E019** | Olaria/cogeração — Pack (background) |
-| **E012** | Casas interno / revelação pack |
-| Ideia Reyes | Assistente cobra mimética (conceito; tempo livre) |
-| Ideia HMG | Torre remota + compensador (conceito 024) |
+| **Base militar** | Perímetro mapeado; **não entra agora**; gatilho = mensagem → manhã seguinte |
+| **Lina Park / Steel** | Sem ACK / mudo — relógio **médio** (NORTE); 1 batida se idle de arco, não dump |
 
 ---
 

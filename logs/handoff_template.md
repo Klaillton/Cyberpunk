@@ -35,7 +35,7 @@
 Leia: instrucoes_projeto → diretrizes_ia → handoff_atual → dashboard → board → último sessao_resumo → event_queue / consequencias recentes → relacionamentos em cena.
 
 ## Estado atual
-- Data / local / prioridade
+- Data / local · **NORTE** (ver pack; não copiar a tabela)
 - **Temperatura Ryan × Valkirya** (1 linha; vence a ficha estoica)
 - Cena de abertura
 

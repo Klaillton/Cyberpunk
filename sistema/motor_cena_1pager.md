@@ -25,7 +25,7 @@
 | N11 | Relacional: **SHOW** (fala/gesto/escolha) | TELL (“ela está mais aberta”) sem batida |
 | N12 | Relógio/AGENDA **só se mudou**. NPC em downtime/íntimo = corpo + fala; não anuncia o teto | Stamp Condor/teto/canal **todo** turno; glosa (“não é ordem”, “sem briefing”) |
 
-**Pressão:** AGENDA DA CENA → [arco_ativo.md](../board/arco_ativo.md) (L1 + off-screen + batidas §7) → pendências → `event_queue` (F10).  
+**Pressão:** AGENDA DA CENA → **NORTE curto** → [arco_ativo.md](../board/arco_ativo.md) (L1) → `event_queue` (F10).  
 **Off-screen:** contatos mudos **não estão parados** — arco_ativo §2.  
 **Não inventar** NPCs/facções/plot fora do SoT. **Não** inventar encontro aleatório só para encher caminho.
 

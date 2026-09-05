@@ -70,6 +70,8 @@
 
 ## Pendências / Ganchos para Próxima Sessão
 
+> Espelhar **NORTE curto** do pack. Médio/longo só se o horizonte mudou.
+
 -
 -
 -

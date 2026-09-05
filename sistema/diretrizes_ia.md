@@ -47,7 +47,7 @@ O mundo é definido exclusivamente pelos arquivos do repositório (branch `featu
 
 **Tier-0 (anti-esquecimento sandbox):**
 
-- `logs/context_pack_atual.md` ← **primeiro** a ler / re-ler
+- `logs/context_pack_atual.md` ← **primeiro** a ler / re-ler (NOW + **NORTE** + AGENDA)
 - `sistema/fatos_duros.md` ← fatos que não se inventam
 - `sistema/comandos_jogador.md` ← playbooks de comandos
 

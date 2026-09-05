@@ -2,7 +2,7 @@
 
 **Finalidade:** dar **norte de progressão** sem trilho fechado.  
 **Não é tier-0 completo** — o narrador lê sob demanda quando a cena estagna ou o arco avança.  
-**Tier-0:** [context_pack_atual.md](../logs/context_pack_atual.md) (1 linha aponta para cá).  
+**Índice no boot:** bloco **NORTE** em [context_pack_atual.md](../logs/context_pack_atual.md) (curto / médio / longo / fora). Este arquivo = operação L1. **Não** copiar os bullets do pack aqui.  
 **Inventário longo prazo:** [event_queue.md](../event_queue.md).  
 **Atualizado:** ~02/08/2026 (pós-024) · sessão vigente **025**
 
@@ -17,7 +17,7 @@
 | 3 | **Idle default:** se o PC não puxa por ≥1 sessão ou mood ≥3 turnos sem delta → usar **default se idle** do arco (não inventar plot fora da tabela). |
 | 4 | **F10:** NPC off-screen só “aparece” no que Ryan pode perceber (rádio, boato, encontro, tempo). |
 | 5 | **Sem retcon.** Fail-forward ok. Não forçar combate só para destravar. |
-| 6 | Atualizar este arquivo no **Finalizar** se a fase do arco mudou. |
+| 6 | Atualizar este arquivo no **Finalizar** se a fase do arco mudou. Se o objetivo L1 mudou, 1 linha no **NORTE médio** do pack. |
 
 ---
 
@@ -25,10 +25,10 @@
 
 | Camada | Horizonte | Onde vive | Uso |
 | ------ | --------- | --------- | --- |
-| **L0 Cena** | esta sessão / horas | AGENDA no context pack | Anti-estagnação local |
-| **L1 Arco ativo** | 1–3 sessões | **este arquivo §3** | Norte de progressão |
+| **L0 Cena** | esta sessão / horas | AGENDA + **NORTE curto** no pack | Anti-estagnação local |
+| **L1 Arco ativo** | 1–3 sessões | **este arquivo §3** · índice **NORTE médio** no pack | Norte de progressão |
 | **L2 Filas** | semanas | `event_queue.md` | E0XX prioritários |
-| **L3 Temas** | longo prazo | §5 abaixo | Frentes estáveis |
+| **L3 Temas** | longo prazo | §5 abaixo · índice **NORTE longo** no pack | Frentes estáveis |
 
 ---
 
@@ -139,6 +139,8 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 ---
 
 ## 5. L3 — Temas de longo prazo (estáveis)
+
+> Índice de 1 linha: pack **NORTE longo**. Esta tabela = frentes. Soft / spoiler: [ideas_concepts](../ideas_concepts/README.md) (não boot).
 
 | Frente | Estado 1 linha |
 | ------ | -------------- |

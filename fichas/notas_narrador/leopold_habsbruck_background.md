@@ -9,19 +9,20 @@
 
 | Camada | O quê | Usar para |
 | ------ | ----- | --------- |
-| **A. Backstory** | Infância chairman → Zoners (ainda Leopold) → quarto → Prometheus | Motivo, falha, por que a persona |
-| **B. O que ele não sabe** | Teia Habsbrück, avó, job do Kaz, o que as caixas no porta-malas eram | Revelar aos poucos; nunca dump |
-| **C. Campanha** | Off-screen NC; segundo Zoners / resgate crew = parked | Pulso NC; **não** expandir no Pack |
+| **A. Backstory** | Infância chairman → Zoners → quarto → Prometheus + causa | Motivo, falha, repertório |
+| **B. O que ele não sabe / esconde** | Teia, avó, caixas; **sobrenome usado às escondidas** | Revelar aos poucos; nunca dump |
+| **C. Campanha** | Off-screen NC; Zoners = mal-entendido; resgate parked | Pulso NC; **não** expandir no Pack |
 
 ---
 
 ## Princípio (não diluir)
 
-A causa é real. A indignação é real. A paixão é real. A hipocrisia também é real. Ele simplesmente não a enxerga por completo.
+A causa é real. A indignação é real. A paixão é real. A hipocrisia também é real — **e parte dela ele já vê**.
 
-Ele não é um herdeiro fazendo performance de “homem do povo”. É um moleque rico que fez uma rebelião adolescente de verdade, entrou fundo demais nela e encontrou uma identidade que continua carregando.
+Ele não é um herdeiro fazendo performance de “homem do povo”. É um moleque rico que fez uma rebelião adolescente de verdade, entrou fundo demais nela e encontrou uma identidade que continua carregando. Ainda está entendendo como ele mesmo funciona. Ainda tem dificuldade de desapegar do privilégio.
 
-**Falha:** confunde a importância da própria mensagem com a importância para o público.
+**Falha:** confunde a importância da própria mensagem com a importância para o público.  
+**Hipocrisia que ele esconde:** ainda usa o sobrenome Habsbrück quando precisa (festa, porta, desarmar merda). Deliberado. Vergonha. Tenta apagar o rastro. Não é “não percebe” — é “não admite”.
 
 **Arco interno:**
 
@@ -50,7 +51,7 @@ Ele **não** diz “eu sou um de vocês.”
 
 ### Infância de chairman
 
-Nasceu no lugar errado para alguém que queria passar a vida dizendo que o sistema estava errado. Filho de um chairman, herdeiro da casa **von und zu Habsbrück**, criado para ocupar uma cadeira que já parecia reservada. Educação de executivo: economia, política, administração. Genuinamente inteligente e competente. Os pais não viam prisão. Ele via o futuro decidido por eles. Relação próxima com a **avó**. Independência que ele acredita genuína: não usa conscientemente os recursos da família há anos.
+Nasceu no lugar errado para alguém que queria passar a vida dizendo que o sistema estava errado. Filho de um chairman, herdeiro da casa **von und zu Habsbrück**, criado para ocupar uma cadeira que já parecia reservada. Educação de executivo: economia, política, administração. Genuinamente inteligente e competente. Os pais não viam prisão. Ele via o futuro decidido por eles. Relação próxima com a **avó**. Independência que ele **conta** como genuína. O dinheiro da teia e da avó ele não vê. O **nome**, às vezes, ainda usa — e esconde.
 
 A ruptura veio na adolescência. Roupa, cabelo, amigos que a família não aprovava.
 
@@ -74,7 +75,7 @@ O que Leo vê (e romantiza): *ele não é revolucionário porque fala de revolu�
 
 O que Leo **não** vê: está protegido pelo líder o tempo todo. São semanas, não uma vida. Ele não virou pobre. Teve um vislumbre brutal através de uma janela.
 
-**Sem nome** do líder. Não inventar. A função importa; o nome, não.
+**Sem nome / handle do líder.** Não inventar. A função importa; o nome, não. Ele **não** reteve um handle. O que ficou foi a impressão. O homem não volta, não manda recado, não é mentor secreto.
 
 ### A volta (sem Hollywood)
 
@@ -86,7 +87,9 @@ Aí ele processa. Compara. E a pergunta que fica:
 
 > **Por que aquele homem parecia mais livre do que ele?**
 
-Ele não volta querendo ser pobre. Volta querendo **ser como aquele homem**. Estuda movimento, propaganda, arte de rua, revolução. Descobre que não precisa do sobrenome para ser ouvido. Precisa de uma voz.
+Ele não volta querendo ser pobre. Volta querendo **ser como aquele homem**. Procura na Net a cidade, as corps, o que viu nas semanas. Conversa na escola. Festas. Graffiti. Primeiros vídeos quase brincadeira — chama num muro, some. Outras pessoas compartilham. A influência cresce **antes** dele medir.
+
+Descobre que não precisa do sobrenome para ser ouvido. Precisa de uma voz. **Ainda assim** o sobrenome volta quando a porta não abre — ver B.
 
 ### Prometheus
 
@@ -96,9 +99,19 @@ O público conhece Prometheus, não Leopold. A chama circula; vira marca de movi
 
 Slogan no muro, **ao lado** da chama (nunca dentro): **O FOGO NÃO É DELES.** Abre os vídeos com isso. Quando o corte pede, fecha perguntando por que a revolução dos outros precisa de autorização. Echo odeia esse fecho — é exatamente o contrário de controlar o que o público recebe.
 
+**Causa (1+2+3, sem programa aos 21):** concentração de recursos e poder → corps controlam o **acesso** à cidade (saúde, água, energia, moradia, informação, comunidade apagada). Não é “odeio a Corp X”.
+
+> **“A cidade pertence a quem vive nela, não a quem consegue comprá-la.”**
+
+Sabe contra o quê. Ainda descobre a favor do quê.
+
 **Não** era Rockerboy antes das semanas. As semanas plantam a semente. Prometheus nasce no quarto.
 
-Segundo encontro com os Zoners (já como Prometheus) e o resgate da crew = **parked**. Não narrar agora.
+### Zoners — ponto de virada, não identidade
+
+Ele conheceu **uma célula**. Achou que “Zoners = aquela gangue”. Existem outras, outras zonas, sem chefe único. Anos depois pode entrar noutro quarteirão: “Ah, Zoners. Conheço essa gente.” — “Você conhece quem?” A ignorância **é** o gancho. Líder **sem nome**, não reaparece.
+
+Segundo encontro formal / resgate da crew = **parked**. Não narrar agora.
 
 ---
 
@@ -139,6 +152,14 @@ Doações de fãs: **reais**. Chegariam para viver e trabalhar.
 
 Fonte secreta maior: a **avó**. Nunca deixou de acreditar nele. O resto da família talvez espere que ele volte à cadeira; ela prefere que o neto continue a fazer aquilo em que acredita. Ele não sabe. Provavelmente não gostaria de saber. Relação com ela foi **próxima** na infância — isso ele sabe; o dinheiro secreto, não.
 
+### Doações Habsbrück nas campanhas dele (ele vê o logo)
+
+Prometheus organiza ajuda (comida, roupa, remédio). Fundações Habsbrück **doam de verdade** — recursos, rede, “campanha legítima”. Não é silenciar nem manipular o neto. Leo **vê o logo na entrega** e ferve. Não há o que contestar: o dinheiro chegou em quem precisava. Família ≠ vilã. Camada diferente da avó (secreta) e da teia (ele não mapeia).
+
+### O sobrenome (ele usa, esconde, tem vergonha)
+
+Deliberado. Porta de festa, lugar “melhor”, desarmar merda **antes** de sair do controle. Ainda não desapegou do privilégio; ainda está entendendo como ele mesmo funciona. **Não** é o discurso de 16 anos na rua (ingênuo). É o atalho que ele **não admite**. Se a Echo, o Ryan ou a câmera pegarem, é cena — vergonha, não tutorial. Não narrar no Pack. Não transformar em trunfo de toda Uncredited.
+
 ### Kaz
 
 Possível job: **mantê-lo vivo**. **Não** está no background público. É estado/relacionamento atual.
@@ -150,9 +171,10 @@ Não colocar esse job na ficha pública do Kaz.
 ### Revelação sugerida (nunca dump)
 
 1. Marca Habsbrück na cidade (humor + irritação) — ≠ a chama
-2. Alguém reage ao sobrenome
-3. Um favor / clínica / extração que “não pediu”
-4. As caixas / o terno / Kaz ou a avó — só quando o arco pedir
+2. Logo Habsbrück numa **entrega da campanha dele**
+3. Alguém reage ao sobrenome — ou pega ele **usando** o nome
+4. Um favor / clínica / extração que “não pediu”
+5. As caixas / o terno / Kaz ou a avó — só quando o arco pedir
 
 ---
 
@@ -168,7 +190,7 @@ Núcleo avoado: Echo + Alex + Leopold (motivos diferentes). Eixo pragmático: Ry
 
 **Saídas:** ele empurra a crew para NC — rave e high society, os dois contatos são dele. Echo e Alex topam. Nome de porta: **Uncredited** (ele + ela). A crew faz WTF, olha para os dois, segue se tiver copo. Job ≠ festa. **F24**.
 
-**Parked:** segundo encontro Zoners; resgate da crew. **Sem** nome do líder. **Sem** nome profissional da crew. Slogan futuro (“EU SÓ ANUNCIO…”) — **não** aos 21.
+**Parked:** segundo encontro / resgate da crew; ele pode entrar em **outra célula** Zoner achando que conhece. **Sem** nome do líder. **Sem** nome profissional da crew. Slogan futuro (“EU SÓ ANUNCIO…”) — **não** aos 21. Sobrenome às escondidas = cena se vazar, não boot.
 
 ---
 

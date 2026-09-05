@@ -69,7 +69,7 @@ Arquivo canônico de continuidade:
 2. **Ordem de leitura** — arquivos obrigatórios
 3. **Estado in-game** — data, local, período do dia, cena de abertura
 4. **O que acabou de acontecer** — bullets da última sessão (sem recontar a campanha inteira)
-5. **Prioridade / pendências** — `event_queue` + ganchos
+5. **Norte / pendências** — bloco **NORTE** no pack; `event_queue` = inventário L2; ganchos = AGENDA
 6. **Projetos e NPCs quentes** — só o ativo agora
 7. **AGENDA DA CENA** — até 3 ganchos do **local atual** no context pack (reescrever se a cena mudou de região/local)
 8. **Regras duras** — anti meta-game, Warden, datas canônicas, próximo `sessao_resumo_NNN`, **Motor de cena N1–N7** (não ecoar; delta; pressão só da agenda/queue/NOW)

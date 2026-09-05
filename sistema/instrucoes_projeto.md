@@ -35,7 +35,7 @@ Você opera como **motor de simulação de mundo baseado em estado externo verif
 
 Nesta ordem:
 
-1. [`logs/context_pack_atual.md`](../logs/context_pack_atual.md) — NOW + pendências + fatos em vigor  
+1. [`logs/context_pack_atual.md`](../logs/context_pack_atual.md) — NOW + **NORTE** + AGENDA + fatos em vigor  
 2. [`sistema/fatos_duros.md`](fatos_duros.md) — se o pack não bastar  
 3. [`board/board_campanha.md`](../board/board_campanha.md) — se pack divergir ou estiver vazio  
 4. Confirmar boot em **1 linha** (formato no context pack)
@@ -123,7 +123,7 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 | Economia / materiais       | `economia.md` (macro + § Atores/Estoque/Ryan — **não** no tier-0)                 |
 | Projetos do Ryan (tempo)   | `logs/downtime_ryan.md`                                                            |
 | Narrador avança ≥1 dia     | [pulso_procedimento.md](pulso_procedimento.md) + `pulso_do_mundo/`                 |
-| Fim de sessão              | Playbook C: resumo + **matriz ledgers** + **`context_pack_atual`** + **handoff**   |
+| Fim de sessão              | Playbook C: resumo + **matriz ledgers** + **`context_pack_atual`** (NOW + **NORTE** + AGENDA) + **handoff**   |
 
 Sempre mostre mudanças propostas antes de aplicar (playbook C passo 5–6). Atualize `registro_arquivos` se criar arquivos.
 

@@ -17,7 +17,7 @@
 
 ## Boot (ordem de leitura)
 
-1. `logs/context_pack_atual.md` (NOW + MOTOR + Voz Valk)  
+1. `logs/context_pack_atual.md` (NOW + **NORTE** + MOTOR + Voz Valk)  
 2. Este handoff  
 3. `sistema/fatos_duros.md` se dúvida  
 4. `board/arco_ativo.md` se E015 / Cutter / estagnação  
@@ -47,6 +47,9 @@ Boot OK · ~02/08/2026 almoço · Pack · Condor no ar · Valk = residual quente
 
 ### Cena de abertura
 **Pack — almoço ~02/08.** Manutenção feita. Condor voando. Valk no gancho. Teto à tarde. Cutter **não** é desta hora. Ryan pode ir comer.
+
+### Norte
+Ver bloco **NORTE** no pack (curto / médio / longo / fora). Não duplicar aqui.
 
 ### AGENDA
 1. Condor pousar / pacote.  

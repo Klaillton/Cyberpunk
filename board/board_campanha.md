@@ -9,14 +9,7 @@
 
 Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo Condor operacional e refrigerado. 1º pacote do ad coletado (30/07). Patrulha Raffen **Cutter** destruída na madrugada 02/08.
 
-**Prioridade imediata:**
-1. Condor **no ar** (~02/08) — sem pacote ainda; Sasha/Lira + Valk no gancho.  
-2. Intermediário do ad — teto **~02/08 17h**; ainda sem burst.  
-3. Célula **Cutter**: rio seco leste ~2h; 10–12 restantes; Reyes = rastreio **amanhã cedo** (um corte), não raid hoje.  
-4. Base militar: perímetro externo mapeado (abandonada); **não entra agora**; gatilho = mensagem → manhã seguinte.  
-5. Residual de **Lina “Sparrow” Park** ainda sem ACK.  
-6. **Marcus “Steel” Rivera** mudo.  
-7. Acordo 019 em vigor + residual íntimo alto.
+**Norte (SoT):** bloco **NORTE** em [context_pack_atual.md](../logs/context_pack_atual.md) — curto / médio / longo / fora. **Não** duplicar a lista aqui.
 
 **Arco L1 + off-screen:** [arco_ativo.md](arco_ativo.md)
 
