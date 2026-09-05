@@ -100,7 +100,7 @@ Ryan **não** usa Moto por default.
 | ----- | ----- |
 | Ficha | [rockerboy - leopold_habsbruck.md](../../fichas/rockerboy%20-%20leopold_habsbruck.md) |
 | Charismatic Impact | **6** |
-| Marca | chama de três linhas · handle **Prometheus** |
+| Marca | chama de três linhas · handle **Prometheus** · slogan **O FOGO NÃO É DELES.** |
 
 **Em mesa:** influência / audiência / presença urbana (grafite + vídeo de máscara), não plateia de arena. Off-screen até NC (**F23**). ≠ Credibility da Echo.
 

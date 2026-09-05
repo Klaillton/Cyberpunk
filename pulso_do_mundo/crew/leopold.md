@@ -5,11 +5,13 @@
 **Regra:** pulso de *vida* off-screen ok (grafite, vídeo, Kaz). **Não** avançar teia Habsbrück, avó, job de proteção, semanas Zoners. **Não** narrar no Pack.  
 **Background:** [nota](../../fichas/notas_narrador/leopold_habsbruck_background.md) · ficha [rockerboy - leopold_habsbruck.md](../../fichas/rockerboy%20-%20leopold_habsbruck.md) · **F23**
 
-> Handle = **Prometheus**. Chama de três linhas ≠ brasão Habsbrück.
+> Handle = **Prometheus**. Chama de três linhas ≠ brasão Habsbrück.  
+> Vídeo: abre **O FOGO NÃO É DELES.** Fecha (quando pede) com a pergunta da autorização. “EU SÓ ANUNCIO…” = **não** agora.  
+> Feed: espartana = Prometheus (só se o job for a mensagem dele). Caveira = Echo inventa apelido. Pintura nova a cada job.
 
 ## Motivações Atuais
 
-- Pintar a chama, gravar, circular Prometheus — sem virar celebridade de arena.
+- Pintar a chama + **O FOGO NÃO É DELES.** Gravar. Circular Prometheus — sem virar celebridade de arena.
 - Acompanhar Echo se ela entrar em job (ele vai atrás).
 - Acreditar que vive por conta das doações.
 - Não ser o filho do chairman na rua.

@@ -3,7 +3,7 @@
 **SoT** de como a Media da crew move **reputação anti-corp** vs **Heat Global** vs **Heat individual**.  
 **Arquivos ligados:** [heat.md](../heat.md) · [reputacao.md](../reputacao.md) · [ficha Echo](../fichas/media%20-%20emilia_echo_rivera.md) · [The Mule](../fichas/vehicle%20-%20the_mule.md)
 
-**Última atualização:** 2026-08-30 (ficha Echo alinhada: mini + HP/HL RED; este arquivo continua o SoT de vazamento)
+**Última atualização:** 2026-09-05 (kit transmissão: caveira Void List + espartana Prometheus)
 
 ---
 
@@ -56,6 +56,8 @@
 | “O **fixer** arranjou o job” | Kaz em boato de rua |
 | “A **medtech** tirou gente da mesa” | Stitch / Doc confusão |
 | “A **media**…” (se ela se mostrar) | Só se for escolha consciente de N3 |
+| “O **Prometheus**…” | **Só** se ele estiver de **espartana** neste job (mensagem dele no ar) |
+| Apelido pejorativo / qualquer coisa (Echo inventa) | “Prometheus” / Leo / Leopold **na caveira** |
 | Redirecionar para **Void List** | Herói individual |
 
 Quanto mais **genérico no indivíduo** e mais **forte na marca**, melhor: **Rep ↑** e **Heat individual ↓**.
@@ -127,13 +129,35 @@ Objetivo: **Rep ↑** com quem importa e **Heat individual** estável ou caindo.
 
 Jobs filmáveis / com Echo em campo:
 
-- [ ] **Máscaras** / meia-face / capacete se for gravar (Ryan: meia-face já é hábito)  
+- [ ] **Máscaras** se for gravar — kit **caveira** (abaixo), não retrato  
 - [ ] Echo **edita** rostos e chrome único no pós  
 - [ ] **Mule** sem takes “nu”: camadas anti-ID, ângulo, vanity no cut; **Alex**: contramedidas NET / anti-dox no veículo e no feed  
-- [ ] Script de voz: **funções + Void List**, zero street names  
+- [ ] Script de voz: **funções + Void List**, zero street names (exceção Prometheus = §7.1)  
 - [ ] Sem Null, Pack, base, rotas no material  
 
 Quebra do SOP → nível efetivo sobe (ex.: 1 vira 2, 2 vira 3).
+
+### 7.1 Kit de transmissão (caveira / espartana)
+
+Só em job que **vai ao ar** (Echo e/ou Prometheus no feed). Não é uniforme de downtime nem de toda op.
+
+**Origem:** Echo pediu ao Ryan uma máscara para essas transmissões. Leo pentelhou o design até virar **caveira**. A crew não se importa com o desenho — só que a identidade fique oculta. Echo **odeia** o visual e **não raramente muda a dela** (outra máscara, blur, corte). SOP continua: rosto oculto > modelo.
+
+**Pintura:** Leo **repinta as caveiras a cada job**. Silhueta igual, tinta nova. Não vira logo de gangue fixa.
+
+<img src="../imagens/crew/transmissao_caveira.jpg" width="200" alt="Kit caveira — transmissão Void List" />
+
+| Quem | No feed | Como a Echo chama |
+| ---- | ------- | ----------------- |
+| Crew (default) | Caveira (pintura daquele job) | **Função:** a solo, o tech, a nomad, a netrunner, a medtech, o fixer, a media |
+| **Prometheus de espartana** | Elmo espartano fechado + pano escuro por baixo | **Prometheus** — o handle público. Não é Leopold. |
+| **Prometheus de caveira** | Caveira igual à crew | Echo inventa **apelido pejorativo** ou qualquer coisa. Nunca Prometheus, nunca Leo. Típico em **jobs mais perigosos** (ele perdeu a discussão). |
+
+**Quando a espartana entra:** só se o job for **relevante para ele transmitir que está fazendo** — a mensagem é dele (chama, “o fogo não é deles”), e ainda é um job da crew. Visibilidade no **Prometheus**, SOP no resto. Discussão **em cena**: caveira ou espartana.
+
+Ryan: meia-face tática = hábito de operador. Caveira = kit de **câmera** que ele fabricou. Não confundir.
+
+**F23** · [ficha Leopold](../fichas/rockerboy%20-%20leopold_habsbruck.md) · caveira: [transmissao_caveira.jpg](../imagens/crew/transmissao_caveira.jpg) · espartana: [prometheus_espartana.jpg](../imagens/leopold/prometheus_espartana.jpg)
 
 ---
 
@@ -142,6 +166,8 @@ Quebra do SOP → nível efetivo sobe (ex.: 1 vira 2, 2 vira 3).
 | Vazamento | Nível | Efeito resumido |
 | --------- | ----- | --------------- |
 | “A **Void List** limpou a torre; a solo e o tech fizeram o trabalho” | 1 | Rep ↑↑ · Global ↑ mod · ind. baixo |
+| Void List + funções + **Prometheus** (espartana; job da mensagem dele) | 1–2 | Rep marca + visibilidade do handle; **não** dox de Leopold |
+| Caveira no Leo + apelido pejorativo da Echo | 1 | Handle Prometheus **fora** do corte |
 | Mini-doc dramático, silhuetas, marca Void List | 2 | Rep ↑↑↑ · Global ↑↑ |
 | “Wireghost e a Nomad…” + rostos | 3 | **Veto padrão**; se forçar: ind. alto + tensão crew |
 | Mapa do Pack / “Null” no ar | 4 | Crise · event_queue · risco de morte |
@@ -162,5 +188,5 @@ Quebra do SOP → nível efetivo sobe (ex.: 1 vira 2, 2 vira 3).
 ## 10. Referências
 
 - [Heat](../heat.md) · [Reputação](../reputacao.md) · [Event Queue](../event_queue.md)  
-- [Echo](../fichas/media%20-%20emilia_echo_rivera.md) · [Mule](../fichas/vehicle%20-%20the_mule.md) · [Alex](../fichas/netrunner%20-%20alex_specter_kane.md)  
+- [Echo](../fichas/media%20-%20emilia_echo_rivera.md) · [Mule](../fichas/vehicle%20-%20the_mule.md) · [Alex](../fichas/netrunner%20-%20alex_specter_kane.md) · [Prometheus](../fichas/rockerboy%20-%20leopold_habsbruck.md) § máscaras  
 - Atualização pós-sessão: [como_atualizar_arquivos.md](como_atualizar_arquivos.md)

@@ -131,7 +131,11 @@ Rockerboy da crew — máscara, grafite, vídeo. **Não** é a Role dela. Ele é
 
 Desafia o princípio (“preciso controlar a verdade que chega ao público”) com o inverso: o público decide o que a história significa. Tensão útil. **Parked** até reencontro NC. Sem beat no Pack.
 
-Handle = **Prometheus**. Casa Habsbrück ≠ chama da parede. [nota Leopold](leopold_habsbruck_background.md) · **F23**.
+Handle = **Prometheus**. Casa Habsbrück ≠ chama da parede. Slogan: **O FOGO NÃO É DELES.**
+
+Ela pediu ao Ryan um kit de máscara para transmissões. Leo pentelhou o design até virar caveira. Ela **odeia** e muda a dela com frequência (rosto oculto > modelo). Ele **repinta** as caveiras a cada job. Discussão em cena: espartana (ele é Prometheus no ar) vs caveira (jobs perigosos; ela chama de qualquer coisa pejorativa). SOP: [echo_exposicao.md](../../sistema/echo_exposicao.md) §7.1.
+
+O fecho (“por que a revolução de vocês precisa de autorização”) é o contrário do princípio dela. Parked até a mesma cena. [nota Leopold](leopold_habsbruck_background.md) · **F23**.
 
 ---
 

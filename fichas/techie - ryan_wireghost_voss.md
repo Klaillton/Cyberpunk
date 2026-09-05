@@ -18,6 +18,8 @@ Possui filtro frontal modular (útil contra poeira das Badlands e gases leves), 
 
 Ele a trata como ferramenta, não como acessório. Tira com facilidade quando está em zona segura ou com Valk.
 
+**Kit caveira (transmissão, não o hábito):** Echo pediu uma máscara para jobs que vão ao ar. Ryan fabricou. Leo pentelhou o design até virar caveira e **repinta a cada job**. Ryan não discute pintura. No feed, meia-face fica de fora — vale o kit da câmera. SOP: [echo_exposicao.md](../sistema/echo_exposicao.md) §7.1.
+
 Nas costas carrega o **Warden**, um drone escorpião grande e imponente que parece parte de sua armadura quando dobrado. Warden tem pinças e caudas metálicas que ficam guardadas a maior parte do tempo sendo confundido com uma mochila metálica, com linhas azuis brilhantes de energia percorrendo as articulações. Flutuando próximo a ele, costuma estar o **Vesper** (ou um dos drones outros do time), dando a impressão de que Ryan está sempre acompanhado de tecnologia viva.
 
 Seu visual transmite alguém que já passou por muita coisa e transformou o trauma em ferramenta. Ele não tenta parecer amigável — parece eficiente e perigoso.

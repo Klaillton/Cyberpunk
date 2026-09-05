@@ -41,6 +41,9 @@ Ele **não** diz “eu sou um de vocês.”
 
 **Aprendizado (ainda incompleto):** *preciso encontrar o público certo para a minha mensagem.*
 
+**Voz pública (agora):** muro e abertura de vídeo = **O FOGO NÃO É DELES.** Fecha (quando pede) = a pergunta da autorização.  
+**Voz mais tarde (não narrar aos 21):** “EU SÓ ANUNCIO, chooms. Estou só iluminando o caminho. A revolução é de vocês.” É o Herald — ele ainda não chegou lá. A falha atual é o contrário: ele ainda acha que a mensagem *é* ele.
+
 ---
 
 ## A. Backstory
@@ -71,7 +74,7 @@ O que Leo vê (e romantiza): *ele não é revolucionário porque fala de revolu�
 
 O que Leo **não** vê: está protegido pelo líder o tempo todo. São semanas, não uma vida. Ele não virou pobre. Teve um vislumbre brutal através de uma janela.
 
-**Não** nomear o líder até a mesa fechar.
+**Sem nome** do líder. Não inventar. A função importa; o nome, não.
 
 ### A volta (sem Hollywood)
 
@@ -90,6 +93,8 @@ Ele não volta querendo ser pobre. Volta querendo **ser como aquele homem**. Est
 Máscara. Chama de três linhas (“Prometheus roubou o fogo”). Vídeos. O nome que um garoto de 17–18 acharia a coisa mais foda do mundo — e cinco anos depois ainda usa, porque **acredita**.
 
 O público conhece Prometheus, não Leopold. A chama circula; vira marca de movimento, não só logo dele. Relativamente famoso na rua. Doações de fãs **reais**.
+
+Slogan no muro, **ao lado** da chama (nunca dentro): **O FOGO NÃO É DELES.** Abre os vídeos com isso. Quando o corte pede, fecha perguntando por que a revolução dos outros precisa de autorização. Echo odeia esse fecho — é exatamente o contrário de controlar o que o público recebe.
 
 **Não** era Rockerboy antes das semanas. As semanas plantam a semente. Prometheus nasce no quarto.
 
@@ -157,9 +162,11 @@ Off-screen em Night City. Sem beat no Pack. Sem chama na cerca do acampamento. S
 
 A crew não precisa compartilhar a causa. Ele é útil: influência, portas, gente, fala. Membro de verdade, não pacote VIP.
 
+**Máscaras (transmissão):** Echo pediu kit ao Ryan. Leo pentelhou até virar caveira. Ele **repinta a cada job**. Espartana = Prometheus no ar, **só** se o job for a mensagem dele (ainda é job da crew). Caveira = default / perigo; Echo inventa apelido pejorativo. Discussão **em cena**. SOP: [echo_exposicao.md](../../sistema/echo_exposicao.md) §7.1. Não narrar no Pack.
+
 Núcleo avoado: Echo + Alex + Leopold (motivos diferentes). Eixo pragmático: Ryan / Valkirya / Reina. Jax só se houver briga.
 
-**Parked:** segundo encontro Zoners; resgate da crew; nome do líder; frase exata da causa; nome de rua da crew.
+**Parked:** segundo encontro Zoners; resgate da crew. **Sem** nome do líder. **Sem** nome da crew. Slogan futuro (“EU SÓ ANUNCIO…”) — **não** aos 21.
 
 ---
 
@@ -170,5 +177,6 @@ Núcleo avoado: Echo + Alex + Leopold (motivos diferentes). Eixo pragmático: Ry
 - [Kaz](../fixer%20-%20kaz_the_broker_takahashi.md) · [Ryan](../../relacionamentos/ryan_relacionamentos.md)
 - [Pulso](../../pulso_do_mundo/crew/leopold.md)
 - **Símbolo:** [prometheus_flame.jpg](../../imagens/leopold/prometheus_flame.jpg)
+- **Espartana:** [prometheus_espartana.jpg](../../imagens/leopold/prometheus_espartana.jpg) · **Caveira (kit):** [transmissao_caveira.jpg](../../imagens/crew/transmissao_caveira.jpg)
 - **Notas pontuais (esvaziar após uso):** [ideas_concepts/rockerboy_added_story.md](../../ideas_concepts/rockerboy_added_story.md)
 - **Estado:** [Board](../../board/board_campanha.md) · **F06** · **F23**

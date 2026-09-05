@@ -45,7 +45,7 @@ Este espaço está reservado para registrar rapidamente outros grupos ou facçõ
 
 **Resumo:** Movimento/comunidade de South NC (organização, protesto, gente armada em células). **Não** são Voodoo Boys. A célula do primeiro encontro do Leo é local — fora de duas ou três ruas, ninguém sabe quem são. Líder sem nome canônico até a mesa fechar. Segundo encontro / resgate da crew = **parked**.
 
-**Notas:** ver [nota Leopold](../fichas/notas_narrador/leopold_habsbruck_background.md). Não puxar no Pack.
+**Notas:** ver [nota Leopold](../fichas/notas_narrador/leopold_habsbruck_background.md). **Sem** nome do líder. Não puxar no Pack. Não inventar nome da crew.
 
 ---
 

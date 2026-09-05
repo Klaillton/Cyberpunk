@@ -82,9 +82,10 @@ Cética, sarcástica, justiça distorcida. Fala rápido, humor negro, quer o pla
 | Código interno (crew + Kaz) | **Null** — nunca em headline |
 | Default sem consulta | **Nível 1 Fantasma** (funções + marca; sem rosto/handle) |
 | Linha vermelha | Rosto, street name, Pack, Mule ID, Null = **risco de morte**; crew veta N3–4 |
-| SOP | Editar rostos no pós **ou** máscaras no job |
+| SOP | Editar rostos no pós **ou** kit **caveira** no job ([echo_exposicao](../sistema/echo_exposicao.md) §7.1) |
 
-**Script:** “A **Void List**… a solo / a netrunner / o tech / a nomad…” — genérico no indivíduo, forte na marca.
+**Script:** “A **Void List**… a solo / a netrunner / o tech / a nomad…” — genérico no indivíduo, forte na marca.  
+**Prometheus:** só se ele estiver de **espartana** (job da mensagem dele). Se estiver de caveira, ela inventa apelido pejorativo / qualquer coisa — nunca o handle.
 
 ## Role Ability: Media (Credibility 7)
 
@@ -144,7 +145,7 @@ O acidente quebrou olho, ouvido, ficar de pé. O corpo foi consertado para ela n
 **Ryan:** anti-Echo (sistemas que funcionam sem aparecer). Flerte é residual. Risco: “contar a história dele direito.” Off-screen.  
 **Valkirya:** “nunca abandona” acerta a pergunta da van — respeito, não identificação. Handle **Valkirya** (F21).  
 **Kaz:** recrutou pelo encaixe Void List × voz.  
-**Leopold / Prometheus:** megafone, não clone. Ela corta; ele ocupa a parede (chama de três linhas). Conflito parked: controlar a verdade vs. jogar no público. Off-screen. **F23**.  
+**Leopold / Prometheus:** megafone, não clone. Ela corta; ele ocupa a parede. Pediu máscara ao Ryan; Leo pentelhou até virar **caveira** — ela odeia e troca a dela. Discussão em cena: caveira vs espartana. Off-screen. **F23**.  
 Detalhe: [nota](notas_narrador/emilia_echo_rivera_background.md) · [crew](../relacionamentos/crew_relacionamentos.md).
 
 **Objetivo:** lenda urbana anti-corp **sem** devolver Emilia ao screamsheet.

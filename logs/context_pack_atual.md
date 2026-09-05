@@ -96,7 +96,7 @@ Residual íntimo **alto**. Paz física 01/08. Chat **023 contaminado** (Night Ci
 | **F18** | Ruleset **v1.3.0** · 017+ · sem retcon 001–016 |
 | **F19** | Agents: Vault / Profissional / Honeypot / Arbiter/Watchdog ≠ Warden |
 | **F20** | **Sparrow** = Lina Park (NPC); **Steel** = Marcus Rivera (NPC) — **não** sistemas; Steel **≠** Echo |
-| **F23** | **Leopold** = **Prometheus** (Rockerboy, CI 6) crew NC, off-screen; chama ≠ Habsbrück; ≠ Echo |
+| **F23** | **Leopold** = **Prometheus** (CI 6) off-screen; slogan **O FOGO NÃO É DELES.**; espartana vs caveira = [echo_exposicao](../sistema/echo_exposicao.md) §7.1 |
 
 Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 

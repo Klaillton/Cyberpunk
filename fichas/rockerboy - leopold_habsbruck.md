@@ -10,13 +10,25 @@
 **Na rua:** o público conhece Prometheus, não Leopold.  
 **Conceito:** Herdeiro que virou voz de rua. Não é estrela de arena — é presença urbana. Grafite, vídeos curtos de máscara, denúncia. A Role é influência, não guitarra.
 
+<img src="../imagens/rockerboy%20-%20leopold_prometheus_habsbruck.png" width="220" alt="Leopold Prometheus Habsbrück" />
+
+**Descrição visual:** Magro, 21 anos, pele clara. Cabelo vermelho bagunçado (Techhair) com franja no olho. Delineador preto, sorriso de canto. Moletom preto com spikes por baixo de jaqueta de couro vermelha/preta, camisa preta aberta, luvas sem dedos, dois cintos, spray nas duas mãos. A crew vê **este rosto**. No feed: **espartana** (Prometheus) ou **caveira** (kit Void List — ele perdeu a discussão). Chrome visível = só fashionware.
+
+### Presença física (narrador)
+
+| Campo | Valor |
+| ----- | ----- |
+| **Altura** | **~1,72 m** |
+| **Build** | Magro / street — ombro estreito, sem academia. BODY 5. Não compete com ninguém em porte. |
+| **Nota** | Homem mais baixo da crew. Acima de Stitch (~1,70) e Alex (~1,68); abaixo de Valk (~1,75) e **Kaz (~1,78)**; Ryan (1,85) cobre ele na fila. Echo (~1,60) ainda é menor. A presença dele não é altura — é a chama e a voz. |
+
+**Presença (prosa, antes da tabela):** Leopold não enche a porta. Entra como quem vai pichar e já está olhando a parede. No grupo dos altos (Reina, Jax, Ryan) some um pouco; quando a máscara sobe ou o spray chia, a sala vira para ele. Kaz olha de cima. Ryan olha de mais cima. Echo é a única que ainda precisa levantar o queixo.
+
 ## Aparência
 
 Leopold não quer que as pessoas procurem o filho de um chairman. Quer que procurem a **chama**.
 
-A máscara é o rosto público. Cabelo e roupa saíram do molde corporativo na adolescência e ficaram na rua: streetwear que ele escolheu, não uniforme de herdeiro. Come comida de rua. Fora da câmera pode parecer um cara bastante normal; na parede, a persona é Prometheus.
-
-**Presença física:** altura e build **a definir** (sem retrato fechado). Chrome visível = só fashionware.
+A máscara **Prometheus** é o elmo espartano (fechado, pano escuro por baixo — some cabelo vermelho, pele, Techhair). Fora da câmera, o retrato acima é o que a crew vê. Cabelo e roupa saíram do molde corporativo na adolescência e ficaram na rua. Come comida de rua. Fora da câmera pode parecer um cara bastante normal; na parede / no feed da causa, a persona é Prometheus.
 
 ### Marca — Prometheus
 
@@ -24,7 +36,27 @@ A máscara é o rosto público. Cabelo e roupa saíram do molde corporativo na a
 
 **Símbolo:** chama estilizada de **três linhas grossas** (base larga, centro em espiral/ponta, laterais curvadas para dentro). Sem letra, sem “P” escondido. Qualquer um reproduz com spray em segundos. De longe é fogo; de perto é *aquela* chama.
 
-**Não** é o brasão Habsbrück (ponte / coroa / chaves).
+**Slogan (muro, ao lado da chama — não dentro):** **O FOGO NÃO É DELES.**
+
+**Vídeo (agora, 21 anos):**
+- **Abre:** “O fogo não é deles.”
+- **Pode fechar:** “Eu não estou pedindo uma revolução. Estou perguntando por que a de vocês precisa de autorização.”
+
+**Não** é o brasão Habsbrück (ponte / coroa / chaves). **Não** gravar a chama no elmo — a chama é parede.
+
+### Máscaras (gear — transmissão)
+
+<img src="../imagens/leopold/prometheus_espartana.jpg" width="180" alt="Elmo espartano Prometheus" />
+<img src="../imagens/crew/transmissao_caveira.jpg" width="180" alt="Caveira kit Void List" />
+
+| Máscara | Quando | No feed |
+| ------- | ------ | ------- |
+| **Espartana** (fechada + pano escuro) | Job **relevante para ele transmitir que está fazendo** — a mensagem é dele, e ainda é job da crew | Ele **é** Prometheus. Nome não muda. |
+| **Caveira** (kit da crew; **ele repinta a cada job**) | Default de transmissão; **jobs mais perigosos**; quando perde a discussão com a Echo | Echo chama de apelido pejorativo / qualquer coisa. Nunca Prometheus. |
+
+A pentelhação dele fez o kit da crew virar caveira. A pintura muda todo job — silhueta igual, tinta nova, não vira logo fixa. Echo odeia o visual e troca o **dela** com frequência. O resto da crew não se importa com o design, só com o rosto oculto.
+
+**Discussão em cena:** caveira ou espartana. SOP: [echo_exposicao.md](../sistema/echo_exposicao.md) §7.1.
 
 ---
 
@@ -54,7 +86,8 @@ Ninguém manda nele. Influência ≠ disponibilidade. Se desaparecer tempo demai
 
 Quando entra em modo de trabalho, pinta e fala. Não é Solo. Pode segurar uma arma; a Role é fazer gente ouvir e agir.
 
-**Frase-âncora (rua):** o público conhece Prometheus.  
+**Frase-âncora (muro / abre o vídeo):** “O fogo não é deles.”  
+**Fecha o vídeo (quando a cena pede):** “Eu não estou pedindo uma revolução. Estou perguntando por que a de vocês precisa de autorização.”  
 **Civil (se encurralado):** “Leo.”  
 **Se alguém da rua reconhece a chama:** “Espera… você é o Prometheus?”
 
@@ -137,7 +170,8 @@ Sem chrome de combate, sem Kiroshi, sem neural de ofício. O que se vê é fashi
 
 ## Gear
 
-- Máscara Prometheus
+- Elmo **espartano** Prometheus (fechado + pano escuro) — persona
+- Kit **caveira** de transmissão (Ryan fabricou; Leo **repinta a cada job**)
 - Spray (várias latas) + stencil da chama de três linhas
 - Câmera + Agent
 - Streetwear
@@ -159,13 +193,11 @@ Detalhe: [nota](notas_narrador/leopold_habsbruck_background.md) · [relacionamen
 
 ---
 
-## Ainda em aberto (humano fecha)
+## Parked (não fecha a ficha)
 
-- Frase exata da causa
-- Nome da crew (o de rua que Leopold usa vs. o profissional do Kaz)
-- Nome do líder Zoner
-- Segundo encontro com os Zoners / resgate da crew (**parked**)
-- Retrato / altura / build
+- Segundo encontro com os Zoners / resgate da crew.
+- **Sem** nome do líder Zoner. **Sem** nome da crew por enquanto.
+- **Mais tarde na vida (não agora):** “EU SÓ ANUNCIO, chooms. Estou só iluminando o caminho. A revolução é de vocês.” — ver nota. Não usar aos 21.
 
 Notas pontuais: [ideas_concepts/rockerboy_added_story.md](../ideas_concepts/rockerboy_added_story.md) (esvaziar depois de integrar).
 
@@ -177,5 +209,8 @@ Notas pontuais: [ideas_concepts/rockerboy_added_story.md](../ideas_concepts/rock
 - **Relacionamentos:** [leopold_habsbruck_relacionamentos.md](../relacionamentos/leopold_habsbruck_relacionamentos.md)
 - [Mapa](../relacionamentos/mapa_relacional_geral.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md)
 - **Pulso (NC / futuro):** [leopold.md](../pulso_do_mundo/crew/leopold.md)
+- **Retrato:** [rockerboy - leopold_prometheus_habsbruck.png](../imagens/rockerboy%20-%20leopold_prometheus_habsbruck.png)
 - **Símbolo:** [prometheus_flame.jpg](../imagens/leopold/prometheus_flame.jpg)
+- **Espartana:** [prometheus_espartana.jpg](../imagens/leopold/prometheus_espartana.jpg) · **Caveira:** [transmissao_caveira.jpg](../imagens/crew/transmissao_caveira.jpg)
+- **SOP transmissão:** [echo_exposicao.md](../sistema/echo_exposicao.md) §7.1
 - **Estado:** [Board](../board/board_campanha.md) · **F06** · **F23**
