@@ -9,14 +9,14 @@ Alex é uma jovem de aparência atlética e cyberpunk marcante. Tem cabelo loiro
 
 ### Presença física (narrador)
 
-| Campo | Valor |
-| ----- | ----- |
-| **Altura** | **~1,68 m** |
-| **Build** | **Menos atlética que Valk** — músculos de **yoga / ginástica** (tonificada, flexível, sem bulk de academia pesada) |
-| **Nota** | Compacta e afiada; no pack de altos, parece “a menor perigosa”. Contraste claro com Valk (1,75 m) e Reina (1,92 m). |
+| Campo      | Valor                                                                                                               |
+| ---------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Altura** | **~1,68 m**                                                                                                         |
+| **Build**  | **Menos atlética que Valk** — músculos de **yoga / ginástica** (tonificada, flexível, sem bulk de academia pesada)  |
+| **Nota**   | Compacta e afiada; no pack de altos, parece “a menor perigosa”. Contraste claro com Valk (1,75 m) e Reina (1,92 m). |
 
 **Imagem de Referência:**  
-<img src="../imagens/netrunner%20-%20alex_specter_kane.jpg" width="220" alt="Alex &quot;Specter&quot; Kane" />
+<img src="../imagens/netrunner%20-%20alex_specter_kane.png" width="220" alt="Alex &quot;Specter&quot; Kane" />
 
 ## Background (mini)
 
@@ -48,16 +48,16 @@ Mentor / wingman na NET. Aconselha, aponta tema, simulação **fora** de combate
 
 | Atributo | Valor |
 | -------- | ----- |
-| INT | 8 |
-| REF | 6 |
-| DEX | 5 |
-| TECH | 7 |
-| COOL | 7 |
-| WILL | 6 |
-| LUCK | 5 |
-| MOVE | 5 |
-| BODY | 5 |
-| EMP | 5 |
+| INT      | 8     |
+| REF      | 6     |
+| DEX      | 5     |
+| TECH     | 7     |
+| COOL     | 7     |
+| WILL     | 6     |
+| LUCK     | 5     |
+| MOVE     | 5     |
+| BODY     | 5     |
+| EMP      | 5     |
 
 **HP Total:** 40  
 **Seriously Wounded:** 20  
@@ -73,30 +73,30 @@ Mentor / wingman na NET. Aconselha, aponta tema, simulação **fora** de combate
 
 ## Skills (86 pts; Interface à parte)
 
-| Skill | Nível | Skill | Nível |
-| ----- | ----- | ----- | ----- |
-| Library Search | 7 | Perception | 5 |
-| Cybertech | 6 | Stealth | 5 |
-| Basic Tech | 6 | Conceal/Reveal Object | 5 |
-| Electronics/Security Tech | 6 | Evasion | 5 |
-| Cryptography | 6 | Education | 5 |
-| Handgun | 4 | Streetwise | 5 |
-| Athletics | 4 | Local Expert (Night City) | 5 |
-| Human Perception | 4 | | |
-| Persuasion | 4 | | |
-| Concentration | 4 | | |
+| Skill                     | Nível | Skill                     | Nível |
+| ------------------------- | ----- | ------------------------- | ----- |
+| Library Search            | 7     | Perception                | 5     |
+| Cybertech                 | 6     | Stealth                   | 5     |
+| Basic Tech                | 6     | Conceal/Reveal Object     | 5     |
+| Electronics/Security Tech | 6     | Evasion                   | 5     |
+| Cryptography              | 6     | Education                 | 5     |
+| Handgun                   | 4     | Streetwise                | 5     |
+| Athletics                 | 4     | Local Expert (Night City) | 5     |
+| Human Perception          | 4     |                           |       |
+| Persuasion                | 4     |                           |       |
+| Concentration             | 4     |                           |       |
 
 **Linguagens (livres):** Streetslang 4 · Inglês 4.
 
 ## Cyberware
 
-| Cyberware | HL | Efeito |
-| --------- | -- | ------ |
-| Neural Link | 7 | Interface com deck e armas inteligentes |
-| Interface Plugs | 7 | Jack in |
-| Cybereyes (Kiroshi) | 7 | Glow verde / azul da imagem; visão aprimorada |
-| Cyberaudio Suite (scrambler) | 7 | Áudio + anti-snoop |
-| Biomonitor | 2 | Sinais vitais |
+| Cyberware                    | HL  | Efeito                                        |
+| ---------------------------- | --- | --------------------------------------------- |
+| Neural Link                  | 7   | Interface com deck e armas inteligentes       |
+| Interface Plugs              | 7   | Jack in                                       |
+| Cybereyes (Kiroshi)          | 7   | Glow verde / azul da imagem; visão aprimorada |
+| Cyberaudio Suite (scrambler) | 7   | Áudio + anti-snoop                            |
+| Biomonitor                   | 2   | Sinais vitais                                 |
 
 **Total Humanity Loss:** 30 | **EMP:** 5 | **Humanidade atual:** 20  
 Sem Pain Editor, sem speedware, **sem Doll-ware**.
@@ -105,15 +105,15 @@ Sem Pain Editor, sem speedware, **sem Doll-ware**.
 
 **Excellent Cyberdeck** — **7 slots**.
 
-| Slot | Program |
-| ---- | ------- |
-| 1 | Armor |
-| 2 | Sword |
-| 3 | Sword |
-| 4 | See Ya |
-| 5 | Worm |
-| 6 | Shield |
-| 7 | Speedy Gonzalvez |
+| Slot | Program          |
+| ---- | ---------------- |
+| 1    | Armor            |
+| 2    | Sword            |
+| 3    | Sword            |
+| 4    | See Ya           |
+| 5    | Worm             |
+| 6    | Shield           |
+| 7    | Speedy Gonzalvez |
 
 Sem programa custom / “Janus.exe”. Se o job pedir programa que não está aqui: DV +2 ou downtime (Kaz/Ryan), [10_netrunning](../sistema/regras_red/10_netrunning.md) §7.
 
@@ -131,7 +131,7 @@ Sem programa custom / “Janus.exe”. Se o job pedir programa que não está aq
 **Valkirya:** atração antiga, mútua no passado (Mule), não resolvida. Off-screen. Ver [relacionamentos](../relacionamentos/alex_specter_kane_relacionamentos.md).  
 **Ryan:** provocação por causa da Valk; sem interesse romântico real nele **agora**.  
 **Reina:** interesse possível, parked até NC.  
-Polycule: [crew_polycule_…](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) — **não** iniciar no Pack.
+Polycule: [crew*polycule*…](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) — **não** iniciar no Pack.
 
 ---
 
@@ -142,11 +142,12 @@ Polycule: [crew_polycule_…](../relacionamentos/crew_polycule_ryan_valk_alex_re
 
 ### Vestuário (atalho narrador)
 
-| Uso | Arquivo | Notas |
-| --- | ------- | ----- |
-| Street / all-black | `street_allblack_set.png` · `street_leather_trench.jpg` | **Dona habitual** street ousado |
-| Clube | `club_black_leather_harness_mini.png` · corset/mini | Empréstimo de gowns da Reina = ocasião |
-| Formal power | `formal_black_red_tie_suit.jpg` · harness formal | |
-| Default se vazio | card **Street** ou **Club** | |
+| Uso                | Arquivo                                                 | Notas                                  |
+| ------------------ | ------------------------------------------------------- | -------------------------------------- |
+| Street / all-black | `street_allblack_set.png` · `street_leather_trench.jpg` | **Dona habitual** street ousado        |
+| Clube              | `club_black_leather_harness_mini.png` · corset/mini     | Empréstimo de gowns da Reina = ocasião |
+| Formal power       | `formal_black_red_tie_suit.jpg` · harness formal        |                                        |
+| Default se vazio   | card **Street** ou **Club**                             |                                        |
+
 - [Relacionamentos Alex](../relacionamentos/alex_specter_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md) · **F22**
