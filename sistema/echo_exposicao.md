@@ -3,7 +3,7 @@
 **SoT** de como a Media da crew move **reputação anti-corp** vs **Heat Global** vs **Heat individual**.  
 **Arquivos ligados:** [heat.md](../heat.md) · [reputacao.md](../reputacao.md) · [ficha Echo](../fichas/media%20-%20emilia_echo_rivera.md) · [The Mule](../fichas/vehicle%20-%20the_mule.md)
 
-**Última atualização:** 2026-09-05 (kit transmissão: caveira Void List + espartana Prometheus)
+**Última atualização:** 2026-09-05 (kit transmissão + **Uncredited** = saída **F24**)
 
 ---
 
@@ -25,11 +25,13 @@
 | ------ | ---- | ------------ | ------ |
 | **Pública** (rua / Media / corps) | **Void List** | Quem ouve boato ou lê vazamento | Marca **vazia**: pesquisa não acha rastros concretos. “A **Void List** fez X.” |
 | **Interna** (crew + Kaz) | **Null** | Só quem está dentro | Código de safehouse / projeto. “Estamos no **Null**”, “volta pro **Null**.” |
+| **Saída** (pista / salão / after) | **Uncredited** | Porteiro, DJ, lista de convidados | Nome de festa. Leo + Echo. **Não** é Void List. **Não** é job. **F24**. |
 
 **Narrador:**
 
 - Vazar **Void List** → reputação e Heat **de marca** (Global), não de pessoa.  
 - **Null** em headline = quase **Nível 4** (base/projeto). **Nunca** default.  
+- **Uncredited** no feed de op = mistura de andares. Festa ≠ vazamento.  
 - Apodos de rua antigos (“os da torre”, “os que limparam a BT”) podem coexistir; a Echo **redireciona** para Void List quando puder.
 
 ---

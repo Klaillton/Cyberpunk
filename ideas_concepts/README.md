@@ -16,7 +16,7 @@
 | Origem Alex×Valk (resgate / Mule / rio) | [nota Alex](../fichas/notas_narrador/alex_specter_kane_background_consolidado.md) · Valk background § A · **F22** | Janus na mesa do Pack; Handler; Doll-ware |
 | Origem Reina (braços / surto / Doc ≠ Stitch) | [nota Reina](../fichas/notas_narrador/reina_bearclaw_morales_background.md) | Reencontro e romance no Pack |
 | L3 / timing NC | [arco_ativo.md](../board/arco_ativo.md) §5 | Ativar Alex/Reina romance agora |
-| Leopold / Prometheus (Rockerboy) | [ficha](../fichas/rockerboy%20-%20leopold_habsbruck.md) · [nota](../fichas/notas_narrador/leopold_habsbruck_background.md) · **F23** · CI **6** · slogan **O FOGO NÃO É DELES.** | “EU SÓ ANUNCIO…” = mais tarde; líder/crew **sem nome** ([07](07_leopold_red_e_prosa.md)) |
+| Leopold / Prometheus (Rockerboy) | [ficha](../fichas/rockerboy%20-%20leopold_habsbruck.md) · [nota](../fichas/notas_narrador/leopold_habsbruck_background.md) · **F23** · CI **6** · slogan **O FOGO NÃO É DELES.** · **Uncredited** (**F24**, saída) | “EU SÓ ANUNCIO…” = mais tarde; líder Zoner **sem nome** ([07](07_leopold_red_e_prosa.md)) |
 
 ---
 
@@ -31,7 +31,7 @@
 | `04_reina_valk.md` | **REVISÃO FUTURA** / overlap polycule | Amizade antes de romance — princípio ok, cenas depois |
 | `05_valk_alex.md` | **Parcial** — origem **integrada** (nota Alex / Valk § A); conflito ainda **REVISÃO FUTURA** | Alex não vilã; timing pós-crew; “job raso” **não** é SoT |
 | `06_canon_arco_resumo.md` | **REVISÃO FUTURA** (mapa do autor) | Ordem desejada, **não** agenda obrigatória da IA |
-| `07_leopold_red_e_prosa.md` | **Parcial** | Slogan **integrado**. Guardar fecho + “EU SÓ ANUNCIO…” (mais tarde). Líder/crew sem nome |
+| `07_leopold_red_e_prosa.md` | **Parcial** | Slogan + **Uncredited** (saída) integrados. “EU SÓ ANUNCIO…” = mais tarde. Líder Zoner sem nome |
 | `rockerboy_added_story.md` | **Passagem** | Esvaziar depois de integrar. Não boot |
 
 ---

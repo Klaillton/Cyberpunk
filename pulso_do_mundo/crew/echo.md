@@ -10,6 +10,7 @@
 ## Motivações Atuais
 
 - Manter o Echo Chamber gotejando sem queimar o nó.
+- Rolê **Uncredited** (saída com o Leo; ≠ Void List). **F24**.
 - Default **Fantasma (N1)** — Void List, funções, sem rosto.
 - Esperar Kaz montar a crew; o material da extração Vossler ainda é o cartão de visita.
 - Não ser Emilia de novo no screamsheet.

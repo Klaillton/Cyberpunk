@@ -135,7 +135,11 @@ Handle = **Prometheus**. Casa Habsbrück ≠ chama da parede. Slogan: **O FOGO N
 
 Ela pediu ao Ryan um kit de máscara para transmissões. Leo pentelhou o design até virar caveira. Ela **odeia** e muda a dela com frequência (rosto oculto > modelo). Ele **repinta** as caveiras a cada job. Discussão em cena: espartana (ele é Prometheus no ar) vs caveira (jobs perigosos; ela chama de qualquer coisa pejorativa). SOP: [echo_exposicao.md](../../sistema/echo_exposicao.md) §7.1.
 
-O fecho (“por que a revolução de vocês precisa de autorização”) é o contrário do princípio dela. Parked até a mesma cena. [nota Leopold](leopold_habsbruck_background.md) · **F23**.
+O fecho (“por que a revolução de vocês precisa de autorização”) é o contrário do princípio dela. Parked até a mesma cena.
+
+**Uncredited:** vocabulário dela (sem crédito, sem cartaz). Nome de **saída**, não de vazamento. Ela cravou com o Leo. A crew vai resmungar; ela já está filmando a cara deles. **F24**.
+
+[nota Leopold](leopold_habsbruck_background.md) · **F23**.
 
 ---
 

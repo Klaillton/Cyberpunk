@@ -146,6 +146,7 @@ O acidente quebrou olho, ouvido, ficar de pé. O corpo foi consertado para ela n
 **Valkirya:** “nunca abandona” acerta a pergunta da van — respeito, não identificação. Handle **Valkirya** (F21).  
 **Kaz:** recrutou pelo encaixe Void List × voz.  
 **Leopold / Prometheus:** megafone, não clone. Ela corta; ele ocupa a parede. Pediu máscara ao Ryan; Leo pentelhou até virar **caveira** — ela odeia e troca a dela. Discussão em cena: caveira vs espartana. Off-screen. **F23**.  
+**Uncredited:** nome de **saída** que os dois cravaram. ≠ Void List. ≠ Kaz. Ela topa o rolê; o anúncio constrange a crew — problema do futuro, se tiver barra. **F24**.  
 Detalhe: [nota](notas_narrador/emilia_echo_rivera_background.md) · [crew](../relacionamentos/crew_relacionamentos.md).
 
 **Objetivo:** lenda urbana anti-corp **sem** devolver Emilia ao screamsheet.

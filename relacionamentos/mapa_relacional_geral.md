@@ -113,7 +113,7 @@ Motor: [pulso_procedimento.md](../sistema/pulso_procedimento.md) · Índice: [pu
 | [alex_specter_kane_relacionamentos.md](alex_specter_kane_relacionamentos.md) | Relações de Alex |
 | [lena_valk_kane_relacionamentos.md](lena_valk_kane_relacionamentos.md) | Relações de Valk |
 | [reina_bearclaw_morales_relacionamentos.md](reina_bearclaw_morales_relacionamentos.md) | Relações de Reina |
-| [leopold_habsbruck_relacionamentos.md](leopold_habsbruck_relacionamentos.md) | Relações de Leopold (Rockerboy; off-screen NC) |
+| [leopold_habsbruck_relacionamentos.md](leopold_habsbruck_relacionamentos.md) | Relações de Leopold (Rockerboy; off-screen NC) · **Uncredited** = saída **F24** |
 
 ---
 

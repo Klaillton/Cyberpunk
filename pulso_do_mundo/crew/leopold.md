@@ -12,6 +12,7 @@
 ## Motivações Atuais
 
 - Pintar a chama + **O FOGO NÃO É DELES.** Gravar. Circular Prometheus — sem virar celebridade de arena.
+- Empurrar a crew para a pista / o salão (**Uncredited**). Echo e Alex topam. **F24**.
 - Acompanhar Echo se ela entrar em job (ele vai atrás).
 - Acreditar que vive por conta das doações.
 - Não ser o filho do chairman na rua.

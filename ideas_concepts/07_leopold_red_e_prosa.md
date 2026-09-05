@@ -16,7 +16,8 @@ Notas pontuais novas: [rockerboy_added_story.md](rockerboy_added_story.md) (esva
 - Vídeo agora: abre com o slogan; pode fechar com a pergunta da autorização
 - CI **6** · 62 stats · 100 skills · fashionware HL 0 · ~1,72 m
 - Primeiro encontro Zoners → semanas → volta quieta → Prometheus no quarto
-- **Sem** nome do líder Zoner. **Sem** nome da crew
+- **Sem** nome do líder Zoner. **Sem** nome profissional da crew
+- **Uncredited** = nome de **saída** (Leo + Echo). ≠ Void List. ≠ Kaz. ≠ Prometheus. **F24**
 - Kit transmissão: caveira (Leo pinta cada job) vs espartana (Prometheus só se o job for a mensagem dele) — [echo_exposicao §7.1](../sistema/echo_exposicao.md)
 - Segundo encontro Zoners / resgate da crew = parked
 

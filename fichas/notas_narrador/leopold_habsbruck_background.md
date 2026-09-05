@@ -166,7 +166,9 @@ A crew não precisa compartilhar a causa. Ele é útil: influência, portas, gen
 
 Núcleo avoado: Echo + Alex + Leopold (motivos diferentes). Eixo pragmático: Ryan / Valkirya / Reina. Jax só se houver briga.
 
-**Parked:** segundo encontro Zoners; resgate da crew. **Sem** nome do líder. **Sem** nome da crew. Slogan futuro (“EU SÓ ANUNCIO…”) — **não** aos 21.
+**Saídas:** ele empurra a crew para NC — rave e high society, os dois contatos são dele. Echo e Alex topam. Nome de porta: **Uncredited** (ele + ela). A crew faz WTF, olha para os dois, segue se tiver copo. Job ≠ festa. **F24**.
+
+**Parked:** segundo encontro Zoners; resgate da crew. **Sem** nome do líder. **Sem** nome profissional da crew. Slogan futuro (“EU SÓ ANUNCIO…”) — **não** aos 21.
 
 ---
 

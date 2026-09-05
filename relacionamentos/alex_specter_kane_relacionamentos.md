@@ -42,7 +42,7 @@ Alex é sarcástica, provocadora e tem um humor afiado. Gosta de cutucar as din�
 - **Status:** Energia de irmãos mais velhos / caçula (ela nega responsabilidade)
 - **Intensidade:** Média
 - **Tipo:** Brincadeira, provocação
-- **Notas:** Núcleo avoado com Echo — motivos diferentes. Sem romance. Off-screen até NC. [ficha](../fichas/rockerboy%20-%20leopold_habsbruck.md) · **F23**.
+- **Notas:** Núcleo avoado com Echo — motivos diferentes. Sem romance. Apoia o rolê **Uncredited** (saída; Leo + Echo batizaram) — constranger Ryan faz parte da graça. Off-screen até NC. [ficha](../fichas/rockerboy%20-%20leopold_habsbruck.md) · **F23** · **F24**.
 
 ### Potencial (estacionado)
 

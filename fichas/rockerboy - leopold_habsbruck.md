@@ -189,6 +189,8 @@ A presença dele começou menos ideológica do que ele gostaria de admitir. Kaz 
 **Ryan:** trata o “grande revolucionário” como mais um cara que precisa parar de atrapalhar enquanto ele trabalha — e mesmo assim respeita quem sobe à parede.  
 **Alex:** núcleo avoado com Echo (motivos diferentes). Eixo Ryan / Valkirya / Reina é o pragmático.
 
+**Saídas NC:** ele é quem mais empurra a crew para a pista e para o salão — tem contato nos dois lados. Nome de porta: **Uncredited** (ele + Echo). Job continua Void List. Ele continua Prometheus. **F24**.
+
 Detalhe: [nota](notas_narrador/leopold_habsbruck_background.md) · [relacionamentos](../relacionamentos/leopold_habsbruck_relacionamentos.md) · [crew](../relacionamentos/crew_relacionamentos.md).
 
 ---
@@ -196,7 +198,7 @@ Detalhe: [nota](notas_narrador/leopold_habsbruck_background.md) · [relacionamen
 ## Parked (não fecha a ficha)
 
 - Segundo encontro com os Zoners / resgate da crew.
-- **Sem** nome do líder Zoner. **Sem** nome da crew por enquanto.
+- **Sem** nome do líder Zoner. **Sem** nome profissional da crew (job = Void List / Kaz).
 - **Mais tarde na vida (não agora):** “EU SÓ ANUNCIO, chooms. Estou só iluminando o caminho. A revolução é de vocês.” — ver nota. Não usar aos 21.
 
 Notas pontuais: [ideas_concepts/rockerboy_added_story.md](../ideas_concepts/rockerboy_added_story.md) (esvaziar depois de integrar).

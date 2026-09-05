@@ -17,7 +17,7 @@ Não há arco romântico. Homem na crew para variedade de elenco, não para tens
 - **Status:** Parceria criativa / profissional
 - **Intensidade:** Alta
 - **Tipo:** Megafone + arquivo (complementares, não a mesma Role)
-- **Notas:** Echo (Media, ~29) encontra e documenta; Leopold transforma algumas histórias em mensagem pública. Conflito possível: ela quer que a história sobreviva e controla exposição; ele quer impacto na rua. Ficha: [media - emilia_echo_rivera.md](../fichas/media%20-%20emilia_echo_rivera.md). Se ela entra em job, ele vai atrás — **quando os dois estiverem em NC**.
+- **Notas:** Echo (Media, ~29) encontra e documenta; Leopold transforma algumas histórias em mensagem pública. Conflito possível: ela quer que a história sobreviva e controla exposição; ele quer impacto na rua. Juntos batizaram **Uncredited** (saída, **F24**). Ficha: [media - emilia_echo_rivera.md](../fichas/media%20-%20emilia_echo_rivera.md). Se ela entra em job, ele vai atrás — **quando os dois estiverem em NC**.
 
 ### Kaz "The Broker" Takahashi
 

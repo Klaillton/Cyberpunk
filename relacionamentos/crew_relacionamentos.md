@@ -1,7 +1,7 @@
 # Relacionamentos da Crew
 
 **Grupo:** Crew atual (Ryan, Valk, Alex, Reina, Kaz, Stitch, Jax, Echo, Leopold)  
-**Última atualização:** 04 de Setembro de 2026 (Leopold Rockerboy — ficha mini, off-screen NC)
+**Última atualização:** 05 de Setembro de 2026 (Uncredited = nome de saída)
 
 > **Crew NC = off-screen.** Ryan+Valk estão no Pack. Alex, Reina, Kaz, Stitch, Jax, Echo, Leopold **não** estão em cena.  
 > Soft-canon (Moreau, latentes, polycule, Reina-não-reconhece) vive em [ideas_concepts/](../ideas_concepts/README.md) e no [polycule](crew_polycule_ryan_valk_alex_reina.md). **Nada disso está ativo** até a crew se reunir em NC. Lira/Sasha = camada Pack, outra história.
@@ -22,7 +22,7 @@
 | Emilia "Echo" Rivera | Ryan "Wireghost" Voss | Admiração técnica + flerte leve         | Baixa-Média | Em formação        | Anti-Echo: ele constrói sem aparecer. Flerte é residual. Recrutada por Kaz. |
 | Emilia "Echo" Rivera | Lena “Valkirya” Kane | Respeito                                 | Baixa-Média | Em formação        | “Nunca abandona” acerta a pergunta irracional da van — não identificação |
 | Emilia "Echo" Rivera | Kaz Takahashi       | Aliança profissional                      | Média       | Estável            | Kaz recrutou Echo pelo encaixe Void List × voz |
-| Emilia "Echo" Rivera | Leopold Habsbrück   | Parceria criativa (megafone + arquivo)    | Alta        | Off-screen (NC)    | Ela corta; ele pinta. Roles diferentes. **F23** |
+| Emilia "Echo" Rivera | Leopold Habsbrück   | Parceria criativa (megafone + arquivo)    | Alta        | Off-screen (NC)    | Ela corta; ele pinta. **Uncredited** = saída (**F24**). **F23** |
 | Leopold Habsbrück   | Kaz Takahashi       | Contrato + enxaqueca                      | Alta        | Off-screen (NC)    | Kaz o mantém vivo; job = nota do narrador |
 | Leopold Habsbrück   | Ryan "Wireghost" Voss | Pragmático vs ideólogo                  | Média       | Off-screen (NC)    | Ryan respeita quem sobe a parede; “rico no grafite” |
 
@@ -34,6 +34,7 @@
 - **Reina → Ryan (canon de ficha, inativo em cena):** Ela sabe dos braços; ele não lembra (Doc Moreau, não Stitch). Só vira cena **no reencontro NC**.
 - **Echo → Ryan / Valkirya (canon de ficha, inativo em cena):** ver [emilia_echo_rivera_background.md](../fichas/notas_narrador/emilia_echo_rivera_background.md). Não puxar o fio do acidente no Pack.
 - **Leopold (canon de ficha, inativo em cena):** Rockerboy **Prometheus** — máscara + chama de três linhas; megafone da Echo, não clone dela. Habsbrück ≠ chama. Sem romance. Background: [leopold_habsbruck_background.md](../fichas/notas_narrador/leopold_habsbruck_background.md). **F23**. CI **6**.
+- **Uncredited (nome de saída, latente):** Leo + Echo batizaram. Pista / salão / after — **não** é Void List, **não** é “crew do Kaz”, **não** é Prometheus. Leo arranja o rolê (high society e rave); Echo e Alex apoiam. Anúncio → WTF + olhares para os dois → a crew deixa pra lá se tiver bebida. **Não** usar no feed de job. **F24**. Off-screen até NC.
 - **Polycule / Alex×Valk passado / fases 1–11:** [ideas_concepts](../ideas_concepts/README.md) + [polycule](crew_polycule_ryan_valk_alex_reina.md). **Desejado, não obrigatório. Não iniciar** até a crew estar junta em NC.
 - **Sobrenomes coincidentes (sem parentesco):** Kane (Valk/Alex/Jax) e Voss (Ryan/Stitch). Rivera (Echo) ≠ Rivera (Steel).
 
