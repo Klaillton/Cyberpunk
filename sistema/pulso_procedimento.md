@@ -166,6 +166,7 @@ Registrar catalisador ativo no topo de `pulso_geral.md` (seção *Catalisadores 
 | [stephania_stitch.md](../pulso_do_mundo/crew/stephania_stitch.md) | NC / remoto |
 | [jax.md](../pulso_do_mundo/crew/jax.md) | NC / remoto |
 | [echo.md](../pulso_do_mundo/crew/echo.md) | Echo (NC / futuro; ≠ Steel) |
+| [leopold.md](../pulso_do_mundo/crew/leopold.md) | Leopold (NC / futuro; handle em aberto; **F23**) |
 
 **Template:** [template_pulso_npc.md](../pulso_do_mundo/template_pulso_npc.md)
 

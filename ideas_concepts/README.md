@@ -16,6 +16,7 @@
 | Origem Alex×Valk (resgate / Mule / rio) | [nota Alex](../fichas/notas_narrador/alex_specter_kane_background_consolidado.md) · Valk background § A · **F22** | Janus na mesa do Pack; Handler; Doll-ware |
 | Origem Reina (braços / surto / Doc ≠ Stitch) | [nota Reina](../fichas/notas_narrador/reina_bearclaw_morales_background.md) | Reencontro e romance no Pack |
 | L3 / timing NC | [arco_ativo.md](../board/arco_ativo.md) §5 | Ativar Alex/Reina romance agora |
+| Leopold Rockerboy (conceito + crew NC) | [ficha mini](../fichas/rockerboy%20-%20leopold_habsbruck.md) · [nota](../fichas/notas_narrador/leopold_habsbruck_background.md) · **F23** | Handle, símbolo, gangue, tabela RED ([07](07_leopold_red_e_prosa.md)) |
 
 ---
 
@@ -30,6 +31,7 @@
 | `04_reina_valk.md` | **REVISÃO FUTURA** / overlap polycule | Amizade antes de romance — princípio ok, cenas depois |
 | `05_valk_alex.md` | **Parcial** — origem **integrada** (nota Alex / Valk § A); conflito ainda **REVISÃO FUTURA** | Alex não vilã; timing pós-crew; “job raso” **não** é SoT |
 | `06_canon_arco_resumo.md` | **REVISÃO FUTURA** (mapa do autor) | Ordem desejada, **não** agenda obrigatória da IA |
+| `07_leopold_red_e_prosa.md` | **REVISÃO FUTURA** | Handle, símbolo, gangue, tabela RED. Ficha mini + nota **já** na linha estável. **Não** boot |
 
 ---
 
@@ -49,4 +51,4 @@
 - Visita E011 pedida in-game.  
 - Decisão de mesa sobre latentes vs Ruleset 1.0.0/1.3.0 (1 crisis / sem unlock permanente já esboçado nos gatilhos).
 
-**Última curadoria:** 2026-08-23
+**Última curadoria:** 2026-09-04 (Leopold: ficha mini integrada; stats/handle ainda aqui)

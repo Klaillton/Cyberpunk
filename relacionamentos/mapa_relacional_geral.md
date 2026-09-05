@@ -33,6 +33,7 @@
 | Dr. Stephania "Stitch" Voss | [medtech - stephania_stitch_voss.md](../fichas/medtech%20-%20stephania_stitch_voss.md) | [crew_relacionamentos.md](crew_relacionamentos.md) | roupa: [crew_guarda_roupas](../fichas/crew_guarda_roupas.md); [ryan_relacionamentos](ryan_relacionamentos.md); **não** confundir com Elisa "Doc" Moreau |
 | Jax "Razor" Kane | [solo - jax_razor_kane.md](../fichas/solo%20-%20jax_razor_kane.md) | [crew_relacionamentos.md](crew_relacionamentos.md) · [ryan](ryan_relacionamentos.md) | [background](../fichas/notas_narrador/jax_razor_kane_background.md); [pulso](../pulso_do_mundo/crew/jax.md); **F06** · **F14** ≠ Scout |
 | Emilia "Echo" Rivera | [media - emilia_echo_rivera.md](../fichas/media%20-%20emilia_echo_rivera.md) | [crew_relacionamentos.md](crew_relacionamentos.md) · [ryan](ryan_relacionamentos.md) | [background](../fichas/notas_narrador/emilia_echo_rivera_background.md); [exposição](../sistema/echo_exposicao.md); [pulso](../pulso_do_mundo/crew/echo.md); roupa: [crew_guarda_roupas](../fichas/crew_guarda_roupas.md); **F06** · **F20** ≠ Steel |
+| Leopold von und zu Habsbrück | [rockerboy - leopold_habsbruck.md](../fichas/rockerboy%20-%20leopold_habsbruck.md) | [leopold_habsbruck_relacionamentos.md](leopold_habsbruck_relacionamentos.md) · [crew](crew_relacionamentos.md) · [ryan](ryan_relacionamentos.md) | [background](../fichas/notas_narrador/leopold_habsbruck_background.md); [pulso](../pulso_do_mundo/crew/leopold.md); stats/handle: [ideas_concepts/07](../ideas_concepts/07_leopold_red_e_prosa.md); **F06** · **F23** · off-screen NC · ≠ Echo |
 
 ---
 
@@ -88,6 +89,7 @@ Motor: [pulso_procedimento.md](../sistema/pulso_procedimento.md) · Índice: [pu
 | Scout | [scout.md](../pulso_do_mundo/pack_badlands/scout.md) | Badlands |
 | Jax "Razor" Kane | [jax.md](../pulso_do_mundo/crew/jax.md) | NC / remoto — crew |
 | Echo | [echo.md](../pulso_do_mundo/crew/echo.md) | NC / futuro — crew; ≠ Steel |
+| Leopold | [leopold.md](../pulso_do_mundo/crew/leopold.md) | NC / futuro — crew; handle em aberto; **F23** |
 
 ---
 
@@ -111,6 +113,7 @@ Motor: [pulso_procedimento.md](../sistema/pulso_procedimento.md) · Índice: [pu
 | [alex_specter_kane_relacionamentos.md](alex_specter_kane_relacionamentos.md) | Relações de Alex |
 | [lena_valk_kane_relacionamentos.md](lena_valk_kane_relacionamentos.md) | Relações de Valk |
 | [reina_bearclaw_morales_relacionamentos.md](reina_bearclaw_morales_relacionamentos.md) | Relações de Reina |
+| [leopold_habsbruck_relacionamentos.md](leopold_habsbruck_relacionamentos.md) | Relações de Leopold (Rockerboy; off-screen NC) |
 
 ---
 

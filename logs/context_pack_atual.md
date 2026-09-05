@@ -85,7 +85,7 @@ Residual íntimo **alto**. Paz física 01/08. Chat **023 contaminado** (Night Ci
 | F01–F02 | Branch `feature/linha-estavel`; arquivos = SoT |
 | **F03** | Warden = drone **terrestre** scorpion (**não voa**) |
 | **F04** | **Stitch** = Stephania (crew); **Doc** = Elisa Moreau (passado) |
-| **F06** | Crew NC inclui **Echo** (Media) — off-screen; ≠ Steel Rivera |
+| **F06** | Crew NC inclui **Echo** (Media) e **Leopold** (Rockerboy) — off-screen; Echo ≠ Steel; Leopold = **F23** |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
 | F07 | Ryan × Valk consolidados (**acordo 019 = perguntar, não cobrar** + intimidade 020–024) |
@@ -96,6 +96,7 @@ Residual íntimo **alto**. Paz física 01/08. Chat **023 contaminado** (Night Ci
 | **F18** | Ruleset **v1.3.0** · 017+ · sem retcon 001–016 |
 | **F19** | Agents: Vault / Profissional / Honeypot / Arbiter/Watchdog ≠ Warden |
 | **F20** | **Sparrow** = Lina Park (NPC); **Steel** = Marcus Rivera (NPC) — **não** sistemas; Steel **≠** Echo |
+| **F23** | **Leopold** = Rockerboy crew NC, off-screen; handle em aberto; Habsbrück ≠ persona; ≠ Echo |
 
 Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 

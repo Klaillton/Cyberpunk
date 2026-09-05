@@ -37,6 +37,13 @@ Alex é sarcástica, provocadora e tem um humor afiado. Gosta de cutucar as din�
 - **Tipo:** Romântico (unilateral)
 - **Notas:** Alex também demonstra interesse em Reina. Pode tentar se aproximar dela no futuro. **Parked** até NC.
 
+### Leopold von und zu Habsbrück
+
+- **Status:** Energia de irmãos mais velhos / caçula (ela nega responsabilidade)
+- **Intensidade:** Média
+- **Tipo:** Brincadeira, provocação
+- **Notas:** Núcleo avoado com Echo — motivos diferentes. Sem romance. Off-screen até NC. [ficha](../fichas/rockerboy%20-%20leopold_habsbruck.md) · **F23**.
+
 ### Potencial (estacionado)
 
 - Soft-canon: atração antiga Alex×Valk; Alex **não** é vilã; timing **depois** da crew junta.  

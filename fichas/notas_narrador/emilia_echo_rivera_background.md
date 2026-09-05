@@ -125,6 +125,16 @@ Default de vazamento: **Nível 1 Fantasma**. Espetáculo da marca, não close no
 
 ---
 
+## Leopold (o *porquê*)
+
+Rockerboy da crew — máscara, grafite, vídeo. **Não** é a Role dela. Ele é o megafone; ela é o arquivo.
+
+Desafia o princípio (“preciso controlar a verdade que chega ao público”) com o inverso: o público decide o que a história significa. Tensão útil. **Parked** até reencontro NC. Sem beat no Pack.
+
+Handle/persona dele **em aberto**. Casa Habsbrück ≠ marca da parede. [nota Leopold](leopold_habsbruck_background.md) · **F23**.
+
+---
+
 ## Trauma — o que *não* adicionar
 
 Sem abuso extra, família morta, tortura, infância miserável. O interessante nela é que era uma pessoa relativamente normal transformada pelas consequências das próprias escolhas e pelo mundo em que decidiu trabalhar.
@@ -137,4 +147,5 @@ Sem abuso extra, família morta, tortura, infância miserável. O interessante n
 - [Job 001 Vossler](../../logs/job_001_extracao_vossler.md)
 - [Echo exposição](../../sistema/echo_exposicao.md)
 - [Crew](../../relacionamentos/crew_relacionamentos.md) · [Ryan](../../relacionamentos/ryan_relacionamentos.md)
+- [Leopold](../rockerboy%20-%20leopold_habsbruck.md) · [nota Leopold](leopold_habsbruck_background.md)
 - [Pulso](../../pulso_do_mundo/crew/echo.md)

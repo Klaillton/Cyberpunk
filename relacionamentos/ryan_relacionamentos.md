@@ -16,6 +16,7 @@
 | Dr. Stephania "Stitch" Voss | Confiança             | Respeito                     | Média-Alta  | Estável            | Aliada / MedTech da crew (sem parentesco) |
 | Jax "Razor" Kane         | Respeito              | Respeito                     | Baixa       | Off-screen (NC)    | Solo da crew; ≠ Scout (F14) |
 | Emilia "Echo" Rivera     | Curiosidade / cautela | Admiração técnica + flerte leve | Baixa-Média | Off-screen (NC)    | Media da crew; Void List; ≠ Steel |
+| Leopold von und zu Habsbrück | Cautela / humor seco | Quer estar onde as coisas acontecem | Média | Off-screen (NC) | Rockerboy; máscara + grafite; **F23**; handle em aberto |
 
 ---
 
@@ -238,6 +239,17 @@ Tarde 01/08 com Valk sem abrir canal. Intercepto Raffen 02/08 (Valk no volante).
 - Sobrenome Rivera **≠** Marcus “Steel” Rivera (**F20**).
 - Ficha: [media - emilia_echo_rivera.md](../fichas/media%20-%20emilia_echo_rivera.md) · nota: [emilia_echo_rivera_background.md](../fichas/notas_narrador/emilia_echo_rivera_background.md) · pulso: [echo.md](../pulso_do_mundo/crew/echo.md)
 
+### Leopold von und zu Habsbrück
+
+**Status:** Rockerboy da crew (NC, off-screen)  
+**Intensidade:** Média  
+**Última atualização:** 04 de Setembro de 2026
+
+- Máscara + grafite. Kaz o trouxe / o mantém vivo. Parceria com Echo (ela corta; ele pinta).
+- Ryan faz as perguntas desagradáveis (“então és um rico a fazer grafite”). Não odeia. Respeita quem sobe a parede.
+- **Não** está no Pack. **Não** puxar teia Habsbrück / avó / job do Kaz. Handle **em aberto**.
+- Ficha: [rockerboy - leopold_habsbruck.md](../fichas/rockerboy%20-%20leopold_habsbruck.md) · nota: [leopold_habsbruck_background.md](../fichas/notas_narrador/leopold_habsbruck_background.md) · pulso: [leopold.md](../pulso_do_mundo/crew/leopold.md) · **F23**
+
 ---
 
 ## RISCOS E CONFLITOS POTENCIAIS
@@ -291,7 +303,7 @@ Ryan já construiu uma **boa relação com a maioria do Pack**. Ele é visto com
 ## Referências
 
 - [Mapa Relacional Geral](mapa_relacional_geral.md) · [Crew](crew_relacionamentos.md) · [Polycule](crew_polycule_ryan_valk_alex_reina.md) · [Facções](faccao_relacionamentos.md)
-- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ficha Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Ficha Echo](../fichas/media%20-%20emilia_echo_rivera.md) · [Ficha Jax](../fichas/solo%20-%20jax_razor_kane.md)
+- [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Ficha Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Ficha Echo](../fichas/media%20-%20emilia_echo_rivera.md) · [Ficha Jax](../fichas/solo%20-%20jax_razor_kane.md) · [Ficha Leopold](../fichas/rockerboy%20-%20leopold_habsbruck.md)
 - **Individuais:** [Valk](lena_valk_kane_relacionamentos.md) · [Alex](alex_specter_kane_relacionamentos.md) · [Reina](reina_bearclaw_morales_relacionamentos.md)
 - **Notas do Narrador:** [Background Ryan](../fichas/notas_narrador/ryan_background_completo.md) · [Gatilhos Ryan](../fichas/notas_narrador/ryan_gatilhos_memorias.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md) · [Reputação](../reputacao.md)

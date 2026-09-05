@@ -48,6 +48,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Background Reina (narrador) | `fichas/notas_narrador/reina_bearclaw_morales_background.md` | Braços / Doc / Stitch; backstory ≠ mesa; reencontro parked |
 | Background Echo (narrador) | `fichas/notas_narrador/emilia_echo_rivera_background.md` | Backstory ≠ mesa; Void List; ≠ Steel Rivera (F20) |
 | Background Jax (narrador) | `fichas/notas_narrador/jax_razor_kane_background.md` | Combate ≠ guerra; placar; Militech = carreira ≠ vendetta; ≠ mesa; off-screen NC |
+| Background Leopold (narrador) | `fichas/notas_narrador/leopold_habsbruck_background.md` | Rockerboy; máscara + grafite; teia Habsbrück / avó / Kaz = nota; ≠ Echo; **F23**; off-screen NC |
+| Ficha Leopold (Rockerboy) | `fichas/rockerboy - leopold_habsbruck.md` | Rel [leopold_habsbruck_relacionamentos.md](../relacionamentos/leopold_habsbruck_relacionamentos.md); pulso `pulso_do_mundo/crew/leopold.md`; stats/handle = [ideas_concepts/07](../ideas_concepts/07_leopold_red_e_prosa.md) **não** tier-0 |
 | Histórico de sessão | `logs/sessao_resumo_XXX.md` | Arquivos listados na seção "Arquivos Atualizados" de cada resumo |
 | Detalhes de job / gig concluído | `logs/job_XXX_*.md` | `logs/sessao_resumo_*.md`, `consequencias/consequencias_persistentes.md`, `heat.md` |
 | Incidente narrativo marcante (combate, confronto) | `logs/incidente_XXX_*.md` | `consequencias/consequencias_persistentes.md`, `event_queue.md`, sessões |
@@ -88,7 +90,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 
 ## Estrutura Geral do Projeto
 
-O índice de árvore e o restante deste arquivo permanecem como na SoT 30/08 (Jax + Echo indexados). Próximo resumo: **025**.
+O índice de árvore e o restante deste arquivo permanecem como na SoT 30/08 (Jax + Echo indexados). **2026-09-04:** Leopold (Rockerboy) indexado — ficha mini + nota + pulso; stats/handle em `ideas_concepts/07` (não tier-0). Próximo resumo: **025**.
 
 ---
 

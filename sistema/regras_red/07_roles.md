@@ -1,7 +1,7 @@
 ---
-version: 1.0.0
+version: 1.0.1
 status: stable
-last_updated: 2026-08-07
+last_updated: 2026-09-04
 source: Cyberpunk RED core (resumo operacional) + fichas da crew
 ---
 
@@ -94,13 +94,29 @@ Ryan **não** usa Moto por default.
 
 ---
 
+## Rockerboy — Charismatic Impact (Leopold)
+
+| Campo | Valor |
+| ----- | ----- |
+| Ficha | [rockerboy - leopold_habsbruck.md](../../fichas/rockerboy%20-%20leopold_habsbruck.md) |
+| Charismatic Impact | **rank a definir** — **não** usar em mesa até a ficha RED fechar |
+| Soft | [ideas_concepts/07](../../ideas_concepts/07_leopold_red_e_prosa.md) |
+
+**Em mesa (quando o rank existir):** influência / audiência / presença urbana (grafite + vídeo de máscara), não plateia de arena. Off-screen até NC (**F23**). ≠ Credibility da Echo.
+
+---
+
 ## Outras roles
 
-Lawman / Exec / Rockerboy / etc.: **não na crew** — se aparecer NPC, criar bloco ou usar skill genérica até expandir.
+Lawman / Exec / etc.: **não na crew** — se aparecer NPC, criar bloco ou usar skill genérica até expandir.
 
 ---
 
 ## Changelog
+
+### 1.0.1 — 2026-09-04
+
+- Bloco Rockerboy (Leopold) — CI rank **a definir**; não usar até a ficha RED.
 
 ### 1.0.0 — 2026-08-07
 

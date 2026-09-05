@@ -29,13 +29,14 @@
 | **F03** | **Warden** = drone **terrestre** scorpion-like (modo mochila/transporte). **Não voa** | Ficha Ryan |
 | **F04** | **Stitch** = Dr. Stephania Voss (MedTech da **crew**). **Doc** = Elisa “Doc” Moreau (passado de Ryan). Nunca trocar os nomes | [Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Doc](../fichas/npc/elisa_doc_moreau.md) |
 | **F05** | Ryan e Stephania compartilham sobrenome **Voss** por coincidência — **sem parentesco** | Ficha Stitch / ryan_relacionamentos |
-| **F06** | Protagonista jogável: **Ryan “Wireghost” Voss** (Techie). Valkirya, Alex, Reina, Kaz, Stitch, **Jax “Razor” Kane**, **Emilia “Echo” Rivera** (Media) = **crew** (NC) | mapa_relacional |
+| **F06** | Protagonista jogável: **Ryan “Wireghost” Voss** (Techie). Valkirya, Alex, Reina, Kaz, Stitch, **Jax “Razor” Kane**, **Emilia “Echo” Rivera** (Media), **Leopold von und zu Habsbrück** (Rockerboy) = **crew** (NC) | mapa_relacional |
 | **F14** | **Scout** = sentinela/recon do Pack Badlands (apelido; scavs). **≠** Jax **“Razor” Kane** (Solo crew). Razor **não** está nas Badlands | [scout.md](../fichas/npc/scout.md) |
 | **F20** | **Sparrow** = **Lina “Sparrow” Park** (contato/fixer, **pessoa**). **Steel** = **Marcus “Steel” Rivera** (contato, **pessoa**). Handles de rádio **≠** sistema/drone/protocolo. Steel **≠** Emilia “Echo” **Rivera** | [lina_park](../fichas/npc/lina_park.md) · [marcus_steel_rivera](../fichas/npc/marcus_steel_rivera.md) |
 | **F07** | Ryan × Valkirya = relação **consolidada** (amor declarado); ela costuma escolher roupa em saídas | ryan / lena relacionamentos; guarda-roupa |
 | **F08** | **The Mule** = veículo dela; equipe operacional **Valk + Mule** (atalho de mesa) | vehicle - the_mule; ficha |
 | **F21** | Handle de rua = **Valkirya**. **Valk** = apelido **carinhoso do Ryan**. Nome civil: Lena Kane. Outros (Pack, crew, jobs, Echo) usam **Valkirya** ou Lena, não “Valk”, salvo se tiverem pego o apelido dele. **Sem retcon** de logs/diálogos já gravados | ficha nomad · este arquivo |
 | **F22** | Mentor/companheiro NET de **Alex “Specter” Kane** = **Janus** (nunca “Handler”). Natureza e fragmentos = só a [nota do narrador](../fichas/notas_narrador/alex_specter_kane_background_consolidado.md). Ryan, Pack e Valkirya **não** sabem que Janus é IA. Não narrar Janus em cena do Pack. Não usar Janus como segundo PC / Interface extra. Interface dela = **6** (3 NET Actions) | ficha Alex · nota |
+| **F23** | **Leopold von und zu Habsbrück** = Rockerboy da crew (NC, off-screen). Handle/persona **em aberto**. Casa **Habsbrück** ≠ marca da parede. ≠ Echo. Avó / teia / job do Kaz = **só** [nota do narrador](../fichas/notas_narrador/leopold_habsbruck_background.md). Stats RED = [ideas_concepts/07](../ideas_concepts/07_leopold_red_e_prosa.md) (**não** SoT). Não narrar no Pack | ficha rockerboy · nota |
 | **F09** | Job 001 (extração Vossler / Biotechnica) e incursões Raffen são **passados registrados** em `logs/` — não reinventar o outcome | job_001, incidentes, sessões |
 | **F10** | NPCs só sabem o que viram/ouviram in-fiction (**anti meta-game**) | diretrizes_narrador |
 | **F11** | Casas modulares dobráveis = projeto de Ryan; time produção + Tio Gringo sabem; **pack geral** sem anúncio oficial completo (E014: produção ok; revelação pública adiada / E012) | board / event_queue E012·E014 |
@@ -74,6 +75,7 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 - Não tratar Jax como vendetta anti-Militech nem como tema de cyberpsychosis. Off-screen até NC / job conjunto.
 - Não narrar **Sparrow** / **Steel** como software, modo Agent ou tipo de sinal — são **NPCs** (**F20**).
 - Não despejar backstory da **Echo** (acidente, Correção Editorial, Chamber, flerte) numa cena do Pack. Off-screen até reencontro NC. ≠ Steel Rivera.
+- Não narrar **Leopold** no Pack. Não despejar teia Habsbrück / avó / job do Kaz / grafite na cerca. Handle em aberto. ≠ Echo. Stats RED **não** SoT (**F23**).
 - Não fazer Valkirya chamar Ryan de **“herói”** / **“herói solitário”** (bordão ou “combinado?”) — promessa 14/07; gatilho que dói (**F15**). Usar *não vai sozinho*, *planeja comigo*, *leva o time*.
 - Não reabrir Valkirya no boot como briefing/CO se o pack diz residual íntimo. Acordo 019 = **perguntar** uma vez antes de vetar; idle relacional ≠ “Valk cobra o plano”.
 - Não tratar **Valk** como handle de rua. Handle = **Valkirya**. **Valk** = só Ryan (carinho), salvo NPC que tenha pego o apelido (**F21**). Logs antigos **não** reescrever.
