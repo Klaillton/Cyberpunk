@@ -2,7 +2,7 @@
 
 **Finalidade:** Arquivo para registrar facções menores, grupos passageios ou informações superficiais que ainda não foram aprofundadas.
 
-**Última atualização:** 20 de Julho de 2026 (sessão 012; backfill 23/07)
+**Última atualização:** 05 de Setembro de 2026 (stub Zoners — backstory Leopold; não em cena)
 
 ---
 
@@ -38,6 +38,14 @@ A crew realizou uma operação limpa contra a Biotechnica. Ainda não há confir
 ## Outras Facções / Grupos
 
 Este espaço está reservado para registrar rapidamente outros grupos ou facções que aparecerem de forma superficial durante a campanha, sem necessidade de arquivo individual no momento.
+
+### Zoners (célula local — South Night City)
+
+**Status com o Jogador:** Latente (backstory Leopold; **não** em cena)
+
+**Resumo:** Movimento/comunidade de South NC (organização, protesto, gente armada em células). **Não** são Voodoo Boys. A célula do primeiro encontro do Leo é local — fora de duas ou três ruas, ninguém sabe quem são. Líder sem nome canônico até a mesa fechar. Segundo encontro / resgate da crew = **parked**.
+
+**Notas:** ver [nota Leopold](../fichas/notas_narrador/leopold_habsbruck_background.md). Não puxar no Pack.
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Última atualização:** 04 de Setembro de 2026  
 **Estado de cena:** **Off-screen em Night City.** Não está no Pack. Sem beat até reencontro / job com Echo.  
-**Background:** [nota do narrador](../fichas/notas_narrador/leopold_habsbruck_background.md) · **F23**.
+**Background:** [nota do narrador](../fichas/notas_narrador/leopold_habsbruck_background.md) · **F23** · handle **Prometheus**.
 
 ## Visão Geral
 

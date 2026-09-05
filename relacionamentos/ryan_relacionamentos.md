@@ -16,7 +16,7 @@
 | Dr. Stephania "Stitch" Voss | Confiança             | Respeito                     | Média-Alta  | Estável            | Aliada / MedTech da crew (sem parentesco) |
 | Jax "Razor" Kane         | Respeito              | Respeito                     | Baixa       | Off-screen (NC)    | Solo da crew; ≠ Scout (F14) |
 | Emilia "Echo" Rivera     | Curiosidade / cautela | Admiração técnica + flerte leve | Baixa-Média | Off-screen (NC)    | Media da crew; Void List; ≠ Steel |
-| Leopold von und zu Habsbrück | Cautela / humor seco | Quer estar onde as coisas acontecem | Média | Off-screen (NC) | Rockerboy; máscara + grafite; **F23**; handle em aberto |
+| Leopold von und zu Habsbrück | Cautela / humor seco | Quer estar onde as coisas acontecem | Média | Off-screen (NC) | **Prometheus**; chama de três linhas; **F23**; CI 6 |
 
 ---
 
@@ -245,9 +245,9 @@ Tarde 01/08 com Valk sem abrir canal. Intercepto Raffen 02/08 (Valk no volante).
 **Intensidade:** Média  
 **Última atualização:** 04 de Setembro de 2026
 
-- Máscara + grafite. Kaz o trouxe / o mantém vivo. Parceria com Echo (ela corta; ele pinta).
+- **Prometheus.** Máscara + chama de três linhas. Kaz o trouxe / o mantém vivo. Parceria com Echo (ela corta; ele pinta).
 - Ryan faz as perguntas desagradáveis (“então és um rico a fazer grafite”). Não odeia. Respeita quem sobe a parede.
-- **Não** está no Pack. **Não** puxar teia Habsbrück / avó / job do Kaz. Handle **em aberto**.
+- **Não** está no Pack. **Não** puxar teia Habsbrück / avó / job do Kaz / semanas Zoners.
 - Ficha: [rockerboy - leopold_habsbruck.md](../fichas/rockerboy%20-%20leopold_habsbruck.md) · nota: [leopold_habsbruck_background.md](../fichas/notas_narrador/leopold_habsbruck_background.md) · pulso: [leopold.md](../pulso_do_mundo/crew/leopold.md) · **F23**
 
 ---

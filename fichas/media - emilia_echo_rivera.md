@@ -144,7 +144,7 @@ O acidente quebrou olho, ouvido, ficar de pé. O corpo foi consertado para ela n
 **Ryan:** anti-Echo (sistemas que funcionam sem aparecer). Flerte é residual. Risco: “contar a história dele direito.” Off-screen.  
 **Valkirya:** “nunca abandona” acerta a pergunta da van — respeito, não identificação. Handle **Valkirya** (F21).  
 **Kaz:** recrutou pelo encaixe Void List × voz.  
-**Leopold:** megafone, não clone. Ela corta; ele ocupa a parede. Conflito parked: controlar a verdade vs. jogar no público. Off-screen. **F23**.  
+**Leopold / Prometheus:** megafone, não clone. Ela corta; ele ocupa a parede (chama de três linhas). Conflito parked: controlar a verdade vs. jogar no público. Off-screen. **F23**.  
 Detalhe: [nota](notas_narrador/emilia_echo_rivera_background.md) · [crew](../relacionamentos/crew_relacionamentos.md).
 
 **Objetivo:** lenda urbana anti-corp **sem** devolver Emilia ao screamsheet.
@@ -177,5 +177,5 @@ Detalhe: [nota](notas_narrador/emilia_echo_rivera_background.md) · [crew](../re
 - [Crew](../relacionamentos/crew_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Mapa](../relacionamentos/mapa_relacional_geral.md)
 - **Pulso (NC / futuro):** [echo.md](../pulso_do_mundo/crew/echo.md)
 - **Imagem:** [media - emilia_echo_rivera.jpg](../imagens/media%20-%20emilia_echo_rivera.jpg)
-- **Leopold (Rockerboy, megafone):** [ficha](rockerboy%20-%20leopold_habsbruck.md) · [nota](notas_narrador/leopold_habsbruck_background.md) · **F23**
+- **Leopold / Prometheus (Rockerboy, megafone):** [ficha](rockerboy%20-%20leopold_habsbruck.md) · [nota](notas_narrador/leopold_habsbruck_background.md) · **F23**
 - **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md) · [Heat](../heat.md) · **F06** · **F20**

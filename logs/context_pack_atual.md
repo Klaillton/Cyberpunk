@@ -96,7 +96,7 @@ Residual íntimo **alto**. Paz física 01/08. Chat **023 contaminado** (Night Ci
 | **F18** | Ruleset **v1.3.0** · 017+ · sem retcon 001–016 |
 | **F19** | Agents: Vault / Profissional / Honeypot / Arbiter/Watchdog ≠ Warden |
 | **F20** | **Sparrow** = Lina Park (NPC); **Steel** = Marcus Rivera (NPC) — **não** sistemas; Steel **≠** Echo |
-| **F23** | **Leopold** = Rockerboy crew NC, off-screen; handle em aberto; Habsbrück ≠ persona; ≠ Echo |
+| **F23** | **Leopold** = **Prometheus** (Rockerboy, CI 6) crew NC, off-screen; chama ≠ Habsbrück; ≠ Echo |
 
 Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 

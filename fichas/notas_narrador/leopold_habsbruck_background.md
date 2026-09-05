@@ -1,17 +1,17 @@
 # Leopold von und zu Habsbrück — Background (narrador)
 
-**Status:** Canon (2026-09-04). Mecânica ainda aberta — [ficha](../rockerboy%20-%20leopold_habsbruck.md). Stats/handle em [ideas_concepts/07](../../ideas_concepts/07_leopold_red_e_prosa.md) (**não** SoT).  
+**Status:** Canon (2026-09-05). Mecânica na [ficha](../rockerboy%20-%20leopold_habsbruck.md) (CI **6**, 62/100, fashionware).  
 **Este arquivo:** backstory + o que ele **não** deve saber de uma vez (e parte do que nunca saberá). **Não** recontar a mesa aqui.  
 **Uso:** sob demanda / reencontro NC. **Não** carregar no tier-0. **Não** narrar no Pack.
 
-> SoT de agora: [ficha](../rockerboy%20-%20leopold_habsbruck.md) (mini) · [NOW](../../logs/context_pack_atual.md) se ele entrar em cena.  
-> **F23:** handle em aberto; casa Habsbrück ≠ persona; ≠ Echo.
+> SoT de agora: [ficha](../rockerboy%20-%20leopold_habsbruck.md) (mini + RED) · [NOW](../../logs/context_pack_atual.md) se ele entrar em cena.  
+> **F23:** handle = **Prometheus**; chama de três linhas ≠ brasão Habsbrück; ≠ Echo.
 
 | Camada | O quê | Usar para |
 | ------ | ----- | --------- |
-| **A. Backstory** | Herdeiro, ruptura, grafite, máscara, sequestro, causa | Motivo, convicção, por que a persona e não o sobrenome |
-| **B. O que ele não sabe** | Teia Habsbrück, avó, job do Kaz | Revelar aos poucos; nunca dump |
-| **C. Campanha** | Off-screen NC; crew latente | Pulso NC; **não** expandir no Pack |
+| **A. Backstory** | Infância chairman → Zoners (ainda Leopold) → quarto → Prometheus | Motivo, falha, por que a persona |
+| **B. O que ele não sabe** | Teia Habsbrück, avó, job do Kaz, o que as caixas no porta-malas eram | Revelar aos poucos; nunca dump |
+| **C. Campanha** | Off-screen NC; segundo Zoners / resgate crew = parked | Pulso NC; **não** expandir no Pack |
 
 ---
 
@@ -21,39 +21,79 @@ A causa é real. A indignação é real. A paixão é real. A hipocrisia também
 
 Ele não é um herdeiro fazendo performance de “homem do povo”. É um moleque rico que fez uma rebelião adolescente de verdade, entrou fundo demais nela e encontrou uma identidade que continua carregando.
 
+**Falha:** confunde a importância da própria mensagem com a importância para o público.
+
 **Arco interno:**
 
 | Fase | Frase |
 | ---- | ----- |
 | Herdeiro | “O futuro já está decidido.” |
-| Birra | “Eu não sou vocês.” |
-| Persona | “Leopold não existe na rua.” |
-| Sequestro | “Agora eu sei o que é viver sem rede.” |
-| Rockerboy | “Eu falo com conhecimento de causa.” |
+| Discurso + sobrenome | “Um bom argumento e o meu nome resolvem.” |
+| Semanas | “Aquele homem é o que eu quero ser.” |
+| Quarto | “Eu preciso de uma voz que não seja Habsbrück.” |
+| Prometheus | “Eu falo com conhecimento de causa.” |
 
-**A frase-âncora:**
+**A frase-âncora (pública, se encurralado na verdade):**
 
 > “Eu não sou igual a vocês. Eu nasci do lado que construiu essa merda. É exatamente por isso que eu sei onde estão as rachaduras.”
 
 Ele **não** diz “eu sou um de vocês.”
 
+**Aprendizado (ainda incompleto):** *preciso encontrar o público certo para a minha mensagem.*
+
 ---
 
 ## A. Backstory
 
-Nasceu no lugar errado para alguém que queria passar a vida dizendo que o sistema estava errado. Filho de um chairman, herdeiro da casa **von und zu Habsbrück**, criado para ocupar uma cadeira que já parecia reservada. Educação de executivo: economia, política, administração. Os pais não viam prisão. Ele via o futuro decidido por eles.
+### Infância de chairman
 
-A ruptura veio na adolescência. Roupa, cabelo, amigos que a família não aprovava. Depois o grafite: simples, ilegal, visível. Uma ideia na parede, milhares de pessoas por dia. Começou a falar — grupos pequenos, depois vídeos. Não era sofisticado. Tinha convicção.
+Nasceu no lugar errado para alguém que queria passar a vida dizendo que o sistema estava errado. Filho de um chairman, herdeiro da casa **von und zu Habsbrück**, criado para ocupar uma cadeira que já parecia reservada. Educação de executivo: economia, política, administração. Genuinamente inteligente e competente. Os pais não viam prisão. Ele via o futuro decidido por eles. Relação próxima com a **avó**. Independência que ele acredita genuína: não usa conscientemente os recursos da família há anos.
 
-Andou com gangues porque queria estar perto de quem dizia representar. O grafite virou linguagem. A máscara apareceu nessa época: não queria que procurassem o filho do chairman. Queria o símbolo.
+A ruptura veio na adolescência. Roupa, cabelo, amigos que a família não aprovava.
 
-Ele já era Rockerboy **antes** do sequestro. O sequestro não cria o personagem — radicaliza e dá uma experiência concreta à causa que ele já defendia.
+### Primeiro encontro — ainda Leopold
 
-Uma das gangues percebeu a rede de segurança ao redor dele. Sequestro: não por resgate, não para matar. Queriam ver o que acontecia quando aquela rede desaparecesse. Menos de um mês. Sem dinheiro à mão, sem segurança, sem alguém aparecendo. Fome, sono ruim, porrada, trabalho que não queria. Exploração e também solidariedade. Não apagou a origem. Mudou a convicção.
+South Night City. Seguranças de uma corp batendo / extorquindo um negócio local. Leo entra **sem arma, sem Prometheus, com o sobrenome**. Os seguranças pausam: Habsbrück é conhecido, mas **não manda ali**. Enquanto ele faz o discurso da vida (o discurso pode ser bom — o erro é achar que argumento + nome = poder), chegam os **Zoners** da célula local. Gente deles no chão, loja destruída, playboy no meio da rua. A briga recomeça. Leo se esconde. **Apanha** — não uma surra cinematográfica; empurrões, um soco, parede. O nome que sempre fazia adulto mudar de postura não significou nada.
 
-Voltou para Night City **para a causa**, não para os pais. Vídeos mais apaixonados. Discursos mais agressivos. Grafites com mensagem mais clara. Descobriu a habilidade que a escola de chairman não ensinou: **fazer pessoas prestarem atenção.**
+Um Zoner reconhece o moleque **antes** de virarem ele no chão de vez. Liga para o chefe. **Traz ele.**
 
-Acredita que os fãs financiam tudo. As doações **são reais** e, mesmo sem a família, teria como continuar.
+Não são Voodoo Boys. Não são uma gangue famosa da cidade. Célula local, South NC, estrutura de movimento/comunidade com gente armada. Fora de duas ou três ruas, ninguém sabe quem são.
+
+### O líder e as semanas
+
+A gangue é violenta. O líder **não**. Carismático, educado, inteligente, líder de comunidade — tudo o que Leo sonhou ser. Fala baixo. Conhece as pessoas pelo nome. Pergunta quem se machucou. Sabe onde arrumar a porta. Trata Leo como **um problema que caiu no colo**, não como celebridade nem inimigo.
+
+Dilema: pegaram um **Habsbrück**. Alguém vai vir. Não quer guerra na comunidade. Não pode jogar o garoto na rua. Solução prática: **leva Leo consigo**. Não é prisioneiro acorrentado. Não é convidado. Está sob a responsabilidade direta dele. “Ele está comigo” corta o resto da gangue (resgate, troco, humilhação).
+
+Leo trabalha. Caixas, comida, material, depósito. Parte é comunidade. Parte é operação. A mesma estrutura que alimenta uma família esconde armas. Ele **não vira combatente**. Acompanha o líder. Fundo da cena. Agachado. Arma na mão que mal sabe usar. Ouve tiro. O líder coordena, retira ferido, volta e resolve o que ficou.
+
+O que Leo vê (e romantiza): *ele não é revolucionário porque fala de revolução. É revolucionário porque as pessoas dependem dele e ele aparece.*
+
+O que Leo **não** vê: está protegido pelo líder o tempo todo. São semanas, não uma vida. Ele não virou pobre. Teve um vislumbre brutal através de uma janela.
+
+**Não** nomear o líder até a mesa fechar.
+
+### A volta (sem Hollywood)
+
+Uma das muitas ligações do líder. Ele some o dia quase todo. Leo trabalha, come, janta cedo. O líder volta calado. “Vem.” Carro simples. Silêncio. Para. Carro chique, homem de terno, porta-malas, **caixas**. Os dois conversam como quem já tinha combinado. O líder guarda as caixas, manda o garoto descer, entra no carro, **vai embora sem despedida**.
+
+O homem de terno: “Entra.” Banco de couro. “Já estou com ele. Está tudo bem.” Problema administrativo. Ninguém na porta de casa. “Leo voltou.” Quarto. Banho. Cama. Silêncio.
+
+Aí ele processa. Compara. E a pergunta que fica:
+
+> **Por que aquele homem parecia mais livre do que ele?**
+
+Ele não volta querendo ser pobre. Volta querendo **ser como aquele homem**. Estuda movimento, propaganda, arte de rua, revolução. Descobre que não precisa do sobrenome para ser ouvido. Precisa de uma voz.
+
+### Prometheus
+
+Máscara. Chama de três linhas (“Prometheus roubou o fogo”). Vídeos. O nome que um garoto de 17–18 acharia a coisa mais foda do mundo — e cinco anos depois ainda usa, porque **acredita**.
+
+O público conhece Prometheus, não Leopold. A chama circula; vira marca de movimento, não só logo dele. Relativamente famoso na rua. Doações de fãs **reais**.
+
+**Não** era Rockerboy antes das semanas. As semanas plantam a semente. Prometheus nasce no quarto.
+
+Segundo encontro com os Zoners (já como Prometheus) e o resgate da crew = **parked**. Não narrar agora.
 
 ---
 
@@ -66,7 +106,7 @@ Acredita que os fãs financiam tudo. As doações **são reais** e, mesmo sem a 
 - **Casa:** Habsbrück
 - **Origem:** aristocracia financeira / patrimonial centro-europeia **anterior** às megacorps
 - **Ramo de Night City:** menor dentro da casa, estrategicamente importante
-- **Atuação:** financiamento, patrimônio, crédito, seguros, logística, participações — presente em inúmeras cadeias **sem** estar na frente de nenhuma
+- **Atuação:** financiamento, patrimônio, crédito, seguros, logística, participações — presente em inúmeras cadeias **sem** estar na frente de nenhuma. Também projetos militares e espaciais (indireto).
 
 O pai é competente. A primeira pergunta quando a cadeira de Night City abriu não foi “é bom?”. Foi “é um Habsbrück?”. A porta abriu. Depois ele teve de provar que merecia ficar — e provou. Leopold reconhece que o pai é bom. Recusa a porta.
 
@@ -84,15 +124,15 @@ Quando alguém descobre quem ele é, a reação não precisa ser “FILHO DO CHA
 
 Os pais sempre souberam onde ele estava. Equipes de segurança, clínica, dinheiro, transporte — alguém aparecia. Ele nunca viu a extensão.
 
-Não precisa de guarda-costas dedicados a segui-lo. A casa tem contratos, seguros, bancos, clínicas, transportadoras, escritórios. Se algo sério acontece, o sistema reage porque gente suficiente sabe: “este cara é um Habsbrück.”
+As semanas com os Zoners foram o intervalo em que essa rede **não** chegou a tempo — ou chegou do jeito errado: uma ligação, um terno, caixas. Não apaga o privilégio. É o único pedaço de rua que ele tem o direito de chamar seu.
 
-O sequestro da gangue (menos de um mês) foi o único intervalo em que essa rede **não** chegou a tempo — ou chegou tarde. Foi o mês em que ele viveu sem rede. Não apaga o privilégio. É o único pedaço de rua que ele tem o direito de chamar seu.
+As **caixas** no porta-malas: ele não entendeu. Compensação, silêncio, favor. Não explicar agora.
 
 ### Dinheiro — a avó
 
 Doações de fãs: **reais**. Chegariam para viver e trabalhar.
 
-Fonte secreta maior: a **avó**. Nunca deixou de acreditar nele. O resto da família talvez espere que ele volte à cadeira; ela prefere que o neto continue a fazer aquilo em que acredita. Ele não sabe. Provavelmente não gostaria de saber.
+Fonte secreta maior: a **avó**. Nunca deixou de acreditar nele. O resto da família talvez espere que ele volte à cadeira; ela prefere que o neto continue a fazer aquilo em que acredita. Ele não sabe. Provavelmente não gostaria de saber. Relação com ela foi **próxima** na infância — isso ele sabe; o dinheiro secreto, não.
 
 ### Kaz
 
@@ -104,20 +144,22 @@ Não colocar esse job na ficha pública do Kaz.
 
 ### Revelação sugerida (nunca dump)
 
-1. Marca na cidade (humor + irritação)
+1. Marca Habsbrück na cidade (humor + irritação) — ≠ a chama
 2. Alguém reage ao sobrenome
 3. Um favor / clínica / extração que “não pediu”
-4. Kaz ou a avó — só quando o arco pedir
+4. As caixas / o terno / Kaz ou a avó — só quando o arco pedir
 
 ---
 
 ## C. Campanha
 
-Off-screen em Night City. Sem beat no Pack. Sem grafite na cerca do acampamento. Sem logo Habsbrück na oficina do Ryan **enquanto ele não estiver em cena**.
+Off-screen em Night City. Sem beat no Pack. Sem chama na cerca do acampamento. Sem logo Habsbrück na oficina do Ryan **enquanto ele não estiver em cena**.
 
-A crew não precisa compartilhar a causa. Ele é útil: influência, portas, gente, fala.
+A crew não precisa compartilhar a causa. Ele é útil: influência, portas, gente, fala. Membro de verdade, não pacote VIP.
 
 Núcleo avoado: Echo + Alex + Leopold (motivos diferentes). Eixo pragmático: Ryan / Valkirya / Reina. Jax só se houver briga.
+
+**Parked:** segundo encontro Zoners; resgate da crew; nome do líder; frase exata da causa; nome de rua da crew.
 
 ---
 
@@ -127,5 +169,6 @@ Núcleo avoado: Echo + Alex + Leopold (motivos diferentes). Eixo pragmático: Ry
 - [Echo](../media%20-%20emilia_echo_rivera.md) · [nota Echo](emilia_echo_rivera_background.md)
 - [Kaz](../fixer%20-%20kaz_the_broker_takahashi.md) · [Ryan](../../relacionamentos/ryan_relacionamentos.md)
 - [Pulso](../../pulso_do_mundo/crew/leopold.md)
-- **Soft (stats / prosa restante):** [ideas_concepts/07](../../ideas_concepts/07_leopold_red_e_prosa.md)
+- **Símbolo:** [prometheus_flame.jpg](../../imagens/leopold/prometheus_flame.jpg)
+- **Notas pontuais (esvaziar após uso):** [ideas_concepts/rockerboy_added_story.md](../../ideas_concepts/rockerboy_added_story.md)
 - **Estado:** [Board](../../board/board_campanha.md) · **F06** · **F23**

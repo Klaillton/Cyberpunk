@@ -33,7 +33,7 @@
 - **Jax (canon de ficha, inativo em cena):** Solo puro — combate ≠ guerra; competitivo (placar no bar/academia/stand), não agressivo. Militech = linha de carreira, não vendetta. Background: [jax_razor_kane_background.md](../fichas/notas_narrador/jax_razor_kane_background.md).
 - **Reina → Ryan (canon de ficha, inativo em cena):** Ela sabe dos braços; ele não lembra (Doc Moreau, não Stitch). Só vira cena **no reencontro NC**.
 - **Echo → Ryan / Valkirya (canon de ficha, inativo em cena):** ver [emilia_echo_rivera_background.md](../fichas/notas_narrador/emilia_echo_rivera_background.md). Não puxar o fio do acidente no Pack.
-- **Leopold (canon de ficha, inativo em cena):** Rockerboy — máscara + grafite; megafone da Echo, não clone dela. Handle em aberto. Habsbrück ≠ persona. Sem romance. Background: [leopold_habsbruck_background.md](../fichas/notas_narrador/leopold_habsbruck_background.md). **F23**.
+- **Leopold (canon de ficha, inativo em cena):** Rockerboy **Prometheus** — máscara + chama de três linhas; megafone da Echo, não clone dela. Habsbrück ≠ chama. Sem romance. Background: [leopold_habsbruck_background.md](../fichas/notas_narrador/leopold_habsbruck_background.md). **F23**. CI **6**.
 - **Polycule / Alex×Valk passado / fases 1–11:** [ideas_concepts](../ideas_concepts/README.md) + [polycule](crew_polycule_ryan_valk_alex_reina.md). **Desejado, não obrigatório. Não iniciar** até a crew estar junta em NC.
 - **Sobrenomes coincidentes (sem parentesco):** Kane (Valk/Alex/Jax) e Voss (Ryan/Stitch). Rivera (Echo) ≠ Rivera (Steel).
 

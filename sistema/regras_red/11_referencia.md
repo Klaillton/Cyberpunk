@@ -81,6 +81,7 @@ Não detectado ≠ invisível ≠ auto-kill. Stealth vs Perception → depois at
 | Medicine | Stitch | [07](07_roles.md) · [03](03_ferimentos.md) |
 | Operator | Kaz | [07](07_roles.md) |
 | Credibility | Echo | [07](07_roles.md) · [echo_exposicao](../echo_exposicao.md) |
+| Charismatic Impact **6** | Leopold / Prometheus | [07](07_roles.md) · ficha rockerboy |
 
 ---
 

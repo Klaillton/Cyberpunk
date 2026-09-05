@@ -131,7 +131,7 @@ Rockerboy da crew — máscara, grafite, vídeo. **Não** é a Role dela. Ele é
 
 Desafia o princípio (“preciso controlar a verdade que chega ao público”) com o inverso: o público decide o que a história significa. Tensão útil. **Parked** até reencontro NC. Sem beat no Pack.
 
-Handle/persona dele **em aberto**. Casa Habsbrück ≠ marca da parede. [nota Leopold](leopold_habsbruck_background.md) · **F23**.
+Handle = **Prometheus**. Casa Habsbrück ≠ chama da parede. [nota Leopold](leopold_habsbruck_background.md) · **F23**.
 
 ---
 

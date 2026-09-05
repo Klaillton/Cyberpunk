@@ -1,15 +1,15 @@
 # Pulso - Leopold von und zu Habsbrück
 
 **Última atualização:** 04 de Setembro de 2026  
-**Escopo:** **Night City / futuro** — Leopold **não** está nas Badlands. Acionar em reencontro NC, job com Echo, ou boato da marca/persona.  
-**Regra:** pulso de *vida* off-screen ok (grafite, vídeo, Kaz). **Não** avançar teia Habsbrück, avó, job de proteção, nem handle público até a mesa fechar. **Não** narrar no Pack.  
+**Escopo:** **Night City / futuro** — Leopold **não** está nas Badlands. Acionar em reencontro NC, job com Echo, ou boato da chama Prometheus.  
+**Regra:** pulso de *vida* off-screen ok (grafite, vídeo, Kaz). **Não** avançar teia Habsbrück, avó, job de proteção, semanas Zoners. **Não** narrar no Pack.  
 **Background:** [nota](../../fichas/notas_narrador/leopold_habsbruck_background.md) · ficha [rockerboy - leopold_habsbruck.md](../../fichas/rockerboy%20-%20leopold_habsbruck.md) · **F23**
 
-> Handle / símbolo da persona **em aberto**. Casa Habsbrück ≠ marca da parede.
+> Handle = **Prometheus**. Chama de três linhas ≠ brasão Habsbrück.
 
 ## Motivações Atuais
 
-- Pintar, gravar, circular a marca — sem virar celebridade.
+- Pintar a chama, gravar, circular Prometheus — sem virar celebridade de arena.
 - Acompanhar Echo se ela entrar em job (ele vai atrás).
 - Acreditar que vive por conta das doações.
 - Não ser o filho do chairman na rua.
@@ -18,8 +18,8 @@
 
 **Sobre a marca:**
 
-- Algum grafite novo circulou esta semana, ou a persona está seca?
-- Alguém repetiu o símbolo sem saber quem está por trás?
+- Alguma chama nova circulou esta semana, ou a persona está seca?
+- Alguém copiou o símbolo sem saber quem está por trás?
 
 **Sobre a crew (remoto):**
 
@@ -38,7 +38,7 @@
 
 ## Eventos Off-Screen Recentes
 
-- Recrutado/orbitando Kaz (pré-Pack / crew NC). Acordo visível: está na crew, é útil.
+- Recrutado/orbitando Kaz (pré-Pack / crew NC). Acordo visível: está na crew, é útil. Handle **Prometheus** em circulação.
 - Crew NC off-screen; Pack **não** é beat dele.
 -
 
