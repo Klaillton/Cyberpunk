@@ -1,6 +1,6 @@
 # Fila de Eventos do Mundo (Event Queue)
 
-**Última atualização:** ~02 de Agosto de 2026 (pós-024) · Arco L1: [board/arco_ativo.md](board/arco_ativo.md)  
+**Última atualização:** ~02 de Agosto de 2026 (pós-025) · Arco L1: [board/arco_ativo.md](board/arco_ativo.md)  
 **Norte no boot:** bloco **NORTE** em [logs/context_pack_atual.md](logs/context_pack_atual.md). Esta fila = inventário L2 — não copiar no pack.
 
 ## Eventos Ativos / Pendentes
@@ -12,12 +12,12 @@
 | E005 | Resposta de Kaz após o job contra BT             | Pendente     | Média      | Próximas semanas | Job 001 concluído; sem contato desde ~25/06; **Kaz off-screen** |
 | E006 | Possível retaliação ou abordagem da Biotechnica  | Potencial    | Alta       | Médio prazo      | Ainda não ativado                                          |
 | E007 | Implementação **Badlands Node** (Água + Biodigestor) | Em andamento | Alta | Curto prazo | Biodigestor + filtragem em progresso com autonomia         |
-| E008 | Vigilância pós-operação **Torre Raffen** | Em andamento | Média | Dias restantes | Residual + célula **Cutter** (024); camp leste intacto |
+| E008 | Vigilância pós-operação **Torre Raffen** | Em andamento | Média | Dias restantes | Residual + célula **Cutter** (024); camp leste intacto; **025:** Condor visual 03/08 (Sasha/Lira), sem chão; Reyes marca um corte após o céu |
 | E011 | Visita à **Doc Moreau** (Elisa) | Pendente | Média | Médio prazo | Ryan prometeu; Valk quer ir junto — **não** é Stitch; item de **E015** |
 | **E012** | Montagem protótipo casas + escala / revelação ao pack | Em andamento | Alta | Médio prazo | Externo OK; interno em modelagem; revelação pack geral parcial |
 | **E014** | **Resposta de Reyes** sobre protótipo casas modulares | **Resolvido (implícito)** | — | — | Revelação **pública** ao pack geral ainda em E012 |
-| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Em andamento** | Alta | Curto prazo | **Fase:** 1º pacote 30/07. Intermediário **teto ~02/08 17h**. Condor **no ar** 02/08, sem pacote. Não forçar Sparrow/Steel. Débito **300 eb** pago. Lina Park sem ACK; Marcus Rivera mudo; Kaz off-screen. |
-| E016 | Tutoria Valk + Sasha/Lira (assistentes) | Em andamento | Média | Contínuo | Residual 019/023/024; viram fogo de longe; Ryan manteve distância |
+| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Em andamento** | Alta | Curto prazo | **Fase:** 1º pacote 30/07. 2º+3º salto 02/08. Janela **03/08 até meio-dia**; caixa no ombro da trilha velha, norte da 101 (ferro torto + 3 pedras); um salto; sem voz; sem ping antigo. Ryan na caixa; Valk no ombro. Não forçar Sparrow/Steel. Débito **300 eb** pago. Lina Park sem ACK; Marcus Rivera mudo; Kaz off-screen. |
+| E016 | Tutoria Valk + Sasha/Lira (assistentes) | Em andamento | Média | Contínuo | Residual 019/023/024/025; 3 voos + jantar 02/08; leste visual 03/08; não vão à 101 |
 | E017 | Enxame mini-drones (ideia / sondagem) | Em andamento | Baixa | — | Não prioritário vs E015 |
 | E018 | Modelo 3D / base militar | Pendente | Baixa | — | Mapeamento **externo completo** 022; sem infiltração; **023:** entrada gatilhada (mensagem → manhã seguinte) |
 | **E019** | **Olaria + desidratador + cogeração** | Pendente | Baixa | Médio prazo | Delegada ao Pack |
