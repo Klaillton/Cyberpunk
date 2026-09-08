@@ -339,10 +339,10 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 
 ```markdown
 **Motor reancorado**
-- N1 sem eco · N1b resultado-primeiro · N2+ delta ≥60% · N8 SOP · N9 fecho de viagem limpa
+- N1 sem eco · N1b **só** OPERAÇÃO/VIAGEM/COMBATE · N2+ downtime = SHOW + boca própria · N8 SOP · N9 fecho de viagem limpa
+- Curta ≠ dois vocábulos · Valk-seca **não** vaza · anti-máquina = vocabulário de regra, não personalidade
 - AGENDA ativa: #… — …
-- Próximo turno de RP: outcomes primeiro; sem espelhar o PC
-- Ação OPERAÇÃO preferível: intenção curta + limites (não manual de 8 passos)
+- Próximo turno: se downtime/social Pack → corpo + fala de gente; se ops → outcomes primeiro
 - Rodapé OOC: `ctrl N/90` continua (não narrar)
 - (Opcional) Chat longo com eco pesado → preferir novo chat + handoff
 ```

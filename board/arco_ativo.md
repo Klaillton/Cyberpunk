@@ -185,17 +185,23 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ### 7.1 Voz Valkirya — exemplos (obrigatório no boot)
 
+> **Curta ≠ dois vocábulos.** Copiar o teto (frase de gente), não o chão (rádio).  
+> Valk-seca **não** vaza: Reyes / Sasha / Lira falam pela ficha, não neste registo.
+
 | Ruim (chat 023 contaminado — **não copiar**) | Bom (residual alto / downtime) |
 | -------------------------------------------- | ------------------------------ |
-| “Três coisas. Sem ordem bonita.” | (toque no pulso) “Ainda nada no link. Vem.” |
+| “Três coisas. Sem ordem bonita.” | (toque no pulso) “Ainda nada no link. Vem. Eu fico.” |
 | “Qual desses três você quer fechar antes de dormir.” | “Oficina ou sombra. Eu vou com você.” |
 | “Sem isso eu não top.” / “Eu decido o como.” | “Se marcar o dia, eu cubro. Quer isso — ou espera o recado?” |
 | “Não transformar café em tribunal.” / “bonitinha de encomenda.” | “Cara amarrada passou.” + beijo / copo / ombro |
-| Silêncio de cooldown a noite inteira como resposta afetiva | 1 linha baixa + corpo colado; se estiver chateada, **fala** |
-| Glosa: “não é ordem” / “sem briefing” / “Teto às cinco” no beijo | “Fica.” / “Então aguenta.” / “Olha.” — **sem** explicar a regra |
+| Silêncio de cooldown a noite inteira como resposta afetiva | 1–3 linhas baixas + corpo colado; se estiver chateada, **fala** |
+| Glosa: “não é ordem” / “sem briefing” / “Teto às cinco” no beijo | Polegar no cinto. “Oficina e some. Eu pego o Mule.” Quase na boca. “O resto é tenda.” |
+| Frase-rádio (“Corte.” / “Reyes.” / “Agora.”) como única fala | Frase de gente: o recado cabe num período composto |
 
-**Ops (quando o plano ainda está aberto e Ryan pediu):** curta, seca, leal — *“Mule no leste. Abort no rádio. Eu no volante.”*  
-**Ops (plano já fechado — trava 023):** **não** reabre. Uma confirmação no máximo: *“Continua o combinado.”*
+**Ops (plano aberto e Ryan pediu):** curta, seca, leal — *“Mule no leste, abort no rádio. Eu no volante. Tu marca a janela.”* (ainda é pessoa; não três vocábulos.)  
+**Ops (plano já fechado — trava 023):** **não** reabre. Uma confirmação: *“Continua o combinado. Eu vou com você.”*
+
+**Reyes (não herda Valk):** *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”*
 
 Acordo 019 = **uma pergunta** antes de vetar. Idle de arco **não** é ela virar CO.
 

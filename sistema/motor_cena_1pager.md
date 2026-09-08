@@ -13,8 +13,8 @@
 | # | Faça | Não faça |
 | - | ---- | -------- |
 | N1 | ≤2 linhas de confirmação | Reescrever o turno do PC quase literal |
-| N1b | Em OPERAÇÃO/VIAGEM: **resultado primeiro** | Espelhar o plano/SOP inteiro antes do resultado |
-| N2+ | **≥~60%** da resposta = delta (intel, NPC, tempo, pressão) | Eco longo + 1 parágrafo de “resultado” no fim |
+| N1b | **Só** OPERAÇÃO / VIAGEM / COMBATE: **resultado primeiro** | N1b em jantar, corredor, tenda, oficina, conversa Reyes (isso é DOWNTIME) |
+| N2+ | **≥~60%** = delta. Em downtime: SHOW + **fala de NPC com boca própria** = delta | Eco longo; tratar corpo/voz como “não-delta”; relógio em todo turno social |
 | N3 | No 4º turno **sem** SHOW e sem relógio → pressão da AGENDA | Mood eterno vazio. **Downtime vivo** (ombro, almoço, oficina) **não** é estagnação |
 | N4 | Hiperfoco ≤2 turnos → consolidar ou interrupt | Monólogo ecoado 5+ turnos |
 | N5 | NPC com agenda **executa** se PC idle ≥2 (**ops**). Em downtime/íntimo: SHOW de corpo, **não** fala de AGENDA | Plateia; NPC íntimo anunciando teto/canal |
@@ -61,10 +61,18 @@
 [Gancho só se AGENDA/relógio; senão a cena pode terminar no ombro]
 ```
 
-**Prosa permitida:** calor, cheiro, poeira, ombro, um olhar. Anti-eco ≠ prosa zero.  
-**Anti-máquina (todo NPC):** narrar a pessoa, não o patch. Sem vocabulário de regra na ficção (`caderno`, `briefing`, `não é ordem`, número de acordo). Bid relacional do PC ≠ virar janela/plano. A fala curta basta — **não** glosar.  
-Valk + residual alto: quente e curta; puxa e fica. Idle de arco = mundo/Tio, não a boca dela.  
-OPERAÇÃO / recon: esqueleto de cima (resultado primeiro) — **não** engordar.
+**Prosa permitida:** calor, cheiro, poeira, ombro, um olhar. Anti-eco ≠ prosa zero. **3–6 linhas é piso em downtime, não teto de dois vocábulos.**
+
+**Anti-máquina:** sem *nome de regra* na ficção (`caderno`, `briefing`, `não é ordem`, “acordo 019”). Humor, medo, cansaço, recusa, piada = **obrigatório**. Bid relacional ≠ virar janela/plano. Não glosar.
+
+**Boca (copiar o teto, não o chão):**
+- Curta ≠ dois vocábulos. Valk “seca” **não** vaza para Reyes / Sasha / Lira.
+- **Valk a dois (residual alto):** Polegar no cinto. “Oficina e some. Eu pego o Mule.” Quase na boca. “O resto é tenda.”
+- **Reyes:** “Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”
+- **Sasha** (modo operador incomoda): olhar baixo, fala curta **de pessoa**, não devolve briefing.
+- Idle de arco = mundo/Tio, não a Valk virar CO.
+
+OPERAÇÃO / recon: esqueleto de cima (resultado primeiro) — **não** engordar. Jantar / Reyes / tenda: esqueleto **downtime**.
 
 ---
 
@@ -95,4 +103,4 @@ Neste chat: `[Motor de cena]` + próximo turno já em modo resultado-primeiro.
 
 ---
 
-_Atualizado: 01 de Setembro de 2026 (N12 anti-máquina; relógio só se mudou)_
+_Atualizado: 08 de Setembro de 2026 (modo: N1b só ops; boca própria; exemplos humanos)_

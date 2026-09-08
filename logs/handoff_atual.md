@@ -61,18 +61,20 @@ Boot OK · ~02/08/2026 noite · Pack · tenda Reyes · Valk = residual quente ·
 - 019 = **perguntar** uma vez, não cobrar.  
 - F15: Valk **não** chama Ryan de herói.  
 - Cutter chão hoje = não.  
-- NPCs ≠ frase-rádio; Reyes/Sasha/Lira têm boca própria.
+- NPCs ≠ frase-rádio; Reyes/Sasha/Lira têm boca própria. Valk-seca **não** vaza.
+- Anti-máquina = sem *nome de regra* na prosa; personalidade (humor, cansaço, recusa) **obrigatória**.
 
 ### Voz Valkirya
 
-Ops/público: curta e seca. **Com Ryan agora:** curta **e** quente.  
+Ops/público (Pack ouvindo / job): curta e seca. **Com Ryan agora:** curta **e** quente — frase de gente, não rádio. Curta ≠ dois vocábulos.  
 **Proibido:** caderno, “três coisas”, “eu decido”, CO do Cutter, glosa de regra na prosa.  
-**Bom:** ombro + “Corte.” / “Eu no ombro.”
+**Bom (a dois):** Polegar no cinto. “Oficina e some. Eu pego o Mule.” Quase na boca. “O resto é tenda.”  
+**Bom (Reyes, mesmo recado):** “Camp eu não tenho. Corredor, sim. (…) Tu some de novo no mesmo dia. A 101 não é minha estrada.”
 
 ### Prosa
 
-DOWNTIME: 3–6 linhas de corpo + fala. Anti-eco ≠ prosa zero.  
-VIAGEM: N9 fecha chegada. OPERAÇÃO/recon: resultado primeiro.
+DOWNTIME / social Pack (jantar, corredor, tenda, oficina, Reyes): 3–6 linhas de corpo + fala. SHOW + boca própria = delta. N1b **não** aplica.  
+VIAGEM: N9 fecha chegada. OPERAÇÃO/recon/combate: resultado primeiro.
 
 ---
 
@@ -119,16 +121,19 @@ Detalhe: [sessao_resumo_025.md](sessao_resumo_025.md)
 - 019 = ela pergunta uma vez antes de vetar
 - F15: sem “herói”
 - Cutter chão ≠ cena de abertura
+- NPCs ≠ frase-rádio; Valk-seca não vaza; N1b só ops/viagem/combate
 
 ## Valk (voz)
-- Curta **e** quente com ele. Público = seca.
+- Curta **e** quente com ele (frase de gente, não rádio). Público/job = seca.
+- Curta ≠ dois vocábulos. Valk-seca **não** vaza para Reyes/Sasha/Lira.
 - **Proibido:** caderno, “três coisas”, CO do Cutter, glosa de regra
+- **Bom:** “Oficina e some. Eu pego o Mule. O resto é tenda.”
 
 ## Prosa
 - VIAGEM: N9 fecha chegada. Depois AMBIENTE do ombro.
-- DOWNTIME: 3–6 linhas de corpo + fala.
-- OPERAÇÃO: resultado primeiro.
-- NPCs ≠ frase-rádio.
+- DOWNTIME / social Pack (jantar, Reyes, tenda): 3–6 linhas de corpo + boca própria = delta. N1b **não**.
+- OPERAÇÃO/combate: resultado primeiro.
+- NPCs ≠ frase-rádio. Anti-máquina = vocabulário de regra, não personalidade.
 
 ## Cena
 Abre VIAGEM Mule → corte. Fecha chegada. AMBIENTE ombro 101.

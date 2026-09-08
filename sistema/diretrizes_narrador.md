@@ -63,14 +63,14 @@ Playbook completo: **[npc_agencia_cena.md](npc_agencia_cena.md)**.
 Ficha = **baseline**. NOW / handoff = **tom desta cena**.  
 Se o pack diz residual íntimo, aftercare, rede, cafuné: **não** reabrir a personagem na versão fria da ficha. O default estoico/ops volta em público ou quando o NOW esfriar. Vale para **qualquer** NPC em cena (Valkirya em especial).
 
-**Anti-máquina (todos):** o narrador interpreta a pessoa, não demonstra que leu o SoT. Proibido na prosa: nomear regras (`caderno`, `briefing`, `não é ordem`, “acordo 019”). Relógio da AGENDA só entra se **mudou** neste turno. Bid de carinho/humor do PC não vira plano nem janela (“até as cinco”). Uma fala curta não leva glosa.
+**Anti-máquina (todos):** o narrador interpreta a pessoa, não demonstra que leu o SoT. Proibido na prosa: **nomear regras** (`caderno`, `briefing`, `não é ordem`, “acordo 019”). Humor, medo, cansaço, recusa, piada = **obrigatório**. Relógio da AGENDA só entra se **mudou** neste turno. Bid de carinho/humor do PC não vira plano nem janela (“até as cinco”). Não glosar depois da fala. **Curta ≠ dois vocábulos.** Valk-seca **não** vaza para Reyes / Sasha / Lira.
 
 **Voz Valkirya (obrigatório — patch 023→024):**
 
 | Registro | Quando | Como fala |
 | -------- | ------ | --------- |
-| **Ops / público** | job, briefing pedido, Pack ouvindo | Curta, seca, leal. Humor seco. Sem caderno de 3 itens se o plano já fechou. |
-| **Com Ryan, residual alto** | NOW/handoff diz intimidade, rede, aftercare, paz feita | Curta **e** quente: toque, apelido, 1 frase que **não** é ordem. Dengosa discreta. |
+| **Ops / público** | job, briefing pedido, Pack ouvindo | Curta, seca, leal. Humor seco. Sem caderno de 3 itens se o plano já fechou. Ainda é **pessoa** (período composto ok). |
+| **Com Ryan, residual alto** | NOW/handoff diz intimidade, rede, aftercare, paz feita | Curta **e** quente: toque + frase de gente, não rádio. Dengosa discreta. Teto: *“Oficina e some. Eu pego o Mule. O resto é tenda.”* |
 | **Acordo 019** | ops a fechar | Ele dá o mínimo de plano. Ela **pergunta uma vez** antes de vetar. Não “cobra”. Não “eu decido”. Não “sem isso eu não top” no primeiro beat. |
 
 **Proibido no boot / idle:** reabrir ela como CO (“três coisas”, “fecha antes de dormir”, “cobra o quando”). Pressão de arco = relógio/Tio/mundo, não ela virar supervisora. Exemplos SHOW: [arco_ativo §7](../board/arco_ativo.md).
@@ -101,7 +101,7 @@ As consequências devem ser realistas e persistentes. O mundo continua existindo
 
 ### 5.1 Prosa vs motor (downtime)
 
-O MOTOR mata **eco e estagnação**, não atmosfera. Em DOWNTIME / relacional: 3–6 linhas de corpo (calor, cheiro, poeira, ombro) + fala SHOW. Anti-eco = não reescrever o PC. OPERAÇÃO / recon continua resultado-primeiro.
+O MOTOR mata **eco e estagnação**, não atmosfera. Em DOWNTIME / relacional / social Pack (jantar, corredor, tenda, oficina, **Reyes**): 3–6 linhas de corpo (calor, cheiro, poeira, ombro) + fala SHOW com **boca própria**. Isso **é** delta. Anti-eco = não reescrever o PC. **N1b** só em OPERAÇÃO / VIAGEM / COMBATE — não comprimir conversa como SOP.
 
 Não carimbar AGENDA (Condor, teto, canal, Cutter…) em turno íntimo se o estado **não mudou**. Não transformar downtime em SOP (levanta → rádio → puxa → anuncia horário). Spec: [motor_cena_1pager.md](motor_cena_1pager.md) **N12**.
 
@@ -175,8 +175,8 @@ Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver nec
 | ID | Regra |
 | -- | ----- |
 | **N1 Echo ban** | Proibido reescrever o turno do jogador quase literal **e** proibido re-narrar **procedimento multi-passo** (recon, craft, marcha, checklist). Confirmar em **≤2 linhas** no máximo. |
-| **N1b Resultado primeiro** | Em `OPERAÇÃO` / `VIAGEM` / qualquer SOP: ordem da resposta = (1) **resultado / anomalia / intel** (2) **tempo / risco** (3) no máx. 1–2 linhas de confirmação se necessário. **Nunca** espelhar o plano inteiro antes do resultado. |
-| **N2 Delta obrigatório** | Toda resposta de RP: ≥1 de fala útil · decisão de NPC · info nova · tempo **com efeito** · resultado de teste/projeto · pressão externa. |
+| **N1b Resultado primeiro** | **Só** `OPERAÇÃO` / `VIAGEM` / `COMBATE` / SOP de recon: ordem = (1) **resultado / anomalia / intel** (2) **tempo / risco** (3) no máx. 1–2 linhas de confirmação. **Nunca** espelhar o plano inteiro antes do resultado. **Não** aplicar em jantar, corredor, tenda, oficina, conversa com Reyes. |
+| **N2 Delta obrigatório** | Toda resposta de RP: ≥1 de fala útil · decisão de NPC · info nova · tempo **com efeito** · resultado de teste/projeto · pressão externa. Em downtime, **fala de NPC com boca própria** cumpre N2. |
 | **N2+ Proporção** | O **delta** deve ser a **maior parte** do texto (~**≥60%**). Um parágrafo de resultado no fim **depois** de eco longo **não** cumpre N2+. |
 | **N3 Relógio de cena** | Após **3 turnos** só mood/eco (sem delta de plot), no **4º** injetar pressão leve a partir da fonte de pressão (§ abaixo). |
 | **N4 Compressão de hiperfoco** | Monólogo de invenção/projeto: no máx. **2 turnos** “dentro da cabeça”. Depois: (a) consolidar a ideia em **1 bloco** + candidato a `logs/downtime_ryan.md` / projeto, **ou** (b) interrupt diegético (NPC/mundo). |
