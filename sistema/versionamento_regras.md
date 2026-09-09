@@ -27,7 +27,7 @@
 | `regras_red/04_armas.md` | 1.0.0 | 2026-08-07 |
 | `regras_red/05_cyberware.md` | 1.0.0 | 2026-08-07 |
 | `regras_red/06_skills.md` | 1.0.0 | 2026-08-07 |
-| `regras_red/07_roles.md` | 1.0.0 | 2026-08-07 |
+| `regras_red/07_roles.md` | 1.0.3 | 2026-09-09 |
 | `regras_red/08_techie.md` | 1.0.0 | 2026-08-07 |
 | `regras_red/09_veiculos.md` | 1.0.0 | 2026-08-07 |
 | `regras_red/10_netrunning.md` | 1.0.0 | 2026-08-07 |

@@ -1,7 +1,11 @@
 # Pulso - Kaz "The Broker" Takahashi
 
-**Última atualização:** 29 de Julho de 2026  
+**Última atualização:** 09 de Setembro de 2026  
 **Escopo:** **Night City / remoto** — Kaz **escondido**, montando crew futura (arco_ativo). Sem cena no Pack. Job/mensagem só se o relógio NC pedir.
+
+> **Lente:** [background](../../fichas/notas_narrador/kaz_broker_takahashi_background.md) · [ficha](../../fichas/fixer%20-%20kaz_the_broker_takahashi.md)  
+> Matching, não milagre. Bordão: *“Ei... eu conheço alguém…”* · Regra: ele não faz o trabalho; faz o trabalho acontecer.  
+> **Não** narrar clínica / Santo Domingo. Rosa / Mik / Nadia **não voltam**.
 
 ## Motivações Atuais
 
@@ -63,5 +67,6 @@ Ele está satisfeito com o time que está montando, mas ainda mantém certa dist
 
 - **Procedimento:** [sistema/pulso_procedimento.md](../../sistema/pulso_procedimento.md)
 - **Ficha de Kaz:** [fichas/fixer - kaz_the_broker_takahashi.md](../../fichas/fixer%20-%20kaz_the_broker_takahashi.md)
+- **Background (narrador):** [kaz_broker_takahashi_background.md](../../fichas/notas_narrador/kaz_broker_takahashi_background.md)
 - **Relacionamentos de Ryan:** [ryan_relacionamentos.md](../../relacionamentos/ryan_relacionamentos.md)
 - **Consequências Persistentes:** [consequencias_persistentes.md](../../consequencias/consequencias_persistentes.md)

@@ -30,6 +30,7 @@
 
 - **Ryan + Valk (ativo):** Namoro consolidado; acordo ops 019; residual íntimo 020; E015 = ad + coleta Condor, não “irem morar em NC agora”.
 - **Crew NC (latente):** Alex, Reina, Kaz (escondido, montando crew), Stitch, Jax, Echo, Leopold — **off-screen**. Sem reencontro, sem provocação em cena, sem romance.
+- **Kaz (canon de ficha, inativo em cena):** Fixer — matching, não milagre. Origem = clínica / Santo Domingo, **não** traição fundadora. Background: [kaz_broker_takahashi_background.md](../fichas/notas_narrador/kaz_broker_takahashi_background.md).
 - **Jax (canon de ficha, inativo em cena):** Solo puro — combate ≠ guerra; competitivo (placar no bar/academia/stand), não agressivo. Militech = linha de carreira, não vendetta. Background: [jax_razor_kane_background.md](../fichas/notas_narrador/jax_razor_kane_background.md).
 - **Reina → Ryan (canon de ficha, inativo em cena):** Ela sabe dos braços; ele não lembra (Doc Moreau, não Stitch). Só vira cena **no reencontro NC**.
 - **Echo → Ryan / Valkirya (canon de ficha, inativo em cena):** ver [emilia_echo_rivera_background.md](../fichas/notas_narrador/emilia_echo_rivera_background.md). Não puxar o fio do acidente no Pack.
@@ -46,5 +47,6 @@
 - **Fichas:** [Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Valk](../fichas/nomad%20-%20lena_valk_kane.md) · [Alex](../fichas/netrunner%20-%20alex_specter_kane.md) · [Reina](../fichas/solo%20-%20reina_bearclaw_morales.md) · [Kaz](../fichas/fixer%20-%20kaz_the_broker_takahashi.md) · [Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Echo](../fichas/media%20-%20emilia_echo_rivera.md) · [Jax](../fichas/solo%20-%20jax_razor_kane.md) · [Leopold](../fichas/rockerboy%20-%20leopold_habsbruck.md)
 - **Echo (narrador):** [emilia_echo_rivera_background.md](../fichas/notas_narrador/emilia_echo_rivera_background.md) · pulso [echo.md](../pulso_do_mundo/crew/echo.md)
 - **Jax (narrador):** [jax_razor_kane_background.md](../fichas/notas_narrador/jax_razor_kane_background.md) · pulso [jax.md](../pulso_do_mundo/crew/jax.md)
+- **Kaz (narrador):** [kaz_broker_takahashi_background.md](../fichas/notas_narrador/kaz_broker_takahashi_background.md) · pulso [kaz.md](../pulso_do_mundo/crew/kaz.md)
 - **Leopold (narrador):** [leopold_habsbruck_background.md](../fichas/notas_narrador/leopold_habsbruck_background.md) · pulso [leopold.md](../pulso_do_mundo/crew/leopold.md) · rel [leopold_habsbruck_relacionamentos.md](leopold_habsbruck_relacionamentos.md)
 - **Estado:** [Board](../board/board_campanha.md) · [Consequências](../consequencias/consequencias_persistentes.md) · [Reputação](../reputacao.md)

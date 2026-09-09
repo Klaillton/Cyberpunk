@@ -1,7 +1,7 @@
 ---
-version: 1.0.2
+version: 1.0.3
 status: stable
-last_updated: 2026-09-05
+last_updated: 2026-09-09
 source: Cyberpunk RED core (resumo operacional) + fichas da crew
 ---
 
@@ -76,9 +76,11 @@ Ryan **não** usa Moto por default.
 | Campo | Valor |
 | ----- | ----- |
 | Ficha | [fixer - kaz_the_broker_takahashi.md](../../fichas/fixer%20-%20kaz_the_broker_takahashi.md) |
-| Operator | ~6–7 (Contacts, Reach, Haggle, Grease) |
+| Operator | **6** (Contacts, Reach, Haggle, Grease) |
 
-**Em mesa:** achar job, contato, preço, limpar rastro — gastar Operator rank (core) em vez de “Kaz resolve tudo de graça”.
+**Em mesa:** achar job, contato, preço, limpar rastro — gastar Operator rank (core) em vez de “Kaz resolve tudo de graça”.  
+**Contatos:** o rank é a rede. **Não** há catálogo de NPCs na ficha. Nome na hora (função + um traço) se cabe no tier; rolar só se raro / BT / recusa. Procedimento na ficha § Operator. Rosa / Mik / Nadia **não** são contatos.  
+**Regra de cena:** ele não faz o trabalho; ele faz o trabalho acontecer.
 
 ---
 
@@ -113,6 +115,10 @@ Lawman / Exec / etc.: **não na crew** — se aparecer NPC, criar bloco ou usar 
 ---
 
 ## Changelog
+
+### 1.0.3 — 2026-09-09
+
+- Kaz — Operator **6** (lock). Contatos = rank + procedimento na ficha, não lista de nomes.
 
 ### 1.0.2 — 2026-09-05
 

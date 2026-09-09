@@ -198,7 +198,7 @@ Núcleo avoado: Echo + Alex + Leopold (motivos diferentes). Eixo pragmático: Ry
 
 - [Ficha](../rockerboy%20-%20leopold_habsbruck.md) · [Relacionamentos](../../relacionamentos/leopold_habsbruck_relacionamentos.md)
 - [Echo](../media%20-%20emilia_echo_rivera.md) · [nota Echo](emilia_echo_rivera_background.md)
-- [Kaz](../fixer%20-%20kaz_the_broker_takahashi.md) · [Ryan](../../relacionamentos/ryan_relacionamentos.md)
+- [Kaz](../fixer%20-%20kaz_the_broker_takahashi.md) · [nota Kaz](kaz_broker_takahashi_background.md) · [Ryan](../../relacionamentos/ryan_relacionamentos.md)
 - [Pulso](../../pulso_do_mundo/crew/leopold.md)
 - **Símbolo:** [prometheus_flame.jpg](../../imagens/leopold/prometheus_flame.jpg)
 - **Espartana:** [prometheus_espartana.jpg](../../imagens/leopold/prometheus_espartana.jpg) · **Caveira (kit):** [transmissao_caveira.jpg](../../imagens/crew/transmissao_caveira.jpg)

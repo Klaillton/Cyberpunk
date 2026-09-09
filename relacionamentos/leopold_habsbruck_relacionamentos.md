@@ -24,7 +24,7 @@ Não há arco romântico. Homem na crew para variedade de elenco, não para tens
 - **Status:** Fixer da crew / responsável de facto por o manter vivo
 - **Intensidade:** Alta (unilateral na preocupação)
 - **Tipo:** Contrato + enxaqueca
-- **Notas:** Kaz conhece origem e sequestro. **Job de proteção:** ver [nota do narrador](../fichas/notas_narrador/leopold_habsbruck_background.md) — **não** está no background público do Leopold nem na ficha pública do Kaz. Piada corrente: “vou aumentar o meu preço” sempre que o cara se mete no job da Echo. Não está bravo porque Leopold é incompetente; está bravo porque é incalculável.
+- **Notas:** Kaz conhece origem e sequestro. **Job de proteção:** ver [nota do narrador](../fichas/notas_narrador/leopold_habsbruck_background.md) — **não** está no background público do Leopold nem na ficha pública do Kaz. Piada corrente: “vou aumentar o meu preço” sempre que o cara se mete no job da Echo. Não está bravo porque Leopold é incompetente; está bravo porque é incalculável. Lente do Kaz: [nota](../fichas/notas_narrador/kaz_broker_takahashi_background.md).
 
 ### Ryan "Wireghost" Voss
 

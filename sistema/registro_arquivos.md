@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 2026-08-31 (sessão 024 gravada; próximo resumo **025**)
+**Última atualização:** 2026-09-09 (nota Kaz indexada; próximo resumo **025**)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -49,6 +49,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Background Echo (narrador) | `fichas/notas_narrador/emilia_echo_rivera_background.md` | Backstory ≠ mesa; Void List; ≠ Steel Rivera (F20) |
 | Background Jax (narrador) | `fichas/notas_narrador/jax_razor_kane_background.md` | Combate ≠ guerra; placar; Militech = carreira ≠ vendetta; ≠ mesa; off-screen NC |
 | Background Leopold (narrador) | `fichas/notas_narrador/leopold_habsbruck_background.md` | Prometheus; chama de três linhas; teia Habsbrück / avó / Kaz / Zoners = nota; ≠ Echo; **F23**; off-screen NC |
+| Background Kaz (narrador) | `fichas/notas_narrador/kaz_broker_takahashi_background.md` | Matching, não milagre; origem = clínica/Santo Domingo, **não** traição; Rosa/Mik/Nadia **não voltam**; Operator **6** = procedimento, não lista de nomes; ≠ mesa; off-screen NC |
 | Ficha Leopold (Rockerboy) | `fichas/rockerboy - leopold_habsbruck.md` | CI **6** · 62 stats · 100 skills · fashionware; rel [leopold_habsbruck_relacionamentos.md](../relacionamentos/leopold_habsbruck_relacionamentos.md); pulso `pulso_do_mundo/crew/leopold.md`; chama `imagens/leopold/prometheus_flame.jpg` |
 | Histórico de sessão | `logs/sessao_resumo_XXX.md` | Arquivos listados na seção "Arquivos Atualizados" de cada resumo |
 | Detalhes de job / gig concluído | `logs/job_XXX_*.md` | `logs/sessao_resumo_*.md`, `consequencias/consequencias_persistentes.md`, `heat.md` |
@@ -91,7 +92,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 
 ## Estrutura Geral do Projeto
 
-O índice de árvore e o restante deste arquivo permanecem como na SoT 30/08 (Jax + Echo indexados). **2026-09-05:** Leopold / **Prometheus** — ficha RED (CI 6, 62/100, fashionware); chama em `imagens/leopold/`. Próximo resumo: **025**.
+O índice de árvore e o restante deste arquivo permanecem como na SoT 30/08 (Jax + Echo indexados). **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). Próximo resumo: **025**.
 
 ---
 

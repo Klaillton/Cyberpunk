@@ -205,7 +205,13 @@ Tarde 01/08 com Valk sem abrir canal. Intercepto Raffen 02/08 (Valk no volante).
 ### Kaz "The Broker" Takahashi
 
 **Status:** Aliado profissional / Fixer da crew  
-**Intensidade:** Média
+**Intensidade:** Média  
+**Última atualização:** 09 de Setembro de 2026
+
+- Matching: a pessoa certa na frente do problema certo. Handle **The Broker**.
+- Origem (narrador): clínica / Santo Domingo — **não** traição fundadora. Não despejar no Pack.
+- Escondido em NC, montando crew. Sem contato direto desde ~25/06. Recado só com canal.
+- Ficha: [fixer - kaz_the_broker_takahashi.md](../fichas/fixer%20-%20kaz_the_broker_takahashi.md) · nota: [kaz_broker_takahashi_background.md](../fichas/notas_narrador/kaz_broker_takahashi_background.md) · pulso: [kaz.md](../pulso_do_mundo/crew/kaz.md)
 
 ### Dr. Stephania "Stitch" Voss
 
