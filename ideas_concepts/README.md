@@ -32,6 +32,7 @@
 | `05_valk_alex.md` | **Parcial** — origem **integrada** (nota Alex / Valk § A); conflito ainda **REVISÃO FUTURA** | Alex não vilã; timing pós-crew; “job raso” **não** é SoT |
 | `06_canon_arco_resumo.md` | **REVISÃO FUTURA** (mapa do autor) | Ordem desejada, **não** agenda obrigatória da IA |
 | `07_leopold_red_e_prosa.md` | **Parcial** | Causa + repertório + Uncredited integrados. “EU SÓ ANUNCIO…” = mais tarde. Líder Zoner **sem nome** |
+| `08_clarice_ward.md` | **SOFT / latente** | Filha do Jax, 16, Clarice Ward. Porta depois da crew em NC. **Não** boot. **Não** Pack. Sem sequestro / ficha RED |
 | `rockerboy_added_story.md` | **Passagem** | Esvaziar depois de integrar. Não boot |
 
 ---
