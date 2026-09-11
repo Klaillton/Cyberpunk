@@ -13,6 +13,7 @@
 | **Onde** estou + **como** chego/safo + **3–5 opções** legíveis | Parágrafo eterno de poesia a cada turno |
 | **Mudança de local** = bloco AMBIENTE novo | Re-descrever o mesmo cânion em todo turno |
 | **Ação depende do ambiente** = detalhes operacionais | Inventar landmark só para encher |
+| **Situar (N13):** os mesmos itens **numa situação** | Imprimir o checklist (`Cobertura:`, `Pessoas:`, `Opções no ar:`) |
 
 **RPG só texto:** se o PC não “vê”, não pode escolher. Ambientação é **ferramenta de agência**, não enfeite.
 
@@ -29,7 +30,9 @@ Usar em:
 
 **Não** repetir o bloco inteiro em turnos de diálogo íntimo no mesmo sítio — só **1 detalhe que mudou**.
 
-### 2.1 Formato fixo (colar mentalmente)
+### 2.1 Checklist interno (não é o formato da saída)
+
+Colar **mentalmente** — se faltar um item, a cena não é jogável:
 
 ```text
 ## AMBIENTE — <nome curto do local>
@@ -40,6 +43,10 @@ Usar em:
 - Pessoas na cena: posição relativa (1 linha cada)
 - Opções no ar (3–5, sem menu rígido): o que dá para FAZER daqui
 ```
+
+**Saída (N13):** os **mesmos** itens, agrupados pela situação (o corpo neste lugar → a geometria → quem está nela → o que isso permite ou impede agora).  
+**Proibido** imprimir os rótulos (`Sentidos:`, `Cobertura:`, `Pessoas:`, `Opções no ar:`). **Proibido** omitir um item. **Proibido** deixar o jogador remontar o lugar.  
+Detalhe: [diretrizes_narrador.md](diretrizes_narrador.md) §5.2.
 
 **Tamanho:** ~8–14 linhas. Depois disso: **gancho** (N6) ou fala de NPC.
 
@@ -75,7 +82,8 @@ Embutir opções no **layout** e no **gancho**:
 | Menu de 6 itens | 3 caminhos **visíveis** no texto de ambiente |
 | Opção sem custo | “Segundo ping gasta bateria e sobe assinatura; esperar até 04h gasta água.” |
 
-**Regra:** se a ação seguinte **depende** do terreno, o ambiente **já** entregou o dado (altura, cobertura, distância aproximada, silhueta de NC, etc.).
+**Regra:** se a ação seguinte **depende** do terreno, o ambiente **já** entregou o dado (altura, cobertura, distância aproximada, silhueta de NC, etc.).  
+A coluna **Bom** é N13: o dado não vem numa gaveta à parte.
 
 ---
 
@@ -155,6 +163,7 @@ wide establishing shot of [layout do bloco AMBIENTE em 1 frase]
 ```text
 [ ] Local novo ou ação depende do terreno? → bloco AMBIENTE
 [ ] 3–5 opções embutidas (não menu vazio)
+[ ] N13: uma situação (não gavetas)? todo o dado do checklist ainda lá?
 [ ] Delta ≥60%? Eco ≤2 linhas?
 [ ] SHOW relacional se NPCs em foco
 [ ] Gancho final com conteúdo
@@ -165,6 +174,6 @@ wide establishing shot of [layout do bloco AMBIENTE em 1 frase]
 
 ## Referências
 
-- [motor_cena_1pager.md](motor_cena_1pager.md) · [diretrizes_narrador.md](diretrizes_narrador.md) §7.1  
+- [motor_cena_1pager.md](motor_cena_1pager.md) · [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 · §5.2 (N13)  
 - [arco_ativo.md](../board/arco_ativo.md) · [context_pack_atual.md](../logs/context_pack_atual.md)  
 - [comandos_jogador.md](comandos_jogador.md)

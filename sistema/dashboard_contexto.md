@@ -55,7 +55,7 @@
 ## 6. Regras rápidas
 
 - F03 Warden terrestre · F15 Valk não “herói” · F18 Ruleset 1.3.0 · F20 Sparrow/Steel = NPCs
-- Motor: sem eco · VIAGEM N9 fecha chegada · OPERAÇÃO resultado-primeiro · **DOWNTIME prosa 3–6 linhas**
+- Motor: sem eco · VIAGEM N9 fecha chegada · OPERAÇÃO resultado-primeiro · **DOWNTIME prosa 3–6 linhas** · **N13 situar** (não gavetas)
 - Trava 023: não reabrir jantar/base/SOP Condor
 - Valk: residual alto = curta **e** quente; 1 pergunta antes de vetar
 - NPCs ≠ frase-rádio

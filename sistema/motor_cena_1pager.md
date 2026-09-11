@@ -2,13 +2,13 @@
 
 **Finalidade:** reancorar o narrador mid-chat em ≤40 linhas.  
 **Tier-0:** também no bloco **MOTOR** de `logs/context_pack_atual.md`.  
-**Detalhe:** [diretrizes_narrador.md](diretrizes_narrador.md) §7.1  
+**Detalhe:** [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 · **N13:** §5.2  
 **Ambiente / ganchos:** [cena_ambientacao_ganchos.md](cena_ambientacao_ganchos.md)  
 **Comando:** `[Motor de cena]` / `[Anti-eco]` — [comandos_jogador.md](comandos_jogador.md)
 
 ---
 
-## Regras (N1–N11, resumo)
+## Regras (N1–N13, resumo)
 
 | # | Faça | Não faça |
 | - | ---- | -------- |
@@ -24,6 +24,7 @@
 | N10 | Local novo / ação no terreno → **bloco AMBIENTE** + opções embutidas | Wallpaper poético sem layout jogável |
 | N11 | Relacional: **SHOW** (fala/gesto/escolha) | TELL (“ela está mais aberta”) sem batida |
 | N12 | Relógio/AGENDA **só se mudou**. NPC em downtime/íntimo = corpo + fala; não anuncia o teto | Stamp Condor/teto/canal **todo** turno; glosa (“não é ordem”, “sem briefing”) |
+| N13 | Cada fato na **situação** a que pertence. Checklist interno. Dado completo. | Gavetas na tela (`Cobertura:`, `EM:`, `Pessoas:`); jogador monta o tabuleiro; omitir dado **ou** wallpaper |
 
 **Pressão:** AGENDA DA CENA → **NORTE curto** → [arco_ativo.md](../board/arco_ativo.md) (L1) → `event_queue` (F10).  
 **Off-screen:** contatos mudos **não estão parados** — arco_ativo §2.  
@@ -32,6 +33,8 @@
 **Rodapé OOC (todo turno):** após a cena, linha em branco, depois só `ctrl N/90`. Some **+2** ao último `ctrl` que você imprimiu. Boot = `ctrl 2/90`. Perdeu = `ctrl ?/90`. **Não** narrar, **não** é visor/Agent, **não** expandir, **não** sugerir troca de chat por causa do número. Spec: [diretrizes_narrador.md](diretrizes_narrador.md) — Rodapé OOC.
 
 ---
+
+Os colchetes abaixo são **ordem interna (N13)**. Não imprimir como rótulos (`EM:`, `Cobertura:`, `Pessoas:`). O dado entra na situação, não na gaveta.
 
 ## Esqueleto OPERAÇÃO / recon
 
@@ -48,7 +51,7 @@
 [Anomalia no caminho?] se sim → 1 beat
 [Se não] → chegada:
   ## AMBIENTE — <local>
-  (sentidos · layout · cobertura · recursos · pessoas · 3–5 opções no ar)
+  (mesmos itens do checklist: sentidos · layout · cobertura · recursos · pessoas · opções — numa situação, não em rótulos)
   [1 batida AGENDA/NPC se couber]
   [Gancho com conteúdo]
 ```
@@ -56,7 +59,7 @@
 ## Esqueleto DOWNTIME / relacional (mesmo sítio)
 
 ```text
-[NPC SHOW: gesto + fala — 3–6 linhas de corpo/ambiente ok]
+[NPC SHOW: gesto + fala + o que ficou fechado — mesma batida]
 [Não ecoar caminhada / SOP / checklist do PC]
 [Gancho só se AGENDA/relógio; senão a cena pode terminar no ombro]
 ```
@@ -103,4 +106,4 @@ Neste chat: `[Motor de cena]` + próximo turno já em modo resultado-primeiro.
 
 ---
 
-_Atualizado: 08 de Setembro de 2026 (modo: N1b só ops; boca própria; exemplos humanos)_
+_Atualizado: 11 de Setembro de 2026 (N13 situar a informação)_

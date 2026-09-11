@@ -112,7 +112,7 @@ Só então narra o gancho de abertura (ou aguarda o jogador, se o prompt pedir).
 
 ### 4.3.1 Motor de cena (sempre)
 
-- Seguir **N1–N12** em [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](motor_cena_1pager.md).
+- Seguir **N1–N13** em [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](motor_cena_1pager.md). **N13:** situar a informação ([§5.2](diretrizes_narrador.md)).
 - Rodapé OOC `ctrl N/90` em **toda** resposta (boot = `ctrl 2/90`).
 - Bloco **MOTOR** do context pack é **obrigatório** no tier-0 (Refresh também o reinstala).
 - Usar **AGENDA DA CENA** do context pack (local atual) como fonte de pressão se a cena estagnar.

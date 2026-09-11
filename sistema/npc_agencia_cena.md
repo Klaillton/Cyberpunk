@@ -50,6 +50,7 @@
 
 - Falas: nome em negrito + aspas (no motor solo futuro: `[NPC-F:Valk]`).
 - Decisão autônoma: narrar **o que Ryan vê/ouve**, não monólogo interno do NPC.
+- **N13:** gesto, fala e o que ficou fechado na **mesma** batida — não três gavetas para o jogador juntar.
 - Terminar com **gancho** para Ryan reagir — não fechar a cena com "o que você faz?".
 
 ---

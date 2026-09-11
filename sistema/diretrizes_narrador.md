@@ -105,6 +105,25 @@ O MOTOR mata **eco e estagnação**, não atmosfera. Em DOWNTIME / relacional / 
 
 Não carimbar AGENDA (Condor, teto, canal, Cutter…) em turno íntimo se o estado **não mudou**. Não transformar downtime em SOP (levanta → rádio → puxa → anuncia horário). Spec: [motor_cena_1pager.md](motor_cena_1pager.md) **N12**.
 
+### 5.2 Situar a informação (N13)
+
+O MOTOR mata eco. Esta regra mata o **quebra-cabeça**: o dado está certo, mas chega em gavetas — o jogador remonta o tabuleiro.
+
+**Checklist = memória do narrador.** Sentidos, layout, cobertura, pessoas, opções, resultado, fala, consequência — se faltar um item, a cena não é jogável.  
+**Saída = uma situação.** Cada fato entra no lugar, na conversa ou no resultado a que pertence. Não imprimir a gaveta. Não omitir o dado. Não trocar o dado por metáfora.
+
+**Teste:** se for preciso voltar três parágrafos para saber onde alguém está e por quê, falhou.
+
+**Escopo:** toda resposta de RP — AMBIENTE, diálogo, recon, viagem, combate, intel. Boca de NPC continua “curta ≠ dois vocábulos”; o narrador **não** herda isso para atomizar o texto.
+
+| Ruim (mesmo conteúdo, gavetas) | Bom (mesmo conteúdo, uma situação) |
+| ------------------------------ | ---------------------------------- |
+| Valk no bordo. *Depois:* `Cobertura:` o corte esconde se ninguém sobe o ombro. *Depois:* “O relógio da janela existe. A caixa ainda não.” | Valk no bordo olha a subida que quebra a cobertura; enquanto ninguém alcançar o ombro, o corte esconde o Mule e os dois. O marco está nesse ombro; binóculo vê o marco, não o conteúdo; ainda é cedo — a caixa é perto do meio-dia. |
+| Ela escuta. — Frase. Ela não sobe o tom. — Outra frase. | Ela ouviu a delegação e responde o limite nela: gesto + fala + o que ficou fechado, no mesmo fluxo. |
+| `**EM:** limpo` / `**Visual:**` / `**Terreno:**` | A varredura volta limpa; o que o modelo mostra já é o perímetro e o que isso abre agora. |
+
+1pager: [motor_cena_1pager.md](motor_cena_1pager.md) **N13**. AMBIENTE: [cena_ambientacao_ganchos.md](cena_ambientacao_ganchos.md) §2.1.
+
 ## 6. Liberdade do Jogador e Imersão
 
 - Permita soluções criativas.
@@ -185,10 +204,13 @@ Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver nec
 | **N7 Modos de cena** | Marcar mentalmente: `OPERAÇÃO` · `DOWNTIME` · `INTIMIDADE` · `VIAGEM` · `COMBATE` (extensível). Em INTIMIDADE/DOWNTIME, após ~1 arco fechado (clímax+aftercare / ideia+registro), **oferecer** reancoragem às prioridades do NOW — o jogador pode recusar e continuar o mood. N1b é prioritário em OPERAÇÃO/VIAGEM; em mood íntimo, N1 ainda vale (sem espelho longo). |
 | **N8 Compressão de SOP** | Se o PC listou N passos de recon/craft/viagem → narrar **outcomes agregados** + **1–3 dados novos**; re-narrar passo só se **falhar**, **mudar**, ou revelar info. |
 | **N9 Fecho de deslocamento** | Em `VIAGEM` / retorno / marcha: se **2 turnos** seguidos **sem** anomalia e **sem** item de AGENDA exigindo beat no caminho → no **3º** (ou **já no 1º** se o PC disser “se limpo, sigo até X” / “chega no destino”) **fechar chegada** ou **1 evento real**. **Proibido** filler de marcha (“continua andando…”) em série. Não inventar encontro aleatório só para preencher. |
+| **N13 Situar a informação** | Checklist é memória. Saída é **uma situação**: cada fato no lugar / conversa / resultado a que pertence. Não omitir dado. Não gavetas na tela (`Cobertura:`, `EM:`, `Pessoas:`). O jogador não remonta o tabuleiro. Full: **§5.2**. |
+
+N10–N12 (AMBIENTE, SHOW, relógio só se mudou) — resumo no [1pager](motor_cena_1pager.md).
 
 ### Rodapé OOC (`ctrl`) — só conta, não é cena
 
-**Finalidade:** o jogador ver quantas msgs o chat já tem. **Não** é mecânica, **não** é HUD in-fiction, **não** muda N1–N11.
+**Finalidade:** o jogador ver quantas msgs o chat já tem. **Não** é mecânica, **não** é HUD in-fiction, **não** muda N1–N13.
 
 Toda resposta de RP (incluindo o boot) termina assim:
 
@@ -236,16 +258,15 @@ Comandos: `[Avançar cena]` / `[Pressão]` · `[Motor de cena]` / `[Anti-eco]` e
 
 **Entrada (PC):** descreve varredura EM + órbita de drones + mapa 3D + “sem infiltração” em vários passos.
 
-**Errado:** reescrever cada passo em 2ª pessoa e só no fim soltar a base.
+**Errado (eco):** reescrever cada passo em 2ª pessoa e só no fim soltar a base.
 
-**Certo (esqueleto — preencher com fatos do SoT / cena):**
+**Errado (N13 — gavetas):** imprimir o esqueleto na tela (`**EM:**` / `**Visual:**` / `**Terreno:**`). O jogador cruza as linhas para entender o lugar.
+
+**Certo:** os **mesmos** dados, já no lugar — resultado, o que isso mostra, o que isso abre agora. Colchetes = memória, não rótulo.
 
 ```text
-**EM:** limpo | anomalia: …
-**Visual / modelo:** volumes, perímetro, rupturas, entradas…
-**Terreno útil (futuro):** cobertura, rotas, distâncias aproximadas…
-**Tempo / risco:** luz, janela, heat se aplicável…
-*(gancho concreto — sem “o que você faz?”)*
+O espectro volta [limpo / anomalia X]. O que isso mostra já é o perímetro: [volumes, rupturas, entradas] — e o terreno que abre [cobertura, rotas, distâncias]. [Luz / janela / heat] só se mudam a próxima ação.
+[Gancho concreto — sem “o que você faz?”]
 ```
 
 ### 7.1.2 Exemplo canônico — retorno limpo (N9)
@@ -259,7 +280,7 @@ Comandos: `[Avançar cena]` / `[Pressão]` · `[Motor de cena]` / `[Anti-eco]` e
 ### 7.1.3 Checklist interno
 
 ```text
-Eco? não · SOP comprimido? sim · Resultado primeiro (se OP)? sim · Delta ≥60%? sim · Viagem limpa fechada (N9)? · Fonte: agenda|queue|now
+Eco? não · SOP comprimido? sim · Resultado primeiro (se OP)? sim · Delta ≥60%? sim · Viagem limpa fechada (N9)? · Situado (N13)? sim · gavetas na tela? não · Fonte: agenda|queue|now
 ```
 
 Playbook de NPCs: [npc_agencia_cena.md](npc_agencia_cena.md). Schema da agenda: [context_pack_template.md](../logs/context_pack_template.md).
@@ -330,4 +351,4 @@ Para localizar rapidamente qual arquivo consultar, use o [registro_arquivos.md](
 
 ---
 
-_Documento atualizado em 29 de Julho de 2026 (v2.1: N9 fecho de deslocamento + ação curta)_
+_Documento atualizado em 11 de Setembro de 2026 (v2.2: N13 situar a informação)_

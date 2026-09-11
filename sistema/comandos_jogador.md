@@ -331,7 +331,7 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 | 1 | Declarar: `Motor de cena — reancorado.` |
 | 2 | Ler: `sistema/motor_cena_1pager.md` + bloco **MOTOR** + **AGENDA** em `logs/context_pack_atual.md` (RAW se preciso). |
 | 3 | Responder em **formato curto** (abaixo). **Não** narrar cena ainda, salvo o jogador ter pedido “e continue” / enviado ação no mesmo turno. |
-| 4 | Se houver ação no mesmo turno: narrar **já** com N1b (resultado primeiro), N8 (SOP comprimido) e N9 se for viagem limpa. |
+| 4 | Se houver ação no mesmo turno: narrar **já** com N1b (resultado primeiro), N8 (SOP comprimido), N9 se for viagem limpa, **N13** (situar — sem gavetas na tela). |
 | 5 | Mesmo se a ação for um **script longo** (ex. gerado em chat meta): **não ecoar** — só outcomes. |
 | 6 | Se o thread estiver muito contaminado por eco (>~40 msgs RP): **sugerir** chat novo com `logs/handoff_atual.md`. |
 
@@ -339,7 +339,7 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 
 ```markdown
 **Motor reancorado**
-- N1 sem eco · N1b **só** OPERAÇÃO/VIAGEM/COMBATE · N2+ downtime = SHOW + boca própria · N8 SOP · N9 fecho de viagem limpa
+- N1 sem eco · N1b **só** OPERAÇÃO/VIAGEM/COMBATE · N2+ downtime = SHOW + boca própria · N8 SOP · N9 fecho de viagem limpa · **N13 situar** (checklist interno ≠ gavetas na tela)
 - Curta ≠ dois vocábulos · Valk-seca **não** vaza · anti-máquina = vocabulário de regra, não personalidade
 - AGENDA ativa: #… — …
 - Próximo turno: se downtime/social Pack → corpo + fala de gente; se ops → outcomes primeiro
@@ -382,7 +382,7 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 | - | ---- |
 | 1 | Declarar: `Ambientar — bloco de local.` |
 | 2 | Ler NOW em `context_pack_atual` (local/região) + guia de ambientação. |
-| 3 | Entregar **só** o bloco AMBIENTE (§2.1 do guia): sentidos, layout, cobertura, recursos, pessoas, **3–5 opções no ar**. |
+| 3 | Entregar **só** o bloco AMBIENTE: os itens do §2.1 (sentidos, layout, cobertura, recursos, pessoas, **3–5 opções**) **numa situação** (N13) — não imprimir os rótulos. |
 | 4 | Fechar com **1 gancho** com conteúdo (não “o que você faz?” vazio). |
 | 5 | Se o jogador já mandou ação no mesmo turno: ambientar **e** resolver a ação (terreno primeiro se a ação depender dele). |
 

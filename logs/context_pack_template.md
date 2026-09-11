@@ -12,12 +12,13 @@
 1. **Não ecoar** o PC (≤2 linhas). Se descreveu procedimento/SOP → pular para **resultado**.  
 2. **Delta** = **maior parte** da resposta (~≥60%): intel, NPC, tempo com efeito, pressão AGENDA.  
 3. Em `OPERAÇÃO` / `VIAGEM`: **resultado primeiro** (não espelhar o plano).  
-4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).  
-5. Fonte de pressão: **AGENDA DA CENA** → **NORTE curto** → [arco_ativo](../board/arco_ativo.md) (L1) → `event_queue` (F10).  
-6. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]`.  
-7. **Rodapé OOC:** linha em branco + `ctrl N/90` (+2 / resposta). Boot `ctrl 2/90`. Perdeu `ctrl ?/90`. Não narrar; não chrome; não mudar cena pelo número.
+4. **N13 situar:** cada fato na situação a que pertence. Checklist interno ≠ gavetas na tela (`Cobertura:`, `EM:`). Não omitir o dado.  
+5. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).  
+6. Fonte de pressão: **AGENDA DA CENA** → **NORTE curto** → [arco_ativo](../board/arco_ativo.md) (L1) → `event_queue` (F10).  
+7. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]`.  
+8. **Rodapé OOC:** linha em branco + `ctrl N/90` (+2 / resposta). Boot `ctrl 2/90`. Perdeu `ctrl ?/90`. Não narrar; não chrome; não mudar cena pelo número.
 
-Detalhe: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
+Detalhe: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · §5.2 (N13) · [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)
 
 ---
 

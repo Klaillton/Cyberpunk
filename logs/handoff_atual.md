@@ -8,7 +8,7 @@
 > **Primeiro arquivo a ler:** `logs/context_pack_atual.md`  
 > **Arco L1:** `board/arco_ativo.md`  
 > **Voz Valkirya:** `board/arco_ativo.md` §7 + diretrizes §3.3  
-> **Prosa downtime:** `sistema/motor_cena_1pager.md` + diretrizes §5.1  
+> **Prosa downtime:** `sistema/motor_cena_1pager.md` + diretrizes §5.1 · **N13 situar:** diretrizes §5.2  
 > **Canon:** repo/RAW > handoff > memória de chat
 
 **Não continuar o chat da 025.** Chat novo = 026.
@@ -74,7 +74,8 @@ Ops/público (Pack ouvindo / job): curta e seca. **Com Ryan agora:** curta **e**
 ### Prosa
 
 DOWNTIME / social Pack (jantar, corredor, tenda, oficina, Reyes): 3–6 linhas de corpo + fala. SHOW + boca própria = delta. N1b **não** aplica.  
-VIAGEM: N9 fecha chegada. OPERAÇÃO/recon/combate: resultado primeiro.
+VIAGEM: N9 fecha chegada. OPERAÇÃO/recon/combate: resultado primeiro.  
+**N13:** cada fato na situação a que pertence. Não gavetas (`Cobertura:`, `EM:`). Não omitir o dado.
 
 ---
 
@@ -121,7 +122,7 @@ Detalhe: [sessao_resumo_025.md](sessao_resumo_025.md)
 - 019 = ela pergunta uma vez antes de vetar
 - F15: sem “herói”
 - Cutter chão ≠ cena de abertura
-- NPCs ≠ frase-rádio; Valk-seca não vaza; N1b só ops/viagem/combate
+- NPCs ≠ frase-rádio; Valk-seca não vaza; N1b só ops/viagem/combate; N13 situar (não gavetas)
 
 ## Valk (voz)
 - Curta **e** quente com ele (frase de gente, não rádio). Público/job = seca.
@@ -133,12 +134,13 @@ Detalhe: [sessao_resumo_025.md](sessao_resumo_025.md)
 - VIAGEM: N9 fecha chegada. Depois AMBIENTE do ombro.
 - DOWNTIME / social Pack (jantar, Reyes, tenda): 3–6 linhas de corpo + boca própria = delta. N1b **não**.
 - OPERAÇÃO/combate: resultado primeiro.
+- **N13:** situar o dado (não gavetas; não omitir). AMBIENTE = checklist interno, uma situação na tela.
 - NPCs ≠ frase-rádio. Anti-máquina = vocabulário de regra, não personalidade.
 
 ## Cena
 Abre VIAGEM Mule → corte. Fecha chegada. AMBIENTE ombro 101.
 
 ## Narração
-- N1–N11
+- N1–N13
 - Confirme boot em **1 linha** (inclua “Valk = residual quente” e “prosa downtime on”), imprima `ctrl 2/90`, e **aguarde o jogador**.
 ```
