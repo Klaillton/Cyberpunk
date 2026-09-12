@@ -2,7 +2,7 @@
 
 > Handle **Valkirya**. **Valk** = apelido do Ryan (**F21**).
 
-**Última atualização:** 01 de Agosto de 2026 (sessão 023)
+**Última atualização:** 03 de Agosto de 2026 (sessão 026)
 **Escopo:** Acionar com Ryan nas **Badlands** (presente no acampamento).
 
 > **Nota:** Alex, Reina e Kaz **não** estão nas Badlands — menções a eles = evento futuro ou mensagem remota.
@@ -42,6 +42,7 @@
 - **03/07/2026 (almoço)** — Sasha e Lira sentaram perto; conversa prática e cordial (rotina no deserto). Valk retribuiu com simpatia cautelosa.
 - **10/07** — Scav containers com Ryan/Rusty/Scout.
 - **14/07** — Liderou apresentação Reyes com Tio Gringo; “desfile” no refeitório com Ryan; episódio “herói solitário” na oficina/depósito (prometeu não repetir; reconciliaram).
+- **02–03/08 (026)** — Dormiu no Pack (não no corte). Volante na 101. Residual íntimo alto. Freeze: tenda, tarde.
 - **15/07 (manhã)** — Entregou **esboço de plano** da caçada aves (E013) a pedido de Ryan.
 - **26–27/07 (019)** — Viagem industrial + retorno Pack. Atrito ops 018 resolvido; **acordo de comunicação** (ele dá plano mínimo; ela pergunta antes de subir o tom). Intimidade reforçada.
 - **31/07–01/08 (023)** — Jantar fechou plano (tom soou cobrança). Noite quieta. Manhã: conversa direta + reconciliação (cócega/café). Oficina com Ryan. Residual íntimo alto. **Não** reabrir o jantar.

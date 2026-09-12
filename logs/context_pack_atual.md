@@ -43,6 +43,17 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 | Prioridade | (1) Abrir chip (2) Recado do céu / um corte Reyes (3) Hop NC 05/08 noite |
 | Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira ainda delicado |
 
+## NORTE (orientação, não quest log)
+
+> Horizontes. **Não** é trilho. Se o pack divergir do `arco_ativo`, **vence este pack**.
+
+| Horizonte | Norte |
+| --------- | ----- |
+| **Curto** (hoje / sessão) | Abrir o chip em casa. Recado do Condor leste / um corte do Reyes. Descanso na tenda. |
+| **Médio** (1–3 sessões) | Hop NC **05/08 após 21h** (E015). Sparrow/Steel/Kaz **não** forçar. Voltar ao Pack depois. |
+| **Longo** (campanha) | Pack casas/Node/olaria. Doc E011. Crew NC. |
+| **Fora agora** | Base militar. Cutter no chão. Reabrir jantar 023 / SOP Condor / caixa 101. |
+
 ### Cena de abertura sugerida (027)
 
 **Não continuar o chat da 026.**  
@@ -96,6 +107,7 @@ Residual íntimo **alto**. Chat **023 contaminado** — **não** herdar o regist
 | **F06** | Crew NC inclui **Echo** (Media) — off-screen; ≠ Steel Rivera |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
+| **F21** | Handle = **Valkirya**. **Valk** = só Ryan (carinho) |
 | F07 | Ryan × Valk consolidados (**acordo 019 = perguntar, não cobrar** + intimidade 020–026) |
 | F08 | Mule = de Valk; equipe Valk + Mule |
 | **F11** | Casas modulares — pack geral sem revelação oficial completa |

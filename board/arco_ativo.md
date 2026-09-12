@@ -4,7 +4,7 @@
 **Não é tier-0 completo** — o narrador lê sob demanda quando a cena estagna ou o arco avança.  
 **Índice no boot:** bloco **NORTE** em [context_pack_atual.md](../logs/context_pack_atual.md) (curto / médio / longo / fora). Este arquivo = operação L1. **Não** copiar os bullets do pack aqui.  
 **Inventário longo prazo:** [event_queue.md](../event_queue.md).  
-**Atualizado:** ~02/08/2026 (pós-024) · sessão vigente **025**
+**Atualizado:** ~03/08/2026 (pós-026) · sessão vigente **026** · próxima **027**
 
 ---
 
@@ -78,10 +78,10 @@
 | Campo | Valor |
 | ----- | ----- |
 | **ID** | E015 (+ E005 latente, E011 no pacote NC) |
-| **Fase** | 1º pacote 30/07; intermediário **teto ~02/08 17h**; Condor **no ar** 02/08 (sem pacote); residual **Lina Park** sem ACK; **Marcus Rivera** mudo |
-| **Local do PC** | Pack Badlands (~02/08 almoço · oficina / gancho Condor) |
-| **Objetivo do arco** | Rede Sparrow/Steel → Kaz; ad coletando; Condor 2º voo; Valk junto; **sem** ops solo sem extração; acordo 019 = **perguntar**, não cobrar |
-| **Fora de foco (1 linha)** | Célula **Cutter** (E008) = amanhã, Reyes · Pack Node/casas/olaria · BT latente · E020 cobra Reyes |
+| **Fase** | Caixa 101 **coletada** 03/08. Chip preto **lacre intacto** + tira: hop NC **05/08 após 21h**; ponto = o chip; sem voz; sem ping antigo. Sparrow sem ACK; Steel mudo; Kaz off |
+| **Local do PC** | Pack Badlands (~03/08 **tarde** · tenda Ryan/Valk · descanso) |
+| **Objetivo do arco** | Abrir o chip → hop NC 05/08 21h (Valk junto); rede Sparrow/Steel → Kaz; **sem** ops solo sem extração; acordo 019 = **perguntar**, não cobrar |
+| **Fora de foco (1 linha)** | Célula **Cutter** (E008) = um corte **depois** do Condor leste pousar · Pack Node/casas/olaria · BT latente · E020 cobra Reyes · **não** reabrir caixa 101 |
 
 ### 3.1 Batidas possíveis (ordem flexível)
 
@@ -94,15 +94,17 @@
 | B5 | **Rede NC** | contato ok | Kaz / intermediário / Doc Moreau (E011) / crew |
 | B6 | **Assunto pessoal Ryan** | em NC | sem fechar Pack; 1–2 cenas, não monólogo eterno |
 | B7 | **Coleta Condor** | 30/07 15h–17h | **Feita** — 1º pacote anônimo; intermediário 48–72h |
+| B8 | **Dead drop 101** | 03/08 meio-dia | **Feita** — chip lacre + tira hop NC 05/08 21h |
+| B9 | **Hop NC** | 05/08 após 21h | Entrada / intermediário / silêncio com custo |
 
 ### 3.2 Default se idle (PC não puxa)
 
 Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
-1. **Condor:** pouso / pacote **ou** silêncio até o pássaro voltar.  
-2. **Relógio E015:** teto ~17h — burst **ou** silêncio com custo depois.  
-3. **Valk:** 1 batida SHOW (toque + 1 linha quente). **Sem** caderno. **Sem** cobrá-lo no Cutter hoje.  
-4. **Reyes / Cutter:** só se idle longo — “amanhã cedo, um corte”; **não** raid agora.
+1. **Chip:** lacre intacto — Ryan abre em casa **ou** o relógio 05/08 21h aperta.  
+2. **Condor leste:** pouso / recado na tenda **ou** silêncio até o pássaro voltar.  
+3. **Valk:** 1 batida SHOW (toque + 1 linha quente). **Sem** caderno. **Sem** reabrir a caixa.  
+4. **Reyes / Cutter:** um corte **quando o céu pousar**; **não** raid hoje; 101 fechou.
 
 ### 3.3 Off-screen agora (E015) — instância da §2.1
 
@@ -110,7 +112,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 | ----------- | ---- | ------------------ | ---------------------------- | ------- | ----------------- | --------------- |
 | **Kaz “The Broker”** | Night City, **escondido** | Montando crew futura | Não é alvo do ping | Dias | Via intermediário / B5 | Ficha crew |
 | **Marcus “Steel” Rivera** ([ficha](../fichas/npc/marcus_steel_rivera.md)) | NC | OPSEC / job / favores | Ping `RVW…` em fila ou risco | Relógio estourou → **019** | Burst, resposta, “depois”, silêncio com custo | **Pessoa**, não sistema; ≠ Echo Rivera |
-| **Lina “Sparrow” Park** ([ficha](../fichas/npc/lina_park.md)) | NC | OPSEC / fila — residual fraco **sem ACK** (018–020) | Silêncio deliberado registrado 019 | **Aberto** (pacote ad ~agora) | Resposta dela, “não agora”, ou residual morre com custo | **Pessoa** (handle Sparrow); **não** drone/sistema |
+| **Lina “Sparrow” Park** ([ficha](../fichas/npc/lina_park.md)) | NC | OPSEC / fila — residual fraco **sem ACK** (018–026) | Silêncio deliberado registrado 019 | Hop **05/08 21h** (chip ainda fechado) | Resposta dela, “não agora”, ou residual morre com custo | **Pessoa** (handle Sparrow); **não** drone/sistema |
 | **Crew NC** (Alex, etc.) | NC (off) | Vida normal / E004 latente | Fora do ping atual | Só se B5 ou reencontro | Cena ou boato | Não puxar sem gancho |
 | **Pack** (Reyes, Tio Gringo, Node) | Badlands | Rotina + E019 em discussão lenta | Ryan presente | Pulso diário se dia avança | Mensagem só se canal Pack aberto | Background; não compete com E015 na cena |
 
@@ -118,7 +120,8 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ### 3.4 O que **não** fazer neste arco (agora)
 
-- Inventar **segundo** combate Raffen/BT hoje (Cutter = amanhã, Reyes).  
+- Inventar **segundo** combate Raffen/BT hoje (Cutter = um corte após o céu, Reyes).  
+- Reabrir a caixa da 101 ou narrar o conteúdo do chip **antes** de Ryan abrir.  
 - Revelar paradeiro exato de Kaz sem canal.  
 - Transformar Lira/Sasha em tutorial eterno no lugar de B2.  
 - Eco de mood / música como substituto de batida de arco.  
@@ -128,13 +131,13 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ## 4. L0 — AGENDA sugerida (espelho; SoT da cena = context pack)
 
-> Se o pack divergir, **vence o pack**. Rascunho alinhado ao Pack pós-024.
+> Se o pack divergir, **vence o pack**. Rascunho alinhado ao Pack pós-026.
 
 | # | Gancho com conteúdo | Quem age se idle | Ação concreta |
 | - | ------------------- | ---------------- | ------------- |
-| 1 | Condor no ar, sem pacote | Sasha / Lira / mundo | Pouso ou silêncio até voltar |
-| 2 | Intermediário teto ~02/08 17h | Mundo / fixer | Burst, recado, ou silêncio com custo |
-| 3 | Cutter: um corte **amanhã** (Reyes) | Reyes | Não raid hoje; mapa de manhã |
+| 1 | Chip lacre intacto (abrir em casa) | Ryan / mundo | Relógio 05/08 21h se idle |
+| 2 | Condor leste ainda no ar | Sasha / Lira / Reyes | Pouso + recado; Reyes marca **um** corte |
+| 3 | Hop NC 05/08 após 21h | Mundo / intermediário | Sem voz; sem ping antigo; não forçar Sparrow/Steel |
 
 ---
 
@@ -169,19 +172,19 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ---
 
-## 7. Batidas-modelo relacionais (estado 024 — SHOW)
+## 7. Batidas-modelo relacionais (estado 026 — SHOW)
 
 > **Uso:** quando o PC abre espaço ou idle relacional. **1 batida por bloco**, não as três de uma vez.  
 > Valk **não** resume o progresso das outras — elas **mostram**.  
 > Ambientação de lugar: [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md).
 
-### 7.0 Estado emocional (SoT curto pós-023)
+### 7.0 Estado emocional (SoT curto pós-026)
 
 | Quem | Onde está na cabeça | O que já aconteceu | Próximo passo orgânico |
 | ---- | ------------------- | ----------------- | ---------------------- |
-| **Valk** | Residual íntimo alto; fechou o intercepto; no gancho com as duas | 024: “Agora”; distância combinada Sasha/Lira | SHOW quente; **não** reabrir jantar/base; **não** CO do Cutter hoje |
-| **Lira** | Residual positivo; viu fogo de longe | Condor no ar | **Fala própria** se em cena |
-| **Sasha** | Residual positivo; assusta com operador; distância combinada | Viu HMG de longe | Residual (ajuda/distância) — não sumir |
+| **Valk** | Residual íntimo alto; volante na 101 (não no bordo); chip é depois | 026: tenda 02/08; caixa; volta Pack | SHOW quente; **não** reabrir jantar/caixa; **não** CO do Cutter |
+| **Lira** | Residual positivo; leste visual 03/08 | Off-screen no Condor | **Fala própria** quando pousar |
+| **Sasha** | Residual positivo; assusta com operador | Off-screen no Condor | Residual (ajuda/distância) — não sumir |
 
 ### 7.1 Voz Valkirya — exemplos (obrigatório no boot)
 

@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 2026-09-09 (nota Kaz indexada; próximo resumo **025**)
+**Última atualização:** 2026-09-12 (pós-026; próximo resumo **027**)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -86,19 +86,19 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Auditoria combates pré-017 (só leitura) | `plans/auditoria_combates_canonicos.md` | F18 — **não** retcon |
 | Agents OPSEC Ryan (Vault/Honeypot/…) | `plans/agent_security.md` | F19 · `ryan_loadout` · ≠ Warden drone |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `024`). Próximo número disponível: **025**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `026`). Próximo número disponível: **027**.
 
 ---
 
 ## Estrutura Geral do Projeto
 
-O índice de árvore e o restante deste arquivo permanecem como na SoT 30/08 (Jax + Echo indexados). **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). Próximo resumo: **025**.
+O índice de árvore e o restante deste arquivo permanecem como na SoT 30/08 (Jax + Echo indexados). **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. Próximo resumo: **027**.
 
 ---
 
 ## Observações Gerais
 
 - O `registro_arquivos.md` é o **arquivo de referência central**.
-- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **025**.
+- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **027**.
 - **Ruleset:** v1.3.0 em `sistema/regras_red/` (sessão 017+; F18).
 - O **Source of Truth** permanece nos arquivos do repo (`feature/linha-estavel`).

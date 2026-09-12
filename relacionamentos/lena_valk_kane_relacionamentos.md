@@ -35,6 +35,8 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **30–31/07 (sessão 022):** Refrigeração módulo + recon externo da base. Residual íntimo alto. Acordo 019 praticado.
 - **31/07–01/08 (sessão 023):** Jantar fechou Condor/base (trava). Tom soou cobrança; Ryan pediu para parar. Noite quieta. Manhã: conversa direta + reconciliação (cócega/café). Oficina juntos. Residual íntimo alto. **Voz:** curta e quente com ele; 019 = perguntar, não cobrar. **Não** reabrir o jantar.
 - **01–02/08 (sessão 024):** Tarde oca com Ryan (sombra do Mule). Madrugada: fechou o intercepto (Mule no corredor; “Agora”). Debrief Reyes. Ficou no gancho com Sasha/Lira enquanto Ryan foi à oficina. Residual íntimo alto. **F15** ativo.
+- **02/08 (sessão 025):** Almoço Pack; 2º e 3º voo Condor. Combinado: ela no ombro da 101, ele na caixa. Jantar Sasha/Lira (leste amanhã visual, sem chão). Reyes briefado. Residual íntimo alto. **F15** ativo.
+- **02–03/08 (sessão 026):** Dormiram no Pack (não no corte). 03/08: ela no **volante** do Mule (não no bordo). Ryan na caixa. Chip lacre intacto. Volta Pack; Reyes avisado. Residual íntimo alto. 019 praticado. **F15** ativo. Freeze: tarde 03/08, tenda.
 
 ### Alex "Specter" Kane
 

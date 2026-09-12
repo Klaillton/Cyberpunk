@@ -8,7 +8,7 @@
 > **Primeiro arquivo a ler:** `logs/context_pack_atual.md`  
 > **Arco L1:** `board/arco_ativo.md`  
 > **Voz Valkirya:** `board/arco_ativo.md` §7 + diretrizes §3.3  
-> **Prosa downtime:** `sistema/motor_cena_1pager.md` + diretrizes §5.1 · **N13 situar:** diretrizes §5.2  
+> **Prosa:** `sistema/motor_cena_1pager.md` · diretrizes §5.1 · **N13** §5.2  
 > **Canon:** repo/RAW > handoff > memória de chat
 
 **Não continuar o chat da 026.** Chat novo = 027.
@@ -17,7 +17,7 @@
 
 ## Boot (ordem de leitura)
 
-1. `logs/context_pack_atual.md` (NOW + MOTOR + Voz Valk)  
+1. `logs/context_pack_atual.md` (NOW + **NORTE** + MOTOR + Voz Valk)  
 2. Este handoff  
 3. `sistema/fatos_duros.md` se dúvida  
 4. `board/arco_ativo.md` se E015 / Cutter / estagnação  
@@ -35,51 +35,54 @@ Boot OK · ~03/08/2026 tarde · Pack · tenda Ryan/Valk · Valk = residual quent
 | ----- | ----- |
 | Data | **~03/08/2026**, tarde |
 | Local | Pack: tenda Ryan/Valk (descanso) |
-| Condor | Leste visual 03/08 (Sasha/Lira), ainda no ar ao freeze |
-| Intermediário | Caixa 101 coletada; chip lacre intacto; tira: hop NC **05/08 após 21h**; sem voz; sem ping antigo |
-| Cutter | Corredor leste ~2h; camp não visitado; Reyes marca **um** corte após o céu |
-| Ryan × Valk | 019 + residual íntimo alto; ela no volante na 101 (não no bordo) |
+| Chip E015 | **Lacre intacto** no bolso; tira: hop NC **05/08 após 21h**; sem voz; sem ping antigo |
+| Condor | Leste visual 03/08 (Sasha/Lira), **ainda no ar** ao freeze |
+| Cutter | Corredor leste ~2h; camp não visitado; Reyes marca **um** corte **quando o céu pousar** |
+| Ryan × Valk | 019 + residual íntimo alto; ela no **volante** na 101 (não no bordo) |
 | Sasha / Lira | Off-screen no pássaro leste 03/08; não foram à 101 |
 | Reyes | Leste é Pack; 101 fechou; recado quando o céu pousar; Ryan volta depois de NC |
 | Base militar | **Não entra agora**; gatilho = mensagem → manhã seguinte |
-| Economia | sem delta cash |
+| Economia | sem delta cash; chip no mínimo (sem ID de lote) |
 | Ruleset | **v1.3.0** |
 
 ### Cena de abertura (027)
 
-Pack tarde. Tenda. Chip fechado. Residual quente. Não reabrir jantar/SOP Condor/caixa 101.
+Pack tarde. Tenda. Chip **fechado**. Residual quente. Não reabrir jantar 023 / SOP Condor / caixa 101.
 
 ### AGENDA
 
-1. Abrir o chip.  
-2. Recado do Condor leste / um corte.  
+1. Abrir o chip (sandbox / casa).  
+2. Recado do Condor leste / um corte do Reyes.  
 3. Hop NC 05/08 após 21h.
 
 ### Trava
 
-- Não reabrir Condor SOP / jantar 023 / base agora.  
+- Não reabrir Condor SOP / jantar 023 / base agora / **caixa 101**.  
 - 019 = **perguntar** uma vez, não cobrar.  
 - F15: Valk **não** chama Ryan de herói.  
+- F21: Pack diz **Valkirya**; **Valk** = só Ryan.  
 - Cutter chão hoje = não.  
-- NPCs ≠ frase-rádio. Valk-seca **não** vaza.
+- NPCs ≠ frase-rádio. Valk-seca **não** vaza.  
+- **Ryan operador ≠ sotaque da mesa.** `[Voz: Ryan pode cortar. NPC não copia o corte. Pack = conversa.]`
 
 ### Voz Valkirya
 
 Ops/público: curta e seca. **Com Ryan agora:** curta **e** quente.  
-**Proibido:** caderno, “três coisas”, CO do Cutter, glosa de regra.
+**Proibido:** caderno, “três coisas”, CO do Cutter, glosa de regra.  
+**Bom (a dois):** “Chip é depois. Agora deita.”
 
 ### Prosa
 
-DOWNTIME: 3–6 linhas de corpo + fala.  
+DOWNTIME: 3–6 linhas de corpo + fala. N1b **não**.  
 VIAGEM: N9 fecha chegada. OPERAÇÃO: resultado primeiro.  
-**N13:** situação, não gavetas.
+**N13:** cada fato na situação a que pertence. Não gavetas (`Cobertura:`, `EM:`). Não omitir o dado.
 
 ---
 
 ## O que acabou de acontecer (026)
 
-- 02/08: tenda no Pack (não corte).  
-- 03/08: caixa 101 — chip + tira NC 05/08 21h.  
+- 02/08: tenda no Pack (não no corte).  
+- 03/08: caixa 101 — chip + tira hop NC 05/08 21h. Chip **não aberto**.  
 - Reyes avisado. Condor leste no ar. Freeze: tarde, tenda.
 
 Detalhe: [sessao_resumo_026.md](sessao_resumo_026.md)
@@ -106,7 +109,7 @@ Detalhe: [sessao_resumo_026.md](sessao_resumo_026.md)
 
 ## Estado
 - **~03/08/2026 tarde** · Pack · tenda Ryan/Valk
-- Chip E015 lacre intacto; hop NC 05/08 após 21h
+- Chip E015 **lacre intacto**; hop NC **05/08 após 21h**; ponto = o chip
 - Condor leste (Sasha/Lira) ainda no ar; Reyes marca um corte quando pousar
 - Ryan volta ao Pack depois de NC
 
@@ -114,17 +117,20 @@ Detalhe: [sessao_resumo_026.md](sessao_resumo_026.md)
 - Não reabrir jantar 023 nem SOP Condor nem a caixa da 101
 - 019 = ela pergunta uma vez antes de vetar
 - F15: sem “herói”
+- F21: handle = Valkirya; Valk = só Ryan
 - Cutter chão ≠ cena de abertura
 - NPCs ≠ frase-rádio; N13 situar (não gavetas)
+- Ryan pode cortar; NPC **não** copia o corte; Pack = conversa
 
 ## Valk (voz)
 - Curta **e** quente com ele. Público/job = seca.
 - **Proibido:** caderno, “três coisas”, CO do Cutter, glosa de regra
+- **Bom:** “Chip é depois. Agora deita.”
 
 ## Prosa
-- DOWNTIME: 3–6 linhas de corpo + boca própria
+- DOWNTIME: 3–6 linhas de corpo + boca própria. N1b **não**.
 - OPERAÇÃO: resultado primeiro. VIAGEM: N9 fecha chegada.
-- N13: situação, não gavetas
+- N13: situação, não gavetas.
 
 ## Cena
 Pack, tarde, tenda. Chip fechado. Residual quente.

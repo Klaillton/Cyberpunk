@@ -1,6 +1,6 @@
 # Consequências Persistentes
 
-**Última atualização:** 02 de Agosto de 2026 (sessão 024)
+**Última atualização:** 03 de Agosto de 2026 (sessão 026)
 
 ---
 
@@ -313,6 +313,25 @@ Tarde 01/08 com Valk; canal do intermediário fechado. Pulso Pack 01→02. Madru
 - Pack: caça protegida; protocolo endurecido.
 - E015 não fecha — intermediário ainda no relógio.
 - Relação Sasha/Lira: viram fogo/HMG de longe; Ryan manteve distância.
+
+## 02 de Agosto de 2026 - Saltos Condor + briefing Reyes (sessão 025)
+
+Almoço Pack; residual íntimo. 2º e 3º voo Condor no mesmo dia. Pacote 3: janela **03/08 até meio-dia**; caixa no ombro da trilha velha, norte da 101 (ferro torto + 3 pedras); sem voz; sem ping antigo. Ryan na caixa; Valk no ombro (plano 025 — executado na 026 com ela no **volante**). Leste = Pack (céu); 101 = Ryan. Reyes briefado. Freeze 025: ainda no acampamento.
+
+**Impactos:**
+
+- E015: ponto e janela do dead drop definidos.
+- Pack: 101 não é estrada deles.
+
+## 02 a 03 de Agosto de 2026 - Dead drop 101 (sessão 026)
+
+Dormiram no Pack 02/08 (não no corte). 03/08: Mule → corte/ombro 101. Dead drop meio-dia: **chip preto lacre intacto** + tira térmica (hop NC **05/08 após 21h**; ponto = o chip; sem voz; sem ping antigo). Chip **não aberto**. Volta Pack. Reyes: 101 fechou; recado quando o céu pousar; um corte no leste. Condor leste ainda no ar ao freeze. Descanso tarde 03/08, tenda.
+
+**Impactos:**
+
+- E015: objeto coletado; próximo hop 05/08 21h.
+- Sem delta heat/reputação/cash (101 sem testemunha).
+- Ryan × Valk: 019 praticado (tenda vs corte; volante vs bordo); residual íntimo alto.
 
 **Regras de uso deste arquivo:**
 

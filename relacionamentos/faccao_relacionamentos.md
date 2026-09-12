@@ -1,7 +1,7 @@
 # Relacionamentos entre Facções
 
 **Campanha:** Cyberpunk RED  
-**Última atualização:** 02 de Agosto de 2026 (pós-024 · Cutter)
+**Última atualização:** 03 de Agosto de 2026 (pós-026 · hop NC)
 
 ---
 
@@ -12,7 +12,7 @@
 - **Status com a Crew:** Aliado consolidado
 - **Motivo:** Ryan hospedado no Pack; arquiteto/mentor (Node, casas, scav, ensino, **drones miméticos**).
 - **Risco atual:** Baixo
-- **Impacto na Crew:** Reputação Pack **+78**. Condor/Corujas operacionais; módulo de sinal para coleta do ad. Cerca OK; E014 implícita (revelação pública adiada). Viagem 24–27/07 **feita e voltaram**; pack geral sem discurso. Caça protegida 02/08.
+- **Impacto na Crew:** Reputação Pack **+78**. Condor/Corujas operacionais. Cerca OK; E014 implícita. 101 fechou para Ryan (026); leste = céu Pack. Caça protegida 02/08. Hop NC 05/08 — ele volta depois.
 
 ### Raffen Shiv (remanescentes)
 

@@ -52,7 +52,7 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Caixa da 101 coletada 03/08 me
 
 | Nome | Papel | Relação com Ryan | Notas |
 |------|-------|------------------|-------|
-| **Lena "Valk" Kane** | Parceira | Amor + acordo ops 019 + intimidade 020–026 | F15; volante na 101 |
+| **Lena “Valkirya” Kane** (Ryan: Valk) | Parceira | Amor + acordo ops 019 + intimidade 020–026 | F15 · F21; volante na 101 |
 | **Lira** | Pack | Residual positivo | Condor leste 03/08 visual |
 | **Sasha** | Pack | Residual positivo | Condor leste 03/08 visual |
 | **Lina “Sparrow” Park** | Contato NC (NPC) | Handle Sparrow | residual **sem ACK** |

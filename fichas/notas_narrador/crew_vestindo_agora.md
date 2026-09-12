@@ -15,7 +15,7 @@ Preferir **arquivo** (estável). `#` é atalho do índice atual.
 
 | Quem | Arquivo | # | 1 linha de roupa | Desde (data) | Origem |
 | ---- | ------- | - | ---------------- | ------------ | ------ |
-| Valk | *(cena)* | — | Tenda Pack, pós-garagem; resto do look de viagem / coberta. **Camisa + sutiã danificados** (019, perda narrativa) | 27/07/2026 noite | dona |
+| Valk | *(cena)* | — | Tenda Pack, tarde 03/08, descanso pós-101. Look de viagem / coberta. **Camisa + sutiã danificados** (019, perda narrativa) | 03/08/2026 tarde | dona |
 | Alex | | | | | |
 | Reina | | | | | |
 | Stitch | | | | | |
@@ -33,7 +33,7 @@ Preferir **arquivo** (estável). `#` é atalho do índice atual.
 
 | Quem | Ontem (arquivo) | Últimos 3 (mais recente à esquerda) |
 | ---- | --------------- | ----------------------------------- |
-| Valk | *(cena 22/07: shorts + xadrez + boné)* | *(cena 27/07 tenda)* · *(cena 22/07)* |
+| Valk | *(cena 03/08 tenda pós-101)* | *(cena 03/08)* · *(cena 27/07 tenda)* · *(cena 22/07)* |
 | Alex | | |
 | Reina | | |
 | Stitch | | |

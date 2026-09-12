@@ -117,10 +117,13 @@
 ## Arquivos Avaliados / Atualizados Nesta Sessão
 
 - `logs/sessao_resumo_026.md` — novo
-- `board/board_campanha.md` · `sistema/dashboard_contexto.md` — NOW 03/08 tarde Pack
+- `board/board_campanha.md` · `board/arco_ativo.md` · `sistema/dashboard_contexto.md`
 - `event_queue.md` — E015 hop NC 05/08; E008 céu 03/08 em curso
-- `logs/context_pack_atual.md` · `logs/handoff_atual.md`
+- `logs/context_pack_atual.md` (incl. **NORTE**) · `logs/handoff_atual.md`
 - `sistema/registro_arquivos.md` — próximo **027**
-- heat / reputação / economia — sem delta cash
+- `economia.md` — chip E015 no mínimo (sem delta cash)
+- `consequencias/consequencias_persistentes.md` · `relacionamentos/ryan_relacionamentos.md` · `lena_valk_kane_relacionamentos.md` · `faccao_relacionamentos.md`
+- `pulso_do_mundo/pack_badlands/pulso_geral.md` · sasha_e_lira · reyes · `crew/valk.md` · `logs/pulso_20260803.md`
+- heat / reputação — sem delta
 
 **Próximo resumo:** `sessao_resumo_027.md`

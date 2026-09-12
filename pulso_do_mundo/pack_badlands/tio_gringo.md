@@ -1,6 +1,6 @@
 # Pulso - Tio Gringo
 
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 03 de Agosto de 2026 (sessão 026)
 **Escopo:** Badlands — oficina/forja do pack.
 
 ## Motivações Atuais
@@ -41,6 +41,7 @@
 - **03/07/2026 (tarde)** — Elias (recruta) pediu uma válvula para a destilaria — atendido sem drama.
 - **03/07/2026 (dia)** — Pré-validação do blueprint **Badlands Node v0.1** com Ryan e Rusty. *(sessão 007)*
 - **11–14/07/2026** — Time de produção no projeto casas; co-apresentação a Reyes (14/07). Orgulho dos alunos no protótipo.
+- **03/08 (026)** — Forja acesa cedo (pulso). Ryan/Valk na 101 de madrugada; oficina não é o foco.
 
 ## Relação com Ryan
 

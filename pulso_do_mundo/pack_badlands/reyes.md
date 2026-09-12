@@ -1,6 +1,6 @@
 # Pulso - Reyes (Líder do Pack)
 
-**Última atualização:** 15 de Julho de 2026 (sessão 011)
+**Última atualização:** 03 de Agosto de 2026 (sessão 026)
 **Escopo:** Badlands — acampamento do pack.
 
 ## Motivações Atuais
@@ -37,6 +37,8 @@
 - **03/07/2026 (tarde)** — Observou recrutas de longe; decidiu que precisa alinhar com Ryan sobre supervisão de Tomas (ainda não abordou).
 - **03/07/2026 (dia)** — **Aprovou oficialmente** o **Badlands Node v0.1** após apresentação de Ryan. *(sessão 007)*
 - **14/07/2026** — Ouve apresentação do protótipo casas (Valk + Tio Gringo + alunos); promete resposta no mesmo dia — **ainda não comunicou** em 15/07 manhã.
+- **02/08 (025)** — Briefing: leste = Pack (céu + um corte); 101 = Ryan, não é estrada do Pack.
+- **03/08 (026)** — 101 fechou para Ryan. Recado quando o Condor leste pousar; um corte no leste. Ryan some e volta depois de NC.
 
 ## Relação com Ryan
 

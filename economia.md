@@ -1,6 +1,6 @@
 # Economia Persistente
 
-**Última atualização:** 2026-08-02 in-game / 2026-08-31 real (pós-024 · sem delta cash)
+**Última atualização:** 2026-08-03 in-game / 2026-09-12 real (pós-026 · sem delta cash)
 
 > **Dinheiro / macro** = seções abaixo.  
 > **Micro-recursos** = [Atores · Estoque · Ryan mínimo](#atores-produtores--consumidores).  
@@ -13,7 +13,7 @@
 | ---- | -------------- | ----------- |
 | **Eddies (eb) em mãos** | **~1.200–3.700 eb** *(estimado após débito)* | Débito de **300 eb** (ad anônimo, 3 dias × 100) aplicado em 30/07 (sessão 021). Valor base ainda estimado. |
 | Dívidas | Nenhuma registrada | — |
-| Contratos pendentes | **Ad anônimo (E015)** — 100 ed/dia | Fixer 2º escalão; pacote de respostas a cada **3 dias**; renovável. 1º pacote coletado 30/07; **1º débito (300 eb) pago**. |
+| Contratos pendentes | **Ad anônimo (E015)** — 100 ed/dia | 1º pacote 30/07; 2º+3º salto 02/08; caixa 03/08 = chip lacre + hop NC **05/08 21h**. **1º débito (300 eb) pago**. Sem delta cash 026. |
 | Custos operacionais | Baixos no Pack | Hospedagem × trabalho técnico |
 | Lifestyle atual | Pack (subsistência + oficina) | Em NC: ver [Lifestyle](#lifestyle-atalho-red) |
 
@@ -39,7 +39,7 @@ Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × dis
 | Materiais         | Depósito reforçado               | Scavs 05/07 + 10/07; **chrome/componentes torre** 16–17/07 |
 | **Casas modulares** | Protótipo externo OK; interno modelagem | E014: produção aprovada; revelação pública adiada (E012) |
 | **Drones miméticos** | Condor + Corujas operacionais | Valor operacional (alerta 15–40 min); demo 20/07 |
-| **Módulo de sinal Condor** | Operacional (021) | 1º pacote coletado; refrigerado; **no ar** 02/08 |
+| **Módulo de sinal Condor** | Operacional (021–026) | 1º pacote 30/07; voos 02/08; **leste visual 03/08 ainda no ar** (Sasha/Lira) |
 
 ## Observações Econômicas Gerais
 
@@ -111,6 +111,7 @@ Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × dis
 | Agent stack WIREGHOST | Honeypot · Profissional · Vault | F19 |
 | Máscara tática meia-face | 1 | quase sempre |
 | Vespas + Warden | loadout | F03 F12 |
+| Chip E015 (lacre intacto) | 1 | Dead drop 101 03/08; tira hop NC 05/08 21h; **não aberto**. Sem ID de lote. |
 
 ### Oficina / depósito pessoal (Pack)
 

@@ -1,6 +1,6 @@
 # Pulso - Sasha e Lira
 
-**Última atualização:** 29 de Julho de 2026 (pós-020; residual viagem 019)
+**Última atualização:** 03 de Agosto de 2026 (sessão 026)
 **Escopo:** Badlands — jovens do pack.
 
 ## Motivações Atuais
@@ -37,6 +37,8 @@
 - **14/07/2026** — Observaram “desfile” Ryan/Valk no refeitório pós-apresentação Reyes.
 - **24–27/07 (018–019)** — Viagem com Ryan/Valk (industrial + retorno). Residual positivo: Sasha manteve “não some sem avisar”; Lira “foi bom / chama de novo”. Ambas no Pack (27/07 noite).
 - **28–29/07 (020)** — Cumprimentos no refeitório. Sem avanço novo. Residual 019 **vigente**.
+- **02/08 (025)** — Três voos Condor no dia; jantar leve com Ryan/Valk. Leste = visual amanhã, sem chão; **não** vão à 101.
+- **03/08 (026)** — Off-screen no Condor leste (visual, sem chão) ao freeze da tarde. Não cruzaram a 101.
 
 ## Relação com Valk
 

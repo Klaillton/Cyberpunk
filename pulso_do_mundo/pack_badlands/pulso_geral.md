@@ -1,8 +1,8 @@
 # Pulso do Pack - Eventos Off-Screen (Geral)
 
 **Pack:** Pack Nômade de Badlands (acampamento atual)  
-**Última atualização:** 02 de Agosto de 2026 (sessão 024)  
-**Contexto atual:** Ryan+Valk no Pack (~02/08). Condor no ar; intermediário teto ~17h. Cutter = rastreio amanhã. E020 cobra = ideia.
+**Última atualização:** 03 de Agosto de 2026 (sessão 026)  
+**Contexto atual:** Ryan+Valk no Pack (~03/08 tarde, tenda). Chip E015 lacre intacto; hop NC 05/08 21h. Condor leste ainda no ar. Cutter = um corte após o céu. E020 cobra = ideia.
 
 **Gap B1:** 29→30/07 sem d100 formal; estado derivado do resumo 021 (Pack estável). Retomar rolagem no próximo amanhecer (31/07).
 
@@ -50,6 +50,7 @@ _(Remover quando resolvido. Cada um concede +1 rolagem extra em linhas de impact
 ## 2. Eventos Off-Screen Recentes
 
 - **01→02/08/2026 (sessão 024):** ciclo d100 em `logs/pulso_20260802.md`. Hits: rumor Raffen; caça saiu; Tio na forja; Sasha/Lira no Condor; chamado de incurção diferido. **Cooldown 14 dias** na linha Raffen (hit 02/08).
+- **02→03/08/2026 (sessão 026):** ciclo em `logs/pulso_20260803.md`. Raffen **não** rerolado (cooldown). Hits percebidos: forja do Tio acesa; Sasha/Lira no Condor leste (visual, sem chão). Outros hits da tabela limitados ao teto do dia — não viraram cena.
 
 _(Registrar com data in-game. Arquivar após 5 entradas — ver procedimento.)_
 
