@@ -1,9 +1,9 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **025** · **Próxima:** **026** (`sessao_resumo_026.md`)  
+**Gerado após:** sessão **026** · **Próxima:** **027** (`sessao_resumo_027.md`)  
 **Branch:** `feature/linha-estavel`  
-**Atualizado:** ~02 de Agosto de 2026 (noite) — Pack Badlands · tenda do mapa do Reyes
+**Atualizado:** ~03 de Agosto de 2026 (tarde) — Pack Badlands · tenda Ryan/Valk
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
 > **Arco + off-screen (L1):** [board/arco_ativo.md](../board/arco_ativo.md) — sob demanda / se estagnar.  
@@ -34,19 +34,19 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 
 | Campo | Valor |
 | ----- | ----- |
-| Data in-game | **~02/08/2026** |
-| Período | Noite |
+| Data in-game | **~03/08/2026** |
+| Período | Tarde |
 | Região | **Badlands / Pack** |
-| Local específico | Tenda do mapa do Reyes (Ryan + Valk ainda no acampamento; **não saíram**) |
+| Local específico | Tenda Ryan/Valk (descanso). Chip E015 no bolso, **lacre intacto** |
 | Facção / base local | Pack Nômade Badlands |
-| Cena / gancho | Decisão: sair agora, dormir no corte (ombro da trilha velha, norte da 101), recon de madrugada; caixa ~meio-dia 03/08 |
-| Prioridade | (1) VIAGEM Mule → corte (2) Caixa 03/08 meio-dia (3) Condor leste visual amanhã (Sasha/Lira) |
+| Cena / gancho | Descanso pós-caixa; abrir chip em casa; hop NC **05/08 após 21h**; Condor leste ainda no ar |
+| Prioridade | (1) Abrir chip (2) Recado do céu / um corte Reyes (3) Hop NC 05/08 noite |
 | Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira ainda delicado |
 
-### Cena de abertura sugerida (026)
+### Cena de abertura sugerida (027)
 
-**Não continuar o chat da 025.**  
-Abre **VIAGEM** Mule → corte. N9: fechar chegada. Depois **AMBIENTE** do ombro da trilha velha (norte da 101). Valk = residual quente. Não narrar filler de marcha. Não reabrir jantar 023 nem SOP Condor.
+**Não continuar o chat da 026.**  
+Pack, tarde 03/08, tenda. Chip lacre intacto. Valk = residual quente. Não reabrir jantar 023 nem SOP Condor. Não reabrir a caixa da 101.
 
 ---
 
@@ -54,16 +54,16 @@ Abre **VIAGEM** Mule → corte. N9: fechar chegada. Depois **AMBIENTE** do ombro
 
 | # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
 | - | ---------------- | ---------------- | ---------------------------------------------- |
-| 1 | Sair agora / dormir no corte (ombro 101) | Valk | Fecha viagem (N9) + AMBIENTE do ombro |
-| 2 | Caixa 03/08 até meio-dia (um salto) | Mundo / intermediário | Relógio da janela; sem voz; sem ping antigo |
-| 3 | Condor leste amanhã — visual, sem chão | Sasha/Lira / Reyes | Reyes marca **um** corte quando o pássaro voltar |
+| 1 | Abrir o chip (sandbox / casa) | Ryan / mundo | O chip continua lacre; relógio 05/08 21h |
+| 2 | Condor leste — pouso / recado | Sasha/Lira / Reyes | Reyes marca **um** corte; recado na tenda |
+| 3 | Hop NC 05/08 após 21h | Mundo / intermediário | Relógio do hop; sem voz; sem ping antigo |
 
 | Campo | Valor |
 | ----- | ----- |
-| **Modo atual** | Pack noite → próxima cena = **VIAGEM** |
+| **Modo atual** | Pack tarde → DOWNTIME / chip |
 | **Turnos sem delta (estimado)** | 0 |
-| **Região / local (NOW)** | Badlands · Pack · tenda do mapa |
-| **Arco L1** | E015 (caixa 101 · 03/08 meio-dia) · [arco_ativo.md](../board/arco_ativo.md) |
+| **Região / local (NOW)** | Badlands · Pack · tenda Ryan/Valk |
+| **Arco L1** | E015 (chip por abrir · hop NC 05/08 21h) · [arco_ativo.md](../board/arco_ativo.md) |
 
 **Trava 023 (não reabrir):** base = mensagem → manhã seguinte; 019 em vigor. **Não** reabrir o jantar como briga. **Não** reabrir SOP Condor como tutorial.
 
@@ -79,9 +79,9 @@ Abre **VIAGEM** Mule → corte. N9: fechar chegada. Depois **AMBIENTE** do ombro
 Residual íntimo **alto**. Chat **023 contaminado** — **não** herdar o registro de CO.
 
 - Ops/público: curta e seca (**Pack ouvindo / job**). Com Ryan agora: curta **e** quente — toque + frase de gente. **Curta ≠ dois vocábulos.** Não herdar rádio para Reyes/Sasha/Lira.
-- Acordo 019 = **perguntar uma vez** antes de vetar. Plano já fechado (ombro + corte + agora) = não reabre.
+- Acordo 019 = **perguntar uma vez** antes de vetar.
 - **Proibido:** “três coisas”, “fecha antes de dormir”, “sem isso eu não top”, “eu decido”, “tribunal”, silêncio de castigo, glosa de regra na prosa.
-- **Bom (a dois):** Polegar no cinto. “Oficina e some. Eu pego o Mule.” Quase na boca. “O resto é tenda.”
+- **Bom (a dois):** Polegar no cinto. “Chip é depois. Agora deita.”
 - Mais exemplos: [arco_ativo §7](../board/arco_ativo.md).
 
 ---
@@ -96,11 +96,11 @@ Residual íntimo **alto**. Chat **023 contaminado** — **não** herdar o regist
 | **F06** | Crew NC inclui **Echo** (Media) — off-screen; ≠ Steel Rivera |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
-| F07 | Ryan × Valk consolidados (**acordo 019 = perguntar, não cobrar** + intimidade 020–025) |
+| F07 | Ryan × Valk consolidados (**acordo 019 = perguntar, não cobrar** + intimidade 020–026) |
 | F08 | Mule = de Valk; equipe Valk + Mule |
 | **F11** | Casas modulares — pack geral sem revelação oficial completa |
 | **L01–L03** | Pack: Reyes, Tio Gringo, Container A, time produção no segredo parcial |
-| **Novo** | Lira + Sasha: residual positivo 019/022/023/024/025 (3 voos + jantar; leste amanhã) |
+| **Novo** | Lira + Sasha: residual positivo 019/022/023/024/025/026 (leste 03/08 no ar) |
 | **F18** | Ruleset **v1.3.0** · 017+ · sem retcon 001–016 |
 | **F19** | Agents: Vault / Profissional / Honeypot / Arbiter/Watchdog ≠ Warden |
 | **F20** | **Sparrow** = Lina Park (NPC); **Steel** = Marcus Rivera (NPC) — **não** sistemas; Steel **≠** Echo |
@@ -113,8 +113,8 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 | ID | Uma linha |
 | -- | --------- |
-| **E015** | 1º pacote 30/07; 2º+3º salto 02/08; caixa **03/08 meio-dia** (ombro trilha velha, norte da 101); Lina Park sem ACK; Marcus Rivera mudo; Kaz escondido |
-| **Módulo Condor** | No chão (3 voos 02/08); amanhã = leste visual (Sasha/Lira) |
+| **E015** | Caixa 03/08 coletada; chip lacre intacto; hop NC **05/08 após 21h**; Lina Park sem ACK; Marcus Rivera mudo; Kaz escondido |
+| **Módulo Condor** | Leste visual 03/08 (Sasha/Lira) — ainda no ar ao freeze |
 | **Cutter** | Célula Raffen; rio seco leste ~2h; camp não visitado; Reyes marca **um** corte após o céu |
 | **Base militar** | Perímetro externo mapeado (abandonado); **não entra agora**; gatilho = mensagem → manhã seguinte |
 | **E019** | Olaria/cogeração — Pack (background) |
@@ -124,18 +124,18 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 ---
 
-## O que acabou de acontecer (025 — 1 parágrafo)
+## O que acabou de acontecer (026 — 1 parágrafo)
 
-02/08 Pack: tarde com Valk; 2º e 3º voo Condor. Intermediário deu janela **03/08 até meio-dia** e ponto (caixa no ombro da trilha velha, norte da 101). Ryan na caixa; Valk no ombro. Leste = Condor com Sasha/Lira amanhã, visual, sem chão. Reyes: leste é dele; 101 não é estrada do Pack; Ryan some e volta quando fechar. Freeze: ainda na tenda do mapa. Não saíram.
+02/08 noite Pack: oficina + tenda (não dormiram no corte). 03/08: corte/ombro 101; dead drop meio-dia (chip + tira: hop NC 05/08 21h; sem voz; sem ping antigo). Chip não aberto. Volta Pack. Reyes avisado. Condor leste ainda no ar. Freeze: tarde 03/08, tenda, descanso.
 
-Detalhe: [sessao_resumo_025.md](sessao_resumo_025.md)
+Detalhe: [sessao_resumo_026.md](sessao_resumo_026.md)
 
 ---
 
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · ~02/08/2026 noite · Pack · tenda Reyes · Valk = residual quente · prosa downtime on · caixa 03/08 meio-dia · próximo resumo: 026 · Ruleset 1.3.0
+Boot OK · ~03/08/2026 tarde · Pack · tenda Ryan/Valk · Valk = residual quente · prosa downtime on · chip lacre intacto · hop NC 05/08 21h · próximo resumo: 027 · Ruleset 1.3.0
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.
