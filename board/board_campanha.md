@@ -1,20 +1,20 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** ~02 de Agosto de 2026 (noite) — Pack Badlands  
-**Local:** Tenda do mapa do Reyes (Ryan + Valk ainda no acampamento)
+**Data Atual:** ~03 de Agosto de 2026 (tarde) — Pack Badlands  
+**Local:** Tenda Ryan/Valk (descanso pós-caixa 101)
 
 ---
 
 ## Missão Atual
 
-Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo Condor operacional (3 voos em 02/08). 1º pacote do ad (30/07); 2º e 3º saltos 02/08. Intermediário deu **janela + ponto**.
+Ryan "Wireghost" Voss está no **Pack** com Valk. Caixa da 101 coletada 03/08 meio-dia. Chip E015 **lacre intacto**. Condor leste (Sasha/Lira) ainda no ar.
 
-**Norte (SoT):** bloco **NORTE** em [context_pack_atual.md](../logs/context_pack_atual.md) — curto / médio / longo / fora. **Não** duplicar a lista aqui.
+**Norte (SoT):** bloco **NORTE** em [context_pack_atual.md](../logs/context_pack_atual.md). **Não** duplicar a lista aqui.
 
 **Prioridade imediata:**
-1. VIAGEM Mule → corte (ombro da trilha velha, norte da 101). Dormir no corte. Recon de madrugada.  
-2. Caixa **03/08 até meio-dia** (ferro torto + três pedras). Ryan na caixa; Valk no ombro. Um salto. Sem voz. Sem ping antigo.  
-3. Célula **Cutter**: rio seco leste ~2h; Sasha/Lira = Condor visual **03/08**, sem chão; Reyes marca **um** corte quando o pássaro voltar.  
+1. Abrir o chip (sandbox / casa).  
+2. Hop NC **05/08 após 21h** (tira térmica). Sem voz. Sem ping antigo.  
+3. Célula **Cutter**: Reyes marca **um** corte quando o Condor leste pousar; recado para Ryan.  
 4. Base militar: **não entra agora**; gatilho = mensagem → manhã seguinte.  
 5. Sparrow sem ACK; Steel mudo.  
 6. Acordo 019 + residual íntimo alto.
@@ -22,20 +22,20 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo Condor operacional (3 
 **Arco L1 + off-screen:** [arco_ativo.md](arco_ativo.md)
 
 **Projetos em andamento (Pack / background):**
-- Condor + Corujas; módulo operacional; casas modulares (F11); Node; E019 olaria delegada; ideia assistente Reyes (cobra mimética).
-- Oficina 023: olhal do reboque + cubos. Oficina 024: Vespas/Warden/armas servidas.
+- Condor + Corujas; casas modulares (F11); Node; E019 olaria delegada; ideia assistente Reyes (cobra mimética).
 - Ideia 024: torre remota HMG + compensador (não construída).
 
-**Decisão de viagem:** sair **agora** (02/08 noite) para o corte da 101. Voltar ao Pack quando o salto fechar.
+**Decisão de viagem:** NC 05/08 noite; voltar ao Pack quando fechar.
 
 ---
 
 ## Pistas Confirmadas
 
 - **022:** Refrigeração isobutano; Condor +58h/4h; recon externo base abandonada; Mule vistorado.
-- **023:** Plano travado no jantar; pulso 31→01; oficina 01/08; intermediário mudo.
-- **024:** Dois cascos Raffen no encalho da caça; Cutter; rio seco leste; camp não visitado.
-- **025:** Intermediário — janela 03/08 meio-dia; caixa no ombro da trilha velha, norte da 101. SOP Condor reancorada. Reyes: leste Pack / 101 Ryan.
+- **023:** Plano travado no jantar; pulso 31→01; oficina 01/08.
+- **024:** Dois cascos Raffen; Cutter; rio seco leste; camp não visitado.
+- **025:** Intermediário — janela 03/08 meio-dia; caixa 101. Reyes: leste Pack / 101 Ryan.
+- **026:** Dead drop 101 — chip + tira hop NC 05/08 21h. Chip não aberto. Volta Pack. Condor leste no ar ao freeze.
 
 ---
 
@@ -52,13 +52,13 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo Condor operacional (3 
 
 | Nome | Papel | Relação com Ryan | Notas |
 |------|-------|------------------|-------|
-| **Lena "Valk" Kane** | Parceira | Amor + acordo ops 019 + intimidade 020–025 | F15; ombro da trilha (não caixa) |
-| **Lira** | Pack | Residual positivo 019/023/024/025 | Condor leste amanhã visual |
-| **Sasha** | Pack | Residual positivo 019/023/024/025 | Condor leste amanhã visual |
+| **Lena "Valk" Kane** | Parceira | Amor + acordo ops 019 + intimidade 020–026 | F15; volante na 101 |
+| **Lira** | Pack | Residual positivo | Condor leste 03/08 visual |
+| **Sasha** | Pack | Residual positivo | Condor leste 03/08 visual |
 | **Lina “Sparrow” Park** | Contato NC (NPC) | Handle Sparrow | residual **sem ACK** |
 | **Marcus “Steel” Rivera** | Contato NC (NPC) | Handle Steel | mudo |
 | **Kaz “The Broker”** | Fixer crew | Off-screen | Escondido; montando crew |
-| **Reyes / Tio Gringo** | Pack | Briefing 025 / oficina | Leste Pack; 101 não |
+| **Reyes / Tio Gringo** | Pack | Briefing 025–026 / oficina | Leste Pack; recado do céu |
 | **Cutter** | Líder célula Raffen | Hostil (intel 024) | Camp não visto |
 
 ---
@@ -67,14 +67,14 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo Condor operacional (3 
 
 | Facção | Status | Risco | Notas |
 | ------ | ------ | ----- | ----- |
-| **Pack Nômade** | Aliado | Baixo | Caça 02/08; leste no ar 03/08; 101 não é estrada deles |
+| **Pack Nômade** | Aliado | Baixo | Leste no ar 03/08; 101 fechou para Ryan |
 | **Raffen** | Hostil | Médio | Célula Cutter ferida; camp leste |
 | **Biotechnica** | Hostil latente | Médio | Silêncio público recente |
 | **Arasaka** | Hostil pessoal | Baixo | Ryan evita |
 
 ---
 
-**Última atualização:** ~02 de Agosto de 2026 (sessão 025)
+**Última atualização:** ~03 de Agosto de 2026 (sessão 026)
 
 ---
 
@@ -84,4 +84,4 @@ Ryan "Wireghost" Voss está no **Pack** com Valk. Módulo Condor operacional (3 
 
 **Personagem:** [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 025](../logs/sessao_resumo_025.md) · [Arco ativo](arco_ativo.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 026](../logs/sessao_resumo_026.md) · [Arco ativo](arco_ativo.md)
