@@ -334,13 +334,14 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 | 4 | Se houver ação no mesmo turno: narrar **já** com N1b (resultado primeiro), N8 (SOP comprimido), N9 se for viagem limpa, **N13** (situar — sem gavetas na tela). |
 | 5 | Mesmo se a ação for um **script longo** (ex. gerado em chat meta): **não ecoar** — só outcomes. |
 | 6 | Se o thread estiver muito contaminado por eco (>~40 msgs RP): **sugerir** chat novo com `logs/handoff_atual.md`. |
+| 7 | Se o jogador colar `[Voz: Ryan pode cortar. NPC não copia o corte. Pack = conversa.]`: aplicar **já** neste turno (N1 registro). Não discutir personagem. |
 
 ### Formato de resposta obrigatório
 
 ```markdown
 **Motor reancorado**
 - N1 sem eco · N1b **só** OPERAÇÃO/VIAGEM/COMBATE · N2+ downtime = SHOW + boca própria · N8 SOP · N9 fecho de viagem limpa · **N13 situar** (checklist interno ≠ gavetas na tela)
-- Curta ≠ dois vocábulos · Valk-seca **não** vaza · anti-máquina = vocabulário de regra, não personalidade
+- Curta ≠ dois vocábulos · Valk-seca **não** vaza · Ryan operador **não** vaza · anti-máquina = vocabulário de regra, não personalidade
 - AGENDA ativa: #… — …
 - Próximo turno: se downtime/social Pack → corpo + fala de gente; se ops → outcomes primeiro
 - Rodapé OOC: `ctrl N/90` continua (não narrar)

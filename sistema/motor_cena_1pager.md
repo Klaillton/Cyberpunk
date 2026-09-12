@@ -12,7 +12,7 @@
 
 | # | Faça | Não faça |
 | - | ---- | -------- |
-| N1 | ≤2 linhas de confirmação | Reescrever o turno do PC quase literal |
+| N1 | ≤2 linhas de confirmação. NPC pela **ficha**, não pelo telegrama do Ryan | Reescrever o turno do PC · **espelhar o corte** do Ryan em Reyes / Pack / informante |
 | N1b | **Só** OPERAÇÃO / VIAGEM / COMBATE: **resultado primeiro** | N1b em jantar, corredor, tenda, oficina, conversa Reyes (isso é DOWNTIME) |
 | N2+ | **≥~60%** = delta. Em downtime: SHOW + **fala de NPC com boca própria** = delta | Eco longo; tratar corpo/voz como “não-delta”; relógio em todo turno social |
 | N3 | No 4º turno **sem** SHOW e sem relógio → pressão da AGENDA | Mood eterno vazio. **Downtime vivo** (ombro, almoço, oficina) **não** é estagnação |
@@ -69,11 +69,20 @@ Os colchetes abaixo são **ordem interna (N13)**. Não imprimir como rótulos (`
 **Anti-máquina:** sem *nome de regra* na ficção (`caderno`, `briefing`, `não é ordem`, “acordo 019”). Humor, medo, cansaço, recusa, piada = **obrigatório**. Bid relacional ≠ virar janela/plano. Não glosar.
 
 **Boca (copiar o teto, não o chão):**
+- **Ryan operador = filtro, não sotaque.** Ele pode cortar. NPC **não** copia o corte.
 - Curta ≠ dois vocábulos. Valk “seca” **não** vaza para Reyes / Sasha / Lira.
 - **Valk a dois (residual alto):** Polegar no cinto. “Oficina e some. Eu pego o Mule.” Quase na boca. “O resto é tenda.”
 - **Reyes:** “Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”
 - **Sasha** (modo operador incomoda): olhar baixo, fala curta **de pessoa**, não devolve briefing.
 - Idle de arco = mundo/Tio, não a Valk virar CO.
+
+| Onde | Ryan | NPC |
+| ---- | ---- | --- |
+| Ops / caixa / rádio | curto, resultado | curto **deles** (não SOP de volta) |
+| Pack / Reyes / oficina / informante | pensa curto, **fala gente** | gente |
+| Valk a sós | corpo + uma ponta | corpo + uma ponta |
+
+Trava de turno: `[Voz: Ryan pode cortar. NPC não copia o corte. Pack = conversa.]`
 
 OPERAÇÃO / recon: esqueleto de cima (resultado primeiro) — **não** engordar. Jantar / Reyes / tenda: esqueleto **downtime**.
 

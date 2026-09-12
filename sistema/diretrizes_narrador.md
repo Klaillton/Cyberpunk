@@ -65,6 +65,8 @@ Se o pack diz residual íntimo, aftercare, rede, cafuné: **não** reabrir a per
 
 **Anti-máquina (todos):** o narrador interpreta a pessoa, não demonstra que leu o SoT. Proibido na prosa: **nomear regras** (`caderno`, `briefing`, `não é ordem`, “acordo 019”). Humor, medo, cansaço, recusa, piada = **obrigatório**. Relógio da AGENDA só entra se **mudou** neste turno. Bid de carinho/humor do PC não vira plano nem janela (“até as cinco”). Não glosar depois da fala. **Curta ≠ dois vocábulos.** Valk-seca **não** vaza para Reyes / Sasha / Lira.
 
+**Ryan operador = filtro, não sotaque do mundo.** Telegrama dele (ops / caixa / rádio) não vira tom da mesa. Pack, Reyes, informante, Valk a sós: boca da ficha. Trava de turno: `[Voz: Ryan pode cortar. NPC não copia o corte. Pack = conversa.]` · 1pager **Boca**.
+
 **Voz Valkirya (obrigatório — patch 023→024):**
 
 | Registro | Quando | Como fala |
@@ -184,7 +186,7 @@ Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver nec
 
 ## 7.1 Motor de cena / Anti-estagnação (hard rules)
 
-**Finalidade:** impedir (1) **espelho + plateia** e (2) **eco operacional** (reescrever SOP do PC em 2ª pessoa).  
+**Finalidade:** impedir (1) **espelho + plateia** (conteúdo **e** registro/tom do PC), (2) **eco operacional** (reescrever SOP do PC em 2ª pessoa).  
 **Escopo:** qualquer região/local (Pack, Night City, estrada, base, job, downtime, combate).  
 **Conteúdo** dos ganchos vem do NOW / AGENDA / `event_queue` — as regras abaixo **não** dependem de mapa.  
 **Superfície tier-0:** bloco **MOTOR** em `logs/context_pack_atual.md` (o Refresh **deve** reancorar isso).  
@@ -193,7 +195,7 @@ Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver nec
 
 | ID | Regra |
 | -- | ----- |
-| **N1 Echo ban** | Proibido reescrever o turno do jogador quase literal **e** proibido re-narrar **procedimento multi-passo** (recon, craft, marcha, checklist). Confirmar em **≤2 linhas** no máximo. |
+| **N1 Echo ban** | Proibido reescrever o turno do jogador quase literal **e** proibido re-narrar **procedimento multi-passo** (recon, craft, marcha, checklist). Confirmar em **≤2 linhas** no máximo. Também: **não copiar o registro** do PC (telegrama operador) para NPCs. Ryan pode cortar; Pack / Reyes / informante falam pela ficha. |
 | **N1b Resultado primeiro** | **Só** `OPERAÇÃO` / `VIAGEM` / `COMBATE` / SOP de recon: ordem = (1) **resultado / anomalia / intel** (2) **tempo / risco** (3) no máx. 1–2 linhas de confirmação. **Nunca** espelhar o plano inteiro antes do resultado. **Não** aplicar em jantar, corredor, tenda, oficina, conversa com Reyes. |
 | **N2 Delta obrigatório** | Toda resposta de RP: ≥1 de fala útil · decisão de NPC · info nova · tempo **com efeito** · resultado de teste/projeto · pressão externa. Em downtime, **fala de NPC com boca própria** cumpre N2. |
 | **N2+ Proporção** | O **delta** deve ser a **maior parte** do texto (~**≥60%**). Um parágrafo de resultado no fim **depois** de eco longo **não** cumpre N2+. |

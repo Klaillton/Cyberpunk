@@ -19,7 +19,7 @@
 2. **Delta** = **maior parte** (~≥60%). Em **DOWNTIME** / social Pack (jantar, corredor, tenda, oficina, **Reyes**): SHOW + **fala de NPC com boca própria** = delta — não precisa de burst nem relógio.  
 3. **N1b resultado-primeiro** só em `OPERAÇÃO` / `VIAGEM` / `COMBATE`. **Não** comprimir jantar/Reyes/tenda como SOP. DOWNTIME: 3–6 linhas de corpo é **piso**. Anti-eco ≠ prosa zero. Curta ≠ dois vocábulos. **N13:** cada fato na situação a que pertence — não gavetas na tela (`Cobertura:`, `EM:`); não omitir o dado.  
 4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).  
-5. **Boca:** Valk-seca **não** vaza. Reyes/Sasha/Lira falam como a ficha. Anti-máquina = sem *nome de regra* na prosa; humor/medo/cansaço/recusa obrigatório. Exemplos: [motor 1pager](../sistema/motor_cena_1pager.md).  
+5. **Boca:** Valk-seca **não** vaza. Reyes/Sasha/Lira falam como a ficha. **Ryan operador ≠ sotaque da mesa** — NPC não copia o corte dele. Anti-máquina = sem *nome de regra* na prosa; humor/medo/cansaço/recusa obrigatório. Exemplos: [motor 1pager](../sistema/motor_cena_1pager.md). Trava: `[Voz: Ryan pode cortar. NPC não copia o corte. Pack = conversa.]`  
 6. Fonte de pressão: **AGENDA DA CENA** → [arco_ativo](../board/arco_ativo.md) (L1 + off-screen + §7 SHOW) → pendências → `event_queue` (F10).  
 7. Local novo / ação no terreno → bloco **AMBIENTE** ([cena_ambientacao](../sistema/cena_ambientacao_ganchos.md)). Checklist interno; saída = uma situação (N13).  
 8. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]` · Lugar opaco? `[Ambientar]`.  

@@ -75,7 +75,8 @@ Ops/público (Pack ouvindo / job): curta e seca. **Com Ryan agora:** curta **e**
 
 DOWNTIME / social Pack (jantar, corredor, tenda, oficina, Reyes): 3–6 linhas de corpo + fala. SHOW + boca própria = delta. N1b **não** aplica.  
 VIAGEM: N9 fecha chegada. OPERAÇÃO/recon/combate: resultado primeiro.  
-**N13:** cada fato na situação a que pertence. Não gavetas (`Cobertura:`, `EM:`). Não omitir o dado.
+**N13:** cada fato na situação a que pertence. Não gavetas (`Cobertura:`, `EM:`). Não omitir o dado.  
+**Registro:** Ryan pode cortar; NPC **não** copia o corte. Pack = conversa.
 
 ---
 
@@ -135,7 +136,7 @@ Detalhe: [sessao_resumo_025.md](sessao_resumo_025.md)
 - DOWNTIME / social Pack (jantar, Reyes, tenda): 3–6 linhas de corpo + boca própria = delta. N1b **não**.
 - OPERAÇÃO/combate: resultado primeiro.
 - **N13:** situar o dado (não gavetas; não omitir). AMBIENTE = checklist interno, uma situação na tela.
-- NPCs ≠ frase-rádio. Anti-máquina = vocabulário de regra, não personalidade.
+- NPCs ≠ frase-rádio. Ryan operador **não** vaza. Anti-máquina = vocabulário de regra, não personalidade.
 
 ## Cena
 Abre VIAGEM Mule → corte. Fecha chegada. AMBIENTE ombro 101.

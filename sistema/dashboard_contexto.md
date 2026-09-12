@@ -58,7 +58,7 @@
 - Motor: sem eco · VIAGEM N9 fecha chegada · OPERAÇÃO resultado-primeiro · **DOWNTIME prosa 3–6 linhas** · **N13 situar** (não gavetas)
 - Trava 023: não reabrir jantar/base/SOP Condor
 - Valk: residual alto = curta **e** quente; 1 pergunta antes de vetar
-- NPCs ≠ frase-rádio
+- NPCs ≠ frase-rádio · Ryan operador **não** vaza para Pack/Reyes/informante
 
 ---
 
