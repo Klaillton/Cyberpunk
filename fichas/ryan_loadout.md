@@ -46,7 +46,7 @@ Ablação: [03_ferimentos](../sistema/regras_red/03_ferimentos.md).
 | **Pill** | Mula / bola defensiva | Flashbang, fumaça, choque carapaça, autodest. último recurso | Médio |
 | **Warden** | Proteção / tech / mochila | **Não voa (F03)**; cauda taser = stun (DV Resist Torture/Drugs ou BODY vs 15 — 1 uso/cena típico); meia-cobertura balística | Prioridade extrair Ryan |
 | **Condor** | Observação longa (Pack) | Sem ataque | F16; unmanned; spec → [drone - condor.md](drone%20-%20condor.md) |
-| **Corujas** | Recon noturno (Pack) | Sem ataque | F16 |
+| **Corujas** | Recon noturno (Pack) | Sem ataque | F16; 3 un.; unmanned; spec → [drone - corujas.md](drone%20-%20corujas.md) |
 | **Enxame mini** | Ideia (E017) | — | Sem protótipo |
 
 ---
