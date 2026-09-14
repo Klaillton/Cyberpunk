@@ -80,7 +80,7 @@ Pack, tarde 03/08, tenda. Chip lacre intacto. Valk = residual quente. Não reabr
 
 ### SOP Condor (SoT 020–022 — não carimbar na prosa)
 
-- Condor = transporte cego. Coleta = Agent na mochila. Ar = silêncio + abort mínimo.
+- Condor = transporte cego. Coleta = Agent na mochila. Ar = silêncio + abort mínimo. **Unmanned.** Spec: [drone - condor.md](../fichas/drone%20-%20condor.md).
 - Sasha/Lira = voo/visual. Não abrem módulo. Não anunciam pacote.
 - Valk no gancho ok; **não** autentica o Agent.
 - Ryan recupera o Agent. Só ele diz se veio pacote.
@@ -107,6 +107,7 @@ Residual íntimo **alto**. Chat **023 contaminado** — **não** herdar o regist
 | **F06** | Crew NC inclui **Echo** (Media) — off-screen; ≠ Steel Rivera |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
+| **F16** | Condor unmanned; spec [drone - condor.md](../fichas/drone%20-%20condor.md) |
 | **F21** | Handle = **Valkirya**. **Valk** = só Ryan (carinho) |
 | F07 | Ryan × Valk consolidados (**acordo 019 = perguntar, não cobrar** + intimidade 020–026) |
 | F08 | Mule = de Valk; equipe Valk + Mule |
