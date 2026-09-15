@@ -7,7 +7,7 @@
 
 **Origem:** construção **17–20/07/2026** (sessão 012) com sucata da torre + referência da caçada de aves (E013). Demo pública **20/07** junto com o Condor. Gravado no SoT em **14/09/2026** para uso em operação — sem depender de chat.
 
-**Atualizado:** 2026-09-14
+**Atualizado:** 2026-09-14 (sensores: NV + térmico em contraste + IFF)
 
 ---
 
@@ -39,10 +39,23 @@ As Corujas fazem o trabalho **perto e baixo**: corredor, rio, camp, trilha, per�
 | ----- | ------------- |
 | Teto / rádio / placa / autonomia em km | **não anunciado** — não inventar |
 | Perfil | baixo, silencioso, recon local |
-| Sensores | visão noturna suficiente para recon; não é “lente de condor” |
+| Sensores | NV + térmico em **contraste** + IFF (ver abaixo) |
 | Controlo | visor externo e/ou Neuralink, um operador por ave ou revezamento |
 
 Se a mesa precisar de número numa op: Ryan declara o alcance **na hora** e isso entra no próximo Finalizar. Até lá = perto o bastante para ver o rio seco / o corredor, longe o bastante para não ser o Condor.
+
+---
+
+## Sensores
+
+O visor (e o Neuralink, se o operador tiver) funde **visão noturna** com **térmico** no mesmo quadro — o mesmo tipo de contraste que um visor militar atual: o calor desenha em cima do escuro, não no lugar dele.
+
+- **Noturno:** forma, terreno, trilha, silhueta.
+- **Térmico:** corpo quente, motor, fogueira, alguém parado atrás de folhagem ou lona.
+- **Contraste:** os dois juntos. Calor sem forma = suspeito. Forma sem calor = sucata / corpo frio / isca.
+- **IFF:** marca o que o Pack já cadastrou (gente, veículo, as próprias aves, o Condor) como amigo no visor. O resto aparece como desconhecido até alguém confirmar. Não adivinha intenção. Não lê chrome. Não “identifica facção”.
+
+Não é lente de Condor. Não lê placa a 7 km. O alcance visual **não** está no SoT — só o tipo de olho.
 
 ---
 
@@ -61,3 +74,4 @@ Se a mesa precisar de número numa op: Ryan declara o alcance **na hora** e isso
 - Não emprestar envelope do Condor.
 - Não montar gente.
 - Não fundir as três numa só “coruja genérica” se a conta de unidades importar — são **três**.
+- IFF **não** é omnisciência. Sem cadastro = desconhecido.
