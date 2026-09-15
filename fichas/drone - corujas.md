@@ -7,7 +7,7 @@
 
 **Origem:** construção **17–20/07/2026** (sessão 012) com sucata da torre + referência da caçada de aves (E013). Demo pública **20/07** junto com o Condor. Gravado no SoT em **14/09/2026** para uso em operação — sem depender de chat.
 
-**Atualizado:** 2026-09-14 (sensores: NV + térmico em contraste + IFF)
+**Atualizado:** 2026-09-14 (sensores + âncora HP/SP/MOVE para a op)
 
 ---
 
@@ -26,6 +26,26 @@ Três aves mecânicas **miméticas**. Não são Vespas. Não são o Condor. Não
 - **Unmanned.** Ninguém monta.
 - Pouso = **poleiro / barra**. Operador fica no chão, visor ou Neuralink.
 - Pack (crianças e adultos) já viu voo básico na demo. Operação de verdade = quem Ryan ensinou (ir e vir, visor). Não assumir que o Pack inteiro voa as três sozinho numa op.
+
+---
+
+## Stats (âncora de mesa — 1 unidade)
+
+Não veio da demo 20/07. Gravado **14/09/2026** para a op não ficar sem número. Ajustar no Finalizar se o jogador quiser outro valor.
+
+| Campo | Valor | Nota |
+| ----- | ----- | ---- |
+| HP | **15** | rifle médio derruba; as três não partilham HP |
+| SP | **7** | caraça leve; ablação [03_ferimentos](../sistema/regras_red/03_ferimentos.md) |
+| MOVE | **8** (voo) | no chão / poleiro: MOVE **2** |
+| Tamanho | pequeno (ave) | à noite, sem térmico no outro lado, é difícil de pingar |
+| Ataque | — | sem arma, sem ROF |
+| Controle sob pressão | Electronics / Basic Tech + 1d10 | [08_techie](../sistema/regras_red/08_techie.md) — não é sucesso automático |
+| Recon (noite) | Perception **ou** Electronics + 1d10, **+2** | NV + térmico no contraste; ignora penalidade de escuridão no visor |
+| Stealth (noite, silêncio) | observador sem térmico: **DV +2** | mimese + voo silencioso; de dia o bônus cai |
+| IFF | cadastro Pack = amigo; resto = ? | não é teste; é marca no visor |
+
+HP 0 = aquela unidade cai. As outras duas continuam.
 
 ---
 
