@@ -11,7 +11,13 @@
 | **Valk** | Apelido **carinhoso do Ryan** — não é o handle. Pack, crew, jobs e Echo: **Valkirya** (ou Lena). |
 | **Atalho de mesa** | “Valk” nos arquivos = a personagem; **in-fiction** só Ryan diz Valk por default (**F21**). Sem retcon de logs. |
 
-<img src="../imagens/nomad%20-%20lena_valk_kane.jpg" width="220" alt="Lena Valkirya Kane" />
+**Imagens de referência:**
+
+| Uso | Arquivo |
+| --- | ------- |
+| **Default** (crop tático) | <img src="../imagens/nomad%20-%20lena_valk_kane.jpg" width="220" alt="Lena Valkirya Kane — default" /> |
+| **Crop + jaqueta** (tatuagem visível) | <img src="../imagens/nomad%20-%20lena_valk_kane_2.jpg" width="220" alt="Lena Valkirya Kane — tatuagem no flanco" /> |
+| **Bodysuit tático** (torso coberto) | <img src="../imagens/nomad%20-%20lena_valk_kane_3.jpg" width="220" alt="Lena Valkirya Kane — bodysuit tático" /> |
 
 ## Equipe: Valk + The Mule
 
@@ -29,6 +35,14 @@ Valk e o **The Mule** são **quase uma equipe própria** — mais do que “dono
 ## Descrição Visual
 
 Lena “Valkirya” Kane é uma mulher de aparência marcante e perigosa. Tem cabelos castanhos longos e ondulados, olhos azuis penetrantes e uma expressão séria e determinada. Seu corpo é atlético e tonificado, com abdômen definido. Ela usa um top cropped preto justo com detalhes de cyberware azul brilhante nos ombros e braços. Tem um coldre na cintura e um visual tático prático. Transmite uma aura de competência, frieza e força física.
+
+### Tatuagem (canon daqui pra frente)
+
+No **flanco esquerdo** — costela / abdômen até o quadril — tinta tribal escura de traço grosso, formas geométricas e um motivo circular. **Não** é chrome. Aparece com crop / top; some debaixo de bodysuit, jaqueta fechada ou look de cobertura. Referência: `_2.jpg`.
+
+**Sem retcon:** logs e cenas já gravadas **não** precisam ser reescritos. A tinta vale nas cenas novas. Não inventar origem (pack, ritual, data) — ainda não está no SoT.
+
+**Narração visual:** default / crop = tatuagem visível se o tronco está à mostra. Bodysuit (`_3.jpg`) = coberta. Guarda-roupa da crew continua sendo o pick de **roupa**, não de retrato.
 
 ### Presença física (narrador)
 
@@ -150,5 +164,5 @@ Ryan e Valk estão namorando de forma **consolidada** (F07). Dividem tenda no Pa
 | Casa / intimidade | `intimate_*` · sleep cami/robe | Empréstimo ok na casa |
 | Default se vazio | card **OPERAÇÃO / Badlands** | |
 - [Relacionamentos Valk](../relacionamentos/lena_valk_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- **Imagem (Valk):** [nomad - lena_valk_kane.jpg](../imagens/nomad%20-%20lena_valk_kane.jpg)
+- **Imagens (Valk):** [default](../imagens/nomad%20-%20lena_valk_kane.jpg) · [_2 tatuagem](../imagens/nomad%20-%20lena_valk_kane_2.jpg) · [_3 bodysuit](../imagens/nomad%20-%20lena_valk_kane_3.jpg)
 - **Estado:** [Board](../board/board_campanha.md) · [Pack Badlands](../facoes/pack_badlands.md)
