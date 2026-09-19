@@ -7,13 +7,13 @@
 
 **Origem dos números:** anunciados por Ryan na demo ao Pack (**20/07/2026**, sessão 012) e aceitos em mesa. Gravados no SoT em **14/09/2026** para o Condor ficar com o Pack sem depender de memória de chat.
 
-**Atualizado:** 2026-09-14
+**Atualizado:** 2026-09-19 (construção = ave real; ações base + sensores)
 
 ---
 
 ## O que é
 
-Ave mecânica **mimética**. Não é Vespa. Não é Warden. Não é veículo.
+Ave **real reconstruída**. Não é drone pintado de condor. Não é Vespa. Não é Warden. Não é veículo.
 
 - **Unmanned.** Ninguém monta. Ninguém salta da asa.
 - **Sasha / Lira** = voo e visual no **gancho / visor** (e Neuralink se disponível). Não abrem o módulo. Não anunciam pacote.
@@ -21,6 +21,33 @@ Ave mecânica **mimética**. Não é Vespa. Não é Warden. Não é veículo.
 - **Combate:** sem arma. Observação e alerta.
 
 Tamanho (demo): no chão, quase altura de um adulto; asas abertas ~quatro a cinco homens de ponta a ponta.
+
+### Construção (mimetismo)
+
+Mesmo princípio das [Corujas](drone%20-%20corujas.md): pele/plumagem de **ave real** (caçada **E013**) + mecânica interna. Quem olha **vê um condor**, não um drone parecido com condor. Espécie e anatomia fina = **não anunciado**.
+
+A vantagem extra é **altitude**. Mesmo visto, a leitura natural é “um condor voando”.
+
+O Pack **não** precisa esconder “um drone militar no céu”. A explicação óbvia é a ave. Isso reduz o custo operacional de ter a capacidade; **não** aumenta o envelope desta ficha.
+
+### Papel vs Corujas
+
+**Condor vê longe. Coruja vê perto.**  
+**Condor procura movimento; Coruja procura informação.**
+
+Recon aéreo **estratégico** / grande área / grande distância. Sem arma. Não é Vespa melhor. Não herda infiltração de telhado das Corujas.
+
+### Ações base
+
+Narra como **ave real** em altitude. 1 beat de animal por cena basta. O **payload** é o sensor (movimento / horizonte), não o show.
+
+| Ação | O quê |
+| ---- | ----- |
+| Planar / circular | teto; procura movimento |
+| Olhar longe | **sensores** — campo largo + acuidade no eixo (placa = teto anunciado) |
+| Descer ao gancho | pouso; operadores na sombra do cabo |
+
+Não pairar como ultraleve. Não inventar animações de coruja no Condor.
 
 ---
 
@@ -41,15 +68,21 @@ Tamanho (demo): no chão, quase altura de um adulto; asas abertas ~quatro a cinc
 
 ## Sensores
 
-Ryan refez câmeras e lentes para **aproximar a visão de um condor de verdade**: campo largo em altitude + acuidade no eixo. Não é “zoom mágico”. Placa a 7 km é o teto anunciado, não o default de toda passada.
+Ryan refez câmeras e lentes para **aproximar a visão de um condor de verdade**. Não é “zoom mágico”.
 
-Controlo: visor externo e/ou Neuralink quando o operador tiver. O pássaro **não** decide sozinho o que é pacote.
+- **Campo largo** em altitude + **acuidade no eixo.** Placa a ~7 km = teto anunciado, não o default de toda passada.
+- **Movimento / alerta:** envelope (~80 km típico). Procura o que se mexeu, não o que tem dentro do prédio (isso é Coruja).
+- Controlo: visor externo e/ou Neuralink. O pássaro **não** decide sozinho o que é pacote.
+
+Não herdar NV/térmico/áudio-perto das Corujas. Envelope em km = esta ficha; tipo de olho de perto = ficha delas.
 
 ---
 
 ## Trava de cena
 
 - Pouso = o bicho no **gancho / poleiro**. Operadores saem da **sombra do cabo**, não da fuselagem.
-- Não narrar Condor como ultraleve, asa-delta ou AV.
+- Não narrar Condor como ultraleve, asa-delta, AV, **nem drone pintado / casco com adesivo de penas**.
+- Não inventar **HP / SP / MOVE**. Esta ficha não tem âncora de combate — envelope e lentes bastam.
+- Ver um condor no céu **não** quebra o mimetismo. Quebra quando alguém identifica a máquina.
 - Fora do Pack: não assumir que está no bolso do Ryan (F16).
 - Specs acima **não** se recitam em SOP. Quem precisa do número abre este arquivo.

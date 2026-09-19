@@ -54,7 +54,7 @@ Sempre que houver **risco real** de ser visto/ouvido/detectado e a falha mudar a
 | ----- | ------------- |
 | **Warden** | Terrestre / mochila (F03). **Não voa.** Utilidade, cobertura, projeção, apoio — não “drone aéreo genérico”. |
 | **Vespas** (Hornet, Vesper, Barbed) | Recon, EW, distração, combate leve conforme ficha (F12). |
-| **Condor / Corujas** | Miméticos operacionais no **Pack** (F16). Alerta de longo alcance; **não** assumir que estão no loadout de bolso de Ryan em toda cena fora do Pack. |
+| **Condor / Corujas** | Miméticos = **ave real reconstruída** (F16), não drone pintado. Condor = longe/movimento; Corujas = perto/informação. Operacionais no **Pack**. **Não** assumir no bolso fora do Pack. |
 | **Enxame mini-drones** | Só ideia (E017) — sem stats até existir protótipo no SoT. |
 
 Controlar / posicionar drone sob pressão = teste Techie / skill relevante ([01_core](../regras_red/01_core.md)).  

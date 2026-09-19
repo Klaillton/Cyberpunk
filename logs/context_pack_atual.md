@@ -107,7 +107,7 @@ Residual íntimo **alto**. Chat **023 contaminado** — **não** herdar o regist
 | **F06** | Crew NC inclui **Echo** (Media) — off-screen; ≠ Steel Rivera |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
-| **F16** | Condor unmanned; spec [drone - condor.md](../fichas/drone%20-%20condor.md) |
+| **F16** | Condor + 3 Corujas = aves reais reconstruídas, unmanned; spec [condor](../fichas/drone%20-%20condor.md) · [corujas](../fichas/drone%20-%20corujas.md) |
 | **F21** | Handle = **Valkirya**. **Valk** = só Ryan (carinho) |
 | F07 | Ryan × Valk consolidados (**acordo 019 = perguntar, não cobrar** + intimidade 020–026) |
 | F08 | Mule = de Valk; equipe Valk + Mule |
