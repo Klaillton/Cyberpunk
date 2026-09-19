@@ -17,6 +17,7 @@
 | Origem Reina (braços / surto / Doc ≠ Stitch) | [nota Reina](../fichas/notas_narrador/reina_bearclaw_morales_background.md) | Reencontro e romance no Pack |
 | L3 / timing NC | [arco_ativo.md](../board/arco_ativo.md) §5 | Ativar Alex/Reina romance agora |
 | Leopold / Prometheus (Rockerboy) | [ficha](../fichas/rockerboy%20-%20leopold_habsbruck.md) · [nota](../fichas/notas_narrador/leopold_habsbruck_background.md) · **F23** · CI **6** · slogan **O FOGO NÃO É DELES.** · **Uncredited** (**F24**, saída) | “EU SÓ ANUNCIO…” = mais tarde; líder Zoner **sem nome** ([07](07_leopold_red_e_prosa.md)) |
+| Drones miméticos (construção / furtividade / ações) | [Condor](../fichas/drone%20-%20condor.md) · [Corujas](../fichas/drone%20-%20corujas.md) · **F16** (2026-09-19). Rascunho `drones_mimeticos.md` **apagado** depois de integrar | Espécie; envelope km das Corujas; HP/SP/MOVE do Condor; etologia completa |
 
 ---
 
@@ -53,4 +54,4 @@
 - Visita E011 pedida in-game.  
 - Decisão de mesa sobre latentes vs Ruleset 1.0.0/1.3.0 (1 crisis / sem unlock permanente já esboçado nos gatilhos).
 
-**Última curadoria:** 2026-09-05 (Prometheus + ficha RED; `rockerboy_added_story.md` = passagem)
+**Última curadoria:** 2026-09-19 (drones miméticos → fichas Condor/Corujas + F16; rascunho apagado)

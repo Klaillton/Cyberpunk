@@ -217,7 +217,7 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 | **Armadura** | Light Armorjack + Subdermal + Skinweave → Corpo **SP 19** / Cabeça **SP 11** |
 | **Warden** | Drone **terrestre** scorpion (F03 — **não voa**); mochila / proteção |
 | **Vespas** | Hornet, Vesper, Barbed (recon / EW / distração) |
-| **Pack (não bolso)** | Condor + Corujas (F16) — alerta aéreo do Pack |
+| **Pack (não bolso)** | Condor + Corujas (F16) — aves reais reconstruídas; spec nas fichas |
 | **Primária** | Phantom DMR **5d6** ROF1 · Sniper **5d6** (stats em loadout) |
 | **Secundárias** | Vanguard **4d6** · Breaker **5d6** · Shadowblades **2d6**/**1d6** |
 | **Filosofia** | Silêncio + drones + modularidade |

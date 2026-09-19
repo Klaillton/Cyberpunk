@@ -82,7 +82,7 @@ Consulta: `[Estoque]` / `[Estoque: destilaria]` · **não** duplicar qty neste a
 - **14/07:** Apresentação formal a Reyes (Valk + Tio Gringo + alunos); resposta prometida.
 - **15/07:** Esboço caçada aves (E013) com Valk.
 - **16–17/07:** Incursão Torre de Transmissão — chrome/componentes; corpos queimados.
-- **16–20/07:** Construção Condor + Corujas; **E013** resolvida (caçada aves usada como referência).
+- **16–20/07:** Construção Condor + Corujas; **E013** resolvida (caçada = pele/plumagem para as aves reais reconstruídas).
 - **20/07:** Demonstração pública dos drones ao Pack; moral alto; Tio Gringo testou visor.
 - **20/07:** Ryan e Valk decidiram ir a Night City (possível retorno) — ainda não anunciado formalmente ao pack.
 - **21/07:** Ryan observou base militar (solo; modelo 3D externo); sem incidente no pack. Enxame mini-drones = ideia de Ryan (sondagem recrutas), sem projeto pack.

@@ -43,7 +43,7 @@
 | **F11** | Casas modulares dobráveis = projeto de Ryan; time produção + Tio Gringo sabem; **pack geral** sem anúncio oficial completo (E014: produção ok; revelação pública adiada / E012) | board / event_queue E012·E014 |
 | **F17** | **Doc** = Dra. Elisa Moreau ([npc/elisa_doc_moreau.md](../fichas/npc/elisa_doc_moreau.md)); visita **E011** pendente em NC | ficha Doc · E015 checklist |
 | **F12** | Vespas de combate/recon: **Hornet, Vesper, Barbed** (além do Warden) — nomes e papéis conforme ficha | ficha Ryan |
-| **F16** | **Condor** + **Corujas** = drones miméticos de Ryan, **operacionais** no Pack (demo 20/07). Condor = **unmanned** (gancho/visor; payload = módulo). Corujas = **3** unidades, voo silencioso / recon noturno, unmanned, sem módulo. Specs: [drone - condor.md](../fichas/drone%20-%20condor.md) · [drone - corujas.md](../fichas/drone%20-%20corujas.md). Não confundir com Vespas. Enxame mini-drones = só ideia (21/07) | fichas drones · loadout · sessão 012 |
+| **F16** | **Condor** + **Corujas** = drones miméticos de Ryan, **operacionais** no Pack (demo 20/07). Construção = **pele/plumagem de ave real** (E013) + mecânica interna — quem olha vê a ave, **não** um drone pintado. Condor = **unmanned** (gancho/visor; payload = módulo); recon **longe / movimento**. Corujas = **3** unidades, unmanned, sem módulo; recon **perto / informação**, voo silencioso / noite. Specs: [drone - condor.md](../fichas/drone%20-%20condor.md) · [drone - corujas.md](../fichas/drone%20-%20corujas.md). Não confundir com Vespas. Enxame mini-drones = só ideia (21/07) | fichas drones · loadout · sessão 012 |
 | **F13** | Próximo número de resumo de sessão: ver `registro_arquivos.md` (não inventar o NNN) | registro_arquivos |
 | **F15** | Valkirya **não** se refere a Ryan como **“herói”** / **“herói solitário”** (promessa pós-episódio **14/07/2026** na oficina/depósito). Preocupação = outras palavras. Gatilho ativo; memória **não** desbloqueada | [ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md) · relacionamentos |
 | **F18** | **Ruleset mecânico** em vigor a partir da sessão **017** (versão atual: **v1.3.0** — [versionamento_regras.md](versionamento_regras.md)). Sessões **001–016** = pré-camada (**sem retcon**). Stats Ryan: [ryan_loadout.md](../fichas/ryan_loadout.md). NET: [10_netrunning.md](regras_red/10_netrunning.md). | regras_red · loadout |
@@ -68,6 +68,7 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 ## Proibições rápidas (atalho)
 
 - Não fazer Warden voar ou “flutuar como drone aéreo” como regra padrão.
+- Não narrar Condor/Corujas como drone pintado / casco com adesivo de penas. São **aves reais reconstruídas** (**F16**). Ver a ave **não** quebra o mimetismo. Não inventar espécie, envelope km das Corujas, nem HP/SP/MOVE do Condor.
 - Não chamar Stephania de “Doc” nem Elisa de “Stitch”.
 - Não revelar casas modulares ao pack “porque é óbvio”.
 - Não usar data de chat Grok (ex. 24/06) se o **board** diz julho/2026.

@@ -79,6 +79,7 @@ Criar drone novo = **Invention / Fabrication** + materials + entrada no loadout 
 
 - Stats de arma 10d6 “porque é Techie” sem tempo/custo/teste.  
 - Drones milagrosos sem rank/materiais.  
+- Condor/Corujas como drone pintado; espécie; envelope km das Corujas; HP/SP/MOVE do Condor.  
 - Alterar loadout canônico sem Finalizar / cena.  
 - Confundir Maker com netrunning (Alex / Interface — Fase 4).
 

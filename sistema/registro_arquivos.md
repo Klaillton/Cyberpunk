@@ -79,8 +79,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Maker / craft / drones (regras) | `sistema/regras_red/08_techie.md` | ficha Ryan, `ryan_loadout`, economia |
 | Veículos / perseguição / Mule (regras) | `sistema/regras_red/09_veiculos.md` | ficha Mule, Valk |
 | **Loadout tático Ryan (dano/ROF/WA)** | `fichas/ryan_loadout.md` | SoT stats armas/drones |
-| **Condor (envelope / lentes / trava)** | `fichas/drone - condor.md` | F16 · Pack · não montaria |
-| **Corujas (3 / recon noturno)** | `fichas/drone - corujas.md` | F16 · Pack · unmanned · sem módulo |
+| **Condor (envelope / lentes / trava)** | `fichas/drone - condor.md` | F16 · Pack · ave real reconstruída · não montaria |
+| **Corujas (3 / recon noturno / infiltração)** | `fichas/drone - corujas.md` | F16 · Pack · ave real reconstruída · unmanned · sem módulo |
 | HP / SP / Death Save | `sistema/regras_red/03_ferimentos.md` | ficha do personagem, Finalizar |
 | House rules (stealth, drones, oficina) | `sistema/house_rules/regras_campanha.md` | `regras_red/00`, F03/F12/F16/F18 |
 | Versão do ruleset | `sistema/versionamento_regras.md` | `Ruleset: 1.3.0` no resumo |
