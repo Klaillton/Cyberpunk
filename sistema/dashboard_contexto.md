@@ -3,36 +3,36 @@
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
 **Não é o tier-0** — use primeiro `logs/context_pack_atual.md`.  
-**Última atualização:** ~03 de Agosto de 2026 (pós-026)
+**Última atualização:** ~04 de Agosto de 2026 (pós-027)
 
 ---
 
 ## 1. Situação Atual
 
-**Última verificação:** ~03/08/2026 (tarde · tenda Ryan/Valk)
+**Última verificação:** ~04/08/2026 (manhã · Mule voltando ao Pack)
 
 **Resumo:**
 
-- **Pack Badlands** — tarde. Ryan + Valk na tenda. Descanso.
-- E015: caixa 101 coletada; chip **lacre intacto**; hop NC **05/08 após 21h**.
-- Cutter: Condor leste 03/08 ainda no ar (Sasha/Lira, visual, sem chão). Reyes marca um corte ao pouso.
+- **Pack Badlands** — manhã. Ryan + Valk + Reyes + dois no Mule. Debrief **pendente** (depois de dormir).
+- E015: chip **lacre intacto**; hop NC **05/08 após 21h**.
+- Cutter: corte 04/08 feito (recon, sem tiro). Intel: 7 quentes; lona = fogueira morta.
 - **Lina “Sparrow” Park:** residual sem ACK. **Marcus “Steel” Rivera** mudo. Kaz off-screen.
 
 ---
 
 ## 2. Relação com Lena “Valkirya” Kane
 
-**Última verificação:** ~03/08/2026
+**Última verificação:** ~04/08/2026
 
 **Resumo:**
 
-- Consolidada; acordo 019. Residual íntimo alto. Volante na 101. **F15**.
+- Consolidada; acordo 019. Residual íntimo alto. Volante no corte. **F15**.
 
 ---
 
 ## 3. Nível de Heat
 
-**Heat Global:** Média. Residual Raffen (Cutter 024). Sem delta 026.
+**Heat Global:** Média. Residual Raffen (Cutter). Sem delta 027 (sem tiro).
 
 ---
 
@@ -40,21 +40,21 @@
 
 - **Norte:** bloco NORTE no [context pack](../logs/context_pack_atual.md).
 - **L2:** [event_queue.md](../event_queue.md).
-- E015 chip + hop 05/08 · Condor leste · Reyes um corte · base gatilhada
+- Debrief Pack · E015 chip + hop 05/08 · base gatilhada
 
 ---
 
 ## 5. Localização
 
-- **Local:** Pack · tenda Ryan/Valk
-- **Data:** ~03/08/2026 tarde
-- **Prioridade:** abrir chip · recado do céu · hop NC 05/08
+- **Local:** Mule → Pack (volta do corte)
+- **Data:** ~04/08/2026 manhã
+- **Prioridade:** dormir · debrief · abrir chip · hop NC 05/08
 
 ---
 
 ## 6. Regras rápidas
 
-- F03 Warden terrestre · F15 Valk não “herói” · F18 Ruleset 1.3.0 · F20 Sparrow/Steel = NPCs
+- F03 Warden terrestre · F15 Valk não “herói” · F16 Condor unmanned · F18 Ruleset 1.3.0 · F20 Sparrow/Steel = NPCs
 - Motor: sem eco · VIAGEM N9 fecha chegada · OPERAÇÃO resultado-primeiro · **DOWNTIME prosa 3–6 linhas** · **N13 situar** (não gavetas)
 - Trava 023: não reabrir jantar/base/SOP Condor
 - Valk: residual alto = curta **e** quente; 1 pergunta antes de vetar
@@ -62,4 +62,4 @@
 
 ---
 
-**Referências:** [Context pack](../logs/context_pack_atual.md) · [Board](../board/board_campanha.md) · [Sessão 026](../logs/sessao_resumo_026.md) · [Arco](../board/arco_ativo.md)
+**Referências:** [Context pack](../logs/context_pack_atual.md) · [Board](../board/board_campanha.md) · [Sessão 027](../logs/sessao_resumo_027.md) · [Arco](../board/arco_ativo.md)
