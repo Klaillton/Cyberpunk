@@ -94,13 +94,13 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 
 ## Estrutura Geral do Projeto
 
-O índice de árvore e o restante deste arquivo permanecem como na SoT 30/08 (Jax + Echo indexados). **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. Próximo resumo: **027**.
+O índice de árvore e o restante deste arquivo permanecem como na SoT 30/08 (Jax + Echo indexados). **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. Próximo resumo: **028**.
 
 ---
 
 ## Observações Gerais
 
 - O `registro_arquivos.md` é o **arquivo de referência central**.
-- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **027**.
+- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **028**.
 - **Ruleset:** v1.3.0 em `sistema/regras_red/` (sessão 017+; F18).
 - O **Source of Truth** permanece nos arquivos do repo (`feature/linha-estavel`).
