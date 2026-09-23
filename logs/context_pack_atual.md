@@ -1,9 +1,9 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **026** · **Próxima:** **027** (`sessao_resumo_027.md`)  
+**Gerado após:** sessão **027** · **Próxima:** **028** (`sessao_resumo_028.md`)  
 **Branch:** `feature/linha-estavel`  
-**Atualizado:** ~03 de Agosto de 2026 (tarde) — Pack Badlands · tenda Ryan/Valk
+**Atualizado:** ~04 de Agosto de 2026 (manhã) — Mule → Pack · debrief pendente
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
 > **Arco + off-screen (L1):** [board/arco_ativo.md](../board/arco_ativo.md) — sob demanda / se estagnar.  
@@ -34,13 +34,13 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 
 | Campo | Valor |
 | ----- | ----- |
-| Data in-game | **~03/08/2026** |
-| Período | Tarde |
+| Data in-game | **~04/08/2026** |
+| Período | Manhã |
 | Região | **Badlands / Pack** |
-| Local específico | Tenda Ryan/Valk (descanso). Chip E015 no bolso, **lacre intacto** |
+| Local específico | Mule no rasto de volta; Pack à frente. Chip E015 **lacre intacto** |
 | Facção / base local | Pack Nômade Badlands |
-| Cena / gancho | Descanso pós-caixa; abrir chip em casa; hop NC **05/08 após 21h**; Condor leste ainda no ar |
-| Prioridade | (1) Abrir chip (2) Recado do céu / um corte Reyes (3) Hop NC 05/08 noite |
+| Cena / gancho | Chegada + dormir + debrief do corte; abrir chip; hop NC **05/08 após 21h** |
+| Prioridade | (1) Dormir / debrief (2) Abrir chip (3) Hop NC 05/08 noite |
 | Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira ainda delicado |
 
 ## NORTE (orientação, não quest log)
@@ -49,15 +49,15 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 
 | Horizonte | Norte |
 | --------- | ----- |
-| **Curto** (hoje / sessão) | Abrir o chip em casa. Recado do Condor leste / um corte do Reyes. Descanso na tenda. |
+| **Curto** (hoje / sessão) | Chegar. Dormir. Debrief Reyes. Abrir o chip em casa. |
 | **Médio** (1–3 sessões) | Hop NC **05/08 após 21h** (E015). Sparrow/Steel/Kaz **não** forçar. Voltar ao Pack depois. |
 | **Longo** (campanha) | Pack casas/Node/olaria. Doc E011. Crew NC. |
-| **Fora agora** | Base militar. Cutter no chão. Reabrir jantar 023 / SOP Condor / caixa 101. |
+| **Fora agora** | Base militar. Raid Cutter. Reabrir jantar 023 / SOP Condor / caixa 101. |
 
-### Cena de abertura sugerida (027)
+### Cena de abertura sugerida (028)
 
-**Não continuar o chat da 026.**  
-Pack, tarde 03/08, tenda. Chip lacre intacto. Valk = residual quente. Não reabrir jantar 023 nem SOP Condor. Não reabrir a caixa da 101.
+**Não continuar o chat da 027.**  
+04/08 manhã, Mule/Pack. Corte já feito. Debrief depois de dormir. Chip lacre intacto. Valk = residual (ops no Mule → quente na tenda). Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon.
 
 ---
 
@@ -65,35 +65,34 @@ Pack, tarde 03/08, tenda. Chip lacre intacto. Valk = residual quente. Não reabr
 
 | # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
 | - | ---------------- | ---------------- | ---------------------------------------------- |
-| 1 | Abrir o chip (sandbox / casa) | Ryan / mundo | O chip continua lacre; relógio 05/08 21h |
-| 2 | Condor leste — pouso / recado | Sasha/Lira / Reyes | Reyes marca **um** corte; recado na tenda |
+| 1 | Chegar / dormir / debrief | Reyes / Valk | Reyes puxa o debrief depois do sono |
+| 2 | Abrir o chip (sandbox / casa) | Ryan / mundo | O chip continua lacre; relógio 05/08 21h |
 | 3 | Hop NC 05/08 após 21h | Mundo / intermediário | Relógio do hop; sem voz; sem ping antigo |
 
 | Campo | Valor |
 | ----- | ----- |
-| **Modo atual** | Pack tarde → DOWNTIME / chip |
+| **Modo atual** | Pack manhã → DOWNTIME / debrief |
 | **Turnos sem delta (estimado)** | 0 |
-| **Região / local (NOW)** | Badlands · Pack · tenda Ryan/Valk |
+| **Região / local (NOW)** | Badlands · Pack · Mule → tenda |
 | **Arco L1** | E015 (chip por abrir · hop NC 05/08 21h) · [arco_ativo.md](../board/arco_ativo.md) |
 
-**Trava 023 (não reabrir):** base = mensagem → manhã seguinte; 019 em vigor. **Não** reabrir o jantar como briga. **Não** reabrir SOP Condor como tutorial.
+**Trava 023 (não reabrir):** base = mensagem → manhã seguinte; 019 em vigor. **Não** reabrir o jantar como briga. **Não** reabrir SOP Condor como tutorial. **Não** reabrir o canyon do corte.
 
 ### SOP Condor (SoT 020–022 — não carimbar na prosa)
 
 - Condor = transporte cego. Coleta = Agent na mochila. Ar = silêncio + abort mínimo. **Unmanned.** Spec: [drone - condor.md](../fichas/drone%20-%20condor.md).
-- Sasha/Lira = voo/visual. Não abrem módulo. Não anunciam pacote.
+- Sasha/Lira = voo/visual no **gancho/visor**. Não abrem módulo. Não anunciam pacote.
 - Valk no gancho ok; **não** autentica o Agent.
 - Ryan recupera o Agent. Só ele diz se veio pacote.
 
 ### Voz Valkirya (boot — não pular)
 
-Residual íntimo **alto**. Chat **023 contaminado** — **não** herdar o registro de CO.
+Residual íntimo **alto** (tenda). No Mule/job: curta e seca.
 
-- Ops/público: curta e seca (**Pack ouvindo / job**). Com Ryan agora: curta **e** quente — toque + frase de gente. **Curta ≠ dois vocábulos.** Não herdar rádio para Reyes/Sasha/Lira.
+- Ops/público: curta e seca (**Pack ouvindo / job**). Com Ryan a dois: curta **e** quente — toque + frase de gente. **Curta ≠ dois vocábulos.**
 - Acordo 019 = **perguntar uma vez** antes de vetar.
-- **Proibido:** “três coisas”, “fecha antes de dormir”, “sem isso eu não top”, “eu decido”, “tribunal”, silêncio de castigo, glosa de regra na prosa.
-- **Bom (a dois):** Polegar no cinto. “Chip é depois. Agora deita.”
-- Mais exemplos: [arco_ativo §7](../board/arco_ativo.md).
+- **Proibido:** caderno, “três coisas”, CO do Cutter, glosa de regra.
+- **Bom (a dois):** “Chip é depois. Agora deita.”
 
 ---
 
@@ -107,16 +106,14 @@ Residual íntimo **alto**. Chat **023 contaminado** — **não** herdar o regist
 | **F06** | Crew NC inclui **Echo** (Media) — off-screen; ≠ Steel Rivera |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
-| **F16** | Condor + 3 Corujas = aves reais reconstruídas, unmanned; spec [condor](../fichas/drone%20-%20condor.md) · [corujas](../fichas/drone%20-%20corujas.md) |
+| **F16** | Condor + 3 Corujas = unmanned; spec [condor](../fichas/drone%20-%20condor.md) · [corujas](../fichas/drone%20-%20corujas.md) |
 | **F21** | Handle = **Valkirya**. **Valk** = só Ryan (carinho) |
-| F07 | Ryan × Valk consolidados (**acordo 019 = perguntar, não cobrar** + intimidade 020–026) |
+| F07 | Ryan × Valk consolidados (**acordo 019 = perguntar, não cobrar**) |
 | F08 | Mule = de Valk; equipe Valk + Mule |
 | **F11** | Casas modulares — pack geral sem revelação oficial completa |
-| **L01–L03** | Pack: Reyes, Tio Gringo, Container A, time produção no segredo parcial |
-| **Novo** | Lira + Sasha: residual positivo 019/022/023/024/025/026 (leste 03/08 no ar) |
 | **F18** | Ruleset **v1.3.0** · 017+ · sem retcon 001–016 |
 | **F19** | Agents: Vault / Profissional / Honeypot / Arbiter/Watchdog ≠ Warden |
-| **F20** | **Sparrow** = Lina Park (NPC); **Steel** = Marcus Rivera (NPC) — **não** sistemas; Steel **≠** Echo |
+| **F20** | **Sparrow** = Lina Park (NPC); **Steel** = Marcus Rivera (NPC) |
 
 Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
@@ -126,29 +123,26 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 | ID | Uma linha |
 | -- | --------- |
-| **E015** | Caixa 03/08 coletada; chip lacre intacto; hop NC **05/08 após 21h**; Lina Park sem ACK; Marcus Rivera mudo; Kaz escondido |
-| **Módulo Condor** | Leste visual 03/08 (Sasha/Lira) — ainda no ar ao freeze |
-| **Cutter** | Célula Raffen; rio seco leste ~2h; camp não visitado; Reyes marca **um** corte após o céu |
-| **Base militar** | Perímetro externo mapeado (abandonado); **não entra agora**; gatilho = mensagem → manhã seguinte |
+| **E015** | Chip lacre intacto; hop NC **05/08 após 21h**; Lina Park sem ACK; Marcus Rivera mudo; Kaz escondido |
+| **Cutter / E008** | Corte 04/08 feito (recon). 7 visíveis; lona morta. Debrief Pack pendente. |
+| **Base militar** | Perímetro externo mapeado; **não entra agora**; gatilho = mensagem → manhã seguinte |
 | **E019** | Olaria/cogeração — Pack (background) |
 | **E012** | Casas interno / revelação pack |
-| Ideia Reyes | Assistente cobra mimética (conceito; tempo livre) |
-| Ideia HMG | Torre remota + compensador (conceito 024) |
 
 ---
 
-## O que acabou de acontecer (026 — 1 parágrafo)
+## O que acabou de acontecer (027 — 1 parágrafo)
 
-02/08 noite Pack: oficina + tenda (não dormiram no corte). 03/08: corte/ombro 101; dead drop meio-dia (chip + tira: hop NC 05/08 21h; sem voz; sem ping antigo). Chip não aberto. Volta Pack. Reyes avisado. Condor leste ainda no ar. Freeze: tarde 03/08, tenda, descanso.
+03/08 tarde: tenda + gancho. Condor unmanned pousa; Sasha/Lira no visor. Reyes marca um corte. 04/08 madrugada: recon sem tiro (7 quentes; lona = fogueira morta). Extração Mule antes da luz. Freeze: volta ao Pack; debrief não feito.
 
-Detalhe: [sessao_resumo_026.md](sessao_resumo_026.md)
+Detalhe: [sessao_resumo_027.md](sessao_resumo_027.md)
 
 ---
 
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · ~03/08/2026 tarde · Pack · tenda Ryan/Valk · Valk = residual quente · prosa downtime on · chip lacre intacto · hop NC 05/08 21h · próximo resumo: 027 · Ruleset 1.3.0
+Boot OK · ~04/08/2026 manhã · Pack · Mule volta · Valk = residual (ops→tenda quente) · prosa downtime on · chip lacre intacto · hop NC 05/08 21h · corte 027 feito · próximo resumo: 028 · Ruleset 1.3.0
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.
