@@ -9,13 +9,16 @@
 
 ## MOTOR (todo turno de RP)
 
-1. **Não ecoar** o PC (≤2 linhas). Se descreveu procedimento/SOP → pular para **resultado**.  
-2. **Delta** = **maior parte** da resposta (~≥60%): intel, NPC, tempo com efeito, pressão AGENDA.  
-3. Em `OPERAÇÃO` / `VIAGEM`: **resultado primeiro** (não espelhar o plano).  
-4. **N13 situar:** cada fato na situação a que pertence. Checklist interno ≠ gavetas na tela (`Cobertura:`, `EM:`). Não omitir o dado.  
-5. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).  
-6. Fonte de pressão: **AGENDA DA CENA** → **NORTE curto** → [arco_ativo](../board/arco_ativo.md) (L1) → `event_queue` (F10).  
-7. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]`.  
+1. **Boca — ramo antes da frase.** O ramo de cima não vaza. Quem fala muda o vocabulário, não o ramo. Exemplos: [arco §7.1](../board/arco_ativo.md).
+   - **Rádio / ops / combate:** curta, seca, pessoa. Resultado primeiro.
+   - **Pack social:** conversa. Uma fala de gente, corpo no meio. Cada um pela ficha.
+   - **A sós:** uma fala, um fôlego. Selo de duas frases não serve.
+2. **Não ecoar** o PC: ≤2 linhas só confirmam a ação dele. Esse teto não mede a fala. SOP → outcomes (N8) **no ramo 1**.
+3. **Delta** = **maior parte** (~≥60%). Ramos 2 e 3: SHOW + fala do ramo = delta. Corpo: 3–6 linhas é piso.
+4. **N13 situar:** cada fato na situação a que pertence. Checklist interno ≠ gavetas na tela (`Cobertura:`, `EM:`). Não omitir o dado.
+5. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).
+6. Fonte de pressão: **AGENDA DA CENA** → **NORTE curto** → [arco_ativo](../board/arco_ativo.md) (L1) → `event_queue` (F10).
+7. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]`.
 8. **Rodapé OOC:** linha em branco + `ctrl N/90` (+2 / resposta). Boot `ctrl 2/90`. Perdeu `ctrl ?/90`. Não narrar; não chrome; não mudar cena pelo número.
 
 Detalhe: [diretrizes_narrador.md](../sistema/diretrizes_narrador.md) §7.1 · §5.2 (N13) · [motor_cena_1pager.md](../sistema/motor_cena_1pager.md)

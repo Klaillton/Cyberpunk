@@ -126,7 +126,7 @@
 
 - Jantar fechou Condor/base (trava). Tom soou cobrança; Ryan pediu para parar. Noite quieta.
 - Manhã: conversa direta + reconciliação (cócega, café). Oficina juntos.
-- **Voz (SoT):** residual alto = curta e quente; 019 = **perguntar** uma vez, não cobrar. Não reabrir o jantar.
+- **Voz (SoT):** a sós = ramo 3 (uma fala, um fôlego); ops/público = ramo 1. 019 = **perguntar** uma vez, não cobrar. Não reabrir o jantar.
 
 
 **Atualização (01–02/08 — sessão 024):**
