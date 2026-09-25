@@ -94,9 +94,10 @@ Executar **nesta ordem** antes de narrar:
 **Tier 0**
 
 1. `logs/context_pack_atual.md`
-2. `sistema/fatos_duros.md` (se necessário)
+2. `sistema/fatos_duros.md` (obrigatório)
 3. `logs/handoff_atual.md` (prompt / gancho)
-4. `board/board_campanha.md` se pack e board divergirem
+4. Último `logs/sessao_resumo_NNN.md`
+5. `board/board_campanha.md` só se pack e board divergirem
 
 **Tier 1 (cena do NOW)** — poucos arquivos conforme região (Pack vs NC vs estrada); ver context pack.
 

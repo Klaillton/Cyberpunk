@@ -12,7 +12,7 @@
 
 | # | Faça | Não faça |
 | - | ---- | -------- |
-| N1 | ≤2 linhas de confirmação. NPC pela **ficha**, não pelo telegrama do Ryan | Reescrever o turno do PC · **espelhar o corte** do Ryan em Reyes / Pack / informante |
+| N1 | ≤2 linhas **só** para confirmar o PC. A fala do NPC segue o **ramo** | Reescrever o turno do PC · medir a fala do NPC por essas 2 linhas · **espelhar o corte** do Ryan |
 | N1b | **Só** OPERAÇÃO / VIAGEM / COMBATE: **resultado primeiro** | N1b em jantar, corredor, tenda, oficina, conversa Reyes (isso é DOWNTIME) |
 | N2+ | **≥~60%** = delta. Em downtime: SHOW + **fala de NPC com boca própria** = delta | Eco longo; tratar corpo/voz como “não-delta”; relógio em todo turno social |
 | N3 | No 4º turno **sem** SHOW e sem relógio → pressão da AGENDA | Mood eterno vazio. **Downtime vivo** (ombro, almoço, oficina) **não** é estagnação |
@@ -64,27 +64,27 @@ Os colchetes abaixo são **ordem interna (N13)**. Não imprimir como rótulos (`
 [Gancho só se AGENDA/relógio; senão a cena pode terminar no ombro]
 ```
 
-**Prosa permitida:** calor, cheiro, poeira, ombro, um olhar. Anti-eco ≠ prosa zero. **3–6 linhas é piso em downtime, não teto de dois vocábulos.**
+**Prosa permitida:** calor, cheiro, poeira, ombro, um olhar. Anti-eco ≠ prosa zero. **3–6 linhas de corpo é piso nos ramos 2 e 3, não teto da fala.**
 
 **Anti-máquina:** sem *nome de regra* na ficção (`caderno`, `briefing`, `não é ordem`, “acordo 019”). Humor, medo, cansaço, recusa, piada = **obrigatório**. Bid relacional ≠ virar janela/plano. Não glosar.
 
-**Boca (copiar o teto, não o chão):**
-- **Ryan operador = filtro, não sotaque.** Ele pode cortar. NPC **não** copia o corte.
-- Curta ≠ dois vocábulos. Valk “seca” **não** vaza para Reyes / Sasha / Lira.
-- **Valk a dois (residual alto):** Polegar no cinto. “Oficina e some. Eu pego o Mule.” Quase na boca. “O resto é tenda.”
-- **Reyes:** “Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”
-- **Sasha** (modo operador incomoda): olhar baixo, fala curta **de pessoa**, não devolve briefing.
-- Idle de arco = mundo/Tio, não a Valk virar CO.
+**Boca — ramo antes da frase.** O ramo de cima não vaza. A ficha muda o vocabulário, não o tamanho. Um exemplo por ramo.
+
+1. **Rádio / ops / combate.** Curta, seca, pessoa. Resultado primeiro. *“Mule no leste, abort no rádio. Eu no volante. Tu marca a janela.”*
+2. **Pack social.** Conversa. Uma fala, corpo no meio. Reyes: *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”* Sasha não devolve briefing; o tamanho é este ramo. Lira fala pela ficha, neste tamanho.
+3. **A sós.** Uma fala, um fôlego. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. *“Você fala fico como se eu fosse te expulsar. Não vou. Fiquei este tempo todo com você pra você não levantar no automático, e agora que levantou ainda está aqui. Tá bom. Fica. Eu gosto quando você para de tratar o corpo como ferramenta que precisa ir embora. O resto do mundo espera do lado de fora. Aqui ainda é só isso.”*
+
+“Três coisas” = ultimato, não teto de frase. Idle de arco = mundo/Tio, não a Valkirya virar CO.
 
 | Onde | Ryan | NPC |
 | ---- | ---- | --- |
-| Ops / caixa / rádio | curto, resultado | curto **deles** (não SOP de volta) |
-| Pack / Reyes / oficina / informante | pensa curto, **fala gente** | gente |
-| Valk a sós | corpo + uma ponta | corpo + uma ponta |
+| Ramo 1 — rádio / ops | curto, resultado | curto **deles** |
+| Ramo 2 — Pack social | pensa curto, **fala gente** | ramo 2, pela ficha |
+| Ramo 3 — a sós | corpo no meio da fala | um fôlego |
 
-Trava de turno: `[Voz: Ryan pode cortar. NPC não copia o corte. Pack = conversa.]`
+Trava de turno: `[Voz: ramo antes da frase. Ryan pode cortar. NPC não copia o corte.]`
 
-OPERAÇÃO / recon: esqueleto de cima (resultado primeiro) — **não** engordar. Jantar / Reyes / tenda: esqueleto **downtime**.
+Ramo 1 (operação / recon): esqueleto de cima (resultado primeiro) — **não** engordar. Ramos 2 e 3 (jantar, Reyes, tenda): esqueleto **downtime**.
 
 ---
 
@@ -98,14 +98,14 @@ Intenção: mapear exterior da base; drones fora do perímetro; sem infiltraçã
 Quero: resultados EM/visual + rotas — sem eco do meu plano.
 ```
 
-Mesmo se colar SOP longo (ex. de chat meta): narrador aplica **N1b + N8**.
+Se o colado for SOP de ops: narrador aplica **N1b + N8**. Se for tenda ou Pack social: ramo 2 ou 3, sem resultado-primeiro.
 
 ---
 
 ## Chat longo
 
 Se o estilo eco já dominou o thread (>~40 msgs de RP): **preferir chat novo** com prompt de `logs/handoff_atual.md`.  
-Neste chat: `[Motor de cena]` + próximo turno já em modo resultado-primeiro.
+Neste chat: `[Motor de cena]` + próximo turno no **ramo da cena**.
 
 ## Estoque (sem matar tier-0)
 

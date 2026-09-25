@@ -55,10 +55,10 @@
 ## 6. Regras rápidas
 
 - F03 Warden terrestre · F15 Valk não “herói” · F16 Condor unmanned · F18 Ruleset 1.3.0 · F20 Sparrow/Steel = NPCs
-- Motor: sem eco · VIAGEM N9 fecha chegada · OPERAÇÃO resultado-primeiro · **DOWNTIME prosa 3–6 linhas** · **N13 situar** (não gavetas)
+- Motor: ramo antes da frase · N1b só no ramo 1 · N9 fecha viagem · corpo nos ramos 2 e 3: 3–6 linhas é piso · **N13 situar** (não gavetas)
 - Trava 023: não reabrir jantar/base/SOP Condor
-- Valk: residual alto = curta **e** quente; 1 pergunta antes de vetar
-- NPCs ≠ frase-rádio · Ryan operador **não** vaza para Pack/Reyes
+- Boca: NOW = ramo 2 (Mule). Tenda a sós = ramo 3. 019 = 1 pergunta antes de vetar
+- Frase-rádio não é fala de nenhum ramo · Ryan pode cortar; ninguém copia o corte
 
 ---
 

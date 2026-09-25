@@ -30,7 +30,7 @@
 
 | Modo | Quando | Limite por turno |
 | ---- | ------ | ---------------- |
-| **Ambiental** | 2+ NPCs relevantes no NOW (context pack / board) | 0–1 troca curta (2–4 linhas) ou 1 micro-decisão observável |
+| **Ambiental** | 2+ NPCs relevantes no NOW (context pack / board) | 0–1 troca entre eles, ou 1 micro-decisão. O tamanho de cada fala vem do ramo da boca, não desta linha. |
 | **Passivo** | `*observo em silêncio*`, `espero`, beat sem ação nova | 1–2 trocas NPC↔NPC ou 1 decisão pequena (consultar pulso) |
 | **Explícito** | `[Agência NPC]`, `deixem eles decidirem`, `Valk, planeje…` | NPC **executa** o pedido; 1 bloco com resultado concreto |
 | **Delegação** | Ryan pede a NPC competente fazer planejamento/logística | NPC devolve **plano fechado**; Ryan só veta ou ajusta se quiser |

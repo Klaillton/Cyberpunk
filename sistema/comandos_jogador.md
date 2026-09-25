@@ -36,7 +36,7 @@
 | 4 | **Proibido** neste comando: reler ficha completa, todos os relacionamentos, todos os `sessao_resumo_*`, pasta `pulso_do_mundo` inteira. |
 | 5 | Responder **no formato fixo abaixo** (obrigatório) — **inclui linha Motor**. |
 | 6 | Se o jogador **não** pediu continue/ação no mesmo turno: perguntar se retoma a cena. |
-| 7 | Se o mesmo turno trouxer **ação de RP** após o refresh (ex. `[Refresh]` + marcha/recon): (a) bloco refresh completo (b) narração **já em modo resultado-primeiro** (N1b) — **proibido** ecoar o procedimento do jogador. |
+| 7 | Se o mesmo turno trouxer **ação de RP** após o refresh: (a) bloco refresh completo (b) narração **já no ramo da cena**. N1b só se a ação for rádio/ops/combate/viagem. **Proibido** ecoar o procedimento do jogador. |
 
 ### Formato de resposta obrigatório
 
@@ -331,19 +331,19 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 | 1 | Declarar: `Motor de cena — reancorado.` |
 | 2 | Ler: `sistema/motor_cena_1pager.md` + bloco **MOTOR** + **AGENDA** em `logs/context_pack_atual.md` (RAW se preciso). |
 | 3 | Responder em **formato curto** (abaixo). **Não** narrar cena ainda, salvo o jogador ter pedido “e continue” / enviado ação no mesmo turno. |
-| 4 | Se houver ação no mesmo turno: narrar **já** com N1b (resultado primeiro), N8 (SOP comprimido), N9 se for viagem limpa, **N13** (situar — sem gavetas na tela). |
-| 5 | Mesmo se a ação for um **script longo** (ex. gerado em chat meta): **não ecoar** — só outcomes. |
+| 4 | Se houver ação no mesmo turno: narrar **já no ramo da cena**. N1b (resultado primeiro) e N8 **só** no ramo rádio/ops/combate; N9 se for viagem limpa; **N13** em todo ramo (situar — sem gavetas na tela). |
+| 5 | Mesmo se a ação for um **script longo de SOP** (ex. gerado em chat meta): **não ecoar** — outcomes no ramo 1. Script de tenda ou Pack social não vira SOP. |
 | 6 | Se o thread estiver muito contaminado por eco (>~40 msgs RP): **sugerir** chat novo com `logs/handoff_atual.md`. |
-| 7 | Se o jogador colar `[Voz: Ryan pode cortar. NPC não copia o corte. Pack = conversa.]`: aplicar **já** neste turno (N1 registro). Não discutir personagem. |
+| 7 | Se o jogador colar `[Voz: ramo antes da frase. Ryan pode cortar. NPC não copia o corte.]` ou a trava antiga `[Voz: Ryan pode cortar. NPC não copia o corte. Pack = conversa.]`: aplicar **já** neste turno (ramo da cena). Não discutir personagem. |
 
 ### Formato de resposta obrigatório
 
 ```markdown
 **Motor reancorado**
-- N1 sem eco · N1b **só** OPERAÇÃO/VIAGEM/COMBATE · N2+ downtime = SHOW + boca própria · N8 SOP · N9 fecho de viagem limpa · **N13 situar** (checklist interno ≠ gavetas na tela)
-- Curta ≠ dois vocábulos · Valk-seca **não** vaza · Ryan operador **não** vaza · anti-máquina = vocabulário de regra, não personalidade
+- N1 sem eco (≤2 linhas = confirmação, não a fala) · N1b **só** ramo 1 · N2+ ramos 2 e 3 = SHOW + fala do ramo · N8 SOP no ramo 1 · N9 fecho de viagem limpa · **N13 situar** (checklist interno ≠ gavetas na tela)
+- Ramo antes da frase: rádio/ops · Pack social · a sós. Ficha muda o vocabulário, não o ramo. Anti-máquina = vocabulário de regra, não personalidade
 - AGENDA ativa: #… — …
-- Próximo turno: se downtime/social Pack → corpo + fala de gente; se ops → outcomes primeiro
+- Próximo turno: ramo 1 → outcomes primeiro; ramo 2 → conversa; ramo 3 → um fôlego
 - Rodapé OOC: `ctrl N/90` continua (não narrar)
 - (Opcional) Chat longo com eco pesado → preferir novo chat + handoff
 ```

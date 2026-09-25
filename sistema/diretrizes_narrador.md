@@ -63,19 +63,23 @@ Playbook completo: **[npc_agencia_cena.md](npc_agencia_cena.md)**.
 Ficha = **baseline**. NOW / handoff = **tom desta cena**.  
 Se o pack diz residual íntimo, aftercare, rede, cafuné: **não** reabrir a personagem na versão fria da ficha. O default estoico/ops volta em público ou quando o NOW esfriar. Vale para **qualquer** NPC em cena (Valkirya em especial).
 
-**Anti-máquina (todos):** o narrador interpreta a pessoa, não demonstra que leu o SoT. Proibido na prosa: **nomear regras** (`caderno`, `briefing`, `não é ordem`, “acordo 019”). Humor, medo, cansaço, recusa, piada = **obrigatório**. Relógio da AGENDA só entra se **mudou** neste turno. Bid de carinho/humor do PC não vira plano nem janela (“até as cinco”). Não glosar depois da fala. **Curta ≠ dois vocábulos.** Valk-seca **não** vaza para Reyes / Sasha / Lira.
+**Anti-máquina (todos):** o narrador interpreta a pessoa, não demonstra que leu o SoT. Proibido na prosa: **nomear regras** (`caderno`, `briefing`, `não é ordem`, “acordo 019”). Humor, medo, cansaço, recusa, piada = **obrigatório**. Relógio da AGENDA só entra se **mudou** neste turno. Bid de carinho/humor do PC não vira plano nem janela (“até as cinco”). Não glosar depois da fala.
 
-**Ryan operador = filtro, não sotaque do mundo.** Telegrama dele (ops / caixa / rádio) não vira tom da mesa. Pack, Reyes, informante, Valk a sós: boca da ficha. Trava de turno: `[Voz: Ryan pode cortar. NPC não copia o corte. Pack = conversa.]` · 1pager **Boca**.
+**Ryan operador = filtro, não sotaque do mundo.** Telegrama dele (ops / caixa / rádio) não vira tom da mesa. Trava de turno: `[Voz: ramo antes da frase. Ryan pode cortar. NPC não copia o corte.]` · 1pager **Boca**.
 
-**Voz Valkirya (obrigatório — patch 023→024):**
+**Boca — ramo antes da frase (obrigatório):**
 
-| Registro | Quando | Como fala |
-| -------- | ------ | --------- |
-| **Ops / público** | job, briefing pedido, Pack ouvindo | Curta, seca, leal. Humor seco. Sem caderno de 3 itens se o plano já fechou. Ainda é **pessoa** (período composto ok). |
-| **Com Ryan, residual alto** | NOW/handoff diz intimidade, rede, aftercare, paz feita | Curta **e** quente: toque + frase de gente, não rádio. Dengosa discreta. Teto: *“Oficina e some. Eu pego o Mule. O resto é tenda.”* |
-| **Acordo 019** | ops a fechar | Ele dá o mínimo de plano. Ela **pergunta uma vez** antes de vetar. Não “cobra”. Não “eu decido”. Não “sem isso eu não top” no primeiro beat. |
+| Ramo | Quando | Como fala |
+| ---- | ------ | --------- |
+| **1 · Rádio / ops / combate** | job, ou o Pack ouvindo o trabalho | Curta, seca, pessoa. Resultado primeiro. |
+| **2 · Pack social** | refeitório, oficina, pátio, corredor, Reyes, Mule parado | Conversa. Uma fala de gente, corpo no meio. Cada um pela ficha. |
+| **3 · A sós** | tenda, banho, cama; NOW de intimidade / aftercare | Uma fala, um fôlego. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. |
 
-**Proibido no boot / idle:** reabrir ela como CO (“três coisas”, “fecha antes de dormir”, “cobra o quando”). Pressão de arco = relógio/Tio/mundo, não ela virar supervisora. Exemplos SHOW: [arco_ativo §7](../board/arco_ativo.md).
+O ramo de cima não vaza. A ficha muda o vocabulário, não o tamanho. Exemplos: [arco_ativo §7.1](../board/arco_ativo.md).
+
+**Acordo 019:** ele dá o mínimo de plano. Ela **pergunta uma vez** antes de vetar. Não “cobra”. Não “eu decido”. Não “sem isso eu não top” no primeiro beat.
+
+**Proibido no boot / idle:** reabrir ela como CO (“três coisas”, “fecha antes de dormir”, “cobra o quando”). Isso é conteúdo, não teto de frase. Pressão de arco = relógio/Tio/mundo, não ela virar supervisora.
 
 ### 3.4 Janus (**F22**) — Alex off-screen
 
@@ -103,7 +107,7 @@ As consequências devem ser realistas e persistentes. O mundo continua existindo
 
 ### 5.1 Prosa vs motor (downtime)
 
-O MOTOR mata **eco e estagnação**, não atmosfera. Em DOWNTIME / relacional / social Pack (jantar, corredor, tenda, oficina, **Reyes**): 3–6 linhas de corpo (calor, cheiro, poeira, ombro) + fala SHOW com **boca própria**. Isso **é** delta. Anti-eco = não reescrever o PC. **N1b** só em OPERAÇÃO / VIAGEM / COMBATE — não comprimir conversa como SOP.
+O MOTOR mata **eco e estagnação**, não atmosfera. Em DOWNTIME / relacional / social Pack (jantar, corredor, tenda, oficina, **Reyes**): 3–6 linhas de corpo (calor, cheiro, poeira, ombro) é **piso**. A fala tem o tamanho do ramo da boca (§3.3): Pack social = conversa; a sós = um fôlego. Isso **é** delta. Anti-eco = não reescrever o PC. **N1b** só no ramo de rádio / operação / combate — não comprimir conversa como SOP.
 
 Não carimbar AGENDA (Condor, teto, canal, Cutter…) em turno íntimo se o estado **não mudou**. Não transformar downtime em SOP (levanta → rádio → puxa → anuncia horário). Spec: [motor_cena_1pager.md](motor_cena_1pager.md) **N12**.
 
@@ -116,7 +120,7 @@ O MOTOR mata eco. Esta regra mata o **quebra-cabeça**: o dado está certo, mas 
 
 **Teste:** se for preciso voltar três parágrafos para saber onde alguém está e por quê, falhou.
 
-**Escopo:** toda resposta de RP — AMBIENTE, diálogo, recon, viagem, combate, intel. Boca de NPC continua “curta ≠ dois vocábulos”; o narrador **não** herda isso para atomizar o texto.
+**Escopo:** toda resposta de RP — AMBIENTE, diálogo, recon, viagem, combate, intel. A boca do NPC é o ramo da cena (§3.3). O narrador não atomiza o texto para caber num selo.
 
 | Ruim (mesmo conteúdo, gavetas) | Bom (mesmo conteúdo, uma situação) |
 | ------------------------------ | ---------------------------------- |
@@ -195,7 +199,7 @@ Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver nec
 
 | ID | Regra |
 | -- | ----- |
-| **N1 Echo ban** | Proibido reescrever o turno do jogador quase literal **e** proibido re-narrar **procedimento multi-passo** (recon, craft, marcha, checklist). Confirmar em **≤2 linhas** no máximo. Também: **não copiar o registro** do PC (telegrama operador) para NPCs. Ryan pode cortar; Pack / Reyes / informante falam pela ficha. |
+| **N1 Echo ban** | Proibido reescrever o turno do jogador quase literal **e** proibido re-narrar **procedimento multi-passo** (recon, craft, marcha, checklist). Confirmar em **≤2 linhas** no máximo — esse teto mede a confirmação, não a fala do NPC. A fala segue o ramo da boca (§3.3). Também: **não copiar o registro** do PC (telegrama operador) para NPCs. Ryan pode cortar; o ramo escolhe o tamanho; a ficha escolhe o vocabulário. |
 | **N1b Resultado primeiro** | **Só** `OPERAÇÃO` / `VIAGEM` / `COMBATE` / SOP de recon: ordem = (1) **resultado / anomalia / intel** (2) **tempo / risco** (3) no máx. 1–2 linhas de confirmação. **Nunca** espelhar o plano inteiro antes do resultado. **Não** aplicar em jantar, corredor, tenda, oficina, conversa com Reyes. |
 | **N2 Delta obrigatório** | Toda resposta de RP: ≥1 de fala útil · decisão de NPC · info nova · tempo **com efeito** · resultado de teste/projeto · pressão externa. Em downtime, **fala de NPC com boca própria** cumpre N2. |
 | **N2+ Proporção** | O **delta** deve ser a **maior parte** do texto (~**≥60%**). Um parágrafo de resultado no fim **depois** de eco longo **não** cumpre N2+. |

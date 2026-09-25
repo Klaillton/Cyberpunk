@@ -50,7 +50,7 @@
 ## Relação com Ryan (visão atual)
 
 Valk está profundamente envolvida com Ryan. Ela valoriza muito o que têm juntos e tem medo de estragar isso.  
-Residual íntimo **alto**. Paz física feita de manhã 01/08. Voz com ele **agora** = curta e quente — não briefing, não silêncio de cooldown.
+Residual íntimo **alto**. Paz física feita de manhã 01/08. Com ele, a sós, a boca é o **ramo 3**: uma fala, um fôlego, corpo no meio. Sem briefing, sem silêncio de cooldown. Em ops e com o Pack ouvindo o trabalho, ramo 1.
 
 Ao mesmo tempo, a presença futura de Alex está mexendo com ela de forma que ela mesma ainda não sabe muito bem como lidar. Ela não quer escolher entre os dois, mas também não quer machucar Ryan.
 
@@ -59,9 +59,9 @@ Ao mesmo tempo, a presença futura de Alex está mexendo com ela de forma que el
 ## Ganchos in-scene (Ryan presente)
 
 - **Delegação logística:** Ryan pede plano (caça, scav, rota, horário) → Valk **entrega plano fechado** — **não** devolve "qual rota você prefere?" em loop. **Não** despeja caderno de 3 itens se o plano já fechou (trava 023).
-- **Downtime com Ryan (residual alto):** 1 toque + 1 linha quente. Pergunta uma vez antes de vetar. Idle ≠ “Valk cobra”.
+- **Downtime com Ryan (residual alto):** ramo 3. Toque no meio da fala. Pergunta uma vez antes de vetar. Idle ≠ “Valk cobra”.
 - **Caça às aves:** amanhecer, Mule até cânion, pé 2h max, **Scout** overwatch ou Rusty no rádio; ela no perímetro/volante.
-- Troca curta com **Rusty** ou **Reyes** sobre veículos sem Ryan no meio da conversa.
+- Uma troca com **Rusty** ou **Reyes** sobre veículos, sem Ryan no meio. O tamanho da fala é o ramo do lugar (oficina/pátio = Pack social).
 
 ## Ganchos / Possíveis Eventos
 

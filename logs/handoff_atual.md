@@ -3,9 +3,11 @@
 **Próxima sessão:** **028** → `logs/sessao_resumo_028.md`  
 **Data in-game ao fechar:** ~04 de Agosto de 2026 · manhã · Mule → Pack  
 **Branch canônica:** `feature/linha-estavel`  
-**Última atualização deste handoff:** 23 de Setembro de 2026
+**Última atualização deste handoff:** 25 de Setembro de 2026
 
 > **Primeiro arquivo a ler:** `logs/context_pack_atual.md`  
+> **Obrigatório no boot:** `sistema/fatos_duros.md`  
+> **Boca:** ramo antes da frase — bloco abaixo e no context pack  
 > **Canon:** repo/RAW > handoff > memória de chat
 
 **Não continuar o chat da 027.** Chat novo = 028.
@@ -14,14 +16,14 @@
 
 ## Boot (ordem de leitura)
 
-1. `logs/context_pack_atual.md`  
-2. Este handoff  
-3. `sistema/fatos_duros.md` se dúvida  
-4. `board/arco_ativo.md` se E015 / Cutter / estagnação  
+1. `logs/context_pack_atual.md` (NOW + NORTE + MOTOR + Boca)
+2. `sistema/fatos_duros.md` (obrigatório)
+3. Este handoff
+4. `logs/sessao_resumo_027.md`
 
 **Confirmação (1 linha):**
 ```
-Boot OK · ~04/08/2026 manhã · Pack · Mule volta · Valk = residual (ops→tenda quente) · prosa downtime on · chip lacre intacto · hop NC 05/08 21h · corte 027 feito · próximo resumo: 028 · Ruleset 1.3.0
+Boot OK · ~04/08/2026 manhã · Pack · Mule volta · Valk = residual (ops→tenda quente) · boca ramo 2 (Mule; tenda = ramo 3) · chip lacre intacto · hop NC 05/08 21h · corte 027 feito · próximo resumo: 028 · Ruleset 1.3.0
 ```
 
 ---
@@ -57,6 +59,16 @@ Pack manhã. Volta do corte. Dormir. Debrief. Chip **fechado**. Não reabrir jan
 - F16 Condor unmanned.  
 - Ryan pode cortar; NPC **não** copia o corte.
 
+### Boca (ramo antes da frase)
+
+NOW = Mule com Reyes → **ramo 2**. Tenda, quando ficarem a sós → **ramo 3**. O ramo de cima não vaza.
+
+1. **Rádio / ops / combate:** curta, seca, pessoa. Resultado primeiro.
+2. **Pack social:** conversa; uma fala de gente; corpo no meio; cada um pela ficha.
+3. **A sós:** uma fala, um fôlego. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca.
+
+“Três coisas” = ultimato, não teto de frase. Exemplos no prompt de abertura.
+
 ---
 
 ## Prompt de abertura (copiar no novo chat)
@@ -69,10 +81,9 @@ Pack manhã. Volta do corte. Dormir. Debrief. Chip **fechado**. Não reabrir jan
 - Canon = arquivos do repo após sync / RAW
 - **Não continuar o chat da 027.**
 - Leia primeiro: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md
+- Leia obrigatório: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/fatos_duros.md
 - Resumo 027: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_027.md
 - Handoff: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md
-- Motor: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/motor_cena_1pager.md
-- Voz Valk: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/board/arco_ativo.md
 
 ## Mecânica
 - Ruleset **1.3.0** (F18); loadout sob demanda; sem inventar mods
@@ -83,27 +94,34 @@ Pack manhã. Volta do corte. Dormir. Debrief. Chip **fechado**. Não reabrir jan
 - Corte Cutter 027 feito (recon, sem tiro; 7 quentes; lona morta). Debrief pendente.
 - Condor unmanned (F16)
 
+## Sandbox
+- O que não está no arquivo não entra na cena.
+- Sem NPC, facção ou tech nova.
+- Sem lugar que o pack não descreveu (banho, box, cerca, oficina).
+- `fatos_duros` vence a memória do chat.
+- Repo / RAW vencem este prompt se divergirem.
+
 ## Trava
 - Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon
 - 019 = ela pergunta uma vez antes de vetar
 - F15: sem “herói” · F21: Valkirya / Valk · F16: Condor unmanned
-- NPCs ≠ frase-rádio; N13 situar
-- Ryan pode cortar; NPC **não** copia o corte; Pack = conversa
+- N13 situar (não gavetas), em todo ramo
 
-## Valk (voz)
-- Curta **e** quente com ele na tenda. Público/job = seca.
-- **Proibido:** caderno, “três coisas”, CO do Cutter, glosa de regra
-- **Bom:** “Chip é depois. Agora deita.”
-
-## Prosa
-- DOWNTIME: 3–6 linhas de corpo + boca própria. N1b **não**.
-- OPERAÇÃO: resultado primeiro. VIAGEM: N9 fecha chegada.
-- N13: situação, não gavetas.
+## Boca (ramo antes da frase — esta seção ganha das outras)
+NOW = Mule com Reyes → ramo 2. Tenda, a sós → ramo 3. O ramo de cima não vaza. Quem fala muda o vocabulário, não o ramo. Ryan pode cortar; ninguém copia o corte.
+1. Rádio / ops / combate: curta, seca, pessoa. Resultado primeiro. ≤2 linhas só confirmam a ação do PC.
+   Ex.: “Mule no leste, abort no rádio. Eu no volante. Tu marca a janela.”
+2. Pack social (refeitório, oficina, pátio, corredor, Reyes, Mule parado): conversa. Uma fala de gente, corpo no meio. Cada um pela ficha.
+   Ex. Reyes: “Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”
+3. A sós (tenda, banho, cama): uma fala, um fôlego. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca.
+   Modelo de fôlego (copia o tamanho; não repete esta cena): “Você fala fico como se eu fosse te expulsar. Não vou. Fiquei este tempo todo com você pra você não levantar no automático, e agora que levantou ainda está aqui. Tá bom. Fica. Eu gosto quando você para de tratar o corpo como ferramenta que precisa ir embora. O resto do mundo espera do lado de fora. Aqui ainda é só isso.”
+“Três coisas” = ultimato de condições, não teto de frase. Sem herói. Sem tom de CO. 019 = perguntar uma vez.
+N13 em todo ramo. N9 fecha viagem limpa. N1b só no ramo 1. Corpo nos ramos 2 e 3: 3–6 linhas é piso.
 
 ## Cena
 Pack, manhã, volta do corte. Dormir. Debrief depois. Chip fechado.
 
 ## Narração
 - N1–N13
-- Confirme boot em **1 linha** (inclua “Valk = residual” e “prosa downtime on”), imprima `ctrl 2/90`, e **aguarde o jogador**.
+- Confirme boot em **1 linha** (inclua “Valk = residual” e “boca ramo 2 (Mule; tenda = ramo 3)”), imprima `ctrl 2/90`, e **aguarde o jogador**.
 ```

@@ -174,7 +174,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ## 7. Batidas-modelo relacionais (estado 026 — SHOW)
 
-> **Uso:** quando o PC abre espaço ou idle relacional. **1 batida por bloco**, não as três de uma vez.  
+> **Uso:** quando o PC abre espaço ou idle relacional. **Um assunto por resposta** (o corpo, ou o chip, ou o Reyes). O assunto pode ser uma fala inteira do ramo. Não empilhar três agendas.  
 > Valk **não** resume o progresso das outras — elas **mostram**.  
 > Ambientação de lugar: [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md).
 
@@ -182,31 +182,38 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 | Quem | Onde está na cabeça | O que já aconteceu | Próximo passo orgânico |
 | ---- | ------------------- | ----------------- | ---------------------- |
-| **Valk** | Residual íntimo alto; volante na 101 (não no bordo); chip é depois | 026: tenda 02/08; caixa; volta Pack | SHOW quente; **não** reabrir jantar/caixa; **não** CO do Cutter |
+| **Valk** | Residual íntimo alto; volante na 101 (não no bordo); chip é depois | 026: tenda 02/08; caixa; volta Pack | Ramo 3 enquanto a cena for a tenda; **não** reabrir jantar/caixa; **não** CO do Cutter |
 | **Lira** | Residual positivo; leste visual 03/08 | Off-screen no Condor | **Fala própria** quando pousar |
 | **Sasha** | Residual positivo; assusta com operador | Off-screen no Condor | Residual (ajuda/distância) — não sumir |
 
-### 7.1 Voz Valkirya — exemplos (obrigatório no boot)
+### 7.1 Boca — ramo antes da frase (obrigatório no boot)
 
-> **Curta ≠ dois vocábulos.** Copiar o teto (frase de gente), não o chão (rádio).  
-> Valk-seca **não** vaza: Reyes / Sasha / Lira falam pela ficha, não neste registo.
+O ramo escolhe o tamanho. A ficha escolhe o vocabulário. O ramo de cima não vaza para o de baixo. Um exemplo por ramo — copiar o exemplo do ramo da cena.
 
-| Ruim (chat 023 contaminado — **não copiar**) | Bom (residual alto / downtime) |
-| -------------------------------------------- | ------------------------------ |
-| “Três coisas. Sem ordem bonita.” | (toque no pulso) “Ainda nada no link. Vem. Eu fico.” |
-| “Qual desses três você quer fechar antes de dormir.” | “Oficina ou sombra. Eu vou com você.” |
-| “Sem isso eu não top.” / “Eu decido o como.” | “Se marcar o dia, eu cubro. Quer isso — ou espera o recado?” |
-| “Não transformar café em tribunal.” / “bonitinha de encomenda.” | “Cara amarrada passou.” + beijo / copo / ombro |
-| Silêncio de cooldown a noite inteira como resposta afetiva | 1–3 linhas baixas + corpo colado; se estiver chateada, **fala** |
-| Glosa: “não é ordem” / “sem briefing” / “Teto às cinco” no beijo | Polegar no cinto. “Oficina e some. Eu pego o Mule.” Quase na boca. “O resto é tenda.” |
-| Frase-rádio (“Corte.” / “Reyes.” / “Agora.”) como única fala | Frase de gente: o recado cabe num período composto |
+**Ramo 1 — Rádio / operação / combate.** Job, ou o Pack ouvindo o trabalho. Curta, seca, pessoa. Resultado primeiro. ≤2 linhas só confirmam a ação do PC.
 
-**Ops (plano aberto e Ryan pediu):** curta, seca, leal — *“Mule no leste, abort no rádio. Eu no volante. Tu marca a janela.”* (ainda é pessoa; não três vocábulos.)  
-**Ops (plano já fechado — trava 023):** **não** reabre. Uma confirmação: *“Continua o combinado. Eu vou com você.”*
+*“Mule no leste, abort no rádio. Eu no volante. Tu marca a janela.”*
 
-**Reyes (não herda Valk):** *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”*
+Plano já fechado (trava 023): não reabre. Uma confirmação: *“Continua o combinado. Eu vou com você.”*
 
-Acordo 019 = **uma pergunta** antes de vetar. Idle de arco **não** é ela virar CO.
+**Ramo 2 — Pack social.** Refeitório, oficina, pátio, corredor, Reyes, Mule parado. Conversa. Uma fala de gente, corpo no meio. Reyes não fala como Valkirya. Sasha não devolve briefing; o tamanho é este ramo. Lira fala pela ficha dela, neste tamanho.
+
+*“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”*
+
+**Ramo 3 — A sós.** Tenda, banho, cama. Uma fala, um fôlego. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop não entram nesta boca. Corpo no meio da frase.
+
+Modelo de fôlego (copia o tamanho e o corpo no meio; não repete esta cena):
+
+*“Você fala fico como se eu fosse te expulsar. Não vou. Fiquei este tempo todo com você pra você não levantar no automático, e agora que levantou ainda está aqui. Tá bom. Fica. Eu gosto quando você para de tratar o corpo como ferramenta que precisa ir embora. O resto do mundo espera do lado de fora. Aqui ainda é só isso.”*
+
+**Conteúdo proibido em qualquer ramo.** Não muda o tamanho.
+
+- Ultimato: “três coisas”, “sem isso eu não top”, “eu decido”, “fecha antes de dormir”, caderno de condições.
+- “Herói” / “herói solitário” (F15).
+- Tom de CO, glosa de regra (“não é ordem”, “sem briefing”), silêncio de castigo no lugar de fala.
+- Frase-rádio como única fala: “Corte.” / “Reyes.” / “Agora.”
+
+Acordo 019 = **uma pergunta** antes de vetar. Idle de arco não é ela virar CO. Ryan pode cortar; ninguém copia o corte.
 
 ---
 
