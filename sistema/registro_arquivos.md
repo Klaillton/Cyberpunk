@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 2026-09-14 (fichas Condor + Corujas; próximo resumo **027**)
+**Última atualização:** 2026-09-25 (set_lugares)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -21,6 +21,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Eventos pendentes no mundo | `event_queue.md` | `board/board_campanha.md`, `board/arco_ativo.md`, `consequencias/consequencias_persistentes.md` |
 | Arco em foco (L1) + NPCs off-screen | `board/arco_ativo.md` | `logs/context_pack_atual.md` (**NORTE** + AGENDA), `event_queue.md` |
 | Ambientação / ganchos / imagem opcional | `sistema/cena_ambientacao_ganchos.md` | `motor_cena_1pager.md`, `arco_ativo.md` §7 |
+| Planta curta de lugar recorrente | `sistema/set_lugares.md` | O pack traz só o § do NOW. `[Carregar cena: oficina]` abre esse § |
 | Soft-canon / refinamentos futuros (não tier-0) | `ideas_concepts/README.md` | polycule, gatilhos, Moreau — **não** boot |
 | Situação financeira | `economia.md` | `board/board_campanha.md`, `logs/downtime_ryan.md` |
 | Relações do protagonista | `relacionamentos/ryan_relacionamentos.md` | `relacionamentos/mapa_relacional_geral.md`, `relacionamentos/crew_relacionamentos.md` |

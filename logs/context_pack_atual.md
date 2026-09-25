@@ -41,6 +41,12 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 | Período | Manhã |
 | Região | **Badlands / Pack** |
 | Local específico | Mule no rasto de volta; Pack à frente. Chip E015 **lacre intacto** |
+
+### SET NOW
+
+`sistema/set_lugares.md` § **mule**. Não abrir o arquivo inteiro.
+
+Van remendada, rack no teto, “THE MULE” na lateral. Valk no volante. A viagem é aqui dentro. Não é a garagem nem a oficina do Tio.
 | Facção / base local | Pack Nômade Badlands |
 | Cena / gancho | Chegada + dormir + debrief do corte; abrir chip; hop NC **05/08 após 21h** |
 | Prioridade | (1) Dormir / debrief (2) Abrir chip (3) Hop NC 05/08 noite |
