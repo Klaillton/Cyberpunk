@@ -203,7 +203,8 @@ Ainda gerar resumo mínimo; preencher seções de ledger com **“sem delta”**
 
 ### E1) `[Carregar cena: <tag>]`
 
-Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.
+Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.  
+Tag de lugar (`mule`, `tenda`, `oficina`, `garagem`, `refeitorio`, `patio`) abre só o § de [set_lugares.md](set_lugares.md).
 
 | # | Ação |
 | - | ---- |

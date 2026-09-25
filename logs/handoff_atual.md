@@ -97,7 +97,7 @@ NOW = Mule com Reyes → **ramo 2**. Tenda, quando ficarem a sós → **ramo 3**
 ## Sandbox
 - O que não está no arquivo não entra na cena.
 - Sem NPC, facção ou tech nova.
-- Sem lugar que o pack não descreveu (banho, box, cerca, oficina).
+- Lugar físico: o cartão **SET NOW** do pack (`sistema/set_lugares.md` § mule). Fora desse cartão, não inventar planta.
 - `fatos_duros` vence a memória do chat.
 - Repo / RAW vencem este prompt se divergirem.
 

@@ -61,10 +61,11 @@ Consulta: `[Estoque]` / `[Estoque: destilaria]` · **não** duplicar qty neste a
 
 ## Locais e Bases Conhecidas
 
-- **Acampamento Principal** — Área com tendas, fogueira central e refeitório improvisado.
-- **Oficina / Forja** — Estrutura onde Ryan trabalha com o Tio Gringo.
-- **Perímetro / Cerca** — Fortificado recentemente com ajuda de Ryan.
-- **Área de Veículos** — Onde o Mule costuma ficar guardado.
+- **Acampamento Principal** — Tendas, fogueira central, refeitório. Planta: [set_lugares.md](../sistema/set_lugares.md).
+- **Oficina / Forja** — Usinagem e forja do Tio Gringo, depósito ligado. Quatro máquinas. § `oficina`.
+- **Perímetro / Cerca** — Fortificado com ajuda de Ryan.
+- **Área de Veículos** — Garagem do Rusty, sem baia marcada. § `garagem`. O Mule fica aqui quando está em casa.
+- **Pátio** — Playground das crianças. § `patio`.
 
 ## Eventos e Consequências
 
