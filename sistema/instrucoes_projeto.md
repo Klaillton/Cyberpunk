@@ -98,6 +98,7 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 | `[Avançar cena]` / `[Pressão]` | I — 1 beat da AGENDA/NOW; ver [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 |
 | `[Motor de cena]` / `[Anti-eco]` | J — reancora anti-eco; [motor_cena_1pager.md](motor_cena_1pager.md) |
 | `[Estoque]` / `[Recursos]` / `[O que tem: …]` | K — micro-recursos; [economia.md](../economia.md) |
+| `[Anotar]` / `[Anotar: …]` | L — rascunho em `logs/notas_sessao.md`; **não** distribui; genérico espera o `grava` |
 
 | Outros | Ação |
 | ------ | ---- |
