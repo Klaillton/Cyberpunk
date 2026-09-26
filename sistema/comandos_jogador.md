@@ -2,7 +2,7 @@
 
 **Finalidade:** instruções **passo a passo** que a IA deve seguir ao receber cada comando.  
 **Branch canônica:** `feature/linha-estavel`  
-**Última atualização:** 29 de Julho de 2026
+**Última atualização:** 26 de Setembro de 2026
 
 > Tabela resumida também em [instrucoes_projeto.md](instrucoes_projeto.md).  
 > Tier-0: [logs/context_pack_atual.md](../logs/context_pack_atual.md) · [fatos_duros.md](fatos_duros.md).
@@ -104,7 +104,7 @@
 | # | Ação |
 | - | ---- |
 | 1 | Declarar: `Finalizar sessão — playbook completo.` |
-| 2 | Ler: `sessao_resumo_template.md`, `registro_arquivos.md` (NNN), `board`, `dashboard_contexto`, `event_queue`, `como_atualizar_arquivos.md`, `context_pack_atual`, `fatos_duros`, **e a matriz de ledgers:** `consequencias/consequencias_persistentes.md`, `heat.md`, `reputacao.md`, `economia.md`, `logs/downtime_ryan.md`, `facoes/` relevantes, `relacionamentos/faccao_relacionamentos.md`, `pulso_procedimento.md` (se data avançou). |
+| 2 | Ler: `sessao_resumo_template.md`, `registro_arquivos.md` (NNN), `board`, `dashboard_contexto`, `event_queue`, `como_atualizar_arquivos.md`, `context_pack_atual`, `fatos_duros`, `logs/notas_sessao.md`, **e a matriz de ledgers:** `consequencias/consequencias_persistentes.md`, `heat.md`, `reputacao.md`, `economia.md`, `logs/downtime_ryan.md`, `facoes/` relevantes, `relacionamentos/faccao_relacionamentos.md`, `pulso_procedimento.md` (se data avançou). |
 | 3 | Calcular **data início → fim** da sessão e quantos **dias in-game** passaram. |
 | 4 | Gerar **rascunho** de `logs/sessao_resumo_NNN.md` (conteúdo como em B), com seções: Rep/Heat/Econ · **Mecânica/ferimentos** · Downtime · Facções/Consequências · Pulsos (dias) — usar **“sem delta”** quando avaliou e nada mudou. **Ruleset** no cabeçalho (ex. 1.3.0). |
 | 5 | Montar **tabela de mudanças propostas** (Arquivo → o que muda). **Sempre avaliar** (não pular por omissão): |
@@ -118,11 +118,12 @@
 | | - NPCs → relacionamentos relevantes |
 | | - **1+ dia in-game** → [pulso_procedimento.md](pulso_procedimento.md) (ciclos faltantes ou gap B1 documentado); região atual only |
 | | - **Sempre:** `logs/context_pack_atual.md` (incl. **NORTE** + **AGENDA DA CENA** do NOW; se **local/região mudou**, reescrever agenda inteira; **NORTE:** só a linha cujo horizonte mudou) + `logs/handoff_atual.md` |
+| | - **Cada linha** de `logs/notas_sessao.md` entra na tabela com um destino: **promove** (seção sugere o arquivo; dúvida não escolhe), **fica** (continua no rascunho), ou **não promove** (sai, com uma frase no resumo). Destino incerto = `?`. Não chutar. |
 | | - `registro_arquivos` se novo resumo ou arquivo |
-| 6 | **Mostrar ao jogador:** (1) resumo completo; (2) tabela Arquivo → mudança (incluir linhas “sem delta” se quiser transparência). |
-| 7 | **Parar.** Pedir confirmação explícita: aplicar arquivos? commit/push? |
+| 6 | **Mostrar ao jogador:** (1) resumo completo; (2) tabela Arquivo → mudança (incluir linhas “sem delta” se quiser transparência); (3) cada nota com promove / fica / não promove / `?`. |
+| 7 | **Parar.** Pedir confirmação explícita: aplicar arquivos? commit/push? Linha `?` precisa de resposta antes do sim (promove para onde, fica, ou não promove). |
 | 8 | **Só após confirmação:** escrever arquivos no workspace. |
-| 9 | **Ordem de escrita:** `sessao_resumo_NNN` → board + dashboard → event_queue → consequencias → facoes/ + faccao_rels (se tocado) → relacionamentos NPC/crew → heat + reputacao + economia → downtime_ryan (se projeto) → pulso (se 1+ dia) → **context_pack** → **handoff** → registro. |
+| 9 | **Ordem de escrita:** `sessao_resumo_NNN` → board + dashboard → event_queue → consequencias → facoes/ + faccao_rels (se tocado) → relacionamentos NPC/crew → heat + reputacao + economia → downtime_ryan (se projeto) → pulso (se 1+ dia) → **context_pack** → **handoff** → registro. **Por último, nas notas:** tirar só o que promoveu ou o que foi “não promove”. O que ficou leva `~NNN` e continua no arquivo. No próximo finalizar, linha `~` volta à tabela. Não esconder. |
 | 10 | Responder com: lista de paths **avaliados e** alterados + próximo NNN+1 + lembrete de handoff se chat novo. |
 | 11 | Commit/push **somente** se o jogador confirmou. |
 
@@ -149,6 +150,7 @@
 [ ] Testes/combate: 1–3 linhas de outcome mecânico (não só prosa)
 [ ] Decisões provisórias mecânicas (promover house rule?)
 [ ] Context pack (NOW + NORTE + AGENDA) + handoff
+[ ] Notas: cada linha com promove / fica / não promove; `?` respondido antes do sim; “fica” permanece com ~NNN
 [ ] Resumo lista paths avaliados
 ```
 
@@ -368,6 +370,7 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 | `[Ambientar]` / `[O que eu vejo?]` | Não | — |
 | `[Imagem do lugar]` | Não | — (opcional; ver política) |
 | `[Estoque]` / `[Recursos]` / `[O que tem: …]` | Não | — |
+| `[Anotar]` / `[Anotar: …]` | Sim, só `logs/notas_sessao.md` | Específico grava a frase. Genérico mostra e espera o `grava`. Não distribui. |
 
 ---
 
@@ -433,6 +436,68 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 [O que tem: sabonete]
 [Recursos: Pack]
 ```
+
+---
+
+## L) `[Anotar]` / `[Anotar: …]`
+
+**Objetivo:** segurar um fato fresco num rascunho só, antes que o chat perca a planta.  
+**Arquivo:** [logs/notas_sessao.md](../logs/notas_sessao.md). **Não é cânone.** Não entra no boot.  
+**Não distribui** para set, economia, downtime, board, pack, handoff ou relacionamento. Isso é o `[Finalizar]`.  
+**Sinônimos:** `[Anotar]` · `[Anotar: <fato>]` · `[Anotar: do <marco> até agora]`
+
+`ctrl N/90` não é índice. O trecho tem de estar neste chat. Se o jogador citar um intervalo que o fio já não tem, dizer isso e parar. Não inventar o que estava no chat anterior.
+
+### Específico — `[Anotar: <fato>]`
+
+| # | Ação |
+| - | ---- |
+| 1 | Declarar: `Anotar — específico.` |
+| 2 | A frase do jogador é a nota. Não trocar por um rótulo (“melhoraram o banho”). |
+| 3 | Uma linha sob a seção: **Lugar** (planta, circuito, máquina) · **Downtime** (o que Ryan produziu) · **Estoque** (item, qty, onde) · **Relação** (promessa, acordo) · **Mecânica** (HP, munição, gear) · **Pendência** (ponto fechado de plano, ainda sem obra). Se ambíguo, **Pendência**. |
+| 4 | Gravar em `logs/notas_sessao.md`. Criar o arquivo a partir do molde se faltar. |
+| 5 | Fora da cena, mostrar seção + linha gravada. |
+| 6 | Não narrar, salvo o mesmo turno ter pedido continue ou trazido ação. |
+| 7 | Não commit, salvo o turno pedir `commit a nota`. |
+
+### Genérico — `[Anotar]` ou `[Anotar: do <marco> até agora]`
+
+| # | Ação |
+| - | ---- |
+| 1 | Declarar: `Anotar — rascunho, ainda não gravei.` |
+| 2 | Ler só o trecho que ainda está neste chat, do marco citado até a mensagem atual. Sem marco: o beat importante imediatamente anterior. |
+| 3 | Mostrar **lista de fatos**, um por linha, com a seção sugerida. Plano longo = pontos fechados, não a conversa. Peça, nome, medida e circuito ficam escritos. |
+| 4 | **Não** escrever o arquivo neste turno. |
+| 5 | Parar. Esperar correção, `grava`, ou `commit a nota`. |
+
+No turno seguinte:
+
+| Pedido | Ação |
+| ------ | ---- |
+| Correção | A lista corrigida substitui o rascunho. Mostrar de novo. Ainda não gravar, salvo o turno também dizer `grava`. |
+| `grava` | Escrever as linhas aprovadas. Mostrar seção + linha. Não distribuir. Não narrar. |
+| `commit a nota` | Só com a nota já gravada. Commit **apenas** de `logs/notas_sessao.md`. Push só se o turno pediu. Não distribuir. |
+
+### No finalizar
+
+A seção **sugere** o destino. Não força. Dúvida vira `?` na tabela, e o sim espera a resposta. Três saídas, ditas pelo jogador:
+
+| Saída | O que acontece |
+| ----- | -------------- |
+| **promove** | A linha vai para o arquivo do destino e sai do rascunho. |
+| **fica** | Continua em `notas_sessao.md`, marcada `~NNN`. No próximo finalizar volta à tabela. Não é cânone enquanto fica. |
+| **não promove** | Sai do rascunho e ganha uma frase no resumo. Sem essa frase, não sai. |
+
+Finalizar abortado: nada sai. O arquivo não esvazia por completo se sobrou “fica”.
+
+| Seção | Destino sugerido |
+| ----- | ------- |
+| Lugar | `sistema/set_lugares.md` (cartão existente ou linha nova) |
+| Downtime | `logs/downtime_ryan.md` |
+| Estoque | `economia.md` § Atores / Estoque / Ryan mínimo |
+| Relação | relacionamento do NPC tocado |
+| Mecânica | loadout, ficha ou o bloco de mecânica do resumo |
+| Pendência | `event_queue.md`, ou uma linha de pendência no resumo se ainda não for evento |
 
 ---
 

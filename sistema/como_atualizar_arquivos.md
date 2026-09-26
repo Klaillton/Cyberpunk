@@ -101,6 +101,7 @@ Peça:
 | Abrir chat novo / continuidade | [novo_chat_procedimento.md](novo_chat_procedimento.md) + playbook **D** |
 | Pedido de handoff | `[Gerar handoff…]` — playbook D; sobrescrever `handoff_atual` (± context pack + AGENDA) |
 | Mid-chat esqueceu estado | `[Refresh contexto]` — playbook **A** (tier-0 only) |
+| Fato fresco a não perder (planta, item, promessa, plano fechado) | `[Anotar]` / `[Anotar: …]` — playbook **L**. Só `logs/notas_sessao.md`. Não distribui. |
 | Cena estagnou (mood/eco) | `[Avançar cena]` / `[Pressão]` — playbook **I**; não edita arquivos |
 | Narrador ecoando SOP / espelho | `[Motor de cena]` / `[Anti-eco]` — playbook **J**; se chat longo, preferir **novo chat** + handoff |
 | **Narrador/IA avança ≥1 dia** (amanhece, elipse, dorme) | [pulso_procedimento.md](pulso_procedimento.md) **obrigatório** → `pulso_do_mundo/` + ledgers se impacto; downtime se Ryan produziu |
@@ -110,7 +111,7 @@ Peça:
 | Tempo off-screen (mundo vivo) | [pulso_procedimento.md](pulso_procedimento.md) + pulso em `pulso_do_mundo/` + opcional `logs/pulso_YYYYMMDD.md` |
 
 **Matriz de finalize (sempre avaliar; “sem delta” no resumo se zero):**  
-`board` · `dashboard` · `event_queue` · `consequencias` · `facoes/` + `faccao_relacionamentos` · `heat` · `reputacao` · `economia` · `downtime_ryan` · pulso se 1+ dia · relacionamentos tocados · `context_pack` (**NOW + NORTE + AGENDA DA CENA**; NORTE só se o horizonte mudou) · `handoff`.
+`board` · `dashboard` · `event_queue` · `consequencias` · `facoes/` + `faccao_relacionamentos` · `heat` · `reputacao` · `economia` · `downtime_ryan` · pulso se 1+ dia · relacionamentos tocados · `context_pack` (**NOW + NORTE + AGENDA DA CENA**; NORTE só se o horizonte mudou) · `handoff`. **Ler antes** `logs/notas_sessao.md`. Cada linha: promove, fica, ou não promove. Dúvida = `?`, respondida antes do sim. “Fica” permanece com `~NNN`.
 
 Consulte a tabela completa em [registro_arquivos.md](registro_arquivos.md) (seção "Guia de Consulta Cruzada").
 
