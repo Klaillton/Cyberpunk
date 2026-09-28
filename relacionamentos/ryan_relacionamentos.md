@@ -1,7 +1,7 @@
 # Relacionamentos de Ryan "Wireghost" Voss
 
 **Personagem Principal:** Ryan "Wireghost" Voss  
-**Última atualização:** 03 de Agosto de 2026 (sessão 026)
+**Última atualização:** 04 de Agosto de 2026 (sessão 028)
 
 ---
 
@@ -9,7 +9,7 @@
 
 | Personagem               | Sentimento de Ryan    | Sentimento em relação a Ryan | Intensidade | Status             | Tipo                             |
 | ------------------------ | --------------------- | ---------------------------- | ----------- | ------------------ | -------------------------------- |
-| Lena “Valkirya” Kane (Ryan: Valk) | Afeto + Confiança | Afeto + Confiança | Alta | Estável (acordo 019 + intimidade 020–026) | Romântico / Aliada |
+| Lena “Valkirya” Kane (Ryan: Valk) | Afeto + Confiança | Afeto + Confiança | Alta | Estável (acordo 019 + intimidade 020–028) | Romântico / Aliada |
 | Alex "Specter" Kane      | Desconfiança          | Provação / Interesse         | Média       | Observando         | Potencial rival                  |
 | Reina "Bearclaw" Morales | Neutro / Cautela      | Proteção (Mãe Urso)          | Média       | Em desenvolvimento | Aliada / Irmã mais velha         |
 | Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado                   |
@@ -24,9 +24,9 @@
 
 ### Lena “Valkirya” Kane
 
-**Status:** Namorando (relação consolidada + acordo de comunicação ops 019 + intimidade reforçada 020–026)  
+**Status:** Namorando (relação consolidada + acordo de comunicação ops 019 + intimidade reforçada 020–028)  
 **Intensidade:** Alta  
-**Última atualização:** 03 de Agosto de 2026 (sessão 026)
+**Última atualização:** 04 de Agosto de 2026 (sessão 028)
 
 **Evolução conhecida:**
 
@@ -128,7 +128,6 @@
 - Manhã: conversa direta + reconciliação (cócega, café). Oficina juntos.
 - **Voz (SoT):** a sós = ramo 3 (uma fala, um fôlego); ops/público = ramo 1. 019 = **perguntar** uma vez, não cobrar. Não reabrir o jantar.
 
-
 **Atualização (01–02/08 — sessão 024):**
 Tarde 01/08 com Valk sem abrir canal. Intercepto Raffen 02/08 (Valk no volante). Debrief Reyes. Distância combinada de Sasha/Lira (viram fogo de longe). Residual íntimo alto; 019 praticado.
 
@@ -138,13 +137,18 @@ Almoço + 2º/3º voo Condor. Plano: ela no ombro da 101, ele na caixa. Jantar S
 **Atualização (02–03/08 — sessão 026):**
 Tenda no Pack 02/08 (não dormiram no corte). 03/08: Valk no **volante** (não no bordo); Ryan na caixa. Chip coletado, lacre intacto. Volta Pack. Residual íntimo alto; 019 praticado (tenda vs corte; volante vs bordo).
 
+**Atualização (03–04/08 — sessão 027):**
+Volante no corte Cutter. Residual alto. 019: pergunta uma vez.
+
+**Atualização (04/08 — sessão 028):**
+Tenda + banho próprio. Intimidade. Refeitório. Chip E015 aberto (token). Debrief Reyes não feito. Residual íntimo alto; 019 intacto.
 
 **Estado atual:**
 
 - Ryan e Valk juntos de forma estável e cumplices.
 - Acordo 019 em vigor (perguntar, não caderno).
-- Residual íntimo 020–026 alto.
-- Ad: chip E015 no bolso, **lacre intacto**; hop NC **05/08 após 21h**; –300 eb (021).
+- Residual íntimo 020–028 alto.
+- Ad: chip E015 **aberto** (token); hop NC **05/08 após 21h**; –300 eb (021).
 - Valk **não** usa “herói” / “herói solitário” (**F15**).
 
 **Notas do Narrador:**
@@ -279,7 +283,7 @@ Tenda no Pack 02/08 (não dormiram no corte). 03/08: Valk no **volante** (não n
 **Status:** Hospedagem + Integração em andamento (preparando saída)  
 **Confiança geral com o Pack:** Alta  
 **Duração prevista:** Indefinida (possível retorno)  
-**Última atualização:** 03 de Agosto de 2026 (sessão 026)
+**Última atualização:** 04 de Agosto de 2026 (sessão 028)
 
 **Líder do Pack:** Reyes
 
