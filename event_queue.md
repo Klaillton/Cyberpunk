@@ -1,6 +1,6 @@
 # Fila de Eventos do Mundo (Event Queue)
 
-**Última atualização:** ~04 de Agosto de 2026 (pós-027) · Arco L1: [board/arco_ativo.md](board/arco_ativo.md)  
+**Última atualização:** ~04 de Agosto de 2026 (pós-028) · Arco L1: [board/arco_ativo.md](board/arco_ativo.md)  
 **Norte no boot:** bloco **NORTE** em [logs/context_pack_atual.md](logs/context_pack_atual.md). Esta fila = inventário L2 — não copiar no pack.
 
 ## Eventos Ativos / Pendentes
@@ -16,8 +16,8 @@
 | E011 | Visita à **Doc Moreau** (Elisa) | Pendente | Média | Médio prazo | Ryan prometeu; Valk quer ir junto — **não** é Stitch; item de **E015** |
 | **E012** | Montagem protótipo casas + escala / revelação ao pack | Em andamento | Alta | Médio prazo | Externo OK; interno em modelagem; revelação pack geral parcial |
 | **E014** | **Resposta de Reyes** sobre protótipo casas modulares | **Resolvido (implícito)** | — | — | Revelação **pública** ao pack geral ainda em E012 |
-| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Em andamento** | Alta | Curto prazo | **Fase:** caixa 03/08 coletada. Chip preto **lacre intacto** + tira: hop NC **05/08 após 21h**; ponto = o chip; sem voz; sem ping antigo. Não forçar Sparrow/Steel. Débito **300 eb** pago. Lina Park sem ACK; Marcus Rivera mudo; Kaz off-screen. |
-| E016 | Tutoria Valk + Sasha/Lira (assistentes) | Em andamento | Média | Contínuo | Residual 019–027; visor gancho 03/08; não foram ao chão Cutter |
+| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Em andamento** | Alta | Curto prazo | **Fase:** chip **aberto** 04/08 (sessão 028). Token de um uso; hop NC **05/08 após 21h**; ponto = o chip; some no fim da janela; sem voz; sem ping antigo. Não forçar Sparrow/Steel. Débito **300 eb** pago. Lina Park sem ACK; Marcus Rivera mudo; Kaz off-screen. |
+| E016 | Tutoria Valk + Sasha/Lira (assistentes) | Em andamento | Média | Contínuo | Residual 019–028; visor gancho 03/08; não foram ao chão Cutter |
 | E017 | Enxame mini-drones (ideia / sondagem) | Em andamento | Baixa | — | Não prioritário vs E015 |
 | E018 | Modelo 3D / base militar | Pendente | Baixa | — | Mapeamento **externo completo** 022; sem infiltração; **023:** entrada gatilhada (mensagem → manhã seguinte) |
 | **E019** | **Olaria + desidratador + cogeração** | Pendente | Baixa | Médio prazo | Delegada ao Pack |

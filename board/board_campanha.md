@@ -1,20 +1,20 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** ~04 de Agosto de 2026 (manhã) — Pack Badlands  
-**Local:** Mule no rasto de volta (debrief Pack pendente)
+**Data Atual:** ~04 de Agosto de 2026 (fim de tarde) — Pack Badlands  
+**Local:** Tenda Ryan/Valk (debrief Pack pendente)
 
 ---
 
 ## Missão Atual
 
-Ryan "Wireghost" Voss volta do **corte Cutter** com Valk, Reyes e dois. Recon sem tiro. Chip E015 **lacre intacto**.
+Ryan "Wireghost" Voss no Pack após o **corte Cutter**. Chip E015 **aberto** (token). Debrief Reyes pendente.
 
 **Norte (SoT):** bloco **NORTE** em [context_pack_atual.md](../logs/context_pack_atual.md). **Não** duplicar a lista aqui.
 
 **Prioridade imediata:**
-1. Dormir · debrief Pack (Reyes).  
-2. Abrir o chip (sandbox / casa).  
-3. Hop NC **05/08 após 21h** (tira térmica). Sem voz. Sem ping antigo.  
+1. Debrief Pack (Reyes) do corte 027.  
+2. Hop NC **05/08 após 21h** (token no chip). Sem voz. Sem ping antigo.  
+3. Chip já aberto — não reler como lacre.  
 4. Base militar: **não entra agora**; gatilho = mensagem → manhã seguinte.  
 5. Sparrow sem ACK; Steel mudo.  
 6. Acordo 019 + residual íntimo alto.
@@ -37,6 +37,7 @@ Ryan "Wireghost" Voss volta do **corte Cutter** com Valk, Reyes e dois. Recon se
 - **025:** Intermediário — janela 03/08 meio-dia; caixa 101. Reyes: leste Pack / 101 Ryan.
 - **026:** Dead drop 101 — chip + tira hop NC 05/08 21h. Chip não aberto.
 - **027:** Corte Cutter recon. 7 quentes; lona = fogueira morta; extração antes da luz; sem tiro.
+- **028:** Chip aberto (token). Intimidade tenda. Debrief Reyes não feito.
 
 ---
 
@@ -53,7 +54,7 @@ Ryan "Wireghost" Voss volta do **corte Cutter** com Valk, Reyes e dois. Recon se
 
 | Nome | Papel | Relação com Ryan | Notas |
 |------|-------|------------------|-------|
-| **Lena “Valkirya” Kane** (Ryan: Valk) | Parceira | Amor + acordo ops 019 + intimidade 020–027 | F15 · F21; volante no corte |
+| **Lena “Valkirya” Kane** (Ryan: Valk) | Parceira | Amor + acordo ops 019 + intimidade 020–028 | F15 · F21; Lena em intimidade |
 | **Lira** | Pack | Residual positivo | Visor gancho 03/08 |
 | **Sasha** | Pack | Residual positivo | Visor gancho 03/08 |
 | **Lina “Sparrow” Park** | Contato NC (NPC) | Handle Sparrow | residual **sem ACK** |
@@ -75,7 +76,7 @@ Ryan "Wireghost" Voss volta do **corte Cutter** com Valk, Reyes e dois. Recon se
 
 ---
 
-**Última atualização:** ~04 de Agosto de 2026 (sessão 027)
+**Última atualização:** ~04 de Agosto de 2026 (sessão 028)
 
 ---
 
@@ -85,4 +86,4 @@ Ryan "Wireghost" Voss volta do **corte Cutter** com Valk, Reyes e dois. Recon se
 
 **Personagem:** [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 027](../logs/sessao_resumo_027.md) · [Arco ativo](arco_ativo.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 028](../logs/sessao_resumo_028.md) · [Arco ativo](arco_ativo.md)
