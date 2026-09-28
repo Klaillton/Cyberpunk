@@ -1,9 +1,9 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **027** · **Próxima:** **028** (`sessao_resumo_028.md`)  
+**Gerado após:** sessão **028** · **Próxima:** **029** (`sessao_resumo_029.md`)  
 **Branch:** `feature/linha-estavel`  
-**Atualizado:** ~04 de Agosto de 2026 (manhã) — Mule → Pack · debrief pendente
+**Atualizado:** ~04 de Agosto de 2026 (fim de tarde) — Pack · tenda Ryan/Valk · chip aberto
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
 > **Arco + off-screen (L1):** [board/arco_ativo.md](../board/arco_ativo.md) — sob demanda / se estagnar.  
@@ -38,19 +38,19 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 | Campo | Valor |
 | ----- | ----- |
 | Data in-game | **~04/08/2026** |
-| Período | Manhã |
+| Período | Fim de tarde |
 | Região | **Badlands / Pack** |
-| Local específico | Mule no rasto de volta; Pack à frente. Chip E015 **lacre intacto** |
+| Local específico | Tenda Ryan/Valk. Chip E015 **lacre aberto** (token) |
+| Facção / base local | Pack Nômade Badlands |
+| Cena / gancho | Chip aberto; debrief Reyes pendente; hop NC **05/08 após 21h** |
+| Prioridade | (1) Debrief Reyes (2) Hop NC 05/08 noite (3) Não forçar Sparrow/Steel |
+| Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira ainda delicado |
 
 ### SET NOW
 
-`sistema/set_lugares.md` § **mule**. Não abrir o arquivo inteiro.
+`sistema/set_lugares.md` § **tenda**. Não abrir o arquivo inteiro.
 
-Van remendada, rack no teto, “THE MULE” na lateral. Valk no volante. A viagem é aqui dentro. Não é a garagem nem a oficina do Tio.
-| Facção / base local | Pack Nômade Badlands |
-| Cena / gancho | Chegada + dormir + debrief do corte; abrir chip; hop NC **05/08 após 21h** |
-| Prioridade | (1) Dormir / debrief (2) Abrir chip (3) Hop NC 05/08 noite |
-| Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira ainda delicado |
+Tenda Ryan/Valk no Pack. Banho = espaço próprio da tenda (melhoria do Ryan), não box comunitário. Mesa baixa. Chip já lido.
 
 ## NORTE (orientação, não quest log)
 
@@ -58,15 +58,15 @@ Van remendada, rack no teto, “THE MULE” na lateral. Valk no volante. A viage
 
 | Horizonte | Norte |
 | --------- | ----- |
-| **Curto** (hoje / sessão) | Chegar. Dormir. Debrief Reyes. Abrir o chip em casa. |
-| **Médio** (1–3 sessões) | Hop NC **05/08 após 21h** (E015). Sparrow/Steel/Kaz **não** forçar. Voltar ao Pack depois. |
+| **Curto** (hoje / sessão) | Debrief Reyes do corte 027. Preparar hop NC. |
+| **Médio** (1–3 sessões) | Hop NC **05/08 após 21h** (E015, token no chip). Sparrow/Steel/Kaz **não** forçar. Voltar ao Pack depois. |
 | **Longo** (campanha) | Pack casas/Node/olaria. Doc E011. Crew NC. |
-| **Fora agora** | Base militar. Raid Cutter. Reabrir jantar 023 / SOP Condor / caixa 101. |
+| **Fora agora** | Base militar. Raid Cutter. Reabrir jantar 023 / SOP Condor / caixa 101 / canyon. |
 
-### Cena de abertura sugerida (028)
+### Cena de abertura sugerida (029)
 
-**Não continuar o chat da 027.**  
-04/08 manhã, Mule/Pack. Corte já feito. Debrief depois de dormir. Chip lacre intacto. Valk = residual (ops no Mule → quente na tenda). Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon.
+**Não continuar o chat da 028.**  
+04/08 fim de tarde, Pack, tenda. Chip **aberto** (token). Debrief Reyes pendente. Valk = residual quente. Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon.
 
 ---
 
@@ -74,16 +74,16 @@ Van remendada, rack no teto, “THE MULE” na lateral. Valk no volante. A viage
 
 | # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
 | - | ---------------- | ---------------- | ---------------------------------------------- |
-| 1 | Chegar / dormir / debrief | Reyes / Valk | Reyes puxa o debrief depois do sono |
-| 2 | Abrir o chip (sandbox / casa) | Ryan / mundo | O chip continua lacre; relógio 05/08 21h |
-| 3 | Hop NC 05/08 após 21h | Mundo / intermediário | Relógio do hop; sem voz; sem ping antigo |
+| 1 | Debrief Reyes (corte 027) | Reyes / Valk | Reyes puxa o debrief no pátio / oficina |
+| 2 | Token do chip / hop NC 05/08 após 21h | Mundo / intermediário | Relógio do hop; sem voz; sem ping antigo |
+| 3 | Folga Pack até a janela | Valk / Pack | SHOW tenda ou refeitório; sem reabrir canyon |
 
 | Campo | Valor |
 | ----- | ----- |
-| **Modo atual** | Pack manhã → DOWNTIME / debrief |
+| **Modo atual** | Pack tarde → DOWNTIME / debrief |
 | **Turnos sem delta (estimado)** | 0 |
-| **Região / local (NOW)** | Badlands · Pack · Mule → tenda |
-| **Arco L1** | E015 (chip por abrir · hop NC 05/08 21h) · [arco_ativo.md](../board/arco_ativo.md) |
+| **Região / local (NOW)** | Badlands · Pack · tenda Ryan/Valk |
+| **Arco L1** | E015 (chip aberto · hop NC 05/08 21h) · [arco_ativo.md](../board/arco_ativo.md) |
 
 **Trava 023 (não reabrir):** base = mensagem → manhã seguinte; 019 em vigor. **Não** reabrir o jantar como briga. **Não** reabrir SOP Condor como tutorial. **Não** reabrir o canyon do corte.
 
@@ -96,7 +96,7 @@ Van remendada, rack no teto, “THE MULE” na lateral. Valk no volante. A viage
 
 ### Boca (boot — ramo antes da frase)
 
-NOW = Mule com Reyes → **ramo 2**. Tenda, a sós → **ramo 3**. Residual íntimo **alto** na tenda. No job, ramo 1. Chat **023** não se herda.
+NOW = tenda a sós → **ramo 3**. Pátio / Reyes / refeitório → **ramo 2**. Residual íntimo **alto** na tenda. No job, ramo 1. Chat **023** não se herda.
 
 1. **Rádio / ops / combate** — curta, seca, pessoa. Resultado primeiro. *“Mule no leste, abort no rádio. Eu no volante. Tu marca a janela.”*
 2. **Pack social** — conversa; uma fala de gente; corpo no meio; cada um pela ficha. Reyes: *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”*
@@ -117,7 +117,7 @@ Quem fala muda o vocabulário, não o ramo. “Três coisas”, “sem isso eu n
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
 | **F16** | Condor + 3 Corujas = unmanned; spec [condor](../fichas/drone%20-%20condor.md) · [corujas](../fichas/drone%20-%20corujas.md) |
-| **F21** | Handle = **Valkirya**. **Valk** = só Ryan (carinho) |
+| **F21** | Handle = **Valkirya**. **Valk** = só Ryan (carinho). **Lena** = nome, intimidade / peso |
 | F07 | Ryan × Valk consolidados (**acordo 019 = perguntar, não cobrar**) |
 | F08 | Mule = de Valk; equipe Valk + Mule |
 | **F11** | Casas modulares — pack geral sem revelação oficial completa |
@@ -133,7 +133,7 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 | ID | Uma linha |
 | -- | --------- |
-| **E015** | Chip lacre intacto; hop NC **05/08 após 21h**; Lina Park sem ACK; Marcus Rivera mudo; Kaz escondido |
+| **E015** | Chip **aberto** (token um uso); hop NC **05/08 após 21h**; Lina Park sem ACK; Marcus Rivera mudo; Kaz escondido |
 | **Cutter / E008** | Corte 04/08 feito (recon). 7 visíveis; lona morta. Debrief Pack pendente. |
 | **Base militar** | Perímetro externo mapeado; **não entra agora**; gatilho = mensagem → manhã seguinte |
 | **E019** | Olaria/cogeração — Pack (background) |
@@ -141,18 +141,18 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 ---
 
-## O que acabou de acontecer (027 — 1 parágrafo)
+## O que acabou de acontecer (028 — 1 parágrafo)
 
-03/08 tarde: tenda + gancho. Condor unmanned pousa; Sasha/Lira no visor. Reyes marca um corte. 04/08 madrugada: recon sem tiro (7 quentes; lona = fogueira morta). Extração Mule antes da luz. Freeze: volta ao Pack; debrief não feito.
+04/08: volta do corte; sono; tenda (banho próprio + intimidade); refeitório; chip E015 aberto (token hop NC 05/08 21h). Reyes não encontrado. Freeze: fim de tarde, tenda.
 
-Detalhe: [sessao_resumo_027.md](sessao_resumo_027.md)
+Detalhe: [sessao_resumo_028.md](sessao_resumo_028.md)
 
 ---
 
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · ~04/08/2026 manhã · Pack · Mule volta · Valk = residual (ops→tenda quente) · boca ramo 2 (Mule; tenda = ramo 3) · chip lacre intacto · hop NC 05/08 21h · corte 027 feito · próximo resumo: 028 · Ruleset 1.3.0
+Boot OK · ~04/08/2026 fim de tarde · Pack · tenda Ryan/Valk · Valk = residual quente · boca ramo 3 (tenda; Pack = ramo 2) · chip aberto (token) · hop NC 05/08 21h · debrief Reyes pendente · próximo resumo: 029 · Ruleset 1.3.0
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.
