@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 2026-09-26 (notas_sessao)
+**Última atualização:** 2026-09-28 (sessão 028)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -90,19 +90,19 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Auditoria combates pré-017 (só leitura) | `plans/auditoria_combates_canonicos.md` | F18 — **não** retcon |
 | Agents OPSEC Ryan (Vault/Honeypot/…) | `plans/agent_security.md` | F19 · `ryan_loadout` · ≠ Warden drone |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `026`). Próximo número disponível: **027**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `028`). Próximo número disponível: **029**.
 
 ---
 
 ## Estrutura Geral do Projeto
 
-O índice de árvore e o restante deste arquivo permanecem como na SoT 30/08 (Jax + Echo indexados). **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. Próximo resumo: **028**.
+O índice de árvore e o restante deste arquivo permanecem como na SoT 30/08 (Jax + Echo indexados). **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. **2026-09-28:** sessão **028**. Próximo resumo: **029**.
 
 ---
 
 ## Observações Gerais
 
 - O `registro_arquivos.md` é o **arquivo de referência central**.
-- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **028**.
+- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **029**.
 - **Ruleset:** v1.3.0 em `sistema/regras_red/` (sessão 017+; F18).
 - O **Source of Truth** permanece nos arquivos do repo (`feature/linha-estavel`).
