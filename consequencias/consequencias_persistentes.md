@@ -1,6 +1,6 @@
 # Consequências Persistentes
 
-**Última atualização:** 03 de Agosto de 2026 (sessão 026)
+**Última atualização:** 04 de Agosto de 2026 (sessão 028)
 
 ---
 
@@ -332,6 +332,25 @@ Dormiram no Pack 02/08 (não no corte). 03/08: Mule → corte/ombro 101. Dead dr
 - E015: objeto coletado; próximo hop 05/08 21h.
 - Sem delta heat/reputação/cash (101 sem testemunha).
 - Ryan × Valk: 019 praticado (tenda vs corte; volante vs bordo); residual íntimo alto.
+
+## 03 a 04 de Agosto de 2026 - Corte Cutter (sessão 027)
+
+Condor unmanned pousa 03/08 (Sasha/Lira no gancho/visor). Reyes marca um corte. 04/08 madrugada: recon no rio seco sem tiro. Intel: 7 quentes (5 recosto + 2 ombro montante); lona jusante = fogueira morta. Extração Mule antes da 1ª luz. Debrief Pack **não** feito.
+
+**Impactos:**
+
+- E008: corte Pack feito (recon). Camp não tocado. Sem delta heat.
+- Debrief Reyes ficou para depois de dormir.
+
+## 04 de Agosto de 2026 - Tenda / chip aberto (sessão 028)
+
+Volta ao Pack de manhã. Sono até ~almoço. Banho = espaço próprio da tenda (set trancado). Intimidade 04/08 (tenda). Refeitório. Chip E015 **lacre aberto**: token de um uso; hop NC **05/08 após 21h**; ponto = o chip; some no fim da janela; sem Sparrow/Steel. Reyes **não** encontrado.
+
+**Impactos:**
+
+- E015: fase chip aberto / token ativo até a janela.
+- Ryan × Valk: residual íntimo alto; Lena em intimidade; 019 intacto.
+- Sem delta heat/reputação/cash.
 
 **Regras de uso deste arquivo:**
 
