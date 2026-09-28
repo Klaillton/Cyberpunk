@@ -37,6 +37,8 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **01–02/08 (sessão 024):** Tarde oca com Ryan (sombra do Mule). Madrugada: fechou o intercepto (Mule no corredor; “Agora”). Debrief Reyes. Ficou no gancho com Sasha/Lira enquanto Ryan foi à oficina. Residual íntimo alto. **F15** ativo.
 - **02/08 (sessão 025):** Almoço Pack; 2º e 3º voo Condor. Combinado: ela no ombro da 101, ele na caixa. Jantar Sasha/Lira (leste amanhã visual, sem chão). Reyes briefado. Residual íntimo alto. **F15** ativo.
 - **02–03/08 (sessão 026):** Dormiram no Pack (não no corte). 03/08: ela no **volante** do Mule (não no bordo). Ryan na caixa. Chip lacre intacto. Volta Pack; Reyes avisado. Residual íntimo alto. 019 praticado. **F15** ativo. Freeze: tarde 03/08, tenda.
+- **03–04/08 (sessão 027):** Volante no corte Cutter. Residual alto. 019: pergunta uma vez; vai no mesmo escuro.
+- **04/08 (sessão 028):** Tenda + banho próprio. Intimidade. Refeitório. Chip aberto na tenda. Debrief Reyes ainda não. Residual íntimo alto. **F15** ativo. Freeze: 04/08 fim de tarde, tenda.
 
 ### Alex "Specter" Kane
 
