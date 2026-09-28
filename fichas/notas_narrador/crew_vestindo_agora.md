@@ -15,7 +15,7 @@ Preferir **arquivo** (estável). `#` é atalho do índice atual.
 
 | Quem | Arquivo | # | 1 linha de roupa | Desde (data) | Origem |
 | ---- | ------- | - | ---------------- | ------------ | ------ |
-| Valk | *(cena)* | — | Tenda Pack, tarde 03/08, descanso pós-101. Look de viagem / coberta. **Camisa + sutiã danificados** (019, perda narrativa) | 03/08/2026 tarde | dona |
+| Valk | `soft_boho_kimono.jpg` | 161 | Kimono boho + crochê + short (pack / pós-banho 028) | 04/08/2026 tarde | dona / pool |
 | Alex | | | | | |
 | Reina | | | | | |
 | Stitch | | | | | |
@@ -33,7 +33,7 @@ Preferir **arquivo** (estável). `#` é atalho do índice atual.
 
 | Quem | Ontem (arquivo) | Últimos 3 (mais recente à esquerda) |
 | ---- | --------------- | ----------------------------------- |
-| Valk | *(cena 03/08 tenda pós-101)* | *(cena 03/08)* · *(cena 27/07 tenda)* · *(cena 22/07)* |
+| Valk | `soft_boho_kimono.jpg` | 161 · *(cena 03/08 tenda)* · *(cena 27/07 tenda)* |
 | Alex | | |
 | Reina | | |
 | Stitch | | |
@@ -69,5 +69,5 @@ Detalhe e prosa de empréstimo: diretrizes § **Roupa em cena**.
 
 | Campo | Valor |
 | ----- | ----- |
-| Sessão / data in-game | 019 / 27/07/2026 noite |
-| Notas | Valk: tenda Pack pós-retorno; camisa + sutiã danificados na garagem (019) |
+| Sessão / data in-game | 028 / 04/08/2026 fim de tarde |
+| Notas | Valk: kimono boho 161. Ryan: casual + botas (pós-banho tenda). |
