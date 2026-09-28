@@ -1,6 +1,6 @@
 # Economia Persistente
 
-**Última atualização:** 2026-08-03 in-game / 2026-09-12 real (pós-026 · sem delta cash)
+**Última atualização:** 2026-08-04 in-game / 2026-09-28 real (pós-028 · sem delta cash)
 
 > **Dinheiro / macro** = seções abaixo.  
 > **Micro-recursos** = [Atores · Estoque · Ryan mínimo](#atores-produtores--consumidores).  
@@ -13,7 +13,7 @@
 | ---- | -------------- | ----------- |
 | **Eddies (eb) em mãos** | **~1.200–3.700 eb** *(estimado após débito)* | Débito de **300 eb** (ad anônimo, 3 dias × 100) aplicado em 30/07 (sessão 021). Valor base ainda estimado. |
 | Dívidas | Nenhuma registrada | — |
-| Contratos pendentes | **Ad anônimo (E015)** — 100 ed/dia | 1º pacote 30/07; 2º+3º salto 02/08; caixa 03/08 = chip lacre + hop NC **05/08 21h**. **1º débito (300 eb) pago**. Sem delta cash 026. |
+| Contratos pendentes | **Ad anônimo (E015)** — 100 ed/dia | 1º pacote 30/07; 2º+3º salto 02/08; caixa 03/08; chip **aberto** 04/08 (token hop NC **05/08 21h**). **1º débito (300 eb) pago**. Sem delta cash 026–028. |
 | Custos operacionais | Baixos no Pack | Hospedagem × trabalho técnico |
 | Lifestyle atual | Pack (subsistência + oficina) | Em NC: ver [Lifestyle](#lifestyle-atalho-red) |
 
@@ -111,7 +111,7 @@ Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × dis
 | Agent stack WIREGHOST | Honeypot · Profissional · Vault | F19 |
 | Máscara tática meia-face | 1 | quase sempre |
 | Vespas + Warden | loadout | F03 F12 |
-| Chip E015 (lacre intacto) | 1 | Dead drop 101 03/08; tira hop NC 05/08 21h; **não aberto**. Sem ID de lote. |
+| Chip E015 (lacre aberto / token) | 1 | Dead drop 101 03/08; aberto 04/08 (028); hop NC 05/08 21h; some no fim da janela. Sem ID de lote. |
 
 ### Oficina / depósito pessoal (Pack)
 
