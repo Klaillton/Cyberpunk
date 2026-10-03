@@ -48,14 +48,14 @@
 | Night City | Street / deslocamento | `street_style.jpg` | — |
 | Night City | Cliente comum | `camisa_gola_padre.jpg` | — |
 | Night City | Cliente corporativo | `great_style.jpg` | — |
-| Night City | Evento formal | `great_style.jpg` / `valk_terno_preto.jpg` | — |
-| **Valk** | Camisa verde militar | `valk_camisa_verde_militar.jpg` | — |
-| **Valk** | Long sleeve / tee justa | `valk_longsleeve_cinza.jpg`, `valk_tee_*.jpg` | — |
-| **Valk** | Tank preto + calça | `valk_tank_preto_calca.jpg` | — |
-| **Valk** | Shorts / peças curtas | `valk_shorts_*.jpg`, `casual_tee_shorts_preto.jpg`, `lounge_joggers_preto.jpg` | — |
-| **Valk** | Polo / apresentável | `valk_polo_cinza.jpg`, `valk_gola_alta_preta.jpg`, `valk_blazer_cinza.jpg` | — |
-| **Valk** | Formal (terno) | `valk_terno_preto.jpg` | — |
-| **Valk** | Casaco aberto (casa) | `valk_casaco_cinza_aberto.jpg` | — |
+| Night City | Evento formal | `great_style.jpg` / `ade0a6a1f7879011ae52b165dbc217bc.jpg` | — |
+| **Valk** | Camisa verde militar | `0e1fe0177e94a14a0e93f1d9074a88fa.jpg` | — |
+| **Valk** | Long sleeve / tee justa | `61b2351166f3e0ecf560faf824b4ba0f.jpg`, `valk_tee_*.jpg` | — |
+| **Valk** | Tank preto + calça | `a907729475d4a641cb06fce7e40c2b55.jpg` | — |
+| **Valk** | Shorts / peças curtas | `valk_shorts_*.jpg`, `f0b89963ad9d9ffbe24dd298e13d2115.jpg`, `667ef691b0d28c6c10ba7a037944115c.jpg` | — |
+| **Valk** | Polo / apresentável | `710a442ce5cb1e9f1072bcbc0b5fb848.jpg`, `252b84239a6e6e1509243b76abd208ba.jpg`, `740a473324c32c3641d7432dde17aa91.jpg` | — |
+| **Valk** | Formal (terno) | `ade0a6a1f7879011ae52b165dbc217bc.jpg` | — |
+| **Valk** | Casaco aberto (casa) | `73c13137ee1058a50aef4df8265b498a.jpg` | — |
 | Wireghost | Operação rápida | `quick_operator.jpg` | [tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) |
 | Wireghost | Operação completa | `stealth_operator.jpg` | [tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) |
 
@@ -326,15 +326,15 @@ Quando realmente precisa impressionar. Valk escolhe o nível:
 | Nível | Arquivo | Notas |
 | ----- | ------- | ----- |
 | Formal sem gravata (default dele) | `great_style.jpg` | Colete street + camisa — ver [Cliente Corporativo](#cliente-corporativo) |
-| Formal completo (Valk forçou) | `valk_terno_preto.jpg` | Terno + gravata — ver [Formal Valk](#formal-valk-terno) |
+| Formal completo (Valk forçou) | `ade0a6a1f7879011ae52b165dbc217bc.jpg` | Terno + gravata — ver [Formal Valk](#formal-valk-terno) |
 
 **Referência (default):** `great_style.jpg`
 
 <img src="../imagens/ryan/guarda_roupas/great_style.jpg" width="320" alt="Evento formal — great_style" />
 
-**Referência (Valk / terno):** `valk_terno_preto.jpg`
+**Referência (Valk / terno):** `ade0a6a1f7879011ae52b165dbc217bc.jpg`
 
-<img src="../imagens/ryan/guarda_roupas/valk_terno_preto.jpg" width="320" alt="Evento formal — terno Valk" />
+<img src="../imagens/ryan/guarda_roupas/ade0a6a1f7879011ae52b165dbc217bc.jpg" width="320" alt="Evento formal — terno Valk" />
 
 ### Descrição visual
 
@@ -369,15 +369,15 @@ Se está confortável e foi ela quem deixou, ele usa.
 
 ## Camisa Verde Militar (aberta/fechada)
 
-**Referência:** `valk_camisa_verde_militar.jpg`
+**Referência:** `0e1fe0177e94a14a0e93f1d9074a88fa.jpg`
 
-<img src="../imagens/ryan/guarda_roupas/valk_camisa_verde_militar.jpg" width="320" alt="Camisa verde militar" />
+<img src="../imagens/ryan/guarda_roupas/0e1fe0177e94a14a0e93f1d9074a88fa.jpg" width="320" alt="Camisa verde militar" />
 
 ### Descrição visual
 
 - **Camisa utilitária verde-oliva** manga curta, zip frontal, bolsos no peito, ombros com alças.
 - Por baixo: peito à mostra quando aberta; pode fechar o zip até o peito ou quase todo.
-- **Shorts oliva** leves (drawstring) — look de casa/calor, não de job.
+- **Shorts oliva** leves (drawstring) — look de casa, não de job.
 - Relógio no pulso (opcional).
 
 ### Dinâmica Valk
@@ -400,15 +400,15 @@ Se está confortável e foi ela quem deixou, ele usa.
 
 | Peça | Arquivo |
 | ---- | ------- |
-| Long sleeve cinza (V-neck) | `valk_longsleeve_cinza.jpg` |
-| Tee branca justa | `valk_tee_branca_justa.jpg` |
-| Tee cinza justa | `valk_tee_cinza_justa.jpg` |
+| Long sleeve cinza (V-neck) | `61b2351166f3e0ecf560faf824b4ba0f.jpg` |
+| Tee branca justa | `7fdc26e464f91b46be8a00e81f384148.jpg` |
+| Tee cinza justa | `5093dc1103be013e6ff981055e1e3dd0.jpg` |
 
-<img src="../imagens/ryan/guarda_roupas/valk_longsleeve_cinza.jpg" width="320" alt="Long sleeve cinza" />
+<img src="../imagens/ryan/guarda_roupas/61b2351166f3e0ecf560faf824b4ba0f.jpg" width="320" alt="Long sleeve cinza" />
 
-<img src="../imagens/ryan/guarda_roupas/valk_tee_branca_justa.jpg" width="320" alt="Tee branca justa" />
+<img src="../imagens/ryan/guarda_roupas/7fdc26e464f91b46be8a00e81f384148.jpg" width="320" alt="Tee branca justa" />
 
-<img src="../imagens/ryan/guarda_roupas/valk_tee_cinza_justa.jpg" width="320" alt="Tee cinza justa" />
+<img src="../imagens/ryan/guarda_roupas/5093dc1103be013e6ff981055e1e3dd0.jpg" width="320" alt="Tee cinza justa" />
 
 ### Descrição visual
 
@@ -432,9 +432,9 @@ Se está confortável e foi ela quem deixou, ele usa.
 
 ## Tank Top preto + calça
 
-**Referência:** `valk_tank_preto_calca.jpg`
+**Referência:** `a907729475d4a641cb06fce7e40c2b55.jpg`
 
-<img src="../imagens/ryan/guarda_roupas/valk_tank_preto_calca.jpg" width="320" alt="Tank preto + calça" />
+<img src="../imagens/ryan/guarda_roupas/a907729475d4a641cb06fce7e40c2b55.jpg" width="320" alt="Tank preto + calça" />
 
 ### Descrição visual
 
@@ -456,24 +456,24 @@ Se está confortável e foi ela quem deixou, ele usa.
 
 | Peça | Arquivo |
 | ---- | ------- |
-| Shorts preto treino | `valk_shorts_preto.jpg` |
-| Shorts vinho/marsala | `valk_shorts_vinho.jpg` |
-| Tee preta + short + tênis | `casual_tee_shorts_preto.jpg` |
-| Joggers pretos (peito nu / lounge) | `lounge_joggers_preto.jpg` |
+| Shorts preto treino | `a89964660501978e13fda2dc14a0557f.jpg` |
+| Shorts vinho/marsala | `fd17fbdd8958f8e2be1f5d8105ce1b34.jpg` |
+| Tee preta + short + tênis | `f0b89963ad9d9ffbe24dd298e13d2115.jpg` |
+| Joggers pretos (peito nu / lounge) | `667ef691b0d28c6c10ba7a037944115c.jpg` |
 
-<img src="../imagens/ryan/guarda_roupas/valk_shorts_preto.jpg" width="320" alt="Shorts preto" />
+<img src="../imagens/ryan/guarda_roupas/a89964660501978e13fda2dc14a0557f.jpg" width="320" alt="Shorts preto" />
 
-<img src="../imagens/ryan/guarda_roupas/valk_shorts_vinho.jpg" width="320" alt="Shorts vinho" />
+<img src="../imagens/ryan/guarda_roupas/fd17fbdd8958f8e2be1f5d8105ce1b34.jpg" width="320" alt="Shorts vinho" />
 
-<img src="../imagens/ryan/guarda_roupas/casual_tee_shorts_preto.jpg" width="320" alt="Tee + shorts preto" />
+<img src="../imagens/ryan/guarda_roupas/f0b89963ad9d9ffbe24dd298e13d2115.jpg" width="320" alt="Tee + shorts preto" />
 
-<img src="../imagens/ryan/guarda_roupas/lounge_joggers_preto.jpg" width="320" alt="Joggers pretos" />
+<img src="../imagens/ryan/guarda_roupas/667ef691b0d28c6c10ba7a037944115c.jpg" width="320" alt="Joggers pretos" />
 
 ### Descrição visual
 
 - Shorts atléticos curtos (preto ou vinho), elástico, às vezes com forro de compressão.
 - Conjunto casual: tee preta justa + short preto com friso + meias e tênis.
-- Lounge: joggers pretos com cordão, sandália ou pé descalço; peito nu se o calor/ambiente pedir.
+- Lounge: joggers pretos com cordão, sandália ou pé descalço; peito nu se o ambiente pedir.
 
 ### Uso
 
@@ -493,15 +493,15 @@ Não é “roupa de sair”. É o que ele veste quando **não quer se vestir de 
 
 | Peça | Arquivo |
 | ---- | ------- |
-| Polo cinza escuro | `valk_polo_cinza.jpg` |
-| Gola alta preta justa | `valk_gola_alta_preta.jpg` |
-| Blazer cinza + gola alta | `valk_blazer_cinza.jpg` |
+| Polo cinza escuro | `710a442ce5cb1e9f1072bcbc0b5fb848.jpg` |
+| Gola alta preta justa | `252b84239a6e6e1509243b76abd208ba.jpg` |
+| Blazer cinza + gola alta | `740a473324c32c3641d7432dde17aa91.jpg` |
 
-<img src="../imagens/ryan/guarda_roupas/valk_polo_cinza.jpg" width="320" alt="Polo cinza" />
+<img src="../imagens/ryan/guarda_roupas/710a442ce5cb1e9f1072bcbc0b5fb848.jpg" width="320" alt="Polo cinza" />
 
-<img src="../imagens/ryan/guarda_roupas/valk_gola_alta_preta.jpg" width="320" alt="Gola alta preta" />
+<img src="../imagens/ryan/guarda_roupas/252b84239a6e6e1509243b76abd208ba.jpg" width="320" alt="Gola alta preta" />
 
-<img src="../imagens/ryan/guarda_roupas/valk_blazer_cinza.jpg" width="320" alt="Blazer cinza" />
+<img src="../imagens/ryan/guarda_roupas/740a473324c32c3641d7432dde17aa91.jpg" width="320" alt="Blazer cinza" />
 
 ### Descrição visual
 
@@ -522,9 +522,9 @@ Complementa (não substitui) `camisa_gola_padre.jpg` e `great_style.jpg` do arm�
 
 <a id="formal-valk-terno"></a>
 
-**Referência:** `valk_terno_preto.jpg`
+**Referência:** `ade0a6a1f7879011ae52b165dbc217bc.jpg`
 
-<img src="../imagens/ryan/guarda_roupas/valk_terno_preto.jpg" width="320" alt="Terno preto" />
+<img src="../imagens/ryan/guarda_roupas/ade0a6a1f7879011ae52b165dbc217bc.jpg" width="320" alt="Terno preto" />
 
 ### Descrição visual
 
@@ -546,9 +546,9 @@ Este terno existe porque **Valk separou** — ele veste, reclama baixinho, e usa
 
 ## Casaco cinza aberto (casa)
 
-**Referência:** `valk_casaco_cinza_aberto.jpg`
+**Referência:** `73c13137ee1058a50aef4df8265b498a.jpg`
 
-<img src="../imagens/ryan/guarda_roupas/valk_casaco_cinza_aberto.jpg" width="320" alt="Casaco cinza aberto" />
+<img src="../imagens/ryan/guarda_roupas/73c13137ee1058a50aef4df8265b498a.jpg" width="320" alt="Casaco cinza aberto" />
 
 ### Descrição visual
 
