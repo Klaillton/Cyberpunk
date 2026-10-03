@@ -1,6 +1,6 @@
 # Relacionamentos - Lena “Valkirya” Kane
 
-> Handle **Valkirya**. **Valk** = apelido do Ryan (**F21**). Sem retcon de logs.
+> Handle **Valkirya**. **Valk** e **Morena** = apelidos do Ryan (**F21**); **Morena** é o carinho usual. “Morena” é ela, não outra pessoa. Sem retcon de logs.
 
 ## Visão Geral
 

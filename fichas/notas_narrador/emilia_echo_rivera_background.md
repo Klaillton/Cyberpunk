@@ -113,7 +113,7 @@ Off-screen até reencontro NC. Sem puxar isso no Pack.
 
 Não é identificação. É contraste. Alívio e vergonha no mesmo respeito, desproporcional ao tempo de convívio.
 
-Handle em cena: **Valkirya** (F21). **Valk** = só Ryan, salvo NPC que tenha pego o apelido.
+Handle em cena: **Valkirya** (F21). **Valk** e **Morena** = só Ryan, salvo NPC que tenha pego o apelido. **Morena** não é outra pessoa.
 
 ---
 

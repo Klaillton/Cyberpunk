@@ -54,7 +54,7 @@ Ryan "Wireghost" Voss no Pack após o **corte Cutter**. Chip E015 **aberto** (to
 
 | Nome | Papel | Relação com Ryan | Notas |
 |------|-------|------------------|-------|
-| **Lena “Valkirya” Kane** (Ryan: Valk) | Parceira | Amor + acordo ops 019 + intimidade 020–028 | F15 · F21; Lena em intimidade |
+| **Lena “Valkirya” Kane** (Ryan: Valk, Morena) | Parceira | Amor + acordo ops 019 + intimidade 020–028 | F15 · F21; Lena em intimidade; Morena = carinho usual dele |
 | **Lira** | Pack | Residual positivo | Visor gancho 03/08 |
 | **Sasha** | Pack | Residual positivo | Visor gancho 03/08 |
 | **Lina “Sparrow” Park** | Contato NC (NPC) | Handle Sparrow | residual **sem ACK** |

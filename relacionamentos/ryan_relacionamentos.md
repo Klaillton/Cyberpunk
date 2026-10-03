@@ -9,7 +9,7 @@
 
 | Personagem               | Sentimento de Ryan    | Sentimento em relação a Ryan | Intensidade | Status             | Tipo                             |
 | ------------------------ | --------------------- | ---------------------------- | ----------- | ------------------ | -------------------------------- |
-| Lena “Valkirya” Kane (Ryan: Valk) | Afeto + Confiança | Afeto + Confiança | Alta | Estável (acordo 019 + intimidade 020–028) | Romântico / Aliada |
+| Lena “Valkirya” Kane (Ryan: Valk, Morena) | Afeto + Confiança | Afeto + Confiança | Alta | Estável (acordo 019 + intimidade 020–028) | Romântico / Aliada |
 | Alex "Specter" Kane      | Desconfiança          | Provação / Interesse         | Média       | Observando         | Potencial rival                  |
 | Reina "Bearclaw" Morales | Neutro / Cautela      | Proteção (Mãe Urso)          | Média       | Em desenvolvimento | Aliada / Irmã mais velha         |
 | Kaz "The Broker"         | Respeito profissional | Utilidade                    | Média       | Profissional       | Fixer / Aliado                   |

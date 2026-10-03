@@ -1,6 +1,6 @@
 # Pulso - Lena “Valkirya” Kane
 
-> Handle **Valkirya**. **Valk** = apelido do Ryan (**F21**).
+> Handle **Valkirya**. **Valk** e **Morena** = apelidos do Ryan (**F21**); **Morena** é o carinho usual. “Morena” é ela, não outra pessoa.
 
 **Última atualização:** 03 de Agosto de 2026 (sessão 026)
 **Escopo:** Acionar com Ryan nas **Badlands** (presente no acampamento).
