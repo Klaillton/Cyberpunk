@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: stable
 last_updated: 2026-10-03
 source: Cyberpunk RED core (resumo operacional)
@@ -76,7 +76,7 @@ Duas camadas. As duas entram. Não são a mesma coisa.
 | **Número** | Bônus ou cancelamento já escrito nesta tabela ou na ficha | Soma no total, uma vez, nomeado |
 | **Função** | O que a peça faz na cena | Acontece. **Não** vira +1 |
 
-**Livro não completa número.** Peça sem número aqui e sem número na ficha não ganha dado. A vantagem dela é a função.
+**Livro não completa número.** Peça sem número aqui e sem número na ficha não ganha dado. A vantagem dela é a função. HL pago não vira +N.
 
 ### 4.1 Antes de fechar o total
 
@@ -104,8 +104,8 @@ Quem não tem a peça não usa a linha. Texto da ficha que estreita a função v
 | **Cyberaudio** | nenhum | O que a ficha listar: filtro, direção do som, voice stress, scrambler, gravação, dampening. Entrega o que ouviu. Não soma Human Perception. |
 | **Cyberarm** | nenhum | A função escrita na ficha: ferramenta, pop-up, grip, garra, força. A ferramenta já está no braço. O teste de risco usa a skill normal. |
 | **Biomonitor** | nenhum | Lê o próprio corpo. A pessoa sabe o estado (HP, SW) sem First Aid em si. Não cura. |
-| **Grafted Muscle and Bone Lace** | nenhum | Músculo e osso mais densos. Pode entrar na ação de segurar, forçar e aguentar impacto. BODY, HP e o dado não mudam. |
-| **Reinforced Tendons** | nenhum | Arranque curto, salto e mudança de direção. MOVE e o dado de Athletics não mudam. |
+| **Grafted Muscle and Bone Lace** | **+2 BODY** (BODY da compra + 2). Não leva o BODY a 11 ou mais. HP, limiar de SW e Death Save usam esse BODY ([03](03_ferimentos.md)). | Músculo e osso mais densos. O +2 é o número. Não soma outra vez em Athletics ou Brawling. |
+| **Reinforced Tendons** | nenhum | House. O nome é do 2077. Na mesa **não** é double jump. Arranque curto, salto e mudança de direção na mesma movimentação. MOVE e o dado de Athletics não mudam. |
 | **Subdermal Armor / Skinweave** | o **SP** já escrito na ficha ou no loadout | Não somar de novo por cima desse SP. Sem SP escrito, a pele é reforçada na ficção e o SP de combate continua o da armadura vestida. |
 | **Vault, pocket, fashionware** | nenhum em teste de skill | OPSEC (F19) ou o visual da ficha. Não entram no total. |
 
@@ -128,6 +128,10 @@ Iniciativa é um teste. O tiro, a direção ou outro teste de REF é outro. Cada
 ---
 
 ## Changelog
+
+### 1.2.0 — 2026-10-03
+
+- Grafted Muscle and Bone Lace: +2 BODY, com teto. HP, SW e Death Save usam esse BODY. Reinforced Tendons continua sem dado e sem double jump. HL pago não vira bônus.
 
 ### 1.1.0 — 2026-10-03
 

@@ -24,9 +24,9 @@
 | `regras_red/00_integridade_regras.md` | 1.4.0 | 2026-10-03 |
 | `regras_red/01_core.md` | 1.1.0 | 2026-10-03 |
 | `regras_red/02_combate.md` | 1.2.0 | 2026-10-03 |
-| `regras_red/03_ferimentos.md` | 1.1.0 | 2026-10-03 |
+| `regras_red/03_ferimentos.md` | 1.2.0 | 2026-10-03 |
 | `regras_red/04_armas.md` | 1.0.0 | 2026-08-07 |
-| `regras_red/05_cyberware.md` | 1.1.0 | 2026-10-03 |
+| `regras_red/05_cyberware.md` | 1.2.0 | 2026-10-03 |
 | `regras_red/06_skills.md` | 1.1.0 | 2026-10-03 |
 | `regras_red/07_roles.md` | 1.0.3 | 2026-09-09 |
 | `regras_red/08_techie.md` | 1.0.0 | 2026-08-07 |
@@ -44,6 +44,7 @@
 ### 1.4.0 — 2026-10-03
 
 - Chrome na jogada. Número soma. Função acontece e não vira dado. Kerenzikov: +2 em iniciativa e em teste de REF, e antecipa o movimento. Sessões já resumidas não se reabrem.
+- Grafted Muscle and Bone Lace: +2 BODY (Ryan compra 6, joga 8; HP 45). Reinforced Tendons sem dado e sem double jump. HL não vira bônus.
 
 ### 1.3.0 — 2026-08-07
 

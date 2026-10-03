@@ -120,10 +120,15 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 | WILL (Vontade)     | 6     | +6          |
 | LUCK (Sorte)       | 3     | +3          |
 | MOVE (Movimento)   | 6     | +6          |
-| BODY (Corpo)       | 6     | +6          |
+| BODY (Corpo)       | 6     | +6 na compra |
 | EMP (Empatia)      | 7     | +7          |
 
-**Total gasto em Stats:** 62 pontos (foco em TECH alto para criação e customização, com REF/DEX decentes para sobrevivência em campo).
+**Total gasto em Stats:** 62 pontos (foco em TECH alto para criação e customização, com REF/DEX decentes para sobrevivência em campo). O 6 de BODY é a compra. Não entra no 62 o chrome.
+
+**BODY na jogada:** **8** (compra 6 + Grafted Muscle and Bone Lace +2). Não chega a 11.
+
+**HP** 45 · **Seriously Wounded** em 23 ou menos · **Death Save** BODY **8**.  
+`HP = 10 + 5 × floor((8 + 6) / 2)`.
 
 ## Humanidade e Cyberware
 
@@ -147,8 +152,8 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 | Cyberarm (direito, ferramentas e pop-up) | Função: a ferramenta e a arma já estão no braço. Sem dado. |
 | Cyberaudio Suite | Função: filtra e situa o som. Sem dado. |
 | Kerenzikov | **+2** na Iniciativa e **+2** em teste de REF. Função: vê o movimento nascer e age antes. Não soma Perception nem Evasion. |
-| Grafted Muscle + Bone Lace | Função: entra na ação de segurar, forçar e aguentar impacto. BODY da ficha não muda. Sem dado. |
-| Reinforced Tendons | Função: arranque, salto, mudança de direção. MOVE da ficha não muda. Sem dado. |
+| Grafted Muscle + Bone Lace | **+2 BODY** (compra 6 → **8** na jogada). HP 45, SW em 23 ou menos, Death Save BODY 8. Não soma outra vez em Athletics ou Brawling. |
+| Reinforced Tendons | House. Sem double jump. Arranque curto, salto e mudança de direção. MOVE não muda. Sem dado. |
 | Subdermal Armor + Skinweave | SP do loadout (corpo **19** / cabeça **11**). Não somar de novo. |
 | Biomonitor | Função: lê o próprio estado. Sem dado. |
 | **Vault WIREGHOST** | Chip implantado; air-gap; L3–L4 (**F19**). Sem dado de skill. |

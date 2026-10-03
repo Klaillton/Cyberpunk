@@ -1,5 +1,5 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: stable
 last_updated: 2026-10-03
 source: Cyberpunk RED core (resumo operacional)
@@ -20,7 +20,7 @@ Fórmula RED:
 HP = 10 + 5 × floor( (BODY + WILL) / 2 )
 ```
 
-Usar BODY e WILL **da ficha**. Se a ficha já listar HP, preferir o valor da ficha se coerente com a fórmula; se divergir de forma óbvia, anotar no Finalizar (não retcon silencioso).
+Usar BODY e WILL **da ficha**. Se houver Grafted Muscle and Bone Lace, o BODY desta fórmula é o já somado (+2, sem chegar a 11). Se a ficha já listar HP, preferir o valor da ficha se coerente com a fórmula; se divergir de forma óbvia, anotar no Finalizar (não retcon silencioso).
 
 ---
 
@@ -41,6 +41,8 @@ Cabeça: SP de head armor; regras de headshot do core se a mesa for usar (declar
 ```text
 Se HP atuais ≤ metade do HP máximo → Seriously Wounded
 ```
+
+Metade quebrada arredonda para cima (livro: 35 HP → limiar 18).
 
 - Penalidade típica core: **−2** em ações (enquanto SW).  
 - Narrar dor, sangue, mobilidade reduzida — **e** aplicar o −2.  
@@ -85,6 +87,10 @@ Checklist Finalizar: [comandos_jogador.md](../comandos_jogador.md) § C.
 ---
 
 ## Changelog
+
+### 1.2.0 — 2026-10-03
+
+- HP usa o BODY já somado ao Grafted Muscle and Bone Lace. Metade quebrada do SW arredonda para cima.
 
 ### 1.1.0 — 2026-10-03
 
