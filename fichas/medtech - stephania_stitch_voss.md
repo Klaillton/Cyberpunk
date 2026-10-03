@@ -93,15 +93,17 @@ Compartilha o sobrenome **Voss** com Ryan, mas **sem parentesco**. O sobrenome e
 
 ## Cyberware (discreto, foco médico - HL controlado)
 
-- Kiroshi Optics (visão médica ampliada)
-- Neural Link + Interface Plugs
-- Biomonitor
-- Cyberarm esquerdo (com ferramentas médicas integradas)
-- Skinweave / Subdermal Armor leve
-- Pain Editor (para operar sob pressão)
-- Outros: Chrome médico discreto (sondas, diagnósticos internos)
+Número e função: [05 §4](../sistema/regras_red/05_cyberware.md). Esta lista não traz SP nem outro dado.
 
-**Armadura:** Light Armorjack + reforços médicos (SP adequado para campo sem sacrificar mobilidade).
+- Kiroshi Optics — função: visão médica ampliada. Sem dado.
+- Neural Link + Interface Plugs — função: jack clínico. Sem dado.
+- Biomonitor — função: lê sinais. Sem dado.
+- Cyberarm esquerdo — função: ferramentas médicas já no braço. Sem dado.
+- Skinweave / Subdermal Armor leve — sem SP escrito. Não soma por cima da armadura vestida.
+- Pain Editor — enquanto ligado, cancela o **−2** de Seriously Wounded. Não cura.
+- Outros: chrome médico discreto (sondas, diagnósticos). Função de leitura. Sem dado.
+
+**Armadura:** Light Armorjack + reforços médicos (SP adequado para campo sem sacrificar mobilidade). Sem número de SP nesta ficha: não inventar.
 
 ## Equipamentos chave
 

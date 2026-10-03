@@ -1,7 +1,7 @@
 ---
-version: 1.3.0
+version: 1.4.0
 status: stable
-last_updated: 2026-08-07
+last_updated: 2026-10-03
 source: Cyberpunk RED core (resumo operacional) + house rules da campanha
 ---
 
@@ -30,7 +30,7 @@ Provisório **não** se cola silenciosamente no RAW.
 
 | Campo | Valor |
 | ----- | ----- |
-| **ID** | F18 · Ruleset **v1.3.0** (atual; ver versionamento) |
+| **ID** | F18 · Ruleset **v1.4.0** (atual). 017–028 = 1.3.0, sem retcon. Ver versionamento |
 | **Última sessão pré-camada** | **016** (e anteriores) |
 | **Primeira sessão com camada** | **017+** |
 | **Canon 001–016** | **Intacto** — não re-rolar, não “corrigir” kills/scavs/jobs |
@@ -68,7 +68,7 @@ PASSADO (≤016) → CANON CONSOLIDADO → REGRAS v1.0.0 → FUTURO (017+)
 
 | Proibido | Por quê |
 | -------- | ------- |
-| Inventar bônus/penalidades “intuitivos” sem regra | Quebra integridade |
+| Inventar bônus de dado. Função de chrome não vira +1. Número que não está em 05 ou na ficha não existe | Quebra integridade |
 | Misturar RED / 2020 / 2077 | Sistemas diferentes |
 | Sucesso automático sob **risco real** só por ficha alta | Anti-super-herói |
 | Rolagem para ação **trivial** | Dice-spam |
@@ -78,7 +78,7 @@ PASSADO (≤016) → CANON CONSOLIDADO → REGRAS v1.0.0 → FUTURO (017+)
 
 ---
 
-## 5. Módulos (v1.3.0)
+## 5. Módulos (v1.4.0)
 
 | Arquivo | Uso |
 | ------- | --- |
@@ -86,7 +86,7 @@ PASSADO (≤016) → CANON CONSOLIDADO → REGRAS v1.0.0 → FUTURO (017+)
 | [02_combate.md](02_combate.md) | Combate, ROF, grupo, stealth attack |
 | [03_ferimentos.md](03_ferimentos.md) | HP, SP, SW, Death Save, First Aid |
 | [04_armas.md](04_armas.md) | Categorias; stats de item no loadout |
-| [05_cyberware.md](05_cyberware.md) | HL, instalação, humanidade |
+| [05_cyberware.md](05_cyberware.md) | HL, instalação, chrome na jogada (número ou função) |
 | [06_skills.md](06_skills.md) | STAT→skill, untrained |
 | [07_roles.md](07_roles.md) | Role Abilities da crew |
 | [08_techie.md](08_techie.md) | Maker, craft, drones |
@@ -102,6 +102,10 @@ Auditoria combates 001–016 (OBSERVAÇÃO): [auditoria_combates_canonicos.md](.
 ---
 
 ## Changelog
+
+### 1.4.0 — 2026-10-03
+
+- Chrome entra na jogada. Sem retcon das sessões já resumidas em 1.3.0.
 
 ### 1.3.0 — 2026-08-07
 

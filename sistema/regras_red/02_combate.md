@@ -1,7 +1,7 @@
 ---
-version: 1.1.0
+version: 1.2.0
 status: stable
-last_updated: 2026-08-07
+last_updated: 2026-10-03
 source: Cyberpunk RED core (resumo operacional)
 ---
 
@@ -19,7 +19,7 @@ source: Cyberpunk RED core (resumo operacional)
 
 ```text
 1. Há combate / ameaça imediata?
-2. Iniciativa se a ordem importar (REF + 1d10)
+2. Iniciativa se a ordem importar (REF + 1d10 + Kerenzikov +2 se a ficha tiver)
 3. Turno: movimento razoável + ação de ataque (ou outra)
 4. Resolver ataque → dano → estado
 5. Narrar resultado (depois da resolução)
@@ -32,6 +32,8 @@ source: Cyberpunk RED core (resumo operacional)
 ```text
 Total = STAT + Skill de combate + 1d10 + mods
 ```
+
+Mods de chrome: [05](05_cyberware.md) §4. Se o STAT do ataque é REF e a ficha tem Kerenzikov, **+2** neste total (a iniciativa já levou o dela, à parte). Smartgun Link **+1** só se o WA da arma ainda não trouxer esse +1. Função (Kiroshi marca, cyberarm já tem a arma) não vira dado.
 
 Skill por categoria: [04_armas](04_armas.md).
 
@@ -109,6 +111,10 @@ HP/SW/SP, munição se importar, Heat se alarme, `Ruleset: 1.1.0` no resumo.
 ---
 
 ## Changelog
+
+### 1.2.0 — 2026-10-03
+
+- Iniciativa e ataque de REF leem Kerenzikov. Smartgun não dobra o WA.
 
 ### 1.1.0 — 2026-08-07
 

@@ -105,7 +105,8 @@ Vence o **defensor** / status quo (ver [01_core](../regras_red/01_core.md)), sal
 
 ## 8. Humanity e eddies (1.2.0)
 
-- Ryan “não se importa com Humanity” = **atitude** — HL ainda é registrado ([05_cyberware](../regras_red/05_cyberware.md)).  
+- Ryan “não se importa com Humanity” = **atitude** — HL ainda é registrado ([05_cyberware](../regras_red/05_cyberware.md)).
+- Na jogada, chrome é número ou função (05 §4). Função não vira dado.  
 - Eddies: faixa em [economia.md](../../economia.md); não inventar riqueza de job não registrado.  
 - Stats de arma sem número no loadout: **proibido** inventar d6 — completar loadout no Finalizar.
 

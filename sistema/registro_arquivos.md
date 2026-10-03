@@ -71,11 +71,11 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Continuidade colável (estado vigente) | `logs/handoff_atual.md` | context pack, board |
 | Simular mundo off-screen (pulso diário) | `sistema/pulso_procedimento.md` | `pulso_do_mundo/pack_badlands/pulso_geral.md`, pulsos NPC |
 | Log de pulso (auditoria opcional) | `logs/pulso_YYYYMMDD.md` | [pulso_log_template.md](../logs/pulso_log_template.md) |
-| **Regras RED (mecânica / testes)** | `sistema/regras_red/11_referencia.md` (atalho) | `00`–`10` full · Ruleset **1.3.0** · **não** tier-0 |
+| **Regras RED (mecânica / testes)** | `sistema/regras_red/11_referencia.md` (atalho) | `00`–`10` full · Ruleset **1.4.0** · **não** tier-0 |
 | Netrunning / Interface | `sistema/regras_red/10_netrunning.md` | ficha Alex, `07_roles` |
 | Combate / ROF / stealth attack | `sistema/regras_red/02_combate.md` | `04_armas`, `03_ferimentos`, house |
 | Armas (categorias) | `sistema/regras_red/04_armas.md` | **dano/ROF no loadout** |
-| Cyberware / HL | `sistema/regras_red/05_cyberware.md` | ficha personagem |
+| Cyberware / HL / jogada | `sistema/regras_red/05_cyberware.md` | ficha diz o que a pessoa tem; 05 diz número ou função |
 | Skills (mapa STAT) | `sistema/regras_red/06_skills.md` | ficha |
 | Role Abilities (crew) | `sistema/regras_red/07_roles.md` | fichas crew |
 | Maker / craft / drones (regras) | `sistema/regras_red/08_techie.md` | ficha Ryan, `ryan_loadout`, economia |
@@ -85,7 +85,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | **Corujas (3 / recon noturno / infiltração)** | `fichas/drone - corujas.md` | F16 · Pack · ave real reconstruída · unmanned · sem módulo |
 | HP / SP / Death Save | `sistema/regras_red/03_ferimentos.md` | ficha do personagem, Finalizar |
 | House rules (stealth, drones, oficina) | `sistema/house_rules/regras_campanha.md` | `regras_red/00`, F03/F12/F16/F18 |
-| Versão do ruleset | `sistema/versionamento_regras.md` | `Ruleset: 1.3.0` no resumo |
+| Versão do ruleset | `sistema/versionamento_regras.md` | `Ruleset: 1.4.0` no resumo novo; 017–028 ficam 1.3.0 |
 | Planos de trabalho (sistema) | `plans/README.md` | `plans/add-cyberpunk-red-mechanics.md` |
 | Auditoria combates pré-017 (só leitura) | `plans/auditoria_combates_canonicos.md` | F18 — **não** retcon |
 | Agents OPSEC Ryan (Vault/Honeypot/…) | `plans/agent_security.md` | F19 · `ryan_loadout` · ≠ Warden drone |
@@ -104,5 +104,5 @@ O índice de árvore e o restante deste arquivo permanecem como na SoT 30/08 (Ja
 
 - O `registro_arquivos.md` é o **arquivo de referência central**.
 - **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **029**.
-- **Ruleset:** v1.3.0 em `sistema/regras_red/` (sessão 017+; F18).
+- **Ruleset:** v1.4.0 em `sistema/regras_red/` (atual; 017–028 = 1.3.0; F18).
 - O **Source of Truth** permanece nos arquivos do repo (`feature/linha-estavel`).

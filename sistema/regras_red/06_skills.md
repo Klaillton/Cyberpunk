@@ -1,7 +1,7 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: stable
-last_updated: 2026-08-07
+last_updated: 2026-10-03
 source: Cyberpunk RED core (resumo operacional)
 ---
 
@@ -13,6 +13,8 @@ source: Cyberpunk RED core (resumo operacional)
 ```text
 Total = STAT + Skill + 1d10 + mods
 ```
+
+Mods de chrome: só o **número** de [05](05_cyberware.md) que casa com este STAT. Função não soma.
 
 Sem skill na ficha: **STAT + 1d10** (untrained) — declarar.
 
@@ -71,6 +73,10 @@ Valores oficiais: [ficha Ryan](../../fichas/techie%20-%20ryan_wireghost_voss.md)
 ---
 
 ## Changelog
+
+### 1.1.0 — 2026-10-03
+
+- Mod de chrome só entra se for número que casa com o STAT.
 
 ### 1.0.0 — 2026-08-07
 

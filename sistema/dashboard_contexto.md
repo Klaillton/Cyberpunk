@@ -54,7 +54,7 @@
 
 ## 6. Regras rápidas
 
-- F03 Warden terrestre · F15 Valk não “herói” · F16 Condor unmanned · F18 Ruleset 1.3.0 · F20 Sparrow/Steel = NPCs
+- F03 Warden terrestre · F15 Valk não “herói” · F16 Condor unmanned · F18 Ruleset 1.4.0 · F20 Sparrow/Steel = NPCs
 - Motor: ramo antes da frase · N1b só no ramo 1 · N9 fecha viagem · corpo nos ramos 2 e 3: 3–6 linhas é piso · **N13 situar** (não gavetas)
 - Trava 023: não reabrir jantar/base/SOP Condor
 - Boca: NOW = ramo 3 (tenda). Pack / Reyes / refeitório = ramo 2. 019 = 1 pergunta antes de vetar

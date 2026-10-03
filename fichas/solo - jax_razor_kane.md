@@ -99,17 +99,21 @@ Pontos por cena para iniciativa, detecção de emboscada e bônus de combate —
 
 ## Cyberware (combate, controlado)
 
-| Cyberware | HL | Efeito |
-| --------- | -- | ------ |
-| Kerenzikov | 7 | +2 Initiative / testes de Reflexo |
-| Cyberarm (dir., combate) | 7 | Melee / grip; pop-up se a cena pedir |
-| Neural Link | 7 | Smartgun / interface |
-| Kiroshi Optics | 7 | Targeting, zoom; glow vermelho da imagem |
-| Biomonitor | 2 | Sinais vitais |
+Número e função: [05 §4](../sistema/regras_red/05_cyberware.md).
+
+| Cyberware | HL | Na jogada |
+| --------- | -- | --------- |
+| Kerenzikov | 7 | **+2** na Iniciativa e **+2** em teste de REF. Função: vê o movimento nascer e age antes. Não soma Perception nem Evasion. |
+| Cyberarm (dir., combate) | 7 | Função: melee, grip, pop-up se a cena pedir. Sem dado. |
+| Neural Link | 7 | Função: smartgun e interface. Sem +1 próprio; o +1 só existe se a arma tiver Smartgun Link por escrito. |
+| Kiroshi Optics | 7 | Função: targeting, zoom, glow vermelho. Sem dado em Perception. |
+| Biomonitor | 2 | Função: lê os próprios sinais. Sem dado. |
 
 **Total Humanity Loss:** 30 | **EMP atual:** 3 | **Humanidade:** 30
 
 **Visual / ofício (não somar HL de novo):** Pain Editor, Cyberaudio (dampening), Skinweave. Manutenção: Ryan no chrome, **Stitch** no orgânico (**≠** Doc Moreau). Ferramenta, não identidade.
+
+Pain Editor já instalado: enquanto ligado, cancela o **−2** de Seriously Wounded. Cyberaudio: abafa o som; sem dado. Skinweave sem SP nesta ficha: não soma por cima do Heavy Armorjack **SP 15**.
 
 ---
 

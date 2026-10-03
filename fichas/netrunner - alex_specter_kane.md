@@ -90,13 +90,15 @@ Mentor / wingman na NET. Aconselha, aponta tema, simulação **fora** de combate
 
 ## Cyberware
 
-| Cyberware                    | HL  | Efeito                                        |
-| ---------------------------- | --- | --------------------------------------------- |
-| Neural Link                  | 7   | Interface com deck e armas inteligentes       |
-| Interface Plugs              | 7   | Jack in                                       |
-| Cybereyes (Kiroshi)          | 7   | Glow verde / azul da imagem; visão aprimorada |
-| Cyberaudio Suite (scrambler) | 7   | Áudio + anti-snoop                            |
-| Biomonitor                   | 2   | Sinais vitais                                 |
+Número e função: [05 §4](../sistema/regras_red/05_cyberware.md). Sem speedware: sem +2 de Kerenzikov.
+
+| Cyberware                    | HL  | Na jogada |
+| ---------------------------- | --- | --------- |
+| Neural Link                  | 7   | Função: interface com deck e arma inteligente. Sem dado. |
+| Interface Plugs              | 7   | Função: jack in. Sem dado. |
+| Cybereyes (Kiroshi)          | 7   | Função: visão aprimorada e o glow da imagem. Sem dado em Perception. |
+| Cyberaudio Suite (scrambler) | 7   | Função: áudio e anti-snoop. Sem dado. |
+| Biomonitor                   | 2   | Função: lê os próprios sinais. Sem dado. |
 
 **Total Humanity Loss:** 30 | **EMP:** 5 | **Humanidade atual:** 20  
 Sem Pain Editor, sem speedware, **sem Doll-ware**.

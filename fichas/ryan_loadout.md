@@ -23,7 +23,7 @@
 | **Revolver Breaker** | Shoulder Arms | Shotgun | +0 | 1 | 5–7 | Close | **5d6** buck / **4d6** flechette | CQC; contact detonator = situacional |
 | **Shadowblades** | Athletics (arremesso) / Melee (corpo) | Thrown / Light Melee | +0 | 1 | 6–8 | Close (8–15 m) | **2d6** arremesso / **1d6** melee | Stealth; recall curto |
 
-**Smartgun / Neural Link:** quando ativos e alvo marcado (Vespas/Kiroshi), **+1** ao ataque (já refletido em WA +1 das Phantoms; outras armas +1 situacional se smart lock).
+**Smartgun / Neural Link:** quando ativos e alvo marcado (Vespas/Kiroshi), **+1** ao ataque (já refletido em WA +1 das Phantoms; outras armas +1 situacional se smart lock). Não dobrar. Regra: [05 §4](../sistema/regras_red/05_cyberware.md). Kerenzikov (+2 REF / iniciativa) mora na ficha, não nesta tabela de arma.
 
 ---
 

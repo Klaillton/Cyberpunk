@@ -1,7 +1,7 @@
 ---
-version: 1.0.0
+version: 1.0.1
 status: stable
-last_updated: 2026-08-07
+last_updated: 2026-10-03
 source: Cyberpunk RED core (resumo operacional)
 ---
 
@@ -130,11 +130,15 @@ Se o job precisar de programa específico e a ficha não listar: **DV +2** ou �
 - Alarme / Heat  
 - Dano a Alex (HP/HL se black ICE)  
 - Programas consumidos / deck danificado  
-- `Ruleset: 1.3.0` no resumo se NET foi central  
+- `Ruleset: 1.4.0` no resumo se NET foi central  
 
 ---
 
 ## Changelog
+
+### 1.0.1 — 2026-10-03
+
+- Resumo de NET novo carimba Ruleset 1.4.0.
 
 ### 1.0.0 — 2026-08-07
 

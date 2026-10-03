@@ -137,19 +137,22 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 
 **Reconciliação (cânon, sem retcon de EMP/chrome):** o número **78** registra o **pico/histórico** de perda (Arasaka + chrome pesado). A Doc **não tirou o chrome de combate**; restaurou o bastante para Ryan funcionar com **EMP 7** e Humanidade **63**. Novos implantes (017+) somam HL **novo** em cima do residual, não em cima de 78.
 
-- **Cyberware atual (foco em campo, drones e sobrevivência):**
-  - Neural Link + Interface Plugs + Smartgun Link
-  - Kiroshi Optics
-  - Cyberarm (direito, com ferramentas e pop-up)
-  - Cyberaudio Suite
-  - Kerenzikov
-  - Grafted Muscle + Bone Lace
-  - Reinforced Tendons
-  - Subdermal Armor
-  - Skinweave
-  - Biomonitor
-  - **Vault WIREGHOST** — chip implantado (parece chrome comum); air-gap; L3–L4 (**F19** · [agent_security](../plans/agent_security.md))
-  - **Subdermal pocket** — compartimento para stick do Agent **Profissional** (F19)
+- **Cyberware atual** — o que está no corpo. Número e função: [05 §4](../sistema/regras_red/05_cyberware.md).
+
+| Peça | Na jogada |
+| ---- | --------- |
+| Neural Link + Interface Plugs | Função: liga arma smart, drone e jack. Sem dado. |
+| Smartgun Link | **+1** no ataque com arma smart e alvo marcado, se esse +1 não estiver já no WA. Phantoms: já está no WA. Não dobrar. |
+| Kiroshi Optics | Função: HUD, zoom e marcação para o enxame. Sem dado em Perception. |
+| Cyberarm (direito, ferramentas e pop-up) | Função: a ferramenta e a arma já estão no braço. Sem dado. |
+| Cyberaudio Suite | Função: filtra e situa o som. Sem dado. |
+| Kerenzikov | **+2** na Iniciativa e **+2** em teste de REF. Função: vê o movimento nascer e age antes. Não soma Perception nem Evasion. |
+| Grafted Muscle + Bone Lace | Função: entra na ação de segurar, forçar e aguentar impacto. BODY da ficha não muda. Sem dado. |
+| Reinforced Tendons | Função: arranque, salto, mudança de direção. MOVE da ficha não muda. Sem dado. |
+| Subdermal Armor + Skinweave | SP do loadout (corpo **19** / cabeça **11**). Não somar de novo. |
+| Biomonitor | Função: lê o próprio estado. Sem dado. |
+| **Vault WIREGHOST** | Chip implantado; air-gap; L3–L4 (**F19**). Sem dado de skill. |
+| **Subdermal pocket** | Stick do Agent **Profissional** (F19). Sem dado de skill. |
 
 *Ledger item a item de HL por peça: não mantido. Não recalcular 78 nem 63 sem Finalizar explícito do jogador.*
 

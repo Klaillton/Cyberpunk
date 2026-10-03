@@ -23,7 +23,7 @@
 
 **Confirmação (1 linha):**
 ```
-Boot OK · ~04/08/2026 fim de tarde · Pack · tenda Ryan/Valk · Valk = residual quente · boca ramo 3 (tenda; Pack = ramo 2) · chip aberto (token) · hop NC 05/08 21h · debrief Reyes pendente · próximo resumo: 029 · Ruleset 1.3.0
+Boot OK · ~04/08/2026 fim de tarde · Pack · tenda Ryan/Valk · Valk = residual quente · boca ramo 3 (tenda; Pack = ramo 2) · chip aberto (token) · hop NC 05/08 21h · debrief Reyes pendente · próximo resumo: 029 · Ruleset 1.4.0
 ```
 
 ---
@@ -40,7 +40,7 @@ Boot OK · ~04/08/2026 fim de tarde · Pack · tenda Ryan/Valk · Valk = residua
 | Ryan × Valk | 019 + residual alto; intimidade 028; Lena em intimidade |
 | Reyes | Debrief do corte **não feito** |
 | Base militar | **Não entra agora** |
-| Ruleset | **v1.3.0** |
+| Ruleset | **v1.4.0** (chrome = número ou função; 017–028 ficam em 1.3.0) |
 
 ### Cena de abertura (029)
 
@@ -86,7 +86,7 @@ NOW = tenda a sós → **ramo 3**. Reyes / refeitório / pátio → **ramo 2**. 
 - Handoff: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md
 
 ## Mecânica
-- Ruleset **1.3.0** (F18); loadout sob demanda; sem inventar mods
+- Ruleset **1.4.0** (F18); loadout sob demanda; chrome na jogada = número ou função; sem inventar mods
 
 ## Estado
 - **~04/08/2026 fim de tarde** · Pack · tenda Ryan/Valk

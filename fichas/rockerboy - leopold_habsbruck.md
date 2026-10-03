@@ -170,7 +170,7 @@ Sem chrome de combate, sem Kiroshi, sem neural de ofício. O que se vê é fashi
 | Techhair | 0 | O visual que ele escolheu depois do molde corporativo. |
 | Chemskin | 0 | Leo no cotidiano / Prometheus na câmera. |
 | Shift tacts | 0 | Olhos da persona vs. o garoto. |
-| Biomonitor | 0 | Relíquia de família; ele mal registra que está lá. |
+| Biomonitor | 0 | Relíquia de família; ele mal registra que está lá. Não avisa sozinho. Sem dado. |
 
 **Total Humanity Loss:** 0 | **EMP atual:** 8 | **Humanidade:** 80
 
