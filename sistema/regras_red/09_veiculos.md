@@ -1,7 +1,7 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: stable
-last_updated: 2026-08-07
+last_updated: 2026-10-03
 source: Cyberpunk RED core (resumo operacional) + ficha The Mule
 ---
 
@@ -32,6 +32,8 @@ Dano ao veículo: similar a [03](03_ferimentos.md) — dano − SP → SDP; abla
 ```text
 Total = REF + Drive Land Vehicle + 1d10 + mods
 ```
+
+Mods: Handling da ficha do veículo. Kerenzikov da pilota: **+2**, porque Drive usa REF ([05](05_cyberware.md)). A função é ela ver o movimento e corrigir antes. Não inventar outro bônus de reflexo.
 
 | Situação | DV / resolução |
 | -------- | -------------- |
@@ -100,6 +102,10 @@ Anti-ID / Void List em jobs com Echo: ver ficha Mule + [echo_exposicao](../echo_
 ---
 
 ## Changelog
+
+### 1.1.0 — 2026-10-03
+
+- Drive com Kerenzikov soma +2 (REF). Handling continua o da ficha do veículo.
 
 ### 1.0.0 — 2026-08-07
 

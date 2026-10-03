@@ -5,7 +5,7 @@
 **Duração aproximada:** [X horas]  
 **Jogador:** Ryan "Wireghost" Voss  
 **Narrador:** [Seu nome ou IA]  
-**Ruleset:** [ex. 1.3.0 · ver `sistema/versionamento_regras.md`]  
+**Ruleset:** [ex. 1.4.0 · ver `sistema/versionamento_regras.md`]  
 
 ---
 

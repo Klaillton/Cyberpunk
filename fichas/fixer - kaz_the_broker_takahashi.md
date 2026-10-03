@@ -160,13 +160,15 @@ Sem Tactics na ficha: plano de combate é Jax/Reina. Sem Cybertech: chrome é St
 
 O pescoço da imagem = Neural Link. Os óculos vermelhos = Kiroshi.
 
-| Cyberware | HL | Efeito |
-| --------- | -- | ------ |
-| Neural Link | 7 | Agent, chips, o chrome visível do pescoço |
-| Interface Plugs | 7 | Credchip / data |
-| Kiroshi Optics | 7 | Leitura, HUD, os óculos |
-| Cyberaudio Suite | 7 | Scrambler + voice stress — negociação |
-| Biomonitor | 2 | Sinais vitais |
+Número e função: [05 §4](../sistema/regras_red/05_cyberware.md).
+
+| Cyberware | HL | Na jogada |
+| --------- | -- | --------- |
+| Neural Link | 7 | Função: Agent, chips, o chrome visível do pescoço. Sem dado. |
+| Interface Plugs | 7 | Função: credchip e data. Sem dado. |
+| Kiroshi Optics | 7 | Função: leitura e HUD (os óculos). Sem dado. |
+| Cyberaudio Suite | 7 | Função: scrambler. Na negociação, ouve o estresse na voz. Sem dado. |
+| Biomonitor | 2 | Função: lê os próprios sinais. Sem dado. |
 
 **Total Humanity Loss:** 30 | **EMP atual:** 4 | **Humanidade:** 40
 

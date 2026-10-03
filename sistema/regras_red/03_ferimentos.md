@@ -1,7 +1,7 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: stable
-last_updated: 2026-08-07
+last_updated: 2026-10-03
 source: Cyberpunk RED core (resumo operacional)
 ---
 
@@ -43,7 +43,8 @@ Se HP atuais ≤ metade do HP máximo → Seriously Wounded
 ```
 
 - Penalidade típica core: **−2** em ações (enquanto SW).  
-- Narrar dor, sangue, mobilidade reduzida — **e** aplicar o −2.
+- Narrar dor, sangue, mobilidade reduzida — **e** aplicar o −2.  
+- **Pain Editor** ligado, na ficha que o tem: cancela este −2. HP continua caindo. A dor não avisa. Ver [05](05_cyberware.md).
 
 ---
 
@@ -84,6 +85,10 @@ Checklist Finalizar: [comandos_jogador.md](../comandos_jogador.md) § C.
 ---
 
 ## Changelog
+
+### 1.1.0 — 2026-10-03
+
+- Pain Editor ligado cancela o −2 de Seriously Wounded.
 
 ### 1.0.0 — 2026-08-07
 

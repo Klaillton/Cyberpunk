@@ -70,15 +70,17 @@ Pontos por cena para iniciativa, detecção de emboscada e bônus de CQC — gas
 
 ## Cyberware
 
-| Cyberware | HL | Efeito |
-| --------- | -- | ------ |
-| Cyberarm (dir.) | 0 | Força; melee pesado; garras retráteis. Funções avançadas **sem** bônus até cena |
-| Cyberarm (esq.) | 0 | Idem. Fabricados por Ryan; instalados por Stitch; Eles são tão avançados/integrados que não geram HL |
-| Neural Link | 7 | Interface com armas inteligentes / braços |
-| Interface Plugs | 7 | Jack |
-| Kerenzikov | 7 | +2 Initiative / testes de Reflexo (sempre ligado) |
-| Pain Editor | 7 | Ignora dor / penalidades por ferimento por período limitado |
-| Biomonitor | 2 | Sinais vitais |
+Número e função: [05 §4](../sistema/regras_red/05_cyberware.md).
+
+| Cyberware | HL | Na jogada |
+| --------- | -- | --------- |
+| Cyberarm (dir.) | 0 | Função: força, melee pesado, garras retráteis. Sem dado até uma cena escrever número. |
+| Cyberarm (esq.) | 0 | Idem. Fabricados por Ryan; instalados por Stitch; tão integrados que não geram HL. |
+| Neural Link | 7 | Função: interface com arma inteligente e com os braços. Sem dado. |
+| Interface Plugs | 7 | Função: o jack. Sem dado. |
+| Kerenzikov | 7 | **+2** na Iniciativa e **+2** em teste de REF. Sempre ligado. Função: vê o movimento nascer e age antes. Não soma Perception nem Evasion. |
+| Pain Editor | 7 | Enquanto ligado, cancela o **−2** de Seriously Wounded. Não cura. A janela é o trecho em que ficou ligado. |
+| Biomonitor | 2 | Função: lê os próprios sinais. Sem dado. |
 
 **Total Humanity Loss:** 30 | **EMP:** 5 | **Humanidade atual:** 40  
 Sem Sandevistan. Sem o SP da [armadura-projeto](reina_armour_project.md).

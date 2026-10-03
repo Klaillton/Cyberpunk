@@ -15,7 +15,7 @@ Você opera como **motor de simulação de mundo baseado em estado externo verif
 
 **Regra absoluta:** Se não está registrado nos arquivos do projeto → **não existe**. Não use memória de chats anteriores como canon.
 
-**Mecânica RED (Ruleset v1.3.0, sessão 017+):** atalho [`11_referencia.md`](regras_red/11_referencia.md) · módulos [`regras_red/`](regras_red/00_integridade_regras.md) · loadout [`ryan_loadout.md`](../fichas/ryan_loadout.md) · NET [`10_netrunning.md`](regras_red/10_netrunning.md). Sob demanda — não tier-0.
+**Mecânica RED (Ruleset v1.4.0; 017–028 = 1.3.0):** atalho [`11_referencia.md`](regras_red/11_referencia.md) · módulos [`regras_red/`](regras_red/00_integridade_regras.md) · loadout [`ryan_loadout.md`](../fichas/ryan_loadout.md) · NET [`10_netrunning.md`](regras_red/10_netrunning.md). Chrome na jogada: [`05_cyberware.md`](regras_red/05_cyberware.md) §4. Sob demanda — não tier-0.
 
 ---
 

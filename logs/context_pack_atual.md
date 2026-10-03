@@ -121,7 +121,7 @@ Quem fala muda o vocabulário, não o ramo. “Três coisas”, “sem isso eu n
 | F07 | Ryan × Valk consolidados (**acordo 019 = perguntar, não cobrar**) |
 | F08 | Mule = de Valk; equipe Valk + Mule |
 | **F11** | Casas modulares — pack geral sem revelação oficial completa |
-| **F18** | Ruleset **v1.3.0** · 017+ · sem retcon 001–016 |
+| **F18** | Ruleset atual **v1.4.0** (chrome = número ou função). 017–028 jogadas em 1.3.0, sem retcon. 001–016 pré-camada |
 | **F19** | Agents: Vault / Profissional / Honeypot / Arbiter/Watchdog ≠ Warden |
 | **F20** | **Sparrow** = Lina Park (NPC); **Steel** = Marcus Rivera (NPC) |
 
@@ -152,7 +152,7 @@ Detalhe: [sessao_resumo_028.md](sessao_resumo_028.md)
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · ~04/08/2026 fim de tarde · Pack · tenda Ryan/Valk · Valk = residual quente · boca ramo 3 (tenda; Pack = ramo 2) · chip aberto (token) · hop NC 05/08 21h · debrief Reyes pendente · próximo resumo: 029 · Ruleset 1.3.0
+Boot OK · ~04/08/2026 fim de tarde · Pack · tenda Ryan/Valk · Valk = residual quente · boca ramo 3 (tenda; Pack = ramo 2) · chip aberto (token) · hop NC 05/08 21h · debrief Reyes pendente · próximo resumo: 029 · Ruleset 1.4.0
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.

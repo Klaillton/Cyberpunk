@@ -79,12 +79,14 @@ No **flanco esquerdo** — costela / abdômen até o quadril — tinta tribal es
 
 ## Cyberware
 
-| Cyberware   | HL  | Efeito Principal                                                        |
-| ----------- | --- | ----------------------------------------------------------------------- |
-| Neural Link | 7   | Permite interface com veículos e armas inteligentes.                    |
-| Biomonitor  | 2   | Monitora sinais vitais em tempo real.                                   |
-| Kerenzikov  | 7   | +2 em Initiative e testes de Reflexo. Excelente para direção defensiva. |
-| Pain Editor | 7   | Ignora dor e penalidades por ferimentos por um período limitado.        |
+Número e função: [05 §4](../sistema/regras_red/05_cyberware.md).
+
+| Cyberware   | HL  | Na jogada |
+| ----------- | --- | --------- |
+| Neural Link | 7   | Função: interface com veículo e arma inteligente. Sem dado. |
+| Biomonitor  | 2   | Função: lê os próprios sinais. Sem dado. |
+| Kerenzikov  | 7   | **+2** na Iniciativa e **+2** em teste de REF. Função: vê o movimento nascer e age antes — direção inclusa. Não soma Perception nem Evasion. |
+| Pain Editor | 7   | Enquanto ligado, cancela o **−2** de Seriously Wounded. Não cura. A janela é o trecho em que ficou ligado. |
 
 **Total Humanity Loss:** 23 | **EMP Atual:** 5 | **Humanidade:** 50
 

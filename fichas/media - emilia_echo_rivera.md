@@ -114,13 +114,15 @@ Cética, sarcástica, justiça distorcida. Fala rápido, humor negro, quer o pla
 
 O acidente quebrou olho, ouvido, ficar de pé. O corpo foi consertado para ela não morrer — e depois para continuar gravando.
 
-| Cyberware | HL | Origem / efeito |
-| --------- | -- | --------------- |
-| Kiroshi Optics | 7 | Emergência — gravação, zoom, low-light, AR |
-| Cyberaudio Suite | 7 | Emergência — escuta + gravação |
-| Biomonitor | 2 | Emergência |
-| Neural Link | 7 | Ofício — comms / edição |
-| Interface Plugs | 7 | Ofício |
+Número e função: [05 §4](../sistema/regras_red/05_cyberware.md).
+
+| Cyberware | HL | Na jogada |
+| --------- | -- | --------- |
+| Kiroshi Optics | 7 | Função: gravação, zoom, low-light, AR. Sem dado em Perception. |
+| Cyberaudio Suite | 7 | Função: escuta e gravação. Sem dado. |
+| Biomonitor | 2 | Função: lê os próprios sinais. Sem dado. |
+| Neural Link | 7 | Função: comms e edição. Sem dado. |
+| Interface Plugs | 7 | Função: o jack do ofício. Sem dado. |
 
 **Total Humanity Loss:** 30 | **EMP atual:** 6 | **Humanidade:** 60
 
@@ -132,7 +134,7 @@ O acidente quebrou olho, ouvido, ficar de pé. O corpo foi consertado para ela n
 
 - Micro-drones de gravação stealth (integração possível com Ryan)
 - Ghostwire Edit Kit (custom)
-- Heavy Pistol custom suprimida + smart link
+- Heavy Pistol custom suprimida + smart link (conversa com o Neural Link; sem +1 escrito)
 - Agent avançado, jammers, drives criptografados
 - Skinweave **SP 7** (implante) se combate; senão evasão / não estar no frame
 

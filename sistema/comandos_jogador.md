@@ -106,7 +106,7 @@
 | 1 | Declarar: `Finalizar sessão — playbook completo.` |
 | 2 | Ler: `sessao_resumo_template.md`, `registro_arquivos.md` (NNN), `board`, `dashboard_contexto`, `event_queue`, `como_atualizar_arquivos.md`, `context_pack_atual`, `fatos_duros`, `logs/notas_sessao.md`, **e a matriz de ledgers:** `consequencias/consequencias_persistentes.md`, `heat.md`, `reputacao.md`, `economia.md`, `logs/downtime_ryan.md`, `facoes/` relevantes, `relacionamentos/faccao_relacionamentos.md`, `pulso_procedimento.md` (se data avançou). |
 | 3 | Calcular **data início → fim** da sessão e quantos **dias in-game** passaram. |
-| 4 | Gerar **rascunho** de `logs/sessao_resumo_NNN.md` (conteúdo como em B), com seções: Rep/Heat/Econ · **Mecânica/ferimentos** · Downtime · Facções/Consequências · Pulsos (dias) — usar **“sem delta”** quando avaliou e nada mudou. **Ruleset** no cabeçalho (ex. 1.3.0). |
+| 4 | Gerar **rascunho** de `logs/sessao_resumo_NNN.md` (conteúdo como em B), com seções: Rep/Heat/Econ · **Mecânica/ferimentos** · Downtime · Facções/Consequências · Pulsos (dias) — usar **“sem delta”** quando avaliou e nada mudou. **Ruleset** no cabeçalho (ex. 1.4.0). |
 | 5 | Montar **tabela de mudanças propostas** (Arquivo → o que muda). **Sempre avaliar** (não pular por omissão): |
 | | - Missão/local/NPCs → `board`, `dashboard` |
 | | - Impacto permanente / arco → `consequencias` |
@@ -140,7 +140,7 @@
 [ ] Downtime (Ryan produziu?)
 [ ] Pulso (ciclos ou gap B1)
 [ ] Relacionamentos tocados
-[ ] Ruleset no cabeçalho do resumo (ex. Ruleset: 1.3.0)
+[ ] Ruleset no cabeçalho do resumo (ex. Ruleset: 1.4.0)
 [ ] HP / SW / Death Save (se combate — PC e NPC nomeados)
 [ ] SP / ablação (se armadura atingida)
 [ ] Loadout / munição (ryan_loadout se gasto relevante)

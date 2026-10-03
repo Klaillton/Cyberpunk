@@ -1,7 +1,7 @@
 ---
-version: 1.0.0
+version: 1.1.0
 status: stable
-last_updated: 2026-08-07
+last_updated: 2026-10-03
 source: Cyberpunk RED core (resumo operacional)
 ---
 
@@ -35,6 +35,8 @@ Ficha alta = **maior chance**, não isenção de teste sob risco.
 Total = STAT + Skill + 1d10 [+ modificadores]
 ```
 
+Mods = cena e ficha (cobertura, WA, Luck) **e** o **número** de chrome que casa com este teste ([05](05_cyberware.md) §4). A **função** do chrome muda a cena e não entra neste total.
+
 - **Vs DV:** sucesso se Total ≥ DV.  
 - **Oposto:** ambos rolam (ou um rola vs total estático se core indicar); **maior total vence**.  
 - **Empate em oposto (MVP):** vence o **defensor** / status quo (alvo não é enganado, não é atingido em Evasion, etc.), salvo regra específica mais clara no core.
@@ -45,11 +47,12 @@ Sempre que rolar, mostrar de forma legível:
 
 1. Skill (e STAT)  
 2. d10  
-3. Mods (cada um justificado)  
-4. **Total**  
-5. DV **ou** total oposto  
-6. Sucesso / falha / crítico / fumble  
-7. Consequência em 1 frase  
+3. Mods (cada um justificado), inclusive número de chrome  
+4. Linha `Chrome:` — número nomeado e função usada, ou “nenhum neste teste”  
+5. **Total**  
+6. DV **ou** total oposto  
+7. Sucesso / falha / crítico / fumble  
+8. Consequência em 1 frase  
 
 ---
 
@@ -93,8 +96,10 @@ Detalhes de fumble em combate (arma trava, etc.) → core; no MVP narrar falha *
 Quando a ordem de ações importar:
 
 ```text
-Iniciativa = REF + 1d10  (+ mods se core/gear)
+Iniciativa = REF + 1d10 + mods
 ```
+
+Kerenzikov, se a ficha tiver: **+2** aqui. A pessoa viu o movimento nascer ([05](05_cyberware.md)). O mesmo +2 entra em separado num teste de REF; não se soma duas vezes neste total.
 
 Maior age primeiro. Empate: maior REF; se empatar de novo, rolar de novo ou PC primeiro (escolher e ser consistente na cena).
 
@@ -111,7 +116,7 @@ Se a ficha não listar a Skill: usar **STAT + 1d10** (sem skill) **ou** default 
 ```text
 Há risco/oposição/custo grave?
   NÃO → narrar
-  SIM → STAT+Skill+1d10 vs DV/oposto → resultado → consequência → narrar
+  SIM → chrome da ficha (número no total, função na cena) → STAT+Skill+1d10+mods vs DV/oposto → resultado → consequência → narrar
 ```
 
 Stealth e drones: [house_rules/regras_campanha.md](../house_rules/regras_campanha.md).  
@@ -121,6 +126,10 @@ Dano: [03_ferimentos.md](03_ferimentos.md).
 ---
 
 ## Changelog
+
+### 1.1.0 — 2026-10-03
+
+- Pipeline abre o chrome antes do total. Linha `Chrome:` na apresentação. Iniciativa nomeia Kerenzikov.
 
 ### 1.0.0 — 2026-08-07
 
