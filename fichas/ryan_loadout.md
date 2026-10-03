@@ -8,7 +8,7 @@
 > **Stats RED** abaixo = âncora core + custom Techie (preenchidos 2026-08-07). Ajustar no Finalizar se o jogador fixar outros números.  
 > **Não** duplicar dice em `04_armas` — o loadout é o SoT do item.
 
-**Atualizado:** 2026-10-03 (Pill — spec restaurada; tabelas combate 2026-08-07)
+**Atualizado:** 2026-10-03 (Vespas e Warden restaurados no loadout; Pill 2026-10-03; tabelas combate 2026-08-07)
 
 ---
 
@@ -42,9 +42,9 @@ Ablação: [03_ferimentos](../sistema/regras_red/03_ferimentos.md).
 
 | Drone | Função | Combate | Notas |
 | ----- | ------ | ------- | ----- |
-| **Hornet / Vesper / Barbed** (Vespas) | Recon / EW / distração | Sem ROF de rifle; mods stealth/combate | Loadout de marcha |
+| **Hornet / Vesper / Barbed** (Vespas) | Recon / EW / distração | Sem ROF de rifle. Hornet: mini-taser. Barbed: distração | Loadout de marcha. Spec abaixo |
 | **Pill** | Mula besouro-bola (médio) | Fuga: flashbang, fumaça, moral; choque na carapaça; wipe + autodest. último recurso | Spec: [drone - pill.md](drone%20-%20pill.md) |
-| **Warden** | Proteção / tech / mochila | **Não voa (F03)**; cauda taser = stun (DV Resist Torture/Drugs ou BODY vs 15 — 1 uso/cena típico); meia-cobertura balística | Prioridade extrair Ryan |
+| **Warden** | Proteção / tech / mochila | **Não voa (F03)**; cauda taser = stun (DV Resist Torture/Drugs ou BODY vs 15 — 1 uso/cena típico); meia-cobertura balística | Escorpião nas costas. Spec abaixo |
 | **Condor** | Recon aéreo estratégico (Pack) — longe / movimento | Sem ataque | F16; unmanned; **ave real**; spec → [drone - condor.md](drone%20-%20condor.md) |
 | **Corujas** | Infiltração / recon próximo / OSINT noturno (Pack) | Sem ataque | F16; 3 un.; unmanned; **ave real**; spec → [drone - corujas.md](drone%20-%20corujas.md) |
 | **Enxame mini** | Ideia (E017) | — | Sem protótipo |
@@ -65,6 +65,32 @@ Drone médio de carga. Forma de besouro; quando precisa proteger o que carrega, 
 - **Combate só de fuga** (não é drone de ataque): flashbang, fumaça e efeito moral.
 - **Carapaça:** choque para não ser tocado.
 - **Último recurso:** limpa os dados e só então se autodestrói.
+- **Humanity:** nenhum. Equipamento externo, não chrome.
+
+### Vespas — Hornet, Vesper, Barbed
+
+Três vespas pequenas. Discretas, quase automáticas. Andam com Ryan no loadout de marcha. Não são rifle e não têm ROF de arma.
+
+- **Hornet:** recon na frente. Câmera e mini-taser. Marca alvo para o smart lock (Vespas/Kiroshi).
+- **Vesper:** fica atrás. Jamming e relay de sinal.
+- **Barbed:** distração e utilidade. Explosivo pequeno, spray ou barulho — a ação secundária, não o tiro principal.
+- **Time:** Hornet marca, Vesper atrapalha sensor e retransmite, Barbed faz a distração.
+- **Falha:** perda de contato, hack ou isolamento: limpam os dados e explodem irrecuperáveis.
+- **Humanity:** nenhum. Equipamento externo, não chrome.
+- Dano do taser e do explosivo pequeno **não** travados. Não inventar dado.
+
+### Warden — escorpião de guarda
+
+Drone terrestre grande, tamanho de tronco. Nas costas parece mochila tática metálica; pinças e caudas ficam guardadas. Não voa (F03).
+
+- **Função:** proteção, olho nas costas, bolsa de ferramentas no engate.
+- **Pinças:** braços extras. O bônus técnico (+1 ou +2) **não** foi fechado com o narrador. Forma, não dado.
+- **Caudas:** taser (stun, DV Resist Torture/Drugs ou BODY vs 15, 1 uso/cena típico) e utilitária (seringa de toxina/sedativo, ou corte/solda).
+- **Carapaça:** meia-cobertura balística. Sacar arma aciona o modo proteção (Warden Sync, abaixo).
+- **Olho nas costas:** vigia o redor. Função de não ser pego de surpresa, não sensor de km.
+- **Se Ryan cai:** primeiro proteger ou arrastar para cobertura. Depois suporte vital básico (torniquete, pressão, injeção simples).
+- **Escalada:** não. Ficou de fora de propósito.
+- **HP / SP:** não travados. Não inventar.
 - **Humanity:** nenhum. Equipamento externo, não chrome.
 
 ## Armamentos (Ghostwire Series) — detalhe
