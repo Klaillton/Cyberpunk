@@ -8,8 +8,9 @@
 | ----- | ----- |
 | **Nome civil** | Lena Kane |
 | **Handle / rua** | **Valkirya** |
-| **Valk** | Apelido **carinhoso do Ryan** — não é o handle. Pack, crew, jobs e Echo: **Valkirya** (ou Lena). |
-| **Atalho de mesa** | “Valk” nos arquivos = a personagem; **in-fiction** só Ryan diz Valk por default (**F21**). Sem retcon de logs. |
+| **Valk** | Apelido **do Ryan** — não é o handle. |
+| **Morena** | Forma carinhosa **usual do Ryan**, junto de Valk. Na boca dele é ela — não é outra pessoa nem um descritivo que substitui o nome. |
+| **Atalho de mesa** | “Valk” nos arquivos = a personagem. **In-fiction** o Ryan diz **Valk** ou **Morena** (**F21**). Pack, crew, jobs e Echo: **Valkirya** (ou Lena), salvo se pegarem o apelido. Sem retcon de logs. |
 
 **Imagens de referência:**
 

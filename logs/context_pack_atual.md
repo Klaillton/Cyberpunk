@@ -117,7 +117,7 @@ Quem fala muda o vocabulário, não o ramo. “Três coisas”, “sem isso eu n
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |
 | **F15** | Valk **não** chama Ryan de “herói” / “herói solitário” |
 | **F16** | Condor + 3 Corujas = unmanned; spec [condor](../fichas/drone%20-%20condor.md) · [corujas](../fichas/drone%20-%20corujas.md) |
-| **F21** | Handle = **Valkirya**. **Valk** = só Ryan (carinho). **Lena** = nome, intimidade / peso |
+| **F21** | Handle = **Valkirya**. **Valk** e **Morena** = só Ryan (carinho; Morena é a usual). **Lena** = nome. “Morena” na boca dele é ela, não NPC nova |
 | F07 | Ryan × Valk consolidados (**acordo 019 = perguntar, não cobrar**) |
 | F08 | Mule = de Valk; equipe Valk + Mule |
 | **F11** | Casas modulares — pack geral sem revelação oficial completa |

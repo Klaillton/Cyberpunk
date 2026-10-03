@@ -1,6 +1,6 @@
 # Lena “Valkirya” Kane — Background (narrador)
 
-> Handle **Valkirya**. **Valk** = apelido do Ryan (**F21**). Sem retcon de logs.  
+> Handle **Valkirya**. **Valk** e **Morena** = apelidos do Ryan (**F21**); **Morena** é o carinho usual. “Morena” é ela, não outra pessoa. Sem retcon de logs.  
 > **Este arquivo:** backstory + pré-campanha. **Não** recontar a mesa aqui.  
 > SoT de agora: [ficha](../nomad%20-%20lena_valk_kane.md) · [Mule](../vehicle%20-%20the_mule.md) · [relacionamentos](../../relacionamentos/lena_valk_kane_relacionamentos.md) · [NOW](../../logs/context_pack_atual.md)
 

@@ -52,10 +52,12 @@ Playbook completo: **[npc_agencia_cena.md](npc_agencia_cena.md)**.
 - **Anti-loop:** se o mesmo diálogo ou menu de opções já apareceu **duas vezes**, na terceira o narrador **avança** com a decisão ou entrega do NPC.
 - Decisões operacionais já delegadas (ex.: Elias na destilaria) podem **progredir na mesma cena** se Ryan não intervém — narrar só o que ele percebe.
 
-### 3.2 Nomes — Valkirya / Valk (**F21**)
+### 3.2 Nomes — Valkirya / Valk / Morena (**F21**)
 
 - Handle de rua: **Valkirya**. Nome civil: Lena Kane.
-- **Valk** = apelido **carinhoso do Ryan**. Ele usa. Outros (Pack, crew, jobs, Echo): **Valkirya** ou Lena, salvo se tiverem pego o apelido dele.
+- **Valk** e **Morena** = apelidos **do Ryan**. Ele usa os dois. **Morena** é a forma carinhosa usual.
+- Se o jogador disser **Morena**, é a Lena. Não perguntar quem é. Não corrigir para só “Valk”. Não abrir NPC nova.
+- Outros (Pack, crew, jobs, Echo): **Valkirya** ou Lena, salvo se tiverem pego o apelido dele.
 - Atalho de mesa “Valk” nos arquivos está ok. **Não** reescrever logs/diálogos antigos.
 
 ### 3.3 Temperatura NPC (anti-reset no boot)

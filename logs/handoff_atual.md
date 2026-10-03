@@ -55,7 +55,7 @@ Pack fim de tarde. Tenda. Chip **aberto**. Debrief Reyes pendente. Não reabrir 
 ### Trava
 
 - Não reabrir Condor SOP / jantar 023 / base agora / caixa 101 / canyon do corte.  
-- 019 = perguntar uma vez. F15 sem “herói”. F21 Valkirya / Valk; Lena = nome.  
+- 019 = perguntar uma vez. F15 sem “herói”. F21 Valkirya / Valk / Morena (Ryan; Morena = carinho usual). Lena = nome. Morena ≠ NPC nova.  
 - F16 Condor unmanned.  
 - Ryan pode cortar; NPC **não** copia o corte.
 
@@ -104,7 +104,7 @@ NOW = tenda a sós → **ramo 3**. Reyes / refeitório / pátio → **ramo 2**. 
 ## Trava
 - Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon
 - 019 = ela pergunta uma vez antes de vetar
-- F15: sem “herói” · F21: Valkirya / Valk · Lena = nome · F16: Condor unmanned
+- F15: sem “herói” · F21: Valkirya / Valk / Morena (Ryan) · Lena = nome · Morena ≠ NPC nova · F16: Condor unmanned
 - N13 situar (não gavetas), em todo ramo
 
 ## Boca (ramo antes da frase — esta seção ganha das outras)
