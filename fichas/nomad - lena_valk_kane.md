@@ -69,13 +69,44 @@ No **flanco esquerdo** — costela / abdômen até o quadril — tinta tribal es
 
 | Skill                | Nível | Skill                | Nível |
 | -------------------- | ----- | -------------------- | ----- |
-| Drive Land Vehicle   | 6     | Streetwise           | 4     |
-| Handgun              | 5     | Tactics              | 4     |
+| Drive Land Vehicle   | 7     | Streetwise           | 4     |
+| Handgun              | 6     | Tactics              | 4     |
 | Vehicle Tech         | 5     | Stealth              | 4     |
-| Perception           | 5     | Resist Torture/Drugs | 4     |
+| Perception           | 6     | Resist Torture/Drugs | 4     |
 | Athletics            | 4     | First Aid            | 3     |
 | Local Expert (Roads) | 3     | Endurance            | 3     |
 | Brawling             | 3     | Melee Weapon         | 2     |
+
+Vehicle Tech desta ficha = **Land Vehicle Tech**.
+
+## Role Ability: Moto 6
+
+Criação era **Moto 4** (o rank não estava na ficha). Ranks 5 e 6 pagos com IP, 2026-10-11.
+
+O rank soma em qualquer teste de **Drive Land Vehicle**, **Pilot Air Vehicle**, **Pilot Sea Vehicle**, **Land / Air / Sea Vehicle Tech**.
+
+| Teste que ela usa | Conta |
+| ----------------- | ----- |
+| Dirigir | REF 8 + Drive 7 + Moto 6 + 1d10 = **21 + 1d10** |
+| Land Vehicle Tech | TECH 7 + Vehicle Tech 5 + Moto 6 + 1d10 = **18 + 1d10** |
+| Handgun | REF 8 + 6 + 1d10 = **14 + 1d10** |
+| Perception | INT 6 + 6 + 1d10 = **12 + 1d10** |
+
+**Motorpool:** 1 escolha por rank, **6 em aberto** (4 da criação + rank 5 + rank 6). Cada escolha é um veículo de estoque daquele rank ou menos, ou um upgrade de rank igual ou menor num veículo da família. A família original está morta. O Mule já é dela. 8x8, Vanisher, MIAC-5 e o SP 20 continuam obra de campanha do Ryan — não gastam estas escolhas. Nada novo entra no Mule por esta linha até uma escolha ser sacada.
+
+**IP até a 028:** acerto **1.060** (22 sessões na faixa 40 + 6 na faixa 30; a mesma conta do Ryan). Gasto **1.040**. Sobram **20**.
+
+| Compra | Custo |
+| ------ | ----- |
+| Moto 5 | 300 |
+| Moto 6 | 360 |
+| Drive Land Vehicle 6→7 | 140 |
+| Perception 5→6 | 120 |
+| Handgun 5→6 | 120 |
+
+Moto 7 custaria mais 420. Faltam 400 para esse passo. Os 20 que sobram não compram o próximo nível de nenhuma skill que ela já tem (o mais barato útil seria Melee 2→3 = 60).
+
+Regras: [07_roles.md](../sistema/regras_red/07_roles.md) · [09_veiculos.md](../sistema/regras_red/09_veiculos.md).
 
 ## Cyberware
 

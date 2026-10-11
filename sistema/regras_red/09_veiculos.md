@@ -1,7 +1,7 @@
 ---
-version: 1.1.0
+version: 1.1.1
 status: stable
-last_updated: 2026-10-03
+last_updated: 2026-10-11
 source: Cyberpunk RED core (resumo operacional) + ficha The Mule
 ---
 
@@ -78,9 +78,9 @@ Skills de outros meios (Water / Air) só se a cena e a ficha tiverem.
 
 ## 6. Nomad — Moto (ponte)
 
-- Role Ability **Moto** / Family (core): bônus com veículos da família / pack — ver ranks na ficha da **Valk**.  
-- Em dúvida: Valk + Mule = pacote tático (F08); bônus de Moto só se a ficha tiver rank listado.  
-- **Não** aplicar bônus Nomad a Ryan por default (ele não é Nomad).
+- Role Ability **Moto 6** (ficha da Valk): +6 em Drive Land / Pilot Air / Pilot Sea e em Land / Air / Sea Vehicle Tech. Dirigir o Mule: REF 8 + Drive 7 + Moto 6 + 1d10.
+- Valk + Mule = pacote tático (F08). As 6 escolhas de motorpool estão em aberto; não somar upgrade novo no Mule por esta linha.
+- **Não** aplicar Moto a Ryan (ele não é Nomad).
 
 ---
 
@@ -102,6 +102,10 @@ Anti-ID / Void List em jobs com Echo: ver ficha Mule + [echo_exposicao](../echo_
 ---
 
 ## Changelog
+
+### 1.1.1 — 2026-10-11
+
+- Valk Moto 6 na ponte. Motorpool não entra no Mule.
 
 ### 1.1.0 — 2026-10-03
 

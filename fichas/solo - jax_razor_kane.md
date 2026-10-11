@@ -76,7 +76,19 @@ EMP no limite = custo de chrome **visual**, não tema de cyberpsychosis.
 
 ## Role Ability: Combat Awareness 6
 
-Pontos por cena para iniciativa, detecção de emboscada e bônus de combate — gastar conforme rank; não spam. Regras: [07_roles.md](../sistema/regras_red/07_roles.md). Rifle / extração armada, não CQC de Reina.
+Pool de **6** pontos (1 por rank). Remanejar no início do combate, fora dele, ou em combate com uma Action. Se ninguém mexer, vale este padrão. Rifle / extração. Reina é o escudo.
+
+**Padrão — o tiro:**
+
+| Efeito | Pontos | Na jogada |
+| ------ | ------ | --------- |
+| Precision Attack | 3 | **+1** em ataques |
+| Spot Weakness | 2 | **+2** de dano, antes da armadura, no primeiro acerto do round |
+| Threat Detection | 1 | **+1** em Perception |
+
+Kerenzikov já dá **+2** de Iniciativa. Este padrão não compra Initiative Reaction nem Damage Deflection.
+
+Regras: [07_roles.md](../sistema/regras_red/07_roles.md).
 
 ---
 

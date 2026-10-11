@@ -68,7 +68,8 @@ Compartilha o sobrenome **Voss** com Ryan, mas **sem parentesco**. O sobrenome e
 - Paramedic (x2): 6 (excelente em campo)
 - Cybertech: 6
 - Basic Tech: 5
-- Medical Tech (via Role): Alta prioridade
+- Medical Tech: 1 (via Pharmaceuticals; ver Medicine abaixo)
+- Surgery: 6 (via Medicine; ver abaixo)
 - Resist Torture/Drugs: 5
 - Deduction: 5
 - Science (Biologia/Medicina): 5
@@ -85,11 +86,19 @@ Compartilha o sobrenome **Voss** com Ryan, mas **sem parentesco**. O sobrenome e
 
 ## MEDICINE (Role Ability - Rank 4)
 
-**Escolhas de Especialidades:**
+**4 pontos**, um por rank. Cada ponto vai para uma especialidade: Surgery, Pharmaceuticals ou Cryosystem.
 
-- Surgery (forte em implantes e ferimentos graves)
-- Medical Tech (Pharmaceuticals) (drogas de combate customizadas)
-- Medical Tech (Cryosystem) (se aplicável)
+| Especialidade | Pontos | O que vira |
+| ------------- | ------ | ---------- |
+| Surgery | 3 | Surgery skill **6** (2 de skill por ponto). Critical injury, implante de chrome, a mesa. |
+| Pharmaceuticals | 1 | Medical Tech skill **1**. Droga: **Stim**. |
+| Cryosystem Operation | 0 | Sem tanque. A linha antiga dizia "se aplicável". |
+
+**Stim:** a dose faz o alvo ignorar as penalidades de Seriously Wounded por uma hora. Uma vez por dia na mesma pessoa. Sintetizar: DV 13 com Medical Tech, 200 eb de material; em 1 hora, doses iguais ao Medical Tech (aqui, 1).
+
+Na jogada: TECH 8 + Surgery 6 + 1d10 na mesa. TECH 8 + Medical Tech 1 + 1d10 para a droga.
+
+Trocar o ponto de Stim por Speedheal (cura BODY+WILL, 1×/dia, se não estiver Mortally Wounded) não muda o resto. Cryo continua 0 até existir tanque.
 
 ## Cyberware (discreto, foco médico - HL controlado)
 

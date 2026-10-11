@@ -1,7 +1,7 @@
 ---
-version: 1.0.3
+version: 1.0.4
 status: stable
-last_updated: 2026-09-09
+last_updated: 2026-10-11
 source: Cyberpunk RED core (resumo operacional) + fichas da crew
 ---
 
@@ -21,7 +21,7 @@ Netrunning profundo: Fase 4 ([10](10_netrunning.md) quando existir).
 | Ranks | Maker **5** · Upgrade **3** · Invention **2** · Fabrication **4** · Field **1** |
 | Regras | [08_techie.md](08_techie.md) |
 
-**Em mesa:** fabricar, upar, inventar, jury rig, drones; Upgrade Expertise reduz HL em implantes elegíveis.
+**Em mesa:** fabricar, upar, inventar, jury rig, drones; Upgrade Expertise reduz HL em implantes elegíveis. Rank 5 pôs 1 em Field e 1 em Fabrication. Sequência na ficha. IP até a 028: acerto 1.060, gasto 940, sobram 120.
 
 ---
 
@@ -32,8 +32,9 @@ Netrunning profundo: Fase 4 ([10](10_netrunning.md) quando existir).
 | Ficha | [nomad - lena_valk_kane.md](../../fichas/nomad%20-%20lena_valk_kane.md) |
 | Veículo | [The Mule](../../fichas/vehicle%20-%20the_mule.md) · [09_veiculos](09_veiculos.md) |
 | F08 | Equipe **Valk + Mule** (atalho; handle = **Valkirya**, F21) |
+| Moto | **6** (criação 4 + IP). +6 em Drive e Vehicle Tech. Motorpool: 6 escolhas em aberto |
 
-**Em mesa:** bônus com veículos da família/pack (rank Moto na ficha se listado); Drive e perseguição; extração.  
+**Em mesa:** REF 8 + Drive 7 + Moto 6 + 1d10 ao dirigir. IP até a 028: acerto 1.060, gasto 1.040, sobram 20. Os upgrades do Mule (8x8, Vanisher, MIAC) não gastam motorpool.  
 Ryan **não** usa Moto por default.
 
 ---
@@ -42,10 +43,10 @@ Ryan **não** usa Moto por default.
 
 | Campo | Valor |
 | ----- | ----- |
-| Jax | [solo - jax_razor_kane.md](../../fichas/solo%20-%20jax_razor_kane.md) — Combat Awareness **6** (rifle / extração armada) |
-| Reina | [solo - reina_bearclaw_morales.md](../../fichas/solo%20-%20reina_bearclaw_morales.md) — Combat Awareness **6** (CQC / proteção) |
+| Jax | [solo - jax_razor_kane.md](../../fichas/solo%20-%20jax_razor_kane.md) — Combat Awareness **6**. Padrão: Precision 3, Spot Weakness 2, Threat Detection 1 |
+| Reina | [solo - reina_bearclaw_morales.md](../../fichas/solo%20-%20reina_bearclaw_morales.md) — Combat Awareness **6**. Padrão: Damage Deflection 4, Threat Detection 1, Spot Weakness 1 |
 
-**Em mesa (resumo core):** pontos de Combat Awareness por cena para init, detecção de emboscada, bônus de combate — gastar conforme rank; não spam infinito.
+**Em mesa:** a pool é o rank (6 pontos), não 2 por nível. Remanejar no início do combate ou com uma Action. Se ninguém mexer, vale o padrão da ficha. Kerenzikov já cobre a Iniciativa dos dois.
 
 ---
 
@@ -65,9 +66,9 @@ Ryan **não** usa Moto por default.
 | Campo | Valor |
 | ----- | ----- |
 | Ficha | [medtech - stephania_stitch_voss.md](../../fichas/medtech%20-%20stephania_stitch_voss.md) |
-| Medicine | Rank **4** (Surgery, pharma, etc.) |
+| Medicine | Rank **4** = 4 pontos. Surgery **3** (skill 6) · Pharmaceuticals **1** (Stim, Medical Tech 1) · Cryo **0** |
 
-**Em mesa:** First Aid / Paramedic / Surgery com DV melhores e opções de pharma; **≠ Doc Moreau** (F04).
+**Em mesa:** TECH 8 + Surgery 6 na mesa; Stim ignora a penalidade de Seriously Wounded por uma hora. **≠ Doc Moreau** (F04).
 
 ---
 
@@ -115,6 +116,11 @@ Lawman / Exec / etc.: **não na crew** — se aparecer NPC, criar bloco ou usar 
 ---
 
 ## Changelog
+
+### 1.0.4 — 2026-10-11
+
+- Ryan: rank 5 = Field 1 + Fabrication 1. IP 1.060 / gasto 940 / sobram 120.
+- Valk: Moto 6. Jax/Reina: loadout padrão da pool de 6. Stitch: Surgery 3, Stim 1, Cryo 0.
 
 ### 1.0.3 — 2026-09-09
 
