@@ -24,7 +24,7 @@ A ficha define **ranks** por sub-habilidade (nomes do core / ficha):
 | ----------------- | -------------------- | ----------- |
 | Upgrade Expertise | 3 | Upgrades / reduzir custo HL em implantes elegíveis (core) |
 | Invention | 2 | Planta de item novo ou upgrade fora da lista |
-| Fabrication | 2 | Constrói item de catálogo ou já inventado |
+| Fabrication | 4 | Constrói item de catálogo ou já inventado |
 | Field Expertise | 1 | Reparo não-Maker + jury-rig |
 
 Outras capacidades Techie via **skills**: Basic Tech, Electronics/Security Tech, Weaponstech, etc. (ficha).

@@ -170,9 +170,9 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 
 | Skill | Nível | Skill | Nível |
 | ----- | ----- | ----- | ----- |
-| Cybertech | 8 | Basic Tech | 7 |
+| Cybertech | 9 | Basic Tech | 8 |
 | Electronics/Security Tech | 7 | Air Vehicle Tech | 6 |
-| Weaponstech | 6 | Land Vehicle Tech | 5 |
+| Weaponstech | 8 | Land Vehicle Tech | 5 |
 | First Aid | 4 | Sea Vehicle Tech | 4 |
 
 ### Combate / corpo
@@ -212,11 +212,12 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 
 ## Role Ability: Maker
 
-- **Maker 4** (criação, core). 8 pontos de especialidade. 4 estavam por gastar. Alocados em 2026-10-11.
+- **Maker 5.** Criação era 4. Rank 5 comprado com IP de acerto (sessões 001–028), 2026-10-11.
 - Upgrade Expertise: 3 (reduz 1d6 HL em implantes elegíveis)
 - Invention: 2 (planta de item novo ou upgrade fora da lista)
-- Fabrication: 2 (constrói item de catálogo ou já inventado)
+- Fabrication: 4 (os +2 do rank 5). Constrói item de catálogo ou já inventado.
 - Field Expertise: 1 (reparo não-Maker + jury-rig)
+- **IP:** acerto 1.000 até a 028. Gasto 940 (Maker 5 = 300, Cybertech 9 = 180, Weaponstech 8 = 300, Basic Tech 8 = 160). Sobram **60**.
 - **Regras de mesa:** [07_roles.md](../sistema/regras_red/07_roles.md) · [08_techie.md](../sistema/regras_red/08_techie.md) · HL [05_cyberware.md](../sistema/regras_red/05_cyberware.md)
 
 ## Loadout tático
