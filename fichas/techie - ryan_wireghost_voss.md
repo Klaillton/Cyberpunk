@@ -212,12 +212,20 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 
 ## Role Ability: Maker
 
-- **Maker 5.** Criação era 4. Rank 5 comprado com IP de acerto (sessões 001–028), 2026-10-11.
-- Upgrade Expertise: 3 (reduz 1d6 HL em implantes elegíveis)
-- Invention: 2 (planta de item novo ou upgrade fora da lista)
-- Fabrication: 4 (os +2 do rank 5). Constrói item de catálogo ou já inventado.
-- Field Expertise: 1 (reparo não-Maker + jury-rig)
-- **IP:** acerto 1.000 até a 028. Gasto 940 (Maker 5 = 300, Cybertech 9 = 180, Weaponstech 8 = 300, Basic Tech 8 = 160). Sobram **60**.
+- **Maker 5.** Criação era 4. Rank 5 comprado com IP (sessões 001–028), 2026-10-11.
+- **Totais (não mudam):** Upgrade 3 · Invention 2 · Fabrication 4 · Field 1. Soma **10** = 2 por rank.
+- Cada rank põe **1** ponto em **duas especialidades diferentes**. Sequência que fecha esses totais:
+  - Rank 1: Invention 1, Fabrication 1
+  - Rank 2: Invention 2, Upgrade 1
+  - Rank 3: Fabrication 2, Upgrade 2
+  - Rank 4: Fabrication 3, Upgrade 3
+  - Rank 5: **Field Expertise 1** e **Fabrication 4**
+- A ficha antiga, no rank 4, só tinha Invention 1 e Upgrade 3. A sequência acima é a correção legal. O rank 5 não pôs os dois pontos na Fabrication.
+- Upgrade 3: reduz 1d6 HL em implantes elegíveis.
+- Invention 2: planta de item novo ou upgrade fora da lista.
+- Fabrication 4: constrói item de catálogo ou já inventado.
+- Field 1: reparo não-Maker + jury-rig.
+- **IP:** acerto **1.060** até a 028 (22 sessões na faixa 40 + 6 na faixa 30; o log não marcou IP por sessão). Gasto **940** (Maker 5 = 300, Cybertech 9 = 180, Weaponstech 8 = 300, Basic Tech 8 = 160). Sobram **120**.
 - **Regras de mesa:** [07_roles.md](../sistema/regras_red/07_roles.md) · [08_techie.md](../sistema/regras_red/08_techie.md) · HL [05_cyberware.md](../sistema/regras_red/05_cyberware.md)
 
 ## Loadout tático

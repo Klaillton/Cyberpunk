@@ -51,7 +51,19 @@ Hoje: freelancer de rua. Presença primeiro, porrada se precisar. **“Mãe Urso
 
 ## Role Ability: Combat Awareness 6
 
-Pontos por cena para iniciativa, detecção de emboscada e bônus de CQC — gastar conforme rank; não spam. Regras: [07_roles.md](../sistema/regras_red/07_roles.md).
+Pool de **6** pontos (1 por rank). Remanejar no início do combate, fora dele, ou em combate com uma Action. Se ninguém mexer, vale este padrão. CQC / proteção. Jax é o tiro.
+
+**Padrão — o escudo:**
+
+| Efeito | Pontos | Na jogada |
+| ------ | ------ | --------- |
+| Damage Deflection | 4 | **−2** no primeiro dano que ela toma no round |
+| Threat Detection | 1 | **+1** em Perception |
+| Spot Weakness | 1 | **+1** de dano, antes da armadura, no primeiro acerto do round |
+
+Kerenzikov já dá **+2** de Iniciativa. Este padrão não compra Initiative Reaction. O −2 da Deflection é só o primeiro dano do round.
+
+Regras: [07_roles.md](../sistema/regras_red/07_roles.md).
 
 ## Skills (86 pts; Combat Awareness à parte)
 
