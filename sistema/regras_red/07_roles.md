@@ -18,7 +18,7 @@ Netrunning profundo: Fase 4 ([10](10_netrunning.md) quando existir).
 | Campo | Valor |
 | ----- | ----- |
 | Ficha | [techie - ryan_wireghost_voss.md](../../fichas/techie%20-%20ryan_wireghost_voss.md) |
-| Ranks | Upgrade Expertise **3** · Invention **1** |
+| Ranks | Maker **4** · Upgrade **3** · Invention **2** · Fabrication **2** · Field **1** |
 | Regras | [08_techie.md](08_techie.md) |
 
 **Em mesa:** fabricar, upar, inventar, jury rig, drones; Upgrade Expertise reduz HL em implantes elegíveis.

@@ -212,8 +212,11 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 
 ## Role Ability: Maker
 
+- **Maker 4** (criação, core). 8 pontos de especialidade. 4 estavam por gastar. Alocados em 2026-10-11.
 - Upgrade Expertise: 3 (reduz 1d6 HL em implantes elegíveis)
-- Invention: 1 (criação de drones e equipamentos customizados)
+- Invention: 2 (planta de item novo ou upgrade fora da lista)
+- Fabrication: 2 (constrói item de catálogo ou já inventado)
+- Field Expertise: 1 (reparo não-Maker + jury-rig)
 - **Regras de mesa:** [07_roles.md](../sistema/regras_red/07_roles.md) · [08_techie.md](../sistema/regras_red/08_techie.md) · HL [05_cyberware.md](../sistema/regras_red/05_cyberware.md)
 
 ## Loadout tático
