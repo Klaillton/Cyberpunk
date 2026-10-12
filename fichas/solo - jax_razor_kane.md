@@ -3,7 +3,7 @@
 > **F14:** Solo da **crew** em Night City. **Não** é **Scout**, sentinela do Pack Badlands ([scout.md](npc/scout.md)).
 
 **Role:** Solo (Combat Awareness **6**)  
-**Idade aparente:** 38  
+**Idade aparente:** 41  
 **Conceito:** Ex-Solo da Militech virado freelancer. Não odeia corporação — odeia operação malfeita e “perda aceitável”. Gosta de combate, não de guerra. Competitivo sem ser agressivo (placar no bar, academia, stand). Entrou na crew porque pagam, escolhem alvo e voltam pelos seus.
 
 <img src="../imagens/solo%20-%20jax_razor_kane.png" width="220" alt="Jax Razor Kane" />
