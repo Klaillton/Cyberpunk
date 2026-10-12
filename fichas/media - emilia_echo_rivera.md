@@ -1,7 +1,7 @@
 # Emilia "Echo" Rivera
 
 **Role:** Media (Credibility **7**)  
-**Idade aparente:** 29  
+**Idade aparente:** 27  
 **Conceito:** Ex-repórter investigativa silenciada por megacorps; agora *ghost reporter* freelancer. Vaza verdades, filma ops no momento certo e transforma jobs em narrativas anti-corp. Perception, Human Perception, Streetwise, Persuasion, Composition.
 
 <img src="../imagens/media%20-%20emilia_echo_rivera.jpg" width="220" alt="Emilia Echo Rivera" />
