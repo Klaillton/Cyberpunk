@@ -2,7 +2,7 @@
 
 **Role:** MedTech (Medicine Rank 4)  
 **Apelido de street / crew:** **Stitch** (não usar “Doc” — esse título no lore de Ryan é da **Elisa “Doc” Moreau**)  
-**Idade aparente:** 38 anos  
+**Idade aparente:** 36 anos  
 **Conceito:** Ex-Ripperdoc de rua com passagem por clínica corporativa de baixo escalão. Especialista em cirurgia de campo, instalação e manutenção de chrome, tratamento de ferimentos graves e uso criativo de drogas de combate. Calma sob pressão, sarcástica, "mãe do grupo" que vive reclamando da alimentação e autocuidado da crew (virou piada interna). Código ético forte: “não deixo ninguém morrer na mesa”. Tem potencial de amizade forte com Lena “Valkirya” Kane por valores semelhantes de lealdade. Sempre fala que vai parar de remendar o grupo sempre que eles chegam quebrados dos Jobs mas é a que fica mais preocupada com todo mundo.
 
 **Descrição Visual (baseada na imagem gerada):**  
