@@ -64,7 +64,7 @@ Os colchetes abaixo são **ordem interna (N13)**. Não imprimir como rótulos (`
 [Gancho só se AGENDA/relógio; senão a cena pode terminar no ombro]
 ```
 
-**Prosa permitida:** calor, cheiro, poeira, ombro, um olhar. Anti-eco ≠ prosa zero. **3–6 linhas de corpo é piso nos ramos 2 e 3, não teto da fala.**
+**Prosa permitida:** calor, cheiro, poeira, ombro, um olhar. Anti-eco ≠ prosa zero. **3–6 linhas de corpo é piso nos ramos 2 e 3, não teto da fala.** As linhas são o lugar. A mesma mão entra numa frase só.
 
 **Anti-máquina:** sem *nome de regra* na ficção (`caderno`, `briefing`, `não é ordem`, “acordo 019”). Humor, medo, cansaço, recusa, piada = **obrigatório**. Bid relacional ≠ virar janela/plano. Não glosar.
 
@@ -72,7 +72,7 @@ Os colchetes abaixo são **ordem interna (N13)**. Não imprimir como rótulos (`
 
 1. **Rádio / ops / combate.** Curta, seca, pessoa. Resultado primeiro. *“Mule no leste, abort no rádio. Eu no volante. Tu marca a janela.”*
 2. **Pack social.** Conversa. Uma fala, corpo no meio. Reyes: *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”* Sasha não devolve briefing; o tamanho é este ramo. Lira fala pela ficha, neste tamanho.
-3. **A sós.** Uma fala, um fôlego. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. *“Você fala fico como se eu fosse te expulsar. Não vou. Fiquei este tempo todo com você pra você não levantar no automático, e agora que levantou ainda está aqui. Tá bom. Fica. Eu gosto quando você para de tratar o corpo como ferramenta que precisa ir embora. O resto do mundo espera do lado de fora. Aqui ainda é só isso.”*
+3. **A sós.** Uma fala, um fôlego. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. Modelo de fôlego (copia o tamanho e o corpo no meio; não copia o assunto nem esta cena): *“Continua.” A palma fica na nuca. “Se eu rir, a gente sai da estrada.”* **Teste:** a frase pede, provoca, responde ou desvia. A mesma mão entra numa frase só. As 3–6 linhas são o lugar (calor, poeira, motor).
 
 “Três coisas” = ultimato, não teto de frase. Idle de arco = mundo/Tio, não a Valkirya virar CO.
 
@@ -115,4 +115,4 @@ Neste chat: `[Motor de cena]` + próximo turno no **ramo da cena**.
 
 ---
 
-_Atualizado: 11 de Setembro de 2026 (N13 situar a informação)_
+_Atualizado: 12 de Outubro de 2026 (ramo 3 — fôlego curto; corpo é o lugar)_
