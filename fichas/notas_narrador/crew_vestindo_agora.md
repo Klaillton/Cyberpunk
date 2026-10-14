@@ -15,7 +15,8 @@ Preferir **arquivo** (estável). `#` é atalho do índice atual.
 
 | Quem | Arquivo | # | 1 linha de roupa | Desde (data) | Origem |
 | ---- | ------- | - | ---------------- | ------------ | ------ |
-| Valk | `soft_boho_kimono.jpg` | 161 | Kimono boho + crochê + short (pack / pós-banho 028) | 04/08/2026 tarde | dona / pool |
+| Ryan | `quick_operator.jpg` | — | Quick operator (estrada / hop) | 05/08/2026 noite | dona |
+| Valk | `soft_boho_kimono.jpg` | 161 | Kimono boho + crochê + short (pack / pós-banho 028; ainda no Mule) | 04/08/2026 tarde | dona / pool |
 | Alex | | | | | |
 | Reina | | | | | |
 | Stitch | | | | | |
@@ -33,6 +34,7 @@ Preferir **arquivo** (estável). `#` é atalho do índice atual.
 
 | Quem | Ontem (arquivo) | Últimos 3 (mais recente à esquerda) |
 | ---- | --------------- | ----------------------------------- |
+| Ryan | `quick_operator.jpg` | quick_operator · *(casual+botas 028)* |
 | Valk | `soft_boho_kimono.jpg` | 161 · *(cena 03/08 tenda)* · *(cena 27/07 tenda)* |
 | Alex | | |
 | Reina | | |
@@ -69,5 +71,5 @@ Detalhe e prosa de empréstimo: diretrizes § **Roupa em cena**.
 
 | Campo | Valor |
 | ----- | ----- |
-| Sessão / data in-game | 028 / 04/08/2026 fim de tarde |
-| Notas | Valk: kimono boho 161. Ryan: casual + botas (pós-banho tenda). |
+| Sessão / data in-game | 029 / 05/08/2026 noite |
+| Notas | Ryan: quick_operator.jpg (estrada). Valk: kimono boho 161 (ainda no Mule). |

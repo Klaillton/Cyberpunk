@@ -2,7 +2,7 @@
 
 **Uso:** planta curta. O boot não lê este arquivo inteiro.  
 **SET NOW** vive no `logs/context_pack_atual.md`. `[Carregar cena: <tag>]` abre só o § da tag.  
-**Fonte:** sessão 001 (gerador, máquinas), 003–004 (tendas), 011 (casa), 019 (garagem), 020 (extrusora), 026 (lona do banho). O circuito do banho e o nome das máquinas saíram do chat e foram confirmados pelo jogador em 25/09/2026. Não estavam nos resumos.
+**Fonte:** sessão 001 (gerador, máquinas), 003–004 (tendas), 011 (casa), 019 (garagem), 020 (extrusora), 026 (lona do banho). O circuito do banho e o nome das máquinas saíram do chat e foram confirmados pelo jogador em 25/09/2026. Não estavam nos resumos. **029:** torno com embreagem improvisada no avanço.
 
 Sem história de sessão. Sem voz. Sem SOP.
 
@@ -33,7 +33,7 @@ Onde: Pack · oficina do Tio Gringo
 Quem usa: Tio Gringo, alunos, Ryan  
 O que É: forja e usinagem no mesmo lugar. Depósito ligado a essa oficina. Sucata na prateleira esquerda.  
 O que NÃO é: a garagem do Rusty.  
-Máquinas (feitas no conserto do gerador principal): extrusora; torno (gira o bloco para desbastar); máquina de corte; furadeira de bancada.  
+Máquinas (feitas no conserto do gerador principal): extrusora; torno (gira o bloco para desbastar; **029:** embreagem improvisada no motor de avanço — fio + relé corta corrente se o bit morder forte); máquina de corte; furadeira de bancada.  
 Quem mexe: Tio no dia a dia. Ryan nas máquinas que ele pôs. Rusty não manda aqui.
 
 ## garagem · veículos
