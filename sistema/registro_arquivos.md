@@ -39,7 +39,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Atividades de downtime do Ryan | `logs/downtime_ryan.md` | `board/board_campanha.md`, `fichas/techie - ryan_wireghost_voss.md` |
 | **Guarda-roupa / visual por ocasião (Ryan)** | `fichas/ryan_guarda_roupas.md` | `imagens/ryan/guarda_roupas/`, ficha techie |
 | **Guarda-roupa / peças por ocasião (feminino)** | `fichas/crew_guarda_roupas.md` | `imagens/crew/guarda_roupas/` — foco em **roupa**, não personagem da foto |
-| **Quem está vestindo o quê agora** | `fichas/notas_narrador/crew_vestindo_agora.md` | `roupa_por_ocasiao.md`, context pack NOW |
+| **Quem está vestindo o quê agora** | `fichas/notas_narrador/crew_vestindo_agora.md` | `fichas/notas_narrador/roupa_por_ocasiao.md`, context pack NOW |
 | **Projeto futuro armadura Reina (não canônico)** | `fichas/reina_armour_project.md` | Ficha Reina; `imagens/reina/reina_armour_1.jpg` · `_2.jpg` · `reina_bursts.jpg` — **só após ATIVO** |
 | **Projeto futuro moto Reina (não canônico)** | `fichas/reina_byke_project.md` | Ficha Reina; `imagens/reina/bike9.jpg` — **só após ATIVO** |
 | Background e gatilhos do Ryan (narrador) | `fichas/notas_narrador/ryan_background_completo.md` | `fichas/notas_narrador/ryan_gatilhos_memorias.md`, `fichas/techie - ryan_wireghost_voss.md` (Elisa "Doc" Moreau) |
@@ -51,6 +51,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Background Jax (narrador) | `fichas/notas_narrador/jax_razor_kane_background.md` | Combate ≠ guerra; placar; Militech = carreira ≠ vendetta; ≠ mesa; off-screen NC |
 | Background Leopold (narrador) | `fichas/notas_narrador/leopold_habsbruck_background.md` | Prometheus; chama de três linhas; teia Habsbrück / avó / Kaz / Zoners = nota; ≠ Echo; **F23**; off-screen NC |
 | Background Kaz (narrador) | `fichas/notas_narrador/kaz_broker_takahashi_background.md` | Matching, não milagre; origem = clínica/Santo Domingo, **não** traição; Rosa/Mik/Nadia **não voltam**; Operator **6** = procedimento, não lista de nomes; ≠ mesa; off-screen NC |
+| Background Stitch (narrador) | `fichas/notas_narrador/stephania_stitch_background.md` | Backstory ≠ mesa; ≠ Doc Moreau (F04) |
 | Ficha Leopold (Rockerboy) | `fichas/rockerboy - leopold_habsbruck.md` | CI **6** · 62 stats · 100 skills · fashionware; rel [leopold_habsbruck_relacionamentos.md](../relacionamentos/leopold_habsbruck_relacionamentos.md); pulso `pulso_do_mundo/crew/leopold.md`; chama `imagens/leopold/prometheus_flame.jpg` |
 | Histórico de sessão | `logs/sessao_resumo_XXX.md` | Arquivos listados na seção "Arquivos Atualizados" de cada resumo |
 | Rascunho de fato no meio da sessão | `logs/notas_sessao.md` | `[Anotar]` playbook L. Não é cânone. Finalizar lê e esvazia |
@@ -63,7 +64,9 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | NPCs agem / falam entre si na cena (delegação, anti-loop) | `sistema/npc_agencia_cena.md` | `diretrizes_narrador.md` §3.1/§7.1, `comandos_jogador.md` § H |
 | Como atualizar após sessão | `sistema/como_atualizar_arquivos.md` | Este arquivo |
 | Horizontes da campanha (curto / médio / longo / fora) | `logs/context_pack_atual.md` bloco **NORTE** | `board/arco_ativo.md` (L1), `event_queue.md` (L2). **Não** copiar no board/dashboard |
-| **Tier-0 / anti-esquecimento sandbox** | `logs/context_pack_atual.md` | `fatos_duros.md`, `comandos_jogador.md`, bloco **MOTOR** + **NORTE** + **AGENDA** |
+| **Tier-0 / anti-esquecimento sandbox** | `logs/context_pack_atual.md` | `fatos_duros.md`, `comandos_jogador.md`, bloco **MOTOR** + **NORTE** + **AGENDA**. O freeze **não** entra aqui |
+| Freeze do lugar deixado (não boot) | `logs/context_pack_pack.md` | Pack como ficou na saída de 05/08. O NOW vivo continua `context_pack_atual.md` |
+| Boca / personalidade rápida | `sistema/vozes.md` | Referência no boot e no `[Refresh]`. Ficha e relacionamentos continuam SoT. O pack nomeia quem está na cena |
 | Fatos que não se inventam | `sistema/fatos_duros.md` | context pack, board |
 | Playbooks de comandos do jogador | `sistema/comandos_jogador.md` | instrucoes_projeto, diretrizes_ia |
 | Micro-recursos / estoque / produtores | `economia.md` § Atores · Estoque · Ryan mínimo | `[Estoque]` playbook K; pack_badlands (só link) |
@@ -79,12 +82,15 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Skills (mapa STAT) | `sistema/regras_red/06_skills.md` | ficha |
 | Role Abilities (crew) | `sistema/regras_red/07_roles.md` | fichas crew |
 | Maker / craft / drones (regras) | `sistema/regras_red/08_techie.md` | ficha Ryan, `ryan_loadout`, economia |
-| Veículos / perseguição / Mule (regras) | `sistema/regras_red/09_veiculos.md` | ficha Mule, Valk |
-| **Loadout tático Ryan (dano/ROF/WA)** | `fichas/ryan_loadout.md` | SoT stats armas/drones |
+| Veículos / perseguição / Mule (regras) | `sistema/regras_red/09_veiculos.md` | `fichas/vehicle - the_mule.md`, Valk |
+| **Loadout tático Ryan (dano/ROF/WA)** | `fichas/ryan_loadout.md` | SoT stats de armas. Drone = uma linha; a spec mora na ficha |
 | **Condor (envelope / lentes / trava)** | `fichas/drone - condor.md` | F16 · Pack · ave real reconstruída · não montaria |
 | **Corujas (3 / recon noturno / infiltração)** | `fichas/drone - corujas.md` | F16 · Pack · ave real reconstruída · unmanned · sem módulo |
+| **Pill (mula besouro-bola)** | `fichas/drone - pill.md` | F25 · médio · não é mochila · lugar da viagem no pack |
+| **Warden (escorpião / mochila)** | `fichas/drone - warden.md` | F03 · não voa · a mochila é ele · ≠ Pill |
+| **Vespas (Hornet, Vesper, Barbed)** | `fichas/drone - vespas.md` | F12 · pequenas · dano do taser não travado |
 | HP / SP / Death Save | `sistema/regras_red/03_ferimentos.md` | ficha do personagem, Finalizar |
-| House rules (stealth, drones, oficina) | `sistema/house_rules/regras_campanha.md` | `regras_red/00`, F03/F12/F16/F18 |
+| House rules (stealth, drones, oficina) | `sistema/house_rules/regras_campanha.md` | `regras_red/00`, F03/F12/F16/F18/F25 |
 | Versão do ruleset | `sistema/versionamento_regras.md` | `Ruleset: 1.4.0` no resumo novo; 017–028 ficam 1.3.0 |
 | Planos de trabalho (sistema) | `plans/README.md` | `plans/add-cyberpunk-red-mechanics.md` |
 | Auditoria combates pré-017 (só leitura) | `plans/auditoria_combates_canonicos.md` | F18 — **não** retcon |
@@ -96,7 +102,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 
 ## Estrutura Geral do Projeto
 
-O índice de árvore e o restante deste arquivo permanecem como na SoT 30/08 (Jax + Echo indexados). **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. **2026-09-28:** sessão **028**. **2026-10-14:** sessão **029**. Próximo resumo: **030**.
+A tabela acima é o índice. Não há árvore de pastas neste arquivo. **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. **2026-09-28:** sessão **028**. **2026-10-14:** sessão **029**. **2026-10-14:** Pill, Warden e Vespas com ficha própria; `sistema/vozes.md`; freeze `logs/context_pack_pack.md` (não é boot). Próximo resumo: **030**.
 
 ---
 

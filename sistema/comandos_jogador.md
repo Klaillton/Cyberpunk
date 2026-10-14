@@ -31,9 +31,9 @@
 | # | Ação |
 | - | ---- |
 | 1 | Declarar: `Refresh contexto — tier-0.` |
-| 2 | Abrir **nesta ordem**: `logs/context_pack_atual.md` (incl. bloco **MOTOR** + **NORTE** + **AGENDA**) → `sistema/fatos_duros.md` → (só se pack vazio/contraditório) `board/board_campanha.md`. |
+| 2 | Abrir **nesta ordem**: `logs/context_pack_atual.md` (incl. bloco **MOTOR** + **NORTE** + **AGENDA**) → `sistema/fatos_duros.md` → `sistema/vozes.md` (referência de boca) → (só se pack vazio/contraditório) `board/board_campanha.md`. |
 | 3 | Se local falhar: mesmos paths via **RAW**. |
-| 4 | **Proibido** neste comando: reler ficha completa, todos os relacionamentos, todos os `sessao_resumo_*`, pasta `pulso_do_mundo` inteira. |
+| 4 | **Proibido** neste comando: reler ficha completa, todos os relacionamentos, todos os `sessao_resumo_*`, pasta `pulso_do_mundo` inteira. `vozes.md` é a leitura de boca deste comando. |
 | 5 | Responder **no formato fixo abaixo** (obrigatório) — **inclui linha Motor**. |
 | 6 | Se o jogador **não** pediu continue/ação no mesmo turno: perguntar se retoma a cena. |
 | 7 | Se o mesmo turno trouxer **ação de RP** após o refresh: (a) bloco refresh completo (b) narração **já no ramo da cena**. N1b só se a ação for rádio/ops/combate/viagem. **Proibido** ecoar o procedimento do jogador. |
@@ -49,6 +49,7 @@
 - Fato duro 1 (ex. F03 Warden terrestre): …
 - Fato duro 2 (ex. F04 Stitch ≠ Doc): …
 - Motor: N1 sem eco · resultado-primeiro se OPERAÇÃO · AGENDA #… (1 linha do gancho ativo)
+- Vozes: `sistema/vozes.md` lido. Ramo da cena: … · ramos 2 e 3 = fala diegética e fluida, pode ter mais corpo
 - Conflito detectado? Não | Sim — fonte vencedora: RAW/board/pack
 ```
 
@@ -346,7 +347,7 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 - N1 sem eco (≤2 linhas = confirmação, não a fala) · N1b **só** ramo 1 · N2+ ramos 2 e 3 = SHOW + fala do ramo · N8 SOP no ramo 1 · N9 fecho de viagem limpa · **N13 situar** (checklist interno ≠ gavetas na tela)
 - Ramo antes da frase: rádio/ops · Pack social · a sós. Ficha muda o vocabulário, não o ramo. Anti-máquina = vocabulário de regra, não personalidade
 - AGENDA ativa: #… — …
-- Próximo turno: ramo 1 → outcomes primeiro; ramo 2 → conversa; ramo 3 → um fôlego
+- Próximo turno: ramo 1 → outcomes primeiro; ramo 2 → conversa diegética e fluida, pode ter mais corpo; ramo 3 → um fôlego diegético e fluido, pode ter mais corpo
 - Rodapé OOC: `ctrl N/90` continua (não narrar)
 - (Opcional) Chat longo com eco pesado → preferir novo chat + handoff
 ```

@@ -196,11 +196,11 @@ O ramo escolhe o tamanho. A ficha escolhe o vocabulário. O ramo de cima não va
 
 Plano já fechado (trava 023): não reabre. Uma confirmação: *“Continua o combinado. Eu vou com você.”*
 
-**Ramo 2 — Pack social.** Refeitório, oficina, pátio, corredor, Reyes, Mule parado. Conversa. Uma fala de gente, corpo no meio. Reyes não fala como Valkirya. Sasha não devolve briefing; o tamanho é este ramo. Lira fala pela ficha dela, neste tamanho.
+**Ramo 2 — Pack social.** Refeitório, oficina, pátio, corredor, Reyes, Mule parado. Conversa diegética e fluida. Uma fala de gente, corpo no meio. Pode ter mais corpo. Reyes não fala como Valkirya. Sasha não devolve briefing; o tamanho é este ramo. Lira fala pela ficha dela, neste tamanho.
 
 *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”*
 
-**Ramo 3 — A sós.** Tenda, banho, cama. Uma fala, um fôlego. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop não entram nesta boca. Corpo no meio da frase.
+**Ramo 3 — A sós.** Tenda, banho, cama. Uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop não entram nesta boca. Corpo no meio da frase. O corpo a mais é lugar e gesto, não discurso.
 
 Modelo de fôlego (copia o tamanho e o corpo no meio; não copia o assunto nem esta cena):
 

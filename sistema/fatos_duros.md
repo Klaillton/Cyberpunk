@@ -2,7 +2,7 @@
 
 **Finalidade:** lista **estável** de fatos que a IA **não pode inventar nem inverter**.  
 **Uso:** tier-0 com `logs/context_pack_atual.md`; comando `[Verificar fato]`; boot/refresh.  
-**Última revisão estrutural:** 22 de Agosto de 2026 (F22 — Janus / Alex; natureza só na nota)
+**Última revisão estrutural:** 14 de Outubro de 2026 (F25 — Pill; F03/F12 apontam para a ficha)
 
 > Snapshot de **data/local/prioridade** vive no **context pack** (muda a cada sessão).  
 > Este arquivo muda **raramente** — só quando a campanha redefinir um fato canônico.
@@ -26,7 +26,7 @@
 | -- | ---- | -------------- |
 | **F01** | Branch canônica da rota normal: `feature/linha-estavel` | `instrucoes_projeto.md` |
 | **F02** | Source of truth = arquivos do repo. Memória de chat **não** é canon | `diretrizes_ia.md` |
-| **F03** | **Warden** = drone **terrestre** scorpion-like (modo mochila/transporte). **Não voa** | Ficha Ryan |
+| **F03** | **Warden** = drone **terrestre** scorpion-like (modo mochila/transporte). **Não voa**. A mochila nas costas é ele. **≠ Pill** (F25). **≠** Arbiter/Watchdog (F19). Spec: [drone - warden.md](../fichas/drone%20-%20warden.md) | ficha Warden |
 | **F04** | **Stitch** = Dr. Stephania Voss (MedTech da **crew**). **Doc** = Elisa “Doc” Moreau (passado de Ryan). Nunca trocar os nomes | [Stitch](../fichas/medtech%20-%20stephania_stitch_voss.md) · [Doc](../fichas/npc/elisa_doc_moreau.md) |
 | **F05** | Ryan e Stephania compartilham sobrenome **Voss** por coincidência — **sem parentesco** | Ficha Stitch / ryan_relacionamentos |
 | **F06** | Protagonista jogável: **Ryan “Wireghost” Voss** (Techie). Valkirya, Alex, Reina, Kaz, Stitch, **Jax “Razor” Kane**, **Emilia “Echo” Rivera** (Media), **Leopold von und zu Habsbrück** (Rockerboy) = **crew** (NC) | mapa_relacional |
@@ -38,11 +38,12 @@
 | **F22** | Mentor/companheiro NET de **Alex “Specter” Kane** = **Janus** (nunca “Handler”). Natureza e fragmentos = só a [nota do narrador](../fichas/notas_narrador/alex_specter_kane_background_consolidado.md). Ryan, Pack e Valkirya **não** sabem que Janus é IA. Não narrar Janus em cena do Pack. Não usar Janus como segundo PC / Interface extra. Interface dela = **6** (3 NET Actions) | ficha Alex · nota |
 | **F23** | **Leopold von und zu Habsbrück** = Rockerboy da crew (NC, off-screen). Handle = **Prometheus**. Chama ≠ brasão. Slogan = **O FOGO NÃO É DELES.** Tese: *a cidade pertence a quem vive nela*. Líder Zoner **sem nome**. Ele ainda **usa o sobrenome às escondidas** (vergonha; não é trunfo de mesa). Espartana vs caveira = [echo_exposicao](echo_exposicao.md) §7.1. CI **6**. Não narrar no Pack | ficha rockerboy · nota |
 | **F24** | **Uncredited** = nome de **saída** (pista, salão, after). Leo + Echo batizaram. ≠ **Void List** (job / vazamento). ≠ “crew do Kaz”. ≠ **Prometheus** (ele). Não usar no feed de op. Crew faz WTF e segue se tiver bebida. Off-screen até NC | crew_relacionamentos · echo_exposicao |
+| **F25** | **Pill** = drone **médio**, mula besouro-bola, equipamento externo, sem Humanity. Carrega carga. Anda com o Ryan ou espera fechado. Fecha o corpo e vira uma bola para proteger o que está dentro. **Não é item de mochila. Não cabe em mochila.** A mochila é o Warden (F03). HP/SP e dano da fuga **não** travados. O lugar desta viagem mora no context pack, não aqui. Spec: [drone - pill.md](../fichas/drone%20-%20pill.md) | ficha Pill · loadout |
 | **F09** | Job 001 (extração Vossler / Biotechnica) e incursões Raffen são **passados registrados** em `logs/` — não reinventar o outcome | job_001, incidentes, sessões |
 | **F10** | NPCs só sabem o que viram/ouviram in-fiction (**anti meta-game**) | diretrizes_narrador |
 | **F11** | Casas modulares dobráveis = projeto de Ryan; time produção + Tio Gringo sabem; **pack geral** sem anúncio oficial completo (E014: produção ok; revelação pública adiada / E012) | board / event_queue E012·E014 |
 | **F17** | **Doc** = Dra. Elisa Moreau ([npc/elisa_doc_moreau.md](../fichas/npc/elisa_doc_moreau.md)); visita **E011** pendente em NC | ficha Doc · E015 checklist |
-| **F12** | Vespas de combate/recon: **Hornet, Vesper, Barbed** (além do Warden) — nomes e papéis conforme ficha | ficha Ryan |
+| **F12** | Vespas de combate/recon: **Hornet, Vesper, Barbed**. Pequenas. Marcha com o Ryan. **Não** são mochila, **não** são o Pill, **não** são Condor/Corujas. Dano do taser e do explosivo pequeno **não** travado. Spec: [drone - vespas.md](../fichas/drone%20-%20vespas.md) | ficha Vespas |
 | **F16** | **Condor** + **Corujas** = drones miméticos de Ryan, **operacionais** no Pack (demo 20/07). Construção = **pele/plumagem de ave real** (E013) + mecânica interna — quem olha vê a ave, **não** um drone pintado. Condor = **unmanned** (gancho/visor; payload = módulo); recon **longe / movimento**. Corujas = **3** unidades, unmanned, sem módulo; recon **perto / informação**, voo silencioso / noite. Specs: [drone - condor.md](../fichas/drone%20-%20condor.md) · [drone - corujas.md](../fichas/drone%20-%20corujas.md). Não confundir com Vespas. Enxame mini-drones = só ideia (21/07) | fichas drones · loadout · sessão 012 |
 | **F13** | Próximo número de resumo de sessão: ver `registro_arquivos.md` (não inventar o NNN) | registro_arquivos |
 | **F15** | Valkirya **não** se refere a Ryan como **“herói”** / **“herói solitário”** (promessa pós-episódio **14/07/2026** na oficina/depósito). Preocupação = outras palavras. Gatilho ativo; memória **não** desbloqueada | [ryan_gatilhos_memorias.md](../fichas/notas_narrador/ryan_gatilhos_memorias.md) · relacionamentos |
@@ -67,7 +68,8 @@ Quando Ryan for a **Night City** ou outra região: atualizar context pack NOW; m
 
 ## Proibições rápidas (atalho)
 
-- Não fazer Warden voar ou “flutuar como drone aéreo” como regra padrão.
+- Não fazer Warden voar ou “flutuar como drone aéreo” como regra padrão. A mochila nas costas é o **Warden** (**F03**).
+- Não guardar o **Pill** dentro de mochila nem narrar o Pill como item de bolsa. Pill = mula besouro-bola, médio (**F25**). Spec: [drone - pill.md](../fichas/drone%20-%20pill.md).
 - Não narrar Condor/Corujas como drone pintado / casco com adesivo de penas. São **aves reais reconstruídas** (**F16**). Ver a ave **não** quebra o mimetismo. Não inventar espécie, envelope km das Corujas, nem HP/SP/MOVE do Condor.
 - Não chamar Stephania de “Doc” nem Elisa de “Stitch”.
 - Não revelar casas modulares ao pack “porque é óbvio”.

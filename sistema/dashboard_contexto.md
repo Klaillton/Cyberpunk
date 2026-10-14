@@ -13,7 +13,7 @@
 
 **Resumo:**
 
-- **Mule na estrada** — noite. Luzes de Night City à vista. Ainda não é o ponto do hop. Valkirya no volante.
+- **Mule na estrada** — noite. Luzes de Night City à vista. Ainda não é o ponto do hop. Valkirya no volante. Warden no corpo. Pill no fundo do Mule (não é mochila). Vespas no Mule.
 - E015: chip **aberto** (token no Warden morto); hop NC **05/08 após 21h**.
 - Cutter: corte 04/08 feito (recon, sem tiro). Intel: 7 quentes; lona = fogueira morta. Debrief ainda pendente.
 - **Lina “Sparrow” Park:** residual sem ACK. **Marcus “Steel” Rivera** mudo. Kaz off-screen.
