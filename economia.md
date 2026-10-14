@@ -1,6 +1,6 @@
 # Economia Persistente
 
-**Última atualização:** 2026-08-04 in-game / 2026-09-28 real (pós-028 · sem delta cash)
+**Última atualização:** 2026-08-05 in-game / 2026-10-14 real (pós-029 · sem delta cash)
 
 > **Dinheiro / macro** = seções abaixo.  
 > **Micro-recursos** = [Atores · Estoque · Ryan mínimo](#atores-produtores--consumidores).  
@@ -13,7 +13,7 @@
 | ---- | -------------- | ----------- |
 | **Eddies (eb) em mãos** | **~1.200–3.700 eb** *(estimado após débito)* | Débito de **300 eb** (ad anônimo, 3 dias × 100) aplicado em 30/07 (sessão 021). Valor base ainda estimado. |
 | Dívidas | Nenhuma registrada | — |
-| Contratos pendentes | **Ad anônimo (E015)** — 100 ed/dia | 1º pacote 30/07; 2º+3º salto 02/08; caixa 03/08; chip **aberto** 04/08 (token hop NC **05/08 21h**). **1º débito (300 eb) pago**. Sem delta cash 026–028. |
+| Contratos pendentes | **Ad anônimo (E015)** — 100 ed/dia | 1º pacote 30/07; 2º+3º salto 02/08; caixa 03/08; chip **aberto** 04/08 (token hop NC **05/08 21h**). **1º débito (300 eb) pago**. Sem delta cash 026–029. |
 | Custos operacionais | Baixos no Pack | Hospedagem × trabalho técnico |
 | Lifestyle atual | Pack (subsistência + oficina) | Em NC: ver [Lifestyle](#lifestyle-atalho-red) |
 
@@ -96,6 +96,8 @@ Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × dis
 | -- | ---- | ----- |
 | — | *(vazio)* | Mover linhas esgotadas para cá em vez de apagar |
 
+**Nota 029:** uso de material já na oficina (polímero sobra drones, relé, fio, discos) sem qty anterior definida; registrado sem número. Não cria lote novo.
+
 ---
 
 ## Ryan — estoque mínimo e itens soltos
@@ -111,7 +113,7 @@ Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × dis
 | Agent stack WIREGHOST | Honeypot · Profissional · Vault | F19 |
 | Máscara tática meia-face | 1 | quase sempre |
 | Vespas + Warden | loadout | F03 F12 |
-| Chip E015 (lacre aberto / token) | 1 | Dead drop 101 03/08; aberto 04/08 (028); hop NC 05/08 21h; some no fim da janela. Sem ID de lote. |
+| Chip E015 (lacre aberto / token) | 1 | Dead drop 101 03/08; aberto 04/08 (028); hop NC 05/08 21h; some no fim da janela. Sem ID de lote. No Warden (compartimento morto) 029. |
 
 ### Oficina / depósito pessoal (Pack)
 
@@ -131,6 +133,6 @@ Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × dis
 ## Referências
 
 - [Board](board/board_campanha.md) · [Consequências](consequencias/consequencias_persistentes.md) · [Dashboard](sistema/dashboard_contexto.md)
-- [Ficha Ryan](fichas/techie%20-%20ryan_wireghost_voss.md) · [Downtime](logs/downtime_ryan.md) · [Sessão 021](logs/sessao_resumo_021.md)
+- [Ficha Ryan](fichas/techie%20-%20ryan_wireghost_voss.md) · [Downtime](logs/downtime_ryan.md) · [Sessão 029](logs/sessao_resumo_029.md)
 - Relacionados: [Reputação](reputacao.md) · [Heat](heat.md) · [Event Queue](event_queue.md)
 - [Pack Badlands](facoes/pack_badlands.md) · Comando: [comandos_jogador.md](sistema/comandos_jogador.md) § K

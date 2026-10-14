@@ -1,16 +1,16 @@
 # Handoff atual — Continuidade para novo chat
-**Gerado após:** sessão **028**  
-**Próxima sessão:** **029** → `logs/sessao_resumo_029.md`  
-**Data in-game ao fechar:** ~04 de Agosto de 2026 · fim de tarde · Pack · tenda Ryan/Valk  
+**Gerado após:** sessão **029**  
+**Próxima sessão:** **030** → `logs/sessao_resumo_030.md`  
+**Data in-game ao fechar:** ~05 de Agosto de 2026 · noite · Mule · luzes de Night City à vista  
 **Branch canônica:** `feature/linha-estavel`  
-**Última atualização deste handoff:** 28 de Setembro de 2026
+**Última atualização deste handoff:** 14 de Outubro de 2026
 
 > **Primeiro arquivo a ler:** `logs/context_pack_atual.md`  
 > **Obrigatório no boot:** `sistema/fatos_duros.md`  
 > **Boca:** ramo antes da frase — bloco abaixo e no context pack  
 > **Canon:** repo/RAW > handoff > memória de chat
 
-**Não continuar o chat da 028.** Chat novo = 029.
+**Não continuar o chat da 029.** Chat novo = 030.
 
 ---
 
@@ -19,11 +19,11 @@
 1. `logs/context_pack_atual.md` (NOW + NORTE + MOTOR + Boca)
 2. `sistema/fatos_duros.md` (obrigatório)
 3. Este handoff
-4. `logs/sessao_resumo_028.md`
+4. `logs/sessao_resumo_029.md`
 
 **Confirmação (1 linha):**
 ```
-Boot OK · ~04/08/2026 fim de tarde · Pack · tenda Ryan/Valk · Valk = residual quente · boca ramo 3 (tenda; Pack = ramo 2) · chip aberto (token) · hop NC 05/08 21h · debrief Reyes pendente · próximo resumo: 029 · Ruleset 1.4.0
+Boot OK · ~05/08/2026 noite · Mule · luzes de Night City à vista · Valk = residual quente · boca ramo 3 (Mule a sós; Pack = ramo 2) · chip aberto (token) · hop NC 05/08 21h · debrief Reyes pendente · próximo resumo: 030 · Ruleset 1.4.0
 ```
 
 ---
@@ -32,25 +32,25 @@ Boot OK · ~04/08/2026 fim de tarde · Pack · tenda Ryan/Valk · Valk = residua
 
 | Campo | Valor |
 | ----- | ----- |
-| Data | **~04/08/2026**, fim de tarde |
-| Local | Pack: tenda Ryan/Valk |
-| Chip E015 | **Lacre aberto**; token de um uso; hop NC **05/08 após 21h**; ponto = o chip; some no fim da janela |
-| Cutter | Corte 04/08 **feito** (recon, sem tiro). 7 quentes; lona = fogueira morta. Debrief pendente. |
+| Data | **~05/08/2026**, noite |
+| Local | Mule · luzes de Night City à vista (ainda não é o ponto) |
+| Chip E015 | **Lacre aberto**; token de um uso; hop NC **05/08 após 21h**; ponto = o chip; some no fim da janela. No Warden (compartimento morto) |
+| Cutter | Corte 04/08 **feito** (recon, sem tiro). 7 quentes; lona = fogueira morta. Debrief **ainda pendente**. |
 | Condor | Unmanned; pousou 03/08; Sasha/Lira no gancho/visor |
-| Ryan × Valk | 019 + residual alto; intimidade 028; Lena em intimidade |
-| Reyes | Debrief do corte **não feito** |
+| Ryan × Valk | 019 + residual alto; intimidade 028–029; Lena em intimidade |
+| Reyes | Debrief do corte **não feito** (aviso via Rusty) |
 | Base militar | **Não entra agora** |
 | Ruleset | **v1.4.0** (chrome = número ou função; 017–028 ficam em 1.3.0) |
 
-### Cena de abertura (029)
+### Cena de abertura (030)
 
-Pack fim de tarde. Tenda. Chip **aberto**. Debrief Reyes pendente. Não reabrir jantar 023 / SOP Condor / caixa 101 / canyon.
+Mule, noite, luzes de NC à vista. Ainda não é o ponto. Valkirya no volante. Residual íntimo alto. Não reabrir jantar 023 / SOP Condor / caixa 101 / canyon.
 
 ### AGENDA
 
-1. Debrief Reyes (corte 027).  
-2. Hop NC 05/08 após 21h (token).  
-3. Folga Pack até a janela.
+1. Ponto do hop NC 05/08 após 21h (token).  
+2. Debrief Reyes na volta.  
+3. Estrada a sós até o ponto.
 
 ### Trava
 
@@ -61,7 +61,7 @@ Pack fim de tarde. Tenda. Chip **aberto**. Debrief Reyes pendente. Não reabrir 
 
 ### Boca (ramo antes da frase)
 
-NOW = tenda a sós → **ramo 3**. Reyes / refeitório / pátio → **ramo 2**. O ramo de cima não vaza.
+NOW = Mule a sós em estrada → **ramo 3**. Reyes / refeitório / pátio → **ramo 2**. O ramo de cima não vaza.
 
 1. **Rádio / ops / combate:** curta, seca, pessoa. Resultado primeiro.
 2. **Pack social:** conversa; uma fala de gente; corpo no meio; cada um pela ficha.
@@ -74,30 +74,30 @@ NOW = tenda a sós → **ramo 3**. Reyes / refeitório / pátio → **ramo 2**. 
 ## Prompt de abertura (copiar no novo chat)
 
 ```markdown
-# Cyberpunk RED — Continuidade (Sessão 029)
+# Cyberpunk RED — Continuidade (Sessão 030)
 
 ## Boot (tier-0)
 - Repo: https://github.com/Klaillton/Cyberpunk · branch `feature/linha-estavel`
 - Canon = arquivos do repo após sync / RAW
-- **Não continuar o chat da 028.**
+- **Não continuar o chat da 029.**
 - Leia primeiro: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md
 - Leia obrigatório: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/fatos_duros.md
-- Resumo 028: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_028.md
+- Resumo 029: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_029.md
 - Handoff: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md
 
 ## Mecânica
 - Ruleset **1.4.0** (F18); loadout sob demanda; chrome na jogada = número ou função; sem inventar mods
 
 ## Estado
-- **~04/08/2026 fim de tarde** · Pack · tenda Ryan/Valk
+- **~05/08/2026 noite** · Mule · luzes de Night City à vista
 - Chip E015 **aberto** (token um uso); hop NC **05/08 após 21h**
-- Corte Cutter 027 feito (recon, sem tiro; 7 quentes; lona morta). Debrief pendente.
+- Corte Cutter 027 feito (recon, sem tiro; 7 quentes; lona morta). Debrief ainda pendente.
 - Condor unmanned (F16)
 
 ## Sandbox
 - O que não está no arquivo não entra na cena.
 - Sem NPC, facção ou tech nova.
-- Lugar físico: o cartão **SET NOW** do pack (`sistema/set_lugares.md` § tenda).
+- Lugar físico: o cartão **SET NOW** do pack.
 - `fatos_duros` vence a memória do chat.
 - Repo / RAW vencem este prompt se divergirem.
 
@@ -108,7 +108,7 @@ NOW = tenda a sós → **ramo 3**. Reyes / refeitório / pátio → **ramo 2**. 
 - N13 situar (não gavetas), em todo ramo
 
 ## Boca (ramo antes da frase — esta seção ganha das outras)
-NOW = tenda a sós → ramo 3. Reyes / Pack social → ramo 2. O ramo de cima não vaza. Quem fala muda o vocabulário, não o ramo. Ryan pode cortar; ninguém copia o corte.
+NOW = Mule a sós → ramo 3. Reyes / Pack social → ramo 2. O ramo de cima não vaza. Quem fala muda o vocabulário, não o ramo. Ryan pode cortar; ninguém copia o corte.
 1. Rádio / ops / combate: curta, seca, pessoa. Resultado primeiro.
 2. Pack social: conversa. Uma fala de gente, corpo no meio. Cada um pela ficha.
 3. A sós: uma fala, um fôlego. Chip, Reyes e hop fora desta boca.
@@ -116,9 +116,9 @@ NOW = tenda a sós → ramo 3. Reyes / Pack social → ramo 2. O ramo de cima n�
 N13 em todo ramo. N9 fecha viagem limpa. N1b só no ramo 1. Corpo nos ramos 2 e 3: 3–6 linhas é piso.
 
 ## Cena
-Pack, fim de tarde, tenda. Chip aberto. Debrief Reyes pendente.
+Mule, noite, luzes de NC à vista. Ainda não é o ponto. Valkirya no volante.
 
 ## Narração
 - N1–N13
-- Confirme boot em **1 linha** (inclua “Valk = residual” e “boca ramo 3 (tenda; Pack = ramo 2)”), imprima `ctrl 2/90`, e **aguarde o jogador**.
+- Confirme boot em **1 linha** (inclua “Valk = residual” e “boca ramo 3 (Mule a sós; Pack = ramo 2)”), imprima `ctrl 2/90`, e **aguarde o jogador**.
 ```

@@ -1,6 +1,6 @@
 # Downtime Ryan — Log
 
-**Última atualização:** 02/08/2026 (sessão 024)
+**Última atualização:** 05/08/2026 (sessão 029)
 
 ---
 
@@ -83,3 +83,15 @@
 - Ideia (não construída): torre remota da HMG + compensador de balanço.
 
 **Estado ao fechar 024:** Gear de campo servido. Sem gasto de eddies. Condor ainda no ar.
+
+---
+
+## 05/08/2026 — Oficina Pack (sessão 029)
+
+**Trabalho realizado:**
+- Flange emperrada no corte: ajuste manual, relógio comparador, avanço calibrado, óleo de corte, bit afiado. Fecha no par sem rachar. Tio não refunde.
+- Válvula do Elias (destilaria): crosta de oxidação tirada; assento com polímero de alta temperatura (sobra dos drones); estanque e polida em ~20 min. Tio: não era urgência; Ryan fechou antes do almoço.
+- Torno: embreagem improvisada no motor de avanço (fio de cobre + relé do estoque). Se o bit morder forte, o circuito corta a corrente antes de travar o carro. Teste: morde de propósito, corta, carro solta. Fuso e guia linear limpos.
+- Extrusora: resistência térmica recalibrada. Serra, lixadeira e furadeira de bancada: correias apertadas, lubrificadas (grafite), discos gastos trocados. Bancada arrumada.
+
+**Estado ao fechar 029:** Peças Pack fechadas. Uso de material já na oficina (qty anterior não definida; registrado sem número). Ideia 024 (torre remota HMG) ainda sem corpo; traço de pintle na estrada.
