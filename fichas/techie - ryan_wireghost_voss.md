@@ -20,7 +20,7 @@ Ele a trata como ferramenta, não como acessório. Tira com facilidade quando es
 
 **Kit caveira (transmissão, não o hábito):** Echo pediu uma máscara para jobs que vão ao ar. Ryan fabricou. Leo pentelhou o design até virar caveira e **repinta a cada job**. Ryan não discute pintura. No feed, meia-face fica de fora — vale o kit da câmera. SOP: [echo_exposicao.md](../sistema/echo_exposicao.md) §7.1.
 
-Nas costas carrega o **Warden**, um drone escorpião grande e imponente que parece parte de sua armadura quando dobrado. Warden tem pinças e caudas metálicas que ficam guardadas a maior parte do tempo sendo confundido com uma mochila metálica, com linhas azuis brilhantes de energia percorrendo as articulações. Flutuando próximo a ele, costuma estar o **Vesper** (ou um dos drones outros do time), dando a impressão de que Ryan está sempre acompanhado de tecnologia viva.
+Nas costas carrega o **Warden**, um drone escorpião grande e imponente que parece parte de sua armadura quando dobrado. Warden tem pinças e caudas metálicas que ficam guardadas a maior parte do tempo sendo confundido com uma mochila metálica, com linhas azuis brilhantes de energia percorrendo as articulações. A mochila é o Warden. O **Pill** é a mula besouro-bola, médio, e não entra nessa mochila. Flutuando próximo a ele, costuma estar o **Vesper** (ou um dos drones outros do time), dando a impressão de que Ryan está sempre acompanhado de tecnologia viva.
 
 Seu visual transmite alguém que já passou por muita coisa e transformou o trauma em ferramenta. Ele não tenta parecer amigável — parece eficiente e perigoso.
 
@@ -235,8 +235,9 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 | Resumo | Detalhe |
 | ------ | ------- |
 | **Armadura** | Light Armorjack + Subdermal + Skinweave → Corpo **SP 19** / Cabeça **SP 11** |
-| **Warden** | Drone **terrestre** scorpion (F03 — **não voa**); mochila / proteção |
-| **Vespas** | Hornet, Vesper, Barbed (recon / EW / distração) |
+| **Warden** | Drone **terrestre** scorpion (F03 — **não voa**); a mochila / proteção. Spec: [drone - warden.md](drone%20-%20warden.md) |
+| **Pill** | Mula besouro-bola, médio (F25). **Não é mochila.** Spec: [drone - pill.md](drone%20-%20pill.md) |
+| **Vespas** | Hornet, Vesper, Barbed (F12; recon / EW / distração). Spec: [drone - vespas.md](drone%20-%20vespas.md) |
 | **Pack (não bolso)** | Condor + Corujas (F16) — aves reais reconstruídas; spec nas fichas |
 | **Primária** | Phantom DMR **5d6** ROF1 · Sniper **5d6** (stats em loadout) |
 | **Secundárias** | Vanguard **4d6** · Breaker **5d6** · Shadowblades **2d6**/**1d6** |

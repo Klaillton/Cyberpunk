@@ -18,8 +18,9 @@
 
 1. `logs/context_pack_atual.md` (NOW + NORTE + MOTOR + Boca)
 2. `sistema/fatos_duros.md` (obrigatório)
-3. Este handoff
-4. `logs/sessao_resumo_029.md`
+3. `sistema/vozes.md` (referência de boca; não é estado)
+4. Este handoff
+5. `logs/sessao_resumo_029.md`
 
 **Confirmação (1 linha):**
 ```
@@ -44,7 +45,7 @@ Boot OK · ~05/08/2026 noite · Mule · luzes de Night City à vista · Valk = r
 
 ### Cena de abertura (030)
 
-Mule, noite, luzes de NC à vista. Ainda não é o ponto. Valkirya no volante. Residual íntimo alto. Não reabrir jantar 023 / SOP Condor / caixa 101 / canyon.
+Mule, noite, luzes de NC à vista. Ainda não é o ponto. Valkirya no volante. Warden no corpo. Pill no fundo do Mule. Vespas no Mule. Residual íntimo alto. Não reabrir jantar 023 / SOP Condor / caixa 101 / canyon.
 
 ### AGENDA
 
@@ -56,7 +57,7 @@ Mule, noite, luzes de NC à vista. Ainda não é o ponto. Valkirya no volante. R
 
 - Não reabrir Condor SOP / jantar 023 / base agora / caixa 101 / canyon do corte.  
 - 019 = perguntar uma vez. F15 sem “herói”. F21 Valkirya / Valk / Morena (Ryan; Morena = carinho usual). Lena = nome. Morena ≠ NPC nova.  
-- F16 Condor unmanned.  
+- F16 Condor unmanned. F25: Pill = mula no fundo do Mule, não mochila. F03: a mochila é o Warden. Vespas no Mule.  
 - Ryan pode cortar; NPC **não** copia o corte.
 
 ### Boca (ramo antes da frase)
@@ -64,8 +65,8 @@ Mule, noite, luzes de NC à vista. Ainda não é o ponto. Valkirya no volante. R
 NOW = Mule a sós em estrada → **ramo 3**. Reyes / refeitório / pátio → **ramo 2**. O ramo de cima não vaza.
 
 1. **Rádio / ops / combate:** curta, seca, pessoa. Resultado primeiro.
-2. **Pack social:** conversa; uma fala de gente; corpo no meio; cada um pela ficha.
-3. **A sós:** uma fala, um fôlego. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca.
+2. **Pack social:** conversa diegética e fluida; uma fala de gente; corpo no meio; pode ter mais corpo; cada um pela ficha.
+3. **A sós:** uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca.
 
 “Três coisas” = ultimato, não teto de frase.
 
@@ -82,6 +83,7 @@ NOW = Mule a sós em estrada → **ramo 3**. Reyes / refeitório / pátio → **
 - **Não continuar o chat da 029.**
 - Leia primeiro: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/context_pack_atual.md
 - Leia obrigatório: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/fatos_duros.md
+- Vozes (referência de boca, não é estado): https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/sistema/vozes.md
 - Resumo 029: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/sessao_resumo_029.md
 - Handoff: https://raw.githubusercontent.com/Klaillton/Cyberpunk/feature/linha-estavel/logs/handoff_atual.md
 
@@ -104,19 +106,19 @@ NOW = Mule a sós em estrada → **ramo 3**. Reyes / refeitório / pátio → **
 ## Trava
 - Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon
 - 019 = ela pergunta uma vez antes de vetar
-- F15: sem “herói” · F21: Valkirya / Valk / Morena (Ryan) · Lena = nome · Morena ≠ NPC nova · F16: Condor unmanned
+- F15: sem “herói” · F21: Valkirya / Valk / Morena (Ryan) · Lena = nome · Morena ≠ NPC nova · F16: Condor unmanned · F25: Pill no fundo do Mule, não mochila · F03: mochila = Warden
 - N13 situar (não gavetas), em todo ramo
 
 ## Boca (ramo antes da frase — esta seção ganha das outras)
 NOW = Mule a sós → ramo 3. Reyes / Pack social → ramo 2. O ramo de cima não vaza. Quem fala muda o vocabulário, não o ramo. Ryan pode cortar; ninguém copia o corte.
 1. Rádio / ops / combate: curta, seca, pessoa. Resultado primeiro.
-2. Pack social: conversa. Uma fala de gente, corpo no meio. Cada um pela ficha.
-3. A sós: uma fala, um fôlego. Chip, Reyes e hop fora desta boca.
+2. Pack social: conversa diegética e fluida. Uma fala de gente, corpo no meio. Pode ter mais corpo. Cada um pela ficha.
+3. A sós: uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Chip, Reyes e hop fora desta boca.
 “Três coisas” = ultimato de condições, não teto de frase. Sem herói. Sem tom de CO. 019 = perguntar uma vez.
 N13 em todo ramo. N9 fecha viagem limpa. N1b só no ramo 1. Corpo nos ramos 2 e 3: 3–6 linhas é piso.
 
 ## Cena
-Mule, noite, luzes de NC à vista. Ainda não é o ponto. Valkirya no volante.
+Mule, noite, luzes de NC à vista. Ainda não é o ponto. Valkirya no volante. Warden no corpo. Pill no fundo do Mule. Vespas no Mule. Quem fala: `sistema/vozes.md`. Pack congelado em `logs/context_pack_pack.md` — não abrir no boot.
 
 ## Narração
 - N1–N13

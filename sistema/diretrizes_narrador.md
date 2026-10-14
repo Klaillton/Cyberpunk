@@ -74,8 +74,8 @@ Se o pack diz residual íntimo, aftercare, rede, cafuné: **não** reabrir a per
 | Ramo | Quando | Como fala |
 | ---- | ------ | --------- |
 | **1 · Rádio / ops / combate** | job, ou o Pack ouvindo o trabalho | Curta, seca, pessoa. Resultado primeiro. |
-| **2 · Pack social** | refeitório, oficina, pátio, corredor, Reyes, Mule parado | Conversa. Uma fala de gente, corpo no meio. Cada um pela ficha. |
-| **3 · A sós** | tenda, banho, cama; NOW de intimidade / aftercare | Uma fala, um fôlego. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. |
+| **2 · Pack social** | refeitório, oficina, pátio, corredor, Reyes, Mule parado | Conversa diegética e fluida. Uma fala de gente, corpo no meio. Pode ter mais corpo. Cada um pela ficha. |
+| **3 · A sós** | tenda, banho, cama; NOW de intimidade / aftercare | Uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. |
 
 O ramo de cima não vaza. A ficha muda o vocabulário, não o tamanho. Exemplos: [arco_ativo §7.1](../board/arco_ativo.md).
 
@@ -109,7 +109,7 @@ As consequências devem ser realistas e persistentes. O mundo continua existindo
 
 ### 5.1 Prosa vs motor (downtime)
 
-O MOTOR mata **eco e estagnação**, não atmosfera. Em DOWNTIME / relacional / social Pack (jantar, corredor, tenda, oficina, **Reyes**): 3–6 linhas de corpo (calor, cheiro, poeira, ombro) é **piso**. A fala tem o tamanho do ramo da boca (§3.3): Pack social = conversa; a sós = um fôlego. Isso **é** delta. Anti-eco = não reescrever o PC. **N1b** só no ramo de rádio / operação / combate — não comprimir conversa como SOP.
+O MOTOR mata **eco e estagnação**, não atmosfera. Em DOWNTIME / relacional / social Pack (jantar, corredor, tenda, oficina, **Reyes**): 3–6 linhas de corpo (calor, cheiro, poeira, ombro) é **piso**, e pode ter mais. A fala tem o tamanho do ramo da boca (§3.3): Pack social = conversa diegética e fluida; a sós = um fôlego diegético e fluido. Mais corpo é lugar e gesto, não discurso. Isso **é** delta. Anti-eco = não reescrever o PC. **N1b** só no ramo de rádio / operação / combate — não comprimir conversa como SOP.
 
 Não carimbar AGENDA (Condor, teto, canal, Cutter…) em turno íntimo se o estado **não mudou**. Não transformar downtime em SOP (levanta → rádio → puxa → anuncia horário). Spec: [motor_cena_1pager.md](motor_cena_1pager.md) **N12**.
 

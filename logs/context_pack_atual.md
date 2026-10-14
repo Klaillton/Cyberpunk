@@ -17,10 +17,10 @@
 
 1. **Boca — ramo antes da frase.** O ramo de cima não vaza para o de baixo. Quem fala muda o vocabulário, não o ramo. Um exemplo dentro de cada ramo, no bloco Boca e em [arco §7.1](../board/arco_ativo.md).
    - **Rádio / operação / combate** (job, ou o Pack ouvindo o trabalho): curta, seca, pessoa. Resultado primeiro.
-   - **Pack social** (refeitório, oficina, pátio, corredor, Reyes, Mule parado): conversa. Uma fala de gente, corpo no meio. Cada um pela ficha.
-   - **A sós** (tenda, banho, cama, banco do Mule em estrada): uma fala, um fôlego. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop não entram nesta boca. A frase pede, provoca, responde ou desvia.
+   - **Pack social** (refeitório, oficina, pátio, corredor, Reyes, Mule parado): conversa diegética e fluida. Uma fala de gente, corpo no meio. Pode ter mais corpo. Cada um pela ficha.
+   - **A sós** (tenda, banho, cama, banco do Mule em estrada): uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop não entram nesta boca. A frase pede, provoca, responde ou desvia.
 2. **Não ecoar** o PC: ≤2 linhas **só** para confirmar a ação dele. Esse teto não mede a fala do NPC. SOP multi-passo → outcomes (N8). Resultado-primeiro **só** no ramo de rádio/ops/combate.
-3. **Delta** = **maior parte** (~≥60%). Nos ramos Pack social e a sós: SHOW + fala do ramo = delta. Corpo nesses ramos: 3–6 linhas é **piso** — o lugar (calor, poeira, motor). A mesma mão entra numa frase só. Não precisa de burst nem relógio.
+3. **Delta** = **maior parte** (~≥60%). Nos ramos Pack social e a sós: SHOW + fala do ramo = delta. A fala desses ramos é diegética e fluida. Corpo: 3–6 linhas é **piso**, e pode ter mais. O extra é lugar, gesto e calor, não discurso. A mesma mão entra numa frase só. Não precisa de burst nem relógio.
 4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).
 5. **Anti-máquina:** sem *nome de regra* na prosa. Humor, medo, cansaço, recusa = obrigatório. “Três coisas” = ultimato de condições, não teto de frase. Ryan pode cortar; ninguém copia o corte. Trava: `[Voz: ramo antes da frase. Ryan pode cortar. NPC não copia o corte.]`
 6. Fonte de pressão: **AGENDA DA CENA** → [arco_ativo](../board/arco_ativo.md) (L1 + off-screen + §7 SHOW) → pendências → `event_queue` (F10).
@@ -40,7 +40,7 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 | Data in-game | **~05/08/2026** |
 | Período | Noite |
 | Região | **Estrada / Mule** (luzes de Night City à vista) |
-| Local específico | Mule. Valkirya no volante. Chip E015 **lacre aberto** (token) no Warden (compartimento morto). |
+| Local específico | Mule. Valkirya no volante. Warden no corpo. Chip E015 **lacre aberto** (token) no Warden (compartimento morto). Pill no fundo do Mule (médio; **não é mochila**). Vespas no Mule. |
 | Facção / base local | Pack Nômade Badlands (saindo) |
 | Cena / gancho | Janela do hop NC **05/08 após 21h**. Ainda não é o ponto. Debrief Reyes pendente na volta. |
 | Prioridade | (1) Ponto do hop (2) Debrief na volta (3) Não forçar Sparrow/Steel |
@@ -50,7 +50,9 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 
 `sistema/set_lugares.md` § **mule** (ou estrada). Não abrir o arquivo inteiro.
 
-Mule em movimento. Valkirya no volante. Banco do Ryan. Warden no corpo. Luzes de NC à vista. Ainda não é o ponto.
+Mule em movimento. Valkirya no volante. Banco do Ryan. Warden no corpo. Pill no fundo do Mule. Vespas no Mule. Luzes de NC à vista. Ainda não é o ponto.
+
+Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** abrir no boot nem no Refresh.
 
 ## NORTE (orientação, não quest log)
 
@@ -99,10 +101,12 @@ Mule em movimento. Valkirya no volante. Banco do Ryan. Warden no corpo. Luzes de
 NOW = Mule a sós em estrada → **ramo 3**. Pátio / Reyes / refeitório → **ramo 2**. Residual íntimo **alto**. No job, ramo 1. Chat **023** não se herda.
 
 1. **Rádio / ops / combate** — curta, seca, pessoa. Resultado primeiro. *“Mule no leste, abort no rádio. Eu no volante. Tu marca a janela.”*
-2. **Pack social** — conversa; uma fala de gente; corpo no meio; cada um pela ficha. Reyes: *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”*
-3. **A sós** — uma fala, um fôlego. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. Modelo de fôlego (copia o tamanho e o corpo no meio; não copia o assunto nem esta cena): *“Continua.” A palma fica na nuca. “Se eu rir, a gente sai da estrada.”* **Teste:** a frase pede, provoca, responde ou desvia. A mesma mão entra numa frase só. As 3–6 linhas são o lugar (calor, poeira, motor).
+2. **Pack social** — conversa diegética e fluida; uma fala de gente; corpo no meio; pode ter mais corpo; cada um pela ficha. Reyes: *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”*
+3. **A sós** — uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. Modelo de fôlego (copia o tamanho e o corpo no meio; não copia o assunto nem esta cena): *“Continua.” A palma fica na nuca. “Se eu rir, a gente sai da estrada.”* **Teste:** a frase pede, provoca, responde ou desvia. A mesma mão entra numa frase só. As 3–6 linhas são o lugar (calor, poeira, motor), e o corpo pode passar disso.
 
 Quem fala muda o vocabulário, não o ramo. “Três coisas”, “sem isso eu não top”, “eu decido”, “herói” e tom de CO são conteúdo proibido — não escolhem o tamanho. 019 = **perguntar uma vez** antes de vetar. Detalhe: [arco_ativo §7.1](../board/arco_ativo.md).
+
+**Quem está nesta boca:** Valkirya, ramo 3. Quieta, direta, humor seco. Residual alto: uma frase quente que não é ordem. Não chama de herói (F15). Cartão: [vozes.md](../sistema/vozes.md). Reyes, Sasha, Lira, Tio e Rusty ficam no Pack até a volta.
 
 ---
 
@@ -111,7 +115,9 @@ Quem fala muda o vocabulário, não o ramo. “Três coisas”, “sem isso eu n
 | ID | Resumo |
 | -- | ------ |
 | F01–F02 | Branch `feature/linha-estavel`; arquivos = SoT |
-| **F03** | Warden = drone **terrestre** scorpion (**não voa**) |
+| **F03** | Warden = drone **terrestre** scorpion (**não voa**). A mochila é ele |
+| **F12** | Vespas = Hornet, Vesper, Barbed. Pequenas. Não são mochila |
+| **F25** | Pill = mula besouro-bola, médio. **Não é mochila.** Nesta viagem: fundo do Mule |
 | **F04** | **Stitch** = Stephania (crew); **Doc** = Elisa Moreau (passado) |
 | **F06** | Crew NC inclui **Echo** (Media) — off-screen; ≠ Steel Rivera |
 | **F14** | **Scout** (pack) ≠ **Jax "Razor" Kane** (crew NC) |

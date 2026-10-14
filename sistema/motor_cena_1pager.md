@@ -71,16 +71,16 @@ Os colchetes abaixo são **ordem interna (N13)**. Não imprimir como rótulos (`
 **Boca — ramo antes da frase.** O ramo de cima não vaza. A ficha muda o vocabulário, não o tamanho. Um exemplo por ramo.
 
 1. **Rádio / ops / combate.** Curta, seca, pessoa. Resultado primeiro. *“Mule no leste, abort no rádio. Eu no volante. Tu marca a janela.”*
-2. **Pack social.** Conversa. Uma fala, corpo no meio. Reyes: *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”* Sasha não devolve briefing; o tamanho é este ramo. Lira fala pela ficha, neste tamanho.
-3. **A sós.** Uma fala, um fôlego. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. Modelo de fôlego (copia o tamanho e o corpo no meio; não copia o assunto nem esta cena): *“Continua.” A palma fica na nuca. “Se eu rir, a gente sai da estrada.”* **Teste:** a frase pede, provoca, responde ou desvia. A mesma mão entra numa frase só. As 3–6 linhas são o lugar (calor, poeira, motor).
+2. **Pack social.** Conversa diegética e fluida. Uma fala, corpo no meio. Pode ter mais corpo. Reyes: *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”* Sasha não devolve briefing; o tamanho é este ramo. Lira fala pela ficha, neste tamanho.
+3. **A sós.** Uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. Modelo de fôlego (copia o tamanho e o corpo no meio; não copia o assunto nem esta cena): *“Continua.” A palma fica na nuca. “Se eu rir, a gente sai da estrada.”* **Teste:** a frase pede, provoca, responde ou desvia. A mesma mão entra numa frase só. As 3–6 linhas são o lugar (calor, poeira, motor), e o corpo pode passar disso.
 
 “Três coisas” = ultimato, não teto de frase. Idle de arco = mundo/Tio, não a Valkirya virar CO.
 
 | Onde | Ryan | NPC |
 | ---- | ---- | --- |
 | Ramo 1 — rádio / ops | curto, resultado | curto **deles** |
-| Ramo 2 — Pack social | pensa curto, **fala gente** | ramo 2, pela ficha |
-| Ramo 3 — a sós | corpo no meio da fala | um fôlego |
+| Ramo 2 — Pack social | pensa curto, **fala gente**, diegética | ramo 2, pela ficha; pode ter mais corpo |
+| Ramo 3 — a sós | corpo no meio da fala | um fôlego diegético e fluido; pode ter mais corpo |
 
 Trava de turno: `[Voz: ramo antes da frase. Ryan pode cortar. NPC não copia o corte.]`
 
@@ -115,4 +115,4 @@ Neste chat: `[Motor de cena]` + próximo turno no **ramo da cena**.
 
 ---
 
-_Atualizado: 12 de Outubro de 2026 (ramo 3 — fôlego curto; corpo é o lugar)_
+_Atualizado: 14 de Outubro de 2026 (ramos 2 e 3 — fala diegética e fluida; corpo pode passar do piso)_
