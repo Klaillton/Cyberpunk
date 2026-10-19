@@ -4,32 +4,32 @@
 **Idade:** 32  
 **Conceito:** Motorista estoica e confiável, especialista em extrações e transporte de alto risco.
 
-| Campo | Valor |
-| ----- | ----- |
-| **Nome civil** | Lena Kane |
-| **Handle / rua** | **Valkirya** |
-| **Valk** | Apelido **do Ryan** — não é o handle. |
-| **Morena** | Forma carinhosa **usual do Ryan**, junto de Valk. Na boca dele é ela — não é outra pessoa nem um descritivo que substitui o nome. |
+| Campo              | Valor                                                                                                                                                                                            |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Nome civil**     | Lena Kane                                                                                                                                                                                        |
+| **Handle / rua**   | **Valkirya**                                                                                                                                                                                     |
+| **Valk**           | Apelido **do Ryan** — não é o handle.                                                                                                                                                            |
+| **Morena**         | Forma carinhosa **usual do Ryan**, junto de Valk. Na boca dele é ela — não é outra pessoa nem um descritivo que substitui o nome.                                                                |
 | **Atalho de mesa** | “Valk” nos arquivos = a personagem. **In-fiction** o Ryan diz **Valk** ou **Morena** (**F21**). Pack, crew, jobs e Echo: **Valkirya** (ou Lena), salvo se pegarem o apelido. Sem retcon de logs. |
 
 **Imagens de referência:**
 
-| Uso | Arquivo |
-| --- | ------- |
-| **Default** (crop tático) | <img src="../imagens/nomad%20-%20lena_valk_kane.jpg" width="220" alt="Lena Valkirya Kane — default" /> |
+| Uso                                   | Arquivo                                                                                                             |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Default** (crop tático)             | <img src="../imagens/nomad%20-%20lena_valk_kane.jpg" width="220" alt="Lena Valkirya Kane — default" />              |
 | **Crop + jaqueta** (tatuagem visível) | <img src="../imagens/nomad%20-%20lena_valk_kane_2.jpg" width="220" alt="Lena Valkirya Kane — tatuagem no flanco" /> |
-| **Bodysuit tático** (torso coberto) | <img src="../imagens/nomad%20-%20lena_valk_kane_3.jpg" width="220" alt="Lena Valkirya Kane — bodysuit tático" /> |
+| **Bodysuit tático** (torso coberto)   | <img src="../imagens/nomad%20-%20lena_valk_kane_3.jpg" width="220" alt="Lena Valkirya Kane — bodysuit tático" />    |
 
 ## Equipe: Valk + The Mule
 
 Valk e o **The Mule** são **quase uma equipe própria** — mais do que “donos e veículo”. Em jobs de estrada, extração e fuga, a unidade tática padrão é **ela no volante + o Mule como plataforma de combate e escape**.
 
-| Papel | Detalhe |
-| ----- | ------- |
-| Pilota / comandante | Valk — rotas, extração, “não deixo ninguém para trás” |
-| Plataforma | [**The Mule** — ficha completa](vehicle%20-%20the_mule.md) (8x8, Vanisher, MIAC-5, contramedidas) |
-| Imagem do veículo | <img src="../imagens/vehicle%20-%20the_mule.jpg" width="220" alt="The Mule" /> · [arquivo](../imagens/vehicle%20-%20the_mule.jpg) |
-| Manutenção / upgrades | Ryan ajuda na oficina; a soberania do Mule é dela |
+| Papel                 | Detalhe                                                                                                                           |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Pilota / comandante   | Valk — rotas, extração, “não deixo ninguém para trás”                                                                             |
+| Plataforma            | [**The Mule** — ficha completa](vehicle%20-%20the_mule.md) (8x8, Vanisher, MIAC-5, contramedidas)                                 |
+| Imagem do veículo     | <img src="../imagens/vehicle%20-%20the_mule.jpg" width="220" alt="The Mule" /> · [arquivo](../imagens/vehicle%20-%20the_mule.jpg) |
+| Manutenção / upgrades | Ryan ajuda na oficina; a soberania do Mule é dela                                                                                 |
 
 **Regra de narração:** ao tratar Valk em missão com o veículo, abrir a ficha do Mule em paralelo — armamento, Vanisher, limpa-trilho e reputação de “van que não para” estão lá, não nesta ficha.
 
@@ -47,11 +47,11 @@ No **flanco esquerdo** — costela / abdômen até o quadril — tinta tribal es
 
 ### Presença física (narrador)
 
-| Campo | Valor |
-| ----- | ----- |
-| **Altura** | **~1,75 m** |
-| **Build** | **Bem atlética** — músculos traçados de academia / treino constante; tonificada, não bulk de solo |
-| **Nota** | Mais alta e “soldado” que Alex; abaixo de Ryan/Reina/Jax. Presença de quem carrega o Mule e a extração. |
+| Campo      | Valor                                                                                                   |
+| ---------- | ------------------------------------------------------------------------------------------------------- |
+| **Altura** | **~1,75 m**                                                                                             |
+| **Build**  | **Bem atlética** — músculos traçados de academia / treino constante; tonificada, não bulk de solo       |
+| **Nota**   | Mais alta e “soldado” que Alex; abaixo de Ryan/Reina/Jax. Presença de quem carrega o Mule e a extração. |
 
 ## Estatísticas
 
@@ -85,24 +85,24 @@ Criação era **Moto 4** (o rank não estava na ficha). Ranks 5 e 6 pagos com IP
 
 O rank soma em qualquer teste de **Drive Land Vehicle**, **Pilot Air Vehicle**, **Pilot Sea Vehicle**, **Land / Air / Sea Vehicle Tech**.
 
-| Teste que ela usa | Conta |
-| ----------------- | ----- |
-| Dirigir | REF 8 + Drive 7 + Moto 6 + 1d10 = **21 + 1d10** |
+| Teste que ela usa | Conta                                                   |
+| ----------------- | ------------------------------------------------------- |
+| Dirigir           | REF 8 + Drive 7 + Moto 6 + 1d10 = **21 + 1d10**         |
 | Land Vehicle Tech | TECH 7 + Vehicle Tech 5 + Moto 6 + 1d10 = **18 + 1d10** |
-| Handgun | REF 8 + 6 + 1d10 = **14 + 1d10** |
-| Perception | INT 6 + 6 + 1d10 = **12 + 1d10** |
+| Handgun           | REF 8 + 6 + 1d10 = **14 + 1d10**                        |
+| Perception        | INT 6 + 6 + 1d10 = **12 + 1d10**                        |
 
 **Motorpool:** 1 escolha por rank, **6 em aberto** (4 da criação + rank 5 + rank 6). Cada escolha é um veículo de estoque daquele rank ou menos, ou um upgrade de rank igual ou menor num veículo da família. A família original está morta. O Mule já é dela. 8x8, Vanisher, MIAC-5 e o SP 20 continuam obra de campanha do Ryan — não gastam estas escolhas. Nada novo entra no Mule por esta linha até uma escolha ser sacada.
 
 **IP até a 028:** acerto **1.060** (22 sessões na faixa 40 + 6 na faixa 30; a mesma conta do Ryan). Gasto **1.040**. Sobram **20**.
 
-| Compra | Custo |
-| ------ | ----- |
-| Moto 5 | 300 |
-| Moto 6 | 360 |
-| Drive Land Vehicle 6→7 | 140 |
-| Perception 5→6 | 120 |
-| Handgun 5→6 | 120 |
+| Compra                 | Custo |
+| ---------------------- | ----- |
+| Moto 5                 | 300   |
+| Moto 6                 | 360   |
+| Drive Land Vehicle 6→7 | 140   |
+| Perception 5→6         | 120   |
+| Handgun 5→6            | 120   |
 
 Moto 7 custaria mais 420. Faltam 400 para esse passo. Os 20 que sobram não compram o próximo nível de nenhuma skill que ela já tem (o mais barato útil seria Melee 2→3 = 60).
 
@@ -112,12 +112,12 @@ Regras: [07_roles.md](../sistema/regras_red/07_roles.md) · [09_veiculos.md](../
 
 Número e função: [05 §4](../sistema/regras_red/05_cyberware.md).
 
-| Cyberware   | HL  | Na jogada |
-| ----------- | --- | --------- |
-| Neural Link | 7   | Função: interface com veículo e arma inteligente. Sem dado. |
-| Biomonitor  | 2   | Função: lê os próprios sinais. Sem dado. |
+| Cyberware   | HL  | Na jogada                                                                                                                                    |
+| ----------- | --- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Neural Link | 7   | Função: interface com veículo e arma inteligente. Sem dado.                                                                                  |
+| Biomonitor  | 2   | Função: lê os próprios sinais. Sem dado.                                                                                                     |
 | Kerenzikov  | 7   | **+2** na Iniciativa e **+2** em teste de REF. Função: vê o movimento nascer e age antes — direção inclusa. Não soma Perception nem Evasion. |
-| Pain Editor | 7   | Enquanto ligado, cancela o **−2** de Seriously Wounded. Não cura. A janela é o trecho em que ficou ligado. |
+| Pain Editor | 7   | Enquanto ligado, cancela o **−2** de Seriously Wounded. Não cura. A janela é o trecho em que ficou ligado.                                   |
 
 **Total Humanity Loss:** 23 | **EMP Atual:** 5 | **Humanidade:** 50
 
@@ -184,31 +184,31 @@ Ryan e Valk estão namorando de forma **consolidada** (F07). Dividem tenda no Pa
 
 Fora de cena até ela ou o Ryan chamar. Não entram no Mule só por estarem nesta ficha.
 
-| Nome | Tipo | Nível | O que oferece | Notas |
-| ---- | ---- | ----- | ------------- | ----- |
-| **“Grease” Ortega** | Mecânico itinerante | Médio | Peças pesadas, solda estrutural, pneus militares | Postos isolados. Já fez serviço no Mule uma vez sem cobrar extra. |
-| **“Kite” Nguyen** | Contrabandista de rotas | Fraco | Aviso de checkpoints, pontos de combustível, rumores de Raffen | Fala pouco. Prefere pagamento em peças ou informação. |
-| **“Old Iron”** | Ex-nômade aposentado | Médio | Abrigo temporário, conhecimento de packs antigos, conselho de estrada | Perdeu gente também. Não pergunta sobre o passado dela. |
+| Nome                | Tipo                    | Nível | O que oferece                                                         | Notas                                                             |
+| ------------------- | ----------------------- | ----- | --------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **“Grease” Ortega** | Mecânico itinerante     | Médio | Peças pesadas, solda estrutural, pneus militares                      | Postos isolados. Já fez serviço no Mule uma vez sem cobrar extra. |
+| **“Kite” Nguyen**   | Contrabandista de rotas | Fraco | Aviso de checkpoints, pontos de combustível, rumores de Raffen        | Fala pouco. Prefere pagamento em peças ou informação.             |
+| **“Old Iron”**      | Ex-nômade aposentado    | Médio | Abrigo temporário, conhecimento de packs antigos, conselho de estrada | Perdeu gente também. Não pergunta sobre o passado dela.           |
 
 ## Clientes recorrentes
 
 Off-screen. Não são o Pack nem a crew. **Wren** não é o Kaz. **Dr. Patch** não é a Stitch nem a Doc Moreau (F04).
 
-| Cliente | Tipo | Frequência | O que pede | Relação |
-| ------- | ---- | ---------- | ---------- | ------- |
-| **“Wren”** | Fixer de baixo nível | 1–2x/mês | Extrações discretas, transporte de pessoas que precisam sumir | Paga em dia. Ela confia no dinheiro, não na pessoa. |
-| **Dr. “Patch”** | Medtech itinerante | Ocasional | Transporte de suprimentos ou pacientes em zonas ruins | Paga bem. Ela respeita porque ele não deixa ferido para trás. |
-| **Caravanas pequenas** | Nomads / independentes | Esporádico | Escolta curta ou transporte de carga | Só aceita se o grupo não for problemático. |
+| Cliente                | Tipo                   | Frequência | O que pede                                                    | Relação                                                       |
+| ---------------------- | ---------------------- | ---------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| **“Wren”**             | Fixer de baixo nível   | 1–2x/mês   | Extrações discretas, transporte de pessoas que precisam sumir | Paga em dia. Ela confia no dinheiro, não na pessoa.           |
+| **Dr. “Patch”**        | Medtech itinerante     | Ocasional  | Transporte de suprimentos ou pacientes em zonas ruins         | Paga bem. Ela respeita porque ele não deixa ferido para trás. |
+| **Caravanas pequenas** | Nomads / independentes | Esporádico | Escolta curta ou transporte de carga                          | Só aceita se o grupo não for problemático.                    |
 
 ## Inimigos e rivais
 
 **Cutter** é a mesma célula do corte 04/08 (E008), não um grupo novo. Camp leste ainda lá. Os outros nomes são estrada dela, off-screen.
 
-| Nome / Grupo | Motivo | Perigo | Status |
-| ------------ | ------ | ------ | ------ |
-| **Cutter** (líder, célula Raffen) | Já interrompeu operação deles | Médio | Hostis. Evitam o Mule de frente. |
-| **“Lane”** | Rival motorista independente | Baixo–Médio | Competição por jobs. Já tentou forçar o Mule para fora da estrada. |
-| **Ex-segurança de transporte** | Ela atrapalhou uma operação corporativa menor | Baixo | O nome dela está num relatório interno. Sem corp nomeada. |
+| Nome / Grupo                      | Motivo                                                                    | Perigo      | Status                                                                                                                                                               |
+| --------------------------------- | ------------------------------------------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Cutter** (líder, célula Raffen) | Já interrompeu operação deles                                             | Médio       | Hostis. Evitam o Mule de frente.                                                                                                                                     |
+| **“Lane”**                        | Rival motorista independente                                              | Baixo–Médio | Competição por jobs. Já tentou forçar o Mule para fora da estrada.                                                                                                   |
+| **Hale**                          | Ex-segurança de transporte. Valk atrapalhou uma operação da empresa dela. | Baixo       | Ressentimento profissional. Conseguem ser civilizadas. Provocação seca e indireta, sem agressão imediata. Só escala se a situação já estiver tensa por outro motivo. |
 
 ## Notas / Journal
 
@@ -231,12 +231,13 @@ Off-screen. Não são o Pack nem a crew. **Wren** não é o Kaz. **Dr. Patch** n
 
 ### Vestuário (atalho narrador)
 
-| Uso | Arquivo | Notas |
-| --- | ------- | ----- |
-| Pack / job campo | `badlands_tactical.jpg` · `combat_cargo_olive.jpg` | **Dona habitual** pack/tático |
-| Stealth / NC operacional | `stealth_black_jumpsuit.jpg` · `street_allblack_set.png` | |
-| Casa / intimidade | `intimate_*` · sleep cami/robe | Empréstimo ok na casa |
-| Default se vazio | card **OPERAÇÃO / Badlands** | |
+| Uso                      | Arquivo                                                  | Notas                         |
+| ------------------------ | -------------------------------------------------------- | ----------------------------- |
+| Pack / job campo         | `badlands_tactical.jpg` · `combat_cargo_olive.jpg`       | **Dona habitual** pack/tático |
+| Stealth / NC operacional | `stealth_black_jumpsuit.jpg` · `street_allblack_set.png` |                               |
+| Casa / intimidade        | `intimate_*` · sleep cami/robe                           | Empréstimo ok na casa         |
+| Default se vazio         | card **OPERAÇÃO / Badlands**                             |                               |
+
 - [Relacionamentos Valk](../relacionamentos/lena_valk_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- **Imagens (Valk):** [default](../imagens/nomad%20-%20lena_valk_kane.jpg) · [_2 tatuagem](../imagens/nomad%20-%20lena_valk_kane_2.jpg) · [_3 bodysuit](../imagens/nomad%20-%20lena_valk_kane_3.jpg)
+- **Imagens (Valk):** [default](../imagens/nomad%20-%20lena_valk_kane.jpg) · [\_2 tatuagem](../imagens/nomad%20-%20lena_valk_kane_2.jpg) · [\_3 bodysuit](../imagens/nomad%20-%20lena_valk_kane_3.jpg)
 - **Estado:** [Board](../board/board_campanha.md) · [Pack Badlands](../facoes/pack_badlands.md)
