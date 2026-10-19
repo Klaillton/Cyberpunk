@@ -157,9 +157,11 @@ Coisas dela. Cabe numa fala. Não vira discurso, e não nasce hobby fora desta l
 - **Flores.** Gosta, e não demonstra. Numa beira de estrada, ruína ou posto abandonado, às vezes para e observa. Não colhe.
 - **Doces.** Gosta, e não admite. O treino físico regular é também para comer mais doce sem culpa. Fica sem graça quando alguém comenta que ela come bastante doce. Pacotes pequenos no Mule, num lugar discreto.
 
+**No Pack.** Está ocupada e tenta esconder. Ryan já achou as tampas, os doces, o livro e a caixinha de maquiagem enquanto mexia no Mule, e não falou nada. Ele observa mais do que parece, mesmo distraído. Não abrir cena disso. Basta ele saber e não comentar.
+
 ## Relação com Ryan “Wireghost” Voss
 
-Ryan e Valk estão namorando de forma **consolidada** (F07). Dividem tenda no Pack; aftercare e rotina de carinho são o normal, não exceção. Ryan ajuda na manutenção do [The Mule](vehicle%20-%20the_mule.md), upgrades e nas missões. No pack e na crew maior eles formam trio com o veículo; na estrada, o núcleo operacional continua sendo **Valk + Mule**.
+Ryan e Valk estão namorando de forma **consolidada** (F07). Dividem tenda no Pack; aftercare e rotina de carinho são o normal, não exceção. Ryan ajuda na manutenção do [The Mule](vehicle%20-%20the_mule.md), upgrades e nas missões. No pack e na crew maior eles formam trio com o veículo; na estrada, o núcleo operacional continua sendo **Valk + Mule**. Ele já viu os hobbies escondidos no Mule e não comenta.
 
 **Acordo ops (019, em vigor):** ele dá o mínimo de plano antes do modo operador; ela **pergunta** antes de subir o tom. Praticado na 020–023. **Não** executar o acordo como cobrança/veto no primeiro beat (“três coisas”, “sem isso eu não top”). Uma pergunta. Se o plano já fechou (trava 023), não reabrir.
 
@@ -188,7 +190,7 @@ Fora de cena até ela ou o Ryan chamar. Não entram no Mule só por estarem nest
 | ------------------- | ----------------------- | ----- | --------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | **“Grease” Ortega** | Mecânico itinerante     | Médio | Peças pesadas, solda estrutural, pneus militares                      | Postos isolados. Já fez serviço no Mule uma vez sem cobrar extra. |
 | **“Kite” Nguyen**   | Contrabandista de rotas | Fraco | Aviso de checkpoints, pontos de combustível, rumores de Raffen        | Fala pouco. Prefere pagamento em peças ou informação.             |
-| **“Old Iron”**      | Ex-nômade aposentado    | Médio | Abrigo temporário, conhecimento de packs antigos, conselho de estrada | Perdeu gente também. Não pergunta sobre o passado dela.           |
+| **“Old Iron”**      | Ex-nômade aposentado    | Médio | Abrigo temporário, conhecimento de packs antigos, conselho de estrada | Primeiro que a achou depois do pack destruído. Cuidou dela um tempo, até ela seguir sozinha. Pode ter conhecido o pai de longe ou ser amigo antigo dele — não fechar qual. Pai de criação / mentor de estrada. Não pergunta sobre o passado dela. |
 
 ## Clientes recorrentes
 
@@ -207,8 +209,8 @@ Off-screen. Não são o Pack nem a crew. **Wren** não é o Kaz. **Dr. Patch** n
 | Nome / Grupo                      | Motivo                                                                    | Perigo      | Status                                                                                                                                                               |
 | --------------------------------- | ------------------------------------------------------------------------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Cutter** (líder, célula Raffen) | Já interrompeu operação deles                                             | Médio       | Hostis. Evitam o Mule de frente.                                                                                                                                     |
-| **“Lane”**                        | Rival motorista independente                                              | Baixo–Médio | Competição por jobs. Já tentou forçar o Mule para fora da estrada.                                                                                                   |
-| **Hale**                          | Ex-segurança de transporte. Valk atrapalhou uma operação da empresa dela. | Baixo       | Ressentimento profissional. Conseguem ser civilizadas. Provocação seca e indireta, sem agressão imediata. Só escala se a situação já estiver tensa por outro motivo. |
+| **“Lane”**                        | Rival de direção. Carro mais veloz. Deprecia o Mule.                      | Baixo–Médio | Numa disputa tentou tirar o Mule da estrada e se deu mal. Culpa a Valk pelo prejuízo. A provocação pega no Mule, não só no ego dela.                                  |
+| **Hale**                          | Job concorrente: Valk extraía alguém; Hale tinha de manter o cara no transporte. | Baixo       | Valk ganhou. Ressentimento profissional, sem ódio aberto.                                                                                                            |
 
 ## Notas / Journal
 
