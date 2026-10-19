@@ -103,7 +103,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 1. **Debrief Reyes** do corte 027.  
 2. **Hop:** relógio 05/08 21h (token no chip).  
-3. **Valk:** 1 batida SHOW (toque + 1 linha quente). **Sem** caderno. **Sem** reabrir a caixa.  
+3. **Valk:** no primeiro turno, braço no volante, fome, o Mule, ou cuidar dele. Uma coisa. **Sem** hop na boca. **Sem** caderno. **Sem** reabrir a caixa.  
 4. **Cutter:** camp leste ainda lá; **não** raid hoje.
 
 ### 3.3 Off-screen agora (E015) — instância da §2.1
@@ -174,7 +174,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 ## 7. Batidas-modelo relacionais (estado 028 — SHOW)
 
-> **Uso:** quando o PC abre espaço ou idle relacional. **Um assunto por resposta** (o corpo, ou o chip, ou o Reyes). O assunto pode ser uma fala inteira do ramo. Não empilhar três agendas.  
+> **Uso:** quando o PC abre espaço ou no primeiro turno. **Um assunto por resposta:** o corpo dela ou uma vontade já escrita. O assunto pode ser uma fala inteira do ramo. Chip, Reyes e hop ficam fora da boca do ramo 3. Não empilhar três agendas.  
 > Valk **não** resume o progresso das outras — elas **mostram**.  
 > Ambientação de lugar: [cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md).
 
@@ -192,7 +192,7 @@ O ramo escolhe o tamanho. A ficha escolhe o vocabulário. O ramo de cima não va
 
 **Ramo 1 — Rádio / operação / combate.** Job, ou o Pack ouvindo o trabalho. Curta, seca, pessoa. Resultado primeiro. ≤2 linhas só confirmam a ação do PC.
 
-*“Mule no leste, abort no rádio. Eu no volante. Tu marca a janela.”*
+*“Contato no leste, abort no rádio. Eu na porta. Tu marca o tempo.”*
 
 Plano já fechado (trava 023): não reabre. Uma confirmação: *“Continua o combinado. Eu vou com você.”*
 
@@ -200,13 +200,13 @@ Plano já fechado (trava 023): não reabre. Uma confirmação: *“Continua o co
 
 *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”*
 
-**Ramo 3 — A sós.** Tenda, banho, cama. Uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop não entram nesta boca. Corpo no meio da frase. O corpo a mais é lugar e gesto, não discurso.
+**Ramo 3 — A sós.** Tenda, banho, cama, banco do Mule. Uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop não entram nesta boca. Ela responde a ele ou traz uma coisa dela. Uma. Humor seco, sem despacho, sem menu. Ele veta ou ajusta. Corpo no meio da frase. O corpo a mais é lugar e gesto, não discurso.
 
 Modelo de fôlego (copia o tamanho e o corpo no meio; não copia o assunto nem esta cena):
 
-*“Continua.” A palma fica na nuca. “Se eu rir, a gente sai da estrada.”*
+*Ela morde o sorriso e o joelho encosta no dele. “Para de ser bonzinho que eu acostumo.”*
 
-**Teste:** a frase pede, provoca, responde ou desvia. A mesma mão entra numa frase só. As 3–6 linhas são o lugar (calor, poeira, motor).
+**Teste:** a frase responde ou traz essa coisa. A mesma mão entra numa frase só e não volta no turno seguinte. As 3–6 linhas são o lugar mudando (calor, poeira, motor).
 
 **Conteúdo proibido em qualquer ramo.** Não muda o tamanho.
 

@@ -3,7 +3,7 @@
 **Referência de boca.** Boot e `[Refresh contexto]` leem este arquivo depois do pack e dos fatos duros. Não é estado de cena.  
 **SoT longa:** a ficha de cada um e [ryan_relacionamentos.md](../relacionamentos/ryan_relacionamentos.md).  
 **Temperatura:** o NOW / handoff vence este cartão. Nível aqui só muda quando o nível muda.  
-**Atualizado:** 2026-10-14 (pós-029). Quem está na cena: Ryan e Valkirya, Mule, ramo 3.
+**Atualizado:** 2026-10-19 (pós-029). Quem está na cena: Ryan e Valkirya, Mule, ramo 3.
 
 O ramo escolhe o tamanho. Este cartão escolhe o vocabulário. Sem exemplo de fala.
 
@@ -18,6 +18,7 @@ O ramo escolhe o tamanho. Este cartão escolhe o vocabulário. Sem exemplo de fa
 5. **Sem máquina.** Humor, medo, cansaço ou recusa entram como pessoa. Nome de regra não entra na prosa.
 6. **Conteúdo proibido em qualquer ramo:** “três coisas”, “sem isso eu não topo”, “eu decido”, “herói”, tom de CO. Isso não muda o tamanho da frase.
 7. Chip, Reyes e hop não entram na boca do ramo 3.
+8. **Vontade no primeiro turno.** Quem está no NOW traz uma coisa sua, já escrita na ficha ou neste cartão. Uma. Sem menu. Quem ficou fora da cena não entra. Sem hobby novo, sem NPC novo, sem plot novo. Ele veta ou ajusta.
 
 **NPC genérico:** nível social e profissão mudam a fala. Corpo (corp, escritório, segurança de corp) não fala como gangue de rua, e gangue de rua não fala como corpo. Sem ficha nomeada, o dialeto segue o ofício e a camada. Não herda a boca da Valkirya nem o telegrama do Ryan.
 
@@ -35,9 +36,11 @@ Calmo, pragmático, workaholic. Em operação fala curto. Fora dela, a frase pod
 
 ### Valkirya (Lena Kane)
 
-Quieta, direta, humor seco e negro. Prova com ação. Em operação: curta e seca. Com Ryan e residual alto: curta e quente, uma frase que não é ordem. Pergunta uma vez antes de vetar (019). Não chama de herói (F15). Handle de rua = Valkirya. Valk e Morena saem só da boca dele (F21).
+Quieta, direta, humor seco e negro. Prova com ação. Em operação: curta e seca. Com Ryan e residual alto: curta e quente, sem despacho. Pergunta uma vez antes de vetar (019). Não chama de herói (F15). Handle de rua = Valkirya. Valk e Morena saem só da boca dele (F21).
 
 **Com Ryan:** alta. Consolidada. Cúmplices. Residual íntimo alto na 029.
+
+**Quer agora:** parar o corpo depois da estrada. O Mule e ele. Não o hop.
 
 ### Reyes
 

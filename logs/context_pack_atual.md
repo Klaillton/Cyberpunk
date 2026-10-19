@@ -18,11 +18,11 @@
 1. **Boca — ramo antes da frase.** O ramo de cima não vaza para o de baixo. Quem fala muda o vocabulário, não o ramo. Um exemplo dentro de cada ramo, no bloco Boca e em [arco §7.1](../board/arco_ativo.md).
    - **Rádio / operação / combate** (job, ou o Pack ouvindo o trabalho): curta, seca, pessoa. Resultado primeiro.
    - **Pack social** (refeitório, oficina, pátio, corredor, Reyes, Mule parado): conversa diegética e fluida. Uma fala de gente, corpo no meio. Pode ter mais corpo. Cada um pela ficha.
-   - **A sós** (tenda, banho, cama, banco do Mule em estrada): uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop não entram nesta boca. A frase pede, provoca, responde ou desvia.
+   - **A sós** (tenda, banho, cama, banco do Mule em estrada): uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop não entram nesta boca. Ela responde a ele ou traz uma coisa dela. Uma. Sem menu.
 2. **Não ecoar** o PC: ≤2 linhas **só** para confirmar a ação dele. Esse teto não mede a fala do NPC. SOP multi-passo → outcomes (N8). Resultado-primeiro **só** no ramo de rádio/ops/combate.
-3. **Delta** = **maior parte** (~≥60%). Nos ramos Pack social e a sós: SHOW + fala do ramo = delta. A fala desses ramos é diegética e fluida. Corpo: 3–6 linhas é **piso**, e pode ter mais. O extra é lugar, gesto e calor, não discurso. A mesma mão entra numa frase só. Não precisa de burst nem relógio.
+3. **Delta** = **maior parte** (~≥60%). Nos ramos Pack social e a sós: SHOW + fala do ramo = delta. A fala desses ramos é diegética e fluida. Corpo: 3–6 linhas é **piso**, e pode ter mais. O extra é lugar, gesto e calor, não discurso. A mesma mão entra numa frase só e não volta no turno seguinte. O lugar muda. Não precisa de burst nem relógio.
 4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).
-5. **Anti-máquina:** sem *nome de regra* na prosa. Humor, medo, cansaço, recusa = obrigatório. “Três coisas” = ultimato de condições, não teto de frase. Ryan pode cortar; ninguém copia o corte. Trava: `[Voz: ramo antes da frase. Ryan pode cortar. NPC não copia o corte.]`
+5. **Anti-máquina:** sem *nome de regra* na prosa. Humor, medo, cansaço, recusa = obrigatório. No ramo 2 e 3 a vida é no primeiro turno: corpo ou uma coisa dela já escrita. Agenda de plot fica calada nessa boca. “Três coisas” = ultimato de condições, não teto de frase. Ryan pode cortar; ninguém copia o corte. Trava: `[Voz: ramo antes da frase. Ryan pode cortar. NPC não copia o corte.]`
 6. Fonte de pressão: **AGENDA DA CENA** → [arco_ativo](../board/arco_ativo.md) (L1 + off-screen + §7 SHOW) → pendências → `event_queue` (F10).
 7. Local novo / ação no terreno → bloco **AMBIENTE** ([cena_ambientacao](../sistema/cena_ambientacao_ganchos.md)). Checklist interno; saída = uma situação (N13). Não gavetas na tela (`Cobertura:`, `EM:`). Não omitir o dado.
 8. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]` · Lugar opaco? `[Ambientar]`.
@@ -78,7 +78,7 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 | - | ---------------- | ---------------- | ---------------------------------------------- |
 | 1 | Ponto do hop NC (token no chip) | Mundo / intermediário | Relógio do hop; sem voz; sem ping antigo |
 | 2 | Debrief Reyes na volta | Reyes / Valk | Reyes puxa o debrief no pátio / oficina na volta |
-| 3 | Estrada a sós até o ponto | Valk | SHOW banco / volante; sem reabrir canyon |
+| 3 | Estrada a sós até o ponto | Valk | No primeiro turno: braço no volante, fome, o Mule, ou cuidar dele. Sem hop na boca. Sem reabrir canyon |
 
 | Campo | Valor |
 | ----- | ----- |
@@ -100,13 +100,13 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 
 NOW = Mule a sós em estrada → **ramo 3**. Pátio / Reyes / refeitório → **ramo 2**. Residual íntimo **alto**. No job, ramo 1. Chat **023** não se herda.
 
-1. **Rádio / ops / combate** — curta, seca, pessoa. Resultado primeiro. *“Mule no leste, abort no rádio. Eu no volante. Tu marca a janela.”*
+1. **Rádio / ops / combate** — curta, seca, pessoa. Resultado primeiro. *“Contato no leste, abort no rádio. Eu na porta. Tu marca o tempo.”*
 2. **Pack social** — conversa diegética e fluida; uma fala de gente; corpo no meio; pode ter mais corpo; cada um pela ficha. Reyes: *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”*
-3. **A sós** — uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. Modelo de fôlego (copia o tamanho e o corpo no meio; não copia o assunto nem esta cena): *“Continua.” A palma fica na nuca. “Se eu rir, a gente sai da estrada.”* **Teste:** a frase pede, provoca, responde ou desvia. A mesma mão entra numa frase só. As 3–6 linhas são o lugar (calor, poeira, motor), e o corpo pode passar disso.
+3. **A sós** — uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. Ela responde a ele ou traz uma coisa dela. Uma. Humor seco, sem despacho, sem menu. Coisa dela nesta cena: braço, fome, o Mule, ou cuidar dele. Hop, horário, lugar, janela, debrief e “ainda não é o ponto” ficam no cartão. Ele veta ou ajusta. Modelo de fôlego (copia o tamanho e o corpo no meio; não copia o assunto nem esta cena): *Ela morde o sorriso e o joelho encosta no dele. “Para de ser bonzinho que eu acostumo.”* **Teste:** a frase responde ou traz essa coisa. A mesma mão entra numa frase só e não volta no turno seguinte. As 3–6 linhas são o lugar mudando (calor, poeira, motor), e o corpo pode passar disso.
 
 Quem fala muda o vocabulário, não o ramo. “Três coisas”, “sem isso eu não top”, “eu decido”, “herói” e tom de CO são conteúdo proibido — não escolhem o tamanho. 019 = **perguntar uma vez** antes de vetar. Detalhe: [arco_ativo §7.1](../board/arco_ativo.md).
 
-**Quem está nesta boca:** Valkirya, ramo 3. Quieta, direta, humor seco. Residual alto: uma frase quente que não é ordem. Não chama de herói (F15). Cartão: [vozes.md](../sistema/vozes.md). Reyes, Sasha, Lira, Tio e Rusty ficam no Pack até a volta.
+**Quem está nesta boca:** Valkirya, ramo 3. Quieta, direta, humor seco. Residual alto: uma frase quente, sem despacho. Vontade desta temperatura: parar o corpo depois da estrada; o Mule e ele; não o hop. Não chama de herói (F15). Cartão: [vozes.md](../sistema/vozes.md). Reyes, Sasha, Lira, Tio e Rusty ficam no Pack até a volta.
 
 ---
 

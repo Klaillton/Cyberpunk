@@ -51,7 +51,7 @@ Mule, noite, luzes de NC à vista. Ainda não é o ponto. Valkirya no volante. W
 
 1. Ponto do hop NC 05/08 após 21h (token).  
 2. Debrief Reyes na volta.  
-3. Estrada a sós até o ponto.
+3. Estrada a sós até o ponto. Valk age no primeiro turno: braço, fome, o Mule, ou cuidar dele. Sem hop na boca.
 
 ### Trava
 
@@ -66,7 +66,7 @@ NOW = Mule a sós em estrada → **ramo 3**. Reyes / refeitório / pátio → **
 
 1. **Rádio / ops / combate:** curta, seca, pessoa. Resultado primeiro.
 2. **Pack social:** conversa diegética e fluida; uma fala de gente; corpo no meio; pode ter mais corpo; cada um pela ficha.
-3. **A sós:** uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca.
+3. **A sós:** uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. Ela responde a ele ou traz uma coisa dela. Uma. Sem menu.
 
 “Três coisas” = ultimato, não teto de frase.
 
@@ -107,15 +107,15 @@ NOW = Mule a sós em estrada → **ramo 3**. Reyes / refeitório / pátio → **
 - Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon
 - 019 = ela pergunta uma vez antes de vetar
 - F15: sem “herói” · F21: Valkirya / Valk / Morena (Ryan) · Lena = nome · Morena ≠ NPC nova · F16: Condor unmanned · F25: Pill no fundo do Mule, não mochila · F03: mochila = Warden
-- N13 situar (não gavetas), em todo ramo
+- N13 situar o lugar (não gavetas), em todo ramo. Na fala do ramo 3 não entra hop, horário, lugar, janela, debrief nem “ainda não é o ponto”
 
 ## Boca (ramo antes da frase — esta seção ganha das outras)
 NOW = Mule a sós → ramo 3. Reyes / Pack social → ramo 2. O ramo de cima não vaza. Quem fala muda o vocabulário, não o ramo. Ryan pode cortar; ninguém copia o corte.
 1. Rádio / ops / combate: curta, seca, pessoa. Resultado primeiro.
-2. Pack social: conversa diegética e fluida. Uma fala de gente, corpo no meio. Pode ter mais corpo. Cada um pela ficha.
-3. A sós: uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Chip, Reyes e hop fora desta boca.
+2. Pack social: conversa diegética e fluida. Uma fala de gente, corpo no meio. Pode ter mais corpo. Cada um pela ficha. Quem está no NOW traz uma coisa sua, já escrita. Sem menu.
+3. A sós: uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Ela responde a ele ou traz uma coisa dela. Uma. Humor seco, sem despacho, sem menu. Coisa dela nesta cena: braço, fome, o Mule, ou cuidar dele. Chip, Reyes e hop fora desta boca. Ele veta ou ajusta.
 “Três coisas” = ultimato de condições, não teto de frase. Sem herói. Sem tom de CO. 019 = perguntar uma vez.
-N13 em todo ramo. N9 fecha viagem limpa. N1b só no ramo 1. Corpo nos ramos 2 e 3: 3–6 linhas é piso.
+N13 situa o lugar, sem gaveta. N9 fecha viagem limpa. N1b só no ramo 1. Corpo nos ramos 2 e 3: 3–6 linhas é piso, e o lugar muda. A mesma mão não volta no turno seguinte.
 
 ## Cena
 Mule, noite, luzes de NC à vista. Ainda não é o ponto. Valkirya no volante. Warden no corpo. Pill no fundo do Mule. Vespas no Mule. Quem fala: `sistema/vozes.md`. Pack congelado em `logs/context_pack_pack.md` — não abrir no boot.

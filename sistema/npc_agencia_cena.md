@@ -21,7 +21,8 @@
 | **Delegação executa** | Se Ryan **delegou** uma tarefa ("Valk, planeje X"), o NPC **entrega o plano** — não devolve o trabalho disfarçado de pergunta. |
 | **Anti-loop** | Se a mesma pergunta/opções A/B/C já apareceu **2×** na sessão, o narrador **avança** com decisão do NPC na 3ª vez. |
 | **Anti-plateia** | Após **2 turnos** só observando sem ação, o NPC **age** (agenda própria, micro-decisão, ou sai e executa tarefa aberta). |
-| **Agenda não congela (N5)** | Tarefa aberta na AGENDA DA CENA / NOW + PC passivo/hiperfoco ≥2 turnos → NPC **executa** e o PC só percebe o resultado (F10). |
+| **Vida no primeiro turno** | Ramo 2 e 3: o NPC presente traz no primeiro turno o corpo ou uma coisa sua já escrita na ficha ou no cartão de vozes. Uma sugestão fechada, não um menu. Os 2 turnos acima são para ops, não para esperar ter vontade. |
+| **Agenda não congela (N5)** | Em ops, tarefa aberta na AGENDA + PC passivo ≥2 turnos → NPC **executa** e o PC só percebe o resultado (F10). No ramo 2 e 3 a agenda de plot fica calada; a vida do primeiro turno não espera esses 2 turnos. |
 | **Cena solo** | Sem NPC presente: pressão = AGENDA (mundo, drones, tempo, rádio se canal plausível) — não “inventa plateia”. |
 
 ---
@@ -133,7 +134,7 @@ Ryan pergunta a Elias; **Elias e Tio Gringo** resolvem a peça entre si enquanto
 | Pergunta a Elias, responde outro NPC | Quem foi nomeado responde; outros só se intercalarem de forma natural |
 | Troca longa estilo novela sem input | Limitar a 1–2 falas NPC↔NPC por turno (salvo `[Agência NPC]` explícito) |
 | Decisão que contradiz board / F11 / L03 | Consultar [board](../board/board_campanha.md) e [fatos_duros.md](fatos_duros.md) |
-| **Plateia eterna** (NPC só observa o PC) | Anti-plateia: no 3º turno age ou executa agenda |
+| **Plateia eterna** (NPC só observa o PC) | Ramo 2 e 3: vida no primeiro turno. Ops: anti-plateia no 3º turno |
 | **Eco do monólogo** do PC sem delta | N1–N4 do Motor de cena; consolidar ou interrupt |
 | Pressão de **outro local** sem canal | Reescrever AGENDA ao mudar de local; F10 |
 
@@ -147,7 +148,7 @@ Regras são genéricas. Tabela = **exemplos de documentação**, não hardcode.
 | -------- | ---------- | -------------------------- |
 | Pack / acampamento | Hiperfoco em diagrama/projeto (3º turno) | Companheira com tarefa aberta **executa** (ex. alinhar rotina com o líder) e deixa recado; 1 pergunta útil **ou** compressão do projeto (N4) |
 | Night City | Mood num bar / motel (3º turno) | Fixer manda mensagem / deadline do job; crewmate resolve micro-logística e volta com **fato** |
-| Estrada / base / recon | Silêncio no veículo ou overwatch | Scout reporta sinal; janela de tempo encolhe; heat residual **se já no SoT** |
+| Estrada / base / recon | Silêncio no veículo ou overwatch | Corpo da estrada ou uma coisa já escrita. Relógio de plot só se mudou, e sem voz no ramo 3 |
 
 ### 8.1 Regressão — monólogo de projeto (anti-eco)
 
