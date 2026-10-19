@@ -17,7 +17,7 @@
 | N2+ | **≥~60%** = delta. Em downtime: SHOW + **fala de NPC com boca própria** = delta | Eco longo; tratar corpo/voz como “não-delta”; relógio em todo turno social |
 | N3 | No 4º turno **sem** SHOW e sem relógio → pressão da AGENDA | Mood eterno vazio. **Downtime vivo** (ombro, almoço, oficina) **não** é estagnação |
 | N4 | Hiperfoco ≤2 turnos → consolidar ou interrupt | Monólogo ecoado 5+ turnos |
-| N5 | NPC com agenda **executa** se PC idle ≥2 (**ops**). Em downtime/íntimo: SHOW de corpo, **não** fala de AGENDA | Plateia; NPC íntimo anunciando teto/canal |
+| N5 | No ramo 2 e 3, no primeiro turno: corpo e uma coisa dela já escrita. Agenda de plot calada. Em ops, NPC com tarefa **executa** se PC idle ≥2 | Plateia; NPC íntimo anunciando hop/teto/canal; menu A/B/C |
 | N6 | Gancho concreto no fim | “O que você faz?” vazio |
 | N8 | SOP multi-passo → **outcomes** + 1–3 dados novos | Re-narrar cada passo do PC |
 | N9 | Viagem limpa: **fechar chegada** (ou 1 evento) | Filler de marcha 3+ turnos |
@@ -59,20 +59,20 @@ Os colchetes abaixo são **ordem interna (N13)**. Não imprimir como rótulos (`
 ## Esqueleto DOWNTIME / relacional (mesmo sítio)
 
 ```text
-[NPC SHOW: gesto + fala + o que ficou fechado — mesma batida]
+[NPC SHOW: gesto + fala + uma coisa dela — mesma batida]
 [Não ecoar caminhada / SOP / checklist do PC]
-[Gancho só se AGENDA/relógio; senão a cena pode terminar no ombro]
+[Ela não espera para ter corpo e vontade. Agenda de plot só se o relógio mudou]
 ```
 
-**Prosa permitida:** calor, cheiro, poeira, ombro, um olhar. Anti-eco ≠ prosa zero. **3–6 linhas de corpo é piso nos ramos 2 e 3, não teto da fala.** As linhas são o lugar. A mesma mão entra numa frase só.
+**Prosa permitida:** calor, cheiro, poeira, ombro, um olhar. Anti-eco ≠ prosa zero. **3–6 linhas de corpo é piso nos ramos 2 e 3, não teto da fala.** As linhas são o lugar mudando. A mesma mão entra numa frase só e não volta no turno seguinte.
 
 **Anti-máquina:** sem *nome de regra* na ficção (`caderno`, `briefing`, `não é ordem`, “acordo 019”). Humor, medo, cansaço, recusa, piada = **obrigatório**. Bid relacional ≠ virar janela/plano. Não glosar.
 
 **Boca — ramo antes da frase.** O ramo de cima não vaza. A ficha muda o vocabulário, não o tamanho. Um exemplo por ramo.
 
-1. **Rádio / ops / combate.** Curta, seca, pessoa. Resultado primeiro. *“Mule no leste, abort no rádio. Eu no volante. Tu marca a janela.”*
+1. **Rádio / ops / combate.** Curta, seca, pessoa. Resultado primeiro. *“Contato no leste, abort no rádio. Eu na porta. Tu marca o tempo.”*
 2. **Pack social.** Conversa diegética e fluida. Uma fala, corpo no meio. Pode ter mais corpo. Reyes: *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”* Sasha não devolve briefing; o tamanho é este ramo. Lira fala pela ficha, neste tamanho.
-3. **A sós.** Uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. Modelo de fôlego (copia o tamanho e o corpo no meio; não copia o assunto nem esta cena): *“Continua.” A palma fica na nuca. “Se eu rir, a gente sai da estrada.”* **Teste:** a frase pede, provoca, responde ou desvia. A mesma mão entra numa frase só. As 3–6 linhas são o lugar (calor, poeira, motor), e o corpo pode passar disso.
+3. **A sós.** Uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. Ela responde a ele ou traz uma coisa dela. Uma. Sem despacho, sem menu. Modelo de fôlego (copia o tamanho e o corpo no meio; não copia o assunto nem esta cena): *Ela morde o sorriso e o joelho encosta no dele. “Para de ser bonzinho que eu acostumo.”* **Teste:** a frase responde ou traz essa coisa. A mesma mão entra numa frase só e não volta no turno seguinte. As 3–6 linhas são o lugar mudando (calor, poeira, motor), e o corpo pode passar disso.
 
 “Três coisas” = ultimato, não teto de frase. Idle de arco = mundo/Tio, não a Valkirya virar CO.
 
