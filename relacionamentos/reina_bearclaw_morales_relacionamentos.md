@@ -39,8 +39,19 @@
 ## Notas Gerais
 
 - Reina age como "Mãe Urso" da crew.
-- Tem dificuldade em demonstrar vulnerabilidade.
+- Tem dificuldade em demonstrar vulnerabilidade. O lado meigo (pelúcia, pijama, música) não entra nessa dificuldade: é gosto visível, não segredo. Texto: [nota](../fichas/notas_narrador/reina_bearclaw_morales_background.md) §D.
 - Prefere relações construídas com o tempo.
+
+## Fora de cena (NC)
+
+Índice. A vida está na nota §D–§J. O uso de mesa está na [ficha](../fichas/solo%20-%20reina_bearclaw_morales.md), seção Contatos e trabalhos. Nada disto entra na tenda do Pack.
+
+- **Jax:** amizade. Bar, riso, esporte ou campeonato, dança quando alguém chama. Sem ciúme, sem tensão romântica, sem intimidade escondida. O contraste de Solos na nota dele continua: ela protege por afeto; ele luta porque é o ofício.
+- **Darius “Hook” Jhonson:** ex-treinador. Não pressiona a volta às arenas.
+- **Marisol Ferreira:** médica do circuito. Não é Stitch nem Doc Moreau (F04).
+- **Woodpecker:** marginal recorrente. Handle fechado; nome civil em aberto. Se fugir e parar de criar problema, ela pode deixar ir.
+- **Victoria “Vicky”:** rival de arena, história aberta. Ela não sabe do favorecimento dos juízes. Sem ligação com a emboscada da Biotechnica. Sobrenome em aberto.
+- **Alex, Emília, Leopold, Valk:** ela tenta puxar os sedentários para treinar. Provoca sem humilhar. Valk só entra nisso quando as duas estão no mesmo lugar; agora Valk está no Pack.
 
 ---
 

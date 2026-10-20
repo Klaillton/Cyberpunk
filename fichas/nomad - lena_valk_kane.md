@@ -16,7 +16,7 @@
 
 | Uso                                   | Arquivo                                                                                                             |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Default** (crop tático)             | <img src="../imagens/nomad%20-%20lena_valk_kane.jpg" width="220" alt="Lena Valkirya Kane — default" />              |
+| **Default** (crop tático)             | <img src="../imagens/nomad%20-%20lena_valk_kane.png" width="220" alt="Lena Valkirya Kane — default" />              |
 | **Crop + jaqueta** (tatuagem visível) | <img src="../imagens/nomad%20-%20lena_valk_kane_2.jpg" width="220" alt="Lena Valkirya Kane — tatuagem no flanco" /> |
 | **Bodysuit tático** (torso coberto)   | <img src="../imagens/nomad%20-%20lena_valk_kane_3.jpg" width="220" alt="Lena Valkirya Kane — bodysuit tático" />    |
 
@@ -241,5 +241,5 @@ Off-screen. Não são o Pack nem a crew. **Wren** não é o Kaz. **Dr. Patch** n
 | Default se vazio         | card **OPERAÇÃO / Badlands**                             |                               |
 
 - [Relacionamentos Valk](../relacionamentos/lena_valk_kane_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
-- **Imagens (Valk):** [default](../imagens/nomad%20-%20lena_valk_kane.jpg) · [\_2 tatuagem](../imagens/nomad%20-%20lena_valk_kane_2.jpg) · [\_3 bodysuit](../imagens/nomad%20-%20lena_valk_kane_3.jpg)
+- **Imagens (Valk):** [default](../imagens/nomad%20-%20lena_valk_kane.png) · [\_2 tatuagem](../imagens/nomad%20-%20lena_valk_kane_2.jpg) · [\_3 bodysuit](../imagens/nomad%20-%20lena_valk_kane_3.jpg)
 - **Estado:** [Board](../board/board_campanha.md) · [Pack Badlands](../facoes/pack_badlands.md)

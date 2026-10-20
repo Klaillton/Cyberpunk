@@ -5,7 +5,7 @@
 **Conceito:** Fixer veterano de Night City. Matching: a pessoa certa na frente do problema certo. Não é combate frontal. Monta crews, fecha jobs, limpa rastros. A reputação pós-BT é material de recrutamento, não cruzada. Escondido da Biotechnica, montando o time.
 
 **Referência Visual:**  
-<img src="../imagens/fixer%20-%20kaz_the_broker_takahashi.jpg" width="220" alt="Kaz &quot;The Broker&quot; Takahashi" />  
+<img src="../imagens/fixer%20-%20kaz_the_broker_takahashi.png" width="220" alt="Kaz &quot;The Broker&quot; Takahashi" />  
 \*(Imagem gerada: homem de meia-idade com cabelo branco prateado, óculos redondos vermelhos, implantes cibernéticos visíveis no pescoço e rosto, terno escuro elegante com detalhes dourados, tatuagem ocultista/corporativa na mão, expressão calma e calculista em ambiente neon chuvoso de Night City.)\_
 
 **Descrição Física (baseada na imagem):**  

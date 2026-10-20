@@ -624,7 +624,7 @@ O telefone é a arma. Quando Kaz entra em cena, ele **já sabe** para quem vai l
 ## Referências
 
 - [Ficha](../fixer%20-%20kaz_the_broker_takahashi.md)
-- [Imagem](../../imagens/fixer%20-%20kaz_the_broker_takahashi.jpg)
+- [Imagem](../../imagens/fixer%20-%20kaz_the_broker_takahashi.png)
 - [Crew](../../relacionamentos/crew_relacionamentos.md) · [Ryan](../../relacionamentos/ryan_relacionamentos.md)
 - [Pulso](../../pulso_do_mundo/crew/kaz.md)
 - [Job 001 Vossler](../../logs/job_001_extracao_vossler.md)

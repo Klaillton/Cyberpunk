@@ -36,12 +36,12 @@ Seu visual transmite alguém que já passou por muita coisa e transformou o trau
 
 | Uso | Arquivo |
 | --- | ------- |
-| **Tático / operador** (Warden + Vespas) | <img src="../imagens/techie%20-%20ryan_wireghost_voss.jpg" width="220" alt="Ryan tático" /> |
+| **Tático / operador** (Warden + Vespas) | <img src="../imagens/techie%20-%20ryan_wireghost_voss.png" width="220" alt="Ryan tático" /> |
 | **Dia a dia / oficina** (roupa de trabalho) | <img src="../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png" width="220" alt="Ryan casual" /> |
 | **Máscara tática** (meia-face) | <img src="../imagens/ryan/mascara_tatica.jpg" width="220" alt="Máscara tática" /> |
 | **Guarda-roupa por ocasião** | [ryan_guarda_roupas.md](ryan_guarda_roupas.md) · pasta [imagens/ryan/guarda_roupas/](../imagens/ryan/guarda_roupas/) |
 
-- Tático: [imagens/techie - ryan_wireghost_voss.jpg](../imagens/techie%20-%20ryan_wireghost_voss.jpg)
+- Tático: [imagens/techie - ryan_wireghost_voss.png](../imagens/techie%20-%20ryan_wireghost_voss.png)
 - Casual / workshop: [imagens/techie - ryan_wireghost_voss_daily_clothes.png](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png)
 - Máscara: [imagens/ryan/mascara_tatica.jpg](../imagens/ryan/mascara_tatica.jpg)
 - Catálogo completo (Badlands / NC / Wireghost): [**Guarda-roupa**](ryan_guarda_roupas.md)
@@ -319,7 +319,7 @@ Antigo cliente que deve vários favores a ele. **≠** Emilia “Echo” Rivera 
 
 - [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)
 - **Loadout tático:** [ryan_loadout.md](ryan_loadout.md) · **Guarda-roupa:** [ryan_guarda_roupas.md](ryan_guarda_roupas.md)
-- **Imagens:** [tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) · [casual / oficina](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png) · [máscara](../imagens/ryan/mascara_tatica.jpg) · [armas](../imagens/ryan/armas/)
+- **Imagens:** [tático](../imagens/techie%20-%20ryan_wireghost_voss.png) · [casual / oficina](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png) · [máscara](../imagens/ryan/mascara_tatica.jpg) · [armas](../imagens/ryan/armas/)
 - **Notas do Narrador:** [Background completo](notas_narrador/ryan_background_completo.md) · [Gatilhos e memórias](notas_narrador/ryan_gatilhos_memorias.md)
 - **Elisa "Doc" Moreau:** [npc/elisa_doc_moreau.md](npc/elisa_doc_moreau.md) · [Contatos e Amigos](#contatos-e-amigos)
 - **Estado:** [Board](../board/board_campanha.md) · [Downtime](../logs/downtime_ryan.md) · [Consequências](../consequencias/consequencias_persistentes.md)

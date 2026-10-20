@@ -56,14 +56,14 @@
 | **Valk** | Polo / apresentável | `710a442ce5cb1e9f1072bcbc0b5fb848.jpg`, `252b84239a6e6e1509243b76abd208ba.jpg`, `740a473324c32c3641d7432dde17aa91.jpg` | — |
 | **Valk** | Formal (terno) | `ade0a6a1f7879011ae52b165dbc217bc.jpg` | — |
 | **Valk** | Casaco aberto (casa) | `73c13137ee1058a50aef4df8265b498a.jpg` | — |
-| Wireghost | Operação rápida | `quick_operator.jpg` | [tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) |
-| Wireghost | Operação completa | `stealth_operator.jpg` | [tático](../imagens/techie%20-%20ryan_wireghost_voss.jpg) |
+| Wireghost | Operação rápida | `quick_operator.jpg` | [tático](../imagens/techie%20-%20ryan_wireghost_voss.png) |
+| Wireghost | Operação completa | `stealth_operator.jpg` | [tático](../imagens/techie%20-%20ryan_wireghost_voss.png) |
 
 ### Retratos canônicos da ficha (não substituem o catálogo)
 
 | Uso | Arquivo |
 | --- | ------- |
-| Tático / operador (Warden + Vespas) | [techie - ryan_wireghost_voss.jpg](../imagens/techie%20-%20ryan_wireghost_voss.jpg) |
+| Tático / operador (Warden + Vespas) | [techie - ryan_wireghost_voss.png](../imagens/techie%20-%20ryan_wireghost_voss.png) |
 | Dia a dia / oficina (full-body) | [techie - ryan_wireghost_voss_daily_clothes.png](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png) |
 
 **Narração:** em job/scav/combate → tático ou Wireghost abaixo. Em pack/oficina → henleys / daily_clothes.
@@ -603,7 +603,7 @@ Usado para:
 - escolta;
 - incursões rápidas.
 
-Retrato full com Warden/Vespas: [techie - ryan_wireghost_voss.jpg](../imagens/techie%20-%20ryan_wireghost_voss.jpg).
+Retrato full com Warden/Vespas: [techie - ryan_wireghost_voss.png](../imagens/techie%20-%20ryan_wireghost_voss.png).
 
 ---
 
@@ -625,7 +625,7 @@ A identidade visual do Wireghost.
 
 Nesse momento praticamente ninguém enxerga o Ryan.
 
-Retrato full com Warden/Vespas: [techie - ryan_wireghost_voss.jpg](../imagens/techie%20-%20ryan_wireghost_voss.jpg).
+Retrato full com Warden/Vespas: [techie - ryan_wireghost_voss.png](../imagens/techie%20-%20ryan_wireghost_voss.png).
 
 ---
 

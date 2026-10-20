@@ -4,7 +4,7 @@
 **Idade aparente:** 27  
 **Conceito:** Ex-repórter investigativa silenciada por megacorps; agora *ghost reporter* freelancer. Vaza verdades, filma ops no momento certo e transforma jobs em narrativas anti-corp. Perception, Human Perception, Streetwise, Persuasion, Composition.
 
-<img src="../imagens/media%20-%20emilia_echo_rivera.jpg" width="220" alt="Emilia Echo Rivera" />
+<img src="../imagens/media%20-%20emilia_echo_rivera.png" width="220" alt="Emilia Echo Rivera" />
 
 **Descrição visual:**  
 Mulher de 29 anos, visual cyberpunk chamativo. Cabelos longos ondulados com mechas laranja/preto e franja clara; olhos âmbar. Traje preto justo com LEDs neon roxo e cyan, colar com lua crescente, choker tech. Expressão confiante, sarcástica. Fundo de Night City chuvosa.
@@ -180,6 +180,6 @@ Detalhe: [nota](notas_narrador/emilia_echo_rivera_background.md) · [crew](../re
 
 - [Crew](../relacionamentos/crew_relacionamentos.md) · [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Mapa](../relacionamentos/mapa_relacional_geral.md)
 - **Pulso (NC / futuro):** [echo.md](../pulso_do_mundo/crew/echo.md)
-- **Imagem:** [media - emilia_echo_rivera.jpg](../imagens/media%20-%20emilia_echo_rivera.jpg)
+- **Imagem:** [media - emilia_echo_rivera.png](../imagens/media%20-%20emilia_echo_rivera.png)
 - **Leopold / Prometheus (Rockerboy, megafone):** [ficha](rockerboy%20-%20leopold_habsbruck.md) · [nota](notas_narrador/leopold_habsbruck_background.md) · **F23**
 - **Estado:** [Board](../board/board_campanha.md) · [Reputação](../reputacao.md) · [Heat](../heat.md) · **F06** · **F20**

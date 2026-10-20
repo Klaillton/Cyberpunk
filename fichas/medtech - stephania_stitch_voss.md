@@ -8,7 +8,7 @@
 **Descrição Visual (baseada na imagem gerada):**  
 Mulher de cabelos vermelhos vibrantes longos em rabo de cavalo tático, com implantes cibernéticos discretos mas visíveis (óptica Kiroshi com brilho azul/vermelho, chrome facial e no pescoço/braços). Jaqueta vermelha reforçada com patches de cruz médica, top preto cropped, cinto utilitário carregado de seringas, frascos de drogas, tesouras cirúrgicas e ferramentas. Pose confiante e protetora, ajustando os óculos cibernéticos com uma das mãos, expressão sarcástica mas carinhosa. Fundo cyberpunk com neon e equipamentos médicos. Perfeita como "mãe do grupo" da crew.
 
-<img src="../imagens/medtech%20-%20stephania_stitch_voss.jpg" width="220" alt="Dr. Stephania &quot;Stitch&quot; Voss - MedTech" />
+<img src="../imagens/medtech%20-%20stephania_stitch_voss.png" width="220" alt="Dr. Stephania &quot;Stitch&quot; Voss - MedTech" />
 
 ### Presença física (narrador)
 
@@ -150,6 +150,6 @@ Número e função: [05 §4](../sistema/regras_red/05_cyberware.md). Esta lista 
 | Casa | lounge / sleep pool comum | |
 | Default se vazio | card **Clínica / medical** | |
 - **Pulso:** [stephania_stitch.md](../pulso_do_mundo/crew/stephania_stitch.md)
-- **Imagem:** [medtech - stephania_stitch_voss.jpg](../imagens/medtech%20-%20stephania_stitch_voss.jpg)
+- **Imagem:** [medtech - stephania_stitch_voss.png](../imagens/medtech%20-%20stephania_stitch_voss.png)
 - **Estado:** [Board](../board/board_campanha.md)
 - **Não confundir:** [Elisa “Doc” Moreau](npc/elisa_doc_moreau.md)

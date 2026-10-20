@@ -58,7 +58,7 @@ Aliança funcional estável; respeito mútuo. **Não são parentes** — coincid
 
 - **Procedimento:** [sistema/pulso_procedimento.md](../../sistema/pulso_procedimento.md)
 - **Ficha:** [fichas/medtech - stephania_stitch_voss.md](../../fichas/medtech%20-%20stephania_stitch_voss.md)
-- **Imagem:** [medtech - stephania_stitch_voss.jpg](../../imagens/medtech%20-%20stephania_stitch_voss.jpg)
+- **Imagem:** [medtech - stephania_stitch_voss.png](../../imagens/medtech%20-%20stephania_stitch_voss.png)
 - **Relacionamentos:** [crew_relacionamentos.md](../../relacionamentos/crew_relacionamentos.md)
 - **Relacionamentos de Ryan:** [ryan_relacionamentos.md](../../relacionamentos/ryan_relacionamentos.md)
 - **Consequências Persistentes:** [consequencias_persistentes.md](../../consequencias/consequencias_persistentes.md)
