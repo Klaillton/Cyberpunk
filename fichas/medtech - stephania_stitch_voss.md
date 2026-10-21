@@ -31,6 +31,8 @@ Conheceu **Reina** quando esta ainda era lutadora/guarda-costas. Atendia-a com f
 
 **Background completo (5 fases + filosofia + episódios formativos):** [notas_narrador/stephania_stitch_background.md](notas_narrador/stephania_stitch_background.md)
 
+**Vida pessoal, dinâmica doméstica, conflito Vlad/Darius e contatos:** ver mesma nota §7–10.
+
 **Nota (anti-confusão de nomes):**
 
 | Quem | Como chamar | Papel |
@@ -86,33 +88,23 @@ Compartilha o sobrenome **Voss** com Ryan, mas **sem parentesco**. O sobrenome e
 
 ## MEDICINE (Role Ability - Rank 4)
 
-**4 pontos**, um por rank. Cada ponto vai para uma especialidade: Surgery, Pharmaceuticals ou Cryosystem.
+**Escolhas de Especialidades:**
 
-| Especialidade | Pontos | O que vira |
-| ------------- | ------ | ---------- |
-| Surgery | 3 | Surgery skill **6** (2 de skill por ponto). Critical injury, implante de chrome, a mesa. |
-| Pharmaceuticals | 1 | Medical Tech skill **1**. Droga: **Stim**. |
-| Cryosystem Operation | 0 | Sem tanque. A linha antiga dizia "se aplicável". |
-
-**Stim:** a dose faz o alvo ignorar as penalidades de Seriously Wounded por uma hora. Uma vez por dia na mesma pessoa. Sintetizar: DV 13 com Medical Tech, 200 eb de material; em 1 hora, doses iguais ao Medical Tech (aqui, 1).
-
-Na jogada: TECH 8 + Surgery 6 + 1d10 na mesa. TECH 8 + Medical Tech 1 + 1d10 para a droga.
-
-Trocar o ponto de Stim por Speedheal (cura BODY+WILL, 1×/dia, se não estiver Mortally Wounded) não muda o resto. Cryo continua 0 até existir tanque.
+- Surgery (forte em implantes e ferimentos graves)
+- Medical Tech (Pharmaceuticals) (drogas de combate customizadas)
+- Medical Tech (Cryosystem) (se aplicável)
 
 ## Cyberware (discreto, foco médico - HL controlado)
 
-Número e função: [05 §4](../sistema/regras_red/05_cyberware.md). Esta lista não traz SP nem outro dado.
+- Kiroshi Optics (visão médica ampliada)
+- Neural Link + Interface Plugs
+- Biomonitor
+- Cyberarm esquerdo (com ferramentas médicas integradas)
+- Skinweave / Subdermal Armor leve
+- Pain Editor (para operar sob pressão)
+- Outros: Chrome médico discreto (sondas, diagnósticos internos)
 
-- Kiroshi Optics — função: visão médica ampliada. Sem dado.
-- Neural Link + Interface Plugs — função: jack clínico. Sem dado.
-- Biomonitor — função: lê sinais. Sem dado.
-- Cyberarm esquerdo — função: ferramentas médicas já no braço. Sem dado.
-- Skinweave / Subdermal Armor leve — sem SP escrito. Não soma por cima da armadura vestida.
-- Pain Editor — enquanto ligado, cancela o **−2** de Seriously Wounded. Não cura.
-- Outros: chrome médico discreto (sondas, diagnósticos). Função de leitura. Sem dado.
-
-**Armadura:** Light Armorjack + reforços médicos (SP adequado para campo sem sacrificar mobilidade). Sem número de SP nesta ficha: não inventar.
+**Armadura:** Light Armorjack + reforços médicos (SP adequado para campo sem sacrificar mobilidade).
 
 ## Equipamentos chave
 
