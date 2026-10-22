@@ -40,6 +40,40 @@ Sobrenome **Kane** = coincidência com Valkirya e Jax — **sem parentesco**.
 
 **Baseline vs agora (narrador):** o parágrafo público é o default. Ela **não está na mesa**. Temperatura = NOW / handoff quando reencontrar. Não bootar flerte nem lore de Janus numa cena do Pack.
 
+## Vida em NC
+
+Off-screen. Não entra no Pack só por estar nesta ficha. Texto: [nota](notas_narrador/alex_specter_kane_background_consolidado.md) §D.
+
+### Hábitos
+
+| Hábito | Na mesa | Trava |
+| ------ | ------- | ----- |
+| Ginástica e flexibilidade | Treino. O corpo livre importa. | Não é terapia automática. Não pensar no cativeiro toda vez. Não precisa explicar. |
+| Rádios antigas ou de edgerunners | Tocam enquanto trabalha, cozinha ou descansa. Sem corp e sem algoritmo. | Às vezes é só música. |
+| Cozinha | Ajuda Stitch quando a encontra. O prato sai oito ou oitenta. | Não compete com Stitch. A piada de “quem cozinhou?” é ocasional. Ela não é incapaz. |
+| Energéticos | Sessão longa na NET. Lata, sabor, alguém mandando dormir. | Sem consequência médica grave escrita. |
+| Action figures | Coleção. Contraste com a runner. | Personagens, tamanho e gasto em aberto. Não inventar. |
+
+### Círculo
+
+Amigos fora dos contatos de trabalho. Saem, ouvem música, andam de skate, sem objetivo. Relações livres: sem posse, sem exclusividade, sem namoro obrigatório. Ficar de vez em quando não junta todo o grupo.
+
+Uma amiga fica com ela ocasionalmente. Também são amigas. **Nome, duração e vida em aberto — não inventar.** Não existe para disputar Valk, provocar ciúme ou virar antagonista. Se estiver presente quando Valk reaparecer, pode notar a diferença e comentar depois, em particular, sem conhecer a história.
+
+Encontros casuais com homens e mulheres ao longo dos anos. Sem parceiro fixo. Não apagam Valk e não são, por padrão, tentativa de substituí-la. O reencontro não se presume ciúme, carência ou fuga.
+
+### Contatos
+
+| Nome | O que é | Trava |
+| ---- | ------- | ----- |
+| **Mica** | Técnica de hardware: comunicação, deck, eletrônico. Não é Netrunner excepcional. Cobra. Reclama quando Alex quebra o que não devia quebrar. | Não sabe a extensão do trabalho. Amizade não é serviço grátis. Não substitui Janus. |
+| **Dex** | Intermediário de rua. Jobs pequenos. | Não é Fixer grande. Não compete com Kaz. |
+| **Rook** | Rival Netrunner. Ela improvisa; ele planeja. Num job compartilhado ela mudou o plano: funcionou e comprometeu parte do trabalho dele. | Competitivo, não hostil. Podem cooperar. Não vira inimigo sem fato novo. Não descobre Janus. |
+
+### Enquanto a crew está no Pack
+
+Jobs na NET, contato ocasional com Kaz, treino, rádio, figures, cozinha. O interesse por Valk continua. A vida não fica suspensa. Pode sentir falta e mandar mensagem quando houver motivo. Não passa os dias esperando.
+
 ## Janus (mesa)
 
 Mentor / wingman na NET. Aconselha, aponta tema, simulação **fora** de combate. **Não** rola por ela. **Não** é NET Action extra. **Não** é programa no deck. **Não** é segundo PC. Run = Interface **dela** vs DV. Detalhe: [nota](notas_narrador/alex_specter_kane_background_consolidado.md) · **F22**.

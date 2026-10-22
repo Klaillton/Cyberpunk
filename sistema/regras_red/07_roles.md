@@ -80,7 +80,7 @@ Ryan **não** usa Moto por default.
 | Operator | **6** (Contacts, Reach, Haggle, Grease) |
 
 **Em mesa:** achar job, contato, preço, limpar rastro — gastar Operator rank (core) em vez de “Kaz resolve tudo de graça”.  
-**Contatos:** o rank é a rede. **Não** há catálogo de NPCs na ficha. Nome na hora (função + um traço) se cabe no tier; rolar só se raro / BT / recusa. Procedimento na ficha § Operator. Rosa / Mik / Nadia **não** são contatos.  
+**Contatos:** o rank é a rede. **Não** há catálogo de NPCs na ficha. Nome na hora (função + um traço) se cabe no tier; rolar só se raro / BT / recusa. Procedimento na ficha § Operator. Rosa / Mik / Nadia Chen **não** são contatos. Nádia “Patch” Oliveira é da Stitch, outra pessoa.  
 **Regra de cena:** ele não faz o trabalho; ele faz o trabalho acontecer.
 
 ---

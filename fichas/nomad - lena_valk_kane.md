@@ -194,7 +194,7 @@ Fora de cena até ela ou o Ryan chamar. Não entram no Mule só por estarem nest
 
 ## Clientes recorrentes
 
-Off-screen. Não são o Pack nem a crew. **Wren** não é o Kaz. **Dr. Patch** não é a Stitch nem a Doc Moreau (F04).
+Off-screen. Não são o Pack nem a crew. **Wren** não é o Kaz. **Dr. “Patch”** é homem, medtech itinerante: não é a Stitch, não é a Doc Moreau (F04) e não é a Nádia “Patch” Oliveira da Stitch.
 
 | Cliente                | Tipo                   | Frequência | O que pede                                                    | Relação                                                       |
 | ---------------------- | ---------------------- | ---------- | ------------------------------------------------------------- | ------------------------------------------------------------- |

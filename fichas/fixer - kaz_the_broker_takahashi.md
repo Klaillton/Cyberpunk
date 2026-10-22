@@ -106,7 +106,7 @@ Quando a crew (ou ele) precisa de alguém ou de alguma coisa:
 3. O contato entra como **função + um traço**. Nome novo. Fica no mundo só se reaparecer.
 4. **Rolar** Operator (ou Haggle) só se: raro demais para o rank, BT/heat atrapalha, o contato pode recusar, ou o preço/risco *é* o drama. Rotina dentro do Reach = sem rolagem.
 5. Ele não faz o trabalho. Se o matching falha: outro nome, ou recua.
-6. **Não** reusar Rosa, Mik, Nadia. Origem encerrada.
+6. **Não** reusar Rosa, Mik, Nadia Chen. Origem encerrada. Nádia “Patch” Oliveira é contato da Stitch, outra pessoa.
 
 ### Gavetas (não são NPCs)
 

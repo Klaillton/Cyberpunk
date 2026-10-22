@@ -182,6 +182,8 @@ Ele não precisa pressioná-la a voltar. Pode reconhecer que ela continua gostan
 
 Darius é a ligação com a carreira anterior: alguém que conhece a lutadora que ela era antes dos braços e entende por que ela parou.
 
+É o mesmo Darius do conflito com Vlad, na nota da Stitch §8. Ele a levou à luta, Vlad saiu sem poder lutar, e Darius ressente a Stitch por ela não ter achado tratamento. Isso não apaga o treino com Reina. A visão de Reina sobre a decisão médica não está escrita. Não presumir.
+
 ### Marisol Ferreira
 
 **Nome fechado:** Marisol Ferreira. Atendia os lutadores durante ou depois das competições.

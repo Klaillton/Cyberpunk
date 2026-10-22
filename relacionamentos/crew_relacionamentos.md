@@ -36,6 +36,7 @@
 - **Echo → Ryan / Valkirya (canon de ficha, inativo em cena):** ver [emilia_echo_rivera_background.md](../fichas/notas_narrador/emilia_echo_rivera_background.md). Não puxar o fio do acidente no Pack.
 - **Leopold (canon de ficha, inativo em cena):** Rockerboy **Prometheus** — máscara + chama de três linhas; megafone da Echo, não clone dela. Habsbrück ≠ chama. Sem romance. Background: [leopold_habsbruck_background.md](../fichas/notas_narrador/leopold_habsbruck_background.md). **F23**. CI **6**.
 - **Uncredited (nome de saída, latente):** Leo + Echo batizaram. Pista / salão / after — **não** é Void List, **não** é “crew do Kaz”, **não** é Prometheus. Leo arranja o rolê (high society e rave); Echo e Alex apoiam. Anúncio → WTF + olhares para os dois → a crew deixa pra lá se tiver bebida. **Não** usar no feed de job. **F24**. Off-screen até NC.
+- **Casa da crew (off-screen, quando estão juntos):** Stitch inicia o cuidado. Não é escala e não é controle. Jax limpa quando ela está cansada; Ryan junta-se; Reina chama para comer e treinar. Alex na NET não é desligada à força. Texto: nota da Stitch §7.
 - **Polycule / Alex×Valk passado / fases 1–11:** [ideas_concepts](../ideas_concepts/README.md) + [polycule](crew_polycule_ryan_valk_alex_reina.md). **Desejado, não obrigatório. Não iniciar** até a crew estar junta em NC.
 - **Sobrenomes coincidentes (sem parentesco):** Kane (Valk/Alex/Jax) e Voss (Ryan/Stitch). Rivera (Echo) ≠ Rivera (Steel).
 

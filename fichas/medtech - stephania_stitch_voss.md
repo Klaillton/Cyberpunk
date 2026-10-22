@@ -88,11 +88,15 @@ Compartilha o sobrenome **Voss** com Ryan, mas **sem parentesco**. O sobrenome e
 
 ## MEDICINE (Role Ability - Rank 4)
 
-**Escolhas de Especialidades:**
+Rank **4** = 4 pontos. Fechado em [07_roles](../sistema/regras_red/07_roles.md). Cryo não entra “se aplicável”.
 
-- Surgery (forte em implantes e ferimentos graves)
-- Medical Tech (Pharmaceuticals) (drogas de combate customizadas)
-- Medical Tech (Cryosystem) (se aplicável)
+| Especialidade | Pontos | Na mesa |
+| ------------- | ------ | ------- |
+| Surgery | **3** | Skill Surgery **6**. TECH 8 + Surgery 6. |
+| Pharmaceuticals | **1** | Stim. Medical Tech **1**. Ignora a penalidade de Seriously Wounded por uma hora. |
+| Cryosystem | **0** | Sem tanque, sem Cryo. |
+
+Speedheal pode substituir o Stim sem mudar os outros pontos. Cryo continua 0 até existir tanque.
 
 ## Cyberware (discreto, foco médico - HL controlado)
 
@@ -104,7 +108,9 @@ Compartilha o sobrenome **Voss** com Ryan, mas **sem parentesco**. O sobrenome e
 - Pain Editor (para operar sob pressão)
 - Outros: Chrome médico discreto (sondas, diagnósticos internos)
 
-**Armadura:** Light Armorjack + reforços médicos (SP adequado para campo sem sacrificar mobilidade).
+**Sem HL item a item e sem SP escrito.** Nome sem número não vira bônus. O SP de combate não está nesta ficha. Pain Editor, enquanto ligado, só cancela o −2 de Seriously Wounded. Não cura.
+
+**Armadura:** Light Armorjack + reforços médicos. O SP não foi fechado; não inventar.
 
 ## Equipamentos chave
 
@@ -119,6 +125,23 @@ Compartilha o sobrenome **Voss** com Ryan, mas **sem parentesco**. O sobrenome e
 - Roupa prática: jaqueta médica reforçada, muitos bolsos, tom sarcástico mas carinhoso.
 - Frases típicas: “De novo vocês foram fuzilados? Sentem na mesa, eu cuido. E parem de comer essa merda processada!”
 - Crew a chama de **Stitch** (“a costureira”) — nunca de “Doc” (reserva mental de Ryan para Elisa Moreau).
+
+## Vida em NC
+
+Off-screen. Não entra no Pack só por estar nesta ficha. Texto: [nota](notas_narrador/stephania_stitch_background.md) §7–10.
+
+O cuidado é gradual e sem escala. Ela inicia e sustenta boa parte. Quando está cansada, Jax assume limpeza e Ryan junta-se sem discurso. Reina chama para comer e treinar. Uma refeição junta por dia é objetivo, não regra. Entra no quarto dos mais jovens sem pedir: a ajuda é sincera e mesmo assim invade. **Não corta a NET da Alex nem a força a parar.**
+
+Cozinha brasileira e portuguesa é hobby, não só cuidado. Alex ajuda quando está na cozinha; o prato dela é oito ou oitenta. A piada é ocasional.
+
+**Vlad:** atleta de luta clandestina. Darius “Hook” Jhonson (o mesmo da Reina) insistiu para que ela fosse com Reina. Vlad aceitou um adversário com chrome por dinheiro e saiu grave. Stitch cortou parte dos nervos motores para salvá-lo. Ele vive e não luta mais. Outro ripperdoc fez o conserto; houve rejeição. Ela acha que salvou a vida. Vlad culpa. Darius ressente a falta de solução. Ambíguo. Não é vilão automático e não é trama central. A visão de Reina sobre a decisão não está escrita.
+
+| Nome | O que é | Trava |
+| ---- | ------- | ----- |
+| **Migs Ferreira** | Técnico da clínica corporativa de baixo escalão. Respeito profissional. Fornecedor, procedimento, encaminhamento. | Pragmático. Nem sempre concorda com a ética dela. Não é aliado incondicional. **Não** é Marisol Ferreira. |
+| **Nádia “Patch” Oliveira** | Médica de rua / técnica independente. Troca informação, suprimento e paciente. | **Não** é o Dr. “Patch” da Valk (homem, medtech itinerante). **Não** é Nadia Chen (passado do Kaz; essa não volta). |
+
+Enquanto Ryan e parte da crew estão no Pack, ela continua em Night City: serviço médico, cozinha, esses contatos. Reina importa. Não esgota a vida. Atividade não vira missão só por existir.
 
 ## Conexões
 

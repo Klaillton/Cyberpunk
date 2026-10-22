@@ -2,7 +2,7 @@
 
 **Última atualização:** 22 de Agosto de 2026  
 **Escopo:** **Night City / futuro** — Alex **não** está nas Badlands.  
-**Regra:** pulso de *vida* off-screen ok (Kaz, jobs, rumor, NET). **Não** avançar romance / polycule / provocação a Ryan até a crew se reunir em NC. **Não** narrar Janus (F22). Soft em [ideas_concepts](../../ideas_concepts/README.md).  
+**Regra:** pulso de *vida* off-screen ok (Kaz, jobs, rumor, NET, e a vida da nota §D: ginástica, rádio, cozinha, figures, círculo). **Não** avançar romance / polycule / provocação a Ryan até a crew se reunir em NC. **Não** narrar Janus (F22). A amiga sem nome não é motor de ciúme. As perguntas sobre Valk abaixo são opcionais; um pulso não precisa ser sobre ela. Soft em [ideas_concepts](../../ideas_concepts/README.md).  
 **Background:** [nota](../../fichas/notas_narrador/alex_specter_kane_background_consolidado.md)
 
 ## Motivações Atuais

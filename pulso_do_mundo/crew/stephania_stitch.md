@@ -3,7 +3,8 @@
 **Última atualização:** 12 de Julho de 2026  
 **Escopo:** **Night City / remoto** — Stitch **não** está nas Badlands. Acionar quando Ryan estiver em NC, crew reunida, ou **mensagem/chamada** da Stitch chegar ao pack.
 
-> **Nome:** Street name da crew = **Stitch**. Não chamar de “Doc” (Doc = Elisa Moreau no passado de Ryan).
+> **Nome:** Street name da crew = **Stitch**. Não chamar de “Doc” (Doc = Elisa Moreau no passado de Ryan).  
+> **Vida própria:** nota §7–10. Casa, cozinha, serviço médico, Migs Ferreira, Nádia “Patch” Oliveira. Vlad/Darius é tensão ocasional, não vingança. Nádia não é a Nadia Chen do Kaz nem o Dr. “Patch” da Valk. Migs não é a Marisol.
 
 ## Motivações Atuais
 

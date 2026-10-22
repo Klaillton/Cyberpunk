@@ -47,7 +47,7 @@
 Índice. A vida está na nota §D–§J. O uso de mesa está na [ficha](../fichas/solo%20-%20reina_bearclaw_morales.md), seção Contatos e trabalhos. Nada disto entra na tenda do Pack.
 
 - **Jax:** amizade. Bar, riso, esporte ou campeonato, dança quando alguém chama. Sem ciúme, sem tensão romântica, sem intimidade escondida. O contraste de Solos na nota dele continua: ela protege por afeto; ele luta porque é o ofício.
-- **Darius “Hook” Jhonson:** ex-treinador. Não pressiona a volta às arenas.
+- **Darius “Hook” Jhonson:** ex-treinador. Não pressiona a volta às arenas. O mesmo do conflito Vlad (nota da Stitch §8): ressente a Stitch por não ter achado tratamento. O treino com Reina continua. A visão dela sobre a decisão médica não está escrita.
 - **Marisol Ferreira:** médica do circuito. Não é Stitch nem Doc Moreau (F04).
 - **Woodpecker:** marginal recorrente. Handle fechado; nome civil em aberto. Se fugir e parar de criar problema, ela pode deixar ir.
 - **Victoria “Vicky”:** rival de arena, história aberta. Ela não sabe do favorecimento dos juízes. Sem ligação com a emboscada da Biotechnica. Sobrenome em aberto.
