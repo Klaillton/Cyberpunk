@@ -2,7 +2,7 @@
 
 **Última atualização:** 30 de Agosto de 2026  
 **Escopo:** **Night City / futuro** — Echo **não** está nas Badlands. Acionar em reencontro NC, job com Media, ou vazamento Void List.  
-**Regra:** pulso de *vida* off-screen ok (Chamber, boato, Kaz). **Não** avançar flerte, acidente, Correção Editorial nem headline N3+ até a crew se reunir. **Não** narrar no Pack.  
+**Regra:** pulso de *vida* off-screen ok (Chamber, boato, Kaz, e a vida da nota §D: boy bands, FPS, barraca, Delilah, Riggs, Norville). **Não** avançar flerte, acidente, Correção Editorial nem headline N3+ até a crew se reunir. A rotina não fecha arco nem devolve Emilia ao screamsheet. **Não** narrar no Pack.  
 **Background:** [nota](../../fichas/notas_narrador/emilia_echo_rivera_background.md) · exposição [echo_exposicao.md](../../sistema/echo_exposicao.md)
 
 > **F20:** ≠ **Marcus “Steel” Rivera**. Mesmo sobrenome, outra pessoa.

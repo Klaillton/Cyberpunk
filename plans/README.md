@@ -46,6 +46,7 @@
 | [auditoria_combates_canonicos.md](auditoria_combates_canonicos.md) | `done` | Observação I001/I002/J001/T008… · **sem retcon** |
 | [alex_specter_kane_vida_pessoal.md](alex_specter_kane_vida_pessoal.md) | `done` (folded 2026-10-22) | Vida em NC da Alex. SoT na ficha e na nota §D |
 | [stitch_vida_pessoal_dinamica_crew.md](stitch_vida_pessoal_dinamica_crew.md) | `done` (folded 2026-10-22) | Vida, casa, Vlad/Darius e contatos da Stitch. SoT na ficha e na nota §7–10 |
+| [echo_vida_pessoal_relacoes.md](echo_vida_pessoal_relacoes.md) | `done` (folded 2026-10-22) | Vida em NC da Echo. SoT na ficha e na nota §D |
 | [agent_security.md](agent_security.md) | `active` (2026-08-08) | Agents: implant Vault · subdermal Prof · Honeypot visível · Arbiter/Watchdog · F19 |
 | ~~add_cyberpunk_mecanichs.md~~ | `cancelled` | Typo + conteúdo superado — ver link no arquivo |
 

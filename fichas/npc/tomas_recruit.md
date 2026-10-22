@@ -4,7 +4,8 @@
 **Facção / contexto:** Pack Badlands (integração em andamento)  
 **Status:** Ativo — sob **monitoramento** recomendado por Ryan
 
-> Apresentado por [Lina Park](lina_park.md). Sobrenome não confirmado.
+> Apresentado por [Lina Park](lina_park.md). Sobrenome não confirmado.  
+> Não é **Tomás “Riggs” Álvarez**, informante da Echo em Night City.
 
 ---
 
