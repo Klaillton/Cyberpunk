@@ -148,7 +148,8 @@ Pain Editor já instalado: enquanto ligado, cancela o **−2** de Seriously Woun
 **Valkirya:** extração. Handle **Valkirya** (**F21**).  
 **Reina:** o outro Solo — ela protege por afeto; ele luta porque é o ofício. Podem competir no stand sem disputar papel.  
 **Kaz:** porta de entrada.  
-Detalhe: [nota](notas_narrador/jax_razor_kane_background.md) · [crew](../relacionamentos/crew_relacionamentos.md).
+**Echo:** em NC, assiste a live, comenta o tiro do jogo contra o tiro real e às vezes pega o controle. Ela indica barraca barata. Não é evento formal e não é campanha para mudar a dieta dele. Off-screen.  
+Detalhe: [nota](notas_narrador/jax_razor_kane_background.md) · [crew](../relacionamentos/crew_relacionamentos.md) · vida da Echo na [nota](notas_narrador/emilia_echo_rivera_background.md) §D.
 
 ---
 

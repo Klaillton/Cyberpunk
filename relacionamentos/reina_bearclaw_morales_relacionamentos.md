@@ -52,6 +52,7 @@
 - **Woodpecker:** marginal recorrente. Handle fechado; nome civil em aberto. Se fugir e parar de criar problema, ela pode deixar ir.
 - **Victoria “Vicky”:** rival de arena, história aberta. Ela não sabe do favorecimento dos juízes. Sem ligação com a emboscada da Biotechnica. Sobrenome em aberto.
 - **Alex, Emília, Leopold, Valk:** ela tenta puxar os sedentários para treinar. Provoca sem humilhar. Valk só entra nisso quando as duas estão no mesmo lugar; agora Valk está no Pack.
+- **Tomás “Riggs” Álvarez:** informante da Echo, não contato dela. Se a negociação emperra, simpatia e presença podem amolecer. Não é garantia e a conversa vem primeiro. Não é o Tomas do Pack.
 
 ---
 

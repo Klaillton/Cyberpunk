@@ -47,7 +47,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Background Valkirya (narrador) | `fichas/notas_narrador/lena_valkyria_kane_background.md` | Backstory ≠ mesa; upgrades Mule = campanha |
 | Background Alex (narrador) | `fichas/notas_narrador/alex_specter_kane_background_consolidado.md` | Janus **F22**; backstory ≠ mesa; `backstory.md` = ponte; vida em NC = §D, uso na ficha; off-screen |
 | Background Reina (narrador) | `fichas/notas_narrador/reina_bearclaw_morales_background.md` | Braços / Doc / Stitch; backstory ≠ mesa; reencontro parked |
-| Background Echo (narrador) | `fichas/notas_narrador/emilia_echo_rivera_background.md` | Backstory ≠ mesa; Void List; ≠ Steel Rivera (F20) |
+| Background Echo (narrador) | `fichas/notas_narrador/emilia_echo_rivera_background.md` | Backstory ≠ mesa; Void List; ≠ Steel Rivera (F20); vida em NC = §D; Delilah ≠ colega do metrô; Riggs ≠ Tomas do Pack; Norville ≠ Correção Editorial |
 | Background Jax (narrador) | `fichas/notas_narrador/jax_razor_kane_background.md` | Combate ≠ guerra; placar; Militech = carreira ≠ vendetta; ≠ mesa; off-screen NC |
 | Background Leopold (narrador) | `fichas/notas_narrador/leopold_habsbruck_background.md` | Prometheus; chama de três linhas; teia Habsbrück / avó / Kaz / Zoners = nota; ≠ Echo; **F23**; off-screen NC |
 | Background Kaz (narrador) | `fichas/notas_narrador/kaz_broker_takahashi_background.md` | Matching, não milagre; origem = clínica/Santo Domingo, **não** traição; Rosa/Mik/Nadia Chen **não voltam** (≠ Nádia Oliveira da Stitch); Operator **6** = procedimento, não lista de nomes; ≠ mesa; off-screen NC |

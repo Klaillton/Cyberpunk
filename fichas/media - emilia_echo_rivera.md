@@ -27,7 +27,7 @@ Mulher de 29 anos, visual cyberpunk chamativo. Cabelos longos ondulados com mech
 
 > **Não confundir** com **Marcus “Steel” Rivera** ([npc/marcus_steel_rivera.md](npc/marcus_steel_rivera.md)) — **F20**. Mesmo sobrenome, outra pessoa.
 
-Heywood. Família pequena, rua, não gangue. Entrou em canal “indie” pelo chão; primeiro furo foi o próprio canal (pautas compradas). Mapeou um **padrão** de jornalistas “corrigidos” (Arasaka e Militech nas beiradas) — o rótulo **Correção Editorial** é *dela*, não um programa confirmado. Colega avisado ignorou; “caiu no metrô”. Externa desenhada para parecer incompetência; ela saiu, ele não. Emilia Rivera morreu no screamsheet. **Echo** = o corte tem que ser dela.
+Heywood. Família pequena, rua, não gangue. Entrou em canal “indie” pelo chão; primeiro furo foi o próprio canal (pautas compradas). Mapeou um **padrão** de jornalistas “corrigidos” (Arasaka e Militech nas beiradas) — o rótulo **Correção Editorial** é *dela*, não um programa confirmado. Colega avisado ignorou; “caiu no metrô”. Externa desenhada para parecer incompetência; ela saiu, ele não. Emilia Rivera morreu no screamsheet: o nome público. Emilia continua fora dele. **Echo** é a identidade de proteção, não uma fachada. O corte tem que ser dela.
 
 Kaz recrutou pelo encaixe: ela reconstituiu sozinha a extração do **Dr. Elias Vossler** ([job_001](../logs/job_001_extracao_vossler.md)) e sabia **não** colocar nome no cartaz. Marca pública **Void List**; código interno **Null**.
 
@@ -44,6 +44,26 @@ Cética, sarcástica, justiça distorcida. Fala rápido, humor negro, quer o pla
 **Princípio (não diluir):** jornalismo era para ninguém ser apagado. Echo aprendeu que, para isso, precisa controlar a narrativa. Ela não tem resposta boa para “o que me impede de virar o que eu odeio?”. Finge que tem.
 
 **Baseline vs agora (narrador):** o parágrafo público é o default. Ela **não está na mesa**. Temperatura = NOW / handoff no reencontro NC. **Não** bootar flerte, culpa da van, nem o fio do acidente numa cena do Pack.
+
+## Vida em NC
+
+Off-screen. Não entra no Pack só por estar nesta ficha. Texto: [nota](notas_narrador/emilia_echo_rivera_background.md) §D. Família e romance não entram aqui.
+
+Emilia e Echo são a mesma pessoa. Convivência não abre a intimidade. Vulnerabilidade não é revelação. Música, jogo e comida não servem à Correção Editorial.
+
+| Hábito | Na mesa | Trava |
+| ------ | ------- | ----- |
+| Boy bands e música chiclete | Gosto genuíno. Letra, versão, opinião forte. | Não é piada nem fachada. |
+| Jogos na televisão da sala | FPS e outros gêneros. Às vezes transmite. Perde com desculpa. Ganha insuportável. | Jax é habitual, não obrigatório. Humor sobre tiro real, não briga. |
+| Comida barata em NC | Barraca e lanchonete que ela já conhece. Leva o Jax. | Não vira pauta. Não é campanha para mudar a dieta dele. |
+
+| Nome | O que é | Trava |
+| ---- | ------- | ----- |
+| **Delilah Solís** | Colega antiga de redação. Conhece Emilia. Pode usar o nome. Não entra em qualquer risco. | **Não** é o colega do metrô. Esse continua sem nome. |
+| **Tomás “Riggs” Álvarez** | Informante. Informação local, registro, vazamento pequeno. Conhece Echo, não Emilia. Cobra. | **Não** é o Tomas do Pack. Conversa primeiro. Reina pode amolecer; não é garantia. |
+| **Norville Cross** | Rival jornalista. Evidência e incerteza contra o corte que faz a verdade chegar. Conhece Emilia. | Não é perseguidor. **Não** ligar à Correção Editorial. Os dois podem ter razão. |
+
+Enquanto a crew está no Pack ela segue em Night City: Void List, fonte, a coleção, a televisão, a barraca. A rotina não antecipa arco. Não devolver Emilia ao screamsheet.
 
 ---
 
