@@ -42,7 +42,7 @@ O telefone é a arma. Quando entra em cena, **já sabe** para quem vai ligar —
 
 **Identidade vs toolkit:** o núcleo é matching. Operator, Haggle, chantagem suave e burocracia são ferramentas de veterano. Não inverter: ele não *é* um chantagista que às vezes conecta gente. Ele é o cara que conecta gente — e, se o job exigir, usa o resto do cinto.
 
-**Rede ≠ elenco.** A função de Fixer no RED é Operator (Contacts / Reach / Haggle / Grease), não uma lista de NPCs na ficha. Procedimento: [ficha](../fixer%20-%20kaz_the_broker_takahashi.md) § Operator. Rosa, Mik e Nadia **não** são essa rede.
+**Rede ≠ elenco.** A função de Fixer no RED é Operator (Contacts / Reach / Haggle / Grease), não uma lista de NPCs na ficha. Procedimento: [ficha](../fixer%20-%20kaz_the_broker_takahashi.md) § Operator. Rosa, Mik e Nadia Chen **não** são essa rede. Nádia “Patch” Oliveira é contato da Stitch, outra pessoa.
 
 **O que a origem não é:** golpe, guerra, vingança, “traído por uma corp / rival Fixer”. Esse texto da ficha era placeholder. **Este arquivo vence.** Traição, se existir depois, é ferida posterior **sem nome** — não é o nascimento do Broker. “Odeia ser traído” continua válido como temperamento.
 
@@ -526,7 +526,7 @@ Até hoje, quando alguém pergunta se ele conhece alguém capaz de resolver algu
 
 ## Origem encerrada (não voltam)
 
-Rosa Delgado, Mikael “Mik” Torres, Nadia Chen, o médico da clínica, o motorista, o depósito: **história**. Serviram para nascer o handle. **Não** são contatos. **Não** reaparecem. Sem ficha, sem débito, sem “Kaz ligou para a Nadia”.
+Rosa Delgado, Mikael “Mik” Torres, Nadia Chen, o médico da clínica, o motorista, o depósito: **história**. Serviram para nascer o handle. **Não** são contatos. **Não** reaparecem. Sem ficha, sem débito, sem “Kaz ligou para a Nadia”. **Nadia Chen** não é a Nádia “Patch” Oliveira da Stitch.
 
 Se a mesa precisar de um técnico, uma coordenadora de bairro ou uma burocrata, é **gente nova** — função, um traço, nome na hora. Ver Operator na ficha.
 
@@ -563,7 +563,7 @@ Sem beat no Pack. Sem “Kaz ligou para a clínica de Santo Domingo”. Sem reca
 
 Gatilho limpo para aparecer: resposta de job, intermediário, retorno da dupla a NC.
 
-Temperatura = NOW / handoff no reencontro. **Não** bootar origem. Rosa / Mik / Nadia **não voltam**.
+Temperatura = NOW / handoff no reencontro. **Não** bootar origem. Rosa / Mik / Nadia Chen **não voltam**.
 
 ---
 
@@ -573,7 +573,7 @@ Temperatura = NOW / handoff no reencontro. **Não** bootar origem. Rosa / Mik / 
 | ---- | --- | ------------ | ---------- |
 | Handle **The Broker**; se liga, tem job | Sim | Sim | Quem atende o Agent |
 | Origem = clínica / transformador | Ele + quem estava lá | **Não** (não é lenda da crew) | Não |
-| Nomes Rosa / Mik / Nadia (não reaparecem) | Memória dele | Não | Não |
+| Nomes Rosa / Mik / Nadia Chen (não reaparecem) | Memória dele | Não | Não |
 | Escondido da BT; montando crew | Sim | Quem precisa saber | Rumores, sem paradeiro |
 | Job de manter Leopold vivo | Ele | **Não** (não está na ficha pública) | Não |
 | Matching como método | Implícito em como ele liga | Quem já trabalhou com ele sente | “Ele conhece alguém” |
@@ -585,7 +585,7 @@ Temperatura = NOW / handoff no reencontro. **Não** bootar origem. Rosa / Mik / 
 - Traição formativa / corp / rival Fixer como **origem** do handle.
 - Infância miserável, família morta, golpe fundador, guerra de gangue.
 - Kaz como combatente, ripper, netrunner ou o cara que “também solda o cabo”.
-- Trazer Rosa / Mik / Nadia de volta, fichá-los, ou usá-los como contatos Operator.
+- Trazer Rosa / Mik / Nadia Chen de volta, fichá-los, ou usá-los como contatos Operator.
 - Dívida eterna, mentor secreto, a clínica como QG.
 - Lista-catálogo de 20 contatos nomeados na ficha. A rede é o rank + o procedimento.
 - Dump desta prosa no Pack, em pulso, ou no Agent de Ryan.

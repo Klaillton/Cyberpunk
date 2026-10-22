@@ -5,7 +5,7 @@
 
 > **Lente:** [background](../../fichas/notas_narrador/kaz_broker_takahashi_background.md) · [ficha](../../fichas/fixer%20-%20kaz_the_broker_takahashi.md)  
 > Matching, não milagre. Bordão: *“Ei... eu conheço alguém…”* · Regra: ele não faz o trabalho; faz o trabalho acontecer.  
-> **Não** narrar clínica / Santo Domingo. Rosa / Mik / Nadia **não voltam**.
+> **Não** narrar clínica / Santo Domingo. Rosa / Mik / Nadia Chen **não voltam**. Nádia “Patch” Oliveira é da Stitch, outra pessoa.
 
 ## Motivações Atuais
 

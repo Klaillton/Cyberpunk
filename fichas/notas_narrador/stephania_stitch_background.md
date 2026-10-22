@@ -185,7 +185,7 @@ Esse cuidado às vezes ultrapassa limites sem que ela perceba: entra em quartos 
 
 A casa não precisa ser perfeitamente organizada. O hábito é dela, não obrigação de transformar os outros nem de assumir sozinha a manutenção.
 
-**Cozinha:** cozinhar pratos brasileiros e portugueses é hobby pessoal. Existe espaço para que cozinhe por prazer, não só como cuidado da crew.
+**Cozinha:** cozinhar pratos brasileiros e portugueses é hobby pessoal. Existe espaço para que cozinhe por prazer, não só como cuidado da crew. Alex ajuda quando a encontra na cozinha; o resultado dela é oito ou oitenta. A piada é ocasional.
 
 ### Dinâmica da crew (gradual, sem escala rígida)
 
@@ -226,6 +226,8 @@ Pode gerar tensão ocasional ou desconforto quando caminhos se cruzam. Não prec
 Reina estava presente e insistiu para que Stitch fosse à luta. Isso, por si só, não estabelece a visão dela sobre a decisão médica, Vlad ou Darius.
 
 ## 9. Contatos pessoais
+
+**Migs Ferreira** não é Marisol Ferreira (médica do circuito da Reina). **Nádia “Patch” Oliveira** não é o Dr. “Patch” da Valk (homem, medtech itinerante) nem **Nadia Chen** (passado do Kaz; essa não volta).
 
 ### Migs Ferreira — antigo colega de clínica corporativa
 

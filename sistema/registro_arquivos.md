@@ -45,13 +45,13 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Background e gatilhos do Ryan (narrador) | `fichas/notas_narrador/ryan_background_completo.md` | `fichas/notas_narrador/ryan_gatilhos_memorias.md`, `fichas/techie - ryan_wireghost_voss.md` (Elisa "Doc" Moreau) |
 | Curiosidade: valor agregado ao Pack (estimativa) | `fichas/notas_narrador/ryan_valor_pack.md` | **Não** é ledger; Ryan não sabe; [economia.md](../economia.md) |
 | Background Valkirya (narrador) | `fichas/notas_narrador/lena_valkyria_kane_background.md` | Backstory ≠ mesa; upgrades Mule = campanha |
-| Background Alex (narrador) | `fichas/notas_narrador/alex_specter_kane_background_consolidado.md` | Janus **F22**; backstory ≠ mesa; `backstory.md` = ponte |
+| Background Alex (narrador) | `fichas/notas_narrador/alex_specter_kane_background_consolidado.md` | Janus **F22**; backstory ≠ mesa; `backstory.md` = ponte; vida em NC = §D, uso na ficha; off-screen |
 | Background Reina (narrador) | `fichas/notas_narrador/reina_bearclaw_morales_background.md` | Braços / Doc / Stitch; backstory ≠ mesa; reencontro parked |
 | Background Echo (narrador) | `fichas/notas_narrador/emilia_echo_rivera_background.md` | Backstory ≠ mesa; Void List; ≠ Steel Rivera (F20) |
 | Background Jax (narrador) | `fichas/notas_narrador/jax_razor_kane_background.md` | Combate ≠ guerra; placar; Militech = carreira ≠ vendetta; ≠ mesa; off-screen NC |
 | Background Leopold (narrador) | `fichas/notas_narrador/leopold_habsbruck_background.md` | Prometheus; chama de três linhas; teia Habsbrück / avó / Kaz / Zoners = nota; ≠ Echo; **F23**; off-screen NC |
-| Background Kaz (narrador) | `fichas/notas_narrador/kaz_broker_takahashi_background.md` | Matching, não milagre; origem = clínica/Santo Domingo, **não** traição; Rosa/Mik/Nadia **não voltam**; Operator **6** = procedimento, não lista de nomes; ≠ mesa; off-screen NC |
-| Background Stitch (narrador) | `fichas/notas_narrador/stephania_stitch_background.md` | Backstory ≠ mesa; ≠ Doc Moreau (F04) |
+| Background Kaz (narrador) | `fichas/notas_narrador/kaz_broker_takahashi_background.md` | Matching, não milagre; origem = clínica/Santo Domingo, **não** traição; Rosa/Mik/Nadia Chen **não voltam** (≠ Nádia Oliveira da Stitch); Operator **6** = procedimento, não lista de nomes; ≠ mesa; off-screen NC |
+| Background Stitch (narrador) | `fichas/notas_narrador/stephania_stitch_background.md` | Backstory ≠ mesa; ≠ Doc Moreau (F04); vida, Vlad/Darius e contatos = §7–10; Nádia Oliveira ≠ Dr. Patch ≠ Nadia Chen |
 | Ficha Leopold (Rockerboy) | `fichas/rockerboy - leopold_habsbruck.md` | CI **6** · 62 stats · 100 skills · fashionware; rel [leopold_habsbruck_relacionamentos.md](../relacionamentos/leopold_habsbruck_relacionamentos.md); pulso `pulso_do_mundo/crew/leopold.md`; chama `imagens/leopold/prometheus_flame.jpg` |
 | Histórico de sessão | `logs/sessao_resumo_XXX.md` | Arquivos listados na seção "Arquivos Atualizados" de cada resumo |
 | Rascunho de fato no meio da sessão | `logs/notas_sessao.md` | `[Anotar]` playbook L. Não é cânone. Finalizar lê e esvazia |

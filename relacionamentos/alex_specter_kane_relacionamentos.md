@@ -1,6 +1,6 @@
 # Relacionamentos - Alex "Specter" Kane
 
-**Última atualização:** 22 de Agosto de 2026  
+**Última atualização:** 22 de outubro de 2026  
 **Estado de cena:** **Off-screen em Night City.** Não está no Pack. Nenhum beat romântico ativo até reencontro com a crew (pós-E015 / crew montada). Soft: [ideas_concepts/05](../ideas_concepts/05_valk_alex.md) · [polycule](crew_polycule_ryan_valk_alex_reina.md).  
 **Background:** [nota do narrador](../fichas/notas_narrador/alex_specter_kane_background_consolidado.md) · **F22** (Janus — não falar no Pack).
 
@@ -43,6 +43,17 @@ Alex é sarcástica, provocadora e tem um humor afiado. Gosta de cutucar as din�
 - **Intensidade:** Média
 - **Tipo:** Brincadeira, provocação
 - **Notas:** Núcleo avoado com Echo — motivos diferentes. Sem romance. Apoia o rolê **Uncredited** (saída; Leo + Echo batizaram) — constranger Ryan faz parte da graça. Off-screen até NC. [ficha](../fichas/rockerboy%20-%20leopold_habsbruck.md) · **F23** · **F24**.
+
+## Fora de cena (NC)
+
+Índice. A vida está na nota §D. O uso de mesa está na [ficha](../fichas/netrunner%20-%20alex_specter_kane.md), seção Vida em NC. Nada disto entra no Pack.
+
+- **Hábitos:** ginástica, rádios sem corp, cozinha oito ou oitenta com a Stitch, energéticos, action figures. O treino não é terapia automática. A piada da cozinha é ocasional. Sem consequência médica grave escrita para o energético.
+- **Círculo:** amigos, música, skate. Relações livres. Uma amiga fica com ela de vez em quando. Nome em aberto. Não é triângulo com a Valk.
+- **Mica:** técnica de hardware. Cobra. Não substitui Janus.
+- **Dex:** intermediário de rua. Não compete com o Kaz.
+- **Rook:** rival. Competitivo, não hostil. Não descobre Janus.
+- **Enquanto a crew está no Pack:** a vida continua. O interesse pela Valk não suspende o resto.
 
 ### Potencial (estacionado)
 

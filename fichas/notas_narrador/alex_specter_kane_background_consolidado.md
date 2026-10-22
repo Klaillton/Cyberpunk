@@ -1,7 +1,7 @@
 # Alex “Specter” Kane — Background (narrador)
 
 > Handle **Specter**. Sobrenome **Kane** = coincidência com Valkirya e Jax — **sem parentesco**.  
-> **Este arquivo:** backstory + pré-campanha + regras de Janus. **Não** recontar a mesa aqui.  
+> **Este arquivo:** backstory + pré-campanha + regras de Janus + vida em NC. **Não** recontar a mesa aqui.  
 > SoT de agora: [ficha](../netrunner%20-%20alex_specter_kane.md) · [relacionamentos](../../relacionamentos/alex_specter_kane_relacionamentos.md) · [NOW](../../logs/context_pack_atual.md)  
 > **F22:** Janus = mentor/wingman NET. Natureza = **esta nota**. Ryan / Pack / Valk **não** sabem que é IA.
 
@@ -10,8 +10,9 @@
 | **A. Backstory** | Infância, Janus, captura, resgate no Mule, 3,5 semanas com Valk | Motivo, trauma, por que Valk pesa |
 | **B. Pré-campanha** | Retorno NC, revelação, Conselho, wingman (20–29) | Como ela opera hoje; o que **não** vazar |
 | **C. Campanha (só ponte)** | Off-screen em NC; polycule parked | Apontar SoT; **não** expandir como passado |
+| **D. Vida em NC** | Hábitos, círculo, contatos, rotina enquanto a crew está no Pack | Quem ela é fora do Janus e da Valk. Não entra no Pack |
 
-**Proibido:** termo **Handler** (não existe na história dela). Designação militar, fragmentos, `DECIDA` e Conselho **não** sobem para a ficha nem para cena do Pack.
+**Proibido:** termo **Handler** (não existe na história dela). Designação militar, fragmentos, `DECIDA` e Conselho **não** sobem para a ficha nem para cena do Pack. Não inventar o nome da amiga. Não usar essa amiga como triângulo com a Valk. Rook não vira ódio sem um fato novo. Mica e Dex não substituem Janus nem Kaz.
 
 ---
 
@@ -176,7 +177,48 @@ Alex está **off-screen em Night City**. Sem beat romântico, sem provocação a
 | Polycule (desejado, não obrigatório) | [crew_polycule_…](../../relacionamentos/crew_polycule_ryan_valk_alex_reina.md) — **após** E015 / crew NC |
 | Conflito futuro / Alex não vilã | [ideas_concepts/05](../../ideas_concepts/05_valk_alex.md) — origem **desta nota** vence o “job raso” |
 | Pulso off-screen | [pulso/crew/alex.md](../../pulso_do_mundo/crew/alex.md) — jobs/NET; **não** avançar romance |
+| Vida em NC (hábitos, círculo, contatos) | este arquivo, §D. Uso de mesa na [ficha](../netrunner%20-%20alex_specter_kane.md). **Não** entra no Pack |
 | F22 | [fatos_duros.md](../../sistema/fatos_duros.md) |
+
+---
+
+## D. Vida pessoal e círculo
+
+Off-screen em Night City. Uso de mesa, sem abrir esta seção inteira: [ficha](../netrunner%20-%20alex_specter_kane.md), Vida em NC. Não entra no Pack só por estar escrito.
+
+### Hábitos
+
+Alex pratica ginástica e flexibilidade. No cativeiro os movimentos foram restringidos; poder mexer o próprio corpo livremente importa. Não precisa explicar por que treina. Não é terapia automática, e o treino não a faz pensar no cativeiro toda vez.
+
+Escolhe rádios antigas ou mantidas por edgerunners, sem corporação, algoritmo ou publicidade. Pode deixar uma estação tocando enquanto trabalha, cozinha ou descansa. Às vezes é só música.
+
+Na cozinha é oito ou oitenta. Ajuda Stitch quando a encontra lá. Não compete e não toma o lugar. A piada de “quem cozinhou?” aparece de vez em quando. Ela não é incapaz; é imprevisível.
+
+Bebe energético para aguentar sessão longa na NET. Latas, sabor, alguém sugerindo que durma. Não há consequência médica grave escrita.
+
+Coleciona action figures. Personagens, tamanho da coleção e quanto gasta ficam em aberto. Não inventar.
+
+### Círculo
+
+Amigos independentes dos contatos de trabalho. Saem juntos, ouvem música, andam de skate, ficam na cidade sem precisar de objetivo. As relações são livres: sem posse, sem exclusividade, sem obrigação romântica. Alguns ficam de vez em quando. Isso não significa que todos se envolvam entre si, nem que cada noite vire namoro.
+
+Uma das mulheres do círculo fica com Alex ocasionalmente. Fora isso, são amigas e convivem com o grupo. Sem exclusividade e sem namoro obrigatório. Não está escrito que uma esteja apaixonada pela outra. **Nome, duração e vida dela em aberto.** Não existe para disputar Valk, provocar ciúme ou virar antagonista. Se estiver presente quando Valk reaparecer, pode notar que Alex ficou diferente e comentar depois, em particular, sem conhecer a história das duas.
+
+Alex teve encontros casuais com homens e mulheres. Alguns pontuais, outros repetidos, nenhum parceiro fixo agora. Não apagam Valk e não são, por padrão, tentativa de substituí-la. O reencontro pode mudá-la de forma perceptível. Não presumir ciúme, carência ou fuga. A reação nasce na cena.
+
+### Contatos
+
+Nomes utilizáveis. O que não está nesta seção permanece em aberto. Nenhum substitui Janus nem Kaz. Nenhum entra no Pack só por estar escrito.
+
+**Mica** — técnica independente. Conserto de comunicação, cyberdeck e eletrônico para quem não quer pergunta sobre a peça. Conhece Alex há alguns anos. Hardware, não Netrunner excepcional. Sabe que o trabalho é delicado e não sabe a extensão. Cobra. Amizade não é serviço grátis. Reclama quando Alex quebra o que, na opinião dela, não devia quebrar.
+
+**Dex** — intermediário de rua. Liga cliente pequeno a profissional do submundo digital. Conhece Alex de trabalhos anteriores e a reputação, não tudo o que ela faz. Oferece job pequeno demais para nome famoso. Relação profissional. Não é Fixer grande e não compete com Kaz.
+
+**Rook** — Netrunner competente. Acha Alex talentosa e disposta demais a improvisar. Ela acha que ele se prende demais ao plano. A rivalidade começou num job compartilhado: ela mudou o plano, a operação funcionou, e a mudança comprometeu parte do trabalho dele. Competitivo, não hostil. Podem trocar informação, ajudar e cooperar. Isso não encerra a disputa. Não é inimigo. Não descobre Janus.
+
+### Enquanto a crew está no Pack
+
+Alex segue em Night City: jobs na NET, contato ocasional com Kaz, as relações acima, treino, rádio, figures, cozinha. O interesse por Valk continua. A vida não fica suspensa. Pode sentir falta, acompanhar notícia e mandar mensagem quando houver motivo. Não passa os dias esperando, e nem toda atividade aponta para o reencontro.
 
 ---
 

@@ -32,7 +32,7 @@
 | ------------- | ------ |
 | 16/06/2026 | Aceita Ryan e Valk via Kaz (800 eb + favor); tenda e comida oferecidas. |
 | Jun/2026 | Ryan conserta bomba, gerador, forja; respeito técnico cresce. |
-| 23/06/2026 | Performance musical no pack; após [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md), nota tensão no acampamento (cautela + respeito). Ryan planeja falar sobre risco das incursões. |
+| 23/06/2026 | Performance musical no pack; após [Incidente 002](../../logs/incidente_002_incursao_noturna_raffen.md), nota tensão no acampamento (cautela + respeito). Ryan planeja falar sobre risco das incursões. |
 | 01–02/07/2026 | Recebe recrutas Mara, Elias, Tomas; reunião estratégica com Ryan e Tio Gringo. |
 | 03/07/2026 | **Aprovou oficialmente** o projeto **Badlands Node v0.1** após apresentação de Ryan. |
 | 04/07/2026 | Recebeu debrief de Ryan após operação na Torre Raffen (6 reféns, ameaça neutralizada). |

@@ -1,7 +1,7 @@
 # Fase 2 — Combate expandido, armas, Techie/Maker, veículos
 
 **Status:** pronto para implementação  
-**Base:** [plans/add-cyberpunk-red-mechanics.md](C:\workspace\Cyberpunk\plans\add-cyberpunk-red-mechanics.md)  
+**Base:** [add-cyberpunk-red-mechanics.md](add-cyberpunk-red-mechanics.md)  
 **Ruleset alvo:** **1.1.0** (MINOR — novos módulos + expansão de `02`)  
 **Pré-requisito:** Fase 1 done (`regras_red/00–03` v1.0.0, F18 cutoff 017+)  
 **Não-escopo desta fase:** cyberware/HL detalhado (Fase 3), roles completas Solo/Fixer/Media (Fase 3), netrunning (Fase 4), retcon 001–016, Python engine
