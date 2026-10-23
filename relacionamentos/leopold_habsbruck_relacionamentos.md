@@ -24,7 +24,7 @@ Não há arco romântico. Homem na crew para variedade de elenco, não para tens
 - **Status:** Fixer da crew / responsável de facto por o manter vivo
 - **Intensidade:** Alta (unilateral na preocupação)
 - **Tipo:** Contrato + enxaqueca
-- **Notas:** Kaz conhece origem e sequestro. **Job de proteção:** ver [nota do narrador](../fichas/notas_narrador/leopold_habsbruck_background.md) — **não** está no background público do Leopold nem na ficha pública do Kaz. Piada corrente: “vou aumentar o meu preço” sempre que o cara se mete no job da Echo. Não está bravo porque Leopold é incompetente; está bravo porque é incalculável. Lente do Kaz: [nota](../fichas/notas_narrador/kaz_broker_takahashi_background.md).
+- **Notas:** Kaz conhece origem e sequestro. Foi contratado para mantê-lo vivo. **Quem contratou não tem nome** — não presumir avó nem pais. **Job de proteção:** ver [nota do narrador](../fichas/notas_narrador/leopold_habsbruck_background.md) — **não** está no background público do Leopold nem na ficha pública do Kaz. Piada corrente: “vou aumentar o meu preço” sempre que o cara se mete no job da Echo. Não está bravo porque Leopold é incompetente; está bravo porque é incalculável. Lente do Kaz: [nota](../fichas/notas_narrador/kaz_broker_takahashi_background.md).
 
 ### Ryan "Wireghost" Voss
 
@@ -60,6 +60,27 @@ Não há arco romântico. Homem na crew para variedade de elenco, não para tens
 - **Intensidade:** Baixa
 - **Tipo:** “Vai ter briga?”
 - **Notas:** Presença justificada se houver porrada. Sem sermão.
+
+---
+
+## Fora da crew (NC, sem ficha)
+
+Off-screen. Não puxar para o Pack. Exemplos de caos na nota §D **não** são eventos.
+
+### Tomas Rhee
+
+- **Tipo:** Colaborador informal de vídeo. Acelerador, não o freio.
+- **Notas:** Ensinou Leopold a editar. Telefone ou drone pequeno. **≠** Tomas recruta do Pack. **≠** Tomás “Riggs” Álvarez.
+
+### Mara Velez
+
+- **Tipo:** Cozinha comunitária. Sem pedestal.
+- **Notas:** Trata Leopold como moleque, não como Prometheus nem Habsbrück. Não é mentora política. **≠** Mara recruta do Pack.
+
+### Silas Vane
+
+- **Tipo:** Rockerboy. Crítica pública e colaboração possível.
+- **Notas:** Negocia. Leopold não cede. Idade aberta.
 
 ---
 

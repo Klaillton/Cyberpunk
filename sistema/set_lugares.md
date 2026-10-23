@@ -2,6 +2,7 @@
 
 **Uso:** planta curta. O boot não lê este arquivo inteiro.  
 **SET NOW** vive no `logs/context_pack_atual.md`. `[Carregar cena: <tag>]` abre só o § da tag.  
+**Fora deste arquivo:** a safehouse da crew em NC ainda não foi ocupada. A planta futura está em `fichas/notas_narrador/safehouse_planta_futura.md`. Não é tag e não é SET NOW. A “casa” da sessão 011 neste arquivo é o protótipo do Pack, outro lugar.  
 **Fonte:** sessão 001 (gerador, máquinas), 003–004 (tendas), 011 (casa), 019 (garagem), 020 (extrusora), 026 (lona do banho). O circuito do banho e o nome das máquinas saíram do chat e foram confirmados pelo jogador em 25/09/2026. Não estavam nos resumos. **029:** torno com embreagem improvisada no avanço.
 
 Sem história de sessão. Sem voz. Sem SOP.

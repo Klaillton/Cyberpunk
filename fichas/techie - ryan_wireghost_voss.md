@@ -72,6 +72,16 @@ Devido a essa distorção profunda da memória e ao entorpecimento emocional que
 
 Ele carrega um ranço forte contra corporações, especialmente a Arasaka, mas não consegue articular o porquê com clareza — só sente que “tiraram algo dele”.
 
+## Veículos e depósito (narrador até a revelação)
+
+Ryan tem um depósito privado com **6 carros de luxo** e **4 motos de luxo**, presentes de relações anteriores. Não usa no dia a dia e não trata como status. O depósito **não fica na safehouse** e não é o depósito de material do Pack.
+
+Na garagem da casa, se precisar, cabem um ou dois veículos de uso prático. O resto fica guardado e mantido fora. Na maior parte do tempo ele anda de transporte público, táxi ou aluga um carro. Alugar é mais fácil, e os carros de luxo não têm bagageiro para o que ele quer carregar.
+
+A **Mule** é da Valk. Não entra nessa conta e pesa mais para ele do que a coleção. O primeiro carro (associado a Helena; marca, modelo e cor abertos) é a porta da história. Os outros nove não têm doadora mapeada.
+
+**Valk ainda não conhece o depósito.** Informação de narrador até a cena. O contraste, quando a crew descobrir, é coleção parada e Ryan de ônibus ou de carro alugado. Lista, travas e o que continua aberto: [nota](notas_narrador/ryan_veiculos_relacoes.md).
+
 ## Músicas da Vida (Repertório Pessoal)
 
 Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As músicas vêm como memórias da infância no bordel e da vida na rua. Ele não entende o porquê delas surgirem — é como se a alma dele vazasse.
@@ -261,7 +271,7 @@ Ryan canta sem perceber, geralmente enquanto trabalha ou está distraído. As m�
 
 Quando entra em modo de trabalho, Ryan se torna o **"operador"**: frio, pragmático e extremamente eficiente. Ele mata quando é necessário, avalia rapidamente as consequências a longo prazo e toma a decisão. Depois de decidir, não sente peso emocional.
 
-Ele já esteve com outras mulheres antes, mas sempre foi algo puramente físico, na maioria das vezes iniciado por outras pessoas após jobs. Ele tratava como “parte do trabalho”.
+Antes da Valk, as relações foram em geral sequenciais, com casuais no meio. Não era polígamo e não mantinha namoradas em paralelo às escondidas. Muitas vezes lia flerte como conversa ou trabalho. Presente caro ele aceitava sem tratar como status. Depois que ficou com ela, parou de procurar outras relações e não anunciou isso. A lista e o que ainda está aberto estão na [nota de veículos](notas_narrador/ryan_veiculos_relacoes.md). Reina não entra nessa lista.
 
 A chegada de **Lena “Valkirya” Kane** (ele a chama de **Valk** e, no carinho, de **Morena**) foi algo completamente novo para ele. Pela primeira vez em muito tempo, ele passou a sentir coisas de forma mais intensa e constante.
 
@@ -294,7 +304,7 @@ Antigo cliente que deve vários favores a ele. **≠** Emilia “Echo” Rivera 
 
 **Conexões importantes:**
 
-- **Lena “Valkirya” Kane**: Namoro consolidado (F07). Ele a chama de **Valk** e, no carinho, de **Morena** (F21). Acordo de comunicação ops **019**. Intimidade e aftercare de rotina; residual 020/021. **F15:** ela não o chama de “herói”. Cuida dela na oficina (Mule, módulo Condor).
+- **Lena “Valkirya” Kane**: Namoro consolidado (F07). Ele a chama de **Valk** e, no carinho, de **Morena** (F21). Acordo de comunicação ops **019**. Intimidade e aftercare de rotina; residual 020/021. **F15:** ela não o chama de “herói”. Cuida dela na oficina (Mule, módulo Condor). Ela ainda não conhece o depósito privado.
 - **Alex “Specter” Kane**: Alex é provocadora com ele (especialmente quando Valk está por perto). Flerta e cutuca Ryan de propósito, mas seu interesse real é em Valk.
 - **Reina “Bearclaw” Morales**: Já se conheceram através da **Doc Moreau** (Elisa — não Stitch). Ryan não lembra dos detalhes (incluindo ter construído os cyberarms dela). **Reina sabe** e o trata com instinto protetor sem revelar a dívida em voz alta.
 
@@ -318,6 +328,7 @@ Antigo cliente que deve vários favores a ele. **≠** Emilia “Echo” Rivera 
 ## Referências
 
 - [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md) · [Crew](../relacionamentos/crew_relacionamentos.md) · [Polycule](../relacionamentos/crew_polycule_ryan_valk_alex_reina.md)
+- **Veículos e ex (narrador):** [ryan_veiculos_relacoes.md](notas_narrador/ryan_veiculos_relacoes.md) — Valk não sabe; não é boot
 - **Loadout tático:** [ryan_loadout.md](ryan_loadout.md) · **Guarda-roupa:** [ryan_guarda_roupas.md](ryan_guarda_roupas.md)
 - **Imagens:** [tático](../imagens/techie%20-%20ryan_wireghost_voss.png) · [casual / oficina](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png) · [máscara](../imagens/ryan/mascara_tatica.jpg) · [armas](../imagens/ryan/armas/)
 - **Notas do Narrador:** [Background completo](notas_narrador/ryan_background_completo.md) · [Gatilhos e memórias](notas_narrador/ryan_gatilhos_memorias.md)

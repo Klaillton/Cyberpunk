@@ -203,11 +203,21 @@ O que ele **faz** (e é por isso que escutam — ele **aparece**):
 
 Muitas campanhas dele recebem doação **Habsbrück** (fundação, logo na entrega). Ele ferve. O dinheiro chegou. Não há o que contestar. Família ≠ vilã. Detalhe: [nota](notas_narrador/leopold_habsbruck_background.md).
 
+## Fora de Prometheus (tipo, não evento)
+
+Aos 21, tempo livre não precisa ser produtivo. Exemplos do tipo de imprevisibilidade, **não** acontecimentos marcados: beber, dois dias de farra, querer correr de carro de repente, gastar dinheiro numa ideia da hora, aparecer com quatro cães enormes achando que dá conta. Ele cria o problema. Os outros decidem a reação. Não pré-escrever que a crew sempre contém, acompanha ou perdoa.
+
+**Tomas Rhee** ensinou Leopold a editar vídeo. Colaborador informal. É o acelerador, não o freio. Crítica de um vídeo ruim não o torna o adulto da dupla. Grava com telefone ou drone pequeno, não com equipe de estúdio. **≠** Tomas recruta do Pack. **≠** Tomás “Riggs” Álvarez.
+
+**Mara Velez** é mais velha e administra ou ajuda a administrar uma cozinha comunitária. Trata Leopold como moleque, não como Prometheus nem como Habsbrück. Não é mentora política e não precisa de todos os segredos. **≠** Mara recruta do Pack.
+
+**Silas Vane** é outro rockerboy. Critica Leopold em público e também pode colaborar. Silas negocia. Leopold não cede. A idade de Silas continua aberta.
+
 ---
 
 ## Relação com a crew
 
-A presença dele começou menos ideológica do que ele gostaria de admitir. Kaz conhece a origem e as semanas. O acordo visível para Leopold: está na crew, acompanha jobs, é útil.
+A presença dele começou menos ideológica do que ele gostaria de admitir. Kaz conhece a origem e as semanas. Kaz foi contratado para mantê-lo vivo e agora tem de fazer alguma coisa com isso. Quem contratou, e por quê, ficam em aberto: não presumir a avó, os pais ou qualquer outro nome. Isso não entra na ficha pública do Kaz. Kaz não precisa controlar Leopold nem fazer toda cena girar em torno da obrigação. O acordo visível para Leopold: está na crew, acompanha jobs, é útil.
 
 **Emilia "Echo" Rivera:** ela procura a história; ele procura o impacto. Ela registra; ele provoca. Megafone + arquivo — Roles diferentes.  
 **Ryan:** trata o “grande revolucionário” como mais um cara que precisa parar de atrapalhar enquanto ele trabalha — e mesmo assim respeita quem sobe à parede.  

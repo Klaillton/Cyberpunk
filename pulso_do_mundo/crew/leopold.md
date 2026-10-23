@@ -2,7 +2,7 @@
 
 **Última atualização:** 04 de Setembro de 2026  
 **Escopo:** **Night City / futuro** — Leopold **não** está nas Badlands. Acionar em reencontro NC, job com Echo, ou boato da chama Prometheus.  
-**Regra:** pulso de *vida* off-screen ok (grafite, vídeo, Kaz). **Não** avançar teia Habsbrück, avó, job de proteção, semanas Zoners. **Não** narrar no Pack.  
+**Regra:** pulso de *vida* off-screen ok (grafite, vídeo, Kaz). **Não** avançar teia Habsbrück, avó, job de proteção, semanas Zoners. **Não** narrar no Pack. Farra, corrida e quatro cães são **tipo**, não evento agendado: o pulso não marca isso como acontecido. Tomas Rhee acelera e não é o Tomas do Pack nem o Riggs. Mara Velez ≠ Mara recruta. Silas Vane: idade aberta. O cliente que contratou Kaz para mantê-lo vivo não tem nome.  
 **Background:** [nota](../../fichas/notas_narrador/leopold_habsbruck_background.md) · ficha [rockerboy - leopold_habsbruck.md](../../fichas/rockerboy%20-%20leopold_habsbruck.md) · **F23**
 
 > Handle = **Prometheus**. Chama de três linhas ≠ brasão Habsbrück.  

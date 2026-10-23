@@ -12,6 +12,7 @@
 | **A. Backstory** | Infância chairman → Zoners → quarto → Prometheus + causa | Motivo, falha, repertório |
 | **B. O que ele não sabe / esconde** | Teia, avó, caixas; **sobrenome usado às escondidas** | Revelar aos poucos; nunca dump |
 | **C. Campanha** | Off-screen NC; Zoners = mal-entendido; resgate parked | Pulso NC; **não** expandir no Pack |
+| **D. Fora de Prometheus** | Tomas Rhee, Mara Velez, Silas Vane; caos como tipo | NC, quando ele estiver em cena. Exemplos **não** são eventos |
 
 ---
 
@@ -162,11 +163,11 @@ Deliberado. Porta de festa, lugar “melhor”, desarmar merda **antes** de sair
 
 ### Kaz
 
-Possível job: **mantê-lo vivo**. **Não** está no background público. É estado/relacionamento atual.
+**Fato de campanha:** Kaz foi contratado para mantê-lo vivo e agora precisa fazer alguma coisa com essa responsabilidade. Quem contratou e o motivo exato ficam em aberto. Não presumir a avó, os pais ou qualquer outra pessoa.
 
-Kaz não carrega um inútil. Garante que o cara sobrevive às próprias escolhas. Preço que “sobe” é ameaça verbal para manter a sanidade — pode nem existir contrato que o permita.
+Não está no background público do Leopold. Não colocar esse job na ficha pública do Kaz.
 
-Não colocar esse job na ficha pública do Kaz.
+Kaz não carrega um inútil. Acompanha, reduz risco concreto e lida com a consequência. Não precisa controlar Leopold nem transformar cada cena na obrigação. O “vou aumentar o meu preço” continua ameaça verbal para manter a sanidade. Pode nem existir cláusula que permita o aumento.
 
 ### Revelação sugerida (nunca dump)
 
@@ -180,7 +181,7 @@ Não colocar esse job na ficha pública do Kaz.
 
 ## C. Campanha
 
-Off-screen em Night City. Sem beat no Pack. Sem chama na cerca do acampamento. Sem logo Habsbrück na oficina do Ryan **enquanto ele não estiver em cena**.
+Off-screen em Night City. Sem beat no Pack. Sem chama na cerca do acampamento. Sem logo Habsbrück na oficina do Ryan **enquanto ele não estiver em cena**. A crew ainda não se reuniu na safehouse. Kaz reúne depois. A planta futura não é SET NOW: [safehouse_planta_futura.md](safehouse_planta_futura.md).
 
 A crew não precisa compartilhar a causa. Ele é útil: influência, portas, gente, fala. Membro de verdade, não pacote VIP.
 
@@ -191,6 +192,34 @@ Núcleo avoado: Echo + Alex + Leopold (motivos diferentes). Eixo pragmático: Ry
 **Saídas:** ele empurra a crew para NC — rave e high society, os dois contatos são dele. Echo e Alex topam. Nome de porta: **Uncredited** (ele + ela). A crew faz WTF, olha para os dois, segue se tiver copo. Job ≠ festa. **F24**.
 
 **Parked:** segundo encontro / resgate da crew; ele pode entrar em **outra célula** Zoner achando que conhece. **Sem** nome do líder. **Sem** nome profissional da crew. Slogan futuro (“EU SÓ ANUNCIO…”) — **não** aos 21. Sobrenome às escondidas = cena se vazar, não boot.
+
+---
+
+## D. Fora de Prometheus (não é evento)
+
+Aos 21 ele tem dinheiro, uma persona que funciona e liberdade, e não tem pai ou mãe em cima impondo limite cotidiano. Hora livre não precisa virar trabalho político.
+
+Fora da câmera ele é impulsivo, sociável e imprevisível. Pode beber, passar dois dias na farra, decidir que quer correr de carro, gastar dinheiro numa ideia que pareceu boa naquela hora ou aparecer com quatro cães enormes convencido de que vai cuidar deles. Isso é o **tipo** de aleatoriedade. Não é lista de hábitos e não é evento já acontecido. Ele não precisa estar sempre bêbado nem sempre em perigo. O caos costuma vir de entusiasmo, tédio, curiosidade, amigo e da certeza de que dá conta. A irresponsabilidade não precisa ser maldade: ele acredita no plano e não calcula o trabalho antes de começar.
+
+**Leopold cria o problema. Os outros decidem como reagem.** Não pré-escrever que a crew sempre contém, acompanha ou perdoa. Não adicionar hobby só para preencher a ficha.
+
+### Tomas Rhee
+
+Ensinou Leopold a editar vídeo. Faz o próprio conteúdo e colabora de modo informal. Não é equipe de estúdio e não precisa de orçamento. Telefone ou drone pequeno bastam.
+
+Não é a voz da razão e não é o freio. Quando Leopold tem um impulso, Tomas acha um jeito de deixar maior, mais interessante ou mais executável. Os dois podem só ficar empolgados e perceber o tamanho depois. Tomas pode detestar uma gravação ruim. Isso não o torna o adulto responsável.
+
+**≠** Tomas, recruta do Pack (sobrenome não confirmado). **≠** Tomás “Riggs” Álvarez, amigo da Echo.
+
+### Mara Velez
+
+Mulher mais velha. Administra ou ajuda a administrar uma cozinha comunitária. Trata Leopold como moleque e como pessoa, não como Prometheus e não como Habsbrück. Pode cobrar ajuda na limpeza sem se impressionar com fama ou dinheiro. Ele aceita isso dela de um jeito que não aceita de todo mundo. Não é mentora política. Não precisa de todos os segredos.
+
+**≠** Mara, recruta do Pack.
+
+### Silas Vane
+
+Outro rockerboy. Pode criticar Leopold em vídeo. A rivalidade não exige ódio: também podem colaborar. Silas privilegia pragmatismo e negociação. Leopold tende a não ceder. Idade e o resto da biografia continuam abertos.
 
 ---
 
