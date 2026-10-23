@@ -105,6 +105,23 @@ Citar IDs de `sistema/fatos_duros.md` (F01–F21 + L0x se aplicável):
 4. Mudou de local (ex. Pack → estrada → NC)? → **reescrever a agenda inteira**; não carregar ganchos de outro lugar sem canal plausível.  
 5. Local novo na narração → bloco **AMBIENTE** ([cena_ambientacao_ganchos.md](../sistema/cena_ambientacao_ganchos.md)); relacional SHOW ([arco_ativo.md](../board/arco_ativo.md) §7 se arco ativo).
 
+## META-ROTEIRO (regra estável)
+
+> A regra fica. No Finalizar, reescrever só o **nó**. Não entra na boca. Não vira menu.
+
+Preparo do narrador. O jogador não é obrigado a ficar na árvore. A regra não muda a cada momento. Muda o nó.
+
+- Um nó para o próximo momento importante. Poucas saídas. Cada saída é o que o mundo está pronto para fazer.
+- No momento, usar uma saída já escrita que caiba no relógio e no que o jogador fez. Saída nova no meio da cena não existe.
+- Fora da árvore: o objetivo grande e o custo já escrito. Sem pessoa, lugar, facção ou trama novos para destravar.
+- Cada saída leva o card seguinte só em ideia. As cenas futuras não se desenvolvem agora.
+- Card grande resolvido: escrever o próximo nó antes de chegar nele. Rascunho na sandbox basta. Chegar com o nó em branco é o travamento.
+- Vida já na ficha, e viagem que só precisa chegar, não ganham card.
+
+### Nó atual
+
+Não preenchido. Momento importante sem nó escrito não ganha evento inventado. Linha de AGENDA não é saída.
+
 ---
 
 ## Vestindo agora (só quem está em cena)

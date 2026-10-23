@@ -26,9 +26,9 @@
 | N12 | Relógio/AGENDA **só se mudou**. NPC em downtime/íntimo = corpo + fala; não anuncia o teto | Stamp Condor/teto/canal **todo** turno; glosa (“não é ordem”, “sem briefing”) |
 | N13 | Cada fato na **situação** a que pertence. Checklist interno. Dado completo. | Gavetas na tela (`Cobertura:`, `EM:`, `Pessoas:`); jogador monta o tabuleiro; omitir dado **ou** wallpaper |
 
-**Pressão:** AGENDA DA CENA → **NORTE curto** → [arco_ativo.md](../board/arco_ativo.md) (L1) → `event_queue` (F10).  
+**Pressão:** momento importante → nó do **META-ROTEIRO** no context pack (sem nó escrito, não inventar o evento). Senão AGENDA DA CENA → **NORTE curto** → [arco_ativo.md](../board/arco_ativo.md) (L1) → `event_queue` (F10).  
 **Off-screen:** contatos mudos **não estão parados** — arco_ativo §2.  
-**Não inventar** NPCs/facções/plot fora do SoT. **Não** inventar encontro aleatório só para encher caminho.
+**Não inventar** NPCs/facções/plot fora do SoT. **Não** inventar encontro aleatório só para encher caminho. Momento importante sem nó escrito não vira esse encontro.
 
 **Rodapé OOC (todo turno):** após a cena, linha em branco, depois só `ctrl N/90`. Some **+2** ao último `ctrl` que você imprimiu. Boot = `ctrl 2/90`. Perdeu = `ctrl ?/90`. **Não** narrar, **não** é visor/Agent, **não** expandir, **não** sugerir troca de chat por causa do número. Spec: [diretrizes_narrador.md](diretrizes_narrador.md) — Rodapé OOC.
 

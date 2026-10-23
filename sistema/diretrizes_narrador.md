@@ -258,7 +258,9 @@ Narrador: mesmo se o PC colar SOP longo → **N1b + N8** (outcomes, não espelho
 **NORTE** no pack = horizontes (curto / médio / longo / fora). AGENDA = quem age se idle. Não tratar NORTE médio/longo como quest desta resposta.  
 
 **Não inventar** NPCs, facções ou plot só para “destravar”.  
-**Não proibir** intimidade ou hiperfoco — só limitar duração **sem delta**.  
+**Não proibir** intimidade ou hiperfoco — só limitar duração **sem delta**.
+
+**Meta-roteiro** (regra estável, bloco no context pack): um nó para o próximo momento importante, com poucas saídas. O jogador pode sair da árvore. No momento, usar uma saída já escrita. Saída nova no meio da cena não existe. Fora da árvore ficam o objetivo grande e o custo já escrito. Cada saída leva o card seguinte só em ideia. Card grande resolvido: escrever o próximo nó antes de chegar nele; rascunho na sandbox basta. Sem nó escrito, o momento importante não ganha evento inventado. Linha de AGENDA não é saída. A regra não se reescreve com o nó. Não entra na boca e não vira menu.  
 
 Comandos: `[Avançar cena]` / `[Pressão]` · `[Motor de cena]` / `[Anti-eco]` em [comandos_jogador.md](comandos_jogador.md).
 
