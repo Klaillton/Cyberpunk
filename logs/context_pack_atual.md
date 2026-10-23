@@ -21,9 +21,9 @@
    - **A sós** (tenda, banho, cama, banco do Mule em estrada): uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop não entram nesta boca. Ela responde a ele ou traz uma coisa dela. Uma. Sem menu.
 2. **Não ecoar** o PC: ≤2 linhas **só** para confirmar a ação dele. Esse teto não mede a fala do NPC. SOP multi-passo → outcomes (N8). Resultado-primeiro **só** no ramo de rádio/ops/combate.
 3. **Delta** = **maior parte** (~≥60%). Nos ramos Pack social e a sós: SHOW + fala do ramo = delta. A fala desses ramos é diegética e fluida. Corpo: 3–6 linhas é **piso**, e pode ter mais. O extra é lugar, gesto e calor, não discurso. A mesma mão entra numa frase só e não volta no turno seguinte. O lugar muda. Não precisa de burst nem relógio.
-4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).
+4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha). Momento importante sem nó escrito não vira encontro no caminho.
 5. **Anti-máquina:** sem *nome de regra* na prosa. Humor, medo, cansaço, recusa = obrigatório. No ramo 2 e 3 a vida é no primeiro turno: corpo ou uma coisa dela já escrita. Agenda de plot fica calada nessa boca. “Três coisas” = ultimato de condições, não teto de frase. Ryan pode cortar; ninguém copia o corte. Trava: `[Voz: ramo antes da frase. Ryan pode cortar. NPC não copia o corte.]`
-6. Fonte de pressão: **AGENDA DA CENA** → [arco_ativo](../board/arco_ativo.md) (L1 + off-screen + §7 SHOW) → pendências → `event_queue` (F10).
+6. Fonte de pressão: momento importante → nó do **META-ROTEIRO** (sem nó escrito, não inventar o evento). Senão **AGENDA DA CENA** → [arco_ativo](../board/arco_ativo.md) (L1 + off-screen + §7 SHOW) → pendências → `event_queue` (F10).
 7. Local novo / ação no terreno → bloco **AMBIENTE** ([cena_ambientacao](../sistema/cena_ambientacao_ganchos.md)). Checklist interno; saída = uma situação (N13). Não gavetas na tela (`Cobertura:`, `EM:`). Não omitir o dado.
 8. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]` · Lugar opaco? `[Ambientar]`.
 9. **Chat novo:** este pack + handoff; **não** continuar threads longos degradados.
@@ -86,6 +86,21 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 | **Turnos sem delta (estimado)** | 0 |
 | **Região / local (NOW)** | Estrada · Mule · luzes NC à vista |
 | **Arco L1** | E015 (chip aberto · hop NC 05/08 21h) · [arco_ativo.md](../board/arco_ativo.md) |
+
+## META-ROTEIRO (regra estável)
+
+Preparo do narrador. O jogador não é obrigado a ficar na árvore. Não entra na boca. Não vira menu. A regra não muda a cada momento. Muda o nó.
+
+- Um nó para o próximo momento importante. Poucas saídas. Cada saída é o que o mundo está pronto para fazer.
+- No momento, usar uma saída já escrita que caiba no relógio e no que o jogador fez. Saída nova no meio da cena não existe.
+- Fora da árvore: o objetivo grande e o custo já escrito. Sem pessoa, lugar, facção ou trama novos para destravar.
+- Cada saída leva o card seguinte só em ideia. As cenas futuras não se desenvolvem agora.
+- Card grande resolvido: escrever o próximo nó antes de chegar nele. Rascunho na sandbox basta. Chegar com o nó em branco é o travamento.
+- Vida já na ficha, e viagem que só precisa chegar, não ganham card.
+
+### Nó atual
+
+Não preenchido. Momento importante sem nó escrito não ganha evento inventado. Linha de AGENDA não é saída.
 
 **Trava 023 (não reabrir):** base = mensagem → manhã seguinte; 019 em vigor. **Não** reabrir o jantar como briga. **Não** reabrir SOP Condor como tutorial. **Não** reabrir o canyon do corte.
 

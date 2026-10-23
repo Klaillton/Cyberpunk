@@ -31,7 +31,7 @@
 | # | Ação |
 | - | ---- |
 | 1 | Declarar: `Refresh contexto — tier-0.` |
-| 2 | Abrir **nesta ordem**: `logs/context_pack_atual.md` (incl. bloco **MOTOR** + **NORTE** + **AGENDA**) → `sistema/fatos_duros.md` → `sistema/vozes.md` (referência de boca) → (só se pack vazio/contraditório) `board/board_campanha.md`. |
+| 2 | Abrir **nesta ordem**: `logs/context_pack_atual.md` (incl. bloco **MOTOR** + **NORTE** + **AGENDA** + **META-ROTEIRO**) → `sistema/fatos_duros.md` → `sistema/vozes.md` (referência de boca) → (só se pack vazio/contraditório) `board/board_campanha.md`. |
 | 3 | Se local falhar: mesmos paths via **RAW**. |
 | 4 | **Proibido** neste comando: reler ficha completa, todos os relacionamentos, todos os `sessao_resumo_*`, pasta `pulso_do_mundo` inteira. `vozes.md` é a leitura de boca deste comando. |
 | 5 | Responder **no formato fixo abaixo** (obrigatório) — **inclui linha Motor**. |
@@ -49,6 +49,7 @@
 - Fato duro 1 (ex. F03 Warden terrestre): …
 - Fato duro 2 (ex. F04 Stitch ≠ Doc): …
 - Motor: N1 sem eco · resultado-primeiro se OPERAÇÃO · AGENDA #… (1 linha do gancho ativo)
+- Meta-roteiro: regra lida. Nó atual: …
 - Vozes: `sistema/vozes.md` lido. Ramo da cena: … · ramos 2 e 3 = fala diegética e fluida, pode ter mais corpo
 - Conflito detectado? Não | Sim — fonte vencedora: RAW/board/pack
 ```
@@ -118,7 +119,7 @@
 | | - Ryan produziu (oficina, scav, construção) → `logs/downtime_ryan.md` |
 | | - NPCs → relacionamentos relevantes |
 | | - **1+ dia in-game** → [pulso_procedimento.md](pulso_procedimento.md) (ciclos faltantes ou gap B1 documentado); região atual only |
-| | - **Sempre:** `logs/context_pack_atual.md` (incl. **NORTE** + **AGENDA DA CENA** do NOW; se **local/região mudou**, reescrever agenda inteira; **NORTE:** só a linha cujo horizonte mudou) + `logs/handoff_atual.md` |
+| | - **Sempre:** `logs/context_pack_atual.md` (incl. **NORTE** + **AGENDA DA CENA** do NOW; se **local/região mudou**, reescrever agenda inteira; **NORTE:** só a linha cujo horizonte mudou; **META-ROTEIRO:** a regra fica, reescrever só o nó se o momento resolveu) + `logs/handoff_atual.md` |
 | | - **Cada linha** de `logs/notas_sessao.md` entra na tabela com um destino: **promove** (seção sugere o arquivo; dúvida não escolhe), **fica** (continua no rascunho), ou **não promove** (sai, com uma frase no resumo). Destino incerto = `?`. Não chutar. |
 | | - `registro_arquivos` se novo resumo ou arquivo |
 | 6 | **Mostrar ao jogador:** (1) resumo completo; (2) tabela Arquivo → mudança (incluir linhas “sem delta” se quiser transparência); (3) cada nota com promove / fica / não promove / `?`. |
@@ -150,7 +151,7 @@
 [ ] Eddies delta (economia)
 [ ] Testes/combate: 1–3 linhas de outcome mecânico (não só prosa)
 [ ] Decisões provisórias mecânicas (promover house rule?)
-[ ] Context pack (NOW + NORTE + AGENDA) + handoff
+[ ] Context pack (NOW + NORTE + AGENDA + META-ROTEIRO: regra preservada, nó reescrito se o momento resolveu) + handoff
 [ ] Notas: cada linha com promove / fica / não promove; `?` respondido antes do sim; “fica” permanece com ~NNN
 [ ] Resumo lista paths avaliados
 ```
