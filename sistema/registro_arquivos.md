@@ -34,6 +34,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | NPC secundário (personalidade + eventos) | `fichas/npc/<slug>.md` | [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md), facção/job/sessão |
 | **Sparrow** (Lina Park) | `fichas/npc/lina_park.md` | E015 · residual sem ACK (019) |
 | **Steel** (Marcus Rivera) | `fichas/npc/marcus_steel_rivera.md` | E015 · mudo (019) · ≠ Echo Rivera |
+| **Nia Brooks** | `fichas/npc/nia_brooks.md` | Círculo da Alex · off-screen NC · retrato `imagens/nia_brooks.png` · não é triângulo com a Valk |
 | Detalhes de facção ativa | `facoes/pack_badlands.md` | `relacionamentos/faccao_relacionamentos.md`, `reputacao.md` |
 | Facções menores / superficiais | `facoes/faccoes_geral.md` | `relacionamentos/faccao_relacionamentos.md` |
 | Atividades de downtime do Ryan | `logs/downtime_ryan.md` | `board/board_campanha.md`, `fichas/techie - ryan_wireghost_voss.md` |

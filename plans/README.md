@@ -47,6 +47,7 @@
 | [alex_specter_kane_vida_pessoal.md](alex_specter_kane_vida_pessoal.md) | `done` (folded 2026-10-22) | Vida em NC da Alex. SoT na ficha e na nota §D |
 | [stitch_vida_pessoal_dinamica_crew.md](stitch_vida_pessoal_dinamica_crew.md) | `done` (folded 2026-10-22) | Vida, casa, Vlad/Darius e contatos da Stitch. SoT na ficha e na nota §7–10 |
 | [echo_vida_pessoal_relacoes.md](echo_vida_pessoal_relacoes.md) | `done` (folded 2026-10-22) | Vida em NC da Echo. SoT na ficha e na nota §D |
+| [nia_brooks.md](nia_brooks.md) | `done` (folded 2026-10-22) | Nia Brooks, amiga do círculo da Alex. SoT em `fichas/npc/nia_brooks.md` |
 | [agent_security.md](agent_security.md) | `active` (2026-08-08) | Agents: implant Vault · subdermal Prof · Honeypot visível · Arbiter/Watchdog · F19 |
 | ~~add_cyberpunk_mecanichs.md~~ | `cancelled` | Typo + conteúdo superado — ver link no arquivo |
 

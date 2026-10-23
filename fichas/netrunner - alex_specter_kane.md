@@ -58,7 +58,7 @@ Off-screen. Não entra no Pack só por estar nesta ficha. Texto: [nota](notas_na
 
 Amigos fora dos contatos de trabalho. Saem, ouvem música, andam de skate, sem objetivo. Relações livres: sem posse, sem exclusividade, sem namoro obrigatório. Ficar de vez em quando não junta todo o grupo.
 
-Uma amiga fica com ela ocasionalmente. Também são amigas. **Nome, duração e vida em aberto — não inventar.** Não existe para disputar Valk, provocar ciúme ou virar antagonista. Se estiver presente quando Valk reaparecer, pode notar a diferença e comentar depois, em particular, sem conhecer a história.
+**Nia Brooks** é a amiga com quem ela fica às vezes. [Ficha](npc/nia_brooks.md). Serve num bar. O nome do bar fica em aberto. Fora do turno, terror barato. Não é namoro e não é triângulo com a Valk. Se estiver presente quando a Valk reaparecer, pode notar a diferença e comentar depois, em particular, sem conhecer a história. A cena não é obrigatória.
 
 Encontros casuais com homens e mulheres ao longo dos anos. Sem parceiro fixo. Não apagam Valk e não são, por padrão, tentativa de substituí-la. O reencontro não se presume ciúme, carência ou fuga.
 

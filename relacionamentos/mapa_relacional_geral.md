@@ -60,6 +60,7 @@ Personagens com personalidade e eventos próprios, mas **sem ficha RED completa*
 | Mara (recruta) | [mara_recruit.md](../fichas/npc/mara_recruit.md) | — | [lina_park.md](../fichas/npc/lina_park.md) |
 | Elias (recruta) | [elias_recruit.md](../fichas/npc/elias_recruit.md) | — | *Não confundir com Dr. Vossler* |
 | Tomas (recruta) | [tomas_recruit.md](../fichas/npc/tomas_recruit.md) | — | Monitoramento ativo (sessão 003–005) |
+| **Nia Brooks** | [nia_brooks.md](../fichas/npc/nia_brooks.md) | [nia_brooks.png](../imagens/nia_brooks.png) | Círculo da Alex em NC · off-screen · não é crew · não é triângulo com a Valk |
 | Sasha (pack) | [sasha.md](../fichas/npc/sasha.md) | [Sasha.jpg](../imagens/Sasha.jpg) | Pack · viagem E015 · [Incidente 001](../logs/incidente_001_incursao_recursos_raffen.md) |
 | Lira (pack) | [lira.md](../fichas/npc/lira.md) | [Lira.jpg](../imagens/Lira.jpg) | Pack · viagem E015 · [Incidente 002](../logs/incidente_002_incursao_noturna_raffen.md) |
 | Scout (pack) | [scout.md](../fichas/npc/scout.md) | — | Sentinela/recon — **≠** [Jax Razor Kane](../fichas/solo%20-%20jax_razor_kane.md) |
