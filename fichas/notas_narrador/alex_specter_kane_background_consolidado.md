@@ -12,7 +12,7 @@
 | **C. Campanha (só ponte)** | Off-screen em NC; polycule parked | Apontar SoT; **não** expandir como passado |
 | **D. Vida em NC** | Hábitos, círculo, contatos, rotina enquanto a crew está no Pack | Quem ela é fora do Janus e da Valk. Não entra no Pack |
 
-**Proibido:** termo **Handler** (não existe na história dela). Designação militar, fragmentos, `DECIDA` e Conselho **não** sobem para a ficha nem para cena do Pack. Não inventar o nome da amiga. Não usar essa amiga como triângulo com a Valk. Rook não vira ódio sem um fato novo. Mica e Dex não substituem Janus nem Kaz.
+**Proibido:** termo **Handler** (não existe na história dela). Designação militar, fragmentos, `DECIDA` e Conselho **não** sobem para a ficha nem para cena do Pack. A amiga do círculo é **Nia Brooks**. Não inventar o bar, os nomes do grupo nem transformar a Nia em triângulo com a Valk. Rook não vira ódio sem um fato novo. Mica e Dex não substituem Janus nem Kaz.
 
 ---
 
@@ -202,7 +202,13 @@ Coleciona action figures. Personagens, tamanho da coleção e quanto gasta ficam
 
 Amigos independentes dos contatos de trabalho. Saem juntos, ouvem música, andam de skate, ficam na cidade sem precisar de objetivo. As relações são livres: sem posse, sem exclusividade, sem obrigação romântica. Alguns ficam de vez em quando. Isso não significa que todos se envolvam entre si, nem que cada noite vire namoro.
 
-Uma das mulheres do círculo fica com Alex ocasionalmente. Fora isso, são amigas e convivem com o grupo. Sem exclusividade e sem namoro obrigatório. Não está escrito que uma esteja apaixonada pela outra. **Nome, duração e vida dela em aberto.** Não existe para disputar Valk, provocar ciúme ou virar antagonista. Se estiver presente quando Valk reaparecer, pode notar que Alex ficou diferente e comentar depois, em particular, sem conhecer a história das duas.
+**Nia Brooks** é a amiga com quem Alex fica às vezes. Ficha: [nia_brooks.md](../npc/nia_brooks.md). Retrato: [nia_brooks.png](../../imagens/nia_brooks.png). Serve num bar de Night City. O nome do bar fica em aberto. Ouve, flerta com limite e corta bebida de habitual quando já chega. Fora do turno caça filme antigo ruim, sobretudo terror barato.
+
+As duas se conheceram quando Alex entrou sozinha no bar. Nia conversou e chamou-a para o grupo quando o copo esvaziou. A noite começa às vezes no bar e segue para skate, cinema, centro comercial ou só ficar junto. Com Nia, Alex aparece sem explicar a vida. Nia não lê silêncio como problema.
+
+São amigas e, às vezes, se envolvem. Há atração. Não há namoro nem exclusividade. Uma noite Nia beijava um rapaz do grupo, chamou Alex e beijou Alex também. Ele esperou e voltou. Depois Alex se envolveu com outro rapaz do círculo. Os nomes ficam em aberto. O grupo trata com naturalidade.
+
+Nia tem bar, habituais, filme e amigos mesmo quando Alex não está. Não é edgerunner nem fixer. Se estiver presente quando Valk reaparecer, pode notar a diferença e comentar depois, em particular, sem conhecer a história. A cena é possível. Não é obrigatória. Não é triângulo.
 
 Alex teve encontros casuais com homens e mulheres. Alguns pontuais, outros repetidos, nenhum parceiro fixo agora. Não apagam Valk e não são, por padrão, tentativa de substituí-la. O reencontro pode mudá-la de forma perceptível. Não presumir ciúme, carência ou fuga. A reação nasce na cena.
 

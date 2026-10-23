@@ -49,7 +49,7 @@ Alex é sarcástica, provocadora e tem um humor afiado. Gosta de cutucar as din�
 Índice. A vida está na nota §D. O uso de mesa está na [ficha](../fichas/netrunner%20-%20alex_specter_kane.md), seção Vida em NC. Nada disto entra no Pack.
 
 - **Hábitos:** ginástica, rádios sem corp, cozinha oito ou oitenta com a Stitch, energéticos, action figures. O treino não é terapia automática. A piada da cozinha é ocasional. Sem consequência médica grave escrita para o energético.
-- **Círculo:** amigos, música, skate. Relações livres. Uma amiga fica com ela de vez em quando. Nome em aberto. Não é triângulo com a Valk.
+- **Nia Brooks:** amiga do círculo. Fica com a Alex às vezes, sem namoro. Bar, terror ruim, skate. Não é triângulo com a Valk. [Ficha](../fichas/npc/nia_brooks.md). Off-screen.
 - **Mica:** técnica de hardware. Cobra. Não substitui Janus.
 - **Dex:** intermediário de rua. Não compete com o Kaz.
 - **Rook:** rival. Competitivo, não hostil. Não descobre Janus.

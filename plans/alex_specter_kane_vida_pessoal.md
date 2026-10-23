@@ -50,6 +50,8 @@ Alex participa dessa dinâmica naturalmente. Com os amigos, pode simplesmente ap
 
 ### Uma amiga com quem Alex fica ocasionalmente
 
+> Nome fechado depois desta fonte: **Nia Brooks**. O parágrafo abaixo é o conceito de quando a identidade ainda estava em aberto.
+
 Uma das mulheres do círculo pode ser alguém com quem Alex fica de vez em quando. Além desses encontros, elas são amigas e convivem com o restante do grupo.
 
 Não existe compromisso de exclusividade ou obrigação de transformar a relação em namoro. Isso não determina que uma delas esteja apaixonada pela outra, nem que sejam incapazes de desenvolver sentimentos no futuro.
@@ -140,7 +142,7 @@ Alex pode sentir falta de Valk, acompanhar notícias relevantes, trocar mensagen
 | Coleção de action figures | Definido |
 | Círculo social que sai junto e anda de skate | Definido |
 | Relações livres dentro do grupo | Definido |
-| Amiga com quem Alex fica ocasionalmente | Conceito definido; identidade em aberto |
+| Amiga com quem Alex fica ocasionalmente | Fechado depois: **Nia Brooks**. [plans/nia_brooks.md](nia_brooks.md) · [ficha](../fichas/npc/nia_brooks.md) |
 | Encontros casuais com homens e mulheres | Definido |
 | Mica | Conceito proposto |
 | Dex | Conceito proposto |
