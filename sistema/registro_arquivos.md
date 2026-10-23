@@ -21,7 +21,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Eventos pendentes no mundo | `event_queue.md` | `board/board_campanha.md`, `board/arco_ativo.md`, `consequencias/consequencias_persistentes.md` |
 | Arco em foco (L1) + NPCs off-screen | `board/arco_ativo.md` | `logs/context_pack_atual.md` (**NORTE** + AGENDA), `event_queue.md` |
 | Ambientação / ganchos / imagem opcional | `sistema/cena_ambientacao_ganchos.md` | `motor_cena_1pager.md`, `arco_ativo.md` §7 |
-| Planta curta de lugar recorrente | `sistema/set_lugares.md` | O pack traz só o § do NOW. `[Carregar cena: oficina]` abre esse § |
+| Planta curta de lugar recorrente | `sistema/set_lugares.md` | O pack traz só o § do NOW. `[Carregar cena: oficina]` abre esse §. A safehouse de NC **não** é tag |
+| **Safehouse da crew (planta futura, não ocupada)** | `fichas/notas_narrador/safehouse_planta_futura.md` | **Não é SET NOW.** Crew ainda não se reuniu. Não é boot. Não abre com `[Carregar cena]`. ≠ casa-protótipo da sessão 011 · ≠ Red Mercury |
 | Soft-canon / refinamentos futuros (não tier-0) | `ideas_concepts/README.md` | polycule, gatilhos, Moreau — **não** boot |
 | Situação financeira | `economia.md` | `board/board_campanha.md`, `logs/downtime_ryan.md` |
 | Relações do protagonista | `relacionamentos/ryan_relacionamentos.md` | `relacionamentos/mapa_relacional_geral.md`, `relacionamentos/crew_relacionamentos.md` |
@@ -44,13 +45,14 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | **Projeto futuro armadura Reina (não canônico)** | `fichas/reina_armour_project.md` | Ficha Reina; `imagens/reina/reina_armour_1.jpg` · `_2.jpg` · `reina_bursts.jpg` — **só após ATIVO** |
 | **Projeto futuro moto Reina (não canônico)** | `fichas/reina_byke_project.md` | Ficha Reina; `imagens/reina/bike9.jpg` — **só após ATIVO** |
 | Background e gatilhos do Ryan (narrador) | `fichas/notas_narrador/ryan_background_completo.md` | `fichas/notas_narrador/ryan_gatilhos_memorias.md`, `fichas/techie - ryan_wireghost_voss.md` (Elisa "Doc" Moreau) |
+| **Veículos, depósito e ex do Ryan (narrador)** | `fichas/notas_narrador/ryan_veiculos_relacoes.md` | 6 carros + 4 motos · fora da safehouse · Valk não sabe · ≠ depósito do Pack · Helena ≠ Helena Ward · Reina não é ex · não é boot |
 | Curiosidade: valor agregado ao Pack (estimativa) | `fichas/notas_narrador/ryan_valor_pack.md` | **Não** é ledger; Ryan não sabe; [economia.md](../economia.md) |
 | Background Valkirya (narrador) | `fichas/notas_narrador/lena_valkyria_kane_background.md` | Backstory ≠ mesa; upgrades Mule = campanha |
 | Background Alex (narrador) | `fichas/notas_narrador/alex_specter_kane_background_consolidado.md` | Janus **F22**; backstory ≠ mesa; `backstory.md` = ponte; vida em NC = §D, uso na ficha; off-screen |
 | Background Reina (narrador) | `fichas/notas_narrador/reina_bearclaw_morales_background.md` | Braços / Doc / Stitch; backstory ≠ mesa; reencontro parked |
 | Background Echo (narrador) | `fichas/notas_narrador/emilia_echo_rivera_background.md` | Backstory ≠ mesa; Void List; ≠ Steel Rivera (F20); vida em NC = §D; Delilah ≠ colega do metrô; Riggs ≠ Tomas do Pack; Norville ≠ Correção Editorial |
 | Background Jax (narrador) | `fichas/notas_narrador/jax_razor_kane_background.md` | Combate ≠ guerra; placar; Militech = carreira ≠ vendetta; ≠ mesa; off-screen NC |
-| Background Leopold (narrador) | `fichas/notas_narrador/leopold_habsbruck_background.md` | Prometheus; chama de três linhas; teia Habsbrück / avó / Kaz / Zoners = nota; ≠ Echo; **F23**; off-screen NC |
+| Background Leopold (narrador) | `fichas/notas_narrador/leopold_habsbruck_background.md` | Prometheus; chama de três linhas; teia Habsbrück / avó / Kaz / Zoners = nota; §D Tomas Rhee ≠ Tomas do Pack ≠ Riggs; Mara Velez ≠ Mara recruta; Silas Vane idade aberta; cliente de Kaz sem nome; ≠ Echo; **F23**; off-screen NC |
 | Background Kaz (narrador) | `fichas/notas_narrador/kaz_broker_takahashi_background.md` | Matching, não milagre; origem = clínica/Santo Domingo, **não** traição; Rosa/Mik/Nadia Chen **não voltam** (≠ Nádia Oliveira da Stitch); Operator **6** = procedimento, não lista de nomes; ≠ mesa; off-screen NC |
 | Background Stitch (narrador) | `fichas/notas_narrador/stephania_stitch_background.md` | Backstory ≠ mesa; ≠ Doc Moreau (F04); vida, Vlad/Darius e contatos = §7–10; Nádia Oliveira ≠ Dr. Patch ≠ Nadia Chen |
 | Ficha Leopold (Rockerboy) | `fichas/rockerboy - leopold_habsbruck.md` | CI **6** · 62 stats · 100 skills · fashionware; rel [leopold_habsbruck_relacionamentos.md](../relacionamentos/leopold_habsbruck_relacionamentos.md); pulso `pulso_do_mundo/crew/leopold.md`; chama `imagens/leopold/prometheus_flame.jpg` |

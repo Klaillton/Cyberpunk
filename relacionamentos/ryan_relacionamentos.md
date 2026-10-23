@@ -98,6 +98,17 @@ Ryan e Valk no Mule, a caminho do hop. Debrief Reyes ainda pendente (aviso via R
 
 ---
 
+## Patrimônio e ex (narrador)
+
+Não é delta da sessão 029. Não entra na estrada do Mule.
+
+- Depósito privado em NC: **6 carros de luxo** e **4 motos de luxo**, presentes de relações anteriores. Fora da safehouse e fora do depósito de material do Pack. Ele não usa no dia a dia. Transporte público, táxi ou aluguel. A Valk **não sabe**.
+- Helena, ligada ao primeiro carro, **≠** Helena Ward.
+- Reina **não** é ex. A revelação dos braços continua parked até o reencontro em NC.
+- Lista, travas e o que segue aberto: [ryan_veiculos_relacoes.md](../fichas/notas_narrador/ryan_veiculos_relacoes.md).
+
+---
+
 ## REGRAS DE USO (para o Narrador)
 
 - Este é o **arquivo principal** de relacionamentos de Ryan.

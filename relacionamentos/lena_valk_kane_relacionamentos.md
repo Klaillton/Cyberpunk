@@ -14,6 +14,7 @@ Valk é uma pessoa estoica, leal e protetora. Tem dificuldade em demonstrar afet
 - **Intensidade:** Alta
 - **Tipo:** Romântico + Aliança profunda
 - **Notas:** Existe amor mútuo. Valk aceita tanto o lado carinhoso quanto o lado frio/operador de Ryan. A relação é intensa, carinhosa e um pouco possessiva.
+- **Narrador (ainda não é dela):** depósito privado com 6 carros de luxo e 4 motos, fora da safehouse. Ela não conhece. Não vazar no pulso nem nesta estrada. [Nota](../fichas/notas_narrador/ryan_veiculos_relacoes.md).
 - **05/08/2026 (sessão 029):** Forja (observou). Almoço: fechou a porta NC de Sasha/Lira. Noite só dos dois; ela no volante. Rede. Saída sem debrief. Estrada: cortou o nome do pintle/HMG (mostrar quando tiver corpo; ela no volante não opera metralhadora e estrada ao mesmo tempo). Residual íntimo alto. **F15** ativo. Freeze: 05/08 noite, Mule, luzes de NC à vista.
 
 ### Alex "Specter" Kane

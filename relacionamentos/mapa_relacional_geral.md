@@ -42,6 +42,7 @@
 | Ativo | Ficha | Imagem | Contexto relacionado |
 | ----- | ----- | ------ | -------------------- |
 | The Mule | [vehicle - the_mule.md](../fichas/vehicle%20-%20the_mule.md) | [vehicle - the_mule.jpg](../imagens/vehicle%20-%20the_mule.jpg) | **Equipe com** [Valk](../fichas/nomad%20-%20lena_valk_kane.md); [board](../board/board_campanha.md), [economia.md](../economia.md), [pack_badlands.md](../facoes/pack_badlands.md) |
+| Depósito privado do Ryan (NC) | [ryan_veiculos_relacoes.md](../fichas/notas_narrador/ryan_veiculos_relacoes.md) | — | 6 carros + 4 motos de luxo · narrador · Valk não sabe · ≠ depósito do Pack · não é a garagem da safehouse |
 
 ---
 
@@ -67,6 +68,8 @@ Personagens com personalidade e eventos próprios, mas **sem ficha RED completa*
 | Rusty (pack) | [rusty.md](../fichas/npc/rusty.md) | — | Garagem/veículos; scavs e torre |
 
 **Template:** [npc_template.md](../fichas/npc/npc_template.md)
+
+Nomes de nota, **sem** ficha RED e sem retrato: **Tomas Rhee**, **Mara Velez** e **Silas Vane** na [nota do Leopold](../fichas/notas_narrador/leopold_habsbruck_background.md) §D (Rhee ≠ Tomas recruta ≠ Riggs; Velez ≠ Mara recruta). A lista de ex do Ryan, inclusive a Helena do primeiro carro (≠ Helena Ward), fica na [nota de veículos](../fichas/notas_narrador/ryan_veiculos_relacoes.md). Não promover essas pessoas a NPC de cena só porque o nome existe.
 
 ---
 

@@ -1,6 +1,8 @@
 # Pulso - Lena “Valkirya” Kane
 
 > Handle **Valkirya**. **Valk** e **Morena** = apelidos do Ryan (**F21**); **Morena** é o carinho usual. “Morena” é ela, não outra pessoa.
+>
+> **Depósito do Ryan:** ela não sabe. O pulso não revela os 6 carros, as 4 motos, a Helena nem o contraste. Isso espera a cena. [Nota](../../fichas/notas_narrador/ryan_veiculos_relacoes.md).
 
 **Última atualização:** 03 de Agosto de 2026 (sessão 026)
 **Escopo:** Acionar com Ryan nas **Badlands** (presente no acampamento).

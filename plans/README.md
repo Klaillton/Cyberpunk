@@ -48,6 +48,9 @@
 | [stitch_vida_pessoal_dinamica_crew.md](stitch_vida_pessoal_dinamica_crew.md) | `done` (folded 2026-10-22) | Vida, casa, Vlad/Darius e contatos da Stitch. SoT na ficha e na nota §7–10 |
 | [echo_vida_pessoal_relacoes.md](echo_vida_pessoal_relacoes.md) | `done` (folded 2026-10-22) | Vida em NC da Echo. SoT na ficha e na nota §D |
 | [nia_brooks.md](nia_brooks.md) | `done` (folded 2026-10-22) | Nia Brooks, amiga do círculo da Alex. SoT em `fichas/npc/nia_brooks.md` |
+| [ryan_relacoes_veiculos_patrimonio.md](ryan_relacoes_veiculos_patrimonio.md) | `done` (folded 2026-10-23) | Depósito 6+4, ex e patrimônio do Ryan. SoT na ficha e na nota de narrador. Valk não sabe |
+| [Notas_extras_safehouse_e_dinamicas.md](Notas_extras_safehouse_e_dinamicas.md) | `done` (folded 2026-10-23) | Planta futura da safehouse. Não é SET NOW. SoT em `fichas/notas_narrador/safehouse_planta_futura.md` |
+| [Leopold_Habsbruck_consolidado.md](Leopold_Habsbruck_consolidado.md) | `done` (folded 2026-10-23) | Delta novo: Tomas Rhee, Mara Velez, Silas Vane, caos como tipo, cliente de Kaz sem nome. SoT na ficha e na nota §D |
 | [agent_security.md](agent_security.md) | `active` (2026-08-08) | Agents: implant Vault · subdermal Prof · Honeypot visível · Arbiter/Watchdog · F19 |
 | ~~add_cyberpunk_mecanichs.md~~ | `cancelled` | Typo + conteúdo superado — ver link no arquivo |
 

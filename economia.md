@@ -117,6 +117,8 @@ Regras de compra/venda genéricas: DV Trading/Streetwise se risco; preço × dis
 
 ### Oficina / depósito pessoal (Pack)
 
+Isto é o pátio de material do Pack. Não é o depósito privado de luxo do Ryan em NC. Esse fica na [nota de narrador](fichas/notas_narrador/ryan_veiculos_relacoes.md) e a Valk ainda não conhece.
+
 | Item | Qtd | Notas |
 | ---- | --- | ----- |
 | Sobras chrome/componentes | alguns | P003 |
