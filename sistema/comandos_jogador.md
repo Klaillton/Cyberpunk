@@ -119,7 +119,7 @@
 | | - Ryan produziu (oficina, scav, construção) → `logs/downtime_ryan.md` |
 | | - NPCs → relacionamentos relevantes |
 | | - **1+ dia in-game** → [pulso_procedimento.md](pulso_procedimento.md) (ciclos faltantes ou gap B1 documentado); região atual only |
-| | - **Sempre:** `logs/context_pack_atual.md` (incl. **NORTE** + **AGENDA DA CENA** do NOW; se **local/região mudou**, reescrever agenda inteira; **NORTE:** só a linha cujo horizonte mudou; **META-ROTEIRO:** a regra fica, reescrever só o nó se o momento resolveu) + `logs/handoff_atual.md` |
+| | - **Sempre:** `logs/context_pack_atual.md` (incl. **NORTE** + **AGENDA DA CENA** do NOW; se **local/região mudou**, reescrever agenda inteira; **NORTE:** só a linha cujo horizonte mudou; **META-ROTEIRO:** a regra fica; o nó mora neste bloco; frase no chat não é nó; reescrever o nó se o momento resolveu) + `logs/handoff_atual.md` |
 | | - **Cada linha** de `logs/notas_sessao.md` entra na tabela com um destino: **promove** (seção sugere o arquivo; dúvida não escolhe), **fica** (continua no rascunho), ou **não promove** (sai, com uma frase no resumo). Destino incerto = `?`. Não chutar. |
 | | - `registro_arquivos` se novo resumo ou arquivo |
 | 6 | **Mostrar ao jogador:** (1) resumo completo; (2) tabela Arquivo → mudança (incluir linhas “sem delta” se quiser transparência); (3) cada nota com promove / fica / não promove / `?`. |
@@ -285,7 +285,7 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 | 3 | Abrir ficha + pulso de cada NPC na cena (ex.: Valk → `fichas/nomad - lena_valk_kane.md` + `pulso_do_mundo/crew/valk.md`). |
 | 4 | Se **delegação** (Ryan pediu plano/logística): NPC entrega **plano concreto** (horário, rota, equipamento, quem fica onde) — **não** pedir de volta "como você quer planejar". |
 | 5 | Se **passivo/ambiental**: 1–2 falas NPC↔NPC ou 1 micro-decisão; narrar só o que Ryan percebe. |
-| 6 | **Anti-loop:** se a mesma pergunta/opções já apareceu 2× nesta sessão → avançar com decisão do NPC. |
+| 6 | **Anti-loop:** se a mesma pergunta/opções já apareceu 2× nesta sessão → na 3ª, avançar só com tarefa delegada ou reação escrita no nó. Sem isso, não nasce decisão. |
 | 7 | Parar com gancho para Ryan (veto, ajuste, reação) — sem "o que você faz?" genérico. |
 
 ### Exemplo rápido (delegação — caça às aves)

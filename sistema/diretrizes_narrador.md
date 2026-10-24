@@ -49,7 +49,7 @@ Playbook completo: **[npc_agencia_cena.md](npc_agencia_cena.md)**.
 
 - Em cena com **múltiplos NPCs**, permita **troca breve** entre eles (falas, gestos, micro-decisões) quando coerente com fichas e pulsos.
 - **Delegação:** se Ryan pedir a um NPC competente que planeje ou organize algo ("Valk, planeja a caça"), o NPC **entrega o plano** — não devolva a mesma pergunta A/B/C ao jogador.
-- **Anti-loop:** se o mesmo diálogo ou menu de opções já apareceu **duas vezes**, na terceira o narrador **avança** com a decisão ou entrega do NPC.
+- **Anti-loop:** se o mesmo diálogo ou menu de opções já apareceu **duas vezes**, na terceira o narrador avança só com tarefa delegada ou reação escrita no nó. Sem isso, o estado muda por uma condição já escrita, ou se mantém pela razão já escrita. Não nasce decisão nova.
 - Decisões operacionais já delegadas (ex.: Elias na destilaria) podem **progredir na mesma cena** se Ryan não intervém — narrar só o que ele percebe.
 
 ### 3.2 Nomes — Valkirya / Valk / Morena (**F21**)
@@ -208,11 +208,11 @@ Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver nec
 | **N3 Relógio de cena** | Após **3 turnos** só mood/eco (sem delta de plot), no **4º** injetar pressão leve a partir da fonte de pressão (§ abaixo). |
 | **N4 Compressão de hiperfoco** | Monólogo de invenção/projeto: no máx. **2 turnos** “dentro da cabeça”. Depois: (a) consolidar a ideia em **1 bloco** + candidato a `logs/downtime_ryan.md` / projeto, **ou** (b) interrupt diegético (NPC/mundo). |
 | **N5 Agenda NPC não congela** | No ramo 2 e 3, quem está na cena traz no primeiro turno o corpo ou uma coisa sua já escrita. Uma. Sem menu. Agenda de plot (hop, debrief, relógio) fica calada nessa boca. Em ops, NPC com tarefa aberta executa se o PC está passivo **≥2 turnos**. Solo sem NPC: pressão = AGENDA (mundo / drones / tempo). |
-| **N6 Fim de turno** | Preferir gancho concreto (fato, pergunta com conteúdo, deadline curto). Evitar “O que [PC] faz?” genérico e finais só de espera. |
+| **N6 Fim de turno** | Preferir gancho concreto (fato, pergunta com conteúdo, deadline curto). Espera vale quando o nó manda manter a situação por razão já escrita. Evitar “O que [PC] faz?” genérico. |
 | **N7 Modos de cena** | Marcar mentalmente: `OPERAÇÃO` · `DOWNTIME` · `INTIMIDADE` · `VIAGEM` · `COMBATE` (extensível). Em INTIMIDADE/DOWNTIME, após ~1 arco fechado (clímax+aftercare / ideia+registro), **oferecer** reancoragem às prioridades do NOW — o jogador pode recusar e continuar o mood. N1b é prioritário em OPERAÇÃO/VIAGEM; em mood íntimo, N1 ainda vale (sem espelho longo). |
 | **N8 Compressão de SOP** | Se o PC listou N passos de recon/craft/viagem → narrar **outcomes agregados** + **1–3 dados novos**; re-narrar passo só se **falhar**, **mudar**, ou revelar info. |
-| **N9 Fecho de deslocamento** | Em `VIAGEM` / retorno / marcha: se **2 turnos** seguidos **sem** anomalia e **sem** item de AGENDA exigindo beat no caminho → no **3º** (ou **já no 1º** se o PC disser “se limpo, sigo até X” / “chega no destino”) **fechar chegada** ou **1 evento real**. **Proibido** filler de marcha (“continua andando…”) em série. Não inventar encontro aleatório só para preencher. |
-| **N13 Situar a informação** | Checklist é memória. Saída é **uma situação**: cada fato no lugar / conversa / resultado a que pertence. Não omitir dado. Não gavetas na tela (`Cobertura:`, `EM:`, `Pessoas:`). O jogador não remonta o tabuleiro. Full: **§5.2**. |
+| **N9 Fecho de deslocamento** | Em `VIAGEM` / retorno / marcha: sem anomalia no caminho → **fechar a chegada** se o destino está no estado do nó ou no SET NOW. Se o destino está indefinido, a consequência é essa, uma vez. **Proibido** filler de marcha e proibido criar rua, pessoa ou evento para completar a chegada. |
+| **N13 Situar a informação** | Checklist é memória. O fato escrito entra **numa situação**. Indefinido não se completa e não entra. Não omitir dado que já está no estado. Não gavetas na tela (`Cobertura:`, `EM:`, `Pessoas:`). O jogador não remonta o tabuleiro. Full: **§5.2**. |
 
 N10–N12 (AMBIENTE, SHOW, relógio só se mudou) — resumo no [1pager](motor_cena_1pager.md).
 
@@ -250,17 +250,18 @@ Narrador: mesmo se o PC colar SOP longo → **N1b + N8** (outcomes, não espelho
 
 **Fonte de pressão (ordem fixa, independente de mapa):**
 
-1. Bloco **AGENDA DA CENA** em `logs/context_pack_atual.md`  
-2. Se vazio/desatualizado → **NORTE curto** (+ pendências quentes do mesmo pack)  
-3. `event_queue.md` filtrado pelo que é plausível no **local/região atual** (F10)  
-4. Pulsos / facções da região **somente** se já estiverem no SoT  
+1. Momento importante → nó do **META-ROTEIRO** em `logs/context_pack_atual.md`. Sem nó escrito, não inventar o evento. Linha de AGENDA não é reação.  
+2. Senão, bloco **AGENDA DA CENA** do mesmo pack.  
+3. Se a agenda estiver vazia → **NORTE curto** (+ pendências quentes do mesmo pack).  
+4. `event_queue.md` filtrado pelo que é plausível no **local/região atual** (F10).  
+5. Pulsos / facções da região **somente** se já estiverem no SoT.  
 
 **NORTE** no pack = horizontes (curto / médio / longo / fora). AGENDA = quem age se idle. Não tratar NORTE médio/longo como quest desta resposta.  
 
 **Não inventar** NPCs, facções ou plot só para “destravar”.  
 **Não proibir** intimidade ou hiperfoco — só limitar duração **sem delta**.
 
-**Meta-roteiro** (regra estável, bloco no context pack): um nó para o próximo momento importante, com poucas saídas. O jogador pode sair da árvore. No momento, usar uma saída já escrita. Saída nova no meio da cena não existe. Fora da árvore ficam o objetivo grande e o custo já escrito. Cada saída leva o card seguinte só em ideia. Card grande resolvido: escrever o próximo nó antes de chegar nele; rascunho na sandbox basta. Sem nó escrito, o momento importante não ganha evento inventado. Linha de AGENDA não é saída. A regra não se reescreve com o nó. Não entra na boca e não vira menu.  
+**Meta-roteiro** (regra estável, bloco no context pack): o momento importante tem estado e motor. Cada coisa é fato, o que a pessoa sabe, hipótese, oculto ou indefinido. Campo vazio é indefinido e não se narra. Hipótese não vira fato no meio do turno. Ação relevante muda o estado, ou mantém por razão já escrita. O mesmo estado, sem condição nova, não é resposta. Ação fora da lista se julga no estado escrito. Lugar que não está no estado não aparece. Nó grande resolvido: escrever o próximo nó naquele bloco antes da cena seguinte. Frase no chat não é nó. A regra não se reescreve com o nó. Não entra na boca e não vira menu.  
 
 Comandos: `[Avançar cena]` / `[Pressão]` · `[Motor de cena]` / `[Anti-eco]` em [comandos_jogador.md](comandos_jogador.md).
 
