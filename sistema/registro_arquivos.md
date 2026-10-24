@@ -67,7 +67,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | NPCs agem / falam entre si na cena (delegação, anti-loop) | `sistema/npc_agencia_cena.md` | `diretrizes_narrador.md` §3.1/§7.1, `comandos_jogador.md` § H |
 | Como atualizar após sessão | `sistema/como_atualizar_arquivos.md` | Este arquivo |
 | Horizontes da campanha (curto / médio / longo / fora) | `logs/context_pack_atual.md` bloco **NORTE** | `board/arco_ativo.md` (L1), `event_queue.md` (L2). **Não** copiar no board/dashboard |
-| **Tier-0 / anti-esquecimento sandbox** | `logs/context_pack_atual.md` | `fatos_duros.md`, `comandos_jogador.md`, bloco **MOTOR** + **NORTE** + **AGENDA** + **META-ROTEIRO**. O freeze **não** entra aqui |
+| **Tier-0 / anti-esquecimento sandbox** | `logs/context_pack_atual.md` | `fatos_duros.md`, `comandos_jogador.md`, bloco **MOTOR** + **NORTE** + **AGENDA** + **META-ROTEIRO**. A regra fica; o nó é o cartão da cena. O freeze **não** entra aqui |
 | Freeze do lugar deixado (não boot) | `logs/context_pack_pack.md` | Pack como ficou na saída de 05/08. O NOW vivo continua `context_pack_atual.md` |
 | Boca / personalidade rápida | `sistema/vozes.md` | Referência no boot e no `[Refresh]`. Ficha e relacionamentos continuam SoT. O pack nomeia quem está na cena |
 | Fatos que não se inventam | `sistema/fatos_duros.md` | context pack, board |

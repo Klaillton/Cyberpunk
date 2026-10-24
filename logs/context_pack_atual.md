@@ -21,10 +21,10 @@
    - **A sós** (tenda, banho, cama, banco do Mule em estrada): uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop não entram nesta boca. Ela responde a ele ou traz uma coisa dela. Uma. Sem menu.
 2. **Não ecoar** o PC: ≤2 linhas **só** para confirmar a ação dele. Esse teto não mede a fala do NPC. SOP multi-passo → outcomes (N8). Resultado-primeiro **só** no ramo de rádio/ops/combate.
 3. **Delta** = **maior parte** (~≥60%). Nos ramos Pack social e a sós: SHOW + fala do ramo = delta. A fala desses ramos é diegética e fluida. Corpo: 3–6 linhas é **piso**, e pode ter mais. O extra é lugar, gesto e calor, não discurso. A mesma mão entra numa frase só e não volta no turno seguinte. O lugar muda. Não precisa de burst nem relógio.
-4. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha). Momento importante sem nó escrito não vira encontro no caminho.
+4. **VIAGEM limpa (N9):** sem anomalia no caminho → **fechar chegada** se o destino está no estado do nó ou no SET NOW. Destino indefinido: dizer isso uma vez. Não criar lugar, pessoa nem evento.
 5. **Anti-máquina:** sem *nome de regra* na prosa. Humor, medo, cansaço, recusa = obrigatório. No ramo 2 e 3 a vida é no primeiro turno: corpo ou uma coisa dela já escrita. Agenda de plot fica calada nessa boca. “Três coisas” = ultimato de condições, não teto de frase. Ryan pode cortar; ninguém copia o corte. Trava: `[Voz: ramo antes da frase. Ryan pode cortar. NPC não copia o corte.]`
-6. Fonte de pressão: momento importante → nó do **META-ROTEIRO** (sem nó escrito, não inventar o evento). Senão **AGENDA DA CENA** → [arco_ativo](../board/arco_ativo.md) (L1 + off-screen + §7 SHOW) → pendências → `event_queue` (F10).
-7. Local novo / ação no terreno → bloco **AMBIENTE** ([cena_ambientacao](../sistema/cena_ambientacao_ganchos.md)). Checklist interno; saída = uma situação (N13). Não gavetas na tela (`Cobertura:`, `EM:`). Não omitir o dado.
+6. Fonte de pressão: momento importante → nó do **META-ROTEIRO** (sem nó escrito, não inventar o evento; linha de AGENDA não é reação). Senão **AGENDA DA CENA** → [arco_ativo](../board/arco_ativo.md) (L1 + off-screen + §7 SHOW) → pendências → `event_queue` (F10).
+7. Local novo / ação no terreno → bloco **AMBIENTE** ([cena_ambientacao](../sistema/cena_ambientacao_ganchos.md)). Checklist interno; o fato entra numa situação (N13). Não gavetas na tela (`Cobertura:`, `EM:`). Não omitir o dado escrito. Indefinido não se completa.
 8. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]` · Lugar opaco? `[Ambientar]`.
 9. **Chat novo:** este pack + handoff; **não** continuar threads longos degradados.
 10. **Rodapé OOC:** depois da cena, linha em branco + `ctrl N/90`. +2 por resposta sua. Boot = `ctrl 2/90`. Perdeu = `ctrl ?/90`. Não narrar; não é chrome/Agent; ninguém na cena vê.
@@ -89,18 +89,26 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 
 ## META-ROTEIRO (regra estável)
 
-Preparo do narrador. O jogador não é obrigado a ficar na árvore. Não entra na boca. Não vira menu. A regra não muda a cada momento. Muda o nó.
+Preparo do narrador. O jogador não é obrigado a ficar no nó. Não entra na boca. Não vira menu nem gaveta. A regra não muda a cada momento. Muda o nó.
 
-- Um nó para o próximo momento importante. Poucas saídas. Cada saída é o que o mundo está pronto para fazer.
-- No momento, usar uma saída já escrita que caiba no relógio e no que o jogador fez. Saída nova no meio da cena não existe.
-- Fora da árvore: o objetivo grande e o custo já escrito. Sem pessoa, lugar, facção ou trama novos para destravar.
-- Cada saída leva o card seguinte só em ideia. As cenas futuras não se desenvolvem agora.
-- Card grande resolvido: escrever o próximo nó antes de chegar nele. Rascunho na sandbox basta. Chegar com o nó em branco é o travamento.
-- Vida já na ficha, e viagem que só precisa chegar, não ganham card.
+Momento importante tem duas partes.
+
+- **Estado:** onde, com quem, o que já aconteceu.
+- **Motor:** por que a cena existe, o que pode mudar, o que uma ação faz.
+
+Cada coisa no nó é uma classe só: **fato**, **o que a pessoa sabe**, **hipótese**, **oculto** ou **indefinido**. Campo vazio é indefinido. Indefinido não se narra. Hipótese não vira fato no meio do turno. Oculto não sai na fala de quem não sabe.
+
+Ação relevante muda o estado, ou mantém a situação por uma razão que já está no nó. O mesmo estado, sem condição nova, não é resposta. Ação que não está no nó se julga no estado escrito. Fora do nó valem o objetivo grande e o custo já escrito. Sem pessoa, lugar, facção ou trama novos para destravar.
+
+Lugar que não está no estado não aparece. Fechar a viagem não cria lugar.
+
+Nó grande resolvido: escrever o próximo nó neste bloco antes da cena seguinte. Frase no chat não é nó. Rascunho curto basta, com hipótese marcada e campo vazio indefinido. Chegar com o nó em branco é o travamento.
+
+Vida já na ficha, e viagem cujo destino já está escrito, não ganham nó cheio. Linha de AGENDA não é reação do nó.
 
 ### Nó atual
 
-Não preenchido. Momento importante sem nó escrito não ganha evento inventado. Linha de AGENDA não é saída.
+Não preenchido. Momento importante sem nó escrito não ganha evento inventado.
 
 **Trava 023 (não reabrir):** base = mensagem → manhã seguinte; 019 em vigor. **Não** reabrir o jantar como briga. **Não** reabrir SOP Condor como tutorial. **Não** reabrir o canyon do corte.
 

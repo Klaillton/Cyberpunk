@@ -107,20 +107,28 @@ Citar IDs de `sistema/fatos_duros.md` (F01–F21 + L0x se aplicável):
 
 ## META-ROTEIRO (regra estável)
 
-> A regra fica. No Finalizar, reescrever só o **nó**. Não entra na boca. Não vira menu.
+> A regra fica. No Finalizar, reescrever só o **nó**. Não entra na boca. Não vira menu nem gaveta. Frase no chat não é nó.
 
-Preparo do narrador. O jogador não é obrigado a ficar na árvore. A regra não muda a cada momento. Muda o nó.
+Preparo do narrador. O jogador não é obrigado a ficar no nó. A regra não muda a cada momento. Muda o nó.
 
-- Um nó para o próximo momento importante. Poucas saídas. Cada saída é o que o mundo está pronto para fazer.
-- No momento, usar uma saída já escrita que caiba no relógio e no que o jogador fez. Saída nova no meio da cena não existe.
-- Fora da árvore: o objetivo grande e o custo já escrito. Sem pessoa, lugar, facção ou trama novos para destravar.
-- Cada saída leva o card seguinte só em ideia. As cenas futuras não se desenvolvem agora.
-- Card grande resolvido: escrever o próximo nó antes de chegar nele. Rascunho na sandbox basta. Chegar com o nó em branco é o travamento.
-- Vida já na ficha, e viagem que só precisa chegar, não ganham card.
+Momento importante tem duas partes.
+
+- **Estado:** onde, com quem, o que já aconteceu.
+- **Motor:** por que a cena existe, o que pode mudar, o que uma ação faz.
+
+Cada coisa no nó é uma classe só: **fato**, **o que a pessoa sabe**, **hipótese**, **oculto** ou **indefinido**. Campo vazio é indefinido. Indefinido não se narra. Hipótese não vira fato no meio do turno. Oculto não sai na fala de quem não sabe.
+
+Ação relevante muda o estado, ou mantém a situação por uma razão que já está no nó. O mesmo estado, sem condição nova, não é resposta. Ação que não está no nó se julga no estado escrito. Fora do nó valem o objetivo grande e o custo já escrito. Sem pessoa, lugar, facção ou trama novos para destravar.
+
+Lugar que não está no estado não aparece. Fechar a viagem não cria lugar.
+
+Nó grande resolvido: escrever o próximo nó neste bloco antes da cena seguinte. Rascunho curto basta, com hipótese marcada e campo vazio indefinido. Chegar com o nó em branco é o travamento.
+
+Vida já na ficha, e viagem cujo destino já está escrito, não ganham nó cheio. Linha de AGENDA não é reação do nó.
 
 ### Nó atual
 
-Não preenchido. Momento importante sem nó escrito não ganha evento inventado. Linha de AGENDA não é saída.
+Não preenchido. Momento importante sem nó escrito não ganha evento inventado.
 
 ---
 
