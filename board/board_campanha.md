@@ -1,18 +1,18 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** ~05 de Agosto de 2026 (noite) — Mule na estrada, luzes de Night City à vista  
-**Local:** Mule (Valkirya no volante) · ainda não é o ponto do hop
+**Data Atual:** ~05 de Agosto de 2026 (noite) — estacionamento sob viaduto (segundo ponto hop NC)  
+**Local:** Mule (Valkirya no volante) · estacionamento sob viaduto · janela de 1h aberta · segundo contato recuou sem entrega
 
 ---
 
 ## Missão Atual
 
-Ryan "Wireghost" Voss e Valkirya no Mule, a caminho do hop NC. Chip E015 **aberto** (token) no compartimento morto do Warden. Debrief Reyes **ainda pendente** (aviso via Rusty).
+Ryan "Wireghost" Voss e Valkirya no Mule, no segundo ponto do hop NC. Stick do primeiro pacote lido e morto. Segundo contato recuou sem entrega. Decisão de continuar/abortar pendente. Chip E015 **aberto** (token) no Warden. Debrief Reyes **ainda pendente**.
 
 **Norte (SoT):** bloco **NORTE** em [context_pack_atual.md](../logs/context_pack_atual.md). **Não** duplicar a lista aqui.
 
 **Prioridade imediata:**
-1. Chegar ao ponto do hop NC **05/08 após 21h** (token no chip). Sem voz. Sem ping antigo.  
+1. Decisão no segundo ponto do hop: continuar a janela ou abortar.  
 2. Debrief Reyes na volta.  
 3. Chip já aberto — não reler como lacre.  
 4. Base militar: **não entra agora**; gatilho = mensagem → manhã seguinte.  
@@ -39,6 +39,7 @@ Ryan "Wireghost" Voss e Valkirya no Mule, a caminho do hop NC. Chip E015 **abert
 - **027:** Corte Cutter recon. 7 quentes; lona = fogueira morta; extração antes da luz; sem tiro.
 - **028:** Chip aberto (token). Intimidade tenda. Debrief Reyes não feito.
 - **029:** Forja Pack (flange, válvula, embreagem torno). Porta Sasha/Lira fechada. Estrada; traço pintle. Freeze luzes NC.
+- **030:** Hop NC. Primeiro contato deixou stick (ponto seguinte + 1h). Segundo ponto (estacionamento sob viaduto). Segundo contato recuou sem entrega. Decisão pendente.
 
 ---
 
@@ -55,7 +56,7 @@ Ryan "Wireghost" Voss e Valkirya no Mule, a caminho do hop NC. Chip E015 **abert
 
 | Nome | Papel | Relação com Ryan | Notas |
 |------|-------|------------------|-------|
-| **Lena “Valkirya” Kane** (Ryan: Valk, Morena) | Parceira | Amor + acordo ops 019 + intimidade 020–029 | F15 · F21; Lena em intimidade; Morena = carinho usual dele |
+| **Lena “Valkirya” Kane** (Ryan: Valk, Morena) | Parceira | Amor + acordo ops 019 + intimidade 020–030 | F15 · F21; Lena em intimidade; Morena = carinho usual dele |
 | **Lira** | Pack | Residual positivo | Visor gancho 03/08; porta NC fechada 029 |
 | **Sasha** | Pack | Residual positivo | Visor gancho 03/08; porta NC fechada 029 |
 | **Lina “Sparrow” Park** | Contato NC (NPC) | Handle Sparrow | residual **sem ACK** |
@@ -77,7 +78,7 @@ Ryan "Wireghost" Voss e Valkirya no Mule, a caminho do hop NC. Chip E015 **abert
 
 ---
 
-**Última atualização:** ~05 de Agosto de 2026 (sessão 029)
+**Última atualização:** ~05 de Agosto de 2026 (sessão 030)
 
 ---
 
@@ -87,4 +88,4 @@ Ryan "Wireghost" Voss e Valkirya no Mule, a caminho do hop NC. Chip E015 **abert
 
 **Personagem:** [Ficha Ryan](../fichas/techie%20-%20ryan_wireghost_voss.md) · [Relacionamentos Ryan](../relacionamentos/ryan_relacionamentos.md)
 
-**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 029](../logs/sessao_resumo_029.md) · [Arco ativo](arco_ativo.md)
+**Logs:** [Downtime](../logs/downtime_ryan.md) · [Sessão 030](../logs/sessao_resumo_030.md) · [Arco ativo](arco_ativo.md)

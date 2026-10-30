@@ -3,21 +3,21 @@
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
 **Não é o tier-0** — use primeiro `logs/context_pack_atual.md`.  
-**Última atualização:** ~05 de Agosto de 2026 (pós-029)
+**Última atualização:** ~05 de Agosto de 2026 (pós-030)
 
 ---
 
 ## 1. Situação Atual
 
-**Última verificação:** ~05/08/2026 (noite · Mule · luzes NC à vista)
+**Última verificação:** ~05/08/2026 (noite · estacionamento sob viaduto · segundo ponto hop)
 
 **Resumo:**
 
-- **Mule na estrada** — noite. Luzes de Night City à vista. Ainda não é o ponto do hop. Valkirya no volante. Warden no corpo. Pill no fundo do Mule (não é mochila). Vespas no Mule.
-- E015: chip **aberto** (token no Warden morto); hop NC **05/08 após 21h**.
+- **Mule no estacionamento sob viaduto** — noite. Segundo ponto do hop. Janela de 1h aberta. Segundo contato recuou sem entrega. Valkirya no volante. Warden no corpo. Pill no fundo do Mule. Vespas em perímetro.
+- E015: chip **aberto** (token no Warden); stick do primeiro pacote lido e morto; segundo contato sem entrega.
 - Cutter: corte 04/08 feito (recon, sem tiro). Intel: 7 quentes; lona = fogueira morta. Debrief ainda pendente.
 - **Lina “Sparrow” Park:** residual sem ACK. **Marcus “Steel” Rivera** mudo. Kaz off-screen.
-- Porta NC de Sasha/Lira fechada por Valkirya. Forja Pack: flange, válvula, embreagem torno.
+- Porta NC de Sasha/Lira fechada por Valkirya.
 
 ---
 
@@ -27,13 +27,13 @@
 
 **Resumo:**
 
-- Consolidada; acordo 019. Residual íntimo alto (tenda, rede, banco). Intimidade 028–029. **F15**.
+- Consolidada; acordo 019. Residual íntimo alto (tenda, rede, banco). Intimidade 028–030. **F15**.
 
 ---
 
 ## 3. Nível de Heat
 
-**Heat Global:** Média. Residual Raffen (Cutter). Sem delta 027–029 (sem tiro; chip lido sem run).
+**Heat Global:** Média. Residual Raffen (Cutter). Sem delta 027–030 (sem tiro; hop sem run).
 
 ---
 
@@ -41,15 +41,15 @@
 
 - **Norte:** bloco NORTE no [context pack](../logs/context_pack_atual.md).
 - **L2:** [event_queue.md](../event_queue.md).
-- Hop NC 05/08 · Debrief Pack na volta · base gatilhada
+- Hop NC segundo ponto (decisão pendente) · Debrief Pack na volta · base gatilhada
 
 ---
 
 ## 5. Localização
 
-- **Local:** Mule · luzes de Night City à vista
+- **Local:** estacionamento sob viaduto · segundo ponto hop
 - **Data:** ~05/08/2026 noite
-- **Prioridade:** ponto do hop · debrief na volta
+- **Prioridade:** decisão continuar/abortar · debrief na volta
 
 ---
 
@@ -58,9 +58,9 @@
 - F03 Warden terrestre · F15 Valk não “herói” · F16 Condor unmanned · F18 Ruleset 1.4.0 · F20 Sparrow/Steel = NPCs
 - Motor: ramo antes da frase · N1b só no ramo 1 · N9 fecha viagem · corpo nos ramos 2 e 3: 3–6 linhas é piso · **N13 situar** (não gavetas)
 - Trava 023: não reabrir jantar/base/SOP Condor
-- Boca: NOW = ramo 3 (Mule a sós). Pack / Reyes / refeitório = ramo 2. 019 = 1 pergunta antes de vetar
+- Boca: NOW = ramo 1 (ops). Pack / Reyes / refeitório = ramo 2. 019 = 1 pergunta antes de vetar
 - Frase-rádio não é fala de nenhum ramo · Ryan pode cortar; ninguém copia o corte
 
 ---
 
-**Referências:** [Context pack](../logs/context_pack_atual.md) · [Board](../board/board_campanha.md) · [Sessão 029](../logs/sessao_resumo_029.md) · [Arco](../board/arco_ativo.md)
+**Referências:** [Context pack](../logs/context_pack_atual.md) · [Board](../board/board_campanha.md) · [Sessão 030](../logs/sessao_resumo_030.md) · [Arco](../board/arco_ativo.md)
