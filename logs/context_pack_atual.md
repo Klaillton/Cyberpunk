@@ -1,9 +1,9 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **029** · **Próxima:** **030** (`sessao_resumo_030.md`)  
+**Gerado após:** sessão **030** · **Próxima:** **031** (`sessao_resumo_031.md`)  
 **Branch:** `feature/linha-estavel`  
-**Atualizado:** ~05 de Agosto de 2026 (noite) — Mule · luzes de Night City à vista
+**Atualizado:** ~05 de Agosto de 2026 (noite) — estacionamento sob viaduto · segundo ponto hop
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
 > **Arco + off-screen (L1):** [board/arco_ativo.md](../board/arco_ativo.md) — sob demanda / se estagnar.  
@@ -39,18 +39,16 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 | ----- | ----- |
 | Data in-game | **~05/08/2026** |
 | Período | Noite |
-| Região | **Estrada / Mule** (luzes de Night City à vista) |
-| Local específico | Mule. Valkirya no volante. Warden no corpo. Chip E015 **lacre aberto** (token) no Warden (compartimento morto). Pill no fundo do Mule (médio; **não é mochila**). Vespas no Mule. |
-| Facção / base local | Pack Nômade Badlands (saindo) |
-| Cena / gancho | Janela do hop NC **05/08 após 21h**. Ainda não é o ponto. Debrief Reyes pendente na volta. |
-| Prioridade | (1) Ponto do hop (2) Debrief na volta (3) Não forçar Sparrow/Steel |
+| Região | **Night City** (estacionamento sob viaduto) |
+| Local específico | Mule. Valkirya no volante. Warden no corpo. Chip E015 **aberto** (token) no Warden. Pill no fundo do Mule. Vespas em perímetro. Janela de 1h aberta. Segundo contato recuou sem entrega. |
+| Facção / base local | — (hop NC) |
+| Cena / gancho | Segundo ponto do hop. Decisão continuar/abortar pendente. Debrief Reyes pendente na volta. |
+| Prioridade | (1) Decisão no ponto (2) Debrief na volta (3) Não forçar Sparrow/Steel |
 | Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira fechado por Valkirya |
 
 ### SET NOW
 
-`sistema/set_lugares.md` § **mule** (ou estrada). Não abrir o arquivo inteiro.
-
-Mule em movimento. Valkirya no volante. Banco do Ryan. Warden no corpo. Pill no fundo do Mule. Vespas no Mule. Luzes de NC à vista. Ainda não é o ponto.
+Mule no estacionamento sob viaduto. Valkirya no volante. Banco do Ryan. Warden no corpo. Pill no fundo do Mule. Vespas em perímetro. Janela aberta. Decisão pendente.
 
 Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** abrir no boot nem no Refresh.
 
@@ -60,15 +58,15 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 
 | Horizonte | Norte |
 | --------- | ----- |
-| **Curto** (hoje / sessão) | Chegar ao ponto do hop NC 05/08 após 21h. |
+| **Curto** (hoje / sessão) | Decisão no segundo ponto do hop: continuar a janela ou abortar. |
 | **Médio** (1–3 sessões) | Hop NC (E015, token no chip). Sparrow/Steel/Kaz **não** forçar. Voltar ao Pack. Debrief Reyes. |
 | **Longo** (campanha) | Pack casas/Node/olaria. Doc E011. Crew NC. |
 | **Fora agora** | Base militar. Raid Cutter. Reabrir jantar 023 / SOP Condor / caixa 101 / canyon. |
 
-### Cena de abertura sugerida (030)
+### Cena de abertura sugerida (031)
 
-**Não continuar o chat da 029.**  
-05/08 noite, Mule, luzes de NC à vista. Ainda não é o ponto. Valkirya no volante. Residual íntimo alto. Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon.
+**Não continuar o chat da 030.**  
+05/08 noite, estacionamento sob viaduto. Janela aberta. Segundo contato recuou sem entrega. Decisão pendente. Valkirya no volante. Residual íntimo alto. Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon. Não repetir contato silencioso de mãos à vista.
 
 ---
 
@@ -76,16 +74,16 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 
 | # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
 | - | ---------------- | ---------------- | ---------------------------------------------- |
-| 1 | Ponto do hop NC (token no chip) | Mundo / intermediário | Relógio do hop; sem voz; sem ping antigo |
+| 1 | Decisão no segundo ponto (janela aberta) | Mundo / intermediário | Janela aperta ou contato diferente |
 | 2 | Debrief Reyes na volta | Reyes / Valk | Reyes puxa o debrief no pátio / oficina na volta |
-| 3 | Estrada a sós até o ponto | Valk | No primeiro turno: braço no volante, fome, o Mule, ou cuidar dele. Sem hop na boca. Sem reabrir canyon |
+| 3 | Cobertura no Mule | Valk | No primeiro turno: braço no volante, o Mule, ou cuidar dele. Sem hop na boca. |
 
 | Campo | Valor |
 | ----- | ----- |
-| **Modo atual** | Estrada → hop |
+| **Modo atual** | Hop → decisão |
 | **Turnos sem delta (estimado)** | 0 |
-| **Região / local (NOW)** | Estrada · Mule · luzes NC à vista |
-| **Arco L1** | E015 (chip aberto · hop NC 05/08 21h) · [arco_ativo.md](../board/arco_ativo.md) |
+| **Região / local (NOW)** | NC · estacionamento sob viaduto · segundo ponto |
+| **Arco L1** | E015 (chip aberto · hop em andamento) · [arco_ativo.md](../board/arco_ativo.md) |
 
 ## META-ROTEIRO (regra estável)
 
@@ -121,15 +119,15 @@ Não preenchido. Momento importante sem nó escrito não ganha evento inventado.
 
 ### Boca (boot — ramo antes da frase)
 
-NOW = Mule a sós em estrada → **ramo 3**. Pátio / Reyes / refeitório → **ramo 2**. Residual íntimo **alto**. No job, ramo 1. Chat **023** não se herda.
+NOW = ops no ponto → **ramo 1**. Pátio / Reyes / refeitório → **ramo 2**. Residual íntimo **alto**. Chat **023** não se herda.
 
 1. **Rádio / ops / combate** — curta, seca, pessoa. Resultado primeiro. *“Contato no leste, abort no rádio. Eu na porta. Tu marca o tempo.”*
 2. **Pack social** — conversa diegética e fluida; uma fala de gente; corpo no meio; pode ter mais corpo; cada um pela ficha. Reyes: *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”*
 3. **A sós** — uma fala, um fôlego, diegética e fluida. Pode ter mais corpo. Quieta pode. Selo de duas frases não serve. Chip, Reyes e hop fora desta boca. Ela responde a ele ou traz uma coisa dela. Uma. Humor seco, sem despacho, sem menu. Coisa dela nesta cena: braço, fome, o Mule, ou cuidar dele. Hop, horário, lugar, janela, debrief e “ainda não é o ponto” ficam no cartão. Ele veta ou ajusta. Modelo de fôlego (copia o tamanho e o corpo no meio; não copia o assunto nem esta cena): *Ela morde o sorriso e o joelho encosta no dele. “Para de ser bonzinho que eu acostumo.”* **Teste:** a frase responde ou traz essa coisa. A mesma mão entra numa frase só e não volta no turno seguinte. As 3–6 linhas são o lugar mudando (calor, poeira, motor), e o corpo pode passar disso.
 
-Quem fala muda o vocabulário, não o ramo. “Três coisas”, “sem isso eu não top”, “eu decido”, “herói” e tom de CO são conteúdo proibido — não escolhem o tamanho. 019 = **perguntar uma vez** antes de vetar. Detalhe: [arco_ativo §7.1](../board/arco_ativo.md).
+Quem fala muda o vocabulário, não o ramo. “Três coisas”, “sem isso eu não topo”, “eu decido”, “herói” e tom de CO são conteúdo proibido — não escolhem o tamanho. 019 = **perguntar uma vez** antes de vetar. Detalhe: [arco_ativo §7.1](../board/arco_ativo.md).
 
-**Quem está nesta boca:** Valkirya, ramo 3. Quieta, direta, humor seco. Residual alto: uma frase quente, sem despacho. Vontade desta temperatura: parar o corpo depois da estrada; o Mule e ele; não o hop. Não chama de herói (F15). Cartão: [vozes.md](../sistema/vozes.md). Reyes, Sasha, Lira, Tio e Rusty ficam no Pack até a volta.
+**Quem está nesta boca:** Valkirya, ramo 1 (ops). Quieta, direta. Residual alto. Não chama de herói (F15). Cartão: [vozes.md](../sistema/vozes.md). Reyes, Sasha, Lira, Tio e Rusty ficam no Pack até a volta.
 
 ---
 
@@ -162,7 +160,7 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 | ID | Uma linha |
 | -- | --------- |
-| **E015** | Chip **aberto** (token um uso); hop NC **05/08 após 21h**; Lina Park sem ACK; Marcus Rivera mudo; Kaz escondido |
+| **E015** | Chip **aberto** (token um uso); hop no segundo ponto; stick lido; segundo contato recuou sem entrega; janela aberta; decisão pendente; Lina Park sem ACK; Marcus Rivera mudo; Kaz escondido |
 | **Cutter / E008** | Corte 04/08 feito (recon). 7 visíveis; lona morta. Debrief Pack pendente. |
 | **Base militar** | Perímetro externo mapeado; **não entra agora**; gatilho = mensagem → manhã seguinte |
 | **E019** | Olaria/cogeração — Pack (background) |
@@ -170,18 +168,18 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 ---
 
-## O que acabou de acontecer (029 — 1 parágrafo)
+## O que acabou de acontecer (030 — 1 parágrafo)
 
-05/08: forja com Tio (flange, válvula, embreagem torno); almoço (porta Sasha/Lira fechada por Valk); rede; saída sem debrief (aviso via Rusty); estrada a sós; traço de pintle/HMG (Ryan se depreciou por não ter automatizado antes; Valk cortou o nome). Freeze: noite, Mule, luzes de NC à vista. Ainda não é o ponto.
+05/08 noite: chegada antecipada ao hop. Primeiro contato deixou stick (ponto seguinte + 1h, sem voz). Segundo ponto (estacionamento sob viaduto). Segundo contato recuou sem entrega quando pressionado por identificação. Freeze: janela aberta, decisão pendente.
 
-Detalhe: [sessao_resumo_029.md](sessao_resumo_029.md)
+Detalhe: [sessao_resumo_030.md](sessao_resumo_030.md)
 
 ---
 
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · ~05/08/2026 noite · Mule · luzes de Night City à vista · Valk = residual quente · boca ramo 3 (Mule a sós; Pack = ramo 2) · chip aberto (token) · hop NC 05/08 21h · debrief Reyes pendente · próximo resumo: 030 · Ruleset 1.4.0
+Boot OK · ~05/08/2026 noite · estacionamento sob viaduto · segundo ponto hop · Valk = residual · boca ramo 1 (ops; Pack = ramo 2) · chip aberto (token) · janela aberta · decisão pendente · debrief Reyes pendente · próximo resumo: 031 · Ruleset 1.4.0
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.

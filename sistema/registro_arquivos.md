@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 2026-10-14 (sessão 029)
+**Última atualização:** 2026-10-30 (sessão 030)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -99,19 +99,19 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Auditoria combates pré-017 (só leitura) | `plans/auditoria_combates_canonicos.md` | F18 — **não** retcon |
 | Agents OPSEC Ryan (Vault/Honeypot/…) | `plans/agent_security.md` | F19 · `ryan_loadout` · ≠ Warden drone |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `029`). Próximo número disponível: **030**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `030`). Próximo número disponível: **031**.
 
 ---
 
 ## Estrutura Geral do Projeto
 
-A tabela acima é o índice. Não há árvore de pastas neste arquivo. **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. **2026-09-28:** sessão **028**. **2026-10-14:** sessão **029**. **2026-10-14:** Pill, Warden e Vespas com ficha própria; `sistema/vozes.md`; freeze `logs/context_pack_pack.md` (não é boot). Próximo resumo: **030**.
+A tabela acima é o índice. Não há árvore de pastas neste arquivo. **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. **2026-09-28:** sessão **028**. **2026-10-14:** sessão **029**. **2026-10-14:** Pill, Warden e Vespas com ficha própria; `sistema/vozes.md`; freeze `logs/context_pack_pack.md` (não é boot). **2026-10-30:** sessão **030**. Próximo resumo: **031**.
 
 ---
 
 ## Observações Gerais
 
 - O `registro_arquivos.md` é o **arquivo de referência central**.
-- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **030**.
+- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **031**.
 - **Ruleset:** v1.4.0 em `sistema/regras_red/` (atual; 017–028 = 1.3.0; F18).
 - O **Source of Truth** permanece nos arquivos do repo (`feature/linha-estavel`).
