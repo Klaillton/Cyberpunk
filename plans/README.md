@@ -51,6 +51,7 @@
 | [ryan_relacoes_veiculos_patrimonio.md](ryan_relacoes_veiculos_patrimonio.md) | `done` (folded 2026-10-23) | Depósito 6+4, ex e patrimônio do Ryan. SoT na ficha e na nota de narrador. Valk não sabe |
 | [Notas_extras_safehouse_e_dinamicas.md](Notas_extras_safehouse_e_dinamicas.md) | `done` (folded 2026-10-23) | Planta futura da safehouse. Não é SET NOW. SoT em `fichas/notas_narrador/safehouse_planta_futura.md` |
 | [Leopold_Habsbruck_consolidado.md](Leopold_Habsbruck_consolidado.md) | `done` (folded 2026-10-23) | Delta novo: Tomas Rhee, Mara Velez, Silas Vane, caos como tipo, cliente de Kaz sem nome. SoT na ficha e na nota §D |
+| [add_reina_armor_energy_shield.md](add_reina_armor_energy_shield.md) | `done` (folded 2026-10-30) | Escudo do Estágio 2. SoT em `fichas/reina_armour_project.md`. Projeto continua não canônico |
 | [agent_security.md](agent_security.md) | `active` (2026-08-08) | Agents: implant Vault · subdermal Prof · Honeypot visível · Arbiter/Watchdog · F19 |
 | ~~add_cyberpunk_mecanichs.md~~ | `cancelled` | Typo + conteúdo superado — ver link no arquivo |
 

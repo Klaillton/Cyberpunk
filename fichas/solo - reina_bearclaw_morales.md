@@ -117,7 +117,7 @@ Projetos do Ryan para Reina. **Não canônicos** até entrega in-fiction. **Não
 
 - [Projeto de armadura custom (Ryan)](reina_armour_project.md) — **não canônico** até: Ryan em NC + jobs com a crew + **Reina se machuca** + entrega in-fiction.
   - Visuais (só após **ATIVO**): Estágio 1 / 2 / bursts em `imagens/reina/` (`reina_armour_1`, `reina_armour_2`, `reina_bursts`).
-  - **Até lá:** Armorjack **SP 12** desta ficha. **Não** narrar SP/exo do projeto como gear existente.
+  - **Até lá:** Armorjack **SP 12** desta ficha. **Não** narrar SP, exo ou escudo do projeto como gear existente. O escudo também mora só no projeto.
 - [Projeto de moto custom (Ryan)](reina_byke_project.md) — **não canônico** até: Reina pede upgrades na oficina + Ryan modifica + entrega in-fiction.
   - Visual oficial (meta/design até **ATIVO**): `imagens/reina/bike9.jpg`.
   - **Até lá:** sem moto custom na ficha. **Não** narrar o trike/modos de roda/armamento da consolidação como veículo existente.
