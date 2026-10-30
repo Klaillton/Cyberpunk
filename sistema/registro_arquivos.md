@@ -42,7 +42,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | **Guarda-roupa / visual por ocasião (Ryan)** | `fichas/ryan_guarda_roupas.md` | `imagens/ryan/guarda_roupas/`, ficha techie |
 | **Guarda-roupa / peças por ocasião (feminino)** | `fichas/crew_guarda_roupas.md` | `imagens/crew/guarda_roupas/` — foco em **roupa**, não personagem da foto |
 | **Quem está vestindo o quê agora** | `fichas/notas_narrador/crew_vestindo_agora.md` | `fichas/notas_narrador/roupa_por_ocasiao.md`, context pack NOW |
-| **Projeto futuro armadura Reina (não canônico)** | `fichas/reina_armour_project.md` | Ficha Reina; `imagens/reina/reina_armour_1.jpg` · `_2.jpg` · `reina_bursts.jpg` — **só após ATIVO** |
+| **Projeto futuro armadura Reina (não canônico)** | `fichas/reina_armour_project.md` | Ficha Reina; escudo do Estágio 2 no mesmo arquivo (SP 15, 60 HP/cartucho, sem HP na placa); `imagens/reina/reina_armour_1.jpg` · `_2.jpg` · `reina_bursts.jpg` — **só após ATIVO** |
 | **Projeto futuro moto Reina (não canônico)** | `fichas/reina_byke_project.md` | Ficha Reina; `imagens/reina/bike9.jpg` — **só após ATIVO** |
 | Background e gatilhos do Ryan (narrador) | `fichas/notas_narrador/ryan_background_completo.md` | `fichas/notas_narrador/ryan_gatilhos_memorias.md`, `fichas/techie - ryan_wireghost_voss.md` (Elisa "Doc" Moreau) |
 | **Veículos, depósito e ex do Ryan (narrador)** | `fichas/notas_narrador/ryan_veiculos_relacoes.md` | 6 carros + 4 motos · fora da safehouse · Valk não sabe · ≠ depósito do Pack · Helena ≠ Helena Ward · Reina não é ex · não é boot |
