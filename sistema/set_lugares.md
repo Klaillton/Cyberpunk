@@ -63,3 +63,30 @@ O que É: o playground que Ryan construiu para as crianças.
 O que NÃO é: campo de treinamento.  
 Props: o playground  
 Quem mexe: Ryan construiu. O Pack usa.
+
+
+## Night City
+
+### stick · ponto de contato
+Onde: Watson · estacionamento sob viaduto (ou beco próximo)
+Quem usa: intermediário; Kaz não mora aqui
+O que É: ponto de hop. Lugar aberto, com saída fácil, sem dono. O stick aponta o próximo lugar.
+O que NÃO é: base do Kaz, bar, oficina.
+Props: asfalto molhado, viaduto, pouca luz
+Quem mexe: ninguém. O contato some.
+
+### oficina_rua · sucata / oficina de bairro
+Onde: Watson · Northside Industrial (ou Santo Domingo)
+Quem usa: mecânico de rua; Kaz aparece de vez em quando
+O que É: oficina pequena de carro e sucata. Porta de metal, chão sujo de óleo, espaço atrás para conversa. O dono deve favor antigo.
+O que NÃO é: Night Market, base da crew, oficina do Ryan.
+Props: macaco, peças, porta que tranca por dentro
+Quem mexe: o dono. Kaz não manda aqui.
+
+### motel · quarto barato
+Onde: Watson · Kabuki (ou Heywood)
+Quem usa: Kaz quando precisa sumir por um ou dois dias
+O que É: motel de pagamento em dinheiro, sem registro. Quarto simples, porta fina, saída rápida.
+O que NÃO é: safehouse, lugar fixo, ponto de encontro da crew.
+Props: cama, janela para o beco, fechadura barata
+Quem mexe: Kaz paga e some. Não deixa coisa.
