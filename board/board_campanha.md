@@ -1,18 +1,18 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** ~05 de Agosto de 2026 (noite) — estacionamento sob viaduto (segundo ponto hop NC)  
-**Local:** Mule (Valkirya no volante) · estacionamento sob viaduto · janela de 1h aberta · segundo contato recuou sem entrega
+**Data Atual:** ~05 de Agosto de 2026 (noite) — oficina_rua · Watson · Northside  
+**Local:** Mule parado na frente da porta de metal · Valkirya no volante · hop fechado · sem contato
 
 ---
 
 ## Missão Atual
 
-Ryan "Wireghost" Voss e Valkirya no Mule, no segundo ponto do hop NC. Stick do primeiro pacote lido e morto. Segundo contato recuou sem entrega. Decisão de continuar/abortar pendente. Chip E015 **aberto** (token) no Warden. Debrief Reyes **ainda pendente**.
+Ryan "Wireghost" Voss e Valkirya no Mule, na oficina_rua (Watson · Northside). Hop E015 fechado. Stick apontou Kaz. Canal antigo mudo. Sem contato. Chip E015 **aberto** (token) no Warden. Debrief Reyes **ainda pendente**.
 
 **Norte (SoT):** bloco **NORTE** em [context_pack_atual.md](../logs/context_pack_atual.md). **Não** duplicar a lista aqui.
 
 **Prioridade imediata:**
-1. Decisão no segundo ponto do hop: continuar a janela ou abortar.  
+1. Busca pela mão do Kaz na oficina_rua.  
 2. Debrief Reyes na volta.  
 3. Chip já aberto — não reler como lacre.  
 4. Base militar: **não entra agora**; gatilho = mensagem → manhã seguinte.  

@@ -3,18 +3,18 @@
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
 **Não é o tier-0** — use primeiro `logs/context_pack_atual.md`.  
-**Última atualização:** ~05 de Agosto de 2026 (pós-030)
+**Última atualização:** ~05 de Agosto de 2026 (pós-031)
 
 ---
 
 ## 1. Situação Atual
 
-**Última verificação:** ~05/08/2026 (noite · estacionamento sob viaduto · segundo ponto hop)
+**Última verificação:** ~05/08/2026 (noite · oficina_rua · Watson · Northside)
 
 **Resumo:**
 
-- **Mule no estacionamento sob viaduto** — noite. Segundo ponto do hop. Janela de 1h aberta. Segundo contato recuou sem entrega. Valkirya no volante. Warden no corpo. Pill no fundo do Mule. Vespas em perímetro.
-- E015: chip **aberto** (token no Warden); stick do primeiro pacote lido e morto; segundo contato sem entrega.
+- **Mule parado na oficina_rua** — noite. Watson · Northside. Hop fechado. Sem contato. Valkirya no volante. Warden no corpo. Pill no fundo do Mule. Vespas em perímetro.
+- E015: chip **aberto** (token no Warden); stick apontou Kaz; canal antigo mudo; hop fechado.
 - Cutter: corte 04/08 feito (recon, sem tiro). Intel: 7 quentes; lona = fogueira morta. Debrief ainda pendente.
 - **Lina “Sparrow” Park:** residual sem ACK. **Marcus “Steel” Rivera** mudo. Kaz off-screen.
 - Porta NC de Sasha/Lira fechada por Valkirya.

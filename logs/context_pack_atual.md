@@ -1,9 +1,9 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **030** · **Próxima:** **031** (`sessao_resumo_031.md`)  
+**Gerado após:** sessão **031** · **Próxima:** **032** (`sessao_resumo_032.md`)  
 **Branch:** `feature/linha-estavel`  
-**Atualizado:** ~05 de Agosto de 2026 (noite) — estacionamento sob viaduto · segundo ponto hop
+**Atualizado:** ~05 de Agosto de 2026 (noite) — oficina_rua · Watson · Northside
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
 > **Arco + off-screen (L1):** [board/arco_ativo.md](../board/arco_ativo.md) — sob demanda / se estagnar.  
@@ -48,7 +48,7 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 
 ### SET NOW
 
-Mule no estacionamento sob viaduto. Valkirya no volante. Banco do Ryan. Warden no corpo. Pill no fundo do Mule. Vespas em perímetro. Janela aberta. Decisão pendente.
+Mule parado na frente da porta de metal da oficina_rua. Valkirya no volante. Warden no corpo. Pill no fundo do Mule. Vespas em perímetro. Hop fechado. Sem contato.
 
 Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** abrir no boot nem no Refresh.
 
@@ -58,7 +58,7 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 
 | Horizonte | Norte |
 | --------- | ----- |
-| **Curto** (hoje / sessão) | Decisão no segundo ponto do hop: continuar a janela ou abortar. |
+| **Curto** (hoje / sessão) | Busca pela mão do Kaz na oficina_rua. Hop fechado. |
 | **Médio** (1–3 sessões) | Hop NC (E015, token no chip). Quem chamou, pela nota. Voltar ao Pack. Debrief Reyes. |
 | **Longo** (campanha) | Pack casas/Node/olaria. Doc E011. Crew NC. |
 | **Fora agora** | Base militar. Raid Cutter. Reabrir jantar 023 / SOP Condor / caixa 101 / canyon. |
@@ -80,9 +80,9 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 
 | Campo | Valor |
 | ----- | ----- |
-| **Modo atual** | Hop → decisão |
+| **Modo atual** | Busca NC → oficina_rua |
 | **Turnos sem delta (estimado)** | 0 |
-| **Região / local (NOW)** | NC · estacionamento sob viaduto · segundo ponto |
+| **Região / local (NOW)** | NC · oficina_rua · Watson · Northside |
 | **Arco L1** | E015 (chip aberto · hop em andamento) · [arco_ativo.md](../board/arco_ativo.md) |
 
 ## META-ROTEIRO (regra estável)
@@ -182,7 +182,7 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 ## O que acabou de acontecer (030 — 1 parágrafo)
 
-05/08 noite: chegada antecipada ao hop. Primeiro contato deixou stick (ponto seguinte + 1h, sem voz). Segundo ponto (estacionamento sob viaduto). Segundo contato recuou sem entrega quando pressionado por identificação. Freeze: janela aberta, decisão pendente.
+05/08 noite: janela 10 min. Stick apontou Kaz. Canal antigo mudo. Hop fechado. Mule para em oficina_rua (Watson · Northside). Sem contato. Freeze: busca aberta, perímetro limpo.
 
 Detalhe: [sessao_resumo_030.md](sessao_resumo_030.md)
 
@@ -191,7 +191,7 @@ Detalhe: [sessao_resumo_030.md](sessao_resumo_030.md)
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · ~05/08/2026 noite · estacionamento sob viaduto · segundo ponto hop · Valk = residual · boca ramo 1 (ops; Pack = ramo 2) · chip aberto (token) · janela aberta · decisão pendente · debrief Reyes pendente · próximo resumo: 031 · Ruleset 1.4.0
+Boot OK · ~05/08/2026 noite · oficina_rua · Watson · Northside · Valk = residual · boca ramo 1 (ops; Pack = ramo 2) · chip aberto (token) · hop fechado · busca aberta · debrief Reyes pendente · próximo resumo: 032 · Ruleset 1.4.0
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.
