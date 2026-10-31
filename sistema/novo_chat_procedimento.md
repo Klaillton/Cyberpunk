@@ -116,9 +116,9 @@ Só então narra o gancho de abertura (ou aguarda o jogador, se o prompt pedir).
 - Seguir **N1–N13** em [diretrizes_narrador.md](diretrizes_narrador.md) §7.1 · [motor_cena_1pager.md](motor_cena_1pager.md). **N13:** situar a informação ([§5.2](diretrizes_narrador.md)).
 - Rodapé OOC `ctrl N/90` em **toda** resposta (boot = `ctrl 2/90`).
 - Bloco **MOTOR** do context pack é **obrigatório** no tier-0 (Refresh também o reinstala).
-- Usar **AGENDA DA CENA** do context pack (local atual) como fonte de pressão se a cena estagnar. Momento importante usa o nó do **META-ROTEIRO**; sem nó escrito, não inventar o evento. Refresh reabre esse bloco com o pack.
+- Usar **AGENDA DA CENA** do context pack (local atual) como fonte de pressão se a cena estagnar. Momento importante usa o nó do **META-ROTEIRO** e a nota de saída. Escondida não congela quem a nota diz que a cena veio resolver. Sem nó e sem nota, não inventar o evento. Refresh reabre esse bloco com o pack.
 - **Temperatura NPC:** NOW/handoff vence o default da ficha (ninguém “esfria” no boot se residual íntimo estiver alto). **Anti-máquina:** narrar a pessoa, não o patch; relógio só se mudou; sem glosa na prosa.
-- **Não ecoar** o jogador; OPERAÇÃO = **resultado primeiro**; delta ≥60%; **VIAGEM limpa = fechar chegada** se o destino está escrito (N9). Destino indefinido não vira lugar. NPCs com agenda **executam** tarefa já escrita.
+- **Não ecoar** o jogador; OPERAÇÃO = **resultado primeiro**; delta ≥60%; **VIAGEM limpa = fechar chegada** se o destino está no nó, na nota ou num card de `set_lugares.md` (N9). Fora desses três não vira lugar. NPCs com agenda **executam** tarefa já escrita.
 - Se o chat anterior estava em modo eco: este **novo** chat é a correção principal — não reabrir o thread antigo.
 
 ### 4.4 Share Grok (opcional)

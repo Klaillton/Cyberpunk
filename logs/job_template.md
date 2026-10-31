@@ -16,6 +16,20 @@
 - **Pagamento acordado:**
 - **Prioridade oficial vs. real:**
 
+## Nota de saída
+
+Preparar o job é preencher isto. Chegar com o papel vazio é o mesmo travamento do nó em branco. A regra é a do META-ROTEIRO. Esta seção é a nota deste job. Não herda a nota de outro arco.
+
+- **Por que a cena existe:**
+- **Quem cumpre o papel:** pessoa já escrita, ou NPC deste job
+- **Recorrente ou só deste job:** recorrente ganha ficha mínima em `fichas/npc/` e linha no mapa. Só deste job mora nesta tabela e não volta noutro arco.
+- **Direção:**
+- **Forma de fechar:** pelo menos uma
+- **Custo de recusar:**
+- **Indefinido:**
+
+Card de lugar que não existe em `sistema/set_lugares.md` entra lá na preparação, ou no fechamento da sessão que usou a porta.
+
 ## Execução
 
 ### Preparação
@@ -44,9 +58,9 @@
 
 ## NPCs e facções tocados
 
-| Nome / Facção | Papel no job | Desfecho |
-| ------------- | ------------ | -------- |
-|               |              |          |
+| Nome / Facção | Papel no job | Recorrente ou só deste job | Desfecho |
+| ------------- | ------------ | -------------------------- | -------- |
+|               |              |                            |          |
 
 ## Sessões relacionadas
 

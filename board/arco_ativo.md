@@ -95,7 +95,7 @@
 | B6 | **Assunto pessoal Ryan** | em NC | sem fechar Pack; 1–2 cenas, não monólogo eterno |
 | B7 | **Coleta Condor** | 30/07 15h–17h | **Feita** — 1º pacote anônimo; intermediário 48–72h |
 | B8 | **Dead drop 101** | 03/08 meio-dia | **Feita** — chip lacre + tira hop NC 05/08 21h |
-| B9 | **Hop NC** | 05/08 após 21h | Entrada / intermediário / silêncio com custo |
+| B9 | **Hop NC** | 05/08 após 21h | Entrada / intermediário / saída da nota. Silêncio só com o custo escrito na nota |
 
 ### 3.2 Default se idle (PC não puxa)
 
@@ -116,13 +116,13 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 | **Crew NC** (Alex, etc.) | NC (off) | Vida normal / E004 latente | Fora do ping atual | Só se B5 ou reencontro | Cena ou boato | Não puxar sem gancho |
 | **Pack** (Reyes, Tio Gringo, Node) | Badlands | Rotina + E019 em discussão lenta | Ryan presente | Pulso diário se dia avança | Mensagem só se canal Pack aberto | Background; não compete com E015 na cena |
 
-**Nota de mestragem:** **Steel** e **Sparrow** são **NPCs humanos** com handle de rádio. A **resposta de um deles** deve existir no relógio (chegar, recusar, ou falhar de forma útil). Silêncio eterno sem custo **quebra** o L1. Não narrar “Sparrow” como modo/Agent/protocolo. Kaz **não** precisa responder ao ping.
+**Nota de mestragem:** **Steel** e **Sparrow** são **NPCs humanos** com handle de rádio. Silêncio eterno sem custo **quebra** o L1. Escondido, off-screen ou “não forçar” não congela quem a nota de saída diz que a cena veio resolver. A avaliação é a regra do META-ROTEIRO e não leva nome. A saída desta cena está em `sistema/roteiro_pendencias.md` § E015. Não narrar “Sparrow” como modo/Agent/protocolo. Kaz não precisa responder a um ping. Se a nota diz que a cena existe para resolver quem chamou, a saída escrita vale.
 
 ### 3.4 O que **não** fazer neste arco (agora)
 
 - Inventar **segundo** combate Raffen/BT hoje (Cutter = um corte após o céu, Reyes).  
 - Reabrir a caixa da 101 ou fingir o chip ainda lacrado.  
-- Revelar paradeiro exato de Kaz sem canal.  
+- Revelar paradeiro exato de Kaz sem a nota de saída ou sem canal já escrito.  
 - Transformar Lira/Sasha em tutorial eterno no lugar de B2.  
 - Eco de mood / música como substituto de batida de arco.  
 - Reabrir Valk como CO / caderno de 3 itens / “cobra o plano” — especialmente no boot.

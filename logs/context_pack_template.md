@@ -16,7 +16,7 @@
 2. **Não ecoar** o PC: ≤2 linhas só confirmam a ação dele. Esse teto não mede a fala. SOP → outcomes (N8) **no ramo 1**.
 3. **Delta** = **maior parte** (~≥60%). Ramos 2 e 3: SHOW + fala do ramo = delta. Corpo: 3–6 linhas é piso.
 4. **N13 situar:** cada fato na situação a que pertence. Checklist interno ≠ gavetas na tela (`Cobertura:`, `EM:`). Não omitir o dado.
-5. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** (sem filler de marcha).
+5. **VIAGEM limpa (N9):** sem anomalia/AGENDA no caminho → **fechar chegada** se o destino está no nó, na nota de saída ou num card de `set_lugares.md`. Fora dos três, dizer uma vez. Não criar lugar.
 6. Fonte de pressão: **AGENDA DA CENA** → **NORTE curto** → [arco_ativo](../board/arco_ativo.md) (L1) → `event_queue` (F10).
 7. Escorregou? `[Motor de cena]` / `[Anti-eco]` · Estagnou? `[Avançar cena]` / `[Pressão]`.
 8. **Rodapé OOC:** linha em branco + `ctrl N/90` (+2 / resposta). Boot `ctrl 2/90`. Perdeu `ctrl ?/90`. Não narrar; não chrome; não mudar cena pelo número.
@@ -118,11 +118,13 @@ Momento importante tem duas partes.
 
 Cada coisa no nó é uma classe só: **fato**, **o que a pessoa sabe**, **hipótese**, **oculto** ou **indefinido**. Campo vazio é indefinido. Indefinido não se narra. Hipótese não vira fato no meio do turno. Oculto não sai na fala de quem não sabe.
 
-Ação relevante muda o estado, ou mantém a situação por uma razão que já está no nó. O mesmo estado, sem condição nova, não é resposta. Ação que não está no nó se julga no estado escrito. Fora do nó valem o objetivo grande e o custo já escrito. Sem pessoa, lugar, facção ou trama novos para destravar.
+Ação relevante muda o estado, ou mantém a situação por uma razão que já está no nó. O mesmo estado, sem condição nova, não é resposta. Ação que não está no nó se julga no estado escrito. Fora do nó valem o objetivo grande e o custo já escrito.
 
-Lugar que não está no estado não aparece. Fechar a viagem não cria lugar.
+Nota de saída (`sistema/roteiro_pendencias.md`; no job, a seção do próprio job): a cena, o job ou a decisão dependem de uma pessoa quando a nota diz que resolver esse papel é o motivo. Escondida, off-screen ou “não forçar” não a congela. Avaliar a nota. Se a cena existe para resolver esse papel, a pessoa pode aparecer, ou deixar de estar escondida, por uma saída já escrita. Se o jogador está noutra coisa, ou o motivo de estar escondida não é o assunto, ela não entra. Se ele pede o papel que a cena veio resolver, ou a janela que ele marcou fecha, jogar uma saída da nota. O terceiro silêncio da mesma pendência não é resposta. Se nenhuma pessoa já escrita serve e a nota nomeia alguém de fora do roster, entra esse NPC do job, recorrente ou só deste job. Sem nota, não inventar pessoa, lugar, facção ou trama para destravar. A nota é o que torna novo em escrito. Hipótese não vira fato no meio do turno.
 
-Nó grande resolvido: escrever o próximo nó neste bloco antes da cena seguinte. Rascunho curto basta, com hipótese marcada e campo vazio indefinido. Chegar com o nó em branco é o travamento.
+Destino no nó, na nota ou num card de `set_lugares.md` está escrito: a viagem fecha nele. Fora dos três, dizer uma vez. Não criar rua. Lugar que não está no nó, na nota nem num card não aparece.
+
+Nó grande resolvido: escrever o próximo nó neste bloco antes da cena seguinte. Rascunho curto basta, com hipótese marcada e campo vazio indefinido. Chegar com o nó em branco é o travamento. O fechamento grava a nota seguinte. Nota seguinte em branco bloqueia o sim.
 
 Vida já na ficha, e viagem cujo destino já está escrito, não ganham nó cheio. Linha de AGENDA não é reação do nó.
 

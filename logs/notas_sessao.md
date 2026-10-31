@@ -18,3 +18,7 @@ Uma linha por fato. Sem prosa de cena.
 ## Mecânica
 
 ## Pendência
+
+## Saída
+
+## NPC de job
