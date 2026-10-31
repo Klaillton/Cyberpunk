@@ -106,7 +106,7 @@
 | # | Ação |
 | - | ---- |
 | 1 | Declarar: `Finalizar sessão — playbook completo.` |
-| 2 | Ler: `sessao_resumo_template.md`, `registro_arquivos.md` (NNN), `board`, `dashboard_contexto`, `event_queue`, `como_atualizar_arquivos.md`, `context_pack_atual`, `fatos_duros`, `logs/notas_sessao.md`, **e a matriz de ledgers:** `consequencias/consequencias_persistentes.md`, `heat.md`, `reputacao.md`, `economia.md`, `logs/downtime_ryan.md`, `facoes/` relevantes, `relacionamentos/faccao_relacionamentos.md`, `pulso_procedimento.md` (se data avançou). |
+| 2 | Ler: `sessao_resumo_template.md`, `registro_arquivos.md` (NNN), `board`, `dashboard_contexto`, `event_queue`, `como_atualizar_arquivos.md`, `context_pack_atual`, `fatos_duros`, `logs/notas_sessao.md`, **e a matriz de ledgers:** `consequencias/consequencias_persistentes.md`, `heat.md`, `reputacao.md`, `economia.md`, `logs/downtime_ryan.md`, `facoes/` relevantes, `relacionamentos/faccao_relacionamentos.md`, `pulso_procedimento.md` (se data avançou). Se a cena era momento importante ou job, ler também `sistema/roteiro_pendencias.md` e a nota de saída do job, se houver. |
 | 3 | Calcular **data início → fim** da sessão e quantos **dias in-game** passaram. |
 | 4 | Gerar **rascunho** de `logs/sessao_resumo_NNN.md` (conteúdo como em B), com seções: Rep/Heat/Econ · **Mecânica/ferimentos** · Downtime · Facções/Consequências · Pulsos (dias) — usar **“sem delta”** quando avaliou e nada mudou. **Ruleset** no cabeçalho (ex. 1.4.0). |
 | 5 | Montar **tabela de mudanças propostas** (Arquivo → o que muda). **Sempre avaliar** (não pular por omissão): |
@@ -120,12 +120,13 @@
 | | - NPCs → relacionamentos relevantes |
 | | - **1+ dia in-game** → [pulso_procedimento.md](pulso_procedimento.md) (ciclos faltantes ou gap B1 documentado); região atual only |
 | | - **Sempre:** `logs/context_pack_atual.md` (incl. **NORTE** + **AGENDA DA CENA** do NOW; se **local/região mudou**, reescrever agenda inteira; **NORTE:** só a linha cujo horizonte mudou; **META-ROTEIRO:** a regra fica; o nó mora neste bloco; frase no chat não é nó; reescrever o nó se o momento resolveu) + `logs/handoff_atual.md` |
+| | - **Momento importante ou job:** três linhas no rascunho, antes do sim. (1) Nota: saída jogada, o que ficou fato, o que continua hipótese. Se o momento fechou, a nota seguinte já escrita, com uma direção e uma forma de resolver. O nó aponta para ela. Nota seguinte em branco bloqueia o sim, como uma linha `?`. (2) Pessoa que cumpriu o papel. Já existia: relacionamento, se houve delta. De fora do roster: o jogador diz se é recorrente (ficha mínima + mapa) ou só deste job (tabela do job). Dúvida é `?`. (3) Lugar em que a cena fechou. Card já existe, ou promove para `set_lugares.md`. Sem card e sem “não promove”, não fecha. |
 | | - **Cada linha** de `logs/notas_sessao.md` entra na tabela com um destino: **promove** (seção sugere o arquivo; dúvida não escolhe), **fica** (continua no rascunho), ou **não promove** (sai, com uma frase no resumo). Destino incerto = `?`. Não chutar. |
 | | - `registro_arquivos` se novo resumo ou arquivo |
 | 6 | **Mostrar ao jogador:** (1) resumo completo; (2) tabela Arquivo → mudança (incluir linhas “sem delta” se quiser transparência); (3) cada nota com promove / fica / não promove / `?`. |
 | 7 | **Parar.** Pedir confirmação explícita: aplicar arquivos? commit/push? Linha `?` precisa de resposta antes do sim (promove para onde, fica, ou não promove). |
 | 8 | **Só após confirmação:** escrever arquivos no workspace. |
-| 9 | **Ordem de escrita:** `sessao_resumo_NNN` → board + dashboard → event_queue → consequencias → facoes/ + faccao_rels (se tocado) → relacionamentos NPC/crew → heat + reputacao + economia → downtime_ryan (se projeto) → pulso (se 1+ dia) → **context_pack** → **handoff** → registro. **Por último, nas notas:** tirar só o que promoveu ou o que foi “não promove”. O que ficou leva `~NNN` e continua no arquivo. No próximo finalizar, linha `~` volta à tabela. Não esconder. |
+| 9 | **Ordem de escrita:** `sessao_resumo_NNN` → board + dashboard → event_queue → consequencias → facoes/ + faccao_rels (se tocado) → relacionamentos NPC/crew → ficha mínima do NPC recorrente, se o jogador promoveu → heat + reputacao + economia → downtime_ryan (se projeto) → pulso (se 1+ dia) → **nota de saída** (`sistema/roteiro_pendencias.md` e, se for job, a seção do job) junto com o **nó** → **context_pack** → **handoff** → registro. **Por último, nas notas:** tirar só o que promoveu ou o que foi “não promove”. O que ficou leva `~NNN` e continua no arquivo. No próximo finalizar, linha `~` volta à tabela. Não esconder. |
 | 10 | Responder com: lista de paths **avaliados e** alterados + próximo NNN+1 + lembrete de handoff se chat novo. |
 | 11 | Commit/push **somente** se o jogador confirmou. |
 
@@ -152,6 +153,9 @@
 [ ] Testes/combate: 1–3 linhas de outcome mecânico (não só prosa)
 [ ] Decisões provisórias mecânicas (promover house rule?)
 [ ] Context pack (NOW + NORTE + AGENDA + META-ROTEIRO: regra preservada, nó reescrito se o momento resolveu) + handoff
+[ ] Nota de saída: saída jogada, fato vs hipótese, nota seguinte se o momento fechou. Em branco bloqueia o sim
+[ ] Pessoa do papel: já escrita, ou recorrente (ficha) vs só deste job. `?` antes do sim
+[ ] Lugar da cena: card existe, ou promove para set_lugares. Sem card e sem “não promove”, não fecha
 [ ] Notas: cada linha com promove / fica / não promove; `?` respondido antes do sim; “fica” permanece com ~NNN
 [ ] Resumo lista paths avaliados
 ```
@@ -207,8 +211,9 @@ Ainda gerar resumo mínimo; preencher seções de ledger com **“sem delta”**
 
 ### E1) `[Carregar cena: <tag>]`
 
-Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`.  
-Tag de lugar (`mule`, `tenda`, `oficina`, `garagem`, `refeitorio`, `patio`) abre só o § de [set_lugares.md](set_lugares.md).
+Exemplos de tag: `valk`, `pack`, `mule`, `nc`, `kaz`, `stitch`, `job001`, `e015`.  
+Tag de lugar abre só o § de [set_lugares.md](set_lugares.md). A tabela `Onde achar` está no topo. `deposito_ryan` não abre. A safehouse não abre.  
+Tag de pendência (`e015`, `reyes`, `e008`) abre só o § de [roteiro_pendencias.md](roteiro_pendencias.md). Não é boot.
 
 | # | Ação |
 | - | ---- |
@@ -456,7 +461,7 @@ SoT: [echo_exposicao.md](echo_exposicao.md). Atualizar `heat.md` + `reputacao.md
 | - | ---- |
 | 1 | Declarar: `Anotar — específico.` |
 | 2 | A frase do jogador é a nota. Não trocar por um rótulo (“melhoraram o banho”). |
-| 3 | Uma linha sob a seção: **Lugar** (planta, circuito, máquina) · **Downtime** (o que Ryan produziu) · **Estoque** (item, qty, onde) · **Relação** (promessa, acordo) · **Mecânica** (HP, munição, gear) · **Pendência** (ponto fechado de plano, ainda sem obra). Se ambíguo, **Pendência**. |
+| 3 | Uma linha sob a seção: **Lugar** (planta, circuito, máquina) · **Downtime** (o que Ryan produziu) · **Estoque** (item, qty, onde) · **Relação** (promessa, acordo) · **Mecânica** (HP, munição, gear) · **Pendência** (ponto fechado de plano, ainda sem obra) · **Saída** (como a cena ou o job fechou, ou a nota seguinte) · **NPC de job** (nome, papel, recorrente ou só deste job). Se ambíguo, **Pendência**. |
 | 4 | Gravar em `logs/notas_sessao.md`. Criar o arquivo a partir do molde se faltar. |
 | 5 | Fora da cena, mostrar seção + linha gravada. |
 | 6 | Não narrar, salvo o mesmo turno ter pedido continue ou trazido ação. |
@@ -500,6 +505,8 @@ Finalizar abortado: nada sai. O arquivo não esvazia por completo se sobrou “f
 | Relação | relacionamento do NPC tocado |
 | Mecânica | loadout, ficha ou o bloco de mecânica do resumo |
 | Pendência | `event_queue.md`, ou uma linha de pendência no resumo se ainda não for evento |
+| Saída | `sistema/roteiro_pendencias.md` e o nó do pack. Se o momento fechou, a nota seguinte entra no mesmo sim |
+| NPC de job | ficha mínima em `fichas/npc/` + mapa, se recorrente. Só a tabela do job, se não volta |
 
 ---
 

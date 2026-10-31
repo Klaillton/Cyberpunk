@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 2026-10-30 (sessão 030)
+**Última atualização:** 2026-10-31 (nota de saída e portas; sessão jogável continua 030)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -21,7 +21,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Eventos pendentes no mundo | `event_queue.md` | `board/board_campanha.md`, `board/arco_ativo.md`, `consequencias/consequencias_persistentes.md` |
 | Arco em foco (L1) + NPCs off-screen | `board/arco_ativo.md` | `logs/context_pack_atual.md` (**NORTE** + AGENDA), `event_queue.md` |
 | Ambientação / ganchos / imagem opcional | `sistema/cena_ambientacao_ganchos.md` | `motor_cena_1pager.md`, `arco_ativo.md` §7 |
-| Planta curta de lugar recorrente | `sistema/set_lugares.md` | O pack traz só o § do NOW. `[Carregar cena: oficina]` abre esse §. A safehouse de NC **não** é tag |
+| Planta curta de lugar recorrente | `sistema/set_lugares.md` | O pack traz só o § do NOW. `[Carregar cena: <tag>]` abre esse §. Tabela `Onde achar` no topo. A safehouse de NC **não** é tag. `deposito_ryan` **não** abre até a revelação |
+| Nota de saída (como a pendência ou o job pode fechar) | `sistema/roteiro_pendencias.md` | **Não é boot.** `[Carregar cena: e015]` abre o §. A saída ativa também está no nó do pack. Finalizar reescreve. Job: seção no `logs/job_template.md` |
 | **Safehouse da crew (planta futura, não ocupada)** | `fichas/notas_narrador/safehouse_planta_futura.md` | **Não é SET NOW.** Crew ainda não se reuniu. Não é boot. Não abre com `[Carregar cena]`. ≠ casa-protótipo da sessão 011 · ≠ Red Mercury |
 | Soft-canon / refinamentos futuros (não tier-0) | `ideas_concepts/README.md` | polycule, gatilhos, Moreau — **não** boot |
 | Situação financeira | `economia.md` | `board/board_campanha.md`, `logs/downtime_ryan.md` |

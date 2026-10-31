@@ -211,7 +211,7 @@ Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver nec
 | **N6 Fim de turno** | Preferir gancho concreto (fato, pergunta com conteúdo, deadline curto). Espera vale quando o nó manda manter a situação por razão já escrita. Evitar “O que [PC] faz?” genérico. |
 | **N7 Modos de cena** | Marcar mentalmente: `OPERAÇÃO` · `DOWNTIME` · `INTIMIDADE` · `VIAGEM` · `COMBATE` (extensível). Em INTIMIDADE/DOWNTIME, após ~1 arco fechado (clímax+aftercare / ideia+registro), **oferecer** reancoragem às prioridades do NOW — o jogador pode recusar e continuar o mood. N1b é prioritário em OPERAÇÃO/VIAGEM; em mood íntimo, N1 ainda vale (sem espelho longo). |
 | **N8 Compressão de SOP** | Se o PC listou N passos de recon/craft/viagem → narrar **outcomes agregados** + **1–3 dados novos**; re-narrar passo só se **falhar**, **mudar**, ou revelar info. |
-| **N9 Fecho de deslocamento** | Em `VIAGEM` / retorno / marcha: sem anomalia no caminho → **fechar a chegada** se o destino está no estado do nó ou no SET NOW. Se o destino está indefinido, a consequência é essa, uma vez. **Proibido** filler de marcha e proibido criar rua, pessoa ou evento para completar a chegada. |
+| **N9 Fecho de deslocamento** | Em `VIAGEM` / retorno / marcha: sem anomalia no caminho → **fechar a chegada** se o destino está no nó, na nota de saída ou num card de `set_lugares.md`. Fora desses três, a consequência é essa, uma vez. **Proibido** filler de marcha e proibido criar rua, pessoa ou evento para completar a chegada. |
 | **N13 Situar a informação** | Checklist é memória. O fato escrito entra **numa situação**. Indefinido não se completa e não entra. Não omitir dado que já está no estado. Não gavetas na tela (`Cobertura:`, `EM:`, `Pessoas:`). O jogador não remonta o tabuleiro. Full: **§5.2**. |
 
 N10–N12 (AMBIENTE, SHOW, relógio só se mudou) — resumo no [1pager](motor_cena_1pager.md).
@@ -250,7 +250,7 @@ Narrador: mesmo se o PC colar SOP longo → **N1b + N8** (outcomes, não espelho
 
 **Fonte de pressão (ordem fixa, independente de mapa):**
 
-1. Momento importante → nó do **META-ROTEIRO** em `logs/context_pack_atual.md`. Sem nó escrito, não inventar o evento. Linha de AGENDA não é reação.  
+1. Momento importante → nó do **META-ROTEIRO** em `logs/context_pack_atual.md` e a nota de saída. Escondida não congela quem a nota diz que a cena veio resolver. Sem nó e sem nota, não inventar o evento. Linha de AGENDA não é reação.  
 2. Senão, bloco **AGENDA DA CENA** do mesmo pack.  
 3. Se a agenda estiver vazia → **NORTE curto** (+ pendências quentes do mesmo pack).  
 4. `event_queue.md` filtrado pelo que é plausível no **local/região atual** (F10).  
@@ -258,10 +258,10 @@ Narrador: mesmo se o PC colar SOP longo → **N1b + N8** (outcomes, não espelho
 
 **NORTE** no pack = horizontes (curto / médio / longo / fora). AGENDA = quem age se idle. Não tratar NORTE médio/longo como quest desta resposta.  
 
-**Não inventar** NPCs, facções ou plot só para “destravar”.  
+**Não inventar** NPCs, facções ou plot só para “destravar”, salvo o que a nota de saída já nomeia. NPC de job já nomeado na nota pode entrar, recorrente ou só deste job.  
 **Não proibir** intimidade ou hiperfoco — só limitar duração **sem delta**.
 
-**Meta-roteiro** (regra estável, bloco no context pack): o momento importante tem estado e motor. Cada coisa é fato, o que a pessoa sabe, hipótese, oculto ou indefinido. Campo vazio é indefinido e não se narra. Hipótese não vira fato no meio do turno. Ação relevante muda o estado, ou mantém por razão já escrita. O mesmo estado, sem condição nova, não é resposta. Ação fora da lista se julga no estado escrito. Lugar que não está no estado não aparece. Nó grande resolvido: escrever o próximo nó naquele bloco antes da cena seguinte. Frase no chat não é nó. A regra não se reescreve com o nó. Não entra na boca e não vira menu.  
+**Meta-roteiro** (regra estável, bloco no context pack): o momento importante tem estado e motor. Cada coisa é fato, o que a pessoa sabe, hipótese, oculto ou indefinido. Campo vazio é indefinido e não se narra. Hipótese não vira fato no meio do turno. Ação relevante muda o estado, ou mantém por razão já escrita. O mesmo estado, sem condição nova, não é resposta. Ação fora da lista se julga no estado escrito. Nota de saída: a cena, o job ou a decisão dependem de uma pessoa quando a nota diz que resolver esse papel é o motivo. Escondida, off-screen ou “não forçar” não a congela. Se a cena existe para resolver esse papel, a pessoa pode aparecer por uma saída já escrita. Se o jogador está noutra coisa, ela não entra. Se ele pede o papel, ou a janela que ele marcou fecha, jogar uma saída. O terceiro silêncio da mesma pendência não é resposta. Sem nota, não inventar pessoa, lugar, facção ou trama. Destino no nó, na nota ou num card de `set_lugares.md` fecha a viagem. Fora dos três, dizer uma vez. Lugar que não está nesses três não aparece. Nó grande resolvido: escrever o próximo nó, e a nota seguinte, antes da cena seguinte. Frase no chat não é nó. A regra não se reescreve com o nó. Não entra na boca e não vira menu.  
 
 Comandos: `[Avançar cena]` / `[Pressão]` · `[Motor de cena]` / `[Anti-eco]` em [comandos_jogador.md](comandos_jogador.md).
 

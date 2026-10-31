@@ -106,12 +106,14 @@ Peça:
 | Narrador ecoando SOP / espelho | `[Motor de cena]` / `[Anti-eco]` — playbook **J**; se chat longo, preferir **novo chat** + handoff |
 | **Narrador/IA avança ≥1 dia** (amanhece, elipse, dorme) | [pulso_procedimento.md](pulso_procedimento.md) **obrigatório** → `pulso_do_mundo/` + ledgers se impacto; downtime se Ryan produziu |
 | Passou 1+ dia in-game / Ryan dormiu a noite | Idem pulso; preferir gravar *Eventos Off-Screen* na hora |
-| Job / gig concluído | `logs/job_XXX_<slug>.md` (usar [job_template.md](../logs/job_template.md)) + consequências, heat, event_queue |
+| Job / gig concluído | `logs/job_XXX_<slug>.md` (usar [job_template.md](../logs/job_template.md)) + consequências, heat, event_queue. A nota de saída do job fecha ou ganha a seguinte |
+| Momento importante fechou | `sistema/roteiro_pendencias.md` + nó do **META-ROTEIRO** no pack. Nota seguinte com uma direção e uma forma de resolver. Em branco bloqueia o sim do Finalizar |
 | NPC com personalidade ou arco próprio | `fichas/npc/<slug>.md` (usar [npc_template.md](../fichas/npc/npc_template.md)) + entrada em [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md) |
+| NPC só deste job | Tabela do job. Sem ficha. Não volta noutro arco só porque existiu |
 | Tempo off-screen (mundo vivo) | [pulso_procedimento.md](pulso_procedimento.md) + pulso em `pulso_do_mundo/` + opcional `logs/pulso_YYYYMMDD.md` |
 
 **Matriz de finalize (sempre avaliar; “sem delta” no resumo se zero):**  
-`board` · `dashboard` · `event_queue` · `consequencias` · `facoes/` + `faccao_relacionamentos` · `heat` · `reputacao` · `economia` · `downtime_ryan` · pulso se 1+ dia · relacionamentos tocados · `context_pack` (**NOW + NORTE + AGENDA DA CENA**; NORTE só se o horizonte mudou) · `handoff`. **Ler antes** `logs/notas_sessao.md`. Cada linha: promove, fica, ou não promove. Dúvida = `?`, respondida antes do sim. “Fica” permanece com `~NNN`.
+`board` · `dashboard` · `event_queue` · `consequencias` · `facoes/` + `faccao_relacionamentos` · `heat` · `reputacao` · `economia` · `downtime_ryan` · pulso se 1+ dia · relacionamentos tocados · `context_pack` (**NOW + NORTE + AGENDA DA CENA + META-ROTEIRO**; NORTE só se o horizonte mudou; a regra fica; o nó se reescreve se o momento resolveu) · `handoff` · nota de saída (`sistema/roteiro_pendencias.md`, ou a seção do job) · pessoa do papel (ficha se recorrente, tabela do job se não) · lugar da cena (card em `set_lugares.md`, ou “não promove”). **Ler antes** `logs/notas_sessao.md`. Cada linha: promove, fica, ou não promove. Dúvida = `?`, respondida antes do sim. “Fica” permanece com `~NNN`. Nota seguinte em branco, numa cena que era momento importante, bloqueia o sim.
 
 Consulte a tabela completa em [registro_arquivos.md](registro_arquivos.md) (seção "Guia de Consulta Cruzada").
 

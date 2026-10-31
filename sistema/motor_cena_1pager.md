@@ -20,15 +20,15 @@
 | N5 | No ramo 2 e 3, no primeiro turno: corpo e uma coisa dela já escrita. Agenda de plot calada. Em ops, NPC com tarefa **executa** se PC idle ≥2 | Plateia; NPC íntimo anunciando hop/teto/canal; menu A/B/C |
 | N6 | Gancho concreto no fim. Espera vale se o nó manda manter por razão escrita | “O que você faz?” vazio |
 | N8 | SOP multi-passo → **outcomes** + 1–3 dados novos | Re-narrar cada passo do PC |
-| N9 | Viagem limpa: **fechar chegada** se o destino está escrito | Filler de marcha; rua, pessoa ou evento para completar destino indefinido |
+| N9 | Viagem limpa: **fechar chegada** se o destino está no nó, na nota de saída ou num card de `set_lugares.md` | Filler de marcha; rua, pessoa ou evento para completar destino fora desses três |
 | N10 | Local novo / ação no terreno → **bloco AMBIENTE** + opções embutidas | Wallpaper poético sem layout jogável |
 | N11 | Relacional: **SHOW** (fala/gesto/escolha) | TELL (“ela está mais aberta”) sem batida |
 | N12 | Relógio/AGENDA **só se mudou**. NPC em downtime/íntimo = corpo + fala; não anuncia o teto | Stamp Condor/teto/canal **todo** turno; glosa (“não é ordem”, “sem briefing”) |
 | N13 | Fato escrito entra na **situação**. Checklist interno. | Gavetas na tela (`Cobertura:`, `EM:`, `Pessoas:`); completar indefinido; omitir dado escrito **ou** wallpaper |
 
-**Pressão:** momento importante → nó do **META-ROTEIRO** no context pack (sem nó escrito, não inventar o evento; linha de AGENDA não é reação). Senão AGENDA DA CENA → **NORTE curto** → [arco_ativo.md](../board/arco_ativo.md) (L1) → `event_queue` (F10).  
-**Off-screen:** canal sem resposta tem estado no arco §2. Isso não põe uma pessoa na cena nem a obriga a se mexer.  
-**Não inventar** NPCs/facções/plot fora do SoT. **Não** inventar encontro aleatório só para encher caminho. Destino indefinido não vira lugar. Momento importante sem nó escrito não ganha evento.
+**Pressão:** momento importante → nó do **META-ROTEIRO** no context pack e a nota de saída (escondida não congela quem a nota diz que a cena veio resolver; sem nó e sem nota, não inventar o evento; linha de AGENDA não é reação). Senão AGENDA DA CENA → **NORTE curto** → [arco_ativo.md](../board/arco_ativo.md) (L1) → `event_queue` (F10).  
+**Off-screen:** canal sem resposta tem estado no arco §2. Isso não puxa a pessoa quando o jogador está noutra coisa. Se a nota diz que a cena existe para resolver esse papel, jogar uma saída da nota.  
+**Não inventar** NPCs/facções/plot fora da nota e do SoT. NPC de job já nomeado na nota pode entrar. **Não** inventar encontro aleatório só para encher caminho. Destino no nó, na nota ou num card de `set_lugares.md` está escrito. Fora dos três não vira lugar. Momento importante sem nó e sem nota não ganha evento.
 
 **Rodapé OOC (todo turno):** após a cena, linha em branco, depois só `ctrl N/90`. Some **+2** ao último `ctrl` que você imprimiu. Boot = `ctrl 2/90`. Perdeu = `ctrl ?/90`. **Não** narrar, **não** é visor/Agent, **não** expandir, **não** sugerir troca de chat por causa do número. Spec: [diretrizes_narrador.md](diretrizes_narrador.md) — Rodapé OOC.
 
@@ -49,7 +49,7 @@ Os colchetes abaixo são **ordem interna (N13)**. Não imprimir como rótulos (`
 
 ```text
 [Anomalia no caminho?] se sim → 1 beat
-[Destino indefinido?] → dizer isso uma vez; parar. Não criar lugar.
+[Destino no nó, na nota ou num card?] não → dizer isso uma vez; parar. Não criar lugar.
 [Destino escrito] → chegada:
   ## AMBIENTE — <local já escrito>
   (fatos escritos numa situação, não em rótulos)
