@@ -43,6 +43,7 @@
 
 - Recrutado/orbitando Kaz (pré-Pack / crew NC). Acordo visível: está na crew, é útil. Handle **Prometheus** em circulação.
 - Crew NC off-screen; Pack **não** é beat dele.
+- **05/08/2026:** Kaz já contactou. Aguarda a volta do Ryan em NC. Sem cena. Safehouse off-screen; Ryan não entrou.
 -
 
 ## Ganchos para Ryan (só após reencontro / canal)

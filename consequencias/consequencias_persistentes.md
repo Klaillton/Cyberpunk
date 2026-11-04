@@ -372,4 +372,4 @@ Volta ao Pack de manhã. Sono até ~almoço. Banho = espaço próprio da tenda (
 
 E015 resolvido: Kaz “The Broker” Takahashi chamou. Token de um uso = a pergunta na mão dele. Canal reserva (VPN + servidor de Ryan) configurado para os três Agents; mensagens ficam no servidor até conexão; sem tráfego direto. Sparrow levou ao motel. Kaz no quarto. Sem a clínica.
 
-**Regra nova (032):** próxima vez que Kaz for procurado deve finalizar de montar a crew. Estar escondido ≠ incomunicável para Ryan. Estar escondido ≠ ignorar montar a crew.
+**032, estado derivado:** a crew escrita já está contactada e à espera em NC. A safehouse está off-screen; Ryan não entrou. Não narrar no Pack. Kaz escondido alcança Ryan pelo canal reserva (mensagem no servidor, sem tráfego direto). Escondido não o põe no Pack. Steel sem contato, fora do canal, sem custo. Chip: payload em wipe; casca em branco no Warden.

@@ -24,7 +24,7 @@
 
 **Confirmação (1 linha):**
 ```
-Boot OK · ~05/08/2026 noite · estrada de volta ao Pack · Valk = residual · boca ramo 1 (ops; Pack = ramo 2) · E015 resolvido · canal reserva configurado · debrief Reyes pendente · próximo resumo: 033 · Ruleset 1.4.0
+Boot OK · ~05/08/2026 noite · estrada de volta ao Pack · Valk = residual · boca ramo 1 (ops; Pack = ramo 2) · E015 resolvido · canal reserva · debrief na chegada · próximo resumo: 033 · Ruleset 1.4.0
 ```
 
 ---
@@ -35,23 +35,26 @@ Boot OK · ~05/08/2026 noite · estrada de volta ao Pack · Valk = residual · b
 | ----- | ----- |
 | Data | **~05/08/2026**, noite |
 | Local | Estrada de volta ao Pack (saindo de Kabuki) |
-| Chip E015 | Resolvido. Token usado como pergunta na mão. Canal reserva configurado. |
+| Chip E015 | Token gasto. Casca em branco no Warden. Sem token. |
 | Cutter | Corte 04/08 **feito** (recon, sem tiro). Debrief **ainda pendente**. |
 | Condor | Unmanned; pousou 03/08; Sasha/Lira no gancho/visor |
 | Ryan × Valk | 019 + residual alto; intimidade 028–032; Lena em intimidade |
-| Reyes | Debrief do corte **não feito** |
+| Reyes | Debrief do corte **não feito**. Na chegada, não na estrada |
+| Canal reserva | Existe. Ryan, Kaz, Sparrow. Mensagem fica no servidor. Não é rádio ao vivo. Steel fora |
+| Crew / safehouse | Off-screen em NC, à espera. Ryan não viu. Não narrar no Pack |
+| Steel | Sem contato. Sem custo escrito |
 | Base militar | **Não entra agora** |
 | Ruleset | **v1.4.0** |
 
 ### Cena de abertura (033)
 
-Estrada de volta ao Pack, noite. Ryan no volante. Valk no carona. Residual íntimo alto. Debrief Reyes pendente na chegada. Não reabrir jantar 023 / SOP Condor / caixa 101 / canyon.
+Estrada de volta ao Pack, noite. Porta fechada: `mule`, só Ryan e Valk. Sem corpo de fora. Residual íntimo alto. Debrief Reyes na chegada, de noite, porta fechada: Reyes e quem veio no Mule. Não reabrir jantar 023 / SOP Condor / caixa 101 / canyon.
 
 ### AGENDA
 
-1. Debrief Reyes na volta.  
+1. Debrief Reyes na chegada. Não na estrada.  
 2. Descanso residual.  
-3. Canal reserva (eles decidem quando usam).
+3. Canal reserva existe. Não chama ninguém nesta estrada.
 
 ### Trava
 
@@ -91,8 +94,10 @@ NOW = ops na estrada → **ramo 1**. Reyes / refeitório / pátio → **ramo 2**
 - Ruleset **1.4.0** (F18); loadout sob demanda; chrome na jogada = número ou função; sem inventar mods
 
 ## Estado
-- **~05/08/2026 noite** · estrada de volta ao Pack · Ryan no volante · Valk no carona · debrief Reyes pendente
-- E015 resolvido (Kaz chamou; token = pergunta na mão; canal reserva configurado)
+- **~05/08/2026 noite** · estrada de volta ao Pack · Ryan no volante · Valk no carona · debrief Reyes na chegada, não na estrada
+- E015 resolvido (Kaz chamou; token gasto; casca do chip no Warden, sem token)
+- Canal reserva existe (Ryan, Kaz, Sparrow). Mensagem fica no servidor. Sem tráfego direto. Steel fora
+- Crew escrita e safehouse esperam em NC. Ryan não viu. Não narrar no Pack
 - Corte Cutter 027 feito (recon, sem tiro; 7 quentes; lona morta). Debrief ainda pendente.
 - Condor unmanned (F16)
 
@@ -119,7 +124,7 @@ NOW = ops na estrada → ramo 1. Reyes / Pack social → ramo 2. O ramo de cima 
 N13 situa o fato escrito, sem gaveta. N9 fecha a viagem se o destino está escrito; destino indefinido não vira lugar. N1b só no ramo 1. Corpo nos ramos 2 e 3: 3–6 linhas é piso, e o lugar muda. A mesma mão não volta no turno seguinte.
 
 ## Cena
-Estrada de volta ao Pack, noite. Ryan no volante. Valk no carona. Residual íntimo alto. Debrief Reyes pendente na chegada. Quem fala: `sistema/vozes.md`. Pack congelado em `logs/context_pack_pack.md` — não abrir no boot.
+Estrada de volta ao Pack, noite. Porta fechada: `mule`, só Ryan e Valk. Sem corpo de fora. Residual íntimo alto. Debrief na chegada, de noite, porta fechada: Reyes e quem veio no Mule. Quem fala: `sistema/vozes.md`. Pack congelado em `logs/context_pack_pack.md` — não abrir no boot.
 
 ## Narração
 - N1–N13

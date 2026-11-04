@@ -73,15 +73,15 @@
 
 ---
 
-## 3. L1 — Arco em foco agora: **E015** (caminho NC / Kaz)
+## 3. L1 — Arco em foco agora: **debrief Reyes** (E015 fechado)
 
 | Campo | Valor |
 | ----- | ----- |
-| **ID** | E015 (+ E005 latente, E011 no pacote NC) |
-| **Fase** | Chip **aberto** 04/08 (028). Token de um uso; hop NC **05/08 após 21h**; ponto = o chip; some no fim da janela. Sparrow sem ACK; Steel mudo; Kaz off |
-| **Local do PC** | Pack Badlands (~04/08 **fim de tarde** · tenda Ryan/Valk) |
-| **Objetivo do arco** | Hop NC 05/08 21h (Valk junto) com o token; rede Sparrow/Steel → Kaz; **sem** ops solo sem extração; acordo 019 = **perguntar**, não cobrar |
-| **Fora de foco (1 linha)** | Célula **Cutter** (E008) = debrief Pack pendente · Pack Node/casas/olaria · BT latente · E020 cobra Reyes · **não** reabrir caixa 101 / canyon |
+| **ID** | E015 resolvido. E008 debrief é a cena. E011 continua no pacote NC, off-screen |
+| **Fase** | 05/08 noite. Kaz chamou. Token gasto. Casca do chip sem token. Canal reserva existe (Ryan, Kaz, Sparrow) |
+| **Local do PC** | Estrada de volta ao Pack. Mule. Ryan no volante. Valkirya no carona |
+| **Objetivo do arco** | Chegar. Debrief na chegada. Crew e safehouse esperam em NC e não entram nesta cena. Acordo 019 = **perguntar**, não cobrar |
+| **Fora de foco (1 linha)** | Steel sem contato, fora do canal, sem custo · Pack Node/casas/olaria · BT latente · E020 cobra Reyes · **não** reabrir caixa 101 / canyon |
 
 ### 3.1 Batidas possíveis (ordem flexível)
 
@@ -95,14 +95,14 @@
 | B6 | **Assunto pessoal Ryan** | em NC | sem fechar Pack; 1–2 cenas, não monólogo eterno |
 | B7 | **Coleta Condor** | 30/07 15h–17h | **Feita** — 1º pacote anônimo; intermediário 48–72h |
 | B8 | **Dead drop 101** | 03/08 meio-dia | **Feita** — chip lacre + tira hop NC 05/08 21h |
-| B9 | **Hop NC** | 05/08 após 21h | Entrada / intermediário / saída da nota. Silêncio só com o custo escrito na nota |
+| B9 | **Hop NC** | 05/08 após 21h | **Feita** (032) — Sparrow levou ao motel; Kaz chamou; token gasto |
 
 ### 3.2 Default se idle (PC não puxa)
 
 Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
-1. **Debrief Reyes** do corte 027.  
-2. **Hop:** relógio 05/08 21h (token no chip).  
+1. **Debrief Reyes** do corte 027, na chegada. Não na estrada.  
+2. **Canal reserva:** existe. Não chama ninguém nesta estrada.  
 3. **Valk:** no primeiro turno, braço no volante, fome, o Mule, ou cuidar dele. Uma coisa. **Sem** hop na boca. **Sem** caderno. **Sem** reabrir a caixa.  
 4. **Cutter:** camp leste ainda lá; **não** raid hoje.
 
@@ -110,13 +110,13 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 
 | NPC / canal | Onde | O que está fazendo | Por que sem resposta (ainda) | Relógio | Como Ryan percebe | Default se idle |
 | ----------- | ---- | ------------------ | ---------------------------- | ------- | ----------------- | --------------- |
-| **Kaz “The Broker”** | Night City, **escondido** | Montando crew futura | Não é alvo do ping | Dias | Via intermediário / B5 | Ficha crew |
-| **Marcus “Steel” Rivera** ([ficha](../fichas/npc/marcus_steel_rivera.md)) | NC | OPSEC / job / favores | Ping `RVW…` em fila ou risco | Relógio estourou → **019** | Burst, resposta, “depois”, silêncio com custo | **Pessoa**, não sistema; ≠ Echo Rivera |
-| **Lina “Sparrow” Park** ([ficha](../fichas/npc/lina_park.md)) | NC | OPSEC / fila — residual fraco **sem ACK** (018–026) | Silêncio deliberado registrado 019 | Hop **05/08 21h** (chip aberto / token) | Resposta dela, “não agora”, ou residual morre com custo | **Pessoa** (handle Sparrow); **não** drone/sistema |
-| **Crew NC** (Alex, etc.) | NC (off) | Vida normal / E004 latente | Fora do ping atual | Só se B5 ou reencontro | Cena ou boato | Não puxar sem gancho |
-| **Pack** (Reyes, Tio Gringo, Node) | Badlands | Rotina + E019 em discussão lenta | Ryan presente | Pulso diário se dia avança | Mensagem só se canal Pack aberto | Background; não compete com E015 na cena |
+| **Kaz “The Broker”** | Night City, **escondido** | Crew escrita à espera. Canal reserva com Ryan e Sparrow | Não aparece no Pack | Quando conectar no servidor | Mensagem no canal reserva | Não puxar para a estrada |
+| **Marcus “Steel” Rivera** ([ficha](../fichas/npc/marcus_steel_rivera.md)) | NC | Sem contato na 032 | Fora do canal reserva. Sem custo escrito | Lacuna | Não inventar o motivo | **Pessoa**, não sistema; ≠ Echo Rivera |
+| **Lina “Sparrow” Park** ([ficha](../fichas/npc/lina_park.md)) | NC | Falou na 032 e levou ao motel | No canal reserva. Não está no Pack | Quando conectar no servidor | Mensagem no canal reserva | **Pessoa** (handle Sparrow); **não** drone/sistema |
+| **Crew NC** (Alex, Reina, Stitch, Jax, Echo, Leopold) | NC (off) | Contactados. Esperam a volta. Safehouse off-screen | Ryan não viu | Até ele voltar a NC | Não narrar no Pack | Não puxar para a estrada |
+| **Pack** (Reyes, Tio Gringo, Node) | Badlands | Rotina + E019 em discussão lenta | Ryan a caminho | Debrief na chegada | Reyes puxa no pátio ou na oficina | Não compete com a estrada |
 
-**Nota de mestragem:** **Steel** e **Sparrow** são **NPCs humanos** com handle de rádio. Silêncio eterno sem custo **quebra** o L1. Escondido, off-screen ou “não forçar” não congela quem a nota de saída diz que a cena veio resolver. A avaliação é a regra do META-ROTEIRO e não leva nome. A saída desta cena está em `sistema/roteiro_pendencias.md` § E015. Não narrar “Sparrow” como modo/Agent/protocolo. Kaz não precisa responder a um ping. Se a nota diz que a cena existe para resolver quem chamou, a saída escrita vale.
+**Nota de mestragem:** **Steel** e **Sparrow** são **NPCs humanos**. Sparrow já falou. Steel segue sem contato, fora do canal, sem custo: não inventar o motivo. Kaz segue escondido e alcançável pelo canal reserva, não em pessoa no Pack. A cena desta volta é o debrief, na nota Reyes, e só na chegada. Não narrar “Sparrow” como modo/Agent/protocolo.
 
 ### 3.4 O que **não** fazer neste arco (agora)
 
@@ -136,7 +136,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 | # | Gancho com conteúdo | Quem age se idle | Ação concreta |
 | - | ------------------- | ---------------- | ------------- |
 | 1 | Debrief Reyes (corte 027) | Reyes / Valk | Reyes puxa o debrief |
-| 2 | Token / hop NC 05/08 após 21h | Mundo / intermediário | Relógio do hop |
+| 2 | Canal reserva | ninguém na estrada | Existe. Não chama Kaz nem Sparrow aqui |
 | 3 | Folga Pack até a janela | Valk / Pack | SHOW tenda ou refeitório |
 
 ---

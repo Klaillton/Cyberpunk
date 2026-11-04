@@ -40,6 +40,7 @@
 
 ## Eventos Off-Screen Recentes
 
+- **05/08/2026 noite:** no Mule, volta ao Pack com Ryan. Não está na espera de NC.
 - **03/07/2026 (meio-dia)** — Acordou perto do meio-dia; Ryan já tinha saído em silêncio. Não confrontou; ficou um momento olhando a tenda vazia.
 - **03/07/2026 (almoço)** — Sasha e Lira sentaram perto; conversa prática e cordial (rotina no deserto). Valk retribuiu com simpatia cautelosa.
 - **10/07** — Scav containers com Ryan/Rusty/Scout.

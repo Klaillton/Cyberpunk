@@ -35,9 +35,7 @@
 
 ## Eventos Off-Screen Recentes
 
--
--
--
+- **05/08/2026:** Kaz já contactou. Aguarda a volta do Ryan em NC. Sem cena. Safehouse off-screen; Ryan não entrou.
 
 ## Relação com Ryan
 

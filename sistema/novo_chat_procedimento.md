@@ -109,6 +109,8 @@ Executar **nesta ordem** antes de narrar:
 
 Rodapé OOC da mesma resposta: `ctrl 2/90` (spec: [diretrizes_narrador.md](diretrizes_narrador.md) — Rodapé OOC).
 
+Antes da primeira frase, conferir a porta da cena no nó ou na nota. `fechada`: só quem a nota pôs. `aberta`: corpos já escritos no card, função sem nome. Aberta sem corpos: dizer que o card está fino e parar. Não nasce NPC novo no turno.
+
 Só então narra o gancho de abertura (ou aguarda o jogador, se o prompt pedir).
 
 ### 4.3.1 Motor de cena (sempre)

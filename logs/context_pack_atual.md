@@ -40,7 +40,7 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 | Data in-game | **~05/08/2026** |
 | Período | Noite |
 | Região | **Estrada de volta ao Pack** (saindo de Kabuki / Night City) |
-| Local específico | Mule. Ryan no volante. Valkirya no carona (cabeça na coxa). Warden no corpo. Pill no fundo do Mule. Vespas em perímetro. E015 resolvido. Canal reserva configurado. Debrief Reyes pendente. |
+| Local específico | Mule. Ryan no volante. Valkirya no carona (cabeça na coxa). Warden no corpo. Casca do chip no Warden, sem token. Pill no fundo do Mule. Vespas em perímetro. E015 resolvido. Canal reserva existe. Debrief Reyes na chegada, não nesta estrada. |
 | Facção / base local | — (volta ao Pack) |
 | Cena / gancho | Volta ao Pack. Debrief Reyes na chegada. |
 | Prioridade | (1) Debrief Reyes (2) Descanso residual (3) Canal reserva em uso futuro |
@@ -48,7 +48,7 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 
 ### SET NOW
 
-Mule na estrada de volta ao Pack. Ryan no volante. Valkirya no carona. Warden no corpo. Pill no fundo do Mule. Vespas em perímetro. E015 resolvido. Canal reserva configurado. Debrief Reyes pendente.
+Mule na estrada de volta ao Pack. Porta fechada: só Ryan e Valkirya. Sem corpo de fora. Warden no corpo. Casca do chip no Warden, sem token. Pill no fundo do Mule. Vespas em perímetro. E015 resolvido. Canal reserva existe (Ryan, Kaz, Sparrow). Debrief na chegada, de noite, porta fechada: Reyes e quem veio no Mule. Crew e safehouse esperam em NC; não entram nesta cena.
 
 Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** abrir no boot nem no Refresh.
 
@@ -59,14 +59,14 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 | Horizonte | Norte |
 | --------- | ----- |
 | **Curto** (hoje / sessão) | Debrief Reyes na volta ao Pack. |
-| **Médio** (1–3 sessões) | Hop NC (E015, token no chip). Quem chamou, pela nota. Voltar ao Pack. Debrief Reyes. |
+| **Médio** (1–3 sessões) | Debrief na chegada. Crew e safehouse esperam em NC, fora desta cena. Canal reserva com Kaz e Sparrow. |
 | **Longo** (campanha) | Pack casas/Node/olaria. Doc E011. Crew NC. |
 | **Fora agora** | Base militar. Raid Cutter. Reabrir jantar 023 / SOP Condor / caixa 101 / canyon. |
 
-### Cena de abertura sugerida (031)
+### Cena de abertura sugerida (033)
 
-**Não continuar o chat da 030.**  
-05/08 noite, estacionamento sob viaduto. Janela aberta. Segundo contato recuou sem entrega. Decisão pendente. Valkirya no volante. Residual íntimo alto. Quem chamou: a nota do E015. Uma saída, se ele pedir a mão ou a janela acabar. Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon. Não repetir contato silencioso de mãos à vista.
+**Não continuar o chat da 032.**  
+05/08 noite, Mule na estrada de volta ao Pack. Ryan no volante. Valkirya no carona. Residual íntimo alto. Debrief do Reyes na chegada, no pátio ou na oficina. Não na estrada. Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon.
 
 ---
 
@@ -76,7 +76,7 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 | - | ---------------- | ---------------- | ---------------------------------------------- |
 | 1 | Debrief Reyes na volta | Reyes / Valk | Reyes puxa o debrief no pátio / oficina na chegada |
 | 2 | Descanso residual | Valk | No Mule ou na tenda: braço, o Mule, ou cuidar dele. Sem hop na boca. |
-| 3 | Canal reserva | Kaz / Sparrow | Eles decidem quando usam. Sem tráfego direto. |
+| 3 | Canal reserva | ninguém nesta estrada | Existe. Mensagem fica no servidor. Não chama Kaz nem Sparrow aqui. |
 
 | Campo | Valor |
 | ----- | ----- |
@@ -104,21 +104,25 @@ Destino no nó, na nota ou num card de `set_lugares.md` está escrito: a viagem 
 
 Nó grande resolvido: escrever o próximo nó neste bloco antes da cena seguinte. Frase no chat não é nó. Rascunho curto basta, com hipótese marcada e campo vazio indefinido. Chegar com o nó em branco é o travamento. O fechamento grava a nota seguinte. Nota seguinte em branco bloqueia o sim.
 
+Lembrança e cena: o que está escrito se repete. Campo vazio continua vazio. Não nasce pessoa, facção, pista nem decisão. Cor cabe num distrito já listado: luz, ruído, um quarto, uma fila. Cor não responde pergunta, não entra no card e não volta.
+
+Preparo: ao criar job, card de lugar-nó, ou a nota que resolve uma situação. O produto é a nota, antes da cena. Teto e campos em `sistema/roteiro_pendencias.md`. Frase no chat não é nota.
+
+Fecho: pessoa de uma cena vira uma linha em quem ela serviu, com “não volta”. Lugar de cor não promove. Lugar que uma decisão futura usa ganha card. O que a cena respondeu deixa de ser indefinido.
+
+Porta: `fechada` ou `aberta`, na nota desta cena. Sem nota, vale o card. Fechada: só quem a nota pôs. Aberta: corpos já escritos, função sem nome. Aberta sem corpos, a abertura para. Corpo não traz plot e não nasce NPC novo no turno.
+
 Vida já na ficha, e viagem cujo destino já está escrito, não ganham nó cheio. Linha de AGENDA não é reação do nó.
 
 ### Nó atual
 
-Nota longa: [roteiro_pendencias.md](../sistema/roteiro_pendencias.md) § E015. Momento importante. A viagem existe para resolver quem chamou.
+Nota longa: [roteiro_pendencias.md](../sistema/roteiro_pendencias.md) § Reyes. A estrada não é o debrief.
 
-**Estado.** Fato: 05/08 noite, Mule no estacionamento do viaduto, janela aberta, segundo contato recuou sem entrega, token de um uso no chip. Valkirya no volante. Hipótese: o papel é do circuito já escrito, não de um corpo novo. Oculto na boca do ramo 3: hop, horário, debrief. A fala desta resolução, se houver, é ramo 1.
+**Estado.** Fato: 05/08 noite, Mule na estrada de volta ao Pack. Ryan no volante. Valkirya no carona. E015 fechado: Kaz chamou; Sparrow levou ao `motel`; token gasto; casca do chip no Warden, sem token. Canal reserva existe (Ryan, Kaz, Sparrow) e não é esta cena. Crew escrita e safehouse esperam em NC; Ryan não viu; não entram aqui. Oculto na boca do ramo 3: debrief, hop, horário. Steel: sem contato, fora do canal, sem custo escrito.
 
-**Saída.** Uma, se ele pede a mão ou se a janela que ele marcou acaba. O terceiro silêncio não é resposta.
+**Porta.** Fechada. `mule`. Só Ryan e Valkirya. Sem corpo de fora.
 
-1. Lina Park ou Marcus Rivera aparece e fala. Não é vulto mudo. Leva o Mule ao `motel`.
-2. No quarto, Kaz deixa de estar escondido nesta janela. Um assunto: quem chamou e por quê. Sem a clínica e sem a gente da origem.
-3. Se ele recusar os dois corpos: um recado no `motel` ou no `stick` diz quem chamou e fecha a cena. Sem ponto seguinte.
-
-Abortar antes: a janela se perde, o Mule sai, E015 fica “janela perdida”, debrief do Reyes na volta. Ninguém é puxado para a estrada. Fora desta nota não se inventa pessoa nem rua.
+**Saída.** Nenhuma na estrada. Na chegada, no `patio` ou na `oficina`, Reyes puxa o debrief. Um assunto: o que a recon viu. Se Ryan recusa, fica para a próxima vez em que os dois dividem o pátio ou a oficina. O que ele conta continua indefinido.
 
 **Trava 023 (não reabrir):** base = mensagem → manhã seguinte; 019 em vigor. **Não** reabrir o jantar como briga. **Não** reabrir SOP Condor como tutorial. **Não** reabrir o canyon do corte.
 
@@ -131,7 +135,7 @@ Abortar antes: a janela se perde, o Mule sai, E015 fica “janela perdida”, de
 
 ### Boca (boot — ramo antes da frase)
 
-NOW = ops no ponto → **ramo 1**. Pátio / Reyes / refeitório → **ramo 2**. Residual íntimo **alto**. Chat **023** não se herda.
+NOW = ops na estrada → **ramo 1**. Pátio / Reyes / refeitório → **ramo 2**. Residual íntimo **alto**. Chat **023** não se herda.
 
 1. **Rádio / ops / combate** — curta, seca, pessoa. Resultado primeiro. *“Contato no leste, abort no rádio. Eu na porta. Tu marca o tempo.”*
 2. **Pack social** — conversa diegética e fluida; uma fala de gente; corpo no meio; pode ter mais corpo; cada um pela ficha. Reyes: *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”*
@@ -172,7 +176,11 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 | ID | Uma linha |
 | -- | --------- |
-| **E015** | Chip **aberto** (token um uso); hop no segundo ponto; stick lido; segundo contato recuou sem entrega; janela aberta; decisão pendente; Lina Park sem ACK; Marcus Rivera mudo; Kaz escondido; saída escrita na nota |
+| **E015** | Resolvido. Kaz chamou. Token gasto. Casca do chip no Warden, sem token |
+| **Debrief** | Reyes, na chegada, no pátio ou na oficina. Não na estrada |
+| **Canal reserva** | Existe. Ryan, Kaz, Sparrow. Mensagem fica no servidor. Steel fora |
+| **Steel** | Sem contato. Sem custo escrito |
+| **Crew / safehouse** | Off-screen em NC, à espera. Ryan não viu. Não narrar no Pack |
 | **Cutter / E008** | Corte 04/08 feito (recon). 7 visíveis; lona morta. Debrief Pack pendente. |
 | **Base militar** | Perímetro externo mapeado; **não entra agora**; gatilho = mensagem → manhã seguinte |
 | **E019** | Olaria/cogeração — Pack (background) |
@@ -180,18 +188,18 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 
 ---
 
-## O que acabou de acontecer (030 — 1 parágrafo)
+## O que acabou de acontecer (032 — 1 parágrafo)
 
-05/08 noite: janela 10 min. Stick apontou Kaz. Canal antigo mudo. Hop fechado. Mule para em oficina_rua (Watson · Northside). Sem contato. Freeze: busca aberta, perímetro limpo.
+05/08 noite: Sparrow levou ao motel. Kaz chamou. O token era a pergunta. Canal reserva no servidor do Ryan, sem tráfego direto. Casca do chip no Warden, sem token. Volta ao Pack. Ryan no volante, Valkirya no carona. Debrief na chegada.
 
-Detalhe: [sessao_resumo_030.md](sessao_resumo_030.md)
+Detalhe: [sessao_resumo_032.md](sessao_resumo_032.md)
 
 ---
 
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · ~05/08/2026 noite · oficina_rua · Watson · Northside · Valk = residual · boca ramo 1 (ops; Pack = ramo 2) · chip aberto (token) · hop fechado · busca aberta · debrief Reyes pendente · próximo resumo: 032 · Ruleset 1.4.0
+Boot OK · ~05/08/2026 noite · estrada de volta ao Pack · Valk = residual · boca ramo 1 (ops; Pack = ramo 2) · E015 resolvido · canal reserva · debrief na chegada · próximo resumo: 033 · Ruleset 1.4.0
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.
