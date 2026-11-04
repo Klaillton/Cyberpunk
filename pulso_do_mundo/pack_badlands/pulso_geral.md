@@ -2,7 +2,7 @@
 
 **Pack:** Pack Nômade de Badlands (acampamento atual)  
 **Última atualização:** 03 de Agosto de 2026 (sessão 026)  
-**Contexto atual:** Ryan+Valk no Pack (~03/08 tarde, tenda). Chip E015 lacre intacto; hop NC 05/08 21h. Condor leste ainda no ar. Cutter = um corte após o céu. E020 cobra = ideia.
+**Contexto atual:** Ryan+Valk na estrada de volta ao Pack (~05/08 noite). E015 resolvido. Debrief na chegada. Crew e safehouse esperam em NC e não catalisam o Pack. Heat BT não muda sem ciclo.
 
 **Gap B1:** 29→30/07 sem d100 formal; estado derivado do resumo 021 (Pack estável). Retomar rolagem no próximo amanhecer (31/07).
 
@@ -16,7 +16,7 @@ _(Remover quando resolvido. Cada um concede +1 rolagem extra em linhas de impact
 
 - **E012 / F11** — Revelação **pública** das casas ainda adiada (+1 Reyes / Social até anúncio ao pack geral). E014 (produção) já resolvido.
 - **Drones públicos** (Condor/Corujas) — pack animado (+1 Social / Vida diária se Ryan ausente).
-- **E015** — Viagem encerrada (retorno 27/07). Residual Sparrow/ad = off-screen NC, **não** catalisa Pack até rumor público.
+- **E015** — Resolvido 05/08. Crew escrita à espera em NC. Não catalisa o Pack. Heat BT não muda sem ciclo.
 
 ---
 

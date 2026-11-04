@@ -4,7 +4,7 @@
 **Apelido de rua / handle de rádio:** **Steel**  
 **Tipo:** Contato de Ryan · Ex-Solo / contato militar  
 **Facção / contexto:** Independente · Night City  
-**Status:** Ativo · **fora de cena** (NC / canal) · E015
+**Status:** Ativo · **fora de cena** · sem contato na 032 · fora do canal reserva · sem custo escrito · não inventar o motivo do silêncio
 
 > **É uma pessoa (NPC), não um sistema, drone, protocolo nem “modo” de rádio.**  
 > Em narração: preferir **Steel** ou **Marcus “Steel” Rivera** como **quem** responde.  

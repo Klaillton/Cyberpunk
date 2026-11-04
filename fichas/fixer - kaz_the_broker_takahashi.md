@@ -102,11 +102,13 @@ RAW (core pg. 159–161) · mesa: [07_roles.md](../sistema/regras_red/07_roles.m
 Quando a crew (ou ele) precisa de alguém ou de alguma coisa:
 
 1. Kaz pergunta **quem**, não **como**.
-2. Se cabe no Reach / tier do 6: ele **já conhece alguém**. Narrar o nome **na hora**. Não consultar catálogo.
-3. O contato entra como **função + um traço**. Nome novo. Fica no mundo só se reaparecer.
+2. Se cabe no Reach / tier do 6: o nome nasce na nota de preparo, antes da cena. Sem nota, não narrar nome novo.
+3. O contato entra como **função + um traço**. Fica no mundo só se reaparecer. Se não reaparece: uma linha em quem ele serviu, com “não volta”. Sem ficha.
 4. **Rolar** Operator (ou Haggle) só se: raro demais para o rank, BT/heat atrapalha, o contato pode recusar, ou o preço/risco *é* o drama. Rotina dentro do Reach = sem rolagem.
 5. Ele não faz o trabalho. Se o matching falha: outro nome, ou recua.
 6. **Não** reusar Rosa, Mik, Nadia Chen. Origem encerrada. Nádia “Patch” Oliveira é contato da Stitch, outra pessoa.
+
+**032.** `oficina_rua`: dono sem nome, uma cena, não volta. Kaz já foi visto por essa porta. O card do lugar não tem dono fixo. Carregar a tag não põe esse homem na porta.
 
 ### Gavetas (não são NPCs)
 

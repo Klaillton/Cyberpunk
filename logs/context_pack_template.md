@@ -126,6 +126,14 @@ Destino no nó, na nota ou num card de `set_lugares.md` está escrito: a viagem 
 
 Nó grande resolvido: escrever o próximo nó neste bloco antes da cena seguinte. Rascunho curto basta, com hipótese marcada e campo vazio indefinido. Chegar com o nó em branco é o travamento. O fechamento grava a nota seguinte. Nota seguinte em branco bloqueia o sim.
 
+Lembrança e cena: o que está escrito se repete. Campo vazio continua vazio. Não nasce pessoa, facção, pista nem decisão. Cor cabe num distrito já listado: luz, ruído, um quarto, uma fila. Cor não responde pergunta, não entra no card e não volta.
+
+Preparo: ao criar job, card de lugar-nó, ou a nota que resolve uma situação. O produto é a nota, antes da cena. Teto e campos em `sistema/roteiro_pendencias.md`. Frase no chat não é nota.
+
+Fecho: pessoa de uma cena vira uma linha em quem ela serviu, com “não volta”. Lugar de cor não promove. Lugar que uma decisão futura usa ganha card. O que a cena respondeu deixa de ser indefinido.
+
+Porta: `fechada` ou `aberta`, na nota desta cena. Sem nota, vale o card. Fechada: só quem a nota pôs. Aberta: corpos já escritos, função sem nome. Aberta sem corpos, a abertura para. Corpo não traz plot e não nasce NPC novo no turno.
+
 Vida já na ficha, e viagem cujo destino já está escrito, não ganham nó cheio. Linha de AGENDA não é reação do nó.
 
 ### Nó atual

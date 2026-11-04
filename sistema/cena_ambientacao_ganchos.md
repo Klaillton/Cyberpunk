@@ -13,6 +13,7 @@
 | **Onde** estou + **como** chego/safo + **3–5 opções** legíveis | Parágrafo eterno de poesia a cada turno |
 | **Mudança de local** = bloco AMBIENTE novo | Re-descrever o mesmo cânion em todo turno |
 | **Ação depende do ambiente** = detalhes operacionais | Inventar landmark só para encher |
+| **Porta aberta** = corpos já escritos no card, sem nome | NPC novo com plot para encher o lugar |
 | **Situar (N13):** os mesmos itens **numa situação** | Imprimir o checklist (`Cobertura:`, `Pessoas:`, `Opções no ar:`) |
 
 **RPG só texto:** se o PC não “vê”, não pode escolher. Ambientação é **ferramenta de agência**, não enfeite.

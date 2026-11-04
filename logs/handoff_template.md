@@ -64,5 +64,6 @@ Confirme boot em 1 frase e continue a partir de: [gancho]
 ## Notas da IA ao gerar
 
 - Máx. ~1–2 telas; não recontar sessões antigas.
+- Porta da cena no prompt: `fechada` ou `aberta`. Aberta sem corpos no card não fecha o handoff.
 - IDs de `event_queue` quando existirem.
 - Segredos: marcar o que ainda é secreto in-fiction.

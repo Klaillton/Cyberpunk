@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 2026-10-31 (nota de saída e portas; sessão jogável continua 030)
+**Última atualização:** 2026-11-04 (estrada de volta ao Pack; debrief na chegada; sessão jogável 033)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -34,8 +34,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Hub de personagens (onde achar cada NPC) | `relacionamentos/mapa_relacional_geral.md` | `fichas/`, `relacionamentos/*_relacionamentos.md` |
 | Ficha mecânica de personagem (crew) | `fichas/<personagem>.md` | Relacionamento correspondente em `relacionamentos/` |
 | NPC secundário (personalidade + eventos) | `fichas/npc/<slug>.md` | [mapa_relacional_geral.md](../relacionamentos/mapa_relacional_geral.md), facção/job/sessão |
-| **Sparrow** (Lina Park) | `fichas/npc/lina_park.md` | E015 · residual sem ACK (019) |
-| **Steel** (Marcus Rivera) | `fichas/npc/marcus_steel_rivera.md` | E015 · mudo (019) · ≠ Echo Rivera |
+| **Sparrow** (Lina Park) | `fichas/npc/lina_park.md` | Falou na 032 · canal reserva · não está no Pack |
+| **Steel** (Marcus Rivera) | `fichas/npc/marcus_steel_rivera.md` | Sem contato na 032 · fora do canal · ≠ Echo Rivera |
 | **Nia Brooks** | `fichas/npc/nia_brooks.md` | Círculo da Alex · off-screen NC · retrato `imagens/nia_brooks.png` · não é triângulo com a Valk |
 | Detalhes de facção ativa | `facoes/pack_badlands.md` | `relacionamentos/faccao_relacionamentos.md`, `reputacao.md` |
 | Facções menores / superficiais | `facoes/faccoes_geral.md` | `relacionamentos/faccao_relacionamentos.md` |
@@ -100,13 +100,13 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Auditoria combates pré-017 (só leitura) | `plans/auditoria_combates_canonicos.md` | F18 — **não** retcon |
 | Agents OPSEC Ryan (Vault/Honeypot/…) | `plans/agent_security.md` | F19 · `ryan_loadout` · ≠ Warden drone |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `030`). Próximo número disponível: **032**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `032`). Próximo número disponível: **033**.
 
 ---
 
 ## Estrutura Geral do Projeto
 
-A tabela acima é o índice. Não há árvore de pastas neste arquivo. **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. **2026-09-28:** sessão **028**. **2026-10-14:** sessão **029**. **2026-10-14:** Pill, Warden e Vespas com ficha própria; `sistema/vozes.md`; freeze `logs/context_pack_pack.md` (não é boot). **2026-10-30:** sessão **030**. Próximo resumo: **032**.
+A tabela acima é o índice. Não há árvore de pastas neste arquivo. **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. **2026-09-28:** sessão **028**. **2026-10-14:** sessão **029**. **2026-10-14:** Pill, Warden e Vespas com ficha própria; `sistema/vozes.md`; freeze `logs/context_pack_pack.md` (não é boot). **2026-10-30:** sessão **030**. **2026-11-03:** sessão **032**. Próximo resumo: **033**. Manual de criação na nota de saída. Canal reserva, casca do chip, crew e safehouse à espera em NC.
 
 ---
 

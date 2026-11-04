@@ -32,6 +32,8 @@
 
 Não acionar pulsos de crew como cena local nas Badlands sem canal plausível (comlink, Kaz, etc.).
 
+Crew já contactada e safehouse à espera são relógio de Night City. Não viram cena do Pack. O heat da Biotechnica continua o relógio que `heat.md` e o catalisador do pulso geral já descrevem. O número do heat só muda quando um ciclo roda.
+
 ---
 
 ## 2. Ciclo diário (1× por dia in-game)

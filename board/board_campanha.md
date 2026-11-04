@@ -1,22 +1,22 @@
 # Campanha Cyberpunk RED - Ryan "Wireghost" Voss
 
-**Data Atual:** ~05 de Agosto de 2026 (noite) — oficina_rua · Watson · Northside  
-**Local:** Mule parado na frente da porta de metal · Valkirya no volante · hop fechado · sem contato
+**Data Atual:** ~05 de Agosto de 2026 (noite) — estrada de volta ao Pack  
+**Local:** Mule · Ryan no volante · Valkirya no carona · E015 resolvido · debrief na chegada
 
 ---
 
 ## Missão Atual
 
-Ryan "Wireghost" Voss e Valkirya no Mule, na oficina_rua (Watson · Northside). Hop E015 fechado. Stick apontou Kaz. Canal antigo mudo. Sem contato. Chip E015 **aberto** (token) no Warden. Debrief Reyes **ainda pendente**.
+Ryan "Wireghost" Voss e Valkirya no Mule, na estrada de volta ao Pack. E015 resolvido: Kaz chamou. Token gasto. Casca do chip no Warden, sem token. Canal reserva existe (Ryan, Kaz, Sparrow). Debrief Reyes **na chegada**, não na estrada. Crew escrita e safehouse esperam em NC. Ryan não viu. Steel sem contato.
 
 **Norte (SoT):** bloco **NORTE** em [context_pack_atual.md](../logs/context_pack_atual.md). **Não** duplicar a lista aqui.
 
 **Prioridade imediata:**
-1. Busca pela mão do Kaz na oficina_rua.  
-2. Debrief Reyes na volta.  
-3. Chip já aberto — não reler como lacre.  
+1. Debrief Reyes na chegada (pátio ou oficina). Não na estrada.  
+2. Canal reserva existe. Não chama ninguém nesta estrada.  
+3. Casca do chip no Warden, sem token.  
 4. Base militar: **não entra agora**; gatilho = mensagem → manhã seguinte.  
-5. Sparrow sem ACK; Steel mudo.  
+5. Steel sem contato, fora do canal, sem custo. Crew e safehouse esperam em NC.  
 6. Acordo 019 + residual íntimo alto.
 
 **Arco L1 + off-screen:** [arco_ativo.md](arco_ativo.md)
@@ -25,7 +25,7 @@ Ryan "Wireghost" Voss e Valkirya no Mule, na oficina_rua (Watson · Northside). 
 - Condor + Corujas; casas modulares (F11); Node; E019 olaria delegada; ideia assistente Reyes (cobra mimética).
 - Ideia 024: torre remota HMG + compensador (não construída). Traço de pintle com comando remoto (029; espera corpo).
 
-**Decisão de viagem:** NC 05/08 noite; voltar ao Pack quando fechar.
+**Decisão de viagem:** NC 05/08 noite fechou. Volta ao Pack em curso. Debrief na chegada.
 
 ---
 
@@ -47,7 +47,7 @@ Ryan "Wireghost" Voss e Valkirya no Mule, na oficina_rua (Watson · Northside). 
 
 - Heat Raffen: célula Cutter ferida; camp leste ainda lá (7 visíveis 04/08).
 - BT latente; rede NC cautelosa pós-jobs vazados.
-- Handle da **Sparrow** residual sem ACK — OPSEC deliberada.
+- Sparrow falou na 032 e está no canal reserva. Steel sem contato, fora do canal, sem custo.
 - “Problema com gente errada” ligado a Steel (indireto).
 
 ---
@@ -59,9 +59,9 @@ Ryan "Wireghost" Voss e Valkirya no Mule, na oficina_rua (Watson · Northside). 
 | **Lena “Valkirya” Kane** (Ryan: Valk, Morena) | Parceira | Amor + acordo ops 019 + intimidade 020–030 | F15 · F21; Lena em intimidade; Morena = carinho usual dele |
 | **Lira** | Pack | Residual positivo | Visor gancho 03/08; porta NC fechada 029 |
 | **Sasha** | Pack | Residual positivo | Visor gancho 03/08; porta NC fechada 029 |
-| **Lina “Sparrow” Park** | Contato NC (NPC) | Handle Sparrow | residual **sem ACK** |
-| **Marcus “Steel” Rivera** | Contato NC (NPC) | Handle Steel | mudo |
-| **Kaz “The Broker”** | Fixer crew | Off-screen | Escondido; montando crew |
+| **Lina “Sparrow” Park** | Contato NC (NPC) | Handle Sparrow | Falou na 032. Canal reserva. Não está no Pack |
+| **Marcus “Steel” Rivera** | Contato NC (NPC) | Handle Steel | Sem contato. Fora do canal. Sem custo |
+| **Kaz “The Broker”** | Fixer crew | NC, escondido | Crew à espera. Canal reserva. Não está no Pack |
 | **Reyes / Tio Gringo** | Pack | Corte 027 / oficina | Debrief pendente; forja 029 |
 | **Cutter** | Líder célula Raffen | Hostil (intel 024/027) | 7 visíveis 04/08 |
 

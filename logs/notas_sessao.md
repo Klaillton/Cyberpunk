@@ -2,7 +2,7 @@
 
 **Não é cânone.** Não entra no boot. Não distribuir daqui.  
 **Comando:** `[Anotar]` — playbook L em [comandos_jogador.md](../sistema/comandos_jogador.md).  
-**Sessão:** 030 (rascunho; ainda não finalizada)  
+**Sessão:** 033 (rascunho vazio; 032 já fechada)  
 No `[Finalizar]`, cada linha é **promove**, **fica** ou **não promove**. Dúvida é pergunta, não chute. `~NNN` = ficou da sessão NNN e volta a ser perguntada. “Não promove” sai com uma frase no resumo.
 
 Uma linha por fato. Sem prosa de cena.

@@ -10,7 +10,7 @@
 - Manter relação funcional com Kaz (já trabalhou com ele antes).
 - Se aproximar de Valk **quando** a crew se juntar (não agora).
 - Entender melhor quem é Ryan e o que Valk vê nele (só após reencontro).
-- Se integrar à crew de forma útil (como Netrunner) — **após** E015.
+- Já contactada por Kaz. A cena de integração espera a volta do Ryan a NC. Sem cena no Pack.
 
 ## Perguntas de Pulso
 
@@ -35,9 +35,7 @@
 
 ## Eventos Off-Screen Recentes
 
--
--
--
+- **05/08/2026:** Kaz já contactou. Aguarda a volta do Ryan em NC. Sem cena. Safehouse off-screen; Ryan não entrou.
 
 ## Relação com Valk
 

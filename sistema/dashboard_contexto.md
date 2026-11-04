@@ -3,20 +3,21 @@
 **Finalidade:** Arquivo auxiliar para consulta rápida da IA durante a narração.  
 **Não é o Board oficial** (ver `board/board_campanha.md`).  
 **Não é o tier-0** — use primeiro `logs/context_pack_atual.md`.  
-**Última atualização:** ~05 de Agosto de 2026 (pós-031)
+**Última atualização:** ~05 de Agosto de 2026 (noite · estrada de volta ao Pack · pós-032)
 
 ---
 
 ## 1. Situação Atual
 
-**Última verificação:** ~05/08/2026 (noite · oficina_rua · Watson · Northside)
+**Última verificação:** ~05/08/2026 (noite · estrada de volta ao Pack)
 
 **Resumo:**
 
-- **Mule parado na oficina_rua** — noite. Watson · Northside. Hop fechado. Sem contato. Valkirya no volante. Warden no corpo. Pill no fundo do Mule. Vespas em perímetro.
-- E015: chip **aberto** (token no Warden); stick apontou Kaz; canal antigo mudo; hop fechado.
-- Cutter: corte 04/08 feito (recon, sem tiro). Intel: 7 quentes; lona = fogueira morta. Debrief ainda pendente.
-- **Lina “Sparrow” Park:** residual sem ACK. **Marcus “Steel” Rivera** mudo. Kaz off-screen.
+- **Mule na estrada de volta ao Pack.** Ryan no volante. Valkirya no carona. Warden no corpo. Pill no fundo do Mule. Vespas em perímetro.
+- E015 resolvido. Kaz chamou. Casca do chip no Warden, sem token. Canal reserva existe (Ryan, Kaz, Sparrow).
+- Cutter: corte 04/08 feito (recon, sem tiro). Intel: 7 quentes; lona = fogueira morta. Debrief na chegada, não na estrada.
+- **Lina “Sparrow” Park:** falou na 032; no canal reserva. **Marcus “Steel” Rivera:** sem contato, fora do canal, sem custo. Kaz escondido em NC.
+- Crew escrita e safehouse esperam em NC. Ryan não viu. Não narrar no Pack.
 - Porta NC de Sasha/Lira fechada por Valkirya.
 
 ---
@@ -41,15 +42,15 @@
 
 - **Norte:** bloco NORTE no [context pack](../logs/context_pack_atual.md).
 - **L2:** [event_queue.md](../event_queue.md).
-- Hop NC segundo ponto (decisão pendente) · Debrief Pack na volta · base gatilhada
+- Debrief Reyes na chegada · canal reserva (não nesta estrada) · base gatilhada · crew à espera em NC
 
 ---
 
 ## 5. Localização
 
-- **Local:** estacionamento sob viaduto · segundo ponto hop
+- **Local:** estrada de volta ao Pack · Mule
 - **Data:** ~05/08/2026 noite
-- **Prioridade:** decisão continuar/abortar · debrief na volta
+- **Prioridade:** debrief na chegada · descanso residual · canal reserva sem chamada nesta estrada
 
 ---
 
@@ -63,4 +64,4 @@
 
 ---
 
-**Referências:** [Context pack](../logs/context_pack_atual.md) · [Board](../board/board_campanha.md) · [Sessão 030](../logs/sessao_resumo_030.md) · [Arco](../board/arco_ativo.md)
+**Referências:** [Context pack](../logs/context_pack_atual.md) · [Board](../board/board_campanha.md) · [Sessão 032](../logs/sessao_resumo_032.md) · [Arco](../board/arco_ativo.md)

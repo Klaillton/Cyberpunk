@@ -12,7 +12,7 @@
 - Manter o Echo Chamber gotejando sem queimar o nó.
 - Rolê **Uncredited** (saída com o Leo; ≠ Void List). **F24**.
 - Default **Fantasma (N1)** — Void List, funções, sem rosto.
-- Esperar Kaz montar a crew; o material da extração Vossler ainda é o cartão de visita.
+- Kaz já contactou. Ela espera em NC. Sem cena até Ryan voltar. O material da extração Vossler ainda é o cartão de visita.
 - Não ser Emilia de novo no screamsheet.
 
 ## Perguntas de Pulso
@@ -41,6 +41,7 @@
 
 - Recrutada por Kaz (pré-Pack) pelo encaixe Void List × voz.
 - Crew NC off-screen; Pack **não** é beat dela.
+- **05/08/2026:** Kaz já contactou. Aguarda a volta do Ryan em NC. Sem cena. Safehouse off-screen; Ryan não entrou.
 -
 
 ## Ganchos para Ryan (só após reencontro / canal)

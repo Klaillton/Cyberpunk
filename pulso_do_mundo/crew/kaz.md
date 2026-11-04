@@ -9,7 +9,7 @@
 
 ## Motivações Atuais
 
-- Montar uma equipe competente e confiável para jobs de maior escala.
+- Crew escrita contactada e à espera em NC (Ryan está na volta, com a Valk). Sem pessoa nova. Ele continua escondido. Canal reserva com Ryan e Sparrow.
 - Manter distância da Biotechnica enquanto reconstrói sua rede de contatos.
 - Aproveitar a reputação recente de Ryan e Valk (após o trabalho contra a BT) para conseguir melhores oportunidades.
 - Equilibrar os perfis da crew (técnico, combate, netrunning, médica, etc.).
@@ -40,9 +40,7 @@
 
 ## Eventos Off-Screen Recentes
 
--
--
--
+- **05/08/2026:** crew escrita contactada e montada. Esperam em NC a volta do Ryan. Safehouse off-screen; Ryan não entrou. Kaz escondido. Canal reserva com Ryan e Sparrow. Sem cena no Pack.
 
 ## Relação com a Crew
 

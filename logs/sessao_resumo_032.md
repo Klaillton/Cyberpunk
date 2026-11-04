@@ -55,7 +55,7 @@
 - E015: resolvido. Quem chamou = Kaz. Token = pergunta na mão. Canal reserva configurado (servidor de Ryan).
 - E008: debrief Reyes **ainda pendente**.
 - Pack: **sem delta**
-- **Novo:** próxima vez que Kaz for procurado deve finalizar de montar a crew. Estar escondido ≠ incomunicável para Ryan. Estar escondido ≠ ignorar montar a crew.
+- **Novo na hora:** canal reserva. A frase “próxima busca finaliza a crew” foi substituída depois: a crew escrita já está contactada e à espera em NC. Kaz escondido fala pelo canal reserva, e não aparece no Pack.
 
 ### Downtime / Projetos (Ryan)
 - **sem delta** (só RP operacional + config do canal)
@@ -76,10 +76,10 @@
 ---
 
 ## Pendências / Ganchos para Próxima Sessão
-- Debrief Reyes na volta (pátio / oficina).
-- Canal reserva: Kaz e Sparrow decidem quando usam.
-- Próxima busca por Kaz: finalizar montagem da crew. Escondido ≠ mudo para Ryan.
-- Sparrow/Steel: não forçar além do que já foi.
+- Debrief Reyes na chegada (pátio / oficina). Não na estrada.
+- Canal reserva: meio comum com Kaz e Sparrow. Mensagem fica no servidor.
+- Crew escrita e safehouse já esperam em NC. Sem cena no Pack.
+- Steel: sem contato. Fora do canal. Sem custo.
 
 ---
 

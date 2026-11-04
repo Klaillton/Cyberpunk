@@ -2,10 +2,12 @@
 
 **Uso:** planta curta. O boot não lê este arquivo inteiro.  
 **SET NOW** vive no `logs/context_pack_atual.md`. `[Carregar cena: <tag>]` abre só o § da tag.  
-**Onde achar:** a tabela abaixo. Até três tags por pessoa. Card não puxa ninguém para a cena. Quem entra é a nota de saída. Se a pessoa não está na tabela e a nota não a pôs, dizer isso uma vez.  
+**Onde achar:** a tabela abaixo. Até três tags por pessoa. O principal entra pela nota de saída. A porta do card diz se há corpos. O card não puxa principal. Se a pessoa não está na tabela e a nota não a pôs, dizer isso uma vez.  
+**Porta.** `fechada` ou `aberta`. Fechada: só quem a nota pôs. Aberta: a linha **Corpos** (função, sem nome, sem trama). Sem corpos, a abertura para. A nota desta cena pode inverter o padrão. Corpo não vira pessoa no meio do turno. Se o jogador falar com um corpo e isso importar, o fecho promove: “não volta”, ou essa função vira o principal da nota seguinte.  
 **Fora deste arquivo:** a safehouse da crew em NC ainda não foi ocupada. A planta futura está em `fichas/notas_narrador/safehouse_planta_futura.md`. Não é tag e não é SET NOW. A “casa” da sessão 011 neste arquivo é o protótipo do Pack, outro lugar.  
 **Não é tag até a revelação:** `deposito_ryan`. A Valk não sabe. Não contar na boca.  
 **Job:** lugar de job que não é porta de crew ganha um card curto aqui quando o job é preparado, ou no fechamento da sessão que o usou. Sem card, a porta trava.  
+**Distrito** do atlas, ou da lista abaixo, não é card. Cor dentro do distrito não promove.  
 **Fonte:** sessão 001 (gerador, máquinas), 003–004 (tendas), 011 (casa), 019 (garagem), 020 (extrusora), 026 (lona do banho). O circuito do banho e o nome das máquinas saíram do chat e foram confirmados pelo jogador em 25/09/2026. Não estavam nos resumos. **029:** torno com embreagem improvisada no avanço.
 
 Sem história de sessão. Sem voz. Sem SOP. Nome de marca só onde a ficha já tem. Nome em aberto não ganha letreiro.
@@ -36,7 +38,8 @@ Quem usa: Valk dirige; Ryan; quem ela levar
 O que É: van remendada, rack no teto, “THE MULE” na lateral. A cena de viagem acontece aqui dentro.  
 O que NÃO é: a garagem do Pack, nem a oficina do Tio.  
 Props: volante dela, rack do teto, poeira da estrada  
-Quem mexe: Valk. Planta do veículo: [vehicle - the_mule.md](../fichas/vehicle%20-%20the_mule.md).
+Quem mexe: Valk. Planta do veículo: [vehicle - the_mule.md](../fichas/vehicle%20-%20the_mule.md).  
+Porta: fechada. Só quem a nota pôs dentro.
 
 ## tenda · Ryan/Valk
 
@@ -47,7 +50,8 @@ O que É: tenda com banho próprio. O mesmo circuito está nas outras tendas que
 O que NÃO é: box comum, fila, lona de grade do acampamento.  
 Circuito: barril cortado ao meio em cima; manivela ou pedal gira uma corrente com discos dentro de um cano e sobe a água de um barril embaixo para o de cima. Uma concertina entra no barril e esquenta a água. A mesma concertina segue para a refrigeração: o ar resfriado pela água entra na tenda, e outro ventilador puxa o ar quente para fora.  
 Props: os dois barris, a concertina, óleo P002  
-Quem mexe: Ryan construiu. O Pack replicou o kit. Ninguém redesenha no meio da cena.
+Quem mexe: Ryan construiu. O Pack replicou o kit. Ninguém redesenha no meio da cena.  
+Porta: fechada. Ryan e Valk, ou quem a nota pôs.
 
 ## oficina · usinagem / forja
 
@@ -57,7 +61,8 @@ Quem usa: Tio Gringo, alunos, Ryan
 O que É: forja e usinagem no mesmo lugar. Depósito ligado a essa oficina. Sucata na prateleira esquerda.  
 O que NÃO é: a garagem do Rusty.  
 Máquinas (feitas no conserto do gerador principal): extrusora; torno (gira o bloco para desbastar; **029:** embreagem improvisada no motor de avanço — fio + relé corta corrente se o bit morder forte); máquina de corte; furadeira de bancada.  
-Quem mexe: Tio no dia a dia. Ryan nas máquinas que ele pôs. Rusty não manda aqui.
+Quem mexe: Tio no dia a dia. Ryan nas máquinas que ele pôs. Rusty não manda aqui.  
+Porta: aberta no dia. Corpos: Tio na forja; aluno na bancada, sem nome. A nota pode fechar.
 
 ## garagem · veículos
 
@@ -67,7 +72,8 @@ Quem usa: Rusty; o Mule quando está em casa
 O que É: oficina mecânica de veículo, sem baia marcada. Macaco, graxa, ferramenta de chassi. A porta trava.  
 O que NÃO é: a forja nem as quatro máquinas do Tio.  
 Props: macaco, graxa, chassi  
-Quem mexe: Rusty.
+Quem mexe: Rusty.  
+Porta: fechada. A porta trava. Rusty entra quando a nota o põe.
 
 ## refeitorio · comer junto
 
@@ -77,7 +83,8 @@ Quem usa: o Pack
 O que É: cozinha onde a comida é feita; vários bancos com mesas longas à frente; uma ou outra mesa separada, com cobertura. Quem senta muda. Esse esqueleto não.  
 O que NÃO é: sala fechada de cidade, nem planta nova a cada refeição.  
 Props: cozinha, mesa longa, mesa coberta  
-Quem mexe: quem cozinha naquele dia. Ninguém reforma a sala no meio do almoço.
+Quem mexe: quem cozinha naquele dia. Ninguém reforma a sala no meio do almoço.  
+Porta: aberta na refeição. Corpos: quem cozinha naquele dia; gente no banco, sem nome. A nota pode fechar.
 
 ## patio · playground
 
@@ -87,13 +94,21 @@ Quem usa: as crianças; Ryan quando está lá
 O que É: o playground que Ryan construiu para as crianças.  
 O que NÃO é: campo de treinamento.  
 Props: o playground  
-Quem mexe: Ryan construiu. O Pack usa.
+Quem mexe: Ryan construiu. O Pack usa.  
+Porta: aberta quando as crianças estão. Corpos: criança do pack, sem nome novo. Fora dessa hora a nota fecha.
 
 ---
 
 ## Night City · esta resolução
 
-Distrito único. Sem “ou”. Quem está na janela é a nota de saída, não o card. Carregar a tag não põe pessoa na porta.
+Distrito único por card. Sem “ou”. Quem está na janela é a nota de saída, não o card. Carregar a tag não põe pessoa na porta.
+
+### Distritos já usados
+
+| Distrito | O que a mesa tem |
+| -------- | ---------------- |
+| Watson | Cards `stick`, `oficina_rua`, `motel` |
+| Kabuki | Cor da 032: dois motéis de cash, e um quarto com banho e refeição. Não promove. Sem card |
 
 ### stick · ponto de contato
 
@@ -103,7 +118,8 @@ Quem usa: o hop. Kaz não mora aqui.
 O que É: ponto de hop. Lugar aberto, com saída fácil, sem dono. Desta tag a primeira saída da nota pode falar e levar o Mule. O contato mudo não volta.  
 O que NÃO é: base do Kaz, bar, oficina.  
 Props: asfalto molhado, viaduto, pouca luz  
-Quem mexe: ninguém. Quem fala, se falar, é a nota.
+Quem mexe: ninguém. Quem fala, se falar, é a nota.  
+Porta: aberta. Corpos: passagem sem nome. Sem dono.
 
 ### oficina_rua · sucata
 
@@ -113,7 +129,8 @@ Quem usa: ninguém fixo
 O que É: oficina pequena de carro e sucata. Porta de metal, chão sujo de óleo, espaço atrás. Sala possível. Sem dono escrito.  
 O que NÃO é: Night Market, base da crew, oficina do Ryan, oficina do Tio. Não é a clínica de Santo Domingo.  
 Props: macaco, peças, porta que tranca por dentro  
-Quem mexe: ninguém até a nota dizer quem está.
+Quem mexe: ninguém até a nota dizer quem está. O dono sem nome da 032 não está neste card e não volta.  
+Porta: fechada até a nota abrir. Se abrir: bancada, sem nome. O homem da 032 não volta.
 
 ### motel · quarto de uma noite
 
@@ -123,7 +140,8 @@ Quem usa: quem a nota puser nesta janela
 O que É: motel de pagamento em dinheiro, sem registro. Quarto simples, porta fina, saída rápida. É o lugar onde a nota do E015 pode fazer o Kaz deixar de estar escondido nesta janela.  
 O que NÃO é: safehouse, lugar fixo, ponto de encontro da crew, base.  
 Props: cama, janela para o beco, fechadura barata  
-Quem mexe: quem a nota nomear. Não deixa coisa quando a janela acaba.
+Quem mexe: quem a nota nomear. Não deixa coisa quando a janela acaba.  
+Porta: fechada. Só quem a nota pôs no quarto.
 
 ---
 
@@ -139,7 +157,8 @@ Quem usa: Nia Brooks serve. Alex entra.
 O que É: o bar onde a Nia trabalha. Fora do turno, terror barato.  
 O que NÃO é: namoro, triângulo com a Valk, Afterlife.  
 Props: balcão, copo  
-Quem mexe: Nia, no turno dela.
+Quem mexe: Nia, no turno dela.  
+Porta: aberta no turno da Nia. Corpos: balcão ocupado, sem nome. Nia é a principal quando a nota a põe.
 
 ### skate_nia · o círculo
 
@@ -149,7 +168,8 @@ Quem usa: Alex e o círculo
 O que É: onde andam de skate, sem objetivo.  
 O que NÃO é: job, campo de treino.  
 Props: skate, rua  
-Quem mexe: o círculo.
+Quem mexe: o círculo.  
+Porta: aberta. Corpos: o círculo, sem nome novo.
 
 ### canto_alex · canto de NET
 
@@ -159,7 +179,8 @@ Quem usa: Alex
 O que É: onde ela trabalha na NET, ouve rádio e guarda as figures.  
 O que NÃO é: a cozinha da Stitch, o bar da Nia.  
 Props: deck, rádio, figures  
-Quem mexe: Alex.
+Quem mexe: Alex.  
+Porta: fechada.
 
 ### stand_jax · placar
 
@@ -169,7 +190,8 @@ Quem usa: Jax
 O que É: um lugar só. Dardo, sinuca, academia. Ele trata como placar.  
 O que NÃO é: três endereços, arena da Reina.  
 Props: alvo, mesa, peso  
-Quem mexe: Jax.
+Quem mexe: Jax.  
+Porta: aberta. Corpos: gente no placar, sem nome. Jax é o principal quando a nota o põe.
 
 ### barraca_echo · comida barata
 
@@ -179,7 +201,8 @@ Quem usa: Echo. Ela leva o Jax.
 O que É: barraca ou lanchonete que ela já conhece. Comida barata.  
 O que NÃO é: pauta, campanha para mudar a dieta dele, a cozinha da Stitch.  
 Props: balcão de rua, banco  
-Quem mexe: quem serve. Sem nome escrito.
+Quem mexe: quem serve. Sem nome escrito.  
+Porta: aberta. Corpos: quem serve, sem nome; fila sem nome.
 
 ### sala_echo · a televisão
 
@@ -189,7 +212,8 @@ Quem usa: Echo. Jax é habitual, não obrigatório.
 O que É: a sala com a televisão. FPS e stream.  
 O que NÃO é: redação, screamsheet.  
 Props: televisão, sofá  
-Quem mexe: Echo.
+Quem mexe: Echo.  
+Porta: fechada. Jax entra quando a nota o põe.
 
 ### quarto_reina · quarto e saco
 
@@ -199,7 +223,8 @@ Quem usa: Reina
 O que É: o quarto dela. O saco de pancadas está nesse lugar.  
 O que NÃO é: arena, ginásio com nome, o quarto de outra pessoa.  
 Props: saco de pancadas, a cama  
-Quem mexe: Reina.
+Quem mexe: Reina.  
+Porta: fechada.
 
 ### treino_reina · com o Hook
 
@@ -209,7 +234,8 @@ Quem usa: Reina e Darius “Hook” Jhonson
 O que É: onde ele ainda treina com ela.  
 O que NÃO é: luta marcada, evento, a arena da Vicky.  
 Props: espaço para treino  
-Quem mexe: os dois, quando treinam. Sem sessão marcada neste card.
+Quem mexe: os dois, quando treinam. Sem sessão marcada neste card.  
+Porta: fechada. Reina e Hook quando a nota os põe.
 
 ### mesa_stitch · a mesa
 
@@ -219,7 +245,8 @@ Quem usa: Stitch. Jax come. Reina aparece.
 O que É: a mesa onde ela atende.  
 O que NÃO é: a clínica de baixo escalão do Migs, o Dr. Patch da Valk, Doc Moreau.  
 Props: mesa, bolsa de atendimento  
-Quem mexe: Stitch.
+Quem mexe: Stitch.  
+Porta: fechada. Stitch e quem a nota pôs na mesa.
 
 ### cozinha_stitch · a cozinha
 
@@ -229,7 +256,8 @@ Quem usa: Stitch. Alex ajuda quando está.
 O que É: a cozinha. Comida brasileira e portuguesa. O prato da Alex sai oito ou oitenta.  
 O que NÃO é: a cozinha da Mara, o refeitório do Pack.  
 Props: fogão, panela  
-Quem mexe: Stitch.
+Quem mexe: Stitch.  
+Porta: fechada. Alex entra quando a nota a põe.
 
 ### troca_nadia · a troca
 
@@ -239,7 +267,8 @@ Quem usa: Stitch e Nádia “Patch” Oliveira
 O que É: ponto de troca. Informação, suprimento, paciente.  
 O que NÃO é: o Dr. “Patch” da Valk. Não é Nadia Chen. Não é a clínica do Migs.  
 Props: estojo, o que foi trocado naquele dia  
-Quem mexe: as duas.
+Quem mexe: as duas.  
+Porta: fechada. Stitch e Nádia quando a nota as põe.
 
 ### uncredited · a porta
 
@@ -249,7 +278,8 @@ Quem usa: Leopold e Echo
 O que É: porta de festa e de salão. O nome já é este.  
 O que NÃO é: o job Void List. Não é a cozinha da Mara.  
 Props: porta, som  
-Quem mexe: quem está na porta. Sem evento marcado neste card.
+Quem mexe: quem está na porta. Sem evento marcado neste card.  
+Porta: fechada até a nota marcar evento. Se abrir: gente na porta, sem nome. Sem festa inventada.
 
 ### cozinha_mara · cozinha comunitária
 
@@ -259,7 +289,8 @@ Quem usa: Mara Velez. Leopold aparece.
 O que É: cozinha comunitária que ela administra ou ajuda a administrar. Ela o trata como moleque, não como Prometheus.  
 O que NÃO é: a Mara recruta do Pack. Não é a cozinha da Stitch.  
 Props: panela grande, fila  
-Quem mexe: Mara.
+Quem mexe: Mara.  
+Porta: aberta. Corpos: fila, sem nome. Mara é a principal quando a nota a põe.
 
 ### pista_leo · a pista
 
@@ -269,7 +300,8 @@ Quem usa: Leopold, quando empurra a crew para a pista
 O que É: o tipo de saída. Pista, não salão.  
 O que NÃO é: corrida marcada, evento, o Uncredited.  
 Props: asfalto  
-Quem mexe: ninguém até a cena pedir. Este card não marca corrida.
+Quem mexe: ninguém até a cena pedir. Este card não marca corrida.  
+Porta: fechada até a cena pedir. Se abrir: gente na beira, sem nome. Sem corrida marcada.
 
 ---
 
@@ -281,4 +313,5 @@ Quem usa: Ryan
 O que É: seis carros de luxo e quatro motos de luxo, presentes de relações anteriores. Não é uso do dia.  
 O que NÃO é: a safehouse, o depósito de material do Pack, a garagem do Rusty, a Mule.  
 Quem mexe: Ryan, quando ele abrir.  
+Porta: fechada. Não é tag até ele revelar.  
 **Não é tag e não é SET NOW** até essa revelação. `[Carregar cena]` não abre. A Valk não sabe. Não contar na boca. Lista e o que continua aberto: [nota](../fichas/notas_narrador/ryan_veiculos_relacoes.md).

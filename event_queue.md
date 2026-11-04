@@ -16,7 +16,7 @@
 | E011 | Visita à **Doc Moreau** (Elisa) | Pendente | Média | Médio prazo | Ryan prometeu; Valk quer ir junto — **não** é Stitch; item de **E015** |
 | **E012** | Montagem protótipo casas + escala / revelação ao pack | Em andamento | Alta | Médio prazo | Externo OK; interno em modelagem; revelação pack geral parcial |
 | **E014** | **Resposta de Reyes** sobre protótipo casas modulares | **Resolvido (implícito)** | — | — | Revelação **pública** ao pack geral ainda em E012 |
-| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Resolvido (032)** | — | — | Quem chamou = Kaz. Token = pergunta na mão. Canal reserva configurado (servidor de Ryan). Sparrow levou ao motel. Kaz no quarto. Sem a clínica. |
+| **E015** | Viagem / assuntos Ryan em Night City (com Valk) | **Resolvido (032)** | — | — | Quem chamou = Kaz. Token gasto. Casca sem token no Warden. Canal reserva (Ryan, Kaz, Sparrow). Crew à espera em NC. Steel sem contato. Sem a clínica. |
 | E016 | Tutoria Valk + Sasha/Lira (assistentes) | Em andamento | Média | Contínuo | Residual 019–029; visor gancho 03/08; porta NC fechada por Valk 029; não foram ao chão Cutter |
 | E017 | Enxame mini-drones (ideia / sondagem) | Em andamento | Baixa | — | Não prioritário vs E015 |
 | E018 | Modelo 3D / base militar | Pendente | Baixa | — | Mapeamento **externo completo** 022; sem infiltração; **023:** entrada gatilhada (mensagem → manhã seguinte) |

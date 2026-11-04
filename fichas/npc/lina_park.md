@@ -4,7 +4,7 @@
 **Apelido de rua / handle de rádio:** **Sparrow**  
 **Tipo:** Contato de Ryan · Fixer / especialista em drones  
 **Facção / contexto:** Independente · Night City (opera também na borda Badlands)  
-**Status:** Ativo · **fora de cena** (NC / canal) · E015
+**Status:** Ativo · **fora de cena** (NC) · falou na 032 e levou ao motel · no canal reserva com Ryan e Kaz · não está no Pack
 
 > **É uma pessoa (NPC), não um sistema, drone, protocolo nem “modo” de rádio.**  
 > Em narração: preferir **Sparrow** ou **Lina “Sparrow” Park** como **quem** responde.  

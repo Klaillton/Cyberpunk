@@ -120,7 +120,7 @@
 | | - NPCs → relacionamentos relevantes |
 | | - **1+ dia in-game** → [pulso_procedimento.md](pulso_procedimento.md) (ciclos faltantes ou gap B1 documentado); região atual only |
 | | - **Sempre:** `logs/context_pack_atual.md` (incl. **NORTE** + **AGENDA DA CENA** do NOW; se **local/região mudou**, reescrever agenda inteira; **NORTE:** só a linha cujo horizonte mudou; **META-ROTEIRO:** a regra fica; o nó mora neste bloco; frase no chat não é nó; reescrever o nó se o momento resolveu) + `logs/handoff_atual.md` |
-| | - **Momento importante ou job:** três linhas no rascunho, antes do sim. (1) Nota: saída jogada, o que ficou fato, o que continua hipótese. Se o momento fechou, a nota seguinte já escrita, com uma direção e uma forma de resolver. O nó aponta para ela. Nota seguinte em branco bloqueia o sim, como uma linha `?`. (2) Pessoa que cumpriu o papel. Já existia: relacionamento, se houve delta. De fora do roster: o jogador diz se é recorrente (ficha mínima + mapa) ou só deste job (tabela do job). Dúvida é `?`. (3) Lugar em que a cena fechou. Card já existe, ou promove para `set_lugares.md`. Sem card e sem “não promove”, não fecha. |
+| | - **Momento importante ou job:** três linhas no rascunho, antes do sim. (1) Nota: saída jogada, o que ficou fato, o que continua hipótese. Se o momento fechou, a nota seguinte já escrita, com uma direção e uma forma de resolver. O nó aponta para ela. Nota seguinte em branco bloqueia o sim, como uma linha `?`. (2) Pessoa que cumpriu o papel. Já existia: relacionamento, se houve delta. De fora do roster: o jogador diz se é recorrente (ficha mínima + mapa) ou só deste job (tabela do job). Dúvida é `?`. Pessoa nova nasce na nota, pelo checklist de `roteiro_pendencias.md`, não no meio da cena. (3) Lugar em que a cena fechou. Card já existe, ou promove para `set_lugares.md`. Sem card e sem “não promove”, não fecha. Cor não promove. |
 | | - **Cada linha** de `logs/notas_sessao.md` entra na tabela com um destino: **promove** (seção sugere o arquivo; dúvida não escolhe), **fica** (continua no rascunho), ou **não promove** (sai, com uma frase no resumo). Destino incerto = `?`. Não chutar. |
 | | - `registro_arquivos` se novo resumo ou arquivo |
 | 6 | **Mostrar ao jogador:** (1) resumo completo; (2) tabela Arquivo → mudança (incluir linhas “sem delta” se quiser transparência); (3) cada nota com promove / fica / não promove / `?`. |
@@ -155,7 +155,8 @@
 [ ] Context pack (NOW + NORTE + AGENDA + META-ROTEIRO: regra preservada, nó reescrito se o momento resolveu) + handoff
 [ ] Nota de saída: saída jogada, fato vs hipótese, nota seguinte se o momento fechou. Em branco bloqueia o sim
 [ ] Pessoa do papel: já escrita, ou recorrente (ficha) vs só deste job. `?` antes do sim
-[ ] Lugar da cena: card existe, ou promove para set_lugares. Sem card e sem “não promove”, não fecha
+[ ] Lugar da cena: card existe, ou promove para set_lugares. Sem card e sem “não promove”, não fecha. Cor não promove. Pessoa ou lugar novo nasce na nota (`roteiro_pendencias.md`)
+[ ] Porta: fechada (só quem a nota pôs) ou aberta (corpos no card). Aberta sem corpos bloqueia a abertura
 [ ] Notas: cada linha com promove / fica / não promove; `?` respondido antes do sim; “fica” permanece com ~NNN
 [ ] Resumo lista paths avaliados
 ```

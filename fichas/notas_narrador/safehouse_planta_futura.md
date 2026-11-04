@@ -1,7 +1,7 @@
 # Safehouse da crew — planta futura (narrador)
 
 **Status:** folded em 2026-10-23. Fonte longa: [plans/Notas_extras_safehouse_e_dinamicas.md](../../plans/Notas_extras_safehouse_e_dinamicas.md).  
-**Isto não é SET NOW.** A crew ainda não se reuniu nesta casa. Kaz reúne depois. Não é boot. Não abre com `[Carregar cena]`. Não entra em `logs/context_pack_atual.md` nem no handoff.
+**Isto não é SET NOW.** Off-screen, Kaz já tem a casa e a crew escrita espera. Ryan não entrou. Não narrar nas Badlands. Não é boot. Não abre com `[Carregar cena]`. Não entra em `logs/context_pack_atual.md` nem no handoff.
 
 Não é o protótipo de casa da sessão 011 no Pack (`sistema/set_lugares.md`). Não é o motel Red Mercury do job 001. Não é a oficina nem o depósito de material do Pack. O depósito privado de luxo do Ryan também não fica aqui: [nota](ryan_veiculos_relacoes.md).
 

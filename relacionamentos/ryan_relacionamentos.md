@@ -43,7 +43,7 @@
 - Ryan e Valk juntos de forma estável e cúmplices.
 - Acordo 019 em vigor (perguntar, não caderno).
 - Residual íntimo 020–029 alto.
-- Ad: chip E015 **aberto** (token no Warden morto); hop NC **05/08 após 21h**; –300 eb (021).
+- Ad: E015 resolvido 05/08. Token gasto. Casca em branco no Warden. Canal reserva com Kaz e Sparrow. –300 eb (021).
 - Valk **não** usa “herói” / “herói solitário” (**F15**).
 
 **Notas do Narrador:**
