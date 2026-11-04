@@ -12,7 +12,7 @@ Fora da nota não se inventa pessoa, lugar, facção ou trama. Hipótese não vi
 
 ---
 
-## E015 · quem chamou a Night City
+## E015 · quem chamou a Night City (resolvido 032)
 
 **Por que a cena existe.** A viagem a NC é para resolver quem chamou. Fato: ~05/08/2026, noite, Mule no estacionamento do viaduto (`stick`), janela aberta, segundo contato recuou sem entrega, chip com token de um uso. Valkirya no volante.
 
@@ -66,3 +66,7 @@ Fora da nota não se inventa pessoa, lugar, facção ou trama. Hipótese não vi
 **Custo de recusar.** O camp leste segue como na recon de 04/08. Sem evento novo para encher a espera.
 
 **Indefinido.** Quando Ryan volta. O que ele reporta.
+
+
+## Nota seguinte (pós-032)
+Debrief Reyes na volta (já escrito acima). Próxima busca por Kaz: finalizar montagem da crew. Estar escondido ≠ incomunicável para Ryan. Estar escondido ≠ ignorar montar a crew.

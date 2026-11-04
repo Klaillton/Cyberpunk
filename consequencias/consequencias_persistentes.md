@@ -367,3 +367,9 @@ Volta ao Pack de manhã. Sono até ~almoço. Banho = espaço próprio da tenda (
 - [Reputação](../reputacao.md) · [Heat](../heat.md) · [Event Queue](../event_queue.md) · [Economia](../economia.md)
 - [Ryan](../relacionamentos/ryan_relacionamentos.md) · [Facções](../relacionamentos/faccao_relacionamentos.md) · [Mapa Relacional](../relacionamentos/mapa_relacional_geral.md)
 - [Sessão 012](../logs/sessao_resumo_012.md) · [Sessão 019](../logs/sessao_resumo_019.md) · [Sessão 020](../logs/sessao_resumo_020.md) · [Downtime](../logs/downtime_ryan.md)
+
+## 05 de Agosto de 2026 - Resolução E015 e regra Kaz (sessão 032)
+
+E015 resolvido: Kaz “The Broker” Takahashi chamou. Token de um uso = a pergunta na mão dele. Canal reserva (VPN + servidor de Ryan) configurado para os três Agents; mensagens ficam no servidor até conexão; sem tráfego direto. Sparrow levou ao motel. Kaz no quarto. Sem a clínica.
+
+**Regra nova (032):** próxima vez que Kaz for procurado deve finalizar de montar a crew. Estar escondido ≠ incomunicável para Ryan. Estar escondido ≠ ignorar montar a crew.

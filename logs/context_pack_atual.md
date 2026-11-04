@@ -1,9 +1,9 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **031** · **Próxima:** **032** (`sessao_resumo_032.md`)  
+**Gerado após:** sessão **032** · **Próxima:** **033** (`sessao_resumo_033.md`)  
 **Branch:** `feature/linha-estavel`  
-**Atualizado:** ~05 de Agosto de 2026 (noite) — oficina_rua · Watson · Northside
+**Atualizado:** ~05 de Agosto de 2026 (noite) — estrada de volta ao Pack
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
 > **Arco + off-screen (L1):** [board/arco_ativo.md](../board/arco_ativo.md) — sob demanda / se estagnar.  
@@ -39,16 +39,16 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 | ----- | ----- |
 | Data in-game | **~05/08/2026** |
 | Período | Noite |
-| Região | **Night City** (estacionamento sob viaduto) |
-| Local específico | Mule. Valkirya no volante. Warden no corpo. Chip E015 **aberto** (token) no Warden. Pill no fundo do Mule. Vespas em perímetro. Janela de 1h aberta. Segundo contato recuou sem entrega. |
-| Facção / base local | — (hop NC) |
-| Cena / gancho | Segundo ponto do hop. Decisão continuar/abortar pendente. Debrief Reyes pendente na volta. |
-| Prioridade | (1) Decisão no ponto (2) Debrief na volta (3) Quem chamou, pela nota. Não puxar se ele está noutra coisa |
+| Região | **Estrada de volta ao Pack** (saindo de Kabuki / Night City) |
+| Local específico | Mule. Ryan no volante. Valkirya no carona (cabeça na coxa). Warden no corpo. Pill no fundo do Mule. Vespas em perímetro. E015 resolvido. Canal reserva configurado. Debrief Reyes pendente. |
+| Facção / base local | — (volta ao Pack) |
+| Cena / gancho | Volta ao Pack. Debrief Reyes na chegada. |
+| Prioridade | (1) Debrief Reyes (2) Descanso residual (3) Canal reserva em uso futuro |
 | Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira fechado por Valkirya |
 
 ### SET NOW
 
-Mule parado na frente da porta de metal da oficina_rua. Valkirya no volante. Warden no corpo. Pill no fundo do Mule. Vespas em perímetro. Hop fechado. Sem contato.
+Mule na estrada de volta ao Pack. Ryan no volante. Valkirya no carona. Warden no corpo. Pill no fundo do Mule. Vespas em perímetro. E015 resolvido. Canal reserva configurado. Debrief Reyes pendente.
 
 Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** abrir no boot nem no Refresh.
 
@@ -58,7 +58,7 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 
 | Horizonte | Norte |
 | --------- | ----- |
-| **Curto** (hoje / sessão) | Busca pela mão do Kaz na oficina_rua. Hop fechado. |
+| **Curto** (hoje / sessão) | Debrief Reyes na volta ao Pack. |
 | **Médio** (1–3 sessões) | Hop NC (E015, token no chip). Quem chamou, pela nota. Voltar ao Pack. Debrief Reyes. |
 | **Longo** (campanha) | Pack casas/Node/olaria. Doc E011. Crew NC. |
 | **Fora agora** | Base militar. Raid Cutter. Reabrir jantar 023 / SOP Condor / caixa 101 / canyon. |
@@ -74,16 +74,16 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 
 | # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
 | - | ---------------- | ---------------- | ---------------------------------------------- |
-| 1 | Quem chamou (nota E015) | A nota | Janela acaba ou ele pede a mão → uma saída da nota. Sem vulto mudo |
-| 2 | Debrief Reyes na volta | Reyes / Valk | Reyes puxa o debrief no pátio / oficina na volta |
-| 3 | Cobertura no Mule | Valk | No primeiro turno: braço no volante, o Mule, ou cuidar dele. Sem hop na boca. |
+| 1 | Debrief Reyes na volta | Reyes / Valk | Reyes puxa o debrief no pátio / oficina na chegada |
+| 2 | Descanso residual | Valk | No Mule ou na tenda: braço, o Mule, ou cuidar dele. Sem hop na boca. |
+| 3 | Canal reserva | Kaz / Sparrow | Eles decidem quando usam. Sem tráfego direto. |
 
 | Campo | Valor |
 | ----- | ----- |
-| **Modo atual** | Busca NC → oficina_rua |
+| **Modo atual** | Volta ao Pack → debrief |
 | **Turnos sem delta (estimado)** | 0 |
-| **Região / local (NOW)** | NC · oficina_rua · Watson · Northside |
-| **Arco L1** | E015 (chip aberto · hop em andamento) · [arco_ativo.md](../board/arco_ativo.md) |
+| **Região / local (NOW)** | Estrada · volta ao Pack |
+| **Arco L1** | E015 resolvido · debrief Reyes pendente · [arco_ativo.md](../board/arco_ativo.md) |
 
 ## META-ROTEIRO (regra estável)
 
