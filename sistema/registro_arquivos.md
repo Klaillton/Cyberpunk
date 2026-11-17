@@ -1,6 +1,6 @@
 # Registro de Arquivos do Projeto - Cyberpunk RED
 
-**Última atualização:** 2026-11-04 (estrada de volta ao Pack; debrief na chegada; sessão jogável 033)
+**Última atualização:** 2026-11-17 (sessão 033: debrief feito, destilaria prática, tenda residual; sessão jogável 034)
 
 Este arquivo é o **índice central** do projeto. A IA deve consultá-lo primeiro para identificar onde buscar cada tipo de informação.
 
@@ -100,19 +100,19 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | Auditoria combates pré-017 (só leitura) | `plans/auditoria_combates_canonicos.md` | F18 — **não** retcon |
 | Agents OPSEC Ryan (Vault/Honeypot/…) | `plans/agent_security.md` | F19 · `ryan_loadout` · ≠ Warden drone |
 
-**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `032`). Próximo número disponível: **033**.
+**Padrão de resumos de sessão:** `logs/sessao_resumo_XXX.md` (ex.: `001` … `033`). Próximo número disponível: **034**.
 
 ---
 
 ## Estrutura Geral do Projeto
 
-A tabela acima é o índice. Não há árvore de pastas neste arquivo. **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. **2026-09-28:** sessão **028**. **2026-10-14:** sessão **029**. **2026-10-14:** Pill, Warden e Vespas com ficha própria; `sistema/vozes.md`; freeze `logs/context_pack_pack.md` (não é boot). **2026-10-30:** sessão **030**. **2026-11-03:** sessão **032**. Próximo resumo: **033**. Manual de criação na nota de saída. Canal reserva, casca do chip, crew e safehouse à espera em NC.
+A tabela acima é o índice. Não há árvore de pastas neste arquivo. **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. **2026-09-28:** sessão **028**. **2026-10-14:** sessão **029**. **2026-10-14:** Pill, Warden e Vespas com ficha própria; `sistema/vozes.md`; freeze `logs/context_pack_pack.md` (não é boot). **2026-10-30:** sessão **030**. **2026-11-03:** sessão **032**. **2026-11-17:** sessão **033**. Próximo resumo: **034**. Manual de criação na nota de saída. Canal reserva, casca do chip, crew e safehouse à espera em NC. Debrief feito. Destilaria com alívio.
 
 ---
 
 ## Observações Gerais
 
 - O `registro_arquivos.md` é o **arquivo de referência central**.
-- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **032**.
+- **Resumos de Sessão:** Padrão `logs/sessao_resumo_XXX.md`. Próximo número: **034**.
 - **Ruleset:** v1.4.0 em `sistema/regras_red/` (atual; 017–028 = 1.3.0; F18).
 - O **Source of Truth** permanece nos arquivos do repo (`feature/linha-estavel`).

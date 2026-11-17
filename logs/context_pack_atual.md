@@ -1,9 +1,9 @@
 # Context Pack atual (tier-0)
 
 **Finalidade:** único arquivo **mínimo** que a IA deve ler/re-ler para não esquecer o estado.  
-**Gerado após:** sessão **032** · **Próxima:** **033** (`sessao_resumo_033.md`)  
+**Gerado após:** sessão **033** · **Próxima:** **034** (`sessao_resumo_034.md`)  
 **Branch:** `feature/linha-estavel`  
-**Atualizado:** ~05 de Agosto de 2026 (noite) — estrada de volta ao Pack
+**Atualizado:** ~06 de Agosto de 2026 (tarde) — tenda · Pack
 
 > **Não é o board.** Detalhe em `board/board_campanha.md`.  
 > **Arco + off-screen (L1):** [board/arco_ativo.md](../board/arco_ativo.md) — sob demanda / se estagnar.  
@@ -37,18 +37,18 @@ Detalhe: [motor_cena_1pager.md](../sistema/motor_cena_1pager.md) · N13: [diretr
 
 | Campo | Valor |
 | ----- | ----- |
-| Data in-game | **~05/08/2026** |
-| Período | Noite |
-| Região | **Estrada de volta ao Pack** (saindo de Kabuki / Night City) |
-| Local específico | Mule. Ryan no volante. Valkirya no carona (cabeça na coxa). Warden no corpo. Casca do chip no Warden, sem token. Pill no fundo do Mule. Vespas em perímetro. E015 resolvido. Canal reserva existe. Debrief Reyes na chegada, não nesta estrada. |
-| Facção / base local | — (volta ao Pack) |
-| Cena / gancho | Volta ao Pack. Debrief Reyes na chegada. |
-| Prioridade | (1) Debrief Reyes (2) Descanso residual (3) Canal reserva em uso futuro |
+| Data in-game | **~06/08/2026** |
+| Período | Tarde |
+| Região | **Pack Badlands** |
+| Local específico | Tenda dos dois. Residual íntimo alto. Dia passado quieto com Valk. Debrief Reyes feito. Destilaria com alívio pronta (primeiro ciclo sob Elias). |
+| Facção / base local | Pack |
+| Cena / gancho | Descanso residual. Rotina Pack. |
+| Prioridade | (1) Descanso (2) Destilaria primeiro aquecimento se puxar (3) Canal reserva quieto |
 | Segredos ativos | Casas modulares — pack geral sem revelação completa; convite NC a Sasha/Lira fechado por Valkirya |
 
 ### SET NOW
 
-Mule na estrada de volta ao Pack. Porta fechada: só Ryan e Valkirya. Sem corpo de fora. Warden no corpo. Casca do chip no Warden, sem token. Pill no fundo do Mule. Vespas em perímetro. E015 resolvido. Canal reserva existe (Ryan, Kaz, Sparrow). Debrief na chegada, de noite, porta fechada: Reyes e quem veio no Mule. Crew e safehouse esperam em NC; não entram nesta cena.
+Tenda. Porta fechada: Ryan e Valkirya. Residual alto. Warden perto. Pill no fundo do Mule (garagem). Vespas no Mule. Debrief feito. Destilaria parada até primeiro ciclo.
 
 Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** abrir no boot nem no Refresh.
 
@@ -58,15 +58,15 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 
 | Horizonte | Norte |
 | --------- | ----- |
-| **Curto** (hoje / sessão) | Debrief Reyes na volta ao Pack. |
-| **Médio** (1–3 sessões) | Debrief na chegada. Crew e safehouse esperam em NC, fora desta cena. Canal reserva com Kaz e Sparrow. |
+| **Curto** (hoje / sessão) | Descanso residual na tenda. Destilaria primeiro ciclo se puxar. |
+| **Médio** (1–3 sessões) | Canal reserva com Kaz e Sparrow. Crew e safehouse esperam em NC, fora desta cena. |
 | **Longo** (campanha) | Pack casas/Node/olaria. Doc E011. Crew NC. |
 | **Fora agora** | Base militar. Raid Cutter. Reabrir jantar 023 / SOP Condor / caixa 101 / canyon. |
 
-### Cena de abertura sugerida (033)
+### Cena de abertura sugerida (034)
 
-**Não continuar o chat da 032.**  
-05/08 noite, Mule na estrada de volta ao Pack. Ryan no volante. Valkirya no carona. Residual íntimo alto. Debrief do Reyes na chegada, no pátio ou na oficina. Não na estrada. Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon.
+**Não continuar o chat da 033.**  
+06/08 tarde, tenda. Residual íntimo alto. Dia passou quieto. Debrief feito. Destilaria pronta. Não reabrir jantar 023 nem SOP Condor nem a caixa da 101 nem o canyon nem a base.
 
 ---
 
@@ -74,16 +74,16 @@ Pack deixado na saída: [context_pack_pack.md](context_pack_pack.md). **Não** a
 
 | # | Gancho (1 linha) | Quem age se idle | Se Ryan idle / mood ≥3 turnos → o narrador faz |
 | - | ---------------- | ---------------- | ---------------------------------------------- |
-| 1 | Debrief Reyes na volta | Reyes / Valk | Reyes puxa o debrief no pátio / oficina na chegada |
-| 2 | Descanso residual | Valk | No Mule ou na tenda: braço, o Mule, ou cuidar dele. Sem hop na boca. |
-| 3 | Canal reserva | ninguém nesta estrada | Existe. Mensagem fica no servidor. Não chama Kaz nem Sparrow aqui. |
+| 1 | Descanso residual | Valk | Na tenda: braço, fome, ou cuidar dele. Sem hop na boca. |
+| 2 | Destilaria primeiro ciclo | Elias | Se puxar: observa o peso/apito. Não força. |
+| 3 | Canal reserva | ninguém nesta tenda | Existe. Mensagem fica no servidor. Não chama aqui. |
 
 | Campo | Valor |
 | ----- | ----- |
-| **Modo atual** | Volta ao Pack → debrief |
+| **Modo atual** | Descanso Pack |
 | **Turnos sem delta (estimado)** | 0 |
-| **Região / local (NOW)** | Estrada · volta ao Pack |
-| **Arco L1** | E015 resolvido · debrief Reyes pendente · [arco_ativo.md](../board/arco_ativo.md) |
+| **Região / local (NOW)** | Pack · tenda |
+| **Arco L1** | Debrief feito · destilaria prática · [arco_ativo.md](../board/arco_ativo.md) |
 
 ## META-ROTEIRO (regra estável)
 
@@ -116,13 +116,13 @@ Vida já na ficha, e viagem cujo destino já está escrito, não ganham nó chei
 
 ### Nó atual
 
-Nota longa: [roteiro_pendencias.md](../sistema/roteiro_pendencias.md) § Reyes. A estrada não é o debrief.
+Nota longa: [roteiro_pendencias.md](../sistema/roteiro_pendencias.md) § rotina. Debrief fechado.
 
-**Estado.** Fato: 05/08 noite, Mule na estrada de volta ao Pack. Ryan no volante. Valkirya no carona. E015 fechado: Kaz chamou; Sparrow levou ao `motel`; token gasto; casca do chip no Warden, sem token. Canal reserva existe (Ryan, Kaz, Sparrow) e não é esta cena. Crew escrita e safehouse esperam em NC; Ryan não viu; não entram aqui. Oculto na boca do ramo 3: debrief, hop, horário. Steel: sem contato, fora do canal, sem custo escrito.
+**Estado.** Fato: 06/08 tarde, tenda. Residual alto. Debrief Reyes feito (8 hostis reportados, sem raid, base fora). Destilaria com alívio de peso + disco, pronta, barril parado. Canal reserva existe, não usado. Crew/safehouse off-screen NC.
 
-**Porta.** Fechada. `mule`. Só Ryan e Valkirya. Sem corpo de fora.
+**Porta.** Fechada. `tenda`. Ryan e Valkirya.
 
-**Saída.** Nenhuma na estrada. Na chegada, no `patio` ou na `oficina`, Reyes puxa o debrief. Um assunto: o que a recon viu. Se Ryan recusa, fica para a próxima vez em que os dois dividem o pátio ou a oficina. O que ele conta continua indefinido.
+**Saída.** Nenhuma obrigatória. Destilaria primeiro ciclo se Elias puxar ou Ryan for. Rotina Pack.
 
 **Trava 023 (não reabrir):** base = mensagem → manhã seguinte; 019 em vigor. **Não** reabrir o jantar como briga. **Não** reabrir SOP Condor como tutorial. **Não** reabrir o canyon do corte.
 
@@ -135,7 +135,7 @@ Nota longa: [roteiro_pendencias.md](../sistema/roteiro_pendencias.md) § Reyes. 
 
 ### Boca (boot — ramo antes da frase)
 
-NOW = ops na estrada → **ramo 1**. Pátio / Reyes / refeitório → **ramo 2**. Residual íntimo **alto**. Chat **023** não se herda.
+NOW = tenda a sós → **ramo 3**. Pátio / Reyes / refeitório → **ramo 2**. Residual íntimo **alto**. Chat **023** não se herda.
 
 1. **Rádio / ops / combate** — curta, seca, pessoa. Resultado primeiro. *“Contato no leste, abort no rádio. Eu na porta. Tu marca o tempo.”*
 2. **Pack social** — conversa diegética e fluida; uma fala de gente; corpo no meio; pode ter mais corpo; cada um pela ficha. Reyes: *“Camp eu não tenho. Corredor, sim. O céu amanhã me diz onde corto — um, não um raid. Tu some de novo no mesmo dia. A 101 não é minha estrada.”*
@@ -143,7 +143,7 @@ NOW = ops na estrada → **ramo 1**. Pátio / Reyes / refeitório → **ramo 2**
 
 Quem fala muda o vocabulário, não o ramo. “Três coisas”, “sem isso eu não topo”, “eu decido”, “herói” e tom de CO são conteúdo proibido — não escolhem o tamanho. 019 = **perguntar uma vez** antes de vetar. Detalhe: [arco_ativo §7.1](../board/arco_ativo.md).
 
-**Quem está nesta boca:** Valkirya, ramo 1 (ops). Quieta, direta. Residual alto. Não chama de herói (F15). Cartão: [vozes.md](../sistema/vozes.md). Reyes, Sasha, Lira, Tio e Rusty ficam no Pack até a volta.
+**Quem está nesta boca:** Valkirya, ramo 3. Quieta, direta. Residual alto. Não chama de herói (F15). Cartão: [vozes.md](../sistema/vozes.md). Reyes, Sasha, Lira, Tio e Rusty ficam no Pack.
 
 ---
 
@@ -177,29 +177,30 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 | ID | Uma linha |
 | -- | --------- |
 | **E015** | Resolvido. Kaz chamou. Token gasto. Casca do chip no Warden, sem token |
-| **Debrief** | Reyes, na chegada, no pátio ou na oficina. Não na estrada |
+| **Debrief** | **Feito**. Vigilância se precisar. Sem raid. Base fora. |
 | **Canal reserva** | Existe. Ryan, Kaz, Sparrow. Mensagem fica no servidor. Steel fora |
 | **Steel** | Sem contato. Sem custo escrito |
 | **Crew / safehouse** | Off-screen em NC, à espera. Ryan não viu. Não narrar no Pack |
-| **Cutter / E008** | Corte 04/08 feito (recon). 7 visíveis; lona morta. Debrief Pack pendente. |
+| **Cutter / E008** | Corte 04/08 feito (recon). Debrief **feito**. Célula onde deixou. |
 | **Base militar** | Perímetro externo mapeado; **não entra agora**; gatilho = mensagem → manhã seguinte |
 | **E019** | Olaria/cogeração — Pack (background) |
 | **E012** | Casas interno / revelação pack |
+| **Destilaria** | Alívio + disco prontos. Primeiro ciclo sob Elias. |
 
 ---
 
-## O que acabou de acontecer (032 — 1 parágrafo)
+## O que acabou de acontecer (033 — 1 parágrafo)
 
-05/08 noite: Sparrow levou ao motel. Kaz chamou. O token era a pergunta. Canal reserva no servidor do Ryan, sem tráfego direto. Casca do chip no Warden, sem token. Volta ao Pack. Ryan no volante, Valkirya no carona. Debrief na chegada.
+05/08 noite: volta quieta. Carregou Valk pra tenda. 06/08: forja (torno resolvido com alunos), destilaria (alívio de pressão), debrief Reyes fechado (sem raid, sem base). Resto do dia na tenda. Residual alto.
 
-Detalhe: [sessao_resumo_032.md](sessao_resumo_032.md)
+Detalhe: [sessao_resumo_033.md](sessao_resumo_033.md)
 
 ---
 
 ## Confirmação de boot (formato fixo)
 
 ```
-Boot OK · ~05/08/2026 noite · estrada de volta ao Pack · Valk = residual · boca ramo 1 (ops; Pack = ramo 2) · E015 resolvido · canal reserva · debrief na chegada · próximo resumo: 033 · Ruleset 1.4.0
+Boot OK · ~06/08/2026 tarde · tenda Pack · Valk = residual · boca ramo 3 (a sós; Pack = ramo 2) · debrief feito · destilaria pronta · canal reserva · próximo resumo: 034 · Ruleset 1.4.0
 ```
 
 Hierarquia: **RAW/repo > sandbox > memória de chat**.
