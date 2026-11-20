@@ -22,7 +22,7 @@ Ryan "Wireghost" Voss e Valkirya no Mule, na estrada de volta ao Pack. E015 reso
 **Arco L1 + off-screen:** [arco_ativo.md](arco_ativo.md)
 
 **Projetos em andamento (Pack / background):**
-- Condor + Corujas; casas modulares (F11); Node; E019 olaria delegada; ideia assistente Reyes (cobra mimética).
+- Condor + Corujas; casas modulares (F11); Node; E019 olaria (spec em [projetos_ryan.md](../logs/projetos_ryan.md); construção não começou); ideia assistente Reyes (cobra mimética).
 - Ideia 024: torre remota HMG + compensador (não construída). Traço de pintle com comando remoto (029; espera corpo).
 
 **Decisão de viagem:** NC 05/08 noite fechou. Volta ao Pack em curso. Debrief na chegada.

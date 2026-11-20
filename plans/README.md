@@ -53,6 +53,7 @@
 | [Leopold_Habsbruck_consolidado.md](Leopold_Habsbruck_consolidado.md) | `done` (folded 2026-10-23) | Delta novo: Tomas Rhee, Mara Velez, Silas Vane, caos como tipo, cliente de Kaz sem nome. SoT na ficha e na nota §D |
 | [add_reina_armor_energy_shield.md](add_reina_armor_energy_shield.md) | `done` (folded 2026-10-30) | Escudo do Estágio 2. SoT em `fichas/reina_armour_project.md`. Projeto continua não canônico |
 | [agent_security.md](agent_security.md) | `active` (2026-08-08) | Agents: implant Vault · subdermal Prof · Honeypot visível · Arbiter/Watchdog · F19 |
+| [olaria_integrada_pack.md](olaria_integrada_pack.md) | `done` (folded 2026-11-20) | Olaria do Pack (E019), versão simplificada. SoT em `logs/projetos_ryan.md` |
 | ~~add_cyberpunk_mecanichs.md~~ | `cancelled` | Typo + conteúdo superado — ver link no arquivo |
 
 ---

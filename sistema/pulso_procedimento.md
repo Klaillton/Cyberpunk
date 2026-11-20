@@ -19,7 +19,7 @@
 
 **Proibido:** narrar amanhecer / elipse multi-dia **sem** ciclo de pulso (ou gap explícito documentado).
 
-**Pulso × downtime:** este procedimento cobre o **mundo** (NPCs/pack). O trabalho produtivo do Ryan vai em `logs/downtime_ryan.md`, não substitui o pulso.
+**Pulso × downtime:** este procedimento cobre o **mundo** (NPCs/pack). O trabalho produtivo do Ryan vai em `logs/downtime_ryan.md`. Ideia ou spec vai em `logs/projetos_ryan.md`. Nenhum dos dois substitui o pulso.
 
 **Gap de dias sem pulso (política B1):** se dias in-game passaram sem ciclos (ex. sessão longa mal fechada), **não inventar d100 retroativos**. Registrar no `pulso_geral` / log: *“dias DD–DD sem pulso formal; estado derivado do resumo de sessão”* e retomar rolagens no próximo amanhecer.
 

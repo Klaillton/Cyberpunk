@@ -206,7 +206,7 @@ Evite repetir o texto do jogador ipsis litteris. Repita apenas quando houver nec
 | **N2 Delta obrigatório** | Toda resposta de RP: ≥1 de fala útil · decisão de NPC · info nova · tempo **com efeito** · resultado de teste/projeto · pressão externa. Em downtime, **fala de NPC com boca própria** cumpre N2. |
 | **N2+ Proporção** | O **delta** deve ser a **maior parte** do texto (~**≥60%**). Um parágrafo de resultado no fim **depois** de eco longo **não** cumpre N2+. |
 | **N3 Relógio de cena** | Após **3 turnos** só mood/eco (sem delta de plot), no **4º** injetar pressão leve a partir da fonte de pressão (§ abaixo). |
-| **N4 Compressão de hiperfoco** | Monólogo de invenção/projeto: no máx. **2 turnos** “dentro da cabeça”. Depois: (a) consolidar a ideia em **1 bloco** + candidato a `logs/downtime_ryan.md` / projeto, **ou** (b) interrupt diegético (NPC/mundo). |
+| **N4 Compressão de hiperfoco** | Monólogo de invenção/projeto: no máx. **2 turnos** “dentro da cabeça”. Depois: (a) consolidar a ideia em **1 bloco** + candidato a `logs/projetos_ryan.md` (spec; o que já foi feito vai para `logs/downtime_ryan.md`), **ou** (b) interrupt diegético (NPC/mundo). |
 | **N5 Agenda NPC não congela** | No ramo 2 e 3, quem está na cena traz no primeiro turno o corpo ou uma coisa sua já escrita. Uma. Sem menu. Agenda de plot (hop, debrief, relógio) fica calada nessa boca. Em ops, NPC com tarefa aberta executa se o PC está passivo **≥2 turnos**. Solo sem NPC: pressão = AGENDA (mundo / drones / tempo). |
 | **N6 Fim de turno** | Preferir gancho concreto (fato, pergunta com conteúdo, deadline curto). Espera vale quando o nó manda manter a situação por razão já escrita. Evitar “O que [PC] faz?” genérico. |
 | **N7 Modos de cena** | Marcar mentalmente: `OPERAÇÃO` · `DOWNTIME` · `INTIMIDADE` · `VIAGEM` · `COMBATE` (extensível). Em INTIMIDADE/DOWNTIME, após ~1 arco fechado (clímax+aftercare / ideia+registro), **oferecer** reancoragem às prioridades do NOW — o jogador pode recusar e continuar o mood. N1b é prioritário em OPERAÇÃO/VIAGEM; em mood íntimo, N1 ainda vale (sem espelho longo). |
@@ -323,7 +323,7 @@ Consulta jogador: `[Estoque]` — [comandos_jogador.md](comandos_jogador.md) § 
 | Dorme / amanhece / manhã seguinte | **1** ciclo de pulso |
 | Elipse multi-dia (“passam N dias”) | **1 ciclo por dia** ou consolidado **com datas listadas** |
 | Só muda período no **mesmo** dia (manhã→noite) | Sem pulso diário |
-| Ryan usou o tempo em projeto (oficina, scav, construção) | Além do pulso: atualizar `logs/downtime_ryan.md` |
+| Ryan usou o tempo em projeto (oficina, scav, construção) | Além do pulso: o que fez → `logs/downtime_ryan.md`. Ideia ou spec → `logs/projetos_ryan.md` (não reescrever) |
 
 **Mini-playbook (antes de continuar a cena):**
 
@@ -331,7 +331,7 @@ Consulta jogador: `[Estoque]` — [comandos_jogador.md](comandos_jogador.md) § 
 2. Abrir [pulso_procedimento.md](pulso_procedimento.md) + pasta da **região atual**.  
 3. Rodar ciclo(s); gravar *Eventos Off-Screen Recentes* (preferência: **na hora**).  
 4. Se impacto: propagar a heat / reputação / event_queue / consequências conforme procedimento.  
-5. Se Ryan trabalhou no período: anotar em `logs/downtime_ryan.md`.  
+5. Se Ryan trabalhou no período: o que fez em `logs/downtime_ryan.md`. Ideia ou spec em `logs/projetos_ryan.md` (não reescrever).  
 6. Narrar **só** o que Ryan perceberia (rumor, clima, abordagem).
 
 **Pulso ≠ downtime:** pulso = o que o **mundo** fez; downtime = o que **Ryan** fez com o tempo.

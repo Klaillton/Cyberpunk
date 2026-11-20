@@ -114,7 +114,7 @@ Ordem fixa — narrador pega **1 item por bloco de idle**, não a lista inteira:
 | **Marcus “Steel” Rivera** ([ficha](../fichas/npc/marcus_steel_rivera.md)) | NC | Sem contato na 032 | Fora do canal reserva. Sem custo escrito | Lacuna | Não inventar o motivo | **Pessoa**, não sistema; ≠ Echo Rivera |
 | **Lina “Sparrow” Park** ([ficha](../fichas/npc/lina_park.md)) | NC | Falou na 032 e levou ao motel | No canal reserva. Não está no Pack | Quando conectar no servidor | Mensagem no canal reserva | **Pessoa** (handle Sparrow); **não** drone/sistema |
 | **Crew NC** (Alex, Reina, Stitch, Jax, Echo, Leopold) | NC (off) | Contactados. Esperam a volta. Safehouse off-screen | Ryan não viu | Até ele voltar a NC | Não narrar no Pack | Não puxar para a estrada |
-| **Pack** (Reyes, Tio Gringo, Node) | Badlands | Rotina + E019 em discussão lenta | Ryan a caminho | Debrief na chegada | Reyes puxa no pátio ou na oficina | Não compete com a estrada |
+| **Pack** (Reyes, Tio Gringo, Node) | Badlands | Rotina. E019: plano em [projetos_ryan.md](../logs/projetos_ryan.md); não está no chão | Ryan a caminho | Debrief na chegada | Reyes puxa no pátio ou na oficina | Não compete com a estrada |
 
 **Nota de mestragem:** **Steel** e **Sparrow** são **NPCs humanos**. Sparrow já falou. Steel segue sem contato, fora do canal, sem custo: não inventar o motivo. Kaz segue escondido e alcançável pelo canal reserva, não em pessoa no Pack. A cena desta volta é o debrief, na nota Reyes, e só na chegada. Não narrar “Sparrow” como modo/Agent/protocolo.
 

@@ -39,7 +39,8 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 | **Nia Brooks** | `fichas/npc/nia_brooks.md` | Círculo da Alex · off-screen NC · retrato `imagens/nia_brooks.png` · não é triângulo com a Valk |
 | Detalhes de facção ativa | `facoes/pack_badlands.md` | `relacionamentos/faccao_relacionamentos.md`, `reputacao.md` |
 | Facções menores / superficiais | `facoes/faccoes_geral.md` | `relacionamentos/faccao_relacionamentos.md` |
-| Atividades de downtime do Ryan | `logs/downtime_ryan.md` | `board/board_campanha.md`, `fichas/techie - ryan_wireghost_voss.md` |
+| Atividades de downtime do Ryan (o que ele fez) | `logs/downtime_ryan.md` | `board/board_campanha.md`, `fichas/techie - ryan_wireghost_voss.md` |
+| Ideias e spec dos projetos do Ryan | `logs/projetos_ryan.md` | `logs/downtime_ryan.md`, `event_queue.md` (E019). Não é boot. Finalizar não reescreve; só status ou fato novo |
 | **Guarda-roupa / visual por ocasião (Ryan)** | `fichas/ryan_guarda_roupas.md` | `imagens/ryan/guarda_roupas/`, ficha techie |
 | **Guarda-roupa / peças por ocasião (feminino)** | `fichas/crew_guarda_roupas.md` | `imagens/crew/guarda_roupas/` — foco em **roupa**, não personagem da foto |
 | **Quem está vestindo o quê agora** | `fichas/notas_narrador/crew_vestindo_agora.md` | `fichas/notas_narrador/roupa_por_ocasiao.md`, context pack NOW |
@@ -106,7 +107,7 @@ Use esta tabela para saber **qual arquivo abrir** conforme o tipo de informaçã
 
 ## Estrutura Geral do Projeto
 
-A tabela acima é o índice. Não há árvore de pastas neste arquivo. **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. **2026-09-28:** sessão **028**. **2026-10-14:** sessão **029**. **2026-10-14:** Pill, Warden e Vespas com ficha própria; `sistema/vozes.md`; freeze `logs/context_pack_pack.md` (não é boot). **2026-10-30:** sessão **030**. **2026-11-03:** sessão **032**. **2026-11-17:** sessão **033**. Próximo resumo: **034**. Manual de criação na nota de saída. Canal reserva, casca do chip, crew e safehouse à espera em NC. Debrief feito. Destilaria com alívio.
+A tabela acima é o índice. Não há árvore de pastas neste arquivo. **2026-09-05:** Leopold / **Prometheus**. **2026-09-09:** Kaz — origem The Broker em `notas_narrador/kaz_broker_takahashi_background.md` (matching; vence “traído por corp” da ficha). **2026-09-12:** sessão **026** no índice. **2026-09-14:** fichas Condor e Corujas. **2026-09-28:** sessão **028**. **2026-10-14:** sessão **029**. **2026-10-14:** Pill, Warden e Vespas com ficha própria; `sistema/vozes.md`; freeze `logs/context_pack_pack.md` (não é boot). **2026-10-30:** sessão **030**. **2026-11-03:** sessão **032**. **2026-11-17:** sessão **033**. Próximo resumo: **034**. **2026-11-20:** ideias do Ryan em `logs/projetos_ryan.md` (E019 olaria). O downtime continua sendo só o que foi feito. Manual de criação na nota de saída. Canal reserva, casca do chip, crew e safehouse à espera em NC. Debrief feito. Destilaria com alívio.
 
 ---
 

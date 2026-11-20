@@ -69,7 +69,7 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 - Comando **`[Refresh contexto]`** → playbook A em [comandos_jogador.md](comandos_jogador.md) (formato fixo)
 - Após combate, mudança de **região/local**, ou ~40–50 msgs → sugerir refresh
 - Passou **1 dia in-game** (incluindo quando o **Narrador/IA** escreve “amanheceu / N dias depois”) → [pulso_procedimento.md](pulso_procedimento.md) **obrigatório**, só na região atual — **antes** de narrar o novo dia
-- Ryan usou tempo em **projeto** → `logs/downtime_ryan.md`
+- Ryan usou tempo em **projeto** → `logs/downtime_ryan.md` (o que fez). Ideia ou spec → `logs/projetos_ryan.md` (não reescrever; status ou fato novo)
 - **Finalize** → matriz completa de ledgers (não só board/event_queue): consequências, facções, heat, reputação, economia, downtime, pulso se dias avançaram — ver playbook C
 
 ---
@@ -122,7 +122,8 @@ Se um arquivo necessário não existir local **nem** RAW → interrompa, diga qu
 | Facção                     | `relacionamentos/faccao_relacionamentos.md`, `facoes/`, `reputacao.md`             |
 | Exposição                  | `heat.md`, possivelmente `event_queue.md`                                          |
 | Economia / materiais       | `economia.md` (macro + § Atores/Estoque/Ryan — **não** no tier-0)                 |
-| Projetos do Ryan (tempo)   | `logs/downtime_ryan.md`                                                            |
+| Projetos do Ryan (tempo gasto) | `logs/downtime_ryan.md`                                                         |
+| Ideias e spec do Ryan      | `logs/projetos_ryan.md`                                                            |
 | Narrador avança ≥1 dia     | [pulso_procedimento.md](pulso_procedimento.md) + `pulso_do_mundo/`                 |
 | Fim de sessão              | Playbook C: resumo + **matriz ledgers** + **`context_pack_atual`** (NOW + **NORTE** + AGENDA) + **handoff**   |
 

@@ -2,6 +2,8 @@
 
 **Última atualização:** 05/08/2026 (sessão 029)
 
+**Ideias e spec:** [projetos_ryan.md](projetos_ryan.md). Este arquivo é o que foi feito. A spec não volta para cá.
+
 ---
 
 ## 28–29/07/2026 — Módulo de sinal Condor (construção)
@@ -41,6 +43,8 @@
 - Função: inventário, consumo, produção (forja/destilaria/hidroponia), manutenção, agenda, comunicação, alertas, distribuição de tarefas, monitoramento de veículos, previsão de necessidades, registros do Pack + conselhos (IA local treinada com dados do Pack).  
 - Specs: Agent de base + versão mais básica da IA de Ryan; capacidade computacional distribuída se possível.  
 - Status: **conceito apenas**. Tempo livre.
+
+**Olaria (E019):** spec em [projetos_ryan.md](projetos_ryan.md). Não está neste diário.
 
 ---
 
