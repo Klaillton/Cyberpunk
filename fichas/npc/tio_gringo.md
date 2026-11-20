@@ -48,6 +48,7 @@
 
 - Quase não fala — se Ryan some dois dias, risco de frustração ou expulsar novatos.
 - Parceiro natural em projetos de forja, cerca e veículos.
+- E019: o plano simplificado está em [projetos_ryan.md](../../logs/projetos_ryan.md). A confirmação da argila e a terra no chão ainda não entraram em sessão fechada. A linha de 23/07 continua: ele ouviu e adiou.
 
 ---
 

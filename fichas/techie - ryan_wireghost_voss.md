@@ -333,5 +333,5 @@ Antigo cliente que deve vários favores a ele. **≠** Emilia “Echo” Rivera 
 - **Imagens:** [tático](../imagens/techie%20-%20ryan_wireghost_voss.png) · [casual / oficina](../imagens/techie%20-%20ryan_wireghost_voss_daily_clothes.png) · [máscara](../imagens/ryan/mascara_tatica.jpg) · [armas](../imagens/ryan/armas/)
 - **Notas do Narrador:** [Background completo](notas_narrador/ryan_background_completo.md) · [Gatilhos e memórias](notas_narrador/ryan_gatilhos_memorias.md)
 - **Elisa "Doc" Moreau:** [npc/elisa_doc_moreau.md](npc/elisa_doc_moreau.md) · [Contatos e Amigos](#contatos-e-amigos)
-- **Estado:** [Board](../board/board_campanha.md) · [Downtime](../logs/downtime_ryan.md) · [Consequências](../consequencias/consequencias_persistentes.md)
+- **Estado:** [Board](../board/board_campanha.md) · [Downtime](../logs/downtime_ryan.md) · [Projetos e ideias](../logs/projetos_ryan.md) · [Consequências](../consequencias/consequencias_persistentes.md)
 - **Mecânica:** [regras_red](../sistema/regras_red/00_integridade_regras.md) · Maker [08_techie](../sistema/regras_red/08_techie.md)

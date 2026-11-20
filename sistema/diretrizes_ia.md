@@ -186,7 +186,7 @@ Quando o **Narrador/IA** (ou o jogador) **avançar ≥ 1 dia in-game**:
 2. Rolagem **1×/dia/linha** na tabela da região atual (Pack → `pulso_do_mundo/pack_badlands/pulso_geral.md`).  
 3. Atualizar _Eventos Off-Screen Recentes_ no pulso NPC afetado (**preferir gravar na hora**).  
 4. Propagar impactos a `board`, `consequencias`, `relacionamentos`, `event_queue`, `heat`, `reputacao` conforme necessário.  
-5. Se Ryan usou o tempo em **projeto** → `logs/downtime_ryan.md`.  
+5. Se Ryan usou o tempo em **projeto** → o que fez em `logs/downtime_ryan.md`. Ideia ou spec em `logs/projetos_ryan.md` (não reescrever o arquivo).  
 6. Opcional: `logs/pulso_YYYYMMDD.md` para auditoria.
 
 **Proibido:** escrever “amanheceu / N dias depois” sem ciclo de pulso (ou gap B1 documentado em `pulso_procedimento.md`).
@@ -196,7 +196,7 @@ Não inventar eventos fora da tabela + perguntas de pulso + estado dos arquivos.
 ### 8.2 Finalize — matriz de ledgers
 
 No playbook **C** ([comandos_jogador.md](comandos_jogador.md)), **sempre avaliar** (delta ou “sem delta” no resumo):  
-`consequencias`, `facoes/` + `faccao_relacionamentos`, `heat`, `reputacao`, `economia` (macro **e** § estoque/atores se tocado), `downtime_ryan`, pulso se 1+ dia — além de board / dashboard / event_queue / context_pack / handoff.
+`consequencias`, `facoes/` + `faccao_relacionamentos`, `heat`, `reputacao`, `economia` (macro **e** § estoque/atores se tocado), `downtime_ryan`, `projetos_ryan` se a spec mudou, pulso se 1+ dia — além de board / dashboard / event_queue / context_pack / handoff.
 
 ---
 

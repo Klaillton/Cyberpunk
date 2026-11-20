@@ -106,7 +106,7 @@
 | # | Ação |
 | - | ---- |
 | 1 | Declarar: `Finalizar sessão — playbook completo.` |
-| 2 | Ler: `sessao_resumo_template.md`, `registro_arquivos.md` (NNN), `board`, `dashboard_contexto`, `event_queue`, `como_atualizar_arquivos.md`, `context_pack_atual`, `fatos_duros`, `logs/notas_sessao.md`, **e a matriz de ledgers:** `consequencias/consequencias_persistentes.md`, `heat.md`, `reputacao.md`, `economia.md`, `logs/downtime_ryan.md`, `facoes/` relevantes, `relacionamentos/faccao_relacionamentos.md`, `pulso_procedimento.md` (se data avançou). Se a cena era momento importante ou job, ler também `sistema/roteiro_pendencias.md` e a nota de saída do job, se houver. |
+| 2 | Ler: `sessao_resumo_template.md`, `registro_arquivos.md` (NNN), `board`, `dashboard_contexto`, `event_queue`, `como_atualizar_arquivos.md`, `context_pack_atual`, `fatos_duros`, `logs/notas_sessao.md`, **e a matriz de ledgers:** `consequencias/consequencias_persistentes.md`, `heat.md`, `reputacao.md`, `economia.md`, `logs/downtime_ryan.md`, `logs/projetos_ryan.md`, `facoes/` relevantes, `relacionamentos/faccao_relacionamentos.md`, `pulso_procedimento.md` (se data avançou). Se a cena era momento importante ou job, ler também `sistema/roteiro_pendencias.md` e a nota de saída do job, se houver. |
 | 3 | Calcular **data início → fim** da sessão e quantos **dias in-game** passaram. |
 | 4 | Gerar **rascunho** de `logs/sessao_resumo_NNN.md` (conteúdo como em B), com seções: Rep/Heat/Econ · **Mecânica/ferimentos** · Downtime · Facções/Consequências · Pulsos (dias) — usar **“sem delta”** quando avaliou e nada mudou. **Ruleset** no cabeçalho (ex. 1.4.0). |
 | 5 | Montar **tabela de mudanças propostas** (Arquivo → o que muda). **Sempre avaliar** (não pular por omissão): |
@@ -117,6 +117,7 @@
 | | - Dinheiro / materiais / projetos pack → `economia` (macro) |
 | | - Item criado/consumido/scav/transferido **ou** capacidade nova de ator → `economia.md` § Atores / § Estoque / § Ryan mínimo |
 | | - Ryan produziu (oficina, scav, construção) → `logs/downtime_ryan.md` |
+| | - Ideia ou spec (não o trabalho feito) → `logs/projetos_ryan.md`. Não reescrever. Status ou fato novo |
 | | - NPCs → relacionamentos relevantes |
 | | - **1+ dia in-game** → [pulso_procedimento.md](pulso_procedimento.md) (ciclos faltantes ou gap B1 documentado); região atual only |
 | | - **Sempre:** `logs/context_pack_atual.md` (incl. **NORTE** + **AGENDA DA CENA** do NOW; se **local/região mudou**, reescrever agenda inteira; **NORTE:** só a linha cujo horizonte mudou; **META-ROTEIRO:** a regra fica; o nó mora neste bloco; frase no chat não é nó; reescrever o nó se o momento resolveu) + `logs/handoff_atual.md` |
@@ -126,7 +127,7 @@
 | 6 | **Mostrar ao jogador:** (1) resumo completo; (2) tabela Arquivo → mudança (incluir linhas “sem delta” se quiser transparência); (3) cada nota com promove / fica / não promove / `?`. |
 | 7 | **Parar.** Pedir confirmação explícita: aplicar arquivos? commit/push? Linha `?` precisa de resposta antes do sim (promove para onde, fica, ou não promove). |
 | 8 | **Só após confirmação:** escrever arquivos no workspace. |
-| 9 | **Ordem de escrita:** `sessao_resumo_NNN` → board + dashboard → event_queue → consequencias → facoes/ + faccao_rels (se tocado) → relacionamentos NPC/crew → ficha mínima do NPC recorrente, se o jogador promoveu → heat + reputacao + economia → downtime_ryan (se projeto) → pulso (se 1+ dia) → **nota de saída** (`sistema/roteiro_pendencias.md` e, se for job, a seção do job) junto com o **nó** → **context_pack** → **handoff** → registro. **Por último, nas notas:** tirar só o que promoveu ou o que foi “não promove”. O que ficou leva `~NNN` e continua no arquivo. No próximo finalizar, linha `~` volta à tabela. Não esconder. |
+| 9 | **Ordem de escrita:** `sessao_resumo_NNN` → board + dashboard → event_queue → consequencias → facoes/ + faccao_rels (se tocado) → relacionamentos NPC/crew → ficha mínima do NPC recorrente, se o jogador promoveu → heat + reputacao + economia → downtime_ryan (se produziu) → projetos_ryan (se a spec mudou; não reescrever) → pulso (se 1+ dia) → **nota de saída** (`sistema/roteiro_pendencias.md` e, se for job, a seção do job) junto com o **nó** → **context_pack** → **handoff** → registro. **Por último, nas notas:** tirar só o que promoveu ou o que foi “não promove”. O que ficou leva `~NNN` e continua no arquivo. No próximo finalizar, linha `~` volta à tabela. Não esconder. |
 | 10 | Responder com: lista de paths **avaliados e** alterados + próximo NNN+1 + lembrete de handoff se chat novo. |
 | 11 | Commit/push **somente** se o jogador confirmou. |
 
@@ -141,6 +142,7 @@
 [ ] Heat / reputação / economia macro (delta ou “sem”)
 [ ] Estoque / atores / Ryan mínimo (delta ou “sem”)
 [ ] Downtime (Ryan produziu?)
+[ ] Projetos (spec mudou? não reescrever `projetos_ryan`)
 [ ] Pulso (ciclos ou gap B1)
 [ ] Relacionamentos tocados
 [ ] Ruleset no cabeçalho do resumo (ex. Ruleset: 1.4.0)
@@ -501,7 +503,7 @@ Finalizar abortado: nada sai. O arquivo não esvazia por completo se sobrou “f
 | Seção | Destino sugerido |
 | ----- | ------- |
 | Lugar | `sistema/set_lugares.md` (cartão existente ou linha nova) |
-| Downtime | `logs/downtime_ryan.md` |
+| Downtime | Trabalho feito → `logs/downtime_ryan.md`. Ideia ou spec → `logs/projetos_ryan.md` |
 | Estoque | `economia.md` § Atores / Estoque / Ryan mínimo |
 | Relação | relacionamento do NPC tocado |
 | Mecânica | loadout, ficha ou o bloco de mecânica do resumo |

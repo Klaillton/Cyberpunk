@@ -60,6 +60,7 @@ Onde: Pack · oficina do Tio Gringo
 Quem usa: Tio Gringo, alunos, Ryan  
 O que É: forja e usinagem no mesmo lugar. Depósito ligado a essa oficina. Sucata na prateleira esquerda.  
 O que NÃO é: a garagem do Rusty.  
+Olaria (E019): não está montada. Spec e beat de oficina em [projetos_ryan.md](../logs/projetos_ryan.md). Não inventar forno, terra no chão nem tabuleiro antes de abrir esse arquivo.  
 Máquinas (feitas no conserto do gerador principal): extrusora; torno (gira o bloco para desbastar; **029:** embreagem improvisada no motor de avanço — fio + relé corta corrente se o bit morder forte); máquina de corte; furadeira de bancada.  
 Quem mexe: Tio no dia a dia. Ryan nas máquinas que ele pôs. Rusty não manda aqui.  
 Porta: aberta no dia. Corpos: Tio na forja; aluno na bancada, sem nome. A nota pode fechar.

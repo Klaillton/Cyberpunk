@@ -94,6 +94,7 @@ Peça:
 | Dinheiro, recursos, projetos pack (macro) | `economia.md` (topo) |
 | Item criado/consumido/scav/transferido; capacidade de produção (Elias, Mara, oficina, Ryan…) | `economia.md` § **Atores** / § **Estoque** / § **Ryan mínimo** — consulta `[Estoque]` |
 | Ryan trabalhou em projeto (oficina, scav, construção) | `logs/downtime_ryan.md` (+ `economia.md` se materiais) |
+| Ideia nova ou mudança de spec (não o trabalho feito) | `logs/projetos_ryan.md` — status ou fato novo. Não reescrever o arquivo |
 | Evento futuro agendado | `event_queue.md` |
 | Fim de sessão | Playbook **C**: resumo + **matriz completa de ledgers** + **`context_pack_atual`** (NOW + **NORTE** + **AGENDA DA CENA**) + **`handoff_atual`** — ver checklist em [comandos_jogador.md](comandos_jogador.md) |
 | **Mudança de região/local** (Pack↔estrada↔NC↔base…) | Reescrever **AGENDA DA CENA** no `context_pack_atual` (máx. 3 ganchos do **novo** NOW; não carregar ganchos do local antigo sem canal F10) + board/dashboard se missão mudou |
@@ -113,7 +114,7 @@ Peça:
 | Tempo off-screen (mundo vivo) | [pulso_procedimento.md](pulso_procedimento.md) + pulso em `pulso_do_mundo/` + opcional `logs/pulso_YYYYMMDD.md` |
 
 **Matriz de finalize (sempre avaliar; “sem delta” no resumo se zero):**  
-`board` · `dashboard` · `event_queue` · `consequencias` · `facoes/` + `faccao_relacionamentos` · `heat` · `reputacao` · `economia` · `downtime_ryan` · pulso se 1+ dia · relacionamentos tocados · `context_pack` (**NOW + NORTE + AGENDA DA CENA + META-ROTEIRO**; NORTE só se o horizonte mudou; a regra fica; o nó se reescreve se o momento resolveu) · `handoff` · nota de saída (`sistema/roteiro_pendencias.md`, ou a seção do job) · pessoa do papel (ficha se recorrente, tabela do job se não) · lugar da cena (card em `set_lugares.md`, ou “não promove”). **Ler antes** `logs/notas_sessao.md`. Cada linha: promove, fica, ou não promove. Dúvida = `?`, respondida antes do sim. “Fica” permanece com `~NNN`. Nota seguinte em branco, numa cena que era momento importante, bloqueia o sim.
+`board` · `dashboard` · `event_queue` · `consequencias` · `facoes/` + `faccao_relacionamentos` · `heat` · `reputacao` · `economia` · `downtime_ryan` · `projetos_ryan` se a spec mudou · pulso se 1+ dia · relacionamentos tocados · `context_pack` (**NOW + NORTE + AGENDA DA CENA + META-ROTEIRO**; NORTE só se o horizonte mudou; a regra fica; o nó se reescreve se o momento resolveu) · `handoff` · nota de saída (`sistema/roteiro_pendencias.md`, ou a seção do job) · pessoa do papel (ficha se recorrente, tabela do job se não) · lugar da cena (card em `set_lugares.md`, ou “não promove”). **Ler antes** `logs/notas_sessao.md`. Cada linha: promove, fica, ou não promove. Dúvida = `?`, respondida antes do sim. “Fica” permanece com `~NNN`. Nota seguinte em branco, numa cena que era momento importante, bloqueia o sim.
 
 Consulte a tabela completa em [registro_arquivos.md](registro_arquivos.md) (seção "Guia de Consulta Cruzada").
 

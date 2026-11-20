@@ -20,7 +20,7 @@
 | E016 | Tutoria Valk + Sasha/Lira (assistentes) | Em andamento | Média | Contínuo | Residual 019–029; visor gancho 03/08; porta NC fechada por Valk 029; não foram ao chão Cutter |
 | E017 | Enxame mini-drones (ideia / sondagem) | Em andamento | Baixa | — | Não prioritário vs E015 |
 | E018 | Modelo 3D / base militar | Pendente | Baixa | — | Mapeamento **externo completo** 022; sem infiltração; **023:** entrada gatilhada (mensagem → manhã seguinte) |
-| **E019** | **Olaria + desidratador + cogeração** | Pendente | Baixa | Médio prazo | Delegada ao Pack |
+| **E019** | **Olaria integrada** (argila do poço + forno de 3 câmaras) | Plano | Baixa | Quando a oficina abrir | Spec em [projetos_ryan.md](logs/projetos_ryan.md). 23/07 delegou olaria + desidratador + cogeração e nada foi construído. Esta versão é só a olaria. Desidratador fica na 016. Construção não começou em sessão fechada |
 | E020 | Assistente para **Reyes** (cobra mimética) | Ideia | Baixa | Tempo livre | Conceito; Ryan ainda **não** apresentou |
 
 ## Eventos Resolvidos (Recentes)

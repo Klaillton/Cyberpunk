@@ -183,7 +183,7 @@ Lista completa: [fatos_duros.md](../sistema/fatos_duros.md).
 | **Crew / safehouse** | Off-screen em NC, à espera. Ryan não viu. Não narrar no Pack |
 | **Cutter / E008** | Corte 04/08 feito (recon). Debrief **feito**. Célula onde deixou. |
 | **Base militar** | Perímetro externo mapeado; **não entra agora**; gatilho = mensagem → manhã seguinte |
-| **E019** | Olaria/cogeração — Pack (background) |
+| **E019** | Olaria — plano em `logs/projetos_ryan.md`. Não está no chão. Oficina quando a cena for para lá |
 | **E012** | Casas interno / revelação pack |
 | **Destilaria** | Alívio + disco prontos. Primeiro ciclo sob Elias. |
 
